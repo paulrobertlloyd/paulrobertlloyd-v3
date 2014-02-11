@@ -1,0 +1,27 @@
+---
+layout: default
+title: Archive
+---
+<main class="main" role="main">
+    <article class="entry">
+        <header class="entry__header">
+            <h1 class="entry__title">{{ page.title }}</h1>
+        </header>
+
+        <div class="entry__main">
+            {{ content | abbr | ampersand }}
+            {% for post in site.posts %}
+                {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+                {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+                {% if month != nmonth %}
+                    {% if forloop.index != 1 %}</ul>{% endif %}
+                    <h2>{{ post.date | date: '%B %Y' }}</h2>
+                    <ul class="list">
+                {% endif %}
+                <li class="list__item">
+                    <h1><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></h1>
+                </li>
+            {% endfor %}
+        </div>
+    </article>
+</main><!--/@main-->

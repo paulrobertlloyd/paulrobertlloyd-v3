@@ -1,0 +1,31 @@
+<head>
+    <link rel="dns-prefetch" href="#"/>
+    <script>
+        (function flagSVG() {
+            var ns = {'svg': 'http://www.w3.org/2000/svg'};
+            if(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {document.getElementsByTagName('html')[0].className += ' svg';}
+        })();
+    </script>
+    <!--link rel="stylesheet" href="/assets/css/styles.min.css"-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"/>
+    <link rel="alternate"  href="/atom.xml" type="application/atom+xml" title="RSS Feed"/>
+
+    <meta charset="utf-8"/>
+    <meta name="author" content="Paul Robert Lloyd"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta property="twitter:account_id" content="1597954074"/>
+    <meta name="description" content=""/>
+    <meta name="geo.placename" content="Brighton"/>
+    <meta name="geo.region" content="gb-bnh"/>
+    <meta name="geo.country" content="gb"/>
+    <meta name="geo.position" content="50.8420;-0.1539"/>
+    <title>
+    {% if page.title == "Home" %}
+        {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+    </title>
+</head>

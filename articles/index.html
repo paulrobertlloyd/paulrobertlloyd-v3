@@ -1,0 +1,28 @@
+---
+layout: default
+title: Articles
+---
+<main class="main" role="main">
+    <article class="entry">
+        <header class="entry__header">
+            <h1 class="entry__title">{{ page.title }}</h1>
+        </header>
+
+        <div class="entry__main">
+            {{ content | abbr | ampersand }}
+            <ul class="list">
+            {% assign pages_list = site.pages %}
+            {% for node in pages_list %}
+                {% if node.title != null %}
+                    {% if node.layout == "article" %}
+                    <li class="list__item">
+                        <h1><a href="{{ node.url }}">{{ node.title }}</a> <time datetime"{{ node.date | date_to_xmlschema }}">{{ node.date | date: "%e %B %Y" }}</time></h1>
+                        <p>{{ node.excerpt }}</p>
+                    </li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+    </article>
+</main><!--/@main-->

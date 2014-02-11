@@ -1,0 +1,115 @@
+---
+layout: post
+title: '@media 2006'
+date: '2006-06-21 01:58:42 +0100'
+excerpt: At the end of last week I attended the @media conference in London, the premier web-standards conference held in the UK.
+post_id: 64
+---
+![The @media 2006 logo](/assets/2006/06/atmedia2006.jpg)
+
+Having enjoyed myself so much last year, I was really looking forward to this years @media conference in London, yet somehow I left feeling a little disappointed with the whole affair.
+
+This years venue was the Queen Elizabeth II Conference Centre in the heart of Westminster, and opposite Westminster Abbey. Twice as large as last years venue, this allowed for a new ['two track' programme][1] meaning you could choose from two presentations throughout the day (only to kick yourself hours later when your friends told you the one you missed was, well, unmissable). There were also a number of panel sessions rather than single speakers, and a far more varied programme which I appreciated.
+
+<figure>
+    <img src="/assets/2006/06/multipackatmedia.jpg" alt=""/>
+    <figcaption>
+        <p>Multipack members at @media 2006.</p>
+    </figcaption>
+</figure>
+
+## Day One
+
+### Eric Meyer's Keynote
+It all kicked off with [a keynote presentation by Eric Meyer][2]. Given it has been 10 years since the first browser implementation of CSS (in IE3), Eric spoke about the trials and tribulations designers faced given that various browser manufactures implemented it differently, and also about its eventual acceptance by designers. Whilst we have a heard a lot of this before (a lot of this echoed Jeffery Zeldman's keynote of last year) I did enjoy this presentation, especially the first half which talked about the early days of CSS, and showed some early CSS attributes that never made it into the final 1.0 spec, and some of the new stuff being drafted for CSS3.
+
+### Jeremy Keith
+
+After the keynote came six presentations spread across the two tracks and some tough choices to made. The first of these saw me take [Jeremy Keith's][3] session <cite>Using DOM Scripting to Plug the holes in CSS</cite>. Whilst this was well put together, it became the first of a number of presentations that I came away from feeling as if I had learnt nothing new. Again this seemed to cover a lot of ground covered at last years conference (where Keith did a similar presentation).
+
+### Dave Shea
+The real disappointment of the day for me however came with my next choice  --  deciding to attend [Dave Shea][4]'s <cite>Fine Typography on the Web</cite> over Chris Wilson's talk about the upcoming IE7 release. I have a lot of respect for Dave Shae, who almost single handily (with the [CSS Zen Garden][5]) convinced designers anything is possible with CSS. But for a talk on Typography, this session seemed to deal more with the choices we could make (sIRF, image replacement, CSS, SVG...) rather than, as I imagined, working within the constraints of CSS styled text and limited font choices. Again, although a well structured presentation, I felt I learnt nothing new.
+
+### WCAG 2.0 Panel Discussion
+Perhaps just as disappointing was the panel that talked about WGAC 2.0, as this to me seemed very disorganised (especially having seen later panels). However I guess this wasn't helped by just how confusing these new guidelines (that have yet to be finalised) are. To be fair also, it did make a few areas clearer in my mind, but given the discussion I had with my fellow Multipack attendees afterwards, there was still a lot of confusion that could have been lessened had this panel been better structured.
+
+### Jeffery Veen
+Day one ended with a presentation by [Jeffery Veen][6]. Notably this presentation was not matched up against another session, as this was one not to be missed. I have heard a [previous talk by Veen][7] on the [WE05 podcast][8], so I knew this was going to be interesting, and he didn't disappoint. This was also very relevant given my current employment, with his presentation titled <cite>Designing the Next Generation of Web Apps</cite>.
+
+<figure>
+    <img src="/assets/2006/06/web20.jpg" alt=""/>
+    <figcaption>
+        <p>'The Next Generation of Web Apps'.</p>
+    </figcaption>
+</figure>
+
+His talk was engaging, and the one I found myself taking the most notes from. One slide depicting the crop of current web2.0 Apps even included a Ning logo... though sadly the old one and not my more recent update -- shucks!
+
+[1]: http://www.vivabit.com/atmedia2006/schedule/
+[2]: http://meyerweb.com/eric/thoughts/2006/06/17/media-impressions/
+[3]: http://adactio.com/journal/1144/
+[4]: http://www.mezzoblue.com/
+[5]: http://www.csszengarden.com/
+[6]: http://www.veen.com/jeff/archives/000891.html
+[7]: http://www.veen.com/jeff/archives/000793.html
+[8]: http://www.we05.com/podcast/
+
+<!--more-->
+
+## Day Two
+
+### Dan Cedarholm
+Day two started with a presentation by [Dan Cederholm][9], that was very much a live version of his latest book, <cite>[Bulletproof Web Design][10]</cite>. This presentation was made all the better when [Jon Hicks][11] and [Richard Rutter][12] came and sat by me, giving me the perfect opportunity afterwards to ask Jon for one [his beautiful new business cards][13] (heck, he is so generous he gave me two... perhaps in the hope I would pass the other one on to a family member or friend -- the sign of a true businessman!).
+
+### JavaScript Libraries Discussion panel
+I then choose to drop into the the panel on <cite>Javascript Libraries, Good or Bad</cite> -- if anything just so that I could sound intelligent and vaguely knowledgeable when talking to [Brian][14] in the future! I came away from this panel thinking that the future of the web in the next year or so is definitely going to have a lot to do with JavaScript libraries, with [Dojo][15] leading the field. As like most other tools however, these are something that should be used responsibly, and by developers that have a basic grasp of JavaScript (so not me then!).
+
+### Molly E. Holzschlag
+The big story of the day for me came with [Molly][16]'s Presentation -- [<cite>Internationalisation: Awaking the Sleeping Giant</cite>][17]. The night before her talk, she posted some worrying words on her blog as she battles a current bout of depression. But her strength shone threw during her talk, and she gave her usual passionate all to this topic. This is something we will be dealing with in the upcoming months at [Ning][18], and for me this was not only a fantastic introduction, but inspiring one too. To me it seemed as Molly could have spoken for another three hours on the topic, and I have no doubt that we would have all still been there listening!
+
+### Strategic CSS Management Discussion Panel
+Day two's disappointment came by deciding to attend the panel session on Strategic CSS Management over [Nate Koechley's talk][19] about how Yahoo manages semantic markup, CSS and JavaScript across it's various properties. This insight would have been useful to get, as these are things I am currently thinking about at Ning.  Instead, the panel I attended, basically seemed to come down to 'use whatever works for you'.
+
+Whilst that may be true, I was hoping for a bit more, and perhaps talking about CVS or similar tools to do such a thing. I just felt the wrong people were sat on this panel.
+
+### Tantek Çelik
+For the last session, I listened to [Tantek Çelik][20] speak about [Microformats][21].  Again, I had heard [his presentation on the WE05 podcast][22], and had a good grip on what Microformats where all about. I'm glad I attended this session however, as listening to Tantek speak inspired me (and many others in the room) to start implenting these were possible. He also highlighted the number of commercial sites that are using [hCard][23] and [hCalendar][24] formats which I was unaware of, and showcased the new [Technorati serach tool for Microformatted content][25], and a hCard transformer they've made available. However, I felt the lack of an internet connection during his presentation, meant there was lot of additional examples and demos that couldn't be shown.
+
+### Hot Topics Panel
+The conference ended with a <cite>Hot Topics</cite> panel, that was excellently chaired by Jeremy Keith, with Molly, Jon, Eric and Tantek answering questions gathered from attendees in the lobby during the day. To me, of all the panels this was the most insightful and just plain fun, and I would love to see more of this sort of thing next year (perhaps one at the end of each day).
+
+## Social Events
+This year I attended @media alongside several [Multipack][26] members. As I have only been to one meeting since my return to Britain (before I left for the US there were only eight or so members, there are now [69 and counting][27]) this was a good opportunity to get to know a few more members of the group.
+
+Sadly I only managed to make two of the social events arranged this year (there were a massive four in total), and I didn't talk to many web stars (more on that in a bit). However I did meet a few new faces (hi [David][28]!), and also caught up with [Dan Wiggle][29] who I spoke to last year. 
+
+I feel a bit silly in hindsight that I didn't make more of an effort to attend the pre-conference party on the Wednesday night (sounded like there was a lot of fun to be had), and also got up too late on the Saturday to attend the @media Social. Lesson's learnt for next year I think!
+
+Finally, people like Molly, Jon Hicks, Dan Cederholm and Jeffery Veen are a real inspiration to me, yet I find it hard to approach these luminaries. When I do grab hold of somebody like Jon Hicks, who is a really friendly and down to earth bloke, I find it hard to hold a meaningful conversation... instead usually descending into nothing more than a kiss arse. I feel I need to invest more into the community, and value my own successes if I am able to do this next year.
+
+## Conclusion
+Overall, I was disappointed with @media this year. A lot of this may be down to me choosing the wrong presentations/panels (and video podcasts of all the sessions will be available soon, so no great loss), but I also came away from these two days feeling I learnt nothing new.  Maybe I know everything there is to know in the field of XHTML and CSS... but I'd like to think not. I also have to remember that not everybody in attendance will be in the same situation as myself. But speaking to a lot of people on the Friday night, it would seem that a fair few came away with the same impression.
+
+What I have come away with, much like this year, is a renewed energy, and wanting to push the medium forward and wanting to embrace new technologies and methodologies (in particular some DOM magic and Microformats).
+
+[9]: http://www.simplebits.com/notebook/2006/06/18/londone.html
+[10]: http://www.simplebits.com/publications/bulletproof/
+[11]: http://www.hicksdesign.co.uk/
+[12]: http://www.clagnut.com/
+[13]: http://flickr.com/photos/hicksdesign/163538201/
+[14]: http://blog.skife.org/
+[15]: http://dojotoolkit.org/
+[16]: http://molly.com/
+[17]: http://www.w3.org/blog/International/2006/06/19/internationalization_awakening_the_sleep
+[18]: http://www.ning.com/
+[19]: http://nate.koechley.com/blog/2006/06/04/upcoming-speaking-gigs-at-media-on-june-16th-and-webvisions-on-july-21st/
+[20]: http://www.tantek.com/
+[21]: http://microformats.org/
+[22]: http://mp3.we05.com/podcast/mp3/we05-2-tantek-celik.mp3
+[23]: http://microformats.org/wiki/hcard
+[24]: http://microformats.org/wiki/hcalendar
+[25]: http://kitchen.technorati.com/search/
+[26]: http://www.multipack.co.uk/
+[27]: http://www.multipack.co.uk/members/
+[28]: http://flickr.com/photos/dhamilton/
+[29]: http://www.cic.hull.ac.uk/people/dwiggle/index.php

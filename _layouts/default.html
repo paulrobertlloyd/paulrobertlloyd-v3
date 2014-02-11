@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+{% include head.html %}
+
+<body>
+{% indent_include banner.html 4 %}
+{{ content | indent: 4 }}
+{% indent_include navigation.html 4 %}
+{% indent_include contentinfo.html 4 %}
+{% indent_include foot.html 4 %}
+</body>
+
+</html>

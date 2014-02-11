@@ -1,0 +1,45 @@
+---
+layout: post
+title: Apture
+date: '2009-05-22 12:00:00 +0100'
+excerpt: A set of tools for publishers that help them provide instantaneous access to information with award-winning in-page search technology.
+---
+<div class="slides">
+    <figure>
+        <img src="/assets/portfolio/apture/0.jpg" alt=""/>
+        <figcaption>
+            <p>Apture logo</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/apture/1.jpg" alt=""/>
+        <figcaption>
+            <p>Home page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/apture/2.jpg" alt=""/>
+        <figcaption>
+            <p>Product promotional page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/apture/3.jpg" alt=""/>
+        <figcaption>
+            <p>Site Editor Dashboard</p>
+        </figcaption>
+    </figure>
+</div>
+
+Apture was a publishing tool that gave content creators the power to find and incorporate relevant multimedia directly into their web pages. Working closely alongside Apture's small team, and often on-site at their offices in San Mateo, I helped launch the initial product in April 2008.
+
+[Tristan Harris][1], co-founder and CEO said:
+
+> I've worked alongside some of the most brilliant interaction and graphic designers in the world in my career, but Paul is one of the most talented and consistently impressive designers I've met. Beyond driving most of Apture's graphic, interaction and web design work, he cares deeply about building beautiful, visually organised products, which I think is why we both got along in the first place.
+
+In addition to evolving the visual language and interaction design of the user-facing product (with particular focus on a [revised 'media hub' search interface][2]), I also produced the company's logo and associated brand collateral.
+
+*Apture was acquired by Google in November 2011*.
+
+[1]: http://tristanharris.com/
+[2]: http://web.archive.org/web/20090529090403/http://blog.apture.com/2009/05/introducing-media-hub-20-link-more-content-faster-and-easier/

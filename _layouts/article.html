@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<main class="main" role="main">
+    <article class="entry">
+        <header class="entry__header">
+            <h1 class="entry__title">{{ page.title }}</h1>
+        </header>
+
+        <div class="entry__main">
+            {{ content | abbr | ampersand }}
+        </div>
+
+        <footer class="entry__footer">
+            <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+        </footer>
+    </article>
+</main><!--/@main-->

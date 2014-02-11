@@ -1,0 +1,42 @@
+---
+layout: post
+title: Groopix
+date: '2008-08-22 12:00:00 +0100'
+excerpt: An online tool that allows users to easily curate and print group based photo albums.
+---
+<div class="slides">
+    <figure>
+        <img src="/assets/portfolio/groopix/0.jpg" alt=""/>
+        <figcaption>
+            <p>Logo</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/groopix/1.jpg" alt=""/>
+        <figcaption>
+            <p>My Groops</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/groopix/2.jpg" alt=""/>
+        <figcaption>
+            <p>Collection</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/groopix/3.jpg" alt=""/>
+        <figcaption>
+            <p>My Pix</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/groopix/4.jpg" alt=""/>
+        <figcaption>
+            <p>My Account</p>
+        </figcaption>
+    </figure>
+</div>
+
+Groopix was an online tool that allowed users to easily curate and print group based photo albums.
+
+Working closely with CEO Steve Douty, I created the company's logo, and worked on the user experience and interaction design of the main product.

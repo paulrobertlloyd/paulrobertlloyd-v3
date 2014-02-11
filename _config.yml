@@ -1,0 +1,33 @@
+# Setup
+title: Paul Robert Lloyd
+url: http://paulrobertlloyd.dev:4000
+
+# Meta
+author:
+  name: Paul Robert Lloyd
+  url: http://paulrobertlloyd.com
+encoding: UTF-8
+
+# Permalinks
+permalink: /:year/:month/:title
+relative_permalinks: false
+
+# Pagination
+paginate: 10
+paginate_path: /page/:num
+
+# Archives
+archive:
+  layout: archive
+  title: :date
+
+# Text formating
+markdown: kramdown
+
+# Syntax highlighting
+pygments: true
+
+# Publishing
+# source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
+# destination:  ../public/
+exclude: [Gemfile, Gemfile.lock]

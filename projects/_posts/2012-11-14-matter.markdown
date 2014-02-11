@@ -1,0 +1,50 @@
+---
+layout: post
+title: Matter
+date: '2012-11-14 12:00:00 +0000'
+excerpt: A beautiful reading experience for this independent publisher of unmissable journalism about science and technology.
+---
+<div class="slides">
+    <figure>
+        <img src="/assets/portfolio/matter/0.jpg" alt=""/>
+        <figcaption>
+            <p>Identity development sketches</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/matter/1.jpg" alt=""/>
+        <figcaption>
+            <p>The MATTER logo</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/matter/2.jpg" alt=""/>
+        <figcaption>
+            <p>Article landing page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/matter/3.jpg" alt=""/>
+        <figcaption>
+            <p>Article page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/matter/4.jpg" alt=""/>
+        <figcaption>
+            <p>Article landing page on mobile</p>
+        </figcaption>
+    </figure>
+</div>
+
+Matter is the brainchild of journalists Bobbie Johnson and Jim Giles. Frustrated with the lack of care and quality on display in most online journalism, they set out to create a service where journalists and readers could focus on the finest science and technology writing. To achieve this, they started [a Kickstarter campaign][1] which was enormously successful, proving that there was a real desire for high-quality, focused, long-form writing.
+
+A incredibly collaborative project, I took the reins on the visual design and identity, with [Jeremy Keith][2] working on the front-end and [Phil Gyford][3] handling the Django-based back-end.
+
+We began our work together with some design workshops where we did some competitor analysis, figured out the focus of the project, mapped user journeys, and hammered out design principles to guide us through the project.
+
+My early design work for Matter focused on its identity, thinking about how articles may appear on the web and how readers would recognise them in eBook stores and bookmark them on smartphone home screens. As the identity would play a supporting role to the articles being published, the logo needed to act as a hallmark, identifying an article as one that meets the high standards of journalism Matter is aiming for.
+
+[1]: http://www.kickstarter.com/projects/readmatter/matter
+[2]: http://clearleft.com/is/jeremy-keith/
+[3]: http://www.gyford.com/

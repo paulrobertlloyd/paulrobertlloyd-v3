@@ -1,0 +1,16 @@
+---
+layout: article
+title: Conclusion
+date: '2002-05-01 12:00:03 +0100'
+excerpt: Football has essentially reached half-time, and now has to decide whether it is to continue as a sport, with the many benefits to the communities it supports and to society in general, or as a business with benefits only to a few of its players -- be them on the pitch and in the boardroom.
+permalink: /articles/fcplc/conclusion/
+---
+Football has essentially reached half-time, and now has to decide whether it is to continue as a sport, with the many benefits to the communities it supports and to society in general, or as a business with benefits only to a few of its players -- be them on the pitch and in the boardroom.
+
+There should really be only one choice. Football needs to remain, indeed must remain a sport, but at the same time learn the lessons of its past. It should embrace the would of business, but not to the extent it has done. Chairmen must now start to behave responsibly, for the future health of the game. The players need to except that for their sport to thrive, they need except lower rates of pay; if a player earned just £5000 a week, in just two weeks they would have earned a similar amount to that of a nurse in a whole year. The argument that others in the entertainment industry earn large amounts is flawed if people start to except that football is not in such an industry, it is a sport, played for competition. Players should be playing for the game and not the money.
+
+The games governing bodies -- especially The FA, should play a more important role -- not in promoting football to those with money, but those who truly support the game. It should look to ways of furthering players careers after they can no longer play -- be it coaching, teaching or even in other trades. After all, if our World Cup winners can do it, there's no reason why todays players can't. It should again return to a role of protecting football from the forces of commercialism, yet promote good business practices. Its petty rivalry with the Football League should be put to rest at long last, and perhaps start to make the moves suggested by the league in 1991, and move to become the sole authority in the English game, as in other countries. This can only bring with it benefits -- one which should be to agree television deals for the whole of the game, not disproportionately to the different leagues.
+
+The fans also need to see their role extend, from that of mere spectator, to investor and take more interest in their clubs, and this will no doubt lead to bigger and brighter futures. Of course journalism will maintain the role of spectator, but it needs to take a more scrutinising role in the reporting of not only activities on the pitch, but of it in the worlds of business and politics.
+
+It's only when such reforms have taken place, some perhaps harder to adapt to then others (especially in terms of players wages) that the sport can truly thrive and be seen in a healthy state. However, if this was ever to happen it would need the consent of the bigger clubs, whose chairman are unlikely to support any move that may see them make less financial gain in the short term. But it's this sort of short-sightedness that has brought the game to its dangerous position today.

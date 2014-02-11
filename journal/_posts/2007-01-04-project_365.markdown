@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'Project 365: Taking One Photo Each Day During 2007'
+date: '2007-01-04 02:06:12 +0000'
+excerpt: I've decided to commit myself to recording 2007 by taking a photo each day.
+post_id: 101
+---
+Taking and selecting a photo to mark each day is something I've been thinking about doing for a while. Seeing as I already have a photo from the first three days of this year, I've decided to commit myself to recording 2007 by taking a photo each day.
+
+Reading [this article on PhotoJoto][1], was the final incentive, as it gives three good reasons why you should give it a go:
+
+1. You are able to look back at any day of your year and recall what you did, who you met, what you learned.
+
+2. Your year-long photo album will be an amazing way to document your travels and accomplishments, your haircuts and relationships. Time moves surprisingly fast.
+
+3. Taking a photo a day will make you a better photographer. Using your camera every day will help you learn its limits. You will get better at composing your shots, you'll start to care about lighting, and you'll become more creative with your photography when you're forced to come up with something new every single day.
+
+So join me on my travels through 2007, and enjoy [my Project 365 photoset][2] on Flickr.
+
+[1]: http://www.photojojo.com/content/tutorials/project-365-take-a-photo-a-day/
+[2]: http://flickr.com/photos/lloydyweb/sets/72157594458562627/

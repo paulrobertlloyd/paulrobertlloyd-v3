@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% case page.date.pattern %}
+{% when '%Y' %}
+    {% assign archivetitle = page.date.value | date: "%Y" %}
+{% when '%Y/%m' %}
+    {% assign archivetitle = page.date.value | date: "%B %Y" %}
+{% endcase %}
+<main class="main" role="main">
+    <section class="section">
+        <h1 class="section__title">{{ archivetitle }}</h1>
+
+        <ul class="list">
+        {% for post in page.posts %}
+            <li class="list__item">
+                {% include summary.html %}
+            </li>
+        {% endfor %}
+        </ul>
+    </section>
+</main><!--/@main-->

@@ -1,0 +1,31 @@
+# ----------------------------------------------------------------------
+# Rewrite Rules
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+# Enable rewriting
+  RewriteEngine on
+  RewriteBase /
+  RewriteOptions MaxRedirects=5
+  Options +FollowSymLinks
+
+# Suppress "www."
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+
+# ----------------------------------------------------------------------
+# Custom Error Pages
+# ----------------------------------------------------------------------
+# 404 error
+ErrorDocument 404 /404.html
+
+
+# ----------------------------------------------------------------------
+# UTF-8 Encoding
+# ----------------------------------------------------------------------
+# Use utf-8 encoding for anything served text/plain or text/html
+  AddDefaultCharset utf-8
+
+# Force utf-8 for a number of file formats
+  AddCharset utf-8 .html .css .js .xml
