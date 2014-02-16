@@ -13,7 +13,7 @@ While I'm trying not to see buying a property as an act of settling down (I can 
 The history of Clearleft maps closely to that of my own career. At first, I watched from the sidelines as the company emerged from the blogging of its three founding partners. My first interaction came as a client, when Ning hired their nascent team to design a video product. I later contracted for them, before joining full-time four and a half years ago.
 
 <figure>
-    <img src="/assets/2013/10/clearleft.jpg" alt=""/>
+    <img src="/assets/images/2013/10/clearleft.jpg" alt=""/>
     <figcaption>
         <p>The Clearleft team after a day out learning to bake bread in 2011.</p>
     </figcaption>

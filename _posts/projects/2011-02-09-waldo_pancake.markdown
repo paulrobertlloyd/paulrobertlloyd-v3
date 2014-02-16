@@ -6,19 +6,19 @@ excerpt: A designer, illustrator and copywriter whose work you can find on the s
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/waldo_pancake/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/waldo_pancake/0.jpg" alt=""/>
         <figcaption>
             <p>The Waldo Pancake website</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/waldo_pancake/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/waldo_pancake/1.jpg" alt=""/>
         <figcaption>
             <p>Navigation</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/waldo_pancake/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/waldo_pancake/2.jpg" alt=""/>
         <figcaption>
             <p>Slideshow featuring some of Jim's work</p>
         </figcaption>

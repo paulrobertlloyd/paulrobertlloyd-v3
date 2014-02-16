@@ -13,7 +13,7 @@ Coincidentally, this came the day after I listened to [Molly's Keynote speech][5
 Given some events that have taken place this year I have to agree. [@media][7] in London this June proved to me how much the web is becoming as much an experience off-line as it is online. At this conference, whilst the presentations over the two days were interesting and enjoyable, the real buzz for me came during the after show parties. Meeting new people and talking to those I already had some sort of online relationship with -- even be it from reading and commenting on their blogs -- is the number one reason why I will be attending again next year.
 
 <figure class="left">
-    <img src="/assets/2005/10/midwebmeet.jpg" alt="The very first Multipack meet up in Walsall"/>
+    <img src="/assets/images/2005/10/midwebmeet.jpg" alt="The very first Multipack meet up in Walsall"/>
     <figcaption>
         <p>The very first Multipack meet up in Walsall.</p>
     </figcaption>

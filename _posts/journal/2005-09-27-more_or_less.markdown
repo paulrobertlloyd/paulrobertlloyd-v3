@@ -5,7 +5,7 @@ date: '2005-09-27 00:15:41 +0100'
 excerpt: More4 could be the most exciting television channel to launch since the advent of BBC2 forty years ago.
 post_id: 32
 ---
-<img class="right" src="/assets/2005/09/more4.png" alt="More4 Logo"/>If you have Freeview turn to channel 13 now! If you have Sky turn to channel 165. For cable viewers, tap 166 into your ntl box or 142 if you're with Telewest. What you shall find is a preview for what I believe to be the most exciting television channel to launch since BBC2 forty years ago.
+<img class="right" src="/assets/images/2005/09/more4.png" alt="More4 Logo"/>If you have Freeview turn to channel 13 now! If you have Sky turn to channel 165. For cable viewers, tap 166 into your ntl box or 142 if you're with Telewest. What you shall find is a preview for what I believe to be the most exciting television channel to launch since BBC2 forty years ago.
 
 More4, which launches on Monday 10th October, is what Channel 4 are calling 'Adult Entertainment' -- perhaps not a very precise description. I like to think of it as 'what television should be'.
 

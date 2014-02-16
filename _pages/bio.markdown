@@ -6,8 +6,8 @@ permalink: /bio/
 ---
 ## Headshots
 <figure>
-    <a href="/assets/bio/headshot1.jpg"><img class="left" src="/assets/bio/thumbs/headshot1.jpg" alt="Headshot 1"/></a>
-    <a href="/assets/bio/headshot2.jpg"><img class="left" src="/assets/bio/thumbs/headshot2.jpg" alt="Headshot 2"/></a>
+    <a href="/assets/images/bio/headshot1.jpg"><img class="left" src="/assets/images/bio/headshot1_thumb.jpg" alt="Headshot 1"/></a>
+    <a href="/assets/images/bio/headshot2.jpg"><img class="left" src="/assets/images/bio/headshot2_thumb.jpg" alt="Headshot 2"/></a>
     <figcaption>
         <p>Click to download high resolution images.</p>
     </figcaption>

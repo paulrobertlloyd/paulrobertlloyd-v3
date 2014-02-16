@@ -6,61 +6,61 @@ excerpt: Design for a family of five sites representing NBCUniversal's internati
 ---
 <div class="slides">
     <figure class="slideshow">
-        <img src="/assets/portfolio/universal_networks/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/0.jpg" alt=""/>
         <figcaption>
             <p>Syfy Universal home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/1.jpg" alt=""/>
         <figcaption>
             <p>Syfy Universal show page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/2.jpg" alt=""/>
         <figcaption>
             <p>Syfy Universal schedule page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/3.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/3.jpg" alt=""/>
         <figcaption>
             <p>Studio Universal home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/4.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/4.jpg" alt=""/>
         <figcaption>
             <p>Studio Universal film page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/5.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/5.jpg" alt=""/>
         <figcaption>
             <p>Studio Universal schedule page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/6.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/6.jpg" alt=""/>
         <figcaption>
             <p>Universal Channel home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/7.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/7.jpg" alt=""/>
         <figcaption>
             <p>Universal Channel schedule page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/8.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/8.jpg" alt=""/>
         <figcaption>
             <p>13TH STREET Universal home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_networks/9.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_networks/9.jpg" alt=""/>
         <figcaption>
             <p>13TH STREET Universal schedule page</p>
         </figcaption>

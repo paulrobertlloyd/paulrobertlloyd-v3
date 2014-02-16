@@ -4,6 +4,8 @@ title: About the Author
 excerpt: My name is Paul, and I'm a Graphic Designer specialising in visual interface design, information architecture and HTML programming. In addition to my love of all things design, I have a growing passion for travel, and an interest in British and American politics.
 permalink: /about/
 ---
+![The author on Brighton beach, May 2010](/assets/images/about/author.jpg)
+
 I'm a British graphic designer specialising in interaction design and front-end web development. Currently at the [Guardian][1], I was previously a senior designer at [Clearleft][2], a user experience agency based in Brighton. I also led the design of the webfont service [Fontdeck][3] and co-founded [Multipack][4], a community for web designers and developers in Birmingham.
 
 ## Background

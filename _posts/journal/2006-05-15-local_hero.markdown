@@ -14,7 +14,7 @@ The sculpture commemorates the miners who worked in the town across the three ce
 > It's a key aim to build pride and by celebrating the rich heritage we have we are doing just that.
 
 <figure>
-    <img src="/assets/2006/05/brownhillsminer.jpg" alt=""/>
+    <img src="/assets/images/2006/05/brownhillsminer.jpg" alt=""/>
     <figcaption>
         <p>The Brownhills Miner. Photos by <a href="http://www.flickr.com/photos/jlwilliams/146287127/">John Williams</a>.</p>
     </figcaption>

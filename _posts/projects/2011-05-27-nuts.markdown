@@ -6,19 +6,19 @@ excerpt: Online reseller Nuts.com are 'more than just nuts'; they also sell drie
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/nuts/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/nuts/0.jpg" alt=""/>
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/nuts/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/nuts/1.jpg" alt=""/>
         <figcaption>
             <p>Category page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/nuts/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/nuts/2.jpg" alt=""/>
         <figcaption>
             <p>Product page</p>
         </figcaption>

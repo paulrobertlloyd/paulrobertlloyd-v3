@@ -8,7 +8,7 @@ post_id: 201
 Earlier this year the BBC announced it was creating a new version of it's Global Visual Language (GVL). Building upon the success of its predecessor, these new guidelines would give the organisation a consistent yet highly distinctive visual style to use online.
 
 <figure>
-    <img src="/assets/2010/09/bbcnews.jpg" alt=""/>
+    <img src="/assets/images/2010/09/bbcnews.jpg" alt=""/>
     <figcaption>
         <p>The new BBC News website.</p>
     </figcaption>
@@ -48,7 +48,7 @@ The BBC is often careful to test new designs with its users, but this time it fe
 
 ## One Page, A Thousand Interactions
 <figure>
-    <img src="/assets/2010/09/msnbc.jpg" alt=""/>
+    <img src="/assets/images/2010/09/msnbc.jpg" alt=""/>
     <figcaption>
         <p>An article page on the new MSNBC website.</p>
     </figcaption>
@@ -66,7 +66,7 @@ Whilst some of these interactions are interesting, it appears to be innovation f
 Perhaps the BBC should point disgruntled users to MSNBC, as I'm sure they would come running back. With GVL3 in full effect, the new site takes this approachable homogeneity, and infuses it with the strong BBC News brand.
 
 <figure>
-    <img src="/assets/2010/09/bbcnewsvariations.png" alt=""/>
+    <img src="/assets/images/2010/09/bbcnewsvariations.png" alt=""/>
     <figcaption>
         <p>Different layout variations available to editors on the new BBC News website.</p>
     </figcaption>

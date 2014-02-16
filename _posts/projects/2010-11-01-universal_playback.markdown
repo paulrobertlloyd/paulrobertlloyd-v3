@@ -6,49 +6,49 @@ excerpt: The TV-on-DVD label of Universal Pictures UK, responsible for releasing
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/universal_playback/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/0.jpg" alt=""/>
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_playback/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/1.jpg" alt=""/>
         <figcaption>
             <p>Navigation</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_playback/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/2.jpg" alt=""/>
         <figcaption>
             <p>Show landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_playback/3.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/3.jpg" alt=""/>
         <figcaption>
             <p>Cast member biography</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_playback/4.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/4.jpg" alt=""/>
         <figcaption>
             <p>Show-scoped shop item page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_playback/5.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/5.jpg" alt=""/>
         <figcaption>
             <p>Genres landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_playback/6.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/6.jpg" alt=""/>
         <figcaption>
             <p>Videos landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/universal_playback/7.jpg" alt=""/>
+        <img src="/assets/images/portfolio/universal_playback/7.jpg" alt=""/>
         <figcaption>
             <p>Shop item page</p>
         </figcaption>

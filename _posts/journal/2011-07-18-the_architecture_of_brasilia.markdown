@@ -7,7 +7,7 @@ post_id: 218
 ---
 Brasilia is a planned city situated in the centre of Brazil's vast and unpopulated interior. Built in the mid-fifties, it was inaugurated as the country's capital on April 22, 1960.
 
-<img class="right" src="/assets/2011/07/brasilia_plan.png" alt="Sketched plan of Brasilia"/>This city is remarkable for a number of reasons, not least its aeroplane like street layout (shown right) planned by [Lúcio Costa][1]. It was built in just 41 months, with its construction ordered by the country's new President, [Juscelino Kubitschek][2] who came to power promising '50 years progress in five'. However it's the distinctive architecture that draws most attention, and much of this was designed by [Oscar Niemeyer][3].
+<img class="right" src="/assets/images/2011/07/brasilia_plan.png" alt="Sketched plan of Brasilia"/>This city is remarkable for a number of reasons, not least its aeroplane like street layout (shown right) planned by [Lúcio Costa][1]. It was built in just 41 months, with its construction ordered by the country's new President, [Juscelino Kubitschek][2] who came to power promising '50 years progress in five'. However it's the distinctive architecture that draws most attention, and much of this was designed by [Oscar Niemeyer][3].
 
 Niemeyer is one of the few architects given the opportunity to design on such a scale, so it's not surprising to discover many familiar design patterns and motifs on the city's different buildings.
 
@@ -15,7 +15,7 @@ Niemeyer is one of the few architects given the opportunity to design on such a 
 Whilst most buildings are typically cuboid in nature, in Brasilia these shapes are often exaggerated; [the hotel I stayed in][4] had its rooms lined up along three lenghthy floors, whilst the tall, thin offices of the National Congress rise above a shallow and wide building below. Sometimes these lines are contrasted against soft curves. Again, the National Congress is an example of this, but the large dome of the Museum of the Republic is also hard to miss. Niemeyer remarked that his curves are symbolic of Brazilian women.
 
 <figure>
-    <img src="/assets/2011/07/brasilia_lines.jpg" alt=""/>
+    <img src="/assets/images/2011/07/brasilia_lines.jpg" alt=""/>
     <figcaption>
         <p>Brasilia's signature building, the National Congress, beautifully demonstrates the contrast of strong linear shapes against graceful curves. Shown here is the dome of the Chamber of the Deputies resting upon the shallow base of the building. Photo by <a href="http://flickr.com/photos/chris_diewald/2656782975/">Christoph Diewald</a></p>
     </figcaption>
@@ -23,7 +23,7 @@ Whilst most buildings are typically cuboid in nature, in Brasilia these shapes a
 
 ## Reflection
 <figure>
-    <img src="/assets/2011/07/brasilia_reflection.jpg" alt=""/>
+    <img src="/assets/images/2011/07/brasilia_reflection.jpg" alt=""/>
     <figcaption>
         <p>Reflection of Itamaraty Palace into the surrounding pool is integral to the building's design. Photo by <a href="http://flickr.com/photos/acmoraes/2488214984/">A C Moraes</a></p>
     </figcaption>
@@ -33,7 +33,7 @@ As many of his buildings are constructed of concrete, they are usually soften by
 
 ## Suspension
 <figure>
-    <img src="/assets/2011/07/brasilia_suspension.jpg" alt=""/>
+    <img src="/assets/images/2011/07/brasilia_suspension.jpg" alt=""/>
     <figcaption>
         <p>Familiar pillar designs at the Presidential Residence and at the Supreme Federal Court. Photos by <a href="http://info.planalto.gov.br/exec/inf_fotografiagrande.cfm?foto=05042006P00028">Palácio do Planalto</a> and <a href="http://flickr.com/photos/19967853@N00/18391299">Vitor Sá</a></p>
     </figcaption>
@@ -43,7 +43,7 @@ One of Niemeyer favourite tricks is show to his buildings suspended off the grou
 
 ## Entry
 <figure>
-    <img src="/assets/2011/07/brasilia_entry.jpg" alt=""/>
+    <img src="/assets/images/2011/07/brasilia_entry.jpg" alt=""/>
     <figcaption>
         <p>Entry to the National Museum of the Republic is via a long sloping ramp. Photo by <a href="http://flickr.com/photos/el_floz/1424610618/">Florian Knorn</a></p>
     </figcaption>

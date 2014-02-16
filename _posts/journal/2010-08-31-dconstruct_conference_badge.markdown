@@ -8,7 +8,7 @@ post_id: 202
 [Conferences can be quite wasteful affairs][1]. In addition to swag bags filled with magazines, leaflets and free gifts, there is often a programme detailing the schedule and providing some background on the speakers.
 
 <figure>
-    <img src="/assets/2010/08/dconstruct_conference_badge.jpg" alt=""/>
+    <img src="/assets/images/2010/08/dconstruct_conference_badge.jpg" alt=""/>
     <figcaption>
         <p>This years dConstruct conference badge. Photo by <a href="http://www.flickr.com/photos/b0xman/4929704982/">James Box</a></p>
     </figcaption>

@@ -11,7 +11,7 @@ Last year was notable for a [running theme on sustainability][1]; both in the to
 2010 began [watching Sydney's famed firework display][2] from a crowded viewpoint near Mrs. Macquarie's Chair. Large crowds and the absence of friends meant it was somewhat anti-climatic, but I'm still glad to have experienced the event first-hand.
 
 <figure>
-    <img src="/assets/2011/01/albertpark.jpg" alt=""/>
+    <img src="/assets/images/2011/01/albertpark.jpg" alt=""/>
     <figcaption>
         <p>Reflection of Melbourne's CBD in a window at Albert Park.</p>
     </figcaption>
@@ -36,7 +36,7 @@ On television, I was enthralled by a new BBC Two series, Michael Portillo's [Gre
 When Clearleft won a project with BBC Radio 4, I jumped at the chance to be involved, and February began with a kick-off meeting at their offices within sight of Broadcasting House. A small project with many constraints, I still found it a fascinating -- if at times frustrating -- insight into how the organisation works.
 
 <figure>
-    <img src="/assets/2011/01/hacktheplanet.jpg" alt=""/>
+    <img src="/assets/images/2011/01/hacktheplanet.jpg" alt=""/>
     <figcaption>
         <p>Everyone hard at work at Hack the Planet.</p>
     </figcaption>
@@ -57,7 +57,7 @@ Gripped by the previous year's Formula One season, it was with much anticipation
 
 ## April
 <figure>
-    <img src="/assets/2011/01/ashestoashes.jpg" alt=""/>
+    <img src="/assets/images/2011/01/ashestoashes.jpg" alt=""/>
     <figcaption>
         <p>Gene Hunt and Jim Keats from the final series of Ashes to Ashes.</p>
     </figcaption>
@@ -78,7 +78,7 @@ With Dave Gray, one of UX London's speakers staying in the UK after the conferen
 
 ## June
 <figure>
-    <img src="/assets/2011/01/lomoworkshop.jpg" alt=""/>
+    <img src="/assets/images/2011/01/lomoworkshop.jpg" alt=""/>
     <figcaption>
         <p>My favourite photo taken during Lomo Workshop.</p>
     </figcaption>
@@ -92,7 +92,7 @@ After 6 months spent looking for a flat in Brighton, I finally found one I could
 
 ## July
 <figure>
-    <img src="/assets/2011/01/aroundthefire.jpg" alt=""/>
+    <img src="/assets/images/2011/01/aroundthefire.jpg" alt=""/>
     <figcaption>
         <p>Around the campfire on Jon's Gower stag weekend.</p>
     </figcaption>
@@ -108,7 +108,7 @@ I started this month not knowing whether I was coming or going. Moving into my n
 The [annual weekend in Wales][21] felt a bit strange this year as we could no longer use the same field in Dollgeau we had camped on for the last seven years. Marred by bad weather and the new surroundings, I have mixed feelings as to whether the tradition should continue, but I'm prepared to give it another go this year just to be sure.
 
 <figure>
-    <img src="/assets/2011/01/quiraing.jpg" alt=""/>
+    <img src="/assets/images/2011/01/quiraing.jpg" alt=""/>
     <figcaption>
         <p>Quiraing, Isle of Skye.</p>
     </figcaption>
@@ -124,7 +124,7 @@ As ever, September kicked off with dConstruct, and this was widely regarded as [
 Thanks to Clearleft's work on the Radio 4 site earlier in the year, me and [Andy][28] were invited to a night at the Proms -- a first for me, although it may have been more enjoyable had I remembered my glasses!
 
 <figure>
-    <img src="/assets/2011/01/maria.jpg" alt=""/>
+    <img src="/assets/images/2011/01/maria.jpg" alt=""/>
     <figcaption>
         <p>Maria.</p>
     </figcaption>
@@ -141,7 +141,7 @@ I also went to see Jimmy Carr, whose show was hilarious to start with, but becam
 November saw me attend my niece's Christening, a bittersweet affair knowing my brother's family would be leaving for a new life in Brazil soon after.
 
 <figure>
-    <img src="/assets/2011/01/belfastcityhall.jpg" alt=""/>
+    <img src="/assets/images/2011/01/belfastcityhall.jpg" alt=""/>
     <figcaption>
         <p>Belfast City Hall.</p>
     </figcaption>

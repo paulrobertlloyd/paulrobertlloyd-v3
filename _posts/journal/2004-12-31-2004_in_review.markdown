@@ -22,7 +22,7 @@ Jon soon followed in March with a job at Trinity Design in Sutton Coldfield as a
 Kris was coming to terms with his arrival back on British soil after a respectful 4 month drinking binge in Syndey with the resolution that every month in 2004 would see him and some friends take on something mildly dangerous and adventurous. Our first (and indeed only) adventure of this type saw us visit Holyhead (purely because the A5 ended there) before some fairly safe abseiling, rock climbing and an episode of Britain's worst driver in Llangollen, North Wales.
 
 <figure>
-    <img src="/assets/2004/12/rockface.jpg" alt=""/>
+    <img src="/assets/images/2004/12/rockface.jpg" alt=""/>
     <figcaption>
         <p>Me, half way up a rock race in Wales.</p>
     </figcaption>
@@ -45,7 +45,7 @@ With work now confined to the hours of 9:00-5:30 (or more accurately 9:32-6:05),
 Should I even start to mention Euro 2004 -- needless to say it was the same old highs, the same old penalty taking lows.
 
 <figure>
-    <img src="/assets/2004/12/coedybrenin.jpg" alt=""/>
+    <img src="/assets/images/2004/12/coedybrenin.jpg" alt=""/>
     <figcaption>
         <p>Coed-y-Brenin.</p>
     </figcaption>
@@ -60,7 +60,7 @@ Change really was becoming the buzz word of 2004 -- but sadly this was not a hap
 
 ## More Reunions
 <figure>
-    <img src="/assets/2004/12/bristol.jpg" alt=""/>
+    <img src="/assets/images/2004/12/bristol.jpg" alt=""/>
     <figcaption>
         <p>The Glebers in a pub, Bath.</p>
     </figcaption>
@@ -71,7 +71,7 @@ November saw an 'unofficial' reunion with most of the people who I had met and b
 Here we continued the drinking in the Walkabout Bar, and this night easily achieved the best night out of the year award -- so cheers guys. This was then repeated again in Wimbledon, South London in December, this time with everybody in attendance. This included Johnny who flew all the way from the US -- joining John Kerry as the only other American I would like to have seen more of this year. Well done that man!
 
 <figure>
-    <img src="/assets/2004/12/nottingham.jpg" alt=""/>
+    <img src="/assets/images/2004/12/nottingham.jpg" alt=""/>
     <figcaption>
         <p>The lads of Orange Vision.</p>
     </figcaption>

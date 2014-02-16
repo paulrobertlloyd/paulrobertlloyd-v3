@@ -8,8 +8,8 @@ post_id: 74
 To make up for the lack of 'life commentary' on this blog these last few weeks, let me allow you to explore my musical taste. Created with the wonderful [iTunes Signature Maker](http://www.jasonfreeman.net/itsm/).
 
 <audio controls autobuffer preload> 
-  <source src="/assets/2006/04/signature.mp3" type="audio/mpeg"/>
-  <source src="/assets/2006/04/signature.oga" type="audio/ogg"/>
+  <source src="/assets/images/2006/04/signature.mp3" type="audio/mpeg"/>
+  <source src="/assets/images/2006/04/signature.oga" type="audio/ogg"/>
 </audio>
 
 If you don't see an embedded player, <a href="/assets/2006/04/signature.mp3" download>right-click here</a> to download this signature.

@@ -7,7 +7,7 @@ post_id: 29
 ---
 It's only April, but I think I have already found the musical highlight of 2005, in the shape of <cite>Back to Bedlam</cite>, from James Blunt.
 
-<img class="right" src="/assets/2004/11/back_to_bedlam.png" alt="Back to Bedlam cover"/>I first got a taste for James Blunt's music after downloading <cite>High</cite>, available as a free download single of the week on iTunes. This can sometimes be hit or miss, but either way it is free so there is nothing to loose. But just hearing a second track during a TV commercial for the album convinced me I should take the gamble and buy it. The gamble paid off.
+<img class="right" src="/assets/images/2004/11/back_to_bedlam.png" alt="Back to Bedlam cover"/>I first got a taste for James Blunt's music after downloading <cite>High</cite>, available as a free download single of the week on iTunes. This can sometimes be hit or miss, but either way it is free so there is nothing to loose. But just hearing a second track during a TV commercial for the album convinced me I should take the gamble and buy it. The gamble paid off.
 
 <!--more-->
 

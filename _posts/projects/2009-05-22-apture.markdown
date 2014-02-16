@@ -6,25 +6,25 @@ excerpt: A set of tools for publishers that help them provide instantaneous acce
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/apture/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/apture/0.jpg" alt=""/>
         <figcaption>
             <p>Apture logo</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/apture/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/apture/1.jpg" alt=""/>
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/apture/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/apture/2.jpg" alt=""/>
         <figcaption>
             <p>Product promotional page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/apture/3.jpg" alt=""/>
+        <img src="/assets/images/portfolio/apture/3.jpg" alt=""/>
         <figcaption>
             <p>Site Editor Dashboard</p>
         </figcaption>

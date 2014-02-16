@@ -35,7 +35,7 @@ Counties are important -- not only useful for way-finding, but as entities to af
 Such confusion was evident when I sat down to watch [Psychoville][10] last Friday. The first episode of this new dark-comedy series focused on letters being sent to five characters around the country, but it was striking how each location was referred to using these different understandings of a county. 
 
 <figure>
-    <img src="/assets/2009/06/psychoville-salford.jpg" alt="Psychoville onscreen title for Salford, Manchester"/>
+    <img src="/assets/images/2009/06/psychoville-salford.jpg" alt="Psychoville onscreen title for Salford, Manchester"/>
     <figcaption>
         <h4>Salford, Manchester</h4>
         <p>The first location named was technically wrong (but no doubt commonly used) in that it should have read 'Salford, Greater Manchester'. Had it used an historic County, this would have been 'Salford, Lancashire'.</p>
@@ -43,7 +43,7 @@ Such confusion was evident when I sat down to watch [Psychoville][10] last Frida
 </figure>
 
 <figure>
-    <img src="/assets/2009/06/psychoville-bristol.jpg" alt="Psychoville onscreen title for Bristol, Avon"/>
+    <img src="/assets/images/2009/06/psychoville-bristol.jpg" alt="Psychoville onscreen title for Bristol, Avon"/>
     <figcaption>
         <h4>Bristol, Avon</h4>
         <p>This graphic is perhaps the best example as to why we should return to using historic Counties in addresses given that Avon no longer exists! Created as part of the 1972 reorganisation, it was abolished in 1996 and replaced with four unitary authorities, three of which returned to their 'ceremonial counties' of Somerset and Gloucestershire (whilst Bristol became a ceremonial county in its own right).</p>
@@ -52,7 +52,7 @@ Such confusion was evident when I sat down to watch [Psychoville][10] last Frida
 </figure>
 
 <figure>
-    <img src="/assets/2009/06/psychoville-ilkley.jpg" alt="Psychoville onscreen title for Ilkley, Yorkshire"/>
+    <img src="/assets/images/2009/06/psychoville-ilkley.jpg" alt="Psychoville onscreen title for Ilkley, Yorkshire"/>
     <figcaption>
         <h4>Ilkley, Yorkshire</h4>
         <p>The third location given is actually shown on-screen using an historic County, but if you watch closely you will see the actual letter has the address written down as North Yorkshire -- an unfortunate error as Ilkley is in the West Riding.</p>
@@ -60,7 +60,7 @@ Such confusion was evident when I sat down to watch [Psychoville][10] last Frida
 </figure>
 
 <figure>
-    <img src="/assets/2009/06/psychoville-eastbourne.jpg" alt="Psychoville onscreen title for Eastbourne, Sussex"/>
+    <img src="/assets/images/2009/06/psychoville-eastbourne.jpg" alt="Psychoville onscreen title for Eastbourne, Sussex"/>
     <figcaption>
         <h4>Eastbourne, Sussex</h4>
         <p>This location was also referenced using a historic county, with Sussex displayed instead of the current ceremonial county of East Sussex. I suspect this may have been due to the space available on screen.</p>
@@ -68,7 +68,7 @@ Such confusion was evident when I sat down to watch [Psychoville][10] last Frida
 </figure>
 
 <figure>
-    <img src="/assets/2009/06/psychoville-woodgreen.jpg" alt="Psychoville onscreen title for Wood Green, London"/>
+    <img src="/assets/images/2009/06/psychoville-woodgreen.jpg" alt="Psychoville onscreen title for Wood Green, London"/>
     <figcaption>
         <h4>Wood Green, London</h4>
         <p>Formally Wood Green was a municipal borough within the county of Middlesex, but is now part of the London Borough of Haringey, one of 32 London boroughs within Greater London. This is a bit of an anomaly, as Greater London is formerly classed as an 'administrative area' and 'local government region', but <em>not</em> a county.</p>

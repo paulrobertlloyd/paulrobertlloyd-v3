@@ -7,7 +7,7 @@ post_id: 39
 ---
 ![Leaders of the G8](/assets/2005/07/time_to_start_taking_notice.jpg)
 
-<img class="right" src="/assets/2005/07/live8.png" alt="Live8 logo" />You've no doubt heard the statistics -- over and over again. We live in a society where such figures have become background noise. 'More important' issues take precedence; [should I buy a 50 or 56 inch plasma television][1]? How long before I can afford a new Apple Cinema Display to go alongside my swanky new G5? How will we afford this months mortgage repayment...
+<img class="right" src="/assets/images/2005/07/live8.png" alt="Live8 logo" />You've no doubt heard the statistics -- over and over again. We live in a society where such figures have become background noise. 'More important' issues take precedence; [should I buy a 50 or 56 inch plasma television][1]? How long before I can afford a new Apple Cinema Display to go alongside my swanky new G5? How will we afford this months mortgage repayment...
 
 I guess that's where [Live8][2] came in. As one of many [MakePovertyHistory][3] events this year, Bob Geldof has helped bring this noise to the foreground (very much noise in the case of Velvet Revolver...!). It's a shame that this, and other events throughout the year are needed for us sorry lot to 'buy into' caring and to take notice, but maybe now our ears have been pricked -- they should stay that way. Awareness is the key.
 

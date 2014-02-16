@@ -12,7 +12,7 @@ Slumdog Millionaire is the story of an impoverished Indian teen who is one quest
 Whilst marketed in light-hearted way (a brightly coloured poster with the tagline 'the feel good film of the decade') this is misjudged as the film is certainly very dark in places. Gangs, riots, prostitution, torture, corruption are themes that run throughout the film, yet these are contrasted with moments of humour and of course the eventual outcome. Particular comical highlights include Jamal giving tourists a tour of the Taj Mahal, and him chasing after Bollywood superstar [Amitabh Bachchan][4] covered in shit in order to get his autograph.
 
 <figure>
-    <img src="/assets/2009/01/slumdogmillionaire.jpg" alt=""/>
+    <img src="/assets/images/2009/01/slumdogmillionaire.jpg" alt=""/>
     <figcaption>
         <p>Ayush Mahesh Khedekar as the young Jamal Malik.</p>
     </figcaption>

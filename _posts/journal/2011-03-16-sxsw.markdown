@@ -26,7 +26,7 @@ Much of this years programme catered towards topics the marketing and sales guys
 
 ## For The People
 <figure>
-    <img src="/assets/2011/03/greatbritishboozeup.jpg" alt=""/>
+    <img src="/assets/images/2011/03/greatbritishboozeup.jpg" alt=""/>
     <figcaption>
         <p>The Great British Booze-up at Shakespeare's Pub.</p>
     </figcaption>

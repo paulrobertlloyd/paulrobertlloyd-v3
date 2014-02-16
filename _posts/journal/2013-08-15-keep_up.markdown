@@ -47,7 +47,7 @@ Understanding these basic components will not only make you a smarter developer,
 The move to web standards seemed like such an upheaval at the time, but it pales in comparison to the challenges we're facing today. Back then, we had to support just a handful of browsers. Now our products need to work across a range of devices, each with different features and capabilities.
 
 <figure>
-    <img src="/assets/2013/08/devices.jpg" alt="An collection of Internet connected devices"/>
+    <img src="/assets/images/2013/08/devices.jpg" alt="An collection of Internet connected devices"/>
     <figcaption>
         <p>Image: <a href="http://www.flickr.com/photos/brad_frost/7387823392/">Brad Frost</a></p>
     </figcaption>
@@ -71,7 +71,7 @@ There are always those that fail to understand the web. They can be seen trying 
 Others have come to recognise the unique characteristics of the web, and in doing so, are attempting to solve problems nobody has encountered before. I mean, how on earth do you design something that can be infinitely adaptable? It often feels like we are entering a period of enlightenment, a renaissance even!
 
 <figure>
-    <img src="/assets/2013/08/aesthetic.png" alt=""/>
+    <img src="/assets/images/2013/08/aesthetic.png" alt=""/>
     <figcaption>
         <p>Given the constraints of early television, an identifiable aesthetic emerged.</p>
     </figcaption>

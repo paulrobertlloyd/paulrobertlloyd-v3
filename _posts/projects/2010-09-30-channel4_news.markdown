@@ -6,55 +6,55 @@ excerpt: In collaboration with James Box, James Bates and Cathy Jones, I helped 
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/channel4_news/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/0.jpg" alt=""/>
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/1.jpg" alt=""/>
         <figcaption>
             <p>Category</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/2.jpg" alt=""/>
         <figcaption>
             <p>Special Report</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/3.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/3.jpg" alt=""/>
         <figcaption>
             <p>Country</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/4.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/4.jpg" alt=""/>
         <figcaption>
             <p>Article</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/5.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/5.jpg" alt=""/>
         <figcaption>
             <p>Benjamin Cohen's Blog</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/6.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/6.jpg" alt=""/>
         <figcaption>
             <p>iPad: Home screen</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/7.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/7.jpg" alt=""/>
         <figcaption>
             <p>iPad: Special Reports</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/channel4_news/8.jpg" alt=""/>
+        <img src="/assets/images/portfolio/channel4_news/8.jpg" alt=""/>
         <figcaption>
             <p>iPad: Special Report</p>
         </figcaption>

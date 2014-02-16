@@ -28,7 +28,7 @@ On many topics we found agreement, yet thankfully, there were areas of disagreem
 Chris asked if we needed media query like behaviour in HTML. For example, a list of links might be better represented as a select menu in certain instances. I questioned whether such an approach would be a regression, taking us back to the 'bad old days' of mixing together presentation, behaviour and content. I still believe that structuring documents semantically, with CSS and JavaScript manipulating that information, is the right approach. Progressive enhancement is forever revealed as a guiding principle when crafting web experiences. I'd hate to see that change.
 
 <figure>
-    <img src="/assets/2012/02/responsive_summit_josh.jpg"/>
+    <img src="/assets/images/2012/02/responsive_summit_josh.jpg"/>
     <figcaption>
         <p>Josh Brewer facilitated the discussion. Original photo by <a href="http://www.flickr.com/photos/mr-armstrong/6924116705/in/set-72157629074652364">Chris Armstrong</a>.</p>
     </figcaption>
@@ -90,7 +90,7 @@ Perhaps what we're really after is the image equivalent of variable bit-rate, as
 And with that, I've sufficiently demonstrated my naivety regarding image formats.
 
 <figure>
-    <img src="/assets/2012/02/responsive_summit_paul.jpg"/>
+    <img src="/assets/images/2012/02/responsive_summit_paul.jpg"/>
     <figcaption>
         <p>Me, in deep pondering mode. Original photo by <a href="http://www.flickr.com/photos/mr-armstrong/6778001526/in/set-72157629074652364">Chris Armstrong</a>.</p>
     </figcaption>

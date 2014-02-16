@@ -14,10 +14,10 @@ Britain was in need of a new identity, yet this came at a time when the country 
 ## British Airways and the BTA
 British companies operate on a global scale but many have decided that national associations are not good for business -- looking at the number of privatised companies that changed their names will tell you that. British Telecom became BT in the early nineties, although other national telecom companies such as France Telecom and Deutsche Telekom hadn't felt the same need. British Gas (now BG) and British Steel (now Corus) are two more recent examples.
 
-<img class="right" src="/assets/articles/britain_rebranded/ba_logo.png" alt="New British Airways Logo"/>Another company finding itself in the media spotlight was British Airways. Preferring to be known as BA, it instigated a 60 million pound corporate re-branding that ditched its familiar Union Flag tail fins and replaced them with a number of multicultural designs instead. These represented the diversity of their passengers and destinations and would position the airline as "the undisputed leader in world travel".
+<img class="right" src="/assets/images/articles/britain_rebranded/ba_logo.png" alt="New British Airways Logo"/>Another company finding itself in the media spotlight was British Airways. Preferring to be known as BA, it instigated a 60 million pound corporate re-branding that ditched its familiar Union Flag tail fins and replaced them with a number of multicultural designs instead. These represented the diversity of their passengers and destinations and would position the airline as "the undisputed leader in world travel".
 
 <figure>
-    <img src="/assets/articles/britain_rebranded/ba_tailfins.png" alt="British Airways World Tailfins"/>
+    <img src="/assets/images/articles/britain_rebranded/ba_tailfins.png" alt="British Airways World Tailfins"/>
     <figcaption>
         <p>British Airways World 'Tails'. The tail designs shown here represented Kalahari Desert, Scotland, England, Netherlands, Russia, Africa and Australia.</p>
     </figcaption>
@@ -30,7 +30,7 @@ Dropping the flag also produced much unwanted bad press in BA's home country, an
 When the British Tourist Authority (BTA) announced that it was to rebrand itself, the media showed much interest. While their new logo didn't abandon the Union Flag, it was surrounded by yellow and green and sat slightly off centre. It was described in the Guardian as "harmless, old-fashioned, apolitical and jolly good fun" -- but would it change tourists perception of Britain?
 
 <figure>
-    <img src="/assets/articles/britain_rebranded/bta_logos.png" alt="British Tourist Authority logos, old and new"/>
+    <img src="/assets/images/articles/britain_rebranded/bta_logos.png" alt="British Tourist Authority logos, old and new"/>
     <figcaption>
         <p>The old BTA logo (left) and its replacement (right)</p>
     </figcaption>
@@ -76,10 +76,10 @@ When a country like Britain spends 800 million pounds a year promoting itself ov
 ## What's Being Done
 With Labour in power, stars from the world of design, business and entertainment were often entertained at No. 10 and soon the idea of 'Cool Britannia' was alive and kicking. Whether 'Cool Britannia' was more for the benefit of the government than the country is debatable, but there was certainly a new sense of national optimism, helped in part by a renaissance in British film and fashion.
 
-<img class="left" src="/assets/articles/britain_rebranded/mp_logo.png" alt="Millennium Products logo"/>As a means of promoting British design, technology, and innovation around the world, the Millennium Products initiative asked British companies to demonstrate their ability to lead the world in design. Successful designs included the Eurostar train, modern-day sign posting in Birmingham and a clockwork radio. When the final set of Millennium Product products were announced in December 1999, 1012 had received this status. These are being exhibited at EXPO 2000 in Hanover and British Government buildings around the world.
+<img class="left" src="/assets/images/articles/britain_rebranded/mp_logo.png" alt="Millennium Products logo"/>As a means of promoting British design, technology, and innovation around the world, the Millennium Products initiative asked British companies to demonstrate their ability to lead the world in design. Successful designs included the Eurostar train, modern-day sign posting in Birmingham and a clockwork radio. When the final set of Millennium Product products were announced in December 1999, 1012 had received this status. These are being exhibited at EXPO 2000 in Hanover and British Government buildings around the world.
 
 <figure>
-    <img src="/assets/articles/britain_rebranded/mp_eurostar.jpg" alt="Eurostar train"/>
+    <img src="/assets/images/articles/britain_rebranded/mp_eurostar.jpg" alt="Eurostar train"/>
     <figcaption>
         <p>The Eurostar train was a Millennium Product</p>
     </figcaption>

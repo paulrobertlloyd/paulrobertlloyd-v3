@@ -14,11 +14,11 @@ This was a comfortable duopoly, where each network competed through its programm
 The quality of television broadcasts at this time were crude to say the least. Limited to black and white and with a low resolution, television was worsened by the quality of the receivers that tended to suffer from poor definition. Furthermore 20 percent of the screen was considered unusable due a lack of focus around the screens edge, and different television sets cropped the picture at different points. This restricted the graphic designer somewhat and resulted in large and bold lettering with strong tonal contrast, and illustrations with heavy lines and little detail. It's not surprising that 'op' and 'pop' art themes were in common use throughout the fifties.
 
 <figure id="figure-1">
-    <img class="left" src="/assets/articles/dissertation/figure-1a.png" alt="BBC Television Service symbol or 'Bat's Wings'" />
-    <img class="left" src="/assets/articles/dissertation/figure-1b.png" alt="BBC Television Service symbol in Scotland" />
-    <img class="left" src="/assets/articles/dissertation/figure-1c.png" alt="BBC Television Service symbol in the West" />
-    <img class="left" src="/assets/articles/dissertation/figure-1d.png" alt="BBC Television Service clock" />
-    <img class="left" src="/assets/articles/dissertation/figure-1e.png" alt="BBC North of England News" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-1a.png" alt="BBC Television Service symbol or 'Bat's Wings'" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-1b.png" alt="BBC Television Service symbol in Scotland" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-1c.png" alt="BBC Television Service symbol in the West" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-1d.png" alt="BBC Television Service clock" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-1e.png" alt="BBC North of England News" />
     <figcaption>
         <h4>Figure 1</h4>
         <p>Main Image: The 'Bat's Wings' symbol for the BBC Television Service. Also shown: Two regional variants for Scotland and the West of England, accompanying clock, and a non-animated ident for a news programme in the North of England. (BBC 1953. Designed by Abram Games)</p>
@@ -26,11 +26,11 @@ The quality of television broadcasts at this time were crude to say the least. L
 </figure>
 
 <figure id="figure-2">
-    <img class="left" src="/assets/articles/dissertation/figure-2a.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/dissertation/figure-2b.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/dissertation/figure-2c.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/dissertation/figure-2d.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/dissertation/figure-2e.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-2a.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-2b.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-2c.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-2d.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/dissertation/figure-2e.png" alt="Still from 'Wednesday Magazine' opening sequence" />
     <figcaption>
         <h4>Figure 2</h4>
         <p>Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)</p>
@@ -38,11 +38,11 @@ The quality of television broadcasts at this time were crude to say the least. L
 </figure>
 
 <figure id="figure-3">
-    <img class="left" src="/assets/articles/dissertation/figure-3a.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-3b.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-3c.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-3d.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-3e.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-3a.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-3b.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-3c.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-3d.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-3e.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" /> 
     <figcaption>
         <h4>Figure 3</h4>
         <p>Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)</p>
@@ -52,11 +52,11 @@ The quality of television broadcasts at this time were crude to say the least. L
 The launch of BBC2 in 1964 saw the introduction of 625-line higher resolution broadcasts and three years later colour, both of great benefit to the designer although not straight away. BBC1 and ITV only began colour broadcasts in 1969 and the improved 625-line transmissions were still broadcast alongside those using 405-lines, which even with their low quality, weren't suspended until early 1985. It was up to the audience to upgrade their sets, and sales of colour receivers were unexpectedly low when colour television broadcasts began. Before the majority of viewers had 625-line colour receivers, the designer still had to consider those watching on older sets. However, typical graphic design during the sixties saw a greater use of photography, more detailed illustration and a more apparent use of calligraphy.
 
 <figure id="figure-4">
-    <img class="left" src="/assets/articles/dissertation/figure-4a.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-4b.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-4c.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-4d.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-4e.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-4a.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-4b.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-4c.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-4d.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-4e.png" alt="Still from 'The Old Grey Whistle Test' opening sequence" /> 
     <figcaption>
         <h4>Figure 4</h4>
         <p>Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). <a href="http://www.youtube.com/watch?v=KNNAfzKwRn4" rel="related">Watch on YouTube</a></p>
@@ -64,11 +64,11 @@ The launch of BBC2 in 1964 saw the introduction of 625-line higher resolution br
 </figure>
 
 <figure id="figure-5">
-    <img class="left" src="/assets/articles/dissertation/figure-5a.png" alt="Still from 'I, Claudius' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-5b.png" alt="Still from 'I, Claudius' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-5c.png" alt="Still from 'I, Claudius' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-5d.png" alt="Still from 'I, Claudius' opening sequence" /> 
-    <img class="left" src="/assets/articles/dissertation/figure-5e.png" alt="Still from 'I, Claudius' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-5a.png" alt="Still from 'I, Claudius' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-5b.png" alt="Still from 'I, Claudius' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-5c.png" alt="Still from 'I, Claudius' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-5d.png" alt="Still from 'I, Claudius' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/dissertation/figure-5e.png" alt="Still from 'I, Claudius' opening sequence" /> 
     <figcaption>
         <h4>Figure 5</h4>
         <p>Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). <a href="http://www.youtube.com/watch?v=pKwaCTfa1EE" rel="related">Watch on YouTube</a></p>

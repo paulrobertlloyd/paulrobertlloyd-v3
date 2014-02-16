@@ -6,19 +6,19 @@ excerpt: Discounts on airport hotels, parking and lounges and other travel servi
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/bookfhr/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/bookfhr/0.jpg" alt=""/>
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/bookfhr/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/bookfhr/1.jpg" alt=""/>
         <figcaption>
             <p>Search results</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/bookfhr/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/bookfhr/2.jpg" alt=""/>
         <figcaption>
             <p>Booking form</p>
         </figcaption>

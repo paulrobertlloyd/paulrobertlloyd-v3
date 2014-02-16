@@ -12,7 +12,7 @@ Having enjoyed myself so much last year, I was really looking forward to this ye
 This years venue was the Queen Elizabeth II Conference Centre in the heart of Westminster, and opposite Westminster Abbey. Twice as large as last years venue, this allowed for a new ['two track' programme][1] meaning you could choose from two presentations throughout the day (only to kick yourself hours later when your friends told you the one you missed was, well, unmissable). There were also a number of panel sessions rather than single speakers, and a far more varied programme which I appreciated.
 
 <figure>
-    <img src="/assets/2006/06/multipackatmedia.jpg" alt=""/>
+    <img src="/assets/images/2006/06/multipackatmedia.jpg" alt=""/>
     <figcaption>
         <p>Multipack members at @media 2006.</p>
     </figcaption>
@@ -37,7 +37,7 @@ Perhaps just as disappointing was the panel that talked about WGAC 2.0, as this 
 Day one ended with a presentation by [Jeffery Veen][6]. Notably this presentation was not matched up against another session, as this was one not to be missed. I have heard a [previous talk by Veen][7] on the [WE05 podcast][8], so I knew this was going to be interesting, and he didn't disappoint. This was also very relevant given my current employment, with his presentation titled <cite>Designing the Next Generation of Web Apps</cite>.
 
 <figure>
-    <img src="/assets/2006/06/web20.jpg" alt=""/>
+    <img src="/assets/images/2006/06/web20.jpg" alt=""/>
     <figcaption>
         <p>'The Next Generation of Web Apps'.</p>
     </figcaption>

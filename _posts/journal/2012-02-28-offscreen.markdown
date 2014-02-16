@@ -8,7 +8,7 @@ post_id: 245
 [Offscreen][1] is a new magazine edited, produced and beautifully designed by [Kai Brach][2], that focuses on the personalities behind the pixels -- in a good way.
 
 <figure>
-    <img src="/assets/2012/02/offscreen.jpg" alt=""/>
+    <img src="/assets/images/2012/02/offscreen.jpg" alt=""/>
     <figcaption>
         <p>Cover of Issue No1. Photo by <a href="http://www.flickr.com/photos/brakai295/6873407277/">Kai Brach</a>.</p>
     </figcaption>

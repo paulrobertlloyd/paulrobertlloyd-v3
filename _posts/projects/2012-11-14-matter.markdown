@@ -6,31 +6,31 @@ excerpt: A beautiful reading experience for this independent publisher of unmiss
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/matter/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/matter/0.jpg" alt=""/>
         <figcaption>
             <p>Identity development sketches</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/matter/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/matter/1.jpg" alt=""/>
         <figcaption>
             <p>The MATTER logo</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/matter/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/matter/2.jpg" alt=""/>
         <figcaption>
             <p>Article landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/matter/3.jpg" alt=""/>
+        <img src="/assets/images/portfolio/matter/3.jpg" alt=""/>
         <figcaption>
             <p>Article page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/matter/4.jpg" alt=""/>
+        <img src="/assets/images/portfolio/matter/4.jpg" alt=""/>
         <figcaption>
             <p>Article landing page on mobile</p>
         </figcaption>

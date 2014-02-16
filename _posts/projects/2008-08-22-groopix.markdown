@@ -6,31 +6,31 @@ excerpt: An online tool that allows users to easily curate and print group based
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/groopix/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/groopix/0.jpg" alt=""/>
         <figcaption>
             <p>Logo</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/groopix/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/groopix/1.jpg" alt=""/>
         <figcaption>
             <p>My Groops</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/groopix/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/groopix/2.jpg" alt=""/>
         <figcaption>
             <p>Collection</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/groopix/3.jpg" alt=""/>
+        <img src="/assets/images/portfolio/groopix/3.jpg" alt=""/>
         <figcaption>
             <p>My Pix</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/groopix/4.jpg" alt=""/>
+        <img src="/assets/images/portfolio/groopix/4.jpg" alt=""/>
         <figcaption>
             <p>My Account</p>
         </figcaption>

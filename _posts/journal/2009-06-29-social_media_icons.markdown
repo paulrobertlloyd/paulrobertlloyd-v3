@@ -7,7 +7,7 @@ post_id: 172
 ---
 I've often found myself requiring icons when linking to or referencing different social networks I'm a member of. Whilst there are a lot of icon sets available that can help me do this, most seem to be oversized and highly stylised. In the past I've used site favicons, but these can often be visually inconsistent.
 
-<img class="right" src="/assets/2009/06/socialmediaicons_sizes.png" alt=""/>With that in mind, and taking inspiration from the gorgeous icons used by [Tim van Damme][1] on his address card site, and the [Social Media Mini Iconpack][2] by Komodo media, I've created a selection of different icons each available in four different sizes (48×48, 32×32, 24×24 and 16×16).
+<img class="right" src="/assets/images/2009/06/socialmediaicons_sizes.png" alt=""/>With that in mind, and taking inspiration from the gorgeous icons used by [Tim van Damme][1] on his address card site, and the [Social Media Mini Iconpack][2] by Komodo media, I've created a selection of different icons each available in four different sizes (48×48, 32×32, 24×24 and 16×16).
 
 * * *
 

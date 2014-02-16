@@ -60,7 +60,7 @@ It upsets me that the British media always falls into the same trap. This is our
 As I mentioned in my introduction, I was actually pleased to see this logo when I first clapped eyes on it on Monday. My initial happiness, and also pride, was in seeing something that immediately changes the rules of what constitutes an identity for Olympic Games, and perhaps the wider expectations of what a logo should look like too. I think we can safely assume that future logos for games and candidate cities will certainly become a lot less conservative.
 
 <figure>
-    <img src="/assets/2007/06/pastolympiclogos.png" alt=""/>
+    <img src="/assets/images/2007/06/pastolympiclogos.png" alt=""/>
     <figcaption>
         <p>Previous Olympic Games have all used similar designs for their logos.</p>
     </figcaption>
@@ -83,7 +83,7 @@ But there are issues, and some pretty big ones at that.
 Whilst I like the idea of using the date 2012 (the first twenty-something event in peoples minds, so already it sticks out), it took me a number of takes to realise this. I've also seen commentators ask why there is a hyphen between 20-12, but on closer examination I believe that to be part of the 2 -- but I'm only guessing.
 
 <figure>
-    <img src="/assets/2007/06/2012logoapplications.jpg" alt=""/>
+    <img src="/assets/images/2007/06/2012logoapplications.jpg" alt=""/>
     <figcaption>
         <p>Possible logo applications.</p>
     </figcaption>

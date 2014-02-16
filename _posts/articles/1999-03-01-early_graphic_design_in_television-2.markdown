@@ -36,11 +36,11 @@ The quality of television broadcasts and receivers was crude to say the least. I
 This meant graphics produced for television had a huge number of restrictions put on them. Lettering had to be large and bold with strong tonal contrast and illustrations had to use fairly heavy lines and lack detail ('Op' and 'Pop' art themes were common used during the end of the fifties). Designers also had to work from the center of the screen outwards, so as to ensure their work would be seen.
 
 <figure id="figure-1">
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-1a.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-1b.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-1c.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-1d.png" alt="Still from 'Wednesday Magazine' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-1e.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-1a.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-1b.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-1c.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-1d.png" alt="Still from 'Wednesday Magazine' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-1e.png" alt="Still from 'Wednesday Magazine' opening sequence" />
     <figcaption>
         <h4>Figure 1</h4>
         <p>Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)</p>
@@ -48,11 +48,11 @@ This meant graphics produced for television had a huge number of restrictions pu
 </figure>
 
 <figure id="figure-2">
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-2a.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-2b.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-2c.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-2d.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-2e.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-2a.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-2b.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-2c.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-2d.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-2e.png" alt="Still from 'Kingsley Amis Goes Pop' opening sequence" />
     <figcaption>
         <h4>Figure 2</h4>
         <p>Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)</p>
@@ -66,7 +66,7 @@ After his career was interrupted by World War II, he returned to CBS and produce
 However his greatest creation was his corporate identity for CBS Television the well-known CBS 'eye' (see below) first aired on the 6th November 1951. He died at the age of 49, only a few months after being awarded art director of the year by the New York Art Directors Club in 1959.
 
 <figure id="figure-3">
-    <img src="/assets/articles/early_graphic_design_in_television/figure-3.png" alt="The CBS Eye and its design, William Golden"/>
+    <img src="/assets/images/articles/early_graphic_design_in_television/figure-3.png" alt="The CBS Eye and its design, William Golden"/>
     <figcaption>
         <h4>Figure 3</h4>
         <p>Corporate logo for CBS Television (CBS 1951-Present Day)<br />Graphic Designer: William Golden (right)</p>
@@ -86,15 +86,15 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
 <figure id="figure-4">
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4a.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4b.png" alt="Still from 'The Man with the Golden Arm' opening sequence" /> 
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4c.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4d.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4e.png" alt="Still from 'The Man with the Golden Arm' opening sequence" /> 
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4f.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4g.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4h.png" alt="Still from 'The Man with the Golden Arm' opening sequence" /> 
-    <img class="left" src="/assets/articles/early_graphic_design_in_television/figure-4i.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4a.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4b.png" alt="Still from 'The Man with the Golden Arm' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4c.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4d.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4e.png" alt="Still from 'The Man with the Golden Arm' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4f.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4g.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4h.png" alt="Still from 'The Man with the Golden Arm' opening sequence" /> 
+    <img class="left" src="/assets/images/articles/early_graphic_design_in_television/figure-4i.png" alt="Still from 'The Man with the Golden Arm' opening sequence" />
     <figcaption>
         <h4>Figure 4</h4>
         <p>Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). <a href="http://www.youtube.com/watch?v=eGnpJ_KdqZE" rel="related">Watch on YouTube</a></p>

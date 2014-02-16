@@ -6,25 +6,25 @@ excerpt: An integrated platform of on demand technology, expert advisory and inn
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/portfolio/ngenera/0.jpg" alt=""/>
+        <img src="/assets/images/portfolio/ngenera/0.jpg" alt=""/>
         <figcaption>
             <p>nGenera logo with tagline lock-up</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/ngenera/1.jpg" alt=""/>
+        <img src="/assets/images/portfolio/ngenera/1.jpg" alt=""/>
         <figcaption>
             <p>Associated brand collateral, including presentation folders, report covers, letterheads and business cards</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/ngenera/2.jpg" alt=""/>
+        <img src="/assets/images/portfolio/ngenera/2.jpg" alt=""/>
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/portfolio/ngenera/3.jpg" alt=""/>
+        <img src="/assets/images/portfolio/ngenera/3.jpg" alt=""/>
         <figcaption>
             <p>Community landing page</p>
         </figcaption>

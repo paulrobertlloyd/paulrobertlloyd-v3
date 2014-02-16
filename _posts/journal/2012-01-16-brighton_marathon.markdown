@@ -7,8 +7,8 @@ post_id: 238
 ---
 <div class="notification message">
     <h4>I'm running the Brighton Marathon on Sunday, April 15th 2012</h4>
-        <p><img class="right" src="/assets/common/actionforchildren-64x80.png" alt=""/>By doing so, I hope to raise £500 for Action for Children. Sponsorship will not only motivate me on the big day, but help thousands of children across the UK reach their full potential.</p>
-        <p><a class="action" href="http://www.justgiving.com/prlrun2012/">Sponsor my run on Just Giving &#8250;</a></p>
+    <p><img class="right" src="/assets/images/2012/01/action_for_children.png" alt=""/>By doing so, I hope to raise £500 for Action for Children. Sponsorship will not only motivate me on the big day, but help thousands of children across the UK reach their full potential.</p>
+    <p><a class="action" href="http://www.justgiving.com/prlrun2012/">Sponsor my run on Just Giving &#8250;</a></p>
 </div>
 
 ## Towards the Ultimate Goal

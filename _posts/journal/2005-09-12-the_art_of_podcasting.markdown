@@ -13,7 +13,7 @@ Commercial and independent podcasters have spent a lot of time on perfecting the
 With a 'Radio to Go' sub-brand and a consistent yet flexible template that can be applied across a wide range of podcasts, they have managed to successfully pull together its many different radio (network and programme) brands:
 
 <figure>
-    <img src="/assets/2005/09/bbcpodcasts.png" alt=""/>
+    <img src="/assets/images/2005/09/bbcpodcasts.png" alt=""/>
     <figcaption>
         <p>Examples of BBC podcast artwork.</p>
     </figcaption>
@@ -25,7 +25,7 @@ Of course for such a large organisation not to place it's branding across all it
 In July, I took part in a competition run by [Inside Mac Radio][4], the premier Mac News podcast to design a new logo. Sadly I did not win, but it was sure fun taking part. So as I finally get round to blogging about all things podcast, I thought I would share with you my design, as well as the final design that was chosen.
 
 <figure>
-    <img src="/assets/2005/09/insidemac.png" alt=""/>
+    <img src="/assets/images/2005/09/insidemac.png" alt=""/>
     <figcaption>
         <p>My entry (left) and the winning design (right)</p>
     </figcaption>

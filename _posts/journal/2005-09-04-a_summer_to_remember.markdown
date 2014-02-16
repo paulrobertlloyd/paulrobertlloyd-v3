@@ -20,7 +20,7 @@ After a bit of breakfast the next morning, so another reunion had ended. I think
 For the last bank holiday of the summer I headed down to Newquay with my brother and his friend Rich.
 
 <figure>
-    <img src="/assets/2005/09/newquay.jpg" alt=""/>
+    <img src="/assets/images/2005/09/newquay.jpg" alt=""/>
     <figcaption>
         <p>Ben and Rich on Fristral beach, Newquay.</p>
     </figcaption>
@@ -42,7 +42,7 @@ I tend not to make a fuss of my birthday which inevitably leads to disappointmen
 I choose the Arcadian in Birmingham as somewhere I'd like to spend a night out, and after phoning round it was decided that it would be a belated celebration the first weekend of September.
 
 <figure>
-    <img src="/assets/2005/09/birthday.jpg" alt=""/>
+    <img src="/assets/images/2005/09/birthday.jpg" alt=""/>
     <figcaption>
         <p>Me, a happy drunk.</p>
     </figcaption>
