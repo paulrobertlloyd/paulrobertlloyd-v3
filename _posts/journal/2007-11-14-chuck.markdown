@@ -44,3 +44,7 @@ Thinking back to Scrubs, which is *finally* ending (the last four series being l
 [5]: http://www.nbc.com/Chuck/about/bios/lancaster.shtml
 [6]: http://www.nbc.com/Chuck/about/bios/gomez.shtml
 [7]: http://en.wikipedia.org/wiki/Yvonne_Strahovski
+
+*[CIA]: Central Intelligence Agency
+*[NBC]: National Broadcasting Company
+*[NSA]: National Security Agency

@@ -49,3 +49,6 @@ BBC1 retained the globe, however it was given a new twist by using an orange air
 </figure>
 
 Both channels kept the consistency seen in the last makeover, but this time all onscreen promotional material carried 'BBC ONE' or 'BBC TWO' centred at the bottom of the screen -- this placement more suitable for the upcoming widescreen format used in digital television.
+
+*[BBC]: British Broadcasting Corporation
+*[UK]: United Kingdom

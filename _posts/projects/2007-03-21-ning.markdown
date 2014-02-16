@@ -69,3 +69,6 @@ Brian McCallister, Core Architect:
 > Paul gave Ning its look: from its distinctive Clarendon logo to the HTML and CSS undergirding Ning's 150,000 social networks. Working with Paul's semantically rich CSS designs is a pleasure. With the simple addition of a CSS class like "response", amazing things would happen to an HTML element: the avatar would shift to the opposite side, the speech bubble flip on its vertical axis, the colors change subtly. He writes of his "passion for web standards and attractive design" -- it certainly shows in his beautiful work.
 
 [1]: http://davidlwarner.com/
+
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language

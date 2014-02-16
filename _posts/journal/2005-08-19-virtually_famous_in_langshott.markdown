@@ -10,7 +10,7 @@ Whilst fixing some css bugs for the next revision of the rdc* theme I had an int
 ## Background
 Two months ago, [Jon][1] asked me if I would like to join him on a little project he had started, designing a theme for [WordPress][2]. The answer was yes, and my design can be seen in the [current v0.6 release][3].
 
-Before launch I was asked if I would like to give the design a code name. Being a man fond of his code names (at [work][4] we already have <abbr title="Orange Vision Admin Layout">OVAL</abbr> and <abbr title="Property Information Page">PIP</abbr> thanks to me), I jumped at the chance!  Wanting something personal to me, but also a little different, and seeing as locations are often inspiration for code names, I decided upon 'Langshott', the small little village in Horley where I grew up.
+Before launch I was asked if I would like to give the design a code name. Being a man fond of his code names (at [work][4] we already have OVAL and PIP thanks to me), I jumped at the chance!  Wanting something personal to me, but also a little different, and seeing as locations are often inspiration for code names, I decided upon 'Langshott', the small little village in Horley where I grew up.
 
 ## The Answer
 
@@ -24,3 +24,6 @@ As to the theme, me and Jon have quite a few ideas as to where we want to take i
 [4]: http://www.orangevision.co.uk/
 [5]: http://www.google.co.uk/search?q=langshott
 [6]: http://www.roobottom.com/wp_theme
+
+*[OVAL]: Orange Vision Admin Layout
+*[PIP]: Property Information Page

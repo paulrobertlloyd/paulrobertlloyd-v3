@@ -18,3 +18,5 @@ Our political leaders are no longer interested in the concerns of the electorate
 It surely can't carry on like this, can it?
 
 [1]: http://www.bbc.co.uk/blogs/adamcurtis/2011/09/the_curse_of_tina.html
+
+*[PR]: public relations

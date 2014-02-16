@@ -46,3 +46,8 @@ In November 2001, BBC2 updated its ten-year-old idents, for which such menus wer
 </figure>
 
 This was all aimed to give the channel a more contemporary feel "retaining and reinforcing the wit and personality the 2s have already established, whilst presenting a new and refreshed image for BBC2" (Wilkes, 2001). The first batch of idents featured the 2 bouncing, scaring of a shoal of mackerel, falling over like a domino, and growing a pair of robotic arms to turn round a portion of screen to reveal the BBC2 logo. There was also a change to the way junctions were handled with the idents including now, next and later information to guide viewers through what they might like to watch.
+
+*[BBC]: British Broadcasting Corporation
+*[EPG]: Electronic Programme Guide
+*[ITV]: Independant Television
+*[UK]: United Kingdom

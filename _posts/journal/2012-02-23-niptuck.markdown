@@ -78,3 +78,10 @@ Although I've got the site into a much healthier state, I'm sure further changes
 [19]: /portfolio/
 [20]: /2011/11/the_week/
 [21]: /2011/06/dconstruct_2011/
+
+*[CDN]: content delivery network
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[PNG]: Portable Network Graphic
+*[SVG]: Scalable Vector Graphics
+*[URL]: Uniform Resouce Locator

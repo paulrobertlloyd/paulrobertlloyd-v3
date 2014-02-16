@@ -24,3 +24,6 @@ I would like to thank everybody I've met during my time here for making it such 
 [3]: /2007/07/montreal/
 [4]: /2007/08/new_york_and_san_francisco/
 [5]: /2007/10/my_british_radar/
+
+*[CEO]: Chief Executive Officer
+*[UK]: United Kingdom

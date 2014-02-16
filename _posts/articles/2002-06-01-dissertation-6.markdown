@@ -97,3 +97,6 @@ The original set of idents lasted for two years before being replaced with argua
 </figure>
 
 The new idents involved channel personalities and celebrities taking the mickey out of the channel or themselves which tried to express a confidence to the viewer that the channel had about itself. These were updated again a year later but retained the same themes.
+
+*[BT]: British Telecom
+*[UK]: United Kingdom

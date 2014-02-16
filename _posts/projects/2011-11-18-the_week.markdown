@@ -57,3 +57,7 @@ Features include an archive of back-issues, adjustable text size, a night readin
 [2]: http://kaldorgroup.com/
 [3]: http://pugpig.com/
 [4]: http://itunes.apple.com/gb/app/the-week-uk/id468108781
+
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[UK]: United Kingdom

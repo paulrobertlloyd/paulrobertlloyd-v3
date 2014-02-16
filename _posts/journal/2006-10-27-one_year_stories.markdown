@@ -54,3 +54,6 @@ It will be fascinating to see where all these things are in another 12 months ti
 [10]: http://upcoming.org/group/123
 [11]: http://news.com.com/Andreessen+adds+some+Ning+to+the+Web/2100-1032_3-5890005.html
 [12]: http://www.davidlwarner.com/
+
+*[CEO]: Chief Executive Officer
+*[PHP]: PHP: Hypertext Preprocessor

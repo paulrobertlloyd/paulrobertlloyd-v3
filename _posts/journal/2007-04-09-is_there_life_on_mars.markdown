@@ -33,3 +33,6 @@ As with <cite>Faulty Towers</cite>, and <cite>The Office</cite>, limiting a seri
 
 [1]: http://www.imdb.com/name/nm0799591/
 [2]: http://www.imdb.com/name/nm0322562/
+
+*[BBC]: British Broadcasting Corporation
+*[UK]: United Kingdom

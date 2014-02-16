@@ -76,3 +76,10 @@ Only nine of the 14 regions used these idents. Ulster Television (UTV) had by no
 </figure>
 
 Whilst the BBC tried to reflect its public service image (bringing the world to every corner of Britain), it brought with it a recognition of the rest of Britain. Indeed, it was the first time that BBC1 had used such strong regional elements in its identity. ITV was also trying to display its credentials as not only Britain's most popular channel, but as that closest to peoples hearts. But this was at a time when many regional names and identities were disappearing and as pointed out before these provided strong links with each regions viewers. It turned out that whilst the BBC was becoming more regionalised (a fact reflected in its programme scheduling and budgets), ITV was becoming more centralised, both on and off screen.
+
+*[BBC]: British Broadcasting Corporation
+*[ITV]: Independant Television
+*[LWT]: London Weekend Television
+*[TV]: television
+*[UK]: United Kingdom
+*[UTV]: Ulster Television

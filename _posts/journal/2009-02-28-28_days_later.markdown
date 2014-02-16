@@ -19,3 +19,5 @@ Given that I still have a number of topics I wish to write about, I'll be puttin
 [1]: /2009/02/sfo_lhr/
 [2]: /2009/02/simply_walsall/
 [3]: /2009/02/
+
+*[SFO]: San Francisco International Airport

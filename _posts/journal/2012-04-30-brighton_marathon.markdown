@@ -43,3 +43,5 @@ Indeed, rather than just run a marathon, I also wanted to raise money for [Actio
 [3]: http://actionforchildren.org.uk/
 [4]: http://justgiving.com/prlrun2012/
 [5]: http://clearleft.com/
+
+*[UK]: United Kingdom

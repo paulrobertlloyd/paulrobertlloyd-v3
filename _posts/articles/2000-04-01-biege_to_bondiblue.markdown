@@ -99,3 +99,11 @@ With his understanding of the emotional value objects can have to the user, and 
 * **Stafford, A., Feld, A. &#38; Poultrey, J.** (1998). [The Ive League: The Designer Behind the iMac](http://web.archive.org/web/19990208222802/http://www.machome.com/Features/Ive.html). <cite>MacHome Interactive</cite>. Archived from [the original](http://www.machome.com/features/ive.html) on <time datetime="1999-02-08">8 February 1999</time>
 * **Weyhrich, S.** (1991). [Apple II History](http://apple2history.org/history/). <cite>Apple2History.org</cite>.
 * **Unknown Author** (2000, April 4). Apple reaches the end of the rainbow. <cite>MacUser</cite>, 14.
+
+*[CD]: Compact Disc
+*[CPU]: central processing unit
+*[DVD]: Digital Versatile Disc
+*[IBM]: International Business Machines
+*[PC]: personal computer
+*[RAM]: Randowm-access memory
+*[UK]: United Kingdom

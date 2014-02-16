@@ -26,3 +26,7 @@ Considerable effort was spent to ensure performance didn't suffer at the cost of
 We were able to create a design language that could encompass the various template types, clearly delineating areas of navigation and content. Although a mobile focused project, we had a secondary ambition to design an experience that is better than the desktop site -- even on a desktop. In time, it is hoped this responsive mobile design will form the foundation of a fully responsive site, accessible from all devices, large or small.
 
 [1]: http://clearleft.com/is/ben-sauer/
+
+*[HTML]: HyperText Markup Language
+*[UK]: United Kingdom
+*[UNICEF]: The United Nations Children's Fund

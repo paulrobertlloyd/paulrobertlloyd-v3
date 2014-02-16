@@ -15,3 +15,6 @@ The graphic designer is required for a whole variety of things: titles and end c
 The expansion of television has been constant, firstly with the BBC increasing its transmission coverage after the war, then the later introduction of ITV, BBC2, Channel 4 and <cite>Breakfast Time</cite> and more recently satellite and cable television, Channel 5 and now digital television. This has meant the need for graphic design in television has also been increasing and once it was realised that graphic design is an important element of television there has been no turning back.
 
 In this essay, it is mainly graphic design in British television that is discussed. However the story is much the same all over the world. A notable exception is America in which their use of computers was at a far more advanced stage, with the technology improving at a greater rate there, than in it was in Britain.
+
+*[BBC]: British Broadcasting Corporation
+*[ITV]: Independant Television

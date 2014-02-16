@@ -25,9 +25,9 @@ This desire perhaps gives an insight into the thinking behind these icons. Durin
 
   2. **Icons for People, Not Companies**
 
-  Keeping in mind a desire to keep the number of icons to a minimum, I'm only creating icons for which there can be an associated <abbr title="Uniform Resource Locator">URL</abbr>, be that to a social profile or social action (such as sharing). For example, this update adds an icon for xBox Live Gamer Cards, but not PlayStation or Wii as these products have no online presence.
+  Keeping in mind a desire to keep the number of icons to a minimum, I'm only creating icons for which there can be an associated URL, be that to a social profile or social action (such as sharing). For example, this update adds an icon for xBox Live Gamer Cards, but not PlayStation or Wii as these products have no online presence.
 
-  I often get asked for icons for different blogging platforms (Blogger, WordPress, Movable Type etc.) yet I would suggest the 'website' icon is equally, if perhaps not more suitable for this purpose. Providing icons for every blogging platform or <abbr title="Content Management System">CMS</abbr> is neither desirable nor necessary.
+  I often get asked for icons for different blogging platforms (Blogger, WordPress, Movable Type etc.) yet I would suggest the 'website' icon is equally, if perhaps not more suitable for this purpose. Providing icons for every blogging platform or CMS is neither desirable nor necessary.
 
   3. **Cater for the 80%**
 
@@ -53,3 +53,6 @@ However, don't let these principles dissuade you from nominating additions -- in
 [4]: http://ismikearringtonadick.com/
 [5]: http://friendfeed.com/
 [6]: http://facebook.com
+
+*[CMS]: Content Management System
+*[URL]: Uniform Resouce Locator

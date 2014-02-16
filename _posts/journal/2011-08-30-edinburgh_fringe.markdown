@@ -42,7 +42,7 @@ I still preferred Sammy J's solo performance, but saw enough to buy a ticket for
 * * *
 
 ### <cite>Richard Herring: What is Love, Anyway?</cite>
-<img src="/assets/2011/08/richardherring.jpg" alt="Richard Herring" class="framed right"/>I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite><abbr title="This Morning with Richard not Judy">TMWRNJ</abbr></cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring's latest show in which he 'seeks to destroy love before it destroys him'.
+<img src="/assets/2011/08/richardherring.jpg" alt="Richard Herring" class="framed right"/>I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite>TMWRNJ</cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring's latest show in which he 'seeks to destroy love before it destroys him'.
 
 Herring's fast paced delivery means you get more laughs for your money. This show revolved around his observations regrading love, an amorphous concept for which most of us believe in as others do a God. Sharing his own experiences and reciting poetry written in his youth ensured a self-deprecating performance like no other.
 
@@ -95,7 +95,7 @@ Afterwards I wondered if I would have enjoyed the performance had there been no 
 * * *
 
 ### <cite>Best of the Fest</cite>
-The final show I attended was <cite>Best of the Fest</cite>. Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the <abbr title="Master of Ceremonies">MC</abbr>, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [<cite>Beefs 2011</cite>][12] live though, so it wasn't all bad.
+The final show I attended was <cite>Best of the Fest</cite>. Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the MC, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [<cite>Beefs 2011</cite>][12] live though, so it wasn't all bad.
 
 <abbr title="2 stars out of 5" class="rating">&#9733;&#9733;&#9734;&#9734;&#9734;</abbr>
 
@@ -115,3 +115,7 @@ In fewer days I saw more shows than I did in the four nights I was in Edinburgh 
 [10]: http://andrew-maxwell.co.uk/
 [11]: http://davidodoherty.com/
 [12]: http://www.youtube.com/watch?v=XX45vU4Z6Pw
+
+*[BBC]: British Broadcasting Corporation
+*[MC]: Master of Ceremonies
+*[TMWRNJ]: This Morning with Richard not Judy

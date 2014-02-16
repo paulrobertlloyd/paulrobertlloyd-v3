@@ -55,3 +55,5 @@ I hope this post wasn't too self-indulgent for you. Seems like I still have some
 [2]: http://www.amazon.co.uk/dp/0747590974/
 [3]: http://flickr.com/photos/lloydyweb/sets/72157594458562627/
 [4]: /2007/03/if_sxsw_made_beer/
+
+*[SXSW]: South by SouthWest

@@ -110,3 +110,7 @@ There is often talk of there being [no landmark design on the web][20]. I'm goin
 [18]: http://www.bbc.co.uk/blogs/bbcinternet/2010/07/bbc_news_redesign_telling_the.html
 [19]: http://www.bbc.co.uk/blogs/bbcinternet/2010/07/bbc_news_websites_content_mana.html
 [20]: http://www.underconsideration.com/speakup/archives/004033.html
+
+*[BBC]: British Broadcasting Corporation
+*[GEL]: Global Experience Language
+*[UK]: United Kingdom

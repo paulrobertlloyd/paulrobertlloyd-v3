@@ -27,3 +27,8 @@ Write about the work you are doing-on your blog or for magazines. Be they online
 [4]: http://html5boilerplate.com/
 [5]: http://getbootstrap.com
 [6]: http://alistapart.com/articles/the-web-aesthetic/
+
+*[BBC]: British Broadcasting Corporation
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[JS]: JavaScript

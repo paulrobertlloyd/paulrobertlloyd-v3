@@ -53,7 +53,7 @@ Here he worked on the on-screen graphics for the Apollo space missions including
     </figcaption>
 </figure>
 
-It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend World</cite> was <abbr>LWT</abbr>'s current affairs programme, was broadcast on Sunday lunchtimes and due to its topicality, required a graphic designer to work from midday Saturday to midday Sunday. As it was such an antisocial shift, the contract to produce its graphics was placed outside of LWT. At this time Lambie-Nairn had set up his own company with a fellow colleague Colin Robinson, and the contract presented a golden opportunity for Robinson Lambie-Nairn. They won the contract, and it was here that Lambie-Nairn revolutionised the graphic conventions used in presenting current-affairs related information graphically.
+It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend World</cite> was LWT's current affairs programme, was broadcast on Sunday lunchtimes and due to its topicality, required a graphic designer to work from midday Saturday to midday Sunday. As it was such an antisocial shift, the contract to produce its graphics was placed outside of LWT. At this time Lambie-Nairn had set up his own company with a fellow colleague Colin Robinson, and the contract presented a golden opportunity for Robinson Lambie-Nairn. They won the contract, and it was here that Lambie-Nairn revolutionised the graphic conventions used in presenting current-affairs related information graphically.
 
 This was traditionally based on newspaper cartoons -- for example, if there was a story about the pound being weak, a cartoon drawing of a pound sign wearing bandages and using crutches was shown. Realising that this was at odds with communicating a serious news item, Lambie-Nairn developed a new method of presenting this sort of information in a more appropriate graphical manner. It was with this new approach that <cite>Weekend World</cite> became more successful, and this meant more work for Robinson Lambie-Nairn who found themselves "leaders in a field of one" (Lambie-Nairn, 1997).
 
@@ -94,10 +94,19 @@ Channel Four also had consistent on-screen branding, with programme menus, weath
 
 On the back of this success, Lambie-Nairn was asked to design many other corporate identities for television companies. These included Anglia, in which Lambie-Nairn was responsible for the removal of the then much loved, but out of date, revolving silver knight and the satellite company British Satellite Broadcasting (BSB). However all five channel identities he created were replaced after only a couple of months when the company 'merged' with Sky.
 
-He also became successful outside of Britain, working with companies such as <abbr title="T&#233;l&#233;vision Fran&#231;aise 1" lang="fr">TF1</abbr> (France), <abbr title="Association Relative &#224; la T&#233;l&#233;vision Europ&#233;enne" lang="fr">ARTE</abbr> (France and Germany), EuroSport (Europe), <span lang="no">TV Norge</span> (Norway) and <span lang="pt">Quatro</span> (Portugal) to name but a few.
+He also became successful outside of Britain, working with companies such as <span lang="fr">TF1 (France)</span>, <span lang="fr">ARTE</span> (France and Germany), EuroSport (Europe), <span lang="no">TV Norge</span> (Norway) and <span lang="pt">Quatro</span> (Portugal) to name but a few.
 
 It was with his old employers though, the BBC, that Lambie-Nairn became the most respected. In 1991, Lambie-Nairn was responsible for, as he saw it, 'repositioning' BBC1 and BBC2. This was especially true with BBC2 that beforehand, with the old 'TWO' indent, was seen as a channel that was middle-class and boring. By replacing it with the figure '2' in a series of indents that echoed the different values of the channel, not only did the he succeed in making the channel more accessible, the indents almost became more popular than the channel itself.
 
 It was for this reason that when Lambie-Nairn was recalled in 1997 to redesign the BBC's identity, from its corporate logo to all of its radio and television station identities -- that the BBC2 logo remained unchanged, with only more indents being added to the ever increasing family. Lambie-Nairn has gained so much credibility within the BBC, that nearly everything you see today on the BBC, has been created by Martin Lambie-Nairn.
 
 His success has also reached a point, that for a long period during the 1990's, three of the four terrestrial television channels, a number of ITV regions, and many satellite channels, all had identities created by Lambie-Nairn as well as a number of overseas television companies. Martin Lambie-Nairn was also the man behind the popular eighties satirical television show <cite>Spitting Image</cite> in which his company also financed the initial development.
+
+*[ARTE]: Association Relative à la Télévision Européenne
+*[BBC]: British Broadcasting Corporation
+*[BSB]: British Satelite Broadcasting
+*[ITN]: Independant Television News
+*[ITV]: Independant Television
+*[Ltd]: Limited company
+*[LWT]: London Weekend Television
+*[TF1]: Télévision Française 1

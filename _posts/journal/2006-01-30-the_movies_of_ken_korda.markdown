@@ -23,3 +23,5 @@ Kenneth Korda is a big figure in Hollywood, and given his involvement in some re
 Each of these movies is about 5-7Mb in size, and are in MP4 format.
 
 [1]: http://adam-buxton.co.uk/
+
+*[Mb]: Megabyte

@@ -54,3 +54,7 @@ I arrived thinking this would be my last SXSW, hoping to find the event of littl
 [4]: http://adactio.com/journal/4411/
 [5]: http://buildconf.com/
 [6]: http://dconstruct.org/
+
+*[API]: application programming interface
+*[SXSW]: South by SouthWest
+*[VIP]: Very Important Person

@@ -26,3 +26,7 @@ I've also been looking at [Jon Hicks][3] [Destinations][4] pages. I love his sit
 [5]: http://www.everydaysoftware.net/bookit/
 [6]: http://www.skti.org/skEdit.php
 [7]: http://www.best-of-british.com/
+
+*[ASP]: Active Server Pages
+*[HTML]: HyperText Markup Language
+*[PHP]: PHP: Hypertext Preprocessor

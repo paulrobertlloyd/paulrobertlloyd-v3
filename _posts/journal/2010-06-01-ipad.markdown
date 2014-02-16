@@ -27,7 +27,7 @@ Whilst I may be excited by such possibilities, I don't feel the need to spend mo
 ## Money Better Spent
 With that in mind, I've decided to put my money where my mouth is, and donate £429 to projects guaranteed to enrich more lives than 9.7 inches of touchscreen glass could ever hope to improve my own.
 
-By splitting the price of a 16GB Wi-Fi iPad between the three charities I support, I've been able to fund:
+By splitting the price of a 16Gb Wi-Fi iPad between the three charities I support, I've been able to fund:
 
 ### For WWF
 * The training of one villager, in Borneo, to become a Wildlife Warden
@@ -53,3 +53,7 @@ When you see how such an amount of money can be spent on rather more important t
 [2]: http://www.apple.com/pr/library/2010/05/31ipad.html
 [3]: http://adactio.com/journal/1644/
 [4]: http://gregorywood.co.uk/journal/thirteen-alternative-things
+
+*[Gb]: Gigabyte
+*[PDF]: Portable Document Format
+*[WWF]: World Wide Fund for Nature

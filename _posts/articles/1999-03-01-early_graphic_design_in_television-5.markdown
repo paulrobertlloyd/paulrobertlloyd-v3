@@ -60,3 +60,9 @@ However it was the eighties in which the computers use was more obvious to the v
 </figure>
 
 As for programme titles, they all seemed to embrace colour in a way that was not seen during the previous decade with the influence from Channel Four's identity on graphic designers particularly evident at this time. Using a similar palette to that of new channels identity, designers and often mixed photographs with illustrations which were usually very stylistic and sometimes of a cartoon nature. It also saw a return of the familiar black background in titles -- last seen in the fifties -- and on most occasions, titles ended with a simple title on black.
+
+*[3D]: three dimensional
+*[BBC]: British Broadcasting Corporation
+*[ITN]: Independant Television News
+*[ITV]: Independant Television
+*[TV]: television

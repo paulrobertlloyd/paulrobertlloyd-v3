@@ -42,3 +42,5 @@ Finally, I'll be back in the UK next week, so kicks up the backside, slaps in th
 [1]: /2007/01/two_thousand_and_seven
 [2]: /2007/03/finally_a_ning_to_be_proud_of
 [3]: /2007/01/seven_goals_for_07
+
+*[UK]: United Kingdom

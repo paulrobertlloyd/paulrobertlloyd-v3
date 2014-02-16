@@ -20,3 +20,5 @@ This contradiction is possibly due to the software being produced by one company
 When you consider that estimated annual CO2 emissions from set-top boxes left on standby is 60,000 tonnes alone ([source][1]), the message accompanying this update not only contradicts the advice given by governments and energy conservation organisations, but defies common sense too.
 
 [1]: http://news.bbc.co.uk/1/hi/sci/tech/4620350.stm
+
+*[TV]: television

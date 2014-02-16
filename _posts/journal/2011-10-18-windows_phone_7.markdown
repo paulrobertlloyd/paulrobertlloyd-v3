@@ -55,3 +55,6 @@ Overall, a good looking device that on closer inspection revealed itself to be c
 [3]: http://designedbygold.com/2011/10/the-metaphors-breaking-the-future/
 [4]: http://www.htc.com/uk/smartphones/htc-hd7/
 [5]: http://dcurt.is/2011/10/03/3-point-5-inches/
+
+*[SXSW]: South by SouthWest
+*[UI]: user interface

@@ -16,3 +16,6 @@ Yet in our celebrity obsessed media landscape, I wonder if the novelty of such a
 Regardless of the methods used to entertain us, I'll certainly be donating on the night, and I encourage you to do so as well. You can even [donate right now on rednoseday.com][1], so what are you waiting for!
 
 [1]: http://rednoseday.com/donate
+
+*[BBC]: British Broadcasting Corporation
+*[UK]: United Kingdom

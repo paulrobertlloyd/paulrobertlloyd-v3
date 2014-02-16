@@ -111,3 +111,12 @@ Having a broader skillset has always been beneficial on the web, but as we build
 [10]: http://www.alistapart.com/articles/responsive-web-design/
 [11]: http://twitter.com/#!/wilto/statuses/63284673723375616
 [12]: http://www.markdotto.com/2011/04/15/fatten-up-those-ts/
+
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[HTTP]: HyperText Transfer Protocol
+*[Mb]: Megabyte
+*[PDF]: Portable Document Format
+*[PNG]: Portable Network Graphic
+*[URI]: Uniform Resouce Indicator
+*[URL]: Uniform Resouce Locator

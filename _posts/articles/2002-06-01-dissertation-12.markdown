@@ -144,8 +144,15 @@ As for the BBC's regions, they again took the BBC News elements, whilst adjustin
     <img class="left" src="/assets/articles/dissertation/figure-48d.png" alt="" />
     <figcaption>
         <h4>Figure 48</h4>
-        <p>The BBC News brand was applied to all national output, including its bulletins for the Welsh forth channel <abbr title="Sianel Pedwar Cymru/Channel Four Wales">S4C</abbr>.</p>
+        <p>The BBC News brand was applied to all national output, including its bulletins for the Welsh forth channel S4C.</p>
     </figcaption>
 </figure>
 
 All bulletins on BBC1 shared the same set, with the nations and regions using similar sets based on the same themes. Even the 24-hour news channels borrowed elements, creating a unified brand across every area of the departments presentation. Music again followed the 'same but different' theme, using upbeat yet punchy scores based on the famous beeps heard on radio to mark the hour.
+
+*[BBC]: British Broadcasting Corporation
+*[ITN]: Independant Television News
+*[ITV]: Independant Television
+*[MP]: Member of Parliament
+*[S4C]: Sianel Pedwar Cymru/Channel Four Wales
+*[UK]: United Kingdom

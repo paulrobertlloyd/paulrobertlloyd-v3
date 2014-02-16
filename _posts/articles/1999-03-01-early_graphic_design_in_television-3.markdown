@@ -76,3 +76,11 @@ The introduction, firstly of 625-line broadcasts and later colour, had obvious b
 </figure>
 
 These considerations were particularly true of the seventies, especially the early years. Colour wasn't truly advantageous to the graphic designer as, although it allowed greater creativity, it had the major disadvantage in that mistakes were harder to conceal. Before colour and 625-lines, due to the quality of the medium, a lot of graphic designers managed to get things broadcast that wouldn't be now with the mediums picture improvements. This meant graphic design wasn't as straight forward, and designers had to think much more about what they were producing and pay much more attention to detail.
+
+*[ABC]: Associated British Corporation
+*[ATV]: Associated TeleVision
+*[BBC]: British Broadcasting Corporation
+*[ITA]: Independent Television Authority
+*[ITV]: Independant Television
+*[Ltd]: Limited company
+*[PAL]: Phase Alternating Line

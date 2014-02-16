@@ -5,9 +5,9 @@ date: '2011-05-13 23:37:48 +0100'
 excerpt: Much of the excitement has come in the form of web conferences, and looking back, I find it surprising just how many I've attended this year already.
 post_id: 211
 ---
-Hard to believe that it is May already; another year that's flying by. Luckily it has been fairly fun packed so far, with much of this excitement thanks to the many web conferences I've been to this year. It kicked off with [The Design of Understanding][1] and [New Adventures][2] in January, with SXSW following in March, and only last month I was attending [<abbr>UX</abbr> London][3]. It hasn't just been the big events either; tomorrow sees a mobile focused [Multipack Presents][4], which due to its growing popularity has now relocated to a larger venue.
+Hard to believe that it is May already; another year that's flying by. Luckily it has been fairly fun packed so far, with much of this excitement thanks to the many web conferences I've been to this year. It kicked off with [The Design of Understanding][1] and [New Adventures][2] in January, with SXSW following in March, and only last month I was attending [UX London][3]. It hasn't just been the big events either; tomorrow sees a mobile focused [Multipack Presents][4], which due to its growing popularity has now relocated to a larger venue.
 
-I've also been trying my hand at speaking myself, largely around themes of [style guides][5] and [web native design][6]. I deliberately started with small appearances in front of friends at Multipack events before speaking to less familiar faces at an [<abbr title="Association of Publishing Agencies">APA</abbr> Digital Breakfast][7] in March. Last month I spoke at [Oxford Geek Nights][8], a fantastically popular event that meant presenting with a microphone for the first time -- far harder than you would imagine. Once I got over my initial nerves and found my flow, I was enjoying myself so much that I honestly didn't want to stop! For those curious how I did, there should be video of my talk online shortly.
+I've also been trying my hand at speaking myself, largely around themes of [style guides][5] and [web native design][6]. I deliberately started with small appearances in front of friends at Multipack events before speaking to less familiar faces at an [APA Digital Breakfast][7] in March. Last month I spoke at [Oxford Geek Nights][8], a fantastically popular event that meant presenting with a microphone for the first time -- far harder than you would imagine. Once I got over my initial nerves and found my flow, I was enjoying myself so much that I honestly didn't want to stop! For those curious how I did, there should be video of my talk online shortly.
 
 Still, I'm an attendee at heart, and if there is one thing that governs my choice of conference, it's a single track. I too share [Jeremy's frustration][9] with multiple track conferences, especially those that distinguish between design and development which I believe is a largely false division. There's something about a single track conference that makes it feel more curated and focused, with everyone's collective experience allowing for common themes and ideas to emerge.
 
@@ -58,3 +58,8 @@ So, there we have it. Lots to look forward to, and still much to plan, yet I sus
 [22]: http://twitter.com/lizes
 [23]: http://en.wikipedia.org/wiki/Canadian_(train)
 [24]: http://lanyrd.com/people/paulrobertlloyd/
+
+*[APA]: Association of Publishing Agencies
+*[DC]: District of Columbia
+*[SXSW]: South by SouthWest
+*[UX]: user experience

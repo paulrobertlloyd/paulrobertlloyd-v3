@@ -52,3 +52,5 @@ All in all, an exciting trip, even more so given the distances and locations inv
 [9]: http://en.wikipedia.org/wiki/1956_Summer_Olympics
 [10]: http://houseofkyle.com/
 [11]: http://philmccluskey.com/
+
+*[LAX]: Los Angeles International Airport

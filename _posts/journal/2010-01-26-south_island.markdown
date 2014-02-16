@@ -82,3 +82,5 @@ Whenever I mentioned the low numbers, the owner seemed convinced that patronage 
 [8]: http://en.wikipedia.org/wiki/Boulder_Bank
 [9]: http://www.boatshedcafe.co.nz/
 [10]: http://www.customhousenelson.co.nz/
+
+*[CBD]: Central Business District

@@ -123,3 +123,8 @@ I'll be speaking more about this topic at this year's [Geek in the Park][21]. Jo
 [23]: http://andrewdisley.com/
 [24]: http://sleepykyoto.com/
 [25]: http://lanyrd.com/2011/geekinthepark/
+
+*[API]: application programming interface
+*[BBC]: British Broadcasting Corporation
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language

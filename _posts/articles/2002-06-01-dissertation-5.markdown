@@ -11,7 +11,7 @@ As in other areas of contemporary marketing, the idea of "the brand" replaced ol
 
 The first real attempt to create a brand to rival Channel 4's came in 1989 when the Independent Television Association decided to create a new ITV corporate brand for its fragmented network, that would provide a consistent image across its regions with a stylish and meaningful design.
 
-> English Markell Pockett had to come up with a new logo that could incorporate fifteen regional variations into a single corporate image to counter the strong national images of new satellite stations like <abbr title="British Satelite Broadcasting">BSB</abbr>.
+> English Markell Pockett had to come up with a new logo that could incorporate fifteen regional variations into a single corporate image to counter the strong national images of new satellite stations like BSB.
 
 <small>McClellan, 1990</small>
 
@@ -53,7 +53,7 @@ With both Channel 4 and ITV having modern idents, the BBC's two channels were st
 
 Being a public television service paid for by the people and so not littered with advertising, as well as an institution with a rich history entwined with the nations, it is seen as impartial and trustworthy, innovative and the gold-standard in television. The image it projects is in some ways, a reflection of us and our country and this importance means it has an image that is not to be meddled with lightly.
 
-Whilst BBC1's slightly wooden and stayed <abbr title="Computer Originated World">COW</abbr> ident was popular, BBC2's hadn't managed to keep pace with the changing programming of the channel and was perceived as boring and snobbish, and summed up with a predominately grey ident. Furthermore, the two channels had no consistency between them or any of their own promotions, and their identities didn't transfer well to print.
+Whilst BBC1's slightly wooden and stayed COW ident was popular, BBC2's hadn't managed to keep pace with the changing programming of the channel and was perceived as boring and snobbish, and summed up with a predominately grey ident. Furthermore, the two channels had no consistency between them or any of their own promotions, and their identities didn't transfer well to print.
 
 In 1990, Martin Lambie-Nairn -- a former employee of the BBC's in-house graphics department during the 1960's -- was brought in to refresh the identities of both channels.
 
@@ -99,3 +99,9 @@ Indeed 11 years since they were first aired, the 2's can still be seen onscreen,
 Within two years, the face of television in the UK was now akin to that of a supermarket shelf with the viewer able to chose from three separate yet distinct brands. Whilst BBC's 1 and 2 now had a consistency between them, BBC1 still maintained its sense of quality, whilst BBC2 had a flexible yet familiar identity more appropriate to its changeable programming. ITV had a new corporate personality and (some) consistency across the regions, yet kept its popular programming outlook, and Channel 4's identity -- unchanged for 10 years was still appropriate and popular. Whilst BBC1 relied on its familiar globe identity, backed by variations of the '1' numeral for seasonal and programme promotions, ITV had to seemingly remind its viewers what it strengths were as a channel within its idents (most programme promotion was dependent upon region).
 
 Whilst the flagship channels had dark idents with subtle hints of colour, BBC2 and Channel 4 clearly became slightly alternative viewing matched with two colourful figures competing against each other for wit and personality (BBC2's being a more modern treatment) and both figures had the flexibility to match the varied programming of each channel.
+
+*[BBC]: British Broadcasting Corporation
+*[BSB]: British Satelite Broadcasting
+*[COW]: Computer Originated World
+*[ITV]: Independant Television
+*[UK]: United Kingdom

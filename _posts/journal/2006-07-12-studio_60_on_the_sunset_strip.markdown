@@ -17,3 +17,6 @@ I'm really looking forward to this one, and should hopefully fill the gap left b
 [4]: http://www.imdb.com/name/nm0539651/
 [5]: http://www.imdb.com/name/nm1682319/
 [6]: http://www.comedycentral.com/shows/the_daily_show/
+
+*[NBC]: National Broadcasting Company
+*[UK]: United Kingdom

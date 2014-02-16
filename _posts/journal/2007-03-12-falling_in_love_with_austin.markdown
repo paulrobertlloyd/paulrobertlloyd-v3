@@ -13,3 +13,5 @@ Finally, that long awaited blog post about the new Ning is still one I hope to p
 
 [1]: http://2007.sxsw.com/
 [2]: http://20x2.org/
+
+*[SXSW]: South by SouthWest

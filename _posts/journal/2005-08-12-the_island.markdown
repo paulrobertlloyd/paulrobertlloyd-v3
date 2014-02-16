@@ -30,3 +30,5 @@ In typical Michael Bays style, this film promises much, but delivers little. Muc
 Overall, an average film ruined by all too visible sponsorship.
 
 [4]: http://www.imdb.com/name/nm0000114/
+
+*[GM]: General Motors

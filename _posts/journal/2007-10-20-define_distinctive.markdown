@@ -58,3 +58,9 @@ That's why I agree that the BBC should be smaller and more distinctive, but I qu
 [4]: http://www.bbc.co.uk/bbcparliament
 [5]: http://www.bbc.co.uk/hd/
 [6]: http://www.pbs.org/
+
+*[BBC]: British Broadcasting Corporation
+*[HD]: High Definition
+*[PBS]: Public Broadcasting Service
+*[UK]: United Kingdom
+*[US]: United States

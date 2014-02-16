@@ -13,7 +13,7 @@ post_id: 408
 ## An Introduction
 In 15 minutes I hope to give you an insight into the many opportunities and challenges facing web designers in 2013. But first, a little bit about myself.
 
-I currently work at a user experience design agency in Brighton called [Clearleft][4]. We are a small agency that work with big clients such as the BBC, NBC Universal, Channel 4 and Mozilla. We also work with smaller start-ups and charities like WWF, UNICEF and 38 Degrees. My title is *senior visual designer*, but I try to position myself at the intersection of both graphic design and front-end development.
+I currently work at a user experience design agency in Brighton called [Clearleft][4]. We are a small agency that work with big clients such as the BBC, NBCUniversal, Channel 4 and Mozilla. We also work with smaller start-ups and charities like WWF, UNICEF and 38 Degrees. My title is *senior visual designer*, but I try to position myself at the intersection of both graphic design and front-end development.
 
 Prior to joining Clearleft I was lead designer at Ning, a start-up based in Palo Alto, California. I worked there during 2006-7, when a lot of the companies we know today were just getting started. Working in the Valley was an amazing -- and at times eye-opening -- experience.
 
@@ -103,3 +103,14 @@ At least, I don't know if there is a right way -- or if there ever will be. My p
 [12]: http://www.lukew.com/ff/entry.asp?933
 [13]: http://alistapart.com/article/dao
 [14]: http://alistapart.com/article/the-web-aesthetic
+
+*[BBC]: British Broadcasting Corporation
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[HTTP]: HyperText Transfer Protocol
+*[Mb]: Megabyte
+*[PDF]: Portable Document Format
+*[UK]: United Kingdom
+*[UNICEF]: The United Nations Children's Fund
+*[URL]: Uniform Resouce Locator
+*[WWF]: World Wide Fund for Nature

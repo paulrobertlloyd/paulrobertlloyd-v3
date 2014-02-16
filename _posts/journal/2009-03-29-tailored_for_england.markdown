@@ -38,3 +38,5 @@ Whilst I'm sure the design is still targeted at the consumer, perhaps it's telli
 
 [1]: http://news.bbc.co.uk/sport1/hi/football/internationals/7967094.stm
 [2]: http://www.umbro.com/
+
+*[FA]: Football Association

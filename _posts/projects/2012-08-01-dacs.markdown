@@ -40,3 +40,7 @@ We reworked the IA so that users could quickly be directed to the right section 
 When it came to the visual design, DACS had already undergone an extensive rebrand exercise for print but they needed assistance translating this to work online. Ultimately, we drew upon their photographic library of artists to give a 'human face' to the organisation, combined with a restrained typographic pallet to ensure clarity. This was, of course, developed responsively so that content could be experienced equally well regardless of the device being used to access it.
 
 [1]: http://clearleft.com/is/harry-brignull/
+
+*[DACS]: Design and Artists Copyright Society
+*[IA]: information architecture
+*[UK]: United Kingdom

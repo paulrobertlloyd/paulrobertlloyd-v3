@@ -41,3 +41,10 @@ The more I mature as a designer, the more I've come to enjoy simple, clean and u
 
 [5]: http://staff.tumblr.com/post/2127872280/downtime
 [6]: /2010/12/styleguides_for_the_web
+
+*[BBC]: British Broadcasting Corporation
+*[CSS]: Cascading Style Sheets
+*[GEL]: Global Experience Language
+*[HTML]: HyperText Markup Language
+*[IA]: information architecture
+*[URL]: Uniform Resouce Locator

@@ -13,7 +13,7 @@ Given that I'm back to work tomorrow morning, and a return to some sort of norma
 
 2. ### Learn More About My Profession
 
-  I can't help feeling that since I left university I have stopped reading around the subject of design, and as a result my work has become uninspired. Time to start visiting museums and art galleries in the area! I also really need to start getting a grip on at least the basics of this JavaScript and <abbr title="Document Object Model">DOM</abbr> malarkey which I have been putting of for far too long now.
+  I can't help feeling that since I left university I have stopped reading around the subject of design, and as a result my work has become uninspired. Time to start visiting museums and art galleries in the area! I also really need to start getting a grip on at least the basics of this JavaScript and DOM malarkey which I have been putting of for far too long now.
 
 3. ### Take More Photos
 
@@ -43,3 +43,5 @@ Given that I'm back to work tomorrow morning, and a return to some sort of norma
 [2]: http://www.amazon.co.uk/exec/obidos/ASIN/0006550681/
 [3]: /2007/01/project_365/
 [4]: http://flickr.com/photos/lloydyweb/4460272959/in/set-72157594458562627/
+
+*[DOM]: Document Object Model

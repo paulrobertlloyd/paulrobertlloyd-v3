@@ -32,3 +32,6 @@ Craig Grannell at <cite>.net magazine</cite> had [developers provide their thoug
 [7]: http://html.adobe.com/edge/typekit
 [8]: http://html.adobe.com/edge/phonegap-build
 [9]: http://netmagazine.com/features/devs-respond-adobe-edge-suite
+
+*[CSS]: Cascading Style Sheets
+*[W3C]: World Wide Web Consortium

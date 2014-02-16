@@ -26,3 +26,5 @@ Now to be fair, I was helped by two (British) assistants who wheeled my Mac all 
 But at the moment I feel disappointed with the Apple Store. I hope it will become a more pleasant place to shop in the future, with staff that will hopefully know their products better, and also gain a more reserved British feel. At the moment there is an over the top, falseness like all things American, that really rubs me up the wrong way.
 
 Whilst the new staff are fresh and still learning their jobs, those flown over from the states to help out only seem to highlight the language barrier that exists between our two very different cultures. So far my Apple Store experience has been an uncomfortable one.
+
+*[Gb]: Gigabyte

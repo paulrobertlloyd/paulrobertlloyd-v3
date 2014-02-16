@@ -78,3 +78,8 @@ With 2008 behind me, now it's time to think about how to build upon the groundwo
 [20]: http://en.wikipedia.org/wiki/Littlehampton
 [21]: http://roobottom.com/
 [22]: http://clearleft.com/
+
+*[DC]: District of Columbia
+*[SXSW]: South by SouthWest
+*[UK]: United Kingdom
+*[US]: United States

@@ -35,3 +35,5 @@ So be sure to join us next Saturday, the 17th of October. As usual, the event ki
 [10]: http://www.brucelawson.co.uk/
 [11]: http://www.oneblackbear.com/
 [12]: http://upcoming.yahoo.com/event/4546575/
+
+*[HTML]: HyperText Markup Language

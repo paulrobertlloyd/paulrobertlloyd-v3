@@ -157,3 +157,12 @@ Whilst much of this talk has focused on the styleguide as a deliverable, I hope 
 [18]: http://weblog.muledesign.com/2010/08/why_we_dont_deliver_photoshop_files.php
 [19]: http://natbat.net/
 [20]: http://adactio.com/
+
+*[BBC]: British Broadcasting Corporation
+*[CEO]: Chief Executive Officer
+*[HTML]: HyperText Markup Language
+*[GEL]: Global Experience Language
+*[IA]: information architecture
+*[Mb]: Megabyte
+*[PDF]: Portable Document Format
+*[RGB]: Red-Green-Blue

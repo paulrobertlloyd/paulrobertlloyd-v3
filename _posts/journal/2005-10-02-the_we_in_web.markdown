@@ -43,3 +43,5 @@ In the last few months since Live8, and the [MakePovertyHistory][13] campaign, I
 [11]: http://www.capturenewcastle.co.uk/
 [12]: http://www.stopdesign.com/log/2005/08/24/photo-templates.html#comment4
 [13]: http://www.makepovertyhistory.org/
+
+*[PHP]: PHP: Hypertext Preprocessor

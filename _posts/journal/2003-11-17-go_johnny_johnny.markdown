@@ -39,3 +39,7 @@ excerpt: Wow what a day! Asked earlier by Fordy if I thought this trip had made 
     Also booked myself for a hair cut next week -- and we ain't talking short back and sides! The beard is now very wirely, and is that sideburns I can see also!
 
     I think that's about it -- keep the e-mails coming people, because no matter how hot and sunny it is over here, I do miss home (you've only been there two weeks?). Just to drink real coffee again, and know the actual value of the crap I'm buying!
+
+*[ITV]: Independant Television
+*[TV]: television
+*[UK]: United Kingdom

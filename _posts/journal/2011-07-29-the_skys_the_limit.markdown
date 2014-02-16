@@ -30,3 +30,6 @@ I love Formula 1, but not as much as I hate News Corporation and the destructive
 [1]: http://www.bbc.co.uk/sport1/hi/motorsport/formula_one/9550930.stm
 [2]: http://www.bbc.co.uk/news/business-14338032
 [3]: http://www.guardian.co.uk/commentisfree/2011/feb/18/phone-hacking-football-bskyb-news-international
+
+*[BBC]: British Broadcasting Corporation
+*[UK]: United Kingdom

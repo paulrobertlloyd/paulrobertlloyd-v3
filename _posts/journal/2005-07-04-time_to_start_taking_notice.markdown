@@ -28,3 +28,6 @@ It may be difficult, but of all the 52 weeks of the year, this is the one week w
 [6]: http://www.channel4.com/news/
 [7]: http://news.bbc.co.uk/1/hi/programmes/newsnight/
 [8]: /2005/04/selection/
+
+*[BBC]: British Broadcasting Corporation
+*[G8]: Group of Eight

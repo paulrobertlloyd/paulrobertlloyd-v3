@@ -26,3 +26,11 @@ If you're interested, then why not e-mail <jobs@ning.com> attaching your CV (or 
 
 [1]: http://en.wikipedia.org/wiki/Palo_Alto%2C_California.
 [2]: http://jobs.ning.com/group.php?FAQGroup:title=Product+Management+%26+Design+#faq-2416020
+
+*[CSS]: Cascading Style Sheets
+*[DOM]: Document Object Model
+*[HTML]: HyperText Markup Language
+*[PNG]: Portable Network Graphic
+*[UI]: user interface
+*[W3C]: World Wide Web Consortium
+*[XML]: Extensible Markup Language

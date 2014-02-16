@@ -6,7 +6,7 @@ link: http://daringfireball.net/2013/01/the_trend_against_skeuomorphism
 ---
 John Gruber:
 
-> The trend away from skeuomorphic special effects in <abbr title="user interface">UI</abbr> design is the beginning of the retina-resolution design era. Our designs no longer need to accommodate for crude pixels. Glossy/glassy surfaces, heavy-handed transparency, glaring drop shadows, [embossed text][1], textured material surfaces -- these hallmarks of modern <abbr>UI</abbr> graphic design style are (almost) never used in good print graphic design. They're unnecessary in print, and, the higher the quality of the output and more heavy-handed the effect, the sillier such techniques look.
+> The trend away from skeuomorphic special effects in UI design is the beginning of the retina-resolution design era. Our designs no longer need to accommodate for crude pixels. Glossy/glassy surfaces, heavy-handed transparency, glaring drop shadows, [embossed text][1], textured material surfaces -- these hallmarks of modern UI graphic design style are (almost) never used in good print graphic design. They're unnecessary in print, and, the higher the quality of the output and more heavy-handed the effect, the sillier such techniques look.
 
 John's article forms part of a larger discussion about the possible emergence of a truer digital aesthetic. [Flat interfaces][2], such as those seen in Microsoft's Metro UI and the BBC's GEL project are certainly fashionable, and thankfully, to my taste. Simpler interfaces are particularly suited to the web; high-fidelity interfaces can require a large number of image assets or many lines of CSS, reducing overall performance.
 
@@ -19,3 +19,8 @@ Be sure to read [Max Rudberg's counter argument][5], too.
 [3]: http://en.wikipedia.org/wiki/Art_Nouveau
 [4]: http://en.wikipedia.org/wiki/Minimalism
 [5]: http://blog.maxrudberg.com/post/41005209081/flat-ui-is-not-the-only-way-forward
+
+*[BBC]: British Broadcasting Corporation
+*[CSS]: Cascading Style Sheets
+*[GEL]: Global Experience Language
+*[UI]: user interface

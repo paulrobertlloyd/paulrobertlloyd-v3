@@ -37,3 +37,7 @@ I'm finding myself using Adobe's software less and less. In fact, I'm actively s
 [3]: http://netmagazine.com/features/developers-respond-adobe-muse
 [4]: http://mattgemmell.com/
 [5]: http://getsatisfaction.com/adobe/topics/why_are_uk_prices_nearly_double_us_prices
+
+*[HTML]: HyperText Markup Language
+*[OS]: operation system
+*[SVG]: Scalable Vector Graphics

@@ -60,3 +60,5 @@ What we have today is a solid foundation to build upon, and something I'm glad t
 [3]: http://adactio.com/journal/1265/
 [4]: http://www.techcrunch.com/2007/02/26/ning-in-full/
 [5]: http://chimprawk.blogspot.com/2007/03/ning-elegant-group-based-social.html
+
+*[SXSW]: South by SouthWest

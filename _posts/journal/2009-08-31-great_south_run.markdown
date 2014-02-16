@@ -14,3 +14,5 @@ Once again I'm collecting sponsorship on-line with Just Giving, so [please visit
 [1]: /2006/05/great_manchester_run_2006/
 [2]: http://www.greatrun.org/events/event.aspx?id=12
 [3]: http://www.justgiving.com/paulrobertlloyd-gsr09
+
+*[UK]: United Kingdom

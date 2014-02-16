@@ -50,3 +50,5 @@ Based upon initial designs for the public beta created by [Aegir Hallmundur][1],
 [1]: http://aegir.me/work/fontdeck/
 [2]: http://fontdeck.com/typeface/adelle
 [3]: http://fontdeck.com/typeface/ptsans
+
+*[CSS]: Cascading Style Sheets

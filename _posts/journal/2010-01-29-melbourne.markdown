@@ -58,7 +58,7 @@ Much like I did after [my travels across Europe][12] last year, I'd like to fini
 
 2. **Sleep Cheap:** I was slightly anxious about staying in hostels, and whilst it was sometimes annoying to share a room with complete strangers, it did result in me getting up early (when sleeping in a single room the temptation to sleep until 11am was often too great). I can't think how much money I saved either -- an absolute bargain seeing as most where of equal quality to many hotels.
 
-3. **Roam Prepaid:** Given the silly amount I spent whilst roaming across Europe, I really didn't want to the same in Australasia, where data is doubly expensive. I purchased a 'Data Abroad' bolt-on for £50, and this drastically reduced my mobile phone bill. I would have used less than the 50MB pre-paid allowance had I not downloaded an entire Wikipedia article on the history of the [Australian National Flag][14]!
+3. **Roam Prepaid:** Given the silly amount I spent whilst roaming across Europe, I really didn't want to the same in Australasia, where data is doubly expensive. I purchased a 'Data Abroad' bolt-on for £50, and this drastically reduced my mobile phone bill. I would have used less than the 50Mb pre-paid allowance had I not downloaded an entire Wikipedia article on the history of the [Australian National Flag][14]!
 
 Overall, whilst this trip was really inspiring, and a great start to this new decade, I feel as though I didn't make the most of the opportunity. Given that I went all the way to New Zealand, not have seen some of the most popular sites (especially those on the South Island) only serves to annoy me. The same is true for the experience I had watching the fireworks display in Sydney. Had I planned properly, I may have gone to a ticketed event that could guarantee comfort and a view. The lesson to be learnt here is to focus on the preparation next time around.
 
@@ -76,3 +76,6 @@ Overall, whilst this trip was really inspiring, and a great start to this new de
 [12]: /2009/06/europa
 [13]: http://37signals.com/svn/posts/1268-pack-half-of-what-you-think-you-need
 [14]: http://en.wikipedia.org/wiki/Flag_of_Australia
+
+*[CBD]: Central Business District
+*[Mb]: Megabyte

@@ -11,15 +11,15 @@ I've often found myself requiring icons when linking to or referencing different
 
 * * *
 
-<a class="action" href="https://github.com/paulrobertlloyd/socialmediaicons/archive/v1.10.0.zip" download>Download Social Media Icons</a>  --  Version 1.10, 3.8MB
+<a class="action" href="https://github.com/paulrobertlloyd/socialmediaicons/archive/v1.10.0.zip" download>Download Social Media Icons</a>  --  Version 1.10, 3.8Mb
 
 <small>Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][3]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.</small>
 
 ## Included Icons
 
 <ul class="socialmediaicons">
-    <li><span class="icon px500">500px</span></span></li>
-    <li><span class="icon aim"><abbr title="AOL Instant Messnger">AIM</abbr></span></span></li>
+    <li><span class="icon px500">500px</span></li>
+    <li><span class="icon aim">AIM</span></li>
     <li><span class="icon amazon">Amazon</span></li>
     <li><span class="icon adn">App.net</span></li>
     <li><span class="icon behance">Behance</span></li>
@@ -45,7 +45,7 @@ I've often found myself requiring icons when linking to or referencing different
     <li><span class="icon google-plus">Google+</span></li>
     <li><span class="icon huffduffer">Huffduffer</span></li>
     <li><span class="icon identica">Identi.ca</span></li>
-    <li><span class="icon imdb"><abbr title="Internet Movie Database">IMDb</abbr></span></li>
+    <li><span class="icon imdb">IMDb</span></li>
     <li><span class="icon instagram">Instagram</span></li>
     <li><span class="icon lanyrd">Lanyrd</span></li>
     <li><span class="icon lastfm">Last.fm</span></li>
@@ -111,7 +111,7 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 ### v1.9 <small>&#160;24 January 2012</small>
 * Added 7 new icons (500px, Etsy, Instagram, Pintrest, Soundcloud, Stack Overflow, Zerply)
 * Removed 8 icons (Bebo, eBay, Fire Eagle, Gowalla, Mixx, Netvibes, PayPal, Picasa)
-* <abbr>AIM</abbr> icon updated with new logo
+* AIM icon updated with new logo
 * Foursquare icon updated with revised logo
 * Google+ icon updated with new logo
 * Lanyrd icon updated to match iOS icon
@@ -137,7 +137,7 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 
 ### v1.6 <small>&#160;22 September 2010</small>
 * Added 8 new icons (BBC iD, Formspring, Github, Lanyrd, Meetup, Plancast, Retweet, Spotify)
-* Removed 4 icons (Just Giving, Ning, <abbr>OPML</abbr>, Virb)
+* Removed 4 icons (Just Giving, Ning, OPML, Virb)
 * Digg icon updated with new brand colouring
 * iTunes icon redrawn with new logo
 * Get Satisfaction icon redrawn with new logo
@@ -156,13 +156,13 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 * Outer borders are now alpha-transparent. Icons should work better on different background colours
 * Inner bevel redesigned
 * Images are now compressed. Average icon file sizes are now 50% smaller
-* 'Read Me' file now provides required attribution for Geotag, <abbr>OPML</abbr> and Share icons
+* 'Read Me' file now provides required attribution for Geotag, OPML and Share icons
 
 ### v1.2 <small>&#160;11 September 2009</small>
-* Added 10 new icons (eBay, Ffffound, Goodreads, iLike, <abbr>IMDb</abbr>, iMeem, iTunes, Just Giving, Posterous, Wikipedia)
+* Added 10 new icons (eBay, Ffffound, Goodreads, iLike, IMDb, iMeem, iTunes, Just Giving, Posterous, Wikipedia)
 
 ### v1.1 <small>&#160;26 July 2009</small>
-* Added 14 new icons (AIM, Amazon, Bebo, vCard, Google Talk, <abbr>MSN</abbr> Messenger, Nike+, OpenID, <abbr>OPML</abbr>, Orkut, Picasa, Skype, Virb, Yahoo Messenger)
+* Added 14 new icons (AIM, Amazon, Bebo, vCard, Google Talk, MSN Messenger, Nike+, OpenID, OPML, Orkut, Picasa, Skype, Virb, Yahoo Messenger)
 * QuickSnapper is now Ember
 * 16x16 icons now provided in 8-bit PNG format
 * Various visual tweaks to all icons (borders, highlights etc.)
@@ -175,3 +175,10 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 [2]: http://www.komodomedia.com/blog/2008/12/social-media-mini-iconpack/
 [3]: http://creativecommons.org/licenses/by-sa/3.0/
 [4]: https://github.com/paulrobertlloyd/socialmediaicons/issues
+
+*[AIM]: AOL Instant Messnger
+*[BBC]: British Broadcasting Corporation
+*[IMDb]: Internet Movie Database
+*[Mb]: Megabyte
+*[OPML]: Outline Processor Markup Language
+*[PNG]: Portable Network Graphic

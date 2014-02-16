@@ -43,3 +43,5 @@ It's no accident that this exhibition is housed in the Barbican Centre, as it an
 [11]: http://en.wikipedia.org/wiki/Park_Hill,_Sheffield
 [12]: http://en.wikipedia.org/wiki/Cumbernauld_town_centre
 [13]: http://www.barbican.org.uk/lecorbusier/
+
+*[IBM]: International Business Machines

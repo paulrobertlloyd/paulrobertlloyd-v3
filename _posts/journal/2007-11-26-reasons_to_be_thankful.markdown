@@ -23,3 +23,6 @@ All in all, this is exactly how I would want to spend Thanksgiving, so a **massi
 [4]: http://www.amazon.co.uk/dp/B000FQ9YB0
 [5]: http://www.helveticafilm.com/
 [6]: http://www.imdb.com/title/tt0386032/
+
+*[LAX]: Los Angeles International Airport
+*[NHS]: National Health Service

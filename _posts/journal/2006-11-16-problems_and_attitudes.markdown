@@ -46,3 +46,6 @@ True also that 2006 has seen me accomplish a lot of great things too, see new pl
 [3]: http://sxsw.com/
 [4]: http://en.wikipedia.org/wiki/Thanksgiving
 [5]: http://roobottom.com/
+
+*[UK]: United Kingdom
+*[US]: United States

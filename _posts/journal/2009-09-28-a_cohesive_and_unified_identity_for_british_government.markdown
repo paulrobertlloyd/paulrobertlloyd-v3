@@ -20,7 +20,7 @@ Other governments have a similar array of logos of course, but a few have implem
 
 * [Canadian Federal Identity Program](http://www.tbs-sct.gc.ca/fip-pcim/index-eng.asp)
 * [Australian Government Branding Guidelines](http://www.pmc.gov.au/guidelines/docs/design_guidelines_PMC.pdf) (PDF Document)
-* [South African Government Corporate Identity Guidelines](http://www.gcis.gov.za/services/govt/corpid.pdf) (<abbr>PDF</abbr> Document)
+* [South African Government Corporate Identity Guidelines](http://www.gcis.gov.za/services/govt/corpid.pdf) (PDF Document)
 
 ### United States
 Whilst there is no coordinated branding strategy within the US Federal Government, there is some consistency, largely the result of historical precedent than any centralised planning. Here government departments, federal agencies and programmes use round 'seals', basing their designs on that of the Great Seal, or referencing aspects of it such as the Bald Eagle or the Stars and Stripes.
@@ -113,3 +113,10 @@ Given the growing number of identity schemes implemented by other governments, i
 [6]: http://www.northernireland.gov.uk/index/gov.htm
 [7]: http://www.nhsidentity.nhs.uk/
 [8]: http://news.bbc.co.uk/1/hi/uk_politics/5348630.stm
+
+*[DC]: District of Columbia
+*[NASA]: National Aeronautics and Space Administration
+*[NHS]: National Health Service
+*[PDF]: Portable Document Format
+*[UK]: United Kingdom
+*[US]: United States

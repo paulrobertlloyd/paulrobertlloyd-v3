@@ -31,3 +31,7 @@ His existing site used a Flash-based solution, but this meant his work couldn't 
 
 [1]: http://waldopancake.com/
 [2]: http://puccinosworldwide.com/
+
+*[FTP]: File Transfer Protocol
+*[HTML]: HyperText Markup Language
+*[PHP]: PHP: Hypertext Preprocessor

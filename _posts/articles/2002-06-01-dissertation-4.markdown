@@ -72,3 +72,7 @@ The success of the Channel 4 identity caused immediate resentment from various I
 The viewer was suddenly confronted with an array of flying logos. Thames for example took its familiar London skyline image and turned it into a metallic looking slab and flew around the screen. Of course this had no effect on viewing figures or the popularity of the channels, as the identities bore no relationship to the values of the channels (if anything it made them all look the same). It was just a fascination with a technique.
 
 The BBC for some part, also jumped on the computer generated bandwagon. In 1985, its famous globe became what it termed a COW (Computer Originated World) -- a blue and gold revolving globe on a black background with 'BBC 1' in large gold letters beneath. Its second channel BBC2 used a stenciled serif TWO that rose out of a grey background, with three portions coloured red, green and blue -- the primary colours used to produce colour imagery in television.
+
+*[BBC]: British Broadcasting Corporation
+*[ITV]: Independant Television
+*[UK]: United Kingdom

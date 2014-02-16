@@ -113,3 +113,12 @@ What I have come away with, much like this year, is a renewed energy, and wantin
 [27]: http://www.multipack.co.uk/members/
 [28]: http://flickr.com/photos/dhamilton/
 [29]: http://www.cic.hull.ac.uk/people/dwiggle/index.php
+
+*[UK]: United Kingdom
+
+*[CSS]: Cascading Style Sheets
+*[CVS]: Concurrent Versions System
+*[DOM]: Document Object Model
+*[SVG]: Scalable Vector Graphics
+*[US]: United States
+*[XHTML]: Extensible HyperText Markup Language

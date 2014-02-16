@@ -20,3 +20,5 @@ Having read James' biography, the album will no doubt take on another dimension.
 <cite>So Long, Jimmy</cite> (reportedly inspired by Jimmy Hendrix and Jim Morrison) and <cite>Billy</cite> return to the run of catchier tunes, before <cite>Cry</cite> and finally <cite>No Bravery</cite> (written whilst in Kosovo) remind us of what an intelligent and emotionally charged collection of music this is. Add a unique voice that changes pitch effortlessly, and it just makes for an album that is a joy to listen too.
 
 I have listened to this album far to many times (it's currently playing in my car everyday traveling to and from work) and I still can't get bored of it -- there always seems something new to grab your attention still further. Needless to say, I cannot recommend this album highly enough.
+
+*[TV]: television

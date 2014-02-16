@@ -2,7 +2,7 @@
 layout: post-project
 title: Universal Playback
 date: '2010-11-01 12:00:00 +0000'
-excerpt: The TV-on-DVD label of Universal Pictures UK, responsible for releasing content from NBC Universal as well as other locally acquired series on DVD and blu-ray.
+excerpt: The TV-on-DVD label of Universal Pictures UK, responsible for releasing content from NBCUniversal as well as other locally acquired series on DVD and blu-ray.
 ---
 <div class="slides">
     <figure>
@@ -55,6 +55,10 @@ excerpt: The TV-on-DVD label of Universal Pictures UK, responsible for releasing
     </figure>
 </div>
 
-Playback is the TV-on-DVD label of Universal Pictures in the UK, responsible for releasing content from NBC Universal as well as other acquired series on DVD and Blu-ray disc. Its website acts as an information hub for these shows, providing news, photos, and behind-the-scenes videos and interviews.
+Playback is the TV-on-DVD label of Universal Pictures in the UK, responsible for releasing content from NBCUniversal as well as other acquired series on DVD and Blu-ray disc. Its website acts as an information hub for these shows, providing news, photos, and behind-the-scenes videos and interviews.
 
 I created a modular design that could showcase differing types of content. As Playback acts as a supporting brand to the various television shows it releases, an element of customisation was added, allowing site editors to choose a colour palette that would coordinate with each shows branding.
+
+*[DVD]: Digital Versatile Disc
+*[TV]: television
+*[UK]: United Kingdom

@@ -62,3 +62,6 @@ The series may be fifty years old, but thanks to <cite>Skyfall</cite>, Bond is b
 
 [1]: http://imdb.com/title/tt0055928/
 [2]: http://imdb.com/title/tt1074638/
+
+*[MI6]: Military Intelligence, Section 6
+*[UK]: United Kingdom

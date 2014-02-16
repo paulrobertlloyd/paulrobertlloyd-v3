@@ -21,3 +21,7 @@ Happy browsing!
 [2]: http://lloydyweb.org/articles/webdesign/
 [3]: /2004/07/euro_2004/
 [4]: /2004/07/look_how_far_weve_come/
+
+*[CSS]: Cascading Style Sheets
+*[PHP]: PHP: Hypertext Preprocessor
+*[XHTML]: Extensible HyperText Markup Language

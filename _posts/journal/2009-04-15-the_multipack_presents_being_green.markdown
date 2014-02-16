@@ -28,3 +28,5 @@ You can find [further details about the event on upcoming][6]. This promises to 
 [4]: /2009/03/nothing_green_about_sxsw/
 [5]: http://www.campaignmonitor.com/
 [6]: http://upcoming.yahoo.com/event/2358175/
+
+*[SXSW]: South by SouthWest

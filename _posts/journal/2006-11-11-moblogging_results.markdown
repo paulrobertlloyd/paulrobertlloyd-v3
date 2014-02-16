@@ -21,7 +21,7 @@ These are just some of the problems I encountered:
 
 * Finally, the HTML (or XML) that the phone spits out is very poor and unstructured -- being a single `<img>` and `<span>` element. There is also nowhere that you can actually edit this template (at least to my knowledge).
 
-Another problem, relevant to this topic, and equally as annoying, is that if I rotated or altered an image in any way on the phone, it's 'received' date was updated to the time I performed that action (i.e. the modified date became the created date). I have yet to see if this effects the EXIF data on these images, but again, this was totally unexpected, and damned annoying -- especially given the new 'Browse by date' view that you can choose when browsing photos. Right now, and because of this issue, it's a totally meaningless option.
+Another problem, relevant to this topic, and equally as annoying, is that if I rotated or altered an image in any way on the phone, it's 'received' date was updated to the time I performed that action (i.e. the modified date became the created date). I have yet to see if this effects the Exif data on these images, but again, this was totally unexpected, and damned annoying -- especially given the new 'Browse by date' view that you can choose when browsing photos. Right now, and because of this issue, it's a totally meaningless option.
 
 ## Looking for Alternatives
 In short, this experiment has ended in failure. I actually enjoyed the idea of keeping a moblog, and when it worked, it worked well, but those times were few and far between. The whole experience was hampered by ill-conceived software that has been badly implemented. Until this improves, I will need to find an alternative method of quickly posting photos direct from my mobile, which I am still interested in doing. 
@@ -33,3 +33,9 @@ Either way, the K700i, is not a great phone for moblogging, and the feature stin
 [1]: /2006/11/moblogging_in_new_york/
 [2]: http://lloydyweb.blogspot.com/
 [3]: http://www.nokia.com/lifeblog
+
+*[API]: application programming interface
+*[Exif]: Exchangeable image file format
+*[HTML]: HyperText Markup Language
+*[URL]: Uniform Resouce Locator
+*[XML]: Extensible Markup Language

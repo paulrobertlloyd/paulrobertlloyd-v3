@@ -44,3 +44,5 @@ No business cards (should have gone to [moo.com][17]), no plan of attack for eac
 [16]: http://www.houseofkyle.com/
 [17]: http://www.moo.com/
 [18]: http://www.20x2.org
+
+*[SXSW]: South by SouthWest

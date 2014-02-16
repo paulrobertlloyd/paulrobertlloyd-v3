@@ -33,12 +33,12 @@ In addition to these changes, refactoring the remaining styles meant the new CSS
             <th colspan="2">Bytes downloaded (requests)</th>
         </tr>
         <tr>
-            <td class="label">Before (CSS+<abbr>JS</abbr>+SVG)</td>
-            <td class="value"><span style="width:100%;">11.47 <abbr>kB</abbr> &#160; (3)</span></td>
+            <td class="label">Before (CSS+JS+SVG)</td>
+            <td class="value"><span style="width:100%;">11.47 kB &#160; (3)</span></td>
         </tr>
         <tr>
             <td class="label">After (CSS only)</td>
-            <td class="value"><span style="width:93.80%;">10.76 <abbr>kB</abbr> &#160; (1)</span></td>
+            <td class="value"><span style="width:93.80%;">10.76 kB &#160; (1)</span></td>
         </tr>
     </tbody>
 </table>
@@ -57,15 +57,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="label">First byte</td>
-            <td class="value"><span style="width:12.25%;">1.225 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:12.25%;">1.225 s</span></td>
         </tr>
         <tr>
             <td class="label">Document Complete</td>
-            <td class="value"><span style="width:67.22%;">6.722 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:67.22%;">6.722 s</span></td>
         </tr>
         <tr>
             <td class="label">Fully Loaded</td>
-            <td class="value"><span style="width:67.98%;">6.798 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:67.98%;">6.798 s</span></td>
         </tr>
     </tbody>
     <tbody>
@@ -74,15 +74,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="label">First Byte</td>
-            <td class="value"><span style="width:1.89%;">0.189 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:1.89%;">0.189 s</span></td>
         </tr>
         <tr>
             <td class="label">Document Complete</td>
-            <td class="value"><span style="width:29.88%;">2.988 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:29.88%;">2.988 s</span></td>
         </tr>
         <tr>
             <td class="label">Fully Loaded</td>
-            <td class="value"><span style="width:30.64%;">3.064 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:30.64%;">3.064 s</span></td>
         </tr>
     </tbody>
 </table>
@@ -96,15 +96,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="label">First Byte</td>
-            <td class="value"><span style="width:11.88%;">1.188 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:11.88%;">1.188 s</span></td>
         </tr>
         <tr>
             <td class="label">Document Complete</td>
-            <td class="value"><span style="width:19.61%;">1.961 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:19.61%;">1.961 s</span></td>
         </tr>
         <tr>
             <td class="label">Fully Loaded</td>
-            <td class="value"><span style="width:34.45%;">3.445 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:34.45%;">3.445 s</span></td>
         </tr>
     </tbody>
     <tbody>
@@ -113,15 +113,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="label">First Byte</td>
-            <td class="value"><span style="width:3.87%;">0.387 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:3.87%;">0.387 s</span></td>
         </tr>
         <tr>
             <td class="label">Document Complete</td>
-            <td class="value"><span style="width:7.43%;">0.743 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:7.43%;">0.743 s</span></td>
         </tr>
         <tr>
             <td class="label">Fully Loaded</td>
-            <td class="value"><span style="width:7.43%;">0.743 <abbr>s</abbr></span></td>
+            <td class="value"><span style="width:7.43%;">0.743 s</span></td>
         </tr>
     </tbody>
 </table>
@@ -140,3 +140,15 @@ I dare say further improvements could be made, and I wouldn't be surprised if I'
 [6]: http://blog.cloudflare.com/ttfb-time-to-first-byte-considered-meaningles
 [7]: http://andyhume.net
 [8]: http://www.fastly.com
+
+*[CSS]: Cascading Style Sheets
+*[EOT]: Embedded OpenType
+*[HTTP]: HyperText Transfer Protocol
+*[JS]: JavaScript
+*[kB]: Kilobyte
+*[PHP]: PHP: Hypertext Preprocessor
+*[PNG]: Portable Network Graphic
+*[s]: seconds
+*[SQL]: Search and Query Language
+*[SVG]: Scalable Vector Graphics
+*[URI]: Uniform Resouce Indicator

@@ -19,3 +19,5 @@ Please take a moment to [read my thoughts about the SXSW 'Big Bag'][1] that I po
 [1]: /2009/03/nothing_green_about_sxsw
 [2]: http://blog.agreenfocus.org/post/442407174/tomorrowhappenshere
 [3]: http://blog.agreenfocus.org
+
+*[SXSW]: South by SouthWest

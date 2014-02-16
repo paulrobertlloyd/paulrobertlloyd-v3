@@ -33,3 +33,6 @@ It's perhaps unsurprising therefore, to learn that I am very keen on making a re
 [3]: http://www.justforlaughs.ca/
 [4]: http://www.jim-jeffries.com/
 [5]: http://en.wikipedia.org/wiki/Montreal_Biosph%C3%A8re
+
+*[UK]: United Kingdom
+*[US]: United States

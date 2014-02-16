@@ -89,3 +89,5 @@ The latest update saw some narrative elements added, with the vertical lines bei
 In retrospect, Channel 4 made a mistake in some ways with its over eagerness to compete with Channel 5, a channel that had a very populist output at odds with Channel 4's. It was admitted later that the connections identity was rushed out ahead of the Channel 5 launch, and by the end of the decade returned to an identity close to that of 1982 with a strong involvement of colour and movement.
 
 Although the connections identity was well put together, it wasn't that innovative, but its replacement was completely different to anything else seen on television. For its part, Channel 5's original on-screen identity was one that didn't fit the channel's personality, or its off screen identity -- and it wasn't until two years later that a more appropriate one was aired.
+
+*[UK]: United Kingdom

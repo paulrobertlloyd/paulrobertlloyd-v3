@@ -119,3 +119,12 @@ In essence, GEL is an example of systems level thinking. Design principles defin
 [18]: http://blog.mhurrell.co.uk/post/2946358183/updating-the-helvetica-font-stack
 [19]: http://seedconference.com/
 [20]: http://www.bbc.co.uk/gel/
+
+*[BBC]: British Broadcasting Corporation
+*[GEL]: Global Experience Language
+*[HTML]: HyperText Markup Language
+*[Mb]: Megabyte
+*[PDF]: Portable Document Format
+*[RSS]: Really Simple Syndication
+*[TV]: television
+*[URL]: Uniform Resouce Locator

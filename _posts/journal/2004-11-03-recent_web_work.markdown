@@ -22,3 +22,6 @@ This site is being fiddled with behind the scenes, and version 6.2 aims to basic
 
 ## thegetaways.co.uk
 Whilst this has now been upgraded to allow news and gig administration, the site is planned to have a totally new look, hopefully before Christmas.
+
+*[CSS]: Cascading Style Sheets
+*[XHTML]: Extensible HyperText Markup Language

@@ -265,3 +265,17 @@ Website optimisation can be a cruel game; everything has a number that begs to b
 [17]: http://cloudflare.com/
 [18]: http://code.google.com/p/minify/
 [19]: https://developers.google.com/speed/docs/best-practices/rendering#SpecifyCharsetEarly
+
+*[CDN]: content delivery network
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[HTTP]: HyperText Transfer Protocol
+*[IA]: information architecture
+*[JS]: JavaScript
+*[kB]: Kilobyte
+*[PHP]: PHP: Hypertext Preprocessor
+*[PNG]: Portable Network Graphic
+*[RSS]: Really Simple Syndication
+*[SVG]: Scalable Vector Graphics
+*[URL]: Uniform Resouce Locator
+*[WOFF]: Web Open Font Format

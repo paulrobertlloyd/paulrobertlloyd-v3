@@ -29,3 +29,5 @@ As these look set to be the only events I will be participating in this year (th
 [2]: http://www.simonestuart.co.uk/
 [3]: http://www.mndassociation.org/
 [4]: http://www.cancerresearchuk.org/runformoore/
+
+*[UK]: United Kingdom

@@ -18,3 +18,7 @@ This film was most definitely worth the wait.
 If not for the fact the film is so refreshingly unpredictable, genuinely funny and surprising, then maybe it's down to Natalie Portman convincing you that you fancy the pants of her. The soundtrack is just amazing too, and one of few films where I would like not only to buy the DVD but also the CD.
 
 However, it's real appeal may be just the films blatant originality. Compared the usual toss we get thrown at us at the multiplexes (no surprise we had to find a small independent theatre to see this) it was a real breath of fresh air. In turn this film has inspired me to seek out more films of this ilk, and awaken myself from my own Hollywood induced comma.
+
+*[CD]: Compact Disc
+*[DVD]: Digital Versatile Disc
+*[LA]: Los Angeles

@@ -14,3 +14,7 @@ It is because of these advances in technology and the increasing number of chann
 I will be investigating those areas of design that are directly responsible for giving channels their identity, such as idents or 'stings' (the breaks shown at the junction of programmes) as well as overall presentation style (menus, captions etc.). I will also look at the presentation of news programmes as I feel that that this is one area of programming that defines a channel, and their appearance often reflects this. (This is especially true in some ITV regions where the local news is all that differentiates it from another owned by the same media group, for example in two Carlton owned regions: <cite>Central News</cite> and <cite>London Tonight</cite>). By doing so, I will see how their business, marketing and branding strategies have been developed visually on-screen.
 
 To properly analyse the reasons for any changes to graphic design on television, I will be looking at the broadcasting environment in terms of competition, consolidation, regulation and also any advances in technology used by the designer.
+
+*[BBC]: British Broadcasting Corporation
+*[ITV]: Independant Television
+*[UK]: United Kingdom

@@ -44,3 +44,5 @@ Of course a big question remains. *What does David Cameron stand for?* Hopefully
 
 [1]: http://blogs.bbc.co.uk/nickrobinson/2005/12/dcs_missing_cha.html
 [2]: http://news.bbc.co.uk/1/hi/uk_politics/4509458.stm
+
+*[MP]: Member of Parliament

@@ -16,3 +16,5 @@ It occurred to me during this trip, that I was in the area exactly three years a
 Anyhow, a big thanks to Katie, her parents and everyone who I spent this weekend with, it has seriously been one to remember. Boop!
 
 [1]: http://www.komedia.co.uk/brighton/
+
+*[CD]: Compact Disc

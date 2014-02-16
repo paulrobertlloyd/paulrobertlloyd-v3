@@ -43,5 +43,8 @@ Two months since his election, I'm still excited by the opportunity for change t
 [1]: http://en.wikipedia.org/wiki/The_Daily_Show
 [2]: http://en.wikipedia.org/wiki/The_Colbert_Report
 [3]: http://en.wikipedia.org/wiki/Iowa_caucuses
-[4]: http://en.wikipedia.org/wiki/New_Hampshire_primary 
+[4]: http://en.wikipedia.org/wiki/New_Hampshire_primary
 [5]: http://nytimes.com/
+
+*[BBC]: British Broadcasting Corporation
+*[UK]: United Kingdom

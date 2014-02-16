@@ -136,3 +136,12 @@ Want to be part of it? Write about the problems you're facing. If you see a sepa
 [15]: http://joshemerson.co.uk/
 [16]: https://github.com/joshje/Responsive-Enhance
 [17]: http://markboulton.co.uk/
+
+*[CDN]: content delivery network
+*[CSS]: Cascading Style Sheets
+*[HD]: high-dynamic-range
+*[HTML]: HyperText Markup Language
+*[PNG]: Portable Network Graphic
+*[SVG]: Scalable Vector Graphics
+*[W3C]: World Wide Web Consortium
+*[WOFF]: Web Open Font Format

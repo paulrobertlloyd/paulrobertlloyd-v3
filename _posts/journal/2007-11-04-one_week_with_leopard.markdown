@@ -67,3 +67,7 @@ So, am I happy I upgraded? To be honest not as much I was hoping to be, but I st
 [6]: http://www.apple.com/macosx/features/finder.html
 [7]: http://www.apple.com/macosx/features/quicklook.html
 [8]: http://www.apple.com/macosx/features/300.html#ical
+
+*[3D]: three dimensional
+*[OS]: operation system
+*[UI]: user interface

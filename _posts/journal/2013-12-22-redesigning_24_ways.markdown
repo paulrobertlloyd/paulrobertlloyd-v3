@@ -207,3 +207,10 @@ Developing a responsive website without these resources can be a risky propositi
 Sadly, aspects of the design discussed earlier in the process were never addressed. For example, there was a desire to look at ways of surfacing archived content on the homepage between seasons, yet this was lost in the rush to get the site launched in time. Images -- both in terms of art direction and their delivery in a responsive context -- clearly need more thought.
 
 However, I'm a big believer in iteration, and not treating a website as ever being finished. I hope what's been released this year can act as a foundation, and that the design will evolve in the years to come.
+
+*[BEM]: Block, Element, Modifier
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[IA]: information architecture
+*[RGBA]: Red-Green-Blue-Alpha
+*[SVG]: Scalable Vector Graphics

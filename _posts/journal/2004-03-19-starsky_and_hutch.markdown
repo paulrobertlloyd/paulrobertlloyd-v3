@@ -17,3 +17,5 @@ There are many scenes in this film that will have you laughing out loud -- for m
 -- bbc.co.uk
 
 Add to the mix Amy Smart and Carmen Electra -- it becomes hard to hate this film. (Now, cue obvious insertion into review of the films best catch phrase...) if you haven't seen this film already: do it. DO IT!
+
+*[TV]: television

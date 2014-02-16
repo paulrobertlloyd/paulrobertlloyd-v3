@@ -51,3 +51,6 @@ Having experienced this ability to engage directly with such an organisation, it
 [10]: http://twitter.com/paulrobertlloyd/status/2169631461
 [11]: /2009/02/simply_walsall/discuss/
 [12]: http://search.twitter.com/search?q=&#38;tag=PicoftheDay&#38;from=WalsallCouncil
+
+*[CSS]: Cascading Style Sheets
+*[RSS]: Really Simple Syndication

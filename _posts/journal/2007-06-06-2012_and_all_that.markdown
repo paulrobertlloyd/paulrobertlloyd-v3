@@ -102,3 +102,7 @@ At the same time, I'm slightly shocked by the outcome, but not for it's design, 
 [4]: http://news.bbc.co.uk/2/hi/uk_news/england/london/6724245.stm
 [5]: http://coudal.com/
 [6]: http://coudal.com/olympics.php
+
+*[BBC]: British Broadcasting Corporation
+*[BT]: British Telecom
+*[LOCOG]: London Organising Committee of the Olympic and Paralympic Games

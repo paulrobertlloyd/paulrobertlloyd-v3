@@ -88,3 +88,10 @@ With Labour in power, stars from the world of design, business and entertainment
 Other initiatives involved the Foreign Office setting up 'Panel 2000': an advisory group tasked to look at how the government could co-ordinate and improve its promotion of Britain abroad and the production of a video <cite>Designers for the World</cite> that would showcase Britain's leading designers. It also launched the award winning <cite>Planet Britain</cite> website that promoted a contemporary image of Britain to 16-25 year olds around the world.
 
 It is still to early to tell whether this will make a difference to our image abroad, but at least there is now co-ordination in promoting the country, and design is playing an important part.
+
+*[BA]: British Airways
+*[BG]: British Gas
+*[BT]: British Telecom
+*[BTA]: British Tourist Authority
+*[plc]: Public Limited Company
+*[UK]: United Kingdom

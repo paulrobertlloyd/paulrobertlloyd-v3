@@ -14,3 +14,5 @@ As such, I watched Ellen click on countless ads that take you into a whole world
 Of course, once we found an image (or more accurately a chunk of unintuitive HTML code) the edit profile page was generating an error, so we had to give up for the night.
 
 It's funny because its true.
+
+*[HTML]: HyperText Markup Language

@@ -56,3 +56,5 @@ Ubelly are fostering a young community, [supporting new writers][10] and sponsor
 [8]: http://netmagazine.com/netawards13
 [9]: http://christianheilmann.com/2013/01/27/drive-by-criticism-must-die/
 [10]: http://ubelly.com/nubelly
+
+*[BBC]: British Broadcasting Corporation

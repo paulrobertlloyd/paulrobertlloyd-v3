@@ -51,3 +51,7 @@ Overall, the conference and the after show parties were a great opportunity to m
 [14]: http://adactio.com/
 [15]: http://www.hicksdesign.co.uk/
 [16]: http://www.molly.com/2005/06/11/the-passion-of-atmedia-2005/
+
+*[CSS]: Cascading Style Sheets
+*[SXSW]: South by SouthWest
+*[XHTML]: Extensible HyperText Markup Language

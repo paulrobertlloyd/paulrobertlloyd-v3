@@ -25,3 +25,9 @@ Is this the beginning of a dubbing down of television or is it perhaps just the 
 [1]: http://www.comedycentral.com/shows/the_daily_show/
 [2]: http://www.imdb.com/title/tt0363163/
 [3]: http://news.bbc.co.uk/1/shared/spl/hi/guides/456900/456930/html/nn1page1.stm
+
+*[BBC]: British Broadcasting Corporation
+*[EPG]: Electronic Programme Guide
+*[ITV]: Independant Television
+*[TV]: television
+*[UK]: United Kingdom

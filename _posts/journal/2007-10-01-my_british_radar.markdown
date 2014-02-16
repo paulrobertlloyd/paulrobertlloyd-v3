@@ -28,3 +28,5 @@ When I spend most of my day at the office correcting my colleagues for the use o
 There is no denying that all I find myself disliking about the British, the problem is, *I am British*, and so I too display the same trademarks.
 
 I guess put more simply, the fact is now that I'm further removed from my place of birth, the more of it I see that I don't like. Yet at the same time, like a mother whose son has grown up to become a career criminal, an unequivocal love remains.
+
+*[UK]: United Kingdom

@@ -46,3 +46,5 @@ My last day in San Francisco was also the last of this trip. With my flight depa
 [15]: http://en.wikipedia.org/wiki/Cliff_House,_San_Francisco
 [16]: http://cliffhouse.com/bistro/
 [17]: /2011/03/san_francisco/
+
+*[US]: United States

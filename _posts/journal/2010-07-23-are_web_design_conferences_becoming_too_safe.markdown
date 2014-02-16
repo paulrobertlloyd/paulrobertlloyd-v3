@@ -65,3 +65,6 @@ With the 5-star lineup, this careful curation could very well mean New Adventure
 [12]: http://multipack.co.uk/presents/
 [13]: http://newadventuresconf.com/schedule/
 [14]: http://colly.com/comments/new_adventures_in_web_design/
+
+*[SXSW]: South by SouthWest
+*[UK]: United Kingdom

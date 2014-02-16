@@ -49,3 +49,6 @@ Let me get this straight: bags of useless free shit are *not* cool. It's about t
 [2]: http://www.centernetworks.com/sxsw-2009-schwag-bag
 [3]: http://www.centernetworks.com/sxsw-2008-bag
 [4]: http://flickr.com/search/?q=sxsw+bags&m=tags&s=int&ct=3&mt=photos
+
+*[CD]: Compact Disc
+*[SXSW]: South by SouthWest

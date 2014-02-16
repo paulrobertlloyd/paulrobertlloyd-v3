@@ -24,3 +24,5 @@ In terms of television:
 * I no longer have any idea what's happening in the rest of the world. However I do have more than enough information about the weather and all criminal activity in the entire Bay Area.
 
 Need I say more about how I have been spending my evenings so far...
+
+*[UK]: United Kingdom

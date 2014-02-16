@@ -28,3 +28,5 @@ If you're facing a similar problem finding naming conventions for use on a Mac, 
 [5]: http://en.wikipedia.org/wiki/Discovery_(apple)
 [6]: http://en.wikipedia.org/wiki/HMS_Discovery
 [7]: http://en.wikipedia.org/wiki/List_of_apple_cultivars
+
+*[UK]: United Kingdom

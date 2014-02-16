@@ -79,3 +79,6 @@ The weirdest experience during my stay was visiting [L'Enfant Plaza][12]. Named 
 [10]: http://en.wikipedia.org/wiki/Eero_Saarinen
 [11]: http://en.wikipedia.org/wiki/Washington_Metro
 [12]: http://en.wikipedia.org/wiki/L'Enfant_Plaza
+
+*[DC]: District of Columbia
+*[US]: United States

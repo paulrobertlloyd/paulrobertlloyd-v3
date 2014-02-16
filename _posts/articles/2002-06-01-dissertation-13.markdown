@@ -42,3 +42,10 @@ One thing's for sure; broadcastering brands will need to be as strong as ever.
 * **Lambie-Nairn.com** (2002). [BBC ONE](http://web.archive.org/web/20020215191943/http://www.lambie-nairn.com/casestudy.asp?ContentId=2954&Parent=2725), <cite>Lambie-Nairn.com</cite>. Archived from [the original](http://www.lambie-nairn.com/casestudy.asp?ContentId=2954&#38;Parent=2725) on <time datetime="2002-02-15">15 February 2002</time>
 * **McGonagle, M.** (2002). [Channel 5 Idents 1999](http://www.thetvroom.com/p-ch5-1999-a.html). <cite>TheTVRoom.com</cite>
 * **Wilkes, N.** (2001). [BBC Two gets new on-screen look](http://www.digitalspy.co.uk/displayarticle.php?id=4234). <cite>DigitalSpy.co.uk</cite>
+
+*[BBC]: British Broadcasting Corporation
+*[EPG]: Electronic Programme Guide
+*[ITN]: Independant Television News
+*[ITV]: Independant Television
+*[TV]: television
+*[UK]: United Kingdom

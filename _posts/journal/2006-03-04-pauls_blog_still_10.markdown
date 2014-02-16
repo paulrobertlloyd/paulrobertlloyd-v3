@@ -54,3 +54,6 @@ I guess as a way of representing who I am online, this site hasn't done a bad jo
 [5]: http://www.technorati.com/search/lloydyweb.org
 [6]: http://blogsearch.google.com/blogsearch?as_q=&num=10&hl=en&c2coff=1&btnG=Search+Blogs&as_epq=&as_oq=&as_eq=&bl_pt=&bl_bt=&bl_url=lloydyweb.org&bl_auth=&as_drrb=q&as_qdr=&as_mind=4&as_minm=3&as_miny=2005&as_maxd=4&as_maxm=3&as_maxy=2006&lr=&safe=off
 [7]: http://del.icio.us/paulrobertlloyd/
+
+*[API]: application programming interface
+*[HTML]: HyperText Markup Language

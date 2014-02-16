@@ -24,3 +24,7 @@ While the Games have inspired me to start running again (I've set a target to co
 [3]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157630906046272/
 [4]: http://www.bbc.co.uk/sport/0/olympics/19236354
 [5]: /2012/01/goals_for_2012/
+
+*[BBC]: British Broadcasting Corporation
+*[GB]: Great Britain & Northern Ireland
+*[IOC]: International Olympic Committee

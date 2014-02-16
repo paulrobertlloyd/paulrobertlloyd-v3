@@ -28,7 +28,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast1.jpg" alt=""/>
     <figcaption>
         <h4>The Causeway Hotel</h4>
-        <p>66% quality, 44<abbr>kB</abbr></p>
+        <p>66% quality, 44 kB</p>
     </figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast2.jpg" alt=""/>
     <figcaption>
         <h4>Tourists besiege the causeway</h4>
-        <p>57% quality, 108<abbr>kB</abbr></p>
+        <p>57% quality, 108 kB</p>
     </figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast4.jpg" alt=""/><br/>
     <figcaption>
         <h4>Interlocking basalt columns</h4>
-        <p>55% quality, 63<abbr>kB</abbr> / 58% quality, 35<abbr>kB</abbr></p>
+        <p>55% quality, 63 kB / 58% quality, 35 kB</p>
     </figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast5.jpg" alt=""/>
     <figcaption>
         <h4>The Giant's Causeway viewed from above</h4>
-        <p>55% quality, 151<abbr>kB</abbr></p>
+        <p>55% quality, 151 kB</p>
     </figcaption>
 </figure>
 
@@ -61,7 +61,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast6.jpg" alt=""/>
     <figcaption>
         <h4>Large basalt columns</h4>
-        <p>55% quality, 167<abbr>kB</abbr></p>
+        <p>55% quality, 167 kB</p>
     </figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast7.jpg" alt=""/>
     <figcaption>
         <h4>Anything that can be hexagonal, will be hexagonal</h4>
-        <p>38% quality, 122<abbr>kB</abbr></p>
+        <p>38% quality, 122 kB</p>
     </figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast8.jpg" alt=""/>
     <figcaption>
         <h4>A storm brewing</h4>
-        <p>60% quality, 100<abbr>kB</abbr></p>
+        <p>60% quality, 100 kB</p>
     </figcaption>
 </figure>
 
@@ -85,6 +85,8 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
     <img src="/assets/2012/12/causeway_coast9.jpg" alt=""/>
     <figcaption>
         <h4>Ballintoy Harbour</h4>
-        <p>57% quality, 91<abbr>kB</abbr></p>
+        <p>57% quality, 91 kB</p>
     </figcaption>
 </figure>
+
+*[kB]: Kilobyte

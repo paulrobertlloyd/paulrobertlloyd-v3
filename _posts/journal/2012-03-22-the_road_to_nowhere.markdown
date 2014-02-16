@@ -9,3 +9,5 @@ post_id: 315
 [1]: http://benbarnett.net/
 [2]: http://andyhume.net/
 [3]: http://www.flickr.com/photos/benpbarnett/sets/72157629624153789/
+
+*[US]: United States

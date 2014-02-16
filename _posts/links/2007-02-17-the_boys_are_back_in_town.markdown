@@ -12,3 +12,6 @@ Better still, it's all for a good cause, as PG Tips are raising money for this y
 [1]: http://en.wikipedia.org/wiki/Digital_Monkey
 [2]: http://en.wikipedia.org/wiki/Johnny_Vegas
 [3]: http://www.rednoseday.com/
+
+*[ITV]: Independant Television
+*[UK]: United Kingdom

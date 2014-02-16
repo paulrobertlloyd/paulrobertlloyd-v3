@@ -53,3 +53,8 @@ The same goes for all the points I've raised here, as I think talking about thes
 ***
 
 In case you were wondering, the title of this post comes courtesy of a fantastic Alan Partridge sketch I once saw. You need the third point to remind you of the other two!
+
+*[DVD]: Digital Versatile Disc
+*[EU]: Euopean Union
+*[G8]: Group of Eight
+*[UK]: United Kingdom

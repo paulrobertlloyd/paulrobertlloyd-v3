@@ -101,3 +101,8 @@ When advocating the user, applying blanket claims or unfounded assumptions such 
 [13]: http://www.useit.com/alertbox/990321.html
 [14]: http://jnd.org/dn.mss/emotion_design_attractive_things_work_better.html
 [15]: http://twitter.com/pereverzev/status/6336346853
+
+*[BBC]: British Broadcasting Corporation
+*[PHP]: PHP: Hypertext Preprocessor
+*[UI]: user interface
+*[URL]: Uniform Resouce Locator

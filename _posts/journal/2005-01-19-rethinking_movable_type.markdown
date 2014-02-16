@@ -11,3 +11,5 @@ Thinking about it -- albeit quickly and without much thought -- it would make se
 Whilst it suddenly all makes sense, much tinkering and fiddling with Movable Type (that still outputs a blog with calendar problems) may in the end just put me off. But something to think about anyway.
 
 [1]: http://www.stopdesign.com/log/2005/01/17/galleries.html
+
+*[MT]: Movable Type

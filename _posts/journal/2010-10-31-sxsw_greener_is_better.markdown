@@ -25,3 +25,5 @@ The icing on the cake for me would be to see them use [plastic-free conference p
 [4]: http://sxsw.com/node/5571
 [5]: http://sxsw.com/sustainability
 [6]: /2010/08/dconstruct_conference_badge
+
+*[SXSW]: South by SouthWest

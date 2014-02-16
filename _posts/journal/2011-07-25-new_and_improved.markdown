@@ -72,3 +72,7 @@ In many respects my focus on the content and typography means these do much of t
 [20]: /feeds/
 [21]: http://movabletype.org/
 [22]: http://www.movabletype.org/2011/05/movable_type_51_and_505_436_security_update.html
+
+*[API]: application programming interface
+*[HTML]: HyperText Markup Language
+*[RSS]: Really Simple Syndication

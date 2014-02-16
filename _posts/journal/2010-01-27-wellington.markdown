@@ -42,3 +42,5 @@ Sadly, Wellington would be the last I would see of New Zealand on this trip, so 
 [3]: http://en.wikipedia.org/wiki/Cuba_Street,_Wellington
 [4]: http://www.parliament.nz/en-NZ/AboutParl/HstBldgs/Buildings/
 [5]: http://www.basilspence.org.uk/
+
+*[CBD]: Central Business District

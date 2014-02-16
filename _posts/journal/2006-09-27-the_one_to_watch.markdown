@@ -44,3 +44,8 @@ I tend to think of the current BBC logo much in the same way as NBC's peacock, o
 [3]: http://www.simonjobling.com/?p=227
 [4]: http://www.bbc.co.uk/pressoffice/pressreleases/stories/2002/03_march/26/bbconeidenthistory.shtml
 [5]: http://en.wikipedia.org/wiki/Eric_Gill
+
+*[BBC]: British Broadcasting Corporation
+*[CBS]: Columbia Broadcasting Company
+*[NBC]: National Broadcasting Company
+*[UK]: United Kingdom

@@ -13,3 +13,6 @@ The book goes on to explain the Hillsborough disaster, the ongoing feuding betwe
 Jimmy McGovern is quoted as saying: "If you want to read about a national scandal, one that the British press has largely ignored, go out and buy this brilliant book right now".
 
 I'm not a massive football fan but I was really interested by the topics and concerns raised in this book. If you're a fan -- read this book. But your going to feel very sick afterwards.
+
+*[FA]: Football Association
+*[ITV]: Independant Television

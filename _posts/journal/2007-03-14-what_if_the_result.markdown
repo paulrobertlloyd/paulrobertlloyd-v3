@@ -26,3 +26,5 @@ Finally, a big thank-you to Kevin Newsum and his team. The event was fantastical
 [1]: http://agendacide.com/minutes/
 [2]: http://www.subtraction.com/
 [3]: http://www.subtraction.com/archives/2007/0313_southern_fri.php
+
+*[SXSW]: South by SouthWest

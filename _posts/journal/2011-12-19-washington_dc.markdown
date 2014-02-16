@@ -60,3 +60,5 @@ The remainder of my time in DC was largely spent within the walls of the Westin 
 [25]: http://stuffandnonsense.co.uk/
 [26]: http://nickrigby.com/
 [27]: http://joshmobley.org/
+
+*[DC]: District of Columbia

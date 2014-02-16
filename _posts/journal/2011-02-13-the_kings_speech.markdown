@@ -79,3 +79,6 @@ I can only hope that Phyllida Lloyd's upcoming biopic of Margaret Thatcher, <cit
 [12]: http://www.imdb.com/title/tt1319694/
 [13]: http://news.bbc.co.uk/local/london/hi/people_and_places/newsid_9378000/9378341.stm
 [14]: http://www.imdb.com/title/tt1007029/
+
+*[BBC]: British Broadcasting Corporation
+*[LA]: Los Angeles

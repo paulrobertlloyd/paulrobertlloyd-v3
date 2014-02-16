@@ -39,3 +39,5 @@ I've pledged to raise £500, but I want to do much better than that -- especiall
 [6]: http://clearleft.com/
 [7]: /2012/01/goals_for_2012/
 [8]: http://www.justgiving.com/prlrun2012/
+
+*[UK]: United Kingdom

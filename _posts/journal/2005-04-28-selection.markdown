@@ -36,3 +36,6 @@ Given the opportunity to have a candidate from the Green Party standing during t
 As to UKIP (and the Freedom Party) -- one issue parties are much like a stopped clock. They tell the correct time only twice a day, but the rest of the time they are useless. I'm all for independence from Europe, and maintaining our currencies independence too -- but sadly, that choice is for another day.
 
 Whatever your thoughts on the election are, make sure you take them to the ballot box. If only to show that the electorate still exists.
+
+*[UK]: United Kingdom
+*[UKIP]: United Kingdom Independence Party

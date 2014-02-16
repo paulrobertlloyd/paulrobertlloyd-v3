@@ -33,3 +33,6 @@ So, as I sit in the Hyatt's hotel bar, looking out across a damp and dreary Aust
 [2]: /2011/03/sxsw/
 [3]: http://andyhume.net/
 [4]: http://benbarnett.net/
+
+*[BBQ]: barbecue
+*[SXSW]: South by SouthWest

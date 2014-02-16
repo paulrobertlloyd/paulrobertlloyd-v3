@@ -34,7 +34,7 @@ Bron Thomson, Springload's founder and Managing Director told me how they create
 > It's worth noting that there are no real magic bullets. We use a combination of server-side device detection, media queries and JS capability detection to decide what gets rendered to the page. We try and avoid polyfilling (preferring progressive enhancement where possible) and we're using CSS transitions rather than jQuery to handle animation. 
 
 ### How has the design process changed to encompass a responsive workflow?
-> One of the key changes has been to start the whole team (designers, developers, front-end devs) on the project at once. Even before the designs were finished, we needed a slick front-end framework, and the back end guys had to wrestle the <abbr>IIS</abbr>/<abbr>ASP</abbr> classic server into submission too. Having the whole team locked-down on the project made the decision making process much snappier and enabled us to solve problems without calling too many meetings. 
+> One of the key changes has been to start the whole team (designers, developers, front-end devs) on the project at once. Even before the designs were finished, we needed a slick front-end framework, and the back end guys had to wrestle the IIS/ASP classic server into submission too. Having the whole team locked-down on the project made the decision making process much snappier and enabled us to solve problems without calling too many meetings. 
 >
 > Photoshop is getting opened a little less -- we mock up key navigation assets and a refined visual of a desktop and mobile template. From there, we're learning the most by getting into the browser, and refining specific elements as we go. 
 >
@@ -59,3 +59,10 @@ Bron Thomson, Springload's founder and Managing Director told me how they create
 [13]: http://2012.dconstruct.org/
 [14]: http://zurb.com/
 [15]: http://www.netmagazine.com/shop/magazines/july-2012-229
+
+*[3D]: three dimensional
+*[ASP]: Active Server Pages
+*[CSS]: Cascading Style Sheets
+*[HQ]: headquarters
+*[IIS]: Internet Information Services
+*[JS]: JavaScript

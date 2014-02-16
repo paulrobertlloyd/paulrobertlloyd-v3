@@ -116,3 +116,8 @@ I don't fear a coalition or hung parliament, I do favour electoral and constitut
 [2]: http://news.bbc.co.uk/1/hi/uk/8601711.stm
 [3]: http://www.guardian.co.uk/commentisfree/2010/apr/18/clegg-media-elite-murdoch-lib-dem
 [4]: http://news.bbc.co.uk/1/hi/uk_politics/election_2010/8649448.stm
+
+*[BBC]: British Broadcasting Corporation
+*[MP]: Member of Parliament
+*[plc]: Public Limited Company
+*[UK]: United Kingdom

@@ -48,3 +48,5 @@ excerpt: Welcome to the second instalment of "Are you jealous yet?” So what ha
     - Anyway I've been busted on my use of the internet, so got to go.
 
     Catch you later -- you jealous buggers!
+
+*[US]: United States

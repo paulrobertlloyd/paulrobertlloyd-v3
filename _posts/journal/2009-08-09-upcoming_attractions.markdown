@@ -12,7 +12,7 @@ As Summer hurtles towards it's conclusion (and let's assume for a second that it
 
 This years event takes place on the 15th August (that's next weekend!), with the picnic beginning at 12 noon and the evening talks starting at 7pm, held in the rather impressive Royal Pump Rooms.
 
-[Trevor Morris][1] has again pulled together another stellar line-up, with [Simon Collison][2], founder of [Erskine Design][3] and [Remy Sharp][4], [<abbr title="HyperText Markup Language 5">HTML5</abbr> Doctor][5] organiser of the [Full Frontal][6] JavaScript conference.
+[Trevor Morris][1] has again pulled together another stellar line-up, with [Simon Collison][2], founder of [Erskine Design][3] and [Remy Sharp][4], [HTML5 Doctor][5] organiser of the [Full Frontal][6] JavaScript conference.
 
 Simon will be talking about 'Nailing Your Own projects'. I saw Simon speak at this years @media conference about the '[Process Toolbox][7]', a presentation that was as beautiful as it was overflowing with useful tips and techniques, so forgive my heightened expectations for this particular presentation.
 
@@ -53,3 +53,7 @@ Finally, one lucky person could win a VIP ticket to the conference (with two nig
 [16]: http://2009.dconstruct.org/schedule/russelldavies/
 [17]: http://dconstruct09.eventbrite.com/
 [18]: http://2009.dconstruct.org/capsule/
+
+*[API]: application programming interface
+*[HTML]: HyperText Markup Language
+*[VIP]: Very Important Person

@@ -66,3 +66,5 @@ Perhaps we can take solace in the fact that the designers at Facebook have been 
 [8]: http://youtube.com/watch?v=vfCaVzbvmVU
 [9]: http://netmagazine.com/features/10-new-year-s-resolutions-designers
 [10]: http://blog.pinboard.in/2011/11/the_social_graph_is_neither/
+
+*[UK]: United Kingdom

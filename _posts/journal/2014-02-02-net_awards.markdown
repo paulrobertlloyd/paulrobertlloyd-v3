@@ -30,3 +30,5 @@ The merit of awards ceremonies is often discussed ([look no further than this ve
 [9]: http://lanyrd.com/blog/2013/eventbrite
 [10]: http://paulrobertlloyd.com/2013/01/ubelly
 [11]: http://creativebloq.com/netmag/why-diversity-matters-web-design-industry-11410554
+
+*[API]: application programming interface

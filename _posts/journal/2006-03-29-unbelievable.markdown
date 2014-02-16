@@ -18,3 +18,5 @@ This particular advert is excellent proof of this concept; essentially a few pro
 So in [my continuing campaign][1] to not reward ideas that lack imagination, I finish this entry without one link or reference to a product, that frankly, I could happily live without anyway.
 
 [1]: /2006/03/attack_of_the_clones/
+
+*[US]: United States

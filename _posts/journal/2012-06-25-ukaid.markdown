@@ -27,3 +27,5 @@ That it cost nothing to develop is all too evident though, and the reliance on a
 [3]: https://en.wikipedia.org/wiki/United_States_Agency_for_International_Development
 [4]: http://guardian.co.uk/politics/2012/jun/22/david-cameron-jimmy-carr-tories
 [5]: http://puffbox.com/2012/05/08/new-logos-for-all-government-departments/
+
+*[BBC]: British Broadcasting Corporation

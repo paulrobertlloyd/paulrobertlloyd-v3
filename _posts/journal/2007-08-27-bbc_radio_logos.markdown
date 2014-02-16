@@ -59,3 +59,5 @@ Alongside other recent identity updates at the Beeb, and the increasingly fractu
 
 [1]: http://www.multipack.co.uk/
 [2]: http://andyhiggs.co.uk/blog/2007/08/18/the-new-bbc-radio-logos
+
+*[BBC]: British Broadcasting Corporation

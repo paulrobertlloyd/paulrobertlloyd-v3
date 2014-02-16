@@ -12,3 +12,6 @@ Apple today announced a third generation iMac. Keeping to the all-in-one form fa
 I can't help but notice similarities to the original Macintosh of 1984 -- well perhaps from the front, certainly not from its two inch side!
 
 [1]: http://www.apple.com/imac/
+
+*[CD]: Compact Disc
+*[CPU]: central processing unit

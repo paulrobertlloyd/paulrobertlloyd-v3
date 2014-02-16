@@ -28,3 +28,5 @@ But with the latest demo of the forthcoming Mac OS X 10.4 'Tiger', [it seems thi
 Proudly displaying it's nonconformist grey-aqua-ish buttons that contain smaller squashed icons within, it almost looks as the design team was on strike that day. With 10.4 still in pre-release, I can only hope such bad design will not be allowed outside the doors of Cupertino.
 
 [2]: http://www.apple.com/macosx/tiger/mail.html
+
+*[PC]: personal computer

@@ -12,3 +12,5 @@ My first gig in a long while, and certainly bizarre in having to prove I was ove
 Not being a massive fan of the band, I was only able to recognise the singles, but a few other tracks stood out (<cite>I Can Do It Without You</cite>, <cite>Heat Dies Down</cite>) and have now been added to my iTunes Library. Ricky Wilson has a great stage presence, that extends right into the audience, which he was able to surf across, before introducing everyone to the guys on stage.
 
 Not having a massive back catalogue, meant this was only ever going to be short and sweet, but I would like to have seen the encore see a repeat of some of their more popular tracks rather than leaving two additional songs for the finale. Having said that, finishing with <cite>Oh My God</cite> (the lyrics "I've never been this far away from home" of course resonate very loudly with me) was a good way to end the night.
+
+*[US]: United States

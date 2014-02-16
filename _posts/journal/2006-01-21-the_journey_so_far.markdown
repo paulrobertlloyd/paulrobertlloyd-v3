@@ -57,3 +57,10 @@ That brings me to today, where I am now a full-time contractor for Ning, and whe
 [14]: http://www.live8live.com/
 [15]: http://www.makepovertyhistory.org/
 [16]: http://www.ning.com/
+
+*[BBC]: British Broadcasting Corporation
+*[CSS]: Cascading Style Sheets
+*[kB]: Kilobyte
+*[Ltd]: Limited company
+*[PDF]: Portable Document Format
+*[XHTML]: Extensible HyperText Markup Language

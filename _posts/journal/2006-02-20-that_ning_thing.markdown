@@ -58,3 +58,7 @@ So what you waiting for -- [give it a whirl](http://www.ning.com/)!
 [9]: http://www.valleywag.com/tech/marc-andreessen/ning-hates-loves-meeting-customers-155242.php
 [10]: http://waxy.org/
 [11]: http://patrickhaney.com/
+
+*[API]: application programming interface
+*[CSS]: Cascading Style Sheets
+*[XHTML]: Extensible HyperText Markup Language

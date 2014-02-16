@@ -91,3 +91,7 @@ The first real change to come to this clichéd and computer orientated world was
 </figure>
 
 This resulted in a dark, yet subtly colourful animation featured lightning bolts and strong geometric lines and shapes criss-crossing the screen, before ending with radiating concentric rings beaming out from a mast, reminiscent of old newsreel footage. However Lambie-Nairn had no control over the music that was used, and again a traditional and urgent sounding score only served to emphasise the harsher aspects of the animation.
+
+*[BBC]: British Broadcasting Corporation
+*[ITN]: Independant Television News
+*[UK]: United Kingdom

@@ -29,7 +29,7 @@ Show me a bandwagon and I'll jump on it! Sadly I haven't been tagged, but as I'v
 * [The West Wing](http://www.nbc.com/The_West_Wing/)
 * [Scrubs](http://www.nbc.com/Scrubs/)
 * [Top Gear](http://www.bbc.co.uk/topgear/)
-* [Parkinson](http://www.itv.com/parkinson/) (though not as much since his defection to <abbr title="Independent Television">ITV</abbr>)
+* [Parkinson](http://www.itv.com/parkinson/) (though not as much since his defection to ITV)
 
 <!--more-->
 
@@ -49,13 +49,13 @@ Show me a bandwagon and I'll jump on it! Sadly I haven't been tagged, but as I'v
 * [BBC News](http://news.bbc.co.uk/)
 * [MacRumors](http://www.macrumors.com/)
 * [Stylegala](http://www.stylegala.com/)
-* [netvibes.com](http://www.netvibes.com/) (the best <abbr title="Asynchronous JavaScript and XML">AJAX</abbr> homepage in town!)
+* [netvibes.com](http://www.netvibes.com/) (the best AJAX homepage in town!)
 
 ## Four Places I Would Rather Be Right Now
 * Sydney, Australia
 * In a pub with my mates
-* New York, <abbr title="United States of America">USA</abbr>
-* California, <abbr>USA</abbr>
+* New York, USA
+* California, USA
 
 ## Four Bloggers I Am Tagging
 * [Jon](http://www.roobottom.com/2006/01/27/four-things/)
@@ -64,3 +64,8 @@ Show me a bandwagon and I'll jump on it! Sadly I haven't been tagged, but as I'v
 * [Lewis](http://www.darthlawb.co.uk/lawblog/?p=25)
 
 Sorry guys, but as Keith Barret would say  --  "It's just a bit of fun"...
+
+*[AJAX]: Asynchronous JavaScript and XML
+*[BBC]: British Broadcasting Corporation
+*[ITV]: Independant Television
+*[USA]: United States of America

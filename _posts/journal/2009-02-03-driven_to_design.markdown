@@ -18,3 +18,5 @@ I think [Wilson Miner summed it up best][1], when he wrote about his motivation 
 So whilst I'm motivated to design for a variety of reasons, ultimately it's because I'm an organiser. What makes you tick?
 
 [1]: http://www.wilsonminer.com/posts/2008/apr/12/optimizer/
+
+*[HTML]: HyperText Markup Language

@@ -80,3 +80,7 @@ Internet, make it happen.
 [11]: http://www.fontsquirrel.com/tools/webfont-generator
 [12]: http://fontforge.org
 [13]: http://blog.fonts.com/2012/03/27/dynamic-subsetting-for-dynamic-content/
+
+*[CSS]: Cascading Style Sheets
+*[HTTP]: HyperText Transfer Protocol
+*[kB]: Kilobyte

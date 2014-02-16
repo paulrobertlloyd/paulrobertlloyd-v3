@@ -41,3 +41,6 @@ The also-rans (if I could have thought of a tenth, these would be in a Top 10) i
 * <cite>Malcolm in the Middle</cite>
 * <cite>Friends</cite>
 * <cite>The Simpsons</cite>
+
+*[TV]: television
+*[US]: United States

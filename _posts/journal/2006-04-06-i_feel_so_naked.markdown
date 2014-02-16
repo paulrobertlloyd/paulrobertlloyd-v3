@@ -12,3 +12,5 @@ Like the [Four Things][3] meme earlier this year, this event has spread like wil
 [1]: http://naked.dustindiaz.com/
 [2]: http://www.dustindiaz.com/naked-day/
 [3]: /2006/01/four_things/
+
+*[CSS]: Cascading Style Sheets

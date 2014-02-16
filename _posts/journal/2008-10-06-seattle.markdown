@@ -57,3 +57,5 @@ When viewing the city from needle however, I was looking for landmarks, yet few 
 [3]: http://en.wikipedia.org/wiki/Googie_architecture
 [4]: http://en.wikipedia.org/wiki/Pike_Place_Market
 [5]: http://en.wikipedia.org/wiki/Seattle_Central_Library
+
+*[US]: United States

@@ -11,3 +11,6 @@ Clayton Miller:
 I have a nagging feeling this observation will become useful on future projects. (Via [John Gruber][1])
 
 [1]: http://daringfireball.net/linked/2011/07/01/own-a-shape
+
+*[HP]: Hewlett-Packard
+*[UI]: user interface

@@ -2,7 +2,7 @@
 layout: post-project
 title: Universal Networks
 date: '2010-05-03 12:00:00 +0100'
-excerpt: Design for a family of five sites representing NBC Universal's international channel portfolio.
+excerpt: Design for a family of five sites representing NBCUniversal's international channel portfolio.
 ---
 <div class="slides">
     <figure class="slideshow">
@@ -83,3 +83,5 @@ Example implementations can be seen at:
 [3]: http://universalchannel.co.za/
 [4]: http://br.studiouniversal.com/
 [5]: http://calle13universal.es/
+
+*[UK]: United Kingdom

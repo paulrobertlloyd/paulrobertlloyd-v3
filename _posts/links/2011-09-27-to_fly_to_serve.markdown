@@ -11,3 +11,5 @@ In many ways, I'm reminded of [a similarly retro themed advert][2] that BA's arc
 
 [1]: http://www.underconsideration.com/brandnew/archives/british_airways_goes_vintage.php
 [2]: http://www.youtube.com/watch?v=KS_6HHQ7jOA
+
+*[BA]: British Airways

@@ -140,3 +140,7 @@ If it wasn't obvious, I'm absolutely bowled over by what the BBC User Experience
 [17]: http://twitter.com/jvbates
 [18]: http://960.gs
 [19]: http://www.engadget.com/2010/02/15/windows-phone-7-series-hands-on-and-impressions
+
+*[BBC]: British Broadcasting Corporation
+*[UK]: United Kingdom
+*[URL]: Uniform Resouce Locator

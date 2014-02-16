@@ -20,3 +20,6 @@ One last aspect that made this such an attractive job offer, was that it allows 
 [1]: http://en.wikipedia.org/wiki/Kelly_Goto
 [2]: http://www.cindyli.com/
 [3]: http://www.gotomedia.com/
+
+*[SXSW]: South by SouthWest
+*[UK]: United Kingdom

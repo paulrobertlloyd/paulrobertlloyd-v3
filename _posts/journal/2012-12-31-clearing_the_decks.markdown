@@ -39,3 +39,8 @@ Beyond [a successful hack day][8] in 2010, this small initiative to reduce the w
 [10]: http://cole007.net/
 [11]: http://agreenfocus.paulrobertlloyd.com/post/374282933/
 [12]: http://agreenfocus.paulrobertlloyd.com/
+
+*[BBC]: British Broadcasting Corporation
+*[GEL]: Global Experience Language
+*[SVG]: Scalable Vector Graphics
+*[SXSW]: South by SouthWest

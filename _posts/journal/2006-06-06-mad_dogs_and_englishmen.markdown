@@ -48,3 +48,5 @@ Having said that, if we do win, we've just sacked the guy who got us there.
 [2]: http://news.bbc.co.uk/1/hi/entertainment/5038892.stm
 [3]: http://www.pizzahut.co.uk/about_us/2003_archive.asp
 [4]: http://www.darthlawb.co.uk
+
+*[PFA]: Professional Footballers' Association

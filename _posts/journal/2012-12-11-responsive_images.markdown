@@ -61,3 +61,7 @@ Ultimately, usage will dictate which is seen as the best means of using images o
 [8]: http://nocturnalmonkey.com/writing/compressing-images
 [9]: http://www.youtube.com/watch?v=wJbhxVepEoc
 [10]: http://www.alistapart.com/articles/the-web-aesthetic/
+
+*[BBC]: British Broadcasting Corporation
+*[cf.]: compare
+*[HTML]: HyperText Markup Language

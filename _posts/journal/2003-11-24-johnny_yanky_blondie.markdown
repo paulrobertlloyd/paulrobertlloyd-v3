@@ -32,3 +32,6 @@ excerpt: Sadly not able to be smug anymore as Sydney has been raining pretty muc
     So of to Cairns next stop on Wednesday -- back to Syndey for a night of drinking (probably) then back home! Thing is its only now that I'm starting to feel right at home and getting to know everybody, but hey. Should come back with a few stories to tell -- I'm sure I'm only a couple of hours away from streaking naked down Glebe Point Road -- I can feel it in my bones! And I've been getting off lightly with the bets going around lately.
 
     Tonight we having a BBQ (in the rain -- it can only get postponed so many times with this weather) and also sees Ange's last night -- so a good excuse for a giant piss up. ‘Dangerous' Dave has written the Monday night's Quiz too which should be a laugh.
+
+*[BBQ]: barbecue
+*[UK]: United Kingdom

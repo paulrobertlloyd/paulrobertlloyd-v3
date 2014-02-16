@@ -58,3 +58,5 @@ Would I return however? I doubt it. There is something about the city and it's p
 [3]: http://en.wikipedia.org/wiki/Santa_Maria_del_Fiore
 [4]: http://en.wikipedia.org/wiki/Sistine_Chapel
 [5]: http://en.wikipedia.org/wiki/Sistine_Chapel_ceiling
+
+*[UK]: United Kingdom

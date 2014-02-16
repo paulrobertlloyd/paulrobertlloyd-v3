@@ -14,7 +14,7 @@ This was a comfortable duopoly, where each network competed through its programm
 The quality of television broadcasts at this time were crude to say the least. Limited to black and white and with a low resolution, television was worsened by the quality of the receivers that tended to suffer from poor definition. Furthermore 20 percent of the screen was considered unusable due a lack of focus around the screens edge, and different television sets cropped the picture at different points. This restricted the graphic designer somewhat and resulted in large and bold lettering with strong tonal contrast, and illustrations with heavy lines and little detail. It's not surprising that 'op' and 'pop' art themes were in common use throughout the fifties.
 
 <figure id="figure-1">
-    <img class="left" src="/assets/articles/dissertation/figure-1a.png" alt="BBC Television Service symbol aka the Bat's Wings" />
+    <img class="left" src="/assets/articles/dissertation/figure-1a.png" alt="BBC Television Service symbol or 'Bat's Wings'" />
     <img class="left" src="/assets/articles/dissertation/figure-1b.png" alt="BBC Television Service symbol in Scotland" />
     <img class="left" src="/assets/articles/dissertation/figure-1c.png" alt="BBC Television Service symbol in the West" />
     <img class="left" src="/assets/articles/dissertation/figure-1d.png" alt="BBC Television Service clock" />
@@ -78,3 +78,7 @@ The launch of BBC2 in 1964 saw the introduction of 625-line higher resolution br
 Graphic design was also starting to become more automated with an increasing knowledge of the effects a film rostrum camera could achieve. This was a vertically mounted camera that was able to move up and down above a bench on which artwork was placed, the bench providing the majority of the movement. Used mostly during the filming of animated title sequences, it was also used for filming compilations of stills (photographs, paintings or prepared artwork) and shooting cells a frame at a time ready for animation. Later computers became involved in order to control the rostrum camera and allowed complicated moves and techniques such as 'slit-scan' and 'streak-timing' to be achieved.
 
 The 1980's saw the introduction of digital paint systems such as the Quantel Paintbox, enabling the graphic designer to assemble collages and montages as well as adapt images. Lettering, first drawn by hand, later using Letraset and character generators, could now be composed in a mater of seconds. The computer had become so versatile, that it could even be used to create whole title sequences or station promotions -- green monitor output and wireframe graphics being extremely fashionable at the start of the decade.
+
+*[BBC]: British Broadcasting Corporation
+*[ITV]: Independant Television
+*[UK]: United Kingdom

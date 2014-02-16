@@ -23,3 +23,6 @@ Please let me know your thoughts on the new direction and design (and any bugs y
 [2]: /2008/09/california_zephyr/
 [3]: /tags/travel/
 [4]: /about/colophon/
+
+*[BBC]: British Broadcasting Corporation
+*[DC]: District of Columbia

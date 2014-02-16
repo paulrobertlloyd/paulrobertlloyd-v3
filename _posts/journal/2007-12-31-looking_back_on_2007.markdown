@@ -119,3 +119,8 @@ And with that, the book closes on 2007 and all that remains is to wish everybody
 [15]: http://www.farleyscoffee.com/
 [16]: http://flickr.com/photos/paulrobertlloyd/4098621593/in/set-72157622667087315/
 [17]: http://flickr.com/photos/paulrobertlloyd/sets/72157622618472843/
+
+*[UK]: United Kingdom
+
+*[SXSW]: South by SouthWest
+*[US]: United States

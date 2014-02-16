@@ -37,3 +37,9 @@ As a viewer, I expect more. So should you.
 [1]: http://www.imdb.com/name/nm1021361/
 [2]: http://www.comedycentral.com/shows/the_colbert_report/
 [3]: http://news.bbc.co.uk/1/hi/entertainment/4804044.stm
+
+*[ABC]: American Broadcasting Company
+*[BBC]: British Broadcasting Corporation
+*[ITV]: Independant Television
+*[TV]: television
+*[UK]: United Kingdom

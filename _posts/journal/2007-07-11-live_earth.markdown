@@ -78,3 +78,8 @@ In the end I think Live Earth has actually done more harm than good -- both in t
 
 [1]: http://blog.pmarca.com/bono/
 [2]: http://news.bbc.co.uk/1/hi/entertainment/6286922.stm
+
+*[DC]: District of Columbia
+*[G8]: Group of Eight
+*[NBC]: National Broadcasting Company
+*[UK]: United Kingdom

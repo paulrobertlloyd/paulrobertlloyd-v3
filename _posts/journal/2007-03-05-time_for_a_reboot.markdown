@@ -32,3 +32,6 @@ Anyway, most friends answer to my questions about what's happening on the other 
 I guess the point of this post has been more for personal gain -- the act of writing this stuff down allows gets it out of my head, and I actually feel much better for it. But hopefully it should also explain why I may be a bit quieter over the next few days.
 
 I'm rebooting.
+
+*[UK]: United Kingdom
+*[US]: United States

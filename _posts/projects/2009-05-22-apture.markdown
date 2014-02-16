@@ -43,3 +43,5 @@ In addition to evolving the visual language and interaction design of the user-f
 
 [1]: http://tristanharris.com/
 [2]: http://web.archive.org/web/20090529090403/http://blog.apture.com/2009/05/introducing-media-hub-20-link-more-content-faster-and-easier/
+
+*[CEO]: Chief Executive Officer

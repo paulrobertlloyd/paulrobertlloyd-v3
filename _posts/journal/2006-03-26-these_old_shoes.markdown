@@ -33,3 +33,6 @@ With quick stops of at:
 Okay, I admit it. This is a veiled attempt to talk about me! I just find it fascinating that the last three years have seen me travel much further than I ever have before, yet on the grand scale of things there is still so much more to see.
 
 My new trainers have a lot to live up to.
+
+*[DC]: District of Columbia
+*[USA]: United States of America

@@ -52,3 +52,9 @@ It might be a bit hand-wavy in places, but we hope it will be one of the more us
 [8]: http://en.wikipedia.org/wiki/B_of_the_Bang
 [9]: http://andyhume.net
 [10]: http://panelpicker.sxsw.com/vote/197
+
+*[HTML]: HyperText Markup Language
+*[HTTP]: HyperText Transfer Protocol
+*[SXSW]: South by SouthWest
+*[UK]: United Kingdom
+*[URL]: Uniform Resouce Locator

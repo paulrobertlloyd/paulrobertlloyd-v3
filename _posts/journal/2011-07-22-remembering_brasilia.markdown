@@ -23,7 +23,7 @@ With no clean clothes and a dead camera battery, my first full day in Brasilia w
 
 Armed with clean clothes and a fully charged camera, I bravely ventured into the city again the next day. My first stop was the [Television Tower][3]. Surrounded by an outdoor market and in a delaparated condition, this felt like a risky proposition, and stepping on to the 75m-high observation platform saw no end to my nerves. However it did provide fantastic views across this planned city.
 
-Looking west, I spotted the distinctive [<abbr title="Juscelino Kubitschek">JK</abbr> Memorial][4]. I decided to get there next on foot, although walking is definitely not recommended in a city built around the car. The memorial to [Juscelino Kubitschek][5], whose idea it was to build this city, gave me my first taste of the futuristic architecture Brasilia is renowned for; this building could easily have been mistaken for a secret hideout for a James Bond villain.
+Looking west, I spotted the distinctive [JK Memorial][4]. I decided to get there next on foot, although walking is definitely not recommended in a city built around the car. The memorial to [Juscelino Kubitschek][5], whose idea it was to build this city, gave me my first taste of the futuristic architecture Brasilia is renowned for; this building could easily have been mistaken for a secret hideout for a James Bond villain.
 
 <figure>
     <img src="/assets/2011/07/brasilia_dom_bosco.jpg" alt=""/>
@@ -45,3 +45,5 @@ Clearly this is a city from a different age, albeit one that failed to realise t
 [6]: http://en.wikipedia.org/wiki/Cathedral_of_Brasilia
 [7]: http://www.lonelyplanet.com/brazil/the-central-west/brasilia/sights/architecture/santuario-dom-bosco
 [8]: http://en.wikipedia.org/wiki/Praca_dos_Tres_Poderes
+
+*[JK]: Juscelino Kubitschek

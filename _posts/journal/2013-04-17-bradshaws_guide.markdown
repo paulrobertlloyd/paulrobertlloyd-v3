@@ -60,3 +60,7 @@ Now, like Bradshaw before me, I'm off to continue my travels.
 [11]: https://foursquare.com/bradshawsguide
 [12]: https://twitter.com/bradshawsguide
 [13]: https://github.com/paulrobertlloyd/bradshawsguide
+
+*[BBC]: British Broadcasting Corporation
+*[CMS]: Content Management System
+*[PHP]: PHP: Hypertext Preprocessor

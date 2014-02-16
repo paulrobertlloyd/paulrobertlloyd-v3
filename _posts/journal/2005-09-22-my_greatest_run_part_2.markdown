@@ -44,3 +44,7 @@ Thanks to everyone for their support -- an extra special thank-you to [Jayman Es
 
 [1]: /2005/09/my_greatest_run_part_1
 [2]: http://www.jayman.co.uk/
+
+*[RAF]: Royal Air Force
+*[TV]: television
+*[UK]: United Kingdom

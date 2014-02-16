@@ -46,3 +46,6 @@ Regardless of the domestic policies, which could be argued either way as to how 
 
 [1]: http://www.brownhills.walsall.sch.uk/
 [2]: /2006/06/what_respect_agenda/
+
+*[UK]: United Kingdom
+*[US]: United States

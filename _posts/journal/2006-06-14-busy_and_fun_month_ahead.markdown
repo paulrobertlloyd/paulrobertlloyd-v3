@@ -21,3 +21,5 @@ Lastly, this month sees the release of some great new features me and the team a
 [1]: http://www.vivabit.com/atmedia2006/lastyear/
 [2]: http://www.ning.com/
 [3]: http://www.multipack.co.uk/
+
+*[HTML]: HyperText Markup Language

@@ -64,3 +64,6 @@ If you would like to add your name *it's easy*! All you need to do is visit [my 
 Note: This total doesn't take into account Gift Aid, which allows the charity to reclaim 28% tax back from the Inland Revenue on every £1 donated -- so far this alone has added an additional £66.28!
 
 [2]: http://www.justgiving.com/lloydyrun/
+
+*[Ltd]: Limited company
+*[UK]: United Kingdom

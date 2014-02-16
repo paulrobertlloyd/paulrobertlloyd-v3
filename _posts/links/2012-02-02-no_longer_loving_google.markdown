@@ -17,3 +17,6 @@ I still have a Google account, although the only services I rely on are search a
 [1]: /2012/01/facebook/
 [2]: http://gizmodo.com/5605310/google-just-killed-net-neutrality
 [3]: http://duckduckgo.com/
+
+*[API]: application programming interface
+*[RSS]: Really Simple Syndication

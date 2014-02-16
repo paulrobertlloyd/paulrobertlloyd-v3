@@ -23,3 +23,5 @@ I do so hope Steve will have plenty more opportunities to part with such wisdom 
 [3]: http://baligu.blogspot.com/2011/08/my-one-question-for-steve-jobs-in-2000.html
 [4]: http://www.wired.com/wired/archive/4.02/jobs_pr.html
 [5]: /2011/08/change_the_world/
+
+*[CEO]: Chief Executive Officer

@@ -18,3 +18,6 @@ Having dinner after Future of Web Design with Andy Budd, Richard Rutter, Paul Bo
 With this mini break, I come back to America hopefully refreshed, yet also with a clearer idea of how and where I want to take my life in the next 12 months, which in turn has an impact on how I want to spend my time in the more immediate months. I still have a list of online projects I want to get started on, as well as a number of more personal goals I want to work towards. 
 
 Enough of the talk, time for some action.
+
+*[UK]: United Kingdom
+*[US]: United States

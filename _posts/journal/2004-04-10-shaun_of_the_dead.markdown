@@ -17,3 +17,5 @@ Perhaps it would have been too much to ask to see more of Yvonne (Jessica Steven
 With it's fair share of emotion -- like Shaun's step-fathers finally words to him before dying, and having to shot his mum -- but I can't say I felt touched given that the situation played off with the comedy made it all seem unrealistic.
 
 Certainly an enjoyable film, it is probably 10 times more enjoyable if your a fan of the genre. There are little references all over the place (or so I'm told!). Yet the are other references -- such as flicking through the TV channels -- all showing news about the zombie attack except T4!
+
+*[TV]: television

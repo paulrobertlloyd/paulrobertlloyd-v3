@@ -96,3 +96,6 @@ If you're looking for an introduction to front-end performance, **Harry Roberts*
 ***
 
 So, that's my selection. I've undoubtedly missed many other seminal works -- articles covering content strategy and accessibility are notable by their absence. What articles would you choose?
+
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language

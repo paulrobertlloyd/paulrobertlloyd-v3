@@ -105,3 +105,6 @@ Hopefully this is the first in a series of events and initiatives in support of 
 [12]: http://www.multipack.co.uk
 [13]: http://upcoming.yahoo.com/event/5259221/
 [14]: http://agreenfocus.paulrobertlloyd.com/rss
+
+*[RSS]: Really Simple Syndication
+*[SXSW]: South by SouthWest
