@@ -30,5 +30,5 @@ pygments: true
 # Publishing
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
 # destination:  ../public/
-include: ['_pages']
+include: ['_pages', .htaccess]
 exclude: [Gemfile, Gemfile.lock, node_modules]
