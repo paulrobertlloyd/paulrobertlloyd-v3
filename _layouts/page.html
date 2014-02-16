@@ -7,8 +7,6 @@ layout: default
             <h1 class="entry__title">{{ page.title }}</h1>
         </header>
 
-Tagged with {{ page.categories | join: ', ' }}
-
         <div class="entry__main">
             {{ content | abbr | ampersand }}
         </div>
