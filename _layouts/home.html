@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Home
 ---
 <main class="main" role="main">
     <section class="section">
-        <h1 class="section__title">Home</h1>
+        <h1 class="section__title">{{ page.title }}</h1>
 
         <ul class="list">
         {% for summary in paginator.posts %}
