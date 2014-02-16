@@ -1,0 +1,15 @@
+{
+  "name": "paulrobertlloyd.com",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/paulrobertlloyd/paulrobertlloyd.com.git"
+  },
+  "devDependencies": {
+    "plumber": "~0.2.14",
+    "plumber-all": "~0.2.0",
+    "plumber-write": "~0.2.3",
+    "plumber-glob": "~0.2.1",
+    "myth": "~0.3.0"
+  }
+}

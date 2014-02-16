@@ -2,36 +2,33 @@
 layout: default
 title: Home
 ---
+<main class="main" role="main">
+    <section class="section">
+        <h1 class="section__title">Home</h1>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+        <ul class="list">
+        {% for summary in paginator.posts %}
+            <li class="list__item">
+                {% include summary.html %}
+            </li>
+        {% endfor %}
+        </ul>
+    </section>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page/{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
+    <div class="pagination">
+    {% if paginator.previous_page %}
+        {% if paginator.page == 2 %}
+        <a class="pagination-item newer" href="/">Newer</a>
+        {% else %}
+        <a class="pagination-item newer" href="{{paginator.previous_page_path}}">Newer</a>
+        {% endif %}
     {% else %}
-      <a class="pagination-item newer" href="/page/{{paginator.previous_page}}">Newer</a>
+        <span class="pagination-item newer">Newer</span>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+    {% if paginator.next_page %}
+        <a class="pagination-item older" href="{{paginator.next_page_path}}">Older</a>
+    {% else %}
+        <span class="pagination-item older">Older</span>
+    {% endif %}
+    </div>
+</main><!--/@main-->

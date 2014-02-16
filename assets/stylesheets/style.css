@@ -1,0 +1,9 @@
+:root {
+  var-gray: #323232;
+  var-serif: Georgia, serif;
+}
+
+body {
+  color: var(gray);
+  font-family: var(serif);
+}

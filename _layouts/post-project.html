@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<main class="main" role="main">
+    <article class="entry">
+        <header class="entry__header">
+            <h1 class="entry__title">{{ page.title }}</h1>
+
+            <nav class="nav nav--traverse">
+            {% assign previous = page.previous %}
+                {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title }}">Previous entry</a>{% endif %}
+            {% assign next = page.next %}
+                {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title }}">Next entry</a>{% endif %}
+            </nav>
+        </header>
+
+        <div class="entry__main">
+            {{ content | abbr | ampersand }}
+        </div>
+
+        <footer class="entry__footer">
+            <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+        </footer>
+    </article>
+</main><!--/@main-->

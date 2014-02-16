@@ -1,0 +1,46 @@
+---
+layout: post-entry
+title: Chuck
+date: '2007-11-14 00:38:48 +0000'
+excerpt: This weekend I discovered a new televisual addiction, in the form of NBC's Monday night comedy 'Chuck'.
+post_id: 130
+---
+It's been a little while since I've been excited about a television show, and even longer since I've been evangelising about an American series. But this weekend I discovered a new televisual addiction, in the form of NBC's Monday night comedy <cite>Chuck</cite>.
+
+<figure>
+    <img src="/assets/2007/11/chuckbartowski.jpg" alt=""/>
+    <figcaption>
+        <p>Chuck Bartowski.</p>
+    </figcaption>
+</figure>
+
+['Chuck'][1] refers to the show's title character Chuck Bartowski (played by [Zachary Levi][2]) is a self-confessed nerd, who works at the local 'Buy More' electrical superstore, and heads up their 'Nerd Herd' computer support team (think Geek Squad). He could have achieved much more in life had it not been for him being expelled from Stanford University, framed for cheating by his roommate and former friend Bryce Larkin.
+
+Bryce is now a rouge CIA agent. Shortly before being killed, Bryce emails all the governments secrets to Chuck encoded in thousands of images. Upon opening the e-mail, Chuck unwittingly absorbs these into his brain. NSA agent Major John Casey ([Adam Baldwin][3]) and CIA agent Sarah Walker ([Yvonne Strahovski][4]) are sent to retrieve this data, but on realising it is now locked inside Chuck's brain, they stay to protect him, using his 'flashes' to help fight international terrorists.
+
+This series has all the elements I look for in a show in order for me to turn on the box (and I need a lot of persuading these days). The plot, whilst far fetched of course, sets up a number of different and varied story arcs, whilst the cast is top-notch.
+
+Chucks world is divided between life at home with his sister ([Sarah Lancaster][5]) and her boyfriend 'Captain Awesome', and his job alongside best friend Morgan (with [Joshua Gomez][6] playing the sidekick role brilliantly). This is diametrically opposed to his action-packed lifestyle working as an undercover spy (although often told to 'stay in the car') alongside agents Walker and Casey.
+
+<figure>
+    <img src="/assets/2007/11/sarahwalker.jpg" alt=""/>
+    <figcaption>
+        <p>Sarah Walker.</p>
+    </figcaption>
+</figure>
+
+It's his relationship with Sarah though, that provides the thrust of the story. In order for the government to protect him, Sarah poses as Chucks girlfriend, and whilst both of them develop an affection for each other, Sarah is unable to tell Chuck her feelings for him given the situation. Yes, it's the typical will-they won't-they ploy, but hey, it worked for me in Friends, Scrubs and countless others, so no reason for it not to here.
+
+The series is only eight episodes in, so there is still plenty of milage left, but the shows creators should remember how quickly these romantic set-ups can become exhausting if not done right.
+
+Of course I can't pretend my love of this programme has nothing to do with the totally gorgeous (and often scantly clad) [Yvonne Strahovski][7], who provides yet more reasons to love Australia, if not the show!
+
+Thinking back to Scrubs, which is *finally* ending (the last four series being lamented for their lack of humour), I actually see Chuck becoming its natural successor. Whilst different plots, they both have a broad appeal, containing the same mix of drama and comedy -- and in the case of Chuck, action sequences too.
+
+[1]: http://www.nbc.com/chuck/
+[2]: http://www.nbc.com/Chuck/about/bios/zachary.shtml
+[3]: http://www.nbc.com/Chuck/about/bios/baldwin.shtml
+[4]: http://www.nbc.com/Chuck/about/bios/strahovski.shtml
+[5]: http://www.nbc.com/Chuck/about/bios/lancaster.shtml
+[6]: http://www.nbc.com/Chuck/about/bios/gomez.shtml
+[7]: http://en.wikipedia.org/wiki/Yvonne_Strahovski

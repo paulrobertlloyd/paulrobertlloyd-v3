@@ -1,0 +1,9 @@
+---
+layout: post-entry
+title: 50 First Dates
+date: '2004-04-20 12:00:00 +0100'
+excerpt: Just seen '50 First Dates' staring Drew Barrymore, Adam Sandler and a hilarious performance from Rob Schneider.
+---
+Just seen '50 First Dates' staring Drew Barrymore, Adam Sandler and a hilarious performance from Rob Schneider. Heart warming and funny, I can't recommend this film enough! A 10/10 review to follow soon. Meanwhile check out my review of [Shaun of the Dead][1] which I saw last week.
+
+[1]: /2004/04/shaun_of_the_dead/

@@ -1,0 +1,36 @@
+---
+layout: post-project
+title: cwhomes.co.uk
+date: '2006-01-30 12:00:00 +0000'
+excerpt: A property portal bringing together the combined resources of over sixty independent estate agency offices within Coventry and Warwickshire.
+---
+<div class="slides">
+    <figure>
+        <img src="/assets/portfolio/cwhomes/0.jpg" alt=""/>
+        <figcaption>
+            <p>Home page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/cwhomes/1.jpg" alt=""/>
+        <figcaption>
+            <p>Property search</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/cwhomes/2.jpg" alt=""/>
+        <figcaption>
+            <p>Search results</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/cwhomes/3.jpg" alt=""/>
+        <figcaption>
+            <p>Property details page</p>
+        </figcaption>
+    </figure>
+</div>
+
+cwhomes.co.uk is a property portal that brings together the combined resources of over sixty independent estate agency offices within Coventry and Warwickshire.
+
+Working with server-side developer Andrew Ayriss, I gave the existing site a vibrant and contemporary update, and developed a standards based front-end code base that would be more performant and easier to maintain.

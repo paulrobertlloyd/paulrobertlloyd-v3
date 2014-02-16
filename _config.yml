@@ -13,8 +13,8 @@ permalink: /:year/:month/:title
 relative_permalinks: false
 
 # Pagination
-paginate: 10
-paginate_path: /page/:num
+# paginate: 10
+paginate_path: /page/:num/
 
 # Archives
 archive:
@@ -30,4 +30,5 @@ pygments: true
 # Publishing
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
 # destination:  ../public/
-exclude: [Gemfile, Gemfile.lock]
+include: ['_pages']
+exclude: [Gemfile, Gemfile.lock, node_modules]

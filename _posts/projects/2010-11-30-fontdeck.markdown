@@ -1,0 +1,52 @@
+---
+layout: post-project
+title: Fontdeck
+date: '2010-11-30 12:00:00 +0000'
+excerpt: A pure CSS @font-face solution providing hundreds of fonts that can be used on the web without the need for complicated and non-standard based text replacement techniques.
+---
+<div class="slides">
+    <figure>
+        <img src="/assets/portfolio/fontdeck/0.jpg" alt=""/>
+        <figcaption>
+            <p>Home page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/fontdeck/1.jpg" alt=""/>
+        <figcaption>
+            <p>Browse Fonts</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/fontdeck/2.jpg" alt=""/>
+        <figcaption>
+            <p>Typeface page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/fontdeck/3.jpg" alt=""/>
+        <figcaption>
+            <p>Font specimen page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/fontdeck/4.jpg" alt=""/>
+        <figcaption>
+            <p>Designers landing page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/fontdeck/5.jpg" alt=""/>
+        <figcaption>
+            <p>Project settings</p>
+        </figcaption>
+    </figure>
+</div>
+
+Using a pure CSS @font-face solution, Fontdeck provides hundreds of web fonts that can be used without the need for complicated text replacement techniques.
+
+Based upon initial designs for the public beta created by [Aegir Hallmundur][1], I realigned the design to give the service a more professional feel. This was achieved by pairing the distinctive [Adelle][2] typeface for headings with the incredibly legible [PT Sans][3] for body copy. The colour palette was also modified, using desaturated colours that could be aligned with different font categorisations.
+
+[1]: http://aegir.me/work/fontdeck/
+[2]: http://fontdeck.com/typeface/adelle
+[3]: http://fontdeck.com/typeface/ptsans

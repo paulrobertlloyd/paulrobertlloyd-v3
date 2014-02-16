@@ -1,0 +1,42 @@
+---
+layout: post-project
+title: DACS
+date: '2012-08-01 12:00:00 +0100'
+excerpt: In the UK, many artists don't understand their legal rights regarding copyright, and as a result, often fail to receive the royalties they deserve. DACS is a non-profit organisation that aims to change this through education, legal services and lobbying government to ensure artists' never become sidelined.
+---
+<div class="slides">
+    <figure>
+        <img src="/assets/portfolio/dacs/0.jpg" alt=""/>
+        <figcaption>
+            <p>Home page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/dacs/1.jpg" alt=""/>
+        <figcaption>
+            <p>Landing page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/dacs/2.jpg" alt=""/>
+        <figcaption>
+            <p>Service page</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="/assets/portfolio/dacs/3.jpg" alt=""/>
+        <figcaption>
+            <p>Mobile landing page</p>
+        </figcaption>
+    </figure>
+</div>
+
+In the UK, many artists don't understand their legal rights regarding copyright, and as a result, often fail to receive the royalties they deserve. DACS (Design and Artists Copyright Society) is a non-profit organisation that aims to change this through education, legal services and lobbying government to ensure artists' never become sidelined.
+
+Working with [Harry Brignull][1], we discovered that even though DACS's user groups were diverse, they were united by a common concern: none of them wanted to become legal experts, but just wanted enough information about the law to complete their personal goals. For example, artists only wanted to be told about the copyright laws that affected them, not the stuff that affects art galleries or lobbyists.
+
+We reworked the IA so that users could quickly be directed to the right section of the site, where they could find content with an appropriate perspective, tone-of voice and calls-to-action that matched their needs.
+
+When it came to the visual design, DACS had already undergone an extensive rebrand exercise for print but they needed assistance translating this to work online. Ultimately, we drew upon their photographic library of artists to give a 'human face' to the organisation, combined with a restrained typographic pallet to ensure clarity. This was, of course, developed responsively so that content could be experienced equally well regardless of the device being used to access it.
+
+[1]: http://clearleft.com/is/harry-brignull/

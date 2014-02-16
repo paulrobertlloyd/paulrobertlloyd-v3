@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<main class="main" role="main">
+    <article class="entry">
+        <header class="entry__header">
+            <h1 class="entry__title">{{ page.title }}</h1>
+        </header>
+
+        <div class="entry__main">
+            <ul class="list">
+            {% assign posts_list = site.posts %}
+            {% for node in posts_list %}
+                {% if node.layout == page.section %}
+                <li class="list__item">
+                    <h1><a href="{{ node.url }}">{{ node.title }}</a> <time datetime"{{ node.date | date_to_xmlschema }}">{{ node.date | date: "%e %B %Y" }}</time></h1>
+                    <p>{{ node.excerpt }}</p>
+                </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+    </article>
+</main><!--/@main-->

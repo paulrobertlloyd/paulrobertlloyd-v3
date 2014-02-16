@@ -1,22 +1,39 @@
 ---
 layout: default
 ---
-{% case page.date.pattern %}
+{% assign previous_index = paginator.previous_page | minus: 1 %}
+{% assign next_index = paginator.next_page | minus: 1 %}
+{% case page.archive.date_pattern %}
 {% when '%Y' %}
-    {% assign archivetitle = page.date.value | date: "%Y" %}
+    {% assign archivetype = year %}
+    {% assign archivename = page.date | date: "%Y" %}
+    {% assign archivename_previous = paginator.posts[previous_index].date | date: "%Y" %}
+    {% assign archivename_next = paginator.posts[next_index].date | date: "%Y" %}
 {% when '%Y/%m' %}
-    {% assign archivetitle = page.date.value | date: "%B %Y" %}
+    {% assign archivetype = month %}
+    {% assign archivename = page.date | date: "%B %Y" %}
+    {% assign archivename_previous = paginator.posts[previous_index].date | date: "%B %Y" %}
+    {% assign archivename_next = paginator.posts[next_index].date | date: "%B %Y" %}
 {% endcase %}
 <main class="main" role="main">
-    <section class="section">
-        <h1 class="section__title">{{ archivetitle }}</h1>
+    <header>
+        <h1 class="section__title">{{ archivename }}</h1>
 
-        <ul class="list">
-        {% for post in page.posts %}
-            <li class="list__item">
-                {% include summary.html %}
-            </li>
-        {% endfor %}
-        </ul>
-    </section>
+        <nav class="nav nav--pagination">
+        {% if paginator.previous_page %}
+            <a rel="next" href="{{ paginator.previous_page_path | remove: 'index.html' }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
+        {% endif %}
+        {% if paginator.next_page %}
+            <a rel="prev" href="{{ paginator.next_page_path | remove: 'index.html' }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
+        {% endif %}
+        </nav>
+    </header>
+
+    <ul class="list">
+    {% for summary in page.archive.posts %}
+        <li class="list__item">
+            {% indent_include summary.html 12 %}
+        </li>
+    {% endfor %}
+    </ul>
 </main><!--/@main-->

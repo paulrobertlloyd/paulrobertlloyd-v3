@@ -1,0 +1,10 @@
+---
+layout: post-link
+title: Ascent
+date: '2010-12-13 11:04:00 +0000'
+link: http://youtube.com/watch?v=W2VygftZSCs
+embed: true
+---
+A truly amazing video from NASA:
+
+> This compilation of film and video presents the best of the best ground-based Shuttle motion imagery from STS-114, STS-117, and STS-124 missions. Rendered in the highest definition possible, this production is a tribute to the dozens of men and women of the Shuttle imaging team and the 30yrs of achievement of the Space Shuttle Program.
