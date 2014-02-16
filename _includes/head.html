@@ -6,8 +6,8 @@
             if(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {document.getElementsByTagName('html')[0].className += ' svg';}
         })();
     </script>
-    <!--link rel="stylesheet" href="/assets/css/styles.min.css"-->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"/>
+
+    <link rel="stylesheet" href="/assets/stylesheets/styles.css">
     <link rel="alternate"  href="/atom.xml" type="application/atom+xml" title="RSS Feed"/>
 
     <meta charset="utf-8"/>
@@ -23,15 +23,9 @@
     <meta name="geo.position" content="50.8420;-0.1539"/>
     <title>
     {% if page.title == "Home" %}
-        {{ site.title }} &middot; {{ site.tagline }}
+        {{ site.title }} – {{ site.tagline }}
     {% else %}
-        {{ page.title }} &middot; {{ site.title }}
+        {{ page.title }} – {{ site.title }}
     {% endif %}
     </title>
-    
-    <style>
-        .is-active {
-            outline: 1px solid red;
-        }
-    </style>
 </head>
