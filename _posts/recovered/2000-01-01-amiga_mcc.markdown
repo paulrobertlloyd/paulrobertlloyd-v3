@@ -1,0 +1,72 @@
+---
+layout: post-entry
+title: The AmigaMCC - Wasted Opportunity or Waste of Space?
+date: '2000-01-01 12:00:00 +0000'
+---
+On the 16th July 1999, a Technology Brief -- outlining major disclosable concepts behind the AmigaMCC (Multimedia Convergence Computer) was released on Amiga's Inc's website alongside pictures of the MCC's case design.
+
+![Industrial design prototype of the Amiga MCC](/assets/images/2000/01/amiga_mcc_1.jpg)
+
+![Industrial design prototype of the Amiga MCC](/assets/images/2000/01/amiga_mcc_2.jpg)
+
+It was widely rumoured that the 'Next generation CPU' mentioned in this brief was to be Transmeta's Crusoe Processor with it's unique 'code-morphing' architecture. When coupled with a next generation ATI Graphics Chipset, the AmigaMCC would certainly be a desirable machine.
+
+As for the design -- black has a long history in computer case design as being unsuccessful. Fuitsui's PCTV and Amiga's own CDTV for example. I like the actual MCC, but the additional monitor looks bulky and in many respects dated. If Amiga wanted to get peoples attention it should perhaps follow the lead of Apple's iMac and design something truly revolutionary and different.
+
+Having heard Jim Collas' speech at WOA '99, Amiga was looking to home networking with the central MCC connected to other smaller devices throughout the home. I feel more could be made of this in the design. Instead of your traditional CRT display, a LCD flat panel coupled with a DVD drive would encourage the separation of the two units in the home and encourage the addition of further devices to the system.
+
+## Specification
+### Processing Subsystem
+* High-performance next generation CPU
+* Hardware assist for Linux Kernel, Java VM, and classic Amiga Emulation
+* 168-pin SDRAM DIMMs -- future support for DDR SDRAM
+
+### Graphics Subsystem
+* Advanced SuperScalar rendering 2D and 3D hardware accelerator (unannounced next-generation ATI chipset -- specs still under nondisclosure)
+* 24-bit true colour depth/pixel supporting 640x480 to 1920x1200 resolutions
+* 32MB 128-bit SDRAM frame buffer
+
+### Audio/Video
+* DVD drive standard (DVD-RAM when available)
+* DVD playback including:
+* * MPEG-2 hardware decode acceleration: motion compensation and iDCT
+* * Hardware subpicture decoder with interpolating scalar and alpha compositor
+* Real-time video compression including MPEG-2
+* Still image capture acceleration
+* Analogue TV: NTSC/PAL/SECAM input, digitisation and TV outputs
+* S-Video and composite video I/O
+* Full channel TV tuner
+* 44kHz, 16-bit CD stereo audio I/O
+* AC-3 Dolby Digital 5.1 channel decode
+* S/PDIF Dolby Digital output
+* FM radio tuner under consideration
+
+### Communication Options (In Development):
+* V.90 56 Kb/s modem
+* 100/10 Mb/s Ethernet
+* HomePNA 2.0 10 Mb/s home networking
+* Wireless 2.4 GHz digital networking
+* Broadband Internet options:
+* 1.5 MB/s cable modem
+* DSL modem
+* ISDN modem
+* Digital satellite decoders
+
+### Mass Storage:
+* Two E-IDE UltraDMA interfaces (support for four drives)
+* Support two high capacity hard drives (ATX user configurations could support more)
+
+### I/O:
+* Infrared for remote control devices
+* Microphone input
+* Display touch screen controller
+* 7 Universal Serial Bus 'USB' 10Mb/s digital ports (2 on front for easy access)
+* Investigating 1394 option
+
+_Note: Full software support for these features would happen over time._
+
+*[CPU]: central processing unit
+*[DVD]: Digital Versatile Disc
+*[I/O]: input/output
+*[MCC]: Multimedia Convergence Computer
+*[WOA]: World of Amiga
