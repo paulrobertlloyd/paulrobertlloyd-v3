@@ -5,7 +5,7 @@ date: '2009-06-21 17:30:00 +0100'
 excerpt: Continuing the trend of this blog documenting events that happened several weeks ago, this month saw me become the ninth member of the Brighton based web agency Clearleft.
 post_id: 171
 ---
-![The Clearleft team](/assets/2009/06/clearleft.jpg)
+![The Clearleft team](/assets/images/2009/06/clearleft.jpg)
 
 This month saw me become the ninth member of the Brighton based web agency [Clearleft][1].
 

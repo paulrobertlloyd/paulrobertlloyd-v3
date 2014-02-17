@@ -5,7 +5,7 @@ date: '2006-03-26 09:22:55 +0100'
 excerpt: After 3 years of loyal service my trainers are going into retirement.
 post_id: 54
 ---
-![My old pair of trainers](/assets/2006/03/these_old_shoes.jpg)
+![My old pair of trainers](/assets/images/2006/03/these_old_shoes.jpg)
 
 I can't help but feel that this blog is getting a little self-involved. So instead I want to talk not about me, but a pair of old trainers, that after three years of loyal service are going into retirement.
 

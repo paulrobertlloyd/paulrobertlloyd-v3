@@ -5,7 +5,7 @@ date: '2012-06-08 00:17:17 +0100'
 excerpt: With a worsening financial crisis and continued destruction of the world's natural resources, there are undoubtedly more important things to worry about than Twitter's slightly tweaked bird logo. Yet here we are.
 post_id: 254
 ---
-![The new Twitter logo](/assets/2012/06/twitterbird.jpg)
+![The new Twitter logo](/assets/images/2012/06/twitterbird.jpg)
 
 With a [worsening financial crisis][1] and continued [destruction of the world's natural resources][2], there are undoubtedly more important things to worry about than Twitter's slightly tweaked bird logo. Yet here we are.
 

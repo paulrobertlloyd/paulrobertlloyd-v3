@@ -5,7 +5,7 @@ date: '2005-08-12 12:00:00 +0100'
 excerpt: A film about tomorrows dangers of human cloning, or advertising space for today's technology corporations?
 post_id: 45
 ---
-![Scarlett Johansson and Ewan McGregor in a scene from The Island](/assets/2005/08/the_island.jpg)
+![Scarlett Johansson and Ewan McGregor in a scene from The Island](/assets/images/2005/08/the_island.jpg)
 
 <cite>The Island</cite> is a sci-fi action thriller staring [Ewan McGregor][1] and the stunning [Scarlett Johansson][2]. The story revolves around 'Lincoln Six Echo' (McGregor) who with friend 'Jordan Two Delta' (Johansson), residents of a utopian society which is seemingly home to remaining survivors of a contamination outbreak that wiped out the rest of the world's population.
 

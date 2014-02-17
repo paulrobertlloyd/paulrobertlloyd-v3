@@ -5,7 +5,7 @@ date: '2006-10-22 21:00:40 +0100'
 excerpt: Sunday evening finally saw the launch of a completely rewritten version of LloydyWeb, and the seventh incarnation of this site.
 post_id: 93
 ---
-![Monkey at the computer](/assets/2006/10/monkey_business.jpg)
+![Monkey at the computer](/assets/images/2006/10/monkey_business.jpg)
 
 Sunday evening finally saw the launch of a completely rewritten version of LloydyWeb, and the seventh incarnation of this site. The [previous site][1] had been around for over two years, so the code has been massively improved upon (and bursting at the seems with [microformats][2]), and I'd like to think the design is a little more up-to-date with current trends too.
 

@@ -5,6 +5,6 @@ date: '2005-01-30 18:09:59 +0000'
 excerpt: All that you should leave behind.
 post_id: 7
 ---
-![U3 Album Cover](/assets/2005/01/released_monday.jpg)
+![U3 Album Cover](/assets/images/2005/01/released_monday.jpg)
 
 Includes the hit single <cite>Stuck In A Car You Can't Get Out Of</cite>.

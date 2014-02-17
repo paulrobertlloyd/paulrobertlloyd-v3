@@ -5,7 +5,7 @@ date: '2004-12-23 12:00:00 +0000'
 excerpt: Never before have I waited with as much anticipation as I have for this film.
 post_id: 21
 ---
-![Zach Braff in Garden State](/assets/2004/12/garden_state.jpg)
+![Zach Braff in Garden State](/assets/images/2004/12/garden_state.jpg)
 
 Never before have I waited with as much anticipation as I have for this particular film. I don't know why. It was only whilst browsing the movie trailers in iTunes that this particular film was singled out for suspending the boredom. But from that single viewing, I have waited seemingly forever to see this film.
 

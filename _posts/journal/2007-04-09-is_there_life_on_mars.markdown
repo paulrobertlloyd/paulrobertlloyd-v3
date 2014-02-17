@@ -5,7 +5,7 @@ date: '2007-04-09 23:46:12 +0100'
 excerpt: Thanks to the wonders of modern technology and a super fast broadband connection, I like many others in the UK today, will be watching the conclusion to 'Life on Mars' (9pm, BBC One).
 post_id: 118
 ---
-![John Simm and Philip Glenister in Life on Mars](/assets/2007/04/is_there_life_on_mars.jpg)
+![John Simm and Philip Glenister in Life on Mars](/assets/images/2007/04/is_there_life_on_mars.jpg)
 
 Thanks to the wonders of modern technology and a super fast broadband connection, I like many others in the UK today, will be watching the conclusion to <cite>Life on Mars</cite> (9pm, BBC One).
 

@@ -5,7 +5,7 @@ date: '2009-05-15 23:23:18 +0100'
 excerpt: The first stop on my nine city tour of Europe, was Cologne in Northern Germany.
 post_id: 167
 ---
-![Cologne](/assets/2009/05/cologne.jpg)
+![Cologne](/assets/images/2009/05/cologne.jpg)
 
 The first stop on my nine city tour of Europe, was Cologne in Northern Germany. Cologne is Germany's forth largest city, yet you'd never guess given its small town feel. I only had one day to spend here, so most of my time was spent in the immediate vicinity of the Cathedral and an area north of the Hohenzollern bridge. This bridge has become somewhat of an attraction in itself, as couples have recently begun attaching padlocks to it as a sign of their affection for each other. This is already quite a sight, and I'm sure even more so as more are added.
 

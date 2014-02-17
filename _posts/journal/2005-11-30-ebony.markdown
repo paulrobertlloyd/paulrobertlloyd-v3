@@ -5,7 +5,7 @@ date: '2005-11-30 01:23:13 +0000'
 excerpt: On Monday, a beloved member of our family sadly nudged us no more.
 post_id: 37
 ---
-![Ebony](/assets/2005/11/ebony.jpg)
+![Ebony](/assets/images/2005/11/ebony.jpg)
 
 After eight months battling heart disease (not that you would ever have known) a quick downturn during the weekend meant that Ebony, our 11 year old Afghan Hound was put to sleep.
 

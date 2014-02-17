@@ -5,7 +5,7 @@ date: '2006-11-08 22:38:54 +0000'
 excerpt: Thoughts on both the film and the experience of watching it in a US cinema.
 post_id: 87
 ---
-![Borat in Times Square, New York](/assets/2006/11/borat.jpg)
+![Borat in Times Square, New York](/assets/images/2006/11/borat.jpg)
 
 Last Friday night I went to see <cite>Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan</cite>. This is the second time I have watched a film in a US cinema, so alongside my review of this film, I'll also share some thoughts about that experience as well.
 

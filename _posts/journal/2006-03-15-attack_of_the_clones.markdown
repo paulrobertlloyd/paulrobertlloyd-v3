@@ -5,7 +5,7 @@ date: '2006-03-15 08:14:58 +0000'
 excerpt: So there I was passively watching a special edition of the Conan O'Brian show in which he visits Finland.
 post_id: 49
 ---
-![Screen grab from Late Night with Conan O'Brien](/assets/2006/03/attack_of_the_clones.jpg)
+![Screen grab from Late Night with Conan O'Brien](/assets/images/2006/03/attack_of_the_clones.jpg)
 
 So there I was passively watching a special edition of <cite>Late Night with Conan O'Brien</cite> in which he visits Finland. During his visit he was a guest on some television shows, and one immediately caught my eye -- <cite>Lauantai-illan HUUMAA!!</cite>
 

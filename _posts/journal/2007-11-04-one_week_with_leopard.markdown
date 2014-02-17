@@ -5,7 +5,7 @@ date: '2007-11-04 21:36:41 +0000'
 excerpt: Probably the biggest change for me this last week after that of my new job is the upgrade to Mac OS X 10.5 'Leopard'.
 post_id: 132
 ---
-![Screenshot of the new software](/assets/2007/11/one_week_with_leopard.jpg)
+![Screenshot of the new software](/assets/images/2007/11/one_week_with_leopard.jpg)
 
 Probably the biggest change for me this last week after that of my new job is the upgrade to Mac OS X 10.5 'Leopard'. Sadly this hasn't been a totally enjoyable experience given a number of well documented UI flaws, as well as the usual slew of bugs you'd expect in a debut release.
 

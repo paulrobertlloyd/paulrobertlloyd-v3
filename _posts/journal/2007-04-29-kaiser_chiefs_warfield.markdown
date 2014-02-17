@@ -5,7 +5,7 @@ date: '2007-04-29 15:35:50 +0100'
 excerpt: The Warfield in San Francisco, and seats on the front row of the upper level, perfect for watching the Kaisers.
 post_id: 114
 ---
-![Kaiser Chiefs Live at The Warfield, San Francisco](/assets/2007/04/kaiser_chiefs_warfield.jpg)
+![Kaiser Chiefs Live at The Warfield, San Francisco](/assets/images/2007/04/kaiser_chiefs_warfield.jpg)
 
 My first gig in a long while, and certainly bizarre in having to prove I was over 21 to get served alcohol (having not encountered the higher age limit in the US until this point). The Warfield is a nice small feeling venue, in a great central location on Market Street. We got seats on the front row of the upper level, perfect for watching the Kaisers.
 

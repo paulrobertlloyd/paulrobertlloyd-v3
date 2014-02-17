@@ -5,7 +5,7 @@ date: '2006-07-12 02:06:37 +0100'
 excerpt: If ever there was a reason to return to the States as quickly as possible, it would be to see the new Aaron Sorkin drama series 'Studio 60 on the Sunset Strip'.
 post_id: 62
 ---
-![The cast of Studio 60 on the Sunset Strip](/assets/2006/07/studio_60_on_the_sunset_strip.jpg)
+![The cast of Studio 60 on the Sunset Strip](/assets/images/2006/07/studio_60_on_the_sunset_strip.jpg)
 
 Dubbed by many as the West Wing meets Hollywood, <cite>Studio 60 on the Sunset Strip</cite> stars many of my favourite actors from that show including [Bradley Whitford][1] (who played Josh Lyman), [Matthew Perry][2] (Joe Quincy), [Timothy Busfield][3] (Danny Concannon) and surely it's a matter of time before [Joshua Malina][4] appears on the new show too (having appeared in every Aaron Sorkin project to date). It also stars [Nate Corddry][5], who will be familiar to [Daily Show][6] viewers.
 

@@ -5,7 +5,7 @@ date: '2006-03-18 23:10:13 +0000'
 excerpt: Only at an anti Iraq war demo in Palo Alto could a fight break out.
 post_id: 60
 ---
-![Rally in Palo Alto](/assets/2006/03/war_on_peace.jpg)
+![Rally in Palo Alto](/assets/images/2006/03/war_on_peace.jpg)
 
 Only at an anti Iraq war demo in Palo Alto could a fight break out. The dialogue between a demonstrator, and a couple of bystanders went something like this:
 

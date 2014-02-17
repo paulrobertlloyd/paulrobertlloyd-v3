@@ -5,7 +5,7 @@ date: '2006-09-27 14:04:00 +0100'
 excerpt: BBC One has revealed a new set of idents and on-screen branding.
 post_id: 78
 ---
-![New BBC1 idents](/assets/2006/09/the_one_to_watch.jpg)
+![New BBC1 idents](/assets/images/2006/09/the_one_to_watch.jpg)
 
 Since childhood, I have been a closet fan of television idents (the bits of video that appear whilst a program is being announced). Back in the early nineties, when a channel got a new set of idents, it was a big deal, with all the press reporting on them and casting their opinions. Of course back then, there were only four channels.
 

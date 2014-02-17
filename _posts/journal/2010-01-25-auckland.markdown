@@ -5,7 +5,7 @@ date: '2010-01-25 23:44:04 +0000'
 excerpt: Before the tan disappears I'd like to record my short journey across New Zealand and Australia. There is much to say, so over the next few days, I shall try to describe how I ended the previous decade down-under.
 post_id: 178
 ---
-![Auckland](/assets/2010/01/auckland.jpg)
+![Auckland](/assets/images/2010/01/auckland.jpg)
 
 The first stop on my quick sprint around New Zealand was Auckland, where I spent just a day and a half. This could have been considered longer than necessary -- friends told me I should avoid it all together -- yet I viewed this brief stop as an opportunity to acclimatise after a gruelling 24 hours of travel (and [related interrogation][1]).
 

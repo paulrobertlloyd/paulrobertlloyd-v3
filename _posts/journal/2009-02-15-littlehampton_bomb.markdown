@@ -5,7 +5,7 @@ date: '2009-02-15 23:14:53 +0000'
 excerpt: On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station.
 post_id: 154
 ---
-![Bomb scene in Littlehampton](/assets/2009/02/littlehampton_bomb.jpg)
+![Bomb scene in Littlehampton](/assets/images/2009/02/littlehampton_bomb.jpg)
 
 On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station. Fearing I either was being stitched up, or just meters away from the scene, Jon suggested I check [Twitter][1] to see if the story could be confirmed. Sure enough [one single tweet][2] was there waiting for me: "Littlehampton train station closed and lots of police. What's goin down twits?"
 

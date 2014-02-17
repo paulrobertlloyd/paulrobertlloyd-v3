@@ -5,7 +5,7 @@ date: '2006-07-25 16:42:52 +0100'
 excerpt: Organised by Trevor Morris and presented by the Multipack, next month (August 27th) sees the first annual Geek in the Park.
 post_id: 83
 ---
-![Geek in the Park logo](/assets/2006/07/when_geeks_come_out_to_play.jpg)
+![Geek in the Park logo](/assets/images/2006/07/when_geeks_come_out_to_play.jpg)
 
 Organised by [Trevor Morris][1] and presented by the [Multipack][2], next month (August 27th) sees the first annual Geek in the Park:
 

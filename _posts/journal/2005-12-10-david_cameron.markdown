@@ -5,7 +5,7 @@ date: '2005-12-10 02:03:20 +0000'
 excerpt: On Tuesday, the Conservative Party elected their 4th leader since John Major was defeated at the 1997 general election.
 post_id: 53
 ---
-![David Cameron](/assets/2005/12/david_cameron.jpg)
+![David Cameron](/assets/images/2005/12/david_cameron.jpg)
 
 On Tuesday, the Conservative Party elected their 4th leader since John Major was defeated at the 1997 general election. David Cameron ran a faultless campaign that saw him come from seemingly nowhere to claim an outstanding victory. He beat his final round rival David Davies in a ballot of party members by a ratio of 2:1.
 

@@ -5,7 +5,7 @@ date: '2007-07-11 00:23:19 +0100'
 excerpt: Last weekend we witnessed another global entertainment event, this time aimed to raise awareness of 'a climate in crisis' -- Live Earth.
 post_id: 127
 ---
-![Live Earth logo](/assets/2007/07/live_earth.jpg)
+![Live Earth logo](/assets/images/2007/07/live_earth.jpg)
 
 Last weekend we witnessed another global entertainment event, this time aimed to raise awareness of 'a climate in crisis' -- Live Earth.
 

@@ -5,7 +5,7 @@ date: '2011-12-20 22:57:23 +0000'
 excerpt: After four days in Washington, it was on to another North American capital, Ottawa. I encountered a city that was cold yet plentiful in ATMs that would refuse to accept my debit card.
 post_id: 231
 ---
-![Canadian parliament buildings in Ottawa](/assets/2011/12/ottawa.jpg)
+![Canadian parliament buildings in Ottawa](/assets/images/2011/12/ottawa.jpg)
 
 After [four days in Washington][1], it was on to another North American capital, Ottawa.
 

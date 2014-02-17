@@ -5,7 +5,7 @@ date: '2006-12-11 23:50:12 +0000'
 excerpt: The first of a few brief film reviews I plan to end the year on, having seen a few movies during my three months back in the states.
 post_id: 102
 ---
-![Scene from Flags of our Fathers](/assets/2006/12/flags_of_our_fathers.jpg)
+![Scene from Flags of our Fathers](/assets/images/2006/12/flags_of_our_fathers.jpg)
 
 I went to see <cite>Flags of Our Fathers</cite> with Tung and Fabricio one night after work a few weeks ago.
 

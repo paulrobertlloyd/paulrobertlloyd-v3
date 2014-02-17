@@ -5,7 +5,7 @@ date: '2006-12-13 00:06:45 +0000'
 excerpt: A story about several racially and socially divided individuals living in Los Angeles, that through a number of events over the course of two days, come in contact with each other with predictable and unpredictable results.
 post_id: 97
 ---
-![Scene from Crash](/assets/2006/12/crash.jpg)
+![Scene from Crash](/assets/images/2006/12/crash.jpg)
 
 <cite>Crash</cite> is a story about several racially and socially divided individuals living in Los Angeles, that through a number of events over the course of two days, come in contact with each other with predictable and unpredictable results. Detective Graham Waters (played by Don Cheadle):
 

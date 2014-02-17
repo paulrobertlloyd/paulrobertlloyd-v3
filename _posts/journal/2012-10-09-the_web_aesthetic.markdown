@@ -5,7 +5,7 @@ date: '2012-10-09 02:50:00 +0100'
 excerpt: At the beginning of this year I was struck by a realisation, prompted in part by the discussions around responsive images but also the artistic ingenuity of the image optimisation techniques being used by Jeremy. How might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 post_id: 262
 ---
-![Illustration for The Web Aesthetic](/assets/2012/10/the_web_aesthetic.jpg)
+![Illustration for The Web Aesthetic](/assets/images/2012/10/the_web_aesthetic.jpg)
 
 At the beginning of this year I was struck by a realisation, prompted in part by the discussions around [responsive images][1] but also the artistic ingenuity of the [image optimisation][2] techniques being used by Jeremy. If the capabilities of a medium can dictate how we design for it, how might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 

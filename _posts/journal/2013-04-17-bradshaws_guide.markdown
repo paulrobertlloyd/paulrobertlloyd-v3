@@ -5,7 +5,7 @@ date: '2013-04-17 00:48:12 +0100'
 excerpt: Based on the 1866 edition of George Bradshaw's handbook for tourists using Britain's nascent railway network, my latest project puts his historical insights into the hands of a new generation, many of whom use the same routes he described 150 years ago.
 post_id: 271
 ---
-![Bradshaw's Guide being viewed on an iPad](/assets/2013/04/bradshaws_guide.jpg)
+![Bradshaw's Guide being viewed on an iPad](/assets/images/2013/04/bradshaws_guide.jpg)
 
 This blog has been fairly quiet over the last few months. Not because I've got a shortage of things to say, far from it. In fact, such is the backlog of posts, I'm dedicating much of my week-short break here in San Francisco to catching up.
 

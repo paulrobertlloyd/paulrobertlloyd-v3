@@ -5,7 +5,7 @@ date: '2011-03-16 18:05:15 +0000'
 excerpt: This years SXSW Interactive saw 1,041 sessions presented by 1,648 speakers, growing to such extent that its size now rivals that of the more popular music festival. Yet bigger doesn't necessarily mean better.
 post_id: 215
 ---
-![A sign reading Austin](/assets/2011/03/sxsw.jpg)
+![A sign reading Austin](/assets/images/2011/03/sxsw.jpg)
 
 It's been three years since I last visited the United States. For a small but considerable part of my life this place was home; an experience that's left me as equally fascinated by its people and culture as I remain frustrated.
 

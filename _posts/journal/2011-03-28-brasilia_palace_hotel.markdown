@@ -5,7 +5,7 @@ date: '2011-03-28 20:28:04 +0100'
 excerpt: For anyone coming to Brasilia for its modernist architecture, no visit would be complete without a stay at this hotel. Designed by Oscar Niemeyer and opened in 1958, it hosted dignitaries such as Queen Elizabeth and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
 post_id: 213
 ---
-![The Brasilia Palace Hotel](/assets/2011/03/brasilia_palace_hotel.jpg)
+![The Brasilia Palace Hotel](/assets/images/2011/03/brasilia_palace_hotel.jpg)
 
 Alongside the [Palace of Planalto][1] and Our Lady Fatima Church, the [Brasilia Palace Hotel][2] was one of the first buildings constructed in Brazil's new capital. Designed by [Oscar Niemeyer][3] and inaugurated in 1958, it hosted important dignitaries like Queen Elizabeth, Indira Ghandi, Dwight Eisenhower and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
 

@@ -5,7 +5,7 @@ date: '2009-02-08 11:44:27 +0000'
 excerpt: One of my favourite comedians stars in a new show starting on Comedy Central this week.
 post_id: 160
 ---
-![Promotion for Important Things](/assets/2009/02/important_things.jpg)
+![Promotion for Important Things](/assets/images/2009/02/important_things.jpg)
 
 One of my favourite comedians stars in a new show starting on Comedy Central this week.
 

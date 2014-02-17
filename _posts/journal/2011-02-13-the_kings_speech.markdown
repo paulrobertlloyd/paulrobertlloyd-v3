@@ -5,7 +5,7 @@ date: '2011-02-13 23:13:23 +0000'
 excerpt: The King's Speech is undoubtedly one of the most successful independent British films ever made, yet some see this popularity as problematic given the artistic licence given to the events it portrays.
 post_id: 203
 ---
-![Colin Firth in The King's Speech](/assets/2011/02/the_kings_speech.jpg)
+![Colin Firth in The King's Speech](/assets/images/2011/02/the_kings_speech.jpg)
 
 However you wish to measure it, [The King's Speech][1] is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn't imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
 

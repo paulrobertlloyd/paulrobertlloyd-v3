@@ -5,7 +5,7 @@ date: '2007-05-05 16:46:32 +0100'
 excerpt: Last Wednesday night I had the good fortune to see Travis at one of only two live gigs they played in America, after their appearance at the Coachella music festival near Los Angeles.
 post_id: 116
 ---
-![Travis Live at The Fillmore, San Francisco](/assets/2007/05/travis_fillmore.jpg)
+![Travis Live at The Fillmore, San Francisco](/assets/images/2007/05/travis_fillmore.jpg)
 
 Last Wednesday night I had the good fortune to see Travis at one of only two live gigs they played in America, after their appearance at the Coachella music festival near Los Angeles. Like many other British bands, they have a smaller following this side of the Atlantic, which is great as it means they fill far smaller venues than you would expect in Europe, and the fans are more dedicated and appreciative.
 

@@ -5,7 +5,7 @@ date: '2010-06-29 22:21:41 +0100'
 excerpt: Architecture has never been kind to Birmingham, but then Birmingham has never been kind to its architecture.
 post_id: 198
 ---
-![Artists impression of the new Library of Birmingham](/assets/2010/06/a_new_library_for_birmingham.jpg)
+![Artists impression of the new Library of Birmingham](/assets/images/2010/06/a_new_library_for_birmingham.jpg)
 
 Having looked fondly on previous visits to Birmingham Central Library, it was with much excitement that I returned again on Saturday, hoping to find some reference material for a forthcoming post.
 

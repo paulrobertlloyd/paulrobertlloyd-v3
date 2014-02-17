@@ -5,7 +5,7 @@ date: '2007-03-21 00:02:00 +0000'
 excerpt: Grabbing a few minutes to to talk about the all new Ning we launched almost three weeks ago.
 post_id: 119
 ---
-![The new Ning homepage](/assets/2007/03/finally_a_ning_to_be_proud_of.jpg)
+![The new Ning homepage](/assets/images/2007/03/finally_a_ning_to_be_proud_of.jpg)
 
 I'm able to grab a spare few minutes to get round to talking about the all new Ning that we launched almost three weeks ago. In that time, I have heard lots of positive feedback from people at SXSW, and the ever increasing collection of reviews and reactions you can find online. However I want to talk a little about the project from a more personal perspective.
 

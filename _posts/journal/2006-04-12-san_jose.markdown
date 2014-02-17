@@ -5,7 +5,7 @@ date: '2006-04-12 07:07:31 +0100'
 excerpt: Last Saturday I took myself on a little tour of San José, the self-proclaimed capital of Silicon Valley.
 post_id: 73
 ---
-![San José City Hall](/assets/2006/04/san_jose.jpg)
+![San José City Hall](/assets/images/2006/04/san_jose.jpg)
 
 Last Saturday I took myself on a little tour of San José, the self-proclaimed capital of Silicon Valley that lies at the foot of the peninsula, about 50 miles south of San Francisco. Like me, you may be surprised to learn that this city is not only the 10th largest in the US, but also more populated than it's more famous Bay Area counterpart, San Francisco. According to the FBI, it's also America's safest city.
 

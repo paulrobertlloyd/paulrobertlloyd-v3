@@ -5,7 +5,7 @@ date: '2005-01-11 21:36:13 +0000'
 excerpt: Another MacWorld Expo, another slew of gifts from Apple.
 post_id: 11
 ---
-![The new Mac mini](/assets/2005/01/all_good_things.jpg)
+![The new Mac mini](/assets/images/2005/01/all_good_things.jpg)
 
 The new [Mac mini][1] is just what the company has needed to have been selling for a long time, too long in fact. With this product (aimed squarely at the PC buying consumer) alongside the continued success of the iPod, Apple is slowly becoming a mass consumer brand.
 

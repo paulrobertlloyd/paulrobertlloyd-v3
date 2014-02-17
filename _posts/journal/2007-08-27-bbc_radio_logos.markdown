@@ -5,7 +5,7 @@ date: '2007-08-27 23:30:14 +0100'
 excerpt: This last month has seen the gradual introduction of a new set of station identities for BBC Radio, designed by Fallon.
 post_id: 124
 ---
-![The new logos](/assets/2007/08/bbc_radio_logos.jpg)
+![The new logos](/assets/images/2007/08/bbc_radio_logos.jpg)
 
 This last month has seen the gradual introduction of a new set of station identities for BBC Radio, designed by Fallon, In this overarching re-brand, each of the BBC's national radio stations have been given an identity that falls within an overall templated design.
 

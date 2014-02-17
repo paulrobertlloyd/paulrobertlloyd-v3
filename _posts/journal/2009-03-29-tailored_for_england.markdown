@@ -5,7 +5,7 @@ date: '2009-03-29 02:06:27 +0100'
 excerpt: The appointment of Fabio Capello has brought about a more stylish and confident England. Now they have a kit to match.
 post_id: 158
 ---
-![England crest](/assets/2009/03/tailored_for_england.jpg)
+![England crest](/assets/images/2009/03/tailored_for_england.jpg)
 
 From humble beginnings where teams wore different strips only to tell themselves apart, today football kits have become a huge revenue opportunity for clubs and sportswear manufactures.
 

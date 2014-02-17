@@ -5,7 +5,7 @@ date: '2011-12-29 00:57:39 +0000'
 excerpt: Sat in the front seat of another float plane, I enjoyed a breathtaking view of Vancouver as I descended into its harbour. For such a densely populated city, I felt I'd arrived somewhere small and friendly.
 post_id: 234
 ---
-![Vancouver waterfront from Stanley Park](/assets/2011/12/vancouver.jpg)
+![Vancouver waterfront from Stanley Park](/assets/images/2011/12/vancouver.jpg)
 
 Sat in the front seat of a [Saltspring Air][1] float plane, I enjoyed breathtaking views of Vancouver as I descended into its harbour, landing just in front of Canada Place. For such a densely populated city, I felt I'd arrived somewhere small and friendly, certifying [its status][2] as one of the world's most liveable cities.
 

@@ -5,7 +5,7 @@ date: '2012-03-09 23:53:40 +0000'
 excerpt: Once again, I'm in Austin for SXSW Interactive; the forth time I've attended an event I find easy to disparage. Yet this is the first stop on a trip that will take in several hundred miles of Interstate highway between here and San Francisco; two points of familiarity on an itinerary that promises to be anything but predictable.
 post_id: 248
 ---
-![Road block in Austin](/assets/2012/03/on_the_road_again.jpg)
+![Road block in Austin](/assets/images/2012/03/on_the_road_again.jpg)
 
 The unremarkable rusty orange exterior of the Hyatt Regency hotel in Austin serves only to make the interior more surprising -- spectacular even. Its large triangular atrium reveals 17 floors from which 448 rooms can be accessed. Walking along its corridors feels strangely cinematic.
 

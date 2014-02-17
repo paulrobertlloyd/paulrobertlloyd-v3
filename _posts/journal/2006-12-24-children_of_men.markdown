@@ -5,7 +5,7 @@ date: '2006-12-24 14:48:39 +0000'
 excerpt: Children of Men is a vision of the not too distant future (2027 to be precise) where the human race is no longer able to reproduce.
 post_id: 96
 ---
-![Scene from Children of Men](/assets/2006/12/children_of_men.jpg)
+![Scene from Children of Men](/assets/images/2006/12/children_of_men.jpg)
 
 <cite>Children of Men</cite> is a vision of the not too distant future (2027 to be precise) where the human race is no longer able to reproduce. Whilst I liked the look of the trailer, I'm usually a fan of Clive Owen who plays the leading role in this film, and so expected this to be a pretty average affair.
 

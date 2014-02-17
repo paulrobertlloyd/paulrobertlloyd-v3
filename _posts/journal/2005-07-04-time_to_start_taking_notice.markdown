@@ -5,7 +5,7 @@ date: '2005-07-04 02:05:36 +0100'
 excerpt: 'I often tend to neglect blogging my thoughts and views regarding the big issues of the day, even given my usual strong opinions. This is something I''m aiming to rectify and what better place to start: 30,000 children dying a day, needlessly.'
 post_id: 39
 ---
-![Leaders of the G8](/assets/2005/07/time_to_start_taking_notice.jpg)
+![Leaders of the G8](/assets/images/2005/07/time_to_start_taking_notice.jpg)
 
 <img class="right" src="/assets/images/2005/07/live8.png" alt="Live8 logo" />You've no doubt heard the statistics -- over and over again. We live in a society where such figures have become background noise. 'More important' issues take precedence; [should I buy a 50 or 56 inch plasma television][1]? How long before I can afford a new Apple Cinema Display to go alongside my swanky new G5? How will we afford this months mortgage repayment...
 

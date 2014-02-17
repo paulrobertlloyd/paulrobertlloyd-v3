@@ -5,7 +5,7 @@ date: '2009-02-09 10:04:40 +0000'
 excerpt: A word cloud generated from content that has appeared on my site over the last few months.
 post_id: 161
 ---
-![Wordle](/assets/2009/02/wordle.jpg)
+![Wordle](/assets/images/2009/02/wordle.jpg)
 
 This is a word cloud generated from content that has appeared on my site over the last few months. You can create your own word clouds at [wordle.net][1]
 

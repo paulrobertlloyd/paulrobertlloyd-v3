@@ -5,7 +5,7 @@ date: '2012-01-26 21:56:34 +0000'
 excerpt: After enough subtle hints, I was happy to unwrap a copy of the Steve Jobs biography at Christmas. I don't read many books, and those I do, I rarely finish, but I couldn't put this one down. When I intended to read half an hour before bed, I'd usually end up reading for two.
 post_id: 239
 ---
-![Steve Jobs by Walter Isaacson](/assets/2012/01/steve_jobs_by_walter_isaacson.jpg)
+![Steve Jobs by Walter Isaacson](/assets/images/2012/01/steve_jobs_by_walter_isaacson.jpg)
 
 After enough subtle hints, I was happy to unwrap a copy of the [Steve Jobs biography][1] at Christmas. I don't read many books, and those I do, I rarely finish, but I couldn't put this one down. When I intended to read half an hour before bed, I'd usually end up reading for two.
 

@@ -5,7 +5,7 @@ date: '2012-09-21 21:02:44 +0100'
 excerpt: They say change is as good as a rest. With early morning commutes, a 'distinctive' uniform and interaction with the general public, volunteering at the London 2012 Paralympic Games couldn't have been further removed from the desk-bound job I'd become weary of.
 post_id: 259
 ---
-![Me as a Games Maker](/assets/2012/09/games_maker.jpg)
+![Me as a Games Maker](/assets/images/2012/09/games_maker.jpg)
 
 They say change is as good as a rest. With early morning commutes, a 'distinctive' uniform and interaction with the general public, volunteering at the London 2012 Paralympic Games couldn't have been further removed from the desk-bound job I'd become weary of.
 

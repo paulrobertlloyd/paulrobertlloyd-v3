@@ -5,7 +5,7 @@ date: '2008-09-23 23:24:17 +0100'
 excerpt: The California Zephyr is a 56 hour, 2348 mile long train journey that starts in Emeryville, California. After speeding across the deserts of Nevada and Utah, it climbs over the Rocky Mountains, tunnels under the Continental Divide before heading towards its final destination of Chicago's Grand Union Station.
 post_id: 146
 ---
-![Landscape seen from the California Zephyr](/assets/2008/09/california_zephyr.jpg)
+![Landscape seen from the California Zephyr](/assets/images/2008/09/california_zephyr.jpg)
 
 The California Zephyr is a 56 hour, 2348 mile long train journey that starts in Emeryville, California. After speeding across the deserts of Nevada and Utah, it climbs over the Rocky Mountains, tunnels under the Continental Divide before heading towards its final destination of Chicago's Grand Union Station.
 

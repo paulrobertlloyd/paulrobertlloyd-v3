@@ -5,7 +5,7 @@ date: '2012-02-26 23:21:55 +0000'
 excerpt: Last week I was invited to Responsive Summit, a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the Dr. Strangelove reference either.
 post_id: 244
 ---
-![Scene from Dr. Strangelove](/assets/2012/02/responsive_summit.jpg)
+![Scene from Dr. Strangelove](/assets/images/2012/02/responsive_summit.jpg)
 
 Last week I was invited to [Responsive Summit][1], a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the [Dr. Strangelove][2] reference either.
 

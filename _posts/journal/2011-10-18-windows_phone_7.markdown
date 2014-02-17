@@ -5,7 +5,7 @@ date: '2011-10-18 23:49:26 +0100'
 excerpt: With three years of iPhone ownership I've become accustomed to the design and behaviour of iOS, yet at the same time ignorant of other smartphone platforms. Thanks to Clearleft's new mobile testing environment, I can now spend a week or so with different operating systems to get a feel for how they differ. First up; Windows Phone 7.
 post_id: 227
 ---
-![Windows Phone 7](/assets/2011/10/windows_phone_7.jpg)
+![Windows Phone 7](/assets/images/2011/10/windows_phone_7.jpg)
 
 With three years of iPhone ownership I've become accustomed to the design and behaviour of iOS, yet at the same time ignorant of other smartphone platforms. As an interactive designer working on mobile products this can lead to poor assumptions and little empathy for users of different platforms. As a responsible consumer, it's important to understand the wider marketplace so my choice of phone is based upon an informed decision.
 

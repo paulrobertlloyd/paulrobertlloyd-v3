@@ -5,7 +5,7 @@ date: '2007-06-06 23:30:38 +0100'
 excerpt: Monday saw the much anticipated reveal of the most significant identity to launch in Britain since that of the Millennium Experience in 1999; the logo for the 2012 London Olympic Games.
 post_id: 104
 ---
-![London 2012 Logos](/assets/2007/06/2012_and_all_that.jpg)
+![London 2012 Logos](/assets/images/2007/06/2012_and_all_that.jpg)
 
 Monday saw the much anticipated reveal of the most significant identity to launch in Britain since that of the Millennium Experience in 1999. My immediate action upon seeing it was one of restrained joy -- it was great to see something new in a category of identities that have remained pretty conservative and predictable over the last 40 years.
 

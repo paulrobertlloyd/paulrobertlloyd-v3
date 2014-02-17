@@ -5,7 +5,7 @@ date: '2007-03-04 00:48:58 +0000'
 excerpt: Yesterday I moved into my new apartment in the Potrero Hill district of San Francisco.
 post_id: 109
 ---
-![Dogpatch, San Francisco](/assets/2007/03/welcome_to_the_neighbourhood.jpg)
+![Dogpatch, San Francisco](/assets/images/2007/03/welcome_to_the_neighbourhood.jpg)
 
 Yesterday I moved into my new apartment in the Potrero Hill district of San Francisco.
 
