@@ -16,24 +16,28 @@ layout: default
     {% assign archivename_next = paginator.posts[next_index].date | date: "%B %Y" %}
 {% endcase %}
 <main class="main" role="main">
-    <header>
-        <h1 class="section__title">{{ archivename }}</h1>
+    <section class="index">
+        <header class="index__header">
+            <h1 class="index__title">{{ archivename }}</h1>
 
-        <nav class="nav nav--pagination">
-        {% if paginator.previous_page %}
-            <a class="nav__item" rel="next" href="{{ paginator.previous_page_path | remove: 'index.html' }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
-        {% endif %}
-        {% if paginator.next_page %}
-            <a class="nav__item" rel="prev" href="{{ paginator.next_page_path | remove: 'index.html' }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
-        {% endif %}
-        </nav>
-    </header>
+            <nav class="nav nav--pagination">
+            {% if paginator.previous_page %}
+                <a class="nav__item" rel="next" href="{{ paginator.previous_page_path | remove: 'index.html' }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
+            {% endif %}
+            {% if paginator.next_page %}
+                <a class="nav__item" rel="prev" href="{{ paginator.next_page_path | remove: 'index.html' }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
+            {% endif %}
+            </nav>
+        </header>
 
-    <ul class="list">
-    {% for summary in page.archive.posts %}
-        <li class="list__item">
-            {% indent_include summary.html 12 %}
-        </li>
-    {% endfor %}
-    </ul>
+        <div class="index__main">
+            <ul class="list">
+            {% for summary in page.archive.posts %}
+                <li class="list__item">
+                    {% indent_include summary.html 16 %}
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </section>
 </main><!--/@main-->
