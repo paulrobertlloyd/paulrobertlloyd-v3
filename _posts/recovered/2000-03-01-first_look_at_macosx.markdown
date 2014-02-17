@@ -35,13 +35,16 @@ Based on the single window concept, there are three options for viewing your sys
 The new Finder is not that bad. It will take Mac users some time to get used to, but they'll soon find the lack of hundreds of windows floating round their screen very pleasant indeed. However, I do think Apple may be trying to imitate Windows a little bit seeing it has a lead over Mac OS, and this is shown by its naming two of the buttons on the title bars as minimise and maximise (shudder!)
 
 ## Foundations
+
+|------------------------------|
 | Aqua                         |
-|------------------------------|
+|---------|--------|-----------|
 | Classic | Carbon | Cocoa     |
-|------------------------------|
+|---------|--------|-----------|
 | Quartz  | OpenGL | QuickTime |
-|------------------------------|
+|---------|--------|-----------|
 | Darwin                       |
+|------------------------------|
 
 As for the structure of Mac OS X, it is as follows. Below the Aqua GUI lies three critical application environments called Classic, Carbon and Cocoa.
 
