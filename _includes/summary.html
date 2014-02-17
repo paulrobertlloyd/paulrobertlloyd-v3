@@ -1,12 +1,19 @@
 
 <article class="summary">
     <header class="summary__header">
+        {% case summary.layout %}
+        {% when "post-link" %}
+        <h1 class="summary__title">Link: <a href="{{ summary.url }}">{{ summary.title }}</a></h1>
+        {% when "post-photo" %}
+        <h1 class="summary__title">Photo: <a href="{{ summary.url }}">{{ summary.title }}</a></h1>
+        {% else %}
         <h1 class="summary__title"><a href="{{ summary.url }}">{{ summary.title }}</a></h1>
+        {% endcase %}
     </header>
-    <div class="summary__main">
-        <p>{{ summary.excerpt }}</p>
-    </div>
     <footer class="summary__footer">
         <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
     </footer>
+    <div class="summary__main">
+        {{ summary.excerpt | abbr | ampersand | markdownify }}
+    </div>
 </article>

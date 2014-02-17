@@ -4,12 +4,12 @@ layout: default
 {% assign previous_index = paginator.previous_page | minus: 1 %}
 {% assign next_index = paginator.next_page | minus: 1 %}
 {% case page.archive.date_pattern %}
-{% when '%Y' %}
+{% when "%Y" %}
     {% assign archivetype = year %}
     {% assign archivename = page.date | date: "%Y" %}
     {% assign archivename_previous = paginator.posts[previous_index].date | date: "%Y" %}
     {% assign archivename_next = paginator.posts[next_index].date | date: "%Y" %}
-{% when '%Y/%m' %}
+{% when "%Y/%m" %}
     {% assign archivetype = month %}
     {% assign archivename = page.date | date: "%B %Y" %}
     {% assign archivename_previous = paginator.posts[previous_index].date | date: "%B %Y" %}
@@ -21,10 +21,10 @@ layout: default
 
         <nav class="nav nav--pagination">
         {% if paginator.previous_page %}
-            <a rel="next" href="{{ paginator.previous_page_path | remove: 'index.html' }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
+            <a class="nav__item" rel="next" href="{{ paginator.previous_page_path | remove: 'index.html' }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
         {% endif %}
         {% if paginator.next_page %}
-            <a rel="prev" href="{{ paginator.next_page_path | remove: 'index.html' }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
+            <a class="nav__item" rel="prev" href="{{ paginator.next_page_path | remove: 'index.html' }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
         {% endif %}
         </nav>
     </header>

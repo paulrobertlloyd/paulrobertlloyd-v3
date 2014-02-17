@@ -2,12 +2,12 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="entry">
-        <header class="entry__header">
-            <h1 class="entry__title">{{ page.title }}</h1>
+    <section class="index">
+        <header class="index__header">
+            <h1 class="index__title">{{ page.title }}</h1>
         </header>
 
-        <div class="entry__main">
+        <div class="index__main">
         {% assign posts_list = site.posts %}
         {% for summary in posts_list %}
             {% if summary.layout == "post-project" %}
@@ -15,5 +15,5 @@ layout: default
             {% endif %}
         {% endfor %}
         </div>
-    </article>
+    </section>
 </main><!--/@main-->

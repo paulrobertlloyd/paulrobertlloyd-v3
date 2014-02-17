@@ -2,9 +2,9 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="entry">
-        <header class="entry__header">
-            <h1 class="entry__title">{{ page.title }}</h1>
+    <article class="post">
+        <header class="post__header">
+            <h1 class="post__title">{{ page.title }}</h1>
 
             <nav class="nav nav--traverse">
             {% assign previous = page.previous %}
@@ -14,17 +14,17 @@ layout: default
             </nav>
         </header>
 
-        <div class="entry__main">
+        <footer class="post__footer">
+            <time class="post__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+        </footer>
+
+        <div class="post__main">
             {% if page.embed == true %}
                 {% oembed {{ page.link }} %}
             {% endif %}
             {{ content | abbr | ampersand }}
+            
+            <p><a href="{{ page.link }}">Visit this link</a></p>
         </div>
-
-        <footer class="entry__footer">
-            <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-        </footer>
-
-        {% indent_include section-related.html 8 %}
     </article>
 </main><!--/@main-->
