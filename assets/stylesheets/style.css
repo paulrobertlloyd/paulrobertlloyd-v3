@@ -10,3 +10,7 @@ body {
     width: 80%;
     max-width: 45em;
 }
+
+img {
+    max-width: 100%;
+}
