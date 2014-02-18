@@ -31,13 +31,26 @@ layout: default
         </header>
 
         <div class="index__main">
+        {{ archivetype }}
+            
+        {% if archivetype == year %}
+            {% for post in page.archive.posts reversed %}
+                {% capture month %}{{ post.date | date: "%m%Y" }}{% endcapture %}
+                {% capture nmonth %}{{ post.next.date | date: "%m%Y" }}{% endcapture %}
+                {% if month != nmonth %}
+                    {% if forloop.index != 1 %}</ul>{% endif %}
+            <h2><a href="{{ post.date | date: '/%Y/%m/' }}">{{ post.date | date: "%B" }}</a></h2>
             <ul class="list">
-            {% for summary in page.archive.posts %}
-                <li class="list__item">
-                    {% indent_include summary.html 16 %}
-                </li>
+                {% endif %}
+                <li class="list__item"><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></li>
+            {% endfor %}
+        {% else %}
+            <ul class="list">
+            {% for post in page.archive.posts reversed %}
+                <li class="list__item"><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></li>
             {% endfor %}
             </ul>
+        {% endif %}
         </div>
     </section>
 </main><!--/@main-->

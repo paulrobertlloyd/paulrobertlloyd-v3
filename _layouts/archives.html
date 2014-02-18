@@ -13,14 +13,12 @@ title: Archive
             {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
             {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
             {% if month != nmonth %}
-                {% if forloop.index != 1 %}</ul>{% endif %}
-                <h2><a href="{{ post.date | date: '/%Y/%m/' }}">{{ post.date | date: '%B %Y' }}</a></h2>
-                <ul class="list">
+            {% if forloop.index != 1 %}</ul>{% endif %}
+            <h2><a href="{{ post.date | date: '/%Y/%m/' }}">{{ post.date | date: '%B %Y' }}</a></h2>
+            <ul class="list">
             {% endif %}
             {% if post.chapter-title == null %}
-            <li class="list__item">
-                <a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
-            </li>
+                <li class="list__item"><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></li>
             {% endif %}
         {% endfor %}
         </div>
