@@ -5,12 +5,12 @@ layout: default
 {% assign next_index = paginator.next_page | minus: 1 %}
 {% case page.archive.date_pattern %}
 {% when "%Y" %}
-    {% assign archivetype = year %}
+    {% assign archivetype = "year" %}
     {% assign archivename = page.date | date: "%Y" %}
     {% assign archivename_previous = paginator.posts[previous_index].date | date: "%Y" %}
     {% assign archivename_next = paginator.posts[next_index].date | date: "%Y" %}
 {% when "%Y/%m" %}
-    {% assign archivetype = month %}
+    {% assign archivetype = "month" %}
     {% assign archivename = page.date | date: "%B %Y" %}
     {% assign archivename_previous = paginator.posts[previous_index].date | date: "%B %Y" %}
     {% assign archivename_next = paginator.posts[next_index].date | date: "%B %Y" %}
@@ -22,35 +22,37 @@ layout: default
 
             <nav class="nav nav--pagination">
             {% if paginator.previous_page %}
-                <a class="nav__item" rel="next" href="{{ paginator.previous_page_path | remove: 'index.html' }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
+                <a class="nav__item" rel="next" href="{{ paginator.previous_page_path | remove: "index.html" }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
             {% endif %}
             {% if paginator.next_page %}
-                <a class="nav__item" rel="prev" href="{{ paginator.next_page_path | remove: 'index.html' }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
+                <a class="nav__item" rel="prev" href="{{ paginator.next_page_path | remove: "index.html" }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
             {% endif %}
             </nav>
         </header>
 
         <div class="index__main">
-        {{ archivetype }}
-            
-        {% if archivetype == year %}
-            {% for post in page.archive.posts reversed %}
-                {% capture month %}{{ post.date | date: "%m%Y" }}{% endcapture %}
-                {% capture nmonth %}{{ post.next.date | date: "%m%Y" }}{% endcapture %}
-                {% if month != nmonth %}
-                    {% if forloop.index != 1 %}</ul>{% endif %}
-            <h2><a href="{{ post.date | date: '/%Y/%m/' }}">{{ post.date | date: "%B" }}</a></h2>
-            <ul class="list">
-                {% endif %}
-                <li class="list__item"><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></li>
-            {% endfor %}
-        {% else %}
-            <ul class="list">
-            {% for post in page.archive.posts reversed %}
-                <li class="list__item"><a href="{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time></li>
-            {% endfor %}
-            </ul>
+{% if archivetype == "year" %}
+    {% for post in page.archive.posts reversed %}
+        {% capture month %}{{ post.date | date: "%m%Y" }}{% endcapture %}
+        {% capture nmonth %}{{ post.next.date | date: "%m%Y" }}{% endcapture %}
+        {% if month != nmonth %}
+            {% if forloop.index != 1 %}
+            </ol>
+            {% endif %}
+
+            <h2><a href="{{ post.date | date: "/%Y/%m/" }}">{{ post.date | date: "%B" }}</a></h2>
+            <ol class="list" reversed>
         {% endif %}
+
+                <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+    {% endfor %}
+            </ol>
+{% else %}
+    {% for summary in page.archive.posts reversed %}
+            {% indent_include summary.html 12 %}
+    {% endfor %}
+{% endif %}
         </div>
     </section>
 </main><!--/@main-->
