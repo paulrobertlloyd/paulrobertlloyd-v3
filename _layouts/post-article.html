@@ -4,7 +4,7 @@ layout: default
 <main class="main" role="main">
     <article class="post">
         <header class="post__header">
-            <h1 class="post__title">{{ page.title }}</h1>
+            <h1 class="post__title">{{ page.title | smart }}</h1>
             {% if page.chapter-title %}
             <h2>{{ page.chapter-title }}</h2>
             {% endif %}

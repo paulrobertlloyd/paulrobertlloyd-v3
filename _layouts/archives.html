@@ -24,7 +24,7 @@ title: Archive
                 <ol class="list" reversed>
     {% endif %}
 
-                    <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% if post.chapter-title == null %}<li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | smart }}</a></li>{% endif %}
 
     {% if forloop.last %}
                 </ol>
