@@ -3,7 +3,7 @@ layout: page
 title: Page Not Found (404)
 permalink: /error/404.html
 ---
-![](/assets/images/404.png)
+![](/assets/images/error/404.png)
 
 ## Eek!
 The page you requested wasn’t found in the location specified. You may have an incorrect URL, or the file could have been moved or renamed.
