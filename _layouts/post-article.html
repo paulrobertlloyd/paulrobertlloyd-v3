@@ -16,6 +16,8 @@ layout: default
 
         <div class="post__main">
             {{ content | abbr | ampersand }}
+            
+            <p><a href="{{ page.link }}">Read this article on {{ page.publication }}</a></p>
         </div>
 
         {% if page.chapters == true %}
