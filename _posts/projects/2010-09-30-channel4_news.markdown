@@ -6,55 +6,55 @@ excerpt: In collaboration with James Box, James Bates and Cathy Jones, I helped 
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/1.jpg)
         <figcaption>
             <p>Category</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/2.jpg)
         <figcaption>
             <p>Special Report</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/3.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/3.jpg)
         <figcaption>
             <p>Country</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/4.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/4.jpg)
         <figcaption>
             <p>Article</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/5.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/5.jpg)
         <figcaption>
             <p>Benjamin Cohen's Blog</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/6.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/6.jpg)
         <figcaption>
             <p>iPad: Home screen</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/7.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/7.jpg)
         <figcaption>
             <p>iPad: Special Reports</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/channel4_news/8.jpg" alt=""/>
+        ![](/assets/images/portfolio/channel4_news/8.jpg)
         <figcaption>
             <p>iPad: Special Report</p>
         </figcaption>

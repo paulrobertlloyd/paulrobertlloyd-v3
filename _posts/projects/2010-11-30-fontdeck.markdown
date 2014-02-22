@@ -6,37 +6,37 @@ excerpt: A pure CSS @font-face solution providing hundreds of fonts that can be 
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/fontdeck/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/fontdeck/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/fontdeck/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/fontdeck/1.jpg)
         <figcaption>
             <p>Browse Fonts</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/fontdeck/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/fontdeck/2.jpg)
         <figcaption>
             <p>Typeface page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/fontdeck/3.jpg" alt=""/>
+        ![](/assets/images/portfolio/fontdeck/3.jpg)
         <figcaption>
             <p>Font specimen page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/fontdeck/4.jpg" alt=""/>
+        ![](/assets/images/portfolio/fontdeck/4.jpg)
         <figcaption>
             <p>Designers landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/fontdeck/5.jpg" alt=""/>
+        ![](/assets/images/portfolio/fontdeck/5.jpg)
         <figcaption>
             <p>Project settings</p>
         </figcaption>

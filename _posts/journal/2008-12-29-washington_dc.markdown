@@ -10,7 +10,7 @@ The final stop in my four-city tour of the US in October was Washington, DC I've
 Perhaps unsurprisingly, I spent a good deal of time in DC taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country's history.
 
 <figure>
-    <img src="/assets/images/2008/12/vietnammemorial.jpg" alt=""/>
+    ![](/assets/images/2008/12/vietnammemorial.jpg)
     <figcaption>
         <p>The Vietnam Veterans Memorial.</p>
     </figcaption>
@@ -21,7 +21,7 @@ Whilst the presidential memorials were large and grandiose, I actually found the
 Here two granite walls create a 'V' shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a "wound that is closed and healing".
 
 <figure>
-    <img src="/assets/images/2008/12/iwojima.jpg" alt=""/>
+    ![](/assets/images/2008/12/iwojima.jpg)
     <figcaption>
         <p>US Marine Corps War Memorial.</p>
     </figcaption>
@@ -30,7 +30,7 @@ Here two granite walls create a 'V' shaped opening in the ground, upon which tho
 I was surprised to find the [US Marine Corps War Memorial][3] (better known as the Iwo Jima Memorial) situated outside of DC, in Arlington, Virginia. Far larger than I was expecting too, this iconic sculpture by [Felix W. de Weldon][4] depicts the scene captured by photographer Joe Rosenthal in [Raising the Flag on Iwo Jima][5] that was taken during World War II.
 
 <figure>
-    <img src="/assets/images/2008/12/netherlandscarillon.jpg" alt=""/>
+    ![](/assets/images/2008/12/netherlandscarillon.jpg)
     <figcaption>
         <p>The Netherlands Carillon.</p>
     </figcaption>
@@ -39,7 +39,7 @@ I was surprised to find the [US Marine Corps War Memorial][3] (better known as t
 Situated close by is the [Netherlands Carillon][6], a gift from the people of the Netherlands thanking the US for its aid during and after World War II -- very European in flavour.
 
 <figure>
-    <img src="/assets/images/2008/12/pentagonmemorial.jpg" alt=""/>
+    ![](/assets/images/2008/12/pentagonmemorial.jpg)
     <figcaption>
         <p>The Pentagon Memorial.</p>
     </figcaption>
@@ -54,7 +54,7 @@ You are however allowed to take photos of the [9/11 memorial][8], in which the 1
 DC is still a relatively young capital, although the many neo-classical styled buildings, and the abundance of colonnades, columns and porticoes would suggest otherwise. In fact, it was often the buildings that looked the oldest -- the Supreme Court and National Archives for example -- that tended to built as recently as the 1930's.
 
 <figure>
-    <img src="/assets/images/2008/12/dullesairport.jpg" alt=""/>
+    ![](/assets/images/2008/12/dullesairport.jpg)
     <figcaption>
         <p>The main terminal building at Washington Dulles International Airport.</p>
     </figcaption>

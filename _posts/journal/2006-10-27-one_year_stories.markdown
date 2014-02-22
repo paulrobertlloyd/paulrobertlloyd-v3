@@ -15,7 +15,7 @@ This local web community was founded by [Simon Jobling][4] a few months after he
 Si thought it would be a good idea to start a community that brought these people together, allowing us all to share ideas, knowledge, and act as an excellent excuse to go to the pub and socialise with new people once a month.
 
 <figure class="left">
-    <img src="/assets/images/2005/10/midwebmeet.jpg" alt="The very first Multipack meet up in Walsall"/>
+    ![The very first Multipack meet up in Walsall](/assets/images/2005/10/midwebmeet.jpg)
     <figcaption>
         <p>The very first Multipack meet up in Walsall.</p>
     </figcaption>

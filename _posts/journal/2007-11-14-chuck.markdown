@@ -8,7 +8,7 @@ post_id: 130
 It's been a little while since I've been excited about a television show, and even longer since I've been evangelising about an American series. But this weekend I discovered a new televisual addiction, in the form of NBC's Monday night comedy <cite>Chuck</cite>.
 
 <figure>
-    <img src="/assets/images/2007/11/chuckbartowski.jpg" alt=""/>
+    ![](/assets/images/2007/11/chuckbartowski.jpg)
     <figcaption>
         <p>Chuck Bartowski.</p>
     </figcaption>
@@ -23,7 +23,7 @@ This series has all the elements I look for in a show in order for me to turn on
 Chucks world is divided between life at home with his sister ([Sarah Lancaster][5]) and her boyfriend 'Captain Awesome', and his job alongside best friend Morgan (with [Joshua Gomez][6] playing the sidekick role brilliantly). This is diametrically opposed to his action-packed lifestyle working as an undercover spy (although often told to 'stay in the car') alongside agents Walker and Casey.
 
 <figure>
-    <img src="/assets/images/2007/11/sarahwalker.jpg" alt=""/>
+    ![](/assets/images/2007/11/sarahwalker.jpg)
     <figcaption>
         <p>Sarah Walker.</p>
     </figcaption>

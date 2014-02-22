@@ -6,49 +6,49 @@ excerpt: The TV-on-DVD label of Universal Pictures UK, responsible for releasing
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/1.jpg)
         <figcaption>
             <p>Navigation</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/2.jpg)
         <figcaption>
             <p>Show landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/3.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/3.jpg)
         <figcaption>
             <p>Cast member biography</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/4.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/4.jpg)
         <figcaption>
             <p>Show-scoped shop item page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/5.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/5.jpg)
         <figcaption>
             <p>Genres landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/6.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/6.jpg)
         <figcaption>
             <p>Videos landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_playback/7.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_playback/7.jpg)
         <figcaption>
             <p>Shop item page</p>
         </figcaption>

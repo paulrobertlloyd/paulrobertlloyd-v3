@@ -11,7 +11,7 @@ Well that's what the New Millennium Experience Company (NMEC) -- the people runn
 
 The Dome should become yet another great London landmark and possibly used as a sports location for the proposed 2012 Olympic Games. However I think the Millennium Experience is going to disappoint.
 
-<img src="/assets/images/1999/09/millennium_experience_logo.gif" alt="New Milliennium Experience Company Logo" class="right"/>In order to raise the money to build and set up the thing, NMEC had to enlist sponsors such as BT, Sky, Marks & Spencer, Tesco, McDonald's etc. meaning the exhibition will be nothing more than a huge advertisement. Not only that, but it's from the mind of Peter Mandelson -- the man responsible for New Labour and its dammed victory in 1997.
+![New Milliennium Experience Company Logo" class="right](/assets/images/1999/09/millennium_experience_logo.gif)In order to raise the money to build and set up the thing, NMEC had to enlist sponsors such as BT, Sky, Marks & Spencer, Tesco, McDonald's etc. meaning the exhibition will be nothing more than a huge advertisement. Not only that, but it's from the mind of Peter Mandelson -- the man responsible for New Labour and its dammed victory in 1997.
 
 From what's on display, this is an exhibition that nobody would normally go to see. However, curiosity will probably win over and it may just be a success.
 

@@ -10,7 +10,7 @@ From Nelson I reluctantly headed back to Wellington, cursing myself for not havi
 The city markets itself under the slogan 'Absolutely, Positively, Wellington', which is sort of like working with somebody who constantly says "you don't have to be mad to work here -- but it helps!" before breaking into an annoying laugh.
 
 <figure>
-    <img src="/assets/images/2010/01/wellingtoncablecar.jpg" alt=""/>
+    ![](/assets/images/2010/01/wellingtoncablecar.jpg)
     <figcaption>
         <p>The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden.</p>
     </figcaption>
@@ -21,7 +21,7 @@ Much of this 'madness' can be attributed to the city's architectural style, whic
 However, if you look closely, you can still find a number of fine examples of the Art Deco style. The [Prudential Assurance Building][2] on Lambton Quay is one of few such buildings I spotted in the CBD, and there are many more in the surrounding districts (the Central Fire Station is a particularly beautiful example). The bohemian buildings along [Cuba Street][3] also have their own unique charm, as do some of the newer developments around the waterfront. So, not all bad.
 
 <figure>
-    <img src="/assets/images/2010/01/parliament.jpg" alt=""/>
+    ![](/assets/images/2010/01/parliament.jpg)
     <figcaption>
         <p>The Beehive and Parliament House, Wellington</p>
     </figcaption>

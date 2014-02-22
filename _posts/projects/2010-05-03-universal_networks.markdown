@@ -6,61 +6,61 @@ excerpt: Design for a family of five sites representing NBCUniversal's internati
 ---
 <div class="slides">
     <figure class="slideshow">
-        <img src="/assets/images/portfolio/universal_networks/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/0.jpg)
         <figcaption>
             <p>Syfy Universal home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/1.jpg)
         <figcaption>
             <p>Syfy Universal show page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/2.jpg)
         <figcaption>
             <p>Syfy Universal schedule page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/3.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/3.jpg)
         <figcaption>
             <p>Studio Universal home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/4.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/4.jpg)
         <figcaption>
             <p>Studio Universal film page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/5.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/5.jpg)
         <figcaption>
             <p>Studio Universal schedule page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/6.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/6.jpg)
         <figcaption>
             <p>Universal Channel home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/7.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/7.jpg)
         <figcaption>
             <p>Universal Channel schedule page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/8.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/8.jpg)
         <figcaption>
             <p>13TH STREET Universal home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/universal_networks/9.jpg" alt=""/>
+        ![](/assets/images/portfolio/universal_networks/9.jpg)
         <figcaption>
             <p>13TH STREET Universal schedule page</p>
         </figcaption>

@@ -6,13 +6,13 @@ excerpt: A grassroots conference held annually in Brighton. Speakers at the 2011
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/dconstruct_2011/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/dconstruct_2011/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/dconstruct_2011/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/dconstruct_2011/1.jpg)
         <figcaption>
             <p>Home page, as shown on an iPhone</p>
         </figcaption>

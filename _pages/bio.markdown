@@ -5,13 +5,10 @@ excerpt: Paul Robert Lloyd is an interaction designer at Clearleft, a user exper
 permalink: /bio/
 ---
 ## Headshots
-<figure>
-    <a href="/assets/images/bio/headshot1.jpg"><img class="left" src="/assets/images/bio/headshot1_thumb.jpg" alt="Headshot 1"/></a>
-    <a href="/assets/images/bio/headshot2.jpg"><img class="left" src="/assets/images/bio/headshot2_thumb.jpg" alt="Headshot 2"/></a>
-    <figcaption>
-        <p>Click to download high resolution images.</p>
-    </figcaption>
-</figure>
+{% figure Click to download high resolution images %}
+[![Headshot 1](/assets/images/bio/headshot1_thumb.jpg)](/assets/images/bio/headshot1.jpg)
+[![Headshot 2](/assets/images/bio/headshot2_thumb.jpg)](/assets/images/bio/headshot2.jpg)
+{% endfigure %}
 
 ## Important Links
 * Blog: [http://paulrobertlloyd.com/][1]

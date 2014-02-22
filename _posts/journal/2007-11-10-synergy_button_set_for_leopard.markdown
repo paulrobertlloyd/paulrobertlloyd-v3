@@ -5,7 +5,7 @@ date: '2007-11-10 19:35:40 +0000'
 excerpt: An updated button set for Synergy; a great little application that provides control of iTunes from the menu bar.
 post_id: 133
 ---
-<img class="right" src="/assets/images/2007/11/tabbedleopard.png" alt="">One of the tiny little annoyances with the upgrade to Leopard, was that Synergy, a great little application that provides control of iTunes from the menu bar, looked a little unpolished when using the 'Tabbed' style interface.
+![](/assets/images/2007/11/tabbedleopard.png){: .pull-right} One of the tiny little annoyances with the upgrade to Leopard, was that Synergy, a great little application that provides control of iTunes from the menu bar, looked a little unpolished when using the 'Tabbed' style interface.
 
 I managed to survive a week noticing the white artefacts around it's edges, but come Friday night last week, I just had to create my own button set, which I imaginatively called *'Tabbed Leopard'*.
 

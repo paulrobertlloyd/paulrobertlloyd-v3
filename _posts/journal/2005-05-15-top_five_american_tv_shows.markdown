@@ -15,7 +15,7 @@ Anyway enough babble, cue Graham Norton...
 
 ## 1. The West Wing
 <figure>
-    <img src="/assets/images/2005/05/the_west_wing.jpg" alt=""/>
+    ![](/assets/images/2005/05/the_west_wing.jpg)
     <figcaption>
         <p>Cast of the West Wing.</p>
     </figcaption>

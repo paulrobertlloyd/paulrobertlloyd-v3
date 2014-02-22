@@ -6,13 +6,13 @@ excerpt: A confederal university responsible for accrediting degrees for institu
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/university_of_wales/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/university_of_wales/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/university_of_wales/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/university_of_wales/1.jpg)
         <figcaption>
             <p>Internal page</p>
         </figcaption>

@@ -11,6 +11,26 @@ body {
     max-width: 45em;
 }
 
+hr {
+    clear: both;
+}
+
+figure {
+    clear: both;
+    overflow: hidden;
+}
+figcaption {
+    clear: left;
+}
+
 img {
     max-width: 100%;
+}
+img.pull-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+img.pull-right {
+    float: right;
+    margin: 0 0 1em 1em;
 }

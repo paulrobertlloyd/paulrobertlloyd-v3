@@ -10,7 +10,7 @@ Before I get too accustomed to life back in damp, dull and dreary England, I wan
 Living in a different country and away from home for such a length of time could have been a daunting experience, and perhaps one that may have gotten the better of me under different circumstances. However, the positive, friendly and relaxed atmosphere I experienced during this trip meant I settled down very quickly, to the point that after only a few weeks, Palo Alto felt very much like home.
 
 <figure>
-    <img src="/assets/images/2006/05/yanked.jpg" alt=""/>
+    ![](/assets/images/2006/05/yanked.jpg)
     <figcaption>
         <p>Back Row: Tim, Me, Martin, Alexei, Diego, Mike, Brian, Nancy and Scott. Front Row: Athena and Jermaine.</p>
     </figcaption>

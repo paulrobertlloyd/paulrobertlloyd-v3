@@ -29,7 +29,7 @@ On Thursday, following a brilliant debut in the commons at PMQs on Wednesday, he
 However one note of caution, yet also optimism (as a designer) is that finally the Conservatives seem to have woken up to the idea of image. Cameron's arrival immediately signalled a big change in how the party wants to be seen.
 
 <figure>
-    <img src="/assets/images/2005/12/newtorylogo.png" alt=""/>
+    ![](/assets/images/2005/12/newtorylogo.png)
     <figcaption>
         <p>The new Conservative Party logo</p>
     </figcaption>

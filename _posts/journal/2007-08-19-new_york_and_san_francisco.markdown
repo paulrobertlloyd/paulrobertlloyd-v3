@@ -11,7 +11,7 @@ A few weeks after [my stay in Montreal][1], I spent ten days touring New York an
 We spent the first four days in New York City, a city I had only briefly encountered last November. During our time there we walked around Greenwich Village, took in the sights and sounds of Times Square, Wall Street, Fifth Avenue and Central Park, sailed on the Staten Island Ferry, watched a Broadway show (the excellent <cite>[Frost/Nixon][2])</cite> and spent an afternoon in MoMA.
 
 <figure>
-    <img src="/assets/images/2007/08/timessquare.jpg" alt=""/>
+    ![](/assets/images/2007/08/timessquare.jpg)
     <figcaption>
         <p>Me and Ellen in Times Square.</p>
     </figcaption>

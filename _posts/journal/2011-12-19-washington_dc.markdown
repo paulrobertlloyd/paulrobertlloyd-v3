@@ -22,7 +22,7 @@ In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for
 
 ## Apple Picking in Virginia
 <figure>
-    <img src="/assets/images/2011/12/apple_pickers.jpg" alt=""/>
+    ![](/assets/images/2011/12/apple_pickers.jpg)
     <figcaption>
         <p>The Apple Pickers</p>
     </figcaption>

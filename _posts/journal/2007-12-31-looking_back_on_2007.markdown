@@ -37,7 +37,7 @@ Travel was a big theme of 2007, and whilst most of it was US based, it did allow
 The year started with a January weekend spent in Las Vegas with some friends. Unfortunately this trip was blighted by a badly-timed cold, and I spent most of my time either sleeping or drinking cough medicine. Having said that, I'm not sure if being well would have much difference to my overall impression of the place!
 
 <figure>
-    <img src="/assets/images/2007/12/austin.jpg" alt=""/>
+    ![](/assets/images/2007/12/austin.jpg)
     <figcaption>
         <p>The Texas Capitol, Austin.</p>
     </figcaption>
@@ -54,7 +54,7 @@ The travelling continued through the summer months. A few days in Montreal to wi
 In August I was able to take ten days away from work to explore New York and San Francisco with my friend Ellen who flew out to see me. We managed to cover huge swathes of Manhattan, even venturing over to Coney Island, which was an experience in itself. On returning to San Francisco, I finally was able to step upon Alcatraz Island, as well as Angel Island which I didn't even know existed. It's probably fair to say that I saw more of San Francisco in those six days than I did in the previous six months!
 
 <figure>
-    <img src="/assets/images/2007/12/lomo.jpg" alt=""/>
+    ![](/assets/images/2007/12/lomo.jpg)
     <figcaption>
         <p>Road sign on Highway 1 near Carmel-by-the-Sea.</p>
     </figcaption>
@@ -84,7 +84,7 @@ Having seen that money and status can not bring you happiness (not that it neede
 ## Top Ten Highlights of 2007
 
 <figure>
-    <img src="/assets/images/2007/05/travis_fillmore.jpg" alt=""/>
+    ![](/assets/images/2007/05/travis_fillmore.jpg)
     <figcaption>
         <p>Travis at The Fillmore, San Francisco.</p>
     </figcaption>

@@ -54,7 +54,7 @@ Given the brief in June, every time I sat down to work on the project, I couldn'
 Diamonds quickly became a unifying motif throughout this exploratory stage. Not only did this shape produce interesting crops and create a visual tension on the page, it also hinted at the season without going to the lengths of adding stars or Christmas trees.
 
 <figure>
-    <img src="/assets/images/2013/12/24_ways_comments.png" alt=""/>
+    ![](/assets/images/2013/12/24_ways_comments.png)
     <figcaption>
         <p>The design concept started with commenting</p>
     </figcaption>
@@ -75,7 +75,7 @@ For the typography, I settled on a pairing of [Lato][9] and [Merriweather][10]. 
 All the while, [Jessica Hische's advice][12] was in the back of my mind: could I have found a better pairing with more time? If confirmation were needed, nearing completion of the design I discovered that Lato is Polish for Summer! Hopefully this is something we can revisit next year.
 
 <figure>
-    <img src="/assets/images/2013/12/24_ways_concept.png" alt=""/>
+    ![](/assets/images/2013/12/24_ways_concept.png)
     <figcaption>
         <p>Initial design concept for 24 ways home page</p>
     </figcaption>
@@ -120,7 +120,7 @@ That's what Drew said when we first talked about the redesign. He was fairly cle
 Earlier this year [Benjy Stanton][15] gave a talk at Port80 about [animation on the web][16]. He pointed out that although we have the tools (or at least the technology) to achieve richer animation, it's often neglected. Beyond transitioning between menu states, a small flap in the corner of each article summary that pealed open to reveal the author might add this extra layer of engagement.
 
 <figure>
-    <img src="/assets/images/2013/12/24_ways_animation_keyframes.png" alt=""/>
+    ![](/assets/images/2013/12/24_ways_animation_keyframes.png)
     <figcaption>
         <p>Keyframes in flap animation</p>
     </figcaption>

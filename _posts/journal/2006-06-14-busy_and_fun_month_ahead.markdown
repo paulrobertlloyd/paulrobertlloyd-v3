@@ -6,7 +6,7 @@ excerpt: Although June is already pretty much done and dusted, there is still a 
 post_id: 65
 ---
 ## @media 2006
-<img class="right" src="/assets/images/2006/06/atmedia2006.png" alt="@media2006 logo" />This evening I step on a train that is London bound, ready to spend Thursday and Friday in HTML heaven! I really enjoyed [@media last year][1], and I have been looking forward to this years event with much anticipation. Since last June, I have jumped the sinking ship that was <del>Orange Dreams</del> <del>River Internet</del> Orange Vision and now find myself deep inside the [Ning][2] trenches.
+![@media2006 logo](/assets/images/2006/06/atmedia2006.png){: .pull-right} This evening I step on a train that is London bound, ready to spend Thursday and Friday in HTML heaven! I really enjoyed [@media last year][1], and I have been looking forward to this years event with much anticipation. Since last June, I have jumped the sinking ship that was <del>Orange Dreams</del> <del>River Internet</del> Orange Vision and now find myself deep inside the [Ning][2] trenches.
 
 As such, I'm hoping this years panels and speakers will point me in the direction of some of the cool stuff that's been going on in the web standards scene, and the topics that I perhaps haven't had much time to devote to of late. I'm also desperately trying to redevelop this website, and whilst I already have pages of ideas, I'm pretty sure that by Friday evening I will be itching to get stuck in again.
 

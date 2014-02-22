@@ -8,7 +8,7 @@ post_id: 107
 The date the Prime Minister will finally be leaving office has been announced, and his successor, Gordon Brown all but crowned. Prime Ministers are such a part of day-to-day life, that when they change, it prompts you to reflect on their period in office, and how their tenure effected your own life.
 
 <figure class="left">
-    <img src="/assets/images/2007/05/tonyblair.jpg" alt="Tony Blair"/>
+    ![Tony Blair](/assets/images/2007/05/tonyblair.jpg)
     <figcaption>
         <p>As Tony Blair waves goodbye to his premiership, how will his time in office be remembered?</p>
     </figcaption>

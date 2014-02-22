@@ -14,8 +14,8 @@ This saw idents, end credits and other programme junctions being increasingly us
 This information in the past tended to be shown at the end of a programme. In addition, late 2001 saw channels start to use programme junctions and their associated idents to not only display information about what channel you were watching, but also contained menus (before only seen in separate promotions, or when there had been schedule changes), detailing up-coming programmes. 
 
 <figure id="figure-31">
-    <img class="left" src="/assets/images/articles/dissertation/figure-31a.png" alt="ITV End Credit Promotion"/>
-    <img class="left" src="/assets/images/articles/dissertation/figure-31b.png" alt="Channel 4 End Credit Promotion"/>
+    ![ITV End Credit Promotion](/assets/images/articles/dissertation/figure-31a.png){: .pull-left} 
+    ![Channel 4 End Credit Promotion](/assets/images/articles/dissertation/figure-31b.png){: .pull-left} 
     <figcaption>
         <h4>Figure 31</h4>
         <p>'End Credit Promotions' (ECPs) became a new trend in keeping viewers tuned to a particular channel.</p>
@@ -23,8 +23,8 @@ This information in the past tended to be shown at the end of a programme. In ad
 </figure>
 
 <figure id="figure-32">
-    <img class="left" src="/assets/images/articles/dissertation/figure-32a.png" alt="Channel 4 Programme Menu"/>
-    <img class="left" src="/assets/images/articles/dissertation/figure-32b.png" alt="BBC2 Programme Menu"/>
+    ![Channel 4 Programme Menu](/assets/images/articles/dissertation/figure-32a.png){: .pull-left} 
+    ![BBC2 Programme Menu](/assets/images/articles/dissertation/figure-32b.png){: .pull-left} 
     <figcaption>
         <h4>Figure 32</h4>
         <p>Menus shown prior to programmes.</p>
@@ -34,11 +34,11 @@ This information in the past tended to be shown at the end of a programme. In ad
 In November 2001, BBC2 updated its ten-year-old idents, for which such menus were an integral part. Although the original and subsequent sets of idents contained the viridian colour branding, it was not compulsory, and later idents started not to feature the colour -- for those that did the colour appeared in different places. The new idents involved giving the channel consistent co-ordinated colours -- a white 2 on a deep yellow backdrop, as well as a single four note jingle that could be subtly adapted. Also nation specific idents have been designed -- currently in Northern Ireland only, were part of the evening schedule is changed from the rest of the UK's to suit its local audience. The channel insignia was changed also to a purple rectangle positioned in the bottom right of the screen.
 
 <figure id="figure-33">
-    <img class="left" src="/assets/images/articles/dissertation/figure-33a.png" alt="BBC Two 'Fire' ident, 2003" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-33b.png" alt="BBC Two 'Bounce' ident, 2001" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-33c.png" alt="BBC Two 'Domino' ident, 2001" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-33d.png" alt="BBC Two 'Logo' ident, 2001" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-33e.png" alt="BBC Two 'Fish' ident, 2001" />
+    ![BBC Two 'Fire' ident, 2003](/assets/images/articles/dissertation/figure-33a.png){: .pull-left}
+    ![BBC Two 'Bounce' ident, 2001](/assets/images/articles/dissertation/figure-33b.png){: .pull-left}
+    ![BBC Two 'Domino' ident, 2001](/assets/images/articles/dissertation/figure-33c.png){: .pull-left}
+    ![BBC Two 'Logo' ident, 2001](/assets/images/articles/dissertation/figure-33d.png){: .pull-left}
+    ![BBC Two 'Fish' ident, 2001](/assets/images/articles/dissertation/figure-33e.png){: .pull-left}
     <figcaption>
         <h4>Figure 33</h4>
         <p>The BBC2 identity was radically changed after 10 years, using a standard and unaltered set of colour ways.</p>

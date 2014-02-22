@@ -6,25 +6,25 @@ excerpt: A property portal bringing together the combined resources of over sixt
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/cwhomes/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/cwhomes/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/cwhomes/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/cwhomes/1.jpg)
         <figcaption>
             <p>Property search</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/cwhomes/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/cwhomes/2.jpg)
         <figcaption>
             <p>Search results</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/cwhomes/3.jpg" alt=""/>
+        ![](/assets/images/portfolio/cwhomes/3.jpg)
         <figcaption>
             <p>Property details page</p>
         </figcaption>

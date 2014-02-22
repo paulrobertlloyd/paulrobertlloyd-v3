@@ -10,7 +10,7 @@ On flicking through the newspaper on the train home yesterday, I spotted an adve
 I had been vaguely aware of their recent marketing campaigns where the logo slots into the top right corner of a distinctive trapezium containing shape. However on seeing this particular advertisement close up, I did a quick double take, spotting what seemed to be an updated logo. A quick search on Google images confirmed my suspicion.
 
 <figure>
-    <img src="/assets/images/2010/02/networkrail.png" alt=""/>
+    ![](/assets/images/2010/02/networkrail.png)
     <figcaption>
         <p>Network Rail: The original logo (2002) and the updated version (2009).</p>
     </figcaption>
@@ -31,7 +31,7 @@ The distinctive red triangle also moves closer to the text, and the two cut outs
 
 ## MTV
 <figure>
-    <img src="/assets/images/2010/02/mtv.png" alt=""/>
+    ![](/assets/images/2010/02/mtv.png)
     <figcaption>
         <p>MTV: The original logo (1981) and the updated version (2010).</p>
     </figcaption>
@@ -40,7 +40,7 @@ The distinctive red triangle also moves closer to the text, and the two cut outs
 Whilst the identity for Network Rail may have gone unnoticed, you are unlikely to have missed the MTV 'refresh' [announced earlier this week][3]. Much like Network Rail, this is more of a realignment than an all out redesign, although the changes are possibly more noticeable. I initially thought the legs had somehow been mis-cropped, yet after my initial shock I think the new proportions work surprisingly well, possibly reflecting the evolution of television with this new, almost widescreen ratio.
 
 <figure>
-    <img src="/assets/images/2010/02/mtvvariations.png" alt=""/>
+    ![](/assets/images/2010/02/mtvvariations.png)
     <figcaption>
         <p>MTV logo variations.</p>
     </figcaption>
@@ -52,7 +52,7 @@ It's an old idea ([this in-depth article][7] by Roger van den Bergh gives you an
 
 ## City of Melbourne
 <figure>
-    <img src="/assets/images/2010/02/cityofmelbourne.png" alt=""/>
+    ![](/assets/images/2010/02/cityofmelbourne.png)
     <figcaption>
         <p>City of Melbourne: The previous logo and the new version.</p>
     </figcaption>
@@ -61,7 +61,7 @@ It's an old idea ([this in-depth article][7] by Roger van den Bergh gives you an
 Finally, if we are to talk about 'M' shaped containing identities, then I can't leave without mentioning my favourite identity project of last year for the [City of Melbourne][9], which frankly blows MTV's mediocre efforts clean out of the water. Aren't these just fantastic?
 
 <figure>
-    <img src="/assets/images/2010/02/cityofmelbournevariations.png" alt=""/>
+    ![](/assets/images/2010/02/cityofmelbournevariations.png)
     <figcaption>
         <p>City of Melbourne logo variations.</p>
     </figcaption>

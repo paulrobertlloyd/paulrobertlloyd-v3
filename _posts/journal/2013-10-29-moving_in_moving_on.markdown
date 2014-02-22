@@ -12,12 +12,9 @@ While I'm trying not to see buying a property as an act of settling down (I can 
 ## Parental Guidance
 The history of Clearleft maps closely to that of my own career. At first, I watched from the sidelines as the company emerged from the blogging of its three founding partners. My first interaction came as a client, when Ning hired their nascent team to design a video product. I later contracted for them, before joining full-time four and a half years ago.
 
-<figure>
-    <img src="/assets/images/2013/10/clearleft.jpg" alt=""/>
-    <figcaption>
-        <p>The Clearleft team after a day out learning to bake bread in 2011.</p>
-    </figcaption>
-</figure>
+{% figure The Clearleft team after a day out learning to bake bread in 2011 %}
+![](/assets/images/2013/10/clearleft.jpg)
+{% endfigure %}
 
 Having worked with Clearleft in these different guises, I've learned the secret to the company's longevity and success. This can be summed up in one word: trust.
 
@@ -30,14 +27,10 @@ In many respects, Clearleft can be regarded as a family. Andy and Rich are the p
 I know I will, as it is with much sadness that I've decided to leave Clearleft, with my last day at this wonderful company fast approaching.
 
 ## Goodbye Clearleft
-<figure>
-    <blockquote>
-        <p>The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.</p>
-    </blockquote>
-    <figcaption>
-        <p>&#8212; Dan Stevens, British actor</p>
-    </figcaption>
-</figure>
+
+> The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.
+
+-- Dan Stevens, British actor
 
 I've spent more hours working for Clearleft than I have any other company. I'm incredibly comfortable in my current position, yet at the same time aware of the negative impact this is having on my work. During the last few years I've felt somewhat stuck, worn down by familiar routines and conversations. A month away from work last year [volunteering][5] and travelling provided a brief respite, but the effect was short lived.
 

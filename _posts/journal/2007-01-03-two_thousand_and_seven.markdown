@@ -13,7 +13,7 @@ Right now I almost feel master of my own destiny, and begin 2007 with an incredi
 January the 1st saw me launch [a little update to this website][2], that finally includes a [new photos section][3]. Whilst not as in depth as the previous version I had on the site, I certainly plan on adding to it over the coming months. First up are [photos from the month I spent in Sydney, Australia][4] at the end of 2003. (Blimey, was it really three years ago... I'm not sure how much longer I go without having to make the trip back!)
 
 <figure>
-    <img src="/assets/images/2007/01/ellensdayoffun.jpg" alt=""/>
+    ![](/assets/images/2007/01/ellensdayoffun.jpg)
     <figcaption>
         <p>Me and Ellen on top of The Monument.</p>
     </figcaption>

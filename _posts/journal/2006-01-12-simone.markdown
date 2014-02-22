@@ -8,7 +8,7 @@ post_id: 52
 Today I attended the funeral for a wonderfully bright and brave woman I had the pleasure of knowing these last few years. Simone was the office manger at Orange Vision and was always on hand with 'cups of filth' and orders for 'filth sandwiches' in fact just filth in general! Although I wasn't that close to Simone, she was definitely a great person to have around the office.
 
 <figure class="left">
-    <img src="/assets/images/2006/01/simone.jpg" alt="Simone"/>
+    ![Simone](/assets/images/2006/01/simone.jpg)
 </figure>
 
 Simone died the day after Boxing Day, only a few months after being diagnosed with Motor Neurone Disease -- although she had suspected that she had it for a large part of last year. The way in which she carried on regardless, smiling, joking and then later helping others come to terms with her condition proved to us all how incredibly brave and strong she really was.

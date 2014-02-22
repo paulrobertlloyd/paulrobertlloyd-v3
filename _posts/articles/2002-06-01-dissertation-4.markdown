@@ -16,22 +16,22 @@ Taking into account that Channel 4 was to commission its programmes from indepen
 Although it was expensive to implement, it was radically different to its competitors, all of which returned to a single on-screen ident, be it BBC1's revolving globe, Anglia's revolving knight or Thames' London skyline.
 
 <figure id="figure-6">
-    <img class="left" src="/assets/images/articles/dissertation/figure-6a.png" alt="Channel Four launch ident 1" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-6b.png" alt="Channel Four launch ident 1" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-6c.png" alt="Channel Four launch ident 1" />
-    <img src="/assets/images/articles/dissertation/figure-6d.png" alt="Channel Four launch ident 1" /><br/>
-    <img class="left" src="/assets/images/articles/dissertation/figure-6e.png" alt="Channel Four launch ident 2" /> 
-    <img class="left" src="/assets/images/articles/dissertation/figure-6f.png" alt="Channel Four launch ident 2" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-6g.png" alt="Channel Four launch ident 2" /> 
-    <img src="/assets/images/articles/dissertation/figure-6d.png" alt="Channel Four launch ident 2" /><br/>
-    <img class="left" src="/assets/images/articles/dissertation/figure-6h.png" alt="Channel Four launch ident 3" /> 
-    <img class="left" src="/assets/images/articles/dissertation/figure-6i.png" alt="Channel Four launch ident 3" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-6j.png" alt="Channel Four launch ident 3" />
-    <img src="/assets/images/articles/dissertation/figure-6d.png" alt="Channel Four launch ident 3" /><br/>
-    <img class="left" src="/assets/images/articles/dissertation/figure-6d.png" alt="Channel Four launch ident 4" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-6k.png" alt="Channel Four launch ident 4" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-6l.png" alt="Channel Four launch ident 4" />
-    <img src="/assets/images/articles/dissertation/figure-6d.png" alt="Channel Four launch ident 4" />
+    ![Channel Four launch ident 1](/assets/images/articles/dissertation/figure-6a.png){: .pull-left}
+    ![Channel Four launch ident 1](/assets/images/articles/dissertation/figure-6b.png){: .pull-left}
+    ![Channel Four launch ident 1](/assets/images/articles/dissertation/figure-6c.png){: .pull-left}
+    ![Channel Four launch ident 1](/assets/images/articles/dissertation/figure-6d.png)<br/>
+    ![Channel Four launch ident 2](/assets/images/articles/dissertation/figure-6e.png){: .pull-left} 
+    ![Channel Four launch ident 2](/assets/images/articles/dissertation/figure-6f.png){: .pull-left}
+    ![Channel Four launch ident 2](/assets/images/articles/dissertation/figure-6g.png){: .pull-left} 
+    ![Channel Four launch ident 2](/assets/images/articles/dissertation/figure-6d.png)<br/>
+    ![Channel Four launch ident 3](/assets/images/articles/dissertation/figure-6h.png){: .pull-left} 
+    ![Channel Four launch ident 3](/assets/images/articles/dissertation/figure-6i.png){: .pull-left}
+    ![Channel Four launch ident 3](/assets/images/articles/dissertation/figure-6j.png){: .pull-left}
+    ![Channel Four launch ident 3](/assets/images/articles/dissertation/figure-6d.png)<br/>
+    ![Channel Four launch ident 4](/assets/images/articles/dissertation/figure-6d.png){: .pull-left}
+    ![Channel Four launch ident 4](/assets/images/articles/dissertation/figure-6k.png){: .pull-left}
+    ![Channel Four launch ident 4](/assets/images/articles/dissertation/figure-6l.png){: .pull-left}
+    ![Channel Four launch ident 4](/assets/images/articles/dissertation/figure-6d.png)
     <figcaption>
         <h4>Figure 6</h4>
         <p>The four original launch idents for Channel 4</p>
@@ -39,10 +39,10 @@ Although it was expensive to implement, it was radically different to its compet
 </figure>
 
 <figure id="figure-7">
-    <img class="left" src="/assets/images/articles/dissertation/figure-7a.png" alt="Channel 4 clock" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-7b.png" alt="Channel Four programme menu" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-7c.png" alt="Channel 4 promotion slide" /> 
-    <img class="left" src="/assets/images/articles/dissertation/figure-7d.png" alt="Channel 4 promotion slide" /> 
+    ![Channel 4 clock](/assets/images/articles/dissertation/figure-7a.png){: .pull-left}
+    ![Channel Four programme menu](/assets/images/articles/dissertation/figure-7b.png){: .pull-left}
+    ![Channel 4 promotion slide](/assets/images/articles/dissertation/figure-7c.png){: .pull-left} 
+    ![Channel 4 promotion slide](/assets/images/articles/dissertation/figure-7d.png){: .pull-left} 
     <figcaption>
         <h4>Figure 7</h4>
         <p>The idents were part of a consistent presentation style across the channel.</p>
@@ -60,9 +60,9 @@ Robinson Lambie-Nairn encouraged the channel's presentation department to follow
 The success of the Channel 4 identity caused immediate resentment from various ITV regions, which considered the new channel to be its 'poor relation' (Lambie-Nairn, 1997, p85), yet it had an identity that was a talking point amongst both industry and public. They concluded that it was successful due to the fact that its idents were computer animated (apposed to its consistent and well applied design) and ordered their graphic designers to computerise their logos.
 
 <figure id="figure-8">
-    <img class="left" src="/assets/images/articles/dissertation/figure-8a.png" alt="BBC One ident, 1985" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-8b.png" alt="BBC Two ident, 1986" />
-    <img class="left" src="/assets/images/articles/dissertation/figure-8c.png" alt="Thames Television ident" />
+    ![BBC One ident, 1985](/assets/images/articles/dissertation/figure-8a.png){: .pull-left}
+    ![BBC Two ident, 1986](/assets/images/articles/dissertation/figure-8b.png){: .pull-left}
+    ![Thames Television ident](/assets/images/articles/dissertation/figure-8c.png){: .pull-left}
     <figcaption>
         <h4>Figure 8</h4>
         <p>The face of television across all channels became increasingly similar. Here are shown idents for BBC1, BBC2 and Thames (an ITV region serving London during weekdays)</p>

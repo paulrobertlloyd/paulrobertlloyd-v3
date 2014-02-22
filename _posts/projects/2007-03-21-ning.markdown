@@ -6,37 +6,37 @@ excerpt: An online platform that allows people to create, customise and share th
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/ning/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/ning/0.jpg)
         <figcaption>
             <p>Ning logo</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/ning/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/ning/1.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/ning/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/ning/2.jpg)
         <figcaption>
             <p>Early iteration of the sign-up page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/ning/3.jpg" alt=""/>
+        ![](/assets/images/portfolio/ning/3.jpg)
         <figcaption>
             <p>Activity dashboard (unused)</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/ning/4.jpg" alt=""/>
+        ![](/assets/images/portfolio/ning/4.jpg)
         <figcaption>
             <p>Social network home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/ning/5.jpg" alt=""/>
+        ![](/assets/images/portfolio/ning/5.jpg)
         <figcaption>
             <p>Platform diagram</p>
         </figcaption>

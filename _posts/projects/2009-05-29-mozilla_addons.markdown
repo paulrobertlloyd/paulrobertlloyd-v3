@@ -6,19 +6,19 @@ excerpt: A catalogue of more than 6,000 add-ons that allow users to customise Fi
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/mozilla_addons/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/mozilla_addons/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/mozilla_addons/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/mozilla_addons/1.jpg)
         <figcaption>
             <p>Add-on overview page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/mozilla_addons/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/mozilla_addons/2.jpg)
         <figcaption>
             <p>Category listing</p>
         </figcaption>

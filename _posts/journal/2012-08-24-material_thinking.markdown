@@ -13,7 +13,7 @@ Earlier this month, Team Clearleft headed up to London for a day of design relat
 The centrepiece of the games was the highly original and beautifully symbolic [Olympic Cauldron][4], so I was excited to see the scale model featured in the Heatherwick exhibit. Until this point, I hadn't made the link between this studio, lead by Thomas Heatherwick, and other objects I've long admired. From [East Beach Cafe][5] in Littlehampton to the [UK Pavilion][6] at the Shanghai Expo; from [London's new bus][7] to the short-lived [<cite>B of the Bang</cite>][8] sculpture in Manchester, this small studio is responsible for a huge range of wonderfully imaginative creations.
 
 <figure>
-    <img src="/assets/images/2012/08/seed_cathedral.jpg" alt=""/>
+    ![](/assets/images/2012/08/seed_cathedral.jpg)
     <figcaption>
         <p>The UK 'Seed Cathedral' Pavilion for the Shanghai Expo held in 2010.</p>
     </figcaption>

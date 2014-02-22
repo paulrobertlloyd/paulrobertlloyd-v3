@@ -25,7 +25,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 [10]: http://blog.netvlies.nl/design-interactie/retina-revolution/
 
 <figure>
-    <img src="/assets/images/2012/12/causeway_coast1.jpg" alt=""/>
+    ![](/assets/images/2012/12/causeway_coast1.jpg)
     <figcaption>
         <h4>The Causeway Hotel</h4>
         <p>66% quality, 44 kB</p>
@@ -33,7 +33,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 </figure>
 
 <figure>
-    <img src="/assets/images/2012/12/causeway_coast2.jpg" alt=""/>
+    ![](/assets/images/2012/12/causeway_coast2.jpg)
     <figcaption>
         <h4>Tourists besiege the causeway</h4>
         <p>57% quality, 108 kB</p>
@@ -41,8 +41,8 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 </figure>
 
 <figure class="tandem">
-    <img src="/assets/images/2012/12/causeway_coast3.jpg" alt=""/>
-    <img src="/assets/images/2012/12/causeway_coast4.jpg" alt=""/><br/>
+    ![](/assets/images/2012/12/causeway_coast3.jpg)
+    ![](/assets/images/2012/12/causeway_coast4.jpg)<br/>
     <figcaption>
         <h4>Interlocking basalt columns</h4>
         <p>55% quality, 63 kB / 58% quality, 35 kB</p>
@@ -50,7 +50,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 </figure>
 
 <figure>
-    <img src="/assets/images/2012/12/causeway_coast5.jpg" alt=""/>
+    ![](/assets/images/2012/12/causeway_coast5.jpg)
     <figcaption>
         <h4>The Giant's Causeway viewed from above</h4>
         <p>55% quality, 151 kB</p>
@@ -58,7 +58,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 </figure>
 
 <figure>
-    <img src="/assets/images/2012/12/causeway_coast6.jpg" alt=""/>
+    ![](/assets/images/2012/12/causeway_coast6.jpg)
     <figcaption>
         <h4>Large basalt columns</h4>
         <p>55% quality, 167 kB</p>
@@ -66,7 +66,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 </figure>
 
 <figure>
-    <img src="/assets/images/2012/12/causeway_coast7.jpg" alt=""/>
+    ![](/assets/images/2012/12/causeway_coast7.jpg)
     <figcaption>
         <h4>Anything that can be hexagonal, will be hexagonal</h4>
         <p>38% quality, 122 kB</p>
@@ -74,7 +74,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 </figure>
 
 <figure>
-    <img src="/assets/images/2012/12/causeway_coast8.jpg" alt=""/>
+    ![](/assets/images/2012/12/causeway_coast8.jpg)
     <figcaption>
         <h4>A storm brewing</h4>
         <p>60% quality, 100 kB</p>
@@ -82,7 +82,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 </figure>
 
 <figure>
-    <img src="/assets/images/2012/12/causeway_coast9.jpg" alt=""/>
+    ![](/assets/images/2012/12/causeway_coast9.jpg)
     <figcaption>
         <h4>Ballintoy Harbour</h4>
         <p>57% quality, 91 kB</p>

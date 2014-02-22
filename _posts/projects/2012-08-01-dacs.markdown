@@ -6,25 +6,25 @@ excerpt: In the UK, many artists don't understand their legal rights regarding c
 ---
 <div class="slides">
     <figure>
-        <img src="/assets/images/portfolio/dacs/0.jpg" alt=""/>
+        ![](/assets/images/portfolio/dacs/0.jpg)
         <figcaption>
             <p>Home page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/dacs/1.jpg" alt=""/>
+        ![](/assets/images/portfolio/dacs/1.jpg)
         <figcaption>
             <p>Landing page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/dacs/2.jpg" alt=""/>
+        ![](/assets/images/portfolio/dacs/2.jpg)
         <figcaption>
             <p>Service page</p>
         </figcaption>
     </figure>
     <figure>
-        <img src="/assets/images/portfolio/dacs/3.jpg" alt=""/>
+        ![](/assets/images/portfolio/dacs/3.jpg)
         <figcaption>
             <p>Mobile landing page</p>
         </figcaption>
