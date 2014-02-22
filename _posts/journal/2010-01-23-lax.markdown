@@ -13,12 +13,9 @@ This over-reliance on the motor vehicle, matched with an abundance of confusing 
 
 After spending the remaining hour trying find the correct terminal and gate, once the plane had left the tarmac, I was pretty sure I never wanted to set foot in this airport ever again.
 
-<figure>
-    ![](/assets/images/2010/01/lax.jpg)
-    <figcaption>
-        <p>The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photo by <a href="http://flickr.com/photos/brewbooks/225876606/">J Brew</a></p>
-    </figcaption>
-</figure>
+{% figure The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photo by <a href="http://flickr.com/photos/brewbooks/225876606/">J Brew</a> %}
+![](/assets/images/2010/01/lax.jpg)
+{% endfigure %}
 
 ## A Single Ticked Box
 Forward to last August. As I was booking my flights to New Zealand fairly late, the only route available to Auckland was via LAX. I had some reservations, but I placed these aside, especially as a 6-hour layover in Los Angeles would mean a rare opportunity to meet my friend [Kyle][1].

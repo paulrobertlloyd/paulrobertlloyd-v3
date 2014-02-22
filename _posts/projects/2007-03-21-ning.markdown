@@ -4,44 +4,29 @@ title: Ning
 date: '2007-03-21 12:00:00 +0000'
 excerpt: An online platform that allows people to create, customise and share their own social networks.
 ---
-<div class="slides">
-    <figure>
-        ![](/assets/images/portfolio/ning/0.jpg)
-        <figcaption>
-            <p>Ning logo</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ning/1.jpg)
-        <figcaption>
-            <p>Home page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ning/2.jpg)
-        <figcaption>
-            <p>Early iteration of the sign-up page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ning/3.jpg)
-        <figcaption>
-            <p>Activity dashboard (unused)</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ning/4.jpg)
-        <figcaption>
-            <p>Social network home page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ning/5.jpg)
-        <figcaption>
-            <p>Platform diagram</p>
-        </figcaption>
-    </figure>
-</div>
+{% figure Ning logo %}
+![](/assets/images/portfolio/ning/0.jpg)
+{% endfigure %}
+
+{% figure Home page %}
+![](/assets/images/portfolio/ning/1.jpg)
+{% endfigure %}
+
+{% figure Early iteration of the sign-up page %}
+![](/assets/images/portfolio/ning/2.jpg)
+{% endfigure %}
+
+{% figure Activity dashboard (unused) %}
+![](/assets/images/portfolio/ning/3.jpg)
+{% endfigure %}
+
+{% figure Social network home page %}
+![](/assets/images/portfolio/ning/4.jpg)
+{% endfigure %}
+
+{% figure Platform diagram %}
+![](/assets/images/portfolio/ning/5.jpg)
+{% endfigure %}
 
 Ning is an online platform that allows people to create, customise and share their own social networks. I was Lead Designer from January 2006 - October 2007.
 

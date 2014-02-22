@@ -4,32 +4,21 @@ title: nGenera Corporation
 date: '2008-04-25 12:00:00 +0100'
 excerpt: An integrated platform of on demand technology, expert advisory and innovative business research that helps corporations and governments to transform themselves into Next-Generation Enterprises.
 ---
-<div class="slides">
-    <figure>
-        ![](/assets/images/portfolio/ngenera/0.jpg)
-        <figcaption>
-            <p>nGenera logo with tagline lock-up</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ngenera/1.jpg)
-        <figcaption>
-            <p>Associated brand collateral, including presentation folders, report covers, letterheads and business cards</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ngenera/2.jpg)
-        <figcaption>
-            <p>Home page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/ngenera/3.jpg)
-        <figcaption>
-            <p>Community landing page</p>
-        </figcaption>
-    </figure>
-</div>
+{% figure nGenera logo with tagline lock-up %}
+![](/assets/images/portfolio/ngenera/0.jpg)
+{% endfigure %}
+
+{% figure Associated brand collateral, including presentation folders, report covers, letterheads and business cards %}
+![](/assets/images/portfolio/ngenera/1.jpg)
+{% endfigure %}
+
+{% figure Home page %}
+![](/assets/images/portfolio/ngenera/2.jpg)
+{% endfigure %}
+
+{% figure Community landing page %}
+![](/assets/images/portfolio/ngenera/3.jpg)
+{% endfigure %}
 
 nGenera Corporation (now [Moxie Software][1]) helps corporations and governments transform themselves into next-generation enterprises through an integrated platform of on-demand technology and innovative business research.
 

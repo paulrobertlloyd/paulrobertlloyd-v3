@@ -4,44 +4,29 @@ title: Fontdeck
 date: '2010-11-30 12:00:00 +0000'
 excerpt: A pure CSS @font-face solution providing hundreds of fonts that can be used on the web without the need for complicated and non-standard based text replacement techniques.
 ---
-<div class="slides">
-    <figure>
-        ![](/assets/images/portfolio/fontdeck/0.jpg)
-        <figcaption>
-            <p>Home page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/fontdeck/1.jpg)
-        <figcaption>
-            <p>Browse Fonts</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/fontdeck/2.jpg)
-        <figcaption>
-            <p>Typeface page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/fontdeck/3.jpg)
-        <figcaption>
-            <p>Font specimen page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/fontdeck/4.jpg)
-        <figcaption>
-            <p>Designers landing page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/fontdeck/5.jpg)
-        <figcaption>
-            <p>Project settings</p>
-        </figcaption>
-    </figure>
-</div>
+{% figure Home page %}
+![](/assets/images/portfolio/fontdeck/0.jpg)
+{% endfigure %}
+
+{% figure Browse Fonts %}
+![](/assets/images/portfolio/fontdeck/1.jpg)
+{% endfigure %}
+
+{% figure Typeface page %}
+![](/assets/images/portfolio/fontdeck/2.jpg)
+{% endfigure %}
+
+{% figure Font specimen page %}
+![](/assets/images/portfolio/fontdeck/3.jpg)
+{% endfigure %}
+
+{% figure Designers landing page %}
+![](/assets/images/portfolio/fontdeck/4.jpg)
+{% endfigure %}
+
+{% figure Project settings %}
+![](/assets/images/portfolio/fontdeck/5.jpg)
+{% endfigure %}
 
 Using a pure CSS @font-face solution, Fontdeck provides hundreds of web fonts that can be used without the need for complicated text replacement techniques.
 

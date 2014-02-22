@@ -12,24 +12,18 @@ Commercial and independent podcasters have spent a lot of time on perfecting the
 
 With a 'Radio to Go' sub-brand and a consistent yet flexible template that can be applied across a wide range of podcasts, they have managed to successfully pull together its many different radio (network and programme) brands:
 
-<figure>
-    ![](/assets/images/2005/09/bbcpodcasts.png)
-    <figcaption>
-        <p>Examples of BBC podcast artwork.</p>
-    </figcaption>
-</figure>
+{% figure Examples of BBC podcast artwork %}
+![](/assets/images/2005/09/bbcpodcasts.png)
+{% endfigure %}
 
 Of course for such a large organisation not to place it's branding across all its output would be unheard of, but I think the execution here is excellent. This, alongside the release of their own [BBC Radio widget][1] for the [Mac OS X Dashboard][2], and you have yet more reasons why the BBC should have its [Royal Charter][3] renewed next year.
 
 ## Inside Mac Radio
 In July, I took part in a competition run by [Inside Mac Radio][4], the premier Mac News podcast to design a new logo. Sadly I did not win, but it was sure fun taking part. So as I finally get round to blogging about all things podcast, I thought I would share with you my design, as well as the final design that was chosen.
 
-<figure>
-    ![](/assets/images/2005/09/insidemac.png)
-    <figcaption>
-        <p>My entry (left) and the winning design (right)</p>
-    </figcaption>
-</figure>
+{% figure My entry (left) and the winning design (right) %}
+![](/assets/images/2005/09/insidemac.png)
+{% endfigure %}
 
 ## Favourite Podcasts
 As a final thought, and I'm sure to be of much discussion, favourite podcasts? I'll pre-empt the comment(s) and predict that Jon will post a comment about [Andy Grace's podcast][5]. Having subscribed to this for a week or so, I must say that I soon became bored with it, and is now deleted from my podcast list. I am keen to hear some other recommendations though.

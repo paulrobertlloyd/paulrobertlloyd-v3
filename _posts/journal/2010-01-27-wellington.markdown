@@ -9,23 +9,17 @@ From Nelson I reluctantly headed back to Wellington, cursing myself for not havi
 
 The city markets itself under the slogan 'Absolutely, Positively, Wellington', which is sort of like working with somebody who constantly says "you don't have to be mad to work here -- but it helps!" before breaking into an annoying laugh.
 
-<figure>
-    ![](/assets/images/2010/01/wellingtoncablecar.jpg)
-    <figcaption>
-        <p>The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden.</p>
-    </figcaption>
-</figure>
+{% figure The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden. %}
+![](/assets/images/2010/01/wellingtoncablecar.jpg)
+{% endfigure %}
 
 Much of this 'madness' can be attributed to the city's architectural style, which could be described as eclectic at best. Other cities manage to curate a coherent cityscape, but in Wellington, anything goes. In fact it's the most mediocre buildings that seem to gain prominence -- the headquarters of the New Zealand Post immediately come to mind. The sleek black [BNZ Centre][1], whilst a perfect example of the International Style that wouldn't look out of place in Chicago, looks hideous here. But then so does every other building.
 
 However, if you look closely, you can still find a number of fine examples of the Art Deco style. The [Prudential Assurance Building][2] on Lambton Quay is one of few such buildings I spotted in the CBD, and there are many more in the surrounding districts (the Central Fire Station is a particularly beautiful example). The bohemian buildings along [Cuba Street][3] also have their own unique charm, as do some of the newer developments around the waterfront. So, not all bad.
 
-<figure>
-    ![](/assets/images/2010/01/parliament.jpg)
-    <figcaption>
-        <p>The Beehive and Parliament House, Wellington</p>
-    </figcaption>
-</figure>
+{% figure The Beehive and Parliament House, Wellington %}
+![](/assets/images/2010/01/parliament.jpg)
+{% endfigure %}
 
 As you can tell, most of my time was consumed by the built environment, but I did take time to tour many of the city's other attractions such as the Cable Car and Botanic Gardens. Of particular interest were the [Parliament Buildings][4]. Unsurprisingly this complex is comprised of three buildings built to very different and distinct architectural styles, yet unlike the rest of the city, they sit wonderfully well next to each other.
 

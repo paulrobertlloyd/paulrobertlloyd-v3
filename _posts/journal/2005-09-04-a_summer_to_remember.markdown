@@ -19,12 +19,9 @@ After a bit of breakfast the next morning, so another reunion had ended. I think
 ## Newquay
 For the last bank holiday of the summer I headed down to Newquay with my brother and his friend Rich.
 
-<figure>
-    ![](/assets/images/2005/09/newquay.jpg)
-    <figcaption>
-        <p>Ben and Rich on Fristral beach, Newquay.</p>
-    </figcaption>
-</figure>
+{% figure Ben and Rich on Fristral beach, Newquay %}
+![](/assets/images/2005/09/newquay.jpg)
+{% endfigure %}
 
 Having not booked any accommodation we hoped that this wouldn't pose too much of a problem, although I had my doubts -- somewhere to stay during a bank holiday weekend in Newquay -- no chance. I was bang wrong and [the first campsite we found][1] was not only cheap but had beautiful women all over the place -- it really was a sight to behold!
 
@@ -41,12 +38,9 @@ I tend not to make a fuss of my birthday which inevitably leads to disappointmen
 
 I choose the Arcadian in Birmingham as somewhere I'd like to spend a night out, and after phoning round it was decided that it would be a belated celebration the first weekend of September.
 
-<figure>
-    ![](/assets/images/2005/09/birthday.jpg)
-    <figcaption>
-        <p>Me, a happy drunk.</p>
-    </figcaption>
-</figure>
+{% figure Me, a happy drunk %}
+![](/assets/images/2005/09/birthday.jpg)
+{% endfigure %}
 
 In the end I was to arrange the nights activities, and my brother suggested getting tickets for [the Glee club][2], which turned out to be a great call. Of the five performers, all but one were brilliant entertainment, and a great way to start of the night. Lots of drinking, matched with comedy, great location, and most importantly a whole gang of great great friends. Thanks to Ellen's birthday present, I was also fashionable!
 

@@ -16,12 +16,9 @@ The team behind Gowalla had a great reputation. In addition to founding the succ
 
 It worked! I remember visiting nearby cities in the hope that I could add new stamps to my passport or find items missing from my collection. Yet a recurring question would be asked every time me and my colleagues checked into the same spots at lunchtime: "Why are we actually doing this?". Having checked in once, there was little incentive to do so again.
 
-<figure>
-    ![](/assets/images/2012/02/gowalla_stamps.png)
-    <figcaption>
-        <p>A small selection from the thousands of exquisitely designed location stamps you could earn on Gowalla.</p>
-    </figcaption>
-</figure>
+{% figure A small selection from the thousands of exquisitely designed location stamps you could earn on Gowalla. %}
+![](/assets/images/2012/02/gowalla_stamps.png)
+{% endfigure %}
 
 ## Gowalla vs. Foursquare
 Foursquare's approach was very different. Here, you earned points not stamps, so the aim of the game was abundantly clear; earn more points than your friends. Therefore it made sense to check-in to the same spot -- especially if you wanted to snatch a coveted mayorship! I found this approach rather crass, but it proved to have popular appeal.
@@ -36,12 +33,9 @@ Gowalla was acquired by Facebook in December, and much of the team is headed to 
 
 It's tempting to accuse the founders of selling out, but given the failure of the product (and the need to satisfy their investors), I suspect they had little choice but to join Facebook. The same fate awaits many other start-ups. Indeed, Facebook's dominance can be traced by observing the increasing prominence of their account linking and sharing buttons on other social sites.
 
-<figure>
-    ![](/assets/images/2012/02/gowalla_homepage.png)
-    <figcaption>
-        <p>The Gowalla home page in January 2012. The growing prominence of Facebook account linking and sharing buttons on Gowalla hinted at its eventual fate.</p>
-    </figcaption>
-</figure>
+{% figure The Gowalla home page in January 2012. The growing prominence of Facebook account linking and sharing buttons on Gowalla hinted at its eventual fate. %}
+![](/assets/images/2012/02/gowalla_homepage.png)
+{% endfigure %}
 
 ## It's very pretty. Congratulations.
 Unfortunately, Gowalla is [the latest in a long line][5] of respected design agencies and design-focused product companies that have closed down, shuttered their products and moved to Palo Alto. The desire to work at Facebook is easy to understand. Few companies can offer the same complex and interesting design challenges. Even fewer can provide an audience of 800 million people (and counting).

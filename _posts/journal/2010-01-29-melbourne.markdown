@@ -7,12 +7,9 @@ post_id: 189
 ---
 Melbourne's status as Australia's cultural and sporting capital is reflected by two imposing sights in the city -- the [Melbourne Cricket Ground][1] (MCG) and the [Shrine of Remembrance][2] -- both backed up by an amazing array of national, state and metropolitan galleries, performance venues and sports stadia. The extensive tram system is just as impressive, and gives you an insight as to how other cities may have looked had they not been so eager to turn their streets over to the motor vehicle.
 
-<figure>
-    ![](/assets/images/2010/01/royalexhibitionbuilding.jpg)
-    <figcaption>
-        <p>Royal Exhibition Building, Melbourne.</p>
-    </figcaption>
-</figure>
+{% figure Royal Exhibition Building, Melbourne. %}
+![](/assets/images/2010/01/royalexhibitionbuilding.jpg)
+{% endfigure %}
 
 Melbourne is host to a number of different architectural styles, many of them quite daring, especially recent additions like [Federation Square][3] and [Eureka Tower][4]. However, unlike Wellington, there is a general cohesiveness. In fact this even extends to the city council's [new identity][5]. Having witnessed the city first hand, I can't see it as anything other than a perfect graphic manifestation of Melbourne's built environment.
 
@@ -25,12 +22,9 @@ As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many
 
 The same is true of the MCG. Whilst one part of the huge oval is still named in honour of the Olympics, the oldest part of the complex is actually the light towers that were erected in 1985. The rest of the was stadium completely rebuilt in sections between 1992 and 2005. Part of this refurbishment included the creation of the [National Sports Museum][9], which includes a special section devoted entirely to the Olympics.
 
-<figure>
-    ![](/assets/images/2010/01/olympiccauldron.jpg)
-    <figcaption>
-        <p>The cauldron from the 1956 Olympic Games.</p>
-    </figcaption>
-</figure>
+{% figure The cauldron from the 1956 Olympic Games. %}
+![](/assets/images/2010/01/olympiccauldron.jpg)
+{% endfigure %}
 
 As you can imagine, this got my full attention. I was immersed in all its collected memorabilia -- everything from a laurel wreath presented to a winning athlete at the inaugural 1896 games, to a ticket stub from the most recent games in Beijing. One of the most interesting displays was the (almost) complete collection of Olympic relay torches from 1936 to 2008. 
 
@@ -38,12 +32,9 @@ The centrepiece of this display was the original Olympic cauldron from the Melbo
 
 Keeping with this theme of sporting geekery, I was also keen to check out [Albert Park][10], host to the Australian Grand Prix every March. Although it was obvious to make out from maps situated around the park, it took me some time to realise that main road that circles the lake was indeed the race track.
 
-<figure>
-    ![](/assets/images/2010/01/albertpark.jpg)
-    <figcaption>
-        <p>The pit lane on the Albert Park grand prix circuit.</p>
-    </figcaption>
-</figure>
+{% figure The pit lane on the Albert Park grand prix circuit. %}
+![](/assets/images/2010/01/albertpark.jpg)
+{% endfigure %}
 
 So much of the supporting track furniture is removed from the site when the circuit is not in use. Even the pit lane complex could be mistaken for offices, were it not for the road layout and the row of garage doors along its frontage. Of course I couldn't pass by without standing on the very same podium that Jenson Button had stood [only 10 months beforehand][11] -- although when I looked out across the start/finish straight all I could see was a makeshift car park.
 

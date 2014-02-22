@@ -21,12 +21,9 @@ Jon soon followed in March with a job at Trinity Design in Sutton Coldfield as a
 ## Resolutions
 Kris was coming to terms with his arrival back on British soil after a respectful 4 month drinking binge in Syndey with the resolution that every month in 2004 would see him and some friends take on something mildly dangerous and adventurous. Our first (and indeed only) adventure of this type saw us visit Holyhead (purely because the A5 ended there) before some fairly safe abseiling, rock climbing and an episode of Britain's worst driver in Llangollen, North Wales.
 
-<figure>
-    ![](/assets/images/2004/12/rockface.jpg)
-    <figcaption>
-        <p>Me, half way up a rock race in Wales.</p>
-    </figcaption>
-</figure>
+{% figure Me, half way up a rock race in Wales %}
+![](/assets/images/2004/12/rockface.jpg)
+{% endfigure %}
 
 It would seem Kris was full of ideas, and on a short lived health kick, came up with another -- that of learning a martial art. In March this saw me, Kris and Lewis (later replaced by Lee and then, more recently, Ellen) take up Kung-Fu, and both achieved our 1st Cup, White Sash. I also found the inability to move my legs every Tuesday morning! However the other part of the healthy living plan -- the weekly visit to the gym soon became the weekly chat whilst getting mildly damp in a swimming pool. But as they say, one step at a time...
 
@@ -44,12 +41,9 @@ With work now confined to the hours of 9:00-5:30 (or more accurately 9:32-6:05),
 
 Should I even start to mention Euro 2004 -- needless to say it was the same old highs, the same old penalty taking lows.
 
-<figure>
-    ![](/assets/images/2004/12/coedybrenin.jpg)
-    <figcaption>
-        <p>Coed-y-Brenin.</p>
-    </figcaption>
-</figure>
+{% figure Coed-y-Brenin %}
+![](/assets/images/2004/12/coedybrenin.jpg)
+{% endfigure %}
 
 Being nearly a full four months since our last trip there, it wasn't long before another trip to North Wales was on the cards, this time Coed-y-Brenin for the famed, almost yearly mountain biking weekend. The shear hell of having to ride a woman's bike around the Red Bull Mountain course meant that my first pay-cheque was only ever going to be spent on a new bike -- and arguably with better engineering than that of my car.  A trip to Torbay came in August, yet I can't remember why!
 
@@ -59,23 +53,17 @@ September saw some sporting activity, namely drowning, twice, in the River Trent
 Change really was becoming the buzz word of 2004 -- but sadly this was not a happy experience for everyone. Ellen had returned back home to Walsall after leaving London where she was living with her boyfriend. October saw me catch up with her, and although plans to dress up as a rabbi and gatecrash a future Jewish wedding are on hold, joining me and Kris for Kung-Fu has proved a fun, yet dangerous concept. Even here, things have perhaps changed for the better, with a new job for her to look forward to in the New Year.
 
 ## More Reunions
-<figure>
-    ![](/assets/images/2004/12/bristol.jpg)
-    <figcaption>
-        <p>The Glebers in a pub, Bath.</p>
-    </figcaption>
-</figure>
+{% figure The Glebers in a pub, Bath %}
+![](/assets/images/2004/12/bristol.jpg)
+{% endfigure %}
 
 November saw an 'unofficial' reunion with most of the people who I had met and become friends with during my stay at the Glebe Village hostel in Australia. The plan was to watch some Rugby in Bath, but to be fair this was never going to happen, and with Dangerous Dave having to dodge bullets to join us, we all ended up on a mini pub crawl before heading over to Bristol.
 
 Here we continued the drinking in the Walkabout Bar, and this night easily achieved the best night out of the year award -- so cheers guys. This was then repeated again in Wimbledon, South London in December, this time with everybody in attendance. This included Johnny who flew all the way from the US -- joining John Kerry as the only other American I would like to have seen more of this year. Well done that man!
 
-<figure>
-    ![](/assets/images/2004/12/nottingham.jpg)
-    <figcaption>
-        <p>The lads of Orange Vision.</p>
-    </figcaption>
-</figure>
+{% figure The men of Orange Vision %}
+![](/assets/images/2004/12/nottingham.jpg)
+{% endfigure %}
 
 With December ending with the Orange Vision Christmas Party that, thankfully, ended without embarrassment (perhaps some thanks should go to Simone and hotel bedroom arrangements!) this became the highlight of the whole Christmas period, and a brilliant and fitting end to the year.
 

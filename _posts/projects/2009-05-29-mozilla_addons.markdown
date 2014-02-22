@@ -4,26 +4,17 @@ title: Mozilla Add-ons
 date: '2009-05-29 12:00:00 +0100'
 excerpt: A catalogue of more than 6,000 add-ons that allow users to customise Firefox to suit their different interests and browsing needs.
 ---
-<div class="slides">
-    <figure>
-        ![](/assets/images/portfolio/mozilla_addons/0.jpg)
-        <figcaption>
-            <p>Home page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/mozilla_addons/1.jpg)
-        <figcaption>
-            <p>Add-on overview page</p>
-        </figcaption>
-    </figure>
-    <figure>
-        ![](/assets/images/portfolio/mozilla_addons/2.jpg)
-        <figcaption>
-            <p>Category listing</p>
-        </figcaption>
-    </figure>
-</div>
+{% figure Home page %}
+![](/assets/images/portfolio/mozilla_addons/0.jpg)
+{% endfigure %}
+
+{% figure Add-on overview page %}
+![](/assets/images/portfolio/mozilla_addons/1.jpg)
+{% endfigure %}
+
+{% figure Category listing %}
+![](/assets/images/portfolio/mozilla_addons/2.jpg)
+{% endfigure %}
 
 Mozilla Add-ons is a catalogue of over 6,000 add-ons that let Firefox users customise the browser to suit their individual interests and needs.
 

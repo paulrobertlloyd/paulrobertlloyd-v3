@@ -12,12 +12,9 @@ Right now I almost feel master of my own destiny, and begin 2007 with an incredi
 ## 2 Days Down, 363 to Go
 January the 1st saw me launch [a little update to this website][2], that finally includes a [new photos section][3]. Whilst not as in depth as the previous version I had on the site, I certainly plan on adding to it over the coming months. First up are [photos from the month I spent in Sydney, Australia][4] at the end of 2003. (Blimey, was it really three years ago... I'm not sure how much longer I go without having to make the trip back!)
 
-<figure>
-    ![](/assets/images/2007/01/ellensdayoffun.jpg)
-    <figcaption>
-        <p>Me and Ellen on top of The Monument.</p>
-    </figcaption>
-</figure>
+{% figure Me and Ellen on top of The Monument %}
+![](/assets/images/2007/01/ellensdayoffun.jpg)
+{% endfigure %}
 
 Yesterday saw me treat Ellen to [a day out in London][5], which is her favourite city. We climbed to the top of both the [Monument to the Great Fire of London][6], and [St. Paul's Cathedral][7], a total of 1478 steps. Needless to say my legs are killing me today, but what a brilliant way to start the New Year, a whole 'day of fun' with one of my best friends.
 

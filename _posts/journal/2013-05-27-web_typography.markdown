@@ -10,23 +10,17 @@ Last month [I wrote about Bradshaw's Guide][1], a project that brings George Bra
 ## Bringing Order to Typographic Chaos
 Although the content of Bradshaw's Guide is well suited to hypertext, its chaotic and haphazard victorian typography, featuring a mix of fonts, weights and widths, felt somewhat at odds with the more structured nature of the web.
 
-<figure>
-    ![](/assets/images/2013/05/bradshaws_cover.png)
-    <figcaption>
-        <p>Scan of the inside cover of Bradshaw's 1866 railway handbook.</p>
-    </figcaption>
-</figure>
+{% figure Scan of the inside cover of Bradshaw's 1866 railway handbook. %}
+![](/assets/images/2013/05/bradshaws_cover.png)
+{% endfigure %}
 
 To successfully mimic its design, a vast array of fonts and styles would be needed, requiring assets in size and number that would slow page loads and degrade the experience, especially on mobile. The challenge then, was to maintain this identifiable aesthetic, but in a performant manner.
 
 Thankfully, beyond the cover and adverts, the guide is more consistently typeset, with different fonts and styles used to delineate content types. This structure gave me the confidence to keep my font selection limited.
 
-<figure>
-    ![](/assets/images/2013/05/bradshaws_type.png)
-    <figcaption>
-        <p>Typographic hierarchy used in the original Bradshaw's Guide.</p>
-    </figcaption>
-</figure>
+{% figure Typographic hierarchy used in the original Bradshaw's Guide. %}
+![](/assets/images/2013/05/bradshaws_type.png)
+{% endfigure %}
 
 ## Font Selection
 
@@ -48,12 +42,9 @@ In trying to replicate the mix of type treatments used in Bradshaw's Guide, I ma
 ## The Missing Web Typography Tool
 After an extensive search, I opted to use [Kameron][7] for headings, a chunky slab serif that contrasted strongly with [Linux Libertine][8], a delicate serif I had chosen for body copy.
 
-<figure>
-    ![](/assets/images/2013/05/bradshaws_web.png)
-    <figcaption>
-        <p>Sample of fonts used on Bradshaw's Guide.</p>
-    </figcaption>
-</figure>
+{% figure Sample of fonts used on Bradshaw's Guide. %}
+![](/assets/images/2013/05/bradshaws_web.png)
+{% endfigure %}
 
 With content made up of English and European characters, punctuation marks, [manacles][9], numerals and fractions, Libertine Regular needed to contain a large number of glyphs, including those needed for OpenType feature adaptions (ligatures, small caps, old style numerals etc.). Libertine Italic and Kameron Bold are used less often, so fewer characters were required. With the regular weight of Kameron used for uppercase headings, this was subset to include only uppercase letters, numbers and a few basic punctuation marks.
 

@@ -69,12 +69,9 @@ The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom ty
 
 Although a highly visible (and initially expensive) identity programme might meet some resistance in the UK, with a phased roll out, the long term benefits are clear. In fact, holistic branding exercises are already common within the public sector. The Northern Ireland Executive uses [a cohesive identity across its different departments][6] and the NHS in England has been using [strict branding guidelines][7] for several years.
 
-<figure>
-    ![](/assets/images/2009/09/niexecutive.png)
-    <figcaption>
-        <p>Logos for the Northern Ireland Executive and four of its departments.</p>
-    </figcaption>
-</figure>
+{% figure Logos for the Northern Ireland Executive and four of its departments. %}
+![](/assets/images/2009/09/niexecutive.png)
+{% endfigure %}
 
 ### Design
 The 'HM Government' logo introduced earlier this decade could provide clues to what a unified identify might look like, with the government's coat of arms sat alongside a word-mark set in Gill Sans Light. Logos for the Ministry of Justice, Treasury, Foreign and Cabinet Offices also feature this coat of arms, whilst the Treasury and the Department for Business Innovation and Skills use Gill Sans too.
@@ -95,12 +92,9 @@ Personally, I would like to see departments named ministries again -- partly bec
 
 Below is a suggestion as to how a unified identity might look, although I'm sure there are far more creative solutions. I've no doubt this is a massive project, one that would require a lot of research, and the resulting identity system would need to adapt easily to continual government reorganisation.
 
-<figure>
-    ![](/assets/images/2009/09/ukgovernmentproposal.png)
-    <figcaption>
-        <p>How a unified identity for the British government might look.</p>
-    </figcaption>
-</figure>
+{% figure How a unified identity for the British government might look. %}
+![](/assets/images/2009/09/ukgovernmentproposal.png)
+{% endfigure %}
 
 Given the growing number of identity schemes implemented by other governments, it seems we are already behind. However there is still a massive opportunity for the British design community to think about how such a problem could be solved. That David Cameron [rebranded his own party][8] on becoming leader, I'm hopeful a similar exercise is soon seen at government level too.
 

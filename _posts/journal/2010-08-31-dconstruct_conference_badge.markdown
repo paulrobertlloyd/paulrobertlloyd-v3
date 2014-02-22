@@ -7,12 +7,9 @@ post_id: 202
 ---
 [Conferences can be quite wasteful affairs][1]. In addition to swag bags filled with magazines, leaflets and free gifts, there is often a programme detailing the schedule and providing some background on the speakers.
 
-<figure>
-    ![](/assets/images/2010/08/dconstruct_conference_badge.jpg)
-    <figcaption>
-        <p>This years dConstruct conference badge. Photo by <a href="http://www.flickr.com/photos/b0xman/4929704982/">James Box</a></p>
-    </figcaption>
-</figure>
+{% figure This years dConstruct conference badge. Photo by <a href="http://www.flickr.com/photos/b0xman/4929704982/">James Box</a> %}
+![](/assets/images/2010/08/dconstruct_conference_badge.jpg)
+{% endfigure %}
 
 It's in this environment that I've long admired [Clearleft][2]'s approach at [dConstruct][3]. Not only have swag bags been banished, but the programmes have been combined with name badges, and placed in clear plastic wallets so they could be attached to a lanyard.
 

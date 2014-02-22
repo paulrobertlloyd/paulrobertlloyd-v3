@@ -7,12 +7,9 @@ post_id: 164
 ---
 Friday saw the start of this years SXSW interactive, film and music festivals in Austin Texas, and once again they highlight the scourge of swag: the 'stuff we all get' that soon becomes the stuff we don't want. Whilst SXSW likes to tout its [environmental credentials][1] as a carbon neutral conference (largely by means of carbon offsetting) it amazes me that year after year this supposed concern results in the following familiar image:
 
-<figure>
-    ![A sea of SXSW Big Bags from 2007](/assets/images/2009/03/sxswbigbags.jpg)
-    <figcaption>
-        <p><a href="http://flickr.com/photos/drbrain/421910167/">SXSW Bags</a> by <a href="http://flickr.com/photos/drbrain/">drbrain</a>.</p>
-    </figcaption>
-</figure>
+{% figure <a href="http://flickr.com/photos/drbrain/421910167/">SXSW Bags</a> by <a href="http://flickr.com/photos/drbrain/">drbrain</a>. %}
+![A sea of SXSW Big Bags from 2007](/assets/images/2009/03/sxswbigbags.jpg)
+{% endfigure %}
 
 These are just some of the thousands of 'Big Bags' offered to each conference attendee, and whilst you don't have to grab one, you are heavily encouraged to do so. As described by Allen Stern in [this video at Center Networks][2], this years interactive Big Bag contains:
 

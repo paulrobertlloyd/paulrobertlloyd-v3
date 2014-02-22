@@ -17,33 +17,24 @@ On reaching Centenary Square, my path was obstructed by a large construction are
 
 A transparent glass building, wrapped in a delicate metal filigree, it will occupy a space between the Birmingham Repertory Theatre (The REP), a concrete clad building designed in 1964, and Baskerville House, a limestone building designed in 1936. These buildings will then inform the space immediately in front of them, dividing Centenary Square into three public spaces; one for monuments (its centrepiece being the Hall of Memory), one for culture (with a large sunken patio area) and one for outside entertainment.
 
-<figure>
-    ![](/assets/images/2010/06/libraryofbirmingham.jpg)
-    <figcaption>
-        <p>Artists impression of the new Library of Birmingham in relation to Centenary Square.</p>
-    </figcaption>
-</figure>
+{% figure Artists impression of the new Library of Birmingham in relation to Centenary Square. %}
+![](/assets/images/2010/06/libraryofbirmingham.jpg)
+{% endfigure %}
 
 ## Birmingham Central Library
 Whilst I admire the bravery and ambition of this project, I'm sure the same level of excitement and aspiration surrounded the design of the [current library][6], opened in 1974. Unlike its replacement, this Brutalist style building was designed by a local architect, [John Madin][7] and with the Rotunda and [Alpha Tower][8], remains one of Birmingham's key Modernist buildings.
 
-<figure>
-    ![](/assets/images/2010/06/birminghamcentrallibrary1.jpg)
-    <figcaption>
-        <p>Birmingham Central Library, as it looks today. Original photo by <a href="http://www.flickr.com/photos/hisgett/4620759355/">Tony Hiskett</a>.</p>
-    </figcaption>
-</figure>
+{% figure Birmingham Central Library, as it looks today. Original photo by <a href="http://www.flickr.com/photos/hisgett/4620759355/">Tony Hiskett</a>. %}
+![](/assets/images/2010/06/birminghamcentrallibrary1.jpg)
+{% endfigure %}
 
 I have to confess that I have a soft spot for this building, though it's often derided by the citizens of Birmingham.
 
 Were it not for its unfortunate position, where it obstructs the flow of pedestrian traffic from Centenary Square to Chamberlain Square, I'd love to see it refurbished and given a new role in the city. How wonderful to see it set amongst the water gardens seen in the original plans, which were designed to soften the edges of this imposing mass of concrete. Perhaps too, the atrium could be returned to its original design, removed of the bars and fast food restaurants that currently suffocate this space. Instead, it faces demolition once the new library opens.
 
-<figure>
-    ![](/assets/images/2010/06/birminghamcentrallibrary2.jpg)
-    <figcaption>
-        <p>Inside Birmingham Central Library, as it was in 1974.</p>
-    </figcaption>
-</figure>
+{% figure Inside Birmingham Central Library, as it was in 1974. %}
+![](/assets/images/2010/06/birminghamcentrallibrary2.jpg)
+{% endfigure %}
 
 Will we talking about demolishing the new library in 40 years time, bemoaning its messy, ill-defined exterior? Following a string of other big building projects in the city, none of which seem to give the city any architectural identity, it seems likely.
 

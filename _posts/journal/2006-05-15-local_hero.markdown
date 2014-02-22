@@ -13,12 +13,9 @@ The sculpture commemorates the miners who worked in the town across the three ce
 
 > It's a key aim to build pride and by celebrating the rich heritage we have we are doing just that.
 
-<figure>
-    ![](/assets/images/2006/05/brownhillsminer.jpg)
-    <figcaption>
-        <p>The Brownhills Miner. Photos by <a href="http://www.flickr.com/photos/jlwilliams/146287127/">John Williams</a>.</p>
-    </figcaption>
-</figure>
+{% figure The Brownhills Miner. Photos by <a href="http://www.flickr.com/photos/jlwilliams/146287127/">John Williams</a> %}
+![](/assets/images/2006/05/brownhillsminer.jpg)
+{% endfigure %}
 
 [Jon asks][2] if the £70,000 cost of this sculpture is not worth spending on more deserving public services.
 

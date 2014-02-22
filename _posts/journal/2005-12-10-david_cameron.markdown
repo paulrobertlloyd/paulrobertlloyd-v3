@@ -28,12 +28,9 @@ On Thursday, following a brilliant debut in the commons at PMQs on Wednesday, he
 ## Image
 However one note of caution, yet also optimism (as a designer) is that finally the Conservatives seem to have woken up to the idea of image. Cameron's arrival immediately signalled a big change in how the party wants to be seen.
 
-<figure>
-    ![](/assets/images/2005/12/newtorylogo.png)
-    <figcaption>
-        <p>The new Conservative Party logo</p>
-    </figcaption>
-</figure>
+{% figure The new Conservative Party logo %}
+![](/assets/images/2005/12/newtorylogo.png)
+{% endfigure %}
 
 The torch logo that was reinstated during this years election remains, but is now party hidden by a new (Labour?) slogan: "Change to Win, Win for Britain". Harsh blues and reds have been replaced by pastel blues (and only blues) a lighter and more contemporary typeface and the use of softer photography.
 

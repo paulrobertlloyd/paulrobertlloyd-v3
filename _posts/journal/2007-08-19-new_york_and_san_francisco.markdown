@@ -10,12 +10,9 @@ A few weeks after [my stay in Montreal][1], I spent ten days touring New York an
 ## New York City
 We spent the first four days in New York City, a city I had only briefly encountered last November. During our time there we walked around Greenwich Village, took in the sights and sounds of Times Square, Wall Street, Fifth Avenue and Central Park, sailed on the Staten Island Ferry, watched a Broadway show (the excellent <cite>[Frost/Nixon][2])</cite> and spent an afternoon in MoMA.
 
-<figure>
-    ![](/assets/images/2007/08/timessquare.jpg)
-    <figcaption>
-        <p>Me and Ellen in Times Square.</p>
-    </figcaption>
-</figure>
+{% figure Me and Ellen in Times Square %}
+![](/assets/images/2007/08/timessquare.jpg)
+{% endfigure %}
 
 We didn't just want to do all the touristy things, so for our penultimate day in the 'Big Apple', we took the subway over to [Coney Island][3], a part of Brooklyn famed for it's boardwalk and fairground appeal. We quickly became disorientated as this seaside town felt a thousand miles away from the rest of New York.
 

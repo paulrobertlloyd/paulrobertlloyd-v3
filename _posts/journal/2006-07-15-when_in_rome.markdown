@@ -13,41 +13,29 @@ This was my first trip to another country whose primary language isn't English. 
 
 It put me so much on the back foot, that it made being conned by some dodgy Italians near the Spanish Steps far easier than it should have been -- they got away with &#8364;90 the bastards! This has inspired me to, at least think about, learning another language. Not only useful, but it's a pretty cool skill to have.
 
-<figure>
-    ![](/assets/images/2006/07/romangraffiti.jpg)
-    <figcaption>
-        <p>Graffiti near to where we were staying.</p>
-    </figcaption>
-</figure>
+{% figure Graffiti near to where we were staying %}
+![](/assets/images/2006/07/romangraffiti.jpg)
+{% endfigure %}
 
 Most striking was the shear amount of graffiti throughout the city. It seemed everything was up for grabs -- except for cars. Everything else, from walls, monuments, vans, bins, subway trains -- you name it, it was vandalised. There was a general 'dirty' feel to the subway too (or [Metro][1] as it is called), and made the London Underground feel much cleaner on my return.
 
-<figure>
-    ![](/assets/images/2006/07/italianfans.jpg)
-    <figcaption>
-        <p>Italian fans celebrate a win against Australia in the 2006 FIFA World Cup.</p>
-    </figcaption>
-</figure>
+{% figure Italian fans celebrate a win against Australia in the 2006 FIFA World Cup %}
+![](/assets/images/2006/07/italianfans.jpg)
+{% endfigure %}
 
 Whilst we were in Rome, the Italian football team beat Australia in their second round World Cup match, and Ukraine in their quarter final. Each time the team progressed onto the next stage, the streets would become full of supporters, chanting and singing their national anthem, flying their flags, and continually beeping their horns -- a real sight to behold. "I dread to think what they would be like [if they won the World Cup][2]" we said...
 
-<figure>
-    ![](/assets/images/2006/07/domofresco.jpg)
-    <figcaption>
-        <p>Freco depicting the Last Judgement, on the ceiling of the Dome of Santa Maria del Fiore, Florence.</p>
-    </figcaption>
-</figure>
+{% figure Freco depicting the Last Judgement, on the ceiling of the Dome of Santa Maria del Fiore, Florence %}
+![](/assets/images/2006/07/domofresco.jpg)
+{% endfigure %}
 
 The highlight of this trip for me however, was visiting [Santa Maria del Fiore][3] in Florence, and climbing up the inside and standing on the top of Brunellechi's Dome. It was one hell of a climb, but worth every cent of the €6 admission price. Having read up about this Renaissance landmark during my 'A' Levels, never in a million years did I think I would see it, let alone climb upon it. Inside the cathedral, the fresco on the underside depicting the last judgement, was an amazing sight also.
 
 I wish the same could have been said for my visit to the Vatican, and in particular the [Sistine Chapel][4]. Whilst it was one of those moments you have to rub your eyes several times (as you realise you are standing directly below Michelangelo's most celebrated work, [the chapel's ceiling][5] and his famous scene from the Book of Genesis -- The Creation of Adam), the fact that this chapel was full to the brim of tourists, flashing their cameras, chatting and generally showing no respect -- guards shouting every so often 'No Flash!' and 'Sssssh!' -- really took the magic out of what should have been an otherwise fantastic experience.
 
-<figure>
-    ![](/assets/images/2006/07/vaticanmuseum.jpg)
-    <figcaption>
-        <p>Staircase in the Vatican Museum.</p>
-    </figcaption>
-</figure>
+{% figure Staircase in the Vatican Museum %}
+![](/assets/images/2006/07/vaticanmuseum.jpg)
+{% endfigure %}
 
 Overall, I'm glad I made the short two-hour flight over to Rome. There are so many sights, attractions and experiences I haven't touched on (there were many early morning's and late nights). The city is just crammed full of ancient ruins, monuments and breathtaking cathedrals -- the Colosseum too -- again something you see and need to pinch yourself to believe you are right there inside it.
 

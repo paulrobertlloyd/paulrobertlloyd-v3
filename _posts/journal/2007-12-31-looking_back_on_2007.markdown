@@ -36,12 +36,9 @@ Travel was a big theme of 2007, and whilst most of it was US based, it did allow
 
 The year started with a January weekend spent in Las Vegas with some friends. Unfortunately this trip was blighted by a badly-timed cold, and I spent most of my time either sleeping or drinking cough medicine. Having said that, I'm not sure if being well would have much difference to my overall impression of the place!
 
-<figure>
-    ![](/assets/images/2007/12/austin.jpg)
-    <figcaption>
-        <p>The Texas Capitol, Austin.</p>
-    </figcaption>
-</figure>
+{% figure The Texas Capitol, Austin %}
+![](/assets/images/2007/12/austin.jpg)
+{% endfigure %}
 
 Things improved in March, when I finally attended the South by Southwest interactive festival in Austin, Texas. I absolutely loved this city, sort of a liberal island in heavily conservative waters -- although you still wouldn't want to upset the locals!
 
@@ -53,12 +50,9 @@ The travelling continued through the summer months. A few days in Montreal to wi
 
 In August I was able to take ten days away from work to explore New York and San Francisco with my friend Ellen who flew out to see me. We managed to cover huge swathes of Manhattan, even venturing over to Coney Island, which was an experience in itself. On returning to San Francisco, I finally was able to step upon Alcatraz Island, as well as Angel Island which I didn't even know existed. It's probably fair to say that I saw more of San Francisco in those six days than I did in the previous six months!
 
-<figure>
-    ![](/assets/images/2007/12/lomo.jpg)
-    <figcaption>
-        <p>Road sign on Highway 1 near Carmel-by-the-Sea.</p>
-    </figcaption>
-</figure>
+{% figure Road sign on Highway 1 near Carmel-by-the-Sea %}
+![](/assets/images/2007/12/lomo.jpg)
+{% endfigure %}
 
 There were many other trips this year too, including Los Angeles, Napa Valley and Carmel, all of which helped make this a great year for (North American based) travel.
 
@@ -82,13 +76,9 @@ Having seen that money and status can not bring you happiness (not that it neede
 * [Goodbye California](/2007/10/goodbye_california/)
 
 ## Top Ten Highlights of 2007
-
-<figure>
-    ![](/assets/images/2007/05/travis_fillmore.jpg)
-    <figcaption>
-        <p>Travis at The Fillmore, San Francisco.</p>
-    </figcaption>
-</figure>
+{% figure Travis at The Fillmore, San Francisco %}
+![](/assets/images/2007/05/travis_fillmore.jpg)
+{% endfigure %}
 
 1. [Watching Travis play live][8] to an audience no bigger than 300 people at The Fillmore in San Francisco
 2. Spending [an afternoon in MoMA with Ellen][9]

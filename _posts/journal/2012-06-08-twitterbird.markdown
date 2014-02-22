@@ -23,9 +23,9 @@ Only if you ignore the flowery introduction and read [Bowman's responses][6] to 
 
 Still, where the previous logo had character and charm (the quiff was a beautiful touch), this revision perhaps better reflects the company as it stands today: slicker, more corporate, and balding. No place is this better reflected than in the company's stringent new 'Trademark and Content Display Policy', for which [Gawker provides a helpful summary][8]:
 
-<figure>
-    ![Twitter bird usage guidelines](/assets/images/2012/06/twitterdonts.png)
-</figure>
+{% figure %}
+![Twitter bird usage guidelines](/assets/images/2012/06/twitterdonts.png)
+{% endfigure %}
 
 > Per the illustration, you absolutely cannot:
   

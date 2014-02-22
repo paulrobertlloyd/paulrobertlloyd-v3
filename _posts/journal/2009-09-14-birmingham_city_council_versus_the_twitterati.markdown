@@ -7,9 +7,9 @@ post_id: 174
 ---
 Last week Birmingham City Council launched its new £2.8m website. Delayed, over budget and woefully inadequate, it rightly faced a storm of criticism on Twitter and from the local press.
 
-<figure>
-    ![The new Birmingham City Council Website](/assets/images/2009/09/birminghamgovuk.jpg)
-</figure>
+{% figure %}
+![The new Birmingham City Council Website](/assets/images/2009/09/birminghamgovuk.jpg)
+{% endfigure %}
 
 Whether as a result of the [public service dating game][1] (the council choosing the outsourcing firm Capita rather than a specialist web design agency), or the single success criteria being a site better than the one it replaced (a low baseline), the whole affair only succeeded in demonstrating how not to handle a large scale web project.
 
@@ -28,12 +28,9 @@ Yet the relationship between a council and it's residents online needn't be so s
 
 Let me give an example. Earlier this year [I wrote about their logo][8], and asked for information about who was responsible for its design, yet this yielded no response. However, on discovering the [@WalsallCouncil][9] account, [I asked the same question][10], and not only did I get an answer, but members of their Print and Design Unit and Press Office [commented on my post][11], giving me more information than I ever could have hoped for.
 
-<figure>
-    ![](/assets/images/2009/09/walsalltweet.png)
-    <figcaption>
-        <p>Walsall Council replying to a question from me on Twitter.</p>
-    </figcaption>
-</figure>
+{% figure Walsall Council replying to a question from me on Twitter. %}
+![](/assets/images/2009/09/walsalltweet.png)
+{% endfigure %}
 
 Yet aside from answering questions about a logo, their presence on Twitter is providing a real service to the community. Be it suggesting activities for families over the summer break, allowing users to report problems such as fly tipping or pot holes -- or simply by [featuring images of the area][12] taken by local photographers -- this is very much a two-way communication channel.
 

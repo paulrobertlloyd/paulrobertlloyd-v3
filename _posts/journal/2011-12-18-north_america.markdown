@@ -9,12 +9,9 @@ At the end of last year I stated that [I'd only be taking one long-haul trip thi
 
 Luckily, I was later invited to my friends Dan & Liz's wedding taking place in San Francisco in November. This presented the opportunity to make another overseas trip, one that could take in Canada and the [An Event Apart][4] conference happening in Washington DC the week before:
 
-<figure>
-    <div class="object map"><iframe width="680" src="http://a.tiles.mapbox.com/v3/paulrobertlloyd.map-5tk2u4wo.html#5/41/-78"></iframe></div>
-    <figcaption>
-        <p>My itinerary mapped.</p>
-    </figcaption>
-</figure>
+{% figure My itinerary mapped. %}
+<div class="object map"><iframe width="680" src="http://a.tiles.mapbox.com/v3/paulrobertlloyd.map-5tk2u4wo.html#5/41/-78"></iframe></div>
+{% endfigure %}
 
 * **20 October:** Depart London Heathrow
 * **21-25 October:** [Washington, DC][5]

@@ -9,12 +9,9 @@ Having arranged my flights into and out of New Zealand before I had decided upon
 
 The same could be said of my experience of the North Island too. After just [a day and a half in Auckland][1], I caught the [TranzScenic][2] [Overlander][3] rail service to Wellington, quickly by-passing much of the North Island in order to reach it's southerly tip later that day.
 
-<figure>
-    ![](/assets/images/2010/01/overlander.jpg)
-    <figcaption>
-          <p>The Overlander during its lunchtime stop at National Park railway station.</p>
-    </figcaption>
-</figure>
+{% figure The Overlander during its lunchtime stop at National Park railway station. %}
+![](/assets/images/2010/01/overlander.jpg)
+{% endfigure %}
 
 Sadly this was my only opportunity to travel by rail on this trip. Although much of the landscape wasn't as impressive as I had hoped for, the train did cross several large ravines; the engineering required to do so almost as impressive as the views it allowed for. The 'Railway Pie' described with such romance in the on-board menu -- whilst *incredibly* tasty -- was, as I later found out, just a plain old 'Mince Pie' on the Overlander's sister service, The Interislander ferry. The power of marketing!
 
@@ -27,44 +24,32 @@ Compared to Auckland, my initial take on Wellington was that if felt more Asian 
 ## Picton
 Picton is a small yet picturesque town at the foot of Queen Charlotte Sound, and I imagine its population doubles on the arrival of each ferry. Those who choose to holiday in this area typically use it as a base to explore the Marlborough Sounds. I was only here for the evening, so unable to see as much of these sea-drowned valleys as I would have liked. I did get a small taste of the area by walking along the short 'Bob's Bay Track' out to an isolated cove, before grabbing a bite to eat on a converted war ship, the [A.S. Echo][5].
 
-<figure>
-    ![](/assets/images/2010/01/queencharlottesound.jpg)
-    <figcaption>
-        <p>Queen Charlotte Sound.</p>
-    </figcaption>
-</figure>
+{% figure Queen Charlotte Sound. %}
+![](/assets/images/2010/01/queencharlottesound.jpg)
+{% endfigure %}
 
 The next day, after grabbing some brunch in one of the many cafes that line the high street (taking the opportunity to sample another [Flat White][6] to which I had now become accustomed), I caught an Intercity coach heading west to Nelson where I would be spending Christmas.
 
 ## Nelson
 On first glance, Nelson didn't seem to have much to offer, however further inspection revealed this not to be the case. Its most notable sight is that of [Christ Church Cathedral][7] with its tall, yet rather fragile looking bell tower. The building was meant to be a grand and imposing affair, but after years remaining half complete and facing budget constraints, the design was heavily modified so that the building could finally open fully in 1965. The modern bell tower and the beautiful stained glass windows are possibly the only redeeming features, yet I defy you to find another cathedral quite like it. I certainly found the combination of old and new architectural styles intriguing.
 
-<figure>
-    ![](/assets/images/2010/01/christchurchcathedral.jpg)
-    <figcaption>
-        <p>Christ Church Cathedral, Nelson.</p>
-    </figcaption>
-</figure>
+{% figure Christ Church Cathedral, Nelson. %}
+![](/assets/images/2010/01/christchurchcathedral.jpg)
+{% endfigure %}
 
 Nelson also claims to be geographical centre of New Zealand. With an appropriate marker at the top of a small hill next to the Botanic Gardens, it commands beautiful views across the city, Tasman Bay and the surrounding area, as well as the 13km long thin stretch of rocky substrate -- [the Boulder Bank][8] -- which settled just off the coastline.
 
 There is a whole other side to Nelson that could easily be missed should you not travel south along State Highway 6 towards Tahunanui Beach. This road runs along Nelson's Waterfront and is home to a number of small cafes and restaurants. The best known of these is [The Boat Shed][9], a small restaurant clinging to the roadside and perched on several stilts. Luckily I grabbed a one of the few remaining seats at the crowded bar, and after sampling the menu, can't recommend this establishment highly enough.
 
-<figure>
-    ![](/assets/images/2010/01/tahunanui.jpg)
-    <figcaption>
-        <p>Sunset over Tahunanui Beach, with the Abel Tasman National Park in the distance.</p>
-    </figcaption>
-</figure>
+{% figure Sunset over Tahunanui Beach, with the Abel Tasman National Park in the distance. %}
+![](/assets/images/2010/01/tahunanui.jpg)
+{% endfigure %}
 
 Perhaps the highlight of my time in Nelson (and possibly my entire time in New Zealand) was watching the sun set over Abel Tasman National Park from my distant view point on Tahunanui Beach. The photo above -- as is usually the case -- fails to capture the true spectacle, yet thankfully the memories survive. This beautiful vista was perhaps only matched by the day I actually spent in the park. Kayaking around a small part of the coastline meant I could see much of its wildlife close up, and was a real treat.
 
-<figure>
-    ![](/assets/images/2010/01/kayaking.jpg)
-    <figcaption>
-        <p>Me looking rather fetching in my kayaking gear.</p>
-    </figcaption>
-</figure>
+{% figure Me looking rather fetching in my kayaking gear. %}
+![](/assets/images/2010/01/kayaking.jpg)
+{% endfigure %}
 
 The hostel I stayed at in Nelson is also worthy of special mention. Called [The Custom House][10], this should give you a clue to its original use and perhaps its location; about 20 minutes walk from the CBD and situated right next to a container port. Some may see this as a disadvantage, but it is much closer to Tahunanui Beach than any of the hostels based in the city.
 

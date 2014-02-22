@@ -14,12 +14,9 @@ The same too can be said with many of their sitcoms. Whilst Americans are often 
 Anyway enough babble, cue Graham Norton...
 
 ## 1. The West Wing
-<figure>
-    ![](/assets/images/2005/05/the_west_wing.jpg)
-    <figcaption>
-        <p>Cast of the West Wing.</p>
-    </figcaption>
-</figure>
+{% figure Cast of the West Wing %}
+![](/assets/images/2005/05/the_west_wing.jpg)
+{% endfigure %}
 
 Amazing cast, gripping story lines with great incidental comedy moments from this drama depicting life inside the Oval Office. The same cast has pretty much remained throughout it's six seasons (although now without Rob Lowe), and so the relationships between the characters are even more believable; Sadly this has become a bit of a hidden treasure in the schedules at Channel 4, and whilst America has already seen season 6, we're still waiting for season 5 -- well certainly on free-to-view television.
 

@@ -59,12 +59,9 @@ It upsets me that the British media always falls into the same trap. This is our
 ## The Identity
 As I mentioned in my introduction, I was actually pleased to see this logo when I first clapped eyes on it on Monday. My initial happiness, and also pride, was in seeing something that immediately changes the rules of what constitutes an identity for an Olympic Games, and perhaps wider expectations of what a logo should look like too. We can safely assume that the logos for future games and candidate cities will be a lot less conservative.
 
-<figure>
-    ![](/assets/images/2007/06/pastolympiclogos.png)
-    <figcaption>
-        <p>Previous Olympic Games have all used similar designs for their logos.</p>
-    </figcaption>
-</figure>
+{% figure Previous Olympic Games have all used similar designs for their logos %}
+![](/assets/images/2007/06/pastolympiclogos.png)
+{% endfigure %}
 
 I can't tell you how relived I am *to not see* a stylised flame, Big Ben, or an athlete, in red, white and blue. If we ended up with an identity like that, maybe the press would have been pleased, but our mark on Olympic history would quickly have been forgotten, if we were to make a mark at all.
 
@@ -82,12 +79,9 @@ But there are issues, and some pretty big ones at that.
 
 Whilst I like the idea of using the date 2012 (the first twenty-something event in peoples minds, so already it sticks out), it took me a number of takes to realise this. I've also seen commentators ask why there is a hyphen between 20-12, but on closer examination I believe that to be part of the 2 -- but I'm only guessing.
 
-<figure>
-    ![](/assets/images/2007/06/2012logoapplications.jpg)
-    <figcaption>
-        <p>Possible logo applications.</p>
-    </figcaption>
-</figure>
+{% figure Possible logo applications %}
+![](/assets/images/2007/06/2012logoapplications.jpg)
+{% endfigure %}
 
 Not least of it's problems are that it's been designed to appeal to children, teenagers; or 'da yoff', but this design seems incredibly obvious in that respect. It's a bit like your grandparents wearing trainers and a baseball cap, or the Presidential candidates having MySpace pages -- the target audience sees straight though it, the net result being your brand is seen as 'sad' rather than 'cool'. I think there is a real chance this identity will be rejected by those it's being aimed at.
 
