@@ -1,5 +1,5 @@
 ---
-layout: archives
+layout: index-archives
 title: Archives
 permalink: /archives/
 ---

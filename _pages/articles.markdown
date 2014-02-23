@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: index-articles
 title: Articles
 permalink: /articles/
 ---

@@ -5,14 +5,8 @@
 <body>
 {% indent_include banner.html 4 %}
 <main class="main" role="main">
-    <article class="page">
-        <header class="page__header">
-            <h1 class="page__title">{{ page.title | smart }}</h1>
-        </header>
-
-        <div class="page__main">
-            {{ content | abbr | ampersand }}
-        </div>
+    <article class="post">
+        {{ content }}
     </article>
 </main><!--/@main-->
 {% indent_include navigation.html 4 %}

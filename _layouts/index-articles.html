@@ -1,0 +1,17 @@
+---
+layout: index
+---
+<header class="index__header">
+    <h1 class="index__title">{{ page.title | smart }}</h1>
+</header>
+
+<div class="index__main">
+{% assign posts_list = site.posts %}
+{% for summary in posts_list %}
+    {% if summary.layout == "post-article" %}
+    {% if summary.chapter-title == null %}
+        {% include summary.html %}
+    {% endif %}
+    {% endif %}
+{% endfor %}
+</div>
