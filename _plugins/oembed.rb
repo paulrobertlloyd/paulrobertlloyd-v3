@@ -42,16 +42,16 @@ module Jekyll
       # https://gist.github.com/jmoz/5358695
       begin
         result = ::OEmbed::Providers.get(url.strip!, :format => :xml)
-        print "Embed found on ", url, "\n"
+        print "\nEmbed found on ", url
       rescue ::OEmbed::NotFound
-        print "No embed found on ", url, "\n"
+        print "\nNo embed found on ", url
         return
       end
 
       # Odd: slideshare uses provider-name instead of provider_name
       provider = result.fields['provider_name'] || result.fields['provider-name'] || 'unknown'
 
-      "<div class=\"embed #{result.type} #{provider}\">#{result.html}</div>"
+      "<div class=\"embed #{result.type} #{provider.downcase}\">#{result.html}</div>"
     end
   end
 end
