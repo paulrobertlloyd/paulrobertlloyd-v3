@@ -44,15 +44,23 @@ prose:
           element: "textarea"
           label: "Excerpt"
     _posts/articles:
-      - layout:
+      - name: "layout"
+        field:
           element: "hidden"
           value: "post-article"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
     _posts/entries:
-      - layout:
+      - name: "layout"
+        field:
           element: "hidden"
           value: "post-entry"
     _posts/links:
-      - layout:
+      - name: "layout"
+        field:
           element: "hidden"
           value: "post-link"
       - name: "link"
@@ -61,11 +69,13 @@ prose:
           label: "Link"
           placeholder: "http://"
     _posts/photos:
-      - layout:
+      - name: "layout"
+        field:
           element: "hidden"
           value: "post-photo"
     _posts/projects:
-      - layout:
+      - name: "layout"
+        field:
           element: "hidden"
           value: "post-project"
 
