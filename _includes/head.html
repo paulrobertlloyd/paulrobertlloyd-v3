@@ -19,7 +19,7 @@
 {% if page.layout != "index" %}
     <meta name="twitter:site" content="@paulrobertlloyd" />
     <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.excerpt }}" />
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
     <meta name="twitter:creator" content="@paulrobertlloyd" />
     {% if page.image %}<meta name="twitter:image" content="{{ page.image }}" />{% endif %}
     <meta name="twitter:card" content="summary" />
