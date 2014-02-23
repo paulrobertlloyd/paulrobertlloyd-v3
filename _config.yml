@@ -38,18 +38,18 @@ prose:
     - /_includes
     - /_plugins
   media: 'assets/images/'
-metadata:
-  _posts/journal:
-    - name: "excerpt"
-      field:
-        label: "Excerpt"
-        element: textarea
-  _posts/links:
-    - name: "link"
-      field:
-        label: "Link"
-        placeholder: "http://"
-        element: textarea
+  metadata:
+    _posts/journal:
+      - name: "excerpt"
+        field:
+          label: "Excerpt"
+          element: textarea
+    _posts/links:
+      - name: "link"
+        field:
+          label: "Link"
+          placeholder: "http://"
+          element: textarea
 
 # Publishing
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
