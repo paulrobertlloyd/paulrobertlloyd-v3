@@ -11,9 +11,9 @@ module Jekyll
         super
         @caption = nil
         if markup =~ CaptionUrl
-          @caption = "\n\t\t<figcaption>#{$1}<a href='#{$2}'>#{$3}</a></figcaption>\n\t"
+          @caption = "\n\s\s\s\s<figcaption>#{$1}<a href='#{$2}'>#{$3}</a></figcaption>\n"
         elsif markup =~ Caption
-          @caption = "\n\t\t<figcaption>#{$1}</figcaption>\n\t"
+          @caption = "\n\s\s\s\s<figcaption>#{$1}</figcaption>\n"
         end
         @markup = markup
       end
