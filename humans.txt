@@ -1,0 +1,13 @@
+---
+---
+/* TEAM */
+  Design and development: Paul Robert Lloyd
+  Twitter: @paulrobertlloyd
+  From: Brighton, England
+
+/* SITE */
+  Last update: {{ site.time }}
+  Language: English
+  Doctype: HTML5
+  CMS: Jekyll
+  IDE: TextMate
