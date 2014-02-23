@@ -40,11 +40,10 @@ prose:
   media: 'assets/images/'
 metadata:
   _posts:
-    - name: "title"
+    - name: "excerpt"
       field:
-        label: "Title"
-        element: text
-        placeholder: "Title of journal entry"
+        label: "Excerpt"
+        element: textarea
 
 # Publishing
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
