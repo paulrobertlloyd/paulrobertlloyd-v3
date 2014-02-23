@@ -32,12 +32,6 @@ prose:
   rooturl: _posts
   siteurl: http://paulrobertlloyd.com/
   media: 'assets/images/'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /_plugins
   metadata:
     _posts:
       - name: "title"
@@ -49,12 +43,31 @@ prose:
         field:
           element: "textarea"
           label: "Excerpt"
+    _posts/articles:
+      - layout:
+          element: "hidden"
+          value: "post-article"
+    _posts/entries:
+      - layout:
+          element: "hidden"
+          value: "post-entry"
     _posts/links:
+      - layout:
+          element: "hidden"
+          value: "post-link"
       - name: "link"
         field:
           element: "text"
           label: "Link"
           placeholder: "http://"
+    _posts/photos:
+      - layout:
+          element: "hidden"
+          value: "post-photo"
+    _posts/projects:
+      - layout:
+          element: "hidden"
+          value: "post-project"
 
 # Publishing
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
