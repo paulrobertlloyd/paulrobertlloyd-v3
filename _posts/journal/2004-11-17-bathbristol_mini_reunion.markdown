@@ -6,24 +6,24 @@ excerpt: Meeting up with friends made in Syndney.
 ---
 After arriving in Bristol on the Friday night at a Halls of Residence, the first upset of the weekend:
 
+{% figure <cite>Ange</cite> %}
 > All the nurses are in the other Halls, it's just me and Jen in this block…
-
--- Ange
+{% endfigure %}
 
 Where as I was a little disappointed, it could be said that Kris saw this as a challenge. After a days 'ard grafting, and a 2 hour drive down the M5, sleep was pretty much the only thing on my mind, and once I had managed to swallow enough of Ange's unwanted foot scrapings, that was Friday.
 
 ## Saturday: Bath
 The plan for the Saturday was to get a taxi/train to Bath, watch the Rugby and have a few drinks. The taxi didn't come so I suggested I drive instead, with a stop of at a Burger King for breakfast. For me, this could easily have been the highlight of the trip! During this visit, I found an item of wall decoration quite humorous, and so did everyone else but for different reasons -- I was standing in the middle of a Burger King shouting:
 
+{% figure <cite>Me</cite> %}
 > There's gissam on this poster!
-
--- Me
+{% endfigure %}
 
 Upon arriving in Bath, we discovered that it has only one car park, and seemingly everyone in Avon and Somerset uses it. By the time we parked 5 miles out of town, and found the Rugby, it was nearly half way through the match. A subtle but effective plan perhaps from Mike (whose idea it was) who pointed us into the direction of a bar as an alternative (with a Kiwi on hand for the Duck/bread jokes). Nick and Charlie had already been lured there, and Dangerous Dave (Dange) joined us a little later, after a secret mission somewhere in the region:
 
+{% figure <cite>Kris</cite> %}
 > Hi, it's Dangerous... I'm being shot at!!!
-
--- Kris
+{% endfigure %}
 
 A pub crawl followed, as well as a meal in a pub before heading back to Bristol.
 
