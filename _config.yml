@@ -9,7 +9,7 @@ author:
 encoding: UTF-8
 
 # Permalinks
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 relative_permalinks: false
 
 # Pagination
