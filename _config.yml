@@ -29,27 +29,32 @@ pygments: true
 
 # Prose.io
 prose:
-  siteurl: http://paulrobertlloyd.com/
   rooturl: _posts
+  siteurl: http://paulrobertlloyd.com/
+  media: 'assets/images/'
   ignore:
     - index.md
     - _config.yml
     - /_layouts
     - /_includes
     - /_plugins
-  media: 'assets/images/'
   metadata:
-    _posts/journal:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
       - name: "excerpt"
         field:
+          element: "textarea"
           label: "Excerpt"
-          element: textarea
     _posts/links:
       - name: "link"
         field:
+          element: "text"
           label: "Link"
           placeholder: "http://"
-          element: textarea
 
 # Publishing
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
