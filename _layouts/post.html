@@ -4,14 +4,13 @@
 
 <body>
 {% indent_include banner.html 4 %}
-<main class="main" role="main">
-    <article class="post">
-        {{ content }}
-    </article>
-</main><!--/@main-->
+    <main class="main" role="main">
+        <article class="post">
+            {{ content | indent: 12 }}
+        </article>
+    </main><!--/@main-->
 {% indent_include navigation.html 4 %}
 {% indent_include contentinfo.html 4 %}
 {% indent_include foot.html 4 %}
 </body>
-
 </html>

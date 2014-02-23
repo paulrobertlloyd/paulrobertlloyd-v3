@@ -20,5 +20,5 @@ layout: post
     {% if page.embed == true %}
         {% oembed {{ page.link }} %}
     {% endif %}
-    {{ content | abbr | ampersand }}
+    {{ content | abbr | ampersand | indent: 4 }}
 </div>

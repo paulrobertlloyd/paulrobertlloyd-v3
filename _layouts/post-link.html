@@ -17,10 +17,7 @@ layout: post
 </footer>
 
 <div class="post__main">
-    {% if page.embed == true %}
-        {% oembed {{ page.link }} %}
-    {% endif %}
-    {{ content | abbr | ampersand }}
-    
+    {% if page.embed == true %}{% oembed {{ page.link }} %}{% endif %}
+    {{ content | abbr | ampersand | indent: 4 }}
     <p><a href="{{ page.link }}">Visit this link</a></p>
 </div>

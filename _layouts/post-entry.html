@@ -17,9 +17,8 @@ layout: post
 </footer>
 
 <div class="post__main">
-    {{ content | abbr | ampersand }}
+    {{ content | abbr | ampersand | indent: 4 }}
 </div>
 
-{% indent_include section-comments.html 8 %}
-
-{% indent_include section-related.html 8 %}
+{% if page.comment_count >= 1 %} %}{% include section-comments.html %}{% endif %}
+{% include section-related.html %}
