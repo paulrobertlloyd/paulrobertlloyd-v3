@@ -35,14 +35,14 @@ Chris asked if we needed media query like behaviour in HTML. For example, a list
 
 Yet Chris's suggestion isn't a million miles away from a [proposal to handle images in a responsive way][6] with a `<picture>` element. Much like `<video>` and `<audio>` in HTML5, this new element would allow requests to be sent for images matching inline media queries, falling back to an `<img>` element for browsers that didn't recognise the new syntax:
 
-{% highlight html %}
+~~~ html
 <picture>
   <source src="high-res.jpg" media="min-width: 50em"/>
   <source src="low-res.jpg"/>
   <!-- Fallback content: -->
     <img src="low-res.jpg"/>
 </picture>
-{% endhighlight %}
+~~~
 
 Whilst this proposal provides much needed scope for improving the scalability around image content, I'm not sure if it's a little over engineered. Would the reintroduction of the `lowsrc` attribute be simpler, and therefore see swifter adoption from browser vendors? Furthermore, are there not other solutions we can find that don't rely on new markup?
 

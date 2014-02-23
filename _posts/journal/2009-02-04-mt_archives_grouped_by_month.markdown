@@ -9,7 +9,7 @@ I have been using Movable Type for a number of years, yet the template code requ
 
 However during the recent redesign of this site, another desparate search finally returned the answer. I've misplaced the link to the original solution, so as much for my benefit as maybe yours, here is the humble code:
 
-{% highlight xml %}
+~~~ xml
 <h1>Archive</h1>
 <mt:ArchiveList archive_type="Monthly">
   <mt:Entries>
@@ -23,7 +23,7 @@ However during the recent redesign of this site, another desparate search finall
     </mt:EntriesFooter>
   </mt:Entries>
 </mt:ArchiveList>
-{% endhighlight %}
+~~~
 
 This is the first time I've posted a chuck of code to my blog, yet in terms of Movable Type templates, it's probably the last. Issues like this, as well as the fairly stagnent development of the platform and a dwindling community is no match against competing tools like [WordPress][2] and [ExpressionEngine][3] -- I'm pretty sure I will transition to one of these services before the end of the year.
 

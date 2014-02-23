@@ -161,7 +161,7 @@ Taking inspiration from BEM, I used single word root classes, suffixed with a mo
 
 This naming system produced markup patterns like this:
 
-{% highlight html %}
+~~~ html
 <article class="summary summary-article h-entry day-15">
   <header class="summary_header">
     <h1 class="summary_title p-name"><a class="u-url" rel="bookmark" href="#">Real Animation Using JavaScript, CSS3, and HTML5 Video</a></h1>
@@ -177,7 +177,7 @@ This naming system produced markup patterns like this:
     <p class="summary_author p-author h-card"><a class="u-url" href="#"><img class="u-photo" src="danmall160.jpg" alt=""/><span class="p-name">Dan Mall</span></a></p>
   </footer>
 </article>
-{% endhighlight %}
+~~~
 
 If you're interested in learning more about the front-end code behind *24 ways*, you can view [the repo on GitHub][23].
 

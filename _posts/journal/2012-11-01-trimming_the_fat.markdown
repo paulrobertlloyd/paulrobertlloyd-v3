@@ -64,37 +64,34 @@ By removing unused style rules and refactoring others, my raw stylesheet shrunk 
 ## SVG
 In February [I began using an SVG image sprite][2], falling back to a PNG image for browsers that don't support the vector format. To prevent both images loading, a subsequent update saw me move the following detection script into the `<head>`, before any CSS can be downloaded:
 
-{% highlight javascript %}
+~~~ html
 <script>
   (function flagSVG() {
     var ns = {'svg': 'http://www.w3.org/2000/svg'};
-    if(document.implementation.hasFeature( »
-    "http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {
+    if(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {
       document.getElementsByTagName('html')[0].className += ' svg';
     }
   })();
 </script>
-{% endhighlight %}
-
-<small>*(Line wraps marked &#187;)*</small>
+~~~
 
 If support for SVG is detected, an `svg` class is added to the `<html>` element. This allows me to create rules like this:
 
-{% highlight css %}
+~~~ css
 .icon {
   background: url(/path/to/sprite.png) no-repeat 0 0;
 }
 .svg .icon {
   background-image: url(/path/to/sprite.svg);
 }
-{% endhighlight %}
+~~~
 
 ### Going further
 Besides stripping out the metacruft added by software like Illustrator, further optimisation can be found by using the `<defs>` and `<use>` elements. These allow you to define common objects, reducing the number of shape descriptions appearing in your document.
 
 To demonstrate how this works, I'll use three icons from my sprite image: a grey RSS feed icon (`#feed`), a Flickr icon (`#flickr`) and an orange and white feed icon (`#feeds`). In my original file, each was defined separately:
 
-{% highlight xml %}
+~~~ xml
 <svg xmlns="http://www.w3.org/2000/svg">
   <g id="feed">
     <path fill="#999" d="M 4.73 13.13 C 4.73 14.15 3.90 14.98 2.87 14.98 C 1.84 14.98 1 14.15 1 13.13 C 1 12.10 1.84 11.27 2.87 11.27 C 3.90 11.27 4.73 12.10 4.73 13.13 Z"/>
@@ -113,11 +110,11 @@ To demonstrate how this works, I'll use three icons from my sprite image: a grey
     <path fill="#fff" d="M 5 87.68 C 11.24 87.68 16.31 92.76 16.31 99 L 19 99 C 19 91.28 12.72 85 5 85 L 5 87.68 Z"/>
   </g>
 </svg>
-{% endhighlight %}
+~~~
 
 Note how the square shape, the feed icon and the circles used within the Flickr icon are described multiple times. The `<defs>` element means we can define these just once and reference them later with `<use>` and the `xlink:href` attribute, like so:
 
-{% highlight xml %}
+~~~ xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <rect id="square" width="24" height="24"/>
@@ -137,7 +134,7 @@ Note how the square shape, the feed icon and the circles used within the Flickr 
     <use fill="#fff" xlink:href="#rss-icon" x="5" y="85"/>
   </g>
 </svg>
-{% endhighlight %}
+~~~
 
 It's easy to assume that gzip will take care of reducing file sizes, but manual optimisation beforehand can result in even larger reductions. For example, I was able to reduce my original SVG sprite (9.48kB, 3.36kB gzipped) to 7.34kB, which compressed down to just 2.84kB -- comparable in size to the PNG sprite. 500 bytes seems like a small reduction, but using this technique on larger SVG images will have an even greater impact.
 
