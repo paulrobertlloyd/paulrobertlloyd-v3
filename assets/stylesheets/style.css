@@ -1,3 +1,5 @@
+@import url('syntax.css');
+
 :root {
     var-gray: #333;
     var-serif: Georgia, serif;
@@ -34,5 +36,3 @@ img.pull-right {
     float: right;
     margin: 0 0 1em 1em;
 }
-
-@import url('syntax.css');
