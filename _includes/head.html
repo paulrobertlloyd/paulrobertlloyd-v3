@@ -8,7 +8,7 @@
     </script>
 
     <link rel="stylesheet" href="/assets/stylesheets/style.css">
-    <link rel="stylesheet" href="/assets/stylesheets/syntax.css">
+    {% if page.layout != "index" %}<link rel="canonical" href="{{ page.url }}" />{% endif %}
     <link rel="alternate"  href="/atom.xml" type="application/atom+xml" title="RSS Feed"/>
 
     <meta charset="utf-8"/>
@@ -16,17 +16,21 @@
     <meta name="robots" content="index, follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta property="twitter:account_id" content="1597954074"/>
-    <meta name="description" content=""/>
+{% if page.layout != "index" %}
+    <meta name="twitter:site" content="@paulrobertlloyd" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.excerpt }}" />
+    <meta name="twitter:creator" content="@paulrobertlloyd" />
+    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}" />{% endif %}
+    <meta name="twitter:card" content="summary" />
+{% endif %}
+
+{% if page.title == "Home" %}
     <meta name="geo.placename" content="Brighton"/>
     <meta name="geo.region" content="gb-bnh"/>
     <meta name="geo.country" content="gb"/>
     <meta name="geo.position" content="50.8420;-0.1539"/>
-    <title>
-    {% if page.title == "Home" %}
-        {{ site.title }} – {{ site.tagline }}
-    {% else %}
-        {{ page.title }} – {{ site.title }}
-    {% endif %}
-    </title>
+{% endif %}
+
+    <title>{% if page.title != "Home" %}{{ page.title }} – {% endif %}{{ site.title }}</title>
 </head>
