@@ -18,13 +18,13 @@ paginate_path: /page/:num/
 
 # Archives
 archive:
-  layout: archive
+  layout: index-archive
   title: :date
 
 # Text formating
+# Use kramdown with pygments (see: https://github.com/navarroj/krampygs)
 markdown: kramdown
-
-# Syntax highlighting
+markdown_ext: krampygs
 pygments: true
 
 # Publishing
