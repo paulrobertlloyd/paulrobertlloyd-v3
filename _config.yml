@@ -40,9 +40,9 @@ prose:
   media: 'assets/images/'
 metadata:
   _posts:
-    - name: title
+    - name: "title"
       field:
-        label: Title
+        label: "Title"
         element: text
         placeholder: "Title of journal entry"
 
