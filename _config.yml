@@ -33,31 +33,39 @@ prose:
   siteurl: http://paulrobertlloyd.com/
   media: 'assets/images/'
   metadata:
-    _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "excerpt"
-        field:
-          element: "textarea"
-          label: "Excerpt"
     _posts/articles:
       - name: "layout"
         field:
           element: "hidden"
           value: "post-article"
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Excerpt"
       - name: "permalink"
         field:
           element: "text"
           label: "Permalink"
           value: ""
+      - name: "publication"
+        field:
+          element: "text"
+          label: "Publication name"
+          value: ""
+      - name: "link"
+        field:
+          element: "text"
+          label: "Link"
+          placeholder: "http://"
     _posts/entries:
       - name: "layout"
         field:
           element: "hidden"
           value: "post-entry"
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Excerpt"
     _posts/links:
       - name: "layout"
         field:
@@ -68,6 +76,11 @@ prose:
           element: "text"
           label: "Link"
           placeholder: "http://"
+      - name: "embed"
+        field:
+          element: "checkbox"
+          label: "Show embed?"
+          value: true
     _posts/photos:
       - name: "layout"
         field:
@@ -78,6 +91,10 @@ prose:
         field:
           element: "hidden"
           value: "post-project"
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Excerpt"
 
 # Publishing
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
