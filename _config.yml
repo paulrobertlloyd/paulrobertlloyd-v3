@@ -39,10 +39,16 @@ prose:
     - /_plugins
   media: 'assets/images/'
 metadata:
-  _posts:
+  _posts/journal:
     - name: "excerpt"
       field:
         label: "Excerpt"
+        element: textarea
+  _posts/links:
+    - name: "link"
+      field:
+        label: "Link"
+        placeholder: "http://"
         element: textarea
 
 # Publishing
