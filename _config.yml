@@ -86,6 +86,16 @@ prose:
         field:
           element: "hidden"
           value: "post-photo"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Link"
+          placeholder: "http://"
+      - name: "embed"
+        field:
+          element: "checkbox"
+          label: "Show as embed?"
+          value: true
     _posts/projects:
       - name: "layout"
         field:
