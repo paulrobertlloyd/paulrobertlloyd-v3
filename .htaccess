@@ -12,6 +12,15 @@
   RewriteCond %{HTTPS} !=on
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+# Rewrite RSS URLs (including legacy)
+  RewriteRule ^_xml/entries\.xml$ /feeds/combined/ [PT,NC,L]
+  RewriteRule ^_xml/entries\.php$ /feeds/combined/ [PT,NC,L]
+  RewriteRule ^feed/$ /feeds/combined.xml [PT,NC,L]
+  RewriteRule ^feeds/combined/$ /feeds/combined.xml [PT,NC,L]
+  RewriteRule ^feeds/journal/$ /feeds/journal.xml [PT,NC,L]
+  RewriteRule ^feeds/links/$ /feeds/links.xml [PT,NC,L]
+  RewriteRule ^feeds/portfolio/$ /feeds/portfolio.xml [PT,NC,L]
 </IfModule>
 
 
