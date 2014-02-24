@@ -79,7 +79,7 @@ prose:
       - name: "embed"
         field:
           element: "checkbox"
-          label: "Show embed?"
+          label: "Show as embed?"
           value: true
     _posts/photos:
       - name: "layout"
