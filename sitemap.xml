@@ -2,8 +2,7 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <!-- Site/Blog Indexes -->
+    <!-- Homepage -->
     <url>
         <loc>{{ site.url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
@@ -11,22 +10,33 @@
         <priority>1.0</priority>
     </url>
 
-    <!-- Pages -->{% for node in site.pages %}{% comment %}
-    {% endcomment %}{% capture path %}{{ node.path | split: "/" | first }}{% endcapture %}{% comment %}
-    {% endcomment %}{% capture url %}{{ node.url | remove_first: "/" | remove: "index.html" | split: "/" | first }}{% endcapture %}{% comment %}
-    {% endcomment %}{% if path == "_pages" and node.noindex != true and url != "" and url != "blog" %}
+    <!-- Pages -->
+{% for page in site.pages %}
+    {% capture path %}{{ page.path | split: "/" | first }}{% endcapture %}
+    {% capture url %}{{ page.url | remove_first: "/" | remove: "index.html" | split: "/" | first }}{% endcapture %}
+    {% if path != "_pages" and page.layout == "index" and page.noindex != true and url != "" %}
     <url>
-        <loc>{{ site.url }}{{ node.url }}</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>{% endif %}{% endfor %}
-
-    <!-- Posts -->{% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
-        <lastmod>{% if post.updated == null %}{{ post.date | date: "%Y-%m-%d" }}{% else %}{{ post.updated | date: "%Y-%m-%d" }}{% endif %}</lastmod>
+        <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+        <lastmod>{% if page.updated == null %}{{ page.date | date: "%Y-%m-%d" }}{% else %}{{ page.updated | date: "%Y-%m-%d" }}{% endif %}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-    </url>{% endfor %}
+    </url>
+    {% elsif path == "_pages" and page.layout != "index" and page.noindex != true and url != "" %}
+    <url>
+        <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+        <lastmod>{% if page.updated == null %}{{ page.date | date: "%Y-%m-%d" }}{% else %}{{ page.updated | date: "%Y-%m-%d" }}{% endif %}</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>{% endif %}
+{% endfor %}
+
+    <!-- Posts -->
+{% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url | remove: "index.html" }}</loc>
+        <lastmod>{% if post.updated == null %}{{ post.date | date: "%Y-%m-%d" }}{% else %}{{ post.updated | date: "%Y-%m-%d" }}{% endif %}</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+{% endfor %}
 </urlset>
