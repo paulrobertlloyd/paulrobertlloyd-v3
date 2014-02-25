@@ -21,3 +21,5 @@ layout: post
     {{ content | abbr | ampersand | indent: 4 }}
     <p><a href="{{ page.link }}">Visit this link</a></p>
 </div>
+
+{% if page.comment_count >= 1 %}{% include section-comments.html %}{% endif %}
