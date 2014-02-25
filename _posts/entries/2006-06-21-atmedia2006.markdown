@@ -39,16 +39,6 @@ Day one ended with a presentation by [Jeffery Veen][6]. Notably this presentatio
 
 His talk was engaging, and the one I found myself taking the most notes from. One slide depicting the crop of current web2.0 Apps even included a Ning logo... though sadly the old one and not my more recent update -- shucks!
 
-[1]: http://www.vivabit.com/atmedia2006/schedule/
-[2]: http://meyerweb.com/eric/thoughts/2006/06/17/media-impressions/
-[3]: http://adactio.com/journal/1144/
-[4]: http://www.mezzoblue.com/
-[5]: http://www.csszengarden.com/
-[6]: http://www.veen.com/jeff/archives/000891.html
-[7]: http://www.veen.com/jeff/archives/000793.html
-[8]: http://www.we05.com/podcast/
-
-
 ## Day Two
 
 ### Dan Cedarholm
@@ -85,6 +75,14 @@ Overall, I was disappointed with @media this year. A lot of this may be down to 
 
 What I have come away with, much like this year, is a renewed energy, and wanting to push the medium forward and wanting to embrace new technologies and methodologies (in particular some DOM magic and Microformats).
 
+[1]: http://www.vivabit.com/atmedia2006/schedule/
+[2]: http://meyerweb.com/eric/thoughts/2006/06/17/media-impressions/
+[3]: http://adactio.com/journal/1144/
+[4]: http://www.mezzoblue.com/
+[5]: http://www.csszengarden.com/
+[6]: http://www.veen.com/jeff/archives/000891.html
+[7]: http://www.veen.com/jeff/archives/000793.html
+[8]: http://www.we05.com/podcast/
 [9]: http://www.simplebits.com/notebook/2006/06/18/londone.html
 [10]: http://www.simplebits.com/publications/bulletproof/
 [11]: http://www.hicksdesign.co.uk/
@@ -108,7 +106,6 @@ What I have come away with, much like this year, is a renewed energy, and wantin
 [29]: http://www.cic.hull.ac.uk/people/dwiggle/index.php
 
 *[UK]: United Kingdom
-
 *[CSS]: Cascading Style Sheets
 *[CVS]: Concurrent Versions System
 *[DOM]: Document Object Model

@@ -12,7 +12,6 @@ This period of history appears to be enjoying a renaissance in both film and on 
 
 As if to highlight this overlap, the first scene of the King's Speech depicts a BBC Radio Announcer carefully readying himself prior to introducing the closing ceremony of the Empire Exhibition in 1925. This announcer was [Adrian Scarborough][5], who also played Mr. Pritchard in Upstairs, Downstairs.
 
-
 The closing speech is given by Prince Albert, Duke of York, second son of George V but affectionately known within the Royal Family as 'Bertie' (and played by Colin Firth). Unable to get his words out, when he does, his stutters are amplified around the newly built Empire Stadium, the crowd visibly unsettled, the speaker awkward and embarrassed.
 
 The Prince tries several unsuccessful treatments to cure his impediment until his wife, the Duchess of York (Helena Bonham Carter) persuades him to see Lionel Logue (Geoffrey Rush), an unconventional Australian speech therapist. Logue discovers the psychological roots behind Bertie's stammer, and with the aid of breathing techniques, tongue twisters and much swearing, helps him overcome his handicap.

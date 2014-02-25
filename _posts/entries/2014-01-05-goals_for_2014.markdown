@@ -11,15 +11,10 @@ Compared to previous years, [the archive for 2013][1] is looking a little forlor
 
 This year, I intend to invest more time in writing. We live in interesting times, with many current affairs involving products we or our peers are working on. Having recently started working on [such a product][2] myself, in an environment that is still very foreign to me, I'm sure there will be a lot to write about.
 
-[1]: /2013/ 
-[2]: http://theguardian.com/
-
 ## More critique, less criticism
 I've become [increasingly cynical][3] about the work of technology start-ups, particularly those emanating from the San Francisco Bay Area. I was already fairly sceptical having worked for one seven (wow, seven!) years ago.
 
 I'd be the first to admit this experience left my pretty jaded, and I've come to some pretty ill-considered and simplistic judgements as a result. While there is much to criticise, there is also much to praise; I intend to do both, but backed up with a greater degree of research and forethought. Less tweeting, more blogging.
-
-[3]: /2013/04/silicon_valley/
 
 ## More Europe, less America
 As much as I (supposedly) dislike what America has to offer the world, I've spent an awful amount of time on that side of the Atlantic. A weekend in Belgium last year reminded me how much I love Europe, and how I long to see more of it. I think it's time for another train journey!
@@ -30,8 +25,6 @@ I've got a metaphorical pile of photos dating back to August that require proces
 ## More here, less elsewhere
 Speaking of which, with [this being the year of homesteading][4], I'd like to start posting photos (and other content) on this domain rather than with a third-party. A redesign of this site is long overdue, but such a project tends to be unending. I'll need to keep my requirements modest.
 
-[4]: http://frankchimero.com/blog/2013/12/homesteading-2014/
-
 ## More analogue, less digital
 I have a lot of unread books, and also a lot of time spent sat on a train. I intend to spend more time reading those books rather than staring at a small screen. I'm also interested in finding other ways I can reduce digital interference in my life; I guess I should get out more!
 
@@ -40,6 +33,10 @@ Of course, there are things I want to continue doing. In terms of personal proje
 
 Finally, having bought a house, and started a new job, I intend to invest more time into other aspects of my life that have been neglected -- going on just one date a year will hardly result in much success, after all. Oh, and I really should train for that [half marathon][8]...
 
+[1]: /2013/ 
+[2]: http://theguardian.com/
+[3]: /2013/04/silicon_valley/
+[4]: http://frankchimero.com/blog/2013/12/homesteading-2014/
 [5]: http://bradshawsguide.org
 [6]: http://barebones.paulrobertlloyd.com
 [7]: http://24ways.org

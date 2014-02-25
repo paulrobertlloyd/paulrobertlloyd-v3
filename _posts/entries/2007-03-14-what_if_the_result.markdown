@@ -13,7 +13,6 @@ For those that weren't there, here it is:
   <iframe src="http://player.vimeo.com/video/409636?title=0&#38;byline=0&#38;portrait=0&#38;color=493943"></iframe>
 </div>
 
-
 Overall, I think I pulled it out of the bag. It turned out to be bit of a promotion for Ning and the US, and the fact that the lyrics of the song '...where I belong...' coincided with the many (many) pictures of Las Vegas -- a place not top of my list of favourite cities -- and certainly wasn't planned.
 
 Had I come up with this What If... a week earlier (instead of spending an entire week trying to answer the question 'What if the Web Was Invented 10 Years Earlier', which turned out to be a minefield) it may have been as good as the video that followed it. Created by [Glenda Bautista][1], it's answer was very similar to mine, but far more polished.

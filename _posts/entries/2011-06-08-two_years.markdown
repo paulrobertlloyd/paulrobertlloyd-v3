@@ -16,12 +16,6 @@ Of course, working at Clearleft also means I get to work alongside some of the i
 
 I often take this resource for granted, as I build an assumed knowledge that others may not have been privy too. To this extent, I think being part of a separate community such as the [Multipack][4] (and one located outside Brighton) gives me a better perspective on how others are facing the same challenges, and approaching similar problems.
 
-[1]: /2009/06/clearleft/
-[2]: /2009/06/social_media_icons/
-[3]: /2010/07/are_web_design_conferences_becoming_too_safe/
-[4]: http://multipack.co.uk/
-
-
 ## A More Focused Role
 Deciding to work at Clearleft did come with some downsides though. I pride myself on being able to build what I design -- indeed I think this is what attracted me to web design in the first place. Yet my role so far has been that of a 'Visual Designer', meaning I'm less likely to be producing the HTML and CSS that has been spinning around in my head as I've been creating a design.
 
@@ -100,6 +94,10 @@ Whilst we may have got a lot wrong, one thing our industry has always got right 
 
 I'll be speaking more about this topic at this year's [Geek in the Park][21]. Join me, [Relly Annett-Baker][22], [Andrew Disley][23] and [James Willock][24] for a relaxing day in the park and an evening of illuminating talks. It takes place in Leamington Spa on the 13th August. You can find out [more information about the event here][25].
 
+[1]: /2009/06/clearleft/
+[2]: /2009/06/social_media_icons/
+[3]: /2010/07/are_web_design_conferences_becoming_too_safe/
+[4]: http://multipack.co.uk/
 [5]: http://www.abookapart.com/products/responsive-web-design/
 [6]: http://adactio.com/
 [7]: http://natbat.net/

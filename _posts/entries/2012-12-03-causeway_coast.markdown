@@ -12,17 +12,6 @@ In tandem with improving my proficiency with a camera, I'm trying to better unde
 
 Besides showcasing some recent photography -- something I'd like to do more often on this site -- this is also an opportunity to experiment with the [compressive images][9] technique. The photos on this page have been saved with larger dimensions than required, but also lower quality levels than I would normally use. This should result in smaller file sizes and sharper imagery on high resolution displays. Daan Jobsis was the first to suggest this technique, and his [Retina Revolution][10] post is worth a read.
 
-[1]: http://2012.buildconf.com/
-[2]: http://chris-armstrong.com/
-[3]: http://ethanmarcotte.com/
-[4]: http://shiflett.org/
-[5]: https://en.wikipedia.org/wiki/Giants_Causeway
-[6]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157632145059113/
-[7]: http://www.apple.com/aperture/
-[8]: http://visualsupply.co/film/01/aperture3
-[9]: http://www.filamentgroup.com/lab/rwd_img_compression/
-[10]: http://blog.netvlies.nl/design-interactie/retina-revolution/
-
 <figure>
     ![](/assets/images/2012/12/causeway_coast1.jpg)
     <figcaption>
@@ -87,5 +76,16 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
         <p>57% quality, 91 kB</p>
     </figcaption>
 </figure>
+
+[1]: http://2012.buildconf.com/
+[2]: http://chris-armstrong.com/
+[3]: http://ethanmarcotte.com/
+[4]: http://shiflett.org/
+[5]: https://en.wikipedia.org/wiki/Giants_Causeway
+[6]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157632145059113/
+[7]: http://www.apple.com/aperture/
+[8]: http://visualsupply.co/film/01/aperture3
+[9]: http://www.filamentgroup.com/lab/rwd_img_compression/
+[10]: http://blog.netvlies.nl/design-interactie/retina-revolution/
 
 *[kB]: Kilobyte

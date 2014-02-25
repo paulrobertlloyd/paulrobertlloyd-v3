@@ -11,11 +11,6 @@ post_id: 45
 
 Whilst their recovery has reversed their mental age, what keeps them going is the hope that one day, they will win 'the lottery' and be selected to live on 'The Island' -- the last inhabitable place on earth, where they will help re-colonise the planet. It soon transpires that something more sinister is at play under the control of Doctor Merrick (played by an increasingly typecast [Sean Bean][3]).
 
-[1]: http://www.imdb.com/name/nm0000191/
-[2]: http://www.imdb.com/name/nm0424060/
-[3]: http://www.imdb.com/name/nm0000293/
-
-
 When we join Lincoln he is already starting to question his existence, has become friends with a (human) engineer (played by the excellent [Steve Busemi][4]) and finds his friendship with Jordan becoming increasingly more intimate. Upon discovering what really happens to those who are sent to the Island, he escapes, rescuing Jordan in the process.
 
 It's at this point the action starts, one car/bike/truck chase after another. Whilst the effects are effective, these relentless chases start to bore. Whilst involved in car accidents, shootings and falls from 200 storey office blocks, both remain remarkable unscathed.
@@ -28,6 +23,9 @@ In typical Michael Bays style, this film promises much, but delivers little. Muc
 
 Overall, an average film ruined by all too visible sponsorship.
 
+[1]: http://www.imdb.com/name/nm0000191/
+[2]: http://www.imdb.com/name/nm0424060/
+[3]: http://www.imdb.com/name/nm0000293/
 [4]: http://www.imdb.com/name/nm0000114/
 
 *[GM]: General Motors

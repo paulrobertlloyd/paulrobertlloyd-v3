@@ -20,10 +20,6 @@ Many of the changes are small, but they all add up to create a tighter, more man
 
 The distinctive red triangle also moves closer to the text, and the two cut outs that suggest a track disappearing into the distance now converge on a single point rather than the unknown destination seen previously. The colour palette has also been updated, with the primary colours replaced with more considered choices. However, the use of gradients in the final rendering only serves to weaken an otherwise stronger, more confident mark.
 
-[1]: http://en.wikipedia.org/wiki/Network_Rail
-[2]: http://en.wikipedia.org/wiki/Railtrack
-
-
 ## MTV
 {% figure MTV: The original logo (1981) and the updated version (2010). %}
 ![](/assets/images/2010/02/mtv.png)
@@ -50,6 +46,8 @@ Finally, if we are to talk about 'M' shaped containing identities, then I can't 
 ![](/assets/images/2010/02/cityofmelbournevariations.png)
 {% endfigure %}
 
+[1]: http://en.wikipedia.org/wiki/Network_Rail
+[2]: http://en.wikipedia.org/wiki/Railtrack
 [3]: http://www.creativereview.co.uk/cr-blog/2010/february/mtv-refreshes-logo
 [4]: http://www.underconsideration.com/speakup/archives/003489.html
 [5]: http://www.underconsideration.com/brandnew/archives/i_wolff_olins.php

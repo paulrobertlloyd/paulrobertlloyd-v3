@@ -12,11 +12,6 @@ That said, the book isn't amazingly written, and I was disappointed that some of
 
 Regardless of these failings, the book remains a fascinating portrayal. Whilst it avoids going into any great detail, this is still the story of an intriguing individual. Whilst Jobs may have been deeply flawed on an emotional level (often viewing the world in a binary way; products were insanely great or completely shit, people were either heroes or bozos) he proved to be a visionary genius at the same time.
 
-[1]: http://stevejobsthebiography.com/
-[2]: http://5by5.tv/hypercritical/42
-[3]: http://blog.thomasqbrady.com/post/13639200852/steve-jobs-by-walter-isaacson-a-review
-
-
 ## Notes
 A few passages I thought warranted highlighting.
 
@@ -53,5 +48,9 @@ A few passages I thought warranted highlighting.
 
 <abbr title="Page 508">508:</abbr> Jobs and Rupert Murdoch:
 > Murdoch and Jobs hit it off well enough that Murdoch went to his Palo Alto house for dinner twice more during the next year. Jobs joked that he had to hide the dinner knives on such occasions, because he was afraid that he his liberal wife was going to eviscerate Murdoch when he walked in. For his part, Murdoch was reported to have uttered a great line about the organic vegan dishes typically served: "Eating dinner at Steve's is a great experience, as long as you get out before the local restaurants close."
+
+[1]: http://stevejobsthebiography.com/
+[2]: http://5by5.tv/hypercritical/42
+[3]: http://blog.thomasqbrady.com/post/13639200852/steve-jobs-by-walter-isaacson-a-review
 
 *[CEO]: Chief Executive Officer

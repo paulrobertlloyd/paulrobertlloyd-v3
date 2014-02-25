@@ -17,16 +17,6 @@ Working with Clearleft again in May, [Andy][6] asked me if I would like to join 
 
 ![Clearleft logo](/assets/images/2010/01/clearleft.png){: .pull-right} Joining the team in Brighton has been nothing short of inspirational. Being surrounded by such talented colleagues has forced me to up my game, challenging assumptions about how I work, and making me consider new ways to solve design problems. I'd like to think it has pushed me to write better content for this blog, whilst ensuring the release of [my social icon set][8]. I doubt I would have made these public had it not been for the supportive environment I now find myself.
 
-[1]: /2009/01/day_one
-[2]: /2010/01/sydney
-[3]: http://apture.com/
-[4]: http://tristanharris.com/
-[5]: http://clearleft.com/
-[6]: http://clearleft.com/is/andybudd
-[7]: /2009/06/clearleft
-[8]: /2009/06/social_media_icons
-
-
 ## A Great Year For Travel
 Last year turned out to be another great year for travel, and thankfully one a little less US-centric. However, rather unexpectedly, my first trip overseas was to San Francisco in January. As the 'Media Hub' project was ramping up at Apture, Tristan asked if I could come out to their offices to spend a week face-to-face with the team. With much of the cost to be covered by them, and with the real possibility of making some progress on that particular project, I boarded another San Francisco bound flight.
 
@@ -72,6 +62,14 @@ In this respect, the decision to travel around Europe by train was a conscious o
 
 However, I still took several long hall flights (London&#8594;San Francisco return in January, and London&#8594;Los Angeles&#8594;Auckland, Wellington&#8594;Sydney&#8594;Melbourne&#8594;London in December). Whilst I did carbon offset these flights (and indeed finally got around to offsetting all my previous flights too) that's still not the same as not taking them in the first place. With that in mind, I will write about how I plan to change this habit in a forthcoming blog post.
 
+[1]: /2009/01/day_one
+[2]: /2010/01/sydney
+[3]: http://apture.com/
+[4]: http://tristanharris.com/
+[5]: http://clearleft.com/
+[6]: http://clearleft.com/is/andybudd
+[7]: /2009/06/clearleft
+[8]: /2009/06/social_media_icons
 [9]: http://railselect.com/
 [10]: /2009/05/a_european_adventure
 [11]: /2010/01/

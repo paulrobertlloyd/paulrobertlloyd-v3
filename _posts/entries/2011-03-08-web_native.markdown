@@ -49,7 +49,6 @@ You might think this is a recent article, but Jon wrote this in 2000 -- it's tak
 [8]: http://www.ftrain.com/wwic.html
 [9]: http://www.alistapart.com/articles/dao/
 
-
 ## Growing Maturity
 It might have taken us some time to get here, but as the web matures, and as it's practitioners have built up a body of experience, so our methods are undergoing a period of reappraisal. A number of examples I've seen include:
 

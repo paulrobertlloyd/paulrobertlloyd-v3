@@ -40,7 +40,6 @@ I was so concerned by these oversights that I thought about ways to rectify thes
 
 Of course it's easy to create something like this in isolation, without a full understanding of the design or technical constraints that exist, but I think this demonstrates my frustration with the implementation at the time and -- perhaps more importantly -- how much I care about the design of the BBC website.
 
-
 ## BBC Heaven
 Given this background, you can imagine my delight on reading that [the corporation is working on a brand new design language][14] with the help of [Neville Brody][15] and his agency [Research Studios][16]. Not only does it answer my previous criticisms, but the early previews exceed my wildest expectations.
 

@@ -25,13 +25,6 @@ What does that mean? Should YouTube celebrities like [Psy][5] be nominated, or i
 
 I don't subscribe to the notion of 'web celebrity', yet it becomes harder to dismiss such a meme when awards like this are handed out. Rather than highlight new talent, they appear to reinforce the status quo instead.
 
-[1]: http://2013.newadventuresconf.com
-[2]: http://www.ubelly.com
-[3]: http://www.ubelly.com/the-soapbox
-[4]: http://ubelly.com/thecritters/
-[5]: http://www.youtube.com/user/officialpsy
-
-
 If recipients of this award are those deserving of recognition -- either for the quality of their work or taking it upon themselves to push the industry and the web forward -- then surely it is better to state that. I imagine 'Outstanding Contribution' would be a much more appealing honour for the winner than that of 'Web Personality'.
 
 I suspect the title is influenced by the [BBC Sports Personality of the Year][6] award. Yet, sport is often marketed as entertainment, and the context around a particular industry matters when picking names for such things. Many web designers and developers are entertaining, but I wouldn't want to see them on my television!
@@ -49,6 +42,11 @@ When awards are given out, they should encourage everyone to be finer practition
 
 Ubelly are fostering a young community, [supporting new writers][10] and sponsoring events. I'm not sure their awards, in their current state, live up to the same standard.
 
+[1]: http://2013.newadventuresconf.com
+[2]: http://www.ubelly.com
+[3]: http://www.ubelly.com/the-soapbox
+[4]: http://ubelly.com/thecritters/
+[5]: http://www.youtube.com/user/officialpsy
 [6]: http://www.bbc.co.uk/sport/0/sports-personality/
 [7]: http://www.netmagazine.com
 [8]: http://netmagazine.com/netawards13

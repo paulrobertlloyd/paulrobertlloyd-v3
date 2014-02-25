@@ -19,17 +19,6 @@ In recent years, legislation has focused on the transfer of administrative funct
 
 Counties are important -- not only useful for way-finding, but as entities to affix local identities and cultures to, and help tell the story of Britain. Yet their continual reorganisation has left people confused as to their function, names and location.
 
-[1]: http://en.wikipedia.org/wiki/Local_Government_Act_1888
-[2]: http://en.wikipedia.org/wiki/Historic_counties_of_England
-[3]: /2009/02/driven_to_design/
-[4]: http://en.wikipedia.org/wiki/Local_Government_Act_1972
-[5]: http://en.wikipedia.org/wiki/Metropolitan_county
-[6]: http://en.wikipedia.org/wiki/Non-metropolitan_county
-[7]: http://en.wikipedia.org/wiki/Charlwood_and_Horley_Act_1974
-[8]: http://en.wikipedia.org/wiki/Local_Government_Act_1985
-[9]: http://en.wikipedia.org/wiki/Unitary_authority#United_Kingdom
-
-
 ## Psychoville
 Such confusion was evident when I sat down to watch [Psychoville][10] last Friday. The first episode of this new dark-comedy series focused on letters being sent to five characters around the country, but it was striking how each location was referred to using these different understandings of a county. 
 
@@ -84,6 +73,15 @@ LONDON
 ## Further Information
 A whole host of information on this topic is available from the [Association of British Counties][11], an organisation that is seeking to re-establish the use of historic Counties as the standard popular geographical reference frame of Britain. I've already taken them up on their advice of [using historic Counties in addresses][12], and I'm sure membership will follow.
 
+[1]: http://en.wikipedia.org/wiki/Local_Government_Act_1888
+[2]: http://en.wikipedia.org/wiki/Historic_counties_of_England
+[3]: /2009/02/driven_to_design/
+[4]: http://en.wikipedia.org/wiki/Local_Government_Act_1972
+[5]: http://en.wikipedia.org/wiki/Metropolitan_county
+[6]: http://en.wikipedia.org/wiki/Non-metropolitan_county
+[7]: http://en.wikipedia.org/wiki/Charlwood_and_Horley_Act_1974
+[8]: http://en.wikipedia.org/wiki/Local_Government_Act_1985
+[9]: http://en.wikipedia.org/wiki/Unitary_authority#United_Kingdom
 [10]: http://www.bbc.co.uk/psychoville/
 [11]: http://abcounties.co.uk/
 [12]: http://www.abcounties.co.uk/bpa/

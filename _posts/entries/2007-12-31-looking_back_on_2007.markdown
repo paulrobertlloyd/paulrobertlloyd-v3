@@ -24,12 +24,6 @@ It is no surprise then that shortly afterwards I resigned, at the time with a vi
 * [Finally, A Ning To Be Proud Of](/2007/03/finally_a_ning_to_be_proud_of/)
 * [Going to Gotomedia](/2007/11/gotomedia/)
 
-[1]: http://www.ning.com/
-[2]: http://www.jasonsantamaria.com/
-[3]: http://en.wikipedia.org/wiki/Kelly_Goto
-[4]: http://www.gotomedia.com/
-
-
 ## Travel
 Travel was a big theme of 2007, and whilst most of it was US based, it did allow me to get a more rounded view of the country.
 
@@ -95,6 +89,10 @@ I can look back at 2007 with a huge smile on my face. Whilst it was always going
 
 And with that, the book closes on 2007 and all that remains is to wish everybody a very Happy New Year!
 
+[1]: http://www.ning.com/
+[2]: http://www.jasonsantamaria.com/
+[3]: http://en.wikipedia.org/wiki/Kelly_Goto
+[4]: http://www.gotomedia.com/
 [5]: http://en.wikipedia.org/wiki/California_Zephyr
 [6]: http://2008.sxsw.com/
 [7]: /2006/12/2006_in_review/

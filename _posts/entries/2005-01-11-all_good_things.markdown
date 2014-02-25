@@ -8,9 +8,6 @@ excerpt: Another MacWorld Expo, another slew of gifts from Apple.
 
 The new [Mac mini][1] is just what the company has needed to have been selling for a long time, too long in fact. With this product (aimed squarely at the PC buying consumer) alongside the continued success of the iPod, Apple is slowly becoming a mass consumer brand.
 
-[1]: http://www.apple.com/macmini/
-
-
 The Mac mini is beautiful as you'd expect, and acts as a great introduction to the world of Macintosh. Although it would seem that welcome isn't too warm -- I can't help feeling that not including a keyboard and mouse is a little bit on the tight side. It's no secret that Apple is aiming this sub-£400 product at the iPod user, impressed with the iPods design and ease of use and perhaps looking to move to Mac. They now have a viable upgrade path, and can keep hold of their monitor and other existing peripherals, yet I'm sure many of these potential customers will have systems that don't use USB keyboards and mice and will have to purchase (perhaps budget) peripherals, thus diminishing the experience.
 
 ## Then you go and spoil it all...
@@ -25,6 +22,7 @@ But with the latest demo of the forthcoming Mac OS X 10.4 'Tiger', [it seems thi
 
 Proudly displaying it's nonconformist grey-aqua-ish buttons that contain smaller squashed icons within, it almost looks as the design team was on strike that day. With 10.4 still in pre-release, I can only hope such bad design will not be allowed outside the doors of Cupertino.
 
+[1]: http://www.apple.com/macmini/
 [2]: http://www.apple.com/macosx/tiger/mail.html
 
 *[PC]: personal computer

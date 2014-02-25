@@ -13,10 +13,6 @@ As such, I find myself criticising other people for making decisions that I don'
 
 A friend who brought their iPhone at the same time as me, recently upgraded 'because they were told they could'. This perpetual upgrade cycle, driven by phone companies wishing to get customers onto new tariffs or contracts also frustrates me. I certainly have no plans to upgrade my device for the foreseeable future.
 
-[1]: /2010/01/2009_in_review/
-[2]: http://www.volvocars.com/uk/all-cars/volvo-c30/
-
-
 ## Undermined
 Yet on many occasions, [friends have questioned such criticism][3], especially given the amount of flying I've been doing over the last few years, which has not only countered other changes I've made but also undermined the example I've been trying to set.
 
@@ -92,6 +88,8 @@ To help launch the campaign, and with the help of my friends at the [Multipack][
 
 Hopefully this is the first in a series of events and initiatives in support of the campaign, and so far the response from friends and peers has been incredibly encouraging. In the mean time, may I suggest you [add the a.green:focus blog][14] to your preferred RSS reader.
 
+[1]: /2010/01/2009_in_review/
+[2]: http://www.volvocars.com/uk/all-cars/volvo-c30/
 [3]: http://twitter.com/davidlwarner/status/7432026527/
 [4]: http://dopplr.com/
 [5]: /2010/01/lax/

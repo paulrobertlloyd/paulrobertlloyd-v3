@@ -11,9 +11,6 @@ In fact, it increasingly appears that following the national side is less about 
 
 This pseudo-patriotism has long masked England's failings, yet I wonder how much longer these companies will wish to associate themselves with a team whose performances are increasingly sub-standard, and a game that is far down the road to financial meltdown.
 
-[1]: /articles/fcplc/
-
-
 Many of our domestic clubs now find themselves saddling huge amounts of debt, either since being sold to [individuals with questionable business objectives][2], or simply down to bad financial management. The Football Association, whose governance is out-dated and often susceptible to the whims of the more powerful Premier League, means the tough regulation required is painfully absent. Meanwhile players are so massively overpaid that their financial success has become detrimental to the grassroots of the game.
 
 Our national stadium, once regarded as the 'church of football', is now a soulless and uninspiring monument to recent extravagances in the sport. Financed by hosting hundreds of pop concerts and other sporting events, these have left [a pitch that is unsuitable][3] for the sport for which it was intended.
@@ -31,6 +28,7 @@ Much like the wider economy, football in this country is an overinflated bubble 
 
 Only by radically reforming the governance and management of the sport, can we ever hope to win the World Cup.
 
+[1]: /articles/fcplc/
 [2]: http://en.wikipedia.org/wiki/Malcolm_Glazer_ownership_of_Manchester_United
 [3]: http://news.bbc.co.uk/1/hi/magazine/8010031.stm
 

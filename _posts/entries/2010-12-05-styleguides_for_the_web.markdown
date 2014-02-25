@@ -24,12 +24,6 @@ In the studio era, no director enjoyed this privilege. Given that a film is made
 
 In an era when no directors were given final cut, Alfred Hitchcock found a way to give himself final cut, and that is what I'm advocating today -- finding ways to exert creative control and lessen the impact later decisions may have on the quality of the final product.
 
-[1]: http://www.multipack.co.uk/presents/the-design-process
-[2]: http://speakerdeck.com/u/paulrobertlloyd/p/styleguides-for-the-web-2010
-[3]: http://s3.paulrobertlloyd.com/downloads/styleguidesfortheweb_2010-11_notes.pdf
-[4]: http://2010.dconstruct.org/speakers/john-gruber
-
-
 ## What Is a Styleguide?
 Branding agencies achieve this by producing styleguides; documents that explain how a brand is constructed, often using examples of how to use -- and how not to use -- the various brand assets they've created. Styleguides can include the following:
 
@@ -133,6 +127,10 @@ This is only a selection of tools and processes we can use too. Indeed, I think 
 
 Whilst much of this talk has focused on the styleguide as a deliverable, I hope the underlying theme has been the importance of communicating the complexities inherent with an interactive medium like the web. Simply presenting flat image comps is by no means enough -- it's only the start.
 
+[1]: http://www.multipack.co.uk/presents/the-design-process
+[2]: http://speakerdeck.com/u/paulrobertlloyd/p/styleguides-for-the-web-2010
+[3]: http://s3.paulrobertlloyd.com/downloads/styleguidesfortheweb_2010-11_notes.pdf
+[4]: http://2010.dconstruct.org/speakers/john-gruber
 [5]: http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html
 [6]: /2010/02/bbc_online_gvl
 [7]: http://bbc.co.uk/gel/

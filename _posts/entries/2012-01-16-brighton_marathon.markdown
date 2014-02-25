@@ -16,7 +16,6 @@ I've always wanted to run a marathon. Being of sound mind, I thought it probably
 
 That first event was a real eye opener. The support I got from spectators lining the route was infectious, and it encouraged me to enter more races. Yet, stupidly, I never properly trained and ended up walking the later stages of each race (the Great Manchester Run in 2005 was a rare exception). With no sign of increased performance or fitness -- unsurprising given the lack of any training -- I stopped entering races and gave up on any ideas of running a marathon.
 
-
 The desire to keep fit never relented however (nor did the need to win [Nike+ challenges against Kyle][1]) so I started running purely for pleasure. The absence of any races allowed me to focus on the act of running itself. Now, each year sees me complete more miles than the last, with pace and distances covered forever increasing. Curious to see if I could translate this into race fitness, I entered last year's Brighton Half Marathon. To my surprise [I ran the full distance][2]! Finally achieving this goal was truly satisfying.
 
 I now run what were once challenging distances (5k, 10k) with little thought or difficulty. I'm lighter, (a little bit) leaner, and possibly even a bit faster. If I'm ever to achieve my dream of running a marathon, then this is the year to do it. An Olympic year too.

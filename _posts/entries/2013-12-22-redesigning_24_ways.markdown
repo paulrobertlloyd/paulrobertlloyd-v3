@@ -12,19 +12,12 @@ For the uninitiated, *24 ways* is an annual advent calendar for web designers an
 
 Following [Drew's post][3] on how he rebuilt the site, I thought I would describe the process behind the accompanying redesign.
 
-[1]: /2013/10/moving_in_moving_on/
-[2]: http://24ways.org/
-[3]: http://allinthehead.com/retro/366/rebuilding-24-ways
-
 ## The brief
 The last major redesign was produced by Tim Van Damme in 2007. His innovative design pushed the limits of the medium -- notably in its use of RGBA CSS colour properties -- and set expectations for any redesign that would follow.
 
 Few designs remain timeless, and after six years it was showing its age. Approaching a ninth season, [the archive][4] was struggling to accommodate more than 200 articles; navigation was breaking down and it had become difficult to explore the range of topics covered.
 
 The design was also failing to reflect the best practices now being promoted. For example, when Geri Coady wrote about [colour contrast][5], her words were presented as grey text on a grey background. The site was responsive (thanks to some retroactive hacking) but a fresh approach was needed to effectively deliver content to a broadening range of devices accessing the site.
-
-[4]: http://24ways.org/archive/
-[5]: http://24ways.org/2012/colour-accessibility/
 
 ## Approach
 Beyond these considerations, I was given free rein.
@@ -35,18 +28,10 @@ Still, how could this redesign continue the tradition of pushing against the edg
 
 In [The Web Aesthetic][6], I urged designers to move beyond traditional print-inspired layouts, and instead look more to digital software -- all while being true to the universal nature of the medium. Could this be an opportunity to make those ideas real?
 
-[6]: http://alistapart.com/article/the-web-aesthetic
-
 ## A torturous design process
-
-<figure class="pullquote">
-    <blockquote>
-        <p>How I design: tenacity, panic, happy accidents and fast-approaching deadlines.</p>
-    </blockquote>
-    <figcaption>
-        <p><a href="http://twitter.com/paulrobertlloyd/statuses/374836201972584448">@paulrobertlloyd, 3 September 2013</a></p>
-    </figcaption>
-</figure>
+{% figure <a href="http://twitter.com/paulrobertlloyd/statuses/374836201972584448">@paulrobertlloyd, 3 September 2013</a> %}
+> How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
+{% endfigure %}
 
 Given the brief in June, every time I sat down to work on the project, I couldn't get started. A breakthrough came when I thought back to something [Dan Mall][7] had said about creating element collages: "I start by putting elements on the page for which I have an idea in my mind for". Having an idea for the display of comments, and with a little alcoholic lubrication, I took to [Sketch][8] and started there.
 
@@ -58,15 +43,11 @@ Diamonds quickly became a unifying motif throughout this exploratory stage. Not 
 
 For the typography, I settled on a pairing of [Lato][9] and [Merriweather][10]. For similar reasons discussed in [an earlier post][11], I opted to use freely available fonts, with budget and ease of implementation at the forefront of my mind. This choice helped me typeset articles to a reasonable standard, yet using typefaces from different designers and with different metrics meant I was unable to mix them together inline. I looked at pairing Merriweather with its sans serif counterpart, yet its tracking was too loose for body copy.
 
-<figure class="pullquote">
-    <blockquote>
-        <p>Know your fonts... using a typeface whose name means 'summer', for a website based around Christmas.</p>
-        <p>Awkward.</p>
-    </blockquote>
-    <figcaption>
-        <p><a href="https://twitter.com/paulrobertlloyd/statuses/401169294488535040">@paulrobertlloyd, 14 November 2013</a></p>
-    </figcaption>
-</figure>
+{% figure <a href="https://twitter.com/paulrobertlloyd/statuses/401169294488535040">@paulrobertlloyd, 14 November 2013</a>@paulrobertlloyd, 3 September 2013</a> %}
+> Know your fonts... using a typeface whose name means 'summer', for a website based around Christmas.
+> 
+> Awkward.
+{% endfigure %}
 
 All the while, [Jessica Hische's advice][12] was in the back of my mind: could I have found a better pairing with more time? If confirmation were needed, nearing completion of the design I discovered that Lato is Polish for Summer! Hopefully this is something we can revisit next year.
 
@@ -74,29 +55,14 @@ All the while, [Jessica Hische's advice][12] was in the back of my mind: could I
 ![](/assets/images/2013/12/24_ways_concept.png)
 {% endfigure %}
 
-[7]: http://danielmall.com/
-[8]: http://bohemiancoding.com/sketch/
-[9]: http://www.latofonts.com/lato-free-fonts/
-[10]: http://ebensorkin.wordpress.com/
-[11]: /2013/05/web_typography/
-[12]: http://jessicahische.is/talkingtype
-
 ## Moving to code
 By the time dConstruct arrived in September, I had enough elements to present an initial direction to Drew and the rest of the *24 ways* team. They loved what they saw, but frustratingly, I couldn't progress beyond this stage. I had a clear idea for index pages (inspired in part by the design of the [New York Times skimmer][13]), yet few ideas for how this might translate to other pages.
 
 With the deadline fast approaching, I abandoned Sketch and headed for the browser. Having already marked up the site (using [Barebones][14] to provide generic styling) I introduced elements of the new design and observed how it cascaded down and throughout pages. Soon enough, the design was informing the markup, which in turn was informing the design. A visual language was developing in front of me.
 
-<figure class="pullquote">
-    <blockquote>
-        <p>Sometimes you have to work with a design system to truly understand it.</p>
-    </blockquote>
-    <figcaption>
-        <p><a href="https://twitter.com/paulrobertlloyd/statuses/395365510046830592">@paulrobertlloyd, 29 October 2013</a></p>
-    </figcaption>
-</figure>
-
-[13]: http://nytimes.com/skimmer
-[14]: http://github.com/paulrobertlloyd/barebones/
+{% figure <a href="https://twitter.com/paulrobertlloyd/statuses/395365510046830592">@paulrobertlloyd, 29 October 2013</a> %}
+> Sometimes you have to work with a design system to truly understand it.
+{% endfigure %}
 
 ## Content first, navigation last
 While innovative and strongly conceptual, the previous design dominated the content. This was something I wanted to avoid; nothing should get in the way of being able to comfortably read an article. Setting aside traditional notions of layout, I explored different ways to navigate, inspired in part by mobile and tablet applications.
@@ -120,10 +86,6 @@ Running short on time, I asked my friend (and [SVG guru][17]) Josh Emerson for h
 
 Since the site launched, I've continued to tweak transitions and their values. This has been a frustrating exercise, sometimes having to forgo smoother transitions in order to avoid bizarre rendering bugs.
 
-[15]: http://benjystanton.co.uk/
-[16]: http://slideshare.net/benjystanton/crafting-animation-on-the-web
-[17]: http://joshemerson.co.uk/blog/using-svg-graphics-today
-
 ## The pragmatist awoken
 As much as I wanted to create an opinionated design, I also wanted to make a statement about progressive enhancement.
 
@@ -135,8 +97,6 @@ This thinking was found wanting. I had already built much of the site using a cu
 
 Pragmatism got the better of me, as it should. After all, what is front-end development if not a dance on the line strung between idealism and pragmatism?
 
-[18]: http://necolas.github.io/normalize.css/
-
 ## Modularity
 I was keen to introduce more modularity into my code, do more with a CSS preprocessor, use a BEM-like approach for markup patterns and not require jQuery for any JavaScript functions. This last one got the better of me -- at least in the short term -- although [Zepto][19] did help me keep page weight down.
 
@@ -144,13 +104,18 @@ Although I didn't employ strict adherence to the [BEM][20] methodology, I found 
 
 <figure class="pullquote">
     <blockquote>
-        <p>It's finally happened... I'm seriously considering using a .list&#45;&#45;item class name.</p>
-        <p>Sky, meet flying pigs.</p>
+        
     </blockquote>
     <figcaption>
-        <p><a href="https://twitter.com/paulrobertlloyd/statuses/395351309169459200">@paulrobertlloyd, 29 October 2013</a></p>
+        <p></p>
     </figcaption>
 </figure>
+
+{% figure <a href="https://twitter.com/paulrobertlloyd/statuses/395351309169459200">@paulrobertlloyd, 29 October 2013</a> %}
+> It's finally happened... I'm seriously considering using a .list&#45;&#45;item class name.
+> 
+> Sky, meet flying pigs.
+{% endfigure %}
 
 As *24 ways* is entirely content-based, HTML5's semantic elements were used extensively, all while making sure they generated a sensible document outline (something that's often forgotten). Class names took inspiration from these elements, as terms like `article`, `summary`, `header`, `footer` and `main` mapped closely to the smaller patterns required.
 
@@ -180,12 +145,6 @@ This naming system produced markup patterns like this:
 
 If you're interested in learning more about the front-end code behind *24 ways*, you can view [the repo on GitHub][23].
 
-[19]: http://zeptojs.com
-[20]: http://bem.info/
-[21]: http://microformats.org/wiki/microformats-2/
-[22]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
-[23]: http://github.com/paulrobertlloyd/24ways-frontend/
-
 ## Designing in the dark
 It has been three weeks since the redesign was unveiled, and thankfully to a largely positive audience. It's funny to think that just a week beforehand some of the design's signature features still hadn't been conceived. I really took it to the line! 
 
@@ -197,6 +156,30 @@ Developing a responsive website without these resources can be a risky propositi
 Sadly, aspects of the design discussed earlier in the process were never addressed. For example, there was a desire to look at ways of surfacing archived content on the homepage between seasons, yet this was lost in the rush to get the site launched in time. Images -- both in terms of art direction and their delivery in a responsive context -- clearly need more thought.
 
 However, I'm a big believer in iteration, and not treating a website as ever being finished. I hope what's been released this year can act as a foundation, and that the design will evolve in the years to come.
+
+[1]: /2013/10/moving_in_moving_on/
+[2]: http://24ways.org/
+[3]: http://allinthehead.com/retro/366/rebuilding-24-ways
+[4]: http://24ways.org/archive/
+[5]: http://24ways.org/2012/colour-accessibility/
+[6]: http://alistapart.com/article/the-web-aesthetic
+[7]: http://danielmall.com/
+[8]: http://bohemiancoding.com/sketch/
+[9]: http://www.latofonts.com/lato-free-fonts/
+[10]: http://ebensorkin.wordpress.com/
+[11]: /2013/05/web_typography/
+[12]: http://jessicahische.is/talkingtype
+[13]: http://nytimes.com/skimmer
+[14]: http://github.com/paulrobertlloyd/barebones/
+[15]: http://benjystanton.co.uk/
+[16]: http://slideshare.net/benjystanton/crafting-animation-on-the-web
+[17]: http://joshemerson.co.uk/blog/using-svg-graphics-today
+[18]: http://necolas.github.io/normalize.css/
+[19]: http://zeptojs.com
+[20]: http://bem.info/
+[21]: http://microformats.org/wiki/microformats-2/
+[22]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+[23]: http://github.com/paulrobertlloyd/24ways-frontend/
 
 *[BEM]: Block, Element, Modifier
 *[CSS]: Cascading Style Sheets

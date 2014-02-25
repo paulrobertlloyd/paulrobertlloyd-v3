@@ -7,8 +7,6 @@ post_id: 170
 ---
 As a trip intended to give just a brief introduction to Europe, covering [nine cities in three weeks][1], it's no surprise that I found it difficult balancing sightseeing with relaxation. Many of the cities I visited had so much to offer, that it was sometimes overwhelming trying to fit it all in.
 
-[1]: /2009/05/a_european_adventure/
-
 I often find travelling to a destination more enjoyable than the destination itself (and partly the reason why I've become so enamoured with rail travel in recent years) yet happily I didn't find that to be the case during this trip. Rail travel remains unrivaled for me -- the level of comfort, ease of use and overall experience beats flying hands down -- but it's testament to the cities I visited that the train journeys became a secondary experience.
 
 Travel related highlights did however include riding the sleeper between Madrid and Paris, and the sleeper-that-wasn't between Geneva and Barcelona. Due to maintenance on the line this service was replaced by a gruesome 9 hour coach ride, in which passengers were ushered around by a short Spaniard (with a passing resemblance to Robert De Niro) and included a 4am stop at a French motorway service station. Very bizarre.
@@ -32,6 +30,7 @@ Possibly more for my benefit than yours, I'd like to finish up with a few lesson
 
 4. **Check roaming charges for data before you go:** Guess who didn't. Ouch.
 
+[1]: /2009/05/a_european_adventure/
 [2]: http://www.weisseskreuz.at/
 [3]: http://blog.aiama.com/
 [4]: http://en.wikipedia.org/wiki/Ciutat_de_les_Arts_i_les_Ciències

@@ -8,9 +8,6 @@ As this Sunday's Great North Run looms ever closer, I have finally pulled my fin
 
 E-mail and text message campaigns, blog posts, websites (including at the last the launch of [a dedicated running page][1]) and general badgering continues to help push the total forwards.
 
-[1]: /tags/running/
-
-
 ## Hall of Fame
 Below is a list of all those who have all brilliantly pledged sponsorship and support so far -- hopefully this list will continue to grow and grow in the final days before Sunday's big run!
 
@@ -61,6 +58,7 @@ If you would like to add your name *it's easy*! All you need to do is visit [my 
 
 Note: This total doesn't take into account Gift Aid, which allows the charity to reclaim 28% tax back from the Inland Revenue on every £1 donated -- so far this alone has added an additional £66.28!
 
+[1]: /tags/running/
 [2]: http://www.justgiving.com/lloydyrun/
 
 *[Ltd]: Limited company

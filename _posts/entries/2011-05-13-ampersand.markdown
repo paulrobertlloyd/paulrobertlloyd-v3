@@ -10,17 +10,6 @@ I've also been trying my hand at speaking myself, largely around themes of [styl
 
 Still, I'm an attendee at heart, and if there is one thing that governs my choice of conference, it's a single track. I too share [Jeremy's frustration][9] with multiple track conferences, especially those that distinguish between design and development which I believe is a largely false division. There's something about a single track conference that makes it feel more curated and focused, with everyone's collective experience allowing for common themes and ideas to emerge.
 
-[1]: http://www.thedesignofunderstanding.com/
-[2]: http://newadventuresconf.com/
-[3]: http://2011.uxlondon.com/
-[4]: http://www.multipack.co.uk/presents/mobile-development/
-[5]: /2010/12/styleguides_for_the_web/
-[6]: /2011/03/web_native/
-[7]: http://www.apa.co.uk/news/digital-breakfast-web-design-trends-tues-08-march/
-[8]: http://oxford.geeknights.net/2011/apr-13th/
-[9]: http://adactio.com/journal/4557/
-
-
 ## Ampersand
 With that in mind, and excusing the obvious bias, I'm massively looking forward to [Ampersand][10], Clearleft's new conference tightly focused around web typography. This is a topic which, as [Rich suggests][11], many designers would benefit from having a deeper understanding:
 
@@ -41,6 +30,15 @@ Hopefully this east coast activity, and my brief return to San Francisco for [Da
 
 So, there we have it. Lots to look forward to, and still much to plan, yet I suspect all too soon this will be yesterday's news. Should you wish to follow which conferences I'm attending or speaking at, be sure to [visit my profile][24] on the increasingly amazing Lanyrd.
 
+[1]: http://www.thedesignofunderstanding.com/
+[2]: http://newadventuresconf.com/
+[3]: http://2011.uxlondon.com/
+[4]: http://www.multipack.co.uk/presents/mobile-development/
+[5]: /2010/12/styleguides_for_the_web/
+[6]: /2011/03/web_native/
+[7]: http://www.apa.co.uk/news/digital-breakfast-web-design-trends-tues-08-march/
+[8]: http://oxford.geeknights.net/2011/apr-13th/
+[9]: http://adactio.com/journal/4557/
 [10]: http://ampersandconf.com/
 [11]: http://clagnut.com/blog/2361/
 [12]: http://fontdeck.com/

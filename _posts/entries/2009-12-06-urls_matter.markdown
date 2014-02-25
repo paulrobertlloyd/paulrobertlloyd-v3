@@ -18,10 +18,6 @@ Whilst it has long been abused (see .ws, .tv, .fm et al.) there was still the po
 
 It's for this reason that when I decided to provide a short URL for this site, rather than create a short random jumble of letters and a full stop, I instead opted for the slightly longer yet more readable prlloyd.com.
 
-[1]: http://tinyurl.com/
-[2]: http://adactio.com/journal/1566/
-
-
 ## Sentenced
 Another emerging trend has been to make URLs read like sentences, something first [pioneered by Chris Shiflet][3] at OmniTI, and similarly used on the current [Clearleft][4] site.
 
@@ -87,6 +83,8 @@ This foolhardy statement frankly amounts to little more than an advocation lazin
 
 When advocating the user, applying blanket claims or unfounded assumptions such as this is neither helpful or productive. Indeed it can be quite dangerous, especially when delivered by someone like David who holds position of respect within the community (leading to [worrying statements such as this][15]). For that reason, I hope David is able to clarify his points on the subject and provide evidence to support his claims.
 
+[1]: http://tinyurl.com/
+[2]: http://adactio.com/journal/1566/
 [3]: http://shiflett.org/blog/2008/mar/urls-can-be-beautiful
 [4]: http://clearleft.com/
 [5]: http://www.fullcreammilk.co.uk/thinking/about/url_abc/

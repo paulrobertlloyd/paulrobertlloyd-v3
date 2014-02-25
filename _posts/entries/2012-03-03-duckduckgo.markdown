@@ -32,7 +32,6 @@ If you're like me, using Google for searching the web has become a deeply ingrai
 
 5. Click <samp>Make default</samp>.
 
-
 ### Mozilla Firefox
 1. Visit <http://duckduckgo.com/>.
 
@@ -48,14 +47,12 @@ However, changing the default provider isn't enough as search terms entered into
 
 4. Double-click the value column for this item and enter <kbd>http://duckduckgo.com/?q=</kbd>.
 
-
 ### Internet Explorer
 1. Visit: <http://www.iegallery.com/en/addons/detail.aspx?id=10202>.
 
 2. Click <samp>Add to Internet Explorer</samp>.
 
 3. Ensure <samp>Make this my default search provider</samp> is checked, and click <samp>Add</samp>.
-
 
 ### Opera
 1. Visit <http://duckduckgo.com/>.
@@ -65,7 +62,6 @@ However, changing the default provider isn't enough as search terms entered into
 3. Enter <kbd>d</kbd> for Keyword.
 
 4. Check <samp>Use as default search engine</samp>.
-
 
 ### Apple Safari
 Changing your default search provider in Safari is a little more difficult. Although you can choose from three presets (Google, Yahoo! and Bing), you can't add new providers. Hopefully this will change in Mountain Lion, but in the meantime, the best way to use DuckDuckGo is to install [Safari OmniBar][8]. Not only does this allow you to change the default search provider, but it also combines the address and search fields into one input, like the one seen in Chrome.

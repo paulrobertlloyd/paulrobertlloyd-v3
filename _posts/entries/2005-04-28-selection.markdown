@@ -12,7 +12,6 @@ There is one party that has seen it's popularity sore over the years -- 'none of
 
 I have always believed that we should not take the right to vote for granted, especially  when people have died campaigning for it, and those in other countries long to have such power. But do we actually have any 'power'? It's no secret that the only voters that matter are the swinging type in the marginal constituencies. Regardless of who wins, it's a sure bet that a government will make everything a.) more complicated and b.) more expensive. In the end I have come to the conclusion that whether it is worth anything or not, I should still exercise my right, if only to show I'm still watching what Whitehall is trying to get away with.
 
-
 ## Labour: Blair's War
 ![Labour Party logo](/assets/images/2005/04/labour.gif){: .pull-right} What was once their greatest asset is now undoubtedly their greatest weakness. I find it quite ironic for a Prime Minister that's big on words followed by little or no action, to take this country to war with Iraq -- a war that was shaky at best. This time his words were followed up with as much action as close-buddy-old-pal Bush required. An apology? He can't even accept he was wrong.
 

@@ -14,7 +14,6 @@ On my first day in the city, I took advantage of my hosts proximity to the Marin
 
 After finding some lunch in the Ferry Building, I began my hunt for an Internet cafe. Not long ago I suspect this city had more of these per capita than any other, but it's probably Wi-Fi hotspots that maintain this position now. Only once I had crossed the poverty line that is Fifth and Market was I able to find a friendly cafe with a suite of connected iMacs -- and a proprietor all to happy to charge me 16 cents a minute for their use.
 
-
 The following day I visited SFMoMA, a modern art museum that is far more spacious than you'd suspect from the outside. I was struck by how consistent this building is styled; its strong linear patterned brickwork exterior imitated inside with rough and smooth marble walls and careful wood detailing.
 
 Before going on to visit the equally impressive City Hall, I enjoyed a discussion about the role of technology with [Tristan][1] in South Park, whilst sipping an Iced Latte -- when in Rome do as the Romans do. That evening I shared a selection of scrumptious pizzas at Zero Zero with David and Athena whilst catching up on the latest gossip and industry insight.

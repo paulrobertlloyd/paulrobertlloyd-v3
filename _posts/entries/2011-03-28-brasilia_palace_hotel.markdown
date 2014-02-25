@@ -8,10 +8,6 @@ excerpt: For anyone coming to Brasilia for its modernist architecture, no visit 
 
 Alongside the [Palace of Planalto][1] and Our Lady Fatima Church, the [Brasilia Palace Hotel][2] was one of the first buildings constructed in Brazil's new capital. Designed by [Oscar Niemeyer][3] and inaugurated in 1958, it hosted important dignitaries like Queen Elizabeth, Indira Ghandi, Dwight Eisenhower and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
 
-[1]: http://en.wikipedia.org/wiki/Palacio_do_Planalto
-[2]: http://www.plazabrasilia.com.br/brasilia_en.html
-[3]: http://en.wikipedia.org/wiki/Oscar_Niemeyer
-
 ## Arrival
 Your taxi having parked directly beneath the slender building, you are greeted by two understated glass doors that slide open and invite you to enter. Descending a long shallow ramp you soon arrive in the lobby which sits under a low hanging mezzanine. If you've visited many of Niemeyer's other buildings, you'll know that such an entrance is a common feature, yet it is an architectural trick that works surprisingly well.
 
@@ -26,7 +22,6 @@ Until this point, the experience feels coherently retro, but any momentary lapse
 This modernity is most notable in the bathroom however, with an appearance similar to that of any other hotel bathroom suite you may have encountered, except perhaps for the plumbing. A shower unit consisting of four taps, two of which were not connected and another two that controlled the flow -- but not the temperature -- of the water at first seemed odd, but I've since discovered this is a feature of most Brazilian bathrooms!
 
 In the end, I couldn't decide whether I would have preferred forgoing these modern comforts for an experience more synonymous with the building's history. Yet it has to be remembered, this is a hotel, not a museum.
-
 
 ## Stepping Back In Time
 Beyond the confines of your room, you could easily imagine yourself here during the hotels historic golden era. There was a distinctly ghostly and mysterious feel to the place, especially in the lobby and dinning areas that, by being largely empty, allowed the spaces to speak louder than any of the objects within them.
@@ -56,3 +51,7 @@ Its secluded lakeside location means it can't offer the central location provide
 OSCAR, the hotel restaurant, is a little pricey but, going by the meal I ate, worth every centavo. I read some reviews that suggested the customer service wouldn't match the grandeur of the setting, but I found this not to be the case, with staff all too willing to help -- even if that meant dealing with my non-existent Portuguese language skills!
 
 For anyone coming to Brasilia for its modernist architecture, no visit would be complete without staying at the Brasilia Palace Hotel.
+
+[1]: http://en.wikipedia.org/wiki/Palacio_do_Planalto
+[2]: http://www.plazabrasilia.com.br/brasilia_en.html
+[3]: http://en.wikipedia.org/wiki/Oscar_Niemeyer

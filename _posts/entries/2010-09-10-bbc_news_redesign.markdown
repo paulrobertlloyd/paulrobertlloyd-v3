@@ -19,13 +19,6 @@ Yet the months that followed saw relaunches across the site that didn't match th
 
 In retrospect, it's easy to see that these sites -- produced during a period of transition -- were unlikely to fully reflect the new vision, yet their launch made me question the BBC's appreciation of design, and wonder whether the goals of GVL3 would ever be realised.
 
-[1]: http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html
-[2]: /2010/02/bbc_online_gvl
-[3]: http://www.bbc.co.uk/blogs/bbcinternet/2010/03/evolution_of_the_bbc_homepage.html
-[4]: http://www.bbc.co.uk/blogs/bbcinternet/2010/04/the_relaunch_of_the_doctor_who.html
-[5]: http://www.bbc.co.uk/blogs/bbcinternet/2010/05/the_new_comedy_website.html
-
-
 ## BBC News Site Launch
 Fast forward to July, and the BBC finally launched a [top to bottom redesign][6] of its news website in full conformance with GVL3 -- which itself launched as part of a larger [Global Experience Language][7] (GEL) project.
 
@@ -85,6 +78,11 @@ The design of this site, and the rationale behind it, have been incredibly well 
 
 There is often talk of there being [no landmark design on the web][20]. I'm going to stick my neck out, and suggest it won't be long before BBC News Online is considered one of the greatest design icons online today.
 
+[1]: http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html
+[2]: /2010/02/bbc_online_gvl
+[3]: http://www.bbc.co.uk/blogs/bbcinternet/2010/03/evolution_of_the_bbc_homepage.html
+[4]: http://www.bbc.co.uk/blogs/bbcinternet/2010/04/the_relaunch_of_the_doctor_who.html
+[5]: http://www.bbc.co.uk/blogs/bbcinternet/2010/05/the_new_comedy_website.html
 [6]: http://www.bbc.co.uk/blogs/theeditors/2010/07/bbc_news_website_redesign.html
 [7]: http://www.bbc.co.uk/guidelines/gel/
 [8]: http://www.bbc.co.uk/blogs/bbcinternet/2010/09/bbc_iplayer_gets_even_better.html

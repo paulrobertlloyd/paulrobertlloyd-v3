@@ -15,7 +15,6 @@ I've watched the development of this platform from afar and been impressed by wh
 
 The print tradition from which the Metro language is derived is clear from the outset; many screens could be enlarged and hung up on the wall as posters, such is their typographic beauty. Microsoft should be applauded for innovating in an area where others seem happy to replicate the Apple aesthetic.
 
-
 Windows Phone 7 is innovative beyond the underlying design language. A home screen which displays 'tiles' containing snippets of relevant information (number of new emails, next appointment, missed calls etc.) makes the notification badges on iOS look positively simplistic.
 
 The latest 'Mango' release adds some nice features too. The Twitter integration makes up for the lacklustre Windows Live service (which appears to be Microsoft's failed attempt at a social network) and the Maps application adds 'Local Scout'; local information with restaurants, shops and nearby sights powered by Bing. The battery saver feature is something I'd love to see on the iPhone.

@@ -18,10 +18,6 @@ Two factors helped me complete this event: shear mental toughness and support fr
 
 I knew that to complete the race, I would have to set targets and continually review my progress. Getting halfway would be easy; after all, I had run this distance only a few weeks beforehand.
 
-[1]: /2012/04/responsive_design_tutorial/
-[2]: http://twitter.com/roobottom/status/186488028032802816
-
-
 Getting to 18 miles would be unknown territory, although I should have reached this distance during training. Yet by this point, having soaked up the support of the crowd, drunk liquids (little and often) and nibbled on the odd snack, I still felt good. I resisted temptation to over-indulge, knowing what it felt like to run on a full stomach.
 
 I needed to enact a few mind games to continue, and spent much of my time in Hove cheerfully looking forward to the section of the course around Shoreham Power Station. Not only is this industrial area unattractive, but it sees fewer spectators and much of course runs opposite to the finish line. It's called 'the road to hell' for good reason.
@@ -39,6 +35,8 @@ Indeed, rather than just run a marathon, I also wanted to raise money for [Actio
 
 *Thank-you!*
 
+[1]: /2012/04/responsive_design_tutorial/
+[2]: http://twitter.com/roobottom/status/186488028032802816
 [3]: http://actionforchildren.org.uk/
 [4]: http://justgiving.com/prlrun2012/
 [5]: http://clearleft.com/

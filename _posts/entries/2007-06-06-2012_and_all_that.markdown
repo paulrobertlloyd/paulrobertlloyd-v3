@@ -17,10 +17,6 @@ Fellow [Multipacker][1] Andy Higgs [had this to say][2] about the new design:
 
 I've been meaning to write about this since the announcement, but Andy's post spurred me into writing a response on his blog, some of it I will echo here. To me, his post worried me, as it seems that people opinions are being cast without the due diligence such an identity deserves. Personally I have mixed thoughts, which I will talk about in a moment, but first I want to talk about the medias response.
 
-[1]: http://www.multipack.co.uk/
-[2]: http://justbeyondthebridge.co.uk/blog/that-olympic-logo/
-
-
 ## The response
 When it comes to matters of design, the mainstream press seems to have a very sensationalist approach, and always seem able to provide the same two arguments: It costs too much and and we didn't need a re-brand in the first place. Let me tackle both of these issues head-on.
 
@@ -91,6 +87,8 @@ So right now, as I come to terms with this design, I'm torn. On the one hand I'm
 
 At the same time, I'm slightly shocked by the outcome, but not for it's design, but for it being so glaringly obvious.  It seems to me they were about 3 revisions away from a great idea, yet instead we've ended up with something that alienates both it's intended target, and perhaps the rest of us too.
 
+[1]: http://www.multipack.co.uk/
+[2]: http://justbeyondthebridge.co.uk/blog/that-olympic-logo/
 [3]: http://en.wikipedia.org/wiki/Godwins_Law
 [4]: http://news.bbc.co.uk/2/hi/uk_news/england/london/6724245.stm
 [5]: http://coudal.com/

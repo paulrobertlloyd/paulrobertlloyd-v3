@@ -11,12 +11,6 @@ It's worth noting that much of this post was written on board trains and ferries
 
 It is with this perspective that I wish to explain the frustration and annoyance I've felt recently as once again friends and colleagues open their wallets and buy the latest product unveiled by Steve Jobs.
 
-[1]: http://blog.agreenfocus.org/post/371323289/welcome
-[2]: /2010/02/a_green_focus
-[3]: /tags/sustainability
-[4]: http://buildconf.com/
-
-
 This has been an astonishing year for Apple having launched the iPad, the iPhone 4 and now a refreshed line of MacBook Airs. There is no doubting the desirability of these machines, or the impact they've had on the market as competitors desperately try to match Apple's pace of innovation and development. As web designers whose work is impacted by these devices, we need to use them so we can understand the opportunities they present and limitations they suffer.
 
 Yet I'm surprised by the willingness of some who buy these products seemingly without a moments pause. Are there not other ways we can use these products without resorting to outright ownership?
@@ -44,4 +38,8 @@ Whilst the wait was agonising, it gave me the time to read reviews, contemplate 
 
 I know my opinion is unlikely to dissuade anyone from buying the next product Steve Jobs unveils, and of course everybody is free to spend their money however they wish. However, I console myself by knowing that upgrading less often, and making more informed choices when I do, means I'll appreciate these products more than those buying them out of blind habit.
 
+[1]: http://blog.agreenfocus.org/post/371323289/welcome
+[2]: /2010/02/a_green_focus
+[3]: /tags/sustainability
+[4]: http://buildconf.com/
 [5]: http://twitter.com/hotdogsladies/status/29683157687

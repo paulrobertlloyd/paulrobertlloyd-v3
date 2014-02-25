@@ -9,10 +9,6 @@ post_id: 19
 
 After a quick coffee (and trying to spot anyone familiar looking), it was on to the keynote speech given by one [Mr. Zeldman][1]. Titled [<cite>The Greatest Story Never Told</cite>][2], Jeffery gave an insight into the beginnings of the web standards movement and the reasons it was started. Needless to say I think we owe the founders (and todays members) a big thank-you for make our lives at least a little bit easier, and hopefully more so in the months and years to come.
 
-[1]: http://www.zeldman.com/
-[2]: http://www.happycog.com/clients/atmedia05/
-
-
 ## The Presentations
 The range of presentations was roughly split 50/50: Web Standards (CSS/XHTML/Design/JavaScript) and Accessibility, but of all the presentations, those given by [Douglas Bowman][3] were the most enjoyable. Whilst many of the speakers presentation slides were all of excellent quality ([with S5 almost becoming a standard in itself][4]), Bowman's Keynote powered presentations were absolutely beautiful to behold. Day Two's [Tactical Manoeuvres][5] was perhaps my favourite, and with it I hope to have picked up several new techniques I can use within my sites.
 
@@ -36,6 +32,8 @@ For me, getting to see (and meet) a few of the stars of the community was a wort
 
 Overall, the conference and the after show parties were a great opportunity to mingle with my peers, learn some new techniques, get a grip on accessibility and also meet people and make some new friends. The speakers were all of an excellent level, and for me learning of [their little wordpl@y][16] brought a little smile to my face and enhanced my experience more so. Here's to @media 2006!
 
+[1]: http://www.zeldman.com/
+[2]: http://www.happycog.com/clients/atmedia05/
 [3]: http://www.stopdesign.com/
 [4]: http://www.meyerweb.com/eric/tools/s5/
 [5]: http://www.stopdesign.com/present/2005/atmedia/tactical.pdf

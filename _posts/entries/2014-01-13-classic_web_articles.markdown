@@ -54,7 +54,6 @@ Written prior to Oliver's article (as if to further stress the importance of typ
 
 [10]: http://fivesimplesteps.com
 
-
 ### [Baseline Grids on the Web][11] (2012)
 [11]: http://jasonsantamaria.com/articles/baseline-grids-on-the-web
 
