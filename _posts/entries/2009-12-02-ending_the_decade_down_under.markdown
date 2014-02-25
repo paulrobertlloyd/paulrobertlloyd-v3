@@ -15,7 +15,7 @@ Again, trying to learn lessons from previous travels, I've decided to keep techn
 When I started planning this trip, I fully expected to spend the duration of it Australia, with possible stops in Perth and Canberra. Not having visited New Zealand before, I soon thought about spending some time on the islands. After reading more about the country, and talking to friends who had visited before, I've now settled on an itinerary largely based in New Zealand.
 
 {% figure My itinerary mapped. %}
-<div class="object map"><iframe width="680" src="http://a.tiles.mapbox.com/v3/paulrobertlloyd.map-1v3gdcs4.html#5/-36.8/161.3"></iframe></div>
+<div class="embed map mapbox"><iframe width="680" src="http://a.tiles.mapbox.com/v3/paulrobertlloyd.map-1v3gdcs4.html#5/-36.8/161.3"></iframe></div>
 {% endfigure %}
 
 * **17 December:** Depart London Heathrow

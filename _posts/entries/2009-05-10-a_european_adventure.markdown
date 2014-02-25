@@ -11,7 +11,7 @@ The first thing to note, is that I'm again travelling by train. I really enjoyed
 So which countries am I visiting? Europe is such a large continent, with many different cultures and landscapes, I was a bit overwhelmed at first as to which countries to visit. With a little help from the great team of advisors at [railselect.com][2], I settled on the following itinerary, leaving and returning to London's new St. Pancras International terminal via the Eurostar:
 
 {% figure My European rail destinations mapped. %}
-<div class="object map"><iframe width="680" src="http://a.tiles.mapbox.com/v3/paulrobertlloyd.map-vw9a5oh6.html#6/49.5/4"></iframe></div>
+<div class="embed map mapbox"><iframe width="680" src="http://a.tiles.mapbox.com/v3/paulrobertlloyd.map-vw9a5oh6.html#6/49.5/4"></iframe></div>
 {% endfigure %}
 
 * **10-11 May:** Cologne, Germany

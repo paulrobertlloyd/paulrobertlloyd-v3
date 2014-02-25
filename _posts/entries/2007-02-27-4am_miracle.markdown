@@ -9,6 +9,4 @@ Today we launched onto an unassuming world, the full glory of an all new Ning. I
 
 In the meantime, sit back relax, and watch Gina and Marc give a little background as to what Ning has just released, courtesy of Scoble.
 
-<div class="object podtech">
-  <embed type="application/x-shockwave-flash" src="http://podtech.net/player/podtech-player.swf?bc=none" flashvars="content=http://media1.podtech.net/media/2007/02/PID_010361/Podtech_NING_interview.flv&#38;totalTime=2011000&#38;permalink=http://podtech.net/home/2238/social-networking-with-ning-version-20" allowScriptAccess="always"/>
-</div>
+<div class="embed video podtech"><embed type="application/x-shockwave-flash" src="http://podtech.net/player/podtech-player.swf?bc=none" flashvars="content=http://media1.podtech.net/media/2007/02/PID_010361/Podtech_NING_interview.flv&#38;totalTime=2011000&#38;permalink=http://podtech.net/home/2238/social-networking-with-ning-version-20"/></div>

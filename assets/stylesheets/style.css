@@ -42,7 +42,8 @@ img.pull-right {
     height: 0;
     position: relative;
 }
-.embed iframe {
+.embed iframe,
+.embed embed {
     width: 100%;
     height: 100%;
     position: absolute;

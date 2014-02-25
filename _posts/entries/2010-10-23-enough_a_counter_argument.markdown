@@ -25,7 +25,7 @@ These are reasonable points, but I'd suggest they are no less valid if I delayed
 
 Indeed, this debate reminded me of 'The Story of Stuff' and the cyclical nature of our consumer driven society, where profit is valued over the longterm sustainability of our planet. I've embedded the video below, and I encourage you to watch it too.
 
-<div class="object youtube"><iframe src="http://youtube.com/embed/9GorqroigqM?showinfo=0"></iframe></div>
+{% oembed http://youtube.com/watch?v=9GorqroigqM %}
 
 Kris did make one suggestion that I hadn't considered however. He reminded me that I was paying a tariff that included the price of the phone, even though my original 18 month contract had expired. I've now moved to a cheaper SIM-only plan, saving me at least £10 a month -- yet another benefit to be had from *not* upgrading.
 
