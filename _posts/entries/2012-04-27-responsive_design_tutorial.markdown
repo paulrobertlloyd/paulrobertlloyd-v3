@@ -3,7 +3,6 @@ layout: post-entry
 title: Build a Responsive Website in a Week
 date: '2012-04-27 00:04:26 +0100'
 excerpt: Since returning from San Francisco, much of my spare time has been spent writing a tutorial for .net magazine. Published as part of their 'Responsive Week', this is for developers who want to learn about responsive web design but don't know where to start.
-post_id: 250
 ---
 Since returning from San Francisco, much of my spare time has been spent writing a tutorial for [.net magazine][1]. Published as part of their 'Responsive Week', this is for developers who want to learn about [responsive web design][2] but don't know where to start.
 

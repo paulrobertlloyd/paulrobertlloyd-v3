@@ -21,7 +21,6 @@ It's for this reason that when I decided to provide a short URL for this site, r
 [1]: http://tinyurl.com/
 [2]: http://adactio.com/journal/1566/
 
-<!--more-->
 
 ## Sentenced
 Another emerging trend has been to make URLs read like sentences, something first [pioneered by Chris Shiflet][3] at OmniTI, and similarly used on the current [Clearleft][4] site.

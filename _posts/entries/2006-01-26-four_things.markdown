@@ -31,7 +31,6 @@ Show me a bandwagon and I'll jump on it! Sadly I haven't been tagged, but as I'v
 * [Top Gear](http://www.bbc.co.uk/topgear/)
 * [Parkinson](http://www.itv.com/parkinson/) (though not as much since his defection to ITV)
 
-<!--more-->
 
 ## Four Places I Have Been on Vacation
 * Sydney, Australia

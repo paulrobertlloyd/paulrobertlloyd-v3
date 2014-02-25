@@ -3,7 +3,6 @@ layout: post-entry
 title: Dessie
 date: '2012-10-08 19:56:32 +0100'
 excerpt: A page on my website, dedicated to a cat.
-post_id: 261
 ---
 ![Dessie](/assets/images/2012/10/dessie.jpg)
 

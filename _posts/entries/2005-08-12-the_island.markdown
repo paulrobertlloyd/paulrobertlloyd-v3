@@ -15,7 +15,6 @@ Whilst their recovery has reversed their mental age, what keeps them going is th
 [2]: http://www.imdb.com/name/nm0424060/
 [3]: http://www.imdb.com/name/nm0000293/
 
-<!--more-->
 
 When we join Lincoln he is already starting to question his existence, has become friends with a (human) engineer (played by the excellent [Steve Busemi][4]) and finds his friendship with Jordan becoming increasingly more intimate. Upon discovering what really happens to those who are sent to the Island, he escapes, rescuing Jordan in the process.
 

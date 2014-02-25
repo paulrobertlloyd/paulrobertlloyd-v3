@@ -3,7 +3,6 @@ layout: post-entry
 title: Zerply
 date: '2011-08-23 21:45:33 +0100'
 excerpt: Zerply is a professional network that helps you find like minded people by tags, skills, location and more.
-post_id: 291
 ---
 [Zerply][1] is a professional network that helps you find like minded people by tags, skills, location and more. Essentially it's a simpler, classier replacement for LinkedIn. It gained a degree of traction this week after being [featured by Tina Roth Eisenberg][1], who perfectly summed up my problems with LinkedIn:
 

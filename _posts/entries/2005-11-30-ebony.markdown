@@ -3,7 +3,6 @@ layout: post-entry
 title: Ebony
 date: '2005-11-30 01:23:13 +0000'
 excerpt: On Monday, a beloved member of our family sadly nudged us no more.
-post_id: 37
 ---
 ![Ebony](/assets/images/2005/11/ebony.jpg)
 

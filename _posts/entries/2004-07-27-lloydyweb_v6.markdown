@@ -3,7 +3,6 @@ layout: post-entry
 title: LloydyWeb V6
 date: '2004-07-27 18:26:44 +0100'
 excerpt: So here it is. After many months of coding, tweaking, and design, an all new version of my site is now live.
-post_id: 18
 ---
 So here it is. After many months of coding, tweaking, and design, this all new version of my site is now live. I don't know if it's been harder building the site for me, or you having to wait for it.
 

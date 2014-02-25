@@ -3,7 +3,6 @@ layout: post-entry
 title: Ray
 date: '2005-01-21 12:00:00 +0000'
 excerpt: With my brother having already seen this movie 3 times and willing to see it again, I knew if I was to miss this film I would be kicking myself.
-post_id: 6
 ---
 ![Scenes from Ray](/assets/images/2005/01/ray.jpg)
 

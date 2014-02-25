@@ -3,7 +3,6 @@ layout: post-entry
 title: All Change!
 date: '2004-07-27 18:39:24 +0100'
 excerpt: It's totally coincidence that a new version of this website comes about at a time when a lot of things are changing in my life.
-post_id: 23
 ---
 It's totally coincidence that a new version of this website comes about at a time when a lot of things are changing in my life.
 

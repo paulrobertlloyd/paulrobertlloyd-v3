@@ -3,7 +3,6 @@ layout: post-entry
 title: My Greatest Run (Part 1)
 date: '2005-09-20 23:10:55 +0100'
 excerpt: Now that the aches and pains that follow a 13.1 mile run are slowly starting to disappear, time to tell you all about the 25th Great North Run.
-post_id: 33
 ---
 This year's Great North Run -- the 25th anniversary of the event -- saw a capacity entrance of 50,000 runners. Yet the hot weather brought a number of problems during the day that sadly included the death of four men.
 

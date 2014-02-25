@@ -16,7 +16,6 @@ A friend who brought their iPhone at the same time as me, recently upgraded 'bec
 [1]: /2010/01/2009_in_review/
 [2]: http://www.volvocars.com/uk/all-cars/volvo-c30/
 
-<!--more-->
 
 ## Undermined
 Yet on many occasions, [friends have questioned such criticism][3], especially given the amount of flying I've been doing over the last few years, which has not only countered other changes I've made but also undermined the example I've been trying to set.

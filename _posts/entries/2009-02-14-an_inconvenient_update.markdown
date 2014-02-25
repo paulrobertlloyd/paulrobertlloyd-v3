@@ -3,7 +3,6 @@ layout: post-entry
 title: An Inconvenient Update
 date: '2009-02-14 23:37:18 +0000'
 excerpt: In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message.
-post_id: 152
 ---
 In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message:
 

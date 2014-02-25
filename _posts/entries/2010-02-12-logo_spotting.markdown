@@ -3,7 +3,6 @@ layout: post-entry
 title: Logo Spotting
 date: '2010-02-12 00:10:20 +0000'
 excerpt: My love of detail is often reaffirmed by my noticing the almost inconsiderable tweaks in the designed environment around me.
-post_id: 184
 ---
 On flicking through the newspaper on the train home yesterday, I spotted an advertisement for Network Rail, the semi-nationalised body responsible for much of Britain's rail infrastructure.
 
@@ -24,7 +23,6 @@ The distinctive red triangle also moves closer to the text, and the two cut outs
 [1]: http://en.wikipedia.org/wiki/Network_Rail
 [2]: http://en.wikipedia.org/wiki/Railtrack
 
-<!--more-->
 
 ## MTV
 {% figure MTV: The original logo (1981) and the updated version (2010). %}

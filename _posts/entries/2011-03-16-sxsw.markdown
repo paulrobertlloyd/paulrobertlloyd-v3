@@ -3,7 +3,6 @@ layout: post-entry
 title: The Worst SXSW Ever Was My Best SXSW Ever
 date: '2011-03-16 18:05:15 +0000'
 excerpt: This years SXSW Interactive saw 1,041 sessions presented by 1,648 speakers, growing to such extent that its size now rivals that of the more popular music festival. Yet bigger doesn't necessarily mean better.
-post_id: 215
 ---
 ![A sign reading Austin](/assets/images/2011/03/sxsw.jpg)
 
@@ -15,7 +14,6 @@ Now in its 16th year, this 5-day event saw [1,041 sessions][1] presented by 1,64
 
 [1]: http://lanyrd.com/2011/sxsw/
 
-<!--more-->
 
 ## Of The Brands
 Alongside the enlarged programme, the event took on an overtly commercial tone, with permanent venue signage being replaced with that of large corporate sponsors. Within sight of my hotel lay the Pepsi Max Lot and the CNN Grille, whilst every available free carpet tile in the conference centre was obscured by some sort of promotional activity. Be under no illusion, this is no grassroots event. You are here to be sold to.

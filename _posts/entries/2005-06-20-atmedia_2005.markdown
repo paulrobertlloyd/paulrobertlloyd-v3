@@ -12,7 +12,6 @@ After a quick coffee (and trying to spot anyone familiar looking), it was on to 
 [1]: http://www.zeldman.com/
 [2]: http://www.happycog.com/clients/atmedia05/
 
-<!--more-->
 
 ## The Presentations
 The range of presentations was roughly split 50/50: Web Standards (CSS/XHTML/Design/JavaScript) and Accessibility, but of all the presentations, those given by [Douglas Bowman][3] were the most enjoyable. Whilst many of the speakers presentation slides were all of excellent quality ([with S5 almost becoming a standard in itself][4]), Bowman's Keynote powered presentations were absolutely beautiful to behold. Day Two's [Tactical Manoeuvres][5] was perhaps my favourite, and with it I hope to have picked up several new techniques I can use within my sites.

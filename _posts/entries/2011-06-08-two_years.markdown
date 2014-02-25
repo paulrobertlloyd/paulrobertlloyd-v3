@@ -3,7 +3,6 @@ layout: post-entry
 title: Two Years
 date: '2011-06-08 23:46:23 +0100'
 excerpt: Two years ago I joined Clearleft. Now with the responsive design movement in full swing, I look back over the last two years to see how much my approach to web design has changed.
-post_id: 210
 ---
 Two years ago today [I joined Clearleft][1]. It was only by virtue of a peculiar career path -- one that saw me working for a company in a different country -- that I was introduced to its three founders, and soon after given the opportunity to join their respected agency.
 
@@ -22,7 +21,6 @@ I often take this resource for granted, as I build an assumed knowledge that oth
 [3]: /2010/07/are_web_design_conferences_becoming_too_safe/
 [4]: http://multipack.co.uk/
 
-<!--more-->
 
 ## A More Focused Role
 Deciding to work at Clearleft did come with some downsides though. I pride myself on being able to build what I design -- indeed I think this is what attracted me to web design in the first place. Yet my role so far has been that of a 'Visual Designer', meaning I'm less likely to be producing the HTML and CSS that has been spinning around in my head as I've been creating a design.

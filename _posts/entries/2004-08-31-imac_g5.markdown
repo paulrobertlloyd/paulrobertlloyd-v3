@@ -3,7 +3,6 @@ layout: post-entry
 title: Shades of 1984
 date: '2004-08-31 21:38:51 +0100'
 excerpt: Apple today announced the third generation iMac.
-post_id: 25
 ---
 ![Third Generation iMac](/assets/images/2004/08/imac_g5.jpg)
 

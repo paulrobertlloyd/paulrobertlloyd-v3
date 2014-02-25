@@ -9,7 +9,6 @@ It's only April, but I think I have already found the musical highlight of 2005,
 
 ![Back to Bedlam cover](/assets/images/2004/11/back_to_bedlam.png){: .pull-right} I first got a taste for James Blunt's music after downloading <cite>High</cite>, available as a free download single of the week on iTunes. This can sometimes be hit or miss, but either way it is free so there is nothing to loose. But just hearing a second track during a TV commercial for the album convinced me I should take the gamble and buy it. The gamble paid off.
 
-<!--more-->
 
 Kicking of with the uplifting debut single <cite>High</cite>, followed by the amazing <cite>You're Beautiful</cite> -- a song that at first may seem a little unoriginal -- it quickly grows on your with a memorable guitar rift and its true tale of an unattainable romance. The second single to be taken from the album <cite>Wisemen</cite> begins with a sound not too un-similar to Badly Drawn Boy (not surprising given both have been produced by Tom Rothrock). It then hooks you in further with its catchy chorus.
 

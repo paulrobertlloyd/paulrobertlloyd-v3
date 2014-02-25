@@ -13,7 +13,6 @@ This pseudo-patriotism has long masked England's failings, yet I wonder how much
 
 [1]: /articles/fcplc/
 
-<!--more-->
 
 Many of our domestic clubs now find themselves saddling huge amounts of debt, either since being sold to [individuals with questionable business objectives][2], or simply down to bad financial management. The Football Association, whose governance is out-dated and often susceptible to the whims of the more powerful Premier League, means the tough regulation required is painfully absent. Meanwhile players are so massively overpaid that their financial success has become detrimental to the grassroots of the game.
 

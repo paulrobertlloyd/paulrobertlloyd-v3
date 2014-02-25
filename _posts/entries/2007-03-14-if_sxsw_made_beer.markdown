@@ -28,7 +28,6 @@ Cue the obligatory name dropping: [Tantek Çelik][3], [Jeremy Keith][4], [Flat H
 [10]: http://www.lawver.com/
 [11]: http://www.goowy.com/
 
-<!--more-->
 
 ## Celebrity
 It continues... passed [Ze Frank][12] on the stairs at the Yahoo party, saw the actor [Paul Rudd][13] being interviewed at the Convention Centre, and the debate continues as to whether we saw [Rainn Wilson][14] in our hotel lobby or not. However, meeting [Robert Scoble][15] was bit of a let down, his eyes fixed firmly on his laptop (probably twittering) whilst me and [Kyle][16] introduced ourselves -- poor show.

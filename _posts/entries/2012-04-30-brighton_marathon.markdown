@@ -21,7 +21,6 @@ I knew that to complete the race, I would have to set targets and continually re
 [1]: /2012/04/responsive_design_tutorial/
 [2]: http://twitter.com/roobottom/status/186488028032802816
 
-<!--more-->
 
 Getting to 18 miles would be unknown territory, although I should have reached this distance during training. Yet by this point, having soaked up the support of the crowd, drunk liquids (little and often) and nibbled on the odd snack, I still felt good. I resisted temptation to over-indulge, knowing what it felt like to run on a full stomach.
 

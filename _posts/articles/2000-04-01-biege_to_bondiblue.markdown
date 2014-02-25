@@ -39,7 +39,6 @@ It was this attention to every detail from the colour and material of the machin
 
 * * *
 
-<!--more-->
 
 ## The iMac
 Apple's success was short lived. The introduction of the Macintosh in 1984 was initially successful but due to its small amount of RAM and lack of hard drive connectivity people soon lost interest. Not long afterwards boardroom arguments led to the resignation of Steve Jobs who left to form is own company -- NeXT.

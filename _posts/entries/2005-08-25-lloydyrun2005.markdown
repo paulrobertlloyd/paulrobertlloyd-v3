@@ -3,7 +3,6 @@ layout: post-entry
 title: Help Me Raise £500 for the Bobby Moore Fund for Cancer Research UK
 date: '2005-08-25 14:49:52 +0100'
 excerpt: In just over three weeks time, I will once again travelling up to the lovely North-East to take part in this years Great North Run.
-post_id: 47
 ---
 In just over three weeks time, I will once again travelling up to the lovely North-East and running the Great North Run. Starting in Newcastle and finishing by the coast at South Shields, the totally distance is 13.1 miles.
 

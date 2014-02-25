@@ -3,7 +3,6 @@ layout: post-entry
 title: Styleguides for the Web
 date: '2010-12-05 23:09:45 +0000'
 excerpt: Clearly communicating the fundamental aspects of your design at the different stages of a project can help you better communicate with clients, developers and your peers, ensuring your vision doesn't get lost in the transformation from static comp to dynamic ever changing website.
-post_id: 206
 ---
 Last month I spoke at ['Multipack Presents... The Design Process'][1]. This was the first opportunity to present a talk I've been preparing about using styleguides to better communicate design with colleagues, developers and clients. A summary of this talk follows, but you can also:
 
@@ -30,7 +29,6 @@ In an era when no directors were given final cut, Alfred Hitchcock found a way t
 [3]: http://s3.paulrobertlloyd.com/downloads/styleguidesfortheweb_2010-11_notes.pdf
 [4]: http://2010.dconstruct.org/speakers/john-gruber
 
-<!--more-->
 
 ## What Is a Styleguide?
 Branding agencies achieve this by producing styleguides; documents that explain how a brand is constructed, often using examples of how to use -- and how not to use -- the various brand assets they've created. Styleguides can include the following:

@@ -3,7 +3,6 @@ layout: post-entry
 title: Spring Back
 date: '2007-04-24 23:08:29 +0100'
 excerpt: A blog entry written whilst sat on a Californian bound plane, reflecting on the last week spent back home in the UK.
-post_id: 117
 ---
 Once again I write this blog entry sat on a Californian bound plane having spent the last week back home in the UK. The official reason for my return was so that I could attend Future of Web Design conference in London; the unofficial reason just the need for a break from stateside living, and a chance to catch up with some sorely missed friends.
 

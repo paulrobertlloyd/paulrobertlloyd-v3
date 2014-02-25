@@ -3,7 +3,6 @@ layout: post-entry
 title: Travis Live at The Fillmore, San Francisco
 date: '2007-05-05 16:46:32 +0100'
 excerpt: Last Wednesday night I had the good fortune to see Travis at one of only two live gigs they played in America, after their appearance at the Coachella music festival near Los Angeles.
-post_id: 116
 ---
 ![Travis Live at The Fillmore, San Francisco](/assets/images/2007/05/travis_fillmore.jpg)
 

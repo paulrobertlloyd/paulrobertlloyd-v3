@@ -3,7 +3,6 @@ layout: post-entry
 title: Thoughts on Adobe Edge
 date: '2012-10-06 00:37:42 +0100'
 excerpt: Adobe recently announced a new suite a products and services for web developers, called Adobe Edge. .net Magazine asked me to provide some thoughts.
-post_id: 260
 ---
 Adobe recently announced a new suite a products and services for web developers, called [Adobe Edge][1]. It includes the following components:
 

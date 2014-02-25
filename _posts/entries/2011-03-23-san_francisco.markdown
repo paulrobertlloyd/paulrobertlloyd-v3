@@ -3,7 +3,6 @@ layout: post-entry
 title: I Never Left My Heart in San Francisco
 date: '2011-03-23 00:17:33 +0000'
 excerpt: As I walked the streets of San Francisco, buoyed by their comfortable familiarity and unique soundtrack, I knew that this was still a city I could never call home.
-post_id: 214
 ---
 Following five days in Austin, I ventured on to San Francisco. A quick stop arranged primarily to catch up with friends, I made sure my stay would be long enough to see all the sights I neglected to visit whilst I was a resident.
 
@@ -15,7 +14,6 @@ On my first day in the city, I took advantage of my hosts proximity to the Marin
 
 After finding some lunch in the Ferry Building, I began my hunt for an Internet cafe. Not long ago I suspect this city had more of these per capita than any other, but it's probably Wi-Fi hotspots that maintain this position now. Only once I had crossed the poverty line that is Fifth and Market was I able to find a friendly cafe with a suite of connected iMacs -- and a proprietor all to happy to charge me 16 cents a minute for their use.
 
-<!--more-->
 
 The following day I visited SFMoMA, a modern art museum that is far more spacious than you'd suspect from the outside. I was struck by how consistent this building is styled; its strong linear patterned brickwork exterior imitated inside with rough and smooth marble walls and careful wood detailing.
 

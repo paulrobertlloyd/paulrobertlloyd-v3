@@ -3,7 +3,6 @@ layout: post-entry
 title: Geekend
 date: '2004-09-20 00:38:09 +0100'
 excerpt: This weekend has, more than any other weekend, seen me glued to a 17" display.
-post_id: 27
 ---
 This weekend has, more than any other weekend, seen me glued to this 17" display. Whilst Saturday was pretty wasted in respect that it was fine tuning this blog (and due to Movable Types shortcomings, very slowly and painfully), Sunday has seen me get my system sorted so I can finally preview my increasing number of dynamic sites locally.
 

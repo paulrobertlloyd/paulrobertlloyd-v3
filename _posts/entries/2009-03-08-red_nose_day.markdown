@@ -3,7 +3,6 @@ layout: post-entry
 title: Do Something Funny for Money
 date: '2009-03-08 11:20:04 +0000'
 excerpt: This Friday is Red Nose Day, the main fundraising event in support of Comic Relief, a charity that supports projects in the UK and Africa.
-post_id: 163
 ---
 [![Do Something Funny for Money for Red Nose Day '09](/assets/images/2009/03/rednoseday.png){: .pull-right}](http://rednoseday.com/donate)This Friday is Red Nose Day, the main fundraising event in support of Comic Relief, a charity that supports projects in the UK and Africa. As well as supporting a worthy cause, on another level, I think the event also promotes our nations better nature: the inventiveness of our fund-raising activities, our love of comedy and our willingness to support good causes.
 

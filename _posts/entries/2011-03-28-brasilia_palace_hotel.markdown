@@ -3,7 +3,6 @@ layout: post-entry
 title: The Brasilia Palace Hotel
 date: '2011-03-28 20:28:04 +0100'
 excerpt: For anyone coming to Brasilia for its modernist architecture, no visit would be complete without a stay at this hotel. Designed by Oscar Niemeyer and opened in 1958, it hosted dignitaries such as Queen Elizabeth and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
-post_id: 213
 ---
 ![The Brasilia Palace Hotel](/assets/images/2011/03/brasilia_palace_hotel.jpg)
 
@@ -28,7 +27,6 @@ This modernity is most notable in the bathroom however, with an appearance simil
 
 In the end, I couldn't decide whether I would have preferred forgoing these modern comforts for an experience more synonymous with the building's history. Yet it has to be remembered, this is a hotel, not a museum.
 
-<!--more-->
 
 ## Stepping Back In Time
 Beyond the confines of your room, you could easily imagine yourself here during the hotels historic golden era. There was a distinctly ghostly and mysterious feel to the place, especially in the lobby and dinning areas that, by being largely empty, allowed the spaces to speak louder than any of the objects within them.

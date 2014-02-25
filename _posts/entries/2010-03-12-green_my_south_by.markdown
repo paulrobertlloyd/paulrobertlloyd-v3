@@ -3,7 +3,6 @@ layout: post-entry
 title: Green My South By
 date: '2010-03-12 02:42:00 +0000'
 excerpt: Once again, I feel the duty falls upon me to remind those attending this year's SXSW festival in Austin, that you really need not pick up that big, heavy, cumbersome and frankly useless bag of marketing junk.
-post_id: 191
 ---
 Once again, I feel the duty falls upon me to remind those attending this year's SXSW festival in Austin, that you really need not pick up that big, heavy, cumbersome and frankly useless bag of marketing junk.
 

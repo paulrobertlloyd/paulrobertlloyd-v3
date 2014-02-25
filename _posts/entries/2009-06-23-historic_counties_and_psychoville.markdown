@@ -29,7 +29,6 @@ Counties are important -- not only useful for way-finding, but as entities to af
 [8]: http://en.wikipedia.org/wiki/Local_Government_Act_1985
 [9]: http://en.wikipedia.org/wiki/Unitary_authority#United_Kingdom
 
-<!--more-->
 
 ## Psychoville
 Such confusion was evident when I sat down to watch [Psychoville][10] last Friday. The first episode of this new dark-comedy series focused on letters being sent to five characters around the country, but it was striking how each location was referred to using these different understandings of a county. 

@@ -13,7 +13,6 @@ As I walked from the NIA (past the 'Olympian Entrance', a remnant of the city's 
 
 On reaching Centenary Square, my path was obstructed by a large construction area, where Birmingham's next great architectural hope, the [Library of Birmingham][4] is being built. Designed by Dutch architects [Mecanoo Architecten][5], and scheduled for completion in 2013, this building is far from unremarkable.
 
-<!--more-->
 
 A transparent glass building, wrapped in a delicate metal filigree, it will occupy a space between the Birmingham Repertory Theatre (The REP), a concrete clad building designed in 1964, and Baskerville House, a limestone building designed in 1936. These buildings will then inform the space immediately in front of them, dividing Centenary Square into three public spaces; one for monuments (its centrepiece being the Hall of Memory), one for culture (with a large sunken patio area) and one for outside entertainment.
 

@@ -3,7 +3,6 @@ layout: post-entry
 title: Remembering Brasilia
 date: '2011-07-22 22:31:56 +0100'
 excerpt: Somewhat forgotten in the last few months has been my thoughts on Brasilia which I visited all the way back in March. For such an incredibly city it seems remiss not to record my thoughts before they fade into distint memory.
-post_id: 219
 ---
 Somewhat forgotten in the last few months have been my thoughts on Brasilia, which I visited all the way back in March. For such an incredible experience it seems remiss not to record my thoughts before they fade into distant memory. I've written separately about [my architectural impression of the city][1], but here is a brief summary of the three days I spent there.
 
@@ -17,7 +16,6 @@ I arrived at the hotel just a day after the state visit of President Obama, mean
 
 [1]: /2011/07/the_architecture_of_brasilia/
 
-<!--more-->
 
 With no clean clothes and a dead camera battery, my first full day in Brasilia wasn't to be spent hunting for good photo opportunities but familiarisation with the city and the language. Soon enough, upon visiting the museum I was able to conduct a small conversation in Portuguese, and the rudimentary nature of my language skills somehow saw me gain access into the corridors of power at the [National Congress][2]. I'm not actually sure if the public are allowed into the part of the building I found myself, but my brother later told me that many Brazilians believe that if you speak English you're probably important enough to be there!
 

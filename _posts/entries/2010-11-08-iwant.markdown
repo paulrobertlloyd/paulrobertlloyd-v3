@@ -16,7 +16,6 @@ It is with this perspective that I wish to explain the frustration and annoyance
 [3]: /tags/sustainability
 [4]: http://buildconf.com/
 
-<!--more-->
 
 This has been an astonishing year for Apple having launched the iPad, the iPhone 4 and now a refreshed line of MacBook Airs. There is no doubting the desirability of these machines, or the impact they've had on the market as competitors desperately try to match Apple's pace of innovation and development. As web designers whose work is impacted by these devices, we need to use them so we can understand the opportunities they present and limitations they suffer.
 

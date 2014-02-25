@@ -3,7 +3,6 @@ layout: post-entry
 title: Super Powers
 date: '2005-07-25 22:27:02 +0100'
 excerpt: As I'm getting older, I'm noticing that I am able to perform more of those certain little tricks that were missing throughout my childhood.
-post_id: 44
 ---
 As I'm getting older, I'm noticing that I am able to perform more of those certain little tricks that were missing throughout my childhood.
 

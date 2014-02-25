@@ -3,7 +3,6 @@ layout: post-entry
 title: All Good Things
 date: '2005-01-11 21:36:13 +0000'
 excerpt: Another MacWorld Expo, another slew of gifts from Apple.
-post_id: 11
 ---
 ![The new Mac mini](/assets/images/2005/01/all_good_things.jpg)
 
@@ -11,7 +10,6 @@ The new [Mac mini][1] is just what the company has needed to have been selling f
 
 [1]: http://www.apple.com/macmini/
 
-<!--more-->
 
 The Mac mini is beautiful as you'd expect, and acts as a great introduction to the world of Macintosh. Although it would seem that welcome isn't too warm -- I can't help feeling that not including a keyboard and mouse is a little bit on the tight side. It's no secret that Apple is aiming this sub-£400 product at the iPod user, impressed with the iPods design and ease of use and perhaps looking to move to Mac. They now have a viable upgrade path, and can keep hold of their monitor and other existing peripherals, yet I'm sure many of these potential customers will have systems that don't use USB keyboards and mice and will have to purchase (perhaps budget) peripherals, thus diminishing the experience.
 

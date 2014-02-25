@@ -17,7 +17,6 @@ Whilst it's great to see consistency brought back across the radio services (if 
 
 Like fellow [Multipacker][1] Andy Higgs, who has also written [his thoughts on the new identities][2], I will provide my thoughts on each logo separately below. Whilst they work nicely as a set (oooh, colours!), lets not forget that they need to work individually too.
 
-<!--more-->
 
 ## Radio 1
 If you want to see how your licence fee gets spent, watch how every outside broadcasting truck, station furniture, website, etc gets replaced with this 'new' logo, whilst the only difference is the addition of a serif ascender to the once clean and simple logo. The change is so subtle to ask why make the change at all?

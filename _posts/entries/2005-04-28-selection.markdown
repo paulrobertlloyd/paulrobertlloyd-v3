@@ -3,7 +3,6 @@ layout: post-entry
 title: Selection
 date: '2005-04-28 01:07:56 +0100'
 excerpt: This May 5th is the General Election. Who should I vote for? Should I even vote at all? As we head into the final week of campaigning, I way up the choices and try to convince myself that my vote actually counts.
-post_id: 10
 ---
 ![Do politics. Vote on May 5th](/assets/images/2005/04/dopolitics.gif){: .pull-left} When I was younger, I was big on politics. In 1990 I was perhaps the only kid on the playground actually interested in who would succeed Margaret Thatcher (I think I was batting for Douglas Hurd). At the 1992 election, I was only 12, but convinced that the Conservative Party was the only party anyone should vote for. Of course this had much to do with upbringing, and little (if anything) to do with policy.
 
@@ -13,7 +12,6 @@ There is one party that has seen it's popularity sore over the years -- 'none of
 
 I have always believed that we should not take the right to vote for granted, especially  when people have died campaigning for it, and those in other countries long to have such power. But do we actually have any 'power'? It's no secret that the only voters that matter are the swinging type in the marginal constituencies. Regardless of who wins, it's a sure bet that a government will make everything a.) more complicated and b.) more expensive. In the end I have come to the conclusion that whether it is worth anything or not, I should still exercise my right, if only to show I'm still watching what Whitehall is trying to get away with.
 
-<!--more-->
 
 ## Labour: Blair's War
 ![Labour Party logo](/assets/images/2005/04/labour.gif){: .pull-right} What was once their greatest asset is now undoubtedly their greatest weakness. I find it quite ironic for a Prime Minister that's big on words followed by little or no action, to take this country to war with Iraq -- a war that was shaky at best. This time his words were followed up with as much action as close-buddy-old-pal Bush required. An apology? He can't even accept he was wrong.

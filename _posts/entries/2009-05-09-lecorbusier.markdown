@@ -3,7 +3,6 @@ layout: post-entry
 title: Le Corbusier, The Art of Architecture
 date: '2009-05-09 22:12:38 +0100'
 excerpt: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
-post_id: 156
 ---
 ![Le Corbusier](/assets/images/2009/05/lecorbusier.jpg)
 

@@ -3,7 +3,6 @@ layout: post-entry
 title: Design Principles
 date: '2010-12-21 23:22:30 +0000'
 excerpt: I've been thinking about redesigning this website for the last six months, but haven't been able to find a strategy for making these changes happen. To keep this project on course, I've defined a set of design principles.
-post_id: 205
 ---
 Over the Christmas break I'm hoping to find some time to redesign this site; it's been two years since I last reviewed it in any great detail. I've been thinking about this project for the last six months, but hadn't nailed down a strategy for making these changes happen.
 
@@ -16,7 +15,6 @@ I'm making them public (as [Kate Rutter][3] suggests in her article [Making Desi
 [3]: http://www.adaptivepath.com/aboutus/kate.php
 [4]: http://www.adaptivepath.com/ideas/essays/archives/001123.php
 
-<!--more-->
 
 ## Content First
 The design of this site should allow the content to dictate its layout and appearance, not the other way round. Be it allowing for appropriate sized imagery and illustrations, providing different means of highlighting relevant text or simply ensuring the primary content is prominent, easy to read and free of distraction.

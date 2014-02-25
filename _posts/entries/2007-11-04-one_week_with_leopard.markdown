@@ -15,7 +15,6 @@ Given that I needed my Mac for my new job that Monday, I took the decision to pe
 
 One week in, I'm now reasonably pleased, but there are definitely areas ripe for improvement. These are mainly around the newer features, which I guess is to be expected. Anyway, here are some of my initial thoughts on the updated OS one week in.
 
-<!--more-->
 
 ## Time Machine
 Leopard's signature feature [Time Machine][1] is great. I think Apple deserves a huge round of applause for making an important yet pretty dull (and often complicated) process of backing up your data really easy *and* really fun.

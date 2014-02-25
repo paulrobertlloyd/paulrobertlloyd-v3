@@ -3,7 +3,6 @@ layout: post-entry
 title: 2009 in Review
 date: '2010-01-31 21:26:20 +0000'
 excerpt: Holiday and illness means this is the latest I've got round to writing a yearly review. Whilst today is possibly the latest I can get away with such a post, I still think it's important to reflect on the achievements of the previous twelve months.
-post_id: 187
 ---
 2009 began with my decision to rise early on that first morning and take a walk around [a frost glazed Cannock Chase][1]. This was really enjoyable, and something I hoped to do every year, yet somehow I ended this one [watching fireworks launch over Sydney Harbour bridge][2] -- two experiences that couldn't have been more different.
 
@@ -27,7 +26,6 @@ Working with Clearleft again in May, [Andy][6] asked me if I would like to join 
 [7]: /2009/06/clearleft
 [8]: /2009/06/social_media_icons
 
-<!--more-->
 
 ## A Great Year For Travel
 Last year turned out to be another great year for travel, and thankfully one a little less US-centric. However, rather unexpectedly, my first trip overseas was to San Francisco in January. As the 'Media Hub' project was ramping up at Apture, Tristan asked if I could come out to their offices to spend a week face-to-face with the team. With much of the cost to be covered by them, and with the real possibility of making some progress on that particular project, I boarded another San Francisco bound flight.

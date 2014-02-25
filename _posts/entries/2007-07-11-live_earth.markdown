@@ -21,7 +21,6 @@ The line put out by the organisers however that this was a 'green concert', with
 
 So having watched the concert highlights, has my position changed? Well, only slightly, yet I still feel incredibly negative about it on the whole.
 
-<!--more-->
 
 Here are some of the thoughts I had whilst watching:
 

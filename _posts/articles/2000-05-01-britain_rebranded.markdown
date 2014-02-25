@@ -30,7 +30,6 @@ When the British Tourist Authority (BTA) announced that it was to rebrand itself
 ![BTA logos, old and new](/assets/images/articles/britain_rebranded/bta_logos.png)
 {% endfigure %}
 
-<!--more-->
 
 ## New Labour, New Britain
 Aware of Britain's identity problem, the Design Council assembled a discussion group that included well-known names from the world of broadcasting, business, film, journalism and design (Alan Yentob, Robert Ayling, Sir David Puttnam, John Hegarty). The results were released in a discussion paper entitled <cite>New Brand for a New Britain</cite> which called for the government to position Britain "as one of the world's most forward-thinking, innovative and creative nations".

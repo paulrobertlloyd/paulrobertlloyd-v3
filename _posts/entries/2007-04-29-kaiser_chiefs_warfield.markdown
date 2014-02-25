@@ -3,7 +3,6 @@ layout: post-entry
 title: Kaiser Chiefs Live at The Warfield, San Francisco
 date: '2007-04-29 15:35:50 +0100'
 excerpt: The Warfield in San Francisco, and seats on the front row of the upper level, perfect for watching the Kaisers.
-post_id: 114
 ---
 ![Kaiser Chiefs Live at The Warfield, San Francisco](/assets/images/2007/04/kaiser_chiefs_warfield.jpg)
 

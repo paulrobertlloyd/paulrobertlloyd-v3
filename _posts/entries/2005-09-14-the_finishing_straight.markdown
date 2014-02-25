@@ -3,7 +3,6 @@ layout: post-entry
 title: 'LloydyRun 2005: The Finishing Straight'
 date: '2005-09-14 00:01:10 +0100'
 excerpt: As this Sunday's Great North Run looms ever closer, I have finally pulled my finger out and super-charged all efforts to raise £500.
-post_id: 38
 ---
 As this Sunday's Great North Run looms ever closer, I have finally pulled my finger out and super-charged all efforts to try and reach the magic £500 total I am aiming to raise for the Bobby Moore Fund for Cancer Research UK.
 
@@ -11,7 +10,6 @@ E-mail and text message campaigns, blog posts, websites (including at the last t
 
 [1]: /tags/running/
 
-<!--more-->
 
 ## Hall of Fame
 Below is a list of all those who have all brilliantly pledged sponsorship and support so far -- hopefully this list will continue to grow and grow in the final days before Sunday's big run!

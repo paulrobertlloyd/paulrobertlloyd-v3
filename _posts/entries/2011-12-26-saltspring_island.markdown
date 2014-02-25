@@ -3,7 +3,6 @@ layout: post-entry
 title: Across the Salish Sea
 date: '2011-12-26 15:05:26 +0000'
 excerpt: After eight days exploring North America, it was time to visit some of its more westerly extremities. Flying out from Toronto, my first stop was Saltspring Island, via Vancouver Airport and a float plane.
-post_id: 233
 ---
 ![Looking across the Salish Sea](/assets/images/2011/12/saltspring_island.jpg)
 

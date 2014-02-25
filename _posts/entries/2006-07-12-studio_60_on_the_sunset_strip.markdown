@@ -3,7 +3,6 @@ layout: post-entry
 title: Studio 60 on the Sunset Strip
 date: '2006-07-12 02:06:37 +0100'
 excerpt: If ever there was a reason to return to the States as quickly as possible, it would be to see the new Aaron Sorkin drama series 'Studio 60 on the Sunset Strip'.
-post_id: 62
 ---
 ![The cast of Studio 60 on the Sunset Strip](/assets/images/2006/07/studio_60_on_the_sunset_strip.jpg)
 

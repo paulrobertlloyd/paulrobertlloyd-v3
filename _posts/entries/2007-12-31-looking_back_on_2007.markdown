@@ -29,7 +29,6 @@ It is no surprise then that shortly afterwards I resigned, at the time with a vi
 [3]: http://en.wikipedia.org/wiki/Kelly_Goto
 [4]: http://www.gotomedia.com/
 
-<!--more-->
 
 ## Travel
 Travel was a big theme of 2007, and whilst most of it was US based, it did allow me to get a more rounded view of the country.

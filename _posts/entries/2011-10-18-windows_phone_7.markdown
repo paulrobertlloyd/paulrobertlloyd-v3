@@ -3,7 +3,6 @@ layout: post-entry
 title: A Week with Windows Phone 7
 date: '2011-10-18 23:49:26 +0100'
 excerpt: With three years of iPhone ownership I've become accustomed to the design and behaviour of iOS, yet at the same time ignorant of other smartphone platforms. Thanks to Clearleft's new mobile testing environment, I can now spend a week or so with different operating systems to get a feel for how they differ. First up; Windows Phone 7.
-post_id: 227
 ---
 ![Windows Phone 7](/assets/images/2011/10/windows_phone_7.jpg)
 
@@ -16,7 +15,6 @@ I've watched the development of this platform from afar and been impressed by wh
 
 The print tradition from which the Metro language is derived is clear from the outset; many screens could be enlarged and hung up on the wall as posters, such is their typographic beauty. Microsoft should be applauded for innovating in an area where others seem happy to replicate the Apple aesthetic.
 
-<!--more-->
 
 Windows Phone 7 is innovative beyond the underlying design language. A home screen which displays 'tiles' containing snippets of relevant information (number of new emails, next appointment, missed calls etc.) makes the notification badges on iOS look positively simplistic.
 

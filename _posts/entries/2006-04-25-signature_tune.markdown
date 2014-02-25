@@ -3,7 +3,6 @@ layout: post-entry
 title: Signature Tune
 date: '2006-04-25 10:05:28 +0100'
 excerpt: To make up for the lack of 'life commentary' on this blog these last few weeks, let me allow you to explore my musical taste.
-post_id: 74
 ---
 To make up for the lack of 'life commentary' on this blog these last few weeks, let me allow you to explore my musical taste. Created with the wonderful [iTunes Signature Maker](http://www.jasonfreeman.net/itsm/).
 

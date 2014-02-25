@@ -3,7 +3,6 @@ layout: post-entry
 title: Club Dread
 date: '2004-07-02 12:00:00 +0100'
 excerpt: As let downs go, this may be up there.
-post_id: 3
 ---
 ![Scene from Club Dread](/assets/images/2004/07/club_dread.jpg)
 

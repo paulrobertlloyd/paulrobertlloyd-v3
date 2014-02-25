@@ -3,7 +3,6 @@ layout: post-entry
 title: One Man and His Dog
 date: '2006-07-18 21:13:49 +0100'
 excerpt: At the weekend, my mum told me a story about my brother from when we were younger, that I have absolutely no recollection of what-so-ever.
-post_id: 85
 ---
 At the weekend, my mum told me a story about my brother from when we were younger, that I have absolutely no recollection of what-so-ever. When he was 11 (I would have been 13, so this can't have been long after my family moved to Walsall to run our [boarding kennels][1]) he took care of a rescued dog that was boarding with us at that time.
 

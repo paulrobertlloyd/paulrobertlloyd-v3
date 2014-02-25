@@ -25,7 +25,6 @@ In retrospect, it's easy to see that these sites -- produced during a period of 
 [4]: http://www.bbc.co.uk/blogs/bbcinternet/2010/04/the_relaunch_of_the_doctor_who.html
 [5]: http://www.bbc.co.uk/blogs/bbcinternet/2010/05/the_new_comedy_website.html
 
-<!--more-->
 
 ## BBC News Site Launch
 Fast forward to July, and the BBC finally launched a [top to bottom redesign][6] of its news website in full conformance with GVL3 -- which itself launched as part of a larger [Global Experience Language][7] (GEL) project.

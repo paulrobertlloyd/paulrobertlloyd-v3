@@ -3,7 +3,6 @@ layout: post-entry
 title: Ampersand & More
 date: '2011-05-13 23:37:48 +0100'
 excerpt: Much of the excitement has come in the form of web conferences, and looking back, I find it surprising just how many I've attended this year already.
-post_id: 211
 ---
 Hard to believe that it is May already; another year that's flying by. Luckily it has been fairly fun packed so far, with much of this excitement thanks to the many web conferences I've been to this year. It kicked off with [The Design of Understanding][1] and [New Adventures][2] in January, with SXSW following in March, and only last month I was attending [UX London][3]. It hasn't just been the big events either; tomorrow sees a mobile focused [Multipack Presents][4], which due to its growing popularity has now relocated to a larger venue.
 
@@ -21,7 +20,6 @@ Still, I'm an attendee at heart, and if there is one thing that governs my choic
 [8]: http://oxford.geeknights.net/2011/apr-13th/
 [9]: http://adactio.com/journal/4557/
 
-<!--more-->
 
 ## Ampersand
 With that in mind, and excusing the obvious bias, I'm massively looking forward to [Ampersand][10], Clearleft's new conference tightly focused around web typography. This is a topic which, as [Rich suggests][11], many designers would benefit from having a deeper understanding:

@@ -3,7 +3,6 @@ layout: post-entry
 title: The Web Native Designer
 date: '2011-09-25 23:06:34 +0100'
 excerpt: A summary of the presentation I gave at Geek in the Park about what it means to design for the web in a way that is appreciative of the platform.
-post_id: 225
 ---
 Last month I spoke at [Geek in the Park][1] about what it means to design for the web in a way that is appreciative of the platform. This followed on from [a similar talk I gave at an APA event][2] earlier in the year. A summary follows, but you can also:
 

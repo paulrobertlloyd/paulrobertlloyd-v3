@@ -3,7 +3,6 @@ layout: post-entry
 title: The King's Speech
 date: '2011-02-13 23:13:23 +0000'
 excerpt: The King's Speech is undoubtedly one of the most successful independent British films ever made, yet some see this popularity as problematic given the artistic licence given to the events it portrays.
-post_id: 203
 ---
 ![Colin Firth in The King's Speech](/assets/images/2011/02/the_kings_speech.jpg)
 
@@ -13,7 +12,6 @@ This period of history appears to be enjoying a renaissance in both film and on 
 
 As if to highlight this overlap, the first scene of the King's Speech depicts a BBC Radio Announcer carefully readying himself prior to introducing the closing ceremony of the Empire Exhibition in 1925. This announcer was [Adrian Scarborough][5], who also played Mr. Pritchard in Upstairs, Downstairs.
 
-<!--more-->
 
 The closing speech is given by Prince Albert, Duke of York, second son of George V but affectionately known within the Royal Family as 'Bertie' (and played by Colin Firth). Unable to get his words out, when he does, his stutters are amplified around the newly built Empire Stadium, the crowd visibly unsettled, the speaker awkward and embarrassed.
 
