@@ -42,9 +42,9 @@ module Jekyll
       # https://gist.github.com/jmoz/5358695
       begin
         result = ::OEmbed::Providers.get(url.strip!, :format => :xml)
-        print "\nEmbed found on ", url
+        print "Embed found on ", url, "\n"
       rescue ::OEmbed::NotFound
-        print "\nNo embed found on ", url
+        print "No embed found on ", url, "\n"
         return
       end
 
