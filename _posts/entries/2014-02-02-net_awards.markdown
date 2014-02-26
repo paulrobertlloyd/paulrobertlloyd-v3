@@ -3,6 +3,7 @@ layout: post-entry
 title: net Awards 2014
 date: '2014-02-02 16:57:58 +0000'
 excerpt: The net Awards return for their fifteenth year, and I’m more than a little surprised to be a nominated for Designer of the Year.
+comments: open
 ---
 [![net Awards 2014 nominee](/assets/images/2014/02/net-awards-nominee.png){: .pull-right} The net Awards][1] return for their fifteenth year, and I'm more than a little surprised to find myself nominated for *Designer of the Year*. Beyond the other nominees, having worked alongside [James Bates][2]--who has helped me solve a number of tricky design problems over the years--to be included in this line-up feels slightly fraudulent.
 
