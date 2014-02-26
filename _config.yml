@@ -25,7 +25,6 @@ archive:
 # Use kramdown with pygments (see: https://github.com/navarroj/krampygs)
 markdown: kramdown
 markdown_ext: krampygs
-pygments: true
 
 # Prose.io
 prose:
