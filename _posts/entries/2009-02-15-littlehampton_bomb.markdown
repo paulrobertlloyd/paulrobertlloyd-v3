@@ -3,7 +3,8 @@ layout: post-entry
 title: A Bomb in Littlehampton?
 date: '2009-02-15 23:14:53 +0000'
 excerpt: On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station.
-post_id: 154
+comments: closed
+post_id: 2009-02-15-littlehampton_bomb
 ---
 ![Bomb scene in Littlehampton](/assets/images/2009/02/littlehampton_bomb.jpg)
 

@@ -3,7 +3,8 @@ layout: post-entry
 title: 2008 in Review
 date: '2009-01-11 23:42:49 +0000'
 excerpt: Before such a post becomes embarrassingly late (although I fear we may already have passed such a point) here is a quick run down of what I got up to last year.
-post_id: 143
+comments: closed
+post_id: 2009-01-11-2008_in_review
 ---
 2008 started with my decision to leave Gotomedia, relinquish my US visa, and return home to the UK to work freelance, in what was merely a delay to [my original plans][1].
 

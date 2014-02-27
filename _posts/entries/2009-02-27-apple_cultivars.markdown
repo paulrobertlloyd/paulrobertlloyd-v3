@@ -3,7 +3,8 @@ layout: post-entry
 title: An Apple by Any Other Name
 date: '2009-02-27 17:28:20 +0000'
 excerpt: Earlier this month I wrote about my love of organisation and systems. One such example is how I name the devices I attach to my Mac.
-post_id: 155
+comments: closed
+post_id: 2009-02-27-apple_cultivars
 ---
 Macintosh has been associated with Apple since the launch of its original all-in-one computer in 1984, reportedly named after the pocket-sized [McIntosh][1] apple cultivar. So when it comes to providing names for the external devices I plug into my Mac (backup drives, iPods and my iPhone for example) it seemed like a good idea to follow this convention:
 

@@ -3,11 +3,12 @@ layout: post-entry
 title: Slumdog Millionaire
 date: '2009-01-19 01:08:41 +0000'
 excerpt: Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire.
-post_id: 141
+comments: closed
+post_id: 2009-01-19-slumdog_millionaire
 ---
 Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire. As further explained in the [IMDb synopsis][1]:
 
-  >...when the show breaks for the night, police arrest him on suspicion of cheating; how could a street kid know so much? Desperate to prove his innocence, Jamal ([Patel][2]) tells the story of his life in the slum where he and his brother grew up, of their adventures together on the road, of vicious encounters with local gangs, and of Latika ([Pinto][3]), the girl he loved and lost. Each chapter of his story reveals the key to the answer to one of the game show's questions.
+>...when the show breaks for the night, police arrest him on suspicion of cheating; how could a street kid know so much? Desperate to prove his innocence, Jamal ([Patel][2]) tells the story of his life in the slum where he and his brother grew up, of their adventures together on the road, of vicious encounters with local gangs, and of Latika ([Pinto][3]), the girl he loved and lost. Each chapter of his story reveals the key to the answer to one of the game show's questions.
 
 Whilst marketed in light-hearted way (a brightly coloured poster with the tagline 'the feel good film of the decade') this is misjudged as the film is certainly very dark in places. Gangs, riots, prostitution, torture, corruption are themes that run throughout the film, yet these are contrasted with moments of humour and of course the eventual outcome. Particular comical highlights include Jamal giving tourists a tour of the Taj Mahal, and him chasing after Bollywood superstar [Amitabh Bachchan][4] covered in shit in order to get his autograph.
 

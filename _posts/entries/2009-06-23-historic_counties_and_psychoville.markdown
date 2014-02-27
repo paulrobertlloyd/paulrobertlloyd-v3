@@ -3,7 +3,8 @@ layout: post-entry
 title: Historic Counties & Psychoville
 date: '2009-06-23 00:30:00 +0100'
 excerpt: I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it.
-post_id: 165
+comments: closed
+post_id: 2009-06-23-historic_counties_and_psychoville
 ---
 ![Scene from Psychoville](/assets/images/2009/06/historic_counties_and_psychoville.jpg)
 
