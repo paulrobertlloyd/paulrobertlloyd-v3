@@ -3,7 +3,8 @@ layout: post-entry
 title: A Greener Conference Badge for dConstruct
 date: '2010-08-31 23:58:46 +0100'
 excerpt: dConstruct has long combined its conference programme with the name badge, a simple yet cost-effective design. This year we hope to go one better.
-post_id: 202
+comments: closed
+post_id: 2010-08-31-dconstruct_conference_badge
 ---
 [Conferences can be quite wasteful affairs][1]. In addition to swag bags filled with magazines, leaflets and free gifts, there is often a programme detailing the schedule and providing some background on the speakers.
 

@@ -3,7 +3,8 @@ layout: post-entry
 title: A New Library for Birmingham
 date: '2010-06-29 22:21:41 +0100'
 excerpt: Architecture has never been kind to Birmingham, but then Birmingham has never been kind to its architecture.
-post_id: 198
+comments: closed
+post_id: 2010-06-29-a_new_library_for_birmingham
 ---
 ![Artists impression of the new Library of Birmingham](/assets/images/2010/06/a_new_library_for_birmingham.jpg)
 

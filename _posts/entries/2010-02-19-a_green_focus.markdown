@@ -3,7 +3,8 @@ layout: post-entry
 title: A Green Focus
 date: '2010-02-19 16:47:08 +0000'
 excerpt: I ended my review of 2009 promising to write more about green issues and how I plan to lessen my impact on the environment. Now I expand on those ideas further.
-post_id: 190
+comments: closed
+post_id: 2010-02-19-a_green_focus
 ---
 As I reflected upon in [my yearly review][1], I made one substantial change in my behaviour, and a few smaller ones, that are hopefully reducing my carbon footprint. No longer relying on a car is something I can take a great deal of pride in, although I should confess that I still find driving desirable, especially since my discovery of the [Volvo C30][2].
 

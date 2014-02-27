@@ -3,7 +3,8 @@ layout: post-entry
 title: Enough
 date: '2010-06-26 21:39:20 +0100'
 excerpt: I can wait another year before upgrading my iPhone.
-post_id: 197
+comments: closed
+post_id: 2010-06-26-iphone4
 ---
 ![The iPhone 4](/assets/images/2010/06/iphone4.jpg)
 

@@ -3,7 +3,8 @@ layout: post-entry
 title: A New Visual Design Language for BBC Online
 date: '2010-02-16 23:34:04 +0000'
 excerpt: I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
-post_id: 183
+comments: closed
+post_id: 2010-02-16-bbc_online_gvl
 ---
 I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
 
