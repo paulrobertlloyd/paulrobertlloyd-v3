@@ -3,7 +3,8 @@ layout: post-entry
 title: Reflecting on @media 2005
 date: '2005-06-20 00:28:12 +0100'
 excerpt: My thoughts on an interesting and exciting two days in London.
-post_id: 19
+comments: closed
+post_id: 2005-06-20-atmedia_2005
 ---
 ![@media2005 logo](/assets/images/2005/06/atmedia_2005.png){: .pull-right} From the moment I entered through the doors of Kings College London, the venue in Waterloo where two days worth of web standards and accessibility goodness was to take place, I could tell that this was a well organised event.  Receiving the conference program, notepad and pen all inside a very fetching orange laptop bag (that would later be useful for spotting all the web standards geeks as they headed to the after show parties), a well dressed venue, and excellent catering facilities, highlighted the level of detail that went into the conferences presentation.
 

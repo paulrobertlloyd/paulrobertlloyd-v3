@@ -3,7 +3,8 @@ layout: post-entry
 title: More or Less?
 date: '2005-09-27 00:15:41 +0100'
 excerpt: More4 could be the most exciting television channel to launch since the advent of BBC2 forty years ago.
-post_id: 32
+comments: closed
+post_id: 2005-09-27-more_or_less
 ---
 ![More4 Logo](/assets/images/2005/09/more4.png){: .pull-right} If you have Freeview turn to channel 13 now! If you have Sky turn to channel 165. For cable viewers, tap 166 into your ntl box or 142 if you're with Telewest. What you shall find is a preview for what I believe to be the most exciting television channel to launch since BBC2 forty years ago.
 

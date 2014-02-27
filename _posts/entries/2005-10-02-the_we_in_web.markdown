@@ -3,7 +3,8 @@ layout: post-entry
 title: The 'We' in Web
 date: '2005-10-02 20:19:58 +0100'
 excerpt: Yesterday saw the inaugural meeting of a new Midlands based web community. This comes at a time when I'm noticing I'm part of a much larger community within our industry.
-post_id: 31
+comments: closed
+post_id: 2005-10-02-the_we_in_web
 ---
 After the suggestion of Simon Jobling, yesterday saw the formation of [a local community of web-developers][1], similar to others such as the [BritPack][2], [HappyClog][3], [NEWD][4] etc. Whilst the turnout was quite small, it felt like a good meeting to help form the foundations of what I hope will become an interesting network to be a part of.
 

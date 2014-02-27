@@ -3,7 +3,8 @@ layout: post-entry
 title: Acoustic Night
 date: '2005-01-10 00:34:16 +0000'
 excerpt: Every other Sunday night, a group of talented musicians join together at an acoustic night held at the Boundary Hotel in Walsall.
-post_id: 14
+comments: closed
+post_id: 2005-01-10-acoustic_night
 ---
 As the weeks slowly become normal again, so it is that every other Sunday night, a group of amazingly talented people come together and perform a wide range of material -- from covers to their own compositions -- during an acoustic night held at the Boundary Hotel in Walsall.
 

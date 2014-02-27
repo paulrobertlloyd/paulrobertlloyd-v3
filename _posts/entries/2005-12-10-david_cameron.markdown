@@ -3,7 +3,8 @@ layout: post-entry
 title: David Cameron
 date: '2005-12-10 02:03:20 +0000'
 excerpt: On Tuesday, the Conservative Party elected their 4th leader since John Major was defeated at the 1997 general election.
-post_id: 53
+comments: closed
+post_id: 2005-12-10-david_cameron
 ---
 ![David Cameron](/assets/images/2005/12/david_cameron.jpg)
 

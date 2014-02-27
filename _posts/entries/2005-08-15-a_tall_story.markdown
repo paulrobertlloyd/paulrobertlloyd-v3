@@ -3,7 +3,8 @@ layout: post-entry
 title: A Tall Story
 date: '2005-08-15 23:48:00 +0100'
 excerpt: Today finally saw the end of a long journey, one that I have been on since I was 8 years old.
-post_id: 36
+comments: closed
+post_id: 2005-08-15-a_tall_story
 ---
 Today finally saw the end of a long journey, one that I have been on since I was 8 years old. Whilst I finished taking growth hormone some years ago, since that time I have been involved in a medical trial, been given concerns about other possibly deficient hormones and for the last two years had check-ups every 6 months. Until today.
 

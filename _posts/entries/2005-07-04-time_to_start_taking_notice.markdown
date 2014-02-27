@@ -3,7 +3,8 @@ layout: post-entry
 title: Time to Start Taking Notice
 date: '2005-07-04 02:05:36 +0100'
 excerpt: 'I often tend to neglect blogging my thoughts and views regarding the big issues of the day, even given my usual strong opinions. This is something I''m aiming to rectify and what better place to start: 30,000 children dying a day, needlessly.'
-post_id: 39
+comments: closed
+post_id: 2005-07-04-time_to_start_taking_notice
 ---
 ![Leaders of the G8](/assets/images/2005/07/time_to_start_taking_notice.jpg)
 

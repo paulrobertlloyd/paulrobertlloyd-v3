@@ -3,7 +3,8 @@ layout: post-entry
 title: 'My Three Point Plan: Think, Act, That''s It!'
 date: '2005-11-06 22:10:40 +0000'
 excerpt: As we rapidly approach the end of the year, so can begin some reflection of 2005. With this in mind, I wish to mull over a topic that has really grabbed my imagination this year -- that of taking personal responsibility for the planet we live on and the economic and political environments that govern us.
-post_id: 30
+comments: closed
+post_id: 2005-11-06-my_three_point_plan_think_act
 ---
 As we rapidly approach the end of the year, so can begin some reflection of 2005. With this in mind, I wish to mull over a topic that has really grabbed my imagination this year -- that of taking personal responsibility for the planet we live on and the economic and political environments that govern us.
 

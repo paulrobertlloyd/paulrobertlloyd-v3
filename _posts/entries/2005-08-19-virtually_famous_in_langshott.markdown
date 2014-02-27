@@ -3,7 +3,8 @@ layout: post-entry
 title: Virtually Famous in Langshott
 date: '2005-08-19 00:55:00 +0100'
 excerpt: 'Whilst fixing some css bugs for the next revision of the rdc* theme I had an interesting thought regarding it''s code name: does it rank higher in Google than the village it''s named after?'
-post_id: 35
+comments: closed
+post_id: 2005-08-19-virtually_famous_in_langshott
 ---
 Whilst fixing some css bugs for the next revision of the rdc* theme I had an interesting thought regarding its code name: does it rank higher in Google than the village it's named after?
 

@@ -3,7 +3,8 @@ layout: post-entry
 title: A Summer to Remember
 date: '2005-09-04 18:45:33 +0100'
 excerpt: If there are two things that I can count on during any given year, they are non-eventful summers that seemingly end before they start, and the annual hell that is my birthday. Thankfully this year has been a little bit different!
-post_id: 56
+comments: closed
+post_id: 2005-09-04-a_summer_to_remember
 ---
 If there are two things that I can count on during any given year, they are non-eventful summers that seemingly end before they start, and the annual hell that is my birthday. This year, thankfully, it's all been a little different!
 
