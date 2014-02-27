@@ -3,7 +3,8 @@ layout: post-entry
 title: Spiderman 2
 date: '2004-07-16 12:00:00 +0100'
 excerpt: One of the big releases of 2004, and already a huge success worldwide. However the Spiderman franchise has a reputation to preserve, so does this do the job?
-post_id: 16
+comments: closed
+post_id: 2004-07-16-spiderman_2
 ---
 ![Promotional image for Spiderman 2](/assets/images/2004/07/spiderman_2.jpg)
 

@@ -3,7 +3,8 @@ layout: post-entry
 title: Back to Bedlam
 date: '2004-11-22 12:00:00 +0000'
 excerpt: It's only April, but I think I have already found the musical highlight of 2005, in the shape of 'Back to Bedlam', from James Blunt.
-post_id: 29
+comments: closed
+post_id: 2004-11-22-back_to_bedlam
 ---
 It's only April, but I think I have already found the musical highlight of 2005, in the shape of <cite>Back to Bedlam</cite>, from James Blunt.
 

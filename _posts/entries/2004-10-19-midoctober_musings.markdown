@@ -3,7 +3,8 @@ layout: post-entry
 title: Mid-October Musings
 date: '2004-10-19 00:31:20 +0100'
 excerpt: Just a quick post to make note of a few things that have been happening over the last week or three.
-post_id: 4
+comments: closed
+post_id: 2004-10-19-midoctober_musings
 ---
 ## My New Temple
 Firstly, for the geeks out there (you know who you are) and perhaps those with a keen eye, you may notice that lloydyweb.org is again 'lloydyweb.org' (as apposed to 'lloydyweb.fourtwo.net'). Without going into details (which would only be stating the obvious for the aforementioned geeks, whilst boring the rest) essentially I have moved web hosts, again!

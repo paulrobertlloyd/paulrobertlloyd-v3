@@ -3,7 +3,8 @@ layout: post-entry
 title: Recent Web Work
 date: '2004-11-03 23:44:26 +0000'
 excerpt: Time for a little update on some recent websites I've been involved with.
-post_id: 28
+comments: closed
+post_id: 2004-11-03-recent_web_work
 ---
 ## beverlywalker.co.uk
 The latest site to be added to the FourTwo portfolio launched at the end of October, showcasing contemporary ceramics by Beverly Walker. Designed by Alan Beck, and put together by myself, it goes without saying that this site is totally CSS/XHTML based, just going to prove anything is possible.
