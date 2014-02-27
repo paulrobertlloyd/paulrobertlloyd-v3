@@ -20,7 +20,7 @@ layout: post
     {{ content | abbr | ampersand | indent: 4 }}
 </div>
 
-{% if post.comments == open %}
+{% if post.comments == "open" %}
 <section class="section">
     <a href="mailto:comment+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title | smart }}">Comment on this article</a>
 </section>
