@@ -13,7 +13,7 @@ permalink: /:year/:month/:title/
 relative_permalinks: false
 
 # Pagination
-# paginate: 10
+paginate: 10
 paginate_path: /page/:num/
 
 # Archives
