@@ -53,7 +53,7 @@ That brings me to today, where I am now a full-time contractor for Ning, and whe
 [9]: http://www.thegetaways.co.uk/
 [10]: /2004/07/all_change/
 [11]: http://www.torbayhomes.net/
-[12]: /assets/2006/01/webstandardswithvision.pdf
+[12]: /assets/documents/2006/01/webstandardswithvision.pdf
 [13]: /2005/06/atmedia_2005/
 [14]: http://www.live8live.com/
 [15]: http://www.makepovertyhistory.org/

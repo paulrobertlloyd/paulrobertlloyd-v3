@@ -12,7 +12,7 @@ Usually playing are [Jon][1], Dave and Pat, Dan on occasion, and this week Paul 
 
 Anyway, not of brilliant quality, but interesting all the same, I present this video of Jon and Dave performing 'Swim for Me' -- one of their own which ain't half bad! Seeing as it was taken on a swanky new camera phone, it requires a media player capable of playing MPEG4-3GP files.
 
-<a href="/assets/2005/01/acoustic_night.3gp" download>Jon and Dave at the acoustic night</a> -- 3.1Mb. (Right click the link, then 'Save As...')
+<a href="/assets/audio/2005/01/acoustic_night.3gp" download>Jon and Dave at the acoustic night</a> -- 3.1Mb. (Right click the link, then 'Save As...')
 
 [1]: http://www.roobottom.com/
 

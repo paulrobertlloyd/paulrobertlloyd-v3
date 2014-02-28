@@ -7,4 +7,4 @@ excerpt: Having a nose round the old net, I found an article by Marc Friedenberg
 Having a nose round the old net, I found an article by [Marc Friedenberg][1] about Steve Jobs that referenced my essay [Beige to Bondi-Blue][2]. First time I've seen something like this, but oh what a nice feeling.
 
 [1]: http://marcfriedenberg.com/
-[2]: /articles/beige-to-bondi-blue/
+[2]: /articles/beige_to_bondiblue/
