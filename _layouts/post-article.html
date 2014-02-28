@@ -1,22 +1,9 @@
 ---
 layout: post
 ---
-<header class="post__header">
-    <h1 class="post__title">{{ page.title | smart }}</h1>
-    {% if page.chapter-title %}
-    <h2>{{ page.chapter-title }}</h2>
-    {% endif %}
-</header>
-
-<footer class="post__footer">
-    <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-</footer>
-
 <div class="post__main">
     {{ content | abbr | ampersand | indent: 4 }}
     <p><a href="{{ page.link }}">Read this article on {{ page.publication }}</a></p>
 </div>
 
-{% if page.chapters == true %}
-    {% indent_include section-chapters.html 8 %}
-{% endif %}
+{% if page.chapters == true %}{% include section--chapters.html %}{% endif %}

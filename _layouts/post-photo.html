@@ -1,24 +1,7 @@
 ---
 layout: post
 ---
-<header class="post__header">
-    <h1 class="post__title">{{ page.title | smart }}</h1>
-
-    <nav class="nav nav--traverse">
-    {% assign previous = page.previous %}
-        {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title }}">Previous entry</a>{% endif %}
-    {% assign next = page.next %}
-        {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title }}">Next entry</a>{% endif %}
-    </nav>
-</header>
-
-<footer class="post__footer">
-    <time class="post__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-</footer>
-
 <div class="post__main">
-    {% if page.embed == true %}
-        {% oembed {{ page.link }} %}
-    {% endif %}
+    {% if page.embed == true %}{% oembed {{ page.link }} %}{% endif %}
     {{ content | abbr | ampersand | indent: 4 }}
 </div>

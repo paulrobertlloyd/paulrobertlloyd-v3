@@ -6,6 +6,26 @@
 {% indent_include banner.html 4 %}
     <main class="main" role="main">
         <article class="post">
+            <header class="post__header">
+                <h1 class="post__title">{{ page.title | smart }}</h1>
+                {% if page.chapter-title %}
+                <h2>{{ page.chapter-title }}</h2>
+                {% endif %}
+
+                {% if page.chapter-title == null %}
+                <nav class="nav nav--traverse">
+                {% assign previous = page.previous %}
+                    {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title }}">Previous entry</a>{% endif %}
+                {% assign next = page.next %}
+                    {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title }}">Next entry</a>{% endif %}
+                </nav>
+                {% endif %}
+            </header>
+
+            <footer class="post__footer">
+                <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+            </footer>
+            
             {{ content | indent: 12 }}
         </article>
     </main><!--/@main-->
