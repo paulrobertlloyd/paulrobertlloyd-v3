@@ -8,14 +8,7 @@ post_id: 2007-05-19-farewell_mr_blair
 ---
 The date the Prime Minister will finally be leaving office has been announced, and his successor, Gordon Brown all but crowned. Prime Ministers are such a part of day-to-day life, that when they change, it prompts you to reflect on their period in office, and how their tenure effected your own life.
 
-<figure class="left">
-    ![Tony Blair](/assets/images/2007/05/tonyblair.jpg)
-    <figcaption>
-        <p>As Tony Blair waves goodbye to his premiership, how will his time in office be remembered?</p>
-    </figcaption>
-</figure>
-
-When Tony Blair entered Downing Street in May 1997, I was just under the threshold of being able to vote. I remember the event well, having lived my life up until that point knowing nothing but the Tory governments of Thatcher and Major. For a while things certainly felt strange.
+![Tony Blair](/assets/images/2007/05/tonyblair.jpg){: .pull-right} When Tony Blair entered Downing Street in May 1997, I was just under the threshold of being able to vote. I remember the event well, having lived my life up until that point knowing nothing but the Tory governments of Thatcher and Major. For a while things certainly felt strange.
 
 At that time I was a closet Conservative, but even I welcomed the opportunity for some change in government and some new ideas. Hopes were high for this first Labour government in 18 years, if only because those hopes were raised by this fresh faced center-left social democrat who preached the third way.
 
