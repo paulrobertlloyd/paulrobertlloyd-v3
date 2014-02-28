@@ -3,7 +3,8 @@ layout: post-entry
 title: A Weekend in 'LA'
 date: '2006-08-08 00:56:44 +0100'
 excerpt: This last weekend me, Ellen, Nash, Hannah and Charis joined Jon on a visit south to Littlehampton where we spent two days with his girlfriend Katie and her mates, at a house she was looking after.
-post_id: 77
+comments: closed
+post_id: 2006-08-08-a_weekend_in_la
 ---
 ![Deckchairs on Littlehampton Beach](/assets/images/2006/08/a_weekend_in_la.jpg)
 

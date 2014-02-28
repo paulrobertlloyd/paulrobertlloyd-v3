@@ -3,7 +3,8 @@ layout: post-entry
 title: Tribute
 date: '2006-10-02 01:39:52 +0100'
 excerpt: As soon as my feet touch the ground at SFO it almost feels as if the next era of my life is set to begin. So as the final hours tick away on this one, I want to pay tribute to three people who have become very important to me over the last four or five years.
-post_id: 76
+comments: closed
+post_id: 2006-10-02-tribute
 ---
 ![Kris, Me, Jon and Ellen](/assets/images/2006/10/tribute.jpg)
 
@@ -19,7 +20,7 @@ As we both took extra shifts cleaning stock rooms and taking early morning deliv
 In the intervening years, this friendship has seen trips to Wales (with alarming regularity), Torquay, and even the other side of the world. Whilst these day's he seems only able to travel as far as the local pub, at least I'll know where to find him whenever I return home, and I'm glad of that.
 
 ## Jon
-I have known [Jon Roobottom][2] for many years, but we only really became good friends thanks to our shared love of the web. Originally, Jon went to university to study electronics, and then virtual reality, before becoming more focused on web design.  Unfortunately for Jon, he didn't really have a design lead education, and his early attempts were perhaps unimaginative.  
+I have known [Jon Roobottom][2] for many years, but we only really became good friends thanks to our shared love of the web. Originally, Jon went to university to study electronics, and then virtual reality, before becoming more focused on web design.  Unfortunately for Jon, he didn't really have a design lead education, and his early attempts were perhaps unimaginative.
 
 However, after two and a half years working as a web developer at design agency [Trinity][3], he has built up an impressive portfolio of work. Indeed this, coupled with his passion for photography (with [many shots that I think are just pure genius][4]), I now look to him for inspiration and critique.
 

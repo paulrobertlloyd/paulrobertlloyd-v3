@@ -3,7 +3,8 @@ layout: post-entry
 title: These Old Shoes
 date: '2006-03-26 09:22:55 +0100'
 excerpt: After 3 years of loyal service my trainers are going into retirement.
-post_id: 54
+comments: closed
+post_id: 2006-03-26-these_old_shoes
 ---
 ![My old pair of trainers](/assets/images/2006/03/these_old_shoes.jpg)
 

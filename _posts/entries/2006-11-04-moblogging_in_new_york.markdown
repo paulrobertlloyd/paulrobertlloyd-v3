@@ -3,7 +3,8 @@ layout: post-entry
 title: Moblogging in New York
 date: '2006-11-04 00:28:30 +0000'
 excerpt: Last week I upgraded my phone to the lastest Sony Ericsson -- the K800i.
-post_id: 86
+comments: closed
+post_id: 2006-11-04-moblogging_in_new_york
 ---
 Last week I upgraded my phone to the lastest Sony Ericsson -- the K800i. This is the fifth Sony Ericsson phone I have owned (previous models being the T68i, T610, K750i, W800i), which I think says a lot about how much I love the design of both the user interface and the phones themselves.
 

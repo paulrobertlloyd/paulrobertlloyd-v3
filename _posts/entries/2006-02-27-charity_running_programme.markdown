@@ -3,7 +3,8 @@ layout: post-entry
 title: 2006 Charity Running Programme
 date: '2006-02-27 01:34:07 +0000'
 excerpt: As summer fast approaches, it's time to kick of the fund raising efforts for the two charity running events I've signed up for this year.
-post_id: 46
+comments: closed
+post_id: 2006-02-27-charity_running_programme
 ---
 This year is a little different from previous years in that I won't be running the Great North Run, but hopefully running at a number of smaller events will still give me the opportunity to raise lots of money for charity!
 

@@ -3,7 +3,8 @@ layout: post-entry
 title: The Last Six Months...
 date: '2006-09-20 02:38:53 +0100'
 excerpt: If it wasn't for the three months I spent in Palo Alto at the beginning of the year this year could be considered a complete write-off.
-post_id: 80
+comments: closed
+post_id: 2006-09-20-the_last_six_months
 ---
 ...have been hell. If it wasn't for the three months I spent in Palo Alto at the beginning of the year (and hopefully the final three months when I'm back there), this year could be considered a complete write-off. The number one reason for having not enjoyed this time, can largely be put down to having to work remotely, and with a company located 8 hours behind myself.
 

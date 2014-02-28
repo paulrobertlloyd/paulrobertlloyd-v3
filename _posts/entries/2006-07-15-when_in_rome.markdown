@@ -3,7 +3,8 @@ layout: post-entry
 title: When in Rome
 date: '2006-07-15 02:41:38 +0100'
 excerpt: A couple of weeks ago, in a rare break away from my computer monitor, I spent a week in Rome with my friend Nancy and her sister.
-post_id: 84
+comments: closed
+post_id: 2006-07-15-when_in_rome
 ---
 ![The Coliseum in Rome](/assets/images/2006/07/when_in_rome.jpg)
 

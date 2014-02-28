@@ -3,7 +3,8 @@ layout: post-entry
 title: The Journey So Far
 date: '2006-01-21 15:50:04 +0000'
 excerpt: As of this week I am no longer an employee of Orange Vision Ltd, but working for Ning, Inc. where I am now Senior Designer.
-post_id: 51
+comments: closed
+post_id: 2006-01-21-the_journey_so_far
 ---
 As of this week I am no longer an employee of Orange Vision Ltd, but working for Ning, Inc. where I am now Senior Designer. It doesn't take a genius to realise what a fantastic opportunity this is, and one I don't think I have fully come to terms with.
 

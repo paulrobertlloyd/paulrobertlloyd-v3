@@ -3,7 +3,8 @@ layout: post-entry
 title: That Ning Thing
 date: '2006-02-20 19:45:20 +0000'
 excerpt: Last week saw the long awaited launch of a redesigned Ning.
-post_id: 70
+comments: closed
+post_id: 2006-02-20-that_ning_thing
 ---
 Last week saw the long awaited launch of a redesigned Ning. This is a project I have been involved with since November last year, so to finally have it out there in the wild is an achievement both I and the whole team at Ning are extremely proud of.
 

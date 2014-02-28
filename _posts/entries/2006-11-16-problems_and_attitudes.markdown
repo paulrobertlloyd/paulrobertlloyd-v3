@@ -3,7 +3,8 @@ layout: post-entry
 title: Problems & Attitudes
 date: '2006-11-16 02:17:15 +0000'
 excerpt: This year has been eventful. To be more precise, 2006 has been a complete and utter write-off.
-post_id: 89
+comments: closed
+post_id: 2006-11-16-problems_and_attitudes
 ---
 This year has been eventful. To be more precise, 2006 has been a complete and utter write-off. I know this may seem premature as I write this in mid-November, but regardless how December turns out, it hardly seems like it will make a difference. I say a write-off, but in some respects, it could also be the very making of me.
 

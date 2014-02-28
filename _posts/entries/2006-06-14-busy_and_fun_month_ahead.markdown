@@ -3,7 +3,8 @@ layout: post-entry
 title: Busy (and Fun) Month Ahead
 date: '2006-06-14 05:14:50 +0100'
 excerpt: Although June is already pretty much done and dusted, there is still a little bit of fun to come.
-post_id: 65
+comments: closed
+post_id: 2006-06-14-busy_and_fun_month_ahead
 ---
 ## @media 2006
 ![@media2006 logo](/assets/images/2006/06/atmedia2006.png){: .pull-right} This evening I step on a train that is London bound, ready to spend Thursday and Friday in HTML heaven! I really enjoyed [@media last year][1], and I have been looking forward to this years event with much anticipation. Since last June, I have jumped the sinking ship that was <del>Orange Dreams</del> <del>River Internet</del> Orange Vision and now find myself deep inside the [Ning][2] trenches.

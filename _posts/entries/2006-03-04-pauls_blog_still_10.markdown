@@ -3,7 +3,8 @@ layout: post-entry
 title: Paul's Blog Still 1.0
 date: '2006-03-04 09:53:13 +0000'
 excerpt: Reasons why 'lloydyweb.org' may not make it on the flight back home.
-post_id: 48
+comments: closed
+post_id: 2006-03-04-pauls_blog_still_10
 ---
 I have a feeling 'lloydyweb.org' may not make it on the flight back home.
 

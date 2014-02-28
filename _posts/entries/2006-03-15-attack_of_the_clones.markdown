@@ -3,7 +3,8 @@ layout: post-entry
 title: Attack of the Clones
 date: '2006-03-15 08:14:58 +0000'
 excerpt: So there I was passively watching a special edition of the Conan O'Brian show in which he visits Finland.
-post_id: 49
+comments: closed
+post_id: 2006-03-15-attack_of_the_clones
 ---
 ![Screen grab from Late Night with Conan O'Brien](/assets/images/2006/03/attack_of_the_clones.jpg)
 

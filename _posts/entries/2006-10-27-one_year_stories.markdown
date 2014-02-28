@@ -3,7 +3,8 @@ layout: post-entry
 title: One Year Stories
 date: '2006-10-27 00:45:54 +0100'
 excerpt: A lot has happened in the last year, and October seems to be a month for celebrating anniversaries.
-post_id: 92
+comments: closed
+post_id: 2006-10-27-one_year_stories
 ---
 A lot has happened in the last year, and October seems to be a month for celebrating anniversaries.
 
@@ -12,14 +13,7 @@ On the first of this month, the [Multipack][1] reached the one year milestone, h
 ## The Multipack
 This local web community was founded by [Simon Jobling][4] a few months after he attended @media2005 and discovered that a number of web developers, who were also interested in web standards, lived locally.
 
-Si thought it would be a good idea to start a community that brought these people together, allowing us all to share ideas, knowledge, and act as an excellent excuse to go to the pub and socialise with new people once a month.
-
-<figure class="left">
-    ![The very first Multipack meet up in Walsall](/assets/images/2005/10/midwebmeet.jpg)
-    <figcaption>
-        <p>The very first Multipack meet up in Walsall.</p>
-    </figcaption>
-</figure>
+![The very first Multipack meet up in Walsall](/assets/images/2005/10/midwebmeet.jpg){: .pull-right} Si thought it would be a good idea to start a community that brought these people together, allowing us all to share ideas, knowledge, and act as an excellent excuse to go to the pub and socialise with new people once a month.
 
 [I attended the very first meeting][5], and was therefore able to have some early input into the founding of this little organisation. Since then, and with the help of a host of others, the community has really taken off.
 

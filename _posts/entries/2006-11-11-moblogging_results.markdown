@@ -3,7 +3,8 @@ layout: post-entry
 title: 'Moblogging: Results'
 date: '2006-11-11 00:13:13 +0000'
 excerpt: My trip to New York earlier this week was a good opportunity to try out the 'Blog This' feature of my new Sony Ericsson K800i.
-post_id: 90
+comments: closed
+post_id: 2006-11-11-moblogging_results
 ---
 As I indicated in [my previous post][1], my trip to New York earlier this week was a good opportunity to try out the 'Blog This' feature of my new Sony Ericsson K800i, and I guess the whole concept of keeping a moblog as well. Here are some of my thoughts from this experiment.
 
