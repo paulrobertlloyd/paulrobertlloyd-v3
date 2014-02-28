@@ -6,7 +6,7 @@ excerpt: This is my third attempt at writing this entry.
 ---
 This is my third attempt at writing this entry. For the last month I have been feeling incredibly down, reflective and just damn right miserable. What started off as a regular reboot, prompted by the anniversary of my being here last year (and the comparisons that can be drawn), turned into a sad, sorry journey into the unknown, confronting old feelings that I never fully resolved.
 
-## This story is a sadd'ning bore…
+## This story is a sadd'ning bore...
 Listen carefully, as this is the last time I will tell this little tale.
 
 As you are probably all too aware of by now, last year I was given the opportunity to work in California. Initially I was there for three months, and that time was magical. I found myself surrounded by a bunch of incredibly talented and friendly individuals, and had my career sail into uncharted waters. I lived a totally stress free existence, with all food, bills, accommodation etc. paid for. At that time my motto was 'go with the flow', and for a while it seemed to be working. Yet it meant I never really took on board the reality of the situation.

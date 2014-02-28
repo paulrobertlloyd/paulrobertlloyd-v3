@@ -2,7 +2,7 @@
 layout: post-entry
 title: My First Few Days in Sydney
 date: '2003-11-06 22:14:13 +0100'
-excerpt: Welcome to the second instalment of "Are you jealous yet?” So what have I been up to so far? Here's a quick rundown.
+excerpt: Welcome to the second instalment of "Are you jealous yet?" So what have I been up to so far? Here's a quick rundown.
 ---
     From: paul.lloyd@talk21.com
     To: Undisclosed Recipients
@@ -26,7 +26,7 @@ excerpt: Welcome to the second instalment of "Are you jealous yet?” So what ha
     It hasn't been as sunny and we are expecting some rain tomorrow, and when it rains its supposed to rain! But it was still very hot.
 
     ## Kris and John
-    Fordy seems to have the hostel sussed "yeah -- you can get your clothes washed for free at the hostel… at night… if you remove this piece of sheet metal and force open this door…” and "you can get free net access… at night… if you hook up my laptop to this phone line…” Dodgy git!
+    Fordy seems to have the hostel sussed "yeah -- you can get your clothes washed for free at the hostel... at night... if you remove this piece of sheet metal and force open this door..." and "you can get free net access... at night... if you hook up my laptop to this phone line..." Dodgy git!
 
     Meanwhile Kris seems to know the location of every trip switch and is now in charge of the table tennis tournament. Is it purely coincidence he's in every final???
 

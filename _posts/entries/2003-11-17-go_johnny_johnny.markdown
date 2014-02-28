@@ -28,7 +28,7 @@ excerpt: Wow what a day! Asked earlier by Fordy if I thought this trip had made 
 
     The group I'm getting increasingly more pissed with is mainly the English!! 29 year old Mike is worthy of a mention -- a funny pisshead -- he starts the chanting at the matches (for both teams!) and when not falling arse over tit into flower beds he's just laughing to himself.
 
-    Kris continues to cement the group together by making an arse of himself -- the wearing of a ‘donkey thong' given to him by Gosling and pretty much nothing else (er socks), whilst playing a game of ping pong -- more than the one ball seen bouncing around!!! (Don't worry I have pictures, which worries me slightly)
+    Kris continues to cement the group together by making an arse of himself -- the wearing of a 'donkey thong' given to him by Gosling and pretty much nothing else (er socks), whilst playing a game of ping pong -- more than the one ball seen bouncing around!!! (Don't worry I have pictures, which worries me slightly)
 
     And then there is the long long walk back from the city, half of it spent pushing a trolley back containing one woman -- I'm bound by contract not to discuss the rest of Kris's night, but I will say this. She's 18!
 

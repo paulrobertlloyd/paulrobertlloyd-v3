@@ -12,7 +12,7 @@ At the beginning of this year I wrote an entry outlining [seven goals and improv
 
   Mixed success to date. The first two weeks of my new daily commute, I committed myself to completing <cite>The Unbearable Lightness of Being</cite>, and though I made good progress, the book is lying on my desk at home with only half of the pages thumbed. I think part of the problem is that I'm not an avid reader -- especially of fiction, so time to take a different tack.
 
-  Last week Al Gore's new book [<cite>The Assault on Reason</cite>][2] landed on my desk. From the excerpt I read on TIME.com, he seems to speak a lot of sense -- in fact a lot of sounds similar to some of the things my brother has been talking about for sometime now.  I'll let you know what I think.
+  Last week Al Gore's new book [<cite>The Assault on Reason</cite>][2] landed on my desk. From the excerpt I read on TIME.com, he seems to speak a lot of sense -- in fact a lot of sounds similar to some of the things my brother has been talking about for sometime now. I'll let you know what I think.
 
 2. ### Learn More About My Profession
 

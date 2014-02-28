@@ -18,7 +18,7 @@ Thanks to Orange Vision, [a Tribute fund was set up in her memory][2] (that in t
 ## Run for Moore
 The second event I have lined up is one that will be taking place just down the road from me at Sandwell Valley Park as I '[Run for Moore][4]'. This new event from the Bobby Moore Fund for Cancer Research UK has been designed to coincide with the 40th anniversary celebrations of England's 1966 World Cup win (and perhaps a win in 2006 too) and is taking place at six venues across the UK throughout the summer.
 
-Whilst only a 5km run, I'm still hoing I can raise a respectable amount of money for my favourite charity.  I am going to be a bit checky and suggest that being half the length of the Great Manchester Run, that you sponsor me half the amount again for this run too (that is to say please be generous!)
+Whilst only a 5km run, I'm still hoing I can raise a respectable amount of money for my favourite charity. I am going to be a bit checky and suggest that being half the length of the Great Manchester Run, that you sponsor me half the amount again for this run too (that is to say please be generous!)
 
 [Sponsor My Run for Moore](http://www.justgiving.com/lloydyrunformoore/)
 

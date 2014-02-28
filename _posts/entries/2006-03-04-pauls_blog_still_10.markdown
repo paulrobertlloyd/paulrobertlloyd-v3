@@ -22,7 +22,7 @@ I'm currently in two minds as to what to do. As a precursor, I have registered l
 ## My Writing Style 
 My blog started out back in the day as not a blog at all, but manually updated HTML 'news updates' (old school!). As this slowly transformed into a blog, it remained pretty much ([as Jon would put it][1]) "Today I went to the loo three times, and had corned beef hash for my tea". I soon grew tired of such posts and in the last year I have made real efforts to try and post entries that have some sort of thought behind them (even if not a point).
 
-One of my biggest goals of keeping a blog was, and still is, to improve my written communication skills. This is one area I feel Jon excels in especially, and I'm not ashamed to let everyone know how insanely jealous of him I am for that.  I just hope my own style can improve with age too.
+One of my biggest goals of keeping a blog was, and still is, to improve my written communication skills. This is one area I feel Jon excels in especially, and I'm not ashamed to let everyone know how insanely jealous of him I am for that. I just hope my own style can improve with age too.
 
 I'm also a little concerned that my best search referrals come from being the top result in mis-spelt searches. Was a whole four years of primary education wasted?
 

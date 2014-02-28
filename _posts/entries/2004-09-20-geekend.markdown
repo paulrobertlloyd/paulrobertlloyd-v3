@@ -8,7 +8,7 @@ This weekend has, more than any other weekend, seen me glued to this 17" display
 
 Back in the days when sites were built exclusively in HTML, previewing sites locally before uploading them for all to see was simply a matter of loading them up in your various browsers.
 
-However building sites dynamically (be it ASP, PHP...) and the use of server side includes requires a more advanced, more complicated approach.  Recently this has led me to preview my sites live, which is never a good idea. However after much searching, I found this simple tutorial that explained everything I needed to know (excluding the PHP nuke part). I include [the link][1] here for reference.
+However building sites dynamically (be it ASP, PHP...) and the use of server side includes requires a more advanced, more complicated approach. Recently this has led me to preview my sites live, which is never a good idea. However after much searching, I found this simple tutorial that explained everything I needed to know (excluding the PHP nuke part). I include [the link][1] here for reference.
 
 Now I can preview all my sites locally (with only a little configuration) i.e. this site can be viewed at dev.lloydyweb.org -- with all includes working like a charm. It's also seen me [easily upgrade to Apache 2.0][2] in the process!
 

@@ -2,7 +2,7 @@
 layout: post-entry
 title: 24 Carrott Gold
 date: '2004-01-21 20:00:00 +0100'
-excerpt: As experiences go, this ‘re-union' sure was one.
+excerpt: As experiences go, this 're-union' sure was one.
 ---
 I've been a fan of Jasper Carrott most of my life. Having grown up watching his shows that were a mainstay of 90's television, I was looking forward to seeing Jasper live for the first time, during this series of shows for the people of his home town.
 

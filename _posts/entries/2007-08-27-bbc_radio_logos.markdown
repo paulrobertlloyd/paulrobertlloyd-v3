@@ -12,7 +12,7 @@ This last month has seen the gradual introduction of a new set of station identi
 
 Lets go back ten years. In 1997, the corporations re-brand put a stake in the ground. Every single logo within the organisation was brought into line by placing each department, division and station name over a unique background.
 
-Whilst in some instances this resulted in bland identities, cross media promotion and marketing worked incredibly well. It was only natural of course, that over time each brand would want to break out of this straight jacket, and the corporations radio stations were the first to do so.  In 2000, each station got a more sophisticated logo that was better able to reflect its output.
+Whilst in some instances this resulted in bland identities, cross media promotion and marketing worked incredibly well. It was only natural of course, that over time each brand would want to break out of this straight jacket, and the corporations radio stations were the first to do so. In 2000, each station got a more sophisticated logo that was better able to reflect its output.
 
 Whilst it's great to see consistency brought back across the radio services (if only in terms of naming -- the mixture of 'BBC7', '6 Music', and 'Five Live' always annoyed me), it's a shame also that these logos have been replaced with a somewhat half-baked design.
 

@@ -37,7 +37,7 @@ The final week sees the showpiece event, as I head over to Sydney to watch the f
 
 Finally, this trip has presented a rare opportunity to catch up with a few friends from my time at Ning. I'm very much looking to debating the pros and cons of American independence with [Kyle][10] during my stop over at LAX, as well as meeting [Phil][11] in his native Melbourne.
 
-All in all, an exciting trip, even more so given the distances and locations involved.  If you have any tips for places I should visit or restaurants I should check out, please do let me know in the comments.
+All in all, an exciting trip, even more so given the distances and locations involved. If you have any tips for places I should visit or restaurants I should check out, please do let me know in the comments.
 
 [1]: http://www.dpreview.com/news/0908/09081906canons90handson.asp
 [2]: http://www.seat61.com/Overlander.htm

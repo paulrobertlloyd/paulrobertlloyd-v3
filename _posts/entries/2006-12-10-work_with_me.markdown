@@ -8,7 +8,7 @@ post_id: 2006-12-10-work_with_me
 ---
 2007 is set to be an exciting year at Ning, with the launch (and continual development) of a product we have spent the last couple of months beavering away on, as well as a host of other improvements to the platform.
 
-All this work requires a large amount of design, almost too much for our small team to handle at times.  That's why we're now on the look out for a talented designer/web-developer, who can join us full time in sunny [Palo Alto, California][1].
+All this work requires a large amount of design, almost too much for our small team to handle at times. That's why we're now on the look out for a talented designer/web-developer, who can join us full time in sunny [Palo Alto, California][1].
 
 The ideal candidate for me would be somebody fairly similar to myself, that is someone who has a good understanding of both graphic design and standards based code, yet can also bring a few new qualities to the team.
 

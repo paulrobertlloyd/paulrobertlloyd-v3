@@ -2,13 +2,13 @@
 layout: post-entry
 title: Live from Sydney!
 date: '2003-11-04 14:27:14 +0100'
-excerpt: I’ve only been here about half a day now, and half of that has been spent in this internet cafe trying to sort out a group e-mailing list!
+excerpt: I've only been here about half a day now, and half of that has been spent in this internet cafe trying to sort out a group e-mailing list!
 ---
     From: paul.lloyd@talk21.com
     To: Undisclosed Recipients
     Subject: Live from Sydney!
 
-    I’ve only been here about half a day now, and half of that has been spent in this internet cafe trying to sort out a group e-mailing list!
+    I've only been here about half a day now, and half of that has been spent in this internet cafe trying to sort out a group e-mailing list!
 
     **The highlights so far**
     Flight from London to Bangkok was long and hard -- seated on the toilet during turbulence was an experience too far! The last leg from Bangkok to Sydney was far more enjoyable -- mainly due to being able to watch 'American Wedding'.

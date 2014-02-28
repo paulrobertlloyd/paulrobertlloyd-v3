@@ -16,7 +16,7 @@ Kris's points were as follows:
 
 * There are economic benefits to be had from investing in new technology. Jobs are created for the people producing newer devices and the components found within them, most of which are manufactured in poorly developed countries who I'd be supporting by upgrading.
 
-* Investment in new technology encourages innovation, innovation increases efficiency, increased efficiency reduces wastage -- consider the business contracts once emergency couriered that are now emailed instead. Technological advancement is good, but it needs people to invest in new technology to keep competitive innovation going.   
+* Investment in new technology encourages innovation, innovation increases efficiency, increased efficiency reduces wastage -- consider the business contracts once emergency couriered that are now emailed instead. Technological advancement is good, but it needs people to invest in new technology to keep competitive innovation going.
 
 * Whilst my current device still works so I would be aggrieved to throw it away, there are plenty of options available to ensure it doesn't become needless waste. I could submit my handset to a mobile phone recycling website where it would be reconditioned and placed back into circulation. I could get in excess of £70 for my old handset through [Envirophone][3] -- perhaps I could donate those proceeds to charity?
 

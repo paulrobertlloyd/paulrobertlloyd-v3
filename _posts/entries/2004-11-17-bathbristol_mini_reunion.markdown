@@ -7,7 +7,7 @@ excerpt: Meeting up with friends made in Syndney.
 After arriving in Bristol on the Friday night at a Halls of Residence, the first upset of the weekend:
 
 {% figure <cite>Ange</cite> %}
-> All the nurses are in the other Halls, it's just me and Jen in this block…
+> All the nurses are in the other Halls, it's just me and Jen in this block...
 {% endfigure %}
 
 Where as I was a little disappointed, it could be said that Kris saw this as a challenge. After a days 'ard grafting, and a 2 hour drive down the M5, sleep was pretty much the only thing on my mind, and once I had managed to swallow enough of Ange's unwanted foot scrapings, that was Friday.

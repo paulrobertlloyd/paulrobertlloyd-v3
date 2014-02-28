@@ -14,7 +14,7 @@ Given the current broadcasting landscape, it's hard to disagree with her.
 
 Just as well then, that this week also saw an announcement from the BBC about [it's restructuring plans][1], leading to "a smaller and more distinctive BBC" in six years time. I'm hopeful that will be the case, but given the corporation's plans to achieve it, I have my doubts.
 
-I'm a big supporter of the BBC, and have always been happy to pay the licence fee whenever I've needed to.  Afterall, the BBC is a great British institution, respected by those it serves and admired around the world.
+I'm a big supporter of the BBC, and have always been happy to pay the licence fee whenever I've needed to. Afterall, the BBC is a great British institution, respected by those it serves and admired around the world.
 
 As television gets ever more commercial and populist in its nature, the more valuable a public-service broadcaster is becoming. By its very definition, the BBC needs to provide a service to the public, a service that is diminishing elsewhere and in my opinion, this announcement seems to completely ignore that.
 
@@ -27,7 +27,7 @@ Whilst these were designed to drive digital take-up, surely it should have been 
 
 However, the newer BBC networks wouldn't be so bad if they weren't so wasteful.
 
-A quick challenge to anybody reading this in Britain: turn over to [BBC Three][2] now and tell me what programme is showing.  I would bet a hefty amount your answer is <cite>Two Pints of Larger and a Packet of Crisps</cite>.  If not that then <cite>Little Britain</cite>. Whatever is showing, I can guarantee you it's a repeat.
+A quick challenge to anybody reading this in Britain: turn over to [BBC Three][2] now and tell me what programme is showing. I would bet a hefty amount your answer is <cite>Two Pints of Larger and a Packet of Crisps</cite>. If not that then <cite>Little Britain</cite>. Whatever is showing, I can guarantee you it's a repeat.
 
 Then there are the questions as to why the BBC broadcasts [a channel for 6-12 year olds][3] during the daytime, when one would hope children are at school, not in front of a television.
 

@@ -8,7 +8,7 @@ post_id: 2006-01-21-the_journey_so_far
 ---
 As of this week I am no longer an employee of Orange Vision Ltd, but working for Ning, Inc. where I am now Senior Designer. It doesn't take a genius to realise what a fantastic opportunity this is, and one I don't think I have fully come to terms with.
 
-This is just the latest and greatest episode of an online journey that I have been on since 1999.  Given my amazing new position, I thought I would try and summarise the road travelled so far. A big part of this journey has involved developing a passion and interest in [web standards][1], but more recently [I have been thinking][2] more about how we can use the web in more positive ways rather than as just another marketing tool.
+This is just the latest and greatest episode of an online journey that I have been on since 1999. Given my amazing new position, I thought I would try and summarise the road travelled so far. A big part of this journey has involved developing a passion and interest in [web standards][1], but more recently [I have been thinking][2] more about how we can use the web in more positive ways rather than as just another marketing tool.
 
 ## First Steps
 My first ever experience of the web came in 1999, during my time at WALCAT. After the long mind-numbing days at college, I would spend a couple of hours in the library, where I would log on and surf this interweb thingy everyone was raving about. Before long, I had signed up for free web space with Tripod and begun building my first site in Microsoft Word.

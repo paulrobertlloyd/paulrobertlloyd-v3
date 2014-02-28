@@ -15,7 +15,7 @@ Indeed, this is nothing new. During my time in America earlier this year, if I w
 ## Two Tin Cans and a Piece of String
 Communication is of course restricted to e-mail, instant-messaging and phone calls. E-mails and instant messaging are massive time-killers, and are often fraught with misinterpretations and misunderstandings. Whilst being able to talk to somebody on a phone is often far more helpful, it's still a distant second compared to talking face-to-face.
 
-In situations where you find yourself calling into a meeting, unless you have a confident (and loud) personality (which I don't), you might as well be dead. Add to this the technical gremlins that seemed to effect nearly every phone call I had ("we didn't quite hear you Paul, but what I think he said was...").  Funnily enough, the squeaking chair in the meeting room, is always 100% audible.
+In situations where you find yourself calling into a meeting, unless you have a confident (and loud) personality (which I don't), you might as well be dead. Add to this the technical gremlins that seemed to effect nearly every phone call I had ("we didn't quite hear you Paul, but what I think he said was..."). Funnily enough, the squeaking chair in the meeting room, is always 100% audible.
 
 ## Remote
 There are other problems that arise when you find yourself working remotely -- *you feel remote*. Given e-mails and IM conversations are such time-killers, I found myself not engaging with members of the team unless I have to, such activity feeling like a massive distraction.

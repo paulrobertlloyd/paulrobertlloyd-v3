@@ -2,7 +2,7 @@
 layout: post-entry
 title: Day One
 date: '2009-01-03 22:44:47 +0000'
-excerpt: Having nothing arranged for New Year's Eve, meant I wasn't sure how I would be celebrating the arrival of 2009.  Well, not until I heard a conversation on the radio.
+excerpt: Having nothing arranged for New Year's Eve, meant I wasn't sure how I would be celebrating the arrival of 2009. Well, not until I heard a conversation on the radio.
 comments: closed
 post_id: 2009-01-03-day_one
 ---

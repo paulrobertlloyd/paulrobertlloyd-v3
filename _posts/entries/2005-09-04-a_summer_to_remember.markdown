@@ -30,7 +30,7 @@ Setting our tent up late Friday night in cold and slightly damp conditions, I wa
 
 We woke to an overcast Saturday that would see us walk about 2 miles into town (we seemed to miss every bus). Most of the day was spent in a pub having the first of many deep and highly intellectual discussions that you should expect when on holiday with an anti-capitalist and a sociologist. Later that evening we sat down to the first of many fine meals (we may have been camping, but we ate like kings!) before later hitting the town's many bars and clubs.
 
-Luckily Sunday lived up to its name as the sun came out in force -- perfect weather for surfing on Fistral beach. However I was careless and got very burnt -- not clever kids. It was so good to have sand between my toes and get in the water, for the first time since being in Sydney in 2003.  That night and the good food continued with a carvery at the local pub.
+Luckily Sunday lived up to its name as the sun came out in force -- perfect weather for surfing on Fistral beach. However I was careless and got very burnt -- not clever kids. It was so good to have sand between my toes and get in the water, for the first time since being in Sydney in 2003. That night and the good food continued with a carvery at the local pub.
 
 Monday and a bit of shopping matched with more beaches, more sea, more fine food (pizza) before regrettably having to return home. All in all, the weather pulled out all the stops and gave me the much needed opportunity I needed to relax and get away from it all. Fantastic!
 

@@ -16,13 +16,13 @@ excerpt: Things are getting extremely weird round these parts. Anyway lets start
 
     Saturday saw me go up to Cape Tribulation where the reef meets the rainforest. Again, just beautiful. I have some real nice photos from my time in this area. The tour was a little rushed with some suspicion about the crocodile we saw on the Daintree River; apparently lying in exactly the same spot this guy Barry saw him the day before -- a plastic replica maybe?
 
-    Sunday had some time before my flight back to enjoy the lagoon in the City. Cairns doesn’t actually have a beach but mud flaps, and if you swim in the sea its 'stinger season', so not a good idea!
+    Sunday had some time before my flight back to enjoy the lagoon in the City. Cairns doesn't actually have a beach but mud flaps, and if you swim in the sea its 'stinger season', so not a good idea!
 
     Anyway back in good old Sydney now having left my coat in Cairns but brought back a stinking cold! What with flying and being stuffed up, I can currently only hear in one ear and its feeling slightly permanent. Worrying.
 
     Whilst I was up north, Sydney saw sunshine! Typical. It also saw Kris, Dodgy Dave and Matt dress up as women (you need to see the photos) for bad taste night but thats another story!
 
-    Of course I’m back now and its started raining again, so after Sunday with everyone saying "stay, stay!", now I keep getting - "Go home Lloydy!". I have brought the rain with me. I starting to think I'm cursed. Perhaps this Aboriginal guy I met in Cairns who asked me for $2 change for a bus -- I lied and said I had none -- blatenly did as I walked away with it rattling in my pocket has given it to me? Sounds plausible enough.
+    Of course I'm back now and its started raining again, so after Sunday with everyone saying "stay, stay!", now I keep getting - "Go home Lloydy!". I have brought the rain with me. I starting to think I'm cursed. Perhaps this Aboriginal guy I met in Cairns who asked me for $2 change for a bus -- I lied and said I had none -- blatenly did as I walked away with it rattling in my pocket has given it to me? Sounds plausible enough.
 
     Hopefully wearing off as its brightening up a bit now. But come on Summer in Sydney and all I'm getting is pissing rain.
 

@@ -18,7 +18,7 @@ I find it interesting to look back at my blog posts written during that time, es
 This blog is starting to get wet around the edges.
 
 ## A Long, Hard Summer
-My return to the UK in May, put an abrupt end to that stress free existence, and I think this post (<cite>[The Last Six Months...][2]</cite>) goes some way to putting into words how hard this summer turned out to be.  The prospect of a permanent move to the States, leaving my friends and family behind became more of an issue for me (as did other frustrations), to the point that it was touch and go as to whether I would actually make the move or not. What I had hoped would be an enjoyable summer, was somewhat of a non-event.
+My return to the UK in May, put an abrupt end to that stress free existence, and I think this post (<cite>[The Last Six Months...][2]</cite>) goes some way to putting into words how hard this summer turned out to be. The prospect of a permanent move to the States, leaving my friends and family behind became more of an issue for me (as did other frustrations), to the point that it was touch and go as to whether I would actually make the move or not. What I had hoped would be an enjoyable summer, was somewhat of a non-event.
 
 In the end, I knew the only way to know if a move was the right thing to do, was to actually move out to the US and give it a go. The last six weeks have been harder than I ever expected them to be, and I have been through every kind of emotion (both in and outside of work).
 

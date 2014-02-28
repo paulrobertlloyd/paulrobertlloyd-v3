@@ -16,7 +16,7 @@ I have learnt a lot in the last two years, and worked alongside some amazingly t
 
 On a personal level I look back on the last two years with mixed feelings. With the many highs, of course come the lows, and hopes that were never realised. However when I think about this past year, one in which I attended many design conferences, visited [Las Vegas][1], [Austin][2], [Montreal][3] and [New York][4], as well as lived in San Francisco, it really is going to be a hard one to beat. I'm certainly going to try.
 
-So what's next? Well, thanks to a raised level of awareness afforded to me thanks to my time with Ning, I'm going to dive into the world of freelancing (with the nervous excitement that comes with it) in the New Year.  Signs are already looking good, and a few potential projects are already lining themselves up. Hopefully some of these will mean I can visit California again next year.
+So what's next? Well, thanks to a raised level of awareness afforded to me thanks to my time with Ning, I'm going to dive into the world of freelancing (with the nervous excitement that comes with it) in the New Year. Signs are already looking good, and a few potential projects are already lining themselves up. Hopefully some of these will mean I can visit California again next year.
 
 I would like to thank everybody I've met during my time here for making it such an enjoyable and enriching experience, one from which I hope many long lasting friendships will result. It really is no coincidence that I return to my homeland a man [torn between two countries][5].
 

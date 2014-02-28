@@ -9,7 +9,7 @@ post_id: 2009-02-10-simply_walsall
 In the last few years, two public organisations in Walsall have undergone renewals, and both have choosen to reflect this change with simpler identities.
 
 ## Walsall Council
-[Walsall Metropolitan Borough Council][1], after many year under [Labour rule][2], became a Conservative council in 2004. This led to a number of construction projects being initiated in the area, most notably upgrades to the ring road, canal-side developments on Wolverhampton Street, and the creation of a new Civic Quarter in the town centre.  Possibly to reflect this change in direction, in 2005 the council revealed a modernised logo, and simplified its name to 'Walsall Council'.
+[Walsall Metropolitan Borough Council][1], after many year under [Labour rule][2], became a Conservative council in 2004. This led to a number of construction projects being initiated in the area, most notably upgrades to the ring road, canal-side developments on Wolverhampton Street, and the creation of a new Civic Quarter in the town centre. Possibly to reflect this change in direction, in 2005 the council revealed a modernised logo, and simplified its name to 'Walsall Council'.
 
 {% figure Walsall Council: The original logo and the revised version (2005). %}
 ![](/assets/images/2009/02/walsallcouncillogos.png)

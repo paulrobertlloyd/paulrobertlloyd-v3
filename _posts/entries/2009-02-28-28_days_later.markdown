@@ -2,7 +2,7 @@
 layout: post-entry
 title: 28 Days Later
 date: '2009-02-28 11:24:34 +0000'
-excerpt: February coming to a close means I can conclude my month long challenge to post to this blog each day.  Having only written 14 entries, it's a challenge for which I only half succeeded.
+excerpt: February coming to a close means I can conclude my month long challenge to post to this blog each day. Having only written 14 entries, it's a challenge for which I only half succeeded.
 comments: closed
 post_id: 2009-02-28-28_days_later
 ---

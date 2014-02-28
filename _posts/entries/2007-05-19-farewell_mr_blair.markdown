@@ -28,7 +28,7 @@ At the end of the day I can only comment on Tony Blair's success, by looking at 
 
 * This (privately financed) bricks and mortar can only count for so much. It's what happens inside these buildings that really matters, and I don't actually believe there has been as much improvement as Tony Blair would like to believe -- and he can skew the numbers as much as he wants.
 
-* I was a victim of crime on three separate occasions. The theft of my wallet and phone from Walsall Gala Baths, a robery at my former place of work, and more recently [my assault in the center Birmingham][2], in which the police paid a passing interest. How connected these events are to Labour being in power I don't know, it is quite possible that the same would have happened under any other leadership.  I certainly feel less safe when in the UK than I did ten years ago, and our towns and cities almost seem to turn into war zones as soon as the night draws in.
+* I was a victim of crime on three separate occasions. The theft of my wallet and phone from Walsall Gala Baths, a robery at my former place of work, and more recently [my assault in the center Birmingham][2], in which the police paid a passing interest. How connected these events are to Labour being in power I don't know, it is quite possible that the same would have happened under any other leadership. I certainly feel less safe when in the UK than I did ten years ago, and our towns and cities almost seem to turn into war zones as soon as the night draws in.
 
 * I started University during the first year in which students had to pay tuition fees (a cost that then increased year on year). I'm actually in agreement that those wanting to go to university should be responsible for it's cost.
 

@@ -12,7 +12,7 @@ This year it is likely that I will have lived in 5 different 'homes', in 4 diffe
 
 Interestingly, it would seem that history is repeating itself.
 
-This move will come almost 13 years after my last big life upheaval -- when my family and I moved from the south of England, to Walsall in the Midlands, which indeed happened when I was 13 years old.  
+This move will come almost 13 years after my last big life upheaval -- when my family and I moved from the south of England, to Walsall in the Midlands, which indeed happened when I was 13 years old. 
 
 During my time here, I have always felt a bit like an outsider, a little different from everyone else. Whilst this perhaps helped give me an identity, it could be argued that it was based on where I came from, rather than who I was. This was certainly true during the first years of school here in the Midlands.
 

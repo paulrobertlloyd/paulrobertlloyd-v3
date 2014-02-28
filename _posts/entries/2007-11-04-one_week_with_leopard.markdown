@@ -26,7 +26,7 @@ One improvement I would like to see however, is the option to manually back-up. 
 ## Dock
 The other area that needs improvement is the new [Dock][2] -- although it could be argued there are much larger issues that still haven't been addressed since its introduction in 10.0.
 
-Whilst much has already been said of it's appalling design, I just wanted to throw my hat into the ring as well.  Like many other users, one of my first actions after installing Leopard was to visit the terminal and replace the 3D glass Dock with the (seemingly last minute and currently hidden) alternative.
+Whilst much has already been said of it's appalling design, I just wanted to throw my hat into the ring as well. Like many other users, one of my first actions after installing Leopard was to visit the terminal and replace the 3D glass Dock with the (seemingly last minute and currently hidden) alternative.
 
 I find it hard to believe a company so focused on design managed to come up with this. Effects seem to have been added purely because they can, not because they make any sense. I remember the same being true of Dashboard when it was introduced in Tiger.
 
@@ -46,7 +46,7 @@ The [Finder][6] has also received a visual overhaul, and much like everything el
 
 Whilst I'm glad the previous heavy metal interface has been discarded, the one problem with every application looking like iTunes is that it becomes harder to distinguish between them. One idea to combat this might be to give different applications different signature colours, so for example the left hand source list has a different hue.
 
-Joining and browsing networks is a pleasure, and doing this is far more obvious than in previous versions.  Cover Flow is relatively useful, especially if navigating a folder of images or documents, but I don't think I will be using it on a daily basis. [Quick Look][7] on the other hand has finally meant an end to the drudgery of opening the contextual menu and navigating to the Preview application. This feature alone is worth the upgrade.
+Joining and browsing networks is a pleasure, and doing this is far more obvious than in previous versions. Cover Flow is relatively useful, especially if navigating a folder of images or documents, but I don't think I will be using it on a daily basis. [Quick Look][7] on the other hand has finally meant an end to the drudgery of opening the contextual menu and navigating to the Preview application. This feature alone is worth the upgrade.
 
 ## Everything Else
 Aside from the Dock and a few other annoyances, I'm happy with my new world. [iCal][8] has received a much needed visual overhaul, and having a consistent interface throughout the system (which many seem to be dubbing 'slate') is something I have been longing to see for several years.

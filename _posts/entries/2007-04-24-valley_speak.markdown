@@ -23,7 +23,7 @@ CBP Officer
 : "How do you guys actually make money?"
 
 Me
-: "We are supported by advertising… do any companies in Silicon Valley actually make any money!?"
+: "We are supported by advertising... do any companies in Silicon Valley actually make any money!?"
 
 CBP Officer
 : "Well Google do, right?"
@@ -56,7 +56,7 @@ Yoz
 : ok, that made my day
 
 Me
-: Here's the real problem - people are not socialising, because they are sat on their fat arses, ‘social networking'
+: Here's the real problem - people are not socialising, because they are sat on their fat arses, 'social networking'
 
 Yoz
 : ha
@@ -64,7 +64,7 @@ Yoz
 Me
 : It's insane - just go to the pub!
 
-[^1]: I usually try to stay clear of calling myself a web designer, often preferring ‘Web Developer' or 'Graphic Designer'. Web Designer just sounds like I design websites on FrontPage in my bedroom.
+[^1]: I usually try to stay clear of calling myself a web designer, often preferring 'Web Developer' or 'Graphic Designer'. Web Designer just sounds like I design websites on FrontPage in my bedroom.
 
 [1]: http://yoz.com
 

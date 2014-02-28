@@ -8,7 +8,7 @@ After the success of the first <cite>Multipack Presents</cite> event in February
 
 [David Harte][1] has been involved with the [Act on CO2 campaign in Birmingham][2] and will show us how he has been using the internet to measure his Carbon footprint. James Robertson leads the [Birmingham Freecycle][3] group, and promises to tell us how we can build websites that encourage people to act.
 
-I will also be announcing a new green focused web-based initiative I've been working on with some members of the pack, which was spurred on in part by my disgust at the [celebration of wastefulness][4] that is the SXSW Big Bag.  Still in its early stages, I hope to share some of my ideas with a larger audience, and start an open dialogue about how we can encourage our industry and peers to become more environmentally conscious.
+I will also be announcing a new green focused web-based initiative I've been working on with some members of the pack, which was spurred on in part by my disgust at the [celebration of wastefulness][4] that is the SXSW Big Bag. Still in its early stages, I hope to share some of my ideas with a larger audience, and start an open dialogue about how we can encourage our industry and peers to become more environmentally conscious.
 
 The event kicks of *this Saturday* at The Old Crown Pub at 2pm, before moving to the offices of One Black Bear at 4pm. Of course it would be wrong to hold such an event without considering it's own impact on the environment, so we'll be sourcing locally produced food and beverages, once again kindly paid for by those lovely folks at [Campaign Monitor][5].
 

@@ -10,7 +10,7 @@ The highlight of every Red Nose Day, is the live telethon shown throughout the e
 
 If this isn't enough encouragement to donate, short films from Africa and around the UK demonstrate where your money ends up, and the difference to peoples life it can make.
 
-Yet in our celebrity obsessed media landscape, I wonder if the novelty of such a star-studded night has worn off.  In recent years the main show has typically involved the conclusion of special celebrity versions of reality shows (Fame Academy, Driving School, The Apprentice...), but these are formats already beaten to death throughout the rest of the year. Perhaps it's worth nothing that it was Comic Relief that introduced us to the format of celebrity-based reality shows, as the first series of Celebrity Big Brother was shown on the BBC in aid of the charity in 2001.
+Yet in our celebrity obsessed media landscape, I wonder if the novelty of such a star-studded night has worn off. In recent years the main show has typically involved the conclusion of special celebrity versions of reality shows (Fame Academy, Driving School, The Apprentice...), but these are formats already beaten to death throughout the rest of the year. Perhaps it's worth nothing that it was Comic Relief that introduced us to the format of celebrity-based reality shows, as the first series of Celebrity Big Brother was shown on the BBC in aid of the charity in 2001.
 
 Regardless of the methods used to entertain us, I'll certainly be donating on the night, and I encourage you to do so as well. You can even [donate right now on rednoseday.com][1], so what are you waiting for!
 

@@ -13,7 +13,7 @@ Staring familiar comic partners Ben Stiller and Owen Wilson, alongside Snoop Dog
 There are many scenes in this film that will have you laughing out loud -- for me (having watched all the preview clips and so expecting a lot of the best laughs) the part in which Owen Wilson is seen to be wearing just a face towel, is not only hilarious, but well set up.
 
 {% figure <cite>bbc.co.uk</cite> %}
-> You’ll laugh, you’ll sigh, you’ll wish you drove a Ford Torino
+> You'll laugh, you'll sigh, you'll wish you drove a Ford Torino
 {% endfigure %}
 
 Add to the mix Amy Smart and Carmen Electra -- it becomes hard to hate this film. (Now, cue obvious insertion into review of the films best catch phrase...) if you haven't seen this film already: do it. DO IT!
