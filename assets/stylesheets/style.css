@@ -52,3 +52,7 @@ img.pull-right {
     bottom: 0;
     left: 0;
 }
+
+.search__result {
+    display: block;
+}
