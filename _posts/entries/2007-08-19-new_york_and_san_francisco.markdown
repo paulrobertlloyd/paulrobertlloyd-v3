@@ -3,7 +3,8 @@ layout: post-entry
 title: New York & San Francisco
 date: '2007-08-19 01:18:32 +0100'
 excerpt: Exploring New York and San Francisco with my friend Ellen, who braved the long flight over the Atlantic to come and visit me in America.
-post_id: 125
+comments: closed
+post_id: 2007-08-19-new_york_and_san_francisco
 ---
 A few weeks after [my stay in Montreal][1], I spent ten days touring New York and my home town of San Francisco with my good friend Ellen, who braved the long flight over the Atlantic to come see me in America.
 

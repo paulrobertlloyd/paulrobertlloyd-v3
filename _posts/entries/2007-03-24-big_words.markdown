@@ -3,7 +3,8 @@ layout: post-entry
 title: Big Words
 date: '2007-03-24 17:45:01 +0000'
 excerpt: I've just checked the BBC Sport website, and once again I read about another dismal performance from the England team (Israel 0-0 England).
-post_id: 120
+comments: closed
+post_id: 2007-03-24-big_words
 ---
 ![Steve McClaren](/assets/images/2007/03/big_words.jpg)
 

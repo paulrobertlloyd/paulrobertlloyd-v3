@@ -3,7 +3,8 @@ layout: post-entry
 title: Falling in Love with Austin
 date: '2007-03-12 02:59:11 +0000'
 excerpt: Just a quick post (at 4:45am in the morning) as I can't sleep due to anxiety about this evenings 20x2 performance.
-post_id: 106
+comments: closed
+post_id: 2007-03-12-falling_in_love_with_austin
 ---
 I'm currently enjoying the [SXSW][1] Interactive festival here in Austin, and I must say that this place is instantly likeable -- and I never thought I would say that about somewhere in Texas. As to the conference, due to a lack of planning (note the absence of the much needed business cards), as well as arriving here late Saturday afternoon, I'm not sure I'm getting the full experience or seeing all that the festival has to offer. Needless to say I will definitely be coming back next year to do it properly!
 

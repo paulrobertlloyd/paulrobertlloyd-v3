@@ -3,7 +3,8 @@ layout: post-entry
 title: If SXSW Made Beer, It Would Probably Be the Best Beer in the World
 date: '2007-03-14 00:17:24 +0000'
 excerpt: Before leaving for the airport, I sat in an isolated part of the Convention Center and felt a huge part of me not wanting to leave. I have been to a few conferences now, but SXSW is a stand out favourite.
-post_id: 103
+comments: closed
+post_id: 2007-03-14-if_sxsw_made_beer
 ---
 Before leaving for the airport, I sat in an isolated part of the Convention Center and felt a huge part of me not wanting to leave. I have been to a few conferences now, but SXSW is a stand out favourite.
 

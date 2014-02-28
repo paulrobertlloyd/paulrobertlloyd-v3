@@ -3,7 +3,8 @@ layout: post-entry
 title: A Weekend in Las Vegas
 date: '2007-01-29 22:24:43 +0000'
 excerpt: Having finally recovered from a cold that's knocked me out for the last two weeks, it dawned on me that only four weeks into 2007, I've already managed to cover a fair bit of ground.
-post_id: 88
+comments: closed
+post_id: 2007-01-29-las_vegas
 ---
 ![Las Vegas Boulevard](/assets/images/2007/01/las_vegas.jpg)
 

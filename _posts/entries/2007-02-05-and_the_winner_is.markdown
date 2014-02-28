@@ -2,8 +2,9 @@
 layout: post-entry
 title: And the Winner Is...
 date: '2007-02-05 00:33:41 +0000'
-excerpt: Last month I decided to do a little bit of de-lurking, and as part of that I also ran a little contest alongside it.  I asked those readers to give me their favourite quote -- be it their own or one they've heard.
-post_id: 110
+excerpt: Last month I decided to do a little bit of de-lurking, and as part of that I also ran a little contest alongside it. I asked those readers to give me their favourite quote -- be it their own or one they've heard.
+comments: closed
+post_id: 2007-02-05-and_the_winner_is
 ---
 Last month I decided to do a little bit of de-lurking, and as part of that I also ran a little contest alongside it. I asked those readers to give me their favourite quote -- be it their own or one they've heard.
 

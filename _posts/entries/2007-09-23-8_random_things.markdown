@@ -3,7 +3,8 @@ layout: post-entry
 title: 8 Random Things
 date: '2007-09-23 19:31:27 +0100'
 excerpt: It looks like my blog has been a little undernourished these last few months, but thanks to being tagged in a meme, I have an excuse to at least post something for the month of September.
-post_id: 123
+comments: closed
+post_id: 2007-09-23-8_random_things
 ---
 It looks like my blog has been a little undernourished these last few months, but thanks to being tagged in a meme, I have an excuse to at least post something for the month of September.
 
@@ -16,7 +17,7 @@ It looks like my blog has been a little undernourished these last few months, bu
 ## The Facts
 1. The back of my head has appeared on childrens television news programme [Newsround][1], when they covered some sort of school based general election they did one year. I also got to meet [Paul Welsh][2] -- which is about as exciting as it sounds.
 
-2.  I only ever seem to meet celebrities that have presented motoring related television programmes. So far that has included [Quentin Wilson][3], [Tony Mason][4], and on the plane to Frankfurt earlier this month, [Mike Brewer][5].
+2. I only ever seem to meet celebrities that have presented motoring related television programmes. So far that has included [Quentin Wilson][3], [Tony Mason][4], and on the plane to Frankfurt earlier this month, [Mike Brewer][5].
 
 3. For a long period of my childhood, I was convinced that I had won a competition on [Blue Peter][6] to win a robot, only to have been sent a letter saying it was given to a disabled child that appeared on the show that week. Turns out it was an incredibly vivid dream, but I'm disappointed I didn't get the robot all the same.
 

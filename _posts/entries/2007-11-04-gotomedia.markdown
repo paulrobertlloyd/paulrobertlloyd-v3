@@ -3,7 +3,8 @@ layout: post-entry
 title: Going to Gotomedia
 date: '2007-11-04 19:07:04 +0000'
 excerpt: It turns out I'll be staying in San Francisco for a little while longer.
-post_id: 131
+comments: closed
+post_id: 2007-11-04-gotomedia
 ---
 I'm about to invalidate a recent post about waving goodbye to California, as it turns out I'll be staying in San Francisco for a little while longer.
 

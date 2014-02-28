@@ -3,7 +3,8 @@ layout: post-entry
 title: Seven Goals for 2007
 date: '2007-01-07 18:31:00 +0000'
 excerpt: A few personal goals I'm aiming for this year.
-post_id: 98
+comments: closed
+post_id: 2007-01-07-seven_goals
 ---
 Given that I'm back to work tomorrow morning, and a return to some sort of normality, I just wanted to record a few personal goals I'm aiming for this year.
 

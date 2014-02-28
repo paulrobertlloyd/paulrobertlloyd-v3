@@ -3,7 +3,8 @@ layout: post-entry
 title: 'Seven Goals for 2007: An Update'
 date: '2007-05-27 19:27:07 +0100'
 excerpt: At the beginning of this year I wrote about seven goals and improvements I wanted to make to my life this year. As I approach the middle of the year, I look at what I've achieved so far, and which areas still need some work.
-post_id: 128
+comments: closed
+post_id: 2007-05-27-seven_goals_update
 ---
 At the beginning of this year I wrote an entry outlining [seven goals and improvements][1] I wanted to make to my life this year. As we approach the half way point, I wanted to see how much I've been able to achieve so far, and what areas I still need to work on.
 

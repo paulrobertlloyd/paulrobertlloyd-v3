@@ -3,7 +3,8 @@ layout: post-entry
 title: Farewell Mr. Blair
 date: '2007-05-19 02:13:43 +0100'
 excerpt: Prime Ministers are such a part of day-to-day life, that when they change, it prompts you to reflect on their period in office, and how their tenure effected your own life.
-post_id: 107
+comments: closed
+post_id: 2007-05-19-farewell_mr_blair
 ---
 The date the Prime Minister will finally be leaving office has been announced, and his successor, Gordon Brown all but crowned. Prime Ministers are such a part of day-to-day life, that when they change, it prompts you to reflect on their period in office, and how their tenure effected your own life.
 

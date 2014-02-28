@@ -3,7 +3,8 @@ layout: post-entry
 title: Finally, A Ning To Be Proud Of
 date: '2007-03-21 00:02:00 +0000'
 excerpt: Grabbing a few minutes to to talk about the all new Ning we launched almost three weeks ago.
-post_id: 119
+comments: closed
+post_id: 2007-03-21-finally_a_ning_to_be_proud_of
 ---
 ![The new Ning homepage](/assets/images/2007/03/finally_a_ning_to_be_proud_of.jpg)
 
@@ -28,7 +29,6 @@ We have tried to ensure that the design is deceptively simple (with more advance
 I also want to take a moment to mention our Senior Interaction Designer, David Warner, who has really helped shape this product (despite what some others may say). It's been great having somebody to bounce ideas of and ensure that every aspect of the design is being fully thought through. I'm learning loads in the process too!
 
 ## Totally 'Yoursable'
-
 For me, the biggest gratification I get from the product is just how customisable it is -- something I have always been banging the drum for.
 
 What we have now is infinitely more 'make-it-yoursable' than anything else in the marketplace, yet we still want to go further, and give network creators (and their users) even more choice, more freedom.
@@ -38,7 +38,6 @@ Our goal is to allow them to take the credit for their amazing creations, not us
 What we have today is a solid foundation to build upon, and something I'm glad to be associated with. I am certainly looking forward to a year in which people no longer ask me 'so what is this Ning thing then?', but instead pester me as to why I haven't joined their social network!
 
 ## Some Reactions to the New Ning
-
 [Mike Steinhouse][2]:
 
 > I just had a play with Ning and you guys have done a great job -- well done! Super-easy and really fun.

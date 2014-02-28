@@ -3,7 +3,8 @@ layout: post-entry
 title: Thoughts on the New BBC Radio Logos
 date: '2007-08-27 23:30:14 +0100'
 excerpt: This last month has seen the gradual introduction of a new set of station identities for BBC Radio, designed by Fallon.
-post_id: 124
+comments: closed
+post_id: 2007-08-27-bbc_radio_logos
 ---
 ![The new logos](/assets/images/2007/08/bbc_radio_logos.jpg)
 

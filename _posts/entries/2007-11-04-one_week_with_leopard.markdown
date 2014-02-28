@@ -3,7 +3,8 @@ layout: post-entry
 title: One Week With Leopard
 date: '2007-11-04 21:36:41 +0000'
 excerpt: Probably the biggest change for me this last week after that of my new job is the upgrade to Mac OS X 10.5 'Leopard'.
-post_id: 132
+comments: closed
+post_id: 2007-11-04-one_week_with_leopard
 ---
 ![Screenshot of the new software](/assets/images/2007/11/one_week_with_leopard.jpg)
 
