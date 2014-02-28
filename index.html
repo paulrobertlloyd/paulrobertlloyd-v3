@@ -7,7 +7,7 @@ layout: index
 <ul class="list">
 {% for summary in paginator.posts %}
     <li class="list__item">
-        {% include summary.html %}
+{% indent_include summary.html 8 %}
     </li>
 {% endfor %}
 </ul>
