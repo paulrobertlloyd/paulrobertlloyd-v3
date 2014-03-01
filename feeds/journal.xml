@@ -13,7 +13,7 @@
     </author>
 
     {% for post in site.posts %}
-    {% if post.layout == "post-link" %}
+    {% if post.layout == "post-entry" %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ site.url }}{{ post.url }}"/>
