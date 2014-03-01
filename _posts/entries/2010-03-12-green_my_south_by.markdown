@@ -13,7 +13,7 @@ Once again, I feel the duty falls upon me to remind those attending this year's 
 Please take a moment to [read my thoughts about the SXSW 'Big Bag'][1] that I posted last year, and [download the poster][2] from the [a.green:focus blog][3] and add it to your own website.
 
 [1]: /2009/03/nothing_green_about_sxsw
-[2]: http://blog.agreenfocus.org/post/442407174/tomorrowhappenshere
-[3]: http://blog.agreenfocus.org
+[2]: http://agreenfocus.paulrobertlloyd.com/post/442407174/tomorrowhappenshere
+[3]: http://agreenfocus.paulrobertlloyd.com/
 
 *[SXSW]: South by SouthWest

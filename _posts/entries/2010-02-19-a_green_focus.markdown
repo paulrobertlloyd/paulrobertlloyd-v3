@@ -98,7 +98,7 @@ Hopefully this is the first in a series of events and initiatives in support of 
 [7]: http://aneventapart.com/
 [8]: http://clearleft.com/
 [9]: https://speakerdeck.com/paulrobertlloyd/announcing-agreenfocus
-[10]: http://agreenfocus.org/
+[10]: http://agreenfocus.paulrobertlloyd.com/
 [11]: http://agreenfocus.paulrobertlloyd.com/post/371323289/
 [12]: http://www.multipack.co.uk
 [13]: http://upcoming.yahoo.com/event/5259221/

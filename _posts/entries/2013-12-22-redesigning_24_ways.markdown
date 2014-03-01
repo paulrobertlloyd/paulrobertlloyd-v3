@@ -160,7 +160,7 @@ However, I'm a big believer in iteration, and not treating a website as ever bei
 [1]: /2013/10/moving_in_moving_on/
 [2]: http://24ways.org/
 [3]: http://allinthehead.com/retro/366/rebuilding-24-ways
-[4]: http://24ways.org/archive/
+[4]: http://24ways.org/archives/
 [5]: http://24ways.org/2012/colour-accessibility/
 [6]: http://alistapart.com/article/the-web-aesthetic
 [7]: http://danielmall.com/

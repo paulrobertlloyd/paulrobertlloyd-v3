@@ -29,5 +29,5 @@ The final product looks really great, and I'm excited to see them being used thi
 [3]: http://dconstruct.org
 [4]: http://graphpaper.com
 [5]: http://www.graphpaper.com/2010/06-11_a-book-on-a-hook
-[6]: http://agreenfocus.org
+[6]: http://agreenfocus.paulrobertlloyd.com/
 [7]: http://www.designbyjack.co.uk/

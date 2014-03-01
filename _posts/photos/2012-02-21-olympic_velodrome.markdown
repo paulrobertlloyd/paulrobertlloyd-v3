@@ -9,6 +9,6 @@ Last weekend I visited the new Olympic velodrome for the UCI Track Cycling World
 
 [You can see more photos from the event here][3]
 
-[1]: http://www.londonpreparesseries.com/
+[1]: http://web.archive.org/web/20120119180926/http://www.londonpreparesseries.com/
 [2]: http://noisydecentgraphics.typepad.com/design/2012/02/the-new-olympic-velodrome.html
 [3]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157629410345785/
