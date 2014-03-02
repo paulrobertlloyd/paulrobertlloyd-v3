@@ -85,7 +85,7 @@ The 'HM Government' logo introduced earlier this decade could provide clues to w
     </figcaption>
 </figure>
 
-Maintaining the coat of arms is probably a requirement for any future identity work, although it requires simplification; it clearly doesn't resize well or reproduce cleanly enough on screen. Whilst Gill Sans is often considered the de facto font for anything British, I would love to see a custom typeface designed in the same vein as that for the Dutch government. It would have to work across the wide spectrum of government activity, and heavy usage could result in it becoming a British classic (and arguably better suited to the requirements of the 21st Century too).
+Maintaining the coat of arms is probably a requirement for any future identity work, although it requires simplification; it clearly doesn't resize well or reproduce cleanly enough on screen. While Gill Sans is often considered the de facto font for anything British, I would love to see a custom typeface designed in the same vein as that for the Dutch government. It would have to work across the wide spectrum of government activity, and heavy usage could result in it becoming a British classic (and arguably better suited to the requirements of the 21st Century too).
 
 There's also a case to be made for simpler department names as many read like shopping lists. The Department for Children, Schools and Families and the Department for Environment, Food and Rural Affairs are two notable examples. Such naming schemes lead to meaningless abbreviations (i.e. DCSF and DEFRA) which further distances the government from the public.
 
