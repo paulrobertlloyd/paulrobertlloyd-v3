@@ -14,7 +14,7 @@ This is Daniel Craig's third outing as James Bond, although the narrative arc br
 
 > Bond's loyalty to M is tested as her past comes back to haunt her. As MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.
 
-That past appears in the form of Raoul Silva, a former MI6 agent turned cyber terrorist gleefully portrayed by Javier Bardem. Silva, is   a character tainted with just the right amount of comic book devilishness, and his origin story produces a grizzly reveal mid-way through the film. This, alongside his distinctive looks and exuberant style, easily rank Silva as the best Bond villain in a generation.
+That past appears in the form of Raoul Silva, a former MI6 agent turned cyber terrorist gleefully portrayed by Javier Bardem. Silva, is a character tainted with just the right amount of comic book devilishness, and his origin story produces a grizzly reveal mid-way through the film. This, alongside his distinctive looks and exuberant style, easily rank Silva as the best Bond villain in a generation.
 
 {% figure Javier Bardem as Bond villain Raoul Silva %}
 ![](/assets/images/2012/11/skyfall-silva.jpg)
