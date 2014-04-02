@@ -1,0 +1,8 @@
+---
+layout: post
+---
+<div class="post__main">
+    {{ content | abbr | ampersand | indent: 4 }}
+    {% oembed {{ page.slides }} %}
+    <p>Presented at <a href="{{ page.event-link }}">{{ page.event-name}}</a></p>
+</div>
