@@ -41,7 +41,7 @@ A student competition held in 1996 was won by Jürgen Huber and Lisa Eidt. Their
 
 The final identity was launched in June 1999 and [MetaDesign has been involved ever since][1]. They continue to assist the federal government with implementation of the brand, designing tools and creating frameworks that allow ministries to still maintain a level of creative freedom.
 
-* [Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/) (in German, [Translated](http://translate.google.com/translate?js=y&#38;prev=_t&#38;hl=en&#38;ie=UTF-8&#38;u=http%3A%2F%2Fstyleguide.bundesregierung.de%2F&#38;sl=de&#38;tl=en))
+* [Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/) (in German, [translated](http://www.systranet.com/turl/?systranuid=aHR0cC1zdHlsZWd1aWRlLmJ1bmRlc3JlZ2llcnVuZy5kZS9kZV9lbg==))
 
 <figure>
     ![](/assets/images/2009/09/germangovernment.png)
@@ -56,7 +56,7 @@ Last year the Dutch Government [took a similar approach][2] with it's 'Project 1
 
 The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom typeface][4] ('[Rijksoverheid][5]') designed by Peter Verheul. Announced in 2008, the roll out is intended to be complete by 2011.
 
-* [Project 1 Logo Design Guidelines](http://rijkshuisstijl.communicatieplein.nl/) (in Dutch, [Translated](http://translate.google.com/translate?hl=en&sl=nl&tl=en&u=http%3A%2F%2Frijkshuisstijl.communicatieplein.nl%2F))
+* [Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/) (retrieved from the Internet Archive, in Dutch)
 
 <figure>
     ![](/assets/images/2009/09/dutchgovernment.png)

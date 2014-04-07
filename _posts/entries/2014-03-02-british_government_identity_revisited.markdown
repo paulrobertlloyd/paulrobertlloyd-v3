@@ -42,7 +42,7 @@ That the logo for GOV.UK, originally set in Gill Sans, now uses Transport is evi
 
 [1]: http://www.underconsideration.com/brandnew/archives/government_identity.php
 [2]: http://www.designtagebuch.de/regierungen-und-ihre-visuellen-identitaeten/
-[3]: http://www.systranet.com/turl/?systrangui=WebUI&systranuid=aHR0cC13d3cuZGVzaWdudGFnZWJ1Y2guZGUvcmVnaWVydW5nZW4tdW5kLWlocmUtdmlzdWVsbGVuLWlkZW50aXRhZXRlbi8vZGVfZW4=&systranbanner=1
+[3]: http://www.systranet.com/turl/?systranuid=aHR0cC13d3cuZGVzaWdudGFnZWJ1Y2guZGUvcmVnaWVydW5nZW4tdW5kLWlocmUtdmlzdWVsbGVuLWlkZW50aXRhZXRlbi8vZGVfZW4=
 [4]: /2009/09/a_cohesive_and_unified_identity_for_british_government/
 [5]: http://www.bbc.co.uk/news/uk-politics-18017295
 [6]: http://en.wikipedia.org/wiki/Board_of_Trade
