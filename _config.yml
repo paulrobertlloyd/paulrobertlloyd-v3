@@ -21,6 +21,13 @@ archive:
   layout: index-archive
   title: :date
 
+# Collections
+collections:
+  articles:
+    output: true
+  presentations:
+    output: true
+
 # Text formating
 # Use kramdown with pygments (see: https://github.com/navarroj/krampygs)
 markdown: kramdown
