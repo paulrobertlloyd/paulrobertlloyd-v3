@@ -2,7 +2,7 @@
 layout: page
 title: Syndicated Feeds
 excerpt: A number of different feeds are available from this site and on many of the third-party sites I use.
-permalink: /feeds/
+permalink: /about/feeds/
 ---
 A number of different feeds are available from this site:
 
