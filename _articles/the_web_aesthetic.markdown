@@ -1,6 +1,5 @@
 ---
 layout: post-article
-permalink: /article/the-web-aesthetic/
 title: The Web Aesthetic
 publication: A List Apart
 date: '2012-09-25 00:00:00 +0000'

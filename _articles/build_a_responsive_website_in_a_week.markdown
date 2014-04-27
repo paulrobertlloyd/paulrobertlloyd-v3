@@ -1,6 +1,5 @@
 ---
 layout: post-article
-permalink: /article/build_a_responsive_website_in_a_week/
 title: Build a Responsive Website in a Week
 publication: net Magazine
 date: '2012-04-23 00:00:00 +0000'

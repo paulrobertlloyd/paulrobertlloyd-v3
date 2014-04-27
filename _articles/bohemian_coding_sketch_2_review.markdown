@@ -1,6 +1,5 @@
 ---
 layout: post-article
-permalink: /article/bohemian_coding_sketch_2_review/
 title: Bohemian Coding Sketch 2 Review
 publication: Digital Arts
 date: '2013-05-15 00:00:00 +0000'

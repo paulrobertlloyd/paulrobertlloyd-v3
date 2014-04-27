@@ -1,6 +1,5 @@
 ---
 layout: post-article
-permalink: /article/collaborative_development_for_a_responsively_designed_web/
 title: Collaborative Development for a Responsively Designed Web
 publication: 24 ways
 date: '2011-12-05 00:00:00 +0000'

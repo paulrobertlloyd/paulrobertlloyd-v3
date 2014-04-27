@@ -1,6 +1,5 @@
 ---
 layout: post-article
-permalink: /article/adobe_edge_review/
 title: Adobe Edge CC Review
 publication: Digital Arts
 date: '2013-06-20 00:00:00 +0000'

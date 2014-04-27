@@ -1,6 +1,5 @@
 ---
 layout: post-article
-permalink: /article/responsive_images_what_we_thought_we_needed/
 title: "Responsive Images: What We Thought We Needed"
 publication: 24 ways
 date: '2012-12-11 00:00:00 +0000'
