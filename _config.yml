@@ -116,4 +116,4 @@ prose:
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
 # destination:  ../public/
 include: [_pages, .htaccess]
-exclude: [Gemfile, Gemfile.lock, node_modules, package.json, README.md]
+exclude: [assets/audio, assets/documents, Gemfile, Gemfile.lock, node_modules, package.json, README.md]
