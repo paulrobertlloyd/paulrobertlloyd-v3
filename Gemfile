@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Jekyll
-gem 'jekyll'
+gem 'jekyll', "~> 2.0.0.rc1"
 
 # Markdown
 gem 'kramdown'
