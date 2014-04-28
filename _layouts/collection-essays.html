@@ -6,12 +6,10 @@ layout: index
 </header>
 
 <div class="index__main">
-{% assign posts_list = site.posts %}
-{% for summary in posts_list %}
-    {% if summary.layout == "post-article" %}
+{% assign documents_list = site.essays %}
+{% for summary in documents_list %}
     {% if summary.chapter-title == null %}
         {% include summary.html %}
-    {% endif %}
     {% endif %}
 {% endfor %}
 </div>

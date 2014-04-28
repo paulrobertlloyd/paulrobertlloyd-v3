@@ -1,0 +1,8 @@
+---
+layout: post
+---
+<div class="post__main">
+    {{ content | abbr | ampersand | indent: 4 }}
+</div>
+
+{% if page.chapters == true %}{% include section--chapters.html %}{% endif %}

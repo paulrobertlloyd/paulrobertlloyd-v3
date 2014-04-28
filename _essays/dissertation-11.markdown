@@ -1,10 +1,10 @@
 ---
-layout: post-article
+layout: post-essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01 12:00:10 +0100'
 chapters: true
 chapter-title: News Presentation in 1990
-permalink: /articles/dissertation/news_presentation_in_1990/
+permalink: /essays/dissertation/news_presentation_in_1990/
 tags: [Dissertation]
 ---
 The computer techniques introduced during the eighties also made a strong impact on the graphics used within televised news.

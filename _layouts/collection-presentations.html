@@ -1,0 +1,13 @@
+---
+layout: collection
+---
+<header class="index__header">
+    <h1 class="index__title">{{ page.title | smart }}</h1>
+</header>
+
+<div class="index__main">
+{% assign documents_list = site.presentations %}
+{% for summary in documents_list %}
+    {% include summary.html %}
+{% endfor %}
+</div>

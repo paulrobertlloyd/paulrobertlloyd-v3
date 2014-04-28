@@ -25,7 +25,11 @@ archive:
 collections:
   articles:
     output: true
+  essays:
+    output: true
   presentations:
+    output: true
+  projects:
     output: true
 
 # Text formating

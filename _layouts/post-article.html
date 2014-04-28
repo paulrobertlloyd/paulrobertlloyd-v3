@@ -5,5 +5,3 @@ layout: post
     {{ content | abbr | ampersand | indent: 4 }}
     {% if page.link %}<p>Read this article on <a href="{{ page.link }}">{{ page.publication }}</a></p>{% endif %}
 </div>
-
-{% if page.chapters == true %}{% include section--chapters.html %}{% endif %}

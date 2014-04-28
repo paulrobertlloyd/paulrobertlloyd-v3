@@ -1,10 +1,10 @@
 ---
-layout: post-article
+layout: post-essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01 12:00:11 +0100'
 chapters: true
 chapter-title: Branding News
-permalink: /articles/dissertation/branding_news/
+permalink: /essays/dissertation/branding_news/
 tags: [Dissertation]
 ---
 Although all the BBC's news programmes contained similar elements and musical scores, there was no consistent branding across the programmes. With each having its own editorial staff and defined 'personalities' meant graphics were drawn many times over, following different styles and conventions used for each bulletin. As a measure of cost cutting, as well as the benefits of a single united brand, all news output was unified in 1994.
