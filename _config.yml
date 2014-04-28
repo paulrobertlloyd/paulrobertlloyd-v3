@@ -31,7 +31,12 @@ collections:
 # Text formating
 # Use kramdown with pygments (see: https://github.com/navarroj/krampygs)
 markdown: kramdown
-markdown_ext: krampygs
+# markdown_ext: krampygs
+
+kramdown:
+  input: GFM
+
+highlighter: pygments
 
 # Prose.io
 prose:
