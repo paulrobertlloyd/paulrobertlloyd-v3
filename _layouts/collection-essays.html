@@ -6,8 +6,7 @@ layout: index
 </header>
 
 <div class="index__main">
-{% assign documents_list = site.essays %}
-{% for summary in documents_list %}
+{% for summary in site.essays %}
     {% if summary.chapter-title == null %}
         {% include summary.html %}
     {% endif %}

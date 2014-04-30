@@ -6,8 +6,7 @@ layout: collection
 </header>
 
 <div class="index__main">
-{% assign documents_list = site.presentations %}
-{% for summary in documents_list %}
+{% for summary in site.presentations %}
     {% include summary.html %}
 {% endfor %}
 </div>
