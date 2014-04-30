@@ -5,19 +5,19 @@ date: '2006-01-30 12:00:00 +0000'
 excerpt: A property portal bringing together the combined resources of over sixty independent estate agency offices within Coventry and Warwickshire.
 ---
 {% figure Home page %}
-![](/assets/images/portfolio/cwhomes/0.jpg)
+![](/assets/images/projects/cwhomes/0.jpg)
 {% endfigure %}
 
 {% figure Property search %}
-![](/assets/images/portfolio/cwhomes/1.jpg)
+![](/assets/images/projects/cwhomes/1.jpg)
 {% endfigure %}
 
 {% figure Search results %}
-![](/assets/images/portfolio/cwhomes/2.jpg)
+![](/assets/images/projects/cwhomes/2.jpg)
 {% endfigure %}
 
 {% figure Property details page %}
-![](/assets/images/portfolio/cwhomes/3.jpg)
+![](/assets/images/projects/cwhomes/3.jpg)
 {% endfigure %}
 
 cwhomes.co.uk is a property portal that brings together the combined resources of over sixty independent estate agency offices within Coventry and Warwickshire.

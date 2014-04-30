@@ -5,15 +5,15 @@ date: '2009-11-24 12:00:00 +0000'
 excerpt: Discounts on airport hotels, parking and lounges and other travel services in the UK.
 ---
 {% figure Home page %}
-![](/assets/images/portfolio/bookfhr/0.jpg)
+![](/assets/images/projects/bookfhr/0.jpg)
 {% endfigure %}
 
 {% figure Search results %}
-![](/assets/images/portfolio/bookfhr/1.jpg)
+![](/assets/images/projects/bookfhr/1.jpg)
 {% endfigure %}
 
 {% figure Booking form %}
-![](/assets/images/portfolio/bookfhr/2.jpg)
+![](/assets/images/projects/bookfhr/2.jpg)
 {% endfigure %}
 
 BookFHR provides discounts on airport hotels, parking and lounges and other travel services in the UK.

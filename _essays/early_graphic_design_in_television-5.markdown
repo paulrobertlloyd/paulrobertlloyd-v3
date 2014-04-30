@@ -20,7 +20,7 @@ ITN led the way in 1959, with the introduction of the 'Swingometer' and introduc
 Engineers at ITN, later designed their own system, the VT80 which helped to greatly improve the appearance of the on-screen graphics during the 1980  American elections. It was these advances that made the BBC realise how far behind it was in its use of computer technology. The need for this increased investment was made more apparent with the soon to be launched early morning service <cite>Breakfast Time</cite> in January 1982 (a result of the expansion of television broadcasting laws -- ITV launched its own service, TVam in the February of that year). It was only then that the BBC employed a further 20 designers and invested in the much needed computer hardware and software.
 
 <figure id="figure-14">
-    ![A film rostrum camera](/assets/images/articles/early_graphic_design_in_television/figure-14.jpg){: .pull-left}
+    ![A film rostrum camera](/assets/images/essays/early_graphic_design_in_television/figure-14.jpg){: .pull-left}
     <figcaption>
         <h4>Figure 14</h4>
         <p>A film rostrum camera. Computer controlled rostrum cameras were introduced around the late 1970's.</p>
@@ -34,11 +34,11 @@ In 1958, the BBC adapted the film rostrum camera so that it was able to record s
 As for lettering this became easier and less time consuming than the original hand drawn methods, first of with the Masseeley hot press printing machine in 1955, and then with 'Letraset' four years later, before character generators began to take over in 1969. Television graphics have reached a point now in which the vast majority in all aspects of graphic design is created on computer, and is becoming increasingly more integrated.
 
 <figure id="figure-15">
-    ![Gold Chevron ident for Yorkshire Television](/assets/images/articles/early_graphic_design_in_television/figure-15a.png){: .pull-left}
-    ![Gold Chevron ident for Yorkshire Television](/assets/images/articles/early_graphic_design_in_television/figure-15b.png){: .pull-left}
-    ![Gold Chevron ident for Yorkshire Television](/assets/images/articles/early_graphic_design_in_television/figure-15c.png){: .pull-left}
-    ![Gold Chevron ident for Yorkshire Television](/assets/images/articles/early_graphic_design_in_television/figure-15d.png){: .pull-left}
-    ![Gold Chevron ident for Yorkshire Television](/assets/images/articles/early_graphic_design_in_television/figure-15e.png){: .pull-left}
+    ![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15a.png){: .pull-left}
+    ![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15b.png){: .pull-left}
+    ![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15c.png){: .pull-left}
+    ![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15d.png){: .pull-left}
+    ![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15e.png){: .pull-left}
     <figcaption>
         <h4>Figure 15</h4>
         <p>Yorkshire Television ident <cite>Liquid Gold</cite> (Yorkshire Television 1986. Designed by Jeff Parr)</p>
@@ -48,11 +48,11 @@ As for lettering this became easier and less time consuming than the original ha
 However it was the eighties in which the computers use was more obvious to the viewer due to the fact that it had reached a stage in which it could be successfully used to create title-sequences or station indents and present graphical information. Green monitor output and wireframe graphics were fashionable at the start of the decade for use in station or programme promotions. As the technology improved, and greater effects could be achieved, so the fashion changed, meaning that during the mid to late eighties 3D animated computer graphics (usually with metallic or chrome rendering) were more commonly used.
 
 <figure id="figure-16">
-    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/articles/early_graphic_design_in_television/figure-16a.png){: .pull-left}
-    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/articles/early_graphic_design_in_television/figure-16b.png){: .pull-left}
-    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/articles/early_graphic_design_in_television/figure-16c.png){: .pull-left} 
-    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/articles/early_graphic_design_in_television/figure-16d.png){: .pull-left}
-    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/articles/early_graphic_design_in_television/figure-16e.png){: .pull-left}
+    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16a.png){: .pull-left}
+    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16b.png){: .pull-left}
+    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16c.png){: .pull-left} 
+    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16d.png){: .pull-left}
+    ![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16e.png){: .pull-left}
     <figcaption>
         <h4>Figure 16</h4>
         <p>Title sequence from <cite>Ghosts in the Machine II</cite> (Channel Four 1988. Designed by Richard Markell)</p>

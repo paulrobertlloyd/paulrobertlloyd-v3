@@ -5,43 +5,43 @@ date: '2010-05-03 12:00:00 +0100'
 excerpt: Design for a family of five sites representing NBCUniversal's international channel portfolio.
 ---
 {% figure Syfy Universal home page %}
-![](/assets/images/portfolio/universal_networks/0.jpg)
+![](/assets/images/projects/universal_networks/0.jpg)
 {% endfigure %}
 
 {% figure Syfy Universal show page %}
-![](/assets/images/portfolio/universal_networks/1.jpg)
+![](/assets/images/projects/universal_networks/1.jpg)
 {% endfigure %}
 
 {% figure Syfy Universal schedule page %}
-![](/assets/images/portfolio/universal_networks/2.jpg)
+![](/assets/images/projects/universal_networks/2.jpg)
 {% endfigure %}
 
 {% figure Studio Universal home page %}
-![](/assets/images/portfolio/universal_networks/3.jpg)
+![](/assets/images/projects/universal_networks/3.jpg)
 {% endfigure %}
 
 {% figure Studio Universal film page %}
-![](/assets/images/portfolio/universal_networks/4.jpg)
+![](/assets/images/projects/universal_networks/4.jpg)
 {% endfigure %}
 
 {% figure Studio Universal schedule page %}
-![](/assets/images/portfolio/universal_networks/5.jpg)
+![](/assets/images/projects/universal_networks/5.jpg)
 {% endfigure %}
 
 {% figure Universal Channel home page %}
-![](/assets/images/portfolio/universal_networks/6.jpg)
+![](/assets/images/projects/universal_networks/6.jpg)
 {% endfigure %}
 
 {% figure Universal Channel schedule page %}
-![](/assets/images/portfolio/universal_networks/7.jpg)
+![](/assets/images/projects/universal_networks/7.jpg)
 {% endfigure %}
 
 {% figure 13TH STREET Universal home page %}
-![](/assets/images/portfolio/universal_networks/8.jpg)
+![](/assets/images/projects/universal_networks/8.jpg)
 {% endfigure %}
 
 {% figure 13TH STREET Universal schedule page %}
-![](/assets/images/portfolio/universal_networks/9.jpg)
+![](/assets/images/projects/universal_networks/9.jpg)
 {% endfigure %}
 
 Design for a family of five sites representing NBCUniversal's international channel portfolio, including <cite>Syfy Universal</cite>, <cite>Universal Channel</cite>, <cite>13th Street Universal</cite> and <cite>Studio Universal</cite>.

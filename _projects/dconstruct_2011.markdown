@@ -5,11 +5,11 @@ date: '2011-06-14 12:00:00 +0100'
 excerpt: A grassroots conference held annually in Brighton. Speakers at the 2011 edition were invited to explore how we can bridge the gap between physical and digital product design.
 ---
 {% figure Home page %}
-![](/assets/images/portfolio/dconstruct_2011/0.jpg)
+![](/assets/images/projects/dconstruct_2011/0.jpg)
 {% endfigure %}
 
 {% figure Home page, as shown on an iPhone %}
-![](/assets/images/portfolio/dconstruct_2011/1.jpg)
+![](/assets/images/projects/dconstruct_2011/1.jpg)
 {% endfigure %}
 
 Presented by Clearleft, dConstruct is a grassroots conference held annually in Brighton. Speakers at the 2011 edition were invited to explore how we can bridge the gap between physical and digital product design.

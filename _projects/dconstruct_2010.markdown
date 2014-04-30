@@ -5,7 +5,7 @@ date: '2010-09-01 12:00:00 +0100'
 excerpt: A grassroots conference held annually in Brighton. Speakers at the 2010 edition were invited to explore the power of design thinking.
 ---
 {% figure %}
-![Home page](/assets/images/portfolio/dconstruct_2010/0.jpg)
+![Home page](/assets/images/projects/dconstruct_2010/0.jpg)
 {% endfigure %}
 
 Presented by Clearleft, dConstruct is a grassroots conference held annually in Brighton. Speakers at the 2010 edition were invited to explore the power of design thinking.

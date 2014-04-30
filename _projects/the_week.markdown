@@ -5,27 +5,27 @@ date: '2011-11-18 12:00:00 +0000'
 excerpt: The Week magazine condenses the news into lively and informative editorial, giving you complete understanding and insight into the week's most vital stories.
 ---
 {% figure The Week iPad Edition %}
-![](/assets/images/portfolio/the_week/0.jpg)
+![](/assets/images/projects/the_week/0.jpg)
 {% endfigure %}
 
 {% figure Issue Cover %}
-![](/assets/images/portfolio/the_week/1.jpg)
+![](/assets/images/projects/the_week/1.jpg)
 {% endfigure %}
 
 {% figure Film overview page %}
-![](/assets/images/portfolio/the_week/2.jpg)
+![](/assets/images/projects/the_week/2.jpg)
 {% endfigure %}
 
 {% figure Film review %}
-![](/assets/images/portfolio/the_week/3.jpg)
+![](/assets/images/projects/the_week/3.jpg)
 {% endfigure %}
 
 {% figure Text resize options %}
-![](/assets/images/portfolio/the_week/4.jpg)
+![](/assets/images/projects/the_week/4.jpg)
 {% endfigure %}
 
 {% figure Best properties overview page %}
-![](/assets/images/portfolio/the_week/5.jpg)
+![](/assets/images/projects/the_week/5.jpg)
 {% endfigure %}
 
 The Week magazine condenses the news into lively and informative editorial, giving readers an insight into the week's most vital stories. With over 183,000 subscribers, it's also the UK's most popular weekly subscription magazine. Part of this success can be attributed to a rigorously consistent editorial format which readers describe as familiar, reliable and intuitive.

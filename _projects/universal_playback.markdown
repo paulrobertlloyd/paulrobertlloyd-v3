@@ -5,35 +5,35 @@ date: '2010-11-01 12:00:00 +0000'
 excerpt: The TV-on-DVD label of Universal Pictures UK, responsible for releasing content from NBCUniversal as well as other locally acquired series on DVD and blu-ray.
 ---
 {% figure Home page %}
-![](/assets/images/portfolio/universal_playback/0.jpg)
+![](/assets/images/projects/universal_playback/0.jpg)
 {% endfigure %}
 
 {% figure Navigation %}
-![](/assets/images/portfolio/universal_playback/1.jpg)
+![](/assets/images/projects/universal_playback/1.jpg)
 {% endfigure %}
 
 {% figure Show landing page %}
-![](/assets/images/portfolio/universal_playback/2.jpg)
+![](/assets/images/projects/universal_playback/2.jpg)
 {% endfigure %}
 
 {% figure Cast member biography %}
-![](/assets/images/portfolio/universal_playback/3.jpg)
+![](/assets/images/projects/universal_playback/3.jpg)
 {% endfigure %}
 
 {% figure Show-scoped shop item page %}
-![](/assets/images/portfolio/universal_playback/4.jpg)
+![](/assets/images/projects/universal_playback/4.jpg)
 {% endfigure %}
 
 {% figure Genres landing page %}
-![](/assets/images/portfolio/universal_playback/5.jpg)
+![](/assets/images/projects/universal_playback/5.jpg)
 {% endfigure %}
 
 {% figure Videos landing page %}
-![](/assets/images/portfolio/universal_playback/6.jpg)
+![](/assets/images/projects/universal_playback/6.jpg)
 {% endfigure %}
 
 {% figure Shop item page %}
-![](/assets/images/portfolio/universal_playback/7.jpg)
+![](/assets/images/projects/universal_playback/7.jpg)
 {% endfigure %}
 
 Playback is the TV-on-DVD label of Universal Pictures in the UK, responsible for releasing content from NBCUniversal as well as other acquired series on DVD and Blu-ray disc. Its website acts as an information hub for these shows, providing news, photos, and behind-the-scenes videos and interviews.

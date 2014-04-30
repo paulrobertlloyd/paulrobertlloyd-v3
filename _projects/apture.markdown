@@ -5,19 +5,19 @@ date: '2009-05-22 12:00:00 +0100'
 excerpt: A set of tools for publishers that help them provide instantaneous access to information with award-winning in-page search technology.
 ---
 {% figure Apture logo %}
-![](/assets/images/portfolio/apture/0.jpg)
+![](/assets/images/projects/apture/0.jpg)
 {% endfigure %}
 
 {% figure Home page %}
-![](/assets/images/portfolio/apture/1.jpg)
+![](/assets/images/projects/apture/1.jpg)
 {% endfigure %}
 
 {% figure Product promotional page %}
-![](/assets/images/portfolio/apture/2.jpg)
+![](/assets/images/projects/apture/2.jpg)
 {% endfigure %}
 
 {% figure Site Editor Dashboard %}
-![](/assets/images/portfolio/apture/3.jpg)
+![](/assets/images/projects/apture/3.jpg)
 {% endfigure %}
 
 Apture was a publishing tool that gave content creators the power to find and incorporate relevant multimedia directly into their web pages. Working closely alongside Apture's small team, and often on-site at their offices in San Mateo, I helped launch the initial product in April 2008.

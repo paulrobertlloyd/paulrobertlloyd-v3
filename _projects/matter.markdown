@@ -5,23 +5,23 @@ date: '2012-11-14 12:00:00 +0000'
 excerpt: A beautiful reading experience for this independent publisher of unmissable journalism about science and technology.
 ---
 {% figure Identity development sketches %}
-![](/assets/images/portfolio/matter/0.jpg)
+![](/assets/images/projects/matter/0.jpg)
 {% endfigure %}
 
 {% figure The MATTER logo %}
-![](/assets/images/portfolio/matter/1.jpg)
+![](/assets/images/projects/matter/1.jpg)
 {% endfigure %}
 
 {% figure Article landing page %}
-![](/assets/images/portfolio/matter/2.jpg)
+![](/assets/images/projects/matter/2.jpg)
 {% endfigure %}
 
 {% figure Article page %}
-![](/assets/images/portfolio/matter/3.jpg)
+![](/assets/images/projects/matter/3.jpg)
 {% endfigure %}
 
 {% figure Article landing page on mobile %}
-![](/assets/images/portfolio/matter/4.jpg)
+![](/assets/images/projects/matter/4.jpg)
 {% endfigure %}
 
 Matter is the brainchild of journalists Bobbie Johnson and Jim Giles. Frustrated with the lack of care and quality on display in most online journalism, they set out to create a service where journalists and readers could focus on the finest science and technology writing. To achieve this, they started [a Kickstarter campaign][1] which was enormously successful, proving that there was a real desire for high-quality, focused, long-form writing.

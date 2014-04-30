@@ -20,14 +20,14 @@ This was achieved by developing a generic ITV logo alongside regional variations
 Theme specific identities were also created for sport, drama and children's programming. Although a nice idea in theory, some regions refused to use these idents and for those who did, it wasn't long before many adapted them to suit their own tastes. To accept the common logo and identity was seen to be dubbing down their own for which was relied on as a link with their viewers. Furthermore, 1992 saw three regions lose their franchises, and those that replaced them launched with their own idents.
 
 <figure id="figure-9">
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9a.png){: .pull-left}
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9b.png){: .pull-left}
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9c.png){: .pull-left}
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9d.png){: .pull-left}
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9e.png){: .pull-left}
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9f.png){: .pull-left}
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9g.png){: .pull-left}
-    ![Tyne Tess ident, 1989](/assets/images/articles/dissertation/figure-9h.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9a.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9b.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9c.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9d.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9e.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9f.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9g.png){: .pull-left}
+    ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9h.png){: .pull-left}
     <figcaption>
         <h4>Figure 9</h4>
         <p>As part of ITV's 1989 rebrand, a generic ident was produced that incorporated each regions existing identity. This example shows the ident used in the Tyne Tees region.</p>
@@ -35,14 +35,14 @@ Theme specific identities were also created for sport, drama and children's prog
 </figure>
 
 <figure id="figure-10">
-    ![ITV logo, 1989](/assets/images/articles/dissertation/figure-10a.png){: .pull-left}
-    ![ITV Childrens logo, 1989](/assets/images/articles/dissertation/figure-10b.png){: .pull-left} 
-    ![ITV Sport logo, 1989](/assets/images/articles/dissertation/figure-10c.png){: .pull-left}
-    ![ITV Drama logo, 1989](/assets/images/articles/dissertation/figure-10d.png)<br/>
-    ![Combined Border logo, 1989](/assets/images/articles/dissertation/figure-10e.png){: .pull-left}
-    ![Combined London Weekend Television logo, 1989](/assets/images/articles/dissertation/figure-10f.png){: .pull-left}
-    ![Combined Thames Television logo, 1989](/assets/images/articles/dissertation/figure-10g.png){: .pull-left} 
-    ![Combined Yorkshire Television logo, 1989](/assets/images/articles/dissertation/figure-10h.png){: .pull-left}
+    ![ITV logo, 1989](/assets/images/essays/dissertation/figure-10a.png){: .pull-left}
+    ![ITV Childrens logo, 1989](/assets/images/essays/dissertation/figure-10b.png){: .pull-left} 
+    ![ITV Sport logo, 1989](/assets/images/essays/dissertation/figure-10c.png){: .pull-left}
+    ![ITV Drama logo, 1989](/assets/images/essays/dissertation/figure-10d.png)<br/>
+    ![Combined Border logo, 1989](/assets/images/essays/dissertation/figure-10e.png){: .pull-left}
+    ![Combined London Weekend Television logo, 1989](/assets/images/essays/dissertation/figure-10f.png){: .pull-left}
+    ![Combined Thames Television logo, 1989](/assets/images/essays/dissertation/figure-10g.png){: .pull-left} 
+    ![Combined Yorkshire Television logo, 1989](/assets/images/essays/dissertation/figure-10h.png){: .pull-left}
     <figcaption>
         <h4>Figure 10</h4>
         <p>The generic ITV logo, shown alongside regional and genre variations.</p>
@@ -68,9 +68,9 @@ For BBC2, Lambie-Nairn used a far more radical approach by creating a family of 
 Whilst BBC1's image was designed to endure and remain graphically appealing, BBC2's identity would be developed over time. Consistency was also brought to each channel, with all promotional material carrying the channel logos in fixed positions on screen, and all other information such as programme start times, menus, apologies etc. set in the Futura typeface.
 
 <figure id="figure-11">
-    ![BBC One ident, 1991](/assets/images/articles/dissertation/figure-11a.png){: .pull-left}
-    ![BBC Two 'Paint' ident, 1991](/assets/images/articles/dissertation/figure-11b.png){: .pull-left} 
-    ![Childrens BBC ident, 1991](/assets/images/articles/dissertation/figure-11c.png)
+    ![BBC One ident, 1991](/assets/images/essays/dissertation/figure-11a.png){: .pull-left}
+    ![BBC Two 'Paint' ident, 1991](/assets/images/essays/dissertation/figure-11b.png){: .pull-left} 
+    ![Childrens BBC ident, 1991](/assets/images/essays/dissertation/figure-11c.png)
     <figcaption>
         <h4>Figure 11</h4>
         <p>The BBC's branding was consistent across both channels and also its children's programming.</p>
@@ -78,10 +78,10 @@ Whilst BBC1's image was designed to endure and remain graphically appealing, BBC
 </figure>
 
 <figure id="figure-12">
-    ![BBC Two 'Blade' ident, 1991](/assets/images/articles/dissertation/figure-12a.png){: .pull-left}
-    ![BBC Two 'Dog' ident, 1993](/assets/images/articles/dissertation/figure-12b.png){: .pull-left} 
-    ![BBC Two 'Car' ident, 1993](/assets/images/articles/dissertation/figure-12c.png){: .pull-left}
-    ![BBC Two 'Garden' ident, 1994](/assets/images/articles/dissertation/figure-12d.png)
+    ![BBC Two 'Blade' ident, 1991](/assets/images/essays/dissertation/figure-12a.png){: .pull-left}
+    ![BBC Two 'Dog' ident, 1993](/assets/images/essays/dissertation/figure-12b.png){: .pull-left} 
+    ![BBC Two 'Car' ident, 1993](/assets/images/essays/dissertation/figure-12c.png){: .pull-left}
+    ![BBC Two 'Garden' ident, 1994](/assets/images/essays/dissertation/figure-12d.png)
     <figcaption>
         <h4>Figure 12</h4>
         <p>BBC2 had a variety of idents that were added to over the following years.</p>

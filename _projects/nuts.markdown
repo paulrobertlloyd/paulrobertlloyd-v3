@@ -5,15 +5,15 @@ date: '2011-05-27 12:00:00 +0100'
 excerpt: Online reseller Nuts.com are 'more than just nuts'; they also sell dried fruit, chocolates, sweets, seeds, spices, coffees, teas and much more. A family business founded over 80 years ago in Cranford, New Jersey, they have built a reputation for exceptional customer service.
 ---
 {% figure Home page %}
-![](/assets/images/portfolio/nuts/0.jpg)
+![](/assets/images/projects/nuts/0.jpg)
 {% endfigure %}
 
 {% figure Category page %}
-![](/assets/images/portfolio/nuts/1.jpg)
+![](/assets/images/projects/nuts/1.jpg)
 {% endfigure %}
 
 {% figure Product page %}
-![](/assets/images/portfolio/nuts/2.jpg)
+![](/assets/images/projects/nuts/2.jpg)
 {% endfigure %}
 
 Online retailer Nuts.com are 'more than just nuts'; they also sell dried fruit, chocolates, sweets, seeds, spices, coffees, teas and much more. A family business founded over 80 years ago in Cranford, New Jersey, their success is built upon a passion for quality, a deep connection with their heritage and good old-fashioned customer service.

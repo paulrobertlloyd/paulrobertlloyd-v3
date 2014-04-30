@@ -5,27 +5,27 @@ date: '2007-03-21 12:00:00 +0000'
 excerpt: An online platform that allows people to create, customise and share their own social networks.
 ---
 {% figure Ning logo %}
-![](/assets/images/portfolio/ning/0.jpg)
+![](/assets/images/projects/ning/0.jpg)
 {% endfigure %}
 
 {% figure Home page %}
-![](/assets/images/portfolio/ning/1.jpg)
+![](/assets/images/projects/ning/1.jpg)
 {% endfigure %}
 
 {% figure Early iteration of the sign-up page %}
-![](/assets/images/portfolio/ning/2.jpg)
+![](/assets/images/projects/ning/2.jpg)
 {% endfigure %}
 
 {% figure Activity dashboard (unused) %}
-![](/assets/images/portfolio/ning/3.jpg)
+![](/assets/images/projects/ning/3.jpg)
 {% endfigure %}
 
 {% figure Social network home page %}
-![](/assets/images/portfolio/ning/4.jpg)
+![](/assets/images/projects/ning/4.jpg)
 {% endfigure %}
 
 {% figure Platform diagram %}
-![](/assets/images/portfolio/ning/5.jpg)
+![](/assets/images/projects/ning/5.jpg)
 {% endfigure %}
 
 Ning is an online platform that allows people to create, customise and share their own social networks. I was Lead Designer from January 2006 - October 2007.

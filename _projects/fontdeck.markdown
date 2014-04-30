@@ -5,27 +5,27 @@ date: '2010-11-30 12:00:00 +0000'
 excerpt: A pure CSS @font-face solution providing hundreds of fonts that can be used on the web without the need for complicated and non-standard based text replacement techniques.
 ---
 {% figure Home page %}
-![](/assets/images/portfolio/fontdeck/0.jpg)
+![](/assets/images/projects/fontdeck/0.jpg)
 {% endfigure %}
 
 {% figure Browse Fonts %}
-![](/assets/images/portfolio/fontdeck/1.jpg)
+![](/assets/images/projects/fontdeck/1.jpg)
 {% endfigure %}
 
 {% figure Typeface page %}
-![](/assets/images/portfolio/fontdeck/2.jpg)
+![](/assets/images/projects/fontdeck/2.jpg)
 {% endfigure %}
 
 {% figure Font specimen page %}
-![](/assets/images/portfolio/fontdeck/3.jpg)
+![](/assets/images/projects/fontdeck/3.jpg)
 {% endfigure %}
 
 {% figure Designers landing page %}
-![](/assets/images/portfolio/fontdeck/4.jpg)
+![](/assets/images/projects/fontdeck/4.jpg)
 {% endfigure %}
 
 {% figure Project settings %}
-![](/assets/images/portfolio/fontdeck/5.jpg)
+![](/assets/images/projects/fontdeck/5.jpg)
 {% endfigure %}
 
 Using a pure CSS @font-face solution, Fontdeck provides hundreds of web fonts that can be used without the need for complicated text replacement techniques.
