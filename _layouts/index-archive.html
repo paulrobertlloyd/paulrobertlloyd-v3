@@ -48,7 +48,7 @@ layout: index
     </ol>
 {% else %}
     {% for summary in page.archive.posts reversed %}
-    {% indent_include summary.html 4 %}
+    {% indent_include articles/summary.html 4 %}
     {% endfor %}
 {% endif %}
 </div>

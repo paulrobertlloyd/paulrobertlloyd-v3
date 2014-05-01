@@ -8,7 +8,7 @@ layout: index
 <div class="index__main">
 {% for summary in site.essays %}
     {% if summary.chapter-title == null %}
-        {% include summary.html %}
+        {% include articles/summary.html %}
     {% endif %}
 {% endfor %}
 </div>
