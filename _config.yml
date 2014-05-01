@@ -25,12 +25,16 @@ archive:
 collections:
   articles:
     output: true
+    title: Articles
   essays:
     output: true
+    title: Academic Essays
   presentations:
     output: true
+    title: Presentations
   projects:
     output: true
+    title: Projects
 
 # Text formating
 # Use kramdown with pygments (see: https://github.com/navarroj/krampygs)
@@ -125,4 +129,4 @@ prose:
 # source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
 # destination:  ../public/
 include: [_pages, .htaccess]
-exclude: [assets/audio, assets/documents, Gemfile, Gemfile.lock, node_modules, package.json, README.md]
+exclude: [assets/audio, assets/documents, assets/images, Gemfile, Gemfile.lock, node_modules, package.json, README.md]
