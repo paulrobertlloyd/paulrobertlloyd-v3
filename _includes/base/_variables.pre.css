@@ -1,0 +1,15 @@
+:root {
+    /* Colours */
+    var-c--neutral-1: #222;
+    var-c--neutral-2: #444;
+    var-c--neutral-3: #666;
+    var-c--neutral-4: #888;
+    var-c--neutral-5: #aaa;
+    var-c--neutral-6: #ccc;
+    var-c--neutral-7: #eee;
+
+    /* Fonts */
+    var-f--serif: serif;
+    var-f--sans-serif: sans-serif;
+    var-f--monospace: monospace;
+}

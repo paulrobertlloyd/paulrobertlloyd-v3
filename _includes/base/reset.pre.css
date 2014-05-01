@@ -1,11 +1,6 @@
-:root {
-    var-gray: #333;
-    var-serif: Georgia, serif;
-}
-
 body {
-    color: var(gray);
-    font-family: var(serif);
+    color: var(c--neutral-1);
+    font-family: var(f--serif);
     margin: 0 auto;
     width: 80%;
     max-width: 45em;
@@ -19,7 +14,10 @@ figure {
     clear: both;
     overflow: hidden;
 }
-figcaption {
+figcaption,
+footer {
+    color: var(c--neutral-3);
+    font-family: var(f--sans-serif);
     clear: left;
 }
 
