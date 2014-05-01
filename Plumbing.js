@@ -8,8 +8,8 @@ module.exports = function(pipelines) {
 
     pipelines['css'] = [
         glob('_includes/**/*.pre.css'),
-        myth(),
         concat('style'),
+        myth('style'),
         write('assets/stylesheets')
     ];
 
