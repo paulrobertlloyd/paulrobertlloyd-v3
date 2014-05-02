@@ -18,6 +18,6 @@ Recently, we have started holding weekly design reviews. Not only can I share my
 
 After a decade of self-contained practice, designers and developers are now having to open up to each other. In this new world, is there any room left for solo artists?
 
-_This entry was [originally posted on the Clearleft website][1]_
+_This entry originally appeared on [The Pastry Box Project][1]_
 
 [1]: http://the-pastry-box-project.net/clearleft/2013-june-6/
