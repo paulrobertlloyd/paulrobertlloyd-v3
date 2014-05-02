@@ -1,5 +1,5 @@
 ---
-layout: post-article
+layout: document-article
 title: Adobe Edge CC Review
 publication: Digital Arts
 date: '2013-06-20 00:00:00 +0000'

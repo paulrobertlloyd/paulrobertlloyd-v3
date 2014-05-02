@@ -1,5 +1,5 @@
 ---
-layout: post-article
+layout: document-article
 title: The Web Aesthetic
 publication: A List Apart
 date: '2012-09-25 00:00:00 +0000'

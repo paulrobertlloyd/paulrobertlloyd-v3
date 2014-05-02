@@ -1,5 +1,5 @@
 ---
-layout: post-article
+layout: document-article
 title: Build a Responsive Website in a Week
 publication: net Magazine
 date: '2012-04-23 00:00:00 +0000'

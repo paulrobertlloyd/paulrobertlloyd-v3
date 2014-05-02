@@ -1,5 +1,5 @@
 ---
-layout: post-presentation
+layout: document-presentation
 title: 'This is for Everyone'
 date: '2013-08-21 00:00:00 +0000'
 event-name: 'LDNIA #4'

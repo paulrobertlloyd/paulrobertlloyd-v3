@@ -1,52 +1,17 @@
 ---
-layout: index
+layout: base
 ---
-<header class="index__header">
-    <h1 class="index__title">{{ page.title }}</h1>
-</header>
+<section class="index">
+    <header class="index__header">
+        <h1 class="index__title">{{ page.title }}</h1>
+    </header>
 
-<div class="index__main">
-    <section>
-        <h1><a href="/projects/">Projects</a></h1>
-{{ site.collections | json }}
-{% for foo in site.collections %}
-    Title: {{ foo.title }}
+    <div class="index__main">
+{% for collection in site.collections | map:to_liquid %}
+        <section>
+            <h1><a href="{{ collection.directory }}">{{ collection.title }}</a></h1>
+            Label: {{ collection.label }}
+        </section>
 {% endfor %}
-
-{{ site.projects.title }}
-    </section>
-
-    <section>
-        <h1>Articles</h1>
-{% for collection in site.articles %}
-    Label: {{ collection.label }}<br/>
-    Docs: {{ collection.docs }}<br/>
-    Relative Directory: {{ collection.relative_directory }}<br/>
-    Directory: {{ collection.directory }}<br/>
-    Output: {{ collection.output }}
-{% endfor %}
-    </section>
-
-    <section>
-        <h1>Presentations</h1>
-{% for collection in site.presentations %}
-    Label: {{ collection.label }}<br/>
-    Docs: {{ collection.docs }}<br/>
-    Relative Directory: {{ collection.relative_directory }}<br/>
-    Directory: {{ collection.directory }}<br/>
-    Output: {{ collection.output }}
-{% endfor %}
-    </section>
-
-    <section>
-        <h1>Academic Essays</h1>
-{% for collection in site.essays %}
-    Label: {{ collection.label }}<br/>
-    Docs: {{ collection.docs }}<br/>
-    Relative Directory: {{ collection.relative_directory }}<br/>
-    Directory: {{ collection.directory }}<br/>
-    Output: {{ collection.output }}
-{% endfor %}
-    </section>
-
-</div>
+    </div>
+</section>

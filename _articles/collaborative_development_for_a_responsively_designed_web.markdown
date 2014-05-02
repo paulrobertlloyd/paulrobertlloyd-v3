@@ -1,5 +1,5 @@
 ---
-layout: post-article
+layout: document-article
 title: Collaborative Development for a Responsively Designed Web
 publication: 24 ways
 date: '2011-12-05 00:00:00 +0000'

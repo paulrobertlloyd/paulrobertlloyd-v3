@@ -13,9 +13,15 @@
     <footer class="summary__footer">
         <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
     </footer>
-    {% if summary.excerpt %}
     <div class="summary__main">
+        {% case summary.layout %}
+        {% when "post-entry" %}
         {{ summary.excerpt | abbr | ampersand | markdownify }}
+        {% when "post-link" %}
+        {% if summary.embed == true %}{% oembed {{ summary.link }} %}{% endif %}
+        {{ summary.content | abbr | ampersand | markdownify }}
+        {% else %}
+        {{ summary.content | abbr | ampersand | markdownify }}
+        {% endcase %}
     </div>
-    {% endif %}
 </article>

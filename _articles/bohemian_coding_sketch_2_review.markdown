@@ -1,5 +1,5 @@
 ---
-layout: post-article
+layout: document-article
 title: Bohemian Coding Sketch 2 Review
 publication: Digital Arts
 date: '2013-05-15 00:00:00 +0000'

@@ -1,5 +1,5 @@
 ---
-layout: post-presentation
+layout: document-presentation
 title: 'Fear, Uncertainty, and Doubt'
 date: '2013-09-19 00:00:00 +0000'
 event-name: 'MK Geek Night #6'

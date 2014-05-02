@@ -1,8 +1,8 @@
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 <nav class="navigation" role="navigation" id="menu">
-    <ul class="list">
-        <li class="list__item{% if location == 'work' %} is-active{% endif %}"><a href="/work/">Work</a></li>
-        <li class="list__item{% if location == 'about' %} is-active{% endif %}"><a href="/about/">About</a></li>
-        <li class="list__item{% if location == 'contact' %} is-active{% endif %}"><a href="/contact/">Contact</a></li>
+    <ul class="nav nav--primary">
+        <li class="nav__item{% if location == 'work' %} is-active{% endif %}"><a href="/work/">Work</a></li>
+        <li class="nav__item{% if location == 'about' %} is-active{% endif %}"><a href="/about/">About</a></li>
+        <li class="nav__item{% if location == 'contact' %} is-active{% endif %}"><a href="/contact/">Contact</a></li>
     </ul>
 </nav><!--/@navigation-->

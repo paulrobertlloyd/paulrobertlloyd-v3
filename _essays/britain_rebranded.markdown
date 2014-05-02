@@ -1,5 +1,5 @@
 ---
-layout: post-essay
+layout: document-essay
 title: Brand New Britain
 date: '2000-05-01 12:00:00 +0100'
 excerpt: A report published by think-tank Demos in September 1997 found that Britain's image abroad was one of a backward looking country. In the eyes of consumers we produced goods of poor quality whilst potential tourists saw a country were they would encounter bad weather and shoddy bed and breakfasts. Britain was in need of a new identity, but at a time when the country was unsure where its identity actually lay.

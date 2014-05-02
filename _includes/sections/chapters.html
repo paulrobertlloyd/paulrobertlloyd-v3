@@ -1,11 +1,11 @@
 
 <section class="section section--chapters" id="chapters">
     <h1 class="section__title">Chapters</h1>
-    <ul class="list">
+    <ul class="nav nav--chapters">
     {% for document in site.essays %}
         {% for tag in document.tags %}
             {% if page.tags contains tag %}
-                <li class="list__item{% if page.permalink == document.url %} is-active{% endif %}"><a href="{{ document.url }}">{% if document.chapter-title %}{{ document.chapter-title }}{% else %}Introduction{% endif %}</a></li>
+                <li class="nav__item{% if page.permalink == document.url %} is-active{% endif %}"><a href="{{ document.url }}">{% if document.chapter-title %}{{ document.chapter-title }}{% else %}Introduction{% endif %}</a></li>
             {% endif %}
         {% endfor %}
     {% endfor %}

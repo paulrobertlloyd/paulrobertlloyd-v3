@@ -1,5 +1,5 @@
 ---
-layout: post-project
+layout: document-project
 title: Fontdeck
 date: '2010-11-30 12:00:00 +0000'
 excerpt: A pure CSS @font-face solution providing hundreds of fonts that can be used on the web without the need for complicated and non-standard based text replacement techniques.

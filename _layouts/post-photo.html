@@ -1,7 +1,5 @@
 ---
 layout: post
 ---
-<div class="post__main">
-    {% if page.embed == true %}{% oembed {{ page.link }} %}{% endif %}
-    {{ content | abbr | ampersand | indent: 4 }}
-</div>
+{% if page.embed == true %}{% oembed {{ page.link }} %}{% endif %}
+{{ content | abbr | ampersand }}

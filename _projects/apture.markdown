@@ -1,5 +1,5 @@
 ---
-layout: post-project
+layout: document-project
 title: Apture
 date: '2009-05-22 12:00:00 +0100'
 excerpt: A set of tools for publishers that help them provide instantaneous access to information with award-winning in-page search technology.

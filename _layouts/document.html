@@ -1,0 +1,28 @@
+---
+layout: base
+---
+<article class="document">
+    <header class="document__header">
+        <h1 class="document__title">{{ page.title | smart }}</h1>
+        {% if page.chapter-title %}
+        <h2>{{ page.chapter-title }}</h2>
+        {% endif %}
+
+        {% if page.chapter-title == null %}
+        <nav class="nav nav--traverse">
+        {% assign previous = page.previous %}
+            {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title }}">Previous entry</a>{% endif %}
+        {% assign next = page.next %}
+            {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title }}">Next entry</a>{% endif %}
+        </nav>
+        {% endif %}
+    </header>
+
+    <footer class="document__footer">
+        <time class="document__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+    </footer>
+    
+    <div class="document__main">
+        {{ content | indent: 16 }}
+    </div>
+</article>

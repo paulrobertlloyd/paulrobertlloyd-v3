@@ -1,22 +1,24 @@
 ---
 title: Home
-layout: index
+layout: base
 ---
-<h1 class="index__title">{{ page.title | smart }}</h1>
+<section class="index">
+    <h1 class="index__title">{{ page.title | smart }}</h1>
 
-<ul class="list">
-{% for summary in paginator.posts %}
-    <li class="list__item">
-{% indent_include articles/summary.html 8 %}
-    </li>
-{% endfor %}
-</ul>
+    <ul class="list">
+    {% for summary in paginator.posts %}
+        <li class="list__item">
+    {% indent_include articles/summary.html 8 %}
+        </li>
+    {% endfor %}
+    </ul>
 
-<nav class="nav nav--pagination">
-{% if paginator.previous_page %}
-    <a class="nav__item" rel="next" href="{{paginator.previous_page_path}}">Newer</a>
-{% endif %}
-{% if paginator.next_page %}
-    <a class="nav__item" rel="prev" href="{{paginator.next_page_path}}">Older</a>
-{% endif %}
-</nav>
+    <nav class="nav nav--pagination">
+    {% if paginator.previous_page %}
+        <a class="nav__item" rel="next" href="{{ paginator.previous_page_path }}">Newer</a>
+    {% endif %}
+    {% if paginator.next_page %}
+        <a class="nav__item" rel="prev" href="{{ paginator.next_page_path }}">Older</a>
+    {% endif %}
+    </nav>
+</section>
