@@ -1,29 +1,14 @@
-body {
-    color: var(c--neutral-1);
-    font-family: var(f--serif);
-    margin: 0 auto;
-    width: 80%;
-    max-width: 45em;
+/*  =========================================================================
+    Global resets
+    ========================================================================= */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-hr {
-    clear: both;
-}
-
-figure {
-    clear: both;
-    overflow: hidden;
-}
-figcaption,
-footer {
-    color: var(c--neutral-3);
-    font-family: var(f--sans-serif);
-    clear: left;
-}
-
-img {
-    max-width: 100%;
-}
 img.pull-left {
     float: left;
     margin: 0 1em 1em 0;

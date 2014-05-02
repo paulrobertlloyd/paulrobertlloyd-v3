@@ -1,0 +1,29 @@
+/* ==========================================================================
+   All
+   ========================================================================== */
+.nav {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav__item {
+    background-color: var(c--neutral-7);
+    display: inline-block;
+    }
+    .nav__item:hover {
+        background-color: var(c--neutral-6);
+    }
+    .nav__item:active {
+        background-color: var(c--neutral-5);
+    }
+
+.nav__item {
+    padding: 0.25em 0.5em;
+}
+.nav__item a {
+    display: block;
+}
+
+.nav__item.is-active {
+    background-color: var(c--neutral-4);
+}

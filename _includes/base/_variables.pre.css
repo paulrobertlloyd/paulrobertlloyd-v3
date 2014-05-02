@@ -7,6 +7,11 @@
     var-c--neutral-5: #aaa;
     var-c--neutral-6: #ccc;
     var-c--neutral-7: #eee;
+    var-c--neutral-8: #fff;
+
+    var-c--link: #25d;
+    var-c--link-hover: #52d;
+    var-c--link-active: #d25;
 
     /* Fonts */
     var-f--serif: serif;

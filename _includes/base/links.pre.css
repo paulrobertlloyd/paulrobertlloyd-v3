@@ -1,0 +1,24 @@
+/*  =========================================================================
+    Links
+    http://developers.whatwg.org/links.html
+    ========================================================================= */
+a {
+    color: var(c--link);
+    text-decoration: none;
+}
+a:active,
+a:hover {
+    color: var(c--link-hover);
+/*  Improve readability when focused and also mouse hovered in all browsers */
+    outline: 0;
+}
+a:active {
+    color: var(c--link-active);
+}
+
+@media print {
+    a,
+    a:visited {
+        color: #000 !important;
+    }
+}
