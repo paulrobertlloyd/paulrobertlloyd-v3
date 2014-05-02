@@ -10,7 +10,7 @@ module.exports = function(pipelines) {
         glob('_includes/**/*.pre.css'),
         concat('style'),
         myth('style'),
-        write('assets/stylesheets')
+        write('_site/assets/stylesheets')
     ];
 
 };
