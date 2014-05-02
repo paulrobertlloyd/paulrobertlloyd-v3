@@ -153,7 +153,7 @@ p q r s t u v w x y z { | } ~ </samp></pre>
 <div class="example">
     <p><a href="/">Go to the home page</a> or <a href="#banner">return to the top of this page</a>.</p>
 </div>
-    
+
 <h3>Stressed emphasis</h3>
 <p>The <code>em</code> element is used to denote text with stressed emphasis, i.e., something you'd pronounce differently. Where italicizing is required for stylistic differentiation, the <code>i</code> element may be preferable. Example:</p>
 <div class="example">
@@ -434,25 +434,3 @@ p q r s t u v w x y z { | } ~ </samp></pre>
         </fieldset>
     </form>
 </div>
-
-<h2 id="forms">Patterns</h2>
-<p>Design and mark-up patterns unique to this site.</p>
-
-<h3>Pagination</h3>
-<p>Used to navigate between pages of search results.</p>
-<ul role="navigation" class="pagination">
-    <li><a href="#" rel="prev">Previous</a></li>
-    <li><a href="#">1</a></li>
-    <li><span class="active">2</span></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#" rel="next">Next</a></li>
-</ul>
-
-<h3>Notification Message</h3>
-<p>Used to highlight a particular message or action.</p>
-<div class="notification message">
-    <h4>I'm running the Brighton Marathon on Sunday, April 15th 2012</h4>
-    <p>By doing so, I hope to raise £500 for Action for Children. Sponsorship will not only motivate me on the big day, but help thousands of children across the UK reach their full potential.</p>
-    <p><a class="action" href="http://www.justgiving.com/prlrun2012/">Sponsor my run on Just Giving &#8250;</a></p>
-</div><!--/.notification-->
