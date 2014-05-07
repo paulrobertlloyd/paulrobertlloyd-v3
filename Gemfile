@@ -1,11 +1,13 @@
 source "https://rubygems.org"
 
+# Rake
+#gem 'rake'
+#gem 'nokogiri'
+#gem 'tidy-html5', :git => "https://github.com/moneyadviceservice/tidy-html5-gem.git"
+
 # Jekyll
-gem 'jekyll', "~> 2.0.0.rc1"
-
-# Markdown
-gem 'kramdown'
-gem 'typogruby'
-
-#oEmbed
+gem 'jekyll'
+#gem 'kramdown'
+#gem 'typogruby'
 gem 'ruby-oembed'
+gem 'xml-simple'
