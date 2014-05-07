@@ -27,7 +27,7 @@ abbr {
 }
 abbr[title] {
 /*  Address styling not present in IE 8/9, Safari 5, and Chrome */
-    border-bottom: 1px dotted var(c--neutral-6);
+    border-bottom: 1px dotted var(--c_neutral-6);
     cursor: help;
 }
 
@@ -35,8 +35,8 @@ pre,
 code,
 kbd,
 samp {
-    color: var(c--neutral-3);
-    font-family: var(f--monospace);
+    color: var(--c_neutral-3);
+    font-family: var(--f_monospace);
     background-color: rgba(255,255,255,0.75);
 }
 code,

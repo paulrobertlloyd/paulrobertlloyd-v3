@@ -3,14 +3,14 @@
     http://developers.whatwg.org/sections.html
     ========================================================================= */
 body {
-    color: var(c--neutral-1);
-    font-family: var(f--sans-serif);
+    color: var(--c_neutral-1);
+    font-family: var(--f_sans-serif);
     font-weight: 400;
     font-size: 1em; /* 16px */
     line-height: 1.5; /* 24px */
-    background-color: var(c--neutral-8);
     margin: 0 auto;
     width: 80%;
+    background-color: var(--c_neutral-8);
     max-width: 45em;
 }
 

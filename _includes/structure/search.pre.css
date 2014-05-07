@@ -1,5 +1,5 @@
 .search {
-    font-family: var(f--sans-serif);
+    font-family: var(--f_sans-serif);
 }
 .search__result {
     display: block;

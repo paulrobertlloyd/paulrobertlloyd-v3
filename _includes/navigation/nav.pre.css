@@ -7,14 +7,14 @@
 }
 
 .nav__item {
-    background-color: var(c--neutral-7);
+    background-color: var(--c_neutral-7);
     display: inline-block;
     }
     .nav__item:hover {
-        background-color: var(c--neutral-6);
+        background-color: var(--c_neutral-6);
     }
     .nav__item:active {
-        background-color: var(c--neutral-5);
+        background-color: var(--c_neutral-5);
     }
 
 .nav__item {
@@ -25,5 +25,5 @@
 }
 
 .nav__item.is-active {
-    background-color: var(c--neutral-4);
+    background-color: var(--c_neutral-4);
 }

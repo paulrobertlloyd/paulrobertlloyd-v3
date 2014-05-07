@@ -3,7 +3,7 @@
     http://developers.whatwg.org/links.html
     ========================================================================= */
 a {
-    color: var(c--link);
+    color: var(--c_link);
     text-decoration: none;
 }
 a:active,
