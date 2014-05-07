@@ -10,7 +10,6 @@ encoding: UTF-8
 
 # Permalinks
 permalink: /:year/:month/:title/
-relative_permalinks: false
 
 # Pagination
 paginate: 10
@@ -38,13 +37,13 @@ collections:
 
 # Text formating
 # Use kramdown with pygments (see: https://github.com/navarroj/krampygs)
-markdown: kramdown
-markdown_ext: krampygs
-
-# kramdown:
-#  input: GFM
-
+# markdown: kramdown
+# markdown_ext: krampygs
 # highlighter: pygments
+
+# Publishing
+include: [_pages, .htaccess]
+exclude: [Gemfile, Gemfile.lock, node_modules, package.json, Plumbing.js README.md]
 
 # Prose.io
 prose:
@@ -124,9 +123,3 @@ prose:
         field:
           element: "textarea"
           label: "Excerpt"
-
-# Publishing
-# source:       /home/prlloyd/Dropbox/paulrobertlloyd.com/
-# destination:  ../public/
-include: [_pages, .htaccess]
-exclude: [assets/audio, assets/documents, assets/images, Gemfile, Gemfile.lock, node_modules, package.json, Plumbing.js README.md]
