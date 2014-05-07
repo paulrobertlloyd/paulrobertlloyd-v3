@@ -22,7 +22,7 @@ layout: base
         <time class="document__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
     </footer>
     
-    <div class="document__main">
+    <div class="document__main prose">
         {{ content | indent: 16 }}
     </div>
 </article>

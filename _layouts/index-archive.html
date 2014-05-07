@@ -49,7 +49,7 @@ layout: base
         </ol>
 {% else %}
     {% for summary in page.archive.posts reversed %}
-    {% indent_include articles/summary.html 4 %}
+    {% include articles/summary.html %}
     {% endfor %}
 {% endif %}
     </div>

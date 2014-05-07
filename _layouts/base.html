@@ -3,15 +3,13 @@
 {% include structure/head.html %}
 
 <body>
-{% indent_include structure/banner.html 4 %}
+{% include structure/banner.html %}
     <main class="main" role="main">
-        <section class="index">
-            {{ content | indent: 12 }}
-        </section>
+{{ content }}
     </main><!--/@main-->
-{% indent_include structure/navigation.html 4 %}
-{% indent_include structure/search.html 4 %}
-{% indent_include structure/contentinfo.html 4 %}
-{% indent_include structure/foot.html 4 %}
+{% include structure/navigation.html %}
+{% include structure/search.html %}
+{% include structure/contentinfo.html %}
+{% include structure/foot.html %}
 </body>
 </html>

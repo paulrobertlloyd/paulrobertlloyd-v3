@@ -91,7 +91,7 @@ module StaticComments
     def url
       data["url"]
     end
-    
+
     def post_id
       data['post_id']
     end
@@ -116,4 +116,5 @@ module StaticComments
     end
     comments
   end
+
 end
