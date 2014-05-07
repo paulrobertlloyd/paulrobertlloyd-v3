@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Introducing Reggie The Rat
 date: '2005-08-10 23:03:44 +0100'
 excerpt: This summer has seen our family grow by one.

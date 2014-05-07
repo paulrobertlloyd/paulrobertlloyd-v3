@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: All Good Things
 date: '2005-01-11 21:36:13 +0000'
 excerpt: Another MacWorld Expo, another slew of gifts from Apple.

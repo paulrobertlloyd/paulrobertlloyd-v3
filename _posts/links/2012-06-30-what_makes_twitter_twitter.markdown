@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: What makes Twitter Twitter?
 date: '2012-06-30 23:14:02 +0100'
 link: http://alt.adrianshort.co.uk/blog/2012/06/30/what-makes-twitter-twitter/

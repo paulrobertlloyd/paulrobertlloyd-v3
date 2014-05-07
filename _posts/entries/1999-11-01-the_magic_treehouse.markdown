@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Ooberman - The Magic Treehouse'
 date: '1999-11-01 12:00:00 +0000'
 ---

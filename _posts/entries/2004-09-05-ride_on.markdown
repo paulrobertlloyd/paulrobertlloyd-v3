@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Ride On
 date: '2004-09-05 19:35:36 +0100'
 excerpt: I have finally bought a replacement for my old mountain bike.

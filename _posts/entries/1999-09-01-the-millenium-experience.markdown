@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Millennium Experience
 date: '1999-09-01 12:00:00 +0000'
 ---

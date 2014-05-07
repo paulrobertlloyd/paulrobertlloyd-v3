@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Whose the (Best) Man!
 date: '2004-01-11 12:00:37 +0100'
 excerpt: Lee has asked me to be his best man for his wedding next year.

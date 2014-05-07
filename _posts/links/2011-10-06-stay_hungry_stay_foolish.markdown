@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Stay Hungry. Stay Foolish.
 date: '2011-10-06 20:44:26 +0100'
 link: http://youtube.com/watch?v=UF8uR6Z6KLc

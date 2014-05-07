@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Star Trek: Nemesis'
 date: '2003-01-03 12:00:00 +0000'
 ---

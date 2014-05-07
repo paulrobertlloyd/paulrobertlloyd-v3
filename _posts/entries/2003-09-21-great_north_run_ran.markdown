@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 2hrs 52mins -- the Great North Run, Ran
 date: '2003-09-21 12:00:30 +0000'
 ---

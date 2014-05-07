@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Have You Heard About Those Massive Baths?
 date: '2004-08-05 18:18:14 +0100'
 excerpt: Another night in Lichfield

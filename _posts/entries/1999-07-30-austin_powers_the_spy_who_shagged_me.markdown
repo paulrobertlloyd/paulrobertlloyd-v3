@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Austin Powers: The Spy Who Shagged Me'
 date: '1999-09-11 12:00:00 +0000'
 ---

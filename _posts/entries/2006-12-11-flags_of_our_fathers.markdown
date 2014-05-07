@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Flags Of Our Fathers
 date: '2006-12-11 23:50:12 +0000'
 excerpt: The first of a few brief film reviews I plan to end the year on, having seen a few movies during my three months back in the states.

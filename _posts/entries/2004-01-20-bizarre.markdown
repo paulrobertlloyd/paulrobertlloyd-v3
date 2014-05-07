@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Bizarre
 date: '2004-01-20 12:00:33 +0100'
 excerpt: As experiences go, this 're-union' sure was one.

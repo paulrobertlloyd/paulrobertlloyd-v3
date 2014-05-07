@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Busy (and Fun) Month Ahead
 date: '2006-06-14 05:14:50 +0100'
 excerpt: Although June is already pretty much done and dusted, there is still a little bit of fun to come.

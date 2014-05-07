@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Good Chance of Death This Year
 date: '2004-01-06 12:00:38 +0100'
 excerpt: Thanks to Kris and his continuing post-oz depression, I seem to have been talked in to joining alongside his New Years Resolution of doing something adventurous/mildly dangerous.

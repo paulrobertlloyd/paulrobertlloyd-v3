@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Finally, A Ning To Be Proud Of
 date: '2007-03-21 00:02:00 +0000'
 excerpt: Grabbing a few minutes to to talk about the all new Ning we launched almost three weeks ago.

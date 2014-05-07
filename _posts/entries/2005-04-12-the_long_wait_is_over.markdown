@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Long Wait Is Over
 date: '2005-04-12 19:32:17 +0100'
 excerpt: It's been a long long wait, but at it's finally here.

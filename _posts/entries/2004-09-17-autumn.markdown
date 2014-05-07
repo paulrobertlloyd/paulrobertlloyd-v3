@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Autumn
 date: '2004-09-17 19:34:56 +0100'
 excerpt: I've suddenly realised that this is my favourite time of year.

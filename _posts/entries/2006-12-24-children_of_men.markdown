@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Children of Men
 date: '2006-12-24 14:48:39 +0000'
 excerpt: Children of Men is a vision of the not too distant future (2027 to be precise) where the human race is no longer able to reproduce.

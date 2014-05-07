@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Get Firefox
 date: '2004-09-20 00:50:10 +0100'
 link: http://getfirefox.com/

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Movies of Ken Korda
 date: '2006-01-30 14:01:32 +0000'
 excerpt: Being a massive fan of 'The Adam & Joe Show', it was a happy day when I discovered Adam Buxton's blog. Better still, over the last few weeks he has been uploading some short interviews he made with Ken Korda for 'The Last Word' on More4.

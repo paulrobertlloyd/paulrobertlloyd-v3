@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Not Sure About the Apple Store
 date: '2005-05-11 00:24:40 +0100'
 excerpt: Purchasing a PowerMac G5 from the local Apple Store.

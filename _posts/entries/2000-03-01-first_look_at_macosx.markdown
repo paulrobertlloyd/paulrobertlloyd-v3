@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: First Look at MacOS X, Apple's Next Generation OS
 date: '2000-03-01 12:00:00 +0000'
 ---

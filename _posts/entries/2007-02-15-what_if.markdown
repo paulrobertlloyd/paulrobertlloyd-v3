@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: What If... I was to speak for two minutes at this years SXSW festival?
 date: '2007-02-15 00:58:23 +0000'
 excerpt: In just under a months time I will be turning my trousers brown before placing myself upon a small stage and speaking for just 2 minutes at 20x2, a small event that takes place during SXSW.

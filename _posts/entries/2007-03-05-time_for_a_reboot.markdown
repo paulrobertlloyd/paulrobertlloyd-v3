@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Time for a Reboot
 date: '2007-03-05 12:09:51 +0000'
 excerpt: It's late Sunday evening, and I've just been for a brief walk around the neighbourhood. This wasn't however with the intent of checking out the area a little more, but more because as I close out this week, I need to think over a few issues that are starting to stir in my mind.

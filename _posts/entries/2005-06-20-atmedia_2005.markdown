@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Reflecting on @media 2005
 date: '2005-06-20 00:28:12 +0100'
 excerpt: My thoughts on an interesting and exciting two days in London.

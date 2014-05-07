@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 2006 Charity Running Programme
 date: '2006-02-27 01:34:07 +0000'
 excerpt: As summer fast approaches, it's time to kick of the fund raising efforts for the two charity running events I've signed up for this year.

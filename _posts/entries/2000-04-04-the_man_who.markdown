@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Travis - The Man Who'
 date: '2000-04-04 12:00:00 +0000'
 ---

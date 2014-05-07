@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Life on Mars
 date: '2007-04-09 23:46:12 +0100'
 excerpt: Thanks to the wonders of modern technology and a super fast broadband connection, I like many others in the UK today, will be watching the conclusion to 'Life on Mars' (9pm, BBC One).

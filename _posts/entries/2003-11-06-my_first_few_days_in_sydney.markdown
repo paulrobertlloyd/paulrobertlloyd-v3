@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: My First Few Days in Sydney
 date: '2003-11-06 22:14:13 +0100'
 excerpt: Welcome to the second instalment of "Are you jealous yet?" So what have I been up to so far? Here's a quick rundown.

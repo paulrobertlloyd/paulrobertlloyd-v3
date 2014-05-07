@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'My Three Point Plan: Think, Act, That''s It!'
 date: '2005-11-06 22:10:40 +0000'
 excerpt: As we rapidly approach the end of the year, so can begin some reflection of 2005. With this in mind, I wish to mull over a topic that has really grabbed my imagination this year -- that of taking personal responsibility for the planet we live on and the economic and political environments that govern us.

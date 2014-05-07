@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Flipping The Bird
 date: '2012-06-08 00:17:17 +0100'
 excerpt: With a worsening financial crisis and continued destruction of the world's natural resources, there are undoubtedly more important things to worry about than Twitter's slightly tweaked bird logo. Yet here we are.

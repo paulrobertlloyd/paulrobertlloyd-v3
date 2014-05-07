@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Synergy Button Set for Leopard
 date: '2007-11-10 19:35:40 +0000'
 excerpt: An updated button set for Synergy; a great little application that provides control of iTunes from the menu bar.

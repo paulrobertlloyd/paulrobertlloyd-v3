@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Shaun of the Dead
 date: '2004-04-10 14:58:38 +0100'
 excerpt: I was not too desperate to see this film, but I was convinced by the good press.

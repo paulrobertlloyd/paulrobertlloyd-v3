@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Modern Medicine
 date: '2012-05-24 01:42:30 +0100'
 link: http://farmerandfarmer.org/medicine/

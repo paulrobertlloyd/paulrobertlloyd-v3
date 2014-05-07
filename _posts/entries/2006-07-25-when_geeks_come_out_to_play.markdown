@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: When Geeks Come Out to Play
 date: '2006-07-25 16:42:52 +0100'
 excerpt: Organised by Trevor Morris and presented by the Multipack, next month (August 27th) sees the first annual Geek in the Park.

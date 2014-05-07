@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Great, Great North Run
 date: '2004-09-28 23:43:45 +0100'
 excerpt: Yet again I felt the force of insanity and ran the 24th BUPA Great North Run, from Newcastle to South Shields.

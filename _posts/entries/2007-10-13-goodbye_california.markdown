@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Goodbye California
 date: '2007-10-13 19:37:05 +0100'
 excerpt: Last week I resigned from my position as Lead Designer at Ning, and as a result the visa allowing me to live in the United States will soon expire.

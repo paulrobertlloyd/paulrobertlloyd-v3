@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Old School
 date: '2003-05-09 12:00:00 +0000'
 ---

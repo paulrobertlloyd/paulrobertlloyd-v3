@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Johnny English'
 date: '2003-04-06 12:00:00 +0000'
 ---

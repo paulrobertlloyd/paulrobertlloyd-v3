@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Built to Not Last
 date: '2012-06-26 00:00:45 +0100'
 link: http://subtraction.com/2012/06/19/built-to-not-last

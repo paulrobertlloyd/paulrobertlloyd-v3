@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Barebones
 date: '2012-05-08 12:20:24 +0100'
 post_id: 321

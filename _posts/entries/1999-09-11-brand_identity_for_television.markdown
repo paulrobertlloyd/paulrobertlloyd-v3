@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Brand Identity for Television: With Knobs On'
 date: '1999-09-11 12:00:00 +0000'
 ---

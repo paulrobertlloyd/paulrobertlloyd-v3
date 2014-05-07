@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: A Summer to Remember
 date: '2005-09-04 18:45:33 +0100'
 excerpt: If there are two things that I can count on during any given year, they are non-eventful summers that seemingly end before they start, and the annual hell that is my birthday. Thankfully this year has been a little bit different!

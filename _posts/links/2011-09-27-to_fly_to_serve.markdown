@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: To Fly. To Serve.
 date: '2011-09-27 22:44:50 +0100'
 link: http://youtube.com/watch?v=a4JdQi60an0

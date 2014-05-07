@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Going to Gotomedia
 date: '2007-11-04 19:07:04 +0000'
 excerpt: It turns out I'll be staying in San Francisco for a little while longer.

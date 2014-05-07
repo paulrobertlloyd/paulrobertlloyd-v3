@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Gran Turismo 2
 date: '2000-02-01 12:00:00 +0000'
 ---

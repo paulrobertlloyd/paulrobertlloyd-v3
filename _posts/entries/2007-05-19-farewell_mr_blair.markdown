@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Farewell Mr. Blair
 date: '2007-05-19 02:13:43 +0100'
 excerpt: Prime Ministers are such a part of day-to-day life, that when they change, it prompts you to reflect on their period in office, and how their tenure effected your own life.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The 'We' in Web
 date: '2005-10-02 20:19:58 +0100'
 excerpt: Yesterday saw the inaugural meeting of a new Midlands based web community. This comes at a time when I'm noticing I'm part of a much larger community within our industry.

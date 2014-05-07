@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Lobbyists, Guns and Money
 link: http://nytimes.com/2012/03/26/opinion/krugman-lobbyists-guns-and-money.html
 ---

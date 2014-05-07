@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Monkey Business
 date: '2006-10-22 21:00:40 +0100'
 excerpt: Sunday evening finally saw the launch of a completely rewritten version of LloydyWeb, and the seventh incarnation of this site.

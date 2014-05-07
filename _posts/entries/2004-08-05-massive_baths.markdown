@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: It's My Birthday!
 date: '2004-08-15 00:39:47 +0100'
 excerpt: Cheers to everyone who came out Friday and Saturday night to celebrate my 24th birthday.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Studio 60 on the Sunset Strip
 date: '2006-07-12 02:06:37 +0100'
 excerpt: If ever there was a reason to return to the States as quickly as possible, it would be to see the new Aaron Sorkin drama series 'Studio 60 on the Sunset Strip'.

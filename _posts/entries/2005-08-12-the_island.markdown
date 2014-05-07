@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Island
 date: '2005-08-12 12:00:00 +0100'
 excerpt: A film about tomorrows dangers of human cloning, or advertising space for today's technology corporations?

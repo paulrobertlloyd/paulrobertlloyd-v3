@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Hacked Off
 date: '2011-07-29 14:16:02 +0100'
 link: https://twitter.com/sniffpetrol/status/96848013997260801

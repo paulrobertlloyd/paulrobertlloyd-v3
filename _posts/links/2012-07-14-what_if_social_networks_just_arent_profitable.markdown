@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: What If Social Networks Just Aren't Profitable?
 date: '2012-07-14 01:17:50 +0100'
 link: http://powazek.com/posts/3024

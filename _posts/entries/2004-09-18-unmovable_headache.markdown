@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Unmovable Headache
 date: '2004-09-18 22:34:55 +0100'
 excerpt: This blog continues to become more refined as I better understand the system that builds it, Movable Type.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Looking Back on 2007
 date: '2007-12-31 08:32:40 +0000'
 excerpt: 2007 started with me looking forwards rather than backwards, and with a view not only to take opportunities that came my way, but make my own as well.

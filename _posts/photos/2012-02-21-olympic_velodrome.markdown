@@ -1,5 +1,5 @@
 ---
-layout: post-photo
+layout: post
 title: The Olympic Velodrome
 date: '2012-02-21 01:52:40 +0000'
 link: http://flickr.com/photos/paulrobertlloyd/6913342093

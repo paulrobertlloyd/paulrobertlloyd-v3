@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Data Visualization Reinterpreted
 date: '2012-11-02 01:10:58 +0000'
 link: http://vimeo.com/51365288

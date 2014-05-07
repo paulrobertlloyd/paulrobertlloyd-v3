@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Yet Another Night Out in Lichfield
 date: '2004-08-22 00:10:22 +0100'
 excerpt: Went out in Lichfield Friday night blah, blah, etc., etc.

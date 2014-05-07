@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: I Feel So Naked!
 date: '2006-04-06 03:49:05 +0100'
 excerpt: For today only, I'm letting you see under my CSS clothes and peak at my muscular (semantic) physique.

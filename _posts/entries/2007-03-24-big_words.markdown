@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Big Words
 date: '2007-03-24 17:45:01 +0000'
 excerpt: I've just checked the BBC Sport website, and once again I read about another dismal performance from the England team (Israel 0-0 England).

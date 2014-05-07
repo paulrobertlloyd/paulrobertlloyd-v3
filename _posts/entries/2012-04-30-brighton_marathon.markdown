@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Marathon Man
 date: '2012-04-30 23:48:01 +0100'
 excerpt: Although I spent much of April writing a tutorial for .net Magazine, I did enjoy a brief respite while I ran the Brighton Marathon. Yep, it's been quite the month.

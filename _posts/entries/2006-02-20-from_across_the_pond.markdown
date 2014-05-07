@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Observations From Across the Pond
 date: '2006-02-20 21:47:18 +0000'
 excerpt: A list of things I've noticed whilst living in the States.

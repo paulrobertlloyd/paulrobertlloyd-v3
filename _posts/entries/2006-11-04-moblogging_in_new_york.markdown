@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Moblogging in New York
 date: '2006-11-04 00:28:30 +0000'
 excerpt: Last week I upgraded my phone to the lastest Sony Ericsson -- the K800i.

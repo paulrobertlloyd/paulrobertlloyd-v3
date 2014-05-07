@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Released Monday
 date: '2005-01-30 18:09:59 +0000'
 excerpt: All that you should leave behind.

@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Yosemite HD
 date: '2012-01-24 19:47:07 +0000'
 link: http://vimeo.com/35396305

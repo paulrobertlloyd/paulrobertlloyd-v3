@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: That Ning Thing
 date: '2006-02-20 19:45:20 +0000'
 excerpt: Last week saw the long awaited launch of a redesigned Ning.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: SFO/LHR
 date: '2009-02-05 11:44:34 +0000'
 excerpt: Today was largely taken up by a flight back to London from San Francisco, where I spent the last ten days.

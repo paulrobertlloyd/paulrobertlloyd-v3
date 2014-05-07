@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: A Few Days in Montreal
 date: '2007-07-21 23:51:20 +0100'
 excerpt: I'm sitting in a hotel room overlooking a city I have quickly come to love, Montreal.

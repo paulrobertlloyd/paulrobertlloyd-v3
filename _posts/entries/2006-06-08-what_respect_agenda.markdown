@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: What Respect Agenda?
 date: '2006-06-08 20:38:11 +0100'
 excerpt: Whilst making my way down New Street in the centre of Birmingham, late this Thursday afternoon, I became a victim of the vile 'happy slapping' phenomenon.

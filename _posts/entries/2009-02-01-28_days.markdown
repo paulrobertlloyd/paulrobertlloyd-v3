@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 28 Days
 date: '2009-02-01 22:21:25 +0000'
 excerpt: With January over, and having completed the month without drinking coffee, so on to February and a far more ambitious challenge.

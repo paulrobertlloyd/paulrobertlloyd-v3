@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Define Distinctive
 date: '2007-10-20 23:36:29 +0100'
 excerpt: The small Cumbrian town of Whitehaven will be the first place in the UK to have it's analogue television signal switched off, with a full gamut of digital television channels replacing the current five.

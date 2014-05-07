@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Visual Design Explorations
 date: '2013-08-08 17:05:03 +0100'
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Selection
 date: '2005-04-28 01:07:56 +0100'
 excerpt: This May 5th is the General Election. Who should I vote for? Should I even vote at all? As we head into the final week of campaigning, I way up the choices and try to convince myself that my vote actually counts.

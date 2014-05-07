@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: A Weekend in 'LA'
 date: '2006-08-08 00:56:44 +0100'
 excerpt: This last weekend me, Ellen, Nash, Hannah and Charis joined Jon on a visit south to Littlehampton where we spent two days with his girlfriend Katie and her mates, at a house she was looking after.

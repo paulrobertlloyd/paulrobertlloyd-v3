@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: New York & San Francisco
 date: '2007-08-19 01:18:32 +0100'
 excerpt: Exploring New York and San Francisco with my friend Ellen, who braved the long flight over the Atlantic to come and visit me in America.

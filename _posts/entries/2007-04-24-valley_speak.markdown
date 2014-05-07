@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Valley Speak
 date: '2007-04-26 22:56:22 -0800'
 excerpt: Two recent conversations have revealed to me my inner cynicism for web2.0 and all that surrounds me in the valley.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: A Tall Story
 date: '2005-08-15 23:48:00 +0100'
 excerpt: Today finally saw the end of a long journey, one that I have been on since I was 8 years old.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Art of Podcasting
 date: '2005-09-12 00:35:02 +0100'
 excerpt: When iTunes 4.9 was released a few months ago, it finally included support for download and playback of Podcasts. This new means of delivery also allowed podcasters to supply album artwork, which in turn would be displayed in the application and throughout the iTunes Music Store.

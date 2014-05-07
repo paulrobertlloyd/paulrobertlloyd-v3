@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Such Great Heights
 date: '2006-03-18 07:13:40 +0000'
 excerpt: So here I am, sitting at home, in California.

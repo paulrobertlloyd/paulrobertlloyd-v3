@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: When in Rome
 date: '2006-07-15 02:41:38 +0100'
 excerpt: A couple of weeks ago, in a rare break away from my computer monitor, I spent a week in Rome with my friend Nancy and her sister.

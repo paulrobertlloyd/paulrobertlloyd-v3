@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: England v Leichenstein
 date: '2003-09-10 12:00:17 +0000'
 ---

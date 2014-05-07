@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Why I'm Voting Yes to AV
 date: '2011-05-05 01:30:51 +0100'
 excerpt: Whilst I no longer want to 'tactically vote' or have my MP hold on to a 'safe seat', I'd much rather see continued reform towards fairer representation across all parts of government.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Myths
 date: '2003-11-10 15:07:51 +0100'
 excerpt: Just a quick update on the last few days. Basically the weather forecasters are extremely poor at their jobs because seeing as it has supposed to have been raining pretty much everyday since I got here I aint seen none.

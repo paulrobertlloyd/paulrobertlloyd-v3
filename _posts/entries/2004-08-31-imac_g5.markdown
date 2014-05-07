@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Shades of 1984
 date: '2004-08-31 21:38:51 +0100'
 excerpt: Apple today announced the third generation iMac.

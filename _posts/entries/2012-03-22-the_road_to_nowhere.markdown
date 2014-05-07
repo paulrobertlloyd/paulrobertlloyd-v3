@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Road to Nowhere
 date: '2012-03-22 02:42:11 +0000'
 ---

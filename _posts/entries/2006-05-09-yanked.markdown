@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Yanked!
 date: '2006-05-09 00:21:03 +0100'
 excerpt: Thanking the team at Ning who made my three month stay in Palo Alto perhaps the most exciting and enjoyable period of my life to date.

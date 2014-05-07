@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Middle Class Memories
 date: '2012-03-01 01:52:29 +0000'
 excerpt: Heritage Lawn was an embarrassingly lavish name for a desperately average cul-de-sac. Yet, in and around a maze of opulently named cul-de-sacs, a few areas of wilderness remained.

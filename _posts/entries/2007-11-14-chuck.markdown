@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Chuck
 date: '2007-11-14 00:38:48 +0000'
 excerpt: This weekend I discovered a new televisual addiction, in the form of NBC's Monday night comedy 'Chuck'.

@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Let's Be Less Productive
 date: '2012-05-29 12:26:41 +0100'
 link: http://nytimes.com/2012/05/27/opinion/sunday/lets-be-less-productive.html

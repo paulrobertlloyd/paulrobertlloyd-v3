@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Go Johnny Johnny!
 date: '2003-11-17 19:55:54 +0100'
 excerpt: Wow what a day! Asked earlier by Fordy if I thought this trip had made any impression on me and I said no not really; its just like being in England but much sunnier.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Running Kind
 date: '2006-09-21 13:49:17 +0100'
 excerpt: I won't be participating in this years Great North Run. However two friends of mine will be.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Virtually Famous in Langshott
 date: '2005-08-19 00:55:00 +0100'
 excerpt: 'Whilst fixing some css bugs for the next revision of the rdc* theme I had an interesting thought regarding it''s code name: does it rank higher in Google than the village it''s named after?'

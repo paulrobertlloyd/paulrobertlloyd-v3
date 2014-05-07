@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Football Business
 date: '2004-07-27 12:00:00 +0100'
 excerpt: Understanding football's increasing commercialism, and its background.

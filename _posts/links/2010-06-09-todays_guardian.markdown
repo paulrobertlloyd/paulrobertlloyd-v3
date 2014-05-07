@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Today's Guardian
 date: '2010-06-09 10:24:00 +0100'
 link: http://guardian.gyford.com/

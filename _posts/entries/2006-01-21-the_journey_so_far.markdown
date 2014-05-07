@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Journey So Far
 date: '2006-01-21 15:50:04 +0000'
 excerpt: As of this week I am no longer an employee of Orange Vision Ltd, but working for Ning, Inc. where I am now Senior Designer.

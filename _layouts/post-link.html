@@ -1,8 +1,0 @@
----
-layout: post
----
-{% if page.embed == true %}{% oembed {{ page.link }} %}{% endif %}
-{{ content | abbr | ampersand }}
-<p><a href="{{ page.link }}">Visit this link</a></p>
-
-{% if page.comment_count >= 1 %}{% include sections/comments.html %}{% endif %}

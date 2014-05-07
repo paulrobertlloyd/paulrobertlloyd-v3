@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Seven Goals for 2007: An Update'
 date: '2007-05-27 19:27:07 +0100'
 excerpt: At the beginning of this year I wrote about seven goals and improvements I wanted to make to my life this year. As I approach the middle of the year, I look at what I've achieved so far, and which areas still need some work.

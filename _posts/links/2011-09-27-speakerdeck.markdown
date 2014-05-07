@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Speaker Deck
 date: '2011-09-27 00:17:32 +0100'
 link: http://speakerdeck.com/

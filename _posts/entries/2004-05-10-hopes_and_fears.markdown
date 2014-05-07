@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Hopes and Fears
 date: '2004-05-10 12:00:00 +0100'
 excerpt: Every year it seems one new band becomes the spotlight of the mainstream press and are touted as the next big thing with their debut album.

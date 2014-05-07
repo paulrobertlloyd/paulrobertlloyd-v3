@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Rethinking Movable Type
 date: '2005-01-19 01:19:48 +0000'
 excerpt: Having read Doug Bowman's thoughts regarding iPhoto/MT integration, I am of course compelled to think of the possibilities for my own site.

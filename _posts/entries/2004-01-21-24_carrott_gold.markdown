@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 24 Carrott Gold
 date: '2004-01-21 20:00:00 +0100'
 excerpt: As experiences go, this 're-union' sure was one.

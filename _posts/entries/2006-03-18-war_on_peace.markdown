@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: War on Peace
 date: '2006-03-18 23:10:13 +0000'
 excerpt: Only at an anti Iraq war demo in Palo Alto could a fight break out.

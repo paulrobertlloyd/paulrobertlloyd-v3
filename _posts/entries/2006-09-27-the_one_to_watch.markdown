@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The One to Watch
 date: '2006-09-27 14:04:00 +0100'
 excerpt: BBC One has revealed a new set of idents and on-screen branding.

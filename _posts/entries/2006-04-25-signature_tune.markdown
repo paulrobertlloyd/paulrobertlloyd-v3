@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Signature Tune
 date: '2006-04-25 10:05:28 +0100'
 excerpt: To make up for the lack of 'life commentary' on this blog these last few weeks, let me allow you to explore my musical taste.

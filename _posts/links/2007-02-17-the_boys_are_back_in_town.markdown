@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: The Boys Are Back in Town!
 date: '2007-02-17 03:20:32 -0800'
 link: http://youtube.com/watch?v=-vLopvgJpZU

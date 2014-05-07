@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Stereophonics - Performance and Cocktails'
 date: '1999-09-14 12:00:00 +0000'
 ---

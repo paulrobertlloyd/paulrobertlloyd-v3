@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: A New Visual Design Language for BBC Online
 date: '2010-02-16 23:34:04 +0000'
 excerpt: I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.

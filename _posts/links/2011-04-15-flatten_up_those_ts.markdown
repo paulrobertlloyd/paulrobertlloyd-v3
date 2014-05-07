@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Flatten up Those T's
 date: '2011-04-15 12:00:00 +0100'
 link: http://markdotto.com/2011/04/15/fatten-up-those-ts/

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: My Greatest Run (Part 2)
 date: '2005-09-22 22:19:41 +0100'
 excerpt: This year the Great North Run celebrated it's 25th anniversary. Unfortunately the death of 4 runners and some organisational difficulties, the celebration felt a little soured.

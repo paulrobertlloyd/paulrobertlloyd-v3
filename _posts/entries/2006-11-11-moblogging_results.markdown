@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Moblogging: Results'
 date: '2006-11-11 00:13:13 +0000'
 excerpt: My trip to New York earlier this week was a good opportunity to try out the 'Blog This' feature of my new Sony Ericsson K800i.

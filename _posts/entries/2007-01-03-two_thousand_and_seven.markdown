@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Two Thousand and Seven
 date: '2007-01-03 02:16:30 +0000'
 excerpt: Last year taught me a valuable life lesson -- that aside from making the most of any opportunities that come your way (and I've had my fair share of them), you can (and should) create your own opportunities if you are to actually make the most of your time on this Earth.

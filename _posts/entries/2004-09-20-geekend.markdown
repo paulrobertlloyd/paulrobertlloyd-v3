@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Geekend
 date: '2004-09-20 00:38:09 +0100'
 excerpt: This weekend has, more than any other weekend, seen me glued to a 17" display.

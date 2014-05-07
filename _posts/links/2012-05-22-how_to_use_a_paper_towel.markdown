@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: How to Use a Paper Towel
 date: '2012-05-22 02:13:32 +0100'
 link: http://youtube.com/watch?v=2FMBSblpcrc

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Top Five American TV Shows
 date: '2005-05-15 00:03:02 +0100'
 excerpt: In the same vain Channel 4 ends every weekend churning out another Top 100 program, I too have decided to start something similar.

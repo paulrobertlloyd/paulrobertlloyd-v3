@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Attack of the Clones
 date: '2006-03-15 08:14:58 +0000'
 excerpt: So there I was passively watching a special edition of the Conan O'Brian show in which he visits Finland.

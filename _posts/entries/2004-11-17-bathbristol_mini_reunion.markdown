@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Bath/Bristol Mini Reunion
 date: '2004-11-17 15:19:35 +0000'
 excerpt: Meeting up with friends made in Syndney.

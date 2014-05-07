@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Borat: Cultural Learnings Of America For Make Benefit Glorious Nation Of Kazakhstan'
 date: '2006-11-08 22:38:54 +0000'
 excerpt: Thoughts on both the film and the experience of watching it in a US cinema.

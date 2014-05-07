@@ -1,5 +1,5 @@
 ---
-layout: post-photo
+layout: post
 title: Snowdonia
 date: '2011-07-31 18:48:28 +0100'
 link: http://flickr.com/photos/paulrobertlloyd/5992028115/in/set-72157627194510143

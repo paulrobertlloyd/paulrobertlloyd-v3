@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: We've Seen This Movie Before
 date: '2012-07-20 23:51:44 +0100'
 link: http://nytimes.com/2012/07/21/opinion/weve-seen-this-movie-before.html

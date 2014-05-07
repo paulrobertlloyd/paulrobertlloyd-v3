@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: 'Andy Higgs: Journey into Africa'
 date: '2013-06-22 02:09:48 +0100'
 link: http://justbeyondthebridge.co.uk/blog/category/travel/

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Problems & Attitudes
 date: '2006-11-16 02:17:15 +0000'
 excerpt: This year has been eventful. To be more precise, 2006 has been a complete and utter write-off.

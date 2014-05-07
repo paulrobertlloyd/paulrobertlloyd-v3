@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Welcome to the Neighbourhood
 date: '2007-03-04 00:48:58 +0000'
 excerpt: Yesterday I moved into my new apartment in the Potrero Hill district of San Francisco.

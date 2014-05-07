@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Live from Sydney!
 date: '2003-11-04 14:27:14 +0100'
 excerpt: I've only been here about half a day now, and half of that has been spent in this internet cafe trying to sort out a group e-mailing list!

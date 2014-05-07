@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Looking Back on UEFA Euro 2004
 date: '2004-07-10 19:58:34 +0100'
 excerpt: Many pundits were suggesting that Euro 2004 was our best chance of winning at international tournament since Italia '90, and who would have doubted them.

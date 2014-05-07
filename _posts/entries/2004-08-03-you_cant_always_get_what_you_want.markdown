@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: You Can't Always Get What You Want
 date: '2004-08-03 23:32:42 +0100'
 excerpt: Now I have a slightly greater income my mind is busy creating a shopping list.

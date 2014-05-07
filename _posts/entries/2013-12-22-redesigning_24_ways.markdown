@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Redesigning 24 ways
 date: '2013-12-22 22:53:51 +0000'
 excerpt: The tail end of this year has been rather hectic. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning 24 ways.
@@ -102,15 +102,6 @@ I was keen to introduce more modularity into my code, do more with a CSS preproc
 
 Although I didn't employ strict adherence to the [BEM][20] methodology, I found the underlying concept incredibly useful in helping me name patterns.
 
-<figure class="pullquote">
-    <blockquote>
-        
-    </blockquote>
-    <figcaption>
-        <p></p>
-    </figcaption>
-</figure>
-
 {% figure <a href="https://twitter.com/paulrobertlloyd/statuses/395351309169459200">@paulrobertlloyd, 29 October 2013</a> %}
 > It's finally happened... I'm seriously considering using a .list&#45;&#45;item class name.
 > 
@@ -125,7 +116,7 @@ Taking inspiration from BEM, I used single word root classes, suffixed with a mo
 
 This naming system produced markup patterns like this:
 
-~~~ html
+~~~html
 <article class="summary summary-article h-entry day-15">
   <header class="summary_header">
     <h1 class="summary_title p-name"><a class="u-url" rel="bookmark" href="#">Real Animation Using JavaScript, CSS3, and HTML5 Video</a></h1>

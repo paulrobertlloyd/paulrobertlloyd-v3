@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: SX-70
 date: '2013-01-22 00:04:17 +0000'
 link: http://youtube.com/watch?v=Lo_1pyQ7xvc

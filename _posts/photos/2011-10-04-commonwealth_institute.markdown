@@ -1,5 +1,5 @@
 ---
-layout: post-photo
+layout: post
 title: The Commonwealth Institute
 date: '2011-10-04 21:57:57 +0100'
 link: http://flickr.com/photos/paulrobertlloyd/6209428156/in/set-72157627812094542

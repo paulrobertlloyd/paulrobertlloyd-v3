@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: The Slow Web
 date: '2012-06-25 23:58:47 +0100'
 link: http://blog.jackcheng.com/post/25160553986/the-slow-web

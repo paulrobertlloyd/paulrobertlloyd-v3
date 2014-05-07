@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Lee Nash Gets Mobile
 date: '2005-09-04 18:22:41 +0100'
 excerpt: Yesterday, I received a text message I never thought I would.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: It's a God Awful Small Affair
 date: '2007-04-12 01:39:39 -0800'
 excerpt: This is my third attempt at writing this entry.

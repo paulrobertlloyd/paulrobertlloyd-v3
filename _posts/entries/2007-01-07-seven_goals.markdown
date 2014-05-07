@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Seven Goals for 2007
 date: '2007-01-07 18:31:00 +0000'
 excerpt: A few personal goals I'm aiming for this year.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 2004 in Review
 date: '2004-12-31 19:30:00 +0000'
 excerpt: As the year draws to a close, I thought it may be an idea to recall the events and achievements of the last 12 months -- both personally, and those of my closest friends too.

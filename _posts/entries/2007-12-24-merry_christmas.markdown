@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Merry Christmas!
 date: '2007-12-24 01:09:31 +0000'
 excerpt: As Christmas Day quickly approaches, I just wanted to take a moment to thank everyone who has read my humble blog over the last year

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Last Six Months...
 date: '2006-09-20 02:38:53 +0100'
 excerpt: If it wasn't for the three months I spent in Palo Alto at the beginning of the year this year could be considered a complete write-off.

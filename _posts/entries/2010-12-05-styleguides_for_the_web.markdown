@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Styleguides for the Web
 date: '2010-12-05 23:09:45 +0000'
 excerpt: Clearly communicating the fundamental aspects of your design at the different stages of a project can help you better communicate with clients, developers and your peers, ensuring your vision doesn't get lost in the transformation from static comp to dynamic ever changing website.

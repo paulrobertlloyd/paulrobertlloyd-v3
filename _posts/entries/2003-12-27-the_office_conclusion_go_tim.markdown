@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Office Conclusion - Go Tim!
 date: '2003-12-27 12:00:02 +0100'
 excerpt: Fantastic ending to a great series.

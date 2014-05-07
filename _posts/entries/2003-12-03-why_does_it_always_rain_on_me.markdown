@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Why Does It Always Rain On Me?
 date: '2003-12-03 15:47:10 +0100'
 excerpt: Things are getting extremely weird round these parts. Anyway lets start from the top.

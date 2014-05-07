@@ -1,23 +1,43 @@
 ---
 layout: base
 ---
-<article class="post">
-    <header class="post__header">
-        <h1 class="post__title">{{ page.title | smart }}</h1>
+        <article class="post">
+            <header class="post__header">
+                <h1 class="post__title">{{ page.title | smart }}</h1>
 
-        <nav class="nav nav--pagination">
-        {% assign previous = page.previous %}
-            {% if previous.url %}<a class="nav__item" rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title }}">Previous entry</a>{% endif %}
-        {% assign next = page.next %}
-            {% if next.url %}<a class="nav__item" rel="next bookmark"  href="{{ next.url }}" title="{{ next.title }}">Next entry</a>{% endif %}
-        </nav>
-    </header>
+                <nav class="nav nav--pagination">
+                    {% assign previous = page.previous %}
+                    {% if previous.url %}<a class="nav__item" rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title }}">Previous entry</a>{% endif %}
+                    {% assign next = page.next %}
+                    {% if next.url %}<a class="nav__item" rel="next bookmark"  href="{{ next.url }}" title="{{ next.title }}">Next entry</a>{% endif %}
+                </nav>
+            </header>
 
-    <footer class="post__footer">
-        <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-    </footer>
+            <footer class="post__footer">
+                <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+            </footer>
 
-    <div class="post__main">
-        {{ content | indent: 16 }}
-    </div>
-</article>
+            <div class="post__main prose">
+                {% if page.embed == true %}
+                {% oembed {{ page.link }} %}
+                {% endif %}
+
+                {{ content | abbr | ampersand }}
+
+                {% if page.link == true %}
+                <p><a href="{{ page.link }}">Visit this link</a></p>
+                {% endif %}
+
+                {% if page.comments == "open" %}
+                <section class="section">
+                    <a href="mailto:comment+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title | smart }}">Comment on this article</a>
+                </section>
+                {% endif %}
+
+                {% if page.comment_count >= 1 %}
+                {% include sections/comments.html %}
+                {% endif %}
+
+                {% include sections/related.html %}
+            </div>
+        </article>

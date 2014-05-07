@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Getaways
 date: '2003-01-24 12:00:00 +0000'
 ---

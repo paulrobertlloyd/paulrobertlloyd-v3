@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: The Architecture of Brasilia
 date: '2011-07-18 19:56:39 +0100'
 excerpt: Brasilia is remarkable for a number of reasons, not least its aeroplane like street layout planned by Lúcio Costa. However it's the distinctive architecture that draws most attention, and much of this was designed by Oscar Niemeyer. Few architects are given the opportunity to design on such a scale, so it's unsurprising that I recognised many familiar patterns and motifs appearing throughout the city's many different buildings.

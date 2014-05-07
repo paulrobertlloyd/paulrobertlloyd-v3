@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: 'MATTER: Welcome Clearleft'
 date: '2012-06-01 22:39:40 +0100'
 link: http://blog.readmatter.com/post/24208310277/welcome-clearleft

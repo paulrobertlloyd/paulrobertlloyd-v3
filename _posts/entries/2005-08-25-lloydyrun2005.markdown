@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Help Me Raise £500 for the Bobby Moore Fund for Cancer Research UK
 date: '2005-08-25 14:49:52 +0100'
 excerpt: In just over three weeks time, I will once again travelling up to the lovely North-East to take part in this years Great North Run.

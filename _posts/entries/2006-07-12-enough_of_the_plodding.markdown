@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Enough of the Plodding, Time for Some Blogging!
 date: '2006-07-12 01:32:26 +0100'
 excerpt: I often hear from fellow bloggers how they have a folder on their desktop full of half written posts intended for their blogs. For me, that folder of files seems to get stuffed in the deepest darkest parts of my brain.

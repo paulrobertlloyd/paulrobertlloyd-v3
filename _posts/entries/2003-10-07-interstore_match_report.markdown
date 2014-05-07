@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Inter-store Match Report
 date: '2003-10-07 12:00:50 +0000'
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Baseline Grids on the Web
 date: '2012-11-02 00:31:50 +0000'
 link: http://jasonsantamaria.com/articles/baseline-grids-on-the-web

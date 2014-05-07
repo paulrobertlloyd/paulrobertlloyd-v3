@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: What If... The Result
 date: '2007-03-14 23:50:42 +0000'
 excerpt: On Monday evening I took the plunge and made my debut speaking engagement at the 20×2 event at SXSW.

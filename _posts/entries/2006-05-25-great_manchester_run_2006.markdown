@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Great Manchester Run 2006
 date: '2006-05-25 21:38:31 +0100'
 excerpt: Last weekend I completed the 4th Great Manchester Run.

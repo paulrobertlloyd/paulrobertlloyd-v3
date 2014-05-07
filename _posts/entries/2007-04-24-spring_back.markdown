@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Spring Back
 date: '2007-04-24 23:08:29 +0100'
 excerpt: A blog entry written whilst sat on a Californian bound plane, reflecting on the last week spent back home in the UK.

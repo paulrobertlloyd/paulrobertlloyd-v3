@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: 'Christian Bale Rant: Batman Edition'
 date: '2009-02-06 17:34:26 +0000'
 comments: closed

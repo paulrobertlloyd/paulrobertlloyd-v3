@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Acoustic Night
 date: '2005-01-10 00:34:16 +0000'
 excerpt: Every other Sunday night, a group of talented musicians join together at an acoustic night held at the Boundary Hotel in Walsall.

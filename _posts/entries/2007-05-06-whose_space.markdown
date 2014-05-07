@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Whose Space?
 date: '2007-05-06 10:30:00 +0100'
 excerpt: I've held my tongue on MySpace for far too long, so let this be the first of many complaints I have about this service.

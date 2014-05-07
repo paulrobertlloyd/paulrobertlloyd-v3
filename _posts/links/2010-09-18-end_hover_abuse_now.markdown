@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: End Hover Abuse Now
 date: '2010-09-18 11:49:00 +0100'
 link: http://cennydd.co.uk/2010/end-hover-abuse-now/

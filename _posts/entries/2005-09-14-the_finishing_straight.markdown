@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'LloydyRun 2005: The Finishing Straight'
 date: '2005-09-14 00:01:10 +0100'
 excerpt: As this Sunday's Great North Run looms ever closer, I have finally pulled my finger out and super-charged all efforts to raise £500.

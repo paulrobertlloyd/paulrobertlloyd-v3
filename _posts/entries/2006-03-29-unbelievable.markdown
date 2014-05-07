@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Unbelievable
 date: '2006-03-29 06:16:43 +0100'
 excerpt: There's an irritating advert that is currently running on US television.

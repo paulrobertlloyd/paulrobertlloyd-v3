@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Special Ops
 date: '2004-08-16 01:35:04 +0100'
 excerpt: High capacity water pistols at the ready.

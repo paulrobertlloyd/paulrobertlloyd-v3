@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Murphy's Lesser Known Laws
 date: '2006-11-24 18:24:12 -0800'
 excerpt: I don't usually never post comical e-mails I've received to this site, but I need something to cheering me up.

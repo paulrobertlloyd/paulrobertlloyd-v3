@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Now That I'm Back
 date: '2007-04-29 16:02:29 +0100'
 excerpt: Whilst I was back in the UK, a friend told me I should blog more about what I'm getting up to here in the States. I think that sounds like a great idea, and comes at a time when I plan on making the most of my summer here in California.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Welcome to Wherever You Are
 date: '2006-08-03 01:23:19 +0100'
 excerpt: In little over 8 weeks time (and pending a successful visa interview) I will be heading back to the United States.

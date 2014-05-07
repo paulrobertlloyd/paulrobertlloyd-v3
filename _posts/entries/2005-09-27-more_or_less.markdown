@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: More or Less?
 date: '2005-09-27 00:15:41 +0100'
 excerpt: More4 could be the most exciting television channel to launch since the advent of BBC2 forty years ago.

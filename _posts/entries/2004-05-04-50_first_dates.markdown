@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 50 First Dates
 date: '2004-05-03 12:00:00 +0100'
 excerpt: Being an avid viewer of David Letterman I had seen all the clips and interviews and I couldn't wait for this films UK release. It could have still been a stinker, thankfully it was anything but.

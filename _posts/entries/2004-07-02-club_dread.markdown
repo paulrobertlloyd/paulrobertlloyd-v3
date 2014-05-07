@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Club Dread
 date: '2004-07-02 12:00:00 +0100'
 excerpt: As let downs go, this may be up there.

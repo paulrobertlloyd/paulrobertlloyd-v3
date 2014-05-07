@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: A Small Southern Adventure
 date: '2003-09-10 00:00:19 +0000'
 ---

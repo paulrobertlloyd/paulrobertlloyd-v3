@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: Inventing on Principle
 date: '2012-04-08 00:41:13 +0100'
 link: http://vimeo.com/36579366

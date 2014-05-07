@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: British Triumph Coming Shortly
 date: '2009-03-01 22:39:26 +0000'
 excerpt: It seems I have a new challenge for March.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: April Update
 date: '2004-04-14 12:00:54 +0100'
 excerpt: Slightly late bringing you this months update, but as you will see, there have been a few changes.

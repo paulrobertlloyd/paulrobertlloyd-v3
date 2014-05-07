@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Starsky & Hutch
 date: '2004-03-22 12:00:07 +0100'
 excerpt: The latest comedy from Todd Phillips

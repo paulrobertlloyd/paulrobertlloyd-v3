@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: My Greatest Run (Part 1)
 date: '2005-09-20 23:10:55 +0100'
 excerpt: Now that the aches and pains that follow a 13.1 mile run are slowly starting to disappear, time to tell you all about the 25th Great North Run.

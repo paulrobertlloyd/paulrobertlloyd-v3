@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Look How Far We've Come
 date: '2004-07-12 19:41:05 +0100'
 excerpt: As I write these thoughts in early July 2004, still mourning the defeat against Portugal in a Euro 2004 Quarter Final, I realise the England team has come a long way in the last 4 years.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: New Getaways Site Online
 date: '2003-09-10 00:00:39 +0000'
 ---

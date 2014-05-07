@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Johnny, Yanky, Blondie
 date: '2003-11-24 21:28:42 +0100'
 excerpt: Sadly not able to be smug anymore as Sydney has been raining pretty much all weekend plus -- luckily Cairns has never experienced rain I think, so still a chance for some sort of tan, or more likely third degree burns!

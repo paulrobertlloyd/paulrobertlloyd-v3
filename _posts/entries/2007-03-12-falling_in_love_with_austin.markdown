@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Falling in Love with Austin
 date: '2007-03-12 02:59:11 +0000'
 excerpt: Just a quick post (at 4:45am in the morning) as I can't sleep due to anxiety about this evenings 20x2 performance.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: My British Radar
 date: '2007-10-01 00:51:45 +0100'
 excerpt: I'm almost reaching a point where I feel embarrassed to be British.

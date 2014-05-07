@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Social Media Icons
 date: '2009-06-29 00:18:09 +0100'
 excerpt: A set of standardised icons for popular social networking services and tools.

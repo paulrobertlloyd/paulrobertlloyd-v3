@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'Project 365: Taking One Photo Each Day During 2007'
 date: '2007-01-04 02:06:12 +0000'
 excerpt: I've decided to commit myself to recording 2007 by taking a photo each day.

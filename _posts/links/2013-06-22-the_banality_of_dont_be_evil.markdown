@@ -1,5 +1,5 @@
 ---
-layout: post-link
+layout: post
 title: The Banality of 'Don't Be Evil'
 date: '2013-06-22 02:00:23 +0100'
 link: http://nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html

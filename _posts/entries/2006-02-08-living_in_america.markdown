@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Living in America
 date: '2006-02-08 03:17:54 +0000'
 excerpt: Just a quick post to let you all know I'm safe and well in hot and sunny California.

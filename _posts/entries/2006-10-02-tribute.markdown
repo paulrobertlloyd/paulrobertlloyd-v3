@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Tribute
 date: '2006-10-02 01:39:52 +0100'
 excerpt: As soon as my feet touch the ground at SFO it almost feels as if the next era of my life is set to begin. So as the final hours tick away on this one, I want to pay tribute to three people who have become very important to me over the last four or five years.

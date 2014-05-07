@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Pride
 date: '2005-07-08 00:57:27 +0100'
 excerpt: Given my recent promise to blog my thoughts on the big issues of the day, and in a week of big news stories, along comes the saddest and most terrible news.

@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: Reasons to Be Thankful
 date: '2007-11-26 00:41:33 +0000'
 excerpt: Americans seem to have a holiday for everything (recent weeks have seen Labor Day, Columbus Day, Veterans Day and Halloween), yet I must say I've always been a bit partial to the idea of a day of Thanksgiving.

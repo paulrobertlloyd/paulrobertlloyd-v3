@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: 'The Matrix: Revolutions'
 date: '2003-11-05 12:00:00 +0100'
 excerpt: Every film released now days is part of a trilogy as part of obvious marketing exercises and you do wonder weather the Matrix falls into this category.

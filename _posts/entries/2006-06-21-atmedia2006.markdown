@@ -1,5 +1,5 @@
 ---
-layout: post-entry
+layout: post
 title: '@media 2006'
 date: '2006-06-21 01:58:42 +0100'
 excerpt: At the end of last week I attended the @media conference in London, the premier web-standards conference held in the UK.

@@ -1,5 +1,5 @@
 ---
-layout: post-photo
+layout: post
 title: West Pier at Sunset
 date: '2011-10-21 03:40:13 +0100'
 link: http://flickr.com/photos/paulrobertlloyd/6251638865/in/set-72157627785545113
