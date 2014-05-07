@@ -5,16 +5,16 @@
 a {
     color: var(--c_link);
     text-decoration: none;
-}
-a:active,
-a:hover {
-    color: var(c--link-hover);
-/*  Improve readability when focused and also mouse hovered in all browsers */
-    outline: 0;
-}
-a:active {
-    color: var(c--link-active);
-}
+    }
+    a:active,
+    a:hover {
+        color: var(--c_link-hover);
+    /*  Improve readability when focused and also mouse hovered in all browsers */
+        outline: 0;
+    }
+    a:active {
+        color: var(--c_link-active);
+    }
 
 @media print {
     a,

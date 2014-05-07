@@ -25,12 +25,10 @@ pre {
 }
 
 blockquote {
-    margin: 1.5em 0 1.5em -1rem; /* 24px 0 24px -16px */
-    padding-left: 0.75rem; /* 12px */
-}
-blockquote p {
-    margin: 0.75rem 0; /* 12px 0 */
+    font-style: italic;
     border-left: 0.125rem solid var(--c_accent);
+    margin-left: -1rem; /* -16px */
+    padding-left: 0.875rem; /* 14px */
 }
 @media print {
     blockquote {
@@ -87,6 +85,9 @@ figure {
 figure img {
     max-width: 100%;
 }
+figure p {
+    margin: 0; /* This shouldn't be needed! */
+}
 figcaption {
     color: var(--c_neutral-3);
     font-size: 0.875rem; /* 14px */
@@ -94,4 +95,5 @@ figcaption {
     border-bottom: 1px solid var(--c_neutral-7);
     padding: 0.5714em 0; /* 8px 0 */
     display: block;
+    clear: left;
 }
