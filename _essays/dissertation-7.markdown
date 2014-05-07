@@ -17,74 +17,54 @@ The original set of idents featured straight vertical bands of colour -- sometim
 
 The idents proved extremely versatile with variations for children's programming and its teenage stand T4 continuing the theme -- slanting the bands slightly to the right and using bright and vibrant consistent colours such as blue, yellow and orange. All promotional material also maintained the square logo's position as seen on screen.
 
-<figure id="figure-19">
-    ![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19a.png){: .pull-left}
-    ![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19b.png){: .pull-left}
-    ![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19c.png){: .pull-left}
-    ![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19d.png){: .pull-left}
-    <figcaption>
-        <h4>Figure 19</h4>
-        <p>The use of celebrities within Channel 4's new idents tried to foster an emotional link with their audience.</p>
-    </figcaption>
-</figure>
+{% figure Figure 19: The use of celebrities within Channel 4's new idents tried to foster an emotional link with their audience. %}
+![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19a.png){: .pull-left}
+![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19b.png){: .pull-left}
+![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19c.png){: .pull-left}
+![Channel 4 'Richard Whitely' ident, 2002](/assets/images/essays/dissertation/figure-19d.png){: .pull-left}
+{% endfigure %}
 
 The first reworking of the idents, designed in-house and by Static 2358, played about more with the logo, moving it horizontally across the screen whilst flipping it about, spinning it around, blurring or distorting it before returning it to its standard position -- reminiscent of the launch idents of 1982.
 
-<figure id="figure-20">
-    ![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20a.png){: .pull-left}
-    ![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20b.png){: .pull-left}
-    ![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20c.png){: .pull-left}
-    ![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20d.png)<br/>
-    ![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20e.png){: .pull-left} 
-    ![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20f.png){: .pull-left}
-    ![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20g.png){: .pull-left}
-    ![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20h.png)<br/>
-    ![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20i.png){: .pull-left}
-    ![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20j.png){: .pull-left}
-    ![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20k.png){: .pull-left}
-    ![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20l.png)
-    <figcaption>
-        <h4>Figure 20</h4>
-        <p>Later revisions of the channels identity involved more movement of the logo.</p>
-    </figcaption>
-</figure>
+{% figure Figure 20: Later revisions of the channels identity involved more movement of the logo. %}
+![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20a.png){: .pull-left}
+![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20b.png){: .pull-left}
+![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20c.png){: .pull-left}
+![Channel 4 'Red' ident, 2001](/assets/images/essays/dissertation/figure-20d.png)<br/>
+![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20e.png){: .pull-left}
+![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20f.png){: .pull-left}
+![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20g.png){: .pull-left}
+![Channel 4 'Purple' ident, 2001](/assets/images/essays/dissertation/figure-20h.png)<br/>
+![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20i.png){: .pull-left}
+![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20j.png){: .pull-left}
+![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20k.png){: .pull-left}
+![Channel 4 'Green' ident, 2001](/assets/images/essays/dissertation/figure-20l.png)
+{% endfigure %}
 
 New captions for programme start times were introduced, where four squares were centred on screen, the first three containing an image relating to the programme, whilst the last contained the 4 in its square. It was also around this time that idents for use during daytime were introduced, and saw the square coloured to complement its background (an orange square on blue, and red on green).
 
-<figure id="figure-21">
-    ![Channel 4 'Lines' next-up caption, 1999](/assets/images/essays/dissertation/figure-21a.png){: .pull-left}
-    ![Channel 4 'Lines' holding caption, 2000](/assets/images/essays/dissertation/figure-21b.png){: .pull-left}
-    ![Channel 4 'Lines' information caption, 2000](/assets/images/essays/dissertation/figure-21c.png){: .pull-left}
-    ![Channel 4 'Lines' promotion end caption, 2003](/assets/images/essays/dissertation/figure-21d.png){: .pull-left}
-    <figcaption>
-        <h4>Figure 21</h4>
-        <p>All presentation carried the logo in the same position on screen.</p>
-    </figcaption>
-</figure>
+{% figure Figure 21: All presentation carried the logo in the same position on screen. %}
+![Channel 4 'Lines' next-up caption, 1999](/assets/images/essays/dissertation/figure-21a.png){: .pull-left}
+![Channel 4 'Lines' holding caption, 2000](/assets/images/essays/dissertation/figure-21b.png){: .pull-left}
+![Channel 4 'Lines' information caption, 2000](/assets/images/essays/dissertation/figure-21c.png){: .pull-left}
+![Channel 4 'Lines' promotion end caption, 2003](/assets/images/essays/dissertation/figure-21d.png){: .pull-left}
+{% endfigure %}
 
 The latest update saw some narrative elements added, with the vertical lines being created by vapour trails, the movement of water, the beating of a heart, coloured lights and sound waves. Again the logo became more involved within the ident, and whilst still remaining in the same position on screen, it mimicked the action taking place behind it.
 
-<figure id="figure-22">
-    ![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22a.png){: .pull-left}
-    ![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22b.png){: .pull-left}
-    ![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22c.png){: .pull-left}
-    ![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22d.png){: .pull-left}
-    <figcaption>
-        <h4>Figure 22</h4>
-        <p>In this ident, the vertical lines are created by water ripples, and so the logo ripples also.</p>
-    </figcaption>
-</figure>
+{% figure Figure 22: In this ident, the vertical lines are created by water ripples, and so the logo ripples also. %}
+![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22a.png){: .pull-left}
+![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22b.png){: .pull-left}
+![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22c.png){: .pull-left}
+![Channel 4 'Water' ident, 2002](/assets/images/essays/dissertation/figure-22d.png){: .pull-left}
+{% endfigure %}
 
-<figure id="figure-23">
-    ![Channel 4 'Waveforms' ident, 2002](/assets/images/essays/dissertation/figure-23a.png){: .pull-left} 
-    ![Channel 4 'Slots' ident, 2002](/assets/images/essays/dissertation/figure-23b.png){: .pull-left}
-    ![Channel 4 'Vapour Trails' ident, 2002](/assets/images/essays/dissertation/figure-23c.png){: .pull-left} 
-    ![Channel 4 'Film' ident, 2002](/assets/images/essays/dissertation/figure-23d.png){: .pull-left}
-    <figcaption>
-        <h4>Figure 23</h4>
-        <p>The latest update to Channel 4's on screen image shows the versatility of the original 'lines' concept.</p>
-    </figcaption>
-</figure>
+{% figure Figure 23: The latest update to Channel 4's on screen image shows the versatility of the original 'lines' concept. %}
+![Channel 4 'Waveforms' ident, 2002](/assets/images/essays/dissertation/figure-23a.png){: .pull-left}
+![Channel 4 'Slots' ident, 2002](/assets/images/essays/dissertation/figure-23b.png){: .pull-left}
+![Channel 4 'Vapour Trails' ident, 2002](/assets/images/essays/dissertation/figure-23c.png){: .pull-left}
+![Channel 4 'Film' ident, 2002](/assets/images/essays/dissertation/figure-23d.png){: .pull-left}
+{% endfigure %}
 
 In retrospect, Channel 4 made a mistake in some ways with its over eagerness to compete with Channel 5, a channel that had a very populist output at odds with Channel 4's. It was admitted later that the connections identity was rushed out ahead of the Channel 5 launch, and by the end of the decade returned to an identity close to that of 1982 with a strong involvement of colour and movement.
 

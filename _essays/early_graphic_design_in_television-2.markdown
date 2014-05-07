@@ -35,29 +35,21 @@ The quality of television broadcasts and receivers was crude to say the least. I
 
 This meant graphics produced for television had a huge number of restrictions put on them. Lettering had to be large and bold with strong tonal contrast and illustrations had to use fairly heavy lines and lack detail ('Op' and 'Pop' art themes were common used during the end of the fifties). Designers also had to work from the center of the screen outwards, so as to ensure their work would be seen.
 
-<figure id="figure-1">
-    ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1a.png){: .pull-left}
-    ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1b.png){: .pull-left}
-    ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1c.png){: .pull-left}
-    ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1d.png){: .pull-left}
-    ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1e.png){: .pull-left}
-    <figcaption>
-        <h4>Figure 1</h4>
-        <p>Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)</p>
-    </figcaption>
-</figure>
+{% figure Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge) %}
+![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1a.png){: .pull-left}
+![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1b.png){: .pull-left}
+![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1c.png){: .pull-left}
+![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1d.png){: .pull-left}
+![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1e.png){: .pull-left}
+{% endfigure %}
 
-<figure id="figure-2">
-    ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2a.png){: .pull-left}
-    ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2b.png){: .pull-left}
-    ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2c.png){: .pull-left}
-    ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2d.png){: .pull-left}
-    ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2e.png){: .pull-left}
-    <figcaption>
-        <h4>Figure 2</h4>
-        <p>Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)</p>
-    </figcaption>
-</figure>
+{% figure Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe) %}
+![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2a.png){: .pull-left}
+![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2b.png){: .pull-left}
+![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2c.png){: .pull-left}
+![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2d.png){: .pull-left}
+![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2e.png){: .pull-left}
+{% endfigure %}
 
 In America, William Golden was making a name for himself in television and was arguably the medium's first graphic designer. Golden was born in 1911 in New York, where he attended a vocational high school in which he studied commercial design and photoengraving. In 1937, he joined the CBS Radio Network and soon became their art director.
 
@@ -65,13 +57,9 @@ After his career was interrupted by World War II, he returned to CBS and produce
 
 However his greatest creation was his corporate identity for CBS Television the well-known CBS 'eye' (see below) first aired on the 6th November 1951. He died at the age of 49, only a few months after being awarded art director of the year by the New York Art Directors Club in 1959.
 
-<figure id="figure-3">
-    ![The CBS Eye and its design, William Golden](/assets/images/essays/early_graphic_design_in_television/figure-3.png)
-    <figcaption>
-        <h4>Figure 3</h4>
-        <p>Corporate logo for CBS Television (CBS 1951-Present Day)<br />Graphic Designer: William Golden (right)</p>
-    </figcaption>
-</figure>
+{% figure Figure 3: Corporate logo for CBS Television (CBS 1951-Present Day)<br />Graphic Designer: William Golden (right) %}
+![The CBS Eye and its design, William Golden](/assets/images/essays/early_graphic_design_in_television/figure-3.png)
+{% endfigure %}
 
 It was Saul Bass though, who was to have the most influence on designers in the profession even though he had closer links with film than television. Saul Bass was also born in New York in 1920 where he studied at the Art Students League and Brooklyn College and worked for a number of years. In 1946 he moved to Los Angeles, were he began to produce graphics for advertising.
 
@@ -85,21 +73,17 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-<figure id="figure-4">
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4a.png){: .pull-left}
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4b.png){: .pull-left} 
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4c.png){: .pull-left}
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4d.png){: .pull-left}
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4e.png){: .pull-left} 
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4f.png){: .pull-left}
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4g.png){: .pull-left}
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4h.png){: .pull-left} 
-    ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4i.png){: .pull-left}
-    <figcaption>
-        <h4>Figure 4</h4>
-        <p>Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). <a href="http://www.youtube.com/watch?v=eGnpJ_KdqZE" rel="related">Watch on YouTube</a></p>
-    </figcaption>
-</figure>
+{% figure Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). <a href="http://www.youtube.com/watch?v=eGnpJ_KdqZE">Watch on YouTube</a> %}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4a.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4b.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4c.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4d.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4e.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4f.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4g.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4h.png){: .pull-left}
+![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4i.png){: .pull-left}
+{% endfigure %}
 
 Bass had most influence on the early graphic designers in television due to the fact that it was a new medium with precedents for design having to be found elsewhere. Often this was from print but Bass was the only one who provided a potential influence. However, his influence was often hard to emulate on television with its many technical, time and budgetary constraints. In fact it was also difficult for them to find inspiration from anything they, their colleagues or their predecessors produced, because for a long time video was not used to keep a record of programme output. Advertisers also found they had the same problems when they encountered the moving image with the arrival of commercial television in 1955.
 
