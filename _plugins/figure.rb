@@ -24,6 +24,7 @@ module Jekyll
         output = converter.convert(super(context))
         "<figure>#{output}#{@caption}</figure>"
       end
+
     end
   end
 end
