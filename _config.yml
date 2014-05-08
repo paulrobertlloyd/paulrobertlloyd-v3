@@ -40,12 +40,12 @@ collections:
     title: Projects
 
 # Syntax highlighting (see: https://github.com/navarroj/krampygs)
-markdown_ext: krampygs,typogruby
+markdown_ext: krampygs, typogruby
 highlighter: pygments
 
 # Publishing
 include: [_pages, .htaccess]
-exclude: [Gemfile, Gemfile.lock, node_modules, package.json, Plumbing.js README.md]
+exclude: [Gemfile, Gemfile.lock, node_modules, package.json, Plumbing.js, README.md]
 
 # Prose.io
 prose:
