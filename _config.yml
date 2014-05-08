@@ -35,11 +35,9 @@ collections:
     output: true
     title: Projects
 
-# Text formating
-# Use kramdown with pygments (see: https://github.com/navarroj/krampygs)
-# markdown: kramdown
-# markdown_ext: krampygs
-# highlighter: pygments
+# Syntax highlighting (see: https://github.com/navarroj/krampygs)
+markdown_ext: krampygs,typoruby
+highlighter: pygments
 
 # Publishing
 include: [_pages, .htaccess]
