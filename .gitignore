@@ -29,3 +29,4 @@ Gemfile.lock
 _comments
 node_modules
 bower_components
+assets/stylesheets/style.css
