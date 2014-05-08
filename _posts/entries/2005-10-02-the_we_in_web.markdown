@@ -6,19 +6,12 @@ excerpt: Yesterday saw the inaugural meeting of a new Midlands based web communi
 comments: closed
 post_id: 2005-10-02-the_we_in_web
 ---
-After the suggestion of Simon Jobling, yesterday saw the formation of [a local community of web-developers][1], similar to others such as the [BritPack][2], [HappyClog][3], [NEWD][4] etc. Whilst the turnout was quite small, it felt like a good meeting to help form the foundations of what I hope will become an interesting network to be a part of.
+![The very first Multipack meet up in Walsall](/assets/images/2005/10/midwebmeet.jpg){: .pull-right} After the suggestion of Simon Jobling, yesterday saw the formation of [a local community of web-developers][1], similar to others such as the [BritPack][2], [HappyClog][3], [NEWD][4] etc. Whilst the turnout was quite small, it felt like a good meeting to help form the foundations of what I hope will become an interesting network to be a part of.
 
 Coincidentally, this came the day after I listened to [Molly's Keynote speech][5] at WE05 in Sydney (thanks to the wonderful [WE05 podcast][6]). In her presentation titled 'State of the Web, 2005', she concluded (if I'm correct) that we are now seeing the web returning to the original vision of Tim Berners-Lee -- that it's about people and relationships.
 
 ## Being a Small Part of the Bigger Whole
 Given some events that have taken place this year I have to agree. [@media][7] in London this June proved to me how much the web is becoming as much an experience off-line as it is online. At this conference, whilst the presentations over the two days were interesting and enjoyable, the real buzz for me came during the after show parties. Meeting new people and talking to those I already had some sort of online relationship with -- even be it from reading and commenting on their blogs -- is the number one reason why I will be attending again next year.
-
-<figure class="left">
-    ![The very first Multipack meet up in Walsall](/assets/images/2005/10/midwebmeet.jpg)
-    <figcaption>
-        <p>The very first Multipack meet up in Walsall.</p>
-    </figcaption>
-</figure>
 
 Molly also talked about collaboration. With so many new and existing technologies out there (some that go into quite some depth) the web has become a medium for which if you are to be successful, then you need the help of others to do so. Again this year brought about a perfect example when me and [Jon][8] decided to collaborate on [a theme for WordPress][9].
 

@@ -26,13 +26,9 @@ Other governments have a similar array of logos of course, but a few have implem
 ### United States
 Whilst there is no coordinated branding strategy within the US Federal Government, there is some consistency, largely the result of historical precedent than any centralised planning. Here government departments, federal agencies and programmes use round 'seals', basing their designs on that of the Great Seal, or referencing aspects of it such as the Bald Eagle or the Stars and Stripes.
 
-<figure>
-    ![](/assets/images/2009/09/usgovernmentseals.png)
-    <figcaption>
-        <h4>Seals of US Federal Government</h4>
-        <p>The Great Seal of the United States and seals for the President, Department of State, Department of Education, NASA, Department of Homeland Security (DHS) and the Recovery.gov website. Both the DHS and Recovery.gov seals are recent creations, and whilst they have simpler designs, they still retain the circular format and visual language seen in other seals.</p>
-    </figcaption>
-</figure>
+{% figure <strong>Seals of US Federal Government:</strong> The Great Seal of the United States and seals for the President, Department of State, Department of Education, NASA, Department of Homeland Security (DHS) and the Recovery.gov website. Both the DHS and Recovery.gov seals are recent creations, and whilst they have simpler designs, they still retain the circular format and visual language seen in other seals. %}
+![](/assets/images/2009/09/usgovernmentseals.png)
+{% endfigure %}
 
 ### Germany
 The unification of East and West Germany in 1990 provided an ideal opportunity to create a single identity for the new federal government.
@@ -43,13 +39,9 @@ The final identity was launched in June 1999 and [MetaDesign has been involved e
 
 * [Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/) (in German, [translated](http://www.systranet.com/turl/?systranuid=aHR0cC1zdHlsZWd1aWRlLmJ1bmRlc3JlZ2llcnVuZy5kZS9kZV9lbg==))
 
-<figure>
-    ![](/assets/images/2009/09/germangovernment.png)
-    <figcaption>
-        <h4>Logos used by the German Federal Government</h4>
-        <p>One single (and scalable) identity system is used across all federal ministries and agencies. Shown here are logos for the Federal Goverment, the Federal Ministry of Education and Research, the Federal Supervisory Authority for Air Navigation Services and the Federal Archives.</p>
-    </figcaption>
-</figure>
+{% figure <strong>Logos used by the German Federal Government:</strong> One single (and scalable) identity system is used across all federal ministries and agencies. Shown here are logos for the Federal Goverment, the Federal Ministry of Education and Research, the Federal Supervisory Authority for Air Navigation Services and the Federal Archives. %}
+![](/assets/images/2009/09/germangovernment.png)
+{% endfigure %}
 
 ### Netherlands
 Last year the Dutch Government [took a similar approach][2] with it's 'Project 1 Logo' initiative. With over 200 departments and ministries facing mounting costs maintaining different logos, typefaces, print materials and signage, the project aimed to improve communication between citizens and the government by presenting a unified image.
@@ -58,13 +50,9 @@ The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom ty
 
 * [Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/) (retrieved from the Internet Archive, in Dutch)
 
-<figure>
-    ![](/assets/images/2009/09/dutchgovernment.png)
-    <figcaption>
-        <h4>Logos for Dutch Government and Ministries</h4>
-        <p>A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs.</p>
-    </figcaption>
-</figure>
+{% figure <strong>Logos for Dutch Government and Ministries:</strong> A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs. %}
+![](/assets/images/2009/09/dutchgovernment.png)
+{% endfigure %}
 
 ## Future Approach
 
@@ -77,13 +65,9 @@ Although a highly visible (and initially expensive) identity programme might mee
 ### Design
 The 'HM Government' logo introduced earlier this decade could provide clues to what a unified identify might look like, with the government's coat of arms sat alongside a word-mark set in Gill Sans Light. Logos for the Ministry of Justice, Treasury, Foreign and Cabinet Offices also feature this coat of arms, whilst the Treasury and the Department for Business Innovation and Skills use Gill Sans too.
 
-<figure>
-    ![](/assets/images/2009/09/ukgovernmentnow.png)
-    <figcaption>
-        <h4>A selection of logos used by the British government today</h4>
-        <p>Whilst there is no coherent identity within British Government, a number of patterns emerge, with the coat of arms and Gill Sans being popular choices for some logos. However not every department shares this visual language, and all have implemented separate identity schemes.</p>
-    </figcaption>
-</figure>
+{% figure <strong>A selection of logos used by the British government today</strong>: Whilst there is no coherent identity within British Government, a number of patterns emerge, with the coat of arms and Gill Sans being popular choices for some logos. However not every department shares this visual language, and all have implemented separate identity schemes. %}
+![](/assets/images/2009/09/ukgovernmentnow.png)
+{% endfigure %}
 
 Maintaining the coat of arms is probably a requirement for any future identity work, although it requires simplification; it clearly doesn't resize well or reproduce cleanly enough on screen. While Gill Sans is often considered the de facto font for anything British, I would love to see a custom typeface designed in the same vein as that for the Dutch government. It would have to work across the wide spectrum of government activity, and heavy usage could result in it becoming a British classic (and arguably better suited to the requirements of the 21st Century too).
 

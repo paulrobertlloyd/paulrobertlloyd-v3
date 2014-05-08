@@ -21,55 +21,41 @@ In recent years, legislation has focused on the transfer of administrative funct
 Counties are important -- not only useful for way-finding, but as entities to affix local identities and cultures to, and help tell the story of Britain. Yet their continual reorganisation has left people confused as to their function, names and location.
 
 ## Psychoville
-Such confusion was evident when I sat down to watch [Psychoville][10] last Friday. The first episode of this new dark-comedy series focused on letters being sent to five characters around the country, but it was striking how each location was referred to using these different understandings of a county. 
+Such confusion was evident when I sat down to watch [Psychoville][10] last Friday. The first episode of this new dark-comedy series focused on letters being sent to five characters around the country, but it was striking how each location was referred to using these different understandings of a county.
 
-<figure>
-    ![Psychoville onscreen title for Salford, Manchester](/assets/images/2009/06/psychoville-salford.jpg)
-    <figcaption>
-        <h4>Salford, Manchester</h4>
-        <p>The first location named was technically wrong (but no doubt commonly used) in that it should have read 'Salford, Greater Manchester'. Had it used an historic County, this would have been 'Salford, Lancashire'.</p>
-    </figcaption>
-</figure>
+### Salford, Manchester
+![Psychoville onscreen title for Salford, Manchester](/assets/images/2009/06/psychoville-salford.jpg)
 
-<figure>
-    ![Psychoville onscreen title for Bristol, Avon](/assets/images/2009/06/psychoville-bristol.jpg)
-    <figcaption>
-        <h4>Bristol, Avon</h4>
-        <p>This graphic is perhaps the best example as to why we should return to using historic Counties in addresses given that Avon no longer exists! Created as part of the 1972 reorganisation, it was abolished in 1996 and replaced with four unitary authorities, three of which returned to their 'ceremonial counties' of Somerset and Gloucestershire (whilst Bristol became a ceremonial county in its own right).</p>
-        <p>Using an historic County would have resulted in the location referred to as 'Bristol, Gloucestershire'.</p>
-    </figcaption>
-</figure>
+The first location named was technically wrong (but no doubt commonly used) in that it should have read 'Salford, Greater Manchester'. Had it used an historic County, this would have been 'Salford, Lancashire'.
 
-<figure>
-    ![Psychoville onscreen title for Ilkley, Yorkshire](/assets/images/2009/06/psychoville-ilkley.jpg)
-    <figcaption>
-        <h4>Ilkley, Yorkshire</h4>
-        <p>The third location given is actually shown on-screen using an historic County, but if you watch closely you will see the actual letter has the address written down as North Yorkshire -- an unfortunate error as Ilkley is in the West Riding.</p>
-    </figcaption>
-</figure>
+### Bristol, Avon
+![Psychoville onscreen title for Bristol, Avon](/assets/images/2009/06/psychoville-bristol.jpg)
 
-<figure>
-    ![Psychoville onscreen title for Eastbourne, Sussex](/assets/images/2009/06/psychoville-eastbourne.jpg)
-    <figcaption>
-        <h4>Eastbourne, Sussex</h4>
-        <p>This location was also referenced using a historic county, with Sussex displayed instead of the current ceremonial county of East Sussex. I suspect this may have been due to the space available on screen.</p>
-    </figcaption>
-</figure>
+This graphic is perhaps the best example as to why we should return to using historic Counties in addresses given that Avon no longer exists! Created as part of the 1972 reorganisation, it was abolished in 1996 and replaced with four unitary authorities, three of which returned to their 'ceremonial counties' of Somerset and Gloucestershire (whilst Bristol became a ceremonial county in its own right).
 
-<figure>
-    ![Psychoville onscreen title for Wood Green, London](/assets/images/2009/06/psychoville-woodgreen.jpg)
-    <figcaption>
-        <h4>Wood Green, London</h4>
-        <p>Formally Wood Green was a municipal borough within the county of Middlesex, but is now part of the London Borough of Haringey, one of 32 London boroughs within Greater London. This is a bit of an anomaly, as Greater London is formerly classed as an 'administrative area' and 'local government region', but <em>not</em> a county.</p>
-        <p>Whilst Greater London assumed parts of neighbouring counties and lead to Middlesex being abolished entirely, this historic county still exists in the public consciousness. A tin of Heinz Baked Beans will show the company address as Hayes, Middlesex, whilst a can of Coke may list an address of Uxbridge, Middlesex.</p>
-        <p>Using historic Counties for addresses in London can be confusing, so the recommended form is to use the County followed by the Post Town, for example:</p>
-        <pre>
-Wood Green  
-Middlesex  
-LONDON
-        </pre>
-    </figcaption>
-</figure>
+Using an historic County would have resulted in the location referred to as 'Bristol, Gloucestershire'.
+
+### Ilkley, Yorkshire
+![Psychoville onscreen title for Ilkley, Yorkshire](/assets/images/2009/06/psychoville-ilkley.jpg)
+
+The third location given is actually shown on-screen using an historic County, but if you watch closely you will see the actual letter has the address written down as North Yorkshire -- an unfortunate error as Ilkley is in the West Riding.
+
+### Eastbourne, Sussex
+![Psychoville onscreen title for Eastbourne, Sussex](/assets/images/2009/06/psychoville-eastbourne.jpg)
+
+This location was also referenced using a historic county, with Sussex displayed instead of the current ceremonial county of East Sussex. I suspect this may have been due to the space available on screen.
+
+### Wood Green, London
+![Psychoville onscreen title for Wood Green, London](/assets/images/2009/06/psychoville-woodgreen.jpg)
+
+Formally Wood Green was a municipal borough within the county of Middlesex, but is now part of the London Borough of Haringey, one of 32 London boroughs within Greater London. This is a bit of an anomaly, as Greater London is formerly classed as an 'administrative area' and 'local government region', but _not_ a county.
+
+Whilst Greater London assumed parts of neighbouring counties and lead to Middlesex being abolished entirely, this historic county still exists in the public consciousness. A tin of Heinz Baked Beans will show the company address as Hayes, Middlesex, whilst a can of Coke may list an address of Uxbridge, Middlesex.
+Using historic Counties for addresses in London can be confusing, so the recommended form is to use the County followed by the Post Town, for example:
+
+    Wood Green  
+    Middlesex  
+    LONDON
 
 ## Further Information
 A whole host of information on this topic is available from the [Association of British Counties][11], an organisation that is seeking to re-establish the use of historic Counties as the standard popular geographical reference frame of Britain. I've already taken them up on their advice of [using historic Counties in addresses][12], and I'm sure membership will follow.
