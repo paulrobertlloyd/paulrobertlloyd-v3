@@ -90,8 +90,8 @@ figure p {
 }
 figcaption {
     color: var(--c_neutral-3);
-    font-size: 0.875rem; /* 14px */
-    line-height: 1.1429; /* 16px */
+    font-size: 0.875em; /* 14px */
+    line-height: 1.4286; /* 20px */
     border-bottom: 1px solid var(--c_neutral-7);
     padding: 0.5714em 0; /* 8px 0 */
     display: block;
