@@ -8,6 +8,7 @@ source "https://rubygems.org"
 # Jekyll
 gem 'jekyll'
 #gem 'kramdown'
+gem 'jekyll-sitemap'
 gem 'typogruby'
 gem 'ruby-oembed'
 gem 'xml-simple'

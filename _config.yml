@@ -2,6 +2,10 @@
 title: Paul Robert Lloyd
 url: http://paulrobertlloyd.dev
 
+# Gems
+gems:
+  - jekyll-sitemap
+
 # Meta
 author:
   name: Paul Robert Lloyd
