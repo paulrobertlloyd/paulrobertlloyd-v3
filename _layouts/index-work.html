@@ -3,11 +3,11 @@ layout: base
 ---
 <section class="index">
     <header class="index__header">
-        <h1 class="index__title">{{ page.title }}</h1>
+        <h1 class="index__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
     </header>
 
     <div class="index__main">
-{% for collection in site.collections | map:to_liquid %}
+{% for collection in site.collections %}
         <section>
             <h1><a href="{{ collection.directory }}">{{ collection.title }}</a></h1>
             Label: {{ collection.label }}

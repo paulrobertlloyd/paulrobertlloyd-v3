@@ -11,7 +11,12 @@
         font-size: 1.25em; /* 20px */
         line-height: 1.6; /* 32px */
     }
+    .prose figcaption {
+        font-size: 1rem; /* 16px */
+        line-height: 1.25; /* 20px */
+    }
 }
+
 .prose p,
 .prose li,
 .prose dd {

@@ -19,7 +19,7 @@
             </a></h1>
         </header>
         <div class="comment__main">
-            {{ c.content | abbr | ampersand | markdownify }}
+            {{ c.content | markdownify }}
         </div>
         <footer class="comment__footer">
             <time class="comment__pubdate" datetime="{{ c.date | date_to_xmlschema }}">{{ c.date | date: "%e %B %Y" }}</time>

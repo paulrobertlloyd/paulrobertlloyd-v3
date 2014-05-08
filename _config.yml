@@ -36,7 +36,7 @@ collections:
     title: Projects
 
 # Syntax highlighting (see: https://github.com/navarroj/krampygs)
-markdown_ext: krampygs,typoruby
+markdown_ext: krampygs,typogruby
 highlighter: pygments
 
 # Publishing

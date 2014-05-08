@@ -3,13 +3,13 @@ layout: base
 ---
         <article class="post">
             <header class="post__header">
-                <h1 class="post__title">{{ page.title | smart }}</h1>
+                <h1 class="post__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
 
                 <nav class="nav nav--pagination">
                     {% assign previous = page.previous %}
-                    {% if previous.url %}<a class="nav__item" rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title }}">Previous entry</a>{% endif %}
+                    {% if previous.url %}<a class="nav__item" rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title | replace: "'","&#8217;" }}">Previous entry</a>{% endif %}
                     {% assign next = page.next %}
-                    {% if next.url %}<a class="nav__item" rel="next bookmark"  href="{{ next.url }}" title="{{ next.title }}">Next entry</a>{% endif %}
+                    {% if next.url %}<a class="nav__item" rel="next bookmark"  href="{{ next.url }}" title="{{ next.title | replace: "'","&#8217;" }}">Next entry</a>{% endif %}
                 </nav>
             </header>
 
@@ -22,7 +22,7 @@ layout: base
                 {% oembed {{ page.link }} %}
                 {% endif %}
 
-                {{ content | abbr | ampersand }}
+                {{ content }}
 
                 {% if page.link == true %}
                 <p><a href="{{ page.link }}">Visit this link</a></p>
