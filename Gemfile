@@ -8,6 +8,6 @@ source "https://rubygems.org"
 # Jekyll
 gem 'jekyll'
 #gem 'kramdown'
-#gem 'typogruby'
+gem 'typogruby'
 gem 'ruby-oembed'
 gem 'xml-simple'
