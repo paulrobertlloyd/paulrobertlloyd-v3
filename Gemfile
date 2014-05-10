@@ -6,7 +6,8 @@ source "https://rubygems.org"
 #gem 'tidy-html5', :git => "https://github.com/moneyadviceservice/tidy-html5-gem.git"
 
 # Jekyll
-gem 'jekyll'
+gem 'jekyll',
+    :git => 'git://github.com/jekyll/jekyll.git'
 gem 'jekyll-sitemap'
 gem 'typogruby'
 gem 'ruby-oembed'
