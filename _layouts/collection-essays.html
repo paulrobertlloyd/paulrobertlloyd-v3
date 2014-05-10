@@ -6,7 +6,7 @@ layout: base
 </header>
 
 <div class="index__main">
-{% for summary in site.articles %}
+{% for summary in site.essay %}
     {% if summary.chapter-title == null %}
         {% include articles/summary.html %}
     {% endif %}

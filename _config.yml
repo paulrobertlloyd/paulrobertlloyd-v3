@@ -26,9 +26,9 @@ archive:
 
 # Collections
 collections:
-  articles:
+  essays:
     output: true
-    title: Articles
+    title: Academic Essays
   projects:
     output: true
     title: Projects
