@@ -1,5 +1,5 @@
 ---
-layout: collection-essays
+layout: collection
 title: Essays
 permalink: /essays/
 ---

@@ -1,43 +1,37 @@
 ---
 layout: base
 ---
-        <article class="post">
-            <header class="post__header">
-                <h1 class="post__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+    </header>
 
-                <nav class="nav nav--pagination">
-                    {% assign previous = page.previous %}
-                    {% if previous.url %}<a class="nav__item" rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title | replace: "'","&#8217;" }}">Previous entry</a>{% endif %}
-                    {% assign next = page.next %}
-                    {% if next.url %}<a class="nav__item" rel="next bookmark"  href="{{ next.url }}" title="{{ next.title | replace: "'","&#8217;" }}">Next entry</a>{% endif %}
-                </nav>
-            </header>
+    <footer class="post__footer">
+        <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+    </footer>
 
-            <footer class="post__footer">
-                <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-            </footer>
+    <div class="post__main prose">
+        {% if page.embed == true %}
+        {% oembed {{ page.link }} %}
+        {% endif %}
 
-            <div class="post__main prose">
-                {% if page.embed == true %}
-                {% oembed {{ page.link }} %}
-                {% endif %}
+        {{ content }}
 
-                {{ content }}
+        {% if page.link == true %}
+        <p><a href="{{ page.link }}">Visit this link</a></p>
+        {% endif %}
+    </div>
+</article>
 
-                {% if page.link == true %}
-                <p><a href="{{ page.link }}">Visit this link</a></p>
-                {% endif %}
+{% if page.remarks == "open" %}
+<section class="section">
+    <a href="mailto:comment+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title | smart }}">Comment on this article</a>
+</section>
+{% endif %}
 
-                {% if page.remarks == "open" %}
-                <section class="section">
-                    <a href="mailto:comment+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title | smart }}">Comment on this article</a>
-                </section>
-                {% endif %}
+{% if page.remark_count >= 1 %}
+{% include sections/remarks.html %}
+{% endif %}
 
-                {% if page.remark_count >= 1 %}
-                {% include sections/remarks.html %}
-                {% endif %}
-
-                {% include sections/related.html %}
-            </div>
-        </article>
+{% include navigation/nav--pagination.html %}
+{% include sections/related.html %}

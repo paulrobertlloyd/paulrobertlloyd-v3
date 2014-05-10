@@ -17,11 +17,11 @@ permalink: /:year/:month/:title/
 
 # Pagination
 paginate: 10
-paginate_path: /page/:num/
+paginate_path: /journal/:num/
 
 # Archives
 archive:
-  layout: index-archive
+  layout: archive
   title: :date
 
 # Collections

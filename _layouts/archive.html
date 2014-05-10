@@ -21,10 +21,10 @@ layout: base
 
         <nav class="nav nav--pagination">
         {% if paginator.previous_page %}
-            <a class="nav__item" rel="next" href="{{ paginator.previous_page_path | remove: "index.html" }}" title="{{ archivename_previous }}">Previous {{ archivetype }}</a>
+            <a class="nav__item nav__item--prev" rel="prev" href="{{ paginator.previous_page_path | remove: "index.html" }}" title="{{ archivename_previous }}"><span class="nav__item__label">Previous {{ archivetype }}</span></a>
         {% endif %}
         {% if paginator.next_page %}
-            <a class="nav__item" rel="prev" href="{{ paginator.next_page_path | remove: "index.html" }}" title="{{ archivename_next }}">Next {{ archivetype }}</a>
+            <a class="nav__item nav__item--next" rel="next" href="{{ paginator.next_page_path | remove: "index.html" }}" title="{{ archivename_next }}"><span class="nav__item__label">Next {{ archivetype }}</span></a>
         {% endif %}
         </nav>
     </header>
