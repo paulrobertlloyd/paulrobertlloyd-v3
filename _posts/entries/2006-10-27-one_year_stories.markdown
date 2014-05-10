@@ -3,7 +3,7 @@ layout: post
 title: One Year Stories
 date: '2006-10-27 00:45:54 +0100'
 excerpt: A lot has happened in the last year, and October seems to be a month for celebrating anniversaries.
-comments: closed
+remarks: closed
 post_id: 2006-10-27-one_year_stories
 ---
 A lot has happened in the last year, and October seems to be a month for celebrating anniversaries.

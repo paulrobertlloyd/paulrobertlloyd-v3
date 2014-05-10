@@ -3,7 +3,7 @@ layout: post
 title: Work With Me!
 date: '2006-12-10 14:23:10 +0000'
 excerpt: 2007 is set to be an exciting year at Ning, with the launch (and continual development) of a product we have spent the last couple of months beavering away on, as well as a host of other improvements to the platform.
-comments: closed
+remarks: closed
 post_id: 2006-12-10-work_with_me
 ---
 2007 is set to be an exciting year at Ning, with the launch (and continual development) of a product we have spent the last couple of months beavering away on, as well as a host of other improvements to the platform.

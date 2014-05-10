@@ -3,7 +3,7 @@ layout: post
 title: Simply Walsall
 date: '2009-02-10 10:27:30 +0000'
 excerpt: In the last few years, two public organisations in Walsall have undergone renewals, and both have choosen to reflect this change with simpler identities.
-comments: closed
+remarks: closed
 post_id: 2009-02-10-simply_walsall
 ---
 In the last few years, two public organisations in Walsall have undergone renewals, and both have choosen to reflect this change with simpler identities.

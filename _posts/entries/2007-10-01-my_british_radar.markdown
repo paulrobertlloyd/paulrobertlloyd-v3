@@ -3,7 +3,7 @@ layout: post
 title: My British Radar
 date: '2007-10-01 00:51:45 +0100'
 excerpt: I'm almost reaching a point where I feel embarrassed to be British.
-comments: closed
+remarks: closed
 post_id: 2007-10-01-my_british_radar
 ---
 Recently, I've been feeling in a slightly uncomfortable place, a situation in which I feel the continual longing to return home, yet at the same time, the desire to actually live in the UK diminishing. In fact I'm almost reaching a point where I feel embarrassed to be British.

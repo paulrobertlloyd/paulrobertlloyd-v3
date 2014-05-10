@@ -3,7 +3,7 @@ layout: post
 title: Unbelievable
 date: '2006-03-29 06:16:43 +0100'
 excerpt: There's an irritating advert that is currently running on US television.
-comments: closed
+remarks: closed
 post_id: 2006-03-29-unbelievable
 ---
 My intention for this post was to write about an irritating advert that is currently running on US television right now. Beforehand, I did a quick Google search so that I could link to the product in question. In doing so I found a number of blogs and discussion forums already talking about it and quickly realised that by adding myself to that number, I would be walking into an age old marketing trap.

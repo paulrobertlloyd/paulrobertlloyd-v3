@@ -3,7 +3,7 @@ layout: post
 title: What Respect Agenda?
 date: '2006-06-08 20:38:11 +0100'
 excerpt: Whilst making my way down New Street in the centre of Birmingham, late this Thursday afternoon, I became a victim of the vile 'happy slapping' phenomenon.
-comments: closed
+remarks: closed
 post_id: 2006-06-08-what_respect_agenda
 ---
 Whilst making my way down New Street in the centre of Birmingham, late this Thursday afternoon, I found myself walking towards four Asian youths, one moving to the left, and the other three moving to the right. Stepping between this group, I suddenly felt a massive blow to the side of my head before falling to the ground, as the group casually carried on into the depths of the city.

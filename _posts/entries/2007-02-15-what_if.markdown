@@ -3,7 +3,7 @@ layout: post
 title: What If... I was to speak for two minutes at this years SXSW festival?
 date: '2007-02-15 00:58:23 +0000'
 excerpt: In just under a months time I will be turning my trousers brown before placing myself upon a small stage and speaking for just 2 minutes at 20x2, a small event that takes place during SXSW.
-comments: closed
+remarks: closed
 post_id: 2007-02-15-what_if
 ---
 In just under a months time I will be turning my trousers brown before placing myself upon a small stage and speaking for just 2 minutes at 20×2 v7.0, a small event that takes place during the SXSW Music, Film and Interactive Festival in Austin, Texas.

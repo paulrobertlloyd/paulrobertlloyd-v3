@@ -3,7 +3,7 @@ layout: post
 title: Simone
 date: '2006-01-12 22:25:47 +0000'
 excerpt: Today I attended the funeral for a wonderfully bright and brave woman I've had the pleasure of knowing these last few years.
-comments: closed
+remarks: closed
 post_id: 2006-01-12-simone
 ---
 ![Simone](/assets/images/2006/01/simone.jpg){: .pull-right} Today I attended the funeral for a wonderfully bright and brave woman I had the pleasure of knowing these last few years. Simone was the office manger at Orange Vision and was always on hand with 'cups of filth' and orders for 'filth sandwiches' in fact just filth in general! Although I wasn't that close to Simone, she was definitely a great person to have around the office.

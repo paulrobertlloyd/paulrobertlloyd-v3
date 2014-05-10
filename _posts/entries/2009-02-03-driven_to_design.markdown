@@ -3,7 +3,7 @@ layout: post
 title: Driven to Design
 date: '2009-02-03 23:10:49 +0000'
 excerpt: In a recent conversation with a client, he asked why I got into design. Its something I've been meaning to write about for sometime, so I'll try to publish my answer here.
-comments: closed
+remarks: closed
 post_id: 2009-02-03-driven_to_design
 ---
 I'm surprised when I look at drawings I did when I was younger. Most often these were in the form of advertisements for cars, computer games and consoles, yet I would never consider working in advertising today.

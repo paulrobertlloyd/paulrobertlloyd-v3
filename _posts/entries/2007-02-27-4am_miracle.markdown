@@ -3,7 +3,7 @@ layout: post
 title: 4am Miracle
 date: '2007-02-27 04:04:49 +0000'
 excerpt: Today we launched onto an unassuming world, the full glory of an all new Ning.
-comments: closed
+remarks: closed
 post_id: 2007-02-27-4am_miracle
 ---
 Today we launched onto an unassuming world, the full glory of an all new Ning. I want to go into some more detail, especially from a personal perspective, as what this new product means to me, and talk about my feeling towards it (in short, I couldn't be prouder). But given it's 4am, that will have to wait until tomorrow.

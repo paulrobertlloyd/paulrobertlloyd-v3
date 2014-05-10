@@ -3,7 +3,7 @@ layout: post
 title: Recent Web Work
 date: '2004-11-03 23:44:26 +0000'
 excerpt: Time for a little update on some recent websites I've been involved with.
-comments: closed
+remarks: closed
 post_id: 2004-11-03-recent_web_work
 ---
 ## beverlywalker.co.uk

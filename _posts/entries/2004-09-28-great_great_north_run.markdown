@@ -3,7 +3,7 @@ layout: post
 title: Great, Great North Run
 date: '2004-09-28 23:43:45 +0100'
 excerpt: Yet again I felt the force of insanity and ran the 24th BUPA Great North Run, from Newcastle to South Shields.
-comments: closed
+remarks: closed
 post_id: 2004-09-28-great_great_north_run
 ---
 On Sunday I felt the force of insanity and ran the 24th Bupa Great North Run, from Newcastle to South Shields. This year I decided upon a strategy for running the race (2 miles running/1 mile off) and together with a cool breeze and a following wind, I felt quite comfortable with the race not seeming to drag on as much as it did the previous year.

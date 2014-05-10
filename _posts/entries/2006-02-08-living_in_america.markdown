@@ -3,7 +3,7 @@ layout: post
 title: Living in America
 date: '2006-02-08 03:17:54 +0000'
 excerpt: Just a quick post to let you all know I'm safe and well in hot and sunny California.
-comments: closed
+remarks: closed
 post_id: 2006-02-08-living_in_america
 ---
 Yesterday I settled into what will be home for the next three months (photos to follow) before visiting the local supermarket to stock up with food. This was 'Whole Foods', a superstore famed for its moral values, so nearly everything I brought there was organic -- but without the prices you would expect in the UK.

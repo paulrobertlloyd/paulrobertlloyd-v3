@@ -3,7 +3,7 @@ layout: post
 title: Twenty-Six
 date: '2006-08-19 13:23:29 +0100'
 excerpt: A couple of days ago I turned 26. The jump from 25 to 26 seems much larger than the one digit increase would have you believe.
-comments: closed
+remarks: closed
 post_id: 2006-08-19-twentysix
 ---
 A couple of days ago I turned 26. Unlike previous birthdays, 26 seems to have grabbed me as a major milestone. The jump from 25 to 26 seems much larger than the one digit increase would have you believe.

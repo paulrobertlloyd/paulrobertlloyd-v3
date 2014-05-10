@@ -3,7 +3,7 @@ layout: post
 title: Busy (and Fun) Month Ahead
 date: '2006-06-14 05:14:50 +0100'
 excerpt: Although June is already pretty much done and dusted, there is still a little bit of fun to come.
-comments: closed
+remarks: closed
 post_id: 2006-06-14-busy_and_fun_month_ahead
 ---
 ## @media 2006

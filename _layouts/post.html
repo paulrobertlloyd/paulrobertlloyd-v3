@@ -28,14 +28,14 @@ layout: base
                 <p><a href="{{ page.link }}">Visit this link</a></p>
                 {% endif %}
 
-                {% if page.comments == "open" %}
+                {% if page.remarks == "open" %}
                 <section class="section">
                     <a href="mailto:comment+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title | smart }}">Comment on this article</a>
                 </section>
                 {% endif %}
 
-                {% if page.comment_count >= 1 %}
-                {% include sections/comments.html %}
+                {% if page.remark_count >= 1 %}
+                {% include sections/remarks.html %}
                 {% endif %}
 
                 {% include sections/related.html %}

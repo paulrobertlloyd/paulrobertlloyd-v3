@@ -3,7 +3,7 @@ layout: post
 title: Introducing Reggie The Rat
 date: '2005-08-10 23:03:44 +0100'
 excerpt: This summer has seen our family grow by one.
-comments: closed
+remarks: closed
 post_id: 2005-08-10-introducing_reggie_the_rat
 ---
 ![Reggie The Rat](/assets/images/2005/08/introducing_reggie_the_rat.jpg)

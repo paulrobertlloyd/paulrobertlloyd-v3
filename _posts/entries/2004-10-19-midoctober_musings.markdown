@@ -3,7 +3,7 @@ layout: post
 title: Mid-October Musings
 date: '2004-10-19 00:31:20 +0100'
 excerpt: Just a quick post to make note of a few things that have been happening over the last week or three.
-comments: closed
+remarks: closed
 post_id: 2004-10-19-midoctober_musings
 ---
 ## My New Temple

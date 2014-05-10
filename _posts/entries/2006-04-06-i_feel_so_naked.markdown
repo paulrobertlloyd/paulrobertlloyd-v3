@@ -3,7 +3,7 @@ layout: post
 title: I Feel So Naked!
 date: '2006-04-06 03:49:05 +0100'
 excerpt: For today only, I'm letting you see under my CSS clothes and peak at my muscular (semantic) physique.
-comments: closed
+remarks: closed
 post_id: 2006-04-06-i_feel_so_naked
 ---
 For today only, I'm letting you see under my CSS clothes and peak at my muscular (semantic) physique. I'm a bit late to the party on this one, but I thought I'd give [CSS Naked Day][1] a go (a great little idea from [Dustin Diaz][2]).

@@ -3,7 +3,7 @@ layout: post
 title: Goodbye California
 date: '2007-10-13 19:37:05 +0100'
 excerpt: Last week I resigned from my position as Lead Designer at Ning, and as a result the visa allowing me to live in the United States will soon expire.
-comments: closed
+remarks: closed
 post_id: 2007-10-13-goodbye_california
 ---
 Weekends spent in coffee shops and sunshine are soon all to become a distant memory. The small kick I get from seeing licence plates with the word 'California' emblazoned across them. The badly designed currency. The way female news anchors have large lipstick smiles but deep manly voices. The way strangers gleefully say 'hello' to you on the street.

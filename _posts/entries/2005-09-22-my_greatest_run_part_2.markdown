@@ -3,7 +3,7 @@ layout: post
 title: My Greatest Run (Part 2)
 date: '2005-09-22 22:19:41 +0100'
 excerpt: This year the Great North Run celebrated it's 25th anniversary. Unfortunately the death of 4 runners and some organisational difficulties, the celebration felt a little soured.
-comments: closed
+remarks: closed
 post_id: 2005-09-22-my_greatest_run_part_2
 ---
 On Tuesday [I wrote about my personal achievement][1] at this years Great North Run which was celebrating it's 25th anniversary year. Unfortunately, with the death of four runners (many more than on previous occasions) as well as some organisational annoyances, I couldn't help but feel that the celebration had been a little soured.

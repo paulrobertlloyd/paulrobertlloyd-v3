@@ -3,7 +3,7 @@ layout: post
 title: Not Sure About the Apple Store
 date: '2005-05-11 00:24:40 +0100'
 excerpt: Purchasing a PowerMac G5 from the local Apple Store.
-comments: closed
+remarks: closed
 post_id: 2005-05-11-not_sure_about_the_apple_store
 ---
 Two weeks ago I purchased a new PowerMac G5. Whilst I was sensible enough to wait until the updated machines were announced (pre-loaded with Tiger), I by-passed my usual pre-purchase research and headed straight for the nearest and newest Apple Store.

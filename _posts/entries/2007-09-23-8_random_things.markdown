@@ -3,7 +3,7 @@ layout: post
 title: 8 Random Things
 date: '2007-09-23 19:31:27 +0100'
 excerpt: It looks like my blog has been a little undernourished these last few months, but thanks to being tagged in a meme, I have an excuse to at least post something for the month of September.
-comments: closed
+remarks: closed
 post_id: 2007-09-23-8_random_things
 ---
 It looks like my blog has been a little undernourished these last few months, but thanks to being tagged in a meme, I have an excuse to at least post something for the month of September.

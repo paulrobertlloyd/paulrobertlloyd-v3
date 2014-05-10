@@ -3,7 +3,7 @@ layout: post
 title: Welcome to Wherever You Are
 date: '2006-08-03 01:23:19 +0100'
 excerpt: In little over 8 weeks time (and pending a successful visa interview) I will be heading back to the United States.
-comments: closed
+remarks: closed
 post_id: 2006-08-03-welcome_to_wherever_you_are
 ---
 In little over 8 weeks time (and pending a successful visa interview) I will be heading back to the United States, in a move which could almost be described as permanent (although I would prefer to think of it more as just for the immediate future). It will come as no surprise then, that as the departure date creeps ever closer, the enormity of such a move is very much at the forefront of my mind.

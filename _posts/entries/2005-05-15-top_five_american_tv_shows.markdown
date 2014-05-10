@@ -3,7 +3,7 @@ layout: post
 title: Top Five American TV Shows
 date: '2005-05-15 00:03:02 +0100'
 excerpt: In the same vain Channel 4 ends every weekend churning out another Top 100 program, I too have decided to start something similar.
-comments: closed
+remarks: closed
 post_id: 2005-05-15-top_five_american_tv_shows
 ---
 I bring you the first in a weekly series of Top 5's, yet sadly missing the countless C-list celebrities talking through their behinds! To start the ball rolling: American television shows.

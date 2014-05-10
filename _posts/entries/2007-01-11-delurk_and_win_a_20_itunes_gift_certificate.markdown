@@ -3,7 +3,7 @@ layout: post
 title: De-lurk and win a £20 iTunes Gift Certificate!
 date: '2007-01-11 23:49:57 +0000'
 excerpt: My Feedburner stats tell me I have around 50 subscribers to my feed. My site stats suggest that I get a fair few unique visitors to this site everyday. However I don't see that many comments on my posts to justify these numbers. It's time to 'de-lurk'
-comments: closed
+remarks: closed
 post_id: 2007-01-11-delurk_and_win_a_20_itunes_gift_certificate
 ---
 My Feedburner stats tell me I have around 50 subscribers to my feed. My site stats suggest that I get a fair few unique visitors to this site everyday. However I don't see that many comments on my posts to justify these numbers.

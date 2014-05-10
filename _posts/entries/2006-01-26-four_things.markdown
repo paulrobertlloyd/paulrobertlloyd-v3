@@ -3,7 +3,7 @@ layout: post
 title: Four Things
 date: '2006-01-26 20:27:22 +0000'
 excerpt: Show me a bandwagon and I'll jump on it! Sadly I haven't been tagged, but as I've seen enough blogs that seemingly tag me by mere sight of them, here goes.
-comments: closed
+remarks: closed
 post_id: 2006-01-26-four_things
 ---
 Show me a bandwagon and I'll jump on it! Sadly I haven't been tagged, but as I've seen enough blogs that seemingly tag me by mere sight of them, here goes.

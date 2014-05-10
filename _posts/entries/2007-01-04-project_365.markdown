@@ -3,7 +3,7 @@ layout: post
 title: 'Project 365: Taking One Photo Each Day During 2007'
 date: '2007-01-04 02:06:12 +0000'
 excerpt: I've decided to commit myself to recording 2007 by taking a photo each day.
-comments: closed
+remarks: closed
 post_id: 2007-01-04-project_365
 ---
 Taking and selecting a photo to mark each day is something I've been thinking about doing for a while. Seeing as I already have a photo from the first three days of this year, I've decided to commit myself to recording 2007 by taking a photo each day.

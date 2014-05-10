@@ -3,7 +3,7 @@ layout: post
 title: (Do You Know the Way to) San José
 date: '2006-04-12 07:07:31 +0100'
 excerpt: Last Saturday I took myself on a little tour of San José, the self-proclaimed capital of Silicon Valley.
-comments: closed
+remarks: closed
 post_id: 2006-04-12-san_jose
 ---
 ![San José City Hall](/assets/images/2006/04/san_jose.jpg)

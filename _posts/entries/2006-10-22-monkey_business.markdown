@@ -3,7 +3,7 @@ layout: post
 title: Monkey Business
 date: '2006-10-22 21:00:40 +0100'
 excerpt: Sunday evening finally saw the launch of a completely rewritten version of LloydyWeb, and the seventh incarnation of this site.
-comments: closed
+remarks: closed
 post_id: 2006-10-22-monkey_business
 ---
 ![Monkey at the computer](/assets/images/2006/10/monkey_business.jpg)

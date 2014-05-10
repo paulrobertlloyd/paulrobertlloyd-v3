@@ -3,7 +3,7 @@ layout: post
 title: Crash
 date: '2006-12-13 00:06:45 +0000'
 excerpt: A story about several racially and socially divided individuals living in Los Angeles, that through a number of events over the course of two days, come in contact with each other with predictable and unpredictable results.
-comments: closed
+remarks: closed
 post_id: 2006-12-13-crash
 ---
 ![Scene from Crash](/assets/images/2006/12/crash.jpg)

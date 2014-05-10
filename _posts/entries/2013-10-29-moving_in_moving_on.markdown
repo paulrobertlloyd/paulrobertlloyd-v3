@@ -3,7 +3,7 @@ layout: post
 title: Moving In, Moving On
 date: '2013-10-29 14:20:00 +0000'
 excerpt: This weekend I will move into a new flat, the first I've owned rather than rented. While I'm trying not to see buying a property as an act of settling down, that I've bought somewhere in Brighton suggests I've found a city I'm happy to call home. This is partly thanks to Clearleft, the design agency I joined in 2009.
-comments: closed
+remarks: closed
 post_id: 2013-10-29-moving_in_moving_on
 ---
 This weekend I will move into a new flat, the first I've owned rather than rented. Finding somewhere to buy was a drawn out affair -- I began looking in January, and had my offer accepted in May -- yet I still felt light-headed when the contracts were finally exchanged earlier this month.

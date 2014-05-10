@@ -3,7 +3,7 @@ layout: post
 title: SFO/LHR
 date: '2009-02-05 11:44:34 +0000'
 excerpt: Today was largely taken up by a flight back to London from San Francisco, where I spent the last ten days.
-comments: closed
+remarks: closed
 post_id: 2009-02-05-sfo_lhr
 ---
 ![Flight information screen](/assets/images/2009/02/sfo_lhr.jpg)

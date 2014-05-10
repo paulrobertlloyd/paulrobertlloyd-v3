@@ -3,7 +3,7 @@ layout: post
 title: Onboard with Broken Britain
 date: '2009-10-10 01:52:28 +0100'
 excerpt: I've been living in Littlehampton for almost a year now, yet working 25 miles away from Brighton has meant enduring the somewhat tedious chore that is commuting. This is often a more eventful affair when the journey is taken later in the evening, and tonight was no different.
-comments: closed
+remarks: closed
 post_id: 2009-10-10-onboard_with_broken_britain
 ---
 I've been living in Littlehampton for almost a year now, yet working 25 miles away from Brighton has meant enduring the somewhat tedious chore that is commuting. This is often a more eventful affair when the journey is taken later in the evening, and tonight was no different.

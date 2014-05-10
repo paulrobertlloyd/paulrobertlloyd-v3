@@ -3,7 +3,7 @@ layout: post
 title: 2004 in Review
 date: '2004-12-31 19:30:00 +0000'
 excerpt: As the year draws to a close, I thought it may be an idea to recall the events and achievements of the last 12 months -- both personally, and those of my closest friends too.
-comments: closed
+remarks: closed
 post_id: 2004-12-31-2004_in_review
 ---
 Looking back, 2004 was a year of two halves, and after reading the following, a thesis of the year 2004 almost, it doesn't take a rocket scientist to work out which half was more rewarding (the absence of Mark and Lard being the only exception).

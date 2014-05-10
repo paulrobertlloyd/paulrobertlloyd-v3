@@ -3,7 +3,7 @@ layout: post
 title: Finally, A Ning To Be Proud Of
 date: '2007-03-21 00:02:00 +0000'
 excerpt: Grabbing a few minutes to to talk about the all new Ning we launched almost three weeks ago.
-comments: closed
+remarks: closed
 post_id: 2007-03-21-finally_a_ning_to_be_proud_of
 ---
 ![The new Ning homepage](/assets/images/2007/03/finally_a_ning_to_be_proud_of.jpg)

@@ -3,7 +3,7 @@ layout: post
 title: Inspiring Nobody
 date: '2012-05-03 11:49:26 +0100'
 excerpt: Rather than showcase British interactive design talent, the biggest cultural event of our generation has been represented online by an uninspired mess that flies the flag for the status quo.
-comments: closed
+remarks: closed
 post_id: 2012-05-03-inspiring_nobody
 ---
 In 2007, soon after the unveiling of a [much criticised emblem][1], the official website for the London 2012 Olympic Games looked like this:

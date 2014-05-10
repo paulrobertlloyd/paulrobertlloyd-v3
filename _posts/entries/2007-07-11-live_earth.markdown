@@ -3,7 +3,7 @@ layout: post
 title: Answering the Call, but Who's Calling?
 date: '2007-07-11 00:23:19 +0100'
 excerpt: Last weekend we witnessed another global entertainment event, this time aimed to raise awareness of 'a climate in crisis' -- Live Earth.
-comments: closed
+remarks: closed
 post_id: 2007-07-11-live_earth
 ---
 ![Live Earth logo](/assets/images/2007/07/live_earth.jpg)

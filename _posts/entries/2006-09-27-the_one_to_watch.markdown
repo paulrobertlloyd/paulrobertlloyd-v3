@@ -3,7 +3,7 @@ layout: post
 title: The One to Watch
 date: '2006-09-27 14:04:00 +0100'
 excerpt: BBC One has revealed a new set of idents and on-screen branding.
-comments: closed
+remarks: closed
 post_id: 2006-09-27-the_one_to_watch
 ---
 ![New BBC1 idents](/assets/images/2006/09/the_one_to_watch.jpg)

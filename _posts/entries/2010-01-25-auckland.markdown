@@ -3,7 +3,7 @@ layout: post
 title: 'Auckland: A City in Search of Itself'
 date: '2010-01-25 23:44:04 +0000'
 excerpt: Before the tan disappears I'd like to record my short journey across New Zealand and Australia. There is much to say, so over the next few days, I shall try to describe how I ended the previous decade down-under.
-comments: closed
+remarks: closed
 post_id: 2010-01-25-auckland
 ---
 ![Auckland](/assets/images/2010/01/auckland.jpg)

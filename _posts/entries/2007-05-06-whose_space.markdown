@@ -3,7 +3,7 @@ layout: post
 title: Whose Space?
 date: '2007-05-06 10:30:00 +0100'
 excerpt: I've held my tongue on MySpace for far too long, so let this be the first of many complaints I have about this service.
-comments: closed
+remarks: closed
 post_id: 2007-05-06-whose_space
 ---
 A few weekends ago, my friend Ellen asked me to help her customise her MySpace page. After giving her my rant about why MySpace is all kinds of wrong, I agreed to help her out. I refuse to have a MySpace account out of principle, so I've never tried to customise a MySpace page, but I did know that it's not the most intuitive of processes. That night provided all the confirmation I needed that this is indeed the case.

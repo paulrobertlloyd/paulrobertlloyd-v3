@@ -3,7 +3,7 @@ layout: post
 title: Observations From Across the Pond
 date: '2006-02-20 21:47:18 +0000'
 excerpt: A list of things I've noticed whilst living in the States.
-comments: closed
+remarks: closed
 post_id: 2006-02-20-from_across_the_pond
 ---
 I will no doubt update this list over the coming months, but here are some initial observations from my time spent in the states so far:

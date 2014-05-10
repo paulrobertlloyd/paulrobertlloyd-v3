@@ -3,7 +3,7 @@ layout: post
 title: Learning to Sketch
 date: '2010-05-31 14:01:17 +0100'
 excerpt: With Dave Gray speaking at this year's UX London, Andy asked if he would then visit Brighton and run a sketching workshop for everyone at Clearleft.
-comments: closed
+remarks: closed
 post_id: 2010-05-31-learning_to_sketch
 ---
 Quite often at Clearleft we like to do activities together as a company. In the past this has meant visiting museums in London, a night out at the Brighton Comedy Festival and of course our popular movie nights. Last week however it was time to do something a little more practical.

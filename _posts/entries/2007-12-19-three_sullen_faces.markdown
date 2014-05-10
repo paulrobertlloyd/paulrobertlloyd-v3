@@ -3,7 +3,7 @@ layout: post
 title: Three Sullen Faces
 date: '2007-12-19 17:35:41 +0000'
 excerpt: Having spent the best part of two years abroad, I'm finding it easier to guess where people come from by their appearance alone.
-comments: closed
+remarks: closed
 post_id: 2007-12-19-three_sullen_faces
 ---
 Having spent the best part of two years abroad, I'm finding it easier to guess where people come from by their appearance alone.

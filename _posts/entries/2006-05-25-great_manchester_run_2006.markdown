@@ -3,7 +3,7 @@ layout: post
 title: Great Manchester Run 2006
 date: '2006-05-25 21:38:31 +0100'
 excerpt: Last weekend I completed the 4th Great Manchester Run.
-comments: closed
+remarks: closed
 post_id: 2006-05-25-great_manchester_run_2006
 ---
 Last weekend I completed the 4th Great Manchester Run. Unlike last year, I didn't manage to run the full distance. Running is very much a battle of wits, and having stopped midway for a quick toilet break, having made that stop once made it easier to convince myself that I could stop again during the later stages of the race.

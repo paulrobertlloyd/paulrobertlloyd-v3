@@ -3,7 +3,7 @@ layout: post
 title: Yanked!
 date: '2006-05-09 00:21:03 +0100'
 excerpt: Thanking the team at Ning who made my three month stay in Palo Alto perhaps the most exciting and enjoyable period of my life to date.
-comments: closed
+remarks: closed
 post_id: 2006-05-09-yanked
 ---
 Before I get too accustomed to life back in damp, dull and dreary England, I wanted to publicly thank the whole team at Ning who made my three month stay in Palo Alto perhaps the most exciting and enjoyable period of my (sheltered) life to date.

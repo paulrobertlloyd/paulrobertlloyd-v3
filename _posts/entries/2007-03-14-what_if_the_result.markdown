@@ -3,7 +3,7 @@ layout: post
 title: What If... The Result
 date: '2007-03-14 23:50:42 +0000'
 excerpt: On Monday evening I took the plunge and made my debut speaking engagement at the 20×2 event at SXSW.
-comments: closed
+remarks: closed
 post_id: 2007-03-14-what_if_the_result
 ---
 On Monday evening I took the plunge and made my debut speaking engagement at the 20×2 event at SXSW. Luckily it all came together at the last minute (and I mean last minute) and wasn't too embarrassing.

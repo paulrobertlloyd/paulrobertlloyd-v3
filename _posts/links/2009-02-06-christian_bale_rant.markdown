@@ -2,7 +2,7 @@
 layout: post
 title: 'Christian Bale Rant: Batman Edition'
 date: '2009-02-06 17:34:26 +0000'
-comments: closed
+remarks: closed
 post_id: 2009-02-06-christian_bale_rant
 link: http://youtube.com/watch?v=Xaw1bx1GqWo
 embed: true

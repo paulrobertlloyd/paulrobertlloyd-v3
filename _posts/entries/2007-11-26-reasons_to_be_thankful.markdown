@@ -3,7 +3,7 @@ layout: post
 title: Reasons to Be Thankful
 date: '2007-11-26 00:41:33 +0000'
 excerpt: Americans seem to have a holiday for everything (recent weeks have seen Labor Day, Columbus Day, Veterans Day and Halloween), yet I must say I've always been a bit partial to the idea of a day of Thanksgiving.
-comments: closed
+remarks: closed
 post_id: 2007-11-26-reasons_to_be_thankful
 ---
 Americans seem to have a holiday for everything (recent weeks have seen Labor Day, Columbus Day, Veterans Day and Halloween), yet I must say I've always been a bit partial to the idea of a day of Thanksgiving. However I envisaged spending this years holiday updating my Facebook status announcing to anyone who cares how unthankful I was, as I sat alone in my apartment doing nothing particularly useful.

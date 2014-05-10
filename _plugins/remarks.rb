@@ -1,5 +1,5 @@
 #
-# Store and render comments as a static part of a Jekyll site
+# Store and render remarks as a static part of a Jekyll site
 #
 # See README.mdwn for detailed documentation on this plugin.
 # based on the work at
@@ -23,11 +23,11 @@
 
 class Jekyll::Post
   alias :to_liquid_without_comments :to_liquid
-  
+
   def to_liquid(attr = nil)
     data = to_liquid_without_comments(attr)
-    data['comments'] = StaticComments::find_for_post(self, data)
-    data['comment_count'] = data['comments'].length
+    data['remarks'] = StaticRemarks::find_for_post(self, data)
+    data['remark_count'] = data['remarks'].length
     data
   end
 end
@@ -36,20 +36,20 @@ end
 # Following code is a quick hack, consists of Matt Palmer's code and
 # some codes combined with Post/Site. this code should be refactored later
 # to make consistent with other latest Jekyll modules.
-# 
-# expected output for _comments directory is by the hack added
+#
+# expected output for _remarks directory is by the hack added
 # as https://github.com/shigeya/jekyll-import/tree/mt_comment_hack
 #
 # Note:
-# 1) post output has a unique post_id (copy of entry_id of mt_entry table)
-# 2) comment output has post_id, too
-# 3) Comments are sorted by comment_id, which is copy of comment_id of
-#    mt_comment table
-# 
+# 1) Post output has a unique post_id (copy of entry_id of mt_entry table)
+# 2) Remark output has post_id, too
+# 3) Remarks are sorted by remark_id, which is copy of remark_id of
+#    mt_remark table
+#
 
-module StaticComments
+module StaticRemarks
 
-  class StaticComment
+  class StaticRemark
     include Jekyll::Convertible
 
     # Attributes for Liquid templates
@@ -74,14 +74,14 @@ module StaticComments
       self.read_yaml(@base, name)
       @date = Time.parse(data["date"].to_s)
     end
-    
+
     # Get the full path to the directory containing the post files
     def containing_dir(source, dir)
-      return File.join(source, dir, '_comments')
+      return File.join(source, dir, "/_remarks")
     end
 
-    def comment_id
-      data["comment_id"]
+    def remark_id
+      data["remark_id"]
     end
 
     def author
@@ -95,26 +95,30 @@ module StaticComments
     def post_id
       data['post_id']
     end
+
+    def relative_path # make jekyll 2.0 happy
+      "_remarks"
+    end
   end
 
-  # Find all the comments for a post
+  # Find all the remarks for a post
   def self.find_for_post(post, data)
-    @comments ||= read_comments(post.site)
-    @comments[data['post_id']].sort {|a,b| a.comment_id <=> b.comment_id }
+    @remarks ||= read_remarks(post.site)
+    @remarks[data['post_id']].sort {|a,b| a.remark_id <=> b.remark_id }
   end
-  
-  # Read all the comments files in the site, and return them as a hash of
-  # arrays containing the comments, where the key to the array is the value
-  # of the 'post_id' field in the YAML data in the comments files.
-  def self.read_comments(site, dir = '')
-    comments = Hash.new() { |h, k| h[k] = Array.new }
-    
-    comment_files = site.get_entries(dir, "_comments")
-    comment_files.each do |f|
-      c = StaticComment.new(site, site.source, dir, f)
-      comments[c.post_id] << c
+
+  # Read all the remarks files in the site, and return them as a hash of
+  # arrays containing the remarks, where the key to the array is the value
+  # of the 'post_id' field in the YAML data in the remarks files.
+  def self.read_remarks(site, dir = '')
+    remarks = Hash.new() { |h, k| h[k] = Array.new }
+
+    remark_files = site.get_entries(dir, "_remarks")
+    remark_files.each do |f|
+      c = StaticRemark.new(site, site.source, dir, f)
+      remarks[c.post_id] << c
     end
-    comments
+    remarks
   end
 
 end

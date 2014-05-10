@@ -3,7 +3,7 @@ layout: post
 title: Mad Dogs and Englishmen
 date: '2006-06-06 04:40:26 +0100'
 excerpt: Over the last few weeks I have been going over in my mind the reasons why I should support the national team at this years World Cup.
-comments: closed
+remarks: closed
 post_id: 2006-06-06-mad_dogs_and_englishmen
 ---
 Over the last few weeks I have been going over in my mind the reasons why I should support the national team at this years World Cup.

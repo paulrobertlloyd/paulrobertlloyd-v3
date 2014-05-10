@@ -3,7 +3,7 @@ layout: post
 title: You Can't Always Get What You Want
 date: '2004-08-03 23:32:42 +0100'
 excerpt: Now I have a slightly greater income my mind is busy creating a shopping list.
-comments: closed
+remarks: closed
 post_id: 2004-08-03-you_cant_always_get_what_you_want
 ---
 Now I have a slightly greater income (yet still many outstanding debts) my mind is busy creating a shopping list.

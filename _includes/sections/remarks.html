@@ -1,0 +1,30 @@
+<section class="section section--remarks" id="remarks">
+    {% case page.remark_count %}
+    {% when 0 %}
+    {% when 1 %}
+    <h1 class="section__title">1 remark</h1>
+    {% else %}
+    <h1 class="section__title">{{ page.remark_count }} remarks</h1>
+    {% endcase %}
+    {% for remark in page.remarks reversed %}
+    {% assign hash = remark.email | to_gravatar | remove: 'http://www.gravatar.com/avatar/' %}
+    <article class="remark{% if hash == '15091a37bacfa4bdd011282627eaca2b' %} author{% endif %}" id="remark-{{ forloop.rindex }}">
+        <header class="remark__header">
+            <h1><a href="{{remark.url}}">
+                {% if remark.url and remark.url != '' %}
+                    {{ remark.author }}
+                {% else %}
+                    {{ remark.author }}
+                {% endif %}
+                <img src="{{ remark.email | to_gravatar }}?s=96" width="64" height="64" alt=""/>
+            </a></h1>
+        </header>
+        <div class="remark__main">
+            {{ remark.content | markdownify }}
+        </div>
+        <footer class="remark__footer">
+            <time class="remark__pubdate" datetime="{{ remark.date | date_to_xmlschema }}">{{ remark.date | date: "%e %B %Y" }}</time>
+        </footer>
+    </article>
+    {% endfor %}
+</section>

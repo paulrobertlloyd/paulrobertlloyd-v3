@@ -3,7 +3,7 @@ layout: post
 title: Garden State
 date: '2004-12-23 12:00:00 +0000'
 excerpt: Never before have I waited with as much anticipation as I have for this film.
-comments: closed
+remarks: closed
 post_id: 2004-12-23-garden_state
 ---
 ![Zach Braff in Garden State](/assets/images/2004/12/garden_state.jpg)

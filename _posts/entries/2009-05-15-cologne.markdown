@@ -3,7 +3,7 @@ layout: post
 title: Cologne
 date: '2009-05-15 23:23:18 +0100'
 excerpt: The first stop on my nine city tour of Europe, was Cologne in Northern Germany.
-comments: closed
+remarks: closed
 post_id: 2009-05-15-cologne
 ---
 ![Cologne](/assets/images/2009/05/cologne.jpg)

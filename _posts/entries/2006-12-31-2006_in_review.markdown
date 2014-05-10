@@ -3,7 +3,7 @@ layout: post
 title: 2006 in Review
 date: '2006-12-31 15:47:44 +0000'
 excerpt: Unsurprisingly, I feel compelled to write a review of this last year which I think I can say with some confidence has been very different from previous years.
-comments: closed
+remarks: closed
 post_id: 2006-12-31-2006_in_review
 ---
 Unsurprisingly, I feel compelled to write a review of this last year which I think I can say with some confidence has been very different from previous years. Having said that it seems like I've spent the last five or so months looking back. Some recent posts on this blog are ample proof of the sort of reflective mood I've been in lately.

@@ -3,7 +3,7 @@ layout: post
 title: Running Kind
 date: '2006-09-21 13:49:17 +0100'
 excerpt: I won't be participating in this years Great North Run. However two friends of mine will be.
-comments: closed
+remarks: closed
 post_id: 2006-09-21-running_kind
 ---
 I won't be participating in this years Great North Run. However two friends of mine will be running for worthy charities in the coming weeks, so I would just like to add a few words of support, and even help them gain extra sponsorship in the process.

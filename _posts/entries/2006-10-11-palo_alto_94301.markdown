@@ -3,7 +3,7 @@ layout: post
 title: Palo Alto 94301
 date: '2006-10-11 05:25:37 +0100'
 excerpt: A quick blog entry to thank everybody for their good wishes over the last week, and to say that I'm enjoying being back in California.
-comments: closed
+remarks: closed
 post_id: 2006-10-11-palo_alto_94301
 ---
 Here I am, one week into the second part of this years Californian adventure, so just a quick blog entry to thank everybody for their good wishes over the last week, and to say that I'm enjoying being back.

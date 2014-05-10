@@ -3,7 +3,7 @@ layout: post
 title: Define Distinctive
 date: '2007-10-20 23:36:29 +0100'
 excerpt: The small Cumbrian town of Whitehaven will be the first place in the UK to have it's analogue television signal switched off, with a full gamut of digital television channels replacing the current five.
-comments: closed
+remarks: closed
 post_id: 2007-10-20-define_distinctive
 ---
 In just four weeks time, the small Cumbrian town of Whitehaven will be the first place in the UK to have its analogue television signal switched off, with the full gamut of digital television channels replacing the current five. Great news you would think, but I have to hand it to one woman reported as saying:

@@ -3,7 +3,7 @@ layout: post
 title: Local Hero
 date: '2006-05-15 01:48:39 +0100'
 excerpt: I just read about a fantastic new sculpture that has appeared in the town where I went to school.
-comments: closed
+remarks: closed
 post_id: 2006-05-15-local_hero
 ---
 I just read about a fantastic new sculpture that has appeared in the town where I went to school. According to the [local council's website][1]:
