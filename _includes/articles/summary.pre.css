@@ -1,0 +1,29 @@
+/*  =========================================================================
+    Summary
+    ========================================================================= */
+.summary {
+    
+}
+
+.summary__title {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.summary__pubdate {
+    color: var(--c_neutral-3);
+    font-size: 0.875em; /* 14px */
+    line-height: 1.4286; /* 20px */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.4286em; /* 6px */
+    display: block;
+}
+
+.summary__main {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--f_serif);
+    font-size: 1em;
+    line-height: 1.25;
+}

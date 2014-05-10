@@ -1,3 +1,40 @@
 .nav--pagination {
-    
+
 }
+
+.nav--pagination .nav__item {
+    position: fixed;
+    top: 50%;
+    bottom: 50;
+    }
+    .nav--pagination .nav__item:hover {
+        transition: all 0.2s;
+    }
+
+.nav--pagination .nav__item__label {
+    display: none;
+    line-height: 2em;
+    }
+    .nav--pagination .nav__item:hover .nav__item__label {
+        display: inline-block;
+    }
+
+.nav--pagination .nav__item--prev {
+    float: left;
+    left: 0;
+    }
+    .nav--pagination .nav__item--prev:before {
+        font-size: 2em;
+        content: "\2190"; /* Left pointing manicule */
+        speak: none;
+    }
+
+.nav--pagination .nav__item--next {
+    float: right;
+    right: 0;
+    }
+    .nav--pagination .nav__item--next:after {
+        font-size: 2em;
+        content: "\2192"; /* Right pointing manicule */
+        speak: none;
+    }

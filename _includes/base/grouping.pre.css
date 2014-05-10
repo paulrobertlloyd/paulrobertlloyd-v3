@@ -5,7 +5,7 @@
 p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
     orphans: 3;
     widows: 3;
-    margin: 0.75em 0; /* 12px 0 */
+    margin: 0 0 0.75em 0; /* 0 0 12px 0 */
 }
 
 pre {
@@ -39,14 +39,12 @@ blockquote {
 ol {
     list-style-position: inside;
     list-style-type: decimal;
-    margin: 1rem 0; /* 16px 0 */
     padding: 0;
 }
 
 ul {
     list-style-position: inside;
     list-style-type: square;
-    margin: 1rem 0; /* 16px 0 */
     padding: 0;
 }
 @media screen and (min-width: 50em) {
@@ -80,7 +78,7 @@ dd > * {
 }
 
 figure {
-    margin: 1.5em 0; /* 24px 0 */
+    margin: 0 0 1.5em 0; /* 0 0 24px 0 */
 }
 figure img {
     max-width: 100%;

@@ -9,14 +9,8 @@ body {
     font-size: 1em; /* 16px */
     line-height: 1; /* 16px */
     background-color: var(--c_neutral-8);
-    margin: 1em;
-    max-width: 45em;
-}
-@media screen and (min-width: 50em) {
-    body {
-        margin: 1em auto;
-        width: 80%;
-    }
+    margin: 0;
+    position: relative;
 }
 
 h1 {
@@ -25,16 +19,16 @@ h1 {
     line-height: 1; /* 40px */
     letter-spacing: -0.0625rem;
     text-rendering: optimizeLegibility;
-    margin: 1.5em 0 0.5em; /* 24px 0 8px */
+    margin: 1.5em 0 0.3em; /* 24px 0 8px */
 }
 
 h2 {
     font-weight: 600;
     font-size: 1.5em; /* 24px */
     line-height: 1.1667; /* 28px */
-    letter-spacing: 0.05rem; /* 1px */
+    letter-spacing: -0.05rem; /* 1px */
     text-rendering: optimizeLegibility;
-    margin: 1.7778em 0 0; /* 32px 0 0 */
+    margin: 1.7778em 0 0.5em; /* 32px 0 12px */
 }
 
 h3 {
@@ -42,7 +36,7 @@ h3 {
     font-size: 1.25em; /* 20px */
     line-height: 1.2; /* 24px */
     text-rendering: optimizeLegibility;
-    margin: 2em 0 0; /* 32px 0 0 */
+    margin: 2em 0 0.6em; /* 32px 0 12px */
 }
 
 h4 {
@@ -50,7 +44,7 @@ h4 {
     font-size: 1em; /* 16px */
     line-height: 1.25; /* 20px */
     text-rendering: optimizeLegibility;
-    margin: 2rem 0 0.5em; /* 32px 0 8px */
+    margin: 2rem 0 0.75em; /* 32px 0 12px */
     opacity: 0.9;
 }
 
@@ -58,7 +52,7 @@ h5 {
     font-size: 1rem; /* 16px */
     line-height: 1; /* 16px */
     text-rendering: optimizeLegibility;
-    margin: 1.5rem 0 0.5em; /* 24px 0 8px */
+    margin: 1.5rem 0 0.75em; /* 24px 0 8px */
 }
 
 h6 {
@@ -87,4 +81,8 @@ hr::after {
     h1, h2, h3, h4 {
         page-break-after: avoid;
     }
+}
+
+nav h1 {
+    display: none;
 }

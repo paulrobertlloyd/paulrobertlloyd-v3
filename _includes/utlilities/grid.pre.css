@@ -1,0 +1,20 @@
+/*  =========================================================================
+    Grids
+    ========================================================================= */
+.grid {
+    overflow: hidden;
+    margin: 0 -1.5em;
+}
+
+.grid__item {
+    display: block;
+    float: left;
+    padding: 0 1.5em;
+    width: 100%;
+}
+
+@media screen and (min-width: 50em) {
+    .section--related .grid__item {
+        width: 33%;
+    }
+}
