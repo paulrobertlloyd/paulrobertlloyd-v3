@@ -9,12 +9,12 @@ body {
     font-size: 1em; /* 16px */
     line-height: 1; /* 16px */
     background-color: var(--c_neutral-8);
-    margin: 0 1em;
+    margin: 1em;
     max-width: 45em;
 }
 @media screen and (min-width: 50em) {
     body {
-        margin: 0 auto;
+        margin: 1em auto;
         width: 80%;
     }
 }

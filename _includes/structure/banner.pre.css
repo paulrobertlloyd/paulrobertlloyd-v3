@@ -1,0 +1,15 @@
+.banner {
+    
+}
+
+.banner__title {
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.banner__menu {
+    display: none;
+}
