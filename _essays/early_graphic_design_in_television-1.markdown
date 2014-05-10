@@ -1,5 +1,5 @@
 ---
-layout: document-essay
+layout: document
 title: Early Graphic Design in Television
 date: '1999-03-01 12:00:00 +0000'
 chapters: true

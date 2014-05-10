@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: DACS
 date: '2012-08-01 12:00:00 +0100'
 excerpt: In the UK, many artists don't understand their legal rights regarding copyright, and as a result, often fail to receive the royalties they deserve. DACS is a non-profit organisation that aims to change this through education, legal services and lobbying government to ensure artists' never become sidelined.

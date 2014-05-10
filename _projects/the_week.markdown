@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: The Week
 date: '2011-11-18 12:00:00 +0000'
 excerpt: The Week magazine condenses the news into lively and informative editorial, giving you complete understanding and insight into the week's most vital stories.

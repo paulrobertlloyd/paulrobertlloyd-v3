@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: Universal Networks
 date: '2010-05-03 12:00:00 +0100'
 excerpt: Design for a family of five sites representing NBCUniversal's international channel portfolio.

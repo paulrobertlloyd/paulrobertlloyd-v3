@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: Matter
 date: '2012-11-14 12:00:00 +0000'
 excerpt: A beautiful reading experience for this independent publisher of unmissable journalism about science and technology.

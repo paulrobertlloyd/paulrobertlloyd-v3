@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: Mozilla Add-ons
 date: '2009-05-29 12:00:00 +0100'
 excerpt: A catalogue of more than 6,000 add-ons that allow users to customise Firefox to suit their different interests and browsing needs.

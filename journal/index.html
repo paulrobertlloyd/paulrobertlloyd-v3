@@ -1,0 +1,19 @@
+---
+layout: base
+---
+<section class="index">
+    <h1 class="index__title">Journal</h1>
+
+    {% for summary in paginator.posts %}
+    {% include articles/summary.html %}
+    {% endfor %}
+
+    <nav class="nav nav--pagination">
+    {% if paginator.previous_page %}
+        <a class="nav__item nav__item--next" rel="next" href="{{ paginator.previous_page_path }}"><span class="nav__item__label">Newer</span></a>
+    {% endif %}
+    {% if paginator.next_page %}
+        <a class="nav__item nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}"><span class="nav__item__label">Older</span></a>
+    {% endif %}
+    </nav>
+</section>

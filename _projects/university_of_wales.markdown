@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: University of Wales
 date: '2009-10-29 12:00:00 +0000'
 excerpt: A confederal university responsible for accrediting degrees for institutions in Wales as well as for courses provided overseas.

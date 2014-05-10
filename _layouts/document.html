@@ -26,3 +26,7 @@ layout: base
         {{ content | indent: 16 }}
     </div>
 </article>
+
+{% if page.chapters == true %}
+{% include sections/chapters.html %}
+{% endif %}

@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: nGenera Corporation
 date: '2008-04-25 12:00:00 +0100'
 excerpt: An integrated platform of on demand technology, expert advisory and innovative business research that helps corporations and governments to transform themselves into Next-Generation Enterprises.

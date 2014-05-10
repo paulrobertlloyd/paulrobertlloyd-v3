@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: Ning
 date: '2007-03-21 12:00:00 +0000'
 excerpt: An online platform that allows people to create, customise and share their own social networks.

@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: UNICEF UK
 date: '2013-07-01 12:00:00 +0100'
 excerpt: UNICEF UK is a charitable organisation that raises money in aid of children and children's rights.

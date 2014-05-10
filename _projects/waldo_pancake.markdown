@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: Waldo Pancake
 date: '2011-02-09 11:54:47 +0000'
 excerpt: A designer, illustrator and copywriter whose work you can find on the side of juice bottles, sweet packets and in Puccino's coffee shops.

@@ -1,5 +1,5 @@
 ---
-layout: document-project
+layout: document
 title: BookFHR
 date: '2009-11-24 12:00:00 +0000'
 excerpt: Discounts on airport hotels, parking and lounges and other travel services in the UK.
