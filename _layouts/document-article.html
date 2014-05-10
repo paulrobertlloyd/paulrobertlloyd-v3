@@ -2,4 +2,5 @@
 layout: document
 ---
 {{ content }}
-{% if page.link %}<p>Read this article on <a href="{{ page.link }}">{{ page.publication }}</a></p>{% endif %}
+
+{% if page.chapters == true %}{% include sections/chapters.html %}{% endif %}
