@@ -1,8 +1,0 @@
----
-layout: post
-title: The Force
-date: '2011-02-02 16:02:00 +0000'
-link: http://youtube.com/watch?v=R55e-uHQna0
-embed: true
----
-Volkswagen again giving in a lesson in how advertising is really done.

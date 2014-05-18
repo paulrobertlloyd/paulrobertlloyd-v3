@@ -1,7 +1,7 @@
 ---
-layout: document
+layout: project
 title: The Week
-date: '2011-11-18 12:00:00 +0000'
+date: '2011-11-18'
 excerpt: The Week magazine condenses the news into lively and informative editorial, giving you complete understanding and insight into the week's most vital stories.
 ---
 {% figure The Week iPad Edition %}

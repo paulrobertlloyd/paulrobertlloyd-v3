@@ -1,0 +1,32 @@
+:root {
+    /* Colours */
+    --c_accent: #3D8;
+
+    --c_neutral-1: #222;
+    --c_neutral-2: #444;
+    --c_neutral-3: #666;
+    --c_neutral-4: #888;
+    --c_neutral-5: #aaa;
+    --c_neutral-6: #ccc;
+    --c_neutral-7: #eee;
+    --c_neutral-8: #fff;
+
+    --c_link: #25d;
+    --c_link-hover: #52d;
+    --c_link-active: #d25;
+
+    /* Fonts */
+    --f_serif: "Heuristica", serif;
+    --f_sans-serif: "Source Sans Pro", sans-serif;
+    --f_monospace: "Source Code Pro", monospace;
+
+    /* Breakpoints */
+    --bp_a: 512; /* 32em */
+    --bp_b: 768; /* 48em */
+    --bp_c: 1024; /* 64em */
+
+    /* Values */
+    --v_padding-a: 8%;
+    --v_padding-b: 12%;
+    --v_padding-c: 16%;
+}

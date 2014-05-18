@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="link container">
+    <header class="link__header">
+        <h1 class="link__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+    </header>
+
+    <div class="link__main prose">
+        {% if page.embed %}{% oembed {{ page.link }} %}{% endif %}
+
+        {{ content }}
+
+        <p><a href="{{ page.link }}">Visit this link</a></p>
+    </div>
+
+    <footer class="link__footer">
+        <time class="link__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+    </footer>
+</article>
+
+{% include navigation/nav--pagination.html %}
+{% include sections/discussion.html %}

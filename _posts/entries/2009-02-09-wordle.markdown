@@ -1,0 +1,11 @@
+---
+layout: entry
+title: Wordle
+date: '2009-02-09 10:04:40 +0000'
+excerpt: A word cloud generated from content that has appeared on my site over the last few months.
+---
+![Wordle](/assets/images/2009/02/wordle.jpg)
+
+This is a word cloud generated from content that has appeared on my site over the last few months. You can create your own word clouds at [wordle.net][1]
+
+[1]: http://wordle.net

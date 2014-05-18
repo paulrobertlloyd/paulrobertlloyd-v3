@@ -2,42 +2,31 @@
     Prose
     ========================================================================= */
 .prose {
+    font-family: var(--f_serif);
     line-height: 1.75; /* 28px */
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 48em) {
     .prose {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-size: 1.25em; /* 20px */
-        line-height: 1.6; /* 32px */
+        line-height: 1.4; /* 28px */
     }
-    .prose figcaption {
+    .prose figcaption,
+    .prose caption,
+    .prose .footnotes {
+        font-family: var(--f_sans-serif);
         font-size: 1rem; /* 16px */
         line-height: 1.25; /* 20px */
     }
-}
-
-.prose p,
-.prose li,
-.prose dd {
-    font-family: var(--f_serif);
 }
 
 .prose strong {
     font-family: var(--f_sans-serif);
 }
 
-.prose a {
-    text-shadow: 2px 0 0 var(--c_neutral-8), -2px 0 0 var(--c_neutral-8);
-    background-image: linear-gradient(to left, color(var(--c_link) lightness(75%)), color(var(--c_link) lightness(75%)));
-    background-position: 0 1.05em;
-    background-repeat: repeat-x;
-    background-size: 1px 1px;
-    }
-    .prose a:active,
-    .prose a:hover {
-        background-image: linear-gradient(to left, color(var(--c_link-hover) lightness(75%)), color(var(--c_link-hover) lightness(75%)));
-    }
-    .prose a:active {
-        background-image: linear-gradient(to left, color(var(--c_link-active) lightness(75%)), color(var(--c_link-active) lightness(75%)));
-    }
+.prose .caps {
+    font-size: 90%;
+    font-feature-settings: "c2sc" 1;
+    letter-spacing: 0.0625rem; /* 1px */
+}

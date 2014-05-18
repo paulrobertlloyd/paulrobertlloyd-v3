@@ -1,8 +1,8 @@
 /* ==========================================================================
    Structure > Banner
    ========================================================================== */
-.banner {
-    
+.banner.container {
+    padding-bottom: 4em;
 }
 
 .banner__title {
@@ -11,6 +11,9 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 0;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
 }
 
 .banner__menu {

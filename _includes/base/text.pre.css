@@ -25,9 +25,9 @@ dfn {
 abbr {
     font-feature-settings: "c2sc" 1;
 }
-abbr[title] {
+abbr[title]:hover {
 /*  Address styling not present in IE 8/9, Safari 5, and Chrome */
-    border-bottom: 1px dotted var(--c_neutral-6);
+    border-bottom: 1px dotted var(--c_neutral-5);
     cursor: help;
 }
 

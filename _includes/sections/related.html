@@ -1,10 +1,22 @@
 
-<section class="section section--related" id="related">
+<section class="section section--related container" id="related">
     <h1 class="section__title">Related Posts</h1>
     <ul class="list grid">
     {% for summary in site.related_posts limit:3 %}
         <li class="list__item grid__item">
-            {% include articles/summary.html %}
+            <article class="summary summary--{{ summary.layout }}">
+                <header class="summary__header">
+                    <h1 class="summary__title"><a href="{{ summary.url }}" rel="bookmark">{{ summary.title | ampersand | replace: "'","&#8217;" }}</a></h1>
+                </header>
+
+                <div class="summary__main">
+                    {{ summary.excerpt | markdownify }}
+                </div>
+
+                <footer class="summary__footer">
+                    <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
+                </footer>
+            </article>
         </li>
     {% endfor %}
     </ul>

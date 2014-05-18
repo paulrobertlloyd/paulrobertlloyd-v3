@@ -1,12 +1,20 @@
 ---
-layout: base
+layout: default
+title: Journal
 ---
 <section class="index">
-    <h1 class="index__title">Journal</h1>
+    <header class="index__header">
+        <h1 class="index__title">Journal</h1>
+        <p><a href="/journal/archive/">Journal Archive</a></p>
+    </header>
 
+    {% include forms/search.html %}
+
+    <div class="index__main">
     {% for summary in paginator.posts %}
-    {% include articles/summary.html %}
+        {% include articles/summary.html %}
     {% endfor %}
+    </div>
 
     <nav class="nav nav--pagination">
     {% if paginator.previous_page %}

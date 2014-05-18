@@ -1,7 +1,7 @@
 ---
-layout: document
+layout: project
 title: dConstruct 2010
-date: '2010-09-01 12:00:00 +0100'
+date: '2010-09-01'
 excerpt: A grassroots conference held annually in Brighton. Speakers at the 2010 edition were invited to explore the power of design thinking.
 ---
 {% figure %}

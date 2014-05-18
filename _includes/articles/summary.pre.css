@@ -1,13 +1,12 @@
 /*  =========================================================================
     Summary
     ========================================================================= */
-.summary {
-    
+.summary.container {
+    margin: 0 0 4em 0;
 }
 
 .summary__title {
-    font-size: 1.5em;
-    font-weight: 300;
+
 }
 
 .summary__pubdate {
@@ -25,5 +24,36 @@
     -moz-osx-font-smoothing: grayscale;
     font-family: var(--f_serif);
     font-size: 1em;
-    line-height: 1.25;
+    line-height: 1.5;
+}
+
+/* Entry summary */
+.summary--entry.container {
+    padding-top: 2em;
+    position: relative;
+}
+.summary--entry .summary__main {
+    font-family: var(--f_sans-serif);
+    font-size: 1.25em; /* 20px */
+    line-height: 1.4; /* 28px */
+}
+.summary--entry .summary__permalink {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+.summary--entry .summary__pubdate {
+    position: absolute;
+    top: 0.5em;
+}
+
+/* Link summary */
+.summary--link .summary__title {
+    font-family: var(--f_sans-serif);
+    font-weight: 300;
+    font-size: 1.5em;
+    margin: 0 0 0.6667em; /* 0 0 16px */
+}
+.summary--link .summary__permalink {
+    border: 0;
 }

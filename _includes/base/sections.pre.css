@@ -14,24 +14,27 @@ body {
 }
 
 h1 {
+    font-family: var(--f_serif);
     font-weight: 700;
-    font-size: 2.5rem; /* 40px */
-    line-height: 1; /* 40px */
-    letter-spacing: -0.0625rem;
+    font-size: 3rem; /* 48px */
+    line-height: 1; /* 48px */
+    letter-spacing: -0.0625rem; /* 1px */
     text-rendering: optimizeLegibility;
-    margin: 1.5em 0 0.3em; /* 24px 0 8px */
+    margin: 0 0 0.3333em; /* 0 0 16px */
 }
 
 h2 {
-    font-weight: 600;
+    font-family: var(--f_sans-serif);
+    font-weight: 500;
     font-size: 1.5em; /* 24px */
     line-height: 1.1667; /* 28px */
-    letter-spacing: -0.05rem; /* 1px */
+    letter-spacing: -0.0625rem; /* 1px */
     text-rendering: optimizeLegibility;
     margin: 1.7778em 0 0.5em; /* 32px 0 12px */
 }
 
 h3 {
+    font-family: var(--f_sans-serif);
     font-weight: 700;
     font-size: 1.25em; /* 20px */
     line-height: 1.2; /* 24px */

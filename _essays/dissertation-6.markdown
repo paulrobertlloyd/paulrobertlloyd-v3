@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01 12:00:05 +0100'
 chapters: true

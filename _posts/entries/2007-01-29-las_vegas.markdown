@@ -1,0 +1,25 @@
+---
+layout: entry
+title: A Weekend in Las Vegas
+date: '2007-01-29 22:24:43 +0000'
+excerpt: Having finally recovered from a cold that's knocked me out for the last two weeks, it dawned on me that only four weeks into 2007, I've already managed to cover a fair bit of ground.
+discussion: closed
+post_id: 2007-01-29-las_vegas
+---
+![Las Vegas Boulevard](/assets/images/2007/01/las_vegas.jpg)
+
+Having finally recovered from a cold that's knocked me out for the last two weeks, it dawned on me that only four weeks into 2007, I've already managed to cover a fair bit of ground.
+
+First there was [London][1], then Holland (be it a one night stop in a hotel, thanks to another self-inflicted flight related cock-up), and here in the US, [Napa Valley][2] (a popular wine region north of San Francisco), and [a weekend in Las Vegas][3]. Not bad going!
+
+Unfortunately, Vegas wasn't as much fun as it perhaps could of been, thanks to the aforementioned cold that was in full force during my time there -- but I'm pretty sure it's not my sort of place.
+
+Essentially a road of hotels, you stay in one hotel to go and visit other hotels. Yes, they each have a theme (and various other gimmicks), but having seen one, you've seen them all. It really felt like the worst of America all in one location. This was confirmed for me when inside the Luxor I found that you could enter a competition to win a bright yellow Hummer!
+
+The one reason I would return to Vegas however is for the shows, and on the Saturday night I went to see [Second City][5] -- a popular Chicago comedy improv troupe that play at the Flamingo -- and was a definite highlight of the weekend. <cite>[The Beatles LOVE][6]</cite>, a Cirque du Soleil performance is currently playing at the Mirage and definitely on my to-do list should I ever return.
+
+[1]: http://flickr.com/photos/paulrobertlloyd/sets/72157622618039377/
+[2]: http://flickr.com/photos/paulrobertlloyd/sets/72157622618265417/
+[3]: http://flickr.com/photos/paulrobertlloyd/sets/72157622618472843/
+[5]: http://www.secondcity.com/?id=theatres/lasvegas
+[6]: http://www.mirage.com/entertainment/entertainment_cirque_du_soleil.aspx

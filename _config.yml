@@ -2,10 +2,6 @@
 title: Paul Robert Lloyd
 url: http://paulrobertlloyd.dev
 
-# Gems
-gems:
-  - jekyll-sitemap
-
 # Meta
 author:
   name: Paul Robert Lloyd
@@ -40,3 +36,7 @@ highlighter: pygments
 # Publishing
 include: [_pages, .htaccess]
 exclude: [Gemfile, Gemfile.lock, node_modules, package.json, Plumbing.js, README.md]
+
+# Gems
+gems:
+  - jekyll-sitemap

@@ -1,7 +1,7 @@
 ---
-layout: document
+layout: project
 title: Groopix
-date: '2008-08-22 12:00:00 +0100'
+date: '2008-08-22'
 excerpt: An online tool that allows users to easily curate and print group based photo albums.
 ---
 {% figure Logo %}

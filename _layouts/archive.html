@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 ---
 {% assign previous_index = paginator.previous_page | minus: 1 %}
 {% assign next_index = paginator.next_page | minus: 1 %}
@@ -15,9 +15,10 @@ layout: base
     {% assign archivename_previous = paginator.posts[previous_index].date | date: "%B %Y" %}
     {% assign archivename_next = paginator.posts[next_index].date | date: "%B %Y" %}
 {% endcase %}
-<section>
+<section class="index container">
     <header class="index__header">
         <h1 class="index__title">{{ archivename }}</h1>
+        <p><a href="/journal/archive/">Journal Archive</a></p>
 
         <nav class="nav nav--pagination">
         {% if paginator.previous_page %}
@@ -40,10 +41,10 @@ layout: base
             {% endif %}
 
         <h2><a href="{{ post.date | date: "/%Y/%m/" }}">{{ post.date | date: "%B" }}</a></h2>
-        <ol class="list" reversed>
+        <ol class="entry-list" reversed>
         {% endif %}
 
-        {% if post.chapter-title == null %}<li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | ampersand | replace: "'","&#8217;" }}</a></li>{% endif %}
+        {% if post.chapter-title == null %}<li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | ampersand | replace: "'","&#8217;" }}</a></li>{% endif %}
 
     {% endfor %}
         </ol>

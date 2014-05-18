@@ -1,0 +1,17 @@
+/*  =========================================================================
+    Main
+    ========================================================================= */
+.main p a {
+    text-shadow: 2px 0 0 var(--c_neutral-8), -2px 0 0 var(--c_neutral-8);
+    background-image: linear-gradient(to left, color(var(--c_link) lightness(75%)), color(var(--c_link) lightness(75%)));
+    background-position: 0 1.075em;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    }
+    .main p a:active,
+    .main p a:hover {
+        background-image: linear-gradient(to left, color(var(--c_link-hover) lightness(75%)), color(var(--c_link-hover) lightness(75%)));
+    }
+    .main p a:active {
+        background-image: linear-gradient(to left, color(var(--c_link-active) lightness(75%)), color(var(--c_link-active) lightness(75%)));
+    }

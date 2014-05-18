@@ -1,7 +1,7 @@
 ---
-layout: document
+layout: project
 title: Nuts.com
-date: '2011-05-27 12:00:00 +0100'
+date: '2011-05-27'
 excerpt: Online reseller Nuts.com are 'more than just nuts'; they also sell dried fruit, chocolates, sweets, seeds, spices, coffees, teas and much more. A family business founded over 80 years ago in Cranford, New Jersey, they have built a reputation for exceptional customer service.
 ---
 {% figure Home page %}

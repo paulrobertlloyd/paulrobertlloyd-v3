@@ -1,7 +1,7 @@
 ---
-layout: document
+layout: project
 title: Universal Networks
-date: '2010-05-03 12:00:00 +0100'
+date: '2010-05-03'
 excerpt: Design for a family of five sites representing NBCUniversal's international channel portfolio.
 ---
 {% figure Syfy Universal home page %}

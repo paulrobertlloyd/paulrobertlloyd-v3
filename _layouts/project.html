@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="project container">
+    <header class="project__header">
+        <h1 class="project__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+        <nav class="nav nav--traverse">
+        {% assign previous = page.previous %}
+            {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title | replace: "'","&#8217;" }}">Previous entry</a>{% endif %}
+        {% assign next = page.next %}
+            {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title | replace: "'","&#8217;" }}">Next entry</a>{% endif %}
+        </nav>
+    </header>
+
+    <div class="project__main prose">
+        {{ content }}
+    </div>
+
+    <footer class="project__footer">
+        <time class="project__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+    </footer>
+</article>

@@ -2,8 +2,18 @@
    Structure > Navigation
    ========================================================================== */
 .navigation {
+    text-align: right;
+    padding: 2em 0;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 0;
+}
+
+.navigation .nav__item {
+    background: none;
+    margin-left: 1em;
+    padding: 0;
+    display: inline-block;
 }

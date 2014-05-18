@@ -1,0 +1,20 @@
+{% if page.discussion %}
+    <section class="section section--remarks container" id="remarks">
+    {% if page.discussion == "open" %}
+        <a href="mailto:comment+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title | smart }}">Comment on this article</a>
+    {% endif %}
+
+    {% if page.remark_count >= 1 %}
+        {% case page.remark_count %}
+        {% when 0 %}
+        {% when 1 %}
+        <h1 class="section__title">1 remark</h1>
+        {% else %}
+        <h1 class="section__title">{{ page.remark_count }} remarks</h1>
+        {% endcase %}
+        {% for remark in page.remarks reversed %}
+            {% include articles/remark.html %}
+        {% endfor %}
+    {% endif %}
+    </section>
+{% endif %}

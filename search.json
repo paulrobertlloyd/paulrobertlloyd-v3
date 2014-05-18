@@ -5,7 +5,7 @@
     {
       "title": "{{ post.title | escape }}",
       "category": "{{ post.category }}",
-      "type": "{{ post.layout | remove: "post-" | capitalize }}",
+      "type": "{{ post.layout | capitalize }}",
       "url": "{{ post.url }}",
       "date": "{{ post.date }}"
     }{% if forloop.last %}{% else %},{% endif %}

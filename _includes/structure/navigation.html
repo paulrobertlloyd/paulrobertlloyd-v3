@@ -1,13 +1,10 @@
-
-    {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-    <nav class="navigation" role="navigation" id="menu">
-        <div class="container">
-            <ul class="nav nav--primary">
-                <li class="nav__item{% if location == 'journal' %} is-active{% endif %}"><a href="/journal/">Journal</a></li>
-                <li class="nav__item{% if location == 'work' %} is-active{% endif %}"><a href="/work/">Work</a></li>
-                <li class="nav__item{% if location == 'photos' %} is-active{% endif %}"><a href="/photos/">Photos</a></li>
-                <li class="nav__item{% if location == 'about' %} is-active{% endif %}"><a href="/about/">About</a></li>
-                <li class="nav__item{% if location == 'contact' %} is-active{% endif %}"><a href="/contact/">Contact</a></li>
-            </ul>
-        </div>
-    </nav><!--/@navigation-->
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+<nav class="navigation container" role="navigation" id="menu">
+    <ul class="nav nav--primary">
+        <li class="nav__item{% if location == 'journal' %} is-active{% endif %}"><a href="/journal/">Journal</a></li>
+        <li class="nav__item{% if location == 'work' %} is-active{% endif %}"><a href="/work/">Work</a></li>
+        <li class="nav__item{% if location == 'photos' %} is-active{% endif %}"><a href="/photos/">Photos</a></li>
+        <li class="nav__item{% if location == 'about' %} is-active{% endif %}"><a href="/about/">About</a></li>
+        <li class="nav__item{% if location == 'contact' %} is-active{% endif %}"><a href="/contact/">Contact</a></li>
+    </ul>
+</nav><!--/@navigation-->

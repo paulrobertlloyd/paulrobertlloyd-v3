@@ -50,7 +50,7 @@ module Jekyll
       # Odd: slideshare uses provider-name instead of provider_name
       provider = result.fields['provider_name'] || result.fields['provider-name'] || 'unknown'
 
-      "<div class=\"embed #{result.type} #{provider.downcase}\">#{result.html}</div>"
+      "<div class=\"embed embed--#{result.type} #{provider.downcase}\">#{result.html}</div>"
     end
   end
 end
