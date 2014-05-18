@@ -1,0 +1,36 @@
+
+<article class="summary summary--{{ summary.layout }} container">
+    {% if summary.layout != "photo" %}
+    <header class="summary__header">
+        {% if summary.layout == "link" %}
+        <h1 class="summary__title"><a href="{{ summary.link }}">{{ summary.title | ampersand | replace: "'","&#8217;" }}&nbsp;&#8594;</a></h1>
+        {% else %}
+        <h1 class="summary__title"><a href="{{ summary.url }}" rel="bookmark">{{ summary.title | ampersand | replace: "'","&#8217;" }}</a></h1>
+        {% endif %}
+    </header>
+    {% endif %}
+
+    <div class="summary__main">
+    {% if summary.layout == "photo" %}
+        {% oembed {{ summary.link }} %}
+    {% endif %}
+
+    {% if summary.layout == "link" %}
+        {{ summary.content }}
+    {% else %}
+        {% if summary.excerpt != null %}{{ summary.excerpt | markdownify }}{% endif %}
+    {% endif %}
+
+    {% if summary.layout == "entry" %}
+        <a class="summary__permalink" href="{{ summary.url }}" rel="bookmark">Continue reading&nbsp;&#8594;</a>
+    {% endif %}
+    </div>
+
+    <footer class="summary__footer">
+    {% if summary.layout == "link" or summary.layout == "photo" %}
+        <abbr class="summary__permalink" title="Permalink"><a href="{{ summary.url }}" rel="bookmark">#</a></abbr>
+    {% else %}
+        <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
+    {% endif %}
+    </footer>
+</article>
