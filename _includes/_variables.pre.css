@@ -22,11 +22,11 @@
 
     /* Breakpoints */
     --bp_a: 512; /* 32em */
-    --bp_b: 768; /* 48em */
+    --bp_b: 720; /* 45em */
     --bp_c: 1024; /* 64em */
 
     /* Values */
-    --v_padding-a: 8%;
-    --v_padding-b: 12%;
-    --v_padding-c: 16%;
+    --v_padding-a: 8;
+    --v_padding-b: 12;
+    --v_padding-c: 16;
 }

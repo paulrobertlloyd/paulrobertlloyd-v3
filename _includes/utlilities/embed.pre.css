@@ -22,22 +22,22 @@ figure > p,
 @media screen and (min-width: 32em) {
     figure > p,
     .embed--photo {
-        margin-right: -calc(var(--v_padding-a) * (var(--bp_a) / (var(--bp_a) * 84%)));
-        margin-left: -calc(var(--v_padding-a) * (var(--bp_a) / (var(--bp_a) * 84%)));
+        margin-right: -calc(var(--v_padding-a)% * (var(--bp_a) / (var(--bp_a) * 84%)));
+        margin-left: -calc(var(--v_padding-a)% * (var(--bp_a) / (var(--bp_a) * 84%)));
     }
 }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 45em) {
     figure > p,
     .embed--photo {
-        margin-right: -calc(var(--v_padding-b) * (var(--bp_b) / (var(--bp_b) * 76%)));
-        margin-left: -calc(var(--v_padding-b) * (var(--bp_b) / (var(--bp_b) * 76%)));
+        margin-right: -calc(var(--v_padding-b)% * (var(--bp_b) / (var(--bp_b) * 76%)));
+        margin-left: -calc(var(--v_padding-b)% * (var(--bp_b) / (var(--bp_b) * 76%)));
     }
 }
 @media screen and (min-width: 64em) {
     figure > p,
     .embed--photo {
-        margin-right: -calc(var(--v_padding-c) * (var(--bp_c) / (var(--bp_c) * 68%)));
-        margin-left: -calc(var(--v_padding-c) * (var(--bp_c) / (var(--bp_c) * 68%)));
+        margin-right: -calc(var(--v_padding-c)% * (var(--bp_c) / (var(--bp_c) * 68%)));
+        margin-left: -calc(var(--v_padding-c)% * (var(--bp_c) / (var(--bp_c) * 68%)));
     }
 }
 

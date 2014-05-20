@@ -1,10 +1,11 @@
 /*  =========================================================================
     Summary
     ========================================================================= */
-.summary.container {
+.summary {
     margin: 0 0 4em 0;
 }
 
+.article__pubdate,
 .summary__pubdate {
     color: var(--c_neutral-3);
     font-size: 0.875em; /* 14px */
@@ -24,21 +25,31 @@
 }
 
 /* Entry summary */
-.summary--entry.container {
+.article,
+.summary--entry,
+.summary--essay,
+.summary--project {
     padding-top: 2em;
     position: relative;
 }
-.summary--entry .summary__main {
+.summary--entry .summary__main,
+.summary--essay .summary__main,
+.summary--project .summary__main {
     font-family: var(--f_sans-serif);
     font-size: 1.25em; /* 20px */
     line-height: 1.4; /* 28px */
 }
-.summary--entry .summary__permalink {
+.summary--entry .summary__permalink,
+.summary--essay .summary__permalink,
+.summary--project .summary__permalink {
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
 }
-.summary--entry .summary__pubdate {
+.article__pubdate,
+.summary--entry .summary__pubdate,
+.summary--essay .summary__pubdate,
+.summary--project .summary__pubdate {
     position: absolute;
     top: 0.5em;
 }

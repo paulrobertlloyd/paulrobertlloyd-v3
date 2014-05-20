@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-<header class="index__header">
-    <h1 class="index__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
-</header>
+<section class="index index--collection">
+    <header class="index__header">
+        <h1 class="index__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
+    </header>
 
-<div class="index__main">
-{% capture location %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
-{% if location == "essays" %}
-    {% assign essays = site.essays | sort: 'date' %}
-    {% for summary in essays %}
-        {% if summary.chapter-title == null %}
+    {% capture location %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
+    {% if location == "essays" %}
+        {% assign essays = site.essays | sort: 'date' %}
+        {% for summary in essays %}
+            {% if summary.chapter-title == null %}
+                {% include articles/summary.html %}
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        {% assign essays = site.projects | sort: 'date' %}
+        {% for summary in site.projects %}
             {% include articles/summary.html %}
-        {% endif %}
-    {% endfor %}
-{% else %}
-    {% assign essays = site.projects | sort: 'date' %}
-    {% for summary in site.projects %}
-        {% include articles/summary.html %}
-    {% endfor %}
-{% endif %}
-</div>
+        {% endfor %}
+    {% endif %}
+</section>

@@ -46,7 +46,7 @@ ul {
     list-style-type: square;
     padding: 0;
 }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 45em) {
     ol,
     ul {
         list-style-position: outside;
@@ -78,11 +78,6 @@ dd > * {
 
 figure {
     margin: 1.5em 0; /* 24px 0 */
-}
-figure > p,
-figure > blockquote,
-figure > .embed {
-    margin: 0; /* This shouldn't be needed! */
 }
 figure img {
     max-width: 100%;

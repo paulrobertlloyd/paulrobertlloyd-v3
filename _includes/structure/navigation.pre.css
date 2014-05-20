@@ -3,7 +3,6 @@
    ========================================================================== */
 .navigation {
     text-align: right;
-    padding: 2em 0;
     position: absolute;
     top: 0;
     right: 0;
@@ -11,9 +10,21 @@
     z-index: 0;
 }
 
-.navigation .nav__item {
-    background: none;
+.nav--primary > .nav__item {
     margin-left: 1em;
     padding: 0;
     display: inline-block;
+    position: relative;
+}
+
+.nav--primary .nav--secondary {
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+}
+
+.nav--secondary > .nav__item {
+    font-weight: normal;
+    text-align: left;
+    display: block;
 }

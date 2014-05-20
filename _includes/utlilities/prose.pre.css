@@ -4,8 +4,9 @@
 .prose {
     font-family: var(--f_serif);
     line-height: 1.75; /* 28px */
+    padding-bottom: 2em;
 }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 45em) {
     .prose {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -24,6 +25,27 @@
 .prose strong {
     font-family: var(--f_sans-serif);
 }
+
+.prose figure > p,
+.prose figure > blockquote,
+.prose figure > .embed {
+    margin-bottom: 0; /* This shouldn't be needed! */
+}
+
+.prose a {
+    text-shadow: 2px 0 0 var(--c_neutral-8), -2px 0 0 var(--c_neutral-8);
+    background-image: linear-gradient(to left, color(var(--c_link) lightness(75%)), color(var(--c_link) lightness(75%)));
+    background-position: 0 1.075em;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    }
+    .prose p a:active,
+    .prose p a:hover {
+        background-image: linear-gradient(to left, color(var(--c_link-hover) lightness(75%)), color(var(--c_link-hover) lightness(75%)));
+    }
+    .prose p a:active {
+        background-image: linear-gradient(to left, color(var(--c_link-active) lightness(75%)), color(var(--c_link-active) lightness(75%)));
+    }
 
 .prose .caps {
     font-size: 90%;

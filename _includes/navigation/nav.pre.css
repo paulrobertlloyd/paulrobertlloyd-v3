@@ -7,7 +7,7 @@
 }
 
 .nav__item {
-    
+    margin: 0;
     }
     .nav__item:hover {
         
@@ -17,12 +17,12 @@
     }
 
 .nav__item {
-    padding: 0.75em 0;
+    padding: 0.25em 0;
 }
 .nav__item a {
     display: block;
 }
 
 .nav__item.is-active {
-    background-color: var(--c_neutral-4);
+    font-weight: 700;
 }

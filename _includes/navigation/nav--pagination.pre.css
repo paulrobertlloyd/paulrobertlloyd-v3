@@ -1,5 +1,6 @@
 .nav--pagination {
     overflow: hidden;
+    padding-bottom: 2em;
 }
 
 .nav--pagination .nav__item {

@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<article class="essay container">
-    <header class="essay__header">
-        <h1 class="essay__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
+<article class="article article--essay">
+    <header class="article__header">
+        <h1 class="article__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
         {% if page.chapter-title %}
         <h2>{{ page.chapter-title }}</h2>
         {% endif %}
@@ -18,12 +18,12 @@ layout: default
         {% endif %}
     </header>
 
-    <div class="essay__main prose">
+    <div class="article__main prose">
         {{ content }}
     </div>
 
-    <footer class="essay__footer">
-        <time class="essay__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+    <footer class="article__footer">
+        <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
     </footer>
 </article>
 

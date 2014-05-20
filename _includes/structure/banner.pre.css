@@ -1,15 +1,16 @@
 /* ==========================================================================
    Structure > Banner
    ========================================================================== */
-.banner.container {
+.banner {
     padding-bottom: 4em;
 }
 
 .banner__title {
+    font-style: italic;
     font-size: 1em;
     font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: lowercase;
+    letter-spacing: 0;
     margin: 0;
     position: relative;
     z-index: 1;

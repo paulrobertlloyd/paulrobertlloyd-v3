@@ -3,7 +3,7 @@
     http://developers.whatwg.org/sections.html
     ========================================================================= */
 html {
-    height: 100%;
+    background-color: var(--c_neutral-7);
 }
 
 body {
@@ -13,8 +13,7 @@ body {
     font-size: 1em; /* 16px */
     line-height: 1; /* 16px */
     background-color: var(--c_neutral-8);
-    margin: 0;
-    height: 100%;
+    margin: 0 auto;
     position: relative;
 }
 

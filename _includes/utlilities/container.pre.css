@@ -1,25 +1,57 @@
 /*  =========================================================================
     Containers
     ========================================================================= */
-.container {
-    margin: 0 auto;
-    padding: 1em;
+body {
+    padding-right: 1em;
+    padding-left: 1em;
+    
 }
 @media screen and (min-width: 32em) {
-    .container {
-        padding-right: var(--v_padding-a);
-        padding-left: var(--v_padding-a);
+    body {
+        padding-right: var(--v_padding-a)%;
+        padding-left: var(--v_padding-a)%;
     }
 }
-@media screen and (min-width: 48em) {
-    .container {
-        padding-right: var(--v_padding-b);
-        padding-left: var(--v_padding-b);
+@media screen and (min-width: 45em) {
+    body {
+        padding-right: var(--v_padding-b)%;
+        padding-left: var(--v_padding-b)%;
     }
 }
 @media screen and (min-width: 64em) {
-    .container {
-        padding-right: var(--v_padding-c);
-        padding-left: var(--v_padding-c);
+    body {
+        padding-right: 9.5em;
+        padding-left: 9.5em;
+        max-width: 64em;
+    }
+}
+
+.contentinfo {
+    margin-right: -1em;
+    margin-left: -1em;
+    padding: 1em;
+}
+@media screen and (min-width: 32em) {
+    .contentinfo {
+        margin-right: calc(var(--v_padding-a)% * -calc(99 / 84));
+        margin-left: calc(var(--v_padding-a)% * -calc(99 / 84));
+        padding-right: calc(var(--v_padding-a)% * calc(99 / 84));
+        padding-left: calc(var(--v_padding-a)% * calc(99 / 84));
+    }
+}
+@media screen and (min-width: 45em) {
+    .contentinfo {
+        margin-right: calc(var(--v_padding-b)% * -calc(99 / 76));
+        margin-left: calc(var(--v_padding-b)% * -calc(99 / 76));
+        padding-right: calc(var(--v_padding-b)% * calc(99 / 76));
+        padding-left: calc(var(--v_padding-b)% * calc(99 / 76));
+    }
+}
+@media screen and (min-width: 64em) {
+    .contentinfo {
+        margin-right: calc(var(--v_padding-c)% * -calc(99 / 68));
+        margin-left: calc(var(--v_padding-c)% * -calc(99 / 68));
+        padding-right: calc(var(--v_padding-c)% * calc(99 / 68));
+        padding-left: calc(var(--v_padding-c)% * calc(99 / 68));
     }
 }

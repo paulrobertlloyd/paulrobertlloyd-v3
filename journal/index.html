@@ -2,19 +2,14 @@
 layout: default
 title: Journal
 ---
-<section class="index">
+<section class="index index--journal">
     <header class="index__header">
         <h1 class="index__title">Journal</h1>
-        <p><a href="/journal/archive/">Journal Archive</a></p>
     </header>
 
-    {% include forms/search.html %}
-
-    <div class="index__main">
     {% for summary in paginator.posts %}
         {% include articles/summary.html %}
     {% endfor %}
-    </div>
 
     <nav class="nav nav--pagination container">
     {% if paginator.previous_page %}
@@ -24,4 +19,6 @@ title: Journal
         <a class="nav__item nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}"><span class="nav__item__label">Older</span></a>
     {% endif %}
     </nav>
+
+    {% include forms/search.html %}
 </section>

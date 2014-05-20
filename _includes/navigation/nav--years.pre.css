@@ -1,0 +1,10 @@
+.nav--years {
+    width: 5em;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.nav--years .nav__item {
+    display: block;
+}

@@ -1,5 +1,4 @@
-
-<article class="summary summary--{{ summary.layout }} container">
+<article class="summary summary--{{ summary.layout }}">
     {% if summary.layout != "photo" %}
     <header class="summary__header">
         {% if summary.layout == "link" %}
@@ -17,8 +16,8 @@
 
     {% if summary.layout == "link" %}
         {{ summary.content }}
-    {% else %}
-        {% if summary.excerpt != null %}{{ summary.excerpt | markdownify }}{% endif %}
+    {% elsif summary.excerpt != null %}
+        {{ summary.excerpt | markdownify }}
     {% endif %}
 
     {% if summary.layout == "entry" %}
@@ -29,8 +28,10 @@
     <footer class="summary__footer">
     {% if summary.layout == "link" or summary.layout == "photo" %}
         <abbr class="summary__permalink" title="Permalink"><a href="{{ summary.url }}" rel="bookmark">#</a></abbr>
-    {% else %}
+    {% elsif summary.layout == "entry" %}
         <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
+    {% else %}
+        <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%B %Y" }}</time>
     {% endif %}
     </footer>
 </article>

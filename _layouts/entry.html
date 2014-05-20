@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-<article class="entry container">
-    <header class="entry__header">
-        <h1 class="entry__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
+<article class="article article--entry">
+    <header class="article__header">
+        <h1 class="article__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
     </header>
 
-    <div class="entry__main prose">
+    <div class="article__main prose">
         {{ content | markdownify }}
     </div>
 
-    <footer class="entry__footer">
-        <time class="entry__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+    <footer class="article__footer">
+        <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
     </footer>
 </article>
 

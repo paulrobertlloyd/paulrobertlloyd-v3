@@ -13,7 +13,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 45em) {
     .section--related .grid__item {
         width: 33%;
     }
