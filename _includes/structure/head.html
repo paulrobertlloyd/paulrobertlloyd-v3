@@ -32,5 +32,5 @@
     <meta name="geo.position" content="50.8420;-0.1539"/>
 {% endif %}
 
-    <title>{% if page.title != "Home" %}{{ page.title | replace: "'","&#8217;" }} – {% endif %}{{ site.title }}</title>
+    <title>{% if page.title != "Home" %}{{ page.title | replace: " '"," &#8216;" | replace: "'","&#8217;" }} – {% endif %}{{ site.title }}</title>
 </head>

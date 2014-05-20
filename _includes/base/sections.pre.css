@@ -2,6 +2,10 @@
     Grouping content
     http://developers.whatwg.org/sections.html
     ========================================================================= */
+html {
+    height: 100%;
+}
+
 body {
     color: var(--c_neutral-1);
     font-family: var(--f_sans-serif);
@@ -10,6 +14,7 @@ body {
     line-height: 1; /* 16px */
     background-color: var(--c_neutral-8);
     margin: 0;
+    height: 100%;
     position: relative;
 }
 
@@ -84,8 +89,4 @@ hr::after {
     h1, h2, h3, h4 {
         page-break-after: avoid;
     }
-}
-
-nav h1 {
-    display: none;
 }

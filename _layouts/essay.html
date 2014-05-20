@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="essay container">
     <header class="essay__header">
-        <h1 class="essay__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+        <h1 class="essay__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
         {% if page.chapter-title %}
         <h2>{{ page.chapter-title }}</h2>
         {% endif %}
@@ -11,9 +11,9 @@ layout: default
         {% if page.chapter-title == null %}
         <nav class="nav nav--traverse">
         {% assign previous = page.previous %}
-            {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title | replace: "'","&#8217;" }}">Previous entry</a>{% endif %}
+            {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title | replace: " '"," &#8216;" | replace: "'","&#8217;" }}">Previous entry</a>{% endif %}
         {% assign next = page.next %}
-            {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title | replace: "'","&#8217;" }}">Next entry</a>{% endif %}
+            {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title | replace: " '"," &#8216;" | replace: "'","&#8217;" }}">Next entry</a>{% endif %}
         </nav>
         {% endif %}
     </header>

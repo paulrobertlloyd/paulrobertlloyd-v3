@@ -77,10 +77,11 @@ dd > * {
 }
 
 figure {
-    margin: 0 0 1.5em 0; /* 0 0 24px 0 */
+    margin: 1.5em 0; /* 24px 0 */
 }
-figure p,
-figure blockquote {
+figure > p,
+figure > blockquote,
+figure > .embed {
     margin: 0; /* This shouldn't be needed! */
 }
 figure img {

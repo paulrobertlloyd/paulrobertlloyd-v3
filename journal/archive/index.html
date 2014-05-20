@@ -19,10 +19,10 @@ title: Journal Archive
         {% capture next_month_name %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
         {% if forloop.first %}
-        <section class="section section--year">
+        <section class="section section--year container">
             <h1 class="section__title"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
             <h2 class="section__subtitle"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h2>
-            <ol class="entry-list" reversed>
+            <ol class="list list--entries" reversed>
         {% endif %}
 
                 {% if post.chapter-title == null %}<li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | ampersand | replace: "'","&#8217;" }}</a></li>{% endif %}
@@ -35,16 +35,16 @@ title: Journal Archive
             </ol>
         </section>
 
-        <section>
-            <h1><a href="/{{ next_year }}/">{{next_year}}</a></h1>
-            <h2><a href="/{{ next_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
-            <ol class="entry-list" reversed>
+        <section class="section section--year container">
+            <h1 class="section__title"><a href="/{{ next_year }}/">{{next_year}}</a></h1>
+            <h2 class="section__subtitle"><a href="/{{ next_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
+            <ol class="list list--entries" reversed>
             {% else %}
                 {% if this_month != next_month %}
             </ol>
 
-            <h2><a href="/{{ this_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
-            <ol class="list" reversed>
+            <h2 class="section__subtitle"><a href="/{{ this_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
+            <ol class="list list--entries" reversed>
                 {% endif %}
             {% endif %}
         {% endif %}

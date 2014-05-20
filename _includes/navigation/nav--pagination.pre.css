@@ -1,40 +1,47 @@
 .nav--pagination {
-
+    overflow: hidden;
 }
 
 .nav--pagination .nav__item {
-    position: fixed;
-    top: 50%;
-    bottom: 50;
-    }
-    .nav--pagination .nav__item:hover {
-        transition: all 0.2s;
-    }
-
-.nav--pagination .nav__item__label {
-    display: none;
-    line-height: 2em;
-    }
-    .nav--pagination .nav__item:hover .nav__item__label {
-        display: inline-block;
-    }
+    border-top: 1px dotted var(--c_neutral-5);
+    width: 50%;
+    position: relative;
+}
 
 .nav--pagination .nav__item--prev {
     float: left;
-    left: 0;
     }
     .nav--pagination .nav__item--prev:before {
-        font-size: 2em;
-        content: "\2190"; /* Left pointing manicule */
+        content: "\2190\00A0"; /* Left pointing arrow */
         speak: none;
+        position: absolute;
+        left: -1em;
+        top: 0.75em;
     }
 
 .nav--pagination .nav__item--next {
+    text-align: right;
     float: right;
-    right: 0;
     }
     .nav--pagination .nav__item--next:after {
-        font-size: 2em;
-        content: "\2192"; /* Right pointing manicule */
+        content: "\00A0\2192"; /* Right pointing arrow */
         speak: none;
+        position: absolute;
+        right: -1em;
+        top: 0.75em;
     }
+
+.nav--pagination .nav__item__label {
+    font-size: 0.875em; /* 14px */
+    line-height: 1.4286; /* 20px */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.4286em; /* 6px */
+    display: block;
+}
+
+.nav--pagination .nav__item__title {
+    font-size: 1.5em;
+    letter-spacing: 0;
+    margin: 0 0 0.6667em; /* 0 0 16px */
+}

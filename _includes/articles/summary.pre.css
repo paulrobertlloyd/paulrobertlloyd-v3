@@ -5,10 +5,6 @@
     margin: 0 0 4em 0;
 }
 
-.summary__title {
-
-}
-
 .summary__pubdate {
     color: var(--c_neutral-3);
     font-size: 0.875em; /* 14px */

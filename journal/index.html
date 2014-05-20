@@ -16,7 +16,7 @@ title: Journal
     {% endfor %}
     </div>
 
-    <nav class="nav nav--pagination">
+    <nav class="nav nav--pagination container">
     {% if paginator.previous_page %}
         <a class="nav__item nav__item--next" rel="next" href="{{ paginator.previous_page_path }}"><span class="nav__item__label">Newer</span></a>
     {% endif %}

@@ -1,7 +1,17 @@
-<nav class="nav nav--pagination">
-    <h1>Journal Entries</h1>
+<nav class="nav nav--pagination container">
     {% assign previous = page.previous %}
-    {% if previous.url %}<a class="nav__item nav__item--prev" rel="prev bookmark" href="{{ previous.url }}"><span class="nav__item__label">Previous entry</span></a>{% endif %}
+    {% if previous.url %}
+    <a class="nav__item nav__item--prev" rel="prev bookmark" href="{{ previous.url }}">
+        <span class="nav__item__label">Previous Entry</span>
+        <h1 class="nav__item__title">{{ previous.title }}</h1>
+    </a>
+    {% endif %}
+
     {% assign next = page.next %}
-    {% if next.url %}<a class="nav__item nav__item--next" rel="next bookmark"  href="{{ next.url }}"><span class="nav__item__label">Next entry</span></a>{% endif %}
+    {% if next.url %}
+    <a class="nav__item nav__item--next" rel="next bookmark" href="{{ next.url }}">
+        <span class="nav__item__label">Next Entry</span>
+        <h1 class="nav__item__title">{{ next.title }}</h1>
+    </a>
+    {% endif %}
 </nav>

@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="link container">
     <header class="link__header">
-        <h1 class="link__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+        <h1 class="link__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
     </header>
 
     <div class="link__main prose">
@@ -19,5 +19,5 @@ layout: default
     </footer>
 </article>
 
-{% include navigation/nav--pagination.html %}
 {% include sections/discussion.html %}
+{% include navigation/nav--pagination.html %}

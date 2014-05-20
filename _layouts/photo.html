@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="photo container">
     <header class="photo__header">
-        <h1 class="photo__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+        <h1 class="photo__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
     </header>
 
     <div class="photo__main prose">

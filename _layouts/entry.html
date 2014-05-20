@@ -3,11 +3,11 @@ layout: default
 ---
 <article class="entry container">
     <header class="entry__header">
-        <h1 class="entry__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+        <h1 class="entry__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
     </header>
 
     <div class="entry__main prose">
-        {{ content }}
+        {{ content | markdownify }}
     </div>
 
     <footer class="entry__footer">
@@ -15,6 +15,5 @@ layout: default
     </footer>
 </article>
 
-{% include navigation/nav--pagination.html %}
 {% include sections/discussion.html %}
-{% include sections/related.html %}
+{% include navigation/nav--pagination.html %}

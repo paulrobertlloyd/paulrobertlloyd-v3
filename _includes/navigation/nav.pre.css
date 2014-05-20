@@ -7,18 +7,17 @@
 }
 
 .nav__item {
-    background-color: var(--c_neutral-7);
-    display: inline-block;
+    
     }
     .nav__item:hover {
-        background-color: var(--c_neutral-6);
+        
     }
     .nav__item:active {
-        background-color: var(--c_neutral-5);
+        
     }
 
 .nav__item {
-    padding: 0.25em 0.5em;
+    padding: 0.75em 0;
 }
 .nav__item a {
     display: block;

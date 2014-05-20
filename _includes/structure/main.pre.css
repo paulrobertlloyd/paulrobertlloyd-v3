@@ -1,6 +1,10 @@
 /*  =========================================================================
     Main
     ========================================================================= */
+.main {
+    
+}
+
 .main p a {
     text-shadow: 2px 0 0 var(--c_neutral-8), -2px 0 0 var(--c_neutral-8);
     background-image: linear-gradient(to left, color(var(--c_link) lightness(75%)), color(var(--c_link) lightness(75%)));
