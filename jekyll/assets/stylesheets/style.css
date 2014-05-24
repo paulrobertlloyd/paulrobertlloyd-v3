@@ -1,0 +1,1592 @@
+:root {
+  /* Colours */
+  /* Fonts */
+  /* Breakpoints */
+  /* 32em */
+  /* 45em */
+  /* 64em */
+  /* Values */
+}
+
+/*  =========================================================================
+    Post
+    ========================================================================= */
+
+.post {
+  position: relative;
+  margin-top: 2em;
+  padding-top: 2em;
+}
+
+.post__header {
+  margin-bottom: 4em;
+}
+
+.post__footer {
+  position: absolute;
+  top: 0;
+}
+
+.post__pubdate {
+  color: #666;
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.4286;
+  /* 20px */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.4286em;
+  /* 6px */
+  display: block;
+}
+
+/*  =========================================================================
+    Remark
+    ========================================================================= */
+
+
+
+/*  =========================================================================
+    Summary
+    ========================================================================= */
+
+.summary {
+  margin: 0 0 4em 0;
+}
+
+.article__pubdate,
+.summary__pubdate {
+  color: #666;
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.4286;
+  /* 20px */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.4286em;
+  /* 6px */
+  display: block;
+}
+
+.summary__main {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "PT Serif", serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Entry summary */
+
+.article,
+.summary--entry,
+.summary--essay,
+.summary--project {
+  padding-top: 2em;
+  position: relative;
+}
+
+.summary--entry .summary__main,
+.summary--essay .summary__main,
+.summary--project .summary__main {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.25em;
+  /* 20px */
+  line-height: 1.4;
+  /* 28px */
+}
+
+.summary--entry .summary__permalink,
+.summary--essay .summary__permalink,
+.summary--project .summary__permalink {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.article__pubdate,
+.summary--entry .summary__pubdate,
+.summary--essay .summary__pubdate,
+.summary--project .summary__pubdate {
+  position: absolute;
+  top: 0.5em;
+}
+
+/* Link summary */
+
+.summary--link .summary__title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  margin: 0 0 0.6667em;
+  /* 0 0 16px */
+}
+
+.summary--link .summary__permalink {
+  border: 0;
+}
+
+/*  =========================================================================
+    Disabled elements
+    http://developers.whatwg.org/links.html#disabled-elements
+    ========================================================================= */
+
+button[disabled],
+input[disabled] {
+  /*  Re-set default cursor for disabled elements */
+  cursor: default;
+}
+
+/*  =========================================================================
+    Edits
+    http://developers.whatwg.org/edits.html
+    ========================================================================= */
+
+mark,
+ins {
+  padding: 0 0.125rem;
+  /* 0 2px */
+}
+
+mark {
+  /*  Address styling not present in IE 8/9 */
+  background: #ffc;
+}
+
+ins {
+  text-decoration: none;
+  background-color: rgb(233, 238, 252);
+}
+
+/*  =========================================================================
+    Embedded content
+    http://developers.whatwg.org/embedded-content-1
+    ========================================================================= */
+
+img {
+  /*  Remove border when inside `a` element in IE 8/9 */
+  border: 0;
+  display: block;
+  max-width: 100%;
+}
+
+svg:not(:root) {
+  /*  Correct overflow displayed oddly in IE 9 */
+  overflow: hidden;
+}
+
+audio,
+canvas,
+video {
+  /*  Correct `inline-block` display not defined in IE 8/9 */
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  /*  Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices */
+  display: none;
+  height: 0;
+}
+
+video {
+  max-width: 100%;
+}
+
+/*  =========================================================================
+    Forms
+    http://developers.whatwg.org/forms.html
+    ========================================================================= */
+
+abbr[title="Required"] {
+  color: #c33;
+  border: 0;
+}
+
+fieldset {
+  /*  Define consistent border, margin, and padding */
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+legend {
+  /*  Correct `color` not being inherited in IE 8/9 */
+  border: 0;
+  /*  Remove padding so people aren't caught out if they zero out fieldsets */
+  padding: 0;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  /*  Correct color not being inherited.
+    Known issue: affects color of disabled elements. */
+  color: inherit;
+  /*  Correct font properties not being inherited */
+  font: inherit;
+  /*  Address margins set differently in Firefox 4+, Safari and Chrome */
+  margin: 0;
+}
+
+button,
+input {
+  /*  Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet */
+  line-height: normal;
+}
+
+button,
+select {
+  /*  Address inconsistent `text-transform` inheritance for `button` and `select` */
+  text-transform: none;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border-radius: 0;
+  /*  Correct inability to style clickable `input` types in iOS. */
+  -webkit-appearance: button;
+  /*  Improve usability and consistency of cursor style between image-type `input` and others */
+  cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  /*  Address box sizing set to `content-box` in IE 8/9 */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*  Remove excess padding in IE 8/9 */
+  padding: 0;
+}
+
+input[type="search"] {
+  /*  Address `appearance` set to `searchfield` in Safari and Chrome */
+  -webkit-appearance: textfield;
+  /*  Address `box-sizing` set to `border-box` in Safari and Chrome (include `-moz` to future-proof) */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  /*  Remove inner padding and search cancel button in Safari and Chrome on OS X */
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  /*  Remove inner padding and border in Firefox 4+ */
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  /*  Remove default vertical scrollbar in IE 8/9 */
+  overflow: auto;
+  /*  Improve readability and alignment in all browsers */
+  vertical-align: top;
+}
+
+/* Placeholder */
+
+::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+:focus::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+:-moz-placeholder {
+  color: #aaa;
+}
+
+:focus:-moz-placeholder {
+  color: #ccc;
+}
+
+:-ms-input-placeholder {
+  color: #aaa;
+}
+
+:focus:-ms-input-placeholder {
+  color: #ccc;
+}
+
+/*  =========================================================================
+    Grouping content
+    http://developers.whatwg.org/grouping-content.html
+    ========================================================================= */
+
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
+  orphans: 3;
+  widows: 3;
+  margin: 0 0 0.75em 0;
+  /* 0 0 12px 0 */
+}
+
+pre {
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.4286;
+  /* 20px */
+  white-space: pre;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  margin: 1em -0.5em;
+  padding: 0 0.5em;
+  overflow: auto;
+}
+
+@media print {
+  pre {
+    overflow: visible;
+  }
+}
+
+blockquote {
+  font-family: "PT Sans", sans-serif;
+  border-left: 0.25rem solid #eee;
+  padding-left: 0.875rem;
+  /* 14px */
+}
+
+@media print {
+  blockquote {
+    page-break-inside: avoid;
+  }
+}
+
+ol {
+  list-style-position: inside;
+  list-style-type: decimal;
+  padding: 0;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+  padding: 0;
+}
+
+@media screen and (min-width: 45em) {
+  ol,
+  ul {
+    list-style-position: outside;
+  }
+}
+
+ul li li {
+  list-style-type: circle;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+dt {
+  font-weight: 700;
+}
+
+li li,
+dd {
+  margin-left: 2rem;
+}
+
+li > *,
+dd > * {
+  margin-top: 0;
+}
+
+figure {
+  margin: 1.5em 0;
+  /* 24px 0 */
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figcaption {
+  color: #666;
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.4286;
+  /* 20px */
+  border-bottom: 1px solid #eee;
+  padding: 0.5714em 0;
+  /* 8px 0 */
+  display: block;
+  clear: left;
+}
+
+/*  =========================================================================
+    Interactive
+    http://developers.whatwg.org/interactive-elements.html
+    ========================================================================= */
+
+summary {
+  outline: 0;
+  cursor: pointer;
+}
+
+/*  =========================================================================
+    Links
+    http://developers.whatwg.org/links.html
+    ========================================================================= */
+
+a {
+  color: #25d;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  color: #52d;
+  /*  Improve readability when focused and also mouse hovered in all browsers */
+  outline: 0;
+}
+
+a:active {
+  color: #d25;
+}
+
+@media print {
+  a,
+  a:visited {
+    color: #000 !important;
+  }
+}
+
+/*  =========================================================================
+    Global resets
+    ========================================================================= */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*  =========================================================================
+    Grouping content
+    http://developers.whatwg.org/sections.html
+    ========================================================================= */
+
+html {
+  background-color: #eee;
+}
+
+body {
+  color: #444;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  /* 16px */
+  line-height: 1;
+  /* 16px */
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 3rem;
+  /* 48px */
+  line-height: 1;
+  /* 48px */
+  letter-spacing: -0.0625rem;
+  /* 1px */
+  text-rendering: optimizeLegibility;
+  margin: 0 0 0.3333em;
+  /* 0 0 16px */
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  /* 24px */
+  line-height: 1.1667;
+  /* 28px */
+  letter-spacing: -0.0625rem;
+  /* 1px */
+  text-rendering: optimizeLegibility;
+  margin: 1.7778em 0 0.5em;
+  /* 32px 0 12px */
+}
+
+h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  /* 20px */
+  line-height: 1.2;
+  /* 24px */
+  text-rendering: optimizeLegibility;
+  margin: 2em 0 0.6em;
+  /* 32px 0 12px */
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1em;
+  /* 16px */
+  line-height: 1.25;
+  /* 20px */
+  text-rendering: optimizeLegibility;
+  margin: 2rem 0 0.75em;
+  /* 32px 0 12px */
+  opacity: 0.9;
+}
+
+h5 {
+  font-size: 1rem;
+  /* 16px */
+  line-height: 1;
+  /* 16px */
+  text-rendering: optimizeLegibility;
+  margin: 1.5rem 0 0.75em;
+  /* 24px 0 8px */
+}
+
+h6 {
+  font-size: 0.875rem;
+  /* 14px */
+  line-height: 1.1429;
+  /* 16px */
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  /* 2px */
+  margin: 1.5rem 0 0.5em;
+  /* 24px 0 8px */
+}
+
+hr {
+  line-height: 0;
+  text-align: center;
+  margin: 2em 0;
+  /* 32px 0 */
+  border: 0;
+  height: 0;
+}
+
+hr::after {
+  content: "\25C6 \25C6 \25C6";
+  letter-spacing: 0.75rem;
+  /* 12px */
+  height: 0;
+}
+
+@media print {
+  h1,
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+  }
+}
+
+[class*="language-"] {
+  background: #FFF;
+}
+
+[class*="language-"] .c {
+  color: #998;
+  font-style: italic;
+}
+
+/* Comment */
+
+[class*="language-"] .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+/* Error */
+
+[class*="language-"] .k {
+  font-weight: 600;
+}
+
+/* Keyword */
+
+[class*="language-"] .o {
+  font-weight: 600;
+}
+
+/* Operator */
+
+[class*="language-"] .cm {
+  color: #988;
+  font-style: italic;
+}
+
+/* Comment.Multiline */
+
+[class*="language-"] .cp {
+  color: #999;
+  font-weight: 600;
+}
+
+/* Comment.Preproc */
+
+[class*="language-"] .c1 {
+  color: #998;
+  font-style: italic;
+}
+
+/* Comment.Single */
+
+[class*="language-"] .cs {
+  color: #999;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Comment.Special */
+
+[class*="language-"] .gd {
+  color: #000;
+  background-color: #FDD;
+}
+
+/* Generic.Deleted */
+
+[class*="language-"] .gd .x {
+  color: #000;
+  background-color: #FAA;
+}
+
+/* Generic.Deleted.Specific */
+
+[class*="language-"] .ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+
+[class*="language-"] .gr {
+  color: #A00;
+}
+
+/* Generic.Error */
+
+[class*="language-"] .gh {
+  color: #999;
+}
+
+/* Generic.Heading */
+
+[class*="language-"] .gi {
+  color: #000;
+  background-color: #DFD;
+}
+
+/* Generic.Inserted */
+
+[class*="language-"] .gi .x {
+  color: #000;
+  background-color: #AFA;
+}
+
+/* Generic.Inserted.Specific */
+
+[class*="language-"] .go {
+  color: #888;
+}
+
+/* Generic.Output */
+
+[class*="language-"] .gp {
+  color: #555;
+}
+
+/* Generic.Prompt */
+
+[class*="language-"] .gs {
+  font-weight: 600;
+}
+
+/* Generic.Strong */
+
+[class*="language-"] .gu {
+  color: #AAA;
+}
+
+/* Generic.Subheading */
+
+[class*="language-"] .gt {
+  color: #A00;
+}
+
+/* Generic.Traceback */
+
+[class*="language-"] .kc {
+  font-weight: 600;
+}
+
+/* Keyword.Constant */
+
+[class*="language-"] .kd {
+  font-weight: 600;
+}
+
+/* Keyword.Declaration */
+
+[class*="language-"] .kp {
+  font-weight: 600;
+}
+
+/* Keyword.Pseudo */
+
+[class*="language-"] .kr {
+  font-weight: 600;
+}
+
+/* Keyword.Reserved */
+
+[class*="language-"] .kt {
+  color: #458;
+  font-weight: 600;
+}
+
+/* Keyword.Type */
+
+[class*="language-"] .m {
+  color: #099;
+}
+
+/* Literal.Number */
+
+[class*="language-"] .s {
+  color: #D14;
+}
+
+/* Literal.String */
+
+[class*="language-"] .na {
+  color: #008080;
+}
+
+/* Name.Attribute */
+
+[class*="language-"] .nb {
+  color: #0086B3;
+}
+
+/* Name.Builtin */
+
+[class*="language-"] .nc {
+  color: #458;
+  font-weight: 600;
+}
+
+/* Name.Class */
+
+[class*="language-"] .no {
+  color: #008080;
+}
+
+/* Name.Constant */
+
+[class*="language-"] .ni {
+  color: #800080;
+}
+
+/* Name.Entity */
+
+[class*="language-"] .ne {
+  color: #900;
+  font-weight: 600;
+}
+
+/* Name.Exception */
+
+[class*="language-"] .nf {
+  color: #900;
+  font-weight: 600;
+}
+
+/* Name.Function */
+
+[class*="language-"] .nn {
+  color: #555;
+}
+
+/* Name.Namespace */
+
+[class*="language-"] .nt {
+  color: #000080;
+}
+
+/* Name.Tag */
+
+[class*="language-"] .nv {
+  color: #008080;
+}
+
+/* Name.Variable */
+
+[class*="language-"] .ow {
+  font-weight: 600;
+}
+
+/* Operator.Word */
+
+[class*="language-"] .w {
+  color: #bbbbbb;
+}
+
+/* Text.Whitespace */
+
+[class*="language-"] .mf {
+  color: #099;
+}
+
+/* Literal.Number.Float */
+
+[class*="language-"] .mh {
+  color: #099;
+}
+
+/* Literal.Number.Hex */
+
+[class*="language-"] .mi {
+  color: #099;
+}
+
+/* Literal.Number.Integer */
+
+[class*="language-"] .mo {
+  color: #099;
+}
+
+/* Literal.Number.Oct */
+
+[class*="language-"] .sb {
+  color: #D14;
+}
+
+/* Literal.String.Backtick */
+
+[class*="language-"] .sc {
+  color: #D14;
+}
+
+/* Literal.String.Char */
+
+[class*="language-"] .sd {
+  color: #D14;
+}
+
+/* Literal.String.Doc */
+
+[class*="language-"] .s2 {
+  color: #D14;
+}
+
+/* Literal.String.Double */
+
+[class*="language-"] .se {
+  color: #D14;
+}
+
+/* Literal.String.Escape */
+
+[class*="language-"] .sh {
+  color: #D14;
+}
+
+/* Literal.String.Heredoc */
+
+[class*="language-"] .si {
+  color: #D14;
+}
+
+/* Literal.String.Interpol */
+
+[class*="language-"] .sx {
+  color: #D14;
+}
+
+/* Literal.String.Other */
+
+[class*="language-"] .sr {
+  color: #009926;
+}
+
+/* Literal.String.Regex */
+
+[class*="language-"] .s1 {
+  color: #D14;
+}
+
+/* Literal.String.Single */
+
+[class*="language-"] .ss {
+  color: #990073;
+}
+
+/* Literal.String.Symbol */
+
+[class*="language-"] .bp {
+  color: #999;
+}
+
+/* Name.Builtin.Pseudo */
+
+[class*="language-"] .vc {
+  color: #008080;
+}
+
+/* Name.Variable.Class */
+
+[class*="language-"] .vg {
+  color: #008080;
+}
+
+/* Name.Variable.Global */
+
+[class*="language-"] .vi {
+  color: #008080;
+}
+
+/* Name.Variable.Instance */
+
+[class*="language-"] .il {
+  color: #099;
+}
+
+/* Literal.Number.Integer.Long */
+
+/*  =========================================================================
+    Tablular data
+    http://developers.whatwg.org/tabular-data.html
+    ========================================================================= */
+
+table {
+  font-size: 1rem;
+  margin: 1.5em 0 1.5em -0.5em;
+  /* 24px 0 24px -8px */
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption {
+  color: #888;
+  caption-side: bottom;
+  font-size: 0.875rem;
+  /* 14px */
+  line-height: 1.1429;
+  /* 16px */
+  text-align: left;
+  margin: 1rem 0 1rem 0.5rem;
+  /* 16px 0 16px 8px */
+}
+
+td,
+th {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 0.25rem 2rem 0.25rem 0.5rem;
+  /* 4px 32px 4px 4px */
+}
+
+th {
+  line-height: 1.25;
+  background-color: rgba(0,0,0,0.05);
+}
+
+@media print {
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+}
+
+/*  =========================================================================
+    Text-level semantics
+    http://developers.whatwg.org/text-level-semantics.html
+    ========================================================================= */
+
+b,
+strong {
+  /*  Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome */
+  font-weight: 600;
+}
+
+small {
+  /*  Address inconsistent and variable font size in all browsers */
+  font-size: 80%;
+}
+
+:lang(en-gb)>q {
+  /*  Set consistent quote types */
+  quotes: "\2018" "\2019" "\201c" "\201d";
+}
+
+dfn {
+  /*  Address styling not present in Safari 5 and Chrome */
+  font-style: italic;
+}
+
+abbr {
+  -webkit-font-feature-settings: "c2sc" 1;
+  -moz-font-feature-settings: "c2sc" 1;
+  font-feature-settings: "c2sc" 1;
+}
+
+abbr[title]:hover {
+  /*  Address styling not present in IE 8/9, Safari 5, and Chrome */
+  border-bottom: 1px dotted #aaa;
+  cursor: help;
+}
+
+pre,
+code,
+kbd,
+samp {
+  color: #666;
+  font-family: "PT Mono", monospace;
+  background-color: rgba(255,255,255,0.75);
+}
+
+code,
+kbd,
+samp {
+  padding: 0.125rem 0.25rem;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+kbd {
+  font-family: inherit;
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.1429;
+  /* 16px */
+  background-color: #fff;
+  margin: 0 0.25rem;
+  /* 0 4px */
+  border: 1px solid rgba(0,0,0,0.25);
+  border-radius: 0.25rem;
+  /* 4px */
+  padding: 0.125rem 0.5rem;
+  /* 4px 8px */
+  -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
+}
+
+sub,
+sup {
+  /*  Prevent `sub` and `sup` affecting `line-height` in all browsers */
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+.search {
+  font-family: "PT Sans", sans-serif;
+}
+
+.search__result {
+  display: block;
+}
+
+.nav--pagination {
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+.nav--pagination .nav__item {
+  border-top: 1px dotted #aaa;
+  width: 50%;
+  position: relative;
+}
+
+.nav--pagination .nav__item--prev {
+  float: left;
+}
+
+.nav--pagination .nav__item--prev:before {
+  content: "\2190\00A0";
+  /* Left pointing arrow */
+  speak: none;
+  position: absolute;
+  left: -1em;
+  top: 0.75em;
+}
+
+.nav--pagination .nav__item--next {
+  text-align: right;
+  float: right;
+}
+
+.nav--pagination .nav__item--next:after {
+  content: "\00A0\2192";
+  /* Right pointing arrow */
+  speak: none;
+  position: absolute;
+  right: -1em;
+  top: 0.75em;
+}
+
+.nav--pagination .nav__item__label {
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.4286;
+  /* 20px */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.4286em;
+  /* 6px */
+  display: block;
+}
+
+.nav--pagination .nav__item__title {
+  font-size: 1.5em;
+  letter-spacing: 0;
+  margin: 0 0 0.6667em;
+  /* 0 0 16px */
+}
+
+.nav--years {
+  width: 5em;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.nav--years .nav__item {
+  display: block;
+}
+
+/* ==========================================================================
+   All
+   ========================================================================== */
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav__item {
+  margin: 0;
+}
+
+
+
+
+
+.nav__item {
+  padding: 0.25em 0;
+}
+
+.nav__item a {
+  display: block;
+}
+
+.nav__item.is-active {
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   Section
+   ========================================================================== */
+
+
+
+.section__title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  /* 24px */
+  line-height: 1.1667;
+  /* 28px */
+  letter-spacing: -0.0625rem;
+  /* 1px */
+  text-rendering: optimizeLegibility;
+  margin: 1.7778em 0 0.5em;
+  /* 32px 0 12px */
+}
+
+/* ==========================================================================
+   Structure > Banner
+   ========================================================================== */
+
+.banner {
+  padding-bottom: 4em;
+}
+
+.banner__title {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.banner__menu {
+  display: none;
+}
+
+/* ==========================================================================
+   Structure > Content Info
+   ========================================================================== */
+
+.contentinfo {
+  background-color: #eee;
+}
+
+/* ==========================================================================
+   Structure > Navigation
+   ========================================================================== */
+
+.navigation {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.nav--primary > .nav__item {
+  margin-left: 1em;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.nav--primary .nav--secondary {
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+}
+
+.nav--secondary > .nav__item {
+  font-weight: normal;
+  text-align: left;
+  display: block;
+}
+
+/*  =========================================================================
+    Containers
+    ========================================================================= */
+
+body {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+@media screen and (min-width: 32em) {
+  body {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  body {
+    padding-right: 12%;
+    padding-left: 12%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  body {
+    padding-right: 9.5em;
+    padding-left: 9.5em;
+    max-width: 64em;
+  }
+}
+
+.contentinfo {
+  margin-right: -1em;
+  margin-left: -1em;
+  padding: 1em;
+}
+
+@media screen and (min-width: 32em) {
+  .contentinfo {
+    margin-right: -9.428571428571429%;
+    margin-left: -9.428571428571429%;
+    padding-right: 9.428571428571429%;
+    padding-left: 9.428571428571429%;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .contentinfo {
+    margin-right: -15.631578947368418%;
+    margin-left: -15.631578947368418%;
+    padding-right: 15.631578947368418%;
+    padding-left: 15.631578947368418%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .contentinfo {
+    margin-right: -23.294117647058822%;
+    margin-left: -23.294117647058822%;
+    padding-right: 23.294117647058822%;
+    padding-left: 23.294117647058822%;
+  }
+}
+
+/*  =========================================================================
+    Embeds
+    ========================================================================= */
+
+.embed {
+  background-color: #222;
+  margin: 0 0 0.75em 0;
+  /* 0 0 12px 0 */
+}
+
+/* Photo embed */
+
+.embed--photo img {
+  margin: 0 auto;
+  max-width: none;
+  width: 100%;
+  max-width: 64em;
+}
+
+.embed--photo {
+  margin-right: -1em;
+  margin-left: -1em;
+}
+
+@media screen and (min-width: 32em) {
+  .embed--photo {
+    margin-right: -9.523809523809524%;
+    margin-left: -9.523809523809524%;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .embed--photo {
+    margin-right: -15.789473684210526%;
+    margin-left: -15.789473684210526%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .embed--photo {
+    margin-right: -23.52941176470588%;
+    margin-left: -23.52941176470588%;
+  }
+}
+
+/* Video embed */
+
+.embed--video {
+  padding-bottom: 56.25%;
+  height: 0;
+  position: relative;
+}
+
+.embed iframe,
+.embed embed {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*  =========================================================================
+    Grids
+    ========================================================================= */
+
+.grid {
+  overflow: hidden;
+  margin: 0 -1.5em;
+}
+
+.grid__item {
+  display: block;
+  float: left;
+  padding: 0 1.5em;
+  width: 100%;
+}
+
+@media screen and (min-width: 45em) {
+  .section--related .grid__item {
+    width: 33%;
+  }
+}
+
+/*  =========================================================================
+    List
+    ========================================================================= */
+
+.list {
+  line-height: 1.5;
+}
+
+.list__item {
+  list-style: none;
+}
+
+/*  =========================================================================
+    Prose
+    ========================================================================= */
+
+.prose {
+  font-family: "PT Serif", serif;
+  -webkit-font-feature-settings: "liga", "dlig", "onum";
+  -moz-font-feature-settings: "liga", "dlig", "onum";
+  font-feature-settings: "liga", "dlig", "onum";
+  line-height: 1.75;
+  /* 28px */
+  padding-bottom: 2em;
+}
+
+@media screen and (min-width: 45em) {
+  .prose {
+    /*-webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;*/
+    font-size: 1.25em;
+    /* 20px */
+    line-height: 1.4;
+    /* 28px */
+  }
+
+  .prose figcaption,
+  .prose caption,
+  .prose .footnotes {
+    font-family: "PT Sans", sans-serif;
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.25;
+    /* 20px */
+  }
+}
+
+.prose strong {
+  font-family: "PT Sans", sans-serif;
+}
+
+.prose figure > p,
+.prose figure > blockquote,
+.prose figure > .embed {
+  margin-bottom: 0;
+  /* This shouldn't be needed! */
+}
+
+.prose p a {
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgb(145, 170, 238)), to(rgb(145, 170, 238)));
+  background-image: -webkit-linear-gradient(right, rgb(145, 170, 238), rgb(145, 170, 238));
+  background-image: linear-gradient(to left, rgb(145, 170, 238), rgb(145, 170, 238));
+  background-position: 0 1.075em;
+  background-repeat: repeat-x;
+  -webkit-background-size: 1px 1px;
+  background-size: 1px 1px;
+}
+
+.prose p a:active,
+.prose p a:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgb(170, 145, 238)), to(rgb(170, 145, 238)));
+  background-image: -webkit-linear-gradient(right, rgb(170, 145, 238), rgb(170, 145, 238));
+  background-image: linear-gradient(to left, rgb(170, 145, 238), rgb(170, 145, 238));
+}
+
+.prose p a:active {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgb(238, 145, 170)), to(rgb(238, 145, 170)));
+  background-image: -webkit-linear-gradient(right, rgb(238, 145, 170), rgb(238, 145, 170));
+  background-image: linear-gradient(to left, rgb(238, 145, 170), rgb(238, 145, 170));
+}
+
+.prose .caps {
+  font-size: 90%;
+  -webkit-font-feature-settings: "c2sc" 1;
+  -moz-font-feature-settings: "c2sc" 1;
+  font-feature-settings: "c2sc" 1;
+  letter-spacing: 0.0625rem;
+  /* 1px */
+}
+
+/*  =========================================================================
+    Pull left/right
+    ========================================================================= */
+
+.pull-left {
+  float: left;
+}
+
+img.pull-left {
+  margin: 0 1em 1em 0;
+}
+
+figure img.pull-left {
+  margin: 0.5em 0.5em 0 0;
+}
+
+.pull-right {
+  float: right;
+}
+
+img.pull-right {
+  margin: 0 0 1em 1em;
+}
+
+figure img.pull-right {
+  margin: 0.5em 0 0.5em 0;
+}
+/*# sourceMappingURL=style.css.map */

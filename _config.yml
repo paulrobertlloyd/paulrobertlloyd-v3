@@ -34,8 +34,9 @@ markdown_ext: krampygs, typogruby
 highlighter: pygments
 
 # Publishing
-include: [_pages, .htaccess]
-exclude: [Gemfile, Gemfile.lock, node_modules, package.json, Plumbing.js, README.md]
+source: jekyll
+destination: public
+include: [_pages, .htaccess] # TODO - Convert .htaccess into nginx rewrites
 
 # Gems
 gems:
