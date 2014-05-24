@@ -34,7 +34,7 @@ markdown_ext: krampygs, typogruby
 highlighter: pygments
 
 # Publishing
-source: jekyll
+source: source
 destination: public
 include: [_pages, .htaccess] # TODO - Convert .htaccess into nginx rewrites
 
