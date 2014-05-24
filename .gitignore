@@ -1,9 +1,3 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
-Gemfile.lock
-
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -20,13 +14,11 @@ Gemfile.lock
 # OS or Editor folders
 .DS_Store
 ._*
-.cache
-.project
-.settings
-.tmproj
+
+# Files to ignore
+Gemfile.lock
 
 # Folders to ignore
 _remarks
+public
 node_modules
-bower_components
-assets/stylesheets/style.css
