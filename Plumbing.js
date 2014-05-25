@@ -7,17 +7,17 @@ var write    = require('plumber-write');
 module.exports = function(pipelines) {
 
     pipelines['dev:css'] = [
-        glob('_includes/**/*.pre.css'),
+        glob('source/_includes/**/*.pre.css'),
         concat('style'),
         myth('style'),
-        write('_site/assets/stylesheets')
+        write('public/assets/stylesheets')
     ];
 
     pipelines['prod:css'] = [
-        glob('_includes/**/*.pre.css'),
+        glob('sources/_includes/**/*.pre.css'),
         concat('style'),
         myth('style'),
-        write('assets/stylesheets')
+        write('source/assets/stylesheets')
     ];
 
 };
