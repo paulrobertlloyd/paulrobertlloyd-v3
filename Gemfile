@@ -9,6 +9,7 @@ source "https://rubygems.org"
 gem 'jekyll',
     :git => 'git://github.com/jekyll/jekyll.git'
 gem 'jekyll-sitemap'
-gem 'typogruby'
+gem 'typogruby',
+    :git => 'git://github.com/paulrobertlloyd/typogruby.git'
 gem 'ruby-oembed'
 gem 'xml-simple'

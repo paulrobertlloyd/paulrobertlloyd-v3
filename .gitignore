@@ -16,7 +16,6 @@
 ._*
 
 # Files to ignore
-Gemfile.lock
 
 # Folders to ignore
 _remarks
