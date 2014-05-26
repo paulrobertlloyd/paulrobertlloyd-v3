@@ -13,7 +13,6 @@
     </author>
 
     {% for post in site.posts %}
-    {% if post.layout == "post-link" %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ site.url }}{{ post.url }}"/>
@@ -21,6 +20,5 @@
         <id>{{ site.url }}{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
-    {% endif %}
     {% endfor %}
 </feed>
