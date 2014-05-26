@@ -1,20 +1,18 @@
 <nav class="nav nav--pagination grid">
-    {% assign previous = page.previous %}
-    {% if previous.url and previous.layout != link %}
+    {% if page.next_in_category != nil %}
     <div class="grid__item">
-        <a class="nav__item nav__item--prev" rel="prev bookmark" href="{{ previous.url }}">
-            <span class="nav__item__label">Previous Entry</span>
-            <h1 class="nav__item__title">{{ previous.title | typeset }}</h1>
+        <a class="nav__item nav__item--prev" rel="prev bookmark" href="{{ page.next_in_category.url }}">
+            <span class="nav__item__label">Previous {{ page.next_in_category.category | capitalize }}</span>
+            <h1 class="nav__item__title">{{ page.next_in_category.title | typeset }}</h1>
         </a>
     </div>
     {% endif %}
 
-    {% assign next = page.next %}
-    {% if next.url and next.layout != link %}
+    {% if page.previous_in_category != nil %}
     <div class="grid__item">
-        <a class="nav__item nav__item--next" rel="next bookmark" href="{{ next.url }}">
-            <span class="nav__item__label">Next Entry</span>
-            <h1 class="nav__item__title">{{ next.title | typeset }}</h1>
+        <a class="nav__item nav__item--next" rel="next bookmark" href="{{ page.previous_in_category.url }}">
+            <span class="nav__item__label">Next {{ page.previous_in_category.category | capitalize }}</span>
+            <h1 class="nav__item__title">{{ page.previous_in_category.title | typeset }}</h1>
         </a>
     </div>
     {% endif %}
