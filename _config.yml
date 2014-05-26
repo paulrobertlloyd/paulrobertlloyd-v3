@@ -20,15 +20,6 @@ archive:
   layout: archive
   title: :date
 
-# Collections
-collections:
-  essays:
-    output: true
-    title: Academic Essays
-  projects:
-    output: true
-    title: Projects
-
 # Syntax highlighting (see: https://github.com/navarroj/krampygs)
 markdown_ext: krampygs, typogruby
 highlighter: pygments
