@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Universal Playback
-date: '2010-11-01 12:00:00 +0000'
+date: '2010-11-01'
 excerpt: The TV-on-DVD label of Universal Pictures UK, responsible for releasing content from NBCUniversal as well as other locally acquired series on DVD and blu-ray.
 ---
 {% figure Home page %}

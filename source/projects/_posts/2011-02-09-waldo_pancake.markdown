@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Waldo Pancake
-date: '2011-02-09 11:54:47 +0000'
+date: '2011-02-09'
 excerpt: A designer, illustrator and copywriter whose work you can find on the side of juice bottles, sweet packets and in Puccino's coffee shops.
 ---
 {% figure The Waldo Pancake website %}
