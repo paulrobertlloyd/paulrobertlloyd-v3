@@ -363,7 +363,7 @@ pre {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  margin: 1em -0.5em;
+  margin: 0 -0.5em 1.5em;
   padding: 0 0.5em;
   overflow: auto;
 }
@@ -426,8 +426,8 @@ dd > * {
 }
 
 figure {
-  margin: 1.5em 0;
-  /* 24px 0 */
+  margin-bottom: 1.5em;
+  /* 24px */
 }
 
 figure img {
