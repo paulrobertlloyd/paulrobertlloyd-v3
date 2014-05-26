@@ -53,7 +53,7 @@ Open for business
 
 Britain as a silent revolutionary
 : Britain is a prolific inventor of new forms of organisation and new ways of running society for example: parliaments, post offices and privatisation.
-    
+
 The Nation of Fair Play
 : We pride ourselves on a sense of cricket: fairness, charity, manners, support for the underdog. A new Britain could still adhere to the nation's old values.
 
