@@ -1,6 +1,7 @@
 :root {
     /* Colours */
-    --c_accent: #3D8;
+    --c_accent-light: #3D8;
+    --c_accent-dark: #0A5;
 
     --c_neutral-1: #222;
     --c_neutral-2: #444;

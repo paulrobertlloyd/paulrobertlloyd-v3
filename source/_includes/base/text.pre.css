@@ -35,14 +35,10 @@ pre,
 code,
 kbd,
 samp {
-    color: var(--c_neutral-3);
     font-family: var(--f_monospace);
-    background-color: rgba(255,255,255,0.75);
 }
-code,
-kbd,
-samp {
-    padding: 0.125rem 0.25rem;
+code {
+    color: #000080;
 }
 pre code {
     background-color: transparent;

@@ -4,7 +4,7 @@
     ========================================================================= */
 table {
     font-size: 1rem;
-    margin: 1.5em 0 1.5em -0.5em; /* 24px 0 24px -8px */
+    margin: 0.75em 0 0.75em -0.5em; /* 24px 0 24px -8px */
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -23,12 +23,15 @@ th {
     text-align: left;
     vertical-align: top;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    padding: 0.25rem 2rem 0.25rem 0.5rem; /* 4px 32px 4px 4px */
+    padding: 0.25em 1.5em 0.25em 0.5em; /* 4px 32px 4px 4px */
+    white-space: nowrap;
+    overflow-wrap: break-word;
 }
 
 th {
     line-height: 1.25;
     background-color: rgba(0,0,0,0.05);
+    padding-top: 0.75em;
 }
 
 @media print {

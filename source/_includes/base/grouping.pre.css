@@ -16,15 +16,10 @@ pre {
     hyphens: none;
     margin: 1em -0.5em;
     padding: 0 0.5em;
-    overflow: auto;
-}
-@media print {
-    pre {
-        overflow: visible;
-    }
 }
 
 blockquote {
+    color: var(--c_neutral-3);
     font-family: var(--f_sans-serif);
     border-left: 0.25rem solid var(--c_neutral-7);
     padding-left: 0.875rem; /* 14px */
@@ -63,6 +58,7 @@ nav ul {
 }
 
 dt {
+    font-family: var(--f_sans-serif);
     font-weight: 700;
 }
 

@@ -58,25 +58,25 @@ h1 {
 
 h2 {
     font-family: var(--f_sans-serif);
-    font-weight: 400;
-    font-size: 1.5em; /* 24px */
-    line-height: 1.1667; /* 28px */
-    letter-spacing: -0.0625rem; /* 1px */
-    text-rendering: optimizeLegibility;
-    margin: 1.7778em 0 0.3333em; /* 32px 0 8px */
-}
-
-h3 {
-    font-family: var(--f_sans-serif);
     font-weight: 700;
     font-size: 1.25em; /* 20px */
     line-height: 1.2; /* 24px */
+    letter-spacing: -0.0625rem; /* 1px */
     text-rendering: optimizeLegibility;
     margin: 2em 0 0.6em; /* 32px 0 12px */
 }
 
+h3 {
+    font-family: var(--f_sans-serif);
+    font-weight: 600;
+    font-size: 1.125em; /* 18px */
+    line-height: 1.3333; /* 24px */
+    text-rendering: optimizeLegibility;
+    margin: 1.7778em 0 0.6667em; /* 32px 0 12px */
+}
+
 h4 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1em; /* 16px */
     line-height: 1.25; /* 20px */
     text-rendering: optimizeLegibility;
