@@ -23,7 +23,7 @@ Prior to my move to California in 2006, I had flown only once, on a long haul re
 
 However, thanks to [Dopplr][4]'s ability to track the carbon generated from all these trips I've taken, you can see that since returning from America in 2007, there has been a year-on-year reduction of my footprint:
 
-<table class="chart-hbar">
+<table class="chart chart--hbar">
     <caption>My carbon footprint since 2003 as measured by Dopplr</caption>
     <thead>
         <tr>
@@ -33,36 +33,36 @@ However, thanks to [Dopplr][4]'s ability to track the carbon generated from all 
     </thead>
     <tbody>
         <tr>
-            <td class="label">2003</td>
-            <td class="value"><span style="width:46.60%;">4660</span></td>
+            <td class="chart__label">2003</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:46.60%;">4660</span></td>
         </tr>
         <tr>
-            <td class="label">2004</td>
-            <td class="value"><span style="width:10.21%;">1021</span></td>
+            <td class="chart__label">2004</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:10.21%;">1021</span></td>
         </tr>
         <tr>
-            <td class="label">2005</td>
-            <td class="value"><span style="width:31.22%;">3122</span></td>
+            <td class="chart__label">2005</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:31.22%;">3122</span></td>
         </tr>
         <tr>
-            <td class="label">2006</td>
-            <td class="value"><span style="width:57.18%;">5718</span></td>
+            <td class="chart__label">2006</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:57.18%;">5718</span></td>
         </tr>
         <tr>
-            <td class="label">2007</td>
-            <td class="value"><span style="width:94.32%;">9432</span></td>
+            <td class="chart__label">2007</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:94.32%;">9432</span></td>
         </tr>
         <tr>
-            <td class="label">2008</td>
-            <td class="value"><span style="width:76.45%;">7645</span></td>
+            <td class="chart__label">2008</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:76.45%;">7645</span></td>
         </tr>
         <tr>
-            <td class="label">2009</td>
-            <td class="value"><span style="width:57.67%;">5767</span></td>
+            <td class="chart__label">2009</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:57.67%;">5767</span></td>
         </tr>
         <tr>
-            <td class="label">2010</td>
-            <td class="value"><span style="width:28.40%;">2840</span></td>
+            <td class="chart__label">2010</td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:28.40%;">2840</span></td>
         </tr>
     </tbody>
 </table>

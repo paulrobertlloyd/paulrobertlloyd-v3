@@ -1,0 +1,26 @@
+/*  =========================================================================
+    Charts - Converts tablular data into visual charts
+    ========================================================================= */
+
+/* Horizontal bar chart */
+.chart--hbar {
+    width: 100%;
+    vertical-align: middle;
+}
+.chart--hbar th {
+    background: transparent;
+}
+.chart--hbar .chart__label {
+    width: 15%;
+    white-space: nowrap;
+}
+.chart--hbar .chart__value {
+    width: 85%;
+}
+.chart--hbar .chart__value--percent {
+    color: var(--c_neutral-3);
+    background-color: var(--c_neutral-7);
+    padding: 0 0.5em;
+    display: block;
+    white-space: nowrap;
+}
