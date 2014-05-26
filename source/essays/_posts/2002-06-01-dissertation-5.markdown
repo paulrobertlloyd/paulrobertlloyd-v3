@@ -1,7 +1,7 @@
 ---
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
-date: '2002-06-01 12:00:04 +0100'
+date: '2002-06-01'
 chapters: true
 chapter-title: Branding ITV & BBC
 permalink: /essays/dissertation/branding_itv_bbc/

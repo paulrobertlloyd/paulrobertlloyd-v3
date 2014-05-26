@@ -1,7 +1,7 @@
 ---
 layout: essay
 title: Early Graphic Design in Television
-date: '1999-03-01 12:00:00 +0000'
+date: '1999-03-01'
 chapters: true
 excerpt: The launch of television in 1936 saw the birth of a medium that could be easily exploited and enhanced by graphic design.
 permalink: /essays/early_graphic_design_in_television/

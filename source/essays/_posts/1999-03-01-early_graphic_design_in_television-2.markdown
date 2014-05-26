@@ -1,7 +1,7 @@
 ---
 layout: essay
 title: Early Graphic Design in Television
-date: '1999-03-01 12:00:00 +0000'
+date: '1999-03-01'
 chapters: true
 chapter-title: A New Medium is Born
 permalink: /essays/early_graphic_design_in_television/a_new_medium_is_born/
