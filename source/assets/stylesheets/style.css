@@ -365,6 +365,7 @@ pre {
   hyphens: none;
   margin: 1em -0.5em;
   padding: 0 0.5em;
+  overflow: auto;
 }
 
 blockquote {
