@@ -1,13 +1,54 @@
-- title: 'Fear, Uncertainty, and Doubt'
-  date: '2013-09-19 00:00:00 +0000'
-  event-name: 'MK Geek Night #6'
-  event-link: http://mkgeeknight.co.uk/
-  slides: https://speakerdeck.com/paulrobertlloyd/fear-uncertainty-and-doubt
-  abstract: 'I want to talk about the world we live in. The one which sees us becoming increasingly reliant upon a small number of web services and the companies that operate them, most of which emanate from a small centre of innovation: Silicon Valley.'
+- title: 'MK Geek Night #6'
+  date: '2013-09-19'
+  location: 'Milton Keynes, England'
+  url: http://lanyrd.com/2013/mkgeeknight/scqdzd/
 
-- title: 'This is for Everyone'
-  date: '2013-08-21 00:00:00 +0000'
-  event-name: 'LDNIA #4'
-  event-link: http://ldnia.com
-  slides: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-ldnia-number-4
-  abstract: 'Graphic designers have long honed their craft to meet the specific constraints of television. As web designers begin to understand the true nature of our own medium, isn’t about time we did the same?'
+- title: 'This is LDNIA #4'
+  date: '2013-08-21'
+  location: 'London, England'
+  url: http://lanyrd.com/2013/this-is-ldnia-4/scpdqc/
+
+- title: 'Speak the Web'
+  date: '2013-07-16'
+  location: 'Sheffield, England'
+  url: http://lanyrd.com/2013/speak-the-web-sheffield/sckykm/
+
+- title: 'Port80'
+  date: '2013-05-10'
+  location: 'Newport, Wales'
+  url: http://lanyrd.com/2013/port80/schdpg/
+
+- title: 'Front-end London'
+  date: '2013-03-28'
+  location: 'London, England'
+  url: http://lanyrd.com/2013/front-end-london-march/scfccf/
+
+- title: 'Responsive Day Out'
+  date: '2013-03-01'
+  location: 'Brighton, England'
+  url: http://lanyrd.com/2013/responsiveconf/scdtfd/
+
+- title: 'Talk Web Design'
+  date: '2013-01-16'
+  location: 'London, England'
+  url: http://lanyrd.com/2013/talkwd/sccfwp/
+
+- title: 'LBi Denmark: We Do Our Own Stunts'
+  date: '2012-05-16'
+  location: 'Copenhagen, Denmark'
+  url: http://lanyrd.com/2012/we-do-our-own-stunts-may/stfyy/
+
+- title: 'Geek in the Park'
+  date: '2011-08-13'
+  location: 'Leamington, England'
+  url: http://lanyrd.com/2011/geekinthepark/sfmmy/
+
+- title: 'Oxford Geek Night 21'
+  date: '2011-04-13'
+  location: 'Oxford, England'
+  url: http://lanyrd.com/2011/ogn21/scybk/
+
+- title: 'APA Digital Breakfast'
+  date: '2011-03-08'
+  location: 'London, England'
+  url: http://lanyrd.com/2011/apa-digital-breakfast-march/scxmh/
