@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: git://github.com/paulrobertlloyd/typogruby.git
-  revision: 1ddb4a7b3f45aff3365f2780ec78a2df63b70a8a
+  revision: 5d79f223ee2ce09f9ce196dd09aed6a355d09543
   specs:
     typogruby (1.0.16)
       rubypants
