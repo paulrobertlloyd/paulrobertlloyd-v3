@@ -7,9 +7,15 @@
         })();
     </script>
 
+    <link rel="alternate"  href="/feed.xml" type="application/atom+xml" title="RSS Feed"/>
+    <link rel="canonical" href="{{ page.url }}" />
     <link rel="stylesheet" href="/assets/stylesheets/style.css">
-    {% if page.layout != "index" %}<link rel="canonical" href="{{ page.url }}" />{% endif %}
-    <link rel="alternate"  href="/feed/" type="application/atom+xml" title="RSS Feed"/>
+
+{% if page.style %}
+     <style type="text/css">
+         {{ page.style }}
+     </style>
+{% endif %}
 
     <meta charset="utf-8"/>
     <meta name="author" content="Paul Robert Lloyd"/>
@@ -32,5 +38,5 @@
     <meta name="geo.position" content="50.8420;-0.1539"/>
 {% endif %}
 
-    <title>{% if page.title != "Home" %}{{ page.title | replace: " '"," &#8216;" | replace: "'","&#8217;" }} – {% endif %}{{ site.title }}</title>
+    <title>{% if page.title != "Home" %}{{ page.title }} – {% endif %}{{ site.title }}</title>
 </head>
