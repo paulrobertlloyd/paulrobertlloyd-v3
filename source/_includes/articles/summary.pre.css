@@ -4,18 +4,6 @@
 .summary {
     margin: 0 0 4em 0;
 }
-
-.article__pubdate,
-.summary__pubdate {
-    color: var(--c_neutral-3);
-    font-size: 0.875em; /* 14px */
-    line-height: 1.4286; /* 20px */
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 0.4286em; /* 6px */
-    display: block;
-}
-
 .summary__main {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -23,44 +11,54 @@
     font-size: 1em;
     line-height: 1.5;
 }
+.summary__title {
+    font-family: var(--f_sans-serif);
+    font-weight: 400;
+    font-size: 1.5em; /* 24px */
+    line-height: 1.1667; /* 28px */
+    margin: 1.7778em 0 0.3333em; /* 32px 0 8px */
+}
+.article__pubdate,
+.summary__pubdate {
+    color: var(--c_neutral-3);
+    font-size: 0.875em; /* 14px */
+    line-height: 1.4286; /* 20px */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0.4286em 0; /* 6px */
+    display: block;
+}
+.summary__permalink {
+    border: 0;
+}
 
 /* Entry summary */
 .article,
-.summary--entry,
-.summary--essay,
-.summary--project {
-    padding-top: 2em;
+.summary--entry {
+    padding-top: 2.25em;
     position: relative;
 }
-.summary--entry .summary__main,
-.summary--essay .summary__main,
-.summary--project .summary__main {
+.summary--entry .summary__main {
     font-family: var(--f_sans-serif);
     font-size: 1.25em; /* 20px */
     line-height: 1.4; /* 28px */
 }
-.summary--entry .summary__permalink,
-.summary--essay .summary__permalink,
-.summary--project .summary__permalink {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 0;
+.summary--entry .summary__title {
+    font-family: var(--f_serif);
+    font-weight: 700;
+    font-size: 2.5rem; /* 48px */
+    line-height: 1; /* 48px */
+    letter-spacing: -0.0625rem; /* 1px */
+    margin: 0 0 0.3333em; /* 0 0 16px */
 }
-.article__pubdate,
-.summary--entry .summary__pubdate,
-.summary--essay .summary__pubdate,
-.summary--project .summary__pubdate {
+.article .article__pubdate,
+.summary--entry .summary__pubdate {
     position: absolute;
     top: 0.5em;
 }
-
-/* Link summary */
-.summary--link .summary__title {
-    font-family: var(--f_sans-serif);
-    font-weight: 300;
-    font-size: 1.5em;
-    margin: 0 0 0.6667em; /* 0 0 16px */
-}
-.summary--link .summary__permalink {
-    border: 0;
+.summary--entry .summary__permalink {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.75em 0;
+    display: block;
 }

@@ -4,27 +4,36 @@
 .navigation {
     text-align: right;
     position: absolute;
-    top: 0;
+    top: 2em;
     right: 0;
     left: 0;
-    z-index: 0;
 }
 
-.nav--primary > .nav__item {
+.navigation .nav {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+@media screen and (min-width: 32em) {
+    .navigation .nav {
+        margin-right: var(--v_padding-a)%;
+        margin-left: var(--v_padding-a)%;
+    }
+}
+@media screen and (min-width: 45em) {
+    .navigation .nav {
+        margin-right: var(--v_padding-b)%;
+        margin-left: var(--v_padding-b)%;
+    }
+}
+@media screen and (min-width: 64em) {
+    .navigation .nav {
+        margin-right: 9.5em;
+        margin-left: 9.5em;
+    }
+}
+
+.navigation .nav > .nav__item {
     margin-left: 1em;
     padding: 0;
     display: inline-block;
-    position: relative;
-}
-
-.nav--primary .nav--secondary {
-    position: absolute;
-    top: 1.5em;
-    left: 0;
-}
-
-.nav--secondary > .nav__item {
-    font-weight: normal;
-    text-align: left;
-    display: block;
 }

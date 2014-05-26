@@ -54,6 +54,25 @@
   margin: 0 0 4em 0;
 }
 
+.summary__main {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Source Serif Pro", serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.summary__title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  /* 24px */
+  line-height: 1.1667;
+  /* 28px */
+  margin: 1.7778em 0 0.3333em;
+  /* 32px 0 8px */
+}
+
 .article__pubdate,
 .summary__pubdate {
   color: #666;
@@ -63,67 +82,55 @@
   /* 20px */
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 0.4286em;
+  margin: 0.4286em 0;
   /* 6px */
   display: block;
 }
 
-.summary__main {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "PT Serif", serif;
-  font-size: 1em;
-  line-height: 1.5;
+.summary__permalink {
+  border: 0;
 }
 
 /* Entry summary */
 
 .article,
-.summary--entry,
-.summary--essay,
-.summary--project {
-  padding-top: 2em;
+.summary--entry {
+  padding-top: 2.25em;
   position: relative;
 }
 
-.summary--entry .summary__main,
-.summary--essay .summary__main,
-.summary--project .summary__main {
-  font-family: "PT Sans", sans-serif;
+.summary--entry .summary__main {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.25em;
   /* 20px */
   line-height: 1.4;
   /* 28px */
 }
 
-.summary--entry .summary__permalink,
-.summary--essay .summary__permalink,
-.summary--project .summary__permalink {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin: 0;
+.summary--entry .summary__title {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  /* 48px */
+  line-height: 1;
+  /* 48px */
+  letter-spacing: -0.0625rem;
+  /* 1px */
+  margin: 0 0 0.3333em;
+  /* 0 0 16px */
 }
 
-.article__pubdate,
-.summary--entry .summary__pubdate,
-.summary--essay .summary__pubdate,
-.summary--project .summary__pubdate {
+.article .article__pubdate,
+.summary--entry .summary__pubdate {
   position: absolute;
   top: 0.5em;
 }
 
-/* Link summary */
-
-.summary--link .summary__title {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  margin: 0 0 0.6667em;
-  /* 0 0 16px */
-}
-
-.summary--link .summary__permalink {
-  border: 0;
+.summary--entry .summary__permalink {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0.75em 0;
+  display: block;
 }
 
 /*  =========================================================================
@@ -368,7 +375,7 @@ pre {
 }
 
 blockquote {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   border-left: 0.25rem solid #eee;
   padding-left: 0.875rem;
   /* 14px */
@@ -505,7 +512,7 @@ html {
 
 body {
   color: #444;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 1em;
   /* 16px */
@@ -514,25 +521,39 @@ body {
   background-color: #fff;
   margin: 0 auto;
   position: relative;
+  /*    display: table;
+    caption-side: top;*/
 }
 
 h1 {
-  font-family: "PT Serif", serif;
+  font-family: "Source Serif Pro", serif;
   font-weight: 700;
-  font-size: 3rem;
-  /* 48px */
+  font-size: 2rem;
+  /* 32px */
   line-height: 1;
-  /* 48px */
+  /* 32px */
   letter-spacing: -0.0625rem;
   /* 1px */
   text-rendering: optimizeLegibility;
-  margin: 0 0 0.3333em;
+  overflow-wrap: break-word;
+  margin: 0 0 0.5em;
   /* 0 0 16px */
 }
 
+@media screen and (min-width: 45em) {
+  h1 {
+    font-size: 3rem;
+    /* 48px */
+    line-height: 1;
+    /* 48px */
+    margin: 0 0 0.3333em;
+    /* 0 0 16px */
+  }
+}
+
 h2 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
   font-size: 1.5em;
   /* 24px */
   line-height: 1.1667;
@@ -540,12 +561,12 @@ h2 {
   letter-spacing: -0.0625rem;
   /* 1px */
   text-rendering: optimizeLegibility;
-  margin: 1.7778em 0 0.5em;
-  /* 32px 0 12px */
+  margin: 1.7778em 0 0.3333em;
+  /* 32px 0 8px */
 }
 
 h3 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   font-size: 1.25em;
   /* 20px */
@@ -601,10 +622,12 @@ hr {
 }
 
 hr::after {
-  content: "\25C6 \25C6 \25C6";
-  letter-spacing: 0.75rem;
-  /* 12px */
+  content: " ";
+  margin: 0 auto;
+  border-top: 1px solid #eee;
   height: 0;
+  width: 33%;
+  display: block;
 }
 
 @media print {
@@ -1082,7 +1105,7 @@ code,
 kbd,
 samp {
   color: #666;
-  font-family: "PT Mono", monospace;
+  font-family: "Source Code Pro", monospace;
   background-color: rgba(255,255,255,0.75);
 }
 
@@ -1133,7 +1156,7 @@ sup {
 }
 
 .search {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .search__result {
@@ -1146,14 +1169,12 @@ sup {
 }
 
 .nav--pagination .nav__item {
-  border-top: 1px dotted #aaa;
-  width: 50%;
+  border-top: 1px solid #eee;
   position: relative;
+  display: block;
 }
 
-.nav--pagination .nav__item--prev {
-  float: left;
-}
+
 
 .nav--pagination .nav__item--prev:before {
   content: "\2190\00A0";
@@ -1161,12 +1182,11 @@ sup {
   speak: none;
   position: absolute;
   left: -1em;
-  top: 0.75em;
+  top: 0.25em;
 }
 
 .nav--pagination .nav__item--next {
   text-align: right;
-  float: right;
 }
 
 .nav--pagination .nav__item--next:after {
@@ -1175,7 +1195,7 @@ sup {
   speak: none;
   position: absolute;
   right: -1em;
-  top: 0.75em;
+  top: 0.25em;
 }
 
 .nav--pagination .nav__item__label {
@@ -1185,8 +1205,8 @@ sup {
   /* 20px */
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 0.4286em;
-  /* 6px */
+  margin-bottom: 0.8571em;
+  /* 12px */
   display: block;
 }
 
@@ -1244,7 +1264,7 @@ sup {
 
 
 .section__title {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   font-size: 1.5em;
   /* 24px */
@@ -1262,14 +1282,14 @@ sup {
    ========================================================================== */
 
 .banner {
-  padding-bottom: 4em;
+  margin-bottom: 4em;
+  border-bottom: 1px solid #eee;
+  padding: 2em 0;
 }
 
 .banner__title {
-  font-style: italic;
   font-size: 1em;
   font-weight: 400;
-  text-transform: lowercase;
   letter-spacing: 0;
   margin: 0;
   position: relative;
@@ -1289,6 +1309,16 @@ sup {
   background-color: #eee;
 }
 
+.contentinfo small {
+  font-size: 1em;
+}
+
+.contentinfo__copyright,
+.contentinfo__feeds {
+  font-size: 80%;
+  text-align: center;
+}
+
 /* ==========================================================================
    Structure > Navigation
    ========================================================================== */
@@ -1296,29 +1326,41 @@ sup {
 .navigation {
   text-align: right;
   position: absolute;
-  top: 0;
+  top: 2em;
   right: 0;
   left: 0;
-  z-index: 0;
 }
 
-.nav--primary > .nav__item {
+.navigation .nav {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+@media screen and (min-width: 32em) {
+  .navigation .nav {
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .navigation .nav {
+    margin-right: 12%;
+    margin-left: 12%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .navigation .nav {
+    margin-right: 9.5em;
+    margin-left: 9.5em;
+  }
+}
+
+.navigation .nav > .nav__item {
   margin-left: 1em;
   padding: 0;
   display: inline-block;
-  position: relative;
-}
-
-.nav--primary .nav--secondary {
-  position: absolute;
-  top: 1.5em;
-  left: 0;
-}
-
-.nav--secondary > .nav__item {
-  font-weight: normal;
-  text-align: left;
-  display: block;
 }
 
 /*  =========================================================================
@@ -1455,14 +1497,21 @@ body {
 
 .grid {
   overflow: hidden;
-  margin: 0 -1.5em;
+  margin: 0 -1em;
 }
 
 .grid__item {
   display: block;
   float: left;
-  padding: 0 1.5em;
+  padding: 0 1em;
   width: 100%;
+}
+
+@media screen and (min-width: 32em) {
+  .section--elsewhere .grid__item,
+  .nav--pagination .grid__item {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 45em) {
@@ -1488,7 +1537,7 @@ body {
     ========================================================================= */
 
 .prose {
-  font-family: "PT Serif", serif;
+  font-family: "Source Serif Pro", serif;
   -webkit-font-feature-settings: "liga", "dlig", "onum";
   -moz-font-feature-settings: "liga", "dlig", "onum";
   font-feature-settings: "liga", "dlig", "onum";
@@ -1499,8 +1548,8 @@ body {
 
 @media screen and (min-width: 45em) {
   .prose {
-    /*-webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-size: 1.25em;
     /* 20px */
     line-height: 1.4;
@@ -1510,7 +1559,7 @@ body {
   .prose figcaption,
   .prose caption,
   .prose .footnotes {
-    font-family: "PT Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
     /* 16px */
     line-height: 1.25;
@@ -1519,7 +1568,7 @@ body {
 }
 
 .prose strong {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .prose figure > p,
