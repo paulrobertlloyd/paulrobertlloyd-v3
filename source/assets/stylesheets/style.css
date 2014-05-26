@@ -365,16 +365,10 @@ pre {
   hyphens: none;
   margin: 1em -0.5em;
   padding: 0 0.5em;
-  overflow: auto;
-}
-
-@media print {
-  pre {
-    overflow: visible;
-  }
 }
 
 blockquote {
+  color: #666;
   font-family: "Source Sans Pro", sans-serif;
   border-left: 0.25rem solid #eee;
   padding-left: 0.875rem;
@@ -416,6 +410,7 @@ nav ul {
 }
 
 dt {
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
 }
 
@@ -520,9 +515,31 @@ body {
   /* 16px */
   background-color: #fff;
   margin: 0 auto;
+  padding-right: 1em;
+  padding-left: 1em;
   position: relative;
-  /*    display: table;
-    caption-side: top;*/
+}
+
+@media screen and (min-width: 32em) {
+  body {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  body {
+    padding-right: 12%;
+    padding-left: 12%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  body {
+    padding-right: 9.5em;
+    padding-left: 9.5em;
+    max-width: 64em;
+  }
 }
 
 h1 {
@@ -553,32 +570,32 @@ h1 {
 
 h2 {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
-  /* 24px */
-  line-height: 1.1667;
-  /* 28px */
-  letter-spacing: -0.0625rem;
-  /* 1px */
-  text-rendering: optimizeLegibility;
-  margin: 1.7778em 0 0.3333em;
-  /* 32px 0 8px */
-}
-
-h3 {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   font-size: 1.25em;
   /* 20px */
   line-height: 1.2;
   /* 24px */
+  letter-spacing: -0.0625rem;
+  /* 1px */
   text-rendering: optimizeLegibility;
   margin: 2em 0 0.6em;
   /* 32px 0 12px */
 }
 
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.125em;
+  /* 18px */
+  line-height: 1.3333;
+  /* 24px */
+  text-rendering: optimizeLegibility;
+  margin: 1.7778em 0 0.6667em;
+  /* 32px 0 12px */
+}
+
 h4 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1em;
   /* 16px */
   line-height: 1.25;
@@ -1019,7 +1036,7 @@ hr::after {
 
 table {
   font-size: 1rem;
-  margin: 1.5em 0 1.5em -0.5em;
+  margin: 0.75em 0 0.75em -0.5em;
   /* 24px 0 24px -8px */
   border-collapse: collapse;
   border-spacing: 0;
@@ -1042,13 +1059,16 @@ th {
   text-align: left;
   vertical-align: top;
   border-bottom: 1px solid rgba(0,0,0,0.1);
-  padding: 0.25rem 2rem 0.25rem 0.5rem;
+  padding: 0.25em 1.5em 0.25em 0.5em;
   /* 4px 32px 4px 4px */
+  white-space: nowrap;
+  overflow-wrap: break-word;
 }
 
 th {
   line-height: 1.25;
   background-color: rgba(0,0,0,0.05);
+  padding-top: 0.75em;
 }
 
 @media print {
@@ -1104,15 +1124,11 @@ pre,
 code,
 kbd,
 samp {
-  color: #666;
   font-family: "Source Code Pro", monospace;
-  background-color: rgba(255,255,255,0.75);
 }
 
-code,
-kbd,
-samp {
-  padding: 0.125rem 0.25rem;
+code {
+  color: #000080;
 }
 
 pre code {
@@ -1307,6 +1323,36 @@ sup {
 
 .contentinfo {
   background-color: #eee;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding: 1em;
+}
+
+@media screen and (min-width: 32em) {
+  .contentinfo {
+    margin-right: -9.428571428571429%;
+    margin-left: -9.428571428571429%;
+    padding-right: 9.428571428571429%;
+    padding-left: 9.428571428571429%;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .contentinfo {
+    margin-right: -15.631578947368418%;
+    margin-left: -15.631578947368418%;
+    padding-right: 15.631578947368418%;
+    padding-left: 15.631578947368418%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .contentinfo {
+    margin-right: -23.294117647058822%;
+    margin-left: -23.294117647058822%;
+    padding-right: 23.294117647058822%;
+    padding-left: 23.294117647058822%;
+  }
 }
 
 .contentinfo small {
@@ -1364,67 +1410,35 @@ sup {
 }
 
 /*  =========================================================================
-    Containers
+    Charts - Converts tablular data into visual charts
     ========================================================================= */
 
-body {
-  padding-right: 1em;
-  padding-left: 1em;
+/* Horizontal bar chart */
+
+.chart--hbar {
+  width: 100%;
+  vertical-align: middle;
 }
 
-@media screen and (min-width: 32em) {
-  body {
-    padding-right: 8%;
-    padding-left: 8%;
-  }
+.chart--hbar th {
+  background: transparent;
 }
 
-@media screen and (min-width: 45em) {
-  body {
-    padding-right: 12%;
-    padding-left: 12%;
-  }
+.chart--hbar .chart__label {
+  width: 15%;
+  white-space: nowrap;
 }
 
-@media screen and (min-width: 64em) {
-  body {
-    padding-right: 9.5em;
-    padding-left: 9.5em;
-    max-width: 64em;
-  }
+.chart--hbar .chart__value {
+  width: 85%;
 }
 
-.contentinfo {
-  margin-right: -1em;
-  margin-left: -1em;
-  padding: 1em;
-}
-
-@media screen and (min-width: 32em) {
-  .contentinfo {
-    margin-right: -9.428571428571429%;
-    margin-left: -9.428571428571429%;
-    padding-right: 9.428571428571429%;
-    padding-left: 9.428571428571429%;
-  }
-}
-
-@media screen and (min-width: 45em) {
-  .contentinfo {
-    margin-right: -15.631578947368418%;
-    margin-left: -15.631578947368418%;
-    padding-right: 15.631578947368418%;
-    padding-left: 15.631578947368418%;
-  }
-}
-
-@media screen and (min-width: 64em) {
-  .contentinfo {
-    margin-right: -23.294117647058822%;
-    margin-left: -23.294117647058822%;
-    padding-right: 23.294117647058822%;
-    padding-left: 23.294117647058822%;
-  }
+.chart--hbar .chart__value--percent {
+  color: #666;
+  background-color: #eee;
+  padding: 0 0.5em;
+  display: block;
+  white-space: nowrap;
 }
 
 /*  =========================================================================
