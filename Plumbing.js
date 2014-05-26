@@ -10,14 +10,14 @@ module.exports = function(pipelines) {
         glob('source/_includes/**/*.pre.css'),
         concat('style'),
         myth('style'),
-        write('public/assets/stylesheets')
+        write('source/assets/stylesheets')
     ];
 
     pipelines['prod:css'] = [
-        glob('sources/_includes/**/*.pre.css'),
+        glob('source/_includes/**/*.pre.css'),
         concat('style'),
         myth('style'),
-        write('source/assets/stylesheets')
+        write('public/assets/stylesheets')
     ];
 
 };
