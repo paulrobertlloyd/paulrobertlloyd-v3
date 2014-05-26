@@ -77,7 +77,7 @@ module StaticRemarks
 
     # Get the full path to the directory containing the post files
     def containing_dir(source, dir)
-      return File.join(source, dir, "/_remarks")
+      return File.join(source, dir, "_remarks")
     end
 
     def remark_id
