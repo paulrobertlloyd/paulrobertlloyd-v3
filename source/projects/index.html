@@ -1,0 +1,7 @@
+---
+layout: index
+title: Projects
+---
+{% for summary in site.categories.projects | sort: 'date' %}
+    {% include articles/summary.html %}
+{% endfor %}

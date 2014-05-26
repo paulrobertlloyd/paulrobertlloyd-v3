@@ -1,0 +1,9 @@
+---
+layout: index
+title: Academic Essays
+---
+{% for summary in site.categories.essays | sort: 'date' %}
+    {% if summary.chapter-title == null %}
+        {% include articles/summary.html %}
+    {% endif %}
+{% endfor %}
