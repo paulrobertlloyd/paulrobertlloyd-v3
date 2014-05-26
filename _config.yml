@@ -1,18 +1,19 @@
 # Setup
 title: Paul Robert Lloyd
-url: http://paulrobertlloyd.dev
+url: http://paulrobertlloyd.com
+encoding: UTF-8
 
 # Meta
 author:
   name: Paul Robert Lloyd
-  url: http://paulrobertlloyd.com
-encoding: UTF-8
+  uri: http://paulrobertlloyd.com
+  twitter: "@paulrobertlloyd"
 
 # Permalinks
 permalink: /:year/:month/:title/
 
 # Pagination
-paginate: 10
+paginate: 12
 paginate_path: /journal/:num/
 
 # Archives
@@ -21,13 +22,12 @@ archive:
   title: :date
 
 # Syntax highlighting (see: https://github.com/navarroj/krampygs)
-markdown_ext: krampygs, typogruby
+markdown_ext: krampygs
 highlighter: pygments
 
 # Publishing
 source: source
 destination: public
-include: [_pages, .htaccess] # TODO - Convert .htaccess into nginx rewrites
 
 # Gems
 gems:
