@@ -1,0 +1,10 @@
+<section class="section section--articles grid__item" id="articles">
+    <h1 class="section__title">Writing</h1>
+    <ul class="list list--articles">
+    {% for article in site.data.articles %}
+        <li class="list__item">
+            {% include articles/article.html %}
+        </li>
+    {% endfor %}
+    </ul>
+</section>

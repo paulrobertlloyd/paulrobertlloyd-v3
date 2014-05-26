@@ -1,0 +1,10 @@
+<section class="section section--presentations grid__item" id="presentations">
+    <h1 class="section__title">Speaking</h1>
+    <ul class="list list--presentations">
+    {% for presentation in site.data.presentations %}
+        <li class="list__item">
+            {% include articles/presentation.html %}
+        </li>
+    {% endfor %}
+    </ul>
+</section>
