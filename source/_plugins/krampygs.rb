@@ -1,6 +1,5 @@
 require 'kramdown'
 require 'pygments'
-require 'typogruby'
 
 module Kramdown
   module Converter
@@ -61,7 +60,7 @@ module Jekyll
         :coderay_default_lang => @config['kramdown']['default_lang'],
         :input                => @config['kramdown']['input']
       }).to_pygs
-      return Typogruby.improve(html)
+      return html
     end
   end
 end

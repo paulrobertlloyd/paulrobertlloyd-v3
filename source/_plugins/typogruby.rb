@@ -1,18 +1,18 @@
-# http://bloerg.net/2013/03/03/typographic-improvements-for-jekyll.html
+#
+# Typographic improvements for Liquid templates (e.g. the templates used in
+# Jekyll). Put this file in the `_plugins` directory of your Jekyll project,
+#  and then use it like this:
+#
+#   {{ page.title | typeset }}
+
 require 'typogruby'
- 
+
 module Jekyll
-  class MarkdownConverter < Jekyll::Converter
-    def matches(ext)
-      ext =~ /^\.markdown$/i
-    end
-
-    def output_ext(ext)
-      ".html"
-    end
-
-    def convert(content)
-      return Typogruby.improve(Kramdown::Document.new(content).to_html)
+  module TypogrubyFilter
+    def typeset(input)
+      Typogruby.improve(input)
     end
   end
 end
+
+Liquid::Template.register_filter(Jekyll::TypogrubyFilter)
