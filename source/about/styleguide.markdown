@@ -7,7 +7,10 @@ style: |
   .example {
       outline: 1px dashed #ddd;
       margin: 0.75em -1em;
-      padding: 0.75em 1em 0;
+      padding: 0.75em 1em;
+  }
+  .example > * {
+      margin-bottom: 0;
   }
 ---
 This document is a guide to the mark-up styles used throughout the site. Parts of this markup guide are attributable to [Dave Shea](http://www.mezzoblue.com/), and licensed under [Creative Commons](http://creativecommons.org/licenses/by-sa/2.0/uk/){: rel="license"}.
@@ -307,8 +310,9 @@ Tables should be used when displaying tabular data. The `thead`, `tfoot` and `tb
 If you use these elements, you must use every element. They should appear in this order: `thead`, `tfoot` and `tbody`, so that browsers can render the foot before receiving all the data. You must use these tags within the table element.
 
 <div class="example" markdown="1">
+
 | The Very Best Eggnog           | Serves 12       | Serves 24 |
-|--------------------------------|-----------------|-----------|
+|--------------------------------+-----------------+-----------|
 | Milk                           | 1 quart         | 2 quart   |
 | Cinnamon Sticks                | 1               | 2         |
 | Vanilla Bean, Split            | 1               | 2         |
@@ -321,6 +325,7 @@ If you use these elements, you must use every element. They should appear in thi
 | Vanilla                        | 1 tbsp          | 2 tbsp    |
 | Half-and-half or Light Cream   | 1 quart         | 2 quart   |
 | Freshly grated nutmeg to taste |                             |
+
 </div>
 
 ## Forms
