@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: The Football Business
-date: '2004-07-27 12:00:00 +0100'
+date: '2004-07-27 18:21:14 +0100'
 excerpt: Understanding football's increasing commercialism, and its background.
 ---
 In 2002 I was deciding on a topic for which my Final Major Project was to revolve around. At this time ITV Digital was going into administration -- largely due to paying over the odds for Football League rights, and people were starting to question players increasing wages. I brought this book to give me a greater understanding of football's increasing commercialism, and its background.

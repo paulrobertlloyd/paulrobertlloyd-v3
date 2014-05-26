@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: Garden State
-date: '2004-12-23 12:00:00 +0000'
+date: '2004-12-23 18:21:14 +0000'
 excerpt: Never before have I waited with as much anticipation as I have for this film.
 discussion: closed
 post_id: 2004-12-23-garden_state

@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: It's a Small, Small World
-date: '2003-05-09 12:00:00 +0000'
+date: '2003-05-09'
 ---
 Wednesday saw me, Kris and John spending the day at Manchester's Trafford Center, watching me spend far to many dollars, before hooking up with Lee on the night in Wednesbury.
 

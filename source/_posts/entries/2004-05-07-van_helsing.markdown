@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Van Helsing
-date: '2004-05-07 12:00:54 +0100'
+date: '2004-05-07'
 excerpt: Your typical Transylvanian horror/action movie, but with some nice twists... and Kate Beckinsale!
 ---
 Your typical Transylvanian horror/action movie, but with some nice twists... and Kate Beckinsale!

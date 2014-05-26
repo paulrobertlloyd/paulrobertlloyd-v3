@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 2hrs 52mins -- the Great North Run, Ran
-date: '2003-09-21 12:00:30 +0000'
+date: '2003-09-21'
 ---
 After arriving in a wet and cold Durham on the Saturday night (but to a warm north-east welcome), things were not looking too good though for the Sunday. However the taxi-driver assured me that the bad weather was heading south.
 

@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: The Getaways
-date: '2003-01-24 12:00:00 +0000'
+date: '2003-01-24'
 ---
 The first Getaways gig of 2003 and the first gig I got to see since the bands name change. This time I also managed to catch the whole set (eight songs in total including a cover of Blondie's <cite>One Way Or Another</cite> which cost them £25 to perform!) and hear live their songs from the Demo <cite>She</cite>.
 

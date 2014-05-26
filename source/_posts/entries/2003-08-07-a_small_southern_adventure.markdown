@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: A Small Southern Adventure
-date: '2003-09-10 00:00:19 +0000'
+date: '2003-09-10'
 ---
 A few days spent down south.
 

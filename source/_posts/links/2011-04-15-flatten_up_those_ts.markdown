@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Flatten up Those T's
-date: '2011-04-15 12:00:00 +0100'
+date: '2011-04-15 18:21:13 +0100'
 link: http://markdotto.com/2011/04/15/fatten-up-those-ts/
 ---
 Invaluable advise from Twitter's Mark Otto:

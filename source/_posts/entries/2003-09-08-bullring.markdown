@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Bullring
-date: '2003-09-10 12:00:17 +0000'
+date: '2003-09-10'
 ---
 I went to the newly opened Bullring shopping center in Birmingham today, and I must say I was very impressed. To me, the city makes more sense now, like it's finally joined up.
 

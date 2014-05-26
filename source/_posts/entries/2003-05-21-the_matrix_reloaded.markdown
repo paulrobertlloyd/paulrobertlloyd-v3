@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'The Matrix: Reloaded'
-date: '2003-05-21 12:00:00 +0000'
+date: '2003-05-21'
 ---
 The first instalment of the Matrix amazed me in so many ways. Visually stunning and innovative film with an original and thought provoking story-line, and many regard it hardly. For any sequel this was a hard act to follow, and this film had a lot of high expectations laboured upon it.
 

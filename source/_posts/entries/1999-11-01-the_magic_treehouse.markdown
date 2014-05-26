@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Ooberman - The Magic Treehouse'
-date: '1999-11-01 12:00:00 +0000'
+date: '1999-11-01'
 ---
 I first heard of Ooberman in late 98 on the Mark Radcliffe Show when <cite>Shorley Wall</cite> was record of the week. It was like nothing I ever heard before, a song composed of pure emotion, but with a great tune and smashing lyrics to boot.
 

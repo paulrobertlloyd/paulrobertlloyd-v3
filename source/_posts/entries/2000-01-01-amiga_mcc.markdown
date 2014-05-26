@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: The AmigaMCC - Wasted Opportunity or Waste of Space?
-date: '2000-01-01 12:00:00 +0000'
+date: '2000-01-01'
 ---
 On the 16th July 1999, a Technology Brief -- outlining major disclosable concepts behind the AmigaMCC (Multimedia Convergence Computer) was released on Amiga's Inc's website alongside pictures of the MCC's case design.
 

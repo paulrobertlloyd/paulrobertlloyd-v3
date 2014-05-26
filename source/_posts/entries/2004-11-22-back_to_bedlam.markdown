@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: Back to Bedlam
-date: '2004-11-22 12:00:00 +0000'
+date: '2004-11-22 18:21:14 +0000'
 excerpt: It's only April, but I think I have already found the musical highlight of 2005, in the shape of 'Back to Bedlam', from James Blunt.
 discussion: closed
 post_id: 2004-11-22-back_to_bedlam

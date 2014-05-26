@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: A Big Northern Trip
-date: '2003-06-28 12:00:43 +0000'
+date: '2003-06-28'
 ---
 Two days up north.
 

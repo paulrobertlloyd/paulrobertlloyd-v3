@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: England v Leichenstein
-date: '2003-09-10 12:00:17 +0000'
+date: '2003-09-10'
 ---
 My first England game and what better place to watch it than at the theatre of dreams -- Old Trafford. The first half was quite a dull affair with the fans cheering the flight of paper planes onto the pitch rather than the players.
 

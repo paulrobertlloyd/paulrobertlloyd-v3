@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Steve Coogan: Live'
-date: '1999-11-01 12:00:00 +0000'
+date: '1999-11-01'
 ---
 In the summer of 1998 I was lucky enough to see <cite>Steve Coogan Live: The Man Who Thinks He's It</cite> at the Alexandra Theatre in Birmingham. I can safely say that it was one of the best nights out in my life.
 

@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: First Look at MacOS X, Apple's Next Generation OS
-date: '2000-03-01 12:00:00 +0000'
+date: '2000-03-01'
 ---
 _Views based on screenshots and details of Developer Preview 3_
 

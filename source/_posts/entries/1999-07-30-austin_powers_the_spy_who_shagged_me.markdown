@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Austin Powers: The Spy Who Shagged Me'
-date: '1999-09-11 12:00:00 +0000'
+date: '1999-09-11'
 ---
 "If you watch one film this summer, watch Star Wars" or so said the trailers for this, our second helping of Austin Powers.
 

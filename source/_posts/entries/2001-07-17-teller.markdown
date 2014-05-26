@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Teller'
-date: '2001-07-17 12:00:00 +0000'
+date: '2001-07-17'
 ---
 My first listen of the band playing live since the end of last summer, and also my first chance to hear live, some of the songs from the band's demo CD.
 

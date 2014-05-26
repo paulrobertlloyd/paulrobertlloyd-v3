@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Inter-store Match Report
-date: '2003-10-07 12:00:50 +0000'
+date: '2003-10-07'
 ---
 The inter-store football match has finally been played. Apparently Walsall had been training in the weeks leading up to this match -- but Bescot, with a team assembled on the same day trounced them 8-0!
 

@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Johnny English'
-date: '2003-04-06 12:00:00 +0000'
+date: '2003-04-06'
 ---
 Although totally predictable, this film is entertaining and endearing in its own way.
 

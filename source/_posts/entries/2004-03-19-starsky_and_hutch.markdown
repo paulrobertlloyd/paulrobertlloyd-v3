@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Starsky & Hutch
-date: '2004-03-22 12:00:07 +0100'
+date: '2004-03-22'
 excerpt: The latest comedy from Todd Phillips
 ---
 A couple of weeks before watching this film I watched Old School. Fully expecting a straight to video affair, I was immensely surprised.

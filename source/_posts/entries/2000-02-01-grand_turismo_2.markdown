@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Gran Turismo 2
-date: '2000-02-01 12:00:00 +0000'
+date: '2000-02-01'
 ---
 I was never a big fan of the first instalment of Gran Turismo; largely because my brother always wiped my memory card, removing my garage, the odd 'B' class licence and the small wad of cash I had built up. Arcade mode pissed me off too, becoming boring after just a few races. Marketed on its realism and its graphics, I always thought this was a little misplaced.
 

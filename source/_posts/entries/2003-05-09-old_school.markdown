@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Old School
-date: '2003-05-09 12:00:00 +0000'
+date: '2003-05-09'
 ---
 Not having heard of this film or even knowing of its release last year, I was persuaded to watch it on video, but fully expecting a dud. I was also not familiar at the time of the cast, however this can sometimes be helpful as it adds an extra level of realism and is easier to except the actors as the characters they are portraying.
 

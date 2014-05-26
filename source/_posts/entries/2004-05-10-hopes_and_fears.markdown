@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Hopes and Fears
-date: '2004-05-10 12:00:00 +0100'
+date: '2004-05-10'
 excerpt: Every year it seems one new band becomes the spotlight of the mainstream press and are touted as the next big thing with their debut album.
 ---
 Every year it seems one new band becomes the spotlight of the mainstream press and are touted as the next big thing with their debut album. Previous years have seen the emergence of The Darkness, Coldplay, Travis and Stereophonics in this manner, before not fading into obscurity, but certainly no longer the focus of such fascination.

@@ -2,7 +2,6 @@
 layout: entry
 origin: lloydyweb.com
 title: The Millennium Experience
-date: '1999-09-01 12:00:00 +0000'
 ---
 ![The Millennium Dome](/assets/images/1999/09/millennium_dome.jpg)
 

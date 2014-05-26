@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Stereophonics - Performance and Cocktails'
-date: '1999-09-14 12:00:00 +0000'
+date: '1999-09-14'
 ---
 The bands second album following their successful debut album <cite>Word Gets Around</cite> (V2, 1997). I have always liked their previous stuff such as <cite>Local Boy in the Photograph</cite> and <cite>A Thousand Trees</cite> but prior to the release of this album, and in particular the single <cite>Just Looking</cite>, I was never a big fan of the band.
 

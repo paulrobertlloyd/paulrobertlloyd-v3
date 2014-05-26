@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Brand Identity for Television: With Knobs On'
-date: '1999-09-11 12:00:00 +0000'
+date: '1999-09-11'
 ---
 I first saw this book when I was at the Barbican in London to see _Native Nations_ (an exhibition showing photography of American Indians taken by American photographers -- or something like that, I wasn't that interested) and when looking through the book shelves in their shop. In fact I was almost left behind as I was so engrossed in the book but the £45 price tag did made me choke a little. However I couldn't get the book out of my head, so ordered the book a few months later. I was glad I did.
 

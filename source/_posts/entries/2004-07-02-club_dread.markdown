@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Club Dread
-date: '2004-07-02 12:00:00 +0100'
+date: '2004-07-02'
 excerpt: As let downs go, this may be up there.
 ---
 ![Scene from Club Dread](/assets/images/2004/07/club_dread.jpg)

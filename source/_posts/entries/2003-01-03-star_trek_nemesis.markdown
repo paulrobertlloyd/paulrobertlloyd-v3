@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Star Trek: Nemesis'
-date: '2003-01-03 12:00:00 +0000'
+date: '2003-01-03'
 ---
 Apparently it is a well known fact that every evenly numbered Star Trek movie is worthy of watching.
 

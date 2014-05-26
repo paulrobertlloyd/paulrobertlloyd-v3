@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'The Lord of the Rings: The Return of the King'
-date: '2003-12-11 14:23:47 +0100'
+date: '2003-12-11'
 excerpt: So finally we reach the final part of this much acclaimed trilogy, but conceivably its at this point that the adaptation would either succeed or fail. Unlikely given the quality of the previous two films but a possibility none the less.
 ---
 So finally we reach the final part of this much acclaimed trilogy, but conceivably its at this point that the adaptation would either succeed or fail. Unlikely given the quality of the previous two films but a possibility none the less.

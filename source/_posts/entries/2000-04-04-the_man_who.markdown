@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'Travis - The Man Who'
-date: '2000-04-04 12:00:00 +0000'
+date: '2000-04-04'
 ---
 One of the great successes of last year was Travis. Like most people I had heard of the band before, mainly because of their first major success in the form of <cite>Tied to the Nineties</cite> from the last album <cite>Good Feeling</cite> and also as a support band at some Oasis gigs.
 

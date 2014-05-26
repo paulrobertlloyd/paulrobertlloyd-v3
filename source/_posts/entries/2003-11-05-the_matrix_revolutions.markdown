@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: 'The Matrix: Revolutions'
-date: '2003-11-05 12:00:00 +0100'
+date: '2003-11-05'
 excerpt: Every film released now days is part of a trilogy as part of obvious marketing exercises and you do wonder weather the Matrix falls into this category.
 ---
 So here we are -- the conclusion of the Matrix Trilogy. Of course every film released now days is part of a trilogy as part of obvious marketing exercises and you do wonder weather the Matrix falls into this category.

@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: The Island
-date: '2005-08-12 12:00:00 +0100'
+date: '2005-08-12 18:21:14 +0100'
 excerpt: A film about tomorrows dangers of human cloning, or advertising space for today's technology corporations?
 discussion: closed
 post_id: 2005-08-12-the_island

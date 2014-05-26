@@ -2,7 +2,7 @@
 layout: entry
 origin: lloydyweb.com
 title: Shaun of the Dead
-date: '2004-04-10 14:58:38 +0100'
+date: '2004-04-10'
 excerpt: I was not too desperate to see this film, but I was convinced by the good press.
 ---
 I was not too desperate to see this film, but I was convinced by the good press. That and the fact it's from the same people that brought spaced to Channel 4, and I did enjoy those episodes of Spaced that I managed to catch.
