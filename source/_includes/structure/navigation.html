@@ -1,53 +1,11 @@
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 <nav class="navigation" role="navigation" id="menu">
     <ul class="nav nav--primary">
-    {% if location == 'journal' %}
-        <li class="nav__item is-active"><a href="/journal/">Journal</a>
-            <ul class="nav nav--secondary">
-                <li class="nav__item"><a href="/journal/archive/">Archive</a></li>
-            </ul>
-        </li>
-    {% else %}
-        <li class="nav__item"><a href="/journal/">Journal</a></li>
-    {% endif %}
-
-    {% if location == 'work' or location == 'projects' or location == 'essays' %}
-        <li class="nav__item is-active"><a href="/work/">Work</a>
-            <ul class="nav nav--secondary">
-                <li class="nav__item"><a href="/projects/">Projects</a></li>
-                <li class="nav__item"><a href="/essays/">Academic Essays</a></li>
-            </ul>
-        </li>
-    {% else %}
-        <li class="nav__item"><a href="/work/">Work</a></li>
-    {% endif %}
-
-    {% if location == 'photos' %}
-        <li class="nav__item is-active"><a href="/photos/">Photos</a>
-            <ul class="nav nav--secondary">
-                <li class="nav__item"><a href="/#/">Albums</a></li>
-                <li class="nav__item"><a href="/#/">Collections</a></li>
-            </ul>
-        </li>
-    {% else %}
-        <li class="nav__item"><a href="/photos/">Photos</a></li>
-    {% endif %}
-
-    {% if location == 'about' %}
-        <li class="nav__item is-active"><a href="/about/">About</a>
-            <ul class="nav nav--secondary">
-                <li class="nav__item"><a href="/about/colophon">Colophon</a></li>
-                <li class="nav__item"><a href="/about/styleguide">Styleguide</a></li>
-            </ul>
-        </li>
-    {% else %}
-        <li class="nav__item"><a href="/about/">About</a></li>
-    {% endif %}
-
-    {% if location == 'contact' %}
-        <li class="nav__item is-active"><a href="/contact/">Contact</a></li>
-    {% else %}
-        <li class="nav__item"><a href="/contact/">Contact</a></li>
-    {% endif %}
+        <li class="nav__item{% if location == 'journal' %} is-active{% endif %}"><a href="/journal/">Journal</a>
+        <li class="nav__item{% if location == 'archive' %} is-active{% endif %}"><a href="/archive/">Archive</a></li>
+        <li class="nav__item{% if location == 'work' or location == 'projects' or location == 'essays' %} is-active{% endif %}"><a href="/work/">Work</a></li>
+        <li class="nav__item{% if location == 'photos' %} is-active{% endif %}"><a href="/photos/">Photos</a></li>
+        <li class="nav__item{% if location == 'about' %} is-active{% endif %}"><a href="/about/">About</a></li>
+        <li class="nav__item{% if location == 'contact' %} is-active{% endif %}"><a href="/contact/">Contact</a></li>
     </ul>
 </nav><!--/@navigation-->

@@ -3,13 +3,13 @@ layout: default
 ---
 <article class="article article--link">
     <header class="article__header">
-        <h1 class="article__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
+        <h1 class="article__title">{{ page.title | typeset }}</h1>
     </header>
 
     <div class="article__main prose">
         {% if page.embed %}{% oembed {{ page.link }} %}{% endif %}
 
-        {{ content }}
+        {{ content | typeset }}
 
         <p><a href="{{ page.link }}">Visit this link</a></p>
     </div>
@@ -20,4 +20,3 @@ layout: default
 </article>
 
 {% include sections/discussion.html %}
-{% include navigation/nav--pagination.html %}

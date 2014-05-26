@@ -1,20 +1,19 @@
 ---
-layout: default
+layout: index
 title: Work
 ---
-<section class="index index--work">
-    <header class="index__header">
-        <h1 class="index__title">Work</h1>
-    </header>
+<section class="section section--projects" id="projects">
+    <h1 class="section__title"><a href="/projects/">Projects</a></h1>
+    {% for summary in site.categories.projects | sort: 'date' %}
+        {% include articles/summary.html %}
+    {% endfor %}
+</section>
 
-{% for collection in site.collections %}
-    <section class="section section--collection">
-        <h1 class="section__title"><a href="{{ collection.label }}">{{ collection.title }}</a></h1>
-        <ul class="list list--documents">
-        {% for doc in collection.docs %}
-            <li class="list__item"><a href="{{ doc.url }}">{{ doc.title }}</a> <time datetime="{{ doc.date | date_to_xmlschema }}">{{ doc.date | date: "%e %B %Y" }}</time></li>
-        {% endfor %}
-        </ul>
-    </section>
-{% endfor %}
+<section class="section section--essays" id="essays">
+    <h1 class="section__title"><a href="/essays/">Academic Essays</a></h1>
+    {% for summary in site.categories.essays | sort: 'date' %}
+        {% if summary.chapter-title == null %}
+            {% include articles/summary.html %}
+        {% endif %}
+    {% endfor %}
 </section>

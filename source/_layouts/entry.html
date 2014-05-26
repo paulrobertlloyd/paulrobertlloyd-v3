@@ -3,11 +3,11 @@ layout: default
 ---
 <article class="article article--entry">
     <header class="article__header">
-        <h1 class="article__title">{{ page.title | ampersand | replace: " '"," &#8216;" | replace: "'","&#8217;" }}</h1>
+        <h1 class="article__title">{{ page.title | typeset }}</h1>
     </header>
 
     <div class="article__main prose">
-        {{ content | markdownify }}
+        {{ content | typeset }}
     </div>
 
     <footer class="article__footer">
