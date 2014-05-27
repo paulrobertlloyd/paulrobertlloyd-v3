@@ -2,7 +2,7 @@
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01'
-chapters: true
+chapter: 9
 chapter-title: 'Updating the Brands: ITV'
 permalink: /essays/dissertation/updating_the_brands_itv/
 tags: [Dissertation]

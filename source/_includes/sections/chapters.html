@@ -1,12 +1,14 @@
+{% if page.chapter %}
 <section class="section section--chapters" id="chapters">
     <h1 class="section__title">Chapters</h1>
-    <ul class="nav nav--chapters">
-    {% for document in site.posts reversed %}
-        {% for tag in document.tags %}
+    <ol class="nav nav--chapters">
+    {% for post in site.posts reversed %}
+        {% for tag in post.tags %}
             {% if page.tags contains tag %}
-                <li class="nav__item{% if page.permalink == document.url %} is-active{% endif %}"><a href="{{ document.url }}">{% if document.chapter-title %}{{ document.chapter-title }}{% else %}Introduction{% endif %}</a></li>
+                <li class="nav__item{% if page.permalink == post.url %} is-active{% endif %}"><a href="{{ post.url }}">{% if post.chapter-title %}{{ post.chapter-title }}{% else %}Introduction{% endif %}</a></li>
             {% endif %}
         {% endfor %}
     {% endfor %}
-    </ul>
+    </ol>
 </section>
+{% endif %}

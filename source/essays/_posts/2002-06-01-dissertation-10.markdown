@@ -2,7 +2,7 @@
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01'
-chapters: true
+chapter: 10
 chapter-title: Multi-Channel Competition
 permalink: /essays/dissertation/multichannel_competition/
 tags: [Dissertation]

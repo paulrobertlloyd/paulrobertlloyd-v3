@@ -2,7 +2,7 @@
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01'
-chapters: true
+chapter: 8
 chapter-title: 'Updating the Brands: BBC'
 permalink: /essays/dissertation/updating_the_brands_bbc/
 tags: [Dissertation]

@@ -2,7 +2,7 @@
 layout: essay
 title: Early Graphic Design in Television
 date: '1999-03-01'
-chapters: true
+chapter: 3
 chapter-title: Growth & Evolution
 permalink: /essays/early_graphic_design_in_television/growth_evolution/
 tags: [Early Graphic Design in Television]

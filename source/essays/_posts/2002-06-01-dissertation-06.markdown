@@ -2,7 +2,7 @@
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01'
-chapters: true
+chapter: 6
 chapter-title: Give Me 5
 permalink: /essays/dissertation/give_me_5/
 tags: [Dissertation]

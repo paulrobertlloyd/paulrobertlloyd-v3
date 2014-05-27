@@ -2,7 +2,7 @@
 layout: essay
 title: Early Graphic Design in Television
 date: '1999-03-01'
-chapters: true
+chapter: 2
 chapter-title: A New Medium is Born
 permalink: /essays/early_graphic_design_in_television/a_new_medium_is_born/
 tags: [Early Graphic Design in Television]

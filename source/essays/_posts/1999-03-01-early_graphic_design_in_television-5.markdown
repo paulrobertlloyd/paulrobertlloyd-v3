@@ -2,7 +2,7 @@
 layout: essay
 title: Early Graphic Design in Television
 date: '1999-03-01'
-chapters: true
+chapter: 5
 chapter-title: Computer Revolution
 permalink: /essays/early_graphic_design_in_television/computer_revolution/
 tags: [Early Graphic Design in Television]
