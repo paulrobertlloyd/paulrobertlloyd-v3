@@ -1,5 +1,5 @@
 <article class="summary summary--{{ summary.layout }}">
-    {% if summary.layout != "photo" %}
+    {% if summary.embed != "photo" %}
     <header class="summary__header">
         {% if summary.layout == "link" %}
         <h1 class="summary__title"><a href="{{ summary.link }}">{{ summary.title | typeset }}&nbsp;&#8594;</a></h1>
@@ -10,7 +10,7 @@
     {% endif %}
 
     <div class="summary__main">
-    {% if summary.layout == "photo" %}
+    {% if summary.embed == "photo" %}
         {% oembed {{ summary.link }} %}
     {% endif %}
 
@@ -26,7 +26,7 @@
     </div>
 
     <footer class="summary__footer">
-    {% if summary.layout == "link" or summary.layout == "photo" %}
+    {% if summary.layout == "link" %}
         <abbr class="summary__permalink" title="Permalink"><a href="{{ summary.url }}" rel="bookmark">#</a></abbr>
     {% elsif summary.layout == "entry" %}
         <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>

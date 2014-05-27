@@ -3,6 +3,7 @@ layout: essay
 title: FC/plc
 date: '2002-05-01'
 excerpt: This was written during the research stage of my final major degree project. It's not intended to be authoritative, yet I feel it is still informative, and highlights a few issues and historical facts I never knew about football and the business it's become.
+permalink: /essays/fcplc/
 ---
 ## Football Becomes Big Business
 Football is often regarded as the people's game but it was in public schools and universities that the modern game was developed. A game that can trace its roots as far back to the fourteenth century where opposing villages and towns battled over an inflated bladder, fighting and maiming each other as players raged through the streets. The nineteenth century saw games with rudimentary sets of rules regarding taking and attacking opposing villages territory -- these being the 'goal'. The industrial revolution, the formation of a police force and the shift of people into the cities saw the end to these games.

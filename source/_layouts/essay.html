@@ -7,19 +7,10 @@ layout: default
         {% if page.chapter-title %}
         <h2>{{ page.chapter-title }}</h2>
         {% endif %}
-
-        {% if page.chapter-title == null %}
-        <nav class="nav nav--traverse">
-        {% assign previous = page.previous %}
-            {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title | typeset }}">Previous entry</a>{% endif %}
-        {% assign next = page.next %}
-            {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title | typeset }}">Next entry</a>{% endif %}
-        </nav>
-        {% endif %}
     </header>
 
     <div class="article__main prose">
-        {{ content | typeset }}
+        {{ content | typeset | widont }}
     </div>
 
     <footer class="article__footer">

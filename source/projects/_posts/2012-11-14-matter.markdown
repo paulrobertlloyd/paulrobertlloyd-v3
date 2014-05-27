@@ -2,7 +2,8 @@
 layout: project
 title: Matter
 date: '2012-11-14'
-excerpt: A beautiful reading experience for this independent publisher of unmissable journalism about science and technology.
+excerpt: A beautiful reading experience for publisher of unmissable journalism.
+permalink: /projects/matter/
 ---
 {% figure Identity development sketches %}
 ![](/assets/images/projects/matter/0.jpg)

@@ -2,7 +2,8 @@
 layout: project
 title: University of Wales
 date: '2009-10-29'
-excerpt: A confederal university responsible for accrediting degrees for institutions in Wales as well as for courses provided overseas.
+excerpt: An extensible design language for international university.
+permalink: /projects/university_of_wales/
 ---
 {% figure Home page %}
 ![](/assets/images/projects/university_of_wales/0.jpg)

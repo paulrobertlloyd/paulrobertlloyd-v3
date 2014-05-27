@@ -2,7 +2,8 @@
 layout: project
 title: The Week
 date: '2011-11-18'
-excerpt: The Week magazine condenses the news into lively and informative editorial, giving you complete understanding and insight into the week's most vital stories.
+excerpt: Award-winning tablet design for popular current affairs magazine.
+permalink: /projects/the_week/
 ---
 {% figure The Week iPad Edition %}
 ![](/assets/images/projects/the_week/0.jpg)

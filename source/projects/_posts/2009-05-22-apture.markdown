@@ -2,7 +2,8 @@
 layout: project
 title: Apture
 date: '2009-05-22'
-excerpt: A set of tools for publishers that help them provide instantaneous access to information with award-winning in-page search technology.
+excerpt: Designing a powerful publishing tool for the web's content creators.
+permalink: /projects/apture/
 ---
 {% figure Apture logo %}
 ![](/assets/images/projects/apture/0.jpg)

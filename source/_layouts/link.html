@@ -9,9 +9,9 @@ layout: default
     <div class="article__main prose">
         {% if page.embed %}{% oembed {{ page.link }} %}{% endif %}
 
-        {{ content | typeset }}
+        {{ content | typeset | widont }}
 
-        <p><a href="{{ page.link }}">Visit this link</a></p>
+        {% if page.embed == null %}<p><a class="btn" href="{{ page.link }}">Visit this link</a></p>{% endif %}
     </div>
 
     <footer class="article__footer">

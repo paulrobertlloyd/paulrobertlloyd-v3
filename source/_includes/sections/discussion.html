@@ -1,7 +1,7 @@
 {% if page.discussion %}
     <section class="section section--remarks" id="remarks">
     {% if page.discussion == "open" %}
-        <a href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a>
+        <p><a class="btn" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a></p>
     {% endif %}
 
     {% if page.remark_count >= 1 %}

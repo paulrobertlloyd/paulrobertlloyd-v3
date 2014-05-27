@@ -4,9 +4,19 @@ title: Work
 ---
 <section class="section section--projects" id="projects">
     <h1 class="section__title"><a href="/projects/">Projects</a></h1>
+    <div class="grid">
     {% for summary in site.categories.projects | sort: 'date' %}
-        {% include articles/summary.html %}
+        <article class="summary summary--project grid__item">
+            <header class="summary__header">
+                <h1 class="summary__title"><a href="{{ summary.url }}">{{ summary.title }}</a></h1>
+            </header>
+
+            <div class="summary__main">
+                {{ summary.excerpt }}
+            </div>
+        </article>
     {% endfor %}
+    </div>
 </section>
 
 <section class="section section--essays" id="essays">

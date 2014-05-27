@@ -2,7 +2,8 @@
 layout: project
 title: BookFHR
 date: '2009-11-24'
-excerpt: Discounts on airport hotels, parking and lounges and other travel services in the UK.
+excerpt: Visual and user experience design for provider of travel services
+permalink: /projects/bookfhr/
 ---
 {% figure Home page %}
 ![](/assets/images/projects/bookfhr/0.jpg)

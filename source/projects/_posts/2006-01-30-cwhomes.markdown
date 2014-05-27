@@ -2,7 +2,8 @@
 layout: project
 title: cwhomes.co.uk
 date: '2006-01-30'
-excerpt: A property portal bringing together the combined resources of over sixty independent estate agency offices within Coventry and Warwickshire.
+excerpt: Property portal for independent estate agents in Coventry and Warwickshire.
+permalink: /projects/cwhomes/
 ---
 {% figure Home page %}
 ![](/assets/images/projects/cwhomes/0.jpg)

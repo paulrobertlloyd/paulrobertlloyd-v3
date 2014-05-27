@@ -2,7 +2,8 @@
 layout: project
 title: Groopix
 date: '2008-08-22'
-excerpt: An online tool that allows users to easily curate and print group based photo albums.
+excerpt: A tool for curating and printing group-based photo albums.
+permalink: /projects/groopix/
 ---
 {% figure Logo %}
 ![](/assets/images/projects/groopix/0.jpg)

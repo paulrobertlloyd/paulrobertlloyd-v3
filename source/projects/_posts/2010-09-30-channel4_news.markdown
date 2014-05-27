@@ -2,7 +2,8 @@
 layout: project
 title: Channel 4 News
 date: '2010-09-30'
-excerpt: In collaboration with James Box, James Bates and Cathy Jones, I helped design an innovative and bold website, reflecting the programmes branding and Channel 4's public remit.
+excerpt: Reinventing Channel 4's news presence across web, tablet and mobile.
+permalink: /projects/channel4_news/
 ---
 {% figure Home page %}
 ![](/assets/images/projects/channel4_news/0.jpg)

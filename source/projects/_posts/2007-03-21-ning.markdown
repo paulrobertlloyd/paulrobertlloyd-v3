@@ -2,7 +2,8 @@
 layout: project
 title: Ning
 date: '2007-03-21'
-excerpt: An online platform that allows people to create, customise and share their own social networks.
+excerpt: Destinctive design for customisable social media platform.
+permalink: /projects/ning/
 ---
 {% figure Ning logo %}
 ![](/assets/images/projects/ning/0.jpg)

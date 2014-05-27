@@ -2,7 +2,8 @@
 layout: project
 title: Waldo Pancake
 date: '2011-02-09'
-excerpt: A designer, illustrator and copywriter whose work you can find on the side of juice bottles, sweet packets and in Puccino's coffee shops.
+excerpt: A new home for Jim Smith, purveyor of the funniest coffee cups.
+permalink: /projects/waldo_pancake/
 ---
 {% figure The Waldo Pancake website %}
 ![](/assets/images/projects/waldo_pancake/0.jpg)

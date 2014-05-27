@@ -2,7 +2,8 @@
 layout: project
 title: Fontdeck
 date: '2010-11-30'
-excerpt: A pure CSS @font-face solution providing hundreds of fonts that can be used on the web without the need for complicated and non-standard based text replacement techniques.
+excerpt: Destinctive look for professional web font service.
+permalink: /projects/fontdeck/
 ---
 {% figure Home page %}
 ![](/assets/images/projects/fontdeck/0.jpg)

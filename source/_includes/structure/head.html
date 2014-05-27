@@ -8,8 +8,8 @@
     </script>
 
     <link rel="alternate"  href="/feed.xml" type="application/atom+xml" title="RSS Feed"/>
-    <link rel="canonical" href="{{ page.url }}" />
-    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+    <link rel="canonical" href="{{ page.url }}"/>
+    <link rel="stylesheet" href="/assets/stylesheets/style.css"/>
 
 {% if page.style %}
      <style type="text/css">
@@ -23,12 +23,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 {% if page.layout != "index" %}
-    <meta name="twitter:site" content="@paulrobertlloyd" />
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
-    <meta name="twitter:creator" content="@paulrobertlloyd" />
-    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}" />{% endif %}
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@paulrobertlloyd"/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
+    <meta name="twitter:creator" content="@paulrobertlloyd"/>
+    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}"/>{% endif %}
+    <meta name="twitter:card" content="summary"/>
 {% endif %}
 
 {% if page.title == "Home" %}

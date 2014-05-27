@@ -2,7 +2,8 @@
 layout: project
 title: Universal Networks
 date: '2010-05-03'
-excerpt: Design for a family of five sites representing NBCUniversal's international channel portfolio.
+excerpt: Design for NBCUniversal's international channel portfolio.
+permalink: /projects/universal_networks/
 ---
 {% figure Syfy Universal home page %}
 ![](/assets/images/projects/universal_networks/0.jpg)

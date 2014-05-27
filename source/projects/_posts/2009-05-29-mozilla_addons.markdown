@@ -2,7 +2,8 @@
 layout: project
 title: Mozilla Add-ons
 date: '2009-05-29'
-excerpt: A catalogue of more than 6,000 add-ons that allow users to customise Firefox to suit their different interests and browsing needs.
+excerpt: Introducing browser add-ons to a more mainstream audience.
+permalink: /projects/mozilla_addons/
 ---
 {% figure Home page %}
 ![](/assets/images/projects/mozilla_addons/0.jpg)

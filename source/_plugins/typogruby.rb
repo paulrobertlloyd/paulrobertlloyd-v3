@@ -8,11 +8,14 @@
 require 'typogruby'
 
 module Jekyll
-  module TypogrubyFilter
+  module TypesetFilter
     def typeset(input)
-      Typogruby.improve(input)
+      Typogruby.amp(input)
+      Typogruby.caps(input)
+      Typogruby.entities(input)
+      Typogruby.smartypants(input)
     end
   end
 end
 
-Liquid::Template.register_filter(Jekyll::TypogrubyFilter)
+Liquid::Template.register_filter(Jekyll::TypesetFilter)

@@ -2,7 +2,8 @@
 layout: project
 title: nGenera Corporation
 date: '2008-04-25'
-excerpt: An integrated platform of on demand technology, expert advisory and innovative business research that helps corporations and governments to transform themselves into Next-Generation Enterprises.
+excerpt: Rebrand for integrated platform of on demand enterprise technology.
+permalink: /projects/ngenera/
 ---
 {% figure nGenera logo with tagline lock-up %}
 ![](/assets/images/projects/ngenera/0.jpg)

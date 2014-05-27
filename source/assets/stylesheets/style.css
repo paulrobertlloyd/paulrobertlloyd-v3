@@ -1172,6 +1172,19 @@ sup {
   top: -0.5em;
 }
 
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.btn {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #3D8;
+  background-image: none;
+  padding: 0.5em;
+  display: block;
+}
+
 .search {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -1523,6 +1536,10 @@ sup {
 }
 
 @media screen and (min-width: 32em) {
+  .section--projects .grid__item {
+    width: 25%;
+  }
+
   .section--elsewhere .grid__item,
   .nav--pagination .grid__item {
     width: 50%;

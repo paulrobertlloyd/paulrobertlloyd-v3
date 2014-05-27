@@ -2,7 +2,8 @@
 layout: project
 title: dConstruct 2010
 date: '2010-09-01'
-excerpt: A grassroots conference held annually in Brighton. Speakers at the 2010 edition were invited to explore the power of design thinking.
+excerpt: Collaborative design for grassroots digital conference.
+permalink: /projects/dconstruct_2010/
 ---
 {% figure %}
 ![Home page](/assets/images/projects/dconstruct_2010/0.jpg)
