@@ -133,6 +133,32 @@
   display: block;
 }
 
+/* Article/presentation summary */
+
+.summary--article,
+.summary--presentation {
+  margin: 0 0 1em 0;
+}
+
+.summary--article .summary__title,
+.summary--presentation .summary__title {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 700;
+  font-size: 1em;
+  /* 48px */
+  line-height: 1;
+  /* 48px */
+}
+
+.summary--article .summary__meta,
+.summary--presentation .summary__meta {
+  color: #666;
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.1429;
+  /* 16px */
+}
+
 /*  =========================================================================
     Disabled elements
     http://developers.whatwg.org/links.html#disabled-elements
