@@ -48,7 +48,6 @@ end
 #
 
 module StaticRemarks
-
   class StaticRemark
     include Jekyll::Convertible
 
@@ -120,5 +119,4 @@ module StaticRemarks
     end
     remarks
   end
-
 end
