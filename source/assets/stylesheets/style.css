@@ -1566,6 +1566,10 @@ sup {
     width: 25%;
   }
 
+  .section--projects .grid__item:nth-child(4n+1) {
+    clear: left;
+  }
+
   .section--elsewhere .grid__item,
   .nav--pagination .grid__item {
     width: 50%;
