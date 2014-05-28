@@ -15,9 +15,9 @@
     {% endif %}
 
     {% if summary.layout == "link" %}
-        {{ summary.content | typeset }}
+        {{ summary.content | typeset | widont }}
     {% elsif summary.excerpt != null %}
-        {{ summary.excerpt | typeset }}
+        {{ summary.excerpt | typeset | widont  }}
     {% endif %}
 
     {% if summary.layout == "entry" %}

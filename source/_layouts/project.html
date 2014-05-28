@@ -4,13 +4,6 @@ layout: default
 <article class="article article--project">
     <header class="article__header">
         <h1 class="article__title">{{ page.title | typeset }}</h1>
-        <nav class="nav nav--traverse">
-            {% assign previous = page.previous %}
-            {% if previous.url %}<a rel="prev bookmark" href="{{ previous.url }}" title="{{ previous.title | typeset }}">Previous entry</a>{% endif %}
-
-            {% assign next = page.next %}
-            {% if next.url %}<a rel="next bookmark"  href="{{ next.url }}" title="{{ next.title | typeset }}">Next entry</a>{% endif %}
-        </nav>
     </header>
 
     <div class="article__main prose">

@@ -4,7 +4,7 @@ title: Archive
 ---
 <section class="index index--archive">
     <header class="index__header">
-        <h1 class="index__title">{{ page.title | ampersand | replace: "'","&#8217;" }}</h1>
+        <h1 class="index__title">{{ page.title | typeset }}</h1>
     </header>
 
     {% for post in site.posts %}
@@ -21,7 +21,7 @@ title: Archive
             <ol class="list list--entries" reversed>
         {% endif %}
 
-                {% if post.chapter-title == null %}<li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | ampersand | replace: "'","&#8217;" }}</a></li>{% endif %}
+                {% if post.chapter-title == null %}<li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | typeset }}</a></li>{% endif %}
 
         {% if forloop.last %}
             </ol>

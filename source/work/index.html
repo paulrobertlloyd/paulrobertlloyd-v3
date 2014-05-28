@@ -8,11 +8,11 @@ title: Work
     {% for summary in site.categories.projects | sort: 'date' %}
         <article class="summary summary--project grid__item">
             <header class="summary__header">
-                <h1 class="summary__title"><a href="{{ summary.url }}">{{ summary.title }}</a></h1>
+                <h1 class="summary__title"><a href="{{ summary.url }}">{{ summary.title | typeset }}</a></h1>
             </header>
 
             <div class="summary__main">
-                {{ summary.excerpt }}
+                {{ summary.excerpt | typeset }}
             </div>
         </article>
     {% endfor %}
