@@ -1,11 +1,19 @@
 GIT
+  remote: git://github.com/avdgaag/typogruby.git
+  revision: c52f4b330ed3e596220b69cf4d23b4e5168b1408
+  specs:
+    typogruby (1.0.16)
+      rubypants
+
+GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 8d65c9c92f787441f770c3e921b9b2264b373256
+  revision: 3893004f5e30ca4053d3bdd8407cf3519eddd66b
   specs:
     jekyll (2.0.3)
       classifier (~> 1.3)
       colorator (~> 0.1)
       jekyll-coffeescript (~> 1.0)
+      jekyll-paginate (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       kramdown (~> 1.3)
       liquid (~> 2.5.5)
@@ -15,13 +23,6 @@ GIT
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-
-GIT
-  remote: git://github.com/paulrobertlloyd/typogruby.git
-  revision: 5d79f223ee2ce09f9ce196dd09aed6a355d09543
-  specs:
-    typogruby (1.0.16)
-      rubypants
 
 GEM
   remote: https://rubygems.org/
@@ -36,11 +37,12 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     colorator (0.1)
-    execjs (2.0.2)
+    execjs (2.1.0)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
     jekyll-coffeescript (1.0.0)
       coffee-script (~> 2.2)
+    jekyll-paginate (1.0.0)
     jekyll-sass-converter (1.0.0)
       sass (~> 3.2)
     jekyll-sitemap (0.4.1)

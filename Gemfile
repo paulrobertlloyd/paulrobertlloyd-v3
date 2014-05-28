@@ -10,6 +10,6 @@ gem 'jekyll',
     :git => 'git://github.com/jekyll/jekyll.git'
 gem 'jekyll-sitemap'
 gem 'typogruby',
-    :git => 'git://github.com/paulrobertlloyd/typogruby.git'
+    :git => 'git://github.com/avdgaag/typogruby.git'
 gem 'ruby-oembed'
 gem 'xml-simple'
