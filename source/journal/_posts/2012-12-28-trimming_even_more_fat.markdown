@@ -33,11 +33,11 @@ In addition to these changes, refactoring the remaining styles meant the new CSS
         </tr>
         <tr>
             <td class="chart__abel">Before (CSS+JS+SVG)</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:100%;">11.47 kB &#160; (3)</span></td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:100%;">11.47 kB  (3)</span></td>
         </tr>
         <tr>
             <td class="chart__label">After (CSS only)</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:93.80%;">10.76 kB &#160; (1)</span></td>
+            <td class="chart__value"><span class="chart__value--percent" style="width:93.80%;">10.76 kB  (1)</span></td>
         </tr>
     </tbody>
 </table>

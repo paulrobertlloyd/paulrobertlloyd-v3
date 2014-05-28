@@ -36,7 +36,7 @@ Aware of Britain's identity problem, the Design Council assembled a discussion g
 
 It was published on the day the Labour Party came into power. This was a party that had seen the benefits of its own 'New Labour' rebranding exercise, winning the general election with a commanding majority. If any government was going to take notice of this reports findings, it would be this one.
 
-The Design Council commissioned Demos to produce a report on how we might rethink our nations identity. The Mark Leonard authored report <cite>Britain&#8482;: Renewing our Identity</cite> suggested that Britain's image could be changed simply by rebranding itself.
+The Design Council commissioned Demos to produce a report on how we might rethink our nations identity. The Mark Leonard authored report <cite>Britain™: Renewing our Identity</cite> suggested that Britain's image could be changed simply by rebranding itself.
 
 He suggested six 'stories' about where the country had been and were it was going which would form an important part of the nations identity:
 

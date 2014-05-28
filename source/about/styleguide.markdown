@@ -173,15 +173,15 @@ The `strong` element is used to denote text with strong importance. Where boldin
 The `small` element is used to represent disclaimers, caveats, legal restrictions, or copyrights (commonly referred to as 'small print'). It can also be used for attributions or satisfying licensing requirements. Example:
 
 <div class="example" markdown="1">
-<small>Copyright &#169; 1922-2011 Acme Corporation. All Rights Reserved.</small>
+<small>Copyright © 1922-2011 Acme Corporation. All Rights Reserved.</small>
 </div>
 
 ### Strikethrough
 The `s` element is used to represent content that is no longer accurate or relevant. When indicating document edits i.e., marking a span of text as having been removed from a document, use the `del` element instead. Example:
 
 <div class="example" markdown="1">
-<s>Recommended retail price: &#163;3.99 per bottle</s>  
-**Now selling for just &#163;2.99 a bottle!**
+<s>Recommended retail price: £3.99 per bottle</s>  
+**Now selling for just £2.99 a bottle!**
 </div>
 
 ### Citations
@@ -264,7 +264,7 @@ The computer said <samp>Too much cheese in tray two</samp> but I didn't know wha
 The `kbd` element is used to denote user input (typically via a keyboard, although it may also be used to represent other input methods, such as voice commands). Example:
 
 <div class="example" markdown="1">
-To take a screenshot on your Mac, press <kbd>&#8984; Cmd</kbd> + <kbd>&#8679; Shift</kbd> + <kbd>3</kbd>.
+To take a screenshot on your Mac, press <kbd>⌘ Cmd</kbd> + <kbd>⌘ Shift</kbd> + <kbd>3</kbd>.
 </div>
 
 ### Superscript and subscript text

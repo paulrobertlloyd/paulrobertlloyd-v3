@@ -12,7 +12,7 @@ A couple of weeks ago, in a rare break away from my computer monitor, I spent a 
 
 This was my first trip to another country whose primary language isn't English. In the UK, I think we are brought up with a sense of supremacy, and a belief that wherever you travel, everyone will speak our language. This totally put pay to that myth, and I felt like such an idiot, only knowing how to say 'hello', 'yes', 'no', 'please' and 'thank-you'.
 
-It put me so much on the back foot, that it made being conned by some dodgy Italians near the Spanish Steps far easier than it should have been -- they got away with &#8364;90 the bastards! This has inspired me to, at least think about, learning another language. Not only useful, but it's a pretty cool skill to have.
+It put me so much on the back foot, that it made being conned by some dodgy Italians near the Spanish Steps far easier than it should have been -- they got away with €90 the bastards! This has inspired me to, at least think about, learning another language. Not only useful, but it's a pretty cool skill to have.
 
 {% figure Graffiti near to where we were staying %}
 ![](/assets/images/2006/07/romangraffiti.jpg)

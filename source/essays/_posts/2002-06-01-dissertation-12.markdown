@@ -34,7 +34,7 @@ New titles were created which exclusively featured the clock face of Big Ben, wi
 As for the set:
 
 {% figure <cite>Lambie-Nairn, 1997, p207</cite> %}
-> Our belief was that a news programme should communicate honesty, transparency and plain dealing&#8230; ITN's new Grays Inn Road building provided us with a marvelous opportunity to get this impression across.
+> Our belief was that a news programme should communicate honesty, transparency and plain dealing... ITN's new Grays Inn Road building provided us with a marvelous opportunity to get this impression across.
 {% endfigure %}
 
 The modern building nearly all of glass provided the backdrop for all ITN's bulletins, with modifications only needed to prevent reflection and allow the set to be undisturbed by weather conditions.

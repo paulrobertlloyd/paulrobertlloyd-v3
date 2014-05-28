@@ -12,7 +12,7 @@ This statement may surprise a number of my readers as I have tended to be very p
 
 Given these concerns, it annoys me that when ever England are involved in a major football tournament, I feel as though I'm being sold 'being English'.
 
-## England&#8482;
+## England™
 'England' feels very much like brand these days, banded about by the Sun newspaper, with the merchandise being flags flown from everybody's cars, alongside the predictable reports on <cite>[Midlands Today][1]</cite> about England football kits for you dog, or the latest craze in fridge magnets.
 
 I can't help getting the feeling that the majority of people in this country are patriotic because The Sun said they should be.

@@ -13,7 +13,7 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 
 A perfectly entertaining evening but after seeing other acts, his felt weak in comparison.
 
-<abbr title="2 stars out of 5" class="rating">&#9733;&#9733;&#9734;&#9734;&#9734;</abbr>
+<abbr title="2 stars out of 5" class="rating">★★☆☆☆</abbr>
 
 ## Saturday
 
@@ -25,7 +25,7 @@ An unamplified performance in a small intimate cellar bar gave the show a degree
 
 This show reminded me that I should broaden my selection when looking for things to see at the Fringe -- and that sometimes the best stuff is completely free.
 
-<abbr title="4 stars out of 5" class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</abbr>
+<abbr title="4 stars out of 5" class="rating">★★★★☆</abbr>
 
 * * *
 
@@ -36,7 +36,7 @@ Sammy J was just as funny as I remembered him, whilst Heath McIvor was astoundin
 
 I still preferred Sammy J's solo performance, but saw enough to buy a ticket for Randy's own show that was also playing at Underbelly.
 
-<abbr title="4 stars out of 5" class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</abbr>
+<abbr title="4 stars out of 5" class="rating">★★★★☆</abbr>
 
 * * *
 
@@ -47,7 +47,7 @@ Herring's fast paced delivery means you get more laughs for your money. This sho
 
 Herring sets out to destroy love, but by the end of the show he has probably reinforced it, yet with an audience reflecting on a subject often taken for granted. Funny, touching and entertaining, I think I need to see this all over again.
 
-<abbr title="5 stars out of 5" class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</abbr>
+<abbr title="5 stars out of 5" class="rating">★★★★★</abbr>
 
 * * *
 
@@ -60,7 +60,7 @@ Such fandom was encouraged, with plenty of his catchphrases and characters makin
 
 For 90-minutes we were truly spoiled, even more so thanks to Adam's set pieces; his interpretation of Grace Jones' 'Pull Up to the Bumper' being especially memorable. I just hope I can find tickets to see another edition of this show.
 
-<abbr title="5 stars out of 5" class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</abbr>
+<abbr title="5 stars out of 5" class="rating">★★★★★</abbr>
 
 ## Sunday
 
@@ -71,7 +71,7 @@ This type of live comedy was all new to me, but I felt happier having seen somet
 
 It was also where I enjoyed perhaps the funniest moment of my festival. When an old man left the room to go to the toilet, he was spotted by one of the performers, but quickly shouted back 'don't make a joke about my bladder!' Needless to say, the very same then happened. Brilliant!
 
-<abbr title="3 stars out of 5" class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</abbr>
+<abbr title="3 stars out of 5" class="rating">★★★☆☆</abbr>
 
 * * *
 
@@ -80,7 +80,7 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 
 When these two things come together, stupid things can happen, opening themselves up to mischievous acts from Gorman. I don't want to give too much of the show away (many parts of it would be ruined if they were to be widely spread) but I'm hoping I can persuade my colleagues to see it when it arrives in Brighton in October. I'm sure they'll appreciate it just as much as I did.
 
-<abbr title="5 stars out of 5" class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</abbr>
+<abbr title="5 stars out of 5" class="rating">★★★★★</abbr>
 
 * * *
 
@@ -89,14 +89,14 @@ When these two things come together, stupid things can happen, opening themselve
 
 Afterwards I wondered if I would have enjoyed the performance had there been no puppet. I suspect so, but not as much without the visual aspect the puppetry provides. Alongside Sammy J, I've firmly become a fan of this Antipodean pair.
 
-<abbr title="4 stars out of 5" class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</abbr>
+<abbr title="4 stars out of 5" class="rating">★★★★☆</abbr>
 
 * * *
 
 ### <cite>Best of the Fest</cite>
 The final show I attended was <cite>Best of the Fest</cite>. Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the MC, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [<cite>Beefs 2011</cite>][12] live though, so it wasn't all bad.
 
-<abbr title="2 stars out of 5" class="rating">&#9733;&#9733;&#9734;&#9734;&#9734;</abbr>
+<abbr title="2 stars out of 5" class="rating">★★☆☆☆</abbr>
 
 ## Overall Impression
 

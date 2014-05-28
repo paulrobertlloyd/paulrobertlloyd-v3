@@ -26,11 +26,11 @@ In the end, I couldn't decide whether I would have preferred forgoing these mode
 ## Stepping Back In Time
 Beyond the confines of your room, you could easily imagine yourself here during the hotels historic golden era. There was a distinctly ghostly and mysterious feel to the place, especially in the lobby and dinning areas that, by being largely empty, allowed the spaces to speak louder than any of the objects within them.
 
-{% figure Athos Bulc&#227;o Wall Mural in Dinning Room. %}
+{% figure Athos Bulcão Wall Mural in Dinning Room. %}
 ![](/assets/images/2011/03/athosbulcaomural.jpg)
 {% endfigure %}
 
-The longest wall of the mezzanine level gives some perspective on the hotels illustrious past with enlarged photos depicting its construction, early guests and later destruction by fire. A second is decorated with tiles by the artist Athos Bulc&#227;o; this feature extends beyond a glass wall, as if directing the eye towards the shore of Lake Parano&#225;. The dinning room is dominated by a large turquoise, black and white wall painting, again by Bulc&#227;o, that cements the nostalgic feel of the venue.
+The longest wall of the mezzanine level gives some perspective on the hotels illustrious past with enlarged photos depicting its construction, early guests and later destruction by fire. A second is decorated with tiles by the artist Athos Bulcão; this feature extends beyond a glass wall, as if directing the eye towards the shore of Lake Paranoá. The dinning room is dominated by a large turquoise, black and white wall painting, again by Bulcão, that cements the nostalgic feel of the venue.
 
 This effect is diminished in many parts of the building, and certainly when exploring the outdoor areas, due to the presence of the Royal Tulip Hotel situated next door. Its harsh red and black curved walls violently clash with the clean, lightly coloured minimalism of the Niemeyer's palace; never has a building felt so inappropriate, or lacked consideration for its neighbour.
 
