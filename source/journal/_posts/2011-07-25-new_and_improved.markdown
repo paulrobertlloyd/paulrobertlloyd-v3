@@ -13,7 +13,7 @@ As I stated in the [design principles][1], this redesign has been focused on con
 
 I've also spent some considerable time refining the typography. I'm still finding it difficult to move away from a Helvetica based design, but Jeremy Tankard's [Bliss][2] and Type Together's [Skolar][3] typefaces do a handsome job of breaking my addiction.
 
-Given this effort, I decided to revisit previous journal entries and articles, correctly marking up abbreviations and cited works, and updating images with larger, higher quality versions. I've finally got round to adding photos to [my review of the Brasilia Palace Hotel][4], and that's probably a good place to start sampling the improvements.
+Given this effort, I decided to revisit previous journal entries and articles, correctly marking up abbreviations and cited works, and updating images with larger, higher quality versions. I've finally got round to adding photos to [my review of the Brasília Palace Hotel][4], and that's probably a good place to start sampling the improvements.
 
 ### Related content
 Not wanting to burden readers with periphery content, entry pages feature extra content hidden away behind a few additional links. Discussions are be found on separate pages, an idea that I played with earlier in the design process and actually implemented on the previous site. This allows me to retain 'ownership' of my posts whilst still accepting commentary where it may be of benefit.

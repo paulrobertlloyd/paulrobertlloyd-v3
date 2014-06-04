@@ -1,12 +1,12 @@
 ---
 layout: entry
-title: The Brasilia Palace Hotel
+title: The Brasília Palace Hotel
 date: '2011-03-28 20:28:04 +0100'
-excerpt: For anyone coming to Brasilia for its modernist architecture, no visit would be complete without a stay at this hotel. Designed by Oscar Niemeyer and opened in 1958, it hosted dignitaries such as Queen Elizabeth and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
+excerpt: For anyone coming to Brasília for its modernist architecture, no visit would be complete without a stay at this hotel. Designed by Oscar Niemeyer and opened in 1958, it hosted dignitaries such as Queen Elizabeth and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
 ---
-![The Brasilia Palace Hotel](/assets/images/2011/03/brasilia_palace_hotel.jpg)
+![The Brasília Palace Hotel](/assets/images/2011/03/brasilia_palace_hotel.jpg)
 
-Alongside the [Palace of Planalto][1] and Our Lady Fatima Church, the [Brasilia Palace Hotel][2] was one of the first buildings constructed in Brazil's new capital. Designed by [Oscar Niemeyer][3] and inaugurated in 1958, it hosted important dignitaries like Queen Elizabeth, Indira Ghandi, Dwight Eisenhower and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
+Alongside the [Palace of Planalto][1] and Our Lady Fatima Church, the [Brasília Palace Hotel][2] was one of the first buildings constructed in Brazil's new capital. Designed by [Oscar Niemeyer][3] and inaugurated in 1958, it hosted important dignitaries like Queen Elizabeth, Indira Ghandi, Dwight Eisenhower and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
 
 ## Arrival
 Your taxi having parked directly beneath the slender building, you are greeted by two understated glass doors that slide open and invite you to enter. Descending a long shallow ramp you soon arrive in the lobby which sits under a low hanging mezzanine. If you've visited many of Niemeyer's other buildings, you'll know that such an entrance is a common feature, yet it is an architectural trick that works surprisingly well.
@@ -50,7 +50,7 @@ Its secluded lakeside location means it can't offer the central location provide
 
 OSCAR, the hotel restaurant, is a little pricey but, going by the meal I ate, worth every centavo. I read some reviews that suggested the customer service wouldn't match the grandeur of the setting, but I found this not to be the case, with staff all too willing to help -- even if that meant dealing with my non-existent Portuguese language skills!
 
-For anyone coming to Brasilia for its modernist architecture, no visit would be complete without staying at the Brasilia Palace Hotel.
+For anyone coming to Brasília for its modernist architecture, no visit would be complete without staying at the Brasília Palace Hotel.
 
 [1]: http://en.wikipedia.org/wiki/Palacio_do_Planalto
 [2]: http://www.plazabrasilia.com.br/brasilia_en.html
