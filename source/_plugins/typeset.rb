@@ -10,7 +10,7 @@ module Jekyll
   module TypesetFilter
     def typeset(text)
       # BUG: We can't use the broader improve() method as typogruby sometimes applies itself to entire page without reason, and we don't always want to supress widows.
-      Typogruby.amp(Typogruby.caps(text))
+      Typogruby.amp(Typogruby.caps(Typogruby.smartypants(text)))
     end
   end
 end
