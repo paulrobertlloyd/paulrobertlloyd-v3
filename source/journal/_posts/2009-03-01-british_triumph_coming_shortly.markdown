@@ -10,11 +10,11 @@ Americans are quite a competitive race, an admirable trait given the countless w
 
 History may have told a different story had their pesky ancestors just paid their taxes instead of getting into a tizzy and declaring independence from us British.
 
-<embed class="pull-right" src="http://nikeplus.nike.com/nikeplus/v1/swf/scrapablewidget/challenge.swf" quality="high" wmode="transparent" width="240" height="320" allowScriptAccess="sameDomain" FlashVars="type=scrapeChallenge%26userDefaultUnit=mi%26screenName=lloydyweb%26dateFormat=DD/MM/YY%26versionNum=2.0%26id=1278663906%26region=emea%26language=en%26locale=en_gb" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>Sadly, I have yet to convince my friend [Kyle][1], who believes 1776 was his country's finest hour. I should mention that Kyle lives in [Los Angeles][2], a city built on top of the [San Andreas Fault][3]. Just incredible.
+Sadly, I have yet to convince my friend [Kyle][1], who believes 1776 was his country's finest hour. I should mention that Kyle lives in [Los Angeles][2], a city built on top of the [San Andreas Fault][3]. Just incredible.
 
 If common sense and the passage of history aren't enough to prove that the [Treaty of Paris][4] was a colossal error on the part of our colonial cousins, then [a challenge][5] via the Nike+ website will have to demonstrate British superiority instead.
 
-The challenge: who can run the most miles over the course of March. You can follow its progress with the widget on the right, and provide encouragement in the comments below. Bring it!
+The challenge: who can run the most miles over the course of March. You can <del datetime="2014-05-28T02:32:00">follow its progress with the widget on the right, and</del> provide encouragement in the comments below. Bring it!
 
 [1]: http://houseofkyle.com/
 [2]: http://en.wikipedia.org/wiki/Los_Angeles
