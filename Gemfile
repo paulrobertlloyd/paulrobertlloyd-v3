@@ -13,3 +13,6 @@ gem 'typogruby',
     :git => 'git://github.com/avdgaag/typogruby.git'
 gem 'ruby-oembed'
 gem 'xml-simple'
+
+# Fix Jekyll 2.0.x dependancy
+gem 'therubyracer'
