@@ -48,6 +48,7 @@ GEM
     jekyll-sitemap (0.4.1)
       jekyll (~> 2.0)
     kramdown (1.3.3)
+    libv8 (3.16.14.3)
     liquid (2.5.5)
     listen (2.7.5)
       celluloid (>= 0.15.2)
@@ -64,10 +65,14 @@ GEM
     rb-inotify (0.9.4)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
+    ref (1.0.5)
     ruby-oembed (0.8.9)
     rubypants (0.2.0)
     safe_yaml (1.0.3)
     sass (3.3.7)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
@@ -81,5 +86,6 @@ DEPENDENCIES
   jekyll!
   jekyll-sitemap
   ruby-oembed
+  therubyracer
   typogruby!
   xml-simple
