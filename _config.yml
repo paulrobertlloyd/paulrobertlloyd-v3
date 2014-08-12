@@ -16,18 +16,29 @@ permalink: /:year/:month/:title/
 paginate: 12
 paginate_path: /journal/:num/
 paginate_exclude:
-  categories: [essays, projects]
+  categories: [projects]
 
 # Archives
 archive:
   layout: archive
   title: :date
 
+# Collections
+collections:
+  projects:
+    output: true
+    title: Projects
+    permalink: /projects/:path/
+  essays:
+    output: true
+    title: Academic Essays
+
 # Syntax highlighting (see: https://github.com/navarroj/krampygs)
 markdown_ext: krampygs
 highlighter: pygments
 
 # Publishing
+include: [_pages]
 source: source
 destination: public
 

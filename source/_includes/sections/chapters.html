@@ -2,10 +2,10 @@
 <section class="section section--chapters" id="chapters">
     <h1 class="section__title">Chapters</h1>
     <ol class="nav nav--chapters">
-    {% for post in site.posts reversed %}
-        {% for tag in post.tags %}
+    {% for essay in site.essays %}
+        {% for tag in essay.tags %}
             {% if page.tags contains tag %}
-                <li class="nav__item{% if page.permalink == post.url %} is-active{% endif %}"><a href="{{ post.url }}">{% if post.chapter-title %}{{ post.chapter-title }}{% else %}Introduction{% endif %}</a></li>
+                <li class="nav__item{% if page.permalink == essay.url %} is-active{% endif %}"><a href="{{ essay.url }}">{% if essay.chapter-title %}{{ essay.chapter-title }}{% else %}Introduction{% endif %}</a></li>
             {% endif %}
         {% endfor %}
     {% endfor %}
