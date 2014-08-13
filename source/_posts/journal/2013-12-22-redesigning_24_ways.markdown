@@ -3,6 +3,11 @@ layout: entry
 title: Redesigning 24 ways
 date: '2013-12-22 22:53:51 +0000'
 excerpt: The tail end of this year has been rather hectic. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning 24 ways.
+tags:
+  - Design
+  - Projects
+  - Web Design
+  - Web Development
 ---
 ![24 ways viewed on an iPad mini](/assets/images/2013/12/redesigning_24_ways.jpg)
 

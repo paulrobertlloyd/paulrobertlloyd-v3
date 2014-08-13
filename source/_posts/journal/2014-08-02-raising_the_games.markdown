@@ -3,6 +3,10 @@ layout: entry
 title: 'Raising the Games: Volunteering at Glasgow 2014'
 date: '2014-08-09 17:51:10 +0000'
 excerpt: Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
+tags:
+  - Commonwealth Games
+  - Glasgow 2014
+  - Volunteering
 discussion: closed
 post_id: 2014-08-09-raising_the_games
 ---
