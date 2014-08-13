@@ -23,6 +23,12 @@ archive:
   layout: archive
   title: :date
 
+# Tags
+tag_page_layout: tag
+tag_page_dir: tags
+tag_permalink_style: pretty
+ignored_tags: [Travel]
+
 # Collections
 collections:
   projects:

@@ -3,6 +3,8 @@ layout: entry
 title: Slumdog Millionaire
 date: '2009-01-19 01:08:41 +0000'
 excerpt: Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire.
+tags:
+  - Film
 discussion: closed
 post_id: 2009-01-19-slumdog_millionaire
 ---
