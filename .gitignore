@@ -20,4 +20,5 @@
 # Folders to ignore
 _remarks
 public
+prep
 node_modules
