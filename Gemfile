@@ -1,9 +1,11 @@
 source "https://rubygems.org"
 
+# Capistrano
+gem 'capistrano'
+gem 'capistrano-ext'
+
 # Rake
 gem 'rake'
-#gem 'nokogiri'
-#gem 'tidy-html5', :git => "https://github.com/moneyadviceservice/tidy-html5-gem.git"
 
 # Jekyll
 gem 'jekyll'

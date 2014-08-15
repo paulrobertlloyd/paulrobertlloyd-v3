@@ -20,5 +20,7 @@
 # Folders to ignore
 _remarks
 public
-prep
+tmp
+assets/stylesheets
+assets/javascript
 node_modules
