@@ -6,7 +6,7 @@
 # License:: MIT
 
 npm_bin = `npm bin`.chomp
-prep = 'prep'
+temp = 'tmp'
 target = 'public'
 source = 'source'
 
@@ -20,7 +20,7 @@ end
 desc "Concatenate Myth CSS files"
 task :concatenate_css do
   files = FileList["#{source}/**/*.pre.css"]
-  concatenated_filename = "#{prep}/stylesheets/styles.pre.css"
+  concatenated_filename = "assets/stylesheets/styles.pre.css"
 
   File.open(concatenated_filename, "w") do |output|
     files.each do |input|
@@ -32,40 +32,41 @@ task :concatenate_css do
 end
 
 
+desc "Compile Myth CSS files"
+task :compile_css do
+  myth = "#{npm_bin}/myth"
+  css_file = "assets/stylesheets/styles"
+
+  sh "#{myth} #{css_file}.pre.css > #{css_file}.css"
+  sh "#{myth} --compress #{css_file}.css > #{css_file}.min.css"
+end
+
+
 desc 'Prepare the website assets.'
 task :prepare => :clean do
-  mkdir_p ["#{prep}/stylesheets", "#{prep}/images", "#{prep}/javascript"]
+  mkdir_p ["#{temp}/stylesheets", "#{temp}/images", "#{temp}/javascript"]
 
-# myth = "#{npm_bin}/myth"
-# css_file = "#{prep}/css/main.css"
-#
-# sh "#{myth} assets/less/main.less > #{css_file}.pre"
-# sh "#{myth} --compress #{css_file}.pre > #{css_file}"
-# rm "#{css_file}.pre"
-
-# javascript processing goes here
-
-  cp_r 'assets/images', prep
+  cp_r 'assets/images', temp
 end
 
 
 desc 'Regenerate the website files and place them into destination.'
 task :build => :prepare do
-  sh 'bundle exec jekyll build'
-  cp_r "#{prep}/.", "#{target}/assets"
+  sh 'bundle exec jekyll build --config config/jekyll.yml'
+  cp_r "#{temp}/.", "#{target}/assets"
 end
 
 
 desc 'Regenerate the website files (with drafts) and place them into destination.'
 task :build_drafts => :prepare do
-  sh 'bundle exec jekyll build --drafts'
-  cp_r "#{prep}/.", "#{target}/assets"
+  sh 'bundle exec jekyll build --config config/jekyll.yml --drafts'
+  cp_r "#{temp}/.", "#{target}/assets"
 end
 
 
 desc 'Clean up prepared and built files.'
 task :clean do
-  rm_rf [prep, target]
+  rm_rf [temp, target]
 end
 
 

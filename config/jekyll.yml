@@ -45,8 +45,8 @@ highlighter: pygments
 
 # Publishing
 include: [_pages]
-source: source
-destination: public
+source: ./source
+destination: ./public
 
 # Gems
 gems:

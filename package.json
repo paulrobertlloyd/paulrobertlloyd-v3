@@ -12,11 +12,6 @@
     "url": "https://github.com/paulrobertlloyd/paulrobertlloyd.com/issues"
   },
   "devDependencies": {
-    "plumber": "~0.3.2",
-    "plumber-all": "~0.3.0",
-    "plumber-concat": "~0.3.1",
-    "plumber-glob": "~0.3.3",
-    "plumber-write": "~0.3.1",
-    "plumber-myth": "git+ssh://git@github.com:paulrobertlloyd/plumber-myth.git"
+    "myth": "~1.1.0"
   }
 }
