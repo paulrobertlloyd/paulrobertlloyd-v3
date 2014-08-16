@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-# Capistrano
+# Capistrano (for automated deployment
 gem 'capistrano'
-gem 'capistrano-ext'
+# gem 'capistrano-bundler'
 
-# Rake
+# Rake (for task management)
 gem 'rake'
 
 # Jekyll

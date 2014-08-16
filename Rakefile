@@ -5,9 +5,8 @@
 # Copyright: Copyright (c) 2014 Paul Robert Lloyd
 # License:: MIT
 
-npm_bin = `npm bin`.chomp
 temp = 'tmp'
-target = 'public'
+destination = 'public'
 source = 'source'
 
 
@@ -34,6 +33,8 @@ end
 
 desc "Compile Myth CSS files"
 task :compile_css do
+  npm_bin = `npm bin`.chomp
+
   myth = "#{npm_bin}/myth"
   css_file = "assets/stylesheets/styles"
 
@@ -43,30 +44,29 @@ end
 
 
 desc 'Prepare the website assets.'
-task :prepare => :clean do
-  mkdir_p ["#{temp}/stylesheets", "#{temp}/images", "#{temp}/javascript"]
+task :prepare do
+  mkdir_p ["assets/stylesheets"]
 
-  cp_r 'assets/images', temp
+  # Concatenate CSS files, then process (and minify) with Myth
+  Rake::Task["concatenate_css"].execute
+  Rake::Task["compile_css"].execute
+
+  # Concatenate CSS files, then minify with Ugligy
+  #  TBD
 end
 
 
 desc 'Regenerate the website files and place them into destination.'
-task :build => :prepare do
-  sh 'bundle exec jekyll build --config config/jekyll.yml'
-  cp_r "#{temp}/.", "#{target}/assets"
+task :build do
+  sh 'jekyll build --config config/jekyll.yml'
+  cp_r "assets/.", "#{destination}/assets"
 end
 
 
 desc 'Regenerate the website files (with drafts) and place them into destination.'
-task :build_drafts => :prepare do
+task :build_drafts do
   sh 'bundle exec jekyll build --config config/jekyll.yml --drafts'
-  cp_r "#{temp}/.", "#{target}/assets"
-end
-
-
-desc 'Clean up prepared and built files.'
-task :clean do
-  rm_rf [temp, target]
+  cp_r "assets/.", "#{destination}/assets"
 end
 
 
