@@ -12,7 +12,7 @@ The history of graphic design in television has been relatively short yet it has
 ## Bernard Lodge
 After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It was here that he got the opportunity to design the title sequence for a new children's series <cite>Doctor Who</cite> in 1963. By exploiting the effect that occurs when a television camera is pointed towards a monitor, he was able to convey the idea of time travel and space fiction and created what became the famous title sequence. When he reworked the sequence in 1973, he again used techniques that were new to the profession, by using a computer controlled rostrum camera. Lodge produced many more memorable title sequences before leaving the BBC in 1977 to form his own company which later became Lodge-Cheeseman when his former colleague, Colin Cheesman (who had become Head of Graphic Design at the BBC), joined him.
 
-{% figure Figure 9: Title sequence from <cite>Doctor Who</cite> (BBC 1963. Designed by Bernard Lodge). <a href="http://www.youtube.com/watch?v=Oz7e9kQ2-Uk">Watch on YouTube</a> %}
+{% figure Figure 9: Title sequence from <cite>Doctor Who</cite> (BBC 1963. Designed by Bernard Lodge). <a href="https://www.youtube.com/watch?v=Oz7e9kQ2-Uk">Watch on YouTube</a> %}
 ![Still from 'Doctor Who' opening sequence, 1963](/assets/images/essays/early_graphic_design_in_television/figure-9a.png){: .pull-left}
 ![Still from 'Doctor Who' opening sequence, 1963](/assets/images/essays/early_graphic_design_in_television/figure-9b.png){: .pull-left}
 ![Still from 'Doctor Who' opening sequence, 1963](/assets/images/essays/early_graphic_design_in_television/figure-9c.png){: .pull-left}
@@ -20,7 +20,7 @@ After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It
 ![Still from 'Doctor Who' opening sequence, 1963](/assets/images/essays/early_graphic_design_in_television/figure-9e.png){: .pull-left}
 {% endfigure %}
 
-{% figure Figure 10: Title sequence from <cite>Doctor Who</cite> (BBC 1973. Designed by Bernard Lodge). <a href="http://www.youtube.com/watch?v=bKg9tuSbXmk">Watch on YouTube</a> %}
+{% figure Figure 10: Title sequence from <cite>Doctor Who</cite> (BBC 1973. Designed by Bernard Lodge). <a href="https://www.youtube.com/watch?v=bKg9tuSbXmk">Watch on YouTube</a> %}
 ![Still from 'Doctor Who' opening sequence, 1973](/assets/images/essays/early_graphic_design_in_television/figure-10a.png){: .pull-left}
 ![Still from 'Doctor Who' opening sequence, 1973](/assets/images/essays/early_graphic_design_in_television/figure-10b.png){: .pull-left}
 ![Still from 'Doctor Who' opening sequence, 1973](/assets/images/essays/early_graphic_design_in_television/figure-10c.png){: .pull-left}
@@ -45,7 +45,7 @@ It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend Wo
 
 This was traditionally based on newspaper cartoons -- for example, if there was a story about the pound being weak, a cartoon drawing of a pound sign wearing bandages and using crutches was shown. Realising that this was at odds with communicating a serious news item, Lambie-Nairn developed a new method of presenting this sort of information in a more appropriate graphical manner. It was with this new approach that <cite>Weekend World</cite> became more successful, and this meant more work for Robinson Lambie-Nairn who found themselves "leaders in a field of one" (Lambie-Nairn, 1997).
 
-{% figure Figure 12: Title sequence from <cite>Weekend World</cite> (LWT 1982. Creative Director/Designer: Martin Lambie-Nairn). <a href="http://www.youtube.com/watch?v=Nsf6zIxlOd8">Watch on YouTube</a> %}
+{% figure Figure 12: Title sequence from <cite>Weekend World</cite> (LWT 1982. Creative Director/Designer: Martin Lambie-Nairn). <a href="https://www.youtube.com/watch?v=Nsf6zIxlOd8">Watch on YouTube</a> %}
 ![Still from 'Weekend World' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-12a.png){: .pull-left}
 ![Still from 'Weekend World' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-12b.png){: .pull-left}
 ![Still from 'Weekend World' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-12c.png){: .pull-left}

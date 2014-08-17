@@ -24,7 +24,7 @@ Since the first games were held in 1896, the Olympics have proven a showcase for
 ## Many Logos, One Symbol
 It's too early to know what London 2012 will add to this rich history, but surely Heatherwick Studio's magnificent [Olympic cauldron][6], Zaha Hadid's sleek [Aquatic Centre][7] and the distinctive [pink way-finding signage][8] are worthy candidates. As to the logo, while controversial, its impact has already been felt. Shortly after it was unveiled, [I wrote][9]:
 
-> [The London 2012 logo] immediately changes the rules of what constitutes an identity for an Olympic Games, and perhaps wider expectations of what a logo should look like too. We can safely assume that the logos for future games and candidate cities will be a lot less conservative.
+> [The London 2012 logo] immediately changes the rules of what constitutes an identity for Olympic Games, and perhaps the wider expectations of what a logo should look like too. I think we can safely assume that future logos for games and candidate cities will certainly become a lot less conservative.
 
 I believe that has proven to be the case. The logo for [Sochi 2014][10] was clearly influenced by that of London 2012, and although [Rio 2016][11] reverts to a more traditional design, [PyeongChang 2018's][12] is just as original as London's:
 
@@ -74,11 +74,11 @@ Although at this stage the website has a different and more tightly scoped purpo
 [3]: http://pingmag.jp/2013/09/09/tokyo-olympics-1964/
 [4]: http://www.themodernist.co.uk/2012/04/olympic-games-design-from-1968-mexico-city/
 [5]: http://en.wikipedia.org/wiki/Olympic_Stadium_(Montreal)
-[6]: http://www.heatherwick.com/2012-olympic-cauldron/
+[6]: http://www.heatherwick.com/olympic-cauldron/
 [7]: http://www.zaha-hadid.com/architecture/london-aquatics-centre/
 [8]: http://www.beyond2012.org.uk/wayfinding/
-[9]: http://paulrobertlloyd.com/2007/06/2012_and_all_that/
-[10]: http://www.newyorker.com/online/blogs/currency/2014/02/sochi-and-olympic-logos.html
+[9]: http://lloydyweb.paulrobertlloyd.com/blog/2007/06/2012_and_all_that.php
+[10]: http://www.newyorker.com/currency-tag/behind-sochis-futuristic-logo
 [11]: http://www.underconsideration.com/brandnew/archives/holding_hands_in_rio.php
 [12]: http://www.underconsideration.com/brandnew/archives/winter_olympics.php
 [13]: http://en.wikipedia.org/wiki/Olympic_symbols#Symbol

@@ -55,7 +55,7 @@ Now, like Bradshaw before me, I'm off to continue my travels.
 [4]: http://getkirby.com
 [5]: http://getkirby.com/blog/php-templates
 [6]: http://bastianallgeier.com
-[7]: http://joshemerson.co.uk
+[7]: http://www.joshemerson.co.uk
 [8]: https://github.com/shoesforindustry/kirbycms-extensions/tree/master/plugins/alphabetise
 [9]: http://bradshawsguide.org/routes/section:1
 [10]: http://2013.uxlondon.com

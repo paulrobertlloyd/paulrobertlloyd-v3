@@ -165,17 +165,17 @@ However, I'm a big believer in iteration, and not treating a website as ever bei
 [10]: http://ebensorkin.wordpress.com/
 [11]: /2013/05/web_typography/
 [12]: http://jessicahische.is/talkingtype
-[13]: http://nytimes.com/skimmer
-[14]: http://github.com/paulrobertlloyd/barebones/
-[15]: http://benjystanton.co.uk/
-[16]: http://slideshare.net/benjystanton/crafting-animation-on-the-web
-[17]: http://joshemerson.co.uk/blog/using-svg-graphics-today
+[13]: http://www.nytimes.com/skimmer
+[14]: https://github.com/paulrobertlloyd/barebones/
+[15]: http://www.benjystanton.co.uk/
+[16]: http://www.slideshare.net/benjystanton/crafting-animation-on-the-web
+[17]: http://www.joshemerson.co.uk/blog/using-svg-graphics-today
 [18]: http://necolas.github.io/normalize.css/
 [19]: http://zeptojs.com
 [20]: http://bem.info/
 [21]: http://microformats.org/wiki/microformats-2/
 [22]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
-[23]: http://github.com/paulrobertlloyd/24ways-frontend/
+[23]: https://github.com/paulrobertlloyd/24ways-frontend/
 
 *[BEM]: Block, Element, Modifier
 *[CSS]: Cascading Style Sheets

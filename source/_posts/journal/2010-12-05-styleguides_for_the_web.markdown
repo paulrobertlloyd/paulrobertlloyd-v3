@@ -129,7 +129,7 @@ Whilst much of this talk has focused on the styleguide as a deliverable, I hope 
 
 [1]: http://www.multipack.co.uk/presents/the-design-process
 [2]: http://speakerdeck.com/u/paulrobertlloyd/p/styleguides-for-the-web-2010
-[3]: http://s3.paulrobertlloyd.com/downloads/styleguidesfortheweb_2010-11_notes.pdf
+[3]: /downloads/2010/11/styleguides_for_the_web.pdf
 [4]: http://2010.dconstruct.org/speakers/john-gruber
 [5]: http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html
 [6]: /2010/02/bbc_online_gvl

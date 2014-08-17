@@ -2,7 +2,7 @@
 layout: link
 title: The Banality of 'Don't Be Evil'
 date: '2013-06-22 02:00:23 +0100'
-link: http://nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html
+link: http://www.nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html
 ---
 Julian Assange reviews Eric Schmidt and Jared Cohen's new book, 'The New Digital Age':
 
@@ -10,4 +10,4 @@ Julian Assange reviews Eric Schmidt and Jared Cohen's new book, 'The New Digital
 
 Exhibit A: [PRISM][1].
 
-[1]: http://theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data
+[1]: http://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data

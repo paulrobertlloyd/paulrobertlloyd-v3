@@ -41,7 +41,7 @@ It might be a bit hand-wavy in places, but we hope it will be one of the more us
 [1]: http://www.barbican.org.uk/artgallery/event-detail.asp?ID=12409
 [2]: http://www.vam.ac.uk/content/exhibitions/exhibition-british-design/
 [3]: http://www.vam.ac.uk/content/exhibitions/heatherwick-studio/
-[4]: http://www.heatherwick.com/2012-olympic-cauldron/
+[4]: http://www.heatherwick.com/olympic-cauldron/
 [5]: http://www.heatherwick.com/east-beach-cafe/
 [6]: http://www.heatherwick.com/uk-pavilion/
 [7]: http://www.heatherwick.com/london-bus/

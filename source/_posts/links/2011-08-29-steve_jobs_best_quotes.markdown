@@ -19,7 +19,7 @@ Only a few weeks ago I was [bemoaning the overuse of the phrase][5] 'change the 
 I do so hope Steve will have plenty more opportunities to part with such wisdom as he enjoys his retirement.
 
 [1]: http://daringfireball.net/2011/08/resigned
-[2]: http://tumblr.davidcairns.org/post/9359368094/so-steve-jobs-has-left-his-role-as-apples-ceo
+[2]: http://drcairns.tumblr.com/post/9359368094/so-steve-jobs-has-left-his-role-as-apples-ceo
 [3]: http://baligu.blogspot.com/2011/08/my-one-question-for-steve-jobs-in-2000.html
 [4]: http://www.wired.com/wired/archive/4.02/jobs_pr.html
 [5]: /2011/08/change_the_world/

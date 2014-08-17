@@ -23,14 +23,14 @@ The merit of awards ceremonies is often discussed ([look no further than this ve
 
 [1]: https://thenetawards.com/
 [2]: http://clearleft.com/is/james-bates
-[3]: /2013/12/redesigning_24_ways
+[3]: /2013/12/redesigning_24_ways/
 [4]: http://clearleft.com
-[5]: http://frontendlondon.co.uk
+[5]: http://www.frontendlondon.co.uk
 [6]: http://mkgeeknight.co.uk
 [7]: http://lanyrd.com
 [8]: http://ourincrediblejourney.tumblr.com
-[9]: http://lanyrd.com/blog/2013/eventbrite
-[10]: http://paulrobertlloyd.com/2013/01/ubelly
-[11]: http://creativebloq.com/netmag/why-diversity-matters-web-design-industry-11410554
+[9]: http://lanyrd.com/blog/2013/eventbrite/
+[10]: /2013/01/ubelly/
+[11]: http://www.creativebloq.com/netmag/why-diversity-matters-web-design-industry-11410554
 
 *[API]: application programming interface

@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Lobbyists, Guns and Money
-link: http://nytimes.com/2012/03/26/opinion/krugman-lobbyists-guns-and-money.html
+link: http://www.nytimes.com/2012/03/26/opinion/krugman-lobbyists-guns-and-money.html
 ---
 Paul Krugman:
 

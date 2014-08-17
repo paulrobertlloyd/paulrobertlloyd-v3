@@ -48,7 +48,7 @@ Really? I'd suggest the opposite is true. Surely part of this exercise is an att
 While not immediately enamoured by the logo, I'm sure I'll warm to it over time. By which point, it'll be updated again. With over $1 billion in venture funding, Twitter is [getting good at spending other people's money][12].
 
 [1]: http://bbc.co.uk/news/business-18094883
-[2]: http://nytimes.com/2012/05/24/science/earth/shell-arctic-ocean-drilling-stands-to-open-new-oil-frontier.html
+[2]: http://www.nytimes.com/2012/05/24/science/earth/shell-arctic-ocean-drilling-stands-to-open-new-oil-frontier.html
 [3]: http://bbc.co.uk/news/technology-17178022
 [4]: http://blog.twitter.com/2012/06/taking-flight-twitterbird.html
 [5]: http://flickr.com/photos/stop/5034665936

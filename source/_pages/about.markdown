@@ -16,7 +16,7 @@ In my spare time I can be found working on side projects (I'm currently digitisi
 
 This site is a place for me to write about things that cross my mind; topics covered usual include brand identity, web development, travel and politics. Less considered thoughts can be found on [Twitter][6], while work in progress can be found on [Dribbble][7] and [GitHub][8].
 
-[1]: http://theguardian.com/
+[1]: http://www.theguardian.com/uk
 [2]: http://clearleft.com/
 [3]: http://ning.com/
 [4]: /projects/

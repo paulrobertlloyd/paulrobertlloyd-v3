@@ -10,6 +10,6 @@ Whatever you may think of British Airways, it's hard not to be impressed by this
 In many ways, I'm reminded of [a similarly retro themed advert][2] that BA's arch rival Virgin Atlantic produced to celebrate their 25th anniversary in 2009.
 
 [1]: http://www.underconsideration.com/brandnew/archives/british_airways_goes_vintage.php
-[2]: http://www.youtube.com/watch?v=KS_6HHQ7jOA
+[2]: https://www.youtube.com/watch?v=KS_6HHQ7jOA
 
 *[BA]: British Airways

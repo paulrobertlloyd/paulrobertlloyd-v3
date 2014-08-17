@@ -22,7 +22,7 @@ Here's what I told net magazine:
 > 
 > Everything changes and nothing changes all at once. Specialise or generalise, how you develop your career is up to you. Flexible freelancer or CSS consultant, as Zeldman said, the best advice is always "follow the path you love".
 
-[1]: http://netmagazine.com/
+[1]: http://www.creativebloq.com/net-magazine
 [2]: http://jeffcroft.com/blog/2014/jan/03/web-standards-killed-the-html-star/
 [3]: http://www.zeldman.com/2014/01/06/its-2014-is-web-design-dead/
-[4]: http://paulirish.com/2012/box-sizing-border-box-ftw/
+[4]: http://www.paulirish.com/2012/box-sizing-border-box-ftw/

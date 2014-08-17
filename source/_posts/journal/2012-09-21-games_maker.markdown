@@ -68,8 +68,8 @@ Behind the athletes I had watched and admired, here was I, also being cheered. T
 
 I made the Games, and the Games made me.
 
-[1]: http://www.youtube.com/watch?v=CTGk5_moWSc
-[2]: http://www.youtube.com/watch?v=UcmoRy444MY
+[1]: https://www.youtube.com/watch?v=CTGk5_moWSc
+[2]: https://www.youtube.com/watch?v=UcmoRy444MY
 
 *[BBC]: British Broadcasting Corporation
 *[UK]: United Kingdom

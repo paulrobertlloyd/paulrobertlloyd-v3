@@ -53,7 +53,7 @@ That the logo for GOV.UK, originally set in Gill Sans, now uses Transport is evi
 [6]: http://en.wikipedia.org/wiki/Board_of_Trade
 [7]: /2012/06/ukaid/
 [8]: http://www.bbc.co.uk/news/blogs-magazine-monitor-26383185
-[9]: http://gov.uk/
+[9]: https://www.gov.uk/
 [10]: http://en.wikipedia.org/wiki/Transport_(typeface)
 [11]: https://gds.blog.gov.uk/2012/07/05/a-few-notes-on-typography/
 [12]: http://a2-type.co.uk/html/New_Transport_Chaumont_Poster.html

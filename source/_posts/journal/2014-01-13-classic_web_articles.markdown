@@ -30,7 +30,7 @@ Perhaps landmark sites could only be created once we acknowledged the true natur
 John's words were later reprised by **Ethan Marcotte**, who looked to the permanence of architecture to find a path across an unpredictable landscape faced by web designers. By combining fluid grids, flexible images and media queries, we could build websites that adapted to whatever device they appeared on.
 
 ## [Designing with context][4] (2013)
-[4]: http://www.cennydd.co.uk/2013/designing-with-context
+[4]: http://www.cennydd.com/blog/designing-with-context
 
 There used to be a clear understanding about how users experienced the web -- where, when, how -- but the proliferation of web-enabled devices revealed these assumptions to be false. Here, **Cennydd Bowles** considers the real complexities of context.
 
@@ -44,7 +44,7 @@ Much has been written about the universality of the web, yet this isn't always r
 
 With designers making their work ever more adaptive, its become clearer that [the most fluid format is text][7], further elevating the importance of typography. When this was highlighted by **Oliver Reichenstein**, his words were met with controversy; if published today I doubt anyone would disagree.
 
-[7]: http://welcomebrand.co.uk/thoughts/the-responsive-web-will-be-99-9-typography/
+[7]: http://www.welcomebrand.co.uk/thoughts/the-responsive-web-will-be-99-9-typography/
 
 ## [Upping Your Type Game][8] (2013)
 [8]: http://jessicahische.is/talkingtype
@@ -56,7 +56,7 @@ With designers making their work ever more adaptive, its become clearer that [th
 
 Written prior to Oliver's article (as if to further stress the importance of typography), **Mark Boulton** wrote a series of posts covering the basics, from measure to typographic hierarchy -- providing a scale I've referenced many times since. This post was also a precursor to [the independent publishing company][10] later set up by Mark.
 
-[10]: http://fivesimplesteps.com
+[10]: http://www.fivesimplesteps.com/
 
 ## [Baseline Grids on the Web][11] (2012)
 [11]: http://jasonsantamaria.com/articles/baseline-grids-on-the-web
