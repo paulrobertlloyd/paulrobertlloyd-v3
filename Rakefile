@@ -5,7 +5,6 @@
 # Copyright: Copyright (c) 2014 Paul Robert Lloyd
 # License:: MIT
 
-npm_bin = `npm bin`.chomp
 temp = 'tmp'
 destination = 'public'
 source = 'source'
@@ -13,7 +12,7 @@ source = 'source'
 
 desc 'Install the necessary dependencies for building the website.'
 task :install do |t|
-  sh 'npm install'
+  sh 'npm install -g myth'
 end
 
 
@@ -34,12 +33,10 @@ end
 
 desc "Compile Myth CSS files"
 task :compile_css do
-
-  myth = "#{npm_bin}/myth"
   css_file = "assets/stylesheets/styles"
 
-  sh "#{myth} #{css_file}.pre.css > #{css_file}.css"
-  sh "#{myth} --compress #{css_file}.css > #{css_file}.min.css"
+  sh "myth #{css_file}.pre.css > #{css_file}.css"
+  sh "myth --compress #{css_file}.css > #{css_file}.min.css"
 end
 
 
