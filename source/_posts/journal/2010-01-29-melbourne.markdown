@@ -64,7 +64,7 @@ Overall, whilst this trip was really inspiring, and a great start to this new de
 [10]: http://en.wikipedia.org/wiki/Albert_Park_and_Lake
 [11]: http://news.bbc.co.uk/sport1/hi/motorsport/formula_one/7970488.stm
 [12]: /2009/06/europa
-[13]: http://37signals.com/svn/posts/1268-pack-half-of-what-you-think-you-need
+[13]: http://signalvnoise.com/posts/1268-pack-half-of-what-you-think-you-need
 [14]: http://en.wikipedia.org/wiki/Flag_of_Australia
 
 *[CBD]: Central Business District
