@@ -58,7 +58,7 @@ end
 
 desc 'Regenerate the website files and place them into destination.'
 task :build do
-  sh 'jekyll build --config config/jekyll.yml'
+  sh 'bundle exec jekyll build --config config/jekyll.yml'
   cp_r "assets/.", "#{destination}/assets"
 end
 

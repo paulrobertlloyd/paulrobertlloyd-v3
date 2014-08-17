@@ -13,6 +13,12 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (~> 1.3)
+    capistrano-bundler (1.1.3)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2)
+    capistrano-rvm (0.1.1)
+      capistrano (~> 3.0)
+      sshkit (~> 1.2)
     celluloid (0.15.2)
       timers (~> 1.1.0)
     classifier-reborn (2.0.1)
@@ -52,6 +58,7 @@ GEM
     jekyll-watch (1.1.0)
       listen (~> 2.7)
     kramdown (1.4.1)
+    libv8 (3.16.14.3)
     liquid (2.6.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
@@ -72,6 +79,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
+    ref (1.0.5)
     ruby-oembed (0.8.10)
     rubypants (0.2.0)
     safe_yaml (1.0.3)
@@ -80,6 +88,9 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
@@ -91,9 +102,12 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
+  capistrano-bundler
+  capistrano-rvm
   jekyll
   jekyll-sitemap
   rake
   ruby-oembed
+  therubyracer
   typogruby!
   xml-simple
