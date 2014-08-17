@@ -3,8 +3,9 @@ source "https://rubygems.org"
 # Capistrano (for automated deployment
 group :development do
   gem 'capistrano'
-  gem 'capistrano-bundler'
   gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
+  gem 'capistrano-npm'
 end
 
 # Rake (for task management)

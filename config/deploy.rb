@@ -18,7 +18,7 @@ set :tmp_dir, "/home/prlloyd/webapps/paulrobertlloyd_v3/tmp/capistrano"
 # set :format, :pretty
 
 # Default value for :log_level is :debug
-# set :log_level, :debug
+set :log_level, :info
 
 # Default value for :pty is false
 # set :pty, true

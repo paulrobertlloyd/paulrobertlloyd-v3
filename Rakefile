@@ -5,6 +5,7 @@
 # Copyright: Copyright (c) 2014 Paul Robert Lloyd
 # License:: MIT
 
+npm_bin = `npm bin`.chomp
 temp = 'tmp'
 destination = 'public'
 source = 'source'
@@ -33,7 +34,6 @@ end
 
 desc "Compile Myth CSS files"
 task :compile_css do
-  npm_bin = `npm bin`.chomp
 
   myth = "#{npm_bin}/myth"
   css_file = "assets/stylesheets/styles"
@@ -57,14 +57,14 @@ end
 
 
 desc 'Regenerate the website files and place them into destination.'
-task :build do
+task :build => :prepare do
   sh 'bundle exec jekyll build --config config/jekyll.yml'
   cp_r "assets/.", "#{destination}/assets"
 end
 
 
 desc 'Regenerate the website files (with drafts) and place them into destination.'
-task :build_drafts do
+task :build_drafts => :prepare do
   sh 'bundle exec jekyll build --config config/jekyll.yml --drafts'
   cp_r "assets/.", "#{destination}/assets"
 end
