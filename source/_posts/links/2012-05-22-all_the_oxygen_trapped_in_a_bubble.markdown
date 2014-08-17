@@ -2,7 +2,7 @@
 layout: link
 title: All the Oxygen Trapped in a Bubble
 date: '2012-05-22 01:49:24 +0100'
-link: http://37signals.com/svn/posts/3177-all-the-oxygen-trapped-in-a-bubble
+link: http://signalvnoise.com/posts/3177-all-the-oxygen-trapped-in-a-bubble
 ---
 David Heinemeier Hansson:
 

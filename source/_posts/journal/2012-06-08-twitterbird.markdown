@@ -58,7 +58,7 @@ While not immediately enamoured by the logo, I'm sure I'll warm to it over time.
 [9]: http://dribbble.com/site/brand
 [10]: http://underconsideration.com/brandnew/archives/twitter_gives_you_the_bird.php
 [11]: http://iconfinder.com/icondetails/10958/128/twitter_icon
-[12]: http://37signals.com/svn/posts/2636-the-things-you-do-more-often-are-the-things
+[12]: http://signalvnoise.com/posts/2636-the-things-you-do-more-often-are-the-things
 
 *[API]: application programming interface
 *[PR]: public relations
