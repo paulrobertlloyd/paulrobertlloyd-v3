@@ -32,7 +32,7 @@ Whilst it's almost impossible not to break inbound links, the more articles I wr
 The more I mature as a designer, the more I've come to enjoy simple, clean and unfussy user interfaces. The design of my site should respect this, yet of course bring something new to the table, making the site distinctly 'mine'.
 
 [1]: http://www.lukew.com/ff/entry.asp?779
-[2]: http://www.bbc.co.uk/guidelines/gel/design_philosophy.shtml
+[2]: http://www.bbc.co.uk/gel/philosophy/design-philosophy
 [3]: http://www.adaptivepath.com/aboutus/kate.php
 [4]: http://www.adaptivepath.com/ideas/essays/archives/001123.php
 [5]: http://staff.tumblr.com/post/2127872280/downtime

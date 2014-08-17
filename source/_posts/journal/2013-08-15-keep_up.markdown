@@ -89,7 +89,7 @@ At least, I don't know if there is a right way -- or if there ever will be. My p
 
 [1]: http://gymnasium.aquent.com
 [2]: https://speakerdeck.com/paulrobertlloyd/keep-up
-[3]: http://s3.paulrobertlloyd.com/downloads/keepup_2013-07_notes.pdf
+[3]: /downloads/2013/07/keep_up.pdf
 [4]: http://clearleft.com/
 [5]: http://lloydyweb.paulrobertlloyd.com/blog/2006/01/my_journey_so_far.php
 [6]: http://www.zeldman.com/dwws/

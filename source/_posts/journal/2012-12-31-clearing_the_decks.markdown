@@ -28,7 +28,7 @@ Beyond [a successful hack day][8] in 2010, this small initiative to reduce the w
 
 [1]: /2009/06/social_media_icons/
 [2]: /2012/02/gowalla/
-[3]: http://github.com/paulrobertlloyd/socialmediaicons/
+[3]: https://github.com/paulrobertlloyd/socialmediaicons/
 [4]: http://www.netmagazine.com/
 [5]: http://www.jordanm.co.uk/
 [6]: http://www.bbc.co.uk/gel/

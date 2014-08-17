@@ -59,7 +59,7 @@ _This entry originally appeared on the [Clearleft blog][10]_
 [1]: http://www.mikeallan.me/
 [2]: http://clearleft.com/is/paul-lloyd
 [3]: http://clearleft.com/is/james-bates
-[4]: http://clearleft.com/is/jon-aizlewodd
+[4]: http://clearleft.com/is/jon-aizlewood
 [5]: http://www.bohemiancoding.com/sketch/
 [6]: http://2013.dconstruct.org/
 [7]: http://badassideas.com/

@@ -16,7 +16,7 @@ The tutorial is split into five parts:
 4. [Getting to Grips with Media Queries][6]
 5. [Going Further with Responsive Design][7]
 
-These follow the development of a simple media gallery, the finished example of which can be found here: <http://roadtrip.paulrobertlloyd.com/>
+These follow the development of a simple media gallery, the finished example of which can be found here: <http://paulrobertlloyd.github.io/roadtrip/>
 
 The distinction between design and development is becoming increasingly blurred, so I start by illustrating how one might design a website that could have infinite layouts. The next three chapters describe each component of responsive design: fluid grids, flexible images and media queries, before I finish by covering testing, optimisation and performance.
 
@@ -34,14 +34,14 @@ As much as I hope this series educates others, it's been an immensely valuable l
 
 [1]: http://netmagazine.com/
 [2]: http://alistapart.com/articles/responsive-web-design/
-[3]: http://netmagazine.com/tutorials/build-responsive-site-week-designing-responsively-part-1/
-[4]: http://netmagazine.com/tutorials/build-responsive-site-week-typography-and-grids-part-2/
-[5]: http://netmagazine.com/tutorials/build-responsive-site-week-images-and-video-part-3/
-[6]: http://netmagazine.com/tutorials/build-responsive-site-week-media-queries-part-4/
-[7]: http://netmagazine.com/tutorials/build-responsive-site-week-going-further-part-5/
+[3]: http://www.creativebloq.com/css3/build-responsive-site-week-designing-responsively-part-1-4122850
+[4]: http://www.creativebloq.com/web-design/build-responsive-site-week-typography-and-grids-part-2-9134361
+[5]: http://www.creativebloq.com/web-design/build-responsive-site-week-images-and-video-part-3-4124358
+[6]: http://www.creativebloq.com/netmag/build-responsive-site-week-media-queries-part-4-4122963
+[7]: http://www.creativebloq.com/web-design/build-responsive-site-week-going-further-part-5-4124357
 [8]: http://www.omnigroup.com/products/omnioutliner/
 [9]: http://maban.co.uk/
-[10]: http://joshemerson.co.uk/
+[10]: http://www.joshemerson.co.uk/
 [11]: http://andyhume.net/
 [12]: http://adactio.com/
 [13]: http://bevanstephens.com/

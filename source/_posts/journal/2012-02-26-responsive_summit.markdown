@@ -128,7 +128,7 @@ Want to be part of it? Write about the problems you're facing. If you see a sepa
 [12]: http://en.wikipedia.org/wiki/Web_Open_Font_Format
 [13]: http://en.wikipedia.org/wiki/Portable_Network_Graphics
 [14]: http://en.wikipedia.org/wiki/APNG
-[15]: http://joshemerson.co.uk/
+[15]: http://www.joshemerson.co.uk/
 [16]: https://github.com/joshje/Responsive-Enhance
 [17]: http://markboulton.co.uk/
 

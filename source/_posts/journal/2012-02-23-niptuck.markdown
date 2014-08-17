@@ -70,7 +70,7 @@ Although I've got the site into a much healthier state, I'm sure further changes
 [12]: https://github.com/filamentgroup/Responsive-Images/
 [13]: http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/
 [14]: http://adactio.com/journal/5208/
-[15]: http://joshemerson.co.uk/
+[15]: http://www.joshemerson.co.uk/
 [16]: http://archive.dconstruct.org/
 [17]: https://developers.google.com/webfonts/docs/webfont_loader
 [18]: http://www.webpagetest.org/result/120222_QC_3B11V/1/performance_optimization/

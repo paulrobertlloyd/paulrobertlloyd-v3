@@ -97,7 +97,7 @@ Hopefully this is the first in a series of events and initiatives in support of 
 [6]: http://www.1010uk.org/
 [7]: http://aneventapart.com/
 [8]: http://clearleft.com/
-[9]: https://speakerdeck.com/paulrobertlloyd/announcing-agreenfocus
+[9]: https://speakerdeck.com/paulrobertlloyd/announcing-a-dot-green-focus
 [10]: http://agreenfocus.paulrobertlloyd.com/
 [11]: http://agreenfocus.paulrobertlloyd.com/post/371323289/
 [12]: http://www.multipack.co.uk

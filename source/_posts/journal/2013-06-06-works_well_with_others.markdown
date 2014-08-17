@@ -24,4 +24,4 @@ After a decade of self-contained practice, designers and developers are now havi
 
 _This entry originally appeared on [The Pastry Box Project][1]_
 
-[1]: http://the-pastry-box-project.net/clearleft/2013-june-6/
+[1]: http://the-pastry-box-project.net/clearleft/2013-june-6

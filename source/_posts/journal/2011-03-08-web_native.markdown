@@ -43,9 +43,9 @@ You might think this is a recent article, but Jon wrote this in 2000 -- it's tak
 [2]: http://dev.opera.com/author/974138
 [3]: http://www.slideshare.net/chrisdavidmills/for-nondevelopers-html5-a-richer-web-for-everyone
 [4]: http://www.adambankin.com/
-[5]: http://speakerdeck.com/u/paulrobertlloyd/p/the-web-native-designer-march-2011
-[6]: http://s3.paulrobertlloyd.com/downloads/thewebnativedesigner_2011-03_notes.pdf
-[7]: /2010/12/styleguides_for_the_web
+[5]: http://speakerdeck.com/paulrobertlloyd/the-web-native-designer-march-2011
+[6]: /downloads/2011/03/the_web_native_designer.pdf
+[7]: /2010/12/styleguides_for_the_web/
 [8]: http://www.ftrain.com/wwic.html
 [9]: http://www.alistapart.com/articles/dao/
 

@@ -101,7 +101,7 @@ Having a broader skillset has always been beneficial on the web, but as we build
 [1]: http://2011.geekinthepark.co.uk/
 [2]: /2011/03/web_native/
 [3]: http://speakerdeck.com/u/paulrobertlloyd/p/the-web-native-designer-august-2011
-[4]: http://s3.paulrobertlloyd.com/downloads/thewebnativedesigner_2011-08_notes.pdf
+[4]: /downloads/2011/08/the_web_native_designer.pdf
 [5]: http://www.scientificamerican.com/article.cfm?id=long-live-the-web
 [6]: http://benward.me/blog/understand-the-web/
 [7]: http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html

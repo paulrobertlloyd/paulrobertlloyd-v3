@@ -39,7 +39,7 @@ The quality of television broadcasts at this time were crude to say the least. L
 
 The launch of BBC2 in 1964 saw the introduction of 625-line higher resolution broadcasts and three years later colour, both of great benefit to the designer although not straight away. BBC1 and ITV only began colour broadcasts in 1969 and the improved 625-line transmissions were still broadcast alongside those using 405-lines, which even with their low quality, weren't suspended until early 1985. It was up to the audience to upgrade their sets, and sales of colour receivers were unexpectedly low when colour television broadcasts began. Before the majority of viewers had 625-line colour receivers, the designer still had to consider those watching on older sets. However, typical graphic design during the sixties saw a greater use of photography, more detailed illustration and a more apparent use of calligraphy.
 
-{% figure Figure 4: Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). <a href="http://www.youtube.com/watch?v=KNNAfzKwRn4">Watch on YouTube</a> %}
+{% figure Figure 4: Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). <a href="https://www.youtube.com/watch?v=KNNAfzKwRn4">Watch on YouTube</a> %}
 ![Still from 'The Old Grey Whistle Test' opening sequence](/assets/images/essays/dissertation/figure-4a.png){: .pull-left}
 ![Still from 'The Old Grey Whistle Test' opening sequence](/assets/images/essays/dissertation/figure-4b.png){: .pull-left}
 ![Still from 'The Old Grey Whistle Test' opening sequence](/assets/images/essays/dissertation/figure-4c.png){: .pull-left}
@@ -47,7 +47,7 @@ The launch of BBC2 in 1964 saw the introduction of 625-line higher resolution br
 ![Still from 'The Old Grey Whistle Test' opening sequence](/assets/images/essays/dissertation/figure-4e.png){: .pull-left}
 {% endfigure %}
 
-{% figure Figure 5: Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). <a href="http://www.youtube.com/watch?v=pKwaCTfa1EE">Watch on YouTube</a> %}
+{% figure Figure 5: Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). <a href="https://www.youtube.com/watch?v=pKwaCTfa1EE">Watch on YouTube</a> %}
 ![Still from 'I, Claudius' opening sequence](/assets/images/essays/dissertation/figure-5a.png){: .pull-left}
 ![Still from 'I, Claudius' opening sequence](/assets/images/essays/dissertation/figure-5b.png){: .pull-left}
 ![Still from 'I, Claudius' opening sequence](/assets/images/essays/dissertation/figure-5c.png){: .pull-left}

@@ -73,7 +73,7 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-{% figure Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). <a href="http://www.youtube.com/watch?v=eGnpJ_KdqZE">Watch on YouTube</a> %}
+{% figure Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). <a href="https://www.youtube.com/watch?v=eGnpJ_KdqZE">Watch on YouTube</a> %}
 ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4a.png){: .pull-left}
 ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4b.png){: .pull-left}
 ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4c.png){: .pull-left}

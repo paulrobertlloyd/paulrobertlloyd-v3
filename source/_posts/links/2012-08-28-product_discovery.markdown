@@ -12,4 +12,4 @@ Rian van der Merwe for A List Apart:
 
 'Digital Brasílias' is a great term for all the beautiful -- yet ultimately useless -- products emerging from the Valley. Product discovery can help us not only design things better, but design better things.
 
-[1]: http://theguardian.com/world/2008/mar/12/brazil
+[1]: http://www.theguardian.com/world/2008/mar/12/brazil

@@ -53,12 +53,12 @@ Ultimately, usage will dictate which is seen as the best means of using images o
 [1]: http://24ways.org/2012/responsive-images-what-we-thought-we-needed/
 [2]: http://blog.yoav.ws/2012/05/Responsive-image-format
 [3]: http://filamentgroup.com/lab/rwd_img_compression/
-[4]: http://blog.responsivenews.co.uk/post/18948466399/cutting-the-mustard
+[4]: http://responsivenews.co.uk/post/18948466399/cutting-the-mustard
 [5]: https://github.com/scottjehl/picturefill
 [6]: /2012/12/causeway_coast/
 [7]: http://blog.netvlies.nl/design-interactie/retina-revolution/
 [8]: http://nocturnalmonkey.com/writing/compressing-images
-[9]: http://www.youtube.com/watch?v=wJbhxVepEoc
+[9]: https://www.youtube.com/watch?v=wJbhxVepEoc
 [10]: http://www.alistapart.com/articles/the-web-aesthetic/
 
 *[BBC]: British Broadcasting Corporation
