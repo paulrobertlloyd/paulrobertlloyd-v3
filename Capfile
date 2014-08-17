@@ -5,7 +5,7 @@ require 'capistrano/setup'
 require 'capistrano/deploy'
 
 # Includes Bundler specific tasks
-# require 'capistrano/bundler'
+require 'capistrano/bundler'
 
 # Includes RVM specific tasks
-# require 'capistrano/rvm'
+require 'capistrano/rvm'
