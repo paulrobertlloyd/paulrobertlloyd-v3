@@ -10,9 +10,9 @@ destination = 'public'
 source = 'source'
 
 
-desc 'Install the necessary dependencies for building the website.'
+desc 'Install the necessary node dependencies for building the website.'
 task :install do |t|
-  sh 'npm install -g myth'
+  sh 'npm install'
 end
 
 
