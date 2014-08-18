@@ -2,6 +2,10 @@
 layout: link
 title: No Longer Loving Google
 date: '2012-02-02 20:05:11 +0000'
+tags:
+  - Google
+  - DuckDuckGo
+  - Nelson Minar
 link: http://somebits.com/weblog/tech/no-longer-loving-google.html
 ---
 Nelson Minar:

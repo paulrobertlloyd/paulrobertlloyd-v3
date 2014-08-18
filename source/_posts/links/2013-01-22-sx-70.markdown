@@ -2,6 +2,11 @@
 layout: link
 title: SX-70
 date: '2013-01-22 00:04:17 +0000'
+tags:
+  - Video
+  - Polaroid
+  - Charles Eames
+  - Ray Eames
 link: http://youtube.com/watch?v=Lo_1pyQ7xvc
 embed: video
 ---

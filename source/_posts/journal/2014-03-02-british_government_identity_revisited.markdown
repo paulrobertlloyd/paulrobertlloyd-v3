@@ -4,7 +4,7 @@ title: British Government Identity, Revisited
 date: '2014-03-02 01:32:03 +0000'
 excerpt: With the British government now able to count itself among the few countries sporting a coherent identity programme, a follow up to my 2009 post on the subject.
 tags:
-  - Brand Identity
+  - Brand identity
   - Design
   - Government
   - United Kingdom

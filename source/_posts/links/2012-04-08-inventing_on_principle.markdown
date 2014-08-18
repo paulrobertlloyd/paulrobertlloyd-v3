@@ -2,6 +2,9 @@
 layout: link
 title: Inventing on Principle
 date: '2012-04-08 00:41:13 +0100'
+tags:
+  - Bret Victor
+  - Design
 link: http://vimeo.com/36579366
 ---
 [Bret Victor][1] talks about why he is motivated to create creative tools, during his presentation at [CUSEC 2012][2]:

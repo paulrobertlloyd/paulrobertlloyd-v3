@@ -1,6 +1,13 @@
 ---
 layout: link
 title: Lobbyists, Guns and Money
+data: '2012-03-29 23:15:23 +0000'
+tags:
+  - Politics
+  - Gun control
+  - United States
+  - Paul Krugman
+  - Adam Curtis
 link: http://www.nytimes.com/2012/03/26/opinion/krugman-lobbyists-guns-and-money.html
 ---
 Paul Krugman:

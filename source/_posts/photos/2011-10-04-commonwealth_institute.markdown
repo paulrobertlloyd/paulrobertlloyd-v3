@@ -2,6 +2,9 @@
 layout: link
 title: The Commonwealth Institute
 date: '2011-10-04 21:57:57 +0100'
+tags:
+  - Photography
+  - Architecture
 link: http://flickr.com/photos/paulrobertlloyd/6209428156/in/set-72157627812094542
 embed: photo
 ---

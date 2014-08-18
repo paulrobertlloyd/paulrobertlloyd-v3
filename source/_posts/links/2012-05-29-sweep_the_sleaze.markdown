@@ -2,6 +2,10 @@
 layout: link
 title: Sweep the Sleaze
 date: '2012-05-29 14:14:01 +0100'
+tags:
+  - Social media
+  - Web design
+  - Oliver Reichenstein
 link: http://informationarchitects.net/blog/sweep-the-sleaze/
 ---
 Oliver Reichenstein:

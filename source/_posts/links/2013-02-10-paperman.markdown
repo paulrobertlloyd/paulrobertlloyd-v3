@@ -2,6 +2,11 @@
 layout: link
 title: Paperman
 date: '2013-02-10 20:15:43 +0000'
+tags:
+  - Video
+  - Disney
+  - Animation
+  - John Kahrs
 link: http://youtube.com/watch?v=Fpe99ci_C8g
 embed: video
 ---

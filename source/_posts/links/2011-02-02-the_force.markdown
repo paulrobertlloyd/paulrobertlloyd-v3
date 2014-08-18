@@ -2,6 +2,10 @@
 layout: link
 title: The Force
 date: '2011-02-02 16:02:00 +0000'
+tags:
+  - Advertising
+  - Volkswagen
+  - Star Wars
 link: http://youtube.com/watch?v=R55e-uHQna0
 embed: video
 ---

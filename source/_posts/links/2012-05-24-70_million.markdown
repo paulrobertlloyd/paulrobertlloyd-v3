@@ -2,6 +2,10 @@
 layout: link
 title: Hold Your Horses - 70 Million
 date: '2012-05-24 01:48:46 +0100'
+tags:
+  - Video
+  - Music videos
+  - Hold Your Horses
 link: http://youtube.com/watch?v=erbd9cZpxps
 embed: video
 ---

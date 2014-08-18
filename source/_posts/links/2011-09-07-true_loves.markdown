@@ -2,6 +2,10 @@
 layout: link
 title: Hooray For Earth - True Loves
 date: '2011-09-07 23:04:34 +0100'
+tags:
+  - Video
+  - Hooray For Earth
+  - Music videos
 link: http://youtube.com/watch?v=Mf6JCpJjdiY
 embed: video
 ---

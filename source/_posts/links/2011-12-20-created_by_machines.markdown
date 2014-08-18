@@ -2,6 +2,10 @@
 layout: link
 title: Created by Machines
 date: '2011-12-20 00:06:51 +0000'
+tags:
+  - Marissa Mayer
+  - Google
+  - Design
 link: http://log.scifihifi.com/post/14250409420
 ---
 {% figure <cite>Marissa Mayer</cite> addressing Google designers, as quoted in <cite>[In The Plex][1]</cite> by Steven Levy %}

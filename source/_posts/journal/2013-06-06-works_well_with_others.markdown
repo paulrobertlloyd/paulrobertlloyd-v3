@@ -4,9 +4,8 @@ title: Works Well With Others
 date: '2013-06-06 00:00:00 +0000'
 excerpt: A brief thought about collaboration.
 tags:
-  - Responsive Web Design
-  - Web Design
-  - Web Development
+  - Web design
+  - Web development
 ---
 Four years ago, I was hired by Clearleft as a visual designer. Although it was recognised that I could write good front-end code, the nature of projects at that time meant different roles were segregated. After all, it is easier to manage projects when the component parts -- user experience, visual design, and front-end development -- can be pieced together like a jigsaw.
 

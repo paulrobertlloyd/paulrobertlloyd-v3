@@ -2,6 +2,9 @@
 layout: link
 title: Data Visualization Reinterpreted
 date: '2012-11-02 01:10:58 +0000'
+tags:
+  - Video
+  - Peter Saville
 link: http://vimeo.com/51365288
 embed: video
 ---

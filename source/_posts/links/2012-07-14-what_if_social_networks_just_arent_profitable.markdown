@@ -2,6 +2,9 @@
 layout: link
 title: What If Social Networks Just Aren't Profitable?
 date: '2012-07-14 01:17:50 +0100'
+tags:
+  - Social media
+  - Derek Powazek
 link: http://powazek.com/posts/3024
 ---
 Derek Powazek:

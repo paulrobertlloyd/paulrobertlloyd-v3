@@ -2,6 +2,10 @@
 layout: link
 title: The Slow Web
 date: '2012-06-25 23:58:47 +0100'
+tags:
+  - Ideas
+  - Web design
+  - Jack Cheng
 link: http://jackcheng.com/the-slow-web
 ---
 Jack Cheng:

@@ -2,6 +2,10 @@
 layout: link
 title: The Pixel Painter
 date: '2013-08-12 21:33:38 +0100'
+tags:
+  - Video
+  - Art
+  - Hal Lasko
 link: http://vimeo.com/70748579
 embed: video
 ---

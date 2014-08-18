@@ -2,6 +2,9 @@
 layout: link
 title: End Hover Abuse Now
 date: '2010-09-18 11:49:00 +0100'
+tags:
+  - Cennydd Bowles
+  - Web design
 link: http://cennydd.co.uk/2010/end-hover-abuse-now/
 ---
 My esteemed colleague, Cennydd Bowles:

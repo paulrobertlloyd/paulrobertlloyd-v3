@@ -4,10 +4,10 @@ title: Keep Up!
 date: '2013-08-15 22:12:58 +0100'
 excerpt: Last month I spoke at the UK launch of Aquent Gymnasium -- an online learning platform that offers free courses for designers looking to improve their web development skills. This is a rough transcript of my talk.
 tags:
-  - Presentation
-  - Web Design
-  - Web Development
-  - Web Standards
+  - Presentations
+  - Web design
+  - Web development
+  - Web standards
 ---
 *Last month I spoke at the UK launch of [Aquent Gymnasium][1] -- an online learning platform that offers free courses for designers looking to improve their web development skills. What follows is a rough transcript of my talk.*
 

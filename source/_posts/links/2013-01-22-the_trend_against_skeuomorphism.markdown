@@ -2,6 +2,9 @@
 layout: link
 title: The Trend Against Skeuomorphic Textures and Effects in User Interface Design
 date: '2013-01-22 00:16:44 +0000'
+tags:
+  - Design
+  - User interface
 link: http://daringfireball.net/2013/01/the_trend_against_skeuomorphism
 ---
 John Gruber:
