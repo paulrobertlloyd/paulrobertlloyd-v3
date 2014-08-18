@@ -2,6 +2,10 @@
 layout: link
 title: Carousel
 date: '2012-10-06 01:05:18 +0100'
+tags:
+  - Photography
+  - London
+  - England
 link: http://flickr.com/photos/paulrobertlloyd/8052168399
 embed: photo
 ---

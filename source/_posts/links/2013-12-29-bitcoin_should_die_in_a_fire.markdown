@@ -2,6 +2,11 @@
 layout: link
 title: Why I Want Bitcoin to Die in a Fire
 date: '2013-12-29 22:34:16 +0000'
+tags:
+  - Politics
+  - Economics
+  - Bitcoin
+  - Charlie Stross
 link: http://www.antipope.org/charlie/blog-static/2013/12/why-i-want-bitcoin-to-die-in-a.html
 ---
 More on Bitcoin from Charlie Stross:

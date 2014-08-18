@@ -2,6 +2,11 @@
 layout: link
 title: Eric Schmidt Interviews Stephen Colbert
 date: '2013-04-17 18:58:33 +0100'
+tags:
+  - Video
+  - Stephen Colbert
+  - Eric Schmidt
+  - Google
 link: http://youtube.com/watch?v=-HpBHWUPa8Q
 embed: video
 ---

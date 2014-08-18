@@ -2,6 +2,13 @@
 layout: link
 title: Star Wars iPad Briefing
 date: '2010-06-02 20:15:00 +0100'
+tags:
+  - Video
+  - Comedy
+  - Adam Buxton
+  - Star Wars
+  - Steve Jobs
+  - Apple
 link: http://dailymotion.com/video/xfgk3r_star-wars-i-pad-briefing_fun
 embed: video
 ---

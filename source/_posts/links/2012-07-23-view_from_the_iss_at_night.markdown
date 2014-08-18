@@ -2,6 +2,10 @@
 layout: link
 title: View From the ISS at Night
 date: '2012-07-23 01:34:09 +0100'
+tags:
+  - Video
+  - Space
+  - International Space Station
 link: http://vimeo.com/45878034
 embed: video
 ---

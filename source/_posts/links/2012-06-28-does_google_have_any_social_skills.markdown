@@ -2,6 +2,9 @@
 layout: link
 title: Does Google Have Any Social Skills at All?
 date: '2012-06-28 23:53:00 +0100'
+tags:
+  - Google
+  - Sam Biddle
 link: http://gizmodo.com/5921823/does-google-have-any-social-skills-at-all
 ---
 Sam Biddle:

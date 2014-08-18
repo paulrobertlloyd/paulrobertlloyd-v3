@@ -2,6 +2,9 @@
 layout: link
 title: Filmography 2010
 date: '2010-12-31 01:41:00 +0000'
+tags:
+  - Video
+  - Film
 link: http://youtube.com/watch?v=I4dEWOB6THE
 embed: video
 ---

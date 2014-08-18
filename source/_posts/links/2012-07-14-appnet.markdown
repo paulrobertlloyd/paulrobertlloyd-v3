@@ -2,6 +2,10 @@
 layout: link
 title: App.net
 date: '2012-07-14 01:20:36 +0100'
+tags:
+  - App.net
+  - Social media
+  - Dalton Caldwell
 link: http://daltoncaldwell.com/an-audacious-proposal
 ---
 Dalton Caldwell:

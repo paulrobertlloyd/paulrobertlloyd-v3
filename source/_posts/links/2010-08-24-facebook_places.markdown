@@ -2,6 +2,9 @@
 layout: link
 title: The Problem with Facebook's 'Places'
 date: '2010-08-24 18:21:00 +0100'
+tags:
+  - Facebook
+  - Social media
 link: http://log.maniacalrage.net/post/1004228594/
 ---
 Garrett Murray:

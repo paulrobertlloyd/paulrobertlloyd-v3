@@ -2,6 +2,10 @@
 layout: link
 title: 'Designer Duds: Losing Our Seat at the Table'
 date: '2014-04-27 20:27:24 +0000'
+tags:
+  - Design
+  - Silicon Valley
+  - Mills Baker
 link: https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table
 ---
 Mills Baker:

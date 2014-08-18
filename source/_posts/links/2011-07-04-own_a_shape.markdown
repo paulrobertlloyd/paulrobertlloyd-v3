@@ -2,6 +2,9 @@
 layout: link
 title: Own a Shape
 date: '2011-07-04 23:44:18 +0100'
+tags:
+  - Design
+  - User interface
 link: http://interuserface.net/2011/06/own-a-shape/
 ---
 Clayton Miller:

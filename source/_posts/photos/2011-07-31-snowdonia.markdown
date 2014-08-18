@@ -2,6 +2,10 @@
 layout: link
 title: Snowdonia
 date: '2011-07-31 18:48:28 +0100'
+tags:
+  - Photography
+  - Snowdonia
+  - Wales
 link: http://flickr.com/photos/paulrobertlloyd/5992028115/in/set-72157627194510143
 embed: photo
 ---

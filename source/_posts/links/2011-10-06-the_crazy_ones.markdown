@@ -2,6 +2,10 @@
 layout: link
 title: The Crazy Ones
 date: '2011-10-06 20:32:05 +0100'
+tags:
+  - Steve Jobs
+  - Apple
+  - Advertising
 link: http://youtube.com/watch?v=8rwsuXHA7RA
 embed: video
 ---

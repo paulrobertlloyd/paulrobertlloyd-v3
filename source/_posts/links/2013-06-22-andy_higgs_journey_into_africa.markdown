@@ -2,6 +2,10 @@
 layout: link
 title: 'Andy Higgs: Journey into Africa'
 date: '2013-06-22 02:09:48 +0100'
+tags:
+  - Travel
+  - Africa
+  - Andy Higgs
 link: http://justbeyondthebridge.co.uk/blog/category/travel/
 ---
 Although it's easy to feel envious of Andy's travels around the world, his writing is vivid enough to make you believe you had joined him. His latest series of posts, detailing a trip trough Africa, are no different. It sounds like an amazing continent, one that offers the intrepid traveller some incredible sights:

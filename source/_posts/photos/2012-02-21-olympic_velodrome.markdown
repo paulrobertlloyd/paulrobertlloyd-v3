@@ -2,6 +2,13 @@
 layout: link
 title: The Olympic Velodrome
 date: '2012-02-21 01:52:40 +0000'
+tags:
+  - Photography
+  - Architecture
+  - London 2012
+  - Olympics
+  - London
+  - England
 link: http://flickr.com/photos/paulrobertlloyd/6913342093
 embed: photo
 ---

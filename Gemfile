@@ -1,12 +1,14 @@
 source "https://rubygems.org"
 
 # Capistrano (for automated deployment
-group :development do
-  gem 'capistrano'
-  gem 'capistrano-rvm'
-  gem 'capistrano-bundler'
-  gem 'capistrano-npm'
-end
+# group :development do
+#   gem 'capistrano'
+#   gem 'capistrano-rvm'
+#   gem 'capistrano-bundler'
+#   gem 'capistrano-npm'
+# end
+
+gem 'mina'
 
 # Rake (for task management)
 gem 'rake'

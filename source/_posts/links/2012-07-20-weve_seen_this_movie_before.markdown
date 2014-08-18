@@ -2,6 +2,11 @@
 layout: link
 title: We've Seen This Movie Before
 date: '2012-07-20 23:51:44 +0100'
+tags:
+  - Politics
+  - Gun control
+  - United States
+  - Roger Ebert
 link: http://www.nytimes.com/2012/07/21/opinion/weve-seen-this-movie-before.html
 ---
 Roger Ebert on the recent shootings in Aurora, Colorado:
