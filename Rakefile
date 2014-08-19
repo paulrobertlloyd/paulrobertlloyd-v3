@@ -80,7 +80,7 @@ end
 
 
 desc "Regenerate the website files and place them into destination."
-task :build => :prepare do
+task :build => [:install, :prepare] do
   sh 'bundle exec jekyll build --config config/jekyll.yml'
   cp_r "assets/.", "#{destination}/assets"
   cp_r "downloads/.", "#{destination}/downloads"
@@ -88,7 +88,7 @@ end
 
 
 desc "Regenerate the website files (with drafts) and place them into destination."
-task :build_drafts => :prepare do
+task :build_drafts => [:install, :prepare] do
   sh 'bundle exec jekyll build --config config/jekyll.yml --drafts'
   cp_r "assets/.", "#{destination}/assets"
 end

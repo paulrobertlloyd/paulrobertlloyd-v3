@@ -8,8 +8,6 @@ group :development do
   gem 'capistrano-npm'
 end
 
-# gem 'mina'
-
 # Rake (for task management)
 gem 'rake'
 
