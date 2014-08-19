@@ -24,7 +24,7 @@ archive:
   title: :date
 
 # Remarks
-remarks_dir: ../../../tmp/jekyll/remarks
+remarks_dir: ../../../shared/remarks
 
 # Tags
 tag_page_layout: tag
