@@ -85,7 +85,7 @@ GEM
     ruby-oembed (0.8.10)
     rubypants (0.2.0)
     safe_yaml (1.0.3)
-    sass (3.3.14)
+    sass (3.4.0)
     sshkit (1.5.1)
       colorize
       net-scp (>= 1.1.2)
