@@ -3,6 +3,10 @@ layout: entry
 title: Important Things
 date: '2009-02-08 11:44:27 +0000'
 excerpt: One of my favourite comedians stars in a new show starting on Comedy Central this week.
+tags:
+  - Comedy
+  - Television
+  - Demetri Martin
 ---
 ![Promotion for Important Things](/assets/images/2009/02/important_things.jpg)
 

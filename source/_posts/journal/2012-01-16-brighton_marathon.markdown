@@ -3,15 +3,14 @@ layout: entry
 title: I'm Running a Marathon (And a Half)
 date: '2012-01-16 01:46:00 +0000'
 excerpt: I've always wanted to run a marathon, but shorter races were beset by poor training. Since taken running more seriously, I've become lighter, leaner and possibly even a bit faster. If I'm ever to achieve my dream of running a marathon, then this is the year to do it. An Olympic year too.
+tags:
+  - Personal
+  - Running
+  - Charity
+  - Brighton Marathon
 discussion: closed
 post_id: 2012-01-16-brighton_marathon
 ---
-<div class="notification message">
-    <h4>I'm running the Brighton Marathon on Sunday, April 15th 2012</h4>
-    <p>![](/assets/images/2012/01/action_for_children.png){: .pull-right} By doing so, I hope to raise £500 for Action for Children. Sponsorship will not only motivate me on the big day, but help thousands of children across the UK reach their full potential.</p>
-    <p><a class="action" href="http://www.justgiving.com/prlrun2012/">Sponsor my run on Just Giving</a></p>
-</div>
-
 ## Towards the Ultimate Goal
 I've always wanted to run a marathon. Being of sound mind, I thought it probably best to compete in a smaller event first, so I entered the Great North Run (the world's largest half marathon) in 2003. Perhaps 'compete' is the wrong word. Whilst most people take running seriously, the real aim of mass participatory running events like this is to have fun whilst raising lots of money for good causes at the same time.
 

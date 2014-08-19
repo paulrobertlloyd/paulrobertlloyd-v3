@@ -3,6 +3,11 @@ layout: entry
 title: Material Thinking
 date: '2012-08-24 01:44:10 +0100'
 excerpt: 'Earlier this month, Team Clearleft headed up to London for a day of design related exhibitions: <cite>Bauhaus: Art as Life</cite> at the Barbican and (after a ride across the city on a ''Boris Bike'') <cite>British Design 1948-2012</cite> and <cite>Heatherwick Studio: Designing the Extraordinary</cite> at the V&A.'
+tags:
+  - Design
+  - Heatherwick Studio
+  - SXSW
+  - Web design and development
 ---
 ![Olympic Cauldron design by Heatherwick Studio](/assets/images/2012/08/material_thinking.jpg)
 

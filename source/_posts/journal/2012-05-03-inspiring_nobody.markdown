@@ -3,6 +3,11 @@ layout: entry
 title: Inspiring Nobody
 date: '2012-05-03 11:49:26 +0100'
 excerpt: Rather than showcase British interactive design talent, the biggest cultural event of our generation has been represented online by an uninspired mess that flies the flag for the status quo.
+tags:
+  - Design
+  - Web design and development
+  - Olympics
+  - London 2012
 discussion: closed
 post_id: 2012-05-03-inspiring_nobody
 ---

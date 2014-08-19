@@ -8,7 +8,7 @@ tags:
   - Design
   - Olympics
   - Sochi 2014
-  - Web design
+  - Web design and development
   - Winter Olympics
 ---
 {% figure Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women's 7.5 km Sprint %}

@@ -3,6 +3,9 @@ layout: entry
 title: Nothing Green About SXSW
 date: '2009-03-15 20:52:17 +0000'
 excerpt: 'Friday saw the start of this years SXSW interactive, film and music festivals in Austin Texas, and once again they highlight the scourge of swag: the ''stuff we all get'' that soon becomes the stuff we don''t want.'
+tags:
+  - Sustainability
+  - SXSW
 discussion: closed
 post_id: 2009-03-15-nothing_green_about_sxsw
 ---

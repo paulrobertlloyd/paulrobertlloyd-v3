@@ -6,8 +6,8 @@ excerpt: The tail end of this year has been rather hectic. If moving house and c
 tags:
   - Design
   - Projects
-  - Web design
-  - Web development
+  - Web design and development
+  - 24 ways
 ---
 ![24 ways viewed on an iPad mini](/assets/images/2013/12/redesigning_24_ways.jpg)
 

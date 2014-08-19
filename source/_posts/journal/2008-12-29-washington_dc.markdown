@@ -6,7 +6,7 @@ excerpt: The final stop in my four-city tour of the US in October was Washington
 tags:
   - Architecture
   - Travel
-  - North America
+  - Washington, DC
   - United States
 discussion: closed
 post_id: 2008-12-29-washington_dc

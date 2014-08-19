@@ -3,6 +3,9 @@ layout: entry
 title: The Multipack Presents...
 date: '2009-02-07 22:29:57 +0000'
 excerpt: Every year the Multipack -- a community of web developers based in the Midlands -- seems  to undergo a renewal, finding confidence to try new things. This year is no different.
+tags:
+  - Web design and development
+  - Community
 discussion: closed
 post_id: 2009-02-07-the_multipack_presents
 ---

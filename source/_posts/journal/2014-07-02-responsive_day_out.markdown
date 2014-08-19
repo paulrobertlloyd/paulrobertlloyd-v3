@@ -4,8 +4,8 @@ title: 'The Pursuit of Laziness: Thoughts from Responsive Day Out'
 date: '2014-07-02 13:44:54 +0000'
 excerpt: Last Friday I attended Responsive Day Out 2. The format was the same as last year, but the tenor was a little different. Gone were the theoretical presentations, talk of trying to sell responsive web design to clients and fears of embarking on responsive projects. Instead presentations focused on the actual doing; getting into the nitty-gritty.
 tags:
-  - Web design
-  - Web development
+  - Web design and development
+  - Responsive design
 discussion: closed
 post_id: 2014-07-02-responsive_day_out
 ---

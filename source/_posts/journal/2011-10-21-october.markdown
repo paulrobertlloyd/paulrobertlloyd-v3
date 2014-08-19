@@ -3,6 +3,15 @@ layout: entry
 title: 'October: So Far, So Fun'
 date: '2011-10-21 00:30:00 +0100'
 excerpt: October has been a crazy month, and I'm not even done with it yet!
+tags:
+  - Demetri Martin
+  - Design Museum
+  - Littlehampton
+  - London
+  - Mock The Week
+  - Television
+  - Travel
+  - Personal
 ---
 October has been a crazy month, and I'm not even done with it yet!
 
