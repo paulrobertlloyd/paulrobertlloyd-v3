@@ -62,8 +62,7 @@ module StaticRemarks
       content
     ]
 
-    attr_accessor :site, :data, :ext, :output, :name, :content
-    attr_accessor :date
+    attr_accessor :site, :data, :ext, :output, :name, :content, :date
 
     def initialize(site, source, dir, name)
       @site = site
@@ -76,7 +75,7 @@ module StaticRemarks
 
     # Get the full path to the directory containing the post files
     def containing_dir(source, dir)
-      return File.join(source, dir, "_remarks")
+      return File.join(source, dir, site.config['remarks_dir'])
     end
 
     def remark_id
@@ -96,7 +95,7 @@ module StaticRemarks
     end
 
     def relative_path # make jekyll 2.0 happy
-      "_remarks"
+      site.config['remarks_dir']
     end
   end
 
@@ -112,7 +111,7 @@ module StaticRemarks
   def self.read_remarks(site, dir = '')
     remarks = Hash.new() { |h, k| h[k] = Array.new }
 
-    remark_files = site.get_entries(dir, "_remarks")
+    remark_files = site.get_entries(dir, site.config['remarks_dir'])
     remark_files.each do |f|
       c = StaticRemark.new(site, site.source, dir, f)
       remarks[c.post_id] << c
