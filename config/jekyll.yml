@@ -9,6 +9,11 @@ author:
   uri: http://paulrobertlloyd.com
   twitter: "@paulrobertlloyd"
 
+# License
+license:
+  title: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  url: http://creativecommons.org/licenses/by-nc-sa/4.0/
+
 # Permalinks
 permalink: /:year/:month/:title/
 
@@ -25,12 +30,6 @@ archive:
 
 # Remarks
 remarks_dir: ../../../shared/remarks
-
-# Tags
-tag_page_layout: tag
-tag_page_dir: tags
-tag_permalink_style: pretty
-ignored_tags: [Travel]
 
 # Collections
 collections:
