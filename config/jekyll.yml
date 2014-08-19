@@ -24,9 +24,16 @@ paginate_exclude:
   categories: [projects]
 
 # Archives
-archive:
-  layout: archive
-  title: :date
+# archive:
+#   layout: archive
+#   title: :date
+
+jekyll-archives:
+  layout: archive           # Layout to use for archive pages.
+  permalinks:
+    year:     '/archive/:name/'     # Permalink to use for year-based archives.
+    tag:      '/tag/:name/'         # Permalink to use for tag archives.
+    category: '/category/:name/'    # Permalink to use for category archives.
 
 # Remarks
 remarks_dir: ../../../shared/remarks
@@ -52,4 +59,5 @@ destination: ./public
 
 # Gems
 gems:
+  - jekyll-archives
   - jekyll-sitemap

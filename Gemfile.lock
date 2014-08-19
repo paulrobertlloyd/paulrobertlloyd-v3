@@ -5,6 +5,14 @@ GIT
     typogruby (1.0.16)
       rubypants
 
+GIT
+  remote: git://github.com/jekyll/jekyll-archives.git
+  revision: 8e483d35a41cb27789cc8f7840439ebc0ec0e2b8
+  branch: archives
+  specs:
+    jekyll-archives (0.1.0)
+      jekyll (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,7 +90,6 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
     ref (1.0.5)
-    ruby-oembed (0.8.10)
     rubypants (0.2.0)
     safe_yaml (1.0.3)
     sass (3.4.0)
@@ -96,7 +103,6 @@ GEM
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
-    xml-simple (1.1.4)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -108,9 +114,8 @@ DEPENDENCIES
   capistrano-npm
   capistrano-rvm
   jekyll
+  jekyll-archives!
   jekyll-sitemap
   rake
-  ruby-oembed
   therubyracer
   typogruby!
-  xml-simple

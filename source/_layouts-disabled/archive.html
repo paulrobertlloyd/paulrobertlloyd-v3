@@ -1,0 +1,68 @@
+---
+layout: default
+---
+{% assign previous_index = paginator.previous_page | minus: 1 %}
+{% assign next_index = paginator.next_page | minus: 1 %}
+{% case page.archive.date_pattern %}
+{% when "%Y" %}
+    {% assign archivetype = "year" %}
+    {% assign archivename = page.date | date: "%Y" %}
+    {% assign archivename_previous = paginator.posts[previous_index].date | date: "%Y" %}
+    {% assign archivename_next = paginator.posts[next_index].date | date: "%Y" %}
+{% when "%Y/%m" %}
+    {% assign archivetype = "month" %}
+    {% assign archivename = page.date | date: "%B %Y" %}
+    {% assign archivename_previous = paginator.posts[previous_index].date | date: "%B %Y" %}
+    {% assign archivename_next = paginator.posts[next_index].date | date: "%B %Y" %}
+{% endcase %}
+<section class="index section--archive">
+    <header class="index__header">
+        <h1 class="index__title">{{ archivename | typeset }}</h1>
+    </header>
+
+{% if archivetype == "year" %}
+    <section class="section section--year">
+    {% for post in page.archive.posts reversed %}
+        {% capture month %}{{ post.date | date: "%m%Y" }}{% endcapture %}
+        {% capture nmonth %}{{ post.next.date | date: "%m%Y" }}{% endcapture %}
+        {% if month != nmonth %}
+            {% if forloop.index != 1 %}
+        </ol>
+            {% endif %}
+
+        <h1 class="section__title"><a href="{{ post.date | date: "/%Y/%m/" }}">{{ post.date | date: "%B %Y" }}</a></h1>
+        <ol class="list list--entries" reversed>
+        {% endif %}
+
+        {% if post.chapter-title == null %}<li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | typeset }}</a></li>{% endif %}
+
+    {% endfor %}
+        </ol>
+    </section>
+{% else %}
+    {% for summary in page.archive.posts reversed %}
+    {% include articles/summary.html %}
+    {% endfor %}
+{% endif %}
+
+    <nav class="nav nav--pagination grid">
+    {% if paginator.previous_page %}
+        <div class="grid__item">
+            <a class="nav__item nav__item--prev" rel="prev" href="{{ paginator.previous_page_path | remove: "index.html" }}" title="{{ archivename_previous }}">
+                <span class="nav__item__label">Previous {{ archivetype }}</span>
+            </a>
+        </div>
+    {% endif %}
+
+    {% if paginator.next_page %}
+        <div class="grid__item">
+            <a class="nav__item nav__item--next" rel="next" href="{{ paginator.next_page_path | remove: "index.html" }}" title="{{ archivename_next }}">
+                <span class="nav__item__label">Next {{ archivetype }}</span>
+            </a>
+        </div>
+    {% endif %}
+    </nav>
+
+    {% include forms/search.html %}
+    {% include navigation/nav--years.html %}
+</section>
