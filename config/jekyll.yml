@@ -23,6 +23,9 @@ archive:
   layout: archive
   title: :date
 
+# Remarks
+remarks_dir: ../../../tmp/jekyll/remarks
+
 # Tags
 tag_page_layout: tag
 tag_page_dir: tags
