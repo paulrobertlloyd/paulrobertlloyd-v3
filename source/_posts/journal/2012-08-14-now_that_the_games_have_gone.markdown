@@ -18,9 +18,9 @@ Big events like this always have me yearning to represent my country on the inte
 
 While the Games have inspired me to start running again (I've set a target to complete next year's Brighton Half Marathon in under two hours) the real lessons focus on personal development. Returning to [the goals I set for myself][5] earlier in the year, again it comes down to pushing myself; seeking uncomfortable situations that force me to act on my toes and work to the best of my abilities. My forthcoming role as a Paralympic Games Maker, may be the first such test.
 
-[1]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157630861413566/
-[2]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157630874835066/
-[3]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157630906046272/
+[1]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157630861413566/
+[2]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157630874835066/
+[3]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157630906046272/
 [4]: http://www.bbc.co.uk/sport/0/olympics/19236354
 [5]: /2012/01/goals_for_2012/
 

@@ -22,7 +22,7 @@ I'm considering today's launch very much a pre-release affair. I'm still not set
 
 Please let me know your thoughts on the new direction and design (and any bugs you run into) in the comments below.
 
-[1]: http://flickr.com/photos/paulrobertlloyd/
+[1]: https://www.flickr.com/photos/paulrobertlloyd/
 [2]: /2008/09/california_zephyr/
 [3]: /tags/travel/
 [4]: /about/colophon/

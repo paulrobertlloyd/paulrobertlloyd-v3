@@ -26,4 +26,4 @@ The one lasting idea I will take a way from this workshop is to always carry a s
 
 [1]: http://davegray.info/
 [2]: http://2010.uxlondon.com/
-[3]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157624166668842/
+[3]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157624166668842/

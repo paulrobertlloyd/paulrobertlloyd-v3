@@ -7,6 +7,6 @@ date: '2012-03-22 02:42:11 +0000'
 
 [1]: http://benbarnett.net/
 [2]: http://andyhume.net/
-[3]: http://www.flickr.com/photos/benpbarnett/sets/72157629624153789/
+[3]: https://www.flickr.com/photos/benpbarnett/sets/72157629624153789/
 
 *[US]: United States

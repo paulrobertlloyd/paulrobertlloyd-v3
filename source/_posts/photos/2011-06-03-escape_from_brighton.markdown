@@ -6,7 +6,7 @@ tags:
   - Photography
   - Brighton
   - England
-link: http://flickr.com/photos/paulrobertlloyd/5773042053/in/set-72157626710939575
+link: https://www.flickr.com/photos/paulrobertlloyd/5773042053/in/set-72157626710939575
 embed: photo
 ---
 One of my favourite photos from a recent Saturday spent exploring Brighton with my camera.

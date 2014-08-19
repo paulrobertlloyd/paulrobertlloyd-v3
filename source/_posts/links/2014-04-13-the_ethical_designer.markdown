@@ -7,7 +7,7 @@ tags:
   - Ethics
   - Design
   - Cennydd Bowles
-link: http://youtube.com/watch?v=SB_GDF-mKTE
+link: https://www.youtube.com/watch?v=SB_GDF-mKTE
 embed: video
 ---
 Possibly the most important design talk you'll hear this year:
