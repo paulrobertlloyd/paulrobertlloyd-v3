@@ -8,7 +8,7 @@ tags:
   - Film trailers
   - Alan Partridge
   - Comedy
-link: http://youtube.com/watch?v=2ed2pifRpc0
+link: https://www.youtube.com/watch?v=2ed2pifRpc0
 embed: video
 ---
 "Time for big school."

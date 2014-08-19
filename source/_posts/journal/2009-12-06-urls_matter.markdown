@@ -93,7 +93,7 @@ When advocating the user, applying blanket claims or unfounded assumptions such 
 [7]: http://www.sklar.com/
 [8]: http://phpadvent.org/2009/do-urls-matter-by-david-sklar
 [9]: http://oreilly.com/catalog/9780596101015
-[10]: http://flickr.com/photos/paulrobertlloyd/4103413557/in/set-72157622922469188/
+[10]: https://www.flickr.com/photos/paulrobertlloyd/4103413557/in/set-72157622922469188/
 [11]: http://blog.ning.com/2009/11/small-changes-with-a-big-punch-coming-next-week.html
 [12]: http://2009.dconstruct.org/podcast/mobiledesign/
 [13]: http://www.useit.com/alertbox/990321.html

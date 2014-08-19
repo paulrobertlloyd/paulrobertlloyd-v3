@@ -8,7 +8,7 @@ post_id: 2009-03-15-nothing_green_about_sxsw
 ---
 Friday saw the start of this years SXSW interactive, film and music festivals in Austin Texas, and once again they highlight the scourge of swag: the 'stuff we all get' that soon becomes the stuff we don't want. Whilst SXSW likes to tout its [environmental credentials][1] as a carbon neutral conference (largely by means of carbon offsetting) it amazes me that year after year this supposed concern results in the following familiar image:
 
-{% figure <a href="http://flickr.com/photos/drbrain/421910167/">SXSW Bags</a> by <a href="http://flickr.com/photos/drbrain/">drbrain</a>. %}
+{% figure <a href="https://www.flickr.com/photos/drbrain/421910167/">SXSW Bags</a> by <a href="https://www.flickr.com/photos/drbrain/">drbrain</a>. %}
 ![A sea of SXSW Big Bags from 2007](/assets/images/2009/03/sxswbigbags.jpg)
 {% endfigure %}
 
@@ -46,7 +46,7 @@ Let me get this straight: bags of useless free shit are *not* cool. It's about t
 [1]: http://sxsw.com/sustainability
 [2]: http://www.centernetworks.com/sxsw-2009-schwag-bag
 [3]: http://www.centernetworks.com/sxsw-2008-bag
-[4]: http://flickr.com/search/?q=sxsw+bags&m=tags&s=int&ct=3&mt=photos
+[4]: https://www.flickr.com/search/?q=sxsw+bags&m=tags&s=int&ct=3&mt=photos
 
 *[CD]: Compact Disc
 *[SXSW]: South by SouthWest

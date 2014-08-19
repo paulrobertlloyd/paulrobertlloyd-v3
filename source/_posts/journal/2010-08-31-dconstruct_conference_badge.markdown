@@ -8,7 +8,7 @@ post_id: 2010-08-31-dconstruct_conference_badge
 ---
 [Conferences can be quite wasteful affairs][1]. In addition to swag bags filled with magazines, leaflets and free gifts, there is often a programme detailing the schedule and providing some background on the speakers.
 
-{% figure This years dConstruct conference badge. Photo by <a href="http://www.flickr.com/photos/b0xman/4929704982/">James Box</a> %}
+{% figure This years dConstruct conference badge. Photo by <a href="https://www.flickr.com/photos/b0xman/4929704982/">James Box</a> %}
 ![](/assets/images/2010/08/dconstruct_conference_badge.jpg)
 {% endfigure %}
 

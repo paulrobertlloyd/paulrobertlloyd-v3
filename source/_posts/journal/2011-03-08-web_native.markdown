@@ -105,7 +105,7 @@ Whilst these guidelines still advocate a fixed width, as I mentioned earlier, su
 
 In essence, GEL is an example of systems level thinking. Design principles define common goals whilst a visual language and design patterns provide building blocks from which new websites can be created. And once we start to think in terms of systems, so designers can become native to the web.
 
-[10]: http://www.flickr.com/groups/microcopy/
+[10]: https://www.flickr.com/groups/microcopy/
 [11]: https://www.readability.com/
 [12]: http://www.instapaper.com/
 [13]: http://www.thegridsystem.org/

@@ -11,7 +11,7 @@
 
     <div class="summary__main">
     {% if summary.embed == "photo" %}
-        {% oembed {{ summary.link }} %}
+        {% embed {{ summary.link }} %}
     {% endif %}
 
     {% if summary.layout == "link" %}

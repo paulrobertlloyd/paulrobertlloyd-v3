@@ -13,26 +13,26 @@ Niemeyer is one of the few architects given the opportunity to design on such a 
 ## Strong Lines, Contrasting Curves
 Whilst most buildings are typically cuboid in nature, in Brasília these shapes are often exaggerated; [the hotel I stayed in][4] had its rooms lined up along three lenghthy floors, whilst the tall, thin offices of the National Congress rise above a shallow and wide building below. Sometimes these lines are contrasted against soft curves. Again, the National Congress is an example of this, but the large dome of the Museum of the Republic is also hard to miss. Niemeyer remarked that his curves are symbolic of Brazilian women.
 
-{% figure Brasília's signature building, the National Congress, beautifully demonstrates the contrast of strong linear shapes against graceful curves. Shown here is the dome of the Chamber of the Deputies resting upon the shallow base of the building. Photo by <a href="http://flickr.com/photos/chris_diewald/2656782975/">Christoph Diewald</a> %}
+{% figure Brasília's signature building, the National Congress, beautifully demonstrates the contrast of strong linear shapes against graceful curves. Shown here is the dome of the Chamber of the Deputies resting upon the shallow base of the building. Photo by <a href="https://www.flickr.com/photos/chris_diewald/2656782975/">Christoph Diewald</a> %}
 ![](/assets/images/2011/07/brasilia_lines.jpg)
 {% endfigure %}
 
 ## Reflection
-{% figure Reflection of Itamaraty Palace into the surrounding pool is integral to the building's design. Photo by <a href="http://flickr.com/photos/acmoraes/2488214984/">A C Moraes</a> %}
+{% figure Reflection of Itamaraty Palace into the surrounding pool is integral to the building's design. Photo by <a href="https://www.flickr.com/photos/acmoraes/2488214984/">A C Moraes</a> %}
 ![](/assets/images/2011/07/brasilia_reflection.jpg)
 {% endfigure %}
 
 As many of his buildings are constructed of concrete, they are usually soften by being sat next to large pools of water. Reflection is clearly seen at the Itamaraty Palace but is also a prominent feature of the Presidential Residence and the National Congress.
 
 ## Suspension
-{% figure Familiar pillar designs at the Presidential Residence and at the Supreme Federal Court. Photos by <a href="http://info.planalto.gov.br/exec/inf_fotografiagrande.cfm?foto=05042006P00028">Palácio do Planalto</a> and <a href="http://flickr.com/photos/19967853@N00/18391299">Vitor Sá</a> %}
+{% figure Familiar pillar designs at the Presidential Residence and at the Supreme Federal Court. Photos by <a href="http://info.planalto.gov.br/exec/inf_fotografiagrande.cfm?foto=05042006P00028">Palácio do Planalto</a> and <a href="https://www.flickr.com/photos/19967853@N00/18391299">Vitor Sá</a> %}
 ![](/assets/images/2011/07/brasilia_suspension.jpg)
 {% endfigure %}
 
 One of Niemeyer favourite tricks is show to his buildings suspended off the ground. Brasília is no different, and here it's often accomplished by the use of a distinctive pillar design, perhaps one that draws its inspiration from the city's layout. These pillars can be seen at the Supreme Court, the Presidential Residence and at the Presidential Palace.
 
 ## Entry
-{% figure Entry to the National Museum of the Republic is via a long sloping ramp. Photo by <a href="http://flickr.com/photos/el_floz/1424610618/">Florian Knorn</a> %}
+{% figure Entry to the National Museum of the Republic is via a long sloping ramp. Photo by <a href="https://www.flickr.com/photos/el_floz/1424610618/">Florian Knorn</a> %}
 ![](/assets/images/2011/07/brasilia_entry.jpg)
 {% endfigure %}
 

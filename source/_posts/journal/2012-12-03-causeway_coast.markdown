@@ -50,7 +50,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 [3]: http://ethanmarcotte.com/
 [4]: http://shiflett.org/
 [5]: https://en.wikipedia.org/wiki/Giants_Causeway
-[6]: http://www.flickr.com/photos/paulrobertlloyd/sets/72157632145059113/
+[6]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157632145059113/
 [7]: http://www.apple.com/aperture/
 [8]: http://visualsupply.co/film/01/aperture3
 [9]: http://www.filamentgroup.com/lab/rwd_img_compression/

@@ -44,7 +44,7 @@ Bron Thomson, Springload's founder and Managing Director told me how they create
 *I review Kiwibank's new responsive design alongside [dConstruct 2012][13] and [Zurb][14] in the July issue of [.net Magazine][15].*
 
 [1]: https://www.kiwibank.co.nz/
-[2]: http://youtube.com/watch?v=UyaakUyciGg
+[2]: https://www.youtube.com/watch?v=UyaakUyciGg
 [3]: http://www.springload.co.nz/
 [4]: https://www.kiwibank.co.nz/join/
 [5]: https://www.kiwibank.co.nz/personal-banking/home-loans/first-home-buyers/

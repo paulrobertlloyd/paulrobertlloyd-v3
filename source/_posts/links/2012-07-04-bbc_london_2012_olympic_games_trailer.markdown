@@ -7,7 +7,7 @@ tags:
   - Advertising
   - BBC
   - London 2012
-link: http://youtube.com/watch?v=4ViLiXA0E70
+link: https://www.youtube.com/watch?v=4ViLiXA0E70
 embed: video
 ---
 The games are so close, I can almost taste them.

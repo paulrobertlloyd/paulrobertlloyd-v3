@@ -4,7 +4,7 @@ title: Stay Hungry. Stay Foolish.
 date: '2011-10-06 20:44:26 +0100'
 tags:
   - Steve Jobs
-link: http://youtube.com/watch?v=UF8uR6Z6KLc
+link: https://www.youtube.com/watch?v=UF8uR6Z6KLc
 embed: video
 ---
 Steve Jobs' 2005 Stanford commencement address is a lesson on how to lead a life of fulfilment:
