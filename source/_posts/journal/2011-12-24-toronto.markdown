@@ -3,6 +3,10 @@ layout: entry
 title: A Taste of Toronto
 date: '2011-12-24 19:25:00 +0000'
 excerpt: Some cities are best arrived at by air; only by flying over Sydney, London or New York do you get a sense of their scale and majesty. San Francisco is best approached by car, with some of the best views of that city seen as you cross the Bay Bridge. Others are best suited to arrival by train. Toronto is one such city.
+tags:
+  - Travel
+  - Toronto
+  - Canada
 ---
 ![Toronto](/assets/images/2011/12/toronto.jpg)
 

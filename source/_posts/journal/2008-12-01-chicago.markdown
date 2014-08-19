@@ -6,7 +6,7 @@ excerpt: I briefly encountered Chicago in March, relaxing there for two nights a
 tags:
   - Architecture
   - Travel
-  - North America
+  - Chicago
   - United States
 ---
 ![Cloud Gate, Chicago](/assets/images/2008/12/chicago.jpg)

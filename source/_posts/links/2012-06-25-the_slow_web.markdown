@@ -4,7 +4,7 @@ title: The Slow Web
 date: '2012-06-25 23:58:47 +0100'
 tags:
   - Ideas
-  - Web design
+  - Web design and development
   - Jack Cheng
 link: http://jackcheng.com/the-slow-web
 ---

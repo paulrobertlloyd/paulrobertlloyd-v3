@@ -3,6 +3,10 @@ layout: entry
 title: Facebook and the Future of the Web
 date: '2012-01-30 23:06:29 +0000'
 excerpt: .net Magazine asked a group of experts what they find most delightful and most despicable about the social networking giant Facebook. This was my response.
+tags:
+  - Facebook
+  - net Magazine
+  - Writing
 ---
 Facebook states that its mission is to make the world a more open and connected place, yet this isn't the exclusive domain of Facebook, it's a consequence of the open network it's built on -- the web. Whilst social networks have made it easier for people to communicate online, Facebook is attempting to go further by deeply integrating its closed, proprietary network into the fabric of the web. With products like Connect, Social Plugins and OpenGraph, Facebook has become a parasite, suffocating the platform that hosts it. History dictates that monopolies -- regardless of their size -- ultimately collapse. Will Facebook become 'too big to fail'? Will its demise bring the web down with it?
 

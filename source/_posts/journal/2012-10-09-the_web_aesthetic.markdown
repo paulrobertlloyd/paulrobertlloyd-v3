@@ -3,6 +3,11 @@ layout: entry
 title: The Web Aesthetic
 date: '2012-10-09 02:50:00 +0100'
 excerpt: At the beginning of this year I was struck by a realisation, prompted in part by the discussions around responsive images but also the artistic ingenuity of the image optimisation techniques being used by Jeremy. How might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
+tags:
+  - Writing
+  - Web design and development
+  - Responsive design
+  - A List Apart
 ---
 ![Illustration for The Web Aesthetic](/assets/images/2012/10/the_web_aesthetic.jpg)
 
