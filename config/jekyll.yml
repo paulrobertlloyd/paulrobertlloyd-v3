@@ -29,11 +29,11 @@ paginate_exclude:
 #   title: :date
 
 jekyll-archives:
-  layout: archive           # Layout to use for archive pages.
+  layout: archive
   permalinks:
-    year:     '/archive/:name/'     # Permalink to use for year-based archives.
-    tag:      '/tag/:name/'         # Permalink to use for tag archives.
-    category: '/category/:name/'    # Permalink to use for category archives.
+    year: '/:name/'
+    tag: '/tags/:name/'
+    category: '/category/:name/'
 
 # Remarks
 remarks_dir: ../../../shared/remarks
