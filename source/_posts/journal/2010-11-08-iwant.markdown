@@ -5,6 +5,8 @@ date: '2010-11-08 23:35:26 +0000'
 excerpt: I've recently felt frustrated and annoyed as once again friends and colleagues open their wallets and buy the latest product unveiled by Steve Jobs.
 tags:
   - Sustainability
+  - Technology
+  - Apple
 discussion: closed
 post_id: 2010-11-08-iwant
 ---

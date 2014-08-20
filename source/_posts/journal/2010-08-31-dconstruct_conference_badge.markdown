@@ -3,6 +3,11 @@ layout: entry
 title: A Greener Conference Badge for dConstruct
 date: '2010-08-31 23:58:46 +0100'
 excerpt: dConstruct has long combined its conference programme with the name badge, a simple yet cost-effective design. This year we hope to go one better.
+tags:
+  - Clearleft
+  - Conferences
+  - dConstruct
+  - Sustainability
 discussion: closed
 post_id: 2010-08-31-dconstruct_conference_badge
 ---

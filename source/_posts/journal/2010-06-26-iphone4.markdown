@@ -3,6 +3,9 @@ layout: entry
 title: Enough
 date: '2010-06-26 21:39:20 +0100'
 excerpt: I can wait another year before upgrading my iPhone.
+tags:
+  - Apple
+  - iPhone
 discussion: closed
 post_id: 2010-06-26-iphone4
 ---

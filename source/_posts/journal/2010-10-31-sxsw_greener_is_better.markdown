@@ -3,6 +3,11 @@ layout: entry
 title: 'SXSW: Greener is Better'
 date: '2010-10-31 22:09:00 +0000'
 excerpt: I've decided to attend next years SXSW Interactive festival followed by a tour of North America. The details of where I'll be visiting and for how long remain undecided, but I imagine my itinerary will be varied and involve much travelling by train.
+tags:
+  - Travel
+  - Environment
+  - Sustainability
+  - SXSW
 ---
 I've decided to attend next years [SXSW Interactive][1] festival followed by a tour of North America. The details of where I'll be visiting and for how long remain undecided, but I imagine my itinerary will be varied and involve much travelling by train.
 

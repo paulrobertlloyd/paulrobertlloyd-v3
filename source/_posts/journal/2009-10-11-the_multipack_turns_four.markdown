@@ -3,6 +3,8 @@ layout: entry
 title: The Multipack Turns Four
 date: '2009-10-11 15:59:31 +0100'
 excerpt: The web development community has certainly grown up in the last four years.
+tags:
+  - Multipack
 discussion: closed
 post_id: 2009-10-11-the_multipack_turns_four
 ---

@@ -3,6 +3,10 @@ layout: entry
 title: Styleguides for the Web
 date: '2010-12-05 23:09:45 +0000'
 excerpt: Clearly communicating the fundamental aspects of your design at the different stages of a project can help you better communicate with clients, developers and your peers, ensuring your vision doesn't get lost in the transformation from static comp to dynamic ever changing website.
+tag:
+  - Design
+  - Presentations
+  - Styleguides
 ---
 Last month I spoke at ['Multipack Presents... The Design Process'][1]. This was the first opportunity to present a talk I've been preparing about using styleguides to better communicate design with colleagues, developers and clients. A summary of this talk follows, but you can also:
 

@@ -3,6 +3,11 @@ layout: entry
 title: Thoughts on the BBC News Redesign
 date: '2010-09-10 15:17:49 +0100'
 excerpt: There is often talk of there being no landmark design on the web, but I suggest it won't be long before BBC News is considered one of the greatest design icons online today.
+tags:
+  - Design
+  - Web design and development
+  - BBC
+  - MSNBC
 discussion: closed
 post_id: 2010-09-10-bbc_news_redesign
 ---
