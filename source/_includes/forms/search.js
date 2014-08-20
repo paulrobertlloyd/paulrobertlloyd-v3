@@ -2,7 +2,7 @@
     https://github.com/christian-fei/Simple-Jekyll-Search
 */
 
-window.JekyllSearch = (function(window,document){
+window.search = (function(window,document){
     var searchInput = document.querySelector(".search__input"),
         jsonFile = "/search.json",
         jsonData = null,

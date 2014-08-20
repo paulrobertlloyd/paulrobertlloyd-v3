@@ -6,5 +6,5 @@ layout: default
 <ol class="inline-list">
     {% for tag in tags %}
         <li class="tag"><a href="/tags/{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</a></li>
-        {% endfor %}
+    {% endfor %}
 </ol>
