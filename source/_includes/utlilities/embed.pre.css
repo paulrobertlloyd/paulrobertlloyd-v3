@@ -19,21 +19,21 @@
     .embed.js-enhanced {
         margin-right: -calc(var(--v_padding-a)% * (var(--bp_a) / (var(--bp_a) * 84%)));
         margin-left: -calc(var(--v_padding-a)% * (var(--bp_a) / (var(--bp_a) * 84%)));
-        padding-bottom: 60%; /* GUESS! */
+        padding-bottom: 67%;
     }
 }
 @media screen and (min-width: 45em) {
     .embed.js-enhanced {
         margin-right: -calc(var(--v_padding-b)% * (var(--bp_b) / (var(--bp_b) * 76%)));
         margin-left: -calc(var(--v_padding-b)% * (var(--bp_b) / (var(--bp_b) * 76%)));
-        padding-bottom: 70%; /* GUESS! */
+        padding-bottom: 74%;
     }
 }
 @media screen and (min-width: 64em) {
     .embed.js-enhanced {
         margin-right: -calc(var(--v_padding-c)% * (var(--bp_c) / (var(--bp_c) * 68%)));
         margin-left: -calc(var(--v_padding-c)% * (var(--bp_c) / (var(--bp_c) * 68%)));
-        padding-bottom: 80%; /* GUESS! */
+        padding-bottom: 82.75%;
     }
 }
 
