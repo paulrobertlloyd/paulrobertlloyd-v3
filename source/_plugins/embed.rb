@@ -32,11 +32,7 @@ module Jekyll
       def embedCode(embed_url, embed_action)
         print "Embedding #{@uri}\n"
 
-        %|
-        <p class="embed" data-src="#{embed_url}">
-            <a href="#{@uri}">#{embed_action}</a>
-        </p>
-        |
+        %|<p class="embed" data-src="#{embed_url}"><a href="#{@uri}">#{embed_action}</a></p>|
       end
 
       if @host == 'www.youtube.com'
