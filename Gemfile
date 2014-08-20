@@ -17,7 +17,6 @@ gem 'jekyll-archives',
     :git => 'git://github.com/jekyll/jekyll-archives.git',
     :branch => 'archives'
 gem 'jekyll-sitemap'
-gem 'typogruby',
-    :git => 'git://github.com/avdgaag/typogruby.git'
+gem 'typogruby'
 gem 'therubyracer',
     :platforms => :ruby

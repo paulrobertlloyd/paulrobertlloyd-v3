@@ -1,13 +1,6 @@
 GIT
-  remote: git://github.com/avdgaag/typogruby.git
-  revision: c52f4b330ed3e596220b69cf4d23b4e5168b1408
-  specs:
-    typogruby (1.0.16)
-      rubypants
-
-GIT
   remote: git://github.com/jekyll/jekyll-archives.git
-  revision: 8e483d35a41cb27789cc8f7840439ebc0ec0e2b8
+  revision: b62fa76e1846e7bb0b599e3f6a5c9bfdb6c93c1d
   branch: archives
   specs:
     jekyll-archives (0.1.0)
@@ -103,6 +96,8 @@ GEM
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
+    typogruby (1.0.17)
+      rubypants
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -118,4 +113,4 @@ DEPENDENCIES
   jekyll-sitemap
   rake
   therubyracer
-  typogruby!
+  typogruby
