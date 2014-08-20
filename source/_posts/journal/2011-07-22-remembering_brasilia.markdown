@@ -3,6 +3,11 @@ layout: entry
 title: Remembering Brasília
 date: '2011-07-22 22:31:56 +0100'
 excerpt: Somewhat forgotten in the last few months has been my thoughts on Brasília which I visited all the way back in March. For such an incredibly city it seems remiss not to record my thoughts before they fade into distint memory.
+tags:
+  - Travel
+  - Brazil
+  - Brasília
+  - Oscar Niemeyer
 ---
 Somewhat forgotten in the last few months have been my thoughts on Brasília, which I visited all the way back in March. For such an incredible experience it seems remiss not to record my thoughts before they fade into distant memory. I've written separately about [my architectural impression of the city][1], but here is a brief summary of the three days I spent there.
 
