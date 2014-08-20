@@ -3,6 +3,12 @@ layout: entry
 title: Winning the World Cup Would Be the Worst Thing to Happen to English Football
 date: '2010-06-12 22:27:40 +0100'
 excerpt: Much like the wider economy, football in this country is an overinflated bubble ready to burst. Two years after failing to qualify for the European Championships, let us see further embarrassment with an early exit from the World Cup. Then let us seize this opportunity to properly scrutinise the national game and its failings, rather than single out the manger or individual members of the squad.
+tags:
+  - Sport
+  - Governance
+  - The FA
+  - England football team
+  - World Cup 2010
 discussion: closed
 post_id: 2010-06-12-reform_of_english_football
 ---

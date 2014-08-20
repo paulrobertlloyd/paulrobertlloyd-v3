@@ -3,6 +3,9 @@ layout: entry
 title: Social Media Icons
 date: '2009-06-29 00:18:09 +0100'
 excerpt: A set of standardised icons for popular social networking services and tools.
+tags:
+  - Projects
+  - Social media icons
 discussion: closed
 post_id: 2009-06-29-social_media_icons
 style: |

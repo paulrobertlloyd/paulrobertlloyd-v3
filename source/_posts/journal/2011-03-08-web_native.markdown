@@ -3,6 +3,10 @@ layout: entry
 title: The Web Native Designer
 date: '2011-03-08 21:18:16 +0000'
 excerpt: 'Following the latest trends is fun but can also encourage laziness; you should think about design in terms of a particular brief rather than the particular fashion of the day. Yet it can be useful to focus on underlying trends: how we work, how we communicate with clients and how we''re now starting to appreciate the web as a medium in its own right.'
+tag:
+  - Design
+  - Presentations
+  - Process
 ---
 Today I spoke at the [APA's Digital Breakfast][1] event in London. The APA is an organisation that represents print publishers who produce magazines and editorial content for brand-based consumer magazines. This months event focused around the theme of Web Design Trends; [Chris Mills][2] [spoke about HTML5][3] and [Adam Bankin][4] talked about design beyond the desktop. A summary of my talk follows, but you can also:
 

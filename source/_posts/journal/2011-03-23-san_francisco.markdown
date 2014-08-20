@@ -3,6 +3,10 @@ layout: entry
 title: I Never Left My Heart in San Francisco
 date: '2011-03-23 00:17:33 +0000'
 excerpt: As I walked the streets of San Francisco, buoyed by their comfortable familiarity and unique soundtrack, I knew that this was still a city I could never call home.
+tag:
+  - Travel
+  - America
+  - San Francisco
 ---
 Following five days in Austin, I ventured on to San Francisco. A quick stop arranged primarily to catch up with friends, I made sure my stay would be long enough to see all the sights I neglected to visit whilst I was a resident.
 

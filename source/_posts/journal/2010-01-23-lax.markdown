@@ -3,6 +3,12 @@ layout: entry
 title: My LA Ex
 date: '2010-01-23 19:07:09 +0000'
 excerpt: I hoped that almost missing my flight would be the worst my trip to New Zealand would have to offer, but thanks to overzealous immigration officials at LAX, that was nothing but a minor blip.
+tags:
+  - Travel
+  - United States
+  - Los Angeles
+  - LAX
+  - Immigration
 discussion: closed
 post_id: 2010-01-23-lax
 ---

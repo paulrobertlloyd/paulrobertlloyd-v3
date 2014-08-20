@@ -3,6 +3,11 @@ layout: entry
 title: A Small Taste of the South Island
 date: '2010-01-26 00:07:49 +0000'
 excerpt: Having arranged my flights into and out of New Zealand before I had decided upon a full itinerary -- departing from Wellington rather than an airport further south -- meant I had little time to really explore the South Island.
+tags:
+  - Travel
+  - New Zealand
+  - Picton
+  - Wellington
 ---
 Having arranged my flights into and out of New Zealand before I had decided upon a full itinerary -- departing from Wellington rather than an airport further south -- meant I had little time to really explore the South Island.
 

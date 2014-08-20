@@ -3,6 +3,10 @@ layout: entry
 title: Upcoming Attractions
 date: '2009-08-09 18:33:56 +0100'
 excerpt: As Summer hurtles towards it's conclusion (and let's assume for a second that it actually started) so the anticipation for two very special geeky events can begin.
+tags:
+  - Conferences
+  - Geek in the Park
+  - dConstruct
 ---
 As Summer hurtles towards it's conclusion (and let's assume for a second that it actually started) so the anticipation for two very special geeky events can begin.
 
