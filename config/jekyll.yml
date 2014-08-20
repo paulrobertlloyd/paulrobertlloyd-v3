@@ -23,15 +23,11 @@ paginate_path: /journal/:num/
 paginate_exclude:
   categories: [projects]
 
-# Archives
-# archive:
-#   layout: archive
-#   title: :date
-
 jekyll-archives:
   layout: archive
   permalinks:
-    year: '/:name/'
+    year: '/:year/'
+    month: '/:year/:month/'
     tag: '/tags/:name/'
     category: '/category/:name/'
 

@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
+{% for test in site.archives %}
 <section class="index section--archive">
     <header class="index__header">
-        <p>{{ site.archives.type }}</p>
-        <h1 class="index__title">{{ site.archives.name }}</h1>
+        <p>TYPE: {{ test.type }}</p>
+        <h1 class="index__title">NAME {{ test.name }}</h1>
     </header>
 
     <section class="section">
-        {% for summary in site.archives.posts %}
+    {% for summary in test.posts %}
         {% include articles/summary.html %}
-        {% endfor %}
+    {% endfor %}
     </section>
 </section>
+{% endfor %}
