@@ -1,17 +1,15 @@
 ---
 layout: default
 ---
-{% for archive in site.archives %}
 <section class="index section--archive">
     <header class="index__header">
-        <p>{{ archive.type }}</p>
-        <h1 class="index__title">{{ archive.name }}</h1>
+        <p>{{ page.type }}</p>
+        <h1 class="index__title">{{ page.name }}</h1>
     </header>
 
     <section class="section">
-    {% for summary in archive.posts %}
+    {% for summary in page.posts %}
         {% include articles/summary.html %}
     {% endfor %}
     </section>
 </section>
-{% endfor %}
