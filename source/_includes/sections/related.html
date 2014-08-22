@@ -3,19 +3,7 @@
     <ul class="list grid">
     {% for summary in site.related_posts limit:3 %}
         <li class="list__item grid__item">
-            <article class="summary summary--{{ summary.layout }}">
-                <header class="summary__header">
-                    <h1 class="summary__title"><a href="{{ summary.url }}" rel="bookmark">{{ summary.title | typeset }}</a></h1>
-                </header>
-
-                <div class="summary__main">
-                    {{ summary.excerpt | typeset | widont }}
-                </div>
-
-                <footer class="summary__footer">
-                    <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
-                </footer>
-            </article>
+            {% include articles/summary.html %}
         </li>
     {% endfor %}
     </ul>
