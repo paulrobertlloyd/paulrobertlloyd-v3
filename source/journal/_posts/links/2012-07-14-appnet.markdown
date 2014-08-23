@@ -1,0 +1,21 @@
+---
+layout: link
+title: App.net
+date: '2012-07-14 01:20:36 +0100'
+tags:
+  - App.net
+  - Social media
+  - Dalton Caldwell
+link: http://daltoncaldwell.com/an-audacious-proposal
+---
+Dalton Caldwell:
+
+> We're building a real-time social service where users and developers come first, not advertisers.
+>
+> Our team has spent the last 9 years building social services, developer platforms, mobile applications and more.
+>
+> We believe that advertising-supported social services are so consistently and inextricably at odds with the interests of users and developers that something must be done.
+>
+> Help us create the service we all wish existed.
+
+Putting my money where my mouth's been for the last few years, and backing this audacious project. I hope it succeeds.
