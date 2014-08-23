@@ -1,4 +1,4 @@
-{% assign hash = remark.email | to_gravatar | remove: 'http://www.gravatar.com/avatar/' %}
+{% assign hash = remark.email | to_gravatar | remove: 'https://gravatar.com/avatar/' %}
 <article class="remark{% if hash == '15091a37bacfa4bdd011282627eaca2b' %} author{% endif %}" id="remark-{{ forloop.rindex }}">
     <header class="remark__header">
         <h1><a href="{{remark.url}}">{{ remark.author }}<img src="{{ remark.email | to_gravatar }}?s=96" width="64" height="64" alt=""/></a></h1>
