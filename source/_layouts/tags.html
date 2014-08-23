@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
-{% assign tags = site.tags | sort %}
+<section class="index index--tags">
+    <header class="index__header">
+        <p>{{ page.type | capitalize }}</p>
+        <h1 class="index__title">{{ page.name }}</h1>
+    </header>
 
-<ol class="inline-list">
+    {% assign tags = site.tags | sort %}
+    <ol class="inline-list">
     {% for tag in tags %}
-        <li class="tag"><a href="/tags/{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</a></li>
+        <li class="inline-list__item"><a href="/tags/{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</a></li>
     {% endfor %}
-</ol>
+    </ol>
+</section>

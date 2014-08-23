@@ -20,8 +20,6 @@ permalink: /:year/:month/:title/
 # Pagination
 paginate: 12
 paginate_path: /journal/:num/
-paginate_exclude:
-  categories: [projects]
 
 jekyll-archives:
   layout: archive
@@ -36,10 +34,6 @@ remarks_dir: ../../../shared/remarks
 
 # Collections
 collections:
-  projects:
-    output: true
-    title: Projects
-    permalink: /projects/:path/
   essays:
     output: true
     title: Academic Essays

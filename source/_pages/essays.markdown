@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Academic Essays
 permalink: /essays/
 ---

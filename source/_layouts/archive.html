@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-<section class="index section--archive">
+<section class="index index--archive">
     <header class="index__header">
         <p>{{ page.type | capitalize }}</p>
         <h1 class="index__title">{{ page.name }}</h1>
     </header>
 
-    <section class="section">
     {% for summary in page.posts %}
         {% include articles/summary.html %}
     {% endfor %}
-    </section>
 </section>
