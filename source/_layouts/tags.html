@@ -3,14 +3,13 @@ layout: default
 ---
 <section class="index index--tags">
     <header class="index__header">
-        <p>{{ page.type | capitalize }}</p>
-        <h1 class="index__title">{{ page.name }}</h1>
+        <h1 class="index__title">Tags</h1>
     </header>
 
     {% assign tags = site.tags | sort %}
     <ol class="inline-list">
     {% for tag in tags %}
-        <li class="inline-list__item"><a href="/tags/{{ tag[0] | downcase | replace:' ','_' }}">{{ tag[0] }}</a></li>
+        <li class="inline-list__item"><a href="/tags/{{ tag[0] | downcase | replace:' ','-' | replace:':','' | replace:"'",'' }}">{{ tag[0] }}</a></li>
     {% endfor %}
     </ol>
 </section>

@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jekyll/jekyll-archives.git
-  revision: 8a555923feae0da58b4b5efe6a4f2ac1990efdf9
+  revision: 58ffaffe7a2e44314d4a8677ee60390c125a7ff0
   branch: archives
   specs:
     jekyll-archives (0.1.0)
@@ -85,7 +85,7 @@ GEM
     ref (1.0.5)
     rubypants (0.2.0)
     safe_yaml (1.0.3)
-    sass (3.4.0)
+    sass (3.4.1)
     sshkit (1.5.1)
       colorize
       net-scp (>= 1.1.2)
