@@ -12,7 +12,6 @@
     "url": "https://github.com/paulrobertlloyd/paulrobertlloyd.com/issues"
   },
   "devDependencies": {
-    "myth": "~1.1.0",
-    "uglify-js": "~2.4.0"
+    "myth": "~1.1.0"
   }
 }

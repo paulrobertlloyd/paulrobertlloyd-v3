@@ -35,6 +35,9 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.3)
     i18n (0.6.11)
+    japr (0.3.1)
+      jekyll (~> 2.0)
+      liquid (~> 2.4)
     jekyll (2.3.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -60,13 +63,16 @@ GEM
     jekyll-watch (1.1.0)
       listen (~> 2.7)
     kramdown (1.4.1)
-    libv8 (3.16.14.3)
     liquid (2.6.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.4)
+    myth (1.0.2)
+      execjs
+      myth-source (>= 0.3.0)
+    myth-source (1.1.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
@@ -81,7 +87,6 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
-    ref (1.0.5)
     rubypants (0.2.0)
     safe_yaml (1.0.3)
     sass (3.4.1)
@@ -89,15 +94,13 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    therubyracer (0.12.1)
-      libv8 (~> 3.16.14.0)
-      ref
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
     typogruby (1.0.17)
       rubypants
     yajl-ruby (1.1.0)
+    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -107,9 +110,12 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-npm
   capistrano-rvm
+  japr
   jekyll
   jekyll-archives!
   jekyll-sitemap
+  myth
+  myth-source (= 1.1.1)
   rake
-  therubyracer
   typogruby
+  yui-compressor

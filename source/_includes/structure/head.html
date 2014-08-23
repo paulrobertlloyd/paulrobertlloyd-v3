@@ -1,5 +1,5 @@
 <head>
-    <link rel="dns-prefetch" href="#"/>
+    <!--link rel="dns-prefetch" href="#"/-->
     <script>
         (function flagSVG() {
             var ns = {'svg': 'http://www.w3.org/2000/svg'};
@@ -7,12 +7,14 @@
         })();
     </script>
 
-    <link rel="alternate"  href="/feed.xml" type="application/atom+xml" title="RSS Feed"/>
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS Feed"/>
     <link rel="canonical" href="{{ page.url }}"/>
-    <link rel="stylesheet" href="/assets/stylesheets/global.min.css"/>
+    {% css_asset_tag global %}
+    - /_assets/stylesheets/global.myth
+    {% endcss_asset_tag %}
 
 {% if page.style %}
-     <style type="text/css">
+     <style>
          {{ page.style }}
      </style>
 {% endif %}
