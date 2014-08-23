@@ -1,0 +1,13 @@
+---
+layout: link
+title: Paperman
+date: '2013-02-10 20:15:43 +0000'
+tags:
+  - Video
+  - Disney
+  - Animation
+  - John Kahrs
+link: https://www.youtube.com/watch?v=Fpe99ci_C8g
+embed: video
+---
+First-time director John Kahrs combines computer-generated and hand-drawn animation techniques to great effect in this Oscar®-nominated short from Disney.
