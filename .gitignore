@@ -18,9 +18,6 @@
 # Files to ignore
 
 # Folders to ignore
-_remarks
-public
-tmp
-assets/stylesheets
-assets/javascript
 node_modules
+public
+source/_assets
