@@ -50,8 +50,19 @@ task :concatenate_js do
 end
 
 
-desc "Prepare the website assets."
+desc "Prepare website asset folders"
 task :prepare do
+  # Create public assets directory
+  mkdir_p ["#{destination}/assets"]
+
+  # Move assets to public assets directory
+  cp_r "assets/.", "#{destination}/assets"
+  cp_r "downloads/.", "#{destination}/downloads"
+end
+
+
+desc "Concatenate website assets."
+task :concat do
   # Concatenate CSS files
   Rake::Task["concatenate_css"].execute
 
@@ -61,10 +72,14 @@ end
 
 
 desc "Regenerate the website files and place them into destination."
-task :build => [:install, :prepare] do
-  sh "bundle exec jekyll build --config config/jekyll.yml --limit 10"
-  cp_r "assets/.", "#{destination}/assets"
-  cp_r "downloads/.", "#{destination}/downloads"
+task :'dev-build' => [:install, :prepare, :concat] do
+  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml"
+end
+
+
+desc "Regenerate the website files and place them into destination."
+task :build => [:install, :prepare, :concat] do
+  sh "bundle exec jekyll build --config config/jekyll.yml"
 end
 
 
