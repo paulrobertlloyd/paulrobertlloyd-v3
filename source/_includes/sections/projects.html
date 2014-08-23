@@ -1,7 +1,7 @@
 <section class="section section--projects" id="projects">
     <h1 class="section__title"><a href="/projects/">Projects</a></h1>
     <div class="grid">
-    {% for summary in site.projects | sort: 'date' %}
+    {% for summary in site.categories.projects | sort: 'date' %}
         <article class="summary summary--project grid__item">
             <header class="summary__header">
                 <h1 class="summary__title"><a href="{{ summary.url }}">{{ summary.title | typeset }}</a></h1>

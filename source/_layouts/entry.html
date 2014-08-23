@@ -10,11 +10,12 @@ layout: default
         {{ content | typeset | widont }}
     </div>
 
+    {% include sections/related.html %}
+    {% include sections/discussion.html %}
+
     <footer class="article__footer">
         <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
     </footer>
 </article>
 
-{% include sections/related.html %}
-{% include sections/discussion.html %}
 {% include navigation/nav--pagination.html %}

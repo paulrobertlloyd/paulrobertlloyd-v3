@@ -4,18 +4,16 @@ layout: default
 <article class="article article--essay">
     <header class="article__header">
         <h1 class="article__title">{{ page.title | typeset }}</h1>
-        {% if page.chapter-title %}
-        <h2>{{ page.chapter-title }}</h2>
-        {% endif %}
+        {% if page.chapter-title %}<h2 class="article__subtitle">{{ page.chapter-title }}</h2>{% endif %}
     </header>
 
     <div class="article__main prose">
         {{ content | typeset | widont }}
     </div>
 
+    {% include sections/chapters.html %}
+
     <footer class="article__footer">
         <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
     </footer>
 </article>
-
-{% include sections/chapters.html %}
