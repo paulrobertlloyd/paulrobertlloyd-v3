@@ -20,4 +20,5 @@
 # Folders to ignore
 node_modules
 public
+remarks
 source/_assets

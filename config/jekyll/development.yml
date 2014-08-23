@@ -1,0 +1,11 @@
+# Assets
+asset_pipeline:
+  bundle: true
+  compress: false
+
+# Remarks
+remarks_dir: ./remarks
+
+# Publishing
+limit_posts: 20
+show_drafts: true
