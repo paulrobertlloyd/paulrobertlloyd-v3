@@ -12,18 +12,18 @@ title: Journal
     {% endfor %}
 
     <nav class="nav nav--pagination grid">
-    {% if paginator.previous_page %}
-        <div class="grid__item">
-            <a class="nav__item nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
-                <span class="nav__item__label">Newer</span>
-            </a>
-        </div>
-    {% endif %}
-
     {% if paginator.next_page %}
         <div class="grid__item">
             <a class="nav__item nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
                 <span class="nav__item__label">Older</span>
+            </a>
+        </div>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+        <div class="grid__item">
+            <a class="nav__item nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
+                <span class="nav__item__label">Newer</span>
             </a>
         </div>
     {% endif %}

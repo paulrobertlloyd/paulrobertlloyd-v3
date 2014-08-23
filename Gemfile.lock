@@ -1,7 +1,6 @@
 GIT
   remote: git://github.com/jekyll/jekyll-archives.git
-  revision: 58ffaffe7a2e44314d4a8677ee60390c125a7ff0
-  branch: archives
+  revision: 24d31486a8242180748dd5bd8ad41edea0d56992
   specs:
     jekyll-archives (0.1.0)
       jekyll (~> 2.0)
