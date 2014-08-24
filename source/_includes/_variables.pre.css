@@ -20,6 +20,7 @@
     --f_serif: "Source Serif Pro", serif;
     --f_sans-serif: "Source Sans Pro", sans-serif;
     --f_monospace: "Source Code Pro", monospace;
+    --f_icon: "Icons", serif; /* TODO: Add icon font? */
 
     /* Breakpoints */
     --bp_a: 512; /* 32em */

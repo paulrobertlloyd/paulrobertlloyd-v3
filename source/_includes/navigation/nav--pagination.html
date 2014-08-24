@@ -1,5 +1,5 @@
 <nav class="nav nav--pagination grid">
-    <h1>Browse {{ page.categories | first }}</h1>
+    <h1 class="u--hidden">Browse {{ page.categories | first }}</h1>
 
     {% if page.next_in_category != nil %}
     <div class="grid__item">
