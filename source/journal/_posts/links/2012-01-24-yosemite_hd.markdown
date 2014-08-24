@@ -7,7 +7,7 @@ tags:
   - Photography
   - Yosemita National Park
   - United States
-link: http://vimeo.com/35396305
+link: https://vimeo.com/35396305
 embed: video
 ---
 A truly stunning timelapse of Yosemite National Park, a collaboration between [Sheldon Neill][1] and [Colin Delehanty][2]. More information about the project can be found at <http://projectyose.com/>.
