@@ -68,7 +68,6 @@ end
 desc "Move image assets to public assets directory"
 task :move_assets do
   cp_r "assets/.", "#{destination}/assets"
-  cp_r "downloads/.", "#{destination}/downloads"
 end
 
 

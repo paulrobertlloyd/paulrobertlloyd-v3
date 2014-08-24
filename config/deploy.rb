@@ -35,12 +35,13 @@ set :log_level, :info
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
+
 namespace :deploy do
 
   task :update_jekyll do
     on roles(:app) do
-      within "#{deploy_to}/current" do
-        execute :jekyll, "build"
+      within release_path do
+        execute :rake, 'build'
       end
     end
   end
