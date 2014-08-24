@@ -2,7 +2,7 @@
     color: var(--c_neutral-6);
 }
 
-.rating--score-1 [data-icon] {
+.rating [data-icon] {
     margin-left: -0.125rem;
 }
 .rating--score-1 [data-icon]:nth-child(-n+1),
