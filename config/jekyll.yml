@@ -47,6 +47,10 @@ include: [_pages]
 source: ./source
 destination: ./public
 
+# Assets
+asset_pipeline:
+  output_path: assets/tmp
+
 # Gems
 gems:
   - jekyll-archives
