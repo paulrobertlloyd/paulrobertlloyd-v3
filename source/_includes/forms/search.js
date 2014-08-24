@@ -2,8 +2,9 @@
     https://github.com/christian-fei/Simple-Jekyll-Search
 */
 
-window.search = (function(window,document){
-    var searchInput = document.querySelector(".search__input"),
+window.search = (function(window,document) {
+    var searchForm= document.querySelector(".search"),
+        searchInput = document.querySelector(".search__input"),
         jsonFile = "/search.json",
         jsonData = null,
         template = "<span class='search__result'>{type}: <a href='{url}'>{title}</a></span>",
@@ -14,13 +15,23 @@ window.search = (function(window,document){
         noResults = "<p>Nothing matched your query</p>";
 
     /*
-        register the keydown event and load the json file
+        Remove fallback search form elements
     */
-    function load(){
-        if( searchInput && searchResults ){
+    searchForm.setAttribute('action', '#search');
+    searchForm.removeAttribute("method");
+    searchInput.removeAttribute("name");
+    [].forEach.call(document.querySelectorAll('.search__submit, .search__hidden'),function(e){
+        e.parentNode.removeChild(e);
+    });
+
+    /*
+        Register the keydown event and load the json file
+    */
+    function load() {
+        if (searchInput && searchResults) {
             getJSON();
             searchInput.addEventListener("keydown", search);
-        }else{
+        } else {
             console.log("Couldn't find the searchInput or searchResults element");
         }
     }
@@ -28,16 +39,16 @@ window.search = (function(window,document){
     /*
         Fetches the JSON file and populate the jsonData var
     */
-    function getJSON(){
+    function getJSON() {
         var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
         xhr.open("GET", jsonFile, true);
-        xhr.onreadystatechange = function(){
-            if (xhr.status==200 && xhr.readyState==4){
-                try{
-                    jsonData = JSON.parse( xhr.responseText );
-                    console.log( "data loaded successfully" );
-                }catch(err){
-                    console.log( err );
+        xhr.onreadystatechange = function() {
+            if (xhr.status==200 && xhr.readyState==4) {
+                try {
+                    jsonData = JSON.parse(xhr.responseText);
+                    console.log("data loaded successfully");
+                } catch(err) {
+                    console.log(err);
                     jsonData = null;
                 }
             }
@@ -46,35 +57,36 @@ window.search = (function(window,document){
     }
 
     /*
-        Perform a search on the keydown event
-        e is passed from the event listener to determine which key the user pressed
+        Perform a search on the keydown event e is passed from the event
+        listener to determine which key the user pressed
     */
-    function search( e ){
-        if(e.which === 13 && matches && matches.length){
+    function search(e) {
+        if (e.which === 13 && matches && matches.length) {
             window.location = matches[0].url;
-        }else{
-            if(jsonData){
-                writeMatches( getMatches( e.target.value ) );
-            }else{
-                console.log( "jsonData is not ready" );
+        } else {
+            if (jsonData) {
+                writeMatches(getMatches(e.target.value));
+            } else {
+                console.log("jsonData is not ready");
             }
         }
     }
+
     /*
         Get matches that satisfy the query
     */
-    function getMatches( query ){
+    function getMatches(query) {
         matches = [];
         for (var i = 0; i < jsonData.length; i++) {
             var obj = jsonData[i];
             for (key in obj) {
-                if( fuzzy ){
+                if (fuzzy) {
                     var regexp = new RegExp( query.split('').join('.*?'), 'gi');
-                    if( obj[key].match(regexp) ){
+                    if (obj[key].match(regexp)) {
                         matches.push(obj);
                         break;
                     }
-                }else if (obj.hasOwnProperty(key) && obj[key].toLowerCase().indexOf(query.toLowerCase()) >= 0){
+                } else if (obj.hasOwnProperty(key) && obj[key].toLowerCase().indexOf(query.toLowerCase()) >= 0) {
                     matches.push(obj);
                     break;
                 }
@@ -86,9 +98,9 @@ window.search = (function(window,document){
     /*
         Write out the matches
     */
-    function writeMatches( matches ){
+    function writeMatches(matches) {
         searchResults.innerHTML = searchResultsHeader;
-        if( matches && matches.length ){
+        if (matches && matches.length) {
             for (var i = 0; i < matches.length &&  i < limit; i++) {
                 var match = matches[i];
                 var output = template.replace(/\{(.*?)\}/g, function(m, capturedGroup) {
@@ -96,14 +108,14 @@ window.search = (function(window,document){
                 });
                 searchResults.innerHTML += output;
             }
-        }else{
+        } else {
             searchResults.innerHTML = searchResultsHeader + noResults;
         }
     }
 
     return {
-        init: function(options){
-            if( options ){
+        init: function(options) {
+            if (options) {
                 searchInput = options.searchInput || searchInput;
                 jsonFile = options.jsonFile || jsonFile;
                 template = options.template || template;
