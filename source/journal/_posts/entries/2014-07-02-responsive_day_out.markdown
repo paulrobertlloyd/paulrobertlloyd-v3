@@ -19,7 +19,7 @@ There was one change to last year's format: the event concluded with [an hour-lo
 
 Ethan proposed the development of a broader framework, one that guides the work we do. He referenced [the twelve basic principles of animation][4] as developed by Frank Thomas and Ollie Johnston at Walt Disney's studio during the 1930s. These were described in their book <cite>The Illusion of Life</cite>, and beautifully animated by Cento Lodigiani:
 
-{% embed http://vimeo.com/93206523 %}
+{% embed https://vimeo.com/93206523 %}
 
 This begged the question: what principles might apply to responsive web design? As I pondered this over the weekend, I realised many of the talks we heard gave hints to what these might be.
 
