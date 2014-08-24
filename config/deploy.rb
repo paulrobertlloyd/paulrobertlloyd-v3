@@ -48,4 +48,4 @@ namespace :deploy do
 
 end
 
-after "deploy:symlink:release", "deploy:update_jekyll"
+after "deploy:updated", "deploy:update_jekyll"
