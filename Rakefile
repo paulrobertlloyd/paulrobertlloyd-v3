@@ -16,11 +16,17 @@ task :install do |t|
 end
 
 
+desc "Create public assets directory"
+task :prepare do
+  mkdir_p ["#{destination}/assets"]
+end
+
+
 desc "Concatenate Myth CSS files"
 task :concatenate_css do
   mkdir_p ["#{source}/_assets/stylesheets"]
 
-  files = FileList["#{source}/**/*.pre.css"]
+  files = FileList["#{source}/_includes/**/*.pre.css"]
   concatenated_filename = "#{source}/_assets/stylesheets/global.myth"
 
   File.open(concatenated_filename, "w") do |output|
@@ -37,7 +43,7 @@ desc "Concatenate JS files"
 task :concatenate_js do
   mkdir_p ["#{source}/_assets/javascript"]
 
-  files = FileList["#{source}/**/*.js"]
+  files = FileList["#{source}/_includes/**/*.js"]
   concatenated_filename = "#{source}/_assets/javascript/global.js"
 
   File.open(concatenated_filename, "w") do |output|
@@ -49,18 +55,6 @@ task :concatenate_js do
   end
 end
 
-
-desc "Prepare website asset folders"
-task :prepare do
-  # Create public assets directory
-  mkdir_p ["#{destination}/assets"]
-
-  # Move assets to public assets directory
-  cp_r "assets/.", "#{destination}/assets"
-  cp_r "downloads/.", "#{destination}/downloads"
-end
-
-
 desc "Concatenate website assets."
 task :concat do
   # Concatenate CSS files
@@ -71,15 +65,26 @@ task :concat do
 end
 
 
+desc "Move image assets to public assets directory"
+task :move_assets do
+  cp_r "assets/.", "#{destination}/assets"
+  cp_r "downloads/.", "#{destination}/downloads"
+end
+
+
 desc "Regenerate the website files and place them into destination."
 task :'dev-build' => [:install, :prepare, :concat] do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml"
+
+  Rake::Task["move_assets"].execute
 end
 
 
 desc "Regenerate the website files and place them into destination."
 task :build => [:install, :prepare, :concat] do
   sh "bundle exec jekyll build --config config/jekyll.yml"
+
+  Rake::Task["move_assets"].execute
 end
 
 
