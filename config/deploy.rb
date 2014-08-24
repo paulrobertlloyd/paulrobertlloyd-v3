@@ -15,7 +15,7 @@ set :tmp_dir, "/home/prlloyd/webapps/paulrobertlloyd_v3/tmp/capistrano"
 # set :scm, :git
 
 # Default value for :format is :pretty
-# set :format, :pretty
+set :format, :pretty
 
 # Default value for :log_level is :debug
 set :log_level, :info
@@ -37,22 +37,14 @@ set :log_level, :info
 
 namespace :deploy do
 
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :touch, release_path.join('tmp/restart.txt')
-    end
-  end
-
-  after :publishing, :restart
-
-  after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
-      within release_path do
-        execute :rake, 'build'
+  task :update_jekyll do
+    on roles(:app) do
+      within "#{deploy_to}/current" do
+        execute :jekyll, "build"
       end
     end
   end
 
 end
+
+after "deploy:symlink:release", "deploy:update_jekyll"
