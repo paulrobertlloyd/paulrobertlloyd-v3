@@ -23,7 +23,7 @@ module Jekyll
       # Parse URL into its constituent parts - host, port, query string…
       @uri = URI(url)
       @host = @uri.host
-      @path = @uri.path
+      @path = @uri.path.to_s
       @query = @uri.query
 
       # Parse the query string into a hash of names and values
@@ -40,7 +40,9 @@ module Jekyll
         return html
 
       elsif @host == 'vimeo.com'
-        html = embedCode("//player.vimeo.com/video/", "Watch on Vimeo") # TODO: Get Vimeo ID
+        vimeo_id = @path.split('/').last
+
+        html = embedCode("//player.vimeo.com/video/#{vimeo_id}", "Watch on Vimeo")
         return html
 
       elsif @host == 'www.flickr.com'

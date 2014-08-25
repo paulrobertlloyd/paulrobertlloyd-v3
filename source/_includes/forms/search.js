@@ -5,30 +5,27 @@
 window.search = (function(window,document) {
     var searchForm= document.querySelector(".search"),
         searchInput = document.querySelector(".search__input"),
-        jsonFile = "/search.json",
-        jsonData = null,
-        template = "<span class='search__result'>{type}: <a href='{url}'>{title}</a></span>",
         searchResults = document.querySelector(".search__results"),
         searchResultsHeader = "<h4 class='search__heading'>Search results</h4>",
+        template = "<span class='search__result'>{type}: <a href='{url}'>{title}</a></span>",
+        jsonFile = "/search.json",
+        jsonData = null,
         limit = 10,
         fuzzy = false,
         noResults = "<p>Nothing matched your query</p>";
 
     /*
-        Remove fallback search form elements
-    */
-    searchForm.setAttribute('action', '#search');
-    searchForm.removeAttribute("method");
-    searchInput.removeAttribute("name");
-    [].forEach.call(document.querySelectorAll('.search__submit, .search__hidden'),function(e){
-        e.parentNode.removeChild(e);
-    });
-
-    /*
-        Register the keydown event and load the json file
+        Register the keydown event, remove fallback elements, load the json file
     */
     function load() {
         if (searchInput && searchResults) {
+            searchForm.setAttribute('action', '#search');
+            searchForm.removeAttribute("method");
+            searchInput.removeAttribute("name");
+            [].forEach.call(document.querySelectorAll('.search__submit, .search__hidden'),function(e){
+                e.parentNode.removeChild(e);
+            });
+
             getJSON();
             searchInput.addEventListener("keydown", search);
         } else {
