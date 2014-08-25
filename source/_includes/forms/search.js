@@ -2,17 +2,17 @@
     https://github.com/christian-fei/Simple-Jekyll-Search
 */
 
-window.search = (function(window,document) {
-    var searchForm= document.querySelector(".search"),
-        searchInput = document.querySelector(".search__input"),
-        searchResults = document.querySelector(".search__results"),
-        searchResultsHeader = "<h4 class='search__heading'>Search results</h4>",
-        template = "<span class='search__result'>{type}: <a href='{url}'>{title}</a></span>",
-        jsonFile = "/search.json",
+window.search = (function(win, doc) {
+    var searchForm= document.querySelector('.search'),
+        searchInput = document.querySelector('.search__input'),
+        searchResults = document.querySelector('.search__results'),
+        searchResultsHeader = '<h4 class="search__heading">Search results</h4>',
+        template = '<span class="search__result">{type}: <a href="{url}">{title}</a></span>',
+        jsonFile = '/search.json',
         jsonData = null,
         limit = 10,
         fuzzy = false,
-        noResults = "<p>Nothing matched your query</p>";
+        noResults = '<p>Nothing matched your query</p>';
 
     /*
         Register the keydown event, remove fallback elements, load the json file
@@ -20,14 +20,14 @@ window.search = (function(window,document) {
     function load() {
         if (searchInput && searchResults) {
             searchForm.setAttribute('action', '#search');
-            searchForm.removeAttribute("method");
-            searchInput.removeAttribute("name");
+            searchForm.removeAttribute('method');
+            searchInput.removeAttribute('name');
             [].forEach.call(document.querySelectorAll('.search__submit, .search__hidden'),function(e){
                 e.parentNode.removeChild(e);
             });
 
             getJSON();
-            searchInput.addEventListener("keydown", search);
+            searchInput.addEventListener('keydown', search);
         } else {
             console.log("Couldn't find the searchInput or searchResults element");
         }
@@ -37,13 +37,13 @@ window.search = (function(window,document) {
         Fetches the JSON file and populate the jsonData var
     */
     function getJSON() {
-        var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-        xhr.open("GET", jsonFile, true);
+        var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+        xhr.open('GET', jsonFile, true);
         xhr.onreadystatechange = function() {
             if (xhr.status==200 && xhr.readyState==4) {
                 try {
                     jsonData = JSON.parse(xhr.responseText);
-                    console.log("data loaded successfully");
+                    console.log("Data loaded successfully");
                 } catch(err) {
                     console.log(err);
                     jsonData = null;
@@ -125,4 +125,6 @@ window.search = (function(window,document) {
             load();
         }
     }
-})(window,document);
+})(window, document);
+
+search.init();

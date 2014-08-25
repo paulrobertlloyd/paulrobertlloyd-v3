@@ -1,7 +1,7 @@
 /*  =========================================================================
     Embeds
     ========================================================================= */
-.embed.js-enhanced {
+.js-enhanced .embed {
     background-color: var(--c_neutral-1);
     margin: 0 0 0.75em 0; /* 0 0 12px 0 */
     padding-bottom: 56.25%;
@@ -9,35 +9,35 @@
     position: relative;
 }
 @media screen and (max-width: 31.9375em) {
-    .embed.js-enhanced {
+    .js-enhanced .embed {
         margin-right: -1em;
         margin-left: -1em;
         padding-bottom: 60%; /* GUESS! */
     }
 }
 @media screen and (min-width: 32em) {
-    .embed.js-enhanced {
+    .js-enhanced .embed {
         margin-right: -calc(var(--v_padding-a)% * (var(--bp_a) / (var(--bp_a) * 84%)));
         margin-left: -calc(var(--v_padding-a)% * (var(--bp_a) / (var(--bp_a) * 84%)));
         padding-bottom: 67%;
     }
 }
 @media screen and (min-width: 45em) {
-    .embed.js-enhanced {
+    .js-enhanced .embed {
         margin-right: -calc(var(--v_padding-b)% * (var(--bp_b) / (var(--bp_b) * 76%)));
         margin-left: -calc(var(--v_padding-b)% * (var(--bp_b) / (var(--bp_b) * 76%)));
         padding-bottom: 74%;
     }
 }
 @media screen and (min-width: 64em) {
-    .embed.js-enhanced {
+    .js-enhanced .embed {
         margin-right: -calc(var(--v_padding-c)% * (var(--bp_c) / (var(--bp_c) * 68%)));
         margin-left: -calc(var(--v_padding-c)% * (var(--bp_c) / (var(--bp_c) * 68%)));
         padding-bottom: 82.75%;
     }
 }
 
-.embed.js-enhanced iframe {
+.js-enhanced .embed iframe {
     width: 100%;
     height: 100%;
     position: absolute;

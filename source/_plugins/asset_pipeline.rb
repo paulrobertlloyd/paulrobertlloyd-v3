@@ -35,7 +35,7 @@ module JAPR
     end
 
     def html
-      "<link rel=\"stylesheet\" href=\"/#{@path}/#{@filename}\"/>\n"
+"<link rel=\"stylesheet\" href=\"/#{@path}/#{@filename}\"/>\n"
     end
   end
 
@@ -59,7 +59,11 @@ module JAPR
     end
 
     def html
-      "<script src=\"/#{@path}/#{@filename}\"></script>"
+"<script>
+    if (enhanced) {
+        document.write('<'+'script src=\"/#{@path}/#{@filename}\"></'+'script>');
+    }
+</script>"
     end
   end
 

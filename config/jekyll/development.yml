@@ -1,5 +1,5 @@
 # Remarks
-remarks_dir: ./remarks
+remarks_dir: ../remarks
 
 # Publishing
 #limit_posts: 50
