@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<article class="article article--project">
-    <header class="article__header">
-        <h1 class="article__title">{{ page.title | typeset }}</h1>
-    </header>
+<main class="main" role="main">
+    <article class="article article--project">
+        <header class="article__header">
+            <h1 class="article__title">{{ page.title | typeset }}</h1>
+        </header>
 
-    <div class="article__main prose">
-        {{ content | typeset | widont }}
-    </div>
+        <div class="article__main prose">
+            {{ content | typeset | widont }}
+        </div>
 
-    <footer class="article__footer">
-        <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-    </footer>
-</article>
+        <footer class="article__footer">
+            <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+        </footer>
+    </article>
 
-{% include navigation/nav--pagination.html %}
+    {% include navigation/nav--pagination.html %}
+</main>
