@@ -2,9 +2,9 @@
     {% if summary.embed != "photo" %}
     <header class="summary__header">
         {% if summary.layout == "link" %}
-        <h1 class="summary__title"><a href="{{ summary.link }}">{{ summary.title | typeset }}&nbsp;→</a></h1>
+        <h1 class="summary__title"><a href="{{ summary.link }}">{{ summary.title }}&nbsp;→</a></h1>
         {% else %}
-        <h1 class="summary__title"><a href="{{ summary.url }}" rel="bookmark">{{ summary.title | typeset }}</a></h1>
+        <h1 class="summary__title"><a href="{{ summary.url }}" rel="bookmark">{{ summary.title }}</a></h1>
         {% endif %}
     </header>
     {% endif %}
@@ -15,9 +15,9 @@
     {% endif %}
 
     {% if summary.layout == "link" %}
-        {{ summary.content | markdownify | typeset | widont }}
+        {{ summary.content | markdownify | widont }}
     {% elsif summary.excerpt != null %}
-        {{ summary.excerpt | typeset | widont  }}
+        {{ summary.excerpt | widont  }}
     {% endif %}
 
     {% if summary.layout == "entry" %}

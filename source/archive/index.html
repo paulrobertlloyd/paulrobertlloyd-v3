@@ -21,7 +21,7 @@ permalink: /archive/
     {% endif %}
 
     {% if post.chapter-title == null %}
-        <li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title | typeset }}</a></li>
+        <li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
 
     {% if forloop.last %}

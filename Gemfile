@@ -14,7 +14,8 @@ gem 'rake'
 # Jekyll
 gem 'jekyll'
 gem 'jekyll-archives',
-    :git => 'git://github.com/jekyll/jekyll-archives.git'
+    :git => 'git://github.com/jekyll/jekyll-archives.git',
+    :branch => 'master'
 gem 'jekyll-sitemap'
 gem 'typogruby'
 gem 'japr'

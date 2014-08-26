@@ -11,7 +11,7 @@ title: Home
     {% for post in site.posts %}
         <li class="list__item">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
-            <a href="{{ post.url }}">{{ post.title | typeset }}</a>
+            <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
     {% endfor %}
     </ol>
