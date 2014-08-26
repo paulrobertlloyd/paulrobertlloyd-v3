@@ -1,10 +1,23 @@
 /*  =========================================================================
     List
     ========================================================================= */
-.list {
+
+.list,
+.inline-list {
     line-height: 1.5;
 }
 
-.list__item {
+.list__item,
+.inline-list__item {
     list-style: none;
+}
+
+
+/* Inline list */
+.inline-list {
+    
+}
+
+.inline-list__item {
+    display: inline;
 }

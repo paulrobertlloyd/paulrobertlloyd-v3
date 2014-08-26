@@ -5,11 +5,11 @@
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-        <a class="nav__item{% if this_year == year %} is-active{% endif %}" href="/{{ this_year }}/">{{ this_year }}</a>
+    <a class="nav__item{% if this_year == year %} is-active{% endif %}" href="/{{ this_year }}/">{{ this_year }}</a>
     {% endif %}
 
     {% if this_year != next_year %}
-        <a class="nav__item{% if next_year == year %} is-active{% endif %}" href="/{{ next_year }}/">{{ next_year }}</a>
+    <a class="nav__item{% if next_year == year %} is-active{% endif %}" href="/{{ next_year }}/">{{ next_year }}</a>
     {% endif %}
 {% endfor %}
 </nav>

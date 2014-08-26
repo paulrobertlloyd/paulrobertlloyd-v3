@@ -1,22 +1,24 @@
 ---
 layout: default
 ---
-<article class="article article--link">
-    <header class="article__header">
-        <h1 class="article__title">{{ page.title | typeset }}</h1>
-    </header>
+<main class="main" role="main">
+    <article class="article article--link">
+        <header class="article__header">
+            <h1 class="article__title">{{ page.title | typeset }}</h1>
+        </header>
 
-    <div class="article__main prose">
-        {% if page.embed %}{% embed {{ page.link }} %}{% endif %}
+        <div class="article__main prose">
+            {% if page.embed %}{% embed {{ page.link }} %}{% endif %}
 
-        {{ content | typeset | widont }}
+            {{ content | typeset | widont }}
 
-        {% if page.embed == null %}<p><a class="btn" href="{{ page.link }}">Visit this link</a></p>{% endif %}
-    </div>
+            {% if page.embed == null %}<p><a class="btn" href="{{ page.link }}">Visit this link</a></p>{% endif %}
+        </div>
 
-    <footer class="article__footer">
-        <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-    </footer>
-</article>
+        <footer class="article__footer">
+            <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+        </footer>
+    </article>
 
-{% include navigation/nav--pagination.html %}
+    {% include navigation/nav--pagination.html %}
+</main>

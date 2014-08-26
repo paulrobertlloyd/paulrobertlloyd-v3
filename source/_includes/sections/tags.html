@@ -1,8 +1,8 @@
-<section class="section section--tags" id="tags">
+<section class="section section--tags u--cf" id="tags">
     <h1 class="section__title">Tags</h1>
-    <ul class="list">
+    <ul class="inline-list">
     {% for tag in page.tags %}
-        <li class="list__item"><a href="/tags/{{ tag | downcase | replace:' ','-' | replace:':','' | replace:"'",'' }}">{{ tag }}</a></li>
+        <li class="inline-list__item"><a href="/tags/{{ tag | downcase | replace:' ','-' | replace:':','' | replace:"'",'' }}">{{ tag }}</a></li>
     {% endfor %}
     </ul>
 </section>

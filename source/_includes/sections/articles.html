@@ -1,9 +1,9 @@
-<section class="section section--articles grid__item" id="articles">
+<section class="section section--articles grid__item u--cf" id="articles">
     <h1 class="section__title">Writing</h1>
-    <ul class="list list--articles">
+    <ul class="list">
     {% for article in site.data.articles %}
         <li class="list__item">
-            {% include articles/article.html %}
+            {% include articles/summary--article.html %}
         </li>
     {% endfor %}
     </ul>
