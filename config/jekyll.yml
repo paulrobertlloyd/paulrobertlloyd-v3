@@ -21,13 +21,20 @@ permalink: /:year/:month/:title/
 paginate: 12
 paginate_path: /journal/:num/
 
+# Archives
 jekyll-archives:
-  layout: archive
+  enabled:
+    - year
+    - month
+    - tags
+  layouts:
+    year: archive-years
+    month: archive
+    tag: archive
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
     tag: '/tags/:name/'
-    category: '/category/:name/'
 
 # Remarks
 remarks_dir: ../../../shared/remarks
@@ -38,8 +45,7 @@ collections:
     output: true
     title: Academic Essays
 
-# Syntax highlighting (see: https://github.com/navarroj/krampygs)
-markdown_ext: krampygs
+# Syntax highlighting
 highlighter: pygments
 
 # Publishing
