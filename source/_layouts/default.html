@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-{% include structure/head.html %}
+<head>
+    <!--link rel="dns-prefetch" href="#"/-->
+    <script>
+        document.documentElement.className += ' js'
+
+        var enhanced = (document.querySelector && window.getComputedStyle && window.innerWidth );
+        if (enhanced) {
+            document.documentElement.className += ' js-enhanced'
+        }
+
+        if(document.implementation.hasFeature('http://www.w3.org/TR/SVG11/feature#BasicStructure', '1.1')) {
+            document.documentElement.className += ' svg';
+        }
+    </script>
+
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS Feed"/>
+    <link rel="canonical" href="{{ page.url }}"/>
+    <link rel="icon" href="/assets/icons/icon.png"/>
+    {% css_asset_tag global %}
+    - /_assets/stylesheets/global.myth
+    {% endcss_asset_tag %}
+
+    {% if page.style %}
+    <style>
+        {{ page.style }}
+    </style>
+    {% endif %}
+
+    <meta charset="utf-8"/>
+    <meta name="author" content="Paul Robert Lloyd"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    {% if page.layout != "index" %}
+    <meta name="twitter:site" content="@paulrobertlloyd"/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
+    <meta name="twitter:creator" content="@paulrobertlloyd"/>
+    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}"/>{% endif %}
+    <meta name="twitter:card" content="summary"/>
+    {% endif %}
+
+    {% if page.title == "Home" %}
+    <meta name="geo.placename" content="Brighton"/>
+    <meta name="geo.region" content="gb-bnh"/>
+    <meta name="geo.country" content="gb"/>
+    <meta name="geo.position" content="50.8420;-0.1539"/>
+    {% endif %}
+
+    <title>{% if page.title != "Home" %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+</head>
 
 <body>
 {% include structure/banner.html %}
 {% include structure/main.html %}
 {% include structure/navigation.html %}
 {% include structure/contentinfo.html %}
-{% include structure/foot.html %}
+
+{% javascript_asset_tag global %}
+- /_assets/javascript/global.js
+{% endjavascript_asset_tag %}
 </body>
 </html>
