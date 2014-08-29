@@ -1,8 +1,14 @@
-<section class="section section--tags u--cf" id="tags">
+{% unless include.title == 'false' %}
+<section class="section section--tags" id="tags">
     <h1 class="section__title">Tags</h1>
+{% endunless %}
+
     <ul class="inline-list">
     {% for tag in page.tags %}
         <li class="inline-list__item"><a href="/tags/{{ tag | downcase | replace:' ','-' | replace:':','' | replace:"'",'' }}">{{ tag }}</a></li>
     {% endfor %}
     </ul>
+
+{% unless include.title == 'false' %}
 </section>
+{% endunless %}

@@ -1,5 +1,8 @@
-<section class="section section--articles grid__item u--cf" id="articles">
+{% unless include.title == 'false' %}
+<section class="section section--articles grid__item" id="articles">
     <h1 class="section__title">Writing</h1>
+{% endunless %}
+
     <ul class="list">
     {% for article in site.data.articles %}
         <li class="list__item">
@@ -7,4 +10,7 @@
         </li>
     {% endfor %}
     </ul>
+
+{% unless include.title == 'false' %}
 </section>
+{% endunless %}

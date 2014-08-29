@@ -1,5 +1,8 @@
-<section class="section section--presentations grid__item u--cf" id="presentations">
+{% unless include.title == 'false' %}
+<section class="section section--presentations grid__item" id="presentations">
     <h1 class="section__title">Speaking</h1>
+{% endunless %}
+
     <ul class="list">
     {% for presentation in site.data.presentations %}
         <li class="list__item">
@@ -7,4 +10,7 @@
         </li>
     {% endfor %}
     </ul>
+
+{% unless include.title == 'false' %}
 </section>
+{% endunless %}

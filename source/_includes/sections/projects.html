@@ -1,10 +1,16 @@
-<section class="section section--projects u--cf" id="projects">
+{% unless include.title == 'false' %}
+<section class="section section--projects" id="projects">
     <h1 class="section__title"><a href="/projects/">Projects</a></h1>
-    <ul class="list grid">
+{% endunless %}
+
+    <ul class="list grid grid--projects">
     {% for summary in site.categories.projects | sort: 'date' %}
         <li class="list__item grid__item">
             {% include articles/summary.html %}
         </li>
     {% endfor %}
-    </div>
+    </ul>
+
+{% unless include.title == 'false' %}
 </section>
+{% endunless %}

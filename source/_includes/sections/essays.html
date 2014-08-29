@@ -1,8 +1,14 @@
-<section class="section section--essays u--cf" id="essays">
+{% unless include.title == 'false' %}
+<section class="section section--essays" id="essays">
     <h1 class="section__title"><a href="/essays/">Academic Essays</a></h1>
-    {% for summary in site.essays | sort: 'date' %}
-        {% if summary.chapter-title == null %}
-            {% include articles/summary.html %}
-        {% endif %}
-    {% endfor %}
+{% endunless %}
+
+{% for summary in site.pages | sort: 'date' %}
+    {% if summary.layout == 'essay' and summary.chapter-title == null %}
+        {% include articles/summary.html %}
+    {% endif %}
+{% endfor %}
+
+{% unless include.title == 'false' %}
 </section>
+{% endunless %}

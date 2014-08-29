@@ -7,8 +7,6 @@ tags:
   - Commonwealth Games
   - Glasgow 2014
   - Volunteering
-discussion: closed
-post_id: 2014-08-09-raising_the_games
 ---
 {% figure The team I worked with during my penultimate shift outside Hampden Park. %}
 ![](/assets/images/2014/08/raising_the_games.jpg)
