@@ -39,17 +39,11 @@ jekyll-archives:
 # Remarks
 remarks_dir: ../../../shared/remarks
 
-# Collections
-collections:
-  essays:
-    output: true
-    title: Academic Essays
-
 # Syntax highlighting
 highlighter: pygments
 
 # Publishing
-include: [_pages]
+include: [_pages, essays/_pages]
 source: ./source
 destination: ./public
 

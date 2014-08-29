@@ -6,7 +6,7 @@ excerpt: Last Friday I attended Responsive Day Out 2. The format was the same as
 tags:
   - Web design and development
   - Responsive design
-discussion: closed
+discussion: open
 post_id: 2014-07-02-responsive_day_out
 ---
 {% figure Jeremy interviews Ethan at Responsive Day Out 2. Photo by <a href="https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166">Marc Thiele</a>. %}

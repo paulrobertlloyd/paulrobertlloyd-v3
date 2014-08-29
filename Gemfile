@@ -17,10 +17,9 @@ gem 'jekyll-archives',
     :git => 'git://github.com/jekyll/jekyll-archives.git',
     :branch => 'master'
 gem 'jekyll-sitemap'
+gem 'jekyll-retinamagick'
 gem 'typogruby'
 gem 'japr'
 gem 'myth'
 gem 'myth-source', '1.1.1'
 gem 'yui-compressor'
-# gem 'therubyracer',
-#     :platforms => :ruby

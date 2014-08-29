@@ -6,7 +6,6 @@ excerpt: For this month’s net magazine, Martin Cooper asked me to provide some
 tags:
   - Web design and development
   - Web standards
-discussion: open
 ---
 For this month's [net magazine][1], Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.
 

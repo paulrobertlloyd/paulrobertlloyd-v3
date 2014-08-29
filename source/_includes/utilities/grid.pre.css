@@ -14,10 +14,10 @@
 }
 
 @media screen and (min-width: 32em) {
-    .section--projects .grid__item {
+    .grid--projects .grid__item {
         width: 25%;
     }
-    .section--projects .grid__item:nth-child(4n+1) {
+    .grid--projects .grid__item:nth-child(4n+1) {
         clear: left;
     }
 
@@ -27,7 +27,7 @@
     }
 }
 @media screen and (min-width: 45em) {
-    .section--related .grid__item {
+    .grid--related .grid__item {
         width: 33%;
     }
 }

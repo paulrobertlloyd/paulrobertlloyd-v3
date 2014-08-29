@@ -58,6 +58,9 @@ GEM
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
     jekyll-paginate (1.0.0)
+    jekyll-retinamagick (1.0.0)
+      jekyll (>= 0.10.0)
+      mini_magick (>= 3.3)
     jekyll-sass-converter (1.2.0)
       sass (~> 3.2)
     jekyll-sitemap (0.5.1)
@@ -70,6 +73,8 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.4)
+    mini_magick (3.8.0)
+      subexec (~> 0.2.1)
     myth (1.0.2)
       execjs
       myth-source (>= 0.3.0)
@@ -95,6 +100,7 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    subexec (0.2.3)
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
@@ -114,6 +120,7 @@ DEPENDENCIES
   japr
   jekyll
   jekyll-archives!
+  jekyll-retinamagick
   jekyll-sitemap
   myth
   myth-source (= 1.1.1)

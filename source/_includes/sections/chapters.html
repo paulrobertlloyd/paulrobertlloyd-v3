@@ -1,12 +1,20 @@
-<section class="section section--chapters u--cf" id="chapters">
+{% unless include.title == 'false' %}
+<section class="section section--chapters" id="chapters">
     <h1 class="section__title">Chapters</h1>
+{% endunless %}
+
     <ol class="nav nav--chapters">
-    {% for essay in site.essays %}
-        {% for tag in essay.tags %}
-            {% if page.tags contains tag %}
-                <li class="nav__item{% if page.permalink == essay.url %} is-active{% endif %}"><a href="{{ essay.url }}">{% if essay.chapter-title %}{{ essay.chapter-title }}{% else %}Introduction{% endif %}</a></li>
-            {% endif %}
-        {% endfor %}
+    {% for essay in site.pages %}
+        {% if essay.layout == 'essay' %}
+            {% for tag in essay.tags %}
+                {% if page.tags contains tag %}
+                    <li class="nav__item{% if page.permalink == essay.url %} is-active{% endif %}"><a href="{{ essay.url }}">{% if essay.chapter-title %}{{ essay.chapter-title }}{% else %}Introduction{% endif %}</a></li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
     {% endfor %}
     </ol>
+
+{% unless include.title == 'false' %}
 </section>
+{% endunless %}

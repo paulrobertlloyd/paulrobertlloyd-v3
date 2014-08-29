@@ -13,7 +13,31 @@ layout: default
 
         {% include sections/tags.html %}
         {% include sections/related.html %}
-        {% include sections/discussion.html %}
+
+        {% if page.discussion %}
+        <details class="section section--remarks" id="remarks">
+            <summary>
+                {% case page.remark_count %}
+                {% when 0 %}
+                <h1 class="section__title">Remarks</h1>
+                {% when 1 %}
+                <h1 class="section__title">1 Remark</h1>
+                {% else %}
+                <h1 class="section__title">{{ page.remark_count }} Remarks</h1>
+                {% endcase %}
+
+                {% if page.discussion == "open" %}
+                <p><a class="btn" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a></p>
+                {% endif %}
+            </summary>
+
+            {% if page.remark_count >= 1 %}
+                {% for remark in page.remarks reversed %}
+                    {% include articles/remark.html %}
+                {% endfor %}
+            {% endif %}
+        </details>
+        {% endif %}
 
         <footer class="article__footer">
             <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
