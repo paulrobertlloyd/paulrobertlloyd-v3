@@ -2,8 +2,8 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{{ site.title }}</title>
-    <link href="{{ site.url }}/atom.xml" rel="self"/>
+    <title>Projects - {{ site.title }}</title>
+    <link href="{{ site.url }}/projects/index.xml" rel="self"/>
     <link href="{{ site.url }}/"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}</id>
@@ -12,7 +12,7 @@
         <email>{{ site.author.email }}</email>
     </author>
 
-    {% for post in site.posts %}
+    {% for post in site.categories.projects %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ site.url }}{{ post.url }}"/>
