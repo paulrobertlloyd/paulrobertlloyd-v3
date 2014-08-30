@@ -4,7 +4,7 @@ layout: default
 <main class="main" role="main">
     <article class="article article--essay">
         <header class="article__header">
-            <h1 class="article__title">{{ page.title }}</h1>
+            <h1 class="article__title">{{ page.title | replace:" '",' ‘' | replace:"'",'’' }}</h1>
             {% if page.chapter-title %}<h2 class="article__subtitle">{{ page.chapter-title }}</h2>{% endif %}
         </header>
 

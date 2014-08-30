@@ -4,7 +4,7 @@ layout: default
 <main class="main" role="main">
     <article class="article article--link">
         <header class="article__header">
-            <h1 class="article__title">{{ page.title }}</h1>
+            <h1 class="article__title">{{ page.title | replace:" '",' ‘' | replace:"'",'’' }}</h1>
         </header>
 
         <div class="article__main prose">
