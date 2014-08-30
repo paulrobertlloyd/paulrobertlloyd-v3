@@ -1,10 +1,9 @@
 ---
-layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01'
 chapter: 6
 chapter-title: Give Me 5
-permalink: /essays/dissertation/give_me_5/
+permalink: /essays/dissertation/give_me_5.html
 tags: [Dissertation]
 ---
 The general presentation and look of television remained largely unchanged until the arrival of Channel 5 -- the UK's fifth and final terrestrial television channel -- created with the sole purpose of stimulating competition and increasing airtime available to advertisers.

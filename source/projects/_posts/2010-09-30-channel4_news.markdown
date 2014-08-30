@@ -1,9 +1,8 @@
 ---
-layout: project
 title: Channel 4 News
 date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence across web, tablet and mobile.
-permalink: /projects/channel4_news/
+permalink: /projects/channel4_news.html
 ---
 {% figure Home page %}
 ![](/assets/images/projects/channel4_news/0.jpg)

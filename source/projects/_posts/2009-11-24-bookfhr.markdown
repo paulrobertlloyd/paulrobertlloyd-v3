@@ -1,9 +1,8 @@
 ---
-layout: project
 title: BookFHR
 date: '2009-11-24'
 excerpt: Visual and user experience design for provider of travel services
-permalink: /projects/bookfhr/
+permalink: /projects/bookfhr.html
 ---
 {% figure Home page %}
 ![](/assets/images/projects/bookfhr/0.jpg)

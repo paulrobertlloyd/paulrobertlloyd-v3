@@ -1,9 +1,8 @@
 ---
-layout: project
 title: The Week
 date: '2011-11-18'
 excerpt: Award-winning tablet design for popular current affairs magazine.
-permalink: /projects/the_week/
+permalink: /projects/the_week.html
 ---
 {% figure The Week iPad Edition %}
 ![](/assets/images/projects/the_week/0.jpg)

@@ -1,9 +1,8 @@
 ---
-layout: project
 title: Apture
 date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
-permalink: /projects/apture/
+permalink: /projects/apture.html
 ---
 {% figure Apture logo %}
 ![](/assets/images/projects/apture/0.jpg)

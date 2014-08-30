@@ -1,9 +1,8 @@
 ---
-layout: project
 title: Universal Playback
 date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.
-permalink: /projects/universal_playback/
+permalink: /projects/universal_playback.html
 ---
 {% figure Home page %}
 ![](/assets/images/projects/universal_playback/0.jpg)

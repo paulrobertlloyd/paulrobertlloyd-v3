@@ -1,10 +1,9 @@
 ---
-layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 date: '2002-06-01'
 chapter: 5
 chapter-title: Branding ITV & BBC
-permalink: /essays/dissertation/branding_itv_bbc/
+permalink: /essays/dissertation/branding_itv_bbc.html
 tags: [Dissertation]
 ---
 As in other areas of contemporary marketing, the idea of "the brand" replaced older models of production and sales. Television companies saw a key role in the development of brands as having identities that were different to competitors which could be recognised and valued by their target audiences.

@@ -2,9 +2,9 @@
     {% if summary.embed != "photo" %}
     <header class="summary__header">
         {% if summary.layout == "link" %}
-        <h1 class="summary__title"><a href="{{ summary.link }}">{{ summary.title | replace:" '",' ‘' | replace:"'",'’' }}&nbsp;→</a></h1>
+        <h1 class="summary__title"><a href="{{ summary.link | remove:'.html' }}">{{ summary.title | replace:" '",' ‘' | replace:"'",'’' }}&nbsp;→</a></h1>
         {% else %}
-        <h1 class="summary__title"><a href="{{ summary.url }}" rel="bookmark">{{ summary.title | replace:" '",' ‘' | replace:"'",'’' }}</a></h1>
+        <h1 class="summary__title"><a href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | replace:" '",' ‘' | replace:"'",'’' }}</a></h1>
         {% endif %}
     </header>
     {% endif %}
@@ -21,13 +21,13 @@
     {% endif %}
 
     {% if summary.layout == "entry" %}
-        <a class="summary__permalink" href="{{ summary.url }}" rel="bookmark">Continue reading&nbsp;→</a>
+        <a class="summary__permalink" href="{{ summary.url | remove:'.html' }}" rel="bookmark">Continue reading&nbsp;→</a>
     {% endif %}
     </div>
 
     <footer class="summary__footer">
     {% if summary.layout == "link" %}
-        <abbr class="summary__permalink" title="Permalink"><a href="{{ summary.url }}" rel="bookmark">#</a></abbr>
+        <abbr class="summary__permalink" title="Permalink"><a href="{{ summary.url | remove:'.html' }}" rel="bookmark">#</a></abbr>
     {% elsif summary.layout == "entry" %}
         <time class="summary__pubdate" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
     {% else %}

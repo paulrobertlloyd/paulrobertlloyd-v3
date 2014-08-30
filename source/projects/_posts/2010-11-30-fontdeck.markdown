@@ -1,9 +1,8 @@
 ---
-layout: project
 title: Fontdeck
 date: '2010-11-30'
 excerpt: Destinctive look for professional web font service.
-permalink: /projects/fontdeck/
+permalink: /projects/fontdeck.html
 ---
 {% figure Home page %}
 ![](/assets/images/projects/fontdeck/0.jpg)
