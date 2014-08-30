@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A New Library for Birmingham
 date: '2010-06-29 22:21:41 +0100'
 excerpt: Architecture has never been kind to Birmingham, but then Birmingham has never been kind to its architecture.

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Washington DC: A Monumental City'
 date: '2008-12-29 20:49:25 +0000'
 excerpt: The final stop in my four-city tour of the US in October was Washington, D.C.

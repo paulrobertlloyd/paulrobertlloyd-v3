@@ -18,21 +18,6 @@ license:
 # Permalinks
 permalink: /:year/:month/:title.html
 
-# Defaults
-defaults:
-  -
-    scope:
-      path: 'projects'
-      type: 'posts'
-    values:
-      layout: 'project'
-  -
-    scope:
-      path: 'essays'
-      type: 'pages'
-    values:
-      layout: 'essay'
-
 # Pagination
 paginate: 12
 paginate_path: /journal/:num/
@@ -52,6 +37,27 @@ jekyll-archives:
     month: /:year/:month/
     tag: /tags/:name.html
 
+# Defaults
+defaults:
+  -
+    scope:
+      path: 'journal'
+      type: 'posts'
+    values:
+      layout: 'entry'
+  -
+    scope:
+      path: 'projects'
+      type: 'posts'
+    values:
+      layout: 'project'
+  -
+    scope:
+      path: 'essays'
+      type: 'pages'
+    values:
+      layout: 'essay'
+
 # Remarks
 remarks_dir: ../../../shared/remarks
 
@@ -59,7 +65,9 @@ remarks_dir: ../../../shared/remarks
 highlighter: pygments
 
 # Publishing
-include: [_pages, essays/_pages]
+include:
+  - _pages
+  - essays/_pages
 source: ./source
 destination: ./public
 

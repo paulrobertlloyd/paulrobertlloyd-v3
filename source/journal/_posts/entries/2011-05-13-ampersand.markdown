@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Ampersand & More
 date: '2011-05-13 23:37:48 +0100'
 excerpt: Much of the excitement has come in the form of web conferences, and looking back, I find it surprising just how many I've attended this year already.

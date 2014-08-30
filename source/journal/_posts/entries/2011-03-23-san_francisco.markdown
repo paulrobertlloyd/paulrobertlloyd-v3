@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: I Never Left My Heart in San Francisco
 date: '2011-03-23 00:17:33 +0000'
 excerpt: As I walked the streets of San Francisco, buoyed by their comfortable familiarity and unique soundtrack, I knew that this was still a city I could never call home.

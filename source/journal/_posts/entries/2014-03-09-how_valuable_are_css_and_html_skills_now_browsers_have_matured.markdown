@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: How Valuable Are CSS and HTML Skills Now Browsers Have Matured?
 date: '2014-03-09 20:19:08 +0000'
 excerpt: For this month’s net magazine, Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.

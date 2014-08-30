@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Web Native Designer
 date: '2011-09-25 23:06:34 +0100'
 excerpt: A summary of the presentation I gave at Geek in the Park about what it means to design for the web in a way that is appreciative of the platform.

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Social Media Icons
 date: '2009-06-29 00:18:09 +0100'
 excerpt: A set of standardised icons for popular social networking services and tools.
@@ -9,10 +8,10 @@ tags:
 discussion: closed
 post_id: 2009-06-29-social_media_icons
 style: |
-  .icons {
+  .list--icons {
       overflow: hidden;
   }
-  .icons .list__item {
+  .list--icons .list__item {
       font-size: 0.75em; /* 12px */
       line-height: 1.3333; /* 16px */
       margin: 0;
@@ -21,82 +20,82 @@ style: |
       float: left;
   }
   @media screen and (min-width:37.5em) {
-      .icons .list__item {
+      .list--icons .list__item {
           width:33%;
       }
   }
-  .icons .icon {
+  .list--icons .icon {
       padding: 0 8px 0 22px;
       display: block;
   }
-  .icons .google { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 0;}
-  .icons .dopplr { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -70px;}
-  .icons .microsoft { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -140px;}
-  .icons .delicious { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -210px;}
-  .icons .flickr { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -280px;}
-  .icons .digg { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -350px;}
-  .icons .email { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -420px;}
-  .icons .stackoverflow { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -490px;}
-  .icons .huffduffer { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -560px;}
-  .icons .ffffound { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -630px;}
-  .icons .orkut { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -700px;}
-  .icons .wikipedia { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -770px;}
-  .icons .xing { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -840px;}
-  .icons .xbox { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -910px;}
-  .icons .slideshare { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -980px;}
-  .icons .myspace { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 0;}
-  .icons .amazon { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -70px;}
-  .icons .readernaut { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -140px;}
-  .icons .creativecommons { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -210px;}
-  .icons .px500 { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -280px;}
-  .icons .adn { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -350px;}
-  .icons .speakerdeck { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 0;}
-  .icons .forrst { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -70px;}
-  .icons .newsvine { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -140px;}
-  .icons .sharethis { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -210px;}
-  .icons .spotify { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -280px;}
-  .icons .vcard { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -350px;}
-  .icons .zootool { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -420px;}
-  .icons .zerply { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -490px;}
-  .icons .tumblr { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 0;}
-  .icons .github { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -70px;}
-  .icons .facebook { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -140px;}
-  .icons .instagram { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -210px;}
-  .icons .foursquare { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -280px;}
-  .icons .bbcid { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -350px;}
-  .icons .website { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -420px;}
-  .icons .pinboard { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -490px;}
-  .icons .lanyrd { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -560px;}
-  .icons .behance { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -630px;}
-  .icons .rdio { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -700px;}
-  .icons .skype { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -770px;}
-  .icons .twitter { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -840px;}
-  .icons .twitter-retweet { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -910px;}
-  .icons .linkedin { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -980px;}
-  .icons .vimeo { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -1050px;}
-  .icons .reddit { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -1120px;}
-  .icons .getsatisfaction { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 0px;}
-  .icons .yahoo { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -70px;}
-  .icons .identica { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -140px;}
-  .icons .pintrest { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -210px;}
-  .icons .meetup { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -280px;}
-  .icons .geotag { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -350px;}
-  .icons .youtube { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -420px;}
-  .icons .readability { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -490px;}
-  .icons .yelp { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -560px;}
-  .icons .nikeplus { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -630px;}
-  .icons .google-plus { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -700px;}
-  .icons .lastfm { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -770px;}
-  .icons .dribbble { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -840px;}
-  .icons .etsy { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 0;}
-  .icons .stumbleupon { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -70px;}
-  .icons .aim { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -140px;}
-  .icons .soundcloud { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -210px;}
-  .icons .feed { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -280px;}
-  .icons .imdb { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -350px;}
-  .icons .posterous { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -420px;}
-  .icons .goodreads { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -490px;}
-  .icons .thisismyjam { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -560px;}
+  .icon--google { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 0;}
+  .icon--dopplr { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -70px;}
+  .icon--microsoft { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -140px;}
+  .icon--delicious { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -210px;}
+  .icon--flickr { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -280px;}
+  .icon--digg { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -350px;}
+  .icon--email { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -420px;}
+  .icon--stackoverflow { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -490px;}
+  .icon--huffduffer { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -560px;}
+  .icon--ffffound { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -630px;}
+  .icon--orkut { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -700px;}
+  .icon--wikipedia { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -770px;}
+  .icon--xing { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -840px;}
+  .icon--xbox { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -910px;}
+  .icon--slideshare { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -980px;}
+  .icon--myspace { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 0;}
+  .icon--amazon { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -70px;}
+  .icon--readernaut { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -140px;}
+  .icon--creativecommons { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -210px;}
+  .icon--px500 { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -280px;}
+  .icon--adn { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -350px;}
+  .icon--speakerdeck { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 0;}
+  .icon--forrst { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -70px;}
+  .icon--newsvine { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -140px;}
+  .icon--sharethis { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -210px;}
+  .icon--spotify { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -280px;}
+  .icon--vcard { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -350px;}
+  .icon--zootool { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -420px;}
+  .icon--zerply { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -490px;}
+  .icon--tumblr { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 0;}
+  .icon--github { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -70px;}
+  .icon--facebook { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -140px;}
+  .icon--instagram { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -210px;}
+  .icon--foursquare { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -280px;}
+  .icon--bbcid { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -350px;}
+  .icon--website { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -420px;}
+  .icon--pinboard { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -490px;}
+  .icon--lanyrd { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -560px;}
+  .icon--behance { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -630px;}
+  .icon--rdio { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -700px;}
+  .icon--skype { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -770px;}
+  .icon--twitter { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -840px;}
+  .icon--twitter-retweet { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -910px;}
+  .icon--linkedin { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -980px;}
+  .icon--vimeo { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -1050px;}
+  .icon--reddit { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -1120px;}
+  .icon--getsatisfaction { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 0px;}
+  .icon--yahoo { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -70px;}
+  .icon--identica { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -140px;}
+  .icon--pintrest { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -210px;}
+  .icon--meetup { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -280px;}
+  .icon--geotag { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -350px;}
+  .icon--youtube { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -420px;}
+  .icon--readability { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -490px;}
+  .icon--yelp { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -560px;}
+  .icon--nikeplus { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -630px;}
+  .icon--google-plus { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -700px;}
+  .icon--lastfm { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -770px;}
+  .icon--dribbble { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -840px;}
+  .icon--etsy { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 0;}
+  .icon--stumbleupon { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -70px;}
+  .icon--aim { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -140px;}
+  .icon--soundcloud { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -210px;}
+  .icon--feed { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -280px;}
+  .icon--imdb { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -350px;}
+  .icon--posterous { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -420px;}
+  .icon--goodreads { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -490px;}
+  .icon--thisismyjam { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -560px;}
 ---
 I've often found myself requiring icons when linking to or referencing different social networks I'm a member of. Whilst there are a lot of icon sets available that can help me do this, most seem to be oversized and highly stylised. In the past I've used site favicons, but these can often be visually inconsistent.
 
@@ -110,75 +109,75 @@ I've often found myself requiring icons when linking to or referencing different
 
 ## Included Icons
 
-<ul class="list icons">
-    <li class="list__item"><span class="icon px500">500px</span></li>
-    <li class="list__item"><span class="icon aim">AIM</span></li>
-    <li class="list__item"><span class="icon amazon">Amazon</span></li>
-    <li class="list__item"><span class="icon adn">App.net</span></li>
-    <li class="list__item"><span class="icon behance">Behance</span></li>
-    <li class="list__item"><span class="icon bbcid">BBC iD</span></li>
-    <li class="list__item"><span class="icon creativecommons">Creative Commons</span></li>
-    <li class="list__item"><span class="icon delicious">Delicious</span></li>
-    <li class="list__item"><span class="icon digg">Digg</span></li>
-    <li class="list__item"><span class="icon dribbble">Dribbble</span></li>
-    <li class="list__item"><span class="icon dopplr">Dopplr</span></li>
-    <li class="list__item"><span class="icon email">Email</span></li>
-    <li class="list__item"><span class="icon etsy">Etsy</span></li>
-    <li class="list__item"><span class="icon facebook">Facebook</span></li>
-    <li class="list__item"><span class="icon feed">Feed</span></li>
-    <li class="list__item"><span class="icon ffffound">Ffffound</span></li>
-    <li class="list__item"><span class="icon flickr">Flickr</span></li>
-    <li class="list__item"><span class="icon forrst">Forrst</span></li>
-    <li class="list__item"><span class="icon foursquare">Foursquare</span></li>
-    <li class="list__item"><span class="icon getsatisfaction">Get Satisfaction</span></li>
-    <li class="list__item"><span class="icon geotag">Geotag</span></li>
-    <li class="list__item"><span class="icon github">Github</span></li>
-    <li class="list__item"><span class="icon goodreads">Goodreads</span></li>
-    <li class="list__item"><span class="icon google">Google</span></li>
-    <li class="list__item"><span class="icon google-plus">Google+</span></li>
-    <li class="list__item"><span class="icon huffduffer">Huffduffer</span></li>
-    <li class="list__item"><span class="icon identica">Identi.ca</span></li>
-    <li class="list__item"><span class="icon imdb">IMDb</span></li>
-    <li class="list__item"><span class="icon instagram">Instagram</span></li>
-    <li class="list__item"><span class="icon lanyrd">Lanyrd</span></li>
-    <li class="list__item"><span class="icon lastfm">Last.fm</span></li>
-    <li class="list__item"><span class="icon linkedin">LinkedIn</span></li>
-    <li class="list__item"><span class="icon meetup">Meetup</span></li>
-    <li class="list__item"><span class="icon microsoft">Microsoft</span></li>
-    <li class="list__item"><span class="icon myspace">MySpace</span></li>
-    <li class="list__item"><span class="icon newsvine">Newsvine</span></li>
-    <li class="list__item"><span class="icon nikeplus">Nike+</span></li>
-    <li class="list__item"><span class="icon orkut">Orkut</span></li>
-    <li class="list__item"><span class="icon pinboard">Pinboard</span></li>
-    <li class="list__item"><span class="icon pintrest">Pintrest</span></li>
-    <li class="list__item"><span class="icon posterous">Posterous</span></li>
-    <li class="list__item"><span class="icon rdio">Rdio</span></li>
-    <li class="list__item"><span class="icon readability">Readability</span></li>
-    <li class="list__item"><span class="icon readernaut">Readernaut</span></li>
-    <li class="list__item"><span class="icon reddit">Reddit</span></li>
-    <li class="list__item"><span class="icon sharethis">Share This</span></li>
-    <li class="list__item"><span class="icon skype">Skype</span></li>
-    <li class="list__item"><span class="icon slideshare">SlideShare</span></li>
-    <li class="list__item"><span class="icon speakerdeck">Speaker Deck</span></li>
-    <li class="list__item"><span class="icon soundcloud">Soundcloud</span></li>
-    <li class="list__item"><span class="icon spotify">Spotify</span></li>
-    <li class="list__item"><span class="icon stackoverflow">Stack Overflow</span></li>
-    <li class="list__item"><span class="icon stumbleupon">StumbleUpon</span></li>
-    <li class="list__item"><span class="icon thisismyjam">This Is My Jam</span></li>
-    <li class="list__item"><span class="icon tumblr">Tumblr</span></li>
-    <li class="list__item"><span class="icon twitter">Twitter</span></li>
-    <li class="list__item"><span class="icon twitter-retweet">Twitter Retweet</span></li>
-    <li class="list__item"><span class="icon vcard">vCard</span></li>
-    <li class="list__item"><span class="icon vimeo">Vimeo</span></li>
-    <li class="list__item"><span class="icon website">Website</span></li>
-    <li class="list__item"><span class="icon wikipedia">Wikipedia</span></li>
-    <li class="list__item"><span class="icon xbox">Xbox Live</span></li>
-    <li class="list__item"><span class="icon xing">Xing</span></li>
-    <li class="list__item"><span class="icon yahoo">Yahoo!</span></li>
-    <li class="list__item"><span class="icon yelp">Yelp</span></li>
-    <li class="list__item"><span class="icon youtube">YouTube</span></li>
-    <li class="list__item"><span class="icon zerply">Zerply</span></li>
-    <li class="list__item"><span class="icon zootool">Zootool</span></li>
+<ul class="list list--icons">
+    <li class="list__item"><span class="icon icon--icon--px500">500px</span></li>
+    <li class="list__item"><span class="icon icon--aim">AIM</span></li>
+    <li class="list__item"><span class="icon icon--amazon">Amazon</span></li>
+    <li class="list__item"><span class="icon icon--adn">App.net</span></li>
+    <li class="list__item"><span class="icon icon--behance">Behance</span></li>
+    <li class="list__item"><span class="icon icon--bbcid">BBC iD</span></li>
+    <li class="list__item"><span class="icon icon--creativecommons">Creative Commons</span></li>
+    <li class="list__item"><span class="icon icon--delicious">Delicious</span></li>
+    <li class="list__item"><span class="icon icon--digg">Digg</span></li>
+    <li class="list__item"><span class="icon icon--dribbble">Dribbble</span></li>
+    <li class="list__item"><span class="icon icon--dopplr">Dopplr</span></li>
+    <li class="list__item"><span class="icon icon--email">Email</span></li>
+    <li class="list__item"><span class="icon icon--etsy">Etsy</span></li>
+    <li class="list__item"><span class="icon icon--facebook">Facebook</span></li>
+    <li class="list__item"><span class="icon icon--feed">Feed</span></li>
+    <li class="list__item"><span class="icon icon--ffffound">Ffffound</span></li>
+    <li class="list__item"><span class="icon icon--flickr">Flickr</span></li>
+    <li class="list__item"><span class="icon icon--forrst">Forrst</span></li>
+    <li class="list__item"><span class="icon icon--foursquare">Foursquare</span></li>
+    <li class="list__item"><span class="icon icon--getsatisfaction">Get Satisfaction</span></li>
+    <li class="list__item"><span class="icon icon--geotag">Geotag</span></li>
+    <li class="list__item"><span class="icon icon--github">Github</span></li>
+    <li class="list__item"><span class="icon icon--goodreads">Goodreads</span></li>
+    <li class="list__item"><span class="icon icon--google">Google</span></li>
+    <li class="list__item"><span class="icon icon--google-plus">Google+</span></li>
+    <li class="list__item"><span class="icon icon--huffduffer">Huffduffer</span></li>
+    <li class="list__item"><span class="icon icon--identica">Identi.ca</span></li>
+    <li class="list__item"><span class="icon icon--imdb">IMDb</span></li>
+    <li class="list__item"><span class="icon icon--instagram">Instagram</span></li>
+    <li class="list__item"><span class="icon icon--lanyrd">Lanyrd</span></li>
+    <li class="list__item"><span class="icon icon--lastfm">Last.fm</span></li>
+    <li class="list__item"><span class="icon icon--linkedin">LinkedIn</span></li>
+    <li class="list__item"><span class="icon icon--meetup">Meetup</span></li>
+    <li class="list__item"><span class="icon icon--microsoft">Microsoft</span></li>
+    <li class="list__item"><span class="icon icon--myspace">MySpace</span></li>
+    <li class="list__item"><span class="icon icon--newsvine">Newsvine</span></li>
+    <li class="list__item"><span class="icon icon--nikeplus">Nike+</span></li>
+    <li class="list__item"><span class="icon icon--orkut">Orkut</span></li>
+    <li class="list__item"><span class="icon icon--pinboard">Pinboard</span></li>
+    <li class="list__item"><span class="icon icon--pintrest">Pintrest</span></li>
+    <li class="list__item"><span class="icon icon--posterous">Posterous</span></li>
+    <li class="list__item"><span class="icon icon--rdio">Rdio</span></li>
+    <li class="list__item"><span class="icon icon--readability">Readability</span></li>
+    <li class="list__item"><span class="icon icon--readernaut">Readernaut</span></li>
+    <li class="list__item"><span class="icon icon--reddit">Reddit</span></li>
+    <li class="list__item"><span class="icon icon--sharethis">Share This</span></li>
+    <li class="list__item"><span class="icon icon--skype">Skype</span></li>
+    <li class="list__item"><span class="icon icon--slideshare">SlideShare</span></li>
+    <li class="list__item"><span class="icon icon--speakerdeck">Speaker Deck</span></li>
+    <li class="list__item"><span class="icon icon--soundcloud">Soundcloud</span></li>
+    <li class="list__item"><span class="icon icon--spotify">Spotify</span></li>
+    <li class="list__item"><span class="icon icon--stackoverflow">Stack Overflow</span></li>
+    <li class="list__item"><span class="icon icon--stumbleupon">StumbleUpon</span></li>
+    <li class="list__item"><span class="icon icon--thisismyjam">This Is My Jam</span></li>
+    <li class="list__item"><span class="icon icon--tumblr">Tumblr</span></li>
+    <li class="list__item"><span class="icon icon--twitter">Twitter</span></li>
+    <li class="list__item"><span class="icon icon--twitter-retweet">Twitter Retweet</span></li>
+    <li class="list__item"><span class="icon icon--vcard">vCard</span></li>
+    <li class="list__item"><span class="icon icon--vimeo">Vimeo</span></li>
+    <li class="list__item"><span class="icon icon--website">Website</span></li>
+    <li class="list__item"><span class="icon icon--wikipedia">Wikipedia</span></li>
+    <li class="list__item"><span class="icon icon--xbox">Xbox Live</span></li>
+    <li class="list__item"><span class="icon icon--xing">Xing</span></li>
+    <li class="list__item"><span class="icon icon--yahoo">Yahoo!</span></li>
+    <li class="list__item"><span class="icon icon--yelp">Yelp</span></li>
+    <li class="list__item"><span class="icon icon--youtube">YouTube</span></li>
+    <li class="list__item"><span class="icon icon--zerply">Zerply</span></li>
+    <li class="list__item"><span class="icon icon--zootool">Zootool</span></li>
 </ul>
 
 ## Support

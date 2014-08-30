@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Classic Web Articles
 date: '2014-01-13 23:13:13 +0000'
 excerpt: Vasilis van Gemert asked me to curate a list of classic articles for the Daily Nerd, but what constitutes a classic?
