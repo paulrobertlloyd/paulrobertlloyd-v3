@@ -1,4 +1,4 @@
 <article class="summary summary--presentation">
-    <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title }}</a></h1>
+    <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title | replace:" '",' ‘' | replace:"'",'’' }}</a></h1>
     <p class="summary__meta">{{ presentation.location }}, <time datetime="{{ presentation.date | date_to_xmlschema }}">{{ presentation.date | date: "%B %Y" }}</time></p>
 </article>

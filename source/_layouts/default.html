@@ -52,7 +52,7 @@
     <meta name="geo.position" content="50.8420;-0.1539"/>
     {% endif %}
 
-    <title>{% if page.title != "Home" %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+    <title>{% if page.title != "Home" %}{{ page.title | replace:" '",' ‘' | replace:"'",'’' }} – {% endif %}{{ site.title }}</title>
 </head>
 
 <body>
