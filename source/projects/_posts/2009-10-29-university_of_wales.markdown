@@ -1,9 +1,8 @@
 ---
-layout: project
 title: University of Wales
 date: '2009-10-29'
 excerpt: An extensible design language for international university.
-permalink: /projects/university_of_wales/
+permalink: /projects/university_of_wales.html
 ---
 {% figure Home page %}
 ![](/assets/images/projects/university_of_wales/0.jpg)

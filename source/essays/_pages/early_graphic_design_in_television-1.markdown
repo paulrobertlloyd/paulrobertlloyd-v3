@@ -1,5 +1,4 @@
 ---
-layout: essay
 title: Early Graphic Design in Television
 date: '1999-03-01'
 chapter: 1

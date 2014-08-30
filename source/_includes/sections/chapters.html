@@ -8,7 +8,7 @@
         {% if essay.layout == 'essay' %}
             {% for tag in essay.tags %}
                 {% if page.tags contains tag %}
-                    <li class="nav__item{% if page.permalink == essay.url %} is-active{% endif %}"><a href="{{ essay.url }}">{% if essay.chapter-title %}{{ essay.chapter-title }}{% else %}Introduction{% endif %}</a></li>
+                    <li class="nav__item{% if page.permalink == essay.url %} is-active{% endif %}"><a href="{{ essay.url | remove:'.html' }}">{% if essay.chapter-title %}{{ essay.chapter-title }}{% else %}Introduction{% endif %}</a></li>
                 {% endif %}
             {% endfor %}
         {% endif %}

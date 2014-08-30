@@ -1,9 +1,8 @@
 ---
-layout: project
 title: 24 ways
 date: '2013-12-01'
 excerpt: Award-winning collaborative redesign for popular advent calendar for web geeks.
-permalink: /projects/24_ways/
+permalink: /projects/24_ways.html
 ---
 * Client: Drew McLellan
 * Year: 2013

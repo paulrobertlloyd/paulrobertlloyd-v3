@@ -1,9 +1,8 @@
 ---
-layout: project
 title: Bradshaw's Guide
 date: '2013-04-16'
 excerpt: Bringing George Bradshaw’s victorian railway guide to a new generation.
-permalink: /projects/bradshaws_guide/
+permalink: /projects/bradshaws_guide.html
 ---
 * Client: Personal project
 * Year: Ongoing

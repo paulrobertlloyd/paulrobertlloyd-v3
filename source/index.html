@@ -12,7 +12,7 @@ title: Home  # NOTE: Changing this value effects the contents of <head>
     {% for post in site.posts %}
         <li class="list__item">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a>
         </li>
     {% endfor %}
     </ol>

@@ -16,7 +16,22 @@ license:
   url: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Permalinks
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:title.html
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: 'projects'
+      type: 'posts'
+    values:
+      layout: 'project'
+  -
+    scope:
+      path: 'essays'
+      type: 'pages'
+    values:
+      layout: 'essay'
 
 # Pagination
 paginate: 12
@@ -33,9 +48,9 @@ jekyll-archives:
     month: archive
     tag: archive
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    tag: '/tags/:name/'
+    year: /:year/
+    month: /:year/:month/
+    tag: /tags/:name.html
 
 # Remarks
 remarks_dir: ../../../shared/remarks

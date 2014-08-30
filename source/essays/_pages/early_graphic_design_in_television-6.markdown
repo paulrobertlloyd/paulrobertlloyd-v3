@@ -1,10 +1,9 @@
 ---
-layout: essay
 title: Early Graphic Design in Television
 date: '1999-03-01'
 chapter: 6
 chapter-title: Conclusion
-permalink: /essays/early_graphic_design_in_television/conclusion/
+permalink: /essays/early_graphic_design_in_television/conclusion.html
 tags: [Early Graphic Design in Television]
 ---
 The history of graphic design in television is one of triumph over adversity. Ever since its launch in 1936, television has been a medium that has been restrictive to the graphic designer, both on and off screen.

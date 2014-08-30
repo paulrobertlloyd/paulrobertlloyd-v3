@@ -1,9 +1,8 @@
 ---
-layout: project
 title: DACS
 date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artist's rights organisation.
-permalink: /projects/dacs/
+permalink: /projects/dacs.html
 ---
 {% figure Home page %}
 ![](/assets/images/projects/dacs/0.jpg)
