@@ -15,9 +15,12 @@
         }
     </script>
 
-    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS Feed"/>
+    {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+    {% if location == 'journal' or page.categories | first == 'journal' %}<link rel="alternate" href="/journal/" type="application/atom+xml" title="Journal feed"/>{% endif %}
+    {% if location == 'projects' or page.categories | first == 'projects' %}<link rel="alternate" href="/projects/" type="application/atom+xml" title="Project feed"/>{% endif %}
     <link rel="canonical" href="{{ page.url }}"/>
     <link rel="icon" href="/assets/icons/icon.png"/>
+
     {% css_asset_tag global %}
     - /_assets/stylesheets/global.myth
     {% endcss_asset_tag %}
