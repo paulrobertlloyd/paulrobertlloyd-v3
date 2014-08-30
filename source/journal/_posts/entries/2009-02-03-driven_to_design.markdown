@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Driven to Design
 date: '2009-02-03 23:10:49 +0000'
 excerpt: In a recent conversation with a client, he asked why I got into design. Its something I've been meaning to write about for sometime, so I'll try to publish my answer here.

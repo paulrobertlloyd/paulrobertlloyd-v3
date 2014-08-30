@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Onwards to Ottawa
 date: '2011-12-20 22:57:23 +0000'
 excerpt: After four days in Washington, it was on to another North American capital, Ottawa. I encountered a city that was cold yet plentiful in ATMs that would refuse to accept my debit card.

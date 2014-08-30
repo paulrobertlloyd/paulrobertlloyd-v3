@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: What I Want from a Web Font
 date: '2013-05-27 23:23:15 +0100'
 excerpt: Last month I wrote about Bradshaw's Guide, a project that brings George Bradshaw's 1866 descriptive railway handbook to the web. Today I'll cover some of the typographic decisions I made, and how they lead me to believe that we still lack the necessary tools for web typography.

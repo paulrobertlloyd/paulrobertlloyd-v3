@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Two Years
 date: '2011-06-08 23:46:23 +0100'
 excerpt: Two years ago I joined Clearleft. Now with the responsive design movement in full swing, I look back over the last two years to see how much my approach to web design has changed.

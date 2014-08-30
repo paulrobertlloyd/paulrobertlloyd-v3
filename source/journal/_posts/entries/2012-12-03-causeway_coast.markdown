@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Exploring the Causeway Coast
 date: '2012-12-03 22:44:50 +0000'
 excerpt: After attending Build in Belfast last month, Chris Armstrong gave Ethan Marcotte, Chris Shifflet and myself a tour of the Causeway Coast which, as the name suggests, is home to the famed Giant's Causeway.

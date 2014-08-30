@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Magical Melbourne
 date: '2010-01-29 23:42:47 +0000'
 excerpt: After two and a half weeks exploring various cities, it was finally on to Melbourne, and the final stop on my short tour of Australasia.

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Trimming the Fat
 date: '2012-11-01 01:15:00 +0000'
 excerpt: Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you're playing with the last hundred or so kilobytes, there's little reward for your effort.

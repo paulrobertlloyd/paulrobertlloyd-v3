@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Continuing Adventures in America
 date: '2011-12-18 23:09:35 +0000'
 excerpt: Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year's long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in San Francisco, maybe such lofty goals are foolhardy. Before I write about my most recent travels, I address the hypocrisy in taking such a trip.
