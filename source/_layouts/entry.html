@@ -7,9 +7,6 @@ layout: default
             <h1 class="article__title">{{ page.title | replace:" '",' ‘' | replace:"'",'’' | widot }}</h1>
         </header>
 
-        <p>{{ location }}</p>
-        <p>{{ page.categories | first }}</p>
-
         <div class="article__main prose">
             {{ content | widont }}
         </div>

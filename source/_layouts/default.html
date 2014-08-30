@@ -16,8 +16,9 @@
     </script>
 
     {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-    {% if location == 'journal' or page.categories | first == 'journal' %}<link rel="alternate" href="/journal/" type="application/atom+xml" title="Journal feed"/>{% endif %}
-    {% if location == 'projects' or page.categories | first == 'projects' %}<link rel="alternate" href="/projects/" type="application/atom+xml" title="Project feed"/>{% endif %}
+    {% capture category %}{{ page.categories | first }}{% endcapture %}
+    {% if page.title == 'Home' or location == 'journal' or category == 'journal' %}<link rel="alternate" href="/journal/" type="application/atom+xml" title="Journal feed"/>{% endif %}
+    {% if page.title == 'Home' or location == 'projects' or category == 'projects' %}<link rel="alternate" href="/projects/" type="application/atom+xml" title="Project feed"/>{% endif %}
     <link rel="canonical" href="{{ page.url }}"/>
     <link rel="icon" href="/assets/icons/icon.png"/>
 
@@ -36,7 +37,7 @@
     <meta name="robots" content="index, follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    {% if page.layout != "index" %}
+    {% if category == 'journal' or category == 'projects' %}
     <meta name="twitter:site" content="@paulrobertlloyd"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
@@ -45,14 +46,14 @@
     <meta name="twitter:card" content="summary"/>
     {% endif %}
 
-    {% if page.title == "Home" %}
+    {% if page.title == 'Home' %}
     <meta name="geo.placename" content="Brighton"/>
     <meta name="geo.region" content="gb-bnh"/>
     <meta name="geo.country" content="gb"/>
     <meta name="geo.position" content="50.8420;-0.1539"/>
     {% endif %}
 
-    <title>{% if page.title != "Home" %}{{ page.title | replace:" '",' ‘' | replace:"'",'’' }} – {% endif %}{{ site.title }}</title>
+    <title>{% if page.title != 'Home' %}{{ page.title | replace:" '",' ‘' | replace:"'",'’' }} – {% endif %}{{ site.title }}</title>
 </head>
 
 <body>
