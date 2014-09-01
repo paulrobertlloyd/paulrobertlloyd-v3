@@ -12,6 +12,7 @@
     "url": "https://github.com/paulrobertlloyd/paulrobertlloyd.com/issues"
   },
   "devDependencies": {
-    "myth": "~1.1.0"
+    "myth": "~1.1.0",
+    "converjon": "berlinonline/converjon.git#master"
   }
 }

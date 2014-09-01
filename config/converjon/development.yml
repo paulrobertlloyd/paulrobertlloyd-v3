@@ -1,0 +1,33 @@
+server:
+  port: 8000
+  instance_name: null
+  timeout: 20000
+  access_log_format: "combined"
+
+test_server:
+  enabled: true
+  port: 8002
+
+cache:
+  base_path: "tmp/converjon/cache"
+
+download:
+  url_whitelist:
+    - "http://localhost:8002/*"
+    - "http://paulrobertlloyd.dev/*"
+  timeout: 5000
+
+process:
+  limit: 5
+  timeout: 5000
+
+analysis:
+  aoi_name: "AOI"
+
+cropping:
+  default_mode: "aoi_coverage"
+
+logging:
+  error: "stderr"
+  debug: "stderr"
+  access: "stdout"
