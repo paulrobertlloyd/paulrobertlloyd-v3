@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "myth": "~1.1.0",
-    "converjon": "berlinonline/converjon.git#master"
+    "converjon": "~2.0.0"
   }
 }
