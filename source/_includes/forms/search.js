@@ -3,7 +3,7 @@
 */
 
 window.search = (function(win, doc) {
-    var searchForm= document.querySelector('.search'),
+    var searchForm = document.querySelector('.search'),
         searchInput = document.querySelector('.search__input'),
         searchResults = document.querySelector('.search__results'),
         searchResultsHeader = '<h4 class="search__heading">Search results</h4>',
@@ -127,4 +127,6 @@ window.search = (function(win, doc) {
     }
 })(window, document);
 
-search.init();
+if (document.querySelector('.search')) {
+    search.init();
+}
