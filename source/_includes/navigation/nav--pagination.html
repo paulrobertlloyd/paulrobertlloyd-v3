@@ -1,5 +1,5 @@
-<nav class="nav nav--pagination grid">
-    <h1 class="u--hidden">Browse {{ page.categories | first }}</h1>
+<nav class="nav nav--pagination grid" aria-labelledby="pagination">
+    <h1 class="u--hidden" id="pagination">Browse {{ page.categories | first }}</h1>
 
     {% if page.next_in_category != nil %}
     <a class="nav__item nav__item--prev grid__item" rel="prev bookmark" href="{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}">Previous {{ page.next_in_category.layout | capitalize }}</a>

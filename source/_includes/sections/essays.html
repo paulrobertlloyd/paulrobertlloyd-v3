@@ -1,6 +1,6 @@
 {% unless include.title == 'false' %}
-<section class="section section--essays" id="essays">
-    <h1 class="section__title"><a href="/essays/">Academic Essays</a></h1>
+<section class="section section--essays" aria-labelledby="essays">
+    <h1 class="section__title" id="essays"><a href="/essays/">Academic Essays</a></h1>
 {% endunless %}
 
 {% for summary in site.pages | sort: 'date' %}
