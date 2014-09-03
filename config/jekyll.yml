@@ -1,6 +1,4 @@
-# Setup
 title: Paul Robert Lloyd
-url: http://paulrobertlloyd.com
 encoding: UTF-8
 
 # Meta
@@ -29,7 +27,7 @@ jekyll-archives:
     - month
     - tags
   layouts:
-    year: archive-years
+    year: archive
     month: archive
     tag: archive
   permalinks:
@@ -57,9 +55,6 @@ defaults:
       type: 'pages'
     values:
       layout: 'essay'
-
-# Remarks
-remarks_dir: ../../../shared/remarks
 
 # Syntax highlighting
 highlighter: pygments
