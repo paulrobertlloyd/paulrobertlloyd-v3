@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-archives.git
+  revision: 88b831da78205bfbb4f63877a448bd59baaa0175
+  specs:
+    jekyll-archives (0.1.0)
+      jekyll (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,8 +53,6 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-    jekyll-archives (0.1.0)
-      jekyll (~> 2.0)
     jekyll-coffeescript (1.0.0)
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
@@ -107,7 +112,7 @@ DEPENDENCIES
   capistrano-rvm
   japr
   jekyll
-  jekyll-archives
+  jekyll-archives!
   jekyll-sitemap
   myth
   myth-source (= 1.1.1)
