@@ -8,7 +8,7 @@ window.search = (function(win, doc) {
         searchResults = document.querySelector('.search__results'),
         searchResultsHeader = '<h4 class="search__heading">Search results</h4>',
         template = '<span class="search__result">{type}: <a href="{url}">{title}</a></span>',
-        jsonFile = '/search.json',
+        jsonFile = '/archive/search.json',
         jsonData = null,
         limit = 10,
         fuzzy = false,
