@@ -7,7 +7,10 @@
 #
 
 destination = "public"
+destination_css = "source/assets/stylesheets"
+destination_js = "source/assets/javascript"
 source = "source"
+temp = "tmp"
 
 
 desc "Install the necessary node dependencies for building the website."
@@ -16,18 +19,18 @@ task :install do |t|
 end
 
 
-desc "Create public assets directory"
-task :prepare do
-  mkdir_p ["#{destination}/assets"]
+desc "Clean up prepared and built files."
+task :clean do |t|
+  rm_rf [destination, destination_css, destination_js, temp, "node_modules"]
 end
 
 
 desc "Concatenate Myth CSS files"
 task :concatenate_css do
-  mkdir_p ["#{source}/_assets/stylesheets"]
+  mkdir_p ["#{source}/assets/stylesheets"]
 
   files = FileList["#{source}/_includes/**/*.pre.css"]
-  concatenated_filename = "#{source}/_assets/stylesheets/global.myth"
+  concatenated_filename = "#{destination_css}/global.myth"
 
   File.open(concatenated_filename, "w") do |output|
     files.each do |input|
@@ -41,10 +44,10 @@ end
 
 desc "Concatenate JS files"
 task :concatenate_js do
-  mkdir_p ["#{source}/_assets/javascript"]
+  mkdir_p ["#{source}/assets/javascript"]
 
   files = FileList["#{source}/_includes/**/*.js"]
-  concatenated_filename = "#{source}/_assets/javascript/global.js"
+  concatenated_filename = "#{destination_js}/global.js"
 
   File.open(concatenated_filename, "w") do |output|
     files.each do |input|
@@ -54,6 +57,7 @@ task :concatenate_js do
     end
   end
 end
+
 
 desc "Concatenate website assets."
 task :concat do
@@ -65,25 +69,15 @@ task :concat do
 end
 
 
-desc "Move image assets to public assets directory"
-task :move_assets do
-  cp_r "assets/.", "#{destination}/assets"
-end
-
-
 desc "Regenerate the website files and place them into destination."
-task :'dev-build' => [:install, :prepare, :concat] do
+task :'dev-build' => [:install, :concat] do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --trace"
-
-  Rake::Task["move_assets"].execute
 end
 
 
 desc "Regenerate the website files and place them into destination."
-task :build => [:install, :prepare, :concat] do
+task :build => [:install, :concat] do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
-
-  Rake::Task["move_assets"].execute
 end
 
 
