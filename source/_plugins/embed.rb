@@ -1,10 +1,9 @@
 #
-# Create placeholder markup for progressively enhanced embeds
-#
-# This plugin takes a YouTube/Vimeo/Flickr URL and generates placeholder markup
-# that can progressively enhance link and replace it with an embed.
+# Takes a YouTube/Vimeo/Flickr URL and generates placeholder markup that can
+# progressively enhance link and replace it with an embed.
 # 
-# Usage: {% embed https://www.youtube.com/watch?v=AIzbwV7on6Q %}
+# Usage:
+# {% embed https://www.youtube.com/watch?v=YOUTUBE-ID %}
 #
 
 require 'uri'

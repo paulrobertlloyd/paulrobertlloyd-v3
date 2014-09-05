@@ -1,32 +1,38 @@
-# http://stackoverflow.com/questions/19169849/how-to-get-markdown-processed-content-in-jekyll-tag-plugin
+#
+# Creates a <figure> element with an optional caption. Based on: 
+# http://stackoverflow.com/questions/19169849
+#
+# Usage:
+# {% figure "Optional figure caption" %}
+# Content of figure
+# {% endfigure %}
+#
 
 module Jekyll
-  module Tags
-    class FigureTag < Liquid::Block
+  class FigureTag < Liquid::Block
 
-      CaptionUrl = /(\S[\S\s]*)\s+(https?:\/\/\S+)\s+(.+)/i
-      Caption = /(\S[\S\s]*)/
+    FIGCAPTION_URL = /(\S[\S\s]*)\s+(https?:\/\/\S+)\s+(.+)/i
+    FIGCAPTION = /(\S[\S\s]*)/
 
-      def initialize(tag_name, markup, tokens)
-        super
-        @caption = nil
-        if markup =~ CaptionUrl
-          @caption = "\n<figcaption>#{$1}<a href='#{$2}'>#{$3}</a></figcaption>\n"
-        elsif markup =~ Caption
-          @caption = "\n<figcaption>#{$1}</figcaption>\n"
-        end
-        @markup = markup
+    def initialize(tag_name, markup, tokens)
+      super
+      @figcaption = nil
+      if markup =~ FIGCAPTION_URL
+        @figcaption = "\n<figcaption><p>#{$1}<a href='#{$2}'>#{$3}</a></p></figcaption>\n"
+      elsif markup =~ FIGCAPTION
+        @figcaption = "\n<figcaption><p>#{$1}</p></figcaption>\n"
       end
-
-      def render(context)
-        site = context.registers[:site]
-        converter = site.getConverterImpl(::Jekyll::Converters::Markdown)
-        output = converter.convert(super(context))
-        "<figure>#{output}#{@caption}</figure>"
-      end
-
+      @markup = markup
     end
+
+    def render(context)
+      site = context.registers[:site]
+      converter = site.getConverterImpl(::Jekyll::Converters::Markdown)
+      output = converter.convert(super(context))
+      "<figure>#{output}#{@figcaption}</figure>"
+    end
+
   end
 end
 
-Liquid::Template.register_tag('figure', Jekyll::Tags::FigureTag)
+Liquid::Template.register_tag('figure', Jekyll::FigureTag)
