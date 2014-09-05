@@ -2,6 +2,7 @@
 title: Riding the California Zephyr
 date: '2008-09-23 23:24:17 +0100'
 excerpt: The California Zephyr is a 56 hour, 2348 mile long train journey that starts in Emeryville, California. After speeding across the deserts of Nevada and Utah, it climbs over the Rocky Mountains, tunnels under the Continental Divide before heading towards its final destination of Chicago's Grand Union Station.
+image: /2008/09/california_zephyr.jpg
 tags:
   - Travel
   - United States
@@ -9,7 +10,9 @@ tags:
 discussion: closed
 post_id: 2008-09-23-california_zephyr
 ---
-![Landscape seen from the California Zephyr](/assets/images/2008/09/california_zephyr.jpg)
+{% picture bleed %}
+![Colorado landscape as seen from on board the California Zephyr](/source/assets/images/2008/09/california_zephyr.jpg "The landscape you travel across is one of the most scenic routes run by Amtrak")
+{% endpicture %}
 
 The California Zephyr is a 56 hour, 2348 mile long train journey that starts in Emeryville, California. After speeding across the deserts of Nevada and Utah, it climbs over the Rocky Mountains, tunnels under the Continental Divide before heading towards its final destination of Chicago's Grand Union Station.
 
@@ -34,7 +37,7 @@ Although these guides step of at [Reno][3], the commentary is continued by the c
 
 Unlike flying, travelling by train is a far more social affair. The dinning car is strictly community seating, meaning if you are travelling alone you are required to share a table with three others. This is an excellent way to meet people, and adds a different twist to transcontinental travel.
 
-There is a wide variety of people that travel by train. For most of my journey I was sat behind a woman with a moustache whose husband was the size of a mountain. At [Grand Junction][6] I spoke to a Chinese student, who was doing two more long Amtrak routes after this one, as a quick and cheap means of seeing the country. At lunch I met a couple on their way back home from Aspen, and had dinner with a couple on their way home to Michigan. In fact, most passengers on board are domestic travellers, but there were a few tourists to be found.
+There is a wide variety of people that travel by train. For most of my journey I was sat behind a woman with a moustache whose husband was the size of a mountain. At [Grand Junction][6] I spoke to a Chinese student, who was doing two more long Amtrak routes after this one, as a quick and cheap means of seeing the country. At lunch, I met a couple on their way back home from Aspen. Later I had dinner with a couple on their way home to Michigan. In fact, most passengers on board were domestic travellers, with just a few tourists to be found.
 
 Amtrak obviously provides a much needed service to the communities it serves, yet passengers are treated like second-class citizen on the country's railroads, most of which are leased to freight operators, who have right of way. As such, we remained motionless for 10 to 15 minutes on many occasions as we waited for a freight trains to pass, and coming into [Denver][7] was a massively complicated affair. The timetable is more of an educated guess, than something that you can plan your journey against.
 
