@@ -59,19 +59,21 @@ module Jekyll
       end
 
       if @local
-        source += "<picture>"
         if @img_ext != "svg"
           if @class and @class.include? "bleed"
-            source += "    <source srcset=\"#{img_server}/1024w/100#{@img_path}, #{img_server}/2048w/100#{@img_path} 2x\" media=\"(min-width: 1024px)\"/>"
+            source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
+                          srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w, #{img_server}/1200w/100#{@img_path} 1200w\"
+                          sizes=\"100vw\"
+                          alt=\"#{@img_alt}\"/>"
+          else
+            source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
+                          srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w, #{img_server}/1200w/100#{@img_path} 1200w\"
+                          sizes=\"100vw\"
+                          alt=\"#{@img_alt}\"/>"
           end
-          source += "    <source srcset=\"#{img_server}/640w/100#{@img_path}, #{img_server}/1280w/100#{@img_path} 2x\" media=\"(min-width: 640px)\"/>"
-          source += "    <source srcset=\"#{img_server}/320w/100#{@img_path}, #{img_server}/640w/100#{@img_path} 2x\" media=\"(min-width: 320px)\"/>"
-          source += "    <img src=\"#{img_server}/320w/100#{@img_path}\" alt=\"#{@img_alt}\"/>"
-          source += "</picture>"
         else
           # Image is an SVG, so natively scales
-          source += "    <img src=\"#{@img_src}\" alt=\"#{@img_alt}\"/>"
-          source += "</picture>"
+          source += "<img src=\"#{@img_src}\" alt=\"#{@img_alt}\"/>"
         end
       else
         # Image is served from a remote location
