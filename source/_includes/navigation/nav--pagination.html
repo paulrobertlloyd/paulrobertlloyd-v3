@@ -2,10 +2,10 @@
     <h1 class="u--hidden" id="pagination">Browse {{ page.categories | first }}</h1>
 
     {% if page.next_in_category != nil %}
-    <a class="nav__item nav__item--prev grid__item" rel="prev bookmark" href="{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}">Previous {{ page.next_in_category.layout | capitalize }}</a>
+    <a class="nav__item nav__item--prev grid__item" rel="prev bookmark" href="{{ page.next_in_category.url | remove:'.html' }}" title="{{ page.next_in_category.title }}">Previous {{ page.next_in_category.layout | capitalize }}</a>
     {% endif %}
 
     {% if page.previous_in_category != nil %}
-    <a class="nav__item nav__item--next grid__item" rel="next bookmark" href="{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}">Next {{ page.previous_in_category.layout | capitalize }}</a>
+    <a class="nav__item nav__item--next grid__item" rel="next bookmark" href="{{ page.previous_in_category.url | remove:'.html' }}" title="{{ page.previous_in_category.title }}">Next {{ page.previous_in_category.layout | capitalize }}</a>
     {% endif %}
 </nav>
