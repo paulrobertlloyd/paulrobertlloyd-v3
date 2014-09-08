@@ -58,6 +58,12 @@ defaults:
 
 # Syntax highlighting
 highlighter: pygments
+markdown_ext: foo
+
+# HTML compression
+compress_html:
+  clippings: [div]
+  endings: [li, dt, dd, p, thead, tbody, tr, td, th]
 
 # Publishing
 include:

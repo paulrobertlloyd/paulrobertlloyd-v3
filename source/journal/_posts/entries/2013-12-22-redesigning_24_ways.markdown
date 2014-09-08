@@ -120,7 +120,7 @@ Taking inspiration from BEM, I used single word root classes, suffixed with a mo
 
 This naming system produced markup patterns like this:
 
-~~~html
+~~~ html
 <article class="summary summary-article h-entry day-15">
   <header class="summary_header">
     <h1 class="summary_title p-name"><a class="u-url" rel="bookmark" href="#">Real Animation Using JavaScript, CSS3, and HTML5 Video</a></h1>
