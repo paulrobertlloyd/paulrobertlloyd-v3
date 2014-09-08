@@ -82,23 +82,23 @@ module Jekyll
         if @img_local
           if @img_ext != "svg"
             if @class and @class.include? "bleed"
-              source += "\n<img src=\"#{img_server}/400w/100#{@img_path}\"
+              source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
                             srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w, #{img_server}/1200w/100#{@img_path} 1200w\"
                             sizes=\"100vw\"
-                            alt=\"#{@img_alt}\"/>\n"
+                            alt=\"#{@img_alt}\"/>"
             else
-              source += "\n<img src=\"#{img_server}/400w/100#{@img_path}\"
+              source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
                             srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w, #{img_server}/1200w/100#{@img_path} 1200w\"
                             sizes=\"100vw\"
-                            alt=\"#{@img_alt}\"/>\n"
+                            alt=\"#{@img_alt}\"/>"
             end
           else
             # Image is an SVG, so natively scales
-            source += "\n<img src=\"#{@img_src}\" alt=\"#{@img_alt}\"/>"
+            source += "<img src=\"#{@img_src}\" alt=\"#{@img_alt}\"/>"
           end
         else
           # Image is served from a remote location
-          source += "\n<img src=\"#{@img_src}\" alt=\"#{@img_alt}\"/>"
+          source += "<img src=\"#{@img_src}\" alt=\"#{@img_alt}\"/>"
         end
       elsif
         source += "#{output}"
@@ -106,9 +106,9 @@ module Jekyll
 
       if @caption
         @caption = Kramdown::Document.new(@caption).to_html if @caption
-        source += "<figcaption>\n#{@caption}</figcaption>\n" if @caption
+        source += "<figcaption>#{@caption}</figcaption>" if @caption
       end
-      source += "</figure>\n"
+      source += "</figure>"
 
       return source
     end
