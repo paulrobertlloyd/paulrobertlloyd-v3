@@ -69,7 +69,7 @@ This begged the question: what principles might apply to responsive web design? 
 
     **Stephanie Rieger**'s [talk][23] primarily focused on the CSS Level 4 media queries (which sound unlikely to be that useful in the grand scheme of things), but she also talked of an idea that would enable parts of the UI to be deferred to the user agent. For example, the following HTML:
 
-    ~~~html
+    ~~~ html
     <nav is="native">
         <ul>
             <li>Item one</li>
