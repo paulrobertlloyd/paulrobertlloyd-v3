@@ -4,19 +4,19 @@ date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artist's rights organisation.
 permalink: /projects/dacs.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/dacs/0.jpg)
 {% endfigure %}
 
-{% figure Landing page %}
+{% figure "Landing page" %}
 ![](/assets/images/projects/dacs/1.jpg)
 {% endfigure %}
 
-{% figure Service page %}
+{% figure "Service page" %}
 ![](/assets/images/projects/dacs/2.jpg)
 {% endfigure %}
 
-{% figure Mobile landing page %}
+{% figure "Mobile landing page" %}
 ![](/assets/images/projects/dacs/3.jpg)
 {% endfigure %}
 

@@ -15,7 +15,7 @@ British companies operate on a global scale but many have decided that national 
 
 ![New British Airways Logo](/assets/images/essays/britain_rebranded/ba_logo.png){: .pull-right} Another company finding itself in the media spotlight was British Airways. Preferring to be known as BA, it instigated a 60 million pound corporate re-branding that ditched its familiar Union Flag tail fins and replaced them with a number of multicultural designs instead. These represented the diversity of their passengers and destinations and would position the airline as "the undisputed leader in world travel".
 
-{% figure British Airways world 'tails'. The tail designs shown here represented Kalahari Desert, Scotland, England, Netherlands, Russia, Africa and Australia %}
+{% figure "British Airways world 'tails'. The tail designs shown here represented Kalahari Desert, Scotland, England, Netherlands, Russia, Africa and Australia" %}
 ![British Airways World Tailfins](/assets/images/essays/britain_rebranded/ba_tailfins.png)
 {% endfigure %}
 
@@ -25,7 +25,7 @@ Dropping the flag also produced much unwanted bad press in BA's home country, an
 
 When the British Tourist Authority (BTA) announced that it was to rebrand itself, the media showed much interest. While their new logo didn't abandon the Union Flag, it was surrounded by yellow and green and sat slightly off centre. It was described in the Guardian as "harmless, old-fashioned, apolitical and jolly good fun" -- but would it change tourists perception of Britain?
 
-{% figure The old BTA logo (left) and its replacement (right) %}
+{% figure "The old BTA logo (left) and its replacement (right)" %}
 ![BTA logos, old and new](/assets/images/essays/britain_rebranded/bta_logos.png)
 {% endfigure %}
 
@@ -70,7 +70,7 @@ With Labour in power, stars from the world of design, business and entertainment
 
 ![Millennium Products logo](/assets/images/essays/britain_rebranded/mp_logo.png){: .pull-left} As a means of promoting British design, technology, and innovation around the world, the Millennium Products initiative asked British companies to demonstrate their ability to lead the world in design. Successful designs included the Eurostar train, modern-day sign posting in Birmingham and a clockwork radio. When the final set of Millennium Product products were announced in December 1999, 1012 had received this status. These are being exhibited at EXPO 2000 in Hanover and British Government buildings around the world.
 
-{% figure The Eurostar train was a Millennium Product %}
+{% figure "The Eurostar train was a Millennium Product" %}
 ![Eurostar train](/assets/images/essays/britain_rebranded/mp_eurostar.jpg)
 {% endfigure %}
 

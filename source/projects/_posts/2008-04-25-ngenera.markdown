@@ -4,19 +4,19 @@ date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
 permalink: /projects/ngenera.html
 ---
-{% figure nGenera logo with tagline lock-up %}
+{% figure "nGenera logo with tagline lock-up" %}
 ![](/assets/images/projects/ngenera/0.jpg)
 {% endfigure %}
 
-{% figure Associated brand collateral, including presentation folders, report covers, letterheads and business cards %}
+{% figure "Associated brand collateral, including presentation folders, report covers, letterheads and business cards" %}
 ![](/assets/images/projects/ngenera/1.jpg)
 {% endfigure %}
 
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/ngenera/2.jpg)
 {% endfigure %}
 
-{% figure Community landing page %}
+{% figure "Community landing page" %}
 ![](/assets/images/projects/ngenera/3.jpg)
 {% endfigure %}
 

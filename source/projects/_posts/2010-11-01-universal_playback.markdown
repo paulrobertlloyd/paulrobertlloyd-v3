@@ -4,35 +4,35 @@ date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.
 permalink: /projects/universal_playback.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/universal_playback/0.jpg)
 {% endfigure %}
 
-{% figure Navigation %}
+{% figure "Navigation" %}
 ![](/assets/images/projects/universal_playback/1.jpg)
 {% endfigure %}
 
-{% figure Show landing page %}
+{% figure "Show landing page" %}
 ![](/assets/images/projects/universal_playback/2.jpg)
 {% endfigure %}
 
-{% figure Cast member biography %}
+{% figure "Cast member biography" %}
 ![](/assets/images/projects/universal_playback/3.jpg)
 {% endfigure %}
 
-{% figure Show-scoped shop item page %}
+{% figure "Show-scoped shop item page" %}
 ![](/assets/images/projects/universal_playback/4.jpg)
 {% endfigure %}
 
-{% figure Genres landing page %}
+{% figure "Genres landing page" %}
 ![](/assets/images/projects/universal_playback/5.jpg)
 {% endfigure %}
 
-{% figure Videos landing page %}
+{% figure "Videos landing page" %}
 ![](/assets/images/projects/universal_playback/6.jpg)
 {% endfigure %}
 
-{% figure Shop item page %}
+{% figure "Shop item page" %}
 ![](/assets/images/projects/universal_playback/7.jpg)
 {% endfigure %}
 

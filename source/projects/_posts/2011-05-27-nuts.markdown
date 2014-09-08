@@ -4,15 +4,15 @@ date: '2011-05-27'
 excerpt: Incremental redesign for family run, customer-focused food retailer.
 permalink: /projects/nuts.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/nuts/0.jpg)
 {% endfigure %}
 
-{% figure Category page %}
+{% figure "Category page" %}
 ![](/assets/images/projects/nuts/1.jpg)
 {% endfigure %}
 
-{% figure Product page %}
+{% figure "Product page" %}
 ![](/assets/images/projects/nuts/2.jpg)
 {% endfigure %}
 

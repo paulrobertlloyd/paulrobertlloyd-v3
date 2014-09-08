@@ -17,36 +17,36 @@ In tandem with improving my proficiency with a camera, I'm trying to better unde
 
 Besides showcasing some recent photography -- something I'd like to do more often on this site -- this is also an opportunity to experiment with the [compressive images][9] technique. The photos on this page have been saved with larger dimensions than required, but also lower quality levels than I would normally use. This should result in smaller file sizes and sharper imagery on high resolution displays. Daan Jobsis was the first to suggest this technique, and his [Retina Revolution][10] post is worth a read.
 
-{% figure <strong>The Causeway Hotel:</strong> 66% quality, 44 kB %}
+{% figure "**The Causeway Hotel:** 66% quality, 44 kB" %}
 ![](/assets/images/2012/12/causeway_coast1.jpg)
 {% endfigure %}
 
-{% figure <strong>Tourists besiege the causeway:</strong> 57% quality, 108 kB %}
+{% figure "**Tourists besiege the causeway:** 57% quality, 108 kB" %}
 ![](/assets/images/2012/12/causeway_coast2.jpg)
 {% endfigure %}
 
-{% figure <strong>Interlocking basalt columns:</strong> 55% quality, 63 kB / 58% quality, 35 kB %}
+{% figure "**Interlocking basalt columns:** 55% quality, 63 kB / 58% quality, 35 kB" %}
 ![](/assets/images/2012/12/causeway_coast3.jpg)
 ![](/assets/images/2012/12/causeway_coast4.jpg)
 {% endfigure %}
 
-{% figure <strong>The Giant's Causeway viewed from above:</strong> 55% quality, 151 kB %}
+{% figure "**The Giant's Causeway viewed from above:** 55% quality, 151 kB" %}
 ![](/assets/images/2012/12/causeway_coast5.jpg)
 {% endfigure %}
 
-{% figure <strong>Large basalt columns:</strong> 55% quality, 167 kB %}
+{% figure "**Large basalt columns:** 55% quality, 167 kB" %}
 ![](/assets/images/2012/12/causeway_coast6.jpg)
 {% endfigure %}
 
-{% figure <strong>Anything that can be hexagonal, will be hexagonal:</strong> 38% quality, 122 kB %}
+{% figure "**Anything that can be hexagonal, will be hexagonal:** 38% quality, 122 kB" %}
 ![](/assets/images/2012/12/causeway_coast7.jpg)
 {% endfigure %}
 
-{% figure <strong>A storm brewing:</strong> 60% quality, 100 kB %}
+{% figure "**A storm brewing:** 60% quality, 100 kB" %}
 ![](/assets/images/2012/12/causeway_coast8.jpg)
 {% endfigure %}
 
-{% figure <strong>Ballintoy Harbour:</strong> 57% quality, 91 kB %}
+{% figure "**Ballintoy Harbour:** 57% quality, 91 kB" %}
 ![](/assets/images/2012/12/causeway_coast9.jpg)
 {% endfigure %}
 

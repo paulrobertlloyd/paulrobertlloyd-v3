@@ -4,43 +4,43 @@ date: '2010-05-03'
 excerpt: Design for NBCUniversal's international channel portfolio.
 permalink: /projects/universal_networks.html
 ---
-{% figure Syfy Universal home page %}
+{% figure "Syfy Universal home page" %}
 ![](/assets/images/projects/universal_networks/0.jpg)
 {% endfigure %}
 
-{% figure Syfy Universal show page %}
+{% figure "Syfy Universal show page" %}
 ![](/assets/images/projects/universal_networks/1.jpg)
 {% endfigure %}
 
-{% figure Syfy Universal schedule page %}
+{% figure "Syfy Universal schedule page" %}
 ![](/assets/images/projects/universal_networks/2.jpg)
 {% endfigure %}
 
-{% figure Studio Universal home page %}
+{% figure "Studio Universal home page" %}
 ![](/assets/images/projects/universal_networks/3.jpg)
 {% endfigure %}
 
-{% figure Studio Universal film page %}
+{% figure "Studio Universal film page" %}
 ![](/assets/images/projects/universal_networks/4.jpg)
 {% endfigure %}
 
-{% figure Studio Universal schedule page %}
+{% figure "Studio Universal schedule page" %}
 ![](/assets/images/projects/universal_networks/5.jpg)
 {% endfigure %}
 
-{% figure Universal Channel home page %}
+{% figure "Universal Channel home page" %}
 ![](/assets/images/projects/universal_networks/6.jpg)
 {% endfigure %}
 
-{% figure Universal Channel schedule page %}
+{% figure "Universal Channel schedule page" %}
 ![](/assets/images/projects/universal_networks/7.jpg)
 {% endfigure %}
 
-{% figure 13TH STREET Universal home page %}
+{% figure "13TH STREET Universal home page" %}
 ![](/assets/images/projects/universal_networks/8.jpg)
 {% endfigure %}
 
-{% figure 13TH STREET Universal schedule page %}
+{% figure "13TH STREET Universal schedule page" %}
 ![](/assets/images/projects/universal_networks/9.jpg)
 {% endfigure %}
 

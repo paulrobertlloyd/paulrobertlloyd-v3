@@ -11,7 +11,7 @@ post_id: 2010-03-15-social_media_icons_rationale
 ---
 [Social Media Icons v1.5][1] adds a number of highly requested icons, including those for Dribbble, Foursquare, Gowalla, PayPal, Xbox Live and Zootool. As the jump in version number suggests, this update also brings a few design tweaks too. Outer borders are now alpha-transparent (icons should sit better on different coloured backgrounds), the inner bevel design has been modified and with [a.green:focus][2] in mind, icons files are now compressed with file sizes down 50% on average.
 
-{% figure The 12 new icons in v1.5 update %}
+{% figure "The 12 new icons in v1.5 update" %}
 ![](/assets/images/2010/03/socialicons.png)
 {% endfigure %}
 

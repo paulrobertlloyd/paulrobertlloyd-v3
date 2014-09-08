@@ -4,39 +4,39 @@ date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence across web, tablet and mobile.
 permalink: /projects/channel4_news.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/channel4_news/0.jpg)
 {% endfigure %}
 
-{% figure Category %}
+{% figure "Category" %}
 ![](/assets/images/projects/channel4_news/1.jpg)
 {% endfigure %}
 
-{% figure Special Report %}
+{% figure "Special Report" %}
 ![](/assets/images/projects/channel4_news/2.jpg)
 {% endfigure %}
 
-{% figure Country %}
+{% figure "Country" %}
 ![](/assets/images/projects/channel4_news/3.jpg)
 {% endfigure %}
 
-{% figure Article %}
+{% figure "Article" %}
 ![](/assets/images/projects/channel4_news/4.jpg)
 {% endfigure %}
 
-{% figure Benjamin Cohen's Blog %}
+{% figure "Benjamin Cohen's Blog" %}
 ![](/assets/images/projects/channel4_news/5.jpg)
 {% endfigure %}
 
-{% figure iPad: Home screen %}
+{% figure "iPad: Home screen" %}
 ![](/assets/images/projects/channel4_news/6.jpg)
 {% endfigure %}
 
-{% figure iPad: Special Reports %}
+{% figure "iPad: Special Reports" %}
 ![](/assets/images/projects/channel4_news/7.jpg)
 {% endfigure %}
 
-{% figure iPad: Special Report %}
+{% figure "iPad: Special Report" %}
 ![](/assets/images/projects/channel4_news/8.jpg)
 {% endfigure %}
 

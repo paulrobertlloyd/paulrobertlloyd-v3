@@ -4,11 +4,11 @@ date: '2011-06-14'
 excerpt: Collaborative design for grassroots digital conference.
 permalink: /projects/dconstruct_2011.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/dconstruct_2011/0.jpg)
 {% endfigure %}
 
-{% figure Home page, as shown on an iPhone %}
+{% figure "Home page, as shown on an iPhone" %}
 ![](/assets/images/projects/dconstruct_2011/1.jpg)
 {% endfigure %}
 

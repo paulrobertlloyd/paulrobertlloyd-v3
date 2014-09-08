@@ -12,7 +12,7 @@ post_id: 2010-09-10-bbc_news_redesign
 ---
 Earlier this year the BBC announced it was creating a new version of it's Global Visual Language (GVL). Building upon the success of its predecessor, these new guidelines would give the organisation a consistent yet highly distinctive visual style to use online.
 
-{% figure The new BBC News website. %}
+{% figure "The new BBC News website" %}
 ![](/assets/images/2010/09/bbcnews.jpg)
 {% endfigure %}
 
@@ -41,7 +41,7 @@ Not only does the new site break a number of expectations built up by users over
 The BBC is often careful to test new designs with its users, but this time it fell woefully short.
 
 ## One Page, A Thousand Interactions
-{% figure An article page on the new MSNBC website. %}
+{% figure "An article page on the new MSNBC website" %}
 ![](/assets/images/2010/09/msnbc.jpg)
 {% endfigure %}
 
@@ -56,7 +56,7 @@ Whilst some of these interactions are interesting, it appears to be innovation f
 ## Built In Flexibility
 Perhaps the BBC should point disgruntled users to MSNBC, as I'm sure they would come running back. With GVL3 in full effect, the new site takes this approachable homogeneity, and infuses it with the strong BBC News brand.
 
-{% figure Different layout variations available to editors on the new BBC News website. %}
+{% figure "Different layout variations available to editors on the new BBC News website" %}
 ![](/assets/images/2010/09/bbcnewsvariations.png)
 {% endfigure %}
 

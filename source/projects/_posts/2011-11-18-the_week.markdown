@@ -4,27 +4,27 @@ date: '2011-11-18'
 excerpt: Award-winning tablet design for popular current affairs magazine.
 permalink: /projects/the_week.html
 ---
-{% figure The Week iPad Edition %}
+{% figure "The Week iPad Edition" %}
 ![](/assets/images/projects/the_week/0.jpg)
 {% endfigure %}
 
-{% figure Issue Cover %}
+{% figure "Issue cover" %}
 ![](/assets/images/projects/the_week/1.jpg)
 {% endfigure %}
 
-{% figure Film overview page %}
+{% figure "Film overview page" %}
 ![](/assets/images/projects/the_week/2.jpg)
 {% endfigure %}
 
-{% figure Film review %}
+{% figure "Film review" %}
 ![](/assets/images/projects/the_week/3.jpg)
 {% endfigure %}
 
-{% figure Text resize options %}
+{% figure "Text resize options" %}
 ![](/assets/images/projects/the_week/4.jpg)
 {% endfigure %}
 
-{% figure Best properties overview page %}
+{% figure "Best properties overview page" %}
 ![](/assets/images/projects/the_week/5.jpg)
 {% endfigure %}
 

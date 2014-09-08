@@ -19,7 +19,7 @@ The team behind Gowalla had a great reputation. In addition to founding the succ
 
 It worked! I remember visiting nearby cities in the hope that I could add new stamps to my passport or find items missing from my collection. Yet a recurring question would be asked every time me and my colleagues checked into the same spots at lunchtime: "Why are we actually doing this?". Having checked in once, there was little incentive to do so again.
 
-{% figure A small selection from the thousands of exquisitely designed location stamps you could earn on Gowalla. %}
+{% figure "A small selection from the thousands of exquisitely designed location stamps you could earn on Gowalla" %}
 ![](/assets/images/2012/02/gowalla_stamps.png)
 {% endfigure %}
 
@@ -36,7 +36,7 @@ Gowalla was acquired by Facebook in December, and much of the team is headed to 
 
 It's tempting to accuse the founders of selling out, but given the failure of the product (and the need to satisfy their investors), I suspect they had little choice but to join Facebook. The same fate awaits many other start-ups. Indeed, Facebook's dominance can be traced by observing the increasing prominence of their account linking and sharing buttons on other social sites.
 
-{% figure The Gowalla home page in January 2012. The growing prominence of Facebook account linking and sharing buttons on Gowalla hinted at its eventual fate. %}
+{% figure "The Gowalla home page in January 2012. The growing prominence of Facebook account linking and sharing buttons on Gowalla hinted at its eventual fate" %}
 ![](/assets/images/2012/02/gowalla_homepage.png)
 {% endfigure %}
 

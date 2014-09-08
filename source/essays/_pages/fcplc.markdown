@@ -115,8 +115,8 @@ As for the grassroots of the game, where tomorrows players are to be found, ther
 Two recent examples of how the foundation has helped make a difference are in Colchester and Burnley. The Colchester United Football in the Community Scheme was given a £11,537 grant to fund to mobile floodlights to provide evening coaching schemes for local young people. This radical project uses the mobile floodlights to take football to local housing estates, and help provide professional coaching opportunities for children. Meanwhile, Burnley Borough Council received a £150,000 grant to fund pitch drainage and construct modern changing facilities at the Prairie Playing fields in the town. The council hopes these improvements will boost participation rates, especially amongst under represented groups.
 
 ### Future
-{% figure %}
-![Manchester United winning the European Cup in 1999](/assets/images/essays/fcplc/manchester_united_1999.jpg)
+{% figure "Manchester United winning the European Cup in 1999" %}
+![](/assets/images/essays/fcplc/manchester_united_1999.jpg)
 {% endfigure %}
 
 The future looks likely to see history repeating itself, but this time on a European level. G14 is a group the 14 top European clubs including Manchester United and Liverpool whose ultimate intention is to see the creation of a European breakaway league with the prospects of even greater wealth. The group has already been successful in lobbying UEFA for an expanded Champions League with the threat of such a breakaway.
@@ -196,7 +196,7 @@ Players wages have led to fans believing the players are no longer motivated bec
 ### Responsible Business Management
 The situation with players wages has only arisen because clubs forgetting football is a sport not a business. As a football club, you don't need to make profits just avoid sustained losses. But as chairman of football businesses, they tend to have their feet firmly in the City, believing in its philosophies such as "the market will regulate itself naturally" quoted from Southampton chairman, Rupert Lowe.
 
-{% figure Preston North End's ground is also home to the National Football Museum %}
+{% figure "Preston North End's ground is also home to the National Football Museum" %}
 ![Preston North End is also home to the National Football Museum](/assets/images/essays/fcplc/preston_north_end.jpg)
 {% endfigure %}
 

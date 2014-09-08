@@ -4,8 +4,8 @@ date: '2010-09-01'
 excerpt: Collaborative design for grassroots digital conference.
 permalink: /projects/dconstruct_2010.html
 ---
-{% figure %}
-![Home page](/assets/images/projects/dconstruct_2010/0.jpg)
+{% figure "Home page" %}
+![](/assets/images/projects/dconstruct_2010/0.jpg)
 {% endfigure %}
 
 Presented by Clearleft, dConstruct is a grassroots conference held annually in Brighton. Speakers at the 2010 edition were invited to explore the power of design thinking.

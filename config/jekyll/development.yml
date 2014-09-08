@@ -5,7 +5,7 @@ img_url: http://images.paulrobertlloyd.dev
 remarks_dir: ../remarks
 
 # Publishing
-#limit_posts: 50
+limit_posts: 50
 show_drafts: true
 
 # Assets
