@@ -20,7 +20,7 @@ This is Daniel Craig's third outing as James Bond, although the narrative arc br
 
 That past appears in the form of Raoul Silva, a former MI6 agent turned cyber terrorist gleefully portrayed by Javier Bardem. Silva, is a character tainted with just the right amount of comic book devilishness, and his origin story produces a grizzly reveal mid-way through the film. This, alongside his distinctive looks and exuberant style, easily rank Silva as the best Bond villain in a generation.
 
-{% figure Javier Bardem as Bond villain Raoul Silva %}
+{% figure "Javier Bardem as Bond villain Raoul Silva" %}
 ![](/assets/images/2012/11/skyfall-silva.jpg)
 {% endfigure %}
 
@@ -30,7 +30,7 @@ Unlike previous films, much of the action remains in the UK. This lends a differ
 
 While a treat for domestic audiences to see Bond running around the streets of London, the scenes set in more exotic locations -- a bike chase across the rooftops of Istanbul, a fist fight in neon-drenched Shanghai, drinks in a Macau casino -- are a reminder that Bond works best when furthest away from his desk. The luscious colours found in Roger Deakins' stunning cinematography ensure these far-flung locations are visually arresting, contrasting with the more sombre palettes of Whitehall and the Scottish highlands.
 
-{% figure The role of M, played by Judi Dench, is central to the story. %}
+{% figure "The role of M, played by Judi Dench, is central to the story" %}
 ![](/assets/images/2012/11/skyfall-m.jpg)
 {% endfigure %}
 
@@ -46,7 +46,7 @@ There is also a sense that <cite>Skyfall</cite> offers a tiny course correction 
 
 One thing hasn't returned to the old way of doing things though: the gun barrel sequence is again seen at the end of the movie, prior to the credits. For shame!
 
-{% figure Official trailer %}
+{% figure "Official trailer" %}
 {% embed https://www.youtube.com/watch?v=6kw1UVovByw %}
 {% endfigure %}
 

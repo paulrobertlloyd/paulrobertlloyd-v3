@@ -12,7 +12,7 @@ post_id: 2012-05-03-inspiring_nobody
 ---
 In 2007, soon after the unveiling of a [much criticised emblem][1], the official website for the London 2012 Olympic Games looked like this:
 
-{% figure <a href="http://web.archive.org/web/20070910112153/http://london2012.com/">London2012.com in 2007</a> %}
+{% figure "[London2012.com in 2007](http://web.archive.org/web/20070910112153/http://london2012.com/)" %}
 ![The London 2012 website in 2007](/assets/images/2012/05/london2012_2007.png)
 {% endfigure %}
 
@@ -20,7 +20,7 @@ Regardless of your thoughts on the logo, the overarching brand and associated de
 
 This is what the same website looks like today:
 
-{% figure <a href="http://london2012.com/">London2012.com today</a> %}
+{% figure "[London2012.com today](http://london2012.com/)" %}
 ![The London 2012 website in 2007](/assets/images/2012/05/london2012_2012.png)
 {% endfigure %}
 

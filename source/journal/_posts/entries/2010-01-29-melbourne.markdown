@@ -10,7 +10,7 @@ tags:
 ---
 Melbourne's status as Australia's cultural and sporting capital is reflected by two imposing sights in the city -- the [Melbourne Cricket Ground][1] (MCG) and the [Shrine of Remembrance][2] -- both backed up by an amazing array of national, state and metropolitan galleries, performance venues and sports stadia. The extensive tram system is just as impressive, and gives you an insight as to how other cities may have looked had they not been so eager to turn their streets over to the motor vehicle.
 
-{% figure Royal Exhibition Building, Melbourne. %}
+{% figure "Royal Exhibition Building, Melbourne" %}
 ![](/assets/images/2010/01/royalexhibitionbuilding.jpg)
 {% endfigure %}
 
@@ -25,7 +25,7 @@ As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many
 
 The same is true of the MCG. Whilst one part of the huge oval is still named in honour of the Olympics, the oldest part of the complex is actually the light towers that were erected in 1985. The rest of the was stadium completely rebuilt in sections between 1992 and 2005. Part of this refurbishment included the creation of the [National Sports Museum][9], which includes a special section devoted entirely to the Olympics.
 
-{% figure The cauldron from the 1956 Olympic Games. %}
+{% figure "The cauldron from the 1956 Olympic Games" %}
 ![](/assets/images/2010/01/olympiccauldron.jpg)
 {% endfigure %}
 
@@ -35,7 +35,7 @@ The centrepiece of this display was the original Olympic cauldron from the Melbo
 
 Keeping with this theme of sporting geekery, I was also keen to check out [Albert Park][10], host to the Australian Grand Prix every March. Although it was obvious to make out from maps situated around the park, it took me some time to realise that main road that circles the lake was indeed the race track.
 
-{% figure The pit lane on the Albert Park grand prix circuit. %}
+{% figure "The pit lane on the Albert Park grand prix circuit" %}
 ![](/assets/images/2010/01/albertpark.jpg)
 {% endfigure %}
 

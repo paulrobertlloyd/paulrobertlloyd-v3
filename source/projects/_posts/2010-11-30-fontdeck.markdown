@@ -4,27 +4,27 @@ date: '2010-11-30'
 excerpt: Destinctive look for professional web font service.
 permalink: /projects/fontdeck.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/fontdeck/0.jpg)
 {% endfigure %}
 
-{% figure Browse Fonts %}
+{% figure "Browse Fonts" %}
 ![](/assets/images/projects/fontdeck/1.jpg)
 {% endfigure %}
 
-{% figure Typeface page %}
+{% figure "Typeface page" %}
 ![](/assets/images/projects/fontdeck/2.jpg)
 {% endfigure %}
 
-{% figure Font specimen page %}
+{% figure "Font specimen page" %}
 ![](/assets/images/projects/fontdeck/3.jpg)
 {% endfigure %}
 
-{% figure Designers landing page %}
+{% figure "Designers landing page" %}
 ![](/assets/images/projects/fontdeck/4.jpg)
 {% endfigure %}
 
-{% figure Project settings %}
+{% figure "Project settings" %}
 ![](/assets/images/projects/fontdeck/5.jpg)
 {% endfigure %}
 

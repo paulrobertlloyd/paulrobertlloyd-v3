@@ -4,15 +4,15 @@ date: '2009-11-24'
 excerpt: Visual and user experience design for provider of travel services
 permalink: /projects/bookfhr.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/bookfhr/0.jpg)
 {% endfigure %}
 
-{% figure Search results %}
+{% figure "Search results" %}
 ![](/assets/images/projects/bookfhr/1.jpg)
 {% endfigure %}
 
-{% figure Booking form %}
+{% figure "Booking form" %}
 ![](/assets/images/projects/bookfhr/2.jpg)
 {% endfigure %}
 

@@ -4,19 +4,19 @@ date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
 permalink: /projects/apture.html
 ---
-{% figure Apture logo %}
+{% figure "Apture logo" %}
 ![](/assets/images/projects/apture/0.jpg)
 {% endfigure %}
 
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/apture/1.jpg)
 {% endfigure %}
 
-{% figure Product promotional page %}
+{% figure "Product promotional page" %}
 ![](/assets/images/projects/apture/2.jpg)
 {% endfigure %}
 
-{% figure Site Editor Dashboard %}
+{% figure "Site Editor Dashboard" %}
 ![](/assets/images/projects/apture/3.jpg)
 {% endfigure %}
 

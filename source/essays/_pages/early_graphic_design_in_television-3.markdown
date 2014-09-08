@@ -24,7 +24,7 @@ After its involvement, it became clear that the 'experimental' section had an im
 
 Typical graphic design during the sixties saw a move to a greater use of photography and more detailed illustration, due mainly to the fact that 625-line transmissions when they were launched in 1964, allowed greater picture definition, allowing graphic designers more creativity. There was also a lot more innovation with the increasing knowledge of the effects a film rostrum camera could achieve. The greater use of calligraphy was apparent at this time too.
 
-{% figure Figure 5: Title sequence from <cite>The Avengers</cite> (ABC 1963. Designed by Jerome Gask). <a href="https://www.youtube.com/watch?v=aDy_-dvMCNs">Watch on YouTube</a> %}
+{% figure "Figure 5: Title sequence from <cite>The Avengers</cite> (ABC 1963. Designed by Jerome Gask). [Watch on YouTube](https://www.youtube.com/watch?v=aDy_-dvMCNs)" %}
 ![Still from 'The Avengers' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-5a.png){: .pull-left}
 ![Still from 'The Avengers' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-5b.png){: .pull-left}
 ![Still from 'The Avengers' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-5c.png){: .pull-left}
@@ -32,7 +32,7 @@ Typical graphic design during the sixties saw a move to a greater use of photogr
 ![Still from 'The Avengers' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-5e.png){: .pull-left}
 {% endfigure %}
 
-{% figure Figure 6: Title sequence from <cite>Darkness at Noon</cite> (Associated Rediffusion 1964. Designed by Arnold Schwartzman) %}
+{% figure "Figure 6: Title sequence from <cite>Darkness at Noon</cite> (Associated Rediffusion 1964. Designed by Arnold Schwartzman)" %}
 ![Still from 'Darkness at Noon' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-6a.png){: .pull-left}
 ![Still from 'Darkness at Noon' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-6b.png){: .pull-left}
 ![Still from 'Darkness at Noon' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-6c.png){: .pull-left}
@@ -42,7 +42,7 @@ Typical graphic design during the sixties saw a move to a greater use of photogr
 
 The introduction, firstly of 625-line broadcasts and later colour, had obvious benefits to designers although in a way they were also a hindrance. It has to be remembered that even though these improvements were available, they were being broadcast alongside the old 405-line transmissions (which even with their quality weren't suspended until early 1985). It was up to the audience to upgrade their sets and sales of colour receivers were unexpectedly low when colour television broadcasts began. Before the majority of viewers had 625-line and colour receivers, the designer still had to consider those watching on 405-lines and monochrome sets.
 
-{% figure Figure 7: Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). <a href="https://www.youtube.com/watch?v=pKwaCTfa1EE">Watch on YouTube</a> %}
+{% figure "Figure 7: Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)" %}
 ![Still from 'I, Claudius' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-7a.png){: .pull-left}
 ![Still from 'I, Claudius' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-7b.png){: .pull-left}
 ![Still from 'I, Claudius' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-7c.png){: .pull-left}
@@ -50,7 +50,7 @@ The introduction, firstly of 625-line broadcasts and later colour, had obvious b
 ![Still from 'I, Claudius' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-7e.png){: .pull-left}
 {% endfigure %}
 
-{% figure Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). <a href="https://www.youtube.com/watch?v=KNNAfzKwRn4">Watch on YouTube</a> %}
+{% figure "Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)" %}
 ![Still from 'The Old Grey Whistle Test' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-8a.png){: .pull-left}
 ![Still from 'The Old Grey Whistle Test' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-8b.png){: .pull-left}
 ![Still from 'The Old Grey Whistle Test' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-8c.png){: .pull-left}

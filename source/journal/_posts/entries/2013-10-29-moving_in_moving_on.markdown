@@ -16,7 +16,7 @@ While I'm trying not to see buying a property as an act of settling down (I can 
 ## Parental Guidance
 The history of Clearleft maps closely to that of my own career. At first, I watched from the sidelines as the company emerged from the blogging of its three founding partners. My first interaction came as a client, when Ning hired their nascent team to design a video product. I later contracted for them, before joining full-time four and a half years ago.
 
-{% figure The Clearleft team after a day out learning to bake bread in 2011 %}
+{% figure "The Clearleft team after a day out learning to bake bread in 2011" %}
 ![](/assets/images/2013/10/clearleft.jpg)
 {% endfigure %}
 
@@ -31,7 +31,7 @@ In many respects, Clearleft can be regarded as a family. Andy and Rich are the p
 I know I will, as it is with much sadness that I've decided to leave Clearleft, with my last day at this wonderful company fast approaching.
 
 ## Goodbye Clearleft
-{% figure <cite>Dan Stevens</cite>, British actor %}
+{% figure "<cite>Dan Stevens</cite>, British actor" %}
 > The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.
 {% endfigure %}
 

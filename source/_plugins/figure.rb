@@ -1,6 +1,5 @@
 #
-# Creates a <figure> element with an optional caption. Based on: 
-# http://stackoverflow.com/questions/19169849
+# Creates a <figure> element with an optional caption.
 #
 # Usage:
 # {% figure "Optional figure caption" %}
@@ -10,28 +9,54 @@
 
 module Jekyll
   class FigureTag < Liquid::Block
+    @class = nil
+    @caption = nil
 
-    FIGCAPTION_URL = /(\S[\S\s]*)\s+(https?:\/\/\S+)\s+(.+)/i
-    FIGCAPTION = /(\S[\S\s]*)/
+    # Matches {% figure class "Caption" %}
+    FIGURE_CLASS_CAPTION = /(\w+)(\s+)"(.*?)"/i
+
+    # Matches {% figure "Caption" %}
+    FIGURE_CAPTION = /"(.*?)"/i
+
+    # Matches {% figure class %}
+    FIGURE_CLASS = /(\w+)/i
 
     def initialize(tag_name, markup, tokens)
       super
-      @figcaption = nil
-      if markup =~ FIGCAPTION_URL
-        @figcaption = "\n<figcaption><p>#{$1}<a href='#{$2}'>#{$3}</a></p></figcaption>\n"
-      elsif markup =~ FIGCAPTION
-        @figcaption = "\n<figcaption><p>#{$1}</p></figcaption>\n"
+      if markup =~ FIGURE_CLASS_CAPTION
+        @class = $1
+        @caption = $3
+      elsif markup =~ FIGURE_CAPTION
+        @caption = $1
+      elsif markup =~ FIGURE_CLASS
+        @class = $1
       end
-      @markup = markup
     end
 
     def render(context)
       site = context.registers[:site]
+
+      # Render Markdown formatted content of liquid block as HTML
       converter = site.getConverterImpl(::Jekyll::Converters::Markdown)
       output = converter.convert(super(context))
-      "<figure>#{output}#{@figcaption}</figure>"
-    end
 
+      # Render <figure> element
+      if @class
+        source = "<figure class=\"#{@class}\">"
+      elsif
+        source = "<figure>"
+      end
+
+      source += "#{output}"
+
+      if @caption
+        @caption = Kramdown::Document.new(@caption).to_html if @caption
+        source += "<figcaption>#{@caption}</figcaption>\n" if @caption
+      end
+      source += "</figure>\n"
+
+      return source
+    end
   end
 end
 

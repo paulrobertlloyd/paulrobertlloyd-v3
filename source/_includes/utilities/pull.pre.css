@@ -6,6 +6,7 @@
 }
 img.pull-left {
     margin: 0 1em 1em 0;
+    width: 33%;
 }
 figure img.pull-left {
     margin: 0.5em 0.5em 0 0;
@@ -16,6 +17,7 @@ figure img.pull-left {
 }
 img.pull-right {
     margin: 0 0 1em 1em;
+    width: 33%;
 }
 figure img.pull-right {
     margin: 0.5em 0 0.5em 0;

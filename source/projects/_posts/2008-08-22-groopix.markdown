@@ -4,23 +4,23 @@ date: '2008-08-22'
 excerpt: A tool for curating and printing group-based photo albums.
 permalink: /projects/groopix.html
 ---
-{% figure Logo %}
+{% figure "Logo" %}
 ![](/assets/images/projects/groopix/0.jpg)
 {% endfigure %}
 
-{% figure My Groops %}
+{% figure "My Groops" %}
 ![](/assets/images/projects/groopix/1.jpg)
 {% endfigure %}
 
-{% figure Collection %}
+{% figure "Collection" %}
 ![](/assets/images/projects/groopix/2.jpg)
 {% endfigure %}
 
-{% figure My Pix %}
+{% figure "My Pix" %}
 ![](/assets/images/projects/groopix/3.jpg)
 {% endfigure %}
 
-{% figure My Account %}
+{% figure "My Account" %}
 ![](/assets/images/projects/groopix/4.jpg)
 {% endfigure %}
 

@@ -4,23 +4,23 @@ date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter.html
 ---
-{% figure Identity development sketches %}
+{% figure "Identity development sketches" %}
 ![](/assets/images/projects/matter/0.jpg)
 {% endfigure %}
 
-{% figure The MATTER logo %}
+{% figure "The MATTER logo" %}
 ![](/assets/images/projects/matter/1.jpg)
 {% endfigure %}
 
-{% figure Article landing page %}
+{% figure "Article landing page" %}
 ![](/assets/images/projects/matter/2.jpg)
 {% endfigure %}
 
-{% figure Article page %}
+{% figure "Article page" %}
 ![](/assets/images/projects/matter/3.jpg)
 {% endfigure %}
 
-{% figure Article landing page on mobile %}
+{% figure "Article landing page on mobile" %}
 ![](/assets/images/projects/matter/4.jpg)
 {% endfigure %}
 

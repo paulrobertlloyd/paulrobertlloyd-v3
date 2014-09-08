@@ -4,15 +4,15 @@ date: '2009-05-29'
 excerpt: Introducing browser add-ons to a more mainstream audience.
 permalink: /projects/mozilla_addons.html
 ---
-{% figure Home page %}
+{% figure "Home page" %}
 ![](/assets/images/projects/mozilla_addons/0.jpg)
 {% endfigure %}
 
-{% figure Add-on overview page %}
+{% figure "Add-on overview page" %}
 ![](/assets/images/projects/mozilla_addons/1.jpg)
 {% endfigure %}
 
-{% figure Category listing %}
+{% figure "Category listing" %}
 ![](/assets/images/projects/mozilla_addons/2.jpg)
 {% endfigure %}
 
