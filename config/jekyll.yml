@@ -62,7 +62,7 @@ markdown_ext: foo
 
 # HTML compression
 compress_html:
-  clippings: [div]
+  clippings: [body, head, article, section, p]
   endings: [li, dt, dd, p, thead, tbody, tr, td, th]
 
 # Publishing
