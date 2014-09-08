@@ -4,15 +4,15 @@
 # https://github.com/daneden/daneden.me/blob/master/_plugins/image.rb
 #
 # Usage:
-# {% picture classname %}
+# {% image classname %}
 # ![Alternative text](/path/to/image.jpg "Optional title")
-# {% endpicture %}
+# {% endimage %}
 #
 
 require 'nokogiri'
 
 module Jekyll
-  class PictureTag < Liquid::Block
+  class ImageTag < Liquid::Block
 
     # Regex to abstract path to image file
     IMAGE_PATH = /(https?:\/\/|\/)(source\/assets\/images)([\/\w \.-]*)/i
@@ -89,4 +89,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('picture', Jekyll::PictureTag)
+Liquid::Template.register_tag('image', Jekyll::ImageTag)
