@@ -60,11 +60,6 @@ defaults:
 highlighter: pygments
 markdown_ext: foo
 
-# HTML compression
-compress_html:
-  clippings: [body, head, article, section, p]
-  endings: [li, dt, dd, p, thead, tbody, tr, td, th]
-
 # Publishing
 include:
   - _pages
