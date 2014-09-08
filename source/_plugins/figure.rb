@@ -34,12 +34,12 @@ module Jekyll
     def initialize(tag_name, markup, tokens)
       super
       if markup =~ FIGURE_CLASS_CAPTION
-        @class = $1
+        @class = ' class="'+$1+'"'
         @caption = $3
       elsif markup =~ FIGURE_CAPTION
         @caption = $1
       elsif markup =~ FIGURE_CLASS
-        @class = $1
+        @class = ' class="'+$1+'"'
       end
     end
 
@@ -74,12 +74,8 @@ module Jekyll
         end
       end
 
-      # If <figure> has a class, use it
-      if @class
-        source = "<figure class=\"#{@class}\">"
-      elsif
-        source = "<figure>"
-      end
+      # Render <figure>
+      source = "<figure#{@class}>"
 
       # If block contains an image make it responsive, else render the content
       if @img
