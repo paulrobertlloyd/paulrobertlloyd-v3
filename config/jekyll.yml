@@ -58,7 +58,7 @@ defaults:
 
 # Syntax highlighting
 highlighter: pygments
-markdown_ext: foo
+# markdown_ext: foo <<< BUG: This setting turns off typogruby
 
 # Publishing
 include:
