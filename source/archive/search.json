@@ -7,7 +7,7 @@
         "category": "{{ post.categories | first | capitalize }}",
         "type": "{{ post.layout | capitalize }}",
         "tags": "{{ post.tags | array_to_sentence_string }}",
-        "url": "{{ post.url }}",
+        "url": "{{ post.url | remove:'.html' }}",
         "date": "{{ post.date }}"
     } {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
