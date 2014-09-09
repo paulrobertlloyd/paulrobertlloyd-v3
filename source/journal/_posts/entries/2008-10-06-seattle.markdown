@@ -16,7 +16,7 @@ The [Space Needle][1] is Seattle's signature landmark built for the 1962 Century
 The grounds exist today as 'Seattle Center', an arts and entertainment complex with museums, parkland and fairground rides. Key buildings from the exposition such as the Pacific Science Museum, Key Arena and Center House exist largely as they did almost 50 years ago, alongside newer buildings such as the [Experience Music Project][2] and McCaw Hall.
 
 {% figure bleed "The Space Needle with the Experience Music Project in the foreground" %}
-![](/source/assets/images/2008/10/seattle_center.jpg)
+![](/assets/images/2008/10/seattle_center.jpg)
 {% endfigure %}
 
 The Space Needle retains it's original ['Googie' architectural style][3], but latterly a number of improvements have been made. Renovation early this century saw the addition of a spiralling entrance way, and a beam of light can now be emitted from it's tip. Both of these were depicted in the official poster for the fair, but missing from the final design.
@@ -27,7 +27,7 @@ Linking the Seattle Center with downtown Seattle, is a monorail also built for t
 
 ## Downtown and Pioneer Square
 {% figure bleed "The Space Needle with the Experience Music Project in the foreground" %}
-![](/source/assets/images/2008/10/seattle_pike_place.jpg)
+![](/assets/images/2008/10/seattle_pike_place.jpg)
 {% endfigure %}
 
 The downtown area of the city is much like others in the US -- dominated by tall sky scrappers of failing banks like Washington Mutual -- but to the west is [Pike Place Market][4], a warren of small shops, fish mongers, tourist traps and restaurants, and home to the first Starbucks. To the south lies Pioneer Square, a leafy and laid back historic district, home to preserved buildings from the early 20th Century, most notably Smith Tower.
@@ -37,7 +37,7 @@ However, I didn't explore these areas as much as I would have liked, mainly due 
 Here a daring steel and glass design wraps itself around public reading and research spaces, lounges and an innovative 'book spiral'. This continuous spiral allows visitors to browse the library's entire non-fiction collection without breaking up the Dewey Decimal classification system onto different floors.
 
 {% figure bleed "Inside Seattle Central Library" %}
-![](/source/assets/images/2008/10/seattle_central_library.jpg)
+![](/assets/images/2008/10/seattle_central_library.jpg)
 {% endfigure %}
 
 ## Impression
