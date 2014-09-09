@@ -29,7 +29,7 @@ module Jekyll
     FIGURE_CLASS = /(\w+)/i
 
     # Regex to abstract path to image file
-    IMAGE_PATH = /(https?:\/\/|\/)(source\/assets\/images)([\/\w \.-]*)/i
+    IMAGE_PATH = /(https?:\/\/|\/)(assets\/images)([\/\w \.-]*)/i
 
     def initialize(tag_name, markup, tokens)
       super
@@ -82,15 +82,14 @@ module Jekyll
         if @img_local
           if @img_ext != "svg"
             if @class and @class.include? "bleed"
+              # For now, responsive images only within figure.bleed
               source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
                             srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w, #{img_server}/1200w/100#{@img_path} 1200w\"
                             sizes=\"100vw\"
                             alt=\"#{@img_alt}\"/>"
             else
-              source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
-                            srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w, #{img_server}/1200w/100#{@img_path} 1200w\"
-                            sizes=\"100vw\"
-                            alt=\"#{@img_alt}\"/>"
+              # TODO: Figures with multiple images. For now, ignore
+              source += "#{output}"
             end
           else
             # Image is an SVG, so natively scales
