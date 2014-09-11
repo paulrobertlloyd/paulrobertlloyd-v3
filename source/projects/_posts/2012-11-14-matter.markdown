@@ -1,37 +1,61 @@
 ---
-title: Matter
+title: MATTER
 date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter.html
+featured: true
 ---
-{% figure "Identity development sketches" %}
-![](/assets/images/projects/matter/0.jpg)
+* Client: Matter Publishing
+* Year: 2012
+* Role: UX, branding and graphic design
+
+The brainchild of journalists Bobbie Johnson and Jim Giles, _MATTER_ is home to in-depth journalism about the ideas shaping our future. Stories cover everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them.
+
+After an enormously successful [Kickstarter campaign][1] proved there was a real desire for high-quality, focused, long-form writing, Bobbie and Jim asked Clearleft to envisage the user experience and visual design. I worked alongside [Jeremy Keith][2] who did the front-end development, and [Phil Gyford][3] who handled the Django-based back-end.
+
+## Identity
+{% figure "Image of logo sketches" %}
 {% endfigure %}
 
-{% figure "The MATTER logo" %}
-![](/assets/images/projects/matter/1.jpg)
+{% figure "Logo on the website, t-shirt and Twitter profile" %}
 {% endfigure %}
 
-{% figure "Article landing page" %}
-![](/assets/images/projects/matter/2.jpg)
+{% figure "Colour palette and bitmap pattern" %}
 {% endfigure %}
 
-{% figure "Article page" %}
-![](/assets/images/projects/matter/3.jpg)
+Much of my work for MATTER focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that MATTER aims for.
+
+## Typography
+{% figure "Type samples/experimentation" %}
 {% endfigure %}
 
-{% figure "Article landing page on mobile" %}
-![](/assets/images/projects/matter/4.jpg)
+{% figure "Type specimens for Calluna and Calluna Sans" %}
 {% endfigure %}
 
-Matter is the brainchild of journalists Bobbie Johnson and Jim Giles. Frustrated with the lack of care and quality on display in most online journalism, they set out to create a service where journalists and readers could focus on the finest science and technology writing. To achieve this, they started [a Kickstarter campaign][1] which was enormously successful, proving that there was a real desire for high-quality, focused, long-form writing.
+One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
-A incredibly collaborative project, I took the reins on the visual design and identity, with [Jeremy Keith][2] working on the front-end and [Phil Gyford][3] handling the Django-based back-end.
+## Painless payments
+{% figure "Payment page" %}
+{% endfigure %}
 
-We began our work together with some design workshops where we did some competitor analysis, figured out the focus of the project, mapped user journeys, and hammered out design principles to guide us through the project.
+As well as being able to purchase individual articles as ebooks via Amazon and iTunes, subscribers could get access to all the stories on the website. Crucial to making this work was creating a frictionless payment flow. A guided two-step flow kept form fields to a minimum, and made subscribing a painless experience.
 
-My early design work for Matter focused on its identity, thinking about how articles may appear on the web and how readers would recognise them in eBook stores and bookmark them on smartphone home screens. As the identity would play a supporting role to the articles being published, the logo needed to act as a hallmark, identifying an article as one that meets the high standards of journalism Matter is aiming for.
+## Result
+{% figure "Screenshots of finished product" %}
+{% endfigure %}
+
+MATTER was acquired by Medium in April 2013.
+
+## Elsewhere
+* [Clearleft's project case study][4]
+* [Jeremy's blog post][5]
+* [Phil's blog post][6]
+* [Matter's blog post][7]
 
 [1]: http://www.kickstarter.com/projects/readmatter/matter
 [2]: http://clearleft.com/is/jeremy-keith/
 [3]: http://www.gyford.com/
+[4]: http://clearleft.com/made/matter
+[5]: #
+[6]: #
+[7]: #

@@ -8,39 +8,59 @@ featured: true
 * Client: Drew McLellan
 * Year: 2013
 * Role: Design and front-end development
-* Awarded best collaborative project at net Magazine Awards 2014
+* Awarded best collaborative project at the net Awards 2014
 
-_24 ways_ is an advent calendar for web geeks. Each December, Drew McLellan and his small team publish a daily dose of design and development goodness, delivering a little Christmas cheer to the web community.
+Each December, Drew McLellan and his small team publish _24 ways_, a daily dose of design and development goodness, delivering a little Christmas cheer to the web community.
 
-The last major redesign was produced by Tim Van Damme in 2007. His innovative design pushed the limits of the medium at the time, but six years later was starting to show its age. Furthermore, the site was failing to reflect the best practices its authors advocated. The site was responsive (thanks to some retroactive hacking) but a fresh approach was needed to effectively deliver content to the broadening range of devices now accessing the site.
+The previous website was designed by Tim Van Damme in 2007. His innovative design pushed the limits of the medium, but six years later, and with an accumulated archive of hundreds of articles, it was fraying at the edges. Furthermore, the site failed to reflect the best practices its authors advocated, such as web typography and colour contrast and CSS3 techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to a broadening range of devices accessing the site.
 
 ## Typography
-![Type specimen for Merriweather]()  
-![Type specimen for Lato]()
+{% figure "Type specimens for Merriweather and Lato" %}
+{% endfigure %}
 
-24 ways is not a commercial venture, so there was no budget to spend on web fonts. With only open source typefaces to choose from, I paired Merriweather (used for headings) with Lato (used for body copy and interface elements).
+24 ways is not a commercial venture, and with little budget to spend on webfonts, I looked to use open source typefaces. I paired Merriweather (headings) with Lato (body copy and interface elements).
+
+Lato offered a stylish take on the modern-looking design readers were used to. I used Lato, a sturdy typeface, for both much of the interface as well as body copy. In contrast, using Merriweather for headings and standfirsts hinted towards a more scholarly tone.
 
 ## Colour
-![Colour palette for years]()  
-![Colour palette for months]()  
-![Small thumbnails depicting articles from different days and years]()
+{% figure "The colour palette adapts based on the year and day an article is published" %}
+{% endfigure %}
 
-I was keen to explore the idea that each year there would be 24 different articles about web design and development, each by different authors, published on different days, and different years. I created a colour palette based on the publication’s signature red, that would change over time.
+I was keen to exploit the unique nature of 24 ways: twenty-four different articles written by different authors, published on different days, and different years. I created a colour palette based on the publication's signature red, that would change over time based on these variables.
 
 ## Shape
-![Diamond shape evocative of stars and Christmas trees]()
+{% figure "The diamond shape is evocative of stars and Christmas trees" %}
+{% endfigure %}
 
-It seems everyone is using circles these days, so I was determined to create something more distinctive. The diamond shape not only subtly evoked the shape of a star, a possible even stylised Christmas tree, but it help create a visual tension on the page, and frame authors in an interesting and unique way.
+It seems everyone is using circles these days, so I was determined to use something more distinctive. The diamond shape not only subtly evoked the shape of a star, or even a stylised Christmas tree, but also helped create a visual tension on the page, framing author photos in an interesting and unique way.
 
 ## Responsive app-like interface
-![Homepage with open menu (tablet)]()  
-![Article page (phone)]()
+{% figure "Homepage with open menu (tablet)" %}
+{% endfigure %}
 
-The previous design tended to dominate the content presented within it. I wanted to place content front-and-centre, creating an interface that receded when you were viewing an article, and showcased 24 articles at a time on index pages.
+{% figure "Article page (phone)" %}
+{% endfigure %}
+
+The previous design dominated the content presented within it. I designed an interface that would receded when viewing articles, while index and collection pages, took a very different approach, showcasing twenty-four articles in a grid, evoking the feel of a calendar.
 
 ## Modern development practices
-![Mark-up pattern using BEM-like class names]()
+{% figure "Mark-up pattern using BEM-like naming convention" %}
+{% endfigure %}
 
-Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads.
+Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads. This improved the performance on the site, especially on mobile devices where bandwidth may be more constrained.
 
+## Result
+{% figure "Screenshots of finished product" %}
+{% endfigure %}
+
+[Testimonial from Drew]
+
+## Elsewhere
+* [Drew McLellan: Rebuilding 24 ways][1]
+* [Redesigning 24 ways][2]
+
+[1]: http://allinthehead.com/retro/366/rebuilding-24-ways
+[2]: /2013/12/redesigning_24_ways
+
+*[CSS3]: Cascading Style Sheets (Level 3)
 *[BEM]: Block, Element, Modifier
