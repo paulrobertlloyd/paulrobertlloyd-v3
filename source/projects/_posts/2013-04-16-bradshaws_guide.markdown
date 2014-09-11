@@ -1,29 +1,49 @@
 ---
 title: Bradshaw's Guide
 date: '2013-04-16'
-excerpt: Bringing George Bradshaw’s victorian railway guide to a new generation.
+excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 permalink: /projects/bradshaws_guide.html
+featured: true
 ---
 * Client: Personal project
 * Year: Ongoing
 * Role: Design and front-end development
 
-Inspired by the BBC television series _Great British Railway Journeys_, _Bradshaw’s Guide_ is a modern revival of George Bradshaw’s 1866 handbook for tourists exploring Britain’s railways.
+Inspired by the BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw's 1866 handbook for tourists exploring Britain's railways.
 
-In his travelogue, Michael Portillo explores the British railway network, and guided by Bradshaw’s guidebook, compares how the destinations have changed between Victorian and modern times. While you can buy reproductions of Bradshaw’s 1863 handbook, it’s over an inch thick – pocket sized by victorian standards, but not in today’s world of mobile phones. By making Bradshaw’s work more widely accessible, tourists may feel encouraged to spend more time on the railways, or discover hidden beauties they pass everyday.
+In his travelogue, Michael Portillo explores Britain's railway network and, guided by Bradshaw's guidebook, looks at how the destinations have changed between Victorian and modern times. While you can buy reproductions of Bradshaw's handbook, it's over an inch thick -- pocket-sized by Victorian standards, but not in today's world of mobile phones. By making Bradshaw's work more widely accessible, tourists might feel encouraged to spend more time on the railways and commuters may discover the hidden gems they pass every day.
 
 ## Typography
-![Typographic hierarchy derived from that used in book]()
+{% figure "Typographic hierarchy derived from that used in book" %}
+{% endfigure %}
 
-Wanting to evoke the feel of the handbook chaotic Victorian typography, I studied how the different typefaces were used, and distilled them to two typefaces, and XX styles.
+Wanting to evoke the feel of the handbook's chaotic Victorian typography, I looked at how a range of typefaces were used to distinguish between different sections and place names. I distilled these down to two typefaces; Kameron for headings, a chunky slab serif that contrasted strongly with Linux Libertine, a delicate serif which I used for body copy.
 
 ## Responsive design
-![Article shown on mobile and tablet]()
+{% figure "Article shown on mobile and tablet" %}
+{% endfigure %}
 
-The design of the site adapts to the size of the screen; within smaller viewports the site takes on the appearance of mobile app, while on tablet and desktop displays, magazine like layouts start to be used more frequently.
+The design of the site adapts to the size of the display. Within smaller viewports the guide takes on the appearance of mobile app; on tablet and desktop displays, a magazine-like layout is used.
+
+## Open source
+{% figure "Github pull request" %}
+{% endfigure %}
+
+Producing the guide involved correcting originating copy the result of an automated OCR process. As a publication that now lives in the public domain, I was keen to make this content available to as many people as possible, and allow others to build on the work I had done. The source code for the site is available on GitHub, meaning other developers can make improvements to the website or even create their own version of the guide.
 
 ## Integration with social networks
-![A Foursquare tip from George Bradshaw ]()  
-![A tweeted excerpt from George Bradshaw, with Twitter card integration ]()
+{% figure "A Foursquare tip from George Bradshaw" %}
+{% endfigure %}
+
+{% figure "A tweeted excerpt from George Bradshaw, with Twitter card integration" %}
+{% endfigure %}
+
+When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][1] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
+
+## Elsewhere
+* [(Re)introducing Bradshaw's Guide][2]
+
+[1]: https://twitter.com/bradshawsguide
+[2]: /2013/04/bradshaws_guide
 
 *[BBC]: British Broadcasting Corporation

@@ -3,6 +3,7 @@ title: nGenera Corporation
 date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
 permalink: /projects/ngenera.html
+featured: true
 ---
 {% figure "nGenera logo with tagline lock-up" %}
 ![](/assets/images/projects/ngenera/0.jpg)

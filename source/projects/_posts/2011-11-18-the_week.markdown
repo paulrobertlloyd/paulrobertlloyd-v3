@@ -1,48 +1,51 @@
 ---
-title: The Week
+title: The Week iPad Edition
 date: '2011-11-18'
-excerpt: Award-winning tablet design for popular current affairs magazine.
+excerpt: Award-winning tablet design for weekly current affairs magazine.
 permalink: /projects/the_week.html
+featured: true
 ---
-{% figure "The Week iPad Edition" %}
-![](/assets/images/projects/the_week/0.jpg)
+* Client: Dennis Publishing
+* Year: 2011
+* Role: Design
+* Named Digital Edition of the Year at the PPA Awards 2011
+* Average rating of four stars in the App Store
+
+_The Week_ condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UK's most popular weekly subscription magazine.
+
+Part of this success can be attributed to a rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. Working with [Harry Brignull][1] at Clearleft, we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
+
+## Prototyping
+{% figure "Image of early prototype/design" %}
 {% endfigure %}
 
-{% figure "Issue cover" %}
-![](/assets/images/projects/the_week/1.jpg)
+We began the design process by starting with paper sketches before proceeding onto the implementation of a quick, low-fidelity prototype. We took this into usability testing and experimented with different design approaches before settling on a formula that was intuitive and easily navigable.
+
+## Translating print design to iPad
+{% figure "Comparison(s) of magazine spread vs tablet screen" %}
 {% endfigure %}
 
-{% figure "Film overview page" %}
-![](/assets/images/projects/the_week/2.jpg)
+{% figure "Harry's comparison of print vs tablet DPI" %}
 {% endfigure %}
 
-{% figure "Film review" %}
-![](/assets/images/projects/the_week/3.jpg)
+A challenging aspect of this project was attempting to convey the familiarity of the magazine within the confined space of an iPad. Not only is a tablet physically smaller, but its resolution much lower. We retained the predictable IA of the magazine by creating overview pages for each section in the printed magazine that linked though to individual articles. From both index and article pages, users could swipe though the magazine, retaining the skimmable nature of the printed version.
+
+## Result
+{% figure "Screenshots of finished product" %}
 {% endfigure %}
 
-{% figure "Text resize options" %}
-![](/assets/images/projects/the_week/4.jpg)
+The app was far more successful than anticipated, spending a number of weeks in the top grossing Top 10 News and Newsstand categories of the UK App Store. The editors of the US and Australian editions were so impressed, they decided to use the same infrastructure and user experience, thus bringing an additional economy of scale.
+
+{% figure "<cite>Alex Watson, Head of App Development, Dennis Publishing</cite>" %}
+> This was the most technically complex software project we've ever attempted, yet in its first year it's been a real success. We've found new readers, increased revenue from existing readers and gained the title lots of exposure.
 {% endfigure %}
 
-{% figure "Best properties overview page" %}
-![](/assets/images/projects/the_week/5.jpg)
-{% endfigure %}
+## Elsewhere
+* [Clearleft's project case study][2]
 
-The Week magazine condenses the news into lively and informative editorial, giving readers an insight into the week's most vital stories. With over 183,000 subscribers, it's also the UK's most popular weekly subscription magazine. Part of this success can be attributed to a rigorously consistent editorial format which readers describe as familiar, reliable and intuitive.
+[1]: http://www.90percentofeverything.com/about/
+[2]: http://clearleft.com/made/the-week
 
-Myself and [Harry Brignull][1] were tasked with bringing this much loved publication to a new generation of tablet users; retaining the best qualities of the print edition whilst also creating a product true to the best abilities of the iPad.
-
-With a readership not looking for rich interactivity, embedded videos or masses of hyperlinks, we focused instead on creating an easy to navigate interface that privileged the reading experience. A highly iterative approach saw the design evolve over the course of the project; working first with paper sketches, then click-through keynote prototypes before finessing the design in Fireworks; all whilst using real content from the magazine to ensure what we were designing would actually work!
-
-Working closely with the development team at [Kaldor][2], we then honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][3] framework, the application could take advantage of native iOS features and also utilise HTML and CSS for precise layout and typographic control for each article.
-
-Features include an archive of back-issues, adjustable text size, a night reading mode and automatic downloading through Apple's iOS5 Newsstand. [It's available now on the App Store][4].
-
-[1]: http://clearleft.com/is/harry-brignull/
-[2]: http://kaldorgroup.com/
-[3]: http://pugpig.com/
-[4]: http://itunes.apple.com/gb/app/the-week-uk/id468108781
-
-*[CSS]: Cascading Style Sheets
-*[HTML]: HyperText Markup Language
 *[UK]: United Kingdom
+*[IA]: information architecture
+*[DPI]: dots per inch

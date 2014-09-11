@@ -1,35 +1,55 @@
 ---
 title: DACS
 date: '2012-08-01'
-excerpt: Responsive redesign for non-profit artist's rights organisation.
+excerpt: Responsive redesign for non-profit artists' rights organisation.
 permalink: /projects/dacs.html
+featured: true
 ---
-{% figure "Home page" %}
-![](/assets/images/projects/dacs/0.jpg)
+* Client: Design and Artists Copyright Society
+* Year: 2012
+* Role: Design and front-end development
+
+_DACS_ (the Design and Artists Copyright Society) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
+
+The previous website was packed with legalese; language written by solicitors with an intimidating level of detail. DACS realised they needed to replace this with a site that could deliver this content in a more inspiring and persuasive way. I worked with [Harry Brignull][1] and [Richard Rutter][2] at Clearleft to produce a website that would achieve these goals.
+
+After a period of analysis and prototyping, we realised the website needed different areas for each user type that could quickly triage users into the correct places. Once in the right place, users could then be shown content with an appropriate perspective, tone of voice and calls to action that matched their needs.
+
+## Translation of print-orientated brand to web
+{% figure "Offline versus online brand guidelines" %}
 {% endfigure %}
 
-{% figure "Landing page" %}
-![](/assets/images/projects/dacs/1.jpg)
+{% figure "Colour palette, patterns, artists photo" %}
 {% endfigure %}
 
-{% figure "Service page" %}
-![](/assets/images/projects/dacs/2.jpg)
+DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this into a suitable web aesthetic. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS' identity and brand strategy. During this process, we realised that while Didot worked well in a print context, the typeface was ill-suited to screen, and few areas on the website reflected the discursive use it was intended to communicate.
+
+{% figure "Artist shown front and centre on a page layout" %}
 {% endfigure %}
 
-{% figure "Mobile landing page" %}
-![](/assets/images/projects/dacs/3.jpg)
+I drew on DACS photographic library of artists to give a human face to the organisation. These were combined with a restrained typographic pallet to ensure legibility and visual consistency. Finally, I introduced a selection of monochromatic patterns that could be used to differentiate sections of the site.
+
+## Responsive design
+{% figure "Pattern portfolio" %}
 {% endfigure %}
 
-In the UK, many artists don't understand their legal rights regarding copyright, and as a result, often fail to receive the royalties they deserve. DACS (Design and Artists Copyright Society) is a non-profit organisation that aims to change this through education, legal services and lobbying government to ensure artists' never become sidelined.
+Responsive design was used to deliver the same content to different devices, regardless of the size of its display or capabilities. I created a pattern portfolio to ease handover to the development agency [Cognite][3]. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.
 
-Working with [Harry Brignull][1], we discovered that even though DACS's user groups were diverse, they were united by a common concern: none of them wanted to become legal experts, but just wanted enough information about the law to complete their personal goals. For example, artists only wanted to be told about the copyright laws that affected them, not the stuff that affects art galleries or lobbyists.
+## Result
+{% figure "Screenshots of finished product" %}
+{% endfigure %}
 
-We reworked the IA so that users could quickly be directed to the right section of the site, where they could find content with an appropriate perspective, tone-of voice and calls-to-action that matched their needs.
+{% figure "<cite>Tania Spriggens, Director of Communications</cite>" %}
+> It looks beautiful! The feedback so far has been great -- and it's just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!
+{% endfigure %}
 
-When it came to the visual design, DACS had already undergone an extensive rebrand exercise for print but they needed assistance translating this to work online. Ultimately, we drew upon their photographic library of artists to give a 'human face' to the organisation, combined with a restrained typographic pallet to ensure clarity. This was, of course, developed responsively so that content could be experienced equally well regardless of the device being used to access it.
+## Elsewhere
+* [Clearleft's project case study][4]
 
-[1]: http://clearleft.com/is/harry-brignull/
+[1]: http://www.90percentofeverything.com/about/
+[2]: http://clearleft.com/is/richard-rutter
+[3]: http://www.cognite.co.uk/
+[4]: http://clearleft.com/made/dacs
 
 *[DACS]: Design and Artists Copyright Society
-*[IA]: information architecture
-*[UK]: United Kingdom
+*[CMS]: content management system
