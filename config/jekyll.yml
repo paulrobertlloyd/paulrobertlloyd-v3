@@ -13,6 +13,10 @@ license:
   title: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
   url: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
+# Source code management
+scm:
+  url: https://github.com/paulrobertlloyd/paulrobertlloyd.com
+
 # Permalinks
 permalink: /:year/:month/:title.html
 

@@ -1,0 +1,18 @@
+{% unless include.title == 'false' %}
+<section class="section section--projects" aria-labelledby="featured-projects">
+    <h1 class="section__title" id="featured-projects">Featured Projects</h1>
+{% endunless %}
+
+    <ul class="list grid grid--projects">
+    {% for summary in site.categories.projects | sort: 'date' %}
+        {% if summary.featured == true %}
+        <li class="list__item grid__item">
+            {% include articles/summary.html %}
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+{% unless include.title == 'false' %}
+</section>
+{% endunless %}
