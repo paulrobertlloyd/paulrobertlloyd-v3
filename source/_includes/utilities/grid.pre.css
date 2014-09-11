@@ -21,6 +21,7 @@
         clear: left;
     }
 
+    .grid--contentinfo .grid__item,
     .grid--elsewhere .grid__item,
     .nav--pagination .grid__item {
         width: 50%;

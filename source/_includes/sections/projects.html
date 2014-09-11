@@ -1,11 +1,11 @@
 {% unless include.title == 'false' %}
 <section class="section section--projects" aria-labelledby="projects">
-    <h1 class="section__title" id="projects"><a href="/projects/">Projects</a></h1>
+    <h1 class="section__title" id="projects">All Projects</h1>
 {% endunless %}
 
-    <ul class="list grid grid--projects">
+    <ul class="list">
     {% for summary in site.categories.projects | sort: 'date' %}
-        <li class="list__item grid__item">
+        <li class="list__item">
             {% include articles/summary.html %}
         </li>
     {% endfor %}

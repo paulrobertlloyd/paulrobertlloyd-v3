@@ -1,8 +1,28 @@
 <footer class="contentinfo" role="contentinfo">
+    <div class="contentinfo__about grid grid--contentinfo">
+        <section class="section section--about grid__item" aria-labelledby="about">
+            <h1 class="section__title" id="about">About</h1>
+            <img class="pull-left" src="#" alt="Author, photographed in Month, YYYY"/>
+            <p>Paul Robert Lloyd is a graphic designer, writer and speaker who lives in beautiful Brighton, England.</p>
+            <ul>
+                <li>Contact</li>
+                <li><a rel="me" href="https://twitter.com/paulrobertlloyd">@paulrobertlloyd</a></li>
+            </ul>
+        </section>
+
+        <nav class="grid__item">
+            <ul class="nav nav--primary">
+                <li><a href="/archive/">Archive</a></li>
+                <li><a href="/essays/">Essays</a></li>
+                <li><a href="/about/colophon/">Colophon</a></li>
+                <li><a href="/about/styleguide/">Styleguide</a></li>
+                <li><a rel="alternate" href="/feed.xml" type="application/atom+xml">RSS Feed</a></li>
+                <li><a href="{{ site.scm.url }}">View source</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <p class="contentinfo__copyright">
-        <small><strong>© <abbr title="2014">MMXIV</abbr> Paul Robert Lloyd</strong> All content <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">Creative Commons licensed</a> unless otherwise stated. <a href="/about/colophon/">Colophon</a> · <a href="/about/styleguide/">Styleguide</a></small>
-    </p>
-    <p class="contentinfo__feeds">
-        <a rel="me" href="https://twitter.com/paulrobertlloyd">@paulrobertlloyd</a> · <a rel="alternate" href="/feed.xml" type="application/atom+xml">RSS Feed</a> · <a href="/archive/">Archive</a>
+        <small><strong>© <abbr title="2014">MMXIV</abbr> Paul Robert Lloyd</strong> All content <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">Creative Commons licensed</a> unless otherwise stated.</small>
     </p>
 </footer>

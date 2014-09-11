@@ -3,6 +3,7 @@ title: UNICEF UK
 date: '2013-07-01'
 excerpt: Mobile-first redesign for leading children's charity.
 permalink: /projects/unicef_uk.html
+featured: true
 ---
 {% figure %}
 ![](/assets/images/projects/unicef_uk/0.jpg)
