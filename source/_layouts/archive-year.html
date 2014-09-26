@@ -1,21 +1,19 @@
 ---
 layout: default
-title: Archive
-permalink: /archive/
+template: archive-year
 ---
 <main class="main" role="main">
     <section class="index index--archive">
         <header class="index__header">
-            <h1 class="index__title">{{ page.title }}</h1>
+            <h1 class="index__title">{{ page.title | date: "%Y" }}</h1>
         </header>
 
-        {% for post in site.posts %}
+        {% for post in page.posts %}
             {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
             {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
-            {% capture this_month_name %}{{ post.date | date: "%B %Y" }}{% endcapture %}
-            {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+            {% capture this_month_name %}{{ post.date | date: "%B" }}{% endcapture %}
             {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
-            {% capture next_month_name %}{{ post.previous.date | date: "%B %Y" }}{% endcapture %}
+            {% capture next_month_name %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
             {% if forloop.first %}
             <h2><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h2>
@@ -29,12 +27,7 @@ permalink: /archive/
             {% if forloop.last %}
             </ol>
             {% else %}
-                {% if this_year != next_year %}
-            </ol>
-
-            <h2><a href="/{{ next_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
-            <ol class="list list--entries" reversed>
-                {% elsif this_month != next_month %}
+                {% if this_month != next_month %}
             </ol>
 
             <h2><a href="/{{ this_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>

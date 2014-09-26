@@ -1,10 +1,11 @@
 ---
 layout: default
+template: archive-month
 ---
 <main class="main" role="main">
     <section class="index index--archive">
         <header class="index__header">
-            <h1 class="index__title">{{ page.name }}</h1>
+            <h1 class="index__title">{{ page.title | date: "%B %Y" }}</h1>
         </header>
 
         {% for summary in page.posts %}

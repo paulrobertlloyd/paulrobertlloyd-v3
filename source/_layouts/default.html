@@ -65,7 +65,17 @@ layout: compress
     <meta name="geo.position" content="50.8420;-0.1539"/>
 {% endif %}
 
-    <title>{% if page.title != 'Home' %}{{ page.title | replace:" '",' ‘' | replace:"'",'’' }} – {% endif %}{{ site.title }}</title>
+    <title>
+    {% if page.template == 'home' %}
+        Strong opinions, loosely held - {{ site.title }}
+    {% elsif page.template == 'archive-year' %}
+        {{ page.title | date: "%Y" }} - {{ site.title }}
+    {% elsif page.template == 'archive-month' %}
+        {{ page.title | date: "%B %Y" }} - {{ site.title }}
+    {% else %}
+        {{ page.title | replace:" '",' ‘' | replace:"'",'’' }} – {{ site.title }}
+    {% endif %}
+    </title>
 </head>
 
 <body>
