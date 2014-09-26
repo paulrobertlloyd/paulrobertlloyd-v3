@@ -5,7 +5,7 @@
 
     <ul class="inline-list">
     {% for tag in page.tags %}
-        <li class="inline-list__item"><a href="/tags/{{ tag | downcase | replace:' ','-' | replace:':','' | replace:"'",'' }}">{{ tag }}</a></li>
+        <li class="inline-list__item"><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
     {% endfor %}
     </ul>
 

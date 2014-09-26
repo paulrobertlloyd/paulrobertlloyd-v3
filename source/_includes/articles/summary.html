@@ -2,9 +2,9 @@
     {% if summary.embed != "photo" %}
     <header class="summary__header">
         {% if summary.layout == "link" %}
-        <h1 class="summary__title"><a href="{{ summary.link | remove:'.html' }}">{{ summary.title | replace:" '",' ‘' | replace:"'",'’' }}&nbsp;→</a></h1>
+        <h1 class="summary__title"><a href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}&nbsp;→</a></h1>
         {% else %}
-        <h1 class="summary__title"><a href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | replace:" '",' ‘' | replace:"'",'’' }}</a></h1>
+        <h1 class="summary__title"><a href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | smart }}</a></h1>
         {% endif %}
     </header>
     {% endif %}

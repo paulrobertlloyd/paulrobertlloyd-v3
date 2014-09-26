@@ -10,7 +10,7 @@ layout: default
         {% assign tags = site.tags | sort %}
         <ol class="inline-list">
         {% for tag in tags %}
-            <li class="inline-list__item"><a href="/tags/{{ tag[0] | downcase | replace:' ','-' | replace:':','' | replace:"'",'' }}">{{ tag[0] }}</a></li>
+            <li class="inline-list__item"><a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
         {% endfor %}
         </ol>
     </section>
