@@ -1,5 +1,6 @@
 #
-# Creates a <figure> element with an optional caption. If the figure contains an image, make it responsive. Based on: 
+# Creates a <figure> element with an optional caption. If the figure contains 
+# an image, make it responsive. Based on: 
 # https://github.com/daneden/daneden.me/blob/master/_plugins/image.rb
 #
 # Usage:

@@ -5,7 +5,7 @@ template: archive-tag
 <main class="main" role="main">
     <section class="index index--archive">
         <header class="index__header">
-            <h1 class="index__title">{{ page.title }}</h1>
+            <h1 class="index__title">{{ page.title | smart }}</h1>
         </header>
 
         {% for summary in page.posts %}

@@ -73,7 +73,7 @@ layout: compress
     {% elsif page.template == 'archive-month' %}
         {{ page.title | date: "%B %Y" }} - {{ site.title }}
     {% else %}
-        {{ page.title | replace:" '",' ‘' | replace:"'",'’' }} – {{ site.title }}
+        {{ page.title | smart }} – {{ site.title }}
     {% endif %}
     </title>
 </head>
