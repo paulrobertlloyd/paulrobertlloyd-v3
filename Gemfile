@@ -13,7 +13,7 @@ gem 'rake'
 
 # Jekyll
 gem 'jekyll'
-gem "jekyll-archives", :git => 'https://github.com/jekyll/jekyll-archives.git'
+gem 'jekyll-archives'
 gem 'jekyll-sitemap'
 gem 'myth'
 gem 'myth-source', '1.1.1'
