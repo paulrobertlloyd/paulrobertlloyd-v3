@@ -1,9 +1,8 @@
 #
-# Liquid filter that translates plain ASCII punctuation characters into "smart" 
-# typographic punctuation HTML entities.
+# A smartypants plugin for Jekyll
 # 
-# Usage:
-# {% page.title | smart %}
+# USAGE
+# <h1>{% page.title | smart %}</h1>
 #
 
 module Jekyll

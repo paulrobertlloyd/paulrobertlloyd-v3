@@ -1,3 +1,4 @@
+#
 # A widont plugin for Jekyll
 #
 # INSTALLATION
@@ -9,10 +10,10 @@
 #
 # FEEDBACK AND BUGS
 # Please report bugs or other feedback at http://scottboms.com/
+#
 
 module Jekyll
   module WidontFilter
-    # Return the element's text after applying the filter
     def widont(text)
       text.strip!
 

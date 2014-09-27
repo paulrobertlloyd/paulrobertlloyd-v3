@@ -2,7 +2,7 @@
 # Takes a YouTube/Vimeo/Flickr URL and generates placeholder markup that can
 # progressively enhance link and replace it with an embed.
 # 
-# Usage:
+# USAGE
 # {% embed https://www.youtube.com/watch?v=YOUTUBE-ID %}
 #
 

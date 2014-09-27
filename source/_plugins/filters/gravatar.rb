@@ -1,3 +1,10 @@
+#
+# Converts an email to a gravatar URL.
+# 
+# USAGE
+# {% page.title | gravatar %}
+#
+
 require 'digest/md5'
 
 module Jekyll
