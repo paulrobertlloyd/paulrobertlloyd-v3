@@ -2,7 +2,7 @@ require 'jekyll/post'
 
 module Jekyll
   module RelatedPostsByTags
-    # Used to remove #related_posts so that it can be overridden
+    # Remove #related_posts so that it can be overridden
     def self.included(klass)
       klass.class_eval do
         remove_method :related_posts
@@ -39,8 +39,7 @@ module Jekyll
       @tag_freq
     end
 
-    # Sort the related posts in order of their score and date
-    # and return just the posts
+    # Sort related posts in order of score and date and return just the posts
     def sort_related_posts(related_scores)
       related_scores.sort do |a,b|
         if a[1] < b[1]
