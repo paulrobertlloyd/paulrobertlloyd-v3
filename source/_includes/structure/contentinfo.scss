@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Structure > Content Info
+   ========================================================================== */
+.contentinfo {
+    background-color: $c_neutral-7;
+    margin-right: -1em;
+    margin-left: -1em;
+    padding: 1em;
+}
+
+.contentinfo small {
+    font-size: 1em;
+}
+
+.contentinfo__copyright,
+.contentinfo__feeds {
+    font-size: 80%;
+}

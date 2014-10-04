@@ -3,17 +3,17 @@
     http://developers.whatwg.org/links.html
     ========================================================================= */
 a {
-    color: var(--c_link);
+    color: $c_link;
     text-decoration: none;
     }
     a:active,
     a:hover {
-        color: var(--c_link-hover);
+        color: $c_link-hover;
     /*  Improve readability when focused and also mouse hovered in all browsers */
         outline: 0;
     }
     a:active {
-        color: var(--c_link-active);
+        color: $c_link-active;
     }
 
 @media print {

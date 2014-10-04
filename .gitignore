@@ -4,6 +4,7 @@
 *.orig
 *.log
 *.rej
+*.sass-cache
 *.swo
 *.swp
 *.zip

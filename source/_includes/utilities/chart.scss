@@ -18,8 +18,8 @@
     width: 85%;
 }
 .chart--hbar .chart__value--percent {
-    color: var(--c_neutral-3);
-    background-color: var(--c_neutral-7);
+    color: $c_neutral-3;
+    background-color: $c_neutral-7;
     padding: 0 0.5em;
     display: block;
     white-space: nowrap;

@@ -2,9 +2,9 @@
    Buttons
    ========================================================================== */
 .btn {
-    color: var(--c_neutral-8);
-    font-family: var(--f_sans-serif);
-    background-color: var(--c_accent-light);
+    color: $c_neutral-8;
+    font-family: $f_sans-serif;
+    background-color: $c_accent-light;
     background-image: none;
     padding: 0.5em;
     display: block;

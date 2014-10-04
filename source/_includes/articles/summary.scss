@@ -7,12 +7,12 @@
 .summary__main {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: var(--f_serif);
+    font-family: $f_serif;
     font-size: 1em;
     line-height: 1.5;
 }
 .summary__title {
-    font-family: var(--f_sans-serif);
+    font-family: $f_sans-serif;
     font-weight: 400;
     font-size: 1.5em; /* 24px */
     line-height: 1.1667; /* 28px */
@@ -20,7 +20,7 @@
 }
 .article__pubdate,
 .summary__pubdate {
-    color: var(--c_neutral-3);
+    color: $c_neutral-3;
     font-size: 0.875em; /* 14px */
     line-height: 1.4286; /* 20px */
     text-transform: uppercase;
@@ -39,12 +39,12 @@
     position: relative;
 }
 .summary--entry .summary__main {
-    font-family: var(--f_sans-serif);
+    font-family: $f_sans-serif;
     font-size: 1.25em; /* 20px */
     line-height: 1.4; /* 28px */
 }
 .summary--entry .summary__title {
-    font-family: var(--f_serif);
+    font-family: $f_serif;
     font-weight: 700;
     font-size: 2.5rem; /* 48px */
     line-height: 1; /* 48px */
@@ -70,14 +70,14 @@
 }
 .summary--article .summary__title,
 .summary--presentation .summary__title {
-    font-family: var(--f_serif);
+    font-family: $f_serif;
     font-weight: 700;
     font-size: 1em; /* 48px */
     line-height: 1; /* 48px */
 }
 .summary--article .summary__meta,
 .summary--presentation .summary__meta {
-    color: var(--c_neutral-3);
+    color: $c_neutral-3;
     font-size: 0.875em; /* 14px */
     line-height: 1.1429; /* 16px */
 }

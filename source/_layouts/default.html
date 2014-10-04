@@ -1,6 +1,3 @@
----
-layout: compress
----
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
@@ -30,9 +27,7 @@ layout: compress
     <link rel="canonical" href="{{ page.url | remove:'.html' }}"/>
     <link rel="icon" href="/assets/icons/icon.png"/>
 
-{% css_asset_tag global %}
-    - /assets/stylesheets/global.myth
-{% endcss_asset_tag %}
+    <link rel="stylesheet" href="/assets/stylesheets/global.css"/>
 
 {% if page.style %}
     <style>
@@ -83,9 +78,5 @@ layout: compress
 {{ content }}
 {% include structure/navigation.html %}
 {% include structure/contentinfo.html %}
-
-{% javascript_asset_tag global %}
-    - /assets/javascript/global.js
-{% endjavascript_asset_tag %}
 </body>
 </html>

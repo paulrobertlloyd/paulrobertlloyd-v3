@@ -8,6 +8,13 @@ group :development do
   gem 'capistrano-npm'
 end
 
+# Guard (for development)
+group :development do
+  gem 'guard'
+  gem 'guard-jekyll'
+  gem 'guard-livereload'
+end
+
 # Rake (for task management)
 gem 'rake'
 
@@ -15,9 +22,6 @@ gem 'rake'
 gem 'jekyll'
 gem 'jekyll-archives'
 gem 'jekyll-sitemap'
-gem 'myth'
-gem 'myth-source', '1.1.1'
 gem 'yui-compressor'
 gem 'nokogiri'
 gem 'typogruby'
-gem 'japr'

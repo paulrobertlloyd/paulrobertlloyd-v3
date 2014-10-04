@@ -27,7 +27,7 @@ abbr {
 }
 abbr[title]:hover {
 /*  Address styling not present in IE 8/9, Safari 5, and Chrome */
-    border-bottom: 1px dotted var(--c_neutral-5);
+    border-bottom: 1px dotted $c_neutral-5;
     cursor: help;
 }
 
@@ -35,7 +35,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: var(--f_monospace);
+    font-family: $f_monospace;
 }
 code {
     color: #000080;

@@ -1,5 +1,5 @@
 .rating {
-    color: var(--c_neutral-6);
+    color: $c_neutral-6;
 }
 
 .rating [data-icon] {
@@ -10,5 +10,5 @@
 .rating--score-3 [data-icon]:nth-child(-n+3),
 .rating--score-4 [data-icon]:nth-child(-n+4),
 .rating--score-5 [data-icon]:nth-child(-n+5) {
-    color: var(--c_neutral-2);
+    color: $c_neutral-2;
 }

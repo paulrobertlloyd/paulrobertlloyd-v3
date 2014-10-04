@@ -3,43 +3,26 @@
     http://developers.whatwg.org/sections.html
     ========================================================================= */
 html {
-    background-color: var(--c_neutral-7);
+    background-color: $c_neutral-7;
 }
 
 body {
-    color: var(--c_neutral-2);
-    font-family: var(--f_sans-serif);
+    color: $c_neutral-2;
+    font-family: $f_sans-serif;
     font-weight: 400;
     font-size: 1em; /* 16px */
     line-height: 1; /* 16px */
-    background-color: var(--c_neutral-8);
+    background-color: $c_neutral-8;
+    background-color: blue;
     margin: 0 auto;
     padding-right: 1em;
     padding-left: 1em;
     position: relative;
-}
-@media screen and (min-width: 32em) {
-    body {
-        padding-right: var(--v_padding-a)%;
-        padding-left: var(--v_padding-a)%;
-    }
-}
-@media screen and (min-width: 45em) {
-    body {
-        padding-right: var(--v_padding-b)%;
-        padding-left: var(--v_padding-b)%;
-    }
-}
-@media screen and (min-width: 64em) {
-    body {
-        padding-right: 9.5em;
-        padding-left: 9.5em;
-        max-width: 64em;
-    }
+    max-width: 60em;
 }
 
 h1 {
-    font-family: var(--f_serif);
+    font-family: $f_serif;
     font-weight: 700;
     font-size: 2rem; /* 32px */
     line-height: 1; /* 32px */
@@ -57,7 +40,7 @@ h1 {
 }
 
 h2 {
-    font-family: var(--f_sans-serif);
+    font-family: $f_sans-serif;
     font-weight: 700;
     font-size: 1.25em; /* 20px */
     line-height: 1.2; /* 24px */
@@ -67,7 +50,7 @@ h2 {
 }
 
 h3 {
-    font-family: var(--f_sans-serif);
+    font-family: $f_sans-serif;
     font-weight: 600;
     font-size: 1.125em; /* 18px */
     line-height: 1.3333; /* 24px */
@@ -110,7 +93,7 @@ hr {
 hr::after {
     content: " ";
     margin: 0 auto;
-    border-top: 1px solid var(--c_neutral-7);
+    border-top: 1px solid $c_neutral-7;
     height: 0;
     width: 33%;
     display: block;
