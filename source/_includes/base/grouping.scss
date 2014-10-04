@@ -20,9 +20,9 @@ pre {
 }
 
 blockquote {
-    color: var(--c_neutral-3);
-    font-family: var(--f_sans-serif);
-    border-left: 0.25rem solid var(--c_neutral-7);
+    color: $c_neutral-3;
+    font-family: $f_sans-serif;
+    border-left: 0.25rem solid $c_neutral-7;
     padding-left: 0.875rem; /* 14px */
 }
 @media print {
@@ -59,7 +59,7 @@ nav ul {
 }
 
 dt {
-    font-family: var(--f_sans-serif);
+    font-family: $f_sans-serif;
     font-weight: 700;
 }
 
@@ -80,10 +80,10 @@ figure img {
     max-width: 100%;
 }
 figcaption {
-    color: var(--c_neutral-3);
+    color: $c_neutral-3;
     font-size: 0.875em; /* 14px */
     line-height: 1.4286; /* 20px */
-    border-bottom: 1px solid var(--c_neutral-7);
+    border-bottom: 1px solid $c_neutral-7;
     padding: 0.5714em 0; /* 8px 0 */
     display: block;
     clear: left;

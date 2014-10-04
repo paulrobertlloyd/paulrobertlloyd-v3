@@ -18,20 +18,37 @@ GEM
       timers (~> 4.0.0)
     classifier-reborn (2.0.1)
       fast-stemmer (~> 1.0)
+    coderay (1.1.0)
     coffee-script (2.3.0)
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
     colorator (0.1)
     colorize (0.7.3)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.0.3)
     execjs (2.2.1)
     fast-stemmer (1.0.2)
     ffi (1.9.5)
+    formatador (0.2.5)
+    guard (2.6.1)
+      formatador (>= 0.2.4)
+      listen (~> 2.7)
+      lumberjack (~> 1.0)
+      pry (>= 0.9.12)
+      thor (>= 0.18.1)
+    guard-jekyll (1.4.0)
+      guard (>= 1.1.0)
+      jekyll
+    guard-livereload (2.3.1)
+      em-websocket (~> 0.5)
+      guard (~> 2.0)
+      multi_json (~> 1.8)
     hitimes (1.2.2)
+    http_parser.rb (0.6.0)
     i18n (0.6.11)
-    japr (0.3.1)
-      jekyll (~> 2.0)
-      liquid (~> 2.4)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -64,12 +81,11 @@ GEM
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
     mercenary (0.3.4)
+    method_source (0.8.2)
     mini_portile (0.6.0)
-    myth (1.0.2)
-      execjs
-      myth-source (>= 0.3.0)
-    myth-source (1.1.1)
+    multi_json (1.10.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
@@ -78,6 +94,10 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     pygments.rb (0.6.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -89,10 +109,12 @@ GEM
     rubypants (0.2.0)
     safe_yaml (1.0.3)
     sass (3.4.5)
+    slop (3.6.0)
     sshkit (1.5.1)
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    thor (0.19.1)
     timers (4.0.1)
       hitimes
     toml (0.1.1)
@@ -110,12 +132,12 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-npm
   capistrano-rvm
-  japr
+  guard
+  guard-jekyll
+  guard-livereload
   jekyll
   jekyll-archives
   jekyll-sitemap
-  myth
-  myth-source (= 1.1.1)
   nokogiri
   rake
   typogruby

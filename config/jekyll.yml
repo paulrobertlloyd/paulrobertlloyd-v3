@@ -71,8 +71,8 @@ source: ./source
 destination: ./public
 
 # Assets
-asset_pipeline:
-  output_path: assets/tmp
+sass:
+  sass_dir: _includes
 
 # Gems
 gems:

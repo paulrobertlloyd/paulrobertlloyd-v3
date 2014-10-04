@@ -101,20 +101,20 @@ textarea {
 
 /* Placeholder */
 ::-webkit-input-placeholder {
-    color: var(--c_neutral-5);
+    color: $c_neutral-5;
     }
     :focus::-webkit-input-placeholder {
-        color: var(--c_neutral-6);
+        color: $c_neutral-6;
     }
 :-moz-placeholder {
-    color: var(--c_neutral-5);
+    color: $c_neutral-5;
     }
     :focus:-moz-placeholder {
-        color: var(--c_neutral-6);
+        color: $c_neutral-6;
     }
 :-ms-input-placeholder {
-    color: var(--c_neutral-5);
+    color: $c_neutral-5;
     }
     :focus:-ms-input-placeholder {
-       color: var(--c_neutral-6);
+       color: $c_neutral-6;
     }

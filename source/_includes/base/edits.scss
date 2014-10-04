@@ -14,5 +14,5 @@ mark {
 
 ins {
     text-decoration: none;
-    background-color: color(var(--c_link) lightness(95%));
+    background-color: lighten($c_link, 95%);
 }

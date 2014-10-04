@@ -13,15 +13,9 @@ source = "source"
 temp = "tmp"
 
 
-desc "Install the necessary node dependencies for building the website."
-task :install do |t|
-  sh "npm install"
-end
-
-
 desc "Clean up prepared and built files."
 task :clean do |t|
-  rm_rf [destination, destination_css, destination_js, temp, "node_modules"]
+  rm_rf [destination, destination_css, destination_js, temp]
 end
 
 
@@ -70,13 +64,13 @@ end
 
 
 desc "Regenerate the website files and place them into destination."
-task :'dev-build' => [:install, :concat] do
+task :'dev-build' do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --trace"
 end
 
 
 desc "Regenerate the website files and place them into destination."
-task :build => [:install, :concat] do
+task :build do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
 end
 

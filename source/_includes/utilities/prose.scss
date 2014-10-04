@@ -2,7 +2,7 @@
     Prose
     ========================================================================= */
 .prose {
-    font-family: var(--f_serif);
+    font-family: $f_serif;
     font-feature-settings: "liga", "dlig", "onum";
     line-height: 1.75; /* 28px */
     padding-bottom: 2em;
@@ -17,14 +17,14 @@
     .prose figcaption,
     .prose caption,
     .prose .footnotes {
-        font-family: var(--f_sans-serif);
+        font-family: $f_sans-serif;
         font-size: 1rem; /* 16px */
         line-height: 1.25; /* 20px */
     }
 }
 
 .prose strong {
-    font-family: var(--f_sans-serif);
+    font-family: $f_sans-serif;
 }
 
 .prose figure > p,
@@ -34,18 +34,18 @@
 }
 
 .prose p a {
-    text-shadow: 2px 0 0 var(--c_neutral-8), -2px 0 0 var(--c_neutral-8);
-    background-image: linear-gradient(to left, color(var(--c_link) lightness(75%)), color(var(--c_link) lightness(75%)));
+    text-shadow: 2px 0 0 $c_neutral-8, -2px 0 0 $c_neutral-8;
+    background-image: linear-gradient(to left, lighten($c_link, 75%), lighten($c_link, 75%));
     background-position: 0 1.075em;
     background-repeat: repeat-x;
     background-size: 1px 1px;
     }
     .prose p a:active,
     .prose p a:hover {
-        background-image: linear-gradient(to left, color(var(--c_link-hover) lightness(75%)), color(var(--c_link-hover) lightness(75%)));
+        background-image: linear-gradient(to left, lighten($c_link-hover, 75%), lighten($c_link-hover, 75%));
     }
     .prose p a:active {
-        background-image: linear-gradient(to left, color(var(--c_link-active) lightness(75%)), color(var(--c_link-active) lightness(75%)));
+        background-image: linear-gradient(to left, lighten($c_link-active, 75%), lighten($c_link-active, 75%));
     }
 
 .prose .caps {
