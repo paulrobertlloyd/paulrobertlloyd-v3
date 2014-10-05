@@ -64,17 +64,23 @@ defaults:
 highlighter: pygments
 
 # Publishing
+source: ./source
+destination: ./public
 include:
   - _pages
   - essays/_pages
-source: ./source
-destination: ./public
 
 # Assets
-sass:
-  sass_dir: _includes
+assets:
+  sources:
+    - _assets/stylesheets
+    - _assets/javascripts
+    - _includes
+  css_compressor: sass
+  js_compressor: yui
 
 # Gems
 gems:
+  - jekyll-assets
   - jekyll-archives
   - jekyll-sitemap

@@ -27,7 +27,7 @@
     <link rel="canonical" href="{{ page.url | remove:'.html' }}"/>
     <link rel="icon" href="/assets/icons/icon.png"/>
 
-    <link rel="stylesheet" href="/assets/stylesheets/global.css"/>
+    {% stylesheet global %}
 
 {% if page.style %}
     <style>
@@ -78,5 +78,6 @@
 {{ content }}
 {% include structure/navigation.html %}
 {% include structure/contentinfo.html %}
+{% javascript global %}
 </body>
 </html>

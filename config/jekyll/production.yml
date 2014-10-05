@@ -3,3 +3,9 @@ img_url: http://images.v3.paulrobertlloyd.com
 
 # Remarks
 remarks_dir: ../../../shared/remarks
+
+# Assets
+assets:
+  gzip: false
+  cache: true
+  cachebust: hard
