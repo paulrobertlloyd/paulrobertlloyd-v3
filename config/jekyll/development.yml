@@ -8,6 +8,7 @@ remarks_dir: ../remarks
 show_drafts: true
 
 # Assets
-asset_pipeline:
-  bundle: true
-  compress: false
+assets:
+  gzip: false
+  cache: false
+  cachebust: none

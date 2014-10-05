@@ -1,8 +1,7 @@
-guard 'jekyll', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'] do
-  watch /.*/
-  ignore /public/
-end
+# guard 'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'], :serve => true, :extensions => ['txt', 'markdown', 'html', 'xml', 'yml']
 
-guard 'livereload', :port => '35729', :host => '127.0.0.1', apply_css_live: true, override_url: true do
+guard 'sass', :input => 'source/_assets/stylesheets', :output => 'public/assets/stylesheets'
+
+guard 'livereload' do
   watch(%r{public/.+})
 end
