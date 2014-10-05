@@ -1,6 +1,8 @@
-# guard 'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'], :serve => true, :extensions => ['txt', 'markdown', 'html', 'xml', 'yml']
+guard 'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'], :extensions => ['txt', 'markdown', 'html', 'xml', 'yml']
 
-guard 'sass', :input => 'source/_assets/stylesheets', :output => 'public/assets/stylesheets'
+guard 'sass', :output => 'public/assets/', :syntax => :scss, :shallow => true do
+  watch(%r{source/assets/_stylesheets/.+})
+end
 
 guard 'livereload' do
   watch(%r{public/.+})

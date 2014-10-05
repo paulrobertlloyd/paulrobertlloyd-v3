@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
@@ -74,10 +77,14 @@
 </head>
 
 <body>
-{% include structure/banner.html %}
-{{ content }}
-{% include structure/navigation.html %}
-{% include structure/contentinfo.html %}
-{% javascript global %}
+    {% include structure/banner.html %}
+    {{ content }}
+    {% include structure/navigation.html %}
+    {% include structure/contentinfo.html %}
+    <script>
+        if (enhanced) {
+            document.write('<'+'script src=\"{% asset_path global.js %}\"></'+'script>');
+        }
+    </script>
 </body>
 </html>
