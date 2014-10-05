@@ -73,9 +73,8 @@ include:
 # Assets
 assets:
   sources:
-    - _assets/stylesheets
-    - _assets/javascripts
-    - _includes
+    - assets/_stylesheets
+    - assets/_javascripts
   css_compressor: sass
   js_compressor: yui
 
