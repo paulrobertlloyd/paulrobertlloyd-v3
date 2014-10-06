@@ -15,28 +15,33 @@ layout: default
         {% include sections/related.html %}
 
         {% if page.discussion %}
-        <details class="section section--remarks" id="remarks">
-            <summary>
-                {% case page.remark_count %}
-                {% when 0 %}
-                <h1 class="section__title">Remarks</h1>
-                {% when 1 %}
-                <h1 class="section__title">1 Remark</h1>
-                {% else %}
-                <h1 class="section__title">{{ page.remark_count }} Remarks</h1>
-                {% endcase %}
+            {% capture page_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: ".markdown" }}{% endcapture %}
+            {% capture remark_count %}{{ site.data.remarks.[page_id] | size }}{% endcapture %}
 
-                {% if page.discussion == "open" %}
-                <p><a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a></p>
+            <details class="section section--remarks" id="remarks">
+                <summary>
+                    <h1 class="section__title">
+                    {% case remark_count %}
+                    {% when "0" %}
+                        Remarks
+                    {% when "1" %}
+                        1 Remark
+                    {% else %}
+                        {{ remark_count }} Remarks
+                    {% endcase %}
+                    </h1>
+
+                    {% if page.discussion == "open" %}
+                    <p><a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a></p>
+                    {% endif %}
+                </summary>
+
+                {% if remark_count >= "1" %}
+                    {% for remark in site.data.remarks.[page_id] reversed %}
+                        {% include articles/remark.html %}
+                    {% endfor %}
                 {% endif %}
-            </summary>
-
-            {% if page.remark_count >= 1 %}
-                {% for remark in page.remarks reversed %}
-                    {% include articles/remark.html %}
-                {% endfor %}
-            {% endif %}
-        </details>
+            </details>
         {% endif %}
 
         <footer class="article__footer">

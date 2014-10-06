@@ -1,9 +1,6 @@
 url: http://paulrobertlloyd.dev
 img_url: http://images.paulrobertlloyd.dev
 
-# Remarks
-remarks_dir: ../remarks
-
 # Publishing
 show_drafts: true
 
