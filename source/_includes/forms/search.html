@@ -1,12 +1,12 @@
-<form class="search" role="search" id="search" action="https://duckduckgo.com/html/" method="GET">
-    <fieldset>
-        <legend class="search__legend">Search this website</legend>
-        <label class="search__label">Keywords:
-            <input class="search__input" type="text" name="q" placeholder="e.g. Brasilia, Design, Olympics…"/>
-        </label>
-        <input class="search__submit" type="submit" value="Search site with DuckDuckGo"/>
-        <input class="search__hidden" type="hidden" name="sites" value="{{ site.url }}"/>
-        <input class="search__hidden" type="hidden" name="kl" value="uk-en"/>
-        <div class="search__results"></div>
+<form class="form form--search" action="https://duckduckgo.com/html/" method="GET" role="search">
+    <fieldset class="form__fieldset">
+        <legend class="form__legend"></legend>
+        <div class="form__field">
+            <label class="form__label" for="q">Keywords</label>
+            <input class="form__input" name="q" type="text" placeholder="e.g. Brasilia, Design, Olympics…"/>
+        </div>
+        <input class="form__submit button" type="submit" value="Search site with DuckDuckGo"/>
+        <input class="form__hidden" name="sites" type="hidden" value="{{ site.url }}"/>
+        <input class="form__hidden" name="kl" type="hidden" value="uk-en"/>
     </fieldset>
-</form><!--/@search-->
+</form>

@@ -1,0 +1,12 @@
+{% unless include.title == 'false' %}
+<section class="section section--search js--search" aria-labelledby="search">
+    <h1 class="section__title" id="search">Search this website</h1>
+{% endunless %}
+
+    {% include forms/search.html %}
+
+    <div class="js--search__results"></div>
+
+{% unless include.title == 'false' %}
+</section>
+{% endunless %}
