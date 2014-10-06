@@ -3,11 +3,11 @@
 */
 
 window.search = (function(win, doc) {
-    var searchForm = document.querySelector('.search'),
-        searchInput = document.querySelector('.search__input'),
-        searchResults = document.querySelector('.search__results'),
-        searchResultsHeader = '<h4 class="search__heading">Search results</h4>',
-        template = '<span class="search__result">{type}: <a href="{url}">{title}</a></span>',
+    var searchForm = document.querySelector('.js--search .form--search'),
+        searchInput = document.querySelector('.js--search .form__input'),
+        searchResults = document.querySelector('.js--search__results'),
+        searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>',
+        template = '<span class="js--search__result">{type}: <a href="{url}">{title}</a></span>',
         jsonFile = '/archive/search.json',
         jsonData = null,
         limit = 10,
@@ -22,7 +22,7 @@ window.search = (function(win, doc) {
             searchForm.setAttribute('action', '#search');
             searchForm.removeAttribute('method');
             searchInput.removeAttribute('name');
-            [].forEach.call(document.querySelectorAll('.search__submit, .search__hidden'),function(e){
+            [].forEach.call(document.querySelectorAll('.js--search .form__submit, .js--search .form__hidden'),function(e){
                 e.parentNode.removeChild(e);
             });
 
@@ -127,6 +127,6 @@ window.search = (function(win, doc) {
     }
 })(window, document);
 
-if (document.querySelector('.search')) {
+if (document.querySelector('.js--search')) {
     search.init();
 }

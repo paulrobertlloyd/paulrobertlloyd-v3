@@ -27,7 +27,7 @@ layout: default
                 {% endcase %}
 
                 {% if page.discussion == "open" %}
-                <p><a class="btn" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a></p>
+                <p><a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a></p>
                 {% endif %}
             </summary>
 

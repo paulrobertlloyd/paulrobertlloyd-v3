@@ -1,16 +1,18 @@
-<form class="form" action="//forms.brace.io/contact@public.paulrobertlloyd.com" method="POST">
-    <div class="form__field">
-        <label class="form__label" for"name">Your name</label>
-        <input class="form__input" name="name" type="text"/>
-    </div>
-    <div class="form__field">
-        <label class="form__label" for"_replyto">Your email</label>
-        <input class="form__input" name="_replyto" type="email"/>
-    </div>
-    <div class="form__field">
-        <label class="form__label" for"message">Message</label>
-        <textarea class="form__input" name="message" row="8" cols="40"></textarea>
-    </div>
-    <input class="btn" type="submit" value="Send"/>
-    <input type="hidden" name="_next" value="{{ site.url }}/contact/thanks"/>
+<form class="form form--contact" action="//forms.brace.io/contact@public.paulrobertlloyd.com" method="POST">
+    <fieldset class="form__fieldset">
+        <div class="form__field">
+            <label class="form__label" for"name">Your name</label>
+            <input class="form__input" name="name" type="text"/>
+        </div>
+        <div class="form__field">
+            <label class="form__label" for"_replyto">Your email</label>
+            <input class="form__input" name="_replyto" type="email"/>
+        </div>
+        <div class="form__field">
+            <label class="form__label" for"message">Message</label>
+            <textarea class="form__input" name="message" row="8" cols="40"></textarea>
+        </div>
+    </fieldset>
+    <input class="form__submit button" type="submit" value="Send"/>
+    <input class="form__hidden" name="_next" type="hidden" value="{{ site.url }}/contact/thanks"/>
 </form>

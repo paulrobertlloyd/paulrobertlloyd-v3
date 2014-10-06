@@ -13,9 +13,8 @@
 @import "base/_interactive";
 @import "base/_disabled";
 
-@import "base/_syntax";
-
 @import "utilities/_u";
+@import "utilities/_button";
 @import "utilities/_chart";
 @import "utilities/_embed";
 @import "utilities/_grid";
@@ -24,6 +23,7 @@
 @import "utilities/_prose";
 @import "utilities/_pull";
 @import "utilities/_rating";
+@import "utilities/_syntax";
 
 @import "navigation/_nav";
 @import "navigation/_nav--years";
@@ -32,10 +32,8 @@
 @import "articles/_summary";
 
 @import "sections/_section";
+@import "sections/_section--search";
 
 @import "structure/_banner";
 @import "structure/_navigation";
 @import "structure/_contentinfo";
-
-@import "forms/_btn";
-@import "forms/_search";
