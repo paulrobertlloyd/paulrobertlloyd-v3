@@ -7,59 +7,13 @@
 #
 
 destination = "public"
-destination_css = "source/assets/stylesheets"
-destination_js = "source/assets/javascript"
 source = "source"
 temp = "tmp"
 
 
 desc "Clean up prepared and built files."
 task :clean do |t|
-  rm_rf [destination, destination_css, destination_js, temp]
-end
-
-
-desc "Concatenate Myth CSS files"
-task :concatenate_css do
-  mkdir_p ["#{source}/assets/stylesheets"]
-
-  files = FileList["#{source}/_includes/**/*.pre.css"]
-  concatenated_filename = "#{destination_css}/global.myth"
-
-  File.open(concatenated_filename, "w") do |output|
-    files.each do |input|
-      puts "Reading #{input}"
-      output.write(File.read(input))
-      output.write("\n")
-    end
-  end
-end
-
-
-desc "Concatenate JS files"
-task :concatenate_js do
-  mkdir_p ["#{source}/assets/javascript"]
-
-  files = FileList["#{source}/_includes/**/*.js"]
-  concatenated_filename = "#{destination_js}/global.js"
-
-  File.open(concatenated_filename, "w") do |output|
-    files.each do |input|
-      puts "Reading #{input}"
-      output.write(File.read(input))
-      output.write("\n")
-    end
-  end
-end
-
-
-desc "Concatenate website assets."
-task :concat do
-  # Concatenate CSS files
-  Rake::Task["concatenate_css"].execute
-
-  # Concatenate JS files
-  Rake::Task["concatenate_js"].execute
+  rm_rf [destination, temp]
 end
 
 

@@ -4,6 +4,6 @@ guard 'sass', :output => 'public/assets/', :syntax => :scss, :shallow => true do
   watch(%r{source/assets/_stylesheets/.+})
 end
 
-guard 'livereload' do
+guard 'livereload', override_url: true do
   watch(%r{public/.+})
 end
