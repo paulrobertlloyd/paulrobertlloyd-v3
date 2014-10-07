@@ -90,6 +90,7 @@ GEM
     jekyll-sitemap (0.6.0)
     jekyll-watch (1.1.1)
       listen (~> 2.7)
+    json (1.8.1)
     kramdown (1.4.2)
     liquid (2.6.1)
     listen (2.7.11)
@@ -148,8 +149,10 @@ GEM
       parslet (~> 1.5.0)
     typogruby (1.0.17)
       rubypants
+    uglifier (2.5.3)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     yajl-ruby (1.1.0)
-    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -170,4 +173,4 @@ DEPENDENCIES
   nokogiri
   rake
   typogruby
-  yui-compressor
+  uglifier
