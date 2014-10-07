@@ -1,5 +1,5 @@
-require 'kramdown'
 require 'pygments'
+require 'kramdown'
 
 module Kramdown
   module Converter
