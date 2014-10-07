@@ -76,7 +76,7 @@ assets:
     - _stylesheets
     - _javascripts
   css_compressor: sass
-  js_compressor: yui
+  js_compressor: uglifier
 
 # Gems
 gems:

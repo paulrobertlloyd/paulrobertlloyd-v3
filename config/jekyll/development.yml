@@ -1,11 +1,14 @@
+production: false
+
+# Image server
 url: http://paulrobertlloyd.dev
 img_url: http://images.paulrobertlloyd.dev
-
-# Publishing
-show_drafts: true
 
 # Assets
 assets:
   gzip: false
   cache: false
   cachebust: none
+
+# Drafts
+show_drafts: true
