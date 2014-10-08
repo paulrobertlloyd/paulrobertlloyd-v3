@@ -11,25 +11,25 @@ source = "source"
 temp = "tmp"
 
 
-desc "Clean up prepared and built files."
+desc "Clean up prepared and built files"
 task :clean do |t|
   rm_rf [destination, temp]
 end
 
 
-desc "Regenerate the website files and place them into destination."
+desc "Regenerate the website files and place them into destination"
 task :'dev-build' do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --trace"
 end
 
 
-desc "Regenerate the website files and place them into destination."
+desc "Regenerate the website files and place them into destination"
 task :build do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
 end
 
 
-desc 'Replace "lazy" Markdown references with proper versions'
+desc "Replace 'lazy' Markdown references with proper versions"
 task :refs do |t|
   FileList.new('source/**/*.markdown').each do |path|
     File.open(path, 'r+:utf-8') do |file|
@@ -51,6 +51,35 @@ task :refs do |t|
       file.pos = 0
       file.print contents
       file.truncate(file.pos)
+    end
+  end
+end
+
+
+desc "Replace email addresses in remarks with md5 hashed strings"
+# TODO: BUGFIX - Replaces all email addresses in document with the same hash
+task :hash do |t|
+  FileList.new('source/_data/remarks/*.yml').each do |path|
+    File.open(path, 'r+:utf-8') do |file_name|
+      contents = File.read(file_name)
+
+      require 'digest/md5'
+      private :hash
+      def hash(email)
+        email_address = email ? email.downcase.strip : ''
+        Digest::MD5.hexdigest(email_address)
+      end
+
+      @email_regex_all = /([_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4}))/m
+      @email_regex_one = /([_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4}))/
+
+      while contents =~ @email_regex_all
+        contents.sub(@email_regex_all) do
+          @replace = contents.gsub!(@email_regex_one, hash(Regexp.last_match[1]))
+        end
+      end
+
+      File.open(file_name, "w") { |file| file.puts @replace }
     end
   end
 end
