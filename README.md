@@ -24,10 +24,6 @@ The generated site will be contained in the `public` directory.
 1. Ensure the destination server meets the system requirements.
 2. Run `cap production deploy`.
 
-## A note about comments
-
-This website supports [static comments][8], that is comments that are included as HTML during build. As comments contain sensitive data (namely commenters' email addresses), they are not available publically. Use `remarks_dir` in Jekyll’s config file to point to the location of comments on the local server.
-
 [1]: http://bundler.io "Bundler website"
 [2]: https://jekyllrb.com "Jekyll repository"
 [3]: http://rake.rubyforge.org "RAKE - Ruby Make"
@@ -35,4 +31,3 @@ This website supports [static comments][8], that is comments that are included a
 [5]: http://nodejs.org "node.js website"
 [6]: http://myth.io "Myth CSS preprocessor"
 [7]: https://github.com/mishoo/UglifyJS "Uglify JS parser/compressor/beautifier"
-[8]: https://github.com/mpalmer/jekyll-static-comments "Static comments"
