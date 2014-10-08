@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/berrberr/guard-jekyll-plus.git
-  revision: 21ff6f4696906104a2b84026d01e73defbfb7981
+  revision: bbccb1aacdc8cfd2b2fe2240d00d733b2cdb3d78
   specs:
-    guard-jekyll-plus (1.4.11)
+    guard-jekyll-plus (1.4.12)
       guard (~> 2.0)
       jekyll (~> 2.0)
 
@@ -124,7 +124,7 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
     rubypants (0.2.0)
-    safe_yaml (1.0.3)
+    safe_yaml (1.0.4)
     sass (3.4.5)
     slop (3.6.0)
     sprockets (2.12.2)
