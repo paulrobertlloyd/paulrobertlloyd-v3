@@ -70,7 +70,7 @@ task :hash do |t|
 
       contents = File.read(file_name)
       email_regex = /([_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4}))/i
-      @replace = contents.gsub(email_regex) { hash(Regexp.last_match[1]) }
+      @replace = contents.gsub(email_regex) { |m| hash(m) }
 
       File.open(file_name, "w") { |file| file.puts @replace }
     end
