@@ -1,6 +1,6 @@
 # Jekyll https://github.com/berrberr/guard-jekyll-plus
 guard 'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'] do
-  watch(%r{^source/.+\.(txt|markdown|html|yml|xml)})
+  watch(%r{^source/.+})
 end
 
 # Sass https://github.com/hawx/guard-sass
