@@ -57,11 +57,9 @@ end
 
 
 desc "Replace email addresses in remarks with md5 hashed strings"
-# TODO: BUGFIX - Replaces all email addresses in document with the same hash
 task :hash do |t|
   FileList.new('source/_data/remarks/*.yml').each do |path|
     File.open(path, 'r+:utf-8') do |file_name|
-      contents = File.read(file_name)
 
       require 'digest/md5'
       private :hash
@@ -70,14 +68,9 @@ task :hash do |t|
         Digest::MD5.hexdigest(email_address)
       end
 
-      @email_regex_all = /([_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4}))/m
-      @email_regex_one = /([_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4}))/
-
-      while contents =~ @email_regex_all
-        contents.sub(@email_regex_all) do
-          @replace = contents.gsub!(@email_regex_one, hash(Regexp.last_match[1]))
-        end
-      end
+      contents = File.read(file_name)
+      email_regex = /([_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4}))/i
+      @replace = contents.gsub(email_regex) { hash(Regexp.last_match[1]) }
 
       File.open(file_name, "w") { |file| file.puts @replace }
     end
