@@ -41,6 +41,7 @@ jekyll-archives:
 
 # Syntax highlighting
 highlighter: pygments
+markdown_ext: foo
 
 # Publishing
 source: ./source
