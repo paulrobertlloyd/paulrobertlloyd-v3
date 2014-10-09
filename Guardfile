@@ -6,7 +6,7 @@ guard 'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development
 end
 
 # Sass https://github.com/hawx/guard-sass
-guard 'sass', :output => 'public/assets/', :syntax => :scss, :shallow => true do
+guard 'sass', :output => 'public/assets/', :syntax => :scss, :shallow => true, :silent => true do
   watch(%r{^source/.+\.scss})
 end
 
