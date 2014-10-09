@@ -47,8 +47,7 @@ markdown_ext: foo
 source: ./source
 destination: ./public
 include:
-  - _pages
-  - essays/_pages
+  - '**_pages'
 exclude:
   - '**.scss'
 
