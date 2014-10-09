@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: More Responsive Answers
 date: '2012-12-09 17:55:00 +0000'
 excerpt: Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four questions as part of his December Interview Series. Here are my answers.

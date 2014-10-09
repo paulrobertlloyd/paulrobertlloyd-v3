@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: Cologne
 date: '2009-05-15 23:23:18 +0100'
 excerpt: The first stop on my nine city tour of Europe, was Cologne in Northern Germany.

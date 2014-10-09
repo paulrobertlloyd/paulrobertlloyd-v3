@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: Flying The Flag
 date: '2012-06-25 22:51:42 +0100'
 excerpt: Andrew Mitchell, the International Development secretary, has unveiled a new logo that will appear on overseas aid provided by his department; be it grain packets, schools or water pumps.

@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: Facebook and the Future of the Web
 date: '2012-01-30 23:06:29 +0000'
 excerpt: .net Magazine asked a group of experts what they find most delightful and most despicable about the social networking giant Facebook. This was my response.

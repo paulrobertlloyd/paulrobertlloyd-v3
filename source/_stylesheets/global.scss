@@ -22,12 +22,13 @@
 @import "utilities/_list";
 @import "utilities/_prose";
 @import "utilities/_pull";
-@import "utilities/_rating";
 @import "utilities/_syntax";
 
 @import "navigation/_nav";
 @import "navigation/_nav--years";
 @import "navigation/_nav--pagination";
+
+@import "content/_rating";
 
 @import "articles/_summary";
 

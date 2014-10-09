@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: The Worst SXSW Ever Was My Best SXSW Ever
 date: '2011-03-16 18:05:15 +0000'
 excerpt: This years SXSW Interactive saw 1,041 sessions presented by 1,648 speakers, growing to such extent that its size now rivals that of the more popular music festival. Yet bigger doesn't necessarily mean better.

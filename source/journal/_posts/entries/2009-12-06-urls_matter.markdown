@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: URLs Matter
 date: '2009-12-06 01:18:00 +0000'
 excerpt: The humble URL has been on my mind a lot recently.

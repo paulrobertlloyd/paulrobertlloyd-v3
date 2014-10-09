@@ -1,16 +1,18 @@
 ---
+layout: project
 title: The Week iPad Edition
 date: '2011-11-18'
 excerpt: Award-winning tablet design for weekly current affairs magazine.
 permalink: /projects/the_week.html
 featured: true
+project-info:
+  client: Dennis Publishing
+  year: 2011
+  role: Design
+  notes: |
+    Named Digital Edition of the Year at the PPA Awards 2011
+    Average rating of four stars in the App Store
 ---
-* Client: Dennis Publishing
-* Year: 2011
-* Role: Design
-* Named Digital Edition of the Year at the PPA Awards 2011
-* Average rating of four stars in the App Store
-
 _The Week_ condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UK's most popular weekly subscription magazine.
 
 Part of this success can be attributed to a rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. Working with [Harry Brignull][1] at Clearleft, we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.

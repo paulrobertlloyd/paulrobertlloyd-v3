@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: Please Sponsor My Great South Run
 date: '2009-08-31 23:37:10 +0100'
 excerpt: In less than two months time, I will once again be donning my running shoes to raise money for Cancer Research UK.

@@ -1,4 +1,5 @@
 ---
+layout: project
 title: Mozilla Add-ons
 date: '2009-05-29'
 excerpt: Introducing browser add-ons to a more mainstream audience.

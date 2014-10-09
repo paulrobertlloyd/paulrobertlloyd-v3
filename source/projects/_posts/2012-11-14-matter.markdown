@@ -1,14 +1,15 @@
 ---
+layout: project
 title: MATTER
 date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter.html
 featured: true
+project-info:
+  client: Matter Publishing
+  year: 2012
+  role: UX, branding and graphic design
 ---
-* Client: Matter Publishing
-* Year: 2012
-* Role: UX, branding and graphic design
-
 The brainchild of journalists Bobbie Johnson and Jim Giles, _MATTER_ is home to in-depth journalism about the ideas shaping our future. Stories cover everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them.
 
 After an enormously successful [Kickstarter campaign][1] proved there was a real desire for high-quality, focused, long-form writing, Bobbie and Jim asked Clearleft to envisage the user experience and visual design. I worked alongside [Jeremy Keith][2] who did the front-end development, and [Phil Gyford][3] who handled the Django-based back-end.

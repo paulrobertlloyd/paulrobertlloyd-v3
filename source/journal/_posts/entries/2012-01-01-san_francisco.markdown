@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: 'San Francisco: There and Back Again'
 date: '2012-01-01 23:44:07 +0000'
 excerpt: For the final leg of my North American tour I transcended the West Coast on Amtrak's Coast Starlight. Getting to San Francisco wouldn't be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm.

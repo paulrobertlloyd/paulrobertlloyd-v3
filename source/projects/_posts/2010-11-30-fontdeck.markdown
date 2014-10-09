@@ -1,14 +1,15 @@
 ---
+layout: project
 title: Fontdeck
 date: '2010-11-30'
 excerpt: Defining a distinctive look for the purveyor of the finest web fonts.
 permalink: /projects/fontdeck.html
 featured: true
+project-info:
+  client: Clearleft/OmniTI
+  year: 2010 - 2013
+  role: Lead design
 ---
-* Client: Clearleft/OmniTI
-* Years: 2010 - 2013
-* Role: Lead design
-
 _Fontdeck_ is a professional webfont service that allows designers and developers to choose from hundreds of webfonts and easily embed them in their websites.
 
 A unique concept when founders Richard Rutter and Jon Tan conceived the idea in 2009, when the site launched a year later, a number of competing services had since entered the market. The site needed to rapidly evolve, better explain it purpose and how the service differed from others.

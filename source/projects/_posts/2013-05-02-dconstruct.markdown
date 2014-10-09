@@ -1,13 +1,14 @@
 ---
+layout: project
 title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
 permalink: /projects/dconstruct.html
+project-info:
+  client: Clearleft
+  year: 2010, 2011, 2013
+  role: Design
 ---
-* Client: Clearleft
-* Years: 2010, 2011, 2013
-* Role: Design
-
 On the first Friday of September, Brighton plays host to an annual one-day conference called _dConstruct_. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 
 To reflect the changing theme, the site is redesigned each year. I was responsible for the design of the website for three years: 2010, 2011 and 2013.
