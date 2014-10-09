@@ -38,7 +38,7 @@ layout: default
 
                 {% if remark_count >= "1" %}
                     {% for remark in site.data.remarks.[page_id] reversed %}
-                        {% include articles/remark.html %}
+                        {% include sections/remark.html %}
                     {% endfor %}
                 {% endif %}
             </details>
