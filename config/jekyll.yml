@@ -69,6 +69,8 @@ destination: ./public
 include:
   - _pages
   - essays/_pages
+exclude:
+  - '**.scss'
 
 # Assets
 assets:
