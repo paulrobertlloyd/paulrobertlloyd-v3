@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: The King's Speech
 date: '2011-02-13 23:13:23 +0000'
 excerpt: The King's Speech is undoubtedly one of the most successful independent British films ever made, yet some see this popularity as problematic given the artistic licence given to the events it portrays.

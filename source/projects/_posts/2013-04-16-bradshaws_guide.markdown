@@ -1,14 +1,15 @@
 ---
+layout: project
 title: Bradshaw's Guide
 date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 permalink: /projects/bradshaws_guide.html
 featured: true
+project-info:
+  client: Personal project
+  year: Ongoing
+  role: Design and front-end development
 ---
-* Client: Personal project
-* Year: Ongoing
-* Role: Design and front-end development
-
 Inspired by the BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw's 1866 handbook for tourists exploring Britain's railways.
 
 In his travelogue, Michael Portillo explores Britain's railway network and, guided by Bradshaw's guidebook, looks at how the destinations have changed between Victorian and modern times. While you can buy reproductions of Bradshaw's handbook, it's over an inch thick -- pocket-sized by Victorian standards, but not in today's world of mobile phones. By making Bradshaw's work more widely accessible, tourists might feel encouraged to spend more time on the railways and commuters may discover the hidden gems they pass every day.

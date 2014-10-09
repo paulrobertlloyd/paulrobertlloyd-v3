@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: Tailored for England
 date: '2009-03-29 02:06:27 +0100'
 excerpt: The appointment of Fabio Capello has brought about a more stylish and confident England. Now they have a kit to match.

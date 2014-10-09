@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: One Hour in Belgium
 date: '2009-05-10 17:18:24 +0100'
 excerpt: Brussels will quickly be forgotten.

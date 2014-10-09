@@ -1,14 +1,15 @@
 ---
+layout: project
 title: UNICEF UK
 date: '2013-07-01'
 excerpt: Mobile-first redesign for charity that raises funds to protect children's rights worldwide.
 permalink: /projects/unicef_uk.html
 featured: true
+project-info:
+  client: UNICEF UK
+  year: 2013
+  role: Design and front-end development
 ---
-* Client: UNICEF UK
-* Year: 2013
-* Role: Design and front-end development
-
 _UNICEF UK_ is a charitable organisation that raises funds in the UK to support UNICEF's work to protect children and the defend their rights worldwide.
 
 Like many organisations, UNICEF had seen its mobile traffic increase, with mobile devices accounting for approximately 20% of site visits. A limited mobile version of its website had been produced in recognition of this, yet much of the information about its vital work remained on a desktop-orientated website.

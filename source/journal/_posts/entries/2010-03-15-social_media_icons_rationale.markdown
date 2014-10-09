@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: 'Social Media Icons: A Rationale'
 date: '2010-03-15 09:30:00 +0000'
 excerpt: I've finally released the long awaited update to my popular social media icon set adding 12 new icons and a few design tweaks for good measure.

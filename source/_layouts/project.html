@@ -11,9 +11,9 @@ layout: default
             {{ content | widont }}
         </div>
 
-        <footer class="article__footer">
-            <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
-        </footer>
+        <aside class="article__aside">
+            {% include content/project-info.html %}
+        </aside>
     </article>
 
     {% include navigation/nav--pagination.html %}

@@ -1,4 +1,5 @@
 ---
+layout: essay
 title: Beige to Bondi-Blue
 date: '2000-04-01'
 excerpt: A comparison between the Apple II (1977) and the iMac (1998).

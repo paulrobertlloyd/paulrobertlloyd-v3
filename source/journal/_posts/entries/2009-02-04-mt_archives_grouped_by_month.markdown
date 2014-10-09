@@ -1,4 +1,5 @@
 ---
+layout: entry
 title: Entry Archives, Grouped by Month in Movable Type
 date: '2009-02-04 20:27:23 +0000'
 excerpt: I have been using Movable Type for a number of years, yet the template code required to present an archived list of entries, grouped by month has always evaded me.

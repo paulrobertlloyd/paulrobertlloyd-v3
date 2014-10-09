@@ -1,14 +1,15 @@
 ---
+layout: project
 title: DACS
 date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artists' rights organisation.
 permalink: /projects/dacs.html
 featured: true
+project-info:
+  client: Design and Artists Copyright Society
+  year: 2012
+  role: Design and front-end development
 ---
-* Client: Design and Artists Copyright Society
-* Year: 2012
-* Role: Design and front-end development
-
 _DACS_ (the Design and Artists Copyright Society) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
 
 The previous website was packed with legalese; language written by solicitors with an intimidating level of detail. DACS realised they needed to replace this with a site that could deliver this content in a more inspiring and persuasive way. I worked with [Harry Brignull][1] and [Richard Rutter][2] at Clearleft to produce a website that would achieve these goals.
