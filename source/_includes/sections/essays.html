@@ -5,7 +5,7 @@
 
 {% for summary in site.pages | sort: 'date' %}
     {% if summary.layout == 'essay' and summary.chapter-title == null %}
-        {% include articles/summary.html %}
+        {% include sections/summary.html %}
     {% endif %}
 {% endfor %}
 
