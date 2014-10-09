@@ -11,9 +11,11 @@ layout: default
             {{ content | widont }}
         </div>
 
+        {% if page.project-info %}
         <aside class="article__aside">
             {% include content/project-info.html %}
         </aside>
+        {% endif %}
     </article>
 
     {% include navigation/nav--pagination.html %}

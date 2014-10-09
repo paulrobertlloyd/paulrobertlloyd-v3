@@ -1,18 +1,18 @@
 <dl class="project-info">
 {% if page.project-info.client %}
-    <dt>Client</dt>
-    <dd>{{ page.project-info.client | smart }}</dd>
+    <dt class="project-info__title">Client</dt>
+    <dd class="project-info__value">{{ page.project-info.client | smart }}</dd>
 {% endif %}
 {% if page.project-info.year %}
-    <dt>Year</dt>
-    <dd>{{ page.project-info.year }}</dd>
+    <dt class="project-info__title">Year</dt>
+    <dd class="project-info__value">{{ page.project-info.year }}</dd>
 {% endif %}
 {% if page.project-info.role %}
-    <dt>Role</dt>
-    <dd>{{ page.project-info.role | smart }}</dd>
+    <dt class="project-info__title">Role</dt>
+    <dd class="project-info__value">{{ page.project-info.role | smart }}</dd>
 {% endif %}
 {% if page.project-info.notes %}
-    <dt>Notes</dt>
-    <dd>{{ page.project-info.notes | smart }}</dd>
+    <dt class="project-info__title">Notes</dt>
+    <dd class="project-info__value">{{ page.project-info.notes | smart }}</dd>
 {% endif %}
 </dl>
