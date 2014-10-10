@@ -1,13 +1,11 @@
 <article class="summary summary--{{ summary.layout }}">
-    {% if summary.embed != "photo" %}
     <header class="summary__header">
         {% if summary.layout == "link" %}
-        <h1 class="summary__title"><a href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}&nbsp;→</a></h1>
+        <h1 class="summary__title"><a href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}</a></h1>
         {% else %}
         <h1 class="summary__title"><a href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | smart }}</a></h1>
         {% endif %}
     </header>
-    {% endif %}
 
     <div class="summary__main">
     {% if summary.embed == "photo" %}
@@ -21,7 +19,7 @@
     {% endif %}
 
     {% if summary.layout == "entry" %}
-        <a class="summary__permalink" href="{{ summary.url | remove:'.html' }}" rel="bookmark">Continue reading&nbsp;→</a>
+        <a class="summary__permalink" href="{{ summary.url | remove:'.html' }}" rel="bookmark">Continue reading</a>
     {% endif %}
     </div>
 
