@@ -1,8 +1,8 @@
 production: true
 
 # Image server
-url: http://v3.paulrobertlloyd.com
-img_url: http://images.v3.paulrobertlloyd.com
+url: //v3.paulrobertlloyd.com
+img_url: //images.v3.paulrobertlloyd.com
 
 # Assets
 assets:
