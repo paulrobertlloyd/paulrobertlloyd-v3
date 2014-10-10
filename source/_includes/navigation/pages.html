@@ -1,11 +1,15 @@
-<nav class="navigation navigation--pages grid" aria-labelledby="pagination">
+<nav class="navigation navigation--pages" aria-labelledby="pagination">
     <h1 class="navigation__title u--hidden" id="pagination">Browse {{ page.categories | first }}</h1>
 
     {% if page.next_in_category != nil %}
-    <a class="navigation__item navigation__item--prev grid__item" rel="prev bookmark" href="{{ page.next_in_category.url | remove:'.html' }}" title="{{ page.next_in_category.title }}">Previous {{ page.next_in_category.layout | capitalize }}</a>
+    <a class="navigation__item navigation__item--prev" rel="prev bookmark" href="{{ page.next_in_category.url | remove:'.html' }}" title="{{ page.next_in_category.title }}">
+        <span class="navigation__item__label">Previous {{ page.next_in_category.layout | capitalize }}</span>
+    </a>
     {% endif %}
 
     {% if page.previous_in_category != nil %}
-    <a class="navigation__item navigation__item--next grid__item" rel="next bookmark" href="{{ page.previous_in_category.url | remove:'.html' }}" title="{{ page.previous_in_category.title }}">Next {{ page.previous_in_category.layout | capitalize }}</a>
+    <a class="navigation__item navigation__item--next" rel="next bookmark" href="{{ page.previous_in_category.url | remove:'.html' }}" title="{{ page.previous_in_category.title }}">
+        <span class="navigation__item__label">Next {{ page.previous_in_category.layout | capitalize }}</span>
+    </a>
     {% endif %}
 </nav>

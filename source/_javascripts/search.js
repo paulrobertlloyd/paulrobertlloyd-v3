@@ -5,14 +5,22 @@
 window.search = (function(win, doc) {
     var searchForm = document.querySelector('.form--search'),
         searchInput = document.querySelector('.form--search .form__input'),
-        searchResults = document.querySelector('.js--search__results'),
-        searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>',
+        searchResults = document.createElement('div'),
+        searchResultsHeader = document.createElement('h4'),
         template = '<span class="js--search__result">{type}: <a href="{url}">{title}</a></span>',
+        noResults = '<p>Nothing matched your query</p>',
         jsonFile = '/archive/search.json',
         jsonData = null,
         limit = 10,
-        fuzzy = false,
-        noResults = '<p>Nothing matched your query</p>';
+        fuzzy = false;
+
+    /*
+        Setup search 
+    */
+    searchResults.setAttribute('class', 'js--search__results');
+    searchResultsHeader.setAttribute('class', 'js--search__heading');
+    searchResultsHeader.textContent = "Search results";
+    searchForm.appendChild(searchResults);
 
     /*
         Register the keydown event, remove fallback elements, load the json file
@@ -96,7 +104,8 @@ window.search = (function(win, doc) {
         Write out the matches
     */
     function writeMatches(matches) {
-        searchResults.innerHTML = searchResultsHeader;
+        searchResults.appendChild(searchResultsHeader);
+
         if (matches && matches.length) {
             for (var i = 0; i < matches.length &&  i < limit; i++) {
                 var match = matches[i];
