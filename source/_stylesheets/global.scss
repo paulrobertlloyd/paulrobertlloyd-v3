@@ -1,6 +1,5 @@
-@import "_vars";
-
-@import "base/_reset";
+@import "helpers/_vars";
+@import "helpers/_reset";
 
 @import "base/_sections";
 @import "base/_grouping";
@@ -21,9 +20,9 @@
 @import "utilities/_prose";
 @import "utilities/_pull";
 
-@import "navigation/_nav";
-@import "navigation/_nav--years";
-@import "navigation/_nav--pagination";
+@import "navigation/_pages";
+@import "navigation/_primary";
+@import "navigation/_years";
 
 @import "content/_chart";
 @import "content/_embed";
@@ -32,9 +31,9 @@
 
 @import "sections/_remark";
 @import "sections/_section";
-@import "sections/_section--search";
 @import "sections/_summary";
 
 @import "structure/_banner";
-@import "structure/_navigation";
 @import "structure/_contentinfo";
+
+@import "js/_search";
