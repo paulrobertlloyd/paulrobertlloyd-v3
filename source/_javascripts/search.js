@@ -5,8 +5,7 @@
 window.search = (function(win, doc) {
     var searchForm = document.querySelector('.form--search'),
         searchInput = document.querySelector('.form--search .form__input'),
-        searchResults = document.createElement('div'),
-        searchResultsHeader = document.createElement('h4'),
+        searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>'
         template = '<span class="js--search__result">{type}: <a href="{url}">{title}</a></span>',
         noResults = '<p>Nothing matched your query</p>',
         jsonFile = '/archive/search.json',
@@ -15,11 +14,11 @@ window.search = (function(win, doc) {
         fuzzy = false;
 
     /*
-        Setup search 
+        Setup search results container
     */
+    var searchResults = document.createElement('div');
+
     searchResults.setAttribute('class', 'js--search__results');
-    searchResultsHeader.setAttribute('class', 'js--search__heading');
-    searchResultsHeader.textContent = "Search results";
     searchForm.appendChild(searchResults);
 
     /*
@@ -104,7 +103,7 @@ window.search = (function(win, doc) {
         Write out the matches
     */
     function writeMatches(matches) {
-        searchResults.appendChild(searchResultsHeader);
+        searchResults.innerHTML = searchResultsHeader;
 
         if (matches && matches.length) {
             for (var i = 0; i < matches.length &&  i < limit; i++) {
