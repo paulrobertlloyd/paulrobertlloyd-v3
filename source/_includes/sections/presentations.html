@@ -1,7 +1,5 @@
-{% unless include.title == 'false' %}
 <section class="section section--presentations grid__item" aria-labelledby="presentations">
     <h1 class="section__title" id="presentations">Speaking</h1>
-{% endunless %}
 
     <ul class="list">
     {% for presentation in site.data.presentations %}
@@ -10,7 +8,4 @@
         </li>
     {% endfor %}
     </ul>
-
-{% unless include.title == 'false' %}
 </section>
-{% endunless %}

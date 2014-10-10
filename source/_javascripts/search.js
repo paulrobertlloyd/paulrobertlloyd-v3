@@ -3,8 +3,8 @@
 */
 
 window.search = (function(win, doc) {
-    var searchForm = document.querySelector('.js--search .form--search'),
-        searchInput = document.querySelector('.js--search .form__input'),
+    var searchForm = document.querySelector('.form--search'),
+        searchInput = document.querySelector('.form--search .form__input'),
         searchResults = document.querySelector('.js--search__results'),
         searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>',
         template = '<span class="js--search__result">{type}: <a href="{url}">{title}</a></span>',
@@ -22,7 +22,7 @@ window.search = (function(win, doc) {
             searchForm.setAttribute('action', '#search');
             searchForm.removeAttribute('method');
             searchInput.removeAttribute('name');
-            [].forEach.call(document.querySelectorAll('.js--search .form__submit, .js--search .form__hidden'),function(e){
+            [].forEach.call(document.querySelectorAll('.form--search .form__submit, .form--search .form__hidden'),function(e){
                 e.parentNode.removeChild(e);
             });
 
@@ -127,6 +127,6 @@ window.search = (function(win, doc) {
     }
 })(window, document);
 
-if (document.querySelector('.js--search')) {
+if (document.querySelector('.form--search')) {
     search.init();
 }

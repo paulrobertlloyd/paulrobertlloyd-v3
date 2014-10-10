@@ -1,12 +1,14 @@
-<form class="form form--search" action="https://duckduckgo.com/html/" method="GET" role="search">
+<form class="form form--search" action="//duckduckgo.com/html/" method="GET" role="search" id="search">
     <fieldset class="form__fieldset">
-        <legend class="form__legend"></legend>
+        <legend class="form__title">Search this website</legend>
         <div class="form__field">
             <label class="form__label" for="q">Keywords</label>
             <input class="form__input" name="q" type="text" placeholder="e.g. Brasilia, Design, Olympics…"/>
         </div>
-        <input class="form__submit button" type="submit" value="Search site with DuckDuckGo"/>
-        <input class="form__hidden" name="sites" type="hidden" value="{{ site.url }}"/>
-        <input class="form__hidden" name="kl" type="hidden" value="uk-en"/>
     </fieldset>
+    <input class="form__hidden" name="sites" type="hidden" value="{{ site.url }}"/>
+    <input class="form__hidden" name="kl" type="hidden" value="uk-en"/>
+    <input class="form__submit button" type="submit" value="Search site with DuckDuckGo"/>
 </form>
+
+<div class="js--search__results"></div><!-- TODO: Generate this empty div in JS -->

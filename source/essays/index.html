@@ -7,5 +7,9 @@ title: Academic Essays
         <h1 class="index__title">{{ page.title }}</h1>
     </header>
 
-    {% include sections/essays.html title='false' %}
+    {% for summary in site.pages | sort: 'date' %}
+        {% if summary.layout == 'essay' and summary.chapter-title == null %}
+            {% include sections/summary.html %}
+        {% endif %}
+    {% endfor %}
 </section>
