@@ -1,6 +1,10 @@
 <article class="remark{% if remark.gravatar == '15091a37bacfa4bdd011282627eaca2b' %} author{% endif %}" id="remark-{{ forloop.rindex }}">
     <header class="remark__header">
-        <h1><a href="{{ remark.url }}">{{ remark.author }}<img src="https://gravatar.com/avatar/{{ remark.gravatar }}?s=128" width="64" height="64" alt=""/></a></h1>
+        {% if remark.url %}
+        <h1><a href="{{ remark.url }}">{{ remark.author }}<img class="pull-left" src="https://gravatar.com/avatar/{{ remark.gravatar }}?s=128" width="64" height="64" alt=""/></a></h1>
+        {% else %}
+        <h1>{{ remark.author }}<img class="pull-left" src="https://gravatar.com/avatar/{{ remark.gravatar }}?s=128" width="64" height="64" alt=""/></h1>
+        {% endif %}
     </header>
 
     <div class="remark__main">
