@@ -1,7 +1,5 @@
-{% unless include.title == 'false' %}
 <section class="section section--articles grid__item" aria-labelledby="articles">
     <h1 class="section__title" id="articles">Writing</h1>
-{% endunless %}
 
     <ul class="list">
     {% for article in site.data.articles %}
@@ -10,7 +8,4 @@
         </li>
     {% endfor %}
     </ul>
-
-{% unless include.title == 'false' %}
 </section>
-{% endunless %}

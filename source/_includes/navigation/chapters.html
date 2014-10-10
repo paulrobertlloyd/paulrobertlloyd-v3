@@ -1,0 +1,15 @@
+<nav class="navigation navigation--chapters" aria-labelledby="chapters">
+    <h1 class="navigation__title" id="chapters">Chapters</h1>
+
+    <ol class="list">
+    {% for essay in site.pages %}
+        {% if essay.layout == 'essay' %}
+            {% for tag in essay.tags %}
+                {% if page.tags contains tag %}
+                    <li class="list__item navigation__item{% if page.permalink == essay.url %} is-active{% endif %}"><a href="{{ essay.url | remove:'.html' }}">{% if essay.chapter-title %}{{ essay.chapter-title }}{% else %}Introduction{% endif %}</a></li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+    </ol>
+</nav>
