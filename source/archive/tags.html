@@ -10,9 +10,9 @@ permalink: /tags/
         </header>
 
         {% assign tags = site.tags | sort %}
-        <ol class="inline-list">
+        <ol class="list list--inline">
         {% for tag in tags %}
-            <li class="inline-list__item"><a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
+            <li class="list__item"><a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
         {% endfor %}
         </ol>
     </section>
