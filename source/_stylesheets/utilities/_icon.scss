@@ -1,8 +1,11 @@
-.icon {
+/*  =========================================================================
+    Icons
+    ========================================================================= */
+[data-icon] {
     font-family: $f__icon;
-}
 
-[data-icon]::before {
-    content: attr(data-icon);
-    speak: none;
+    &::before {
+        content: attr(data-icon);
+        speak: none;
+    }
 }

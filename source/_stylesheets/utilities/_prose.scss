@@ -12,19 +12,19 @@
     }
 
     a {
-        background-image: linear-gradient(to left, lighten($c__link, 75%), lighten($c__link, 75%));
+        background-image: linear-gradient(to left, lighten($c__link, 25%), lighten($c__link, 25%));
         background-repeat: repeat-x;
-        background-position: 0 1.075em;
+        background-position: 0 1.15em;
         background-size: 1px 1px;
         text-shadow: 2px 0 0 $c__neutral-8, -2px 0 0 $c__neutral-8;
 
         &:active,
         &:hover {
-            background-image: linear-gradient(to left, lighten($c__link-hover, 75%), lighten($c__link-hover, 75%));
+            background-image: linear-gradient(to left, lighten($c__link-hover, 25%), lighten($c__link-hover, 25%));
         }
 
         &:active {
-            background-image: linear-gradient(to left, lighten($c__link-active, 75%), lighten($c__link-active, 75%));
+            background-image: linear-gradient(to left, lighten($c__link-active, 25%), lighten($c__link-active, 25%));
         }
     }
 
