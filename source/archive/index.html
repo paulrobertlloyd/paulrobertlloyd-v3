@@ -19,11 +19,11 @@ permalink: /archive/
 
             {% if forloop.first %}
             <h2><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h2>
-            <ol class="list list--entries" reversed>
+            <ol class="list" reversed>
             {% endif %}
 
             {% if post.chapter-title == null %}
-                <li class="entry-list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
+                <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
             {% endif %}
 
             {% if forloop.last %}
@@ -33,12 +33,12 @@ permalink: /archive/
             </ol>
 
             <h2><a href="/{{ next_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
-            <ol class="list list--entries" reversed>
+            <ol class="list" reversed>
                 {% elsif this_month != next_month %}
             </ol>
 
             <h2><a href="/{{ this_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
-            <ol class="list list--entries" reversed>
+            <ol class="list" reversed>
                 {% endif %}
             {% endif %}
         {% endfor %}

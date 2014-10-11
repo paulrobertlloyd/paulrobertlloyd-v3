@@ -1,17 +1,16 @@
 /*  =========================================================================
     List
     ========================================================================= */
-
-.list,
-.inline-list {
+.list {
     line-height: 1.5;
 }
 
-.list__item,
-.inline-list__item {
+.list__item {
     list-style: none;
 }
 
-.inline-list__item {
-    display: inline;
+.list--inline {
+    .list__item {
+        display: inline;
+    }
 }
