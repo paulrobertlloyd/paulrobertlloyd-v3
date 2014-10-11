@@ -3,18 +3,20 @@
     http://developers.whatwg.org/links.html
     ========================================================================= */
 a {
-    color: $c_link;
     text-decoration: none;
-    }
-    a:active,
-    a:hover {
-        color: $c_link-hover;
-    /*  Improve readability when focused and also mouse hovered in all browsers */
-        outline: 0;
-    }
-    a:active {
-        color: $c_link-active;
-    }
+    color: $c__link;
+}
+
+a:active,
+a:hover {
+/*  Improve readability when focused and also mouse hovered in all browsers */
+    outline: 0;
+    color: $c__link-hover;
+}
+
+a:active {
+    color: $c__link-active;
+}
 
 @media print {
     a,

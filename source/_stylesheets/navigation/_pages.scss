@@ -1,43 +1,47 @@
-.nav--pagination {
-    overflow: hidden;
+.navigation--pages {
     padding-bottom: 2em;
-}
-.nav--pagination .nav__item {
-    border-top: 1px solid $c_neutral-7;
-    position: relative;
-    display: block;
-}
-.nav--pagination .nav__item--prev {
-    }
-    .nav--pagination .nav__item--prev:before {
-        content: "\2190\00A0"; /* Left pointing arrow */
-        speak: none;
-        position: absolute;
-        left: -1em;
-        top: 0.25em;
+    overflow: hidden;
+
+    .navigation__item {
+        display: block;
+        position: relative;
+        border-top: 1px solid $c__neutral-7;
     }
 
-.nav--pagination .nav__item--next {
-    text-align: right;
-    }
-    .nav--pagination .nav__item--next:after {
-        content: "\00A0\2192"; /* Right pointing arrow */
-        speak: none;
-        position: absolute;
-        right: -1em;
-        top: 0.25em;
+    .navigation__item--prev {
+        &:before {
+            position: absolute;
+            top: 0.25em;
+            left: -1em;
+            content: '\2190\00A0'; // Left pointing arrow
+            speak: none;
+        }
     }
 
-.nav--pagination .nav__item__label {
-    font-size: 0.875em; /* 14px */
-    line-height: 1.4286; /* 20px */
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 0.8571em; /* 12px */
-    display: block;
-}
-.nav--pagination .nav__item__title {
-    font-size: 1.5em;
-    letter-spacing: 0;
-    margin: 0 0 0.6667em; /* 0 0 16px */
+    .navigation__item--next {
+        text-align: right;
+
+        &:after {
+            position: absolute;
+            top: 0.25em;
+            right: -1em;
+            content: '\00A0\2192'; // Right pointing arrow
+            speak: none;
+        }
+    }
+
+    .navigation__item__label {
+        display: block;
+        margin-bottom: 0.8571em; /* 12px */
+        text-transform: uppercase;
+        line-height: 1.4286; /* 20px */
+        letter-spacing: 1px;
+        font-size: 0.875em; /* 14px */
+    }
+
+    .navigation__item__title {
+        margin: 0 0 0.6667em; /* 0 0 16px */
+        letter-spacing: 0;
+        font-size: 1.5em;
+    }
 }

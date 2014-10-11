@@ -2,32 +2,36 @@
     Summary
     ========================================================================= */
 .summary {
-    margin: 0 0 4em 0;
+    margin: 0 0 4em;
 }
+
 .summary__main {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: $f_serif;
-    font-size: 1em;
     line-height: 1.5;
+    font-family: $f__serif;
+    font-size: 1em;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
+
 .summary__title {
-    font-family: $f_sans-serif;
-    font-weight: 400;
-    font-size: 1.5em; /* 24px */
-    line-height: 1.1667; /* 28px */
     margin: 1.7778em 0 0.3333em; /* 32px 0 8px */
+    line-height: 1.1667; /* 28px */
+    font-family: $f__sans-serif;
+    font-size: 1.5em; /* 24px */
+    font-weight: 400;
 }
+
 .article__pubdate,
 .summary__pubdate {
-    color: $c_neutral-3;
-    font-size: 0.875em; /* 14px */
-    line-height: 1.4286; /* 20px */
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0.4286em 0; /* 6px */
     display: block;
+    margin: 0.4286em 0; /* 6px */
+    text-transform: uppercase;
+    line-height: 1.4286; /* 20px */
+    letter-spacing: 1px;
+    color: $c__neutral-3;
+    font-size: 0.875em; /* 14px */
 }
+
 .summary__permalink {
     border: 0;
 }
@@ -35,49 +39,55 @@
 /* Entry summary */
 .article,
 .summary--entry {
-    padding-top: 2.25em;
     position: relative;
+    padding-top: 2.25em;
 }
+
 .summary--entry .summary__main {
-    font-family: $f_sans-serif;
-    font-size: 1.25em; /* 20px */
     line-height: 1.4; /* 28px */
+    font-family: $f__sans-serif;
+    font-size: 1.25em; /* 20px */
 }
+
 .summary--entry .summary__title {
-    font-family: $f_serif;
-    font-weight: 700;
-    font-size: 2.5rem; /* 48px */
+    margin: 0 0 0.3333em; /* 0 0 16px */
     line-height: 1; /* 48px */
     letter-spacing: -0.0625rem; /* 1px */
-    margin: 0 0 0.3333em; /* 0 0 16px */
+    font-family: $f__serif;
+    font-size: 2.5rem; /* 48px */
+    font-weight: 700;
 }
+
 .article .article__pubdate,
 .summary--entry .summary__pubdate {
     position: absolute;
     top: 0.5em;
 }
+
 .summary--entry .summary__permalink {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 0.75em 0;
     display: block;
+    margin: 0.75em 0;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
 /* Article/presentation summary */
 .summary--article,
 .summary--presentation {
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
 }
+
 .summary--article .summary__title,
 .summary--presentation .summary__title {
-    font-family: $f_serif;
-    font-weight: 700;
-    font-size: 1em; /* 48px */
     line-height: 1; /* 48px */
+    font-family: $f__serif;
+    font-size: 1em; /* 48px */
+    font-weight: 700;
 }
+
 .summary--article .summary__meta,
 .summary--presentation .summary__meta {
-    color: $c_neutral-3;
-    font-size: 0.875em; /* 14px */
     line-height: 1.1429; /* 16px */
+    color: $c__neutral-3;
+    font-size: 0.875em; /* 14px */
 }

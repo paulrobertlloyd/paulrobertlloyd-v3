@@ -13,6 +13,6 @@ mark {
 }
 
 ins {
+    background-color: lighten($c__link, 95%);
     text-decoration: none;
-    background-color: lighten($c_link, 95%);
 }

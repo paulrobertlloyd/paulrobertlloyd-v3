@@ -5,6 +5,7 @@
 window.search = (function(win, doc) {
     var searchForm = document.querySelector('.form--search'),
         searchInput = document.querySelector('.form--search .form__input'),
+        searchResults = document.createElement('div'),
         searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>'
         template = '<span class="js--search__result">{type}: <a href="{url}">{title}</a></span>',
         noResults = '<p>Nothing matched your query</p>',
@@ -14,21 +15,16 @@ window.search = (function(win, doc) {
         fuzzy = false;
 
     /*
-        Setup search results container
-    */
-    var searchResults = document.createElement('div');
-
-    searchResults.setAttribute('class', 'js--search__results');
-    searchForm.appendChild(searchResults);
-
-    /*
-        Register the keydown event, remove fallback elements, load the json file
+        Register the keydown event, remove fallback elements, add results
+        container and load the JSON file
     */
     function load() {
         if (searchInput && searchResults) {
+            searchForm.appendChild(searchResults);
             searchForm.setAttribute('action', '#search');
             searchForm.removeAttribute('method');
             searchInput.removeAttribute('name');
+            searchResults.setAttribute('class', 'js--search__results');
             [].forEach.call(document.querySelectorAll('.form--search .form__submit, .form--search .form__hidden'),function(e){
                 e.parentNode.removeChild(e);
             });

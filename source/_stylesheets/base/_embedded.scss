@@ -3,9 +3,9 @@
     http://developers.whatwg.org/embedded-content-1
     ========================================================================= */
 img {
+    display: block;
 /*  Remove border when inside `a` element in IE 8/9 */
     border: 0;
-    display: block;
     max-width: 100%;
 }
 
@@ -20,6 +20,7 @@ video {
 /*  Correct `inline-block` display not defined in IE 8/9 */
     display: inline-block;
 }
+
 audio:not([controls]) {
 /*  Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices */
     display: none;

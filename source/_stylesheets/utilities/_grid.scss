@@ -2,8 +2,8 @@
     Grids
     ========================================================================= */
 .grid {
-    overflow: hidden;
     margin: 0 -1em;
+    overflow: hidden;
 }
 
 .grid__item {
@@ -17,6 +17,7 @@
     .grid--projects .grid__item {
         width: 25%;
     }
+
     .grid--projects .grid__item:nth-child(4n+1) {
         clear: left;
     }
@@ -27,6 +28,7 @@
         width: 50%;
     }
 }
+
 @media screen and (min-width: 45em) {
     .grid--related .grid__item {
         width: 33%;

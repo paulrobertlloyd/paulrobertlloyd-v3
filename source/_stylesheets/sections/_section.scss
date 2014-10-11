@@ -1,16 +1,12 @@
 /* ==========================================================================
    Section
    ========================================================================== */
-.section {
-
-}
-
 .section__title {
-    font-family: $f_sans-serif;
-    font-weight: 600;
-    font-size: 2em; /* 32px */
+    margin: 1.7778em 0 0.5em; /* 32px 0 12px */
+    text-rendering: optimizeLegibility;
     line-height: 0.875; /* 28px */
     letter-spacing: -0.0625rem; /* 1px */
-    text-rendering: optimizeLegibility;
-    margin: 1.7778em 0 0.5em; /* 32px 0 12px */
+    font-family: $f__sans-serif;
+    font-size: 2em; /* 32px */
+    font-weight: 600;
 }
