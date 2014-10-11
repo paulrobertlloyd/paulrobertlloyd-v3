@@ -14,6 +14,7 @@ group :development do
   gem 'guard-jekyll-plus', :git => 'https://github.com/berrberr/guard-jekyll-plus.git'
   gem 'guard-sass'
   gem 'guard-livereload'
+  gem 'guard-shell'
 end
 
 # Rake (for task management)
@@ -24,6 +25,7 @@ gem 'jekyll'
 gem 'jekyll-archives'
 gem 'jekyll-assets'
 gem 'jekyll-sitemap'
-gem 'uglifier'
-gem 'nokogiri'
 gem 'typogruby'
+gem 'nokogiri'
+gem 'uglifier'
+gem 'scss-lint'

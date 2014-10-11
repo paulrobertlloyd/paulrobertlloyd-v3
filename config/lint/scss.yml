@@ -1,0 +1,30 @@
+# Default application configuration that all configurations inherit from.
+linters:
+  Comment:
+    enabled: false
+
+  Indentation:
+    enabled: true
+    character: space
+    width: 4
+
+  LeadingZero:
+    enabled: true
+    style: include_zero
+
+  NameFormat:
+    enabled: true
+    convention: BEM
+
+  PropertySortOrder:
+    enabled: true
+    order: concentric
+    ignore_unspecified: false
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 2
+
+  SelectorFormat:
+    enabled: true
+    convention: BEM

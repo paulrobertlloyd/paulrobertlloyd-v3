@@ -10,6 +10,13 @@ guard 'sass', :output => 'public/assets/', :syntax => :scss, :shallow => true, :
   watch(%r{^source/.+\.scss})
 end
 
+# Sass Lint https://github.com/causes/scss-lint
+guard :shell do
+  watch(%r{^source/.+\.scss}) {
+    |m| eager 'scss-lint source/_stylesheets --config config/lint/scss.yml'
+  }
+end
+
 # LiveReload https://github.com/guard/guard-livereload
 guard 'livereload', override_url: true do
   watch(%r{^public/.+})
