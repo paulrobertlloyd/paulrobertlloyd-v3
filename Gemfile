@@ -12,8 +12,9 @@ end
 group :development do
   gem 'guard'
   gem 'guard-jekyll-plus', :git => 'https://github.com/berrberr/guard-jekyll-plus.git'
-  gem 'guard-sass'
+  gem 'guard-jslint-on-rails'
   gem 'guard-livereload'
+  gem 'guard-sass'
   gem 'guard-shell'
 end
 

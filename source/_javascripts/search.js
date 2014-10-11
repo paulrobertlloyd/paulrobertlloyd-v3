@@ -6,7 +6,7 @@ window.search = (function(win, doc) {
     var searchForm = document.querySelector('.form--search'),
         searchInput = document.querySelector('.form--search .form__input'),
         searchResults = document.createElement('div'),
-        searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>'
+        searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>',
         template = '<span class="js--search__result">{type}: <a href="{url}">{title}</a></span>',
         noResults = '<p>Nothing matched your query</p>',
         jsonFile = '/archive/search.json',
@@ -52,7 +52,7 @@ window.search = (function(win, doc) {
                     jsonData = null;
                 }
             }
-        }
+        };
         xhr.send();
     }
 
@@ -128,7 +128,7 @@ window.search = (function(win, doc) {
             }
             load();
         }
-    }
+    };
 })(window, document);
 
 if (document.querySelector('.form--search')) {
