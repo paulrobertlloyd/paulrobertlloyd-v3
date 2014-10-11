@@ -40,15 +40,15 @@ layout: compress
 {% endif %}
 
     <meta charset="utf-8"/>
-    <meta name="author" content="Paul Robert Lloyd"/>
+    <meta name="author" content="{{ site.author.name }}"/>
     <meta name="robots" content="index, follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 {% if category == 'journal' or category == 'projects' %}
-    <meta name="twitter:site" content="@paulrobertlloyd"/>
+    <meta name="twitter:site" content="{{ site.author.twitter }}"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
-    <meta name="twitter:creator" content="@paulrobertlloyd"/>
+    <meta name="twitter:creator" content="{{ site.author.twitter }}"/>
     {% if page.image %}
     <meta name="twitter:image" content="{{ site.img_url }}/300x200/80{{ page.image }}"/>
     <meta name="twitter:card" content="summary_large_image"/>

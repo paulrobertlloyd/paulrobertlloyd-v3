@@ -1,6 +1,6 @@
-/* ==========================================================================
-   Structure > Navigation
-   ========================================================================== */
+/*  =========================================================================
+    Primary navigation
+    ========================================================================= */
 .navigation--primary {
     position: absolute;
     top: 2em;
@@ -8,12 +8,12 @@
     left: 0;
     text-align: right;
 
-    .inline-list {
+    .list--inline {
         margin-right: 1em;
         margin-left: 1em;
     }
 
-    .inline-list__item {
+    .list__item {
         display: inline-block;
         margin-left: 1em;
         padding: 0;
