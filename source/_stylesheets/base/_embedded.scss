@@ -16,9 +16,12 @@ svg:not(:root) {
 
 audio,
 canvas,
+progress,
 video {
 /*  Correct `inline-block` display not defined in IE 8/9 */
     display: inline-block;
+/*  Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera */
+    vertical-align: baseline;
 }
 
 audio:not([controls]) {
