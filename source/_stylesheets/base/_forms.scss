@@ -59,14 +59,14 @@ input[type="submit"] {
     border-radius: 0;
 /*  Improve usability and consistency of cursor style between image-type `input` and others */
     cursor: pointer;
+/*  Address `overflow` set to `hidden` in IE 8/9/10/11 */
+    overflow: visible;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
 /*  Remove excess padding in IE 8/9 */
     padding: 0;
-/*  Address box sizing set to `content-box` in IE 8/9 */
-    box-sizing: border-box;
 }
 
 input[type="search"] {
@@ -87,6 +87,11 @@ input::-moz-focus-inner {
 /*  Remove inner padding and border in Firefox 4+ */
     border: 0;
     padding: 0;
+}
+
+input {
+/*  Address Firefox 4+ setting `line-height` on `input` */
+    line-height: normal;
 }
 
 textarea {
