@@ -3,42 +3,44 @@
     http://developers.whatwg.org/tabular-data.html
     ========================================================================= */
 table {
-    font-size: 1rem;
     margin: 0.75em 0 0.75em -0.5em; /* 24px 0 24px -8px */
     border-collapse: collapse;
     border-spacing: 0;
+    font-size: 1rem;
 }
 
 caption {
-    color: $c_neutral-4;
-    caption-side: bottom;
-    font-size: 0.875rem; /* 14px */
-    line-height: 1.1429; /* 16px */
-    text-align: left;
     margin: 1rem 0 1rem 0.5rem; /* 16px 0 16px 8px */
+    caption-side: bottom;
+    text-align: left;
+    line-height: 1.1429; /* 16px */
+    color: $c__neutral-4;
+    font-size: 0.875rem; /* 14px */
 }
 
 td,
 th {
-    text-align: left;
-    vertical-align: top;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.25em 1.5em 0.25em 0.5em; /* 4px 32px 4px 4px */
+    vertical-align: top;
+    text-align: left;
     white-space: nowrap;
     overflow-wrap: break-word;
 }
 
 th {
-    line-height: 1.25;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     padding-top: 0.75em;
+    line-height: 1.25;
 }
 
 @media print {
     thead {
         display: table-header-group;
     }
-    tr, img {
+
+    tr,
+    img {
         page-break-inside: avoid;
     }
 }

@@ -9,8 +9,9 @@
         src;
     if (embed) {
         if (win.innerWidth > 400) {
+            embed.setAttribute('class', 'js--embed');
             src = embed.getAttribute('data-src');
-            embed.innerHTML = '<iframe src="' + src + '" width="500" height="300" frameborder="0" allowfullscreen></iframe>';
+            embed.innerHTML = '<iframe class="js--embed__iframe" src="' + src + '" width="500" height="300" frameborder="0" allowfullscreen></iframe>';
         }
     }
 }(this, this.document));

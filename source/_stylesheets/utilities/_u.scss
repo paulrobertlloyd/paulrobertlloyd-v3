@@ -3,23 +3,26 @@
     ========================================================================= */
 
 /* Clearfix */
-.u--cf:before,
-.u--cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-.u--cf:after {
-    clear: both;
+.u--cf {
+    &:before,
+    &:after {
+        display: table;
+        content: ' ';
+    }
+
+    &:after {
+        clear: both;
+    }
 }
 
 /* Visually hidden, but still audible */
 .u--hidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
     position: absolute;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
 }

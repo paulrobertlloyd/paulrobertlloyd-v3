@@ -2,54 +2,52 @@
     Prose
     ========================================================================= */
 .prose {
-    font-family: $f_serif;
-    font-feature-settings: "liga", "dlig", "onum";
-    line-height: 1.75; /* 28px */
     padding-bottom: 2em;
+    line-height: 1.75; /* 28px */
+    font-family: $f__serif;
+    font-feature-settings: 'liga', 'dlig', 'onum';
+
+    strong {
+        font-family: $f__sans-serif;
+    }
+
+    a {
+        background-image: linear-gradient(to left, lighten($c__link, 75%), lighten($c__link, 75%));
+        background-repeat: repeat-x;
+        background-position: 0 1.075em;
+        background-size: 1px 1px;
+        text-shadow: 2px 0 0 $c__neutral-8, -2px 0 0 $c__neutral-8;
+
+        &:active,
+        &:hover {
+            background-image: linear-gradient(to left, lighten($c__link-hover, 75%), lighten($c__link-hover, 75%));
+        }
+
+        &:active {
+            background-image: linear-gradient(to left, lighten($c__link-active, 75%), lighten($c__link-active, 75%));
+        }
+    }
+
+    .caps {
+        letter-spacing: 0.0625rem; /* 1px */
+        font-size: 90%;
+        font-feature-settings: 'c2sc' 1;
+    }
 }
+
 @media screen and (min-width: 45em) {
     .prose {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        font-size: 1.25em; /* 20px */
         line-height: 1.4; /* 28px */
+        font-size: 1.25em; /* 20px */
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
     }
+
     .prose figcaption,
     .prose caption,
     .prose .footnotes {
-        font-family: $f_sans-serif;
-        font-size: 1rem; /* 16px */
         line-height: 1.25; /* 20px */
+        font-family: $f__sans-serif;
+        font-size: 1rem; /* 16px */
     }
-}
-
-.prose strong {
-    font-family: $f_sans-serif;
-}
-
-.prose figure > p,
-.prose figure > blockquote,
-.prose figure > .embed {
-    margin-bottom: 0; /* This shouldn't be needed! */
-}
-
-.prose p a {
-    text-shadow: 2px 0 0 $c_neutral-8, -2px 0 0 $c_neutral-8;
-    background-image: linear-gradient(to left, lighten($c_link, 75%), lighten($c_link, 75%));
-    background-position: 0 1.075em;
-    background-repeat: repeat-x;
-    background-size: 1px 1px;
-    }
-    .prose p a:active,
-    .prose p a:hover {
-        background-image: linear-gradient(to left, lighten($c_link-hover, 75%), lighten($c_link-hover, 75%));
-    }
-    .prose p a:active {
-        background-image: linear-gradient(to left, lighten($c_link-active, 75%), lighten($c_link-active, 75%));
-    }
-
-.prose .caps {
-    font-size: 90%;
-    font-feature-settings: "c2sc" 1;
-    letter-spacing: 0.0625rem; /* 1px */
 }

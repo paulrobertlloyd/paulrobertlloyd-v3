@@ -3,103 +3,106 @@
     http://developers.whatwg.org/sections.html
     ========================================================================= */
 html {
-    background-color: $c_neutral-7;
+    background-color: $c__neutral-7;
 }
 
 body {
-    color: $c_neutral-2;
-    font-family: $f_sans-serif;
-    font-weight: 400;
-    font-size: 1em; /* 16px */
-    line-height: 1; /* 16px */
-    background-color: $c_neutral-8;
+    position: relative;
     margin: 0 auto;
+    background-color: $c__neutral-8;
     padding-right: 1em;
     padding-left: 1em;
-    position: relative;
     max-width: 60em;
+    line-height: 1; /* 16px */
+    color: $c__neutral-2;
+    font-family: $f__sans-serif;
+    font-size: 1em; /* 16px */
+    font-weight: 400;
 }
 
 h1 {
-    font-family: $f_serif;
-    font-weight: 700;
-    font-size: 2rem; /* 32px */
+    margin: 0 0 0.5em; /* 0 0 16px */
+    text-rendering: optimizeLegibility;
     line-height: 1; /* 32px */
     letter-spacing: -0.0625rem; /* 1px */
-    text-rendering: optimizeLegibility;
-    overflow-wrap: break-word;
-    margin: 0 0 0.5em; /* 0 0 16px */
+    font-family: $f__serif;
+    font-size: 2rem; /* 32px */
+    font-weight: 700;
 }
+
 @media screen and (min-width: 45em) {
     h1 {
-        font-size: 3rem; /* 48px */
-        line-height: 1; /* 48px */
         margin: 0 0 0.3333em; /* 0 0 16px */
+        line-height: 1; /* 48px */
+        font-size: 3rem; /* 48px */
     }
 }
 
 h2 {
-    font-family: $f_sans-serif;
-    font-weight: 700;
-    font-size: 1.25em; /* 20px */
+    margin: 2em 0 0.6em; /* 32px 0 12px */
+    text-rendering: optimizeLegibility;
     line-height: 1.2; /* 24px */
     letter-spacing: -0.0625rem; /* 1px */
-    text-rendering: optimizeLegibility;
-    margin: 2em 0 0.6em; /* 32px 0 12px */
+    font-family: $f__sans-serif;
+    font-size: 1.25em; /* 20px */
+    font-weight: 700;
 }
 
 h3 {
-    font-family: $f_sans-serif;
-    font-weight: 600;
-    font-size: 1.125em; /* 18px */
-    line-height: 1.3333; /* 24px */
-    text-rendering: optimizeLegibility;
     margin: 1.7778em 0 0.6667em; /* 32px 0 12px */
+    text-rendering: optimizeLegibility;
+    line-height: 1.3333; /* 24px */
+    font-family: $f__sans-serif;
+    font-size: 1.125em; /* 18px */
+    font-weight: 600;
 }
 
 h4 {
-    font-weight: 600;
-    font-size: 1em; /* 16px */
-    line-height: 1.25; /* 20px */
-    text-rendering: optimizeLegibility;
     margin: 2rem 0 0.75em; /* 32px 0 12px */
-    opacity: 0.9;
+    text-rendering: optimizeLegibility;
+    line-height: 1.25; /* 20px */
+    font-size: 1em; /* 16px */
+    font-weight: 600;
 }
 
 h5 {
-    font-size: 1rem; /* 16px */
-    line-height: 1; /* 16px */
-    text-rendering: optimizeLegibility;
     margin: 1.5rem 0 0.75em; /* 24px 0 8px */
+    text-rendering: optimizeLegibility;
+    line-height: 1; /* 16px */
+    font-size: 1rem; /* 16px */
 }
 
 h6 {
-    font-size: 0.875rem; /* 14px */
-    line-height: 1.1429; /* 16px */
-    text-rendering: optimizeLegibility;
-    text-transform: uppercase;
-    letter-spacing: 0.125rem; /* 2px */
     margin: 1.5rem 0 0.5em; /* 24px 0 8px */
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    line-height: 1.1429; /* 16px */
+    letter-spacing: 0.125rem; /* 2px */
+    font-size: 0.875rem; /* 14px */
 }
 
 hr {
-    line-height: 0;
-    text-align: center;
     margin: 2em 0; /* 32px 0 */
     border: 0;
     height: 0;
-}
-hr::after {
-    content: " ";
-    margin: 0 auto;
-    border-top: 1px solid $c_neutral-7;
-    height: 0;
-    width: 33%;
-    display: block;
+    text-align: center;
+    line-height: 0;
+
+    &::after {
+        display: block;
+        margin: 0 auto;
+        border-top: 1px solid $c__neutral-7;
+        width: 33%;
+        height: 0;
+        content: ' ';
+    }
 }
 
 @media print {
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4 {
         page-break-after: avoid;
     }
 }

@@ -1,39 +1,39 @@
-@import "helpers/_vars";
-@import "helpers/_reset";
+@import 'helpers/_vars';
+@import 'helpers/_reset';
 
-@import "base/_sections";
-@import "base/_grouping";
-@import "base/_text";
-@import "base/_edits";
-@import "base/_embedded";
-@import "base/_links";
-@import "base/_tables";
-@import "base/_forms";
-@import "base/_interactive";
-@import "base/_disabled";
+@import 'base/_sections';
+@import 'base/_grouping';
+@import 'base/_text';
+@import 'base/_edits';
+@import 'base/_embedded';
+@import 'base/_links';
+@import 'base/_tables';
+@import 'base/_forms';
+@import 'base/_interactive';
+@import 'base/_disabled';
 
-@import "utilities/_u";
-@import "utilities/_button";
-@import "utilities/_grid";
-@import "utilities/_icon";
-@import "utilities/_list";
-@import "utilities/_prose";
-@import "utilities/_pull";
+@import 'utilities/_u';
+@import 'utilities/_button';
+@import 'utilities/_grid';
+@import 'utilities/_icon';
+@import 'utilities/_list';
+@import 'utilities/_prose';
+@import 'utilities/_pull';
 
-@import "navigation/_pages";
-@import "navigation/_primary";
-@import "navigation/_years";
+@import 'navigation/_pages';
+@import 'navigation/_primary';
+@import 'navigation/_years';
 
-@import "content/_chart";
-@import "content/_embed";
-@import "content/_language";
-@import "content/_rating";
+@import 'content/_chart';
+@import 'content/_language';
+@import 'content/_rating';
 
-@import "sections/_remark";
-@import "sections/_section";
-@import "sections/_summary";
+@import 'sections/_remark';
+@import 'sections/_section';
+@import 'sections/_summary';
 
-@import "structure/_banner";
-@import "structure/_contentinfo";
+@import 'structure/_banner';
+@import 'structure/_contentinfo';
 
-@import "js/_search";
+@import 'js/_embed';
+@import 'js/_search';

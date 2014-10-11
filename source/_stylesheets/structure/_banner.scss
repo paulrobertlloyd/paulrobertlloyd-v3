@@ -3,18 +3,20 @@
    ========================================================================== */
 .banner {
     margin-bottom: 4em;
-    border-bottom: 1px solid $c_neutral-7;
+    border-bottom: 1px solid $c__neutral-7;
     padding: 2em 0;
 }
+
 .banner__title {
-    font-size: 1em;
-    font-weight: 400;
-    letter-spacing: 0;
-    margin: 0;
+    display: inline-block;
     position: relative;
     z-index: 1;
-    display: inline-block;
+    margin: 0;
+    letter-spacing: 0;
+    font-size: 1em;
+    font-weight: 400;
 }
+
 .banner__menu {
     display: none;
 }

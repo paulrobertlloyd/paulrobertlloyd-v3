@@ -2,20 +2,20 @@
    Structure > Navigation
    ========================================================================== */
 .navigation--primary {
-    text-align: right;
     position: absolute;
     top: 2em;
     right: 0;
     left: 0;
-}
+    text-align: right;
 
-.navigation--primary .inline-list {
-    margin-right: 1em;
-    margin-left: 1em;
-}
+    .inline-list {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
 
-.navigation--primary .inline-list > .inline-list__item {
-    margin-left: 1em;
-    padding: 0;
-    display: inline-block;
+    .inline-list__item {
+        display: inline-block;
+        margin-left: 1em;
+        padding: 0;
+    }
 }

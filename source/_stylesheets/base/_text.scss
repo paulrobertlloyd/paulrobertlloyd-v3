@@ -13,21 +13,23 @@ small {
     font-size: 80%;
 }
 
-:lang(en-gb)>q {
+:lang(en-gb) > q {
 /*  Set consistent quote types */
-    quotes: "\2018" "\2019" "\201c" "\201d";
+    quotes: '\2018' '\2019' '\201c' '\201d';
 }
 
 dfn {
 /*  Address styling not present in Safari 5 and Chrome */
     font-style: italic;
 }
+
 abbr {
-    font-feature-settings: "c2sc" 1;
+    font-feature-settings: 'c2sc' 1;
 }
+
 abbr[title]:hover {
 /*  Address styling not present in IE 8/9, Safari 5, and Chrome */
-    border-bottom: 1px dotted $c_neutral-5;
+    border-bottom: 1px dotted $c__neutral-5;
     cursor: help;
 }
 
@@ -35,39 +37,43 @@ pre,
 code,
 kbd,
 samp {
-    font-family: $f_monospace;
+    font-family: $f__monospace;
 }
+
 code {
     color: #000080;
 }
+
 pre code {
     background-color: transparent;
     padding: 0;
 }
 
 kbd {
+    margin: 0 0.25rem; /* 0 4px */
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem; /* 4px */
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 0.125rem 0.5rem; /* 4px 8px */
+    line-height: 1.1429; /* 16px */
     font-family: inherit;
     font-size: 0.875em; /* 14px */
-    line-height: 1.1429; /* 16px */
-    background-color: #fff;
-    margin: 0 0.25rem; /* 0 4px */
-    border: 1px solid rgba(0,0,0,0.25);
-    border-radius: 0.25rem; /* 4px */
-    padding: 0.125rem 0.5rem; /* 4px 8px */
-    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
 }
 
 sub,
 sup {
-/*  Prevent `sub` and `sup` affecting `line-height` in all browsers */
-    font-size: 75%;
-    line-height: 0;
     position: relative;
     vertical-align: baseline;
-    }
-    sub {
-        bottom: -0.25em;
-    }
-    sup {
-        top: -0.5em;
-    }
+/*  Prevent `sub` and `sup` affecting `line-height` in all browsers */
+    line-height: 0;
+    font-size: 75%;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}

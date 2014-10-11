@@ -2,10 +2,10 @@
    Buttons
    ========================================================================== */
 .button {
-    color: $c_neutral-8;
-    font-family: $f_sans-serif;
-    background-color: $c_accent-light;
+    display: block;
+    background-color: $c__accent-light;
     background-image: none;
     padding: 0.5em;
-    display: block;
+    color: $c__neutral-8;
+    font-family: $f__sans-serif;
 }

@@ -2,29 +2,38 @@
     Grouping content
     http://developers.whatwg.org/grouping-content.html
     ========================================================================= */
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
+    margin: 0 0 0.75em; /* 0 0 12px */
     orphans: 3;
     widows: 3;
-    margin: 0 0 0.75em 0; /* 0 0 12px 0 */
 }
 
 pre {
-    font-size: 0.875em; /* 14px */
-    line-height: 1.4286; /* 20px */
-    white-space: pre;
-    tab-size: 4;
-    hyphens: none;
     margin: 0 -0.5em 1.5em;
     padding: 0 0.5em;
     overflow: auto;
+    line-height: 1.4286; /* 20px */
+    white-space: pre;
+    font-size: 0.875em; /* 14px */
+    hyphens: none;
+    tab-size: 4;
 }
 
 blockquote {
-    color: $c_neutral-3;
-    font-family: $f_sans-serif;
-    border-left: 0.25rem solid $c_neutral-7;
+    border-left: 0.25rem solid $c__neutral-7;
     padding-left: 0.875rem; /* 14px */
+    color: $c__neutral-3;
+    font-family: $f__sans-serif;
 }
+
 @media print {
     blockquote {
         page-break-inside: avoid;
@@ -32,16 +41,17 @@ blockquote {
 }
 
 ol {
+    padding: 0;
     list-style-position: inside;
     list-style-type: decimal;
-    padding: 0;
 }
 
 ul {
+    padding: 0;
     list-style-position: inside;
     list-style-type: square;
-    padding: 0;
 }
+
 @media screen and (min-width: 45em) {
     ol,
     ul {
@@ -49,17 +59,13 @@ ul {
     }
 }
 
-ul li li {
-    list-style-type: circle;
-}
-
 nav ul {
-    list-style-type: none;
     margin: 0;
+    list-style-type: none;
 }
 
 dt {
-    font-family: $f_sans-serif;
+    font-family: $f__sans-serif;
     font-weight: 700;
 }
 
@@ -76,15 +82,13 @@ dd > * {
 figure {
     margin-bottom: 1.5em; /* 24px */
 }
-figure img {
-    max-width: 100%;
-}
+
 figcaption {
-    color: $c_neutral-3;
-    font-size: 0.875em; /* 14px */
-    line-height: 1.4286; /* 20px */
-    border-bottom: 1px solid $c_neutral-7;
-    padding: 0.5714em 0; /* 8px 0 */
     display: block;
     clear: left;
+    border-bottom: 1px solid $c__neutral-7;
+    padding: 0.5714em 0; /* 8px 0 */
+    line-height: 1.4286; /* 20px */
+    color: $c__neutral-3;
+    font-size: 0.875em; /* 14px */
 }
