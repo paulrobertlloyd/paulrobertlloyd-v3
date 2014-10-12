@@ -7,9 +7,8 @@ title: Academic Essays
         <h1 class="index__title">{{ page.title }}</h1>
     </header>
 
-    {% for summary in site.pages | sort: 'date' %}
-        {% if summary.layout == 'essay' and summary.chapter-title == null %}
-            {% include sections/summary.html %}
-        {% endif %}
+    {% assign pages = site.pages | where: 'layout', 'essay' | where: 'chapter-title', null | sort: 'date' %}
+    {% for summary in pages reversed %}
+        {% include sections/summary.html %}
     {% endfor %}
 </section>
