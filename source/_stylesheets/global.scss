@@ -1,8 +1,8 @@
 @import 'helpers/_vars';
-@import 'helpers/_reset';
 
-// Base styles and normalisations
+// Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
+@import 'base/_reset';
 @import 'base/_sections';
 @import 'base/_grouping';
 @import 'base/_text';
@@ -24,8 +24,8 @@
 @import 'utilities/_pull';
 
 // Navigation
-@import 'navigation/_pages';
-@import 'navigation/_primary';
+//@import 'navigation/_pages';
+//@import 'navigation/_primary';
 
 // Content
 @import 'content/_chart';
@@ -33,12 +33,12 @@
 @import 'content/_rating';
 
 // Sections
-@import 'sections/_remark';
+//@import 'sections/_remark';
 
 // Structure
-@import 'structure/_banner';
-@import 'structure/_contentinfo';
+//@import 'structure/_banner';
+//@import 'structure/_contentinfo';
 
 // JS enhancements
-@import 'js/_embed';
-@import 'js/_search';
+//@import 'js/_embed';
+//@import 'js/_search';
