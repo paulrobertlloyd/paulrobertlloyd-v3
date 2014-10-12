@@ -1,21 +1,3 @@
 /*  =========================================================================
     Primary navigation
     ========================================================================= */
-.navigation--primary {
-    position: absolute;
-    top: 2em;
-    right: 0;
-    left: 0;
-    text-align: right;
-
-    .list--inline {
-        margin-right: 1em;
-        margin-left: 1em;
-    }
-
-    .list__item {
-        display: inline-block;
-        margin-left: 1em;
-        padding: 0;
-    }
-}

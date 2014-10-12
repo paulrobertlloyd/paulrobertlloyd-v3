@@ -2,17 +2,61 @@
     Prose
     ========================================================================= */
 .prose {
-    padding-bottom: 2em;
-    line-height: 1.75; /* 28px */
-    font-family: $f__serif;
+    @extend %fs--3;
+    @include ff--serif(400);
     font-feature-settings: 'liga', 'dlig', 'onum';
+
+    h1 {
+        @extend %fs--1;
+        @include ff--sans-serif(300);
+    
+    }
+
+    h2 {
+        @extend %fs--2;
+        @include ff--sans-serif(400);
+        text-rendering: optimizeLegibility;
+    }
+
+    h3 {
+        @extend %fs--3;
+        @include ff--serif(700);
+        text-rendering: optimizeLegibility;
+    }
+
+    h4 {
+        @extend %fs--3;
+        @include ff--sans-serif(400);
+        text-rendering: optimizeLegibility;
+    }
+
+    h5 {
+        @extend %fs--4;
+        @include ff--sans-serif(400);
+        text-rendering: optimizeLegibility;
+    }
+
+    h6 {
+        @extend %fs--5;
+        @include ff--sans-serif(400);
+        text-transform: uppercase;
+        text-rendering: optimizeLegibility;
+    }
+
+    figcaption {
+        @extend %fs--5;
+        @include ff--sans-serif(400);
+        display: block;
+        clear: left;
+        color: $c__neutral-3;
+    }
 
     strong {
         font-family: $f__sans-serif;
     }
 
     a {
-        background-image: linear-gradient(to left, lighten($c__link, 25%), lighten($c__link, 25%));
+        background-image: linear-gradient(to left, rgba($c__link, 0.2), rgba($c__link, 0.2));
         background-repeat: repeat-x;
         background-position: 0 1.15em;
         background-size: 1px 1px;
@@ -20,11 +64,11 @@
 
         &:active,
         &:hover {
-            background-image: linear-gradient(to left, lighten($c__link-hover, 25%), lighten($c__link-hover, 25%));
+            background-image: linear-gradient(to left, rgba($c__link-hover, 0.2), rgba($c__link-hover, 0.2));
         }
 
         &:active {
-            background-image: linear-gradient(to left, lighten($c__link-active, 25%), lighten($c__link-active, 25%));
+            background-image: linear-gradient(to left, rgba($c__link-active, 0.2), rgba($c__link-active, 0.2));
         }
     }
 
@@ -32,22 +76,5 @@
         letter-spacing: 0.0625rem; /* 1px */
         font-size: 90%;
         font-feature-settings: 'c2sc' 1;
-    }
-}
-
-@media screen and (min-width: 45em) {
-    .prose {
-        line-height: 1.4; /* 28px */
-        font-size: 1.25em; /* 20px */
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-    }
-
-    .prose figcaption,
-    .prose caption,
-    .prose .footnotes {
-        line-height: 1.25; /* 20px */
-        font-family: $f__sans-serif;
-        font-size: 1rem; /* 16px */
     }
 }

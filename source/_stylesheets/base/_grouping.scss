@@ -28,9 +28,10 @@ pre {
 }
 
 blockquote {
-    border-left: 0.25rem solid $c__neutral-7;
-    padding-left: 0.875rem; /* 14px */
-    color: $c__neutral-3;
+    margin-left: -1.0625rem;
+    border-left: 0.0625rem solid $c__accent-light; // 1px
+    padding-left: 1rem; // 16px
+    color: $c__neutral-4;
     font-family: $f__sans-serif;
 }
 
@@ -65,7 +66,6 @@ nav ul {
 }
 
 dt {
-    font-family: $f__sans-serif;
     font-weight: 700;
 }
 
@@ -77,18 +77,4 @@ dd {
 li > *,
 dd > * {
     margin-top: 0;
-}
-
-figure {
-    margin-bottom: 1.5em; /* 24px */
-}
-
-figcaption {
-    display: block;
-    clear: left;
-    border-bottom: 1px solid $c__neutral-7;
-    padding: 0.5714em 0; /* 8px 0 */
-    line-height: 1.4286; /* 20px */
-    color: $c__neutral-3;
-    font-size: 0.875em; /* 14px */
 }

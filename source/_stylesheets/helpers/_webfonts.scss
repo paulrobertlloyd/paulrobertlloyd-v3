@@ -1,0 +1,43 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2900353, 2014-10-12T17:16:55-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: CharterITCStd-Regular by ITC
+ * URL: http://www.myfonts.com/fonts/itc/charter/std-regular/
+ * 
+ * Webfont: CharterITCStd-Italic by ITC
+ * URL: http://www.myfonts.com/fonts/itc/charter/std-regular-italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2900353
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright 1999, 2005 International Typeface Corporation. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url('//hello.myfonts.net/count/2c4181');
+
+@font-face {
+    font-family: 'Charter ITC Std';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/assets/fonts/2C4181_0_0.eot');
+    src: url('/assets/fonts/2C4181_0_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/2C4181_0_0.woff') format('woff'), url('/assets/fonts/2C4181_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Charter ITC Std';
+    font-weight: normal;
+    font-style: italic;
+    src: url('/assets/fonts/2C4181_1_0.eot');
+    src: url('/assets/fonts/2C4181_1_0.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/2C4181_1_0.woff') format('woff'), url('/assets/fonts/2C4181_1_0.ttf') format('truetype');
+}

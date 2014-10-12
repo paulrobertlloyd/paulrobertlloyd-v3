@@ -16,6 +16,7 @@ group :development do
   gem 'guard-livereload'
   gem 'guard-sass'
   gem 'guard-shell'
+  gem 'guard-rake'
 end
 
 # Rake (for task management)
@@ -29,4 +30,5 @@ gem 'jekyll-sitemap'
 gem 'typogruby'
 gem 'nokogiri'
 gem 'uglifier'
+gem 'autoprefixer-rails'
 gem 'scss-lint'

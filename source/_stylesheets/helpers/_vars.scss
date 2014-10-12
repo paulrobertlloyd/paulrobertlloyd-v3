@@ -15,9 +15,9 @@ $c__neutral-6: #ccc;
 $c__neutral-7: #eee;
 $c__neutral-8: #fff;
 
-$c__link: #25d;
-$c__link-hover: #52d;
-$c__link-active: #d25;
+$c__link: #170880;
+$c__link-hover: lighten($c__link, 20%);
+$c__link-active: #800817;
 
 // Fonts
 $f__serif: "Charter", serif;
