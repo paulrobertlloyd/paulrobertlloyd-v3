@@ -10,12 +10,11 @@ table {
 }
 
 caption {
+    @extend %fs--5;
     margin: 1rem 0 1rem 0.5rem; /* 16px 0 16px 8px */
     caption-side: bottom;
     text-align: left;
-    line-height: 1.1429; /* 16px */
     color: $c__neutral-4;
-    font-size: 0.875rem; /* 14px */
 }
 
 td,

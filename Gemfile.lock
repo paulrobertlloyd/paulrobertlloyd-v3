@@ -9,6 +9,8 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    autoprefixer-rails (3.1.1.20141001)
+      execjs
     blankslate (2.1.2.4)
     capistrano (3.2.1)
       i18n
@@ -54,6 +56,9 @@ GEM
       em-websocket (~> 0.5)
       guard (~> 2.0)
       multi_json (~> 1.8)
+    guard-rake (0.0.9)
+      guard
+      rake
     guard-sass (1.5.0)
       guard (>= 1.1.0)
       sass (>= 3.1)
@@ -168,6 +173,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   capistrano
   capistrano-bundler
   capistrano-npm
@@ -176,6 +182,7 @@ DEPENDENCIES
   guard-jekyll-plus!
   guard-jslint-on-rails
   guard-livereload
+  guard-rake
   guard-sass
   guard-shell
   jekyll

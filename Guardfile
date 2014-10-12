@@ -18,6 +18,11 @@ guard :shell do
   watch('config/lint/scss.yml')
 end
 
+# CSS Autoprefix https://github.com/ai/autoprefixer-rails
+guard :rake, :task => 'autoprefix' do
+  watch(%r{^public/.+\.css})
+end
+
 # JS Lint https://github.com/wireframe/guard-jslint-on-rails
 guard :'jslint-on-rails', :config => '/config/lint/js.yml' do
   watch(%r{^source/_javascripts/.+\.js})

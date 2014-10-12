@@ -17,31 +17,34 @@ layout: default
         {% if page.discussion %}
             {% capture page_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: ".markdown" }}{% endcapture %}
             {% capture remark_count %}{{ site.data.remarks.[page_id] | size }}{% endcapture %}
+            <section class="section section--remarks" id="remarks">
+                <h1 class="section__title">
+                    Remarks
+                </h1>
+                <details>
+                    <summary>
+                        <p>
+                            {% case remark_count %}
+                            {% when "0" %}
+                                No remarks yet.
+                            {% when "1" %}
+                                1 Remark.
+                            {% else %}
+                                {{ remark_count }} Remarks.
+                            {% endcase %}
+                            {% if page.discussion == "open" %}
+                                <a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are opn on this article</a>
+                            {% endif %}
+                        </p>
+                    </summary>
 
-            <details class="section section--remarks" id="remarks">
-                <summary>
-                    <h1 class="section__title">
-                    {% case remark_count %}
-                    {% when "0" %}
-                        Remarks
-                    {% when "1" %}
-                        1 Remark
-                    {% else %}
-                        {{ remark_count }} Remarks
-                    {% endcase %}
-                    </h1>
-
-                    {% if page.discussion == "open" %}
-                    <p><a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comment on this article</a></p>
+                    {% if remark_count >= "1" %}
+                        {% for remark in site.data.remarks.[page_id] reversed %}
+                            {% include sections/remark.html %}
+                        {% endfor %}
                     {% endif %}
-                </summary>
-
-                {% if remark_count >= "1" %}
-                    {% for remark in site.data.remarks.[page_id] reversed %}
-                        {% include sections/remark.html %}
-                    {% endfor %}
-                {% endif %}
-            </details>
+                </details>
+            </section>
         {% endif %}
 
         <footer class="article__footer">
