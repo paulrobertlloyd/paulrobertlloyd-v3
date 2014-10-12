@@ -88,7 +88,7 @@ hr {
     text-align: center;
     line-height: 0;
 
-    &::after {
+    &:after {
         display: block;
         margin: 0 auto;
         border-top: 1px solid $c__neutral-7;
