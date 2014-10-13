@@ -6,41 +6,30 @@
     @include ff--serif(400);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
-    h1 {
-        @extend %fs--1;
-        @include ff--sans-serif(300);
-    
-    }
-
     h2 {
         @extend %fs--2;
         @include ff--sans-serif(400);
-        text-rendering: optimizeLegibility;
     }
 
     h3 {
         @extend %fs--3;
         @include ff--serif(700);
-        text-rendering: optimizeLegibility;
     }
 
     h4 {
         @extend %fs--3;
         @include ff--sans-serif(400);
-        text-rendering: optimizeLegibility;
     }
 
     h5 {
         @extend %fs--4;
         @include ff--sans-serif(400);
-        text-rendering: optimizeLegibility;
     }
 
     h6 {
         @extend %fs--5;
         @include ff--sans-serif(400);
         text-transform: uppercase;
-        text-rendering: optimizeLegibility;
     }
 
     figcaption {
@@ -58,17 +47,17 @@
     a {
         background-image: linear-gradient(to left, rgba($c__link, 0.2), rgba($c__link, 0.2));
         background-repeat: repeat-x;
-        background-position: 0 1.15em;
+        background-position: 0 1.0625em;
         background-size: 1px 1px;
         text-shadow: 2px 0 0 $c__neutral-8, -2px 0 0 $c__neutral-8;
 
         &:active,
         &:hover {
-            background-image: linear-gradient(to left, rgba($c__link-hover, 0.2), rgba($c__link-hover, 0.2));
+            background-image: linear-gradient(to left, rgba($c__link-hover, 0.4), rgba($c__link-hover, 0.4));
         }
 
         &:active {
-            background-image: linear-gradient(to left, rgba($c__link-active, 0.2), rgba($c__link-active, 0.2));
+            background-image: linear-gradient(to left, rgba($c__link-active, 0.4), rgba($c__link-active, 0.4));
         }
     }
 

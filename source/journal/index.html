@@ -1,29 +1,23 @@
 ---
-layout: default
+layout: index
 title: Journal
 ---
-<section class="index index--journal">
-    <header class="index__header">
-        <h1 class="index__title">{{ page.title }}</h1>
-    </header>
+{% for summary in paginator.posts %}
+    {% include articles/summary.html %}
+{% endfor %}
 
-    {% for summary in paginator.posts %}
-        {% include sections/summary.html %}
-    {% endfor %}
+<nav class="navigation navigation--pages">
+{% if paginator.next_page %}
+    <a class="navigation__item navigation__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
+        <span class="navigation__item__label">Older</span>
+    </a>
+{% endif %}
 
-    <nav class="navigation navigation--pages">
-    {% if paginator.next_page %}
-        <a class="navigation__item navigation__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
-            <span class="navigation__item__label">Older</span>
-        </a>
-    {% endif %}
+{% if paginator.previous_page %}
+    <a class="navigation__item navigation__item--next" rel="next" href="{{ paginator.previous_page_path }}">
+        <span class="navigation__item__label">Newer</span>
+    </a>
+{% endif %}
+</nav>
 
-    {% if paginator.previous_page %}
-        <a class="navigation__item navigation__item--next" rel="next" href="{{ paginator.previous_page_path }}">
-            <span class="navigation__item__label">Newer</span>
-        </a>
-    {% endif %}
-    </nav>
-
-    {% include forms/search.html %}
-</section>
+{% include forms/search.html %}

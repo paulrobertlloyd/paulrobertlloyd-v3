@@ -2,12 +2,12 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="article article--link">
+    <article class="article article--link  h-entry">
         <header class="article__header">
-            <h1 class="article__title">{{ page.title | smart }}</h1>
+            <h1 class="article__title  p-name">{{ page.title | smart }}</h1>
         </header>
 
-        <div class="article__main prose">
+        <div class="article__main prose  e-content">
             {% if page.embed %}{% embed {{ page.link }} %}{% endif %}
 
             {{ content | widont }}
@@ -16,7 +16,7 @@ layout: default
         </div>
 
         <footer class="article__footer">
-            <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+            <time class="article__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
         </footer>
     </article>
 

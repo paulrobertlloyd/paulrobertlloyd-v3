@@ -1,11 +1,11 @@
-<section class="section section--projects" aria-labelledby="featured-projects">
+<section class="section section--featured-projects" aria-labelledby="featured-projects">
     <h1 class="section__title" id="featured-projects">Featured Projects</h1>
 
-    <ul class="list grid grid--projects">
+    <ul class="list">
     {% for summary in site.categories.projects | sort: 'date' %}
         {% if summary.featured == true %}
-        <li class="list__item grid__item">
-            {% include sections/summary.html %}
+        <li class="list__item">
+            {% include articles/summary.html %}
         </li>
         {% endif %}
     {% endfor %}

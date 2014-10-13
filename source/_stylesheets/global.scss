@@ -36,8 +36,12 @@
 @import 'content/_language';
 @import 'content/_rating';
 
+// Articles
+@import 'articles/_remark';
+@import 'articles/_summary';
+
 // Sections
-@import 'sections/_remark';
+@import 'sections/_section';
 
 // Structure
 @import 'structure/_banner';

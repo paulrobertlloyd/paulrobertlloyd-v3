@@ -1,0 +1,31 @@
+<section class="section section--discussion" aria-labelledby="discussion">
+    <h1 class="section__title" id="discussion">Discussion</h1>
+
+    <details class="remarks">
+        {% capture page_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: ".markdown" }}{% endcapture %}
+        {% capture remark_count %}{{ site.data.remarks.[page_id] | size }}{% endcapture %}
+        <summary class="remarks__title">
+            <p>
+                {% case remark_count %}
+                {% when "0" %}
+                    No remarks yet.
+                {% when "1" %}
+                    1 Remark.
+                {% else %}
+                    {{ remark_count }} Remarks.
+                {% endcase %}
+                {% if page.discussion == "open" %}
+                    <a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are opn on this article</a>
+                {% endif %}
+            </p>
+        </summary>
+
+        <div class="remarks__main">
+            {% if remark_count >= "1" %}
+                {% for remark in site.data.remarks.[page_id] reversed %}
+                    {% include articles/remark.html %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </details>
+</section>

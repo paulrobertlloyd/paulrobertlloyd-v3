@@ -1,4 +1,4 @@
-<article class="remark{% if remark.gravatar == '15091a37bacfa4bdd011282627eaca2b' %} author{% endif %}" id="remark-{{ forloop.rindex }}">
+<article class="remark{% if remark.gravatar == '15091a37bacfa4bdd011282627eaca2b' %} remark--author{% endif %}" id="remark-{{ forloop.rindex }}">
     <header class="remark__header">
         {% if remark.url %}
         <h1 class="remark__title"><a class="remark__author" href="{{ remark.url }}">{{ remark.author }}<img class="pull-left" src="https://gravatar.com/avatar/{{ remark.gravatar }}?s=128" width="64" height="64" alt=""/></a></h1>

@@ -16,10 +16,11 @@ In my spare time I can be found working on side projects (I'm currently digitisi
 
 On this site I write about what crosses my mind. Topics include [brand identity][8], [web design and development][9], [travel][9] and [politics][10]. Less considered thoughts can be found on [Twitter][11], while works in progress can be found on [Dribbble][12] and [GitHub][13].
 
-<div class="grid grid--elsewhere">
-    {% include sections/articles.html %}
-    {% include sections/presentations.html %}
-</div>
+## Writing
+{% include content/articles.html %}
+
+## Speaking
+{% include content/presentations.html %}
 
 [1]: http://www.theguardian.com/uk
 [2]: http://clearleft.com/

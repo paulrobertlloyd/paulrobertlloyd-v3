@@ -5,7 +5,7 @@
     {% for summary in site.categories.projects | sort: 'date' %}
         {% if summary.featured != true %}
         <li class="list__item">
-            {% include sections/summary.html %}
+            {% include articles/summary.html %}
         </li>
         {% endif %}
     {% endfor %}

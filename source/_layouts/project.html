@@ -2,12 +2,12 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="article article--project">
+    <article class="article article--project  h-entry">
         <header class="article__header">
-            <h1 class="article__title">{{ page.title | smart }}</h1>
+            <h1 class="article__title  p-name">{{ page.title | smart }}</h1>
         </header>
 
-        <div class="article__main prose">
+        <div class="article__main prose  e-content">
             {{ content | widont }}
         </div>
 

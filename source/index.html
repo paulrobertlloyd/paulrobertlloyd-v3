@@ -1,20 +1,13 @@
 ---
-layout: default
+layout: index
 template: home
 title: Home
 ---
-<section class="index index--home">
-    <header class="index__header">
-        <h1 class="index__title">{{ page.title }}</h1>
-        <h2>Build: {{ site.time }}</h2>
-    </header>
-
-    <ol class="list" reversed>
-    {% for post in site.posts %}
-        <li class="list__item">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
-            <a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a>
-        </li>
-    {% endfor %}
-    </ol>
-</section>
+<ol class="list" reversed>
+{% for post in site.posts %}
+    <li class="list__item">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
+        <a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ol>
