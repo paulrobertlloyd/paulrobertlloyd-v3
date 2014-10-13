@@ -2,23 +2,27 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="article article--link  h-entry">
-        <header class="article__header">
-            <h1 class="article__title  p-name">{{ page.title | smart }}</h1>
+    <article class="post article--link  h-entry">
+        <header class="post__header">
+            <h1 class="post__title  p-name">{{ page.title | smart }}</h1>
         </header>
 
-        <div class="article__main prose  e-content">
+        <div class="post__main prose  e-content">
             {% if page.embed %}{% embed {{ page.link }} %}{% endif %}
 
             {{ content | widont }}
-
-            {% if page.embed == null %}<p><a class="button" href="{{ page.link }}">Visit this link</a></p>{% endif %}
         </div>
 
-        <footer class="article__footer">
-            <time class="article__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+        {% if page.embed == null %}
+        <aside class="post__aside">
+            <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
+        </aside>
+        {% endif %}
+
+        <footer class="post__footer">
+            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
         </footer>
     </article>
 
-    {% include navigation/pages.html %}
+    {% include navigation/pages--post.html %}
 </main>

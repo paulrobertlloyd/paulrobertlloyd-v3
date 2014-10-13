@@ -1,7 +1,7 @@
 /*  =========================================================================
-    Section
+    Section index
     ========================================================================= */
-.section__title {
-    @extend %fs--2;
-    @include ff--sans-serif(400);
+.index__title {
+    @extend %fs--1;
+    @include ff--sans-serif(200);
 }

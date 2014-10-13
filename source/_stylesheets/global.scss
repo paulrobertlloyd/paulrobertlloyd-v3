@@ -37,10 +37,13 @@
 @import 'content/_rating';
 
 // Articles
+@import 'articles/_page';
+@import 'articles/_post';
 @import 'articles/_remark';
 @import 'articles/_summary';
 
 // Sections
+@import 'sections/_index';
 @import 'sections/_section';
 
 // Structure
