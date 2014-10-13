@@ -2,22 +2,22 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="article article--project  h-entry">
-        <header class="article__header">
-            <h1 class="article__title  p-name">{{ page.title | smart }}</h1>
+    <article class="post post--project  h-entry">
+        <header class="post__header">
+            <h1 class="post__title  p-name">{{ page.title | smart }}</h1>
         </header>
 
-        <div class="article__main prose  e-content">
+        <div class="post__main prose  e-content">
             {{ content | widont }}
         </div>
 
         {% if page.project-info %}
-        <aside class="article__aside">
+        <aside class="post__aside">
             <h1 class="u--hidden">Project summary</h1>
             {% include content/project-info.html %}
         </aside>
         {% endif %}
     </article>
 
-    {% include navigation/pages.html %}
+    {% include navigation/pages--post.html %}
 </main>

@@ -1,0 +1,15 @@
+<nav class="navigation navigation--pages" aria-labelledby="pagination">
+    <h1 class="navigation__title u--hidden" id="pagination">Browse</h1>
+
+    {% if paginator.next_page %}
+    <a class="navigation__item navigation__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
+        <span class="navigation__item__label">Older</span>
+    </a>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+    <a class="navigation__item navigation__item--next" rel="next" href="{{ paginator.previous_page_path }}">
+        <span class="navigation__item__label">Newer</span>
+    </a>
+    {% endif %}
+</nav>

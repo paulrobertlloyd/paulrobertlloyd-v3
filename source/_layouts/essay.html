@@ -2,13 +2,13 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="article article--essay  h-entry">
-        <header class="article__header">
-            <h1 class="article__title  p-name">{{ page.title | smart }}</h1>
-            {% if page.chapter-title %}<h2 class="article__subtitle">{{ page.chapter-title }}</h2>{% endif %}
+    <article class="page page--essay  h-entry">
+        <header class="page__header">
+            <h1 class="page__title  p-name">{{ page.title | smart }}</h1>
+            {% if page.chapter-title %}<h2 class="page__subtitle">{{ page.chapter-title }}</h2>{% endif %}
         </header>
 
-        <div class="article__main prose  e-content">
+        <div class="page__main prose  e-content">
             {{ content | widont }}
         </div>
 
@@ -16,8 +16,8 @@ layout: default
             {% include navigation/chapters.html %}
         {% endif %}
 
-        <footer class="article__footer">
-            <time class="article__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+        <footer class="page__footer">
+            <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
         </footer>
     </article>
 </main>

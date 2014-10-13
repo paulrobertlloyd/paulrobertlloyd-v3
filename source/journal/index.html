@@ -6,18 +6,6 @@ title: Journal
     {% include articles/summary.html %}
 {% endfor %}
 
-<nav class="navigation navigation--pages">
-{% if paginator.next_page %}
-    <a class="navigation__item navigation__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
-        <span class="navigation__item__label">Older</span>
-    </a>
-{% endif %}
-
-{% if paginator.previous_page %}
-    <a class="navigation__item navigation__item--next" rel="next" href="{{ paginator.previous_page_path }}">
-        <span class="navigation__item__label">Newer</span>
-    </a>
-{% endif %}
-</nav>
+{% include navigation/pages--index.html %}
 
 {% include forms/search.html %}

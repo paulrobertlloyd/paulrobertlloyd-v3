@@ -2,12 +2,12 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="article article--entry  h-entry">
-        <header class="article__header">
-            <h1 class="article__title  p-name">{{ page.title | smart | widot }}</h1>
+    <article class="post post--entry  h-entry">
+        <header class="post__header">
+            <h1 class="post__title  p-name">{{ page.title | smart | widot }}</h1>
         </header>
 
-        <div class="article__main prose  e-content">
+        <div class="post__main prose  e-content">
             {{ content | widont }}
         </div>
 
@@ -19,10 +19,10 @@ layout: default
             {% include sections/discussion.html %}
         {% endif %}
 
-        <footer class="article__footer">
-            <time class="article__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+        <footer class="post__footer">
+            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
         </footer>
     </article>
 
-    {% include navigation/pages.html %}
+    {% include navigation/pages--post.html %}
 </main>
