@@ -16,7 +16,6 @@ group :development do
   gem 'guard-livereload'
   gem 'guard-sass'
   gem 'guard-shell'
-  gem 'guard-rake'
 end
 
 # Rake (for task management)

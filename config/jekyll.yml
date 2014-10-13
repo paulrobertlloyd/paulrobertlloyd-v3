@@ -41,8 +41,9 @@ jekyll-archives:
     tag: /tags/:name.html
 
 # Syntax highlighting
+# https://github.com/mvdbos/kramdown-with-pygments
 highlighter: pygments
-markdown_ext: foo
+markdown: KramdownPygments
 
 # Publishing
 source: ./source
