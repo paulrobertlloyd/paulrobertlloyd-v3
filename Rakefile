@@ -17,21 +17,6 @@ task :clean do |t|
 end
 
 
-desc "Autoprefix CSS (required by Guardfile)"
-task :autoprefix do |stylesheet|
-  require "autoprefixer-rails"
-
-  FileList.new('public/**/*.css').each do |path|
-    #puts path
-    content = File.open(path, 'r+:utf-8').read
-    #puts content
-    File.open(path, 'w') do |file|
-      prefixed = AutoprefixerRails.process(content)
-      file.write(prefixed)
-    end
-  end
-end
-
 desc "Regenerate the website files and place them into destination"
 task :'dev-build' do
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --trace"

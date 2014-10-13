@@ -23,10 +23,6 @@ dfn {
     font-style: italic;
 }
 
-abbr {
-    font-feature-settings: 'c2sc' 1;
-}
-
 abbr[title]:hover {
 /*  Address styling not present in IE 8/9, Safari 5, and Chrome */
     border-bottom: 1px dotted $c__neutral-5;
