@@ -2,11 +2,8 @@
     Content Info
     ========================================================================= */
 .contentinfo {
-    display: none;
-    margin-right: -1em;
-    margin-left: -1em;
-    background-color: $c__neutral-7;
-    padding: 1em;
+    border-top: 1px solid $c__neutral-7;
+    padding: 2em 0;
 
     small {
         font-size: 1em;

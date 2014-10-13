@@ -1,19 +1,11 @@
 ---
-layout: default
+layout: index
 title: Tags
 permalink: /tags/
 ---
-<main class="main" role="main">
-    <section class="index index--tags">
-        <header class="index__header">
-            <h1 class="index__title">{{ page.title }}</h1>
-        </header>
-
-        {% assign tags = site.tags | sort %}
-        <ol class="list list--inline">
-        {% for tag in tags %}
-            <li class="list__item"><a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
-        {% endfor %}
-        </ol>
-    </section>
-</main>
+{% assign tags = site.tags | sort %}
+<ol class="list list--inline">
+{% for tag in tags %}
+    <li class="list__item"><a href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
+{% endfor %}
+</ol>

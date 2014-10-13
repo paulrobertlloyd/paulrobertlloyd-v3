@@ -2,53 +2,25 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="article article--entry">
+    <article class="article article--entry  h-entry">
         <header class="article__header">
-            <h1 class="article__title">{{ page.title | smart | widot }}</h1>
+            <h1 class="article__title  p-name">{{ page.title | smart | widot }}</h1>
         </header>
 
-        <div class="article__main prose">
+        <div class="article__main prose  e-content">
             {{ content | widont }}
         </div>
 
         {% include sections/tags.html %}
+
         {% include sections/related.html %}
 
         {% if page.discussion %}
-            {% capture page_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: ".markdown" }}{% endcapture %}
-            {% capture remark_count %}{{ site.data.remarks.[page_id] | size }}{% endcapture %}
-            <section class="section section--remarks" id="remarks">
-                <h1 class="section__title">
-                    Remarks
-                </h1>
-                <details>
-                    <summary>
-                        <p>
-                            {% case remark_count %}
-                            {% when "0" %}
-                                No remarks yet.
-                            {% when "1" %}
-                                1 Remark.
-                            {% else %}
-                                {{ remark_count }} Remarks.
-                            {% endcase %}
-                            {% if page.discussion == "open" %}
-                                <a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are opn on this article</a>
-                            {% endif %}
-                        </p>
-                    </summary>
-
-                    {% if remark_count >= "1" %}
-                        {% for remark in site.data.remarks.[page_id] reversed %}
-                            {% include sections/remark.html %}
-                        {% endfor %}
-                    {% endif %}
-                </details>
-            </section>
+            {% include sections/discussion.html %}
         {% endif %}
 
         <footer class="article__footer">
-            <time class="article__pubdate" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+            <time class="article__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
         </footer>
     </article>
 

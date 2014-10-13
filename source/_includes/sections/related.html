@@ -1,10 +1,10 @@
 <section class="section section--related" aria-labelledby="related">
     <h1 class="section__title" id="related">Related Posts</h1>
 
-    <ul class="list grid grid--related">
+    <ul class="list">
     {% for summary in site.related_posts limit:3 %}
-        <li class="list__item grid__item">
-            {% include sections/summary.html %}
+        <li class="list__item">
+            {% include articles/summary.html %}
         </li>
     {% endfor %}
     </ul>

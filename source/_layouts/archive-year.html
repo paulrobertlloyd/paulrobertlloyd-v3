@@ -16,22 +16,24 @@ template: archive-year
             {% capture next_month_name %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
             {% if forloop.first %}
-            <h2><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h2>
-            <ol class="list" reversed>
+            <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+                <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
+                <ol class="list" reversed>
             {% endif %}
 
-            {% if post.chapter-title == null %}
-                <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
-            {% endif %}
+                    <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
 
             {% if forloop.last %}
-            </ol>
+                </ol>
+            </section>
             {% else %}
                 {% if this_month != next_month %}
-            </ol>
+                </ol>
+            </section>
 
-            <h2><a href="/{{ this_year }}/{{ next_month }}/">{{ next_month_name }}</a></h2>
-            <ol class="list" reversed>
+            <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+                <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ next_month }}/">{{ next_month_name }}</a></h1>
+                <ol class="list" reversed>
                 {% endif %}
             {% endif %}
         {% endfor %}

@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: index
 title: Academic Essays
 ---
-<section class="index index--essays">
-    <header class="index__header">
-        <h1 class="index__title">{{ page.title }}</h1>
-    </header>
-
-    {% assign pages = site.pages | where: 'layout', 'essay' | where: 'chapter-title', null | sort: 'date' %}
-    {% for summary in pages reversed %}
-        {% include sections/summary.html %}
-    {% endfor %}
-</section>
+{% assign pages = site.pages | where: 'layout', 'essay' | where: 'chapter-title', null | sort: 'date' %}
+{% for summary in pages reversed %}
+    {% include articles/summary.html %}
+{% endfor %}
