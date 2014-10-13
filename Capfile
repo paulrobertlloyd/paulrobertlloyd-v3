@@ -10,8 +10,5 @@ require 'capistrano/rvm'
 # Includes Bundler specific tasks
 require 'capistrano/bundler'
 
-# Includes NPM specific tasks
-require 'capistrano/npm'
-
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
