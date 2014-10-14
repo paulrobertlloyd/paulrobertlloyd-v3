@@ -2,6 +2,7 @@
 layout: entry
 title: Inspiring Nobody
 date: '2012-05-03 11:49:26 +0100'
+location: Brighton, England
 excerpt: Rather than showcase British interactive design talent, the biggest cultural event of our generation has been represented online by an uninspired mess that flies the flag for the status quo.
 tags:
   - Design

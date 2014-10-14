@@ -2,6 +2,7 @@
 layout: entry
 title: Purge
 date: '2010-10-25 19:50:59 +0100'
+location: Brighton, England
 excerpt: A number of half-written posts have remained on my hard drive for so long that their incompleteness only serves to annoy me. So I've salvaged the pertinent bits and published them here.
 tags:
   - Blogging

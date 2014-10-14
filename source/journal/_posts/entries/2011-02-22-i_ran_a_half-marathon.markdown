@@ -2,6 +2,7 @@
 layout: entry
 title: I Ran a Half-Marathon
 date: '2011-02-22 00:39:28 +0000'
+location: Brighton, England
 excerpt: Last weekend I took part in the Brighton Half Marathon. With an official chip time of 2:31:27, had I not stopped twice to relieve myself, I would have completed it in under two and a half hours. That I ran the entire distance is what I'm most proud of however -- although the same can't be said of my non-existant training schedule prior to the event.
 tag:
   - Running

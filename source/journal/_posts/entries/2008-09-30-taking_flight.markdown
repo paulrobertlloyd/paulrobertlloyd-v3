@@ -2,6 +2,7 @@
 layout: entry
 title: Taking Flight
 date: '2008-09-30 09:34:24 +0100'
+location: Solihull, England
 excerpt: It's probably no coincidence that my return to blogging comes whilst sitting in the departure lounge of Birmingham International Airport.
 tags:
   - Site

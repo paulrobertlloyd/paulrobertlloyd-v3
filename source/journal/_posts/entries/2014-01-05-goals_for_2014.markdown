@@ -2,6 +2,7 @@
 layout: entry
 title: My Intention Is This
 date: '2014-01-05 19:51:27 +0000'
+location: Brighton, England
 excerpt: Goals, resolutions, call you what you will, here are a few ways I intend to become a better, more productive person this year.
 tags:
   - Personal

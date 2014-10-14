@@ -2,6 +2,7 @@
 layout: entry
 title: A Bomb in Littlehampton?
 date: '2009-02-15 23:14:53 +0000'
+location: Littlehampton, England
 excerpt: On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station.
 tags:
   - Personal

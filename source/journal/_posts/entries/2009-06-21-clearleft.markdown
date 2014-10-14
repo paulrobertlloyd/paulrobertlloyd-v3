@@ -2,6 +2,7 @@
 layout: entry
 title: Hello Clearleft
 date: '2009-06-21 17:30:00 +0100'
+location: Littlehampton, England
 excerpt: Continuing the trend of this blog documenting events that happened several weeks ago, this month saw me become the ninth member of the Brighton based web agency Clearleft.
 tags:
   - Personal

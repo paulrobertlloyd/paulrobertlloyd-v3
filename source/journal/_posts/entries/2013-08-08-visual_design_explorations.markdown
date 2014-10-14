@@ -2,6 +2,7 @@
 layout: entry
 title: Visual Design Explorations
 date: '2013-08-08 17:05:03 +0100'
+location: Brighton, England
 excerpt: Since Mikey joined us in February, the number of designers working at Clearleft is at an all time high. As the company grows, we want to maintain the same level of knowledge sharing and collaboration that happened more spontaneously with a smaller team.
 tags:
   - Web design and development

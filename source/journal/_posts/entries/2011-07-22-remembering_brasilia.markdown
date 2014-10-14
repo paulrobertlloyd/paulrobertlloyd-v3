@@ -2,6 +2,7 @@
 layout: entry
 title: Remembering Brasília
 date: '2011-07-22 22:31:56 +0100'
+location: Brighton, England
 excerpt: Somewhat forgotten in the last few months has been my thoughts on Brasília which I visited all the way back in March. For such an incredibly city it seems remiss not to record my thoughts before they fade into distint memory.
 tags:
   - Travel

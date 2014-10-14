@@ -21,6 +21,13 @@ layout: default
 
         <footer class="post__footer">
             <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+            {% if page.location %}
+                {% assign post_location = page.location | split:", " %}
+                <p class="post__location  p-location  h-adr">
+                    <span class="p-locality">{{ post_location[0] }}</span>,
+                    <span class="p-country-name">{{ post_location[1] }}</span>
+                </p>
+            {% endif %}
         </footer>
     </article>
 
