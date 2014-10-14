@@ -1,4 +1,8 @@
-// 56/56
+//  ============================================================================
+//  Typography helpers
+//  ============================================================================
+
+// Font sizes
 %fs--1 {
     margin: 0 0 2rem; // 0 0 32px
     text-rendering: optimizeLegibility;
@@ -7,7 +11,6 @@
     font-size: 3.5rem; // 56px
 }
 
-// 32/36
 %fs--2 {
     margin: 1.5rem 0 0.5rem; // 24px 0 8px
     text-rendering: optimizeLegibility;
@@ -15,28 +18,34 @@
     font-size: 1.5rem; // 24px
 }
 
-// 18/27
 %fs--3 {
     text-rendering: optimizeLegibility;
     line-height: 1.5; // 27px
     font-size: 1.125rem; // 18px
 }
 
-// 16/20
 %fs--4 {
     text-rendering: optimizeLegibility;
     line-height: 1.25; // 20px
     font-size: 1rem; // 16px
 }
 
-// 14/16
 %fs--5 {
     line-height: 1.1429; // 16px
     font-size: 0.875rem; // 14px
 }
 
-// 13/16
 %fs--6 {
     line-height: 1.2308; // 16px
     font-size: 0.8125rem; // 13px
+}
+
+// Small caps
+.caps,
+%c2sc {
+    font-feature-settings: 'c2sc' 1;
+}
+
+%smcp {
+    font-feature-settings: 'smcp' 1;
 }
