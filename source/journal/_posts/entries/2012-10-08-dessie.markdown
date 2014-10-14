@@ -2,6 +2,7 @@
 layout: entry
 title: Dessie
 date: '2012-10-08 19:56:32 +0100'
+location: Brighton, England
 excerpt: A page on my website, dedicated to a cat.
 tags:
   - Personal

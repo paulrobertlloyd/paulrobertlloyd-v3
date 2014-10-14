@@ -2,6 +2,7 @@
 layout: entry
 title: A European Adventure
 date: '2009-05-10 00:33:58 +0100'
+location: Littlehampton, England
 excerpt: After a number of years focusing my travels around big American cities, today I start a three week jaunt across Europe.
 tags:
   - Travel

@@ -2,6 +2,7 @@
 layout: entry
 title: Thoughts on Adobe Edge
 date: '2012-10-06 00:37:42 +0100'
+location: Brighton, England
 excerpt: Adobe recently announced a new suite a products and services for web developers, called Adobe Edge. .net Magazine asked me to provide some thoughts.
 tags:
   - Adobe

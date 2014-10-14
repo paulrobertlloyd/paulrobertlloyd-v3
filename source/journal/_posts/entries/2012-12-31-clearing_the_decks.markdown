@@ -2,6 +2,7 @@
 layout: entry
 title: Clearing the Decks
 date: '2012-12-31 20:00:00 +0000'
+location: Walsall, England
 excerpt: As the page turns on another year, just enough time to close the book on a few personal projects and responsibilities. In doing so, I hope to free up some time (and mind space) for new projects to be unveiled in the new year.
 tags:
   - Projects
