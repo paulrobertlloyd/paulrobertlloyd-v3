@@ -5,3 +5,19 @@
     @extend %fs--1;
     @include ff--sans-serif(200);
 }
+
+.post__main {
+    .post__location {
+        @include ff--sans-serif(400);
+        @extend %c2sc;
+        letter-spacing: 0.03125rem; // 0.5px
+        text-transform: uppercase;
+        color: $c__neutral-2;
+
+        &:after {
+            margin: 0 0.5rem 0 0.25rem; // 0 8px 0 4px
+            color: $c__neutral-5;
+            content: '\2022';
+        }
+    }
+}

@@ -1,12 +1,13 @@
+//= require shim/scopedQuerySelector
+
 (function (win, doc) {
     'use strict';
 
     var postLocation = doc.querySelector('.post__location'),
-        postStart = doc.querySelector('.post__main p:first-child');
+        postMain = doc.querySelector('.post__main'),
+        postStart = postMain.querySelector(':scope > p');
 
     if (postLocation) {
-        console.log(postLocation);
-        console.log(postStart);
-        postStart.insertBefore(postLocation);
+        postStart.insertBefore(postLocation, postStart.firstChild);
     }
 }(this, this.document));
