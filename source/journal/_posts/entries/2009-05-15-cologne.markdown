@@ -9,7 +9,6 @@ tags:
   - Germany
   - Cologne
 discussion: closed
-post_id: 2009-05-15-cologne
 ---
 ![Cologne](/assets/images/2009/05/cologne.jpg)
 

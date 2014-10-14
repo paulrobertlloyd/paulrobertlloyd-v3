@@ -15,7 +15,7 @@
                     {{ remark_count }} Remarks.
                 {% endcase %}
                 {% if page.discussion == "open" %}
-                    <a class="button" href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are opn on this article</a>
+                    <a href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
                 {% endif %}
             </p>
         </summary>

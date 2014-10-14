@@ -9,7 +9,6 @@ tags:
   - United States
   - Railways
 discussion: closed
-post_id: 2008-09-23-california_zephyr
 ---
 {% figure bleed "The landscape you travel across is one of the most scenic routes run by Amtrak" %}
 ![Colorado landscape as seen from on board the California Zephyr](/assets/images/2008/09/california_zephyr.jpg)

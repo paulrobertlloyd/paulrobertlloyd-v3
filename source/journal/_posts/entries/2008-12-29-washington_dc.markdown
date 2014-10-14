@@ -10,7 +10,6 @@ tags:
   - Washington, DC
   - United States
 discussion: closed
-post_id: 2008-12-29-washington_dc
 ---
 The final stop in my four-city tour of the US in October was Washington, DC I've spent a fair amount of time in the United States these past few years, so I thought it only appropriate to visit the nations capital, and see its iconic landmarks in the flesh.
 

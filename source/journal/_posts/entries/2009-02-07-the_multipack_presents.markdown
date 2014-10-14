@@ -7,7 +7,6 @@ tags:
   - Web design and development
   - Community
 discussion: closed
-post_id: 2009-02-07-the_multipack_presents
 ---
 This time last year the [Multipack][1] faced declining participation and confusion over dates and locations, yet our little community -- having brought together a diverse group of talented web-developers and designers -- was far too valuable to have disappear.
 

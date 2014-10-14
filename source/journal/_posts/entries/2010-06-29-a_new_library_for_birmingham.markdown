@@ -9,7 +9,6 @@ tags:
   - Birmingham Central Library
   - Library of Birmingham
 discussion: closed
-post_id: 2010-06-29-a_new_library_for_birmingham
 ---
 ![Artists impression of the new Library of Birmingham](/assets/images/2010/06/a_new_library_for_birmingham.jpg)
 

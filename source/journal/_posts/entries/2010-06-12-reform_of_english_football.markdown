@@ -10,7 +10,6 @@ tags:
   - England football team
   - World Cup 2010
 discussion: closed
-post_id: 2010-06-12-reform_of_english_football
 ---
 First a disclaimer. I don't follow football or support a team, but I have observed the politics and underhand business operations that have gone hand-in-hand with its operation since [researching them in 2001][1]. Back then I was a passionate fan of the national side, but poor performances on the pitch, and unsightly behaviour from fans on the streets, has pretty much turned me off the game entirely.
 

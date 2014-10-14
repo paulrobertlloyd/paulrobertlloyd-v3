@@ -8,7 +8,6 @@ tags:
   - Brand identity
   - Government
 discussion: closed
-post_id: 2009-09-28-a_cohesive_and_unified_identity_for_british_government
 ---
 *This article is [also available in Portuguese][br-pt].*
 

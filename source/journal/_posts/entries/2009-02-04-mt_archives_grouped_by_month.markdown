@@ -6,7 +6,6 @@ excerpt: I have been using Movable Type for a number of years, yet the template 
 tags:
   - Web design and development
 discussion: closed
-post_id: 2009-02-04-mt_archives_grouped_by_month
 ---
 I have been using Movable Type for a number of years, yet the template code required to present an archived list of entries, grouped by month has always evaded me. On many occassions I searched support forums and wikis looking for a solution the common concencus was that this was impossible to achieve without plug-ins and [complicated logic][1].
 

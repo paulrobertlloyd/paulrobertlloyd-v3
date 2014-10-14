@@ -8,7 +8,6 @@ tags:
   - User experience
   - Web design and development
 discussion: closed
-post_id: 2009-12-06-urls_matter
 ---
 The humble URL has been on my mind a lot recently. Through a series of developments, this simple means of addressing the wonders of the web has been obfuscated and abused, to the point that it's now seen as difficult to use and an affront to users.
 

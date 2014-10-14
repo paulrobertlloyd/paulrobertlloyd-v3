@@ -8,7 +8,6 @@ tags:
   - Responsive design
   - Responsive Summit
 discussion: closed
-post_id: 2012-02-26-responsive_summit
 ---
 ![Scene from Dr. Strangelove](/assets/images/2012/02/responsive_summit.jpg)
 

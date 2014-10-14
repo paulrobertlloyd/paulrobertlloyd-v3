@@ -27,14 +27,6 @@ pre {
     tab-size: 4;
 }
 
-blockquote {
-    margin-left: -1.0625rem;
-    border-left: 0.0625rem solid $c__accent-light; // 1px
-    padding-left: 1rem; // 16px
-    color: $c__neutral-4;
-    font-family: $f__sans-serif;
-}
-
 @media print {
     blockquote {
         page-break-inside: avoid;

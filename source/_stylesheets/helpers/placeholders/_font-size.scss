@@ -1,5 +1,6 @@
 // 56/56
 %fs--1 {
+    margin: 0 0 2rem; // 0 0 32px
     text-rendering: optimizeLegibility;
     line-height: 1; // 56px
     letter-spacing: -0.125rem; // 2px
@@ -8,6 +9,7 @@
 
 // 32/36
 %fs--2 {
+    margin: 1.5rem 0 0.5rem; // 24px 0 8px
     text-rendering: optimizeLegibility;
     line-height: 1.125; // 27px
     font-size: 1.5rem; // 24px

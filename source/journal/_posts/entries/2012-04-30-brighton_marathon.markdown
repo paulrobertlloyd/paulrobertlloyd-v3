@@ -9,7 +9,6 @@ tags:
   - Charity
   - Brighton Marathon
 discussion: closed
-post_id: 2012-04-30-brighton_marathon
 ---
 Although I spent much of April [writing a tutorial for .net Magazine][1], I did enjoy a brief respite while I ran the Brighton Marathon. Yep, it's been quite the month.
 

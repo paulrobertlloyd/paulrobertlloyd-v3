@@ -8,7 +8,6 @@ tags:
   - Bradshaw's Guide
   - Travel
 discussion: closed
-post_id: 2013-04-17-bradshaws_guide
 ---
 ![Bradshaw's Guide being viewed on an iPad](/assets/images/2013/04/bradshaws_guide.jpg)
 
