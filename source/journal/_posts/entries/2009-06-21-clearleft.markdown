@@ -7,7 +7,6 @@ tags:
   - Personal
   - Clearleft
 discussion: closed
-post_id: 2009-06-21-clearleft
 ---
 ![The Clearleft team](/assets/images/2009/06/clearleft.jpg)
 

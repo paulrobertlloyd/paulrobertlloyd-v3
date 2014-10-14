@@ -7,7 +7,6 @@ tags:
   - Design
   - Personal
 discussion: closed
-post_id: 2009-02-03-driven_to_design
 ---
 I'm surprised when I look at drawings I did when I was younger. Most often these were in the form of advertisements for cars, computer games and consoles, yet I would never consider working in advertising today.
 

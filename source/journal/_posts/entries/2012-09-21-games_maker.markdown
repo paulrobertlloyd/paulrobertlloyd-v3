@@ -9,7 +9,6 @@ tags:
   - London 2012
   - Volunteering
 discussion: closed
-post_id: 2012-09-21-games_maker
 ---
 ![Me as a Games Maker](/assets/images/2012/09/games_maker.jpg)
 

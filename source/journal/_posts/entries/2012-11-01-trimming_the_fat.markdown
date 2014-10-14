@@ -7,7 +7,6 @@ tags:
   - Web design and development
   - Web performance
 discussion: closed
-post_id: 2012-11-01-trimming_the_fat
 ---
 When I [unveiled][1] a new version of this site last year, I hoped the design would slowly evolve.
 

@@ -7,7 +7,6 @@ tags:
   - Personal
   - Littlehampton
 discussion: closed
-post_id: 2009-02-15-littlehampton_bomb
 ---
 ![Bomb scene in Littlehampton](/assets/images/2009/02/littlehampton_bomb.jpg)
 

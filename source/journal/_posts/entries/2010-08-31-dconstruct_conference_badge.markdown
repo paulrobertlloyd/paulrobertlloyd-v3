@@ -9,7 +9,6 @@ tags:
   - dConstruct
   - Sustainability
 discussion: closed
-post_id: 2010-08-31-dconstruct_conference_badge
 ---
 [Conferences can be quite wasteful affairs][1]. In addition to swag bags filled with magazines, leaflets and free gifts, there is often a programme detailing the schedule and providing some background on the speakers.
 

@@ -8,7 +8,6 @@ tags:
   - Sustainability
   - Technology
 discussion: closed
-post_id: 2010-10-23-enough_a_counter_argument
 ---
 A few months ago [I wrote about not upgrading to the iPhone 4][1], regardless of its new features or the fact I'm eligible for a free upgrade.
 

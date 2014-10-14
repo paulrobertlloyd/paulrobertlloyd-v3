@@ -9,7 +9,6 @@ tags:
   - Apple
   - iPad
 discussion: closed
-post_id: 2010-06-01-ipad
 ---
 I've long been a fan of Apple's products, yet even whilst the rumours grew about an 'Apple Tablet', and certainly since its announcement in January, I've never found myself as excited by the iPad as others have.
 

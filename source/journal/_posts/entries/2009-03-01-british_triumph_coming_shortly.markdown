@@ -4,7 +4,6 @@ title: British Triumph Coming Shortly
 date: '2009-03-01 22:39:26 +0000'
 excerpt: It seems I have a new challenge for March.
 discussion: closed
-post_id: 2009-03-01-british_triumph_coming_shortly
 ---
 Americans are quite a competitive race, an admirable trait given the countless wars they've lost and their inability to build a desirable automobile. In fact, I'm inclined to believe the only American success is to be found at the all-you-can-eat buffet.
 

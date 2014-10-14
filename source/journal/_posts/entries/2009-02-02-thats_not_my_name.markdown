@@ -8,7 +8,6 @@ tags:
   - Travel
   - United States
 discussion: closed
-post_id: 2009-02-02-thats_not_my_name
 ---
 !['Coll' written on the side of a Starbucks cup](/assets/images/2009/02/thats_not_my_name.jpg)
 

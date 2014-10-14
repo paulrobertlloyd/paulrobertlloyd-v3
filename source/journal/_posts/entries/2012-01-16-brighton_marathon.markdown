@@ -9,7 +9,6 @@ tags:
   - Charity
   - Brighton Marathon
 discussion: closed
-post_id: 2012-01-16-brighton_marathon
 ---
 ## Towards the Ultimate Goal
 I've always wanted to run a marathon. Being of sound mind, I thought it probably best to compete in a smaller event first, so I entered the Great North Run (the world's largest half marathon) in 2003. Perhaps 'compete' is the wrong word. Whilst most people take running seriously, the real aim of mass participatory running events like this is to have fun whilst raising lots of money for good causes at the same time.

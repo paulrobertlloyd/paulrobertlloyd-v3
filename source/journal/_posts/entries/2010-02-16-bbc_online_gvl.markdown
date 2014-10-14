@@ -11,7 +11,6 @@ tags:
   - User experience
   - Design principles
 discussion: closed
-post_id: 2010-02-16-bbc_online_gvl
 ---
 I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
 

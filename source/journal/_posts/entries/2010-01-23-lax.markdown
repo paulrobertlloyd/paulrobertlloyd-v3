@@ -10,7 +10,6 @@ tags:
   - LAX
   - Immigration
 discussion: closed
-post_id: 2010-01-23-lax
 ---
 I hoped that almost missing my flight would be the worst my trip to New Zealand would have to offer, but thanks to overzealous immigration officials at LAX, that was nothing but a minor blip.
 

@@ -13,7 +13,7 @@
 
     h3 {
         @extend %fs--3;
-        @include ff--serif(700);
+        @include ff--sans-serif(600);
     }
 
     h4 {
@@ -32,6 +32,14 @@
         text-transform: uppercase;
     }
 
+    blockquote {
+        @include ff--sans-serif(400);
+        margin: 0.5rem 0 1.5rem -1.0625rem; // 8px 0 24px -17px
+        border-left: 0.0625rem solid $c__accent-light; // 1px
+        padding-left: 1rem; // 16px
+        color: $c__neutral-4;
+    }
+
     figcaption {
         @extend %fs--5;
         @include ff--sans-serif(400);
@@ -47,7 +55,7 @@
     a {
         background-image: linear-gradient(to left, rgba($c__link, 0.2), rgba($c__link, 0.2));
         background-repeat: repeat-x;
-        background-position: 0 1.0625em;
+        background-position: 0 0.9em;
         background-size: 1px 1px;
         text-shadow: 2px 0 0 $c__neutral-8, -2px 0 0 $c__neutral-8;
 

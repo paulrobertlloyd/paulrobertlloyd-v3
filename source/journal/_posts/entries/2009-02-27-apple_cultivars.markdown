@@ -8,7 +8,6 @@ tags:
   - Apple
   - Personal
 discussion: closed
-post_id: 2009-02-27-apple_cultivars
 ---
 Macintosh has been associated with Apple since the launch of its original all-in-one computer in 1984, reportedly named after the pocket-sized [McIntosh][1] apple cultivar. So when it comes to providing names for the external devices I plug into my Mac (backup drives, iPods and my iPhone for example) it seemed like a good idea to follow this convention:
 

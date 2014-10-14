@@ -6,7 +6,6 @@ excerpt: Having nothing arranged for New Year's Eve, meant I wasn't sure how I w
 tags:
   - Photography
 discussion: closed
-post_id: 2009-01-03-day_one
 ---
 Perhaps one of the most enjoyable aspects of 2008, was listening to [the Adam & Joe show][1] on BBC 6 Music. During their 'inter-festive' show, Joe asked guest [Garth Jennings][2] how he likes to spend New Year's Eve, to which he replied:
 
