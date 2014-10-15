@@ -3,11 +3,58 @@ layout: index
 template: home
 title: Home
 ---
-<ol class="list" reversed>
-{% for post in site.posts %}
-    <li class="list__item">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%e %B %Y" }}</time>
-        <a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
-</ol>
+<section class="section">
+    <h1 class="section__title"><a href="/journal/">Journal Entries</a></h1>
+
+    <ol class="list" reversed>
+    {% assign entries = site.posts | where: 'layout', 'entry' %}
+    {% for item in entries %}
+        <li class="list__item">
+            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
+            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+    </ol>
+</section>
+
+<section class="section">
+    <h1 class="section__title"><a href="/journal/">Journal Links</a></h1>
+
+    <ol class="list" reversed>
+    {% assign links = site.posts | where: 'layout', 'link' %}
+    {% for item in links %}
+        <li class="list__item">
+            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
+            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+    </ol>
+</section>
+
+<section class="section">
+    <h1 class="section__title"><a href="/projects/">Projects</a></h1>
+
+    <ol class="list" reversed>
+    {% assign projects = site.posts | where: 'layout', 'project' %}
+    {% for item in projects %}
+        <li class="list__item">
+            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
+            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+    </ol>
+</section>
+
+<section class="section">
+    <h1 class="section__title"><a href="/essays/">Essays</a></h1>
+
+    <ol class="list" reversed>
+    {% assign essays = site.pages | where: 'layout', 'essay' %}
+    {% for item in essays %}
+        <li class="list__item">
+            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
+            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+    </ol>
+</section>
