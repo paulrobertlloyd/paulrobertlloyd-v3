@@ -1,11 +1,12 @@
 ---
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
+subtitle: The Launch of Channel 4
 date: '2002-06-01'
-chapter: 4
-chapter-title: The Launch of Channel 4
 permalink: /essays/dissertation/the_launch_of_channel_4.html
-tags: [Dissertation]
+tags:
+  - Dissertation
+essay-chapter: 4
 ---
 The launch of Channel 4 in 1982 saw the first new television channel since BBC2, and heralded in a whole new era of television. Channel 4 was to be a channel aimed towards minority and neglected interests, would take risks and unlike the other channels at that time, was to commission programmes from independent programme makers -- acting more like a publisher than a broadcaster.
 

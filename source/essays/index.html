@@ -2,7 +2,7 @@
 layout: index
 title: Academic Essays
 ---
-{% assign pages = site.pages | where: 'layout', 'essay' | where: 'chapter-title', null | sort: 'date' %}
+{% assign pages = site.pages | where: 'layout', 'essay' | where: 'subtitle', null | sort: 'date' %}
 {% for summary in pages reversed %}
     {% include articles/summary.html %}
 {% endfor %}
