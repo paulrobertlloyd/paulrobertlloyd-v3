@@ -8,7 +8,7 @@ tags:
   - Design
   - Cennydd Bowles
 link: https://www.youtube.com/watch?v=SB_GDF-mKTE
-embed: video
+link-embed: video
 ---
 Possibly the most important design talk you'll hear this year:
 

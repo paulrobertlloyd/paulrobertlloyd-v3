@@ -7,7 +7,7 @@ tags:
   - British Airways
   - Virgin Atlantic
 link: https://www.youtube.com/watch?v=a4JdQi60an0
-embed: video
+link-embed: video
 ---
 Whatever you may think of British Airways, it's hard not to be impressed by this latest campaign. Part of a brand repositioning exercise that sees [the return of the company's coat of arms][1], this advert meticulously recounts the history of BA through its planes, people, ancestor companies and branding. It also features a nostalgic nod to Concorde, which still looks like an aircraft of the future rather than one of the past.
 

@@ -10,6 +10,6 @@ tags:
   - Ron Burgundy
   - Conan O’Brien
 link: https://www.youtube.com/watch?v=MrNA7RjU91I
-embed: video
+link-embed: video
 ---
 Best news I've heard all year.

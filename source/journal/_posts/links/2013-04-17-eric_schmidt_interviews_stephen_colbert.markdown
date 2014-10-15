@@ -8,6 +8,6 @@ tags:
   - Eric Schmidt
   - Google
 link: https://www.youtube.com/watch?v=-HpBHWUPa8Q
-embed: video
+link-embed: video
 ---
 The uncut interview of Stephen Colbert's visit to Google's New York office.

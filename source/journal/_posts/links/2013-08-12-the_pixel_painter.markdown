@@ -7,7 +7,7 @@ tags:
   - Art
   - Hal Lasko
 link: https://vimeo.com/70748579
-embed: video
+link-embed: video
 ---
 [Hal Lasko][1] is a 97-year-old man who uses Microsoft Paint from Windows 95 to create artwork that has been described as 'a collision of pointillism and 8-Bit art'.
 

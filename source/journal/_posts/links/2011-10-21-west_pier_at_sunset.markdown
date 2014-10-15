@@ -8,7 +8,7 @@ tags:
   - Brighton
   - England
 link: https://www.flickr.com/photos/paulrobertlloyd/6251638865/in/set-72157627785545113
-embed: photo
+link-embed: photo
 ---
 Possibly my favourite photo of all those taken during the [Brighton Camera Trail][1], a short afternoon-long photography course I attended last month. You can see [more photos from the trail here][2].
 

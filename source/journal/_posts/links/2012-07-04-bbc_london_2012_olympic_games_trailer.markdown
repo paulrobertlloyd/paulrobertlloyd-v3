@@ -8,6 +8,6 @@ tags:
   - BBC
   - London 2012
 link: https://www.youtube.com/watch?v=4ViLiXA0E70
-embed: video
+link-embed: video
 ---
 The games are so close, I can almost taste them.

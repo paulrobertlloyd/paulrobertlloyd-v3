@@ -7,7 +7,7 @@ tags:
   - Apple
   - Advertising
 link: https://www.youtube.com/watch?v=8rwsuXHA7RA
-embed: video
+link-embed: video
 ---
 I will never grow tired of this commercial. Even less so this version narrated by Steve Jobs.
 
