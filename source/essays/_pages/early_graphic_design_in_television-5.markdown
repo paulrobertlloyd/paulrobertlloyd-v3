@@ -1,11 +1,12 @@
 ---
 layout: essay
 title: Early Graphic Design in Television
+subtitle: Computer Revolution
 date: '1999-03-01'
-chapter: 5
-chapter-title: Computer Revolution
 permalink: /essays/early_graphic_design_in_television/computer_revolution.html
-tags: [Early Graphic Design in Television]
+tags:
+  - Early Graphic Design in Television
+essay-chapter: 5
 ---
 The success of the Channel Four identity, caused immediate resentment from the various ITV companies, which considered the new channel to be its poor relation, yet its identity had become a talking point amongst the industry and public. They concluded that it was successful due to the fact that it was computer animated, and so ordered its graphic designers to computerise their logos.
 

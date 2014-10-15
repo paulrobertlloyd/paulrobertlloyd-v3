@@ -4,15 +4,15 @@ layout: default
 <main class="main" role="main">
     <article class="page page--essay  h-entry">
         <header class="page__header">
-            <h1 class="page__title  p-name">{{ page.title | smart }}</h1>
-            {% if page.chapter-title %}<h2 class="page__subtitle">{{ page.chapter-title }}</h2>{% endif %}
+            <h1 class="page__title  p-name">{{ page.title | smart | widot }}</h1>
+            {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
         </header>
 
         <div class="page__main prose  e-content">
             {{ content | widont }}
         </div>
 
-        {% if page.chapter %}
+        {% if page.essay-chapter %}
             {% include navigation/chapters.html %}
         {% endif %}
 

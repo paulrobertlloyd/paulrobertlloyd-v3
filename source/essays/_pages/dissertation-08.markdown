@@ -1,11 +1,12 @@
 ---
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
+subtitle: 'Updating the Brands: BBC'
 date: '2002-06-01'
-chapter: 8
-chapter-title: 'Updating the Brands: BBC'
 permalink: /essays/dissertation/updating_the_brands_bbc.html
-tags: [Dissertation]
+tags:
+  - Dissertation
+essay-chapter: 8
 ---
 With no corporate guidelines, the BBC had 'zillions of logos' and was generating new ones at a rate of two a week. With the advent of digital and the launch of more channels and services, its brand was being increasingly weakened.
 
