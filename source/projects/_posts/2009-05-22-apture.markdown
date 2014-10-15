@@ -4,7 +4,8 @@ title: Apture
 date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
 permalink: /projects/apture.html
-featured: true
+hidden: true
+project-featured: true
 ---
 {% figure "Apture logo" %}
 ![](/assets/images/projects/apture/0.jpg)

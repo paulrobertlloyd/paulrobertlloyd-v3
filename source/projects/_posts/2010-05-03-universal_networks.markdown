@@ -4,6 +4,7 @@ title: Universal Networks
 date: '2010-05-03'
 excerpt: Design for NBCUniversal's international channel portfolio.
 permalink: /projects/universal_networks.html
+hidden: true
 ---
 {% figure "Syfy Universal home page" %}
 ![](/assets/images/projects/universal_networks/0.jpg)

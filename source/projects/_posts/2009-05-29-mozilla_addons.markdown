@@ -4,6 +4,7 @@ title: Mozilla Add-ons
 date: '2009-05-29'
 excerpt: Introducing browser add-ons to a more mainstream audience.
 permalink: /projects/mozilla_addons.html
+hidden: true
 ---
 {% figure "Home page" %}
 ![](/assets/images/projects/mozilla_addons/0.jpg)
