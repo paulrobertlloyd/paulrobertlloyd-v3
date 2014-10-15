@@ -4,7 +4,8 @@ title: UNICEF UK
 date: '2013-07-01'
 excerpt: Mobile-first redesign for charity that raises funds to protect children's rights worldwide.
 permalink: /projects/unicef_uk.html
-featured: true
+hidden: true
+project-featured: true
 project-info:
   client: UNICEF UK
   year: 2013

@@ -4,7 +4,8 @@ title: The Week iPad Edition
 date: '2011-11-18'
 excerpt: Award-winning tablet design for weekly current affairs magazine.
 permalink: /projects/the_week.html
-featured: true
+hidden: true
+project-featured: true
 project-info:
   client: Dennis Publishing
   year: 2011

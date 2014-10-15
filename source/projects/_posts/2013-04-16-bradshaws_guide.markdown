@@ -4,7 +4,8 @@ title: Bradshaw's Guide
 date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 permalink: /projects/bradshaws_guide.html
-featured: true
+hidden: true
+project-featured: true
 project-info:
   client: Personal project
   year: Ongoing

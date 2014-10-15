@@ -4,6 +4,7 @@ title: Waldo Pancake
 date: '2011-02-09'
 excerpt: A new home for Jim Smith, purveyor of the funniest coffee cups.
 permalink: /projects/waldo_pancake.html
+hidden: true
 ---
 {% figure "The Waldo Pancake website" %}
 ![](/assets/images/projects/waldo_pancake/0.jpg)
