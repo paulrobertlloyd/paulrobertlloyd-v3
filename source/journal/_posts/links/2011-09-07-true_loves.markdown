@@ -7,6 +7,6 @@ tags:
   - Hooray For Earth
   - Music videos
 link: https://www.youtube.com/watch?v=Mf6JCpJjdiY
-embed: video
+link-embed: video
 ---
 Another video showcased by Adam Buxton at last month's Edinburgh BUG. You can find a complete archive of BUG videos at <http://bugvideos.co.uk/>.

@@ -7,7 +7,7 @@ tags:
   - London
   - England
 link: https://www.flickr.com/photos/paulrobertlloyd/8052168399
-embed: photo
+link-embed: photo
 ---
 One of my favourite photos from [a day exploring London][1] early last month.
 

@@ -6,7 +6,7 @@ tags:
   - Video
   - Film
 link: https://www.youtube.com/watch?v=I4dEWOB6THE
-embed: video
+link-embed: video
 ---
 > This year's movies have legitimately transformed my idea of what is creatively possible. To commemorate, I've remixed 270 of them into one giant ass video.
 

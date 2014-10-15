@@ -10,7 +10,7 @@ tags:
   - Steve Jobs
   - Apple
 link: http://dailymotion.com/video/xfgk3r_star-wars-i-pad-briefing_fun
-embed: false
+link-embed: false
 ---
 Another Adam Buxton YouTube classic:
 

@@ -8,19 +8,28 @@ layout: default
         </header>
 
         <div class="post__main prose  e-content">
-            {% if page.embed %}{% embed {{ page.link }} %}{% endif %}
+            {% if page.link-embed %}
+                {% embed {{ page.link }} %}
+            {% endif %}
 
             {{ content | widont }}
+
+            {% if page.link-embed == null %}
+                <aside class="post__aside">
+                    <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
+                </aside>
+            {% endif %}
         </div>
 
-        {% if page.embed == null %}
-        <aside class="post__aside">
-            <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
-        </aside>
+        {% include sections/tags.html %}
+
+        {% if page.discussion %}
+            {% include sections/discussion.html %}
         {% endif %}
 
         <footer class="post__footer">
-            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+            <span class="u--hidden">Published on </span>
+            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
         </footer>
     </article>
 

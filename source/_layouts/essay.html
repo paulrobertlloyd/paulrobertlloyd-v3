@@ -17,7 +17,8 @@ layout: default
         {% endif %}
 
         <footer class="page__footer">
-            <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}"><span class="u--hidden">Published on </span>{{ page.date | date: "%e %B %Y" }}</time>
+            <span class="u--hidden">Published on </span>
+            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
         </footer>
     </article>
 </main>

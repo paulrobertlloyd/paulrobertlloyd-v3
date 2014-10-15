@@ -9,6 +9,6 @@ tags:
   - Alan Partridge
   - Comedy
 link: https://www.youtube.com/watch?v=2ed2pifRpc0
-embed: video
+link-embed: video
 ---
 "Time for big school."

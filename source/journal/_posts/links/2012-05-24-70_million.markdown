@@ -7,7 +7,7 @@ tags:
   - Music videos
   - Hold Your Horses
 link: https://www.youtube.com/watch?v=erbd9cZpxps
-embed: video
+link-embed: video
 ---
 A wonderful collection of filmed pastiches of classic artworks. If you don't recognise them all, Hilário Pereira has [a cut of the video that names each painting][1].
 

@@ -7,6 +7,6 @@ tags:
   - Volkswagen
   - Star Wars
 link: https://www.youtube.com/watch?v=R55e-uHQna0
-embed: video
+link-embed: video
 ---
 Volkswagen again giving in a lesson in how advertising is really done.

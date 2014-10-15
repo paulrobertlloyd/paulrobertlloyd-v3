@@ -8,7 +8,7 @@ tags:
   - Charles Eames
   - Ray Eames
 link: https://www.youtube.com/watch?v=Lo_1pyQ7xvc
-embed: video
+link-embed: video
 ---
 A beautiful promotional film for the Polaroid SX-70 camera, produced by Charles and Ray Eames. I want one. (Via [37signals][1])
 

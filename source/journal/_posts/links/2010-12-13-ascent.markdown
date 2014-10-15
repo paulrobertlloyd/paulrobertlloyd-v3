@@ -7,7 +7,7 @@ tags:
   - NASA
   - Space
 link: https://www.youtube.com/watch?v=W2VygftZSCs
-embed: video
+link-embed: video
 ---
 A truly amazing video from NASA:
 
