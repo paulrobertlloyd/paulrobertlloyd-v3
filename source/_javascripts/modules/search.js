@@ -46,7 +46,7 @@ window.search = (function(win, doc) {
             if (xhr.status==200 && xhr.readyState==4) {
                 try {
                     jsonData = JSON.parse(xhr.responseText);
-                    console.log("Data loaded successfully");
+                    console.log("Search data loaded successfully");
                 } catch(err) {
                     console.log(err);
                     jsonData = null;
