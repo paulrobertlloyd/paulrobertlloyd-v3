@@ -2,7 +2,7 @@
     <h1 class="section__title" id="discussion">Discussion</h1>
 
     <details class="remarks">
-        {% capture page_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: ".markdown" }}{% endcapture %}
+        {% capture page_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: "journal/_posts/links/" | remove: ".markdown" }}{% endcapture %}
         {% capture remark_count %}{{ site.data.remarks.[page_id] | size }}{% endcapture %}
         <summary class="remarks__title">
             <p>
@@ -16,6 +16,8 @@
                 {% endcase %}
                 {% if page.discussion == "open" %}
                     <a href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
+                {% else %}
+                    This dicussion has now ended.
                 {% endif %}
             </p>
         </summary>
