@@ -10,8 +10,8 @@
 .post__pubdate {
     @include ff--sans-serif(400);
     @extend %c2sc;
-    letter-spacing: 0.03125rem; // 0.5px
     text-transform: uppercase;
+    letter-spacing: 0.03125rem; // 0.5px
     color: $c__neutral-2;
 }
 
