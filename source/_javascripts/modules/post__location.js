@@ -3,11 +3,12 @@
 (function (win, doc) {
     'use strict';
 
-    var postLocation = doc.querySelector('.post__location'),
-        postMain = doc.querySelector('.post__main'),
-        postStart = postMain.querySelector(':scope > p');
+    var postMain = doc.querySelector('.post__main'),
+        postLocation = doc.querySelector('.post__location');
 
-    if (postLocation) {
+    if (postMain && postLocation) {
+        var postStart = postMain.querySelector(':scope > p');
+
         postStart.insertBefore(postLocation, postStart.firstChild);
     }
 }(this, this.document));
