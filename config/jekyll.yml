@@ -40,10 +40,7 @@ jekyll-archives:
     month: /:year/:month/
     tag: /tags/:name.html
 
-# Syntax highlighting
-# https://github.com/mvdbos/kramdown-with-pygments
-highlighter: pygments
-markdown: KramdownPygments
+markdown: Pypedown # Pygments + Typograuby + kramdown
 
 # Publishing
 source: ./source
