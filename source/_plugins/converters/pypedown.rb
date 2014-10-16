@@ -63,15 +63,14 @@ class Jekyll::Converters::Markdown::Pypedown
   end
 
   def convert(content)
-    
     html = Kramdown::Document.new(content, {
-      #:auto_ids       => @config['pypedown']['auto_ids'] || true,
-      #:auto_id_prefix => @config['pypedown']['auto_id_prefix'] || h
-      #:footnote_nr    => @config['pypedown']['footnote_nr'] || 1,
-      #:entity_output  => @config['pypedown']['entity_output'] || ':as_char',
-      #:toc_levels     => @config['pypedown']['toc_levels'] || "1..6",
-      #:smart_quotes   => @config['pypedown']['smart_quotes'] || 'lsquo,rsquo,ldquo,rdquo',
-      #:input          => @config['pypedown']['input'] || 'GFM'
+      #:auto_ids       => @config['pypedown']['auto_ids'],
+      #:auto_id_prefix => @config['pypedown']['auto_id_prefix'],
+      #:footnote_nr    => @config['pypedown']['footnote_nr'],
+      #:entity_output  => @config['pypedown']['entity_output'],
+      #:toc_levels     => @config['pypedown']['toc_levels'],
+      #:smart_quotes   => @config['pypedown']['smart_quotes'],
+      #:input          => @config['pypedown']['input']
     }).to_pygs
     return Typogruby.improve(Kramdown::Document.new(html).to_html)
   end
