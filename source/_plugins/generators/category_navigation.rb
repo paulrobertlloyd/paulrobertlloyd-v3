@@ -1,4 +1,7 @@
+#
+# SOURCE
 # http://ajclarkson.co.uk/blog/jekyll-category-post-navigation/
+#
 
 module Jekyll
   class CategoryPostNavigation < Generator
