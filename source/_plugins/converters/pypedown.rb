@@ -14,8 +14,7 @@ require 'kramdown'
 module Kramdown
   module Converter
 
-    # Subclass Html until following PR accepted:
-    # https://github.com/gettalong/kramdown/pull/177
+    # Subclass Html to add indent option and disable coderay
     class Html
       attr_accessor :indent
 
@@ -29,10 +28,11 @@ module Kramdown
         @toc_code = nil
         @indent = @options[:indent] || 2
         @stack = []
-        @coderay_enabled = @options[:enable_coderay] && HIGHLIGHTING_AVAILABLE
+        @coderay_enabled = false
       end
     end
 
+    # Highlight code blocks and code spans using Pygments
     class Pygs < Html
       def convert_codeblock(el, indent)
         attr = el.attr.dup
@@ -73,28 +73,26 @@ end
 
 # Create a new Markdown processor that uses Pygments-flavoured kramdown
 # We can only patch the converter once, so add typographic hooks with Typogruby
-class Jekyll::Converters::Markdown::Pypedown
-  def initialize(config)
-    require 'kramdown'
-    @config = config
-  rescue LoadError
-    STDERR.puts 'You are missing a library required for Markdown. Please run:'
-    STDERR.puts '  $ [sudo] gem install kramdown'
-    raise FatalException.new("Missing dependency: kramdown")
-  end
+module Jekyll
+  class Converters::Markdown::Pypedown
 
-  def convert(content)
-    html = Kramdown::Document.new(content, {
-      :auto_ids             => @config['kramdown']['auto_ids'],
-      :auto_id_prefix       => @config['kramdown']['auto_id_prefix'],
-      :coderay_default_lang => @config['kramdown']['default_lang'],
-      :entity_output        => @config['kramdown']['entity_output'],
-      :footnote_nr          => @config['kramdown']['footnote_nr'],
-      :smart_quotes         => @config['kramdown']['smart_quotes'],
-      :toc_levels           => @config['kramdown']['toc_levels'],
-      :indent               => @config['kramdown']['indent'],
-      :input                => @config['kramdown']['input']
-    }).to_pygs
-    return Typogruby.improve(html)
+    def initialize(config)
+      @config = config
+      if @config['pypedown']
+        %w[auto_ids auto_id_prefix default_lang entity_output footnote_nr smart_quotes toc_levels indent input].each do |key|
+          @config['pypedown'][key] = @config['kramdown'][key] unless @config['pypedown'][key]
+        end
+      elsif
+        @config['pypedown'] = @config['kramdown']
+      end
+    end
+
+    def convert(content)
+      options = Jekyll::Utils.symbolize_hash_keys(@config["pypedown"])
+      html = Kramdown::Document.new(content, options).to_pygs
+
+      return Typogruby.improve(html)
+    end
+
   end
 end
