@@ -1,7 +1,18 @@
 /*  =========================================================================
-    Section
+    Footnotes
     ========================================================================= */
-.section__title {
-    @include fs--2;
+
+.footnotes {
+    @include fs--5;
     @include ff--sans-serif(400);
+    margin-top: 2rem;
+    color: $c__neutral-3;
+
+    ol {
+        margin-top: 2rem;
+    }
+
+    &:before {
+        @extend %rule-center;
+    }
 }

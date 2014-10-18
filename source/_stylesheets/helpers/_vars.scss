@@ -10,8 +10,8 @@ $c__neutral-1: #222;
 $c__neutral-2: #444;
 $c__neutral-3: #666;
 $c__neutral-4: #888;
-$c__neutral-5: #aaa;
-$c__neutral-6: #ccc;
+$c__neutral-5: #bbb;
+$c__neutral-6: #ddd;
 $c__neutral-7: #eee;
 $c__neutral-8: #fff;
 
@@ -26,9 +26,9 @@ $f__monospace: "Source Code Pro", monospace;
 $f__icon: "Icons", serif; // TODO: Add icon font, font-awesome?
 
 // Breakpoints
-$bp__a: 512; // 32em
-$bp__b: 720; // 45em
-$bp__c: 1024; // 64em
+$bp__a: 32em; // 512px
+$bp__b: 45em; // 720px
+$bp__c: 64em; // 1024px
 
 // Values
 $v__padding-a: 8;

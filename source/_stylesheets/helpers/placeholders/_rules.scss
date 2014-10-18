@@ -1,0 +1,13 @@
+//  ============================================================================
+//  Linework
+//  ============================================================================
+
+%rule-center {
+    display: block;
+    margin: 0 auto;
+    border-top: 1px solid $c__neutral-7;
+    width: 33%;
+    height: 0;
+    text-align: center;
+    content: ' ';
+}

@@ -1,9 +1,9 @@
 //  ============================================================================
-//  Typography helpers
+//  Typography
 //  ============================================================================
 
 // Font sizes
-%fs--1 {
+@mixin fs--1 {
     margin: 0 0 2rem; // 0 0 32px
     text-rendering: optimizeLegibility;
     line-height: 1; // 56px
@@ -11,32 +11,32 @@
     font-size: 3.5rem; // 56px
 }
 
-%fs--2 {
-    margin: 1.5rem 0 0.5rem; // 24px 0 8px
+@mixin fs--2 {
+    margin: 2rem 0 0.5rem; // 32px 0 8px
     text-rendering: optimizeLegibility;
-    line-height: 1.125; // 27px
+    line-height: 1.16667; // 28px
     font-size: 1.5rem; // 24px
 }
 
-%fs--3 {
+@mixin fs--3 {
     text-rendering: optimizeLegibility;
     line-height: 1.5; // 27px
     font-size: 1.125rem; // 18px
 }
 
-%fs--4 {
+@mixin fs--4 {
     text-rendering: optimizeLegibility;
     line-height: 1.25; // 20px
     font-size: 1rem; // 16px
 }
 
-%fs--5 {
-    line-height: 1.1429; // 16px
+@mixin fs--5 {
+    line-height: 1.28571; // 18px
     font-size: 0.875rem; // 14px
 }
 
-%fs--6 {
-    line-height: 1.2308; // 16px
+@mixin fs--6 {
+    line-height: 1.23077; // 16px
     font-size: 0.8125rem; // 13px
 }
 
