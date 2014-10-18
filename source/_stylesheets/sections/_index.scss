@@ -2,6 +2,6 @@
     Section index
     ========================================================================= */
 .index__title {
-    @extend %fs--1;
+    @include fs--1;
     @include ff--sans-serif(200);
 }

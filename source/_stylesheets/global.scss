@@ -2,7 +2,8 @@
 
 @import 'helpers/_vars';
 @import 'helpers/mixins/_font-family';
-@import 'helpers/placeholders/_typography';
+@import 'helpers/mixins/_font-size';
+@import 'helpers/placeholders/_rules';
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
@@ -33,6 +34,7 @@
 
 // Content
 @import 'content/_chart';
+@import 'content/_footnotes';
 @import 'content/_rating';
 @import 'content/_syntax';
 

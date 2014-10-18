@@ -30,18 +30,12 @@ h6 {
 }
 
 hr {
-    margin: 2em 0; /* 32px 0 */
+    margin: 2rem 0; // 32px 0
     border: 0;
     height: 0;
-    text-align: center;
     line-height: 0;
 
-    &:after {
-        display: block;
-        margin: 0 auto;
-        border-top: 1px solid $c__neutral-7;
-        width: 33%;
-        height: 0;
-        content: ' ';
+    &:before {
+        @extend %rule-center;
     }
 }

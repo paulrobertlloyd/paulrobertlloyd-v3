@@ -2,6 +2,6 @@
     Summary
     ========================================================================= */
 .summary__title {
-    @extend %fs--2;
+    @include fs--2;
     @include ff--sans-serif(400);
 }

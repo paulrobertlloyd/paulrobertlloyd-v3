@@ -2,32 +2,36 @@
     Prose
     ========================================================================= */
 .prose {
-    @extend %fs--3;
+    @include fs--4;
     @include ff--serif(400);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
+    @media screen and (min-width: $bp__b) {
+        @include fs--3;
+    }
+
     h2 {
-        @extend %fs--2;
+        @include fs--2;
         @include ff--sans-serif(400);
     }
 
     h3 {
-        @extend %fs--3;
+        @include fs--3;
         @include ff--sans-serif(600);
     }
 
     h4 {
-        @extend %fs--3;
+        @include fs--3;
         @include ff--sans-serif(400);
     }
 
     h5 {
-        @extend %fs--4;
+        @include fs--4;
         @include ff--sans-serif(400);
     }
 
     h6 {
-        @extend %fs--5;
+        @include fs--5;
         @include ff--sans-serif(400);
         text-transform: uppercase;
     }
@@ -41,11 +45,11 @@
     }
 
     figcaption {
-        @extend %fs--5;
+        @include fs--5;
         @include ff--sans-serif(400);
         display: block;
         clear: left;
-        color: $c__neutral-3;
+        color: $c__neutral-4;
     }
 
     strong {
