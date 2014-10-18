@@ -13,13 +13,33 @@ require 'kramdown'
 # Patch kramdown to use Pygments for syntax highlighting
 module Kramdown
   module Converter
+
+    # Subclass Html until following PR accepted:
+    # https://github.com/gettalong/kramdown/pull/177
+    class Html
+      attr_accessor :indent
+
+      def initialize(root, options)
+        super
+        @footnote_counter = @footnote_start = @options[:footnote_nr]
+        @footnotes = []
+        @footnotes_by_name = {}
+        @footnote_location = nil
+        @toc = []
+        @toc_code = nil
+        @indent = @options[:indent] || 2
+        @stack = []
+        @coderay_enabled = @options[:enable_coderay] && HIGHLIGHTING_AVAILABLE
+      end
+    end
+
     class Pygs < Html
       def convert_codeblock(el, indent)
         attr = el.attr.dup
         lang = extract_code_language!(attr) || @options[:coderay_default_lang]
         code = pygmentize(el.value, lang)
         code_attr = {}
-        code_attr['class'] = "language-#{lang}" if lang
+        code_attr['class'] = "syntax syntax--#{lang}" if lang
         "#{' '*indent}<pre#{html_attributes(attr)}><code#{html_attributes(code_attr)}>#{code}</code></pre>\n"
       end
 
@@ -29,9 +49,9 @@ module Kramdown
         code = pygmentize(el.value, lang)
         if lang
           if attr.has_key?('class')
-            attr['class'] += " language-#{lang}"
+            attr['class'] += " syntax syntax--#{lang}"
           else
-            attr['class'] = "language-#{lang}"
+            attr['class'] = "syntax syntax--#{lang}"
           end
         end
         "<code#{html_attributes(attr)}>#{code}</code>"
@@ -47,6 +67,7 @@ module Kramdown
         end
       end
     end
+
   end
 end
 
@@ -64,14 +85,16 @@ class Jekyll::Converters::Markdown::Pypedown
 
   def convert(content)
     html = Kramdown::Document.new(content, {
-      #:auto_ids       => @config['pypedown']['auto_ids'],
-      #:auto_id_prefix => @config['pypedown']['auto_id_prefix'],
-      #:footnote_nr    => @config['pypedown']['footnote_nr'],
-      #:entity_output  => @config['pypedown']['entity_output'],
-      #:toc_levels     => @config['pypedown']['toc_levels'],
-      #:smart_quotes   => @config['pypedown']['smart_quotes'],
-      #:input          => @config['pypedown']['input']
+      :auto_ids             => @config['kramdown']['auto_ids'],
+      :auto_id_prefix       => @config['kramdown']['auto_id_prefix'],
+      :coderay_default_lang => @config['kramdown']['default_lang'],
+      :entity_output        => @config['kramdown']['entity_output'],
+      :footnote_nr          => @config['kramdown']['footnote_nr'],
+      :smart_quotes         => @config['kramdown']['smart_quotes'],
+      :toc_levels           => @config['kramdown']['toc_levels'],
+      :indent               => @config['kramdown']['indent'],
+      :input                => @config['kramdown']['input']
     }).to_pygs
-    return Typogruby.improve(Kramdown::Document.new(html).to_html)
+    return Typogruby.improve(html)
   end
 end

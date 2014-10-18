@@ -9,7 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (3.1.1.20141001)
+    autoprefixer-rails (3.1.2.20141016)
       execjs
     blankslate (2.1.2.4)
     capistrano (3.2.1)
@@ -92,7 +92,7 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.2.1)
       sass (~> 3.2)
-    jekyll-sitemap (0.6.0)
+    jekyll-sitemap (0.6.1)
     jekyll-watch (1.1.1)
       listen (~> 2.7)
     jslint_on_rails (1.1.1)
@@ -132,7 +132,7 @@ GEM
     redcarpet (3.2.0)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
-    sass (3.4.5)
+    sass (3.4.6)
     scss-lint (0.29.0)
       rainbow (~> 2.0)
       sass (~> 3.4.0)
@@ -155,7 +155,7 @@ GEM
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
-    toml (0.1.1)
+    toml (0.1.2)
       parslet (~> 1.5.0)
     typogruby (1.0.17)
       rubypants
