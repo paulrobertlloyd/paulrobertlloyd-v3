@@ -12,3 +12,7 @@ assets:
 
 # Drafts
 show_drafts: true
+
+# Markup
+kramdown:
+  indent: 4

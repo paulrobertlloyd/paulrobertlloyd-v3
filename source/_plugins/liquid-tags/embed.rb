@@ -50,8 +50,8 @@ module Jekyll
  
       elsif
         print "#{@uri} does not support embedding\n"
-
       end
+
     end
   end
 end
