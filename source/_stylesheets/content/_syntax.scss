@@ -1,7 +1,7 @@
 /*  =========================================================================
     Syntax highlighting for programming languages
     ========================================================================= */
-.syntax {
+[class*="language-"] {
     background: #fff;
 
     .c { color: #998; font-style: italic; } // Comment
