@@ -12,7 +12,3 @@ assets:
 
 # Drafts
 show_drafts: true
-
-# Markup
-pypedown:
-  indent: 4
