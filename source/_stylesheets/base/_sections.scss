@@ -35,7 +35,7 @@ hr {
     height: 0;
     line-height: 0;
 
-    &:before {
+    &::before {
         @extend %rule-center;
     }
 }

@@ -1,12 +1,15 @@
-<section class="section section--related" aria-labelledby="related">
-    <h1 class="section__title" id="related">Related Posts</h1>
-
-    <ul class="list">
-    {% assign posts = site.related_posts | where: 'layout', 'entry' | sort: 'date' %}
-    {% for summary in posts limit:3 %}
-        <li class="list__item">
-            {% include articles/summary.html %}
-        </li>
-    {% endfor %}
-    </ul>
-</section>
+<details class="section section--related section--is-expandable" aria-labelledby="related" open>
+    <summary class="section__header">
+        <h1 class="section__title" id="related">Related Posts</h1>
+    </summary>
+    <div class="section__main">
+        <ul class="list">
+        {% assign posts = site.related_posts | where: 'layout', 'entry' | sort: 'date' %}
+        {% for summary in posts limit:3 %}
+            <li class="list__item">
+                {% include articles/summary.html %}
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</details>

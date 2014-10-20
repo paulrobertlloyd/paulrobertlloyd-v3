@@ -12,7 +12,7 @@
     }
 
     .navigation__item--prev {
-        &:before {
+        &::before {
             position: absolute;
             top: 0.25em;
             left: -1em;
@@ -24,7 +24,7 @@
     .navigation__item--next {
         text-align: right;
 
-        &:after {
+        &::after {
             position: absolute;
             top: 0.25em;
             right: -1em;

@@ -15,13 +15,13 @@
     color: $c__neutral-2;
 }
 
-.post__footer .post__location:before,
-.js .post__main .post__location:after {
+.post__footer .post__location::before,
+.js .post__main .post__location::after {
     margin: 0 0.25rem; // 0 4px
     color: $c__neutral-5;
     content: '\2022';
 }
 
-.js .post__main .post__location:after {
+.js .post__main .post__location::after {
     margin: 0 0.5rem 0 0.25rem; // 0 8px 0 4px
 }

@@ -1,9 +1,13 @@
 <article class="summary summary--{{ summary.layout }}  h-entry">
     <header class="summary__header">
         {% if summary.layout == "link" %}
-        <h1 class="summary__title  p-name"><a href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}</a></h1>
+        <h1 class="summary__title  p-name">
+            <a class="summary__link" href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}</a>
+        </h1>
         {% else %}
-        <h1 class="summary__title  p-name"><a href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | smart }}</a></h1>
+        <h1 class="summary__title  p-name">
+            <a class="summary__link" href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | smart }}</a>
+        </h1>
         {% endif %}
     </header>
 
