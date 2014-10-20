@@ -4,13 +4,13 @@
 
 /* Clearfix */
 .u--cf {
-    &:before,
-    &:after {
+    &::before,
+    &::after {
         display: table;
         content: ' ';
     }
 
-    &:after {
+    &::after {
         clear: both;
     }
 }

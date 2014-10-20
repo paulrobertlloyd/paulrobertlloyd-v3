@@ -1,7 +1,64 @@
 /*  =========================================================================
     Summary
     ========================================================================= */
+.summary {
+    margin-bottom: 2rem; // 32px
+}
+
 .summary__title {
-    @include fs--2;
+    @include fs--3;
     @include ff--sans-serif(400);
+}
+
+.summary__main {
+    @include fs--4;
+}
+
+.summary__permalink {
+    display: block;
+}
+
+/* Journal entry summary */
+.summary--entry {
+    .summary__title {
+        @include fs--2;
+    }
+
+    .summary__main {
+        @include fs--4;
+        font-feature-settings: 'liga', 'dlig', 'onum';
+
+        @media screen and (min-width: $bp__b) {
+            @include fs--3;
+        }
+    }
+
+    .summary__permalink {
+        margin: 0.5rem 0; // 8px 0
+    }
+}
+
+/* Journal link summary */
+.summary--link {
+    .summary__link::after {
+        content: ' \2192';
+    }
+
+    .summary__permalink {
+        opacity: 0.5;
+        width: 1rem;
+        overflow: hidden;
+        white-space: nowrap;
+
+        &::before {
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            content: '#';
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
 }
