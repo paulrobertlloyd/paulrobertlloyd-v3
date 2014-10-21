@@ -5,6 +5,7 @@ layout: default
     <article class="page  h-entry">
         <header class="page__header">
             <h1 class="page__title  p-name">{{ page.title | smart }}</h1>
+            {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
         </header>
 
         <div class="page__main prose  e-content">

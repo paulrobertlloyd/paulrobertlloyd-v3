@@ -82,15 +82,15 @@ As for the grassroots of the game, where tomorrows players are to be found, ther
 ### Government Reform
 1997 saw the country elect a new Labour government who recognised that commercialism was damaging football. It set-up a task force to enquire into various issues affecting the game formed by supporters, governing bodies, public figures and informed academics. This mix sometimes meant it was hard to achieve consensus, especially with members of the Premier League. The task force produced four reports:
 
-1. ### <cite>Eliminating Racism from Football</cite>
+1. #### <cite>Eliminating Racism from Football</cite>
 
    Published on March 30th 1998, this report lead to racist chanting being made criminal offence.
  
-2. ### <cite>Improving facilities for Disabled Supporters</cite>
+2. #### <cite>Improving facilities for Disabled Supporters</cite>
 
    Published on July 29th 1998, this report ensured disabled facilities were now compulsory at all grant-aided ground developments.
 
-3. ### <cite>Investing in Community</cite>
+3. #### <cite>Investing in Community</cite>
 
    Published on January 11th 1999, this report lead to two bodies being formed:
 
@@ -98,7 +98,7 @@ As for the grassroots of the game, where tomorrows players are to be found, ther
 
    * Football Foundation -- A body to administer spending of 5% of the Premier Leagues television revenue (£80m over 3 years) matched by lottery grants, to spend on grass roots football facilities.
 
-4. ### <cite>Commercial Issues</cite>
+4. #### <cite>Commercial Issues</cite>
  
    This area of enquiry reported back on December 22nd 1999, but with little agreement between various parties lead to two separate reports being produced. The majority report favouring an audit commission and ombudsman but football's governing bodies unsurprisingly preferred a system of self-regulation. The government facing pressure from the Premier League supported this report which led to the creation of the Independent Football Commission. This body would oversee the running of football in commercial areas such as ticket prices and merchandising, but only with the power to 'name and shame' bad practice.
 
