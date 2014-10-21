@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Styleguide
+title: Long Title Because Shorter Version Says Styleguide
+subtitle: A guide to the mark-up styles used throughout this site
 excerpt: A guide to the mark-up styles used throughout this site.
 permalink: /about/styleguide.html
-style: |
+style-disabled: |
   .example {
       outline: 1px dashed #ddd;
       margin: 0.75em -1em;
@@ -13,24 +14,22 @@ style: |
       margin-bottom: 0;
   }
 ---
-fi ff ffl ffi 1234567890 This document is a guide to the mark-up styles used throughout the site. Parts of this markup guide are attributable to [Dave Shea](http://www.mezzoblue.com/), and licensed under [Creative Commons](http://creativecommons.org/licenses/by-sa/2.0/uk/){: rel="license"}.
+This document is a guide to the mark-up styles used throughout the site. Parts of this markup guide are attributable to [Dave Shea](http://www.mezzoblue.com/), and licensed under [Creative Commons](http://creativecommons.org/licenses/by-sa/2.0/uk/){: rel="license"}.
 
-## Sections
+Line length: dolor sit amet consect eturadi *isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
+
+Ligatures and numerals: fi ff ffl ffi 1234567890 1/2 1/3 1/4
+
+## Sections this is a long header
 The main page header of this guide is an `h1` element. Any header elements may include links, as depicted in the example.
 
 The secondary header above is an `h2` element, which may be used for any form of important page-level header. More than one may be used per page. Consider using an `h2` unless you need a header level of less importance, or as a sub-header to an existing `h2` element.
 
-### Third-Level Header
+### Third-Level Header this is a long header
 The header above is an `h3` element, which may be used for any form of page-level header which falls below the `h2` header in a document hierarchy.
 
-#### Fourth-Level Header
+#### Fourth-Level Header this is a long header
 The header above is an `h4` element, which may be used for any form of page-level header which falls below the `h3` header in a document hierarchy.
-
-##### Fifth-Level Header
-The header above is an `h5` element, which may be used for any form of page-level header which falls below the `h4` header in a document hierarchy.
-
-###### Sixth-Level Header
-The header above is an `h6` element, which may be used for any form of page-level header which falls below the `h5` header in a document hierarchy.
 
 ## Grouping content
 

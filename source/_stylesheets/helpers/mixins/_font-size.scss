@@ -4,40 +4,41 @@
 
 // Font sizes
 @mixin fs--1 {
-    margin: 0 0 2rem; // 0 0 32px
-    text-rendering: optimizeLegibility;
-    line-height: 1; // 56px
-    letter-spacing: -0.125rem; // 2px
-    font-size: 3.5rem; // 56px
+    margin-bottom: 0.4375; // 14px
+    line-height: 0.875; // 28px
+    font-size: 2rem; // 32px
 }
 
 @mixin fs--2 {
-    margin: 2rem 0 0.5rem; // 32px 0 8px
-    text-rendering: optimizeLegibility;
-    line-height: 1.16667; // 28px
+    margin-top: 2em; // 48px
+    margin-bottom: 0.5em; // 12px
+    line-height: 1; // 24px
     font-size: 1.5rem; // 24px
 }
 
 @mixin fs--3 {
-    text-rendering: optimizeLegibility;
-    line-height: 1.5; // 27px
-    font-size: 1.125rem; // 18px
+    margin-top: 1.2em; // 24px
+    margin-bottom: 0.6em; // 12px
+    line-height: 1.2; // 24px
+    font-size: 1.25rem; // 20px
 }
 
 @mixin fs--4 {
-    text-rendering: optimizeLegibility;
-    line-height: 1.25; // 20px
+    margin-bottom: 0.6875em; // 11px
+    line-height: 1.375; // 22px
     font-size: 1rem; // 16px
 }
 
 @mixin fs--5 {
-    line-height: 1.28571; // 18px
-    font-size: 0.875rem; // 14px
+    margin-bottom: 0.61538461538462em; // 8px
+    line-height: 1.23077; // 16px
+    font-size: 0.875rem; // 13px
 }
 
 @mixin fs--6 {
-    line-height: 1.23077; // 16px
-    font-size: 0.8125rem; // 13px
+    margin-bottom: 0.6667em; // 8px
+    line-height: 1.3333; // 16px
+    font-size: 0.75rem; // 12px
 }
 
 // Small caps

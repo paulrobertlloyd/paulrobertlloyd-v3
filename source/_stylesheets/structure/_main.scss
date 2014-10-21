@@ -1,12 +1,6 @@
 /*  =========================================================================
-    Page
+    Main content
     ========================================================================= */
-.page__title {
-    @include fs--1;
-    @include ff--sans-serif;
-}
-
-.page__subtitle {
-    @include fs--2;
-    @include ff--sans-serif;
+.main {
+    padding: 1rem;
 }

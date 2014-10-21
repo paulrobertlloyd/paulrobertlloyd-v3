@@ -1,11 +1,11 @@
 ---
 layout: essay
 title: Beige to Bondi-Blue
+subtitle: A Comparison Between the Apple II and the iMac
 date: '2000-04-01'
 excerpt: A comparison between the Apple II (1977) and the iMac (1998).
 permalink: /essays/biege_to_bondiblue.html
 ---
-## A Comparison Between the Apple II and the iMac
 When Apple's first computer, the Apple I, was released in 1976, computing was reserved to hobbyists, many of whom adapted their computers or even built their own. Designed by Steve Woznaik, the single circuit board that constituted the Apple I was regarded as a work of art by his fellow hobbyists and also by his old school friend Steven Jobs. Having an eye for the future, Jobs insisted that he and Woznaik try to sell the Apple I, and so on April Fools Day 1976, Apple Computer was born.
 
 Aimed at the hobbyist rather than the consumer, the Apple I did not come in a case. That was left to the user meaning no two Apple I's were the same. Variations in case design ranged from simple pine boxes with integrated keyboards, to brushed aluminium and black metal boxes with rivets down the sides. One user installed his Apple I inside a leather briefcase with the circuit board in the top and the keyboard bolted to the bottom, creating the first laptop computer.

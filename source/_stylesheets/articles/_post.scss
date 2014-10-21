@@ -3,12 +3,17 @@
     ========================================================================= */
 .post__title {
     @include fs--1;
-    @include ff--sans-serif(200);
+    @include ff--sans-serif;
+}
+
+.post__subtitle {
+    @include fs--2;
+    @include ff--sans-serif;
 }
 
 .post__location,
 .post__pubdate {
-    @include ff--sans-serif(400);
+    @include ff--sans-serif;
     @extend %c2sc;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
