@@ -22,17 +22,17 @@ Through the eyes of friends, I'm beginning to see a different image. The city is
 ## Lessons From the Road
 Regardless, visiting California is like therapy. Maybe the optimism of friends provides an alternative take on life, one typically set against more pessimistic attitudes. And I like being optimistic, believe it or not. Before the trip is entirely relegated to history, here are a few lessons I picked up along the way:
 
-* **It's easy to generalise** and America often suffers from this in the eyes of the world. When everything is bigger, it's easier to focus on the extremes, but the greys are numerous and assorted. Also: designing for scale is a hard problem.
+  * **It's easy to generalise** and America often suffers from this in the eyes of the world. When everything is bigger, it's easier to focus on the extremes, but the greys are numerous and assorted. Also: designing for scale is a hard problem.
 
-* **People are complex**. Dismissing people as inauthentic may be foolhardy without first knowing more about them. It's easy to throw around terms like 'douchebag', but bravado can be compensating for a deeper insecurity. As [Bruce Springsteen said during his keynote][2] at SXSW:
+  * **People are complex**. Dismissing people as inauthentic may be foolhardy without first knowing more about them. It's easy to throw around terms like 'douchebag', but bravado can be compensating for a deeper insecurity. As [Bruce Springsteen said during his keynote][2] at SXSW:
   
 > Have iron-clad confidence, but doubt that keeps you awake and alert. It keeps you honest.
 
-* **Every situation has differing perspectives** but recognising that fact alone won't necessarily mean you can see past your own. Assume nothing (except maybe success) and [never attribute to malice that which is adequately explained by stupidity][3]. There's a place for subtly, but more often than not, it pays to be obvious.
+  * **Every situation has differing perspectives** but recognising that fact alone won't necessarily mean you can see past your own. Assume nothing (except maybe success) and [never attribute to malice that which is adequately explained by stupidity][3]. There's a place for subtly, but more often than not, it pays to be obvious.
 
-* **Make mistakes**. It's a popular truism, but experience matters. You can learn from mistakes, but never from regrets. Regrets can be hard to disown, but it's unlikely you'll remember the blunders. If beautiful, hopeful and well intentioned, you may end up smiling a bit if you do! And yes, as a post written more for my own benefit than yours, feel free to read between the lines here.
+  * **Make mistakes**. It's a popular truism, but experience matters. You can learn from mistakes, but never from regrets. Regrets can be hard to disown, but it's unlikely you'll remember the blunders. If beautiful, hopeful and well intentioned, you may end up smiling a bit if you do! And yes, as a post written more for my own benefit than yours, feel free to read between the lines here.
 
-* **Don't be a dick**. Not so much a lesson, but previous experience meant I was able to follow my own advice, navigate a tricky situation and avoid a more painful form of embarrassment. Progress.
+  * **Don't be a dick**. Not so much a lesson, but previous experience meant I was able to follow my own advice, navigate a tricky situation and avoid a more painful form of embarrassment. Progress.
 
 The journey is the reward, and that journey continues.
 

@@ -21,17 +21,17 @@ Computerised control of the rostrum camera was an advantage as it did help to cu
 * * *
 
 ## Notes
-* **Graphic Design was considered an experimental section:** Gradually, over the next two years, what the <cite>Television Annual</cite> of 1957 described as "a new and largely experimental section", was built up. <small>(Crook 1986: 34)</small>
+  * **Graphic Design was considered an experimental section:** Gradually, over the next two years, what the <cite>Television Annual</cite> of 1957 described as "a new and largely experimental section", was built up. <small>(Crook 1986: 34)</small>
 
 * * *
 
 ## References
-* **Craig, J. and Barton, B.** (1987). <cite>Thirty Centuries of Graphic Design: An Illustrated Survey</cite>
-* **Crook, G.** (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
-* **Lambie-Nairn, M.** (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
-* **Merritt, D.** (1987). <cite>Television Graphics from Pencil to Pixel</cite>. London: Trefoil Publications
-* **Microsoft Corporation** (1996). Baird, John Logie. <cite>Encarta '97</cite> [CD-ROM]. Redmond: Microsoft Corporation
-* **Montagu, R.** (1991). <cite>The Television Graphics Handbook</cite>. Borehamwood: BBC Television Training
+  * **Craig, J. and Barton, B.** (1987). <cite>Thirty Centuries of Graphic Design: An Illustrated Survey</cite>
+  * **Crook, G.** (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
+  * **Lambie-Nairn, M.** (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
+  * **Merritt, D.** (1987). <cite>Television Graphics from Pencil to Pixel</cite>. London: Trefoil Publications
+  * **Microsoft Corporation** (1996). Baird, John Logie. <cite>Encarta '97</cite> [CD-ROM]. Redmond: Microsoft Corporation
+  * **Montagu, R.** (1991). <cite>The Television Graphics Handbook</cite>. Borehamwood: BBC Television Training
 
 *[BBC]: British Broadcasting Corporation
 *[CD-ROM]: Compact Disc-Read Only Memory

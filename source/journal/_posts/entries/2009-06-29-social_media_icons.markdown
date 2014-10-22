@@ -13,8 +13,8 @@ style: |
       overflow: hidden;
   }
   .list--icons .list__item {
-      font-size: 0.75em; /* 12px */
-      line-height: 1.3333; /* 16px */
+      font-size: 0.75em; /  * 12px */
+      line-height: 1.3333; /  * 16px */
       margin: 0;
       padding: 0 0 0.6154em 0;
       width: 50%;
@@ -104,12 +104,11 @@ I've often found myself requiring icons when linking to or referencing different
 
 * * *
 
-<a class="action" href="https://github.com/paulrobertlloyd/socialmediaicons/archive/v1.10.0.zip" download>Download Social Media Icons</a>  --  Version 1.10, 3.8Mb
+[Download Social Media Icons][3] -- Version 1.10, 3.8Mb
 
-<small>Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][3]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.</small>
+<small>Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][4]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.</small>
 
 ## Included Icons
-
 <ul class="list list--icons">
     <li class="list__item"><span class="icon icon--icon--px500">500px</span></li>
     <li class="list__item"><span class="icon icon--aim">AIM</span></li>
@@ -182,92 +181,92 @@ I've often found myself requiring icons when linking to or referencing different
 </ul>
 
 ## Support
-
-Please provide any feedback or suggestions by [submitting a new issue on GitHub][4].
+Please provide any feedback or suggestions by [submitting a new issue on GitHub][5].
 
 ## Release Notes
 
 ### v1.10 <small>3 December 2012</small>
-* Added 5 new icons (App.net, Behance, Microsoft, Readability, This Is My Jam)
-* Removed 12 icons (About.me, Digg This, Formspring, Google Talk, iLike, iTunes, MSN Messenger, OpenID, Plancast, Yahoo! Messenger, Upcoming, Viddler)
-* BBC iD icon updated with new design
-* Digg icon updated with new colours
-* Instagram icon updated with new icon and colour
-* MySpace logo updated with new logo
-* Replaced ShareThis with Open Share icon
-* Twitter icon updated with new bird
-* Many icons redrawn and recoloured
-* Source file (Fireworks PNG) now included with distribution
-* Project now hosted on GitHub
-* Moved to CC 3.0 international (unported) licence
+  * Added 5 new icons (App.net, Behance, Microsoft, Readability, This Is My Jam)
+  * Removed 12 icons (About.me, Digg This, Formspring, Google Talk, iLike, iTunes, MSN Messenger, OpenID, Plancast, Yahoo! Messenger, Upcoming, Viddler)
+  * BBC iD icon updated with new design
+  * Digg icon updated with new colours
+  * Instagram icon updated with new icon and colour
+  * MySpace logo updated with new logo
+  * Replaced ShareThis with Open Share icon
+  * Twitter icon updated with new bird
+  * Many icons redrawn and recoloured
+  * Source file (Fireworks PNG) now included with distribution
+  * Project now hosted on GitHub
+  * Moved to CC 3.0 international (unported) licence
 
 ### v1.9 <small>24 January 2012</small>
-* Added 7 new icons (500px, Etsy, Instagram, Pintrest, Soundcloud, Stack Overflow, Zerply)
-* Removed 8 icons (Bebo, eBay, Fire Eagle, Gowalla, Mixx, Netvibes, PayPal, Picasa)
-* AIM icon updated with new logo
-* Foursquare icon updated with revised logo
-* Google+ icon updated with new logo
-* Lanyrd icon updated to match iOS icon
-* Orkut icon updated with new logo
-* StumbleUpon icon updated with new logo
-* Subtle refinements and iteration
-* Support community opened on Get Satisfaction
-* Read Me file now markdown formatted
-* Download now includes blank icon templates
+  * Added 7 new icons (500px, Etsy, Instagram, Pintrest, Soundcloud, Stack Overflow, Zerply)
+  * Removed 8 icons (Bebo, eBay, Fire Eagle, Gowalla, Mixx, Netvibes, PayPal, Picasa)
+  * AIM icon updated with new logo
+  * Foursquare icon updated with revised logo
+  * Google+ icon updated with new logo
+  * Lanyrd icon updated to match iOS icon
+  * Orkut icon updated with new logo
+  * StumbleUpon icon updated with new logo
+  * Subtle refinements and iteration
+  * Support community opened on Get Satisfaction
+  * Read Me file now markdown formatted
+  * Download now includes blank icon templates
 
 ### v1.8 <small>21 August 2011</small>
-* Added 5 new icons (about.me, Forrst, Google+, rdio, Speaker Deck)
-* Removed 1 icon (Ember)
-* 16x16 icons are now saved as 32-bit alpha PNG
-* Various other icon refinements
+  * Added 5 new icons (about.me, Forrst, Google+, rdio, Speaker Deck)
+  * Removed 1 icon (Ember)
+  * 16x16 icons are now saved as 32-bit alpha PNG
+  * Various other icon refinements
 
 ### v1.7 <small>20 December 2010</small>
-* Added 1 new icon (Pinboard)
-* Removed 3 icons (Brightkite, Technorati, Yahoo Buzz)
-* Gowalla icon updated to use 'G' motif
-* Myspace icon redrawn with new logo
-* Twitter icon updated to use bird motif
+  * Added 1 new icon (Pinboard)
+  * Removed 3 icons (Brightkite, Technorati, Yahoo Buzz)
+  * Gowalla icon updated to use 'G' motif
+  * Myspace icon redrawn with new logo
+  * Twitter icon updated to use bird motif
 
 ### v1.6 <small>22 September 2010</small>
-* Added 8 new icons (BBC iD, Formspring, Github, Lanyrd, Meetup, Plancast, Retweet, Spotify)
-* Removed 4 icons (Just Giving, Ning, OPML, Virb)
-* Digg icon updated with new brand colouring
-* iTunes icon redrawn with new logo
-* Get Satisfaction icon redrawn with new logo
-* Twitter icon updated with correct brand colouring
-* Various other icon refinements
+  * Added 8 new icons (BBC iD, Formspring, Github, Lanyrd, Meetup, Plancast, Retweet, Spotify)
+  * Removed 4 icons (Just Giving, Ning, OPML, Virb)
+  * Digg icon updated with new brand colouring
+  * iTunes icon redrawn with new logo
+  * Get Satisfaction icon redrawn with new logo
+  * Twitter icon updated with correct brand colouring
+  * Various other icon refinements
 
 ### v1.5.1 <small>16 March 2010</small>
-* Fixed border on delicious-16x16.png
+  * Fixed border on delicious-16x16.png
 
 ### v1.5 <small>14 March 2010</small>
-* Added 12 new icons (Creative Commons, Dribbble, Foursquare, Get Satisfaction, Gowalla, identi.ca, PayPal, SlideShare, Viddler, XING, Xbox, Zootool)
-* iMeem icon removed as service no longer available
-* Fire Eagle Mascot icon removed
-* Ning icon redrawn with new logo
-* Huffduffer icon redrawn
-* Outer borders are now alpha-transparent. Icons should work better on different background colours
-* Inner bevel redesigned
-* Images are now compressed. Average icon file sizes are now 50% smaller
-* 'Read Me' file now provides required attribution for Geotag, OPML and Share icons
+  * Added 12 new icons (Creative Commons, Dribbble, Foursquare, Get Satisfaction, Gowalla, identi.ca, PayPal, SlideShare, Viddler, XING, Xbox, Zootool)
+  * iMeem icon removed as service no longer available
+  * Fire Eagle Mascot icon removed
+  * Ning icon redrawn with new logo
+  * Huffduffer icon redrawn
+  * Outer borders are now alpha-transparent. Icons should work better on different background colours
+  * Inner bevel redesigned
+  * Images are now compressed. Average icon file sizes are now 50% smaller
+  * 'Read Me' file now provides required attribution for Geotag, OPML and Share icons
 
 ### v1.2 <small>11 September 2009</small>
-* Added 10 new icons (eBay, Ffffound, Goodreads, iLike, IMDb, iMeem, iTunes, Just Giving, Posterous, Wikipedia)
+  * Added 10 new icons (eBay, Ffffound, Goodreads, iLike, IMDb, iMeem, iTunes, Just Giving, Posterous, Wikipedia)
 
 ### v1.1 <small>26 July 2009</small>
-* Added 14 new icons (AIM, Amazon, Bebo, vCard, Google Talk, MSN Messenger, Nike+, OpenID, OPML, Orkut, Picasa, Skype, Virb, Yahoo Messenger)
-* QuickSnapper is now Ember
-* 16x16 icons now provided in 8-bit PNG format
-* Various visual tweaks to all icons (borders, highlights etc.)
-* Package now includes 'Read Me' file with licence information
+  * Added 14 new icons (AIM, Amazon, Bebo, vCard, Google Talk, MSN Messenger, Nike+, OpenID, OPML, Orkut, Picasa, Skype, Virb, Yahoo Messenger)
+  * QuickSnapper is now Ember
+  * 16x16 icons now provided in 8-bit PNG format
+  * Various visual tweaks to all icons (borders, highlights etc.)
+  * Package now includes 'Read Me' file with licence information
 
 ### v1.0 <small>29 June 2009</small>
-* Initial Release (36 icons in 4 sizes)
+  * Initial Release (36 icons in 4 sizes)
 
 [1]: http://timvandamme.com/
 [2]: http://www.komodomedia.com/blog/2008/12/social-media-mini-iconpack/
-[3]: http://creativecommons.org/licenses/by-sa/3.0/
-[4]: https://github.com/paulrobertlloyd/socialmediaicons/issues
+[3]: https://github.com/paulrobertlloyd/socialmediaicons/archive/v1.10.0.zip
+[4]: http://creativecommons.org/licenses/by-sa/3.0/
+[5]: https://github.com/paulrobertlloyd/socialmediaicons/issues
 
 *[AIM]: AOL Instant Messnger
 *[BBC]: British Broadcasting Corporation

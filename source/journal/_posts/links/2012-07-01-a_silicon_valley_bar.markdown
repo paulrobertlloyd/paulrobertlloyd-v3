@@ -8,6 +8,6 @@ tags:
   - Jeffrey Zeldman
 link: https://twitter.com/zeldman/status/217995096879144960
 ---
-@zeldman:
+Jeffrey Zeldman:
 
 > A million people in Silicon Valley walk into a bar. No one buys anything. Bar is declared a rousing success.

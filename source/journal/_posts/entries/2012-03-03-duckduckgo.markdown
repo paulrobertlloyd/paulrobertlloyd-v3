@@ -20,71 +20,71 @@ Today, I'm hearing similar conversations. "You should try this new search engine
 If you're like me, using Google for searching the web has become a deeply ingrained habit. But if you search directly from the browser, it's easy to modify this behaviour; just change your default search provider. Here's how you can do this in the popular browsers:
 
 ### Google Chrome
-1. Visit <http://duckduckgo.com/>.
+ 1. Visit <http://duckduckgo.com/>.
 
-2. Right-click the address bar.
+ 2. Right-click the address bar.
 
-3. Select <samp>Edit Search Engines...</samp>.
+ 3. Select <samp>Edit Search Engines...</samp>.
 
-4. Find and select DuckDuckGo in the list. If it doesn't appear, enter the following details:
+ 4. Find and select DuckDuckGo in the list. If it doesn't appear, enter the following details:
 
-  **Name:** <kbd>DuckDuckGo</kbd>
+    **Name:** <kbd>DuckDuckGo</kbd>
 
-  **Keyword:** <kbd>duckduckgo.com</kbd>
+    **Keyword:** <kbd>duckduckgo.com</kbd>
 
-  **URL:** <kbd>http://duckduckgo.com/?q=%s</kbd>
+    **URL:** <kbd>http://duckduckgo.com/?q=%s</kbd>
 
-5. Click <samp>Make default</samp>.
+ 5. Click <samp>Make default</samp>.
 
 ### Mozilla Firefox
-1. Visit <http://duckduckgo.com/>.
+ 1. Visit <http://duckduckgo.com/>.
 
-2. Go to the search box in the upper right of the browser window. Click the down arrow, and select <samp>Add DuckDuckGo</samp>.
+ 2. Go to the search box in the upper right of the browser window. Click the down arrow, and select <samp>Add DuckDuckGo</samp>.
 
 However, changing the default provider isn't enough as search terms entered into the address bar will still use Google. Change this by completing the following steps:
 
-1. Enter <about:config> into the address bar.
+ 1. Enter <about:config> into the address bar.
 
-2. If you get a warning, click <samp>I'll be careful, I promise</samp>.
+ 2. If you get a warning, click <samp>I'll be careful, I promise</samp>.
 
-3. Type <kbd>Keyword.URL</kbd> into the filter field.
+ 3. Type <kbd>Keyword.URL</kbd> into the filter field.
 
-4. Double-click the value column for this item and enter <kbd>http://duckduckgo.com/?q=</kbd>.
+ 4. Double-click the value column for this item and enter <kbd>http://duckduckgo.com/?q=</kbd>.
 
 ### Internet Explorer
-1. Visit: <http://www.iegallery.com/en/addons/detail.aspx?id=10202>.
+ 1. Visit: <http://www.iegallery.com/en/addons/detail.aspx?id=10202>.
 
-2. Click <samp>Add to Internet Explorer</samp>.
+ 2. Click <samp>Add to Internet Explorer</samp>.
 
-3. Ensure <samp>Make this my default search provider</samp> is checked, and click <samp>Add</samp>.
+ 3. Ensure <samp>Make this my default search provider</samp> is checked, and click <samp>Add</samp>.
 
 ### Opera
-1. Visit <http://duckduckgo.com/>.
+ 1. Visit <http://duckduckgo.com/>.
 
-2. Right-click DuckDuckGo's search box in the middle of the page, and select <samp>Create Search</samp>.
+ 2. Right-click DuckDuckGo's search box in the middle of the page, and select <samp>Create Search</samp>.
 
-3. Enter <kbd>d</kbd> for Keyword.
+ 3. Enter <kbd>d</kbd> for Keyword.
 
-4. Check <samp>Use as default search engine</samp>.
+ 4. Check <samp>Use as default search engine</samp>.
 
 ### Apple Safari
 Changing your default search provider in Safari is a little more difficult. Although you can choose from three presets (Google, Yahoo! and Bing), you can't add new providers. Hopefully this will change in Mountain Lion, but in the meantime, the best way to use DuckDuckGo is to install [Safari OmniBar][8]. Not only does this allow you to change the default search provider, but it also combines the address and search fields into one input, like the one seen in Chrome.
 
-1. Select the current text in your address bar.
+ 1. Select the current text in your address bar.
 
-2. Right click the text and select <samp>Edit Omnibar Search Providers...</samp>.
+ 2. Right click the text and select <samp>Edit Omnibar Search Providers...</samp>.
 
-3. Add another search provider by clicking on the plus button on the lower left hand corner.
+ 3. Add another search provider by clicking on the plus button on the lower left hand corner.
 
-4. Enter the following details:
+ 4. Enter the following details:
 
-  **Search Provider:** <kbd>DuckDuckGo</kbd>
+    **Search Provider:** <kbd>DuckDuckGo</kbd>
 
-  **Keyword:** <kbd>d</kbd> (or pick another letter or word of your choosing)
+    **Keyword:** <kbd>d</kbd> (or pick another letter or word of your choosing)
 
-  **URL:** <kbd>http://duckduckgo.com/?q={searchTerms}</kbd>
+    **URL:** <kbd>http://duckduckgo.com/?q={searchTerms}</kbd>
 
-5. Make this the default provider by clicking the <samp>Set as Default</samp> button whilst DuckDuckGo is selected.
+ 5. Make this the default provider by clicking the <samp>Set as Default</samp> button whilst DuckDuckGo is selected.
 
 ## Removing the Dependance
 The only downside to using DuckDuckGo is that it [doesn't let you search images][9]. Fortunately you can use a shortcuts to search different sites via DuckDuckGo. If you want to search for images of Brighton Pier, typing <kbd>!i Brighton Pier</kbd> will show results from Google Images. Want to see results from Wikipedia? Just type<kbd>!wiki Brighton Pier</kbd>.

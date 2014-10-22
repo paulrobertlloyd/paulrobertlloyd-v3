@@ -16,15 +16,15 @@ Luckily, I was later invited to my friends Dan & Liz's wedding taking place in S
 {% embed https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-5tk2u4wo/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#4/38/-98 %}
 {% endfigure %}
 
-* **20 October:** Depart London Heathrow
-* **21-25 October:** [Washington, DC][5]
-* **26 October:** [Ottawa, Ontario][6]
-* **27-29 October:** [Toronto, Ontario][7]
-* **30-31 October:** [Saltspring Island, British Columbia][8]
-* **1-2 November:** [Vancouver, British Columbia][9]
-* **3 November:** [Coast Starlight][10]
-* **4-6 November:** [San Francisco, California][10]
-* **7 November:** Arrive London Heathrow
+  * **20 October:** Depart London Heathrow
+  * **21-25 October:** [Washington, DC][5]
+  * **26 October:** [Ottawa, Ontario][6]
+  * **27-29 October:** [Toronto, Ontario][7]
+  * **30-31 October:** [Saltspring Island, British Columbia][8]
+  * **1-2 November:** [Vancouver, British Columbia][9]
+  * **3 November:** [Coast Starlight][10]
+  * **4-6 November:** [San Francisco, California][10]
+  * **7 November:** Arrive London Heathrow
 
 Obviously, this contradicted [my desire to cut down the air miles][11]. By my failed logic, if I'm travelling such a long way, I should cram in as much as possible for that distance to have been worth flying -- even if doing so would result in further flights. Thankfully parts of this itinerary were joined together by rail, which remains my favourite means of travel.
 
