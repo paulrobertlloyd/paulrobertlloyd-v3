@@ -1,0 +1,38 @@
+//  ============================================================================
+//  Layout helpers
+//  ============================================================================
+
+// Align item to left/right of another
+.l--align-left,
+%l--align-left {
+    float: left;
+}
+
+.l--align-right,
+%l--align-right {
+    float: right;
+}
+
+// Item touches left/right/both edge(s) of page
+.l--bleed-left,
+%l--bleed-left {
+}
+
+.l--bleed-right,
+%l--bleed-right {
+}
+
+.l--bleed-full,
+%l--bleed-full {
+}
+
+// Prise item out to left/right gutter
+.l--prise-left,
+%l--prise-left {
+    float: left;
+}
+
+.l--prise-right,
+%l--prise-right {
+    float: right;
+}
