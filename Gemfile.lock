@@ -103,6 +103,7 @@ GEM
     jslint_on_rails (1.1.1)
     json (1.8.1)
     kramdown (1.4.2)
+    libv8 (3.16.14.7)
     liquid (2.6.1)
     listen (2.7.11)
       celluloid (>= 0.15.2)
@@ -135,6 +136,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.0)
+    ref (1.0.5)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
     sass (3.4.6)
@@ -156,6 +158,9 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.19.1)
     tilt (1.4.1)
     timers (4.0.1)
@@ -191,5 +196,6 @@ DEPENDENCIES
   nokogiri
   rake
   scss-lint
+  therubyracer
   typogruby
   uglifier
