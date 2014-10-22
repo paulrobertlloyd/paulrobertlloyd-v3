@@ -7,6 +7,6 @@ tags:
   - Facebook
 link: https://twitter.com/andybudd/status/70567695480918016
 ---
-{% figure "<cite>Andy Budd</cite>" %}
+@andydudd:
+
 > Humans have the tendency to focus on short term benefits over long term harm. This helps explain Facebook.
-{% endfigure %}

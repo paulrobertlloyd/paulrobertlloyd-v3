@@ -25,6 +25,24 @@ permalink: /:year/:month/:title.html
 paginate: 12
 paginate_path: /journal/:num/
 
+# Writing
+markdown: Pypedown # Pygments + Typograuby + kramdown
+
+# Assets
+assets:
+  sources:
+    - _stylesheets
+    - _javascripts
+  css_compressor: sass
+
+# Publishing
+source: ./source
+destination: ./public
+include:
+  - '**_pages'
+exclude:
+  - '**.scss'
+
 # Archives
 jekyll-archives:
   enabled:
@@ -40,26 +58,14 @@ jekyll-archives:
     month: /:year/:month/
     tag: /tags/:name.html
 
-markdown: Pypedown # Pygments + Typograuby + kramdown
-
-# Publishing
-source: ./source
-destination: ./public
-include:
-  - '**_pages'
-exclude:
-  - '**.scss'
-
-# Assets
-assets:
-  sources:
-    - _stylesheets
-    - _javascripts
-  css_compressor: sass
+# Mentions
+jekyll-mentions:
+  base_url: https://twitter.com
 
 # Gems
 gems:
   - jekyll-assets
   - jekyll-archives
+  - jekyll-mentions
   - jekyll-pypedown
   - jekyll-sitemap
