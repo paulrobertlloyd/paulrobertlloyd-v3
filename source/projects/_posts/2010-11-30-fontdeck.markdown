@@ -25,9 +25,9 @@ The key values of the product were distilled into a compelling proposition: ‘p
 
 Improving the product in discreet stages sounded appealing, but beyond a few technical items, making substantial changes soon became difficult. We knew where we wanted to be, but it was difficult to get there without a vision of what the service might look like. Spending several evenings outside of work, I devised a holistic design for the product that would primarily serve these three goals:
 
-* Communicate professionalism of the service and the quality of our library.
-* Better explain how the service works and how much it costs to use.
-* Give greater prominence to foundries and type designers.
+  * Communicate professionalism of the service and the quality of our library.
+  * Better explain how the service works and how much it costs to use.
+  * Give greater prominence to foundries and type designers.
 
 ## Typography, colour palette
 {% figure "Adelle and PT Sans type specimen" %}
@@ -65,7 +65,7 @@ Type designer and foundry pages previously consisted of alphabetical indices of 
 [Get testimonial from Rich]
 
 ## Elsewhere
-* [Fontdeck: Realign not Redesign][1] - presentation I gave at Multipack Presents in February 2011
+  * [Fontdeck: Realign not Redesign][1] - presentation I gave at Multipack Presents in February 2011
 
 [1]: https://speakerdeck.com/paulrobertlloyd/fontdeck-realign-not-redesign
 

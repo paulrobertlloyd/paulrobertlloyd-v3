@@ -52,10 +52,10 @@ Working alongside [James Box][1], I helped devise a common user experience and u
 
 Example implementations can be seen at:
 
-* [Syfy Universal][2] (UK)
-* [Universal Channel][3] (South Africa)
-* [Studio Universal][4] (Brazil)
-* [13TH STREET Universal][5] (Spain)
+  * [Syfy Universal][2] (UK)
+  * [Universal Channel][3] (South Africa)
+  * [Studio Universal][4] (Brazil)
+  * [13TH STREET Universal][5] (Spain)
 
 [1]: http://clearleft.com/is/james-box/
 [2]: http://syfy.co.uk/

@@ -9,8 +9,8 @@ tags:
 ---
 Last month I spoke at [Geek in the Park][1] about what it means to design for the web in a way that is appreciative of the platform. This followed on from [a similar talk I gave at an APA event][2] earlier in the year. A summary follows, but you can also:
 
-* [View presentation on Speaker Deck][3]
-* [Download presentation (with notes)][4] (PDF, 5.3Mb)
+  * [View presentation on Speaker Deck][3]
+  * [Download presentation (with notes)][4] (PDF, 5.3Mb)
 
 ## Web Versus Native
 'Web versus Native' has become a common argument in development circles. Here, the word native is used to describe experiences built for mobile devices, designed to take advantage of the platforms they sit on. Yet the omission of 'native' from the other side of this argument is puzzling -- surely applications and content on the web should feel part of that platform too?

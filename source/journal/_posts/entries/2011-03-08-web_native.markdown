@@ -10,8 +10,8 @@ tag:
 ---
 Today I spoke at the [APA's Digital Breakfast][1] event in London. The APA is an organisation that represents print publishers who produce magazines and editorial content for brand-based consumer magazines. This months event focused around the theme of Web Design Trends; [Chris Mills][2] [spoke about HTML5][3] and [Adam Bankin][4] talked about design beyond the desktop. A summary of my talk follows, but you can also:
 
-* [View presentation on Speaker Deck][5]
-* [Download presentation (with notes)][6] (PDF, 4.5Mb)
+  * [View presentation on Speaker Deck][5]
+  * [Download presentation (with notes)][6] (PDF, 4.5Mb)
 
 ## Trends
 I originally intended to reprise a previous talk I had given about [Styleguides for the Web][7], but as I reviewed my slides, I started to think more about the theme: Web Design Trends.
@@ -31,11 +31,11 @@ There is a growing acceptance that the web works best when it's treated on it's 
 
 There are three particular aspects of the web that I think make it unique:
 
-* **Dynamic:** Clients often commission redesigns once every two or three years, but this ignores a fantastic opportunity. The web gives you unparalleled access to your users, meaning you can get a tremendous amount of feedback (either directly or indirectly) on how your site is performing and how well it meets their needs. This dynamism has its downsides too -- we have yet to think of any reliable method of preserving historically relevant content. The web almost exists with a complete ignorance of the past.
+  * **Dynamic:** Clients often commission redesigns once every two or three years, but this ignores a fantastic opportunity. The web gives you unparalleled access to your users, meaning you can get a tremendous amount of feedback (either directly or indirectly) on how your site is performing and how well it meets their needs. This dynamism has its downsides too -- we have yet to think of any reliable method of preserving historically relevant content. The web almost exists with a complete ignorance of the past.
 
-* **Adaptable:** I think the fluidity of the web is especially important for designers to recognise, and many have felt this all too acutely when trying to design websites that maintain pixel level precision across different browsers. The web works best when you embrace its fluidity rather than fight it, and as we see a proliferation of devices with varying design constraints, we're now seeing this is a strength, not a weakness.
+  * **Adaptable:** I think the fluidity of the web is especially important for designers to recognise, and many have felt this all too acutely when trying to design websites that maintain pixel level precision across different browsers. The web works best when you embrace its fluidity rather than fight it, and as we see a proliferation of devices with varying design constraints, we're now seeing this is a strength, not a weakness.
 
-* **Systematic:** Fundamentally the web is a technology, borne of logic, rules and systems. There are key concepts such as URLs and hypertext that we need to both understand and design for. The web is not just a visual medium either, indeed it's quite possible that most content isn't consumed by humans at all -- think of Google's spidering tools, or assistive tools such as screen readers. None of these pay any credence to the visual design.
+  * **Systematic:** Fundamentally the web is a technology, borne of logic, rules and systems. There are key concepts such as URLs and hypertext that we need to both understand and design for. The web is not just a visual medium either, indeed it's quite possible that most content isn't consumed by humans at all -- think of Google's spidering tools, or assistive tools such as screen readers. None of these pay any credence to the visual design.
 
 In his article 'A Dao of Web Design', [Jon Allsopp wrote][9]:
 

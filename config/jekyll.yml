@@ -58,10 +58,6 @@ jekyll-archives:
     month: /:year/:month/
     tag: /tags/:name.html
 
-# Mentions
-jekyll-mentions:
-  base_url: https://twitter.com
-
 # Gems
 gems:
   - jekyll-assets

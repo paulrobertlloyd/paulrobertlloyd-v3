@@ -10,8 +10,8 @@ tags:
 ---
 *Last month I spoke at the UK launch of [Aquent Gymnasium][1] -- an online learning platform that offers free courses for designers looking to improve their web development skills. What follows is a rough transcript of my talk.*
 
-* [View presentation on Speaker Deck][2]
-* [Download presentation (with notes)][3] (PDF, 6.7Mb)
+  * [View presentation on Speaker Deck][2]
+  * [Download presentation (with notes)][3] (PDF, 6.7Mb)
 
 ## An Introduction
 In 15 minutes I hope to give you an insight into the many opportunities and challenges facing web designers in 2013. But first, a little bit about myself.

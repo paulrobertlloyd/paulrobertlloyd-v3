@@ -76,25 +76,25 @@ Additionally, you might wish to cite the source, as in the above example. The co
 The `ol` element denotes an ordered list, and various numbering schemes are available through the CSS (including 1,2,3... a,b,c... i,ii,iii... and so on). Each item requires a surrounding `<li>` and `</li>` tag, to denote individual items within the list (as you may have guessed, `li` stands for list item).
 
 <div class="example" markdown="1">
-1. This is an ordered list.
-2. This is the second item, which contains a sub list
+ 1. This is an ordered list.
+ 2. This is the second item, which contains a sub list
     1. This is the sub list, which is also ordered.
     2. It has two items.
-3. This is the final item on this list.
+ 3. This is the final item on this list.
 </div>
 
 ### Unordered list
 The `ul` element denotes an unordered list (ie. a list of loose items that don't require numbering, or a bulleted list). Again, each item requires a surrounding `<li>` and `</li>` tag, to denote individual items. Here is an example list showing the constituent parts of the British Isles:
 
 <div class="example" markdown="1">
-* United Kingdom of Great Britain and Northern Ireland:
+  * United Kingdom of Great Britain and Northern Ireland:
     * England
     * Scotland
     * Wales
     * Northern Ireland
-* Republic of Ireland
-* Isle of Man
-* Channel Islands:
+  * Republic of Ireland
+  * Isle of Man
+  * Channel Islands:
     * Bailiwick of Guernsey
     * Bailiwick of Jersey
 </div>
@@ -102,11 +102,11 @@ The `ul` element denotes an unordered list (ie. a list of loose items that don't
 Sometimes we may want each list item to contain block elements, typically a paragraph or two:
 
 <div class="example" markdown="1">
-* The British Isles is an archipelago consisting of the two large islands of Great Britain and Ireland, and many smaller surrounding islands.
+  * The British Isles is an archipelago consisting of the two large islands of Great Britain and Ireland, and many smaller surrounding islands.
 
-* Great Britain is the largest island of the archipelago. Ireland is the second largest island of the archipelago and lies directly to the west of Great Britain.
+  * Great Britain is the largest island of the archipelago. Ireland is the second largest island of the archipelago and lies directly to the west of Great Britain.
 
-* The full list of islands in the British Isles includes over 1,000 islands, of which 51 have an area larger than 20 km<sup>2</sup>.
+  * The full list of islands in the British Isles includes over 1,000 islands, of which 51 have an area larger than 20 km<sup>2</sup>.
 </div>
 
 ### Definition list
@@ -137,9 +137,9 @@ Here, a part of a poem is marked up using figure:
 
 <div class="example" markdown="1">
 {% figure "<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
-'Twas brillig, and the slithy toves  
-Did gyre and gimble in the wabe;  
-All mimsy were the borogoves,  
+'Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
 And the mome raths outgrabe.
 {% endfigure %}
 </div>
