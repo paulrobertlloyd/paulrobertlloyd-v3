@@ -62,6 +62,5 @@ jekyll-archives:
 gems:
   - jekyll-assets
   - jekyll-archives
-  - jekyll-mentions
   - jekyll-pypedown
   - jekyll-sitemap
