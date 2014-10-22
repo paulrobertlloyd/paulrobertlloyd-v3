@@ -45,6 +45,14 @@
         font-family: $f__sans-serif;
     }
 
+    img.l--align-left {
+        margin: 0.5em 1em 1em 0;
+    }
+
+    img.l--align-right {
+        margin: 0.5em 0 1em 1em;
+    }
+
     a {
         background-image: linear-gradient(to left, rgba($c__link, 0.2), rgba($c__link, 0.2));
         background-repeat: repeat-x;

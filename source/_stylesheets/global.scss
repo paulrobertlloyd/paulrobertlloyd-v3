@@ -4,6 +4,8 @@
 @import 'helpers/mixins/_font-family';
 @import 'helpers/mixins/_font-size';
 @import 'helpers/placeholders/_rules';
+@import 'helpers/placeholders/_l';
+@import 'helpers/placeholders/_u';
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
@@ -20,13 +22,11 @@
 @import 'base/_disabled';
 
 // Utilities
-@import 'utilities/_u';
 @import 'utilities/_button';
 @import 'utilities/_grid';
 @import 'utilities/_icon';
 @import 'utilities/_list';
 @import 'utilities/_prose';
-@import 'utilities/_pull';
 @import 'utilities/_tag';
 
 // Navigation
