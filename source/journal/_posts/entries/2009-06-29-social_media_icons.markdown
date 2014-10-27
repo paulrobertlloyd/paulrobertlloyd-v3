@@ -7,7 +7,6 @@ tags:
   - Projects
   - Social media icons
 discussion: closed
-post_id: 2009-06-29-social_media_icons
 style: |
   .list--icons {
       overflow: hidden;
@@ -29,78 +28,78 @@ style: |
       padding: 0 8px 0 22px;
       display: block;
   }
-  .icon--google { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 0;}
-  .icon--dopplr { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -70px;}
-  .icon--microsoft { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -140px;}
-  .icon--delicious { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -210px;}
-  .icon--flickr { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -280px;}
-  .icon--digg { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -350px;}
-  .icon--email { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -420px;}
-  .icon--stackoverflow { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -490px;}
-  .icon--huffduffer { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -560px;}
-  .icon--ffffound { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -630px;}
-  .icon--orkut { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -700px;}
-  .icon--wikipedia { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -770px;}
-  .icon--xing { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -840px;}
-  .icon--xbox { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -910px;}
-  .icon--slideshare { background: url(/assets/images/2009/06/socialmediaicons_white_v1100.png) no-repeat 0 -980px;}
-  .icon--myspace { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 0;}
-  .icon--amazon { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -70px;}
-  .icon--readernaut { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -140px;}
-  .icon--creativecommons { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -210px;}
-  .icon--px500 { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -280px;}
-  .icon--adn { background: url(/assets/images/2009/06/socialmediaicons_black_v1100.png) no-repeat 0 -350px;}
-  .icon--speakerdeck { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 0;}
-  .icon--forrst { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -70px;}
-  .icon--newsvine { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -140px;}
-  .icon--sharethis { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -210px;}
-  .icon--spotify { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -280px;}
-  .icon--vcard { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -350px;}
-  .icon--zootool { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -420px;}
-  .icon--zerply { background: url(/assets/images/2009/06/socialmediaicons_green_v1100.png) no-repeat 0 -490px;}
-  .icon--tumblr { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 0;}
-  .icon--github { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -70px;}
-  .icon--facebook { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -140px;}
-  .icon--instagram { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -210px;}
-  .icon--foursquare { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -280px;}
-  .icon--bbcid { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -350px;}
-  .icon--website { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -420px;}
-  .icon--pinboard { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -490px;}
-  .icon--lanyrd { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -560px;}
-  .icon--behance { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -630px;}
-  .icon--rdio { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -700px;}
-  .icon--skype { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -770px;}
-  .icon--twitter { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -840px;}
-  .icon--twitter-retweet { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -910px;}
-  .icon--linkedin { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -980px;}
-  .icon--vimeo { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -1050px;}
-  .icon--reddit { background: url(/assets/images/2009/06/socialmediaicons_blue_v1100.png) no-repeat 0 -1120px;}
-  .icon--getsatisfaction { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 0px;}
-  .icon--yahoo { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -70px;}
-  .icon--identica { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -140px;}
-  .icon--pintrest { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -210px;}
-  .icon--meetup { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -280px;}
-  .icon--geotag { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -350px;}
-  .icon--youtube { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -420px;}
-  .icon--readability { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -490px;}
-  .icon--yelp { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -560px;}
-  .icon--nikeplus { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -630px;}
-  .icon--google-plus { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -700px;}
-  .icon--lastfm { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -770px;}
-  .icon--dribbble { background: url(/assets/images/2009/06/socialmediaicons_red_v1100.png) no-repeat 0 -840px;}
-  .icon--etsy { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 0;}
-  .icon--stumbleupon { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -70px;}
-  .icon--aim { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -140px;}
-  .icon--soundcloud { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -210px;}
-  .icon--feed { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -280px;}
-  .icon--imdb { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -350px;}
-  .icon--posterous { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -420px;}
-  .icon--goodreads { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -490px;}
-  .icon--thisismyjam { background: url(/assets/images/2009/06/socialmediaicons_yellow_v1100.png) no-repeat 0 -560px;}
+  .icon--google { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 0;}
+  .icon--dopplr { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -70px;}
+  .icon--microsoft { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -140px;}
+  .icon--delicious { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -210px;}
+  .icon--flickr { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -280px;}
+  .icon--digg { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -350px;}
+  .icon--email { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -420px;}
+  .icon--stackoverflow { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -490px;}
+  .icon--huffduffer { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -560px;}
+  .icon--ffffound { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -630px;}
+  .icon--orkut { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -700px;}
+  .icon--wikipedia { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -770px;}
+  .icon--xing { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -840px;}
+  .icon--xbox { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -910px;}
+  .icon--slideshare { background: url(/assets/images/2009/06/social_media_icons_white_v1100.png) no-repeat 0 -980px;}
+  .icon--myspace { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 0;}
+  .icon--amazon { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -70px;}
+  .icon--readernaut { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -140px;}
+  .icon--creativecommons { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -210px;}
+  .icon--px500 { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -280px;}
+  .icon--adn { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -350px;}
+  .icon--speakerdeck { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 0;}
+  .icon--forrst { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -70px;}
+  .icon--newsvine { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -140px;}
+  .icon--sharethis { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -210px;}
+  .icon--spotify { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -280px;}
+  .icon--vcard { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -350px;}
+  .icon--zootool { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -420px;}
+  .icon--zerply { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -490px;}
+  .icon--tumblr { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 0;}
+  .icon--github { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -70px;}
+  .icon--facebook { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -140px;}
+  .icon--instagram { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -210px;}
+  .icon--foursquare { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -280px;}
+  .icon--bbcid { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -350px;}
+  .icon--website { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -420px;}
+  .icon--pinboard { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -490px;}
+  .icon--lanyrd { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -560px;}
+  .icon--behance { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -630px;}
+  .icon--rdio { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -700px;}
+  .icon--skype { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -770px;}
+  .icon--twitter { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -840px;}
+  .icon--twitter-retweet { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -910px;}
+  .icon--linkedin { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -980px;}
+  .icon--vimeo { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -1050px;}
+  .icon--reddit { background: url(/assets/images/2009/06/social_media_icons_blue_v1100.png) no-repeat 0 -1120px;}
+  .icon--getsatisfaction { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 0px;}
+  .icon--yahoo { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -70px;}
+  .icon--identica { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -140px;}
+  .icon--pintrest { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -210px;}
+  .icon--meetup { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -280px;}
+  .icon--geotag { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -350px;}
+  .icon--youtube { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -420px;}
+  .icon--readability { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -490px;}
+  .icon--yelp { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -560px;}
+  .icon--nikeplus { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -630px;}
+  .icon--google-plus { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -700px;}
+  .icon--lastfm { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -770px;}
+  .icon--dribbble { background: url(/assets/images/2009/06/social_media_icons_red_v1100.png) no-repeat 0 -840px;}
+  .icon--etsy { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 0;}
+  .icon--stumbleupon { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -70px;}
+  .icon--aim { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -140px;}
+  .icon--soundcloud { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -210px;}
+  .icon--feed { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -280px;}
+  .icon--imdb { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -350px;}
+  .icon--posterous { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -420px;}
+  .icon--goodreads { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -490px;}
+  .icon--thisismyjam { background: url(/assets/images/2009/06/social_media_icons_yellow_v1100.png) no-repeat 0 -560px;}
 ---
 I've often found myself requiring icons when linking to or referencing different social networks I'm a member of. Whilst there are a lot of icon sets available that can help me do this, most seem to be oversized and highly stylised. In the past I've used site favicons, but these can often be visually inconsistent.
 
-![](/assets/images/2009/06/socialmediaicons_sizes.png){: .pull-right} With that in mind, and taking inspiration from the gorgeous icons used by [Tim van Damme][1] on his address card site, and the [Social Media Mini Iconpack][2] by Komodo media, I've created a selection of different icons each available in four different sizes (48×48, 32×32, 24×24 and 16×16).
+![](/assets/images/2009/06/social_media_icons_sizes.png){: .pull-right} With that in mind, and taking inspiration from the gorgeous icons used by [Tim van Damme][1] on his address card site, and the [Social Media Mini Iconpack][2] by Komodo media, I've created a selection of different icons each available in four different sizes (48×48, 32×32, 24×24 and 16×16).
 
 * * *
 
