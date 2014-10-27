@@ -9,7 +9,7 @@ tags:
   - Government
 discussion: closed
 ---
-*This article is [also available in Portuguese][pt-BR]{rel="alternate" hreflang="pt-BR"}.*
+*This article is [also available in Portuguese][pt-BR]{:hreflang="pt-BR" rel="alternate"}.*
 
 With an escalating national debt, the talk at this month's party conferences is one of cuts in public spending and smaller, more efficient government. I believe one clear way of achieving this would be to introduce a single unified brand across government.
 
@@ -40,7 +40,7 @@ A student competition held in 1996 was won by Jürgen Huber and Lisa Eidt. Their
 
 The final identity was launched in June 1999 and [MetaDesign has been involved ever since][1]. They continue to assist the federal government with implementation of the brand, designing tools and creating frameworks that allow ministries to still maintain a level of creative freedom.
 
-  * [Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/) (in German, [translated](http://www.systranet.com/turl/?systranuid=aHR0cC1zdHlsZWd1aWRlLmJ1bmRlc3JlZ2llcnVuZy5kZS9kZV9lbg==))
+  * [Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/){:hreflang="de-DE"} (in German, [translated](http://www.systranet.com/turl/?systranuid=aHR0cC1zdHlsZWd1aWRlLmJ1bmRlc3JlZ2llcnVuZy5kZS9kZV9lbg==))
 
 {% figure "**Logos used by the German Federal Government:** One single (and scalable) identity system is used across all federal ministries and agencies. Shown here are logos for the Federal Goverment, the Federal Ministry of Education and Research, the Federal Supervisory Authority for Air Navigation Services and the Federal Archives" %}
 ![](/assets/images/2009/09/germangovernment.png)
@@ -51,7 +51,7 @@ Last year the Dutch Government [took a similar approach][2] with it's 'Project 1
 
 The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom typeface][4] ('[Rijksoverheid][5]') designed by Peter Verheul. Announced in 2008, the roll out is intended to be complete by 2011.
 
-  * [Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/) (retrieved from the Internet Archive, in Dutch)
+  * [Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/){:hreflang="nl-NL"} (retrieved from the Internet Archive, in Dutch)
 
 {% figure "**Logos for Dutch Government and Ministries:** A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs" %}
 ![](/assets/images/2009/09/dutchgovernment.png)
