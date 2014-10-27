@@ -9,7 +9,9 @@ tags:
   - Clearleft
 discussion: closed
 ---
+{% figure "The Clearleft team. [Photo](https://www.flickr.com/photos/paulannett/3256245742) by Jack Barnes." %}
 ![The Clearleft team](/assets/images/2009/06/clearleft.jpg)
+{% endfigure %}
 
 This month saw me become the ninth member of the Brighton based web agency [Clearleft][1].
 

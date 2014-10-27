@@ -54,7 +54,7 @@ Having experienced this ability to engage directly with such an organisation, it
 [8]: /2009/02/simply_walsall/
 [9]: http://twitter.com/WalsallCouncil
 [10]: http://twitter.com/paulrobertlloyd/status/2169631461
-[11]: /2009/02/simply_walsall/#comments
+[11]: /2009/02/simply_walsall#remark-4
 [12]: https://twitter.com/search?q=%23PicoftheDay%20from%3AWalsallCouncil
 
 *[CSS]: Cascading Style Sheets

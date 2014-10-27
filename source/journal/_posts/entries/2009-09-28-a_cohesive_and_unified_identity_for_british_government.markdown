@@ -9,7 +9,7 @@ tags:
   - Government
 discussion: closed
 ---
-*This article is [also available in Portuguese][br-pt].*
+*This article is [also available in Portuguese][pt-BR]{rel="alternate" hreflang="pt-BR"}.*
 
 With an escalating national debt, the talk at this month's party conferences is one of cuts in public spending and smaller, more efficient government. I believe one clear way of achieving this would be to introduce a single unified brand across government.
 
@@ -86,7 +86,7 @@ Below is a suggestion as to how a unified identity might look, although I'm sure
 
 Given the growing number of identity schemes implemented by other governments, it seems we are already behind. However there is still a massive opportunity for the British design community to think about how such a problem could be solved. That David Cameron [rebranded his own party][8] on becoming leader, I'm hopeful a similar exercise is soon seen at government level too.
 
-[br-pt]: http://logobr.org/branding/design-governamental-uma-identidade-coesa-e-unificada-para-o-governo-britanico/
+[pt-BR]: http://logobr.org/branding/design-governamental-uma-identidade-coesa-e-unificada-para-o-governo-britanico/
 [1]: http://www.metadesign.de/html/en/2381.html
 [2]: http://www.design.nl/item/new_logo_for_the_dutch_national_government
 [3]: http://www.studiodumbar.com/
