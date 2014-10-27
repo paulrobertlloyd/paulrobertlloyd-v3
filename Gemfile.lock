@@ -102,7 +102,7 @@ GEM
       listen (~> 2.7)
     jslint_on_rails (1.1.1)
     json (1.8.1)
-    kramdown (1.4.2)
+    kramdown (1.5.0)
     libv8 (3.16.14.7)
     liquid (2.6.1)
     listen (2.7.11)
