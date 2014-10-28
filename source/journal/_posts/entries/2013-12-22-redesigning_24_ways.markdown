@@ -10,7 +10,7 @@ tags:
   - Web design and development
   - 24 ways
 ---
-![24 ways viewed on an iPad mini](/assets/images/2013/12/redesigning_24_ways.jpg)
+![24 ways viewed on an iPad mini](/assets/images/2013/12/24_ways_website.png)
 
 The tail end of this year has been [rather hectic][1]. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning *[24 ways][2]*.
 
@@ -35,7 +35,7 @@ Still, how could this redesign continue the tradition of pushing against the edg
 In [The Web Aesthetic][6], I urged designers to move beyond traditional print-inspired layouts, and instead look more to digital software -- all while being true to the universal nature of the medium. Could this be an opportunity to make those ideas real?
 
 ## A torturous design process
-{% figure "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
+{% figure tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
 > How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
 {% endfigure %}
 
@@ -49,7 +49,7 @@ Diamonds quickly became a unifying motif throughout this exploratory stage. Not 
 
 For the typography, I settled on a pairing of [Lato][9] and [Merriweather][10]. For similar reasons discussed in [an earlier post][11], I opted to use freely available fonts, with budget and ease of implementation at the forefront of my mind. This choice helped me typeset articles to a reasonable standard, yet using typefaces from different designers and with different metrics meant I was unable to mix them together inline. I looked at pairing Merriweather with its sans serif counterpart, yet its tracking was too loose for body copy.
 
-{% figure "[@paulrobertlloyd, 14 November 2013](https://twitter.com/paulrobertlloyd/statuses/401169294488535040)" %}
+{% figure tweet "[@paulrobertlloyd, 14 November 2013](https://twitter.com/paulrobertlloyd/statuses/401169294488535040)" %}
 > Know your fonts... using a typeface whose name means 'summer', for a website based around Christmas.
 > 
 > Awkward.
@@ -66,7 +66,7 @@ By the time dConstruct arrived in September, I had enough elements to present an
 
 With the deadline fast approaching, I abandoned Sketch and headed for the browser. Having already marked up the site (using [Barebones][14] to provide generic styling) I introduced elements of the new design and observed how it cascaded down and throughout pages. Soon enough, the design was informing the markup, which in turn was informing the design. A visual language was developing in front of me.
 
-{% figure "[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/statuses/395365510046830592)" %}
+{% figure tweet "[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/statuses/395365510046830592)" %}
 > Sometimes you have to work with a design system to truly understand it.
 {% endfigure %}
 
