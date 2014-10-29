@@ -15,7 +15,7 @@ The final stop in my four-city tour of the US in October was Washington, DC I've
 
 Perhaps unsurprisingly, I spent a good deal of time in DC taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country's history.
 
-{% figure bleed "The Vietnam Veterans Memorial" %}
+{% figure l-bleed "The Vietnam Veterans Memorial" %}
 ![](/assets/images/2008/12/washington_dc_vietnam_memorial.jpg)
 {% endfigure %}
 
@@ -23,34 +23,35 @@ Whilst the presidential memorials were large and grandiose, I actually found the
 
 Here two granite walls create a 'V' shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a "wound that is closed and healing".
 
-{% figure bleed "US Marine Corps War Memorial" %}
+{% figure l-hang-left "US Marine Corps War Memorial" %}
 ![](/assets/images/2008/12/washington_dc_iwo_jima_memorial.jpg)
+![](/assets/images/2008/12/washington_dc_netherlands_carillon.jpg)
 {% endfigure %}
 
 I was surprised to find the [US Marine Corps War Memorial][3] (better known as the Iwo Jima Memorial) situated outside of DC, in Arlington, Virginia. Far larger than I was expecting too, this iconic sculpture by [Felix W. de Weldon][4] depicts the scene captured by photographer Joe Rosenthal in [Raising the Flag on Iwo Jima][5] that was taken during World War II.
 
-{% figure bleed "The Netherlands Carillon" %}
-![](/assets/images/2008/12/washington_dc_netherlands_carillon.jpg)
-{% endfigure %}
+<!-- {% figure l-hang-right "The Netherlands Carillon" %}
+
+{% endfigure %} -->
 
 Situated close by is the [Netherlands Carillon][6], a gift from the people of the Netherlands thanking the US for its aid during and after World War II -- very European in flavour.
-
-{% figure bleed "The Pentagon Memorial" %}
-![](/assets/images/2008/12/washington_dc_pentagon_memorial.jpg)
-{% endfigure %}
 
 Also located in Arlington is the [Pentagon][7]. As the headquarters for the US Department of Defence, upon exiting the metro you are quickly made aware this is no tourist attraction. Although photography is prohibited, this isn't a problem as the building is in no way picturesque, and I guess deliberately so.
 
 You are however allowed to take photos of the [9/11 memorial][8], in which the 184 victims of that days attack on the Pentagon are remembered in the form of 184 beautifully illuminated benches. The arrangement of benches (positioned in a number of rows according to the victim's ages, from 3 to 71) really brings home the reality of the tragedy.
 
+{% figure l-bleed "The Pentagon Memorial" %}
+![](/assets/images/2008/12/washington_dc_pentagon_memorial.jpg)
+{% endfigure %}
+
 ## Architecture
 DC is still a relatively young capital, although the many neo-classical styled buildings, and the abundance of colonnades, columns and porticoes would suggest otherwise. In fact, it was often the buildings that looked the oldest -- the Supreme Court and National Archives for example -- that tended to built as recently as the 1930's.
 
-{% figure bleed "The main terminal building at Washington Dulles International Airport" %}
+This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind -- with a possible future use as a spaceport! As a sign of Saarinen's foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
+
+{% figure l-bleed "The main terminal building at Washington Dulles International Airport" %}
 ![](/assets/images/2008/12/washington_dc_dulles.jpg)
 {% endfigure %}
-
-This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind -- with a possible future use as a spaceport! As a sign of Saarinen's foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
 
 I was particularly impressed by the city's [Metro][11] system. Built towards the end of the 1970's, it was able to learn from those systems that had gone before it; being built largely at the same time, means it has stations with a consistent design and layout. A key feature are lights that line the platform edges, and flash when trains are approaching. Each station is illuminated by fluorescent lighting hidden behind platforms offset from the vaulted walls, and from the top of information pylons centred along the length of the platform, resulting in a well lit, but calming and soft environment.
 

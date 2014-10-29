@@ -6,7 +6,7 @@ tags:
   - Photography
   - Snowdonia
   - Wales
-link: https://www.flickr.com/photos/paulrobertlloyd/5992028115/in/set-72157627194510143
+link: https://www.flickr.com/photos/paulrobertlloyd/5992028115/in/set-72157627194510143/
 link-embed: photo
 ---
 I've finally uploaded my [photos from this year's Coed-y-Brenin weekender][1]. Whilst this annual weekend in Wales is still referred to as 'Coed-y-Brenin', we stopped biking in that forest many years ago, and now visit other attractions near the campsite in Dolgellau instead.

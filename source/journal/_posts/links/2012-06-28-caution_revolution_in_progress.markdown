@@ -6,7 +6,7 @@ tags:
   - Photography
   - Politics
   - Art
-link: https://www.flickr.com/photos/paulrobertlloyd/7450693998
+link: https://www.flickr.com/photos/paulrobertlloyd/7450693998/
 embed: photo
 ---
 Please keep all reactionary views to one side.

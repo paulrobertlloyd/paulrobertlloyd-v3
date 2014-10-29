@@ -14,14 +14,16 @@ Slumdog Millionaire is the story of an impoverished Indian teen who is one quest
 Whilst marketed in light-hearted way (a brightly coloured poster with the tagline 'the feel good film of the decade') this is misjudged as the film is certainly very dark in places. Gangs, riots, prostitution, torture, corruption are themes that run throughout the film, yet these are contrasted with moments of humour and of course the eventual outcome. Particular comical highlights include Jamal giving tourists a tour of the Taj Mahal, and him chasing after Bollywood superstar [Amitabh Bachchan][4] covered in shit in order to get his autograph.
 
 {% figure "Ayush Mahesh Khedekar as the young Jamal Malik" %}
-![](/assets/images/2009/01/slumdogmillionaire.jpg)
+![](/assets/images/2009/01/slumdog_millionaire.jpg)
 {% endfigure %}
 
 Many critics have mentioned the excellent acting by the younger cast members, who play the three central characters at early stage of their lives, some of whom where actually found in the slums of Mumbai. I have to agree, in fact these are the most enchanting parts of the film. Credit should also be given to those who cast the three  characters, whose transition from 7 year olds, into teenagers and finally as twenty-somethings at the climax of the film was seamless, almost invisible.
 
 The film shines a very honest light on Mumbai and India, and never seems to resort to stereotypes, the exception being perhaps the films closing credits which features a Bollywood type dance scene, yet this acts as a way to celebrate the story you have just witnessed more than anything else.
 
+{% figure l-bleed "Official trailer" %}
 {% embed https://www.youtube.com/watch?v=AIzbwV7on6Q %}
+{% endfigure %}
 
 With awards season upon us there is a crop of good films I'm hopeful to catch in the coming weeks but of all of them, Slumdog seems to be the one that has caught the critics and publics imagination alike. It's certainly one not to be missed.
 

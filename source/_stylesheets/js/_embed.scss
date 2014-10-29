@@ -1,15 +1,14 @@
 /*  =========================================================================
     Enhanced embed
     ========================================================================= */
-.js--embed {
+.js-embed {
     position: relative;
-    margin: 0 0 0.75em; /* 0 0 12px */
     background-color: $c__neutral-1;
     padding-bottom: 56.25%;
     height: 0;
 }
 
-.js--embed__iframe {
+.js-embed__iframe {
     position: absolute;
     top: 0;
     right: 0;

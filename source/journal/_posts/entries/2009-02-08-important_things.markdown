@@ -8,7 +8,9 @@ tags:
   - Television
   - Demetri Martin
 ---
+{% figure %}
 ![Promotion for Important Things](/assets/images/2009/02/important_things.jpg)
+{% endfigure %}
 
 One of my favourite comedians stars in a new show starting on Comedy Central this week.
 

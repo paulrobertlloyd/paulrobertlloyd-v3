@@ -10,7 +10,9 @@ tags:
   - United States
 discussion: closed
 ---
+{% figure l-hang-right %}
 !['Coll' written on the side of a Starbucks cup](/assets/images/2009/02/thats_not_my_name.jpg)
+{% endfigure %}
 
 As I approach the end of my latest trip to America, I continue to fight the losing battle that is getting people to understand me when I say my first name.
 

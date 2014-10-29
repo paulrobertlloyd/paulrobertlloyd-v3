@@ -13,7 +13,7 @@ Not a week passes without there being some controversy involving Google. If they
 Even by ignoring these concerns, it's hard to deny that their flagship product is starting to suffer as well. Not only are Google's search results [increasingly adjusted to promote their own products][5] but, by basing results on the accumulated knowledge of each user, they're subjecting us to a [filter bubble][6]. For example, if you're a proponent of a privatised healthcare system, the results you'll get back will increasingly reflect that viewpoint. And along that path lies trouble.
 
 ## I Want To Break Free (of Your Lies)
-![DuckDuckGo logo](/assets/images/2012/03/duckduckgo.png){: .pull-right} Fortunately, there's an alternative. [DuckDuckGo][7] is a new(ish) search engine that's gaining popularity in the same way Google did. I remember telling people during the late nineties "you should try this new search engine called Google... I know, it's a funny name, but it's much faster than Altavista/Yahoo/Excite, and the home page is really simple too".
+![DuckDuckGo logo](/assets/images/2012/03/duckduckgo.png){: .l-align-right} Fortunately, there's an alternative. [DuckDuckGo][7] is a new(ish) search engine that's gaining popularity in the same way Google did. I remember telling people during the late nineties "you should try this new search engine called Google... I know, it's a funny name, but it's much faster than Altavista/Yahoo/Excite, and the home page is really simple too".
 
 Today, I'm hearing similar conversations. "You should try this new search engine called DuckDuckGo... Duck-Duck-Go. It's like Google, but it doesn't track you, and the results are more accurate too".
 

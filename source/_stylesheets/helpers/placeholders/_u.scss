@@ -3,8 +3,8 @@
 //  ============================================================================
 
 // Clearfix
-.u--cf,
-%u--cf {
+.u-cf,
+%u-cf {
     &::before,
     &::after {
         display: table;
@@ -17,8 +17,8 @@
 }
 
 // Visually hidden, but still audible
-.u--hidden,
-%u--hidden {
+.u-hidden,
+%u-hidden {
     position: absolute;
     margin: -1px;
     border: 0;

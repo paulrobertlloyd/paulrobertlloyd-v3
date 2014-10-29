@@ -22,8 +22,8 @@ With little time to explore the city, I started the day with a wonderful breakfa
 After breakfast, I headed to [Parliament Hill][3]. Looking to make comparisons between this and another Commonwealth legislature I'd toured [in Wellington][4] two years earlier, I heard a similar history of original buildings be destroyed by fire. The current complex -- completed in 1927 -- is split into three blocks (East, Centre and West) yet the distinguishing feature is the Peace Tower, built to commemorate those Canadians who had lost their lives during the First World War. The only surviving section of the original building is the [Library of Parliament][5]. Inside this circular building, an ornate room with a three story bookshelf surrounding a brilliant white statue of Queen Victoria. Impressive.
 
 {% figure "There was plenty to admire inside the Canadian Parliament buildings" %}
-![Confederation Hall](/assets/images/2011/12/ottawa_confederationhall.jpg){: .pull-left}
-![The Senate Chamber](/assets/images/2011/12/ottawa_senate.jpg){: .pull-left}
+![Confederation Hall](/assets/images/2011/12/ottawa_confederationhall.jpg){: .l-align-left}
+![The Senate Chamber](/assets/images/2011/12/ottawa_senate.jpg){: .l-align-left}
 {% endfigure %}
 
 I was struck by the continued presence of monarchy and other holdovers from the country's former dominion status, especially when compared to the Parliament in New Zealand. The lobby outside the Senate chamber is covered by a beautiful stained glass ceiling that includes references to England, Scotland and Wales -- in addition to crests representing Canadian provinces and territories.
