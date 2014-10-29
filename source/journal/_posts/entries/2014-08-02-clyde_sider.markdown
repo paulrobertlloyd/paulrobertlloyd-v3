@@ -10,7 +10,7 @@ tags:
   - Volunteering
 ---
 {% figure "The team I worked with during my penultimate shift outside Hampden Park" %}
-![](/assets/images/2014/08/raising_the_games.jpg)
+![](/assets/images/2014/08/clyde_sider.jpg)
 {% endfigure %}
 
 Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
