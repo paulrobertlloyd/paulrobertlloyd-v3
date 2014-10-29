@@ -2,7 +2,7 @@ production: false
 
 # Image server
 url: //paulrobertlloyd.dev
-img_url: //images.v3.paulrobertlloyd.com
+img_url: //images.paulrobertlloyd.dev
 
 # Assets
 assets:

@@ -20,7 +20,7 @@ In the last few years however, there has been a shift in the opposite direction.
 The speed at which these changes have been rolled out, has in part been aided by the creation of strict visual design guidelines, referred to as the [Global Visual Language][7] or GVL.
 
 {% figure "A selection of mastheads used on 'Barlesque' sites that adhere to the Global Visual Language v2" %}
-![](/assets/images/2010/02/bbcgvl2mastheads.jpg)
+![](/assets/images/2010/02/bbc_online_gvl_mastheads.jpg)
 {% endfigure %}
 
 These guidelines introduced a single fixed page width, added a common masthead and footer, documented how individual site banners should work and established a simple underlying grid system. All new pages created on the site adhere to these standards meaning users now enjoy a coherent and joined up experience across BBC Online.
@@ -38,7 +38,7 @@ Comment in response to [BBC Music Website Relaunch][10]:
 I guess you could say I'm not a fan of Verdana! Furthermore, the new global masthead hid much of the sites navigation behind an 'Explore' button, and also lead to occasions where logos in the banner would clash with the main logo in the masthead:
 
 {% figure "The large logo in the masthead often clashed with logos within section banners. Originally the BBC News site showed the correct logo, but had to be altered to avoid it reading as BBC BBC NEWS" %}
-![Masthead logo clashing with a logo in the news banner](/assets/images/2010/02/bbcgvl2mastheadnews.png)
+![Masthead logo clashing with a logo in the news banner](/assets/images/2010/02/bbc_online_gvl_masthead_news.png)
 {% endfigure %}
 
 I was so concerned by these oversights that I thought about ways to rectify these issues. The visual design language had just been applied to the [BBC News][11] website at the time, so I set upon redesigning the home and news item pages. The curious are welcome to view the full resolution comps I came up with:
@@ -81,7 +81,7 @@ These principles have resulted in the following output:
 A new grid allows for much flexibility. Thirty-one 16px columns can be combined to create two or four columns on the left-hand side of the page, whilst a wider right-hand column ensures that advertising units (which are shown to international visitors) are accommodated. The choice of grid has lead to the introduction of interwoven vertical and horizontal bands, with the right-hand column becoming a signature feature across the site.
 
 {% figure "Example grid usage in the new Global Visual Language" %}
-![](/assets/images/2010/02/bbcgvl3grid.jpg)
+![](/assets/images/2010/02/bbc_online_gvl_grid.jpg)
 {% endfigure %}
 
 [James][17] has been saying recently that designers need to think more carefully about their grid layouts, considering what content needs to be catered for rather than just relying on [more rigid][18] and symmetrical layouts. This looks like a textbook example.
@@ -103,7 +103,7 @@ The examples demonstrate a consistent cross-site navigation element across the t
 The embedded media players also get an update, as do carousels and other page components. To top it all off, the guidelines elicit the use of a single set of bespoke icons:
 
 {% figure "Icons used in the new Global Visual Language" %}
-![](/assets/images/2010/02/bbcgvl3icons.png)
+![](/assets/images/2010/02/bbc_online_gvl_icons.png)
 {% endfigure %}
 
 ## Final Thoughts
@@ -126,8 +126,8 @@ If it wasn't obvious, I'm absolutely bowled over by what the BBC User Experience
 [9]: http://www.bbc.co.uk/blogs/bbcinternet/2008/04/home_page_two_months_on.html
 [10]: http://www.bbc.co.uk/blogs/bbcinternet/2009/03/bbc_music_website_relaunch.html
 [11]: http://news.bbc.co.uk/
-[12]: /assets/images/2010/02/bbcnewsredesign_home.png
-[13]: /assets/images/2010/02/bbcnewsredesign_story.png
+[12]: /assets/images/2010/02/bbc_news_redesign_home.png
+[13]: /assets/images/2010/02/bbc_news_redesign_story.png
 [14]: http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html
 [15]: http://en.wikipedia.org/wiki/Neville_Brody
 [16]: http://www.researchstudios.com/
