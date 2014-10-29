@@ -79,6 +79,7 @@ module Jekyll
       source = "<figure#{@class}>"
 
       # If block contains an image make it responsive, else render the content
+      # TODO: Figures with multiple images.
       if @img
         if @img_local
           if @img_ext != "svg"
@@ -89,8 +90,10 @@ module Jekyll
                             sizes=\"100vw\"
                             alt=\"#{@img_alt}\"/>"
             else
-              # TODO: Figures with multiple images. For now, ignore
-              source += "#{output}"
+              source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
+                            srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w\"
+                            sizes=\"100vw\"
+                            alt=\"#{@img_alt}\"/>"
             end
           else
             # Image is an SVG, so natively scales
