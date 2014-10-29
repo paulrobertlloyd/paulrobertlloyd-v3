@@ -6,8 +6,8 @@ window.search = (function(win, doc) {
     var searchForm = document.querySelector('.form--search'),
         searchInput = document.querySelector('.form--search .form__input'),
         searchResults = document.createElement('div'),
-        searchResultsHeader = '<h4 class="js--search__heading">Search results</h4>',
-        template = '<span class="js--search__result">{type}: <a href="{url}">{title}</a></span>',
+        searchResultsHeader = '<h4 class="js-search__heading">Search results</h4>',
+        template = '<span class="js-search__result">{type}: <a href="{url}">{title}</a></span>',
         noResults = '<p>Nothing matched your query</p>',
         jsonFile = '/archive/search.json',
         jsonData = null,
@@ -24,7 +24,7 @@ window.search = (function(win, doc) {
             searchForm.setAttribute('action', '#search');
             searchForm.removeAttribute('method');
             searchInput.removeAttribute('name');
-            searchResults.setAttribute('class', 'js--search__results');
+            searchResults.setAttribute('class', 'js-search__results');
             [].forEach.call(document.querySelectorAll('.form--search .form__submit, .form--search .form__hidden'),function(e){
                 e.parentNode.removeChild(e);
             });

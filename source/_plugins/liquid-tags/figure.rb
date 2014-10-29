@@ -21,13 +21,13 @@ module Jekyll
     @caption = nil
 
     # Matches {% figure class "Caption" %}
-    FIGURE_CLASS_CAPTION = /(\w+)(\s+)"(.*?)"/i
+    FIGURE_CLASS_CAPTION = /([-a-z0-9]+)(\s+)"(.*?)"/i
 
     # Matches {% figure "Caption" %}
     FIGURE_CAPTION = /"(.*?)"/i
 
     # Matches {% figure class %}
-    FIGURE_CLASS = /(\w+)/i
+    FIGURE_CLASS = /([-a-z0-9]+)/i
 
     # Regex to abstract path to image file
     IMAGE_PATH = /(https?:\/\/|\/)(assets\/images)([\/\w \.-]*)/i

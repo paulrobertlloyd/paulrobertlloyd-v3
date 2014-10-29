@@ -10,7 +10,7 @@ tags:
   - Railways
 discussion: closed
 ---
-{% figure bleed "The landscape you travel across is one of the most scenic routes run by Amtrak" %}
+{% figure l-bleed "The landscape you travel across is one of the most scenic routes run by Amtrak" %}
 ![Colorado landscape as seen from on board the California Zephyr](/assets/images/2008/09/california_zephyr.jpg)
 {% endfigure %}
 
@@ -31,7 +31,7 @@ The landscape you travel across is one of the most scenic routes run by Amtrak, 
 
 Although these guides step of at [Reno][3], the commentary is continued by the conductors, who pass through the mixed terrain that is the [Rocky Mountains][4] and [Continental Divide][5] several times a week.
 
-{% figure "Route of the California Zephyr" %}
+{% figure l-bleed "Route of the California Zephyr" %}
 {% embed https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-tw61ntxz/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/40.5/-105.5 %}
 {% endfigure %}
 

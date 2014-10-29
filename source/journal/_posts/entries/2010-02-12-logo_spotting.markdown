@@ -49,7 +49,7 @@ It's an old idea ([this in-depth article][7] by Roger van den Bergh gives you an
 
 Finally, if we are to talk about 'M' shaped containing identities, then I can't leave without mentioning my favourite identity project of last year for the [City of Melbourne][9], which frankly blows MTV's mediocre efforts clean out of the water. Aren't these just fantastic?
 
-{% figure City of Melbourne logo variations. %}
+{% figure "City of Melbourne logo variations" %}
 ![](/assets/images/2010/02/cityofmelbournevariations.png)
 {% endfigure %}
 

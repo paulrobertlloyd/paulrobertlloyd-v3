@@ -3,36 +3,53 @@
 //  ============================================================================
 
 // Align item to left/right of another
-.l--align-left,
-%l--align-left {
+.l-align-left,
+%l-align-left {
     float: left;
+    margin-right: 1rem;
+    width: 25%;
 }
 
-.l--align-right,
-%l--align-right {
+.l-align-right,
+%l-align-right {
     float: right;
-}
-
-// Item touches left/right/both edge(s) of page
-.l--bleed-left,
-%l--bleed-left {
-}
-
-.l--bleed-right,
-%l--bleed-right {
-}
-
-.l--bleed-full,
-%l--bleed-full {
+    margin-left: 1rem;
+    width: 25%;
 }
 
 // Prise item out to left/right gutter
-.l--prise-left,
-%l--prise-left {
+.l-hang-left,
+%l-hang-left {
     float: left;
+    margin-right: 1rem;
+    margin-left: -25%;
+    width: 50%;
 }
 
-.l--prise-right,
-%l--prise-right {
+.l-hang-right,
+%l-hang-right {
     float: right;
+    margin-right: -25%;
+    margin-left: 1rem;
+    width: 50%;
+}
+
+// Item touches left/right/both edge(s) of page
+.l-bleed,
+%l-bleed {
+    margin-right: -25%;
+    margin-left: -25%;
+    width: 150%;
+}
+
+.l-bleed-left,
+%l-bleed-left {
+    margin-left: -25%;
+    width: 125%;
+}
+
+.l-bleed-right,
+%l-bleed-right {
+    margin-right: -25%;
+    width: 125%;
 }

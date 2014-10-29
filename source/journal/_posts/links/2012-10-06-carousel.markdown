@@ -6,9 +6,9 @@ tags:
   - Photography
   - London
   - England
-link: https://www.flickr.com/photos/paulrobertlloyd/8052168399
+link: https://www.flickr.com/photos/paulrobertlloyd/8052168399/
 link-embed: photo
 ---
 One of my favourite photos from [a day exploring London][1] early last month.
 
-[1]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157631686838093
+[1]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157631686838093/

@@ -30,7 +30,7 @@ Phil and I then checked out the haunted house. On display was some seriously sca
 
 The next day Claire gave me a tour of the south end of the island, including breakfast at [Rock Salt][9] and a walk around [Ruckle Park][10]. Yet my stay on the island was concluding all to quickly. I planned to return to Vancouver by ferry, but a three hour journey with multiple transfers couldn't compete with another flight on a float plane -- especially one that would include a flight over the city of Vancouver.
 
-{% figure A view of Swanson Channel from Ruckle Park. %}
+{% figure "A view of Swanson Channel from Ruckle Park" %}
 ![](/assets/images/2011/12/saltspring_rucklepark.jpg)
 {% endfigure %}
 

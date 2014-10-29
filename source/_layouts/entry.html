@@ -21,9 +21,9 @@ layout: default
         {% endif %}
 
         <footer class="post__footer">
-            <span class="u--hidden">Published on </span>
+            <span class="u-hidden">Published on </span>
             <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-            <span class="u--hidden">in </span>
+            <span class="u-hidden">in </span>
             {% if page.location %}
                 {% assign post_location = page.location | split:", " %}
                 <span class="post__location  p-location  h-adr">

@@ -56,7 +56,7 @@ While not immediately enamoured by the logo, I'm sure I'll warm to it over time.
 [2]: http://www.nytimes.com/2012/05/24/science/earth/shell-arctic-ocean-drilling-stands-to-open-new-oil-frontier.html
 [3]: http://bbc.co.uk/news/technology-17178022
 [4]: http://blog.twitter.com/2012/06/taking-flight-twitterbird.html
-[5]: https://www.flickr.com/photos/stop/5034665936
+[5]: https://www.flickr.com/photos/stop/5034665936/
 [6]: https://twitter.com/search/from%3Astop%20since%3A2012-06-07%20until%3A2012-06-08
 [7]: /2009/06/social_media_icons
 [8]: http://gawker.com/5916390
