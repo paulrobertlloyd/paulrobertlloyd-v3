@@ -20,10 +20,10 @@ $c__link-hover: lighten($c__link, 20%);
 $c__link-active: #800817;
 
 // Fonts
-$f__serif: "Charter", serif;
-$f__sans-serif: "Source Sans Pro", sans-serif;
-$f__monospace: "Source Code Pro", monospace;
-$f__icon: "Icons", serif; // TODO: Add icon font, font-awesome?
+$f__serif: 'Charter ITC Std', serif;
+$f__sans-serif: 'Source Sans Pro', sans-serif;
+$f__monospace: 'Source Code Pro', monospace;
+$f__icon: 'Icons', serif; // TODO: Add icon font, font-awesome?
 
 // Breakpoints
 $bp__a: 32em; // 512px
