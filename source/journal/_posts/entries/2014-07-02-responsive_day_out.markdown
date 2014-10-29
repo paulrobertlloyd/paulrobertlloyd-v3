@@ -9,7 +9,7 @@ tags:
   - Responsive design
 discussion: open
 ---
-{% figure bleed "Jeremy Keith interviewing Ethan Marcotte. [Photo by Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166)" %}
+{% figure "Jeremy Keith interviewing Ethan Marcotte. [Photo by Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166)" %}
 ![](/assets/images/2014/07/responsive_day_out.jpg)
 {% endfigure %}
 
@@ -72,11 +72,11 @@ This begged the question: what principles might apply to responsive web design? 
 
     ~~~ html
     <nav is="native">
-        <ul>
-            <li>Item one</li>
-            <li>Item two</li>
-            <li>Item three</li>
-        </ul>
+      <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+      </ul>
     </nav>
     ~~~
 
