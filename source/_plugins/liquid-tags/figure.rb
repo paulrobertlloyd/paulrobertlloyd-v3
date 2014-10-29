@@ -85,13 +85,13 @@ module Jekyll
           if @img_ext != "svg"
             if @class and @class.include? "bleed"
               # For now, responsive images only within figure.bleed
-              source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
-                            srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w, #{img_server}/1200w/100#{@img_path} 1200w\"
+              source += "<img src=\"#{img_server}/400w/60#{@img_path}\"
+                            srcset=\"#{img_server}/400w/80#{@img_path} 400w, #{img_server}/800w/80#{@img_path} 800w, #{img_server}/1200w/80#{@img_path} 1200w\"
                             sizes=\"100vw\"
                             alt=\"#{@img_alt}\"/>"
             else
-              source += "<img src=\"#{img_server}/400w/100#{@img_path}\"
-                            srcset=\"#{img_server}/400w/100#{@img_path} 400w, #{img_server}/800w/100#{@img_path} 800w\"
+              source += "<img src=\"#{img_server}/400w/60#{@img_path}\"
+                            srcset=\"#{img_server}/400w/80#{@img_path} 400w, #{img_server}/800w/80#{@img_path} 800w\"
                             sizes=\"100vw\"
                             alt=\"#{@img_alt}\"/>"
             end
