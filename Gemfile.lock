@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/berrberr/guard-jekyll-plus.git
+  remote: git://github.com/berrberr/guard-jekyll-plus.git
   revision: bbccb1aacdc8cfd2b2fe2240d00d733b2cdb3d78
   specs:
     guard-jekyll-plus (1.4.12)
@@ -38,6 +38,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.0.3)
     execjs (2.2.2)
+    exifr (1.2.0)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     formatador (0.2.5)
@@ -182,6 +183,7 @@ DEPENDENCIES
   capistrano
   capistrano-bundler
   capistrano-rvm
+  exifr
   guard
   guard-jekyll-plus!
   guard-jslint-on-rails

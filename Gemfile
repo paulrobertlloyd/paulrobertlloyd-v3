@@ -10,7 +10,7 @@ end
 # Guard (for development)
 group :development do
   gem 'guard'
-  gem 'guard-jekyll-plus', :git => 'https://github.com/berrberr/guard-jekyll-plus.git'
+  gem 'guard-jekyll-plus', github: 'berrberr/guard-jekyll-plus'
   gem 'guard-jslint-on-rails'
   gem 'guard-livereload'
   gem 'guard-sass'
@@ -26,6 +26,7 @@ gem 'jekyll-archives'
 gem 'jekyll-assets'
 gem 'jekyll-pypedown'
 gem 'jekyll-sitemap'
+gem 'exifr'
 gem 'typogruby'
 gem 'nokogiri'
 gem 'uglifier'
