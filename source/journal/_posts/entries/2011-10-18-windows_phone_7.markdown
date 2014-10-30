@@ -9,7 +9,9 @@ tags:
   - Mobile
   - Windows Phone 7
 ---
+{% figure %}
 ![Windows Phone 7](/assets/images/2011/10/windows_phone_7.jpg)
+{% endfigure %}
 
 With three years of iPhone ownership I've become accustomed to the design and behaviour of iOS, yet at the same time ignorant of other smartphone platforms. As an interactive designer working on mobile products this can lead to poor assumptions and little empathy for users of different platforms. As a responsible consumer, it's important to understand the wider marketplace so my choice of phone is based upon an informed decision.
 

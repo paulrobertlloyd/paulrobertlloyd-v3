@@ -8,7 +8,9 @@ tags:
   - Toronto
   - Canada
 ---
-![Toronto](/assets/images/2011/12/toronto.jpg)
+{% figure "Toronto's skyline, as seen from Casa Loma" %}
+![](/assets/images/2011/12/toronto.jpg)
+{% endfigure %}
 
 Some cities are best arrived at by air; only by flying over Sydney, London or New York do you get a sense of their scale and majesty. Some of the best views of San Francisco can be seen as you cross the Bay Bridge by car. Others cities beg for arrival by train.
 
@@ -39,7 +41,7 @@ I rounded of the day inside another building with a daring architectural design;
 For my final day in the city I decided to checkout [Casa Loma][8] (Spanish for Hill House) which I recognised from this year's Scott Pilgrim film. The story of its owner is tinged with both success and sadness. Originally built as a lavish residence for local financier Sir Henry Mill Pellatt, no expense was spared in the design. Its most exuberant feature is a 800m long underground tunnel providing access to the garage and stables. Unfortunately the family was only able to live here for ten years before the Great Depression forced them to leave in 1923.
 
 {% figure "The Italian stained glass dome in Casa Loma's conservatory. Such was Pellatt's attention to detail, this was backlit so it could be illuminated during the evening too" %}
-![](/assets/images/2011/12/toronto_casaloma.jpg)
+![](/assets/images/2011/12/toronto_casa_loma.jpg)
 {% endfigure %}
 
 ## Maple Leafs

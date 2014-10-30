@@ -7,7 +7,9 @@ tags:
   - Writing
   - Creative writing
 ---
+{% figure l-bleed %}
 ![Ocean Beach, San Francisco](/assets/images/2012/02/the_beach.jpg)
+{% endfigure %}
 
 They call this place Ocean Beach, perhaps because both take up most of the view. The sky is hard to truly make out, with only a faint line separating two sweeping blue canvases, each in many ways a reflection of the other.
 
