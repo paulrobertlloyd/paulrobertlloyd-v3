@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<main class="main" role="main">
+    <article class="post post--entry  h-entry">
+        <header class="post__header">
+            <h1 class="post__title  p-name">{{ page.title | smart | widot }}</h1>
+            {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
+        </header>
+
+        <div class="post__main prose  e-content">
+            {{ content | widont }}
+
+            <ul class="list">
+            {% loopdir path:'assets/images/photos/birmingham/' %}
+                <li class="list__item">Item: {{ item }}</li>
+            {% endloopdir %}
+            </ul>
+        </div>
+
+        {% include sections/tags.html %}
+
+        <footer class="post__footer">
+            <span class="u-hidden">Published on </span>
+            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
+        </footer>
+    </article>
+
+    {% include navigation/pages--post.html %}
+</main>
