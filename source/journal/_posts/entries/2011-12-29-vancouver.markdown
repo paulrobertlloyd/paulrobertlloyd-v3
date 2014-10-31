@@ -8,7 +8,9 @@ tags:
   - Vancouver
   - Canada
 ---
-![Vancouver waterfront from Stanley Park](/assets/images/2011/12/vancouver.jpg)
+{% figure "Vancouver waterfront from Stanley Park" %}
+![](/assets/images/2011/12/vancouver.jpg)
+{% endfigure %}
 
 Sat in the front seat of a [Saltspring Air][1] float plane, I enjoyed breathtaking views of Vancouver as I descended into its harbour, landing just in front of Canada Place. For such a densely populated city, I felt I'd arrived somewhere small and friendly, certifying [its status][2] as one of the world's most liveable cities.
 
@@ -18,13 +20,13 @@ After checking into the [St. Regis Hotel][3] (worthy of mention, and highly reco
 I was unsure how to spend my single day in Vancouver. Dave recommended visiting [Stanley Park][7] if the weather was good; luckily the predicted rainfall was absent so I headed in that direction. I was easily drawn into this expansive park; beautiful in and of itself yet also a great spot to find magnificent views of the cityscape. Always on the look out for a good walking trail, I spotted the 8.8km Seawall and followed the circumference of the park.
 
 {% figure "Brilliant Autumn colours in Stanley Park" %}
-![](/assets/images/2011/12/vancouver_stanleypark.jpg)
+![](/assets/images/2011/12/vancouver_stanley_park.jpg)
 {% endfigure %}
 
 From this trail I saw the Harry Jerome statue, the 9 O'Clock Gun, the Lionsgate Bridge stretching across the harbour, and in the distance much of Vancouver's industry, including mounds of Sulphur located irresponsibly close to such a populated city. Halfway round, I stopped to admire the limitless views across the Salish Sea, where sailboats and oil tankers floated upon a still mirror-like surface.
 
 {% figure "Ships on the Salish Sea" %}
-![](/assets/images/2011/12/vancouver_salishsea.jpg)
+![](/assets/images/2011/12/vancouver_salish_sea.jpg)
 {% endfigure %}
 
 As I reached the end of the trail, the heavens opened. With a distance between me and my hotel, I was soon soaked to the bone. Reverting to type, I ended up in the local mall and regrettably ate something vaguely resembling sweet and sour chicken in the food court. Never again.
