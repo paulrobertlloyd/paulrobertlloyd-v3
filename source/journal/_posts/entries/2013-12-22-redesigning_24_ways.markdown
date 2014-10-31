@@ -10,7 +10,9 @@ tags:
   - Web design and development
   - 24 ways
 ---
-![24 ways viewed on an iPad mini](/assets/images/2013/12/24_ways_website.png)
+{% figure l-bleed "24 ways viewed on an iPad mini" %}
+![](/assets/images/2013/12/24_ways_website.png)
+{% endfigure %}
 
 The tail end of this year has been [rather hectic][1]. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning *[24 ways][2]*.
 

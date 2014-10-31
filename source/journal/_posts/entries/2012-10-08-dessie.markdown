@@ -8,7 +8,9 @@ tags:
   - Personal
   - Family
 ---
+{% figure %}
 ![Dessie](/assets/images/2012/10/dessie.jpg)
+{% endfigure %}
 
 My family was never a cat family, so it was a strange day in 1997 when we decided to buy two kittens.
 

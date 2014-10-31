@@ -9,7 +9,9 @@ tags:
   - Design
   - Twitter
 ---
-![The new Twitter logo](/assets/images/2012/06/twitterbird.jpg)
+{% figure "The new Twitter logo" %}
+![](/assets/images/2012/06/twitterbird.jpg)
+{% endfigure %}
 
 With a [worsening financial crisis][1] and continued [destruction of the world's natural resources][2], there are undoubtedly more important things to worry about than Twitter's slightly tweaked bird logo. Yet here we are.
 
@@ -28,11 +30,11 @@ Only if you ignore the flowery introduction and read [Bowman's responses][6] to 
 Still, where the previous logo had character and charm (the quiff was a beautiful touch), this revision perhaps better reflects the company as it stands today: slicker, more corporate, and balding. No place is this better reflected than in the company's stringent new 'Trademark and Content Display Policy', for which [Gawker provides a helpful summary][8]:
 
 {% figure %}
-![Twitter bird usage guidelines](/assets/images/2012/06/twitterdonts.png)
+![Twitter bird usage guidelines](/assets/images/2012/06/twitterbird_donts.png)
 {% endfigure %}
 
 > Per the illustration, you absolutely cannot:
-  
+>
 > * add a gray speech bubble next to the bird that makes it appear as if the bird is talking or smoking hookah
   * make the bird be upside down
   * reunite the bird with his bird family
