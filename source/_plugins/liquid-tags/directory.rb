@@ -1,106 +1,113 @@
-# USAGE
-# {% loop_directory directory:images iterator:image filter:*.jpg sort:descending %}
-#   <img src="{{ image }}" />
-# {% endloop_directory %}
+# Title: Dynamic directories for Jekyll
+# Author: Tommy Sullivan http://superawesometommy.com, Robert Park http://exolucere.ca
+# Description: The directory tag lets you iterate over files at a particular path. If files conform to the standard Jekyll format, YYYY-MM-DD-file-title, then those attributes will be populated on the yielded file object. The `forloop` object maintains [its usual context](http://wiki.shopify.com/UsingLiquid#For_loops).
 #
-# inspired by
-# - https://gist.github.com/jgatjens/8925165
-# - http://simon.heimlicher.com/articles/2012/02/01/jekyll-directory-listing
-# - https://github.com/dpb587/dpb587.me/blob/master/_plugins/loopdir.rb
+# Syntax:
+#
+#   {% directory path: path/from/source [reverse] [exclude] %}
+#     {{ file.url }}
+#     {{ file.name }}
+#     {{ file.date }}
+#     {{ file.slug }}
+#     {{ file.title }}
+#   {% enddirectory %}
+#
+# Options:
+#
+# - `reverse` - Defaults to 'false', ordering files the same way `ls` does: 0-9A-Za-z.
+# - `exclude` - Defaults to '.html$', a Regexp of files to skip.
+#
+# File Attributes:
+#
+# - `url` - The absolute path to the published file
+# - `name` - The basename
+# - `date` - The date extracted from the filename, otherwise the file's creation time
+# - `slug` - The basename with date and extension removed
+# - `title` - The titlecase'd slug
+#
 
 module Jekyll
-  class Loopdir < Liquid::Block
-    include Liquid::StandardFilters
-    Syntax = /(#{Liquid::QuotedFragment}+)?/
- 
+
+  class DirectoryTag < Liquid::Block
+    include Convertible
+
+    MATCHER = /^(.+\/)*(\d+-\d+-\d+)-(.*)(\.[^.]+)$/
+
+    attr_accessor :content, :data
+
     def initialize(tag_name, markup, tokens)
-      @attributes = {}
- 
-      @attributes['path'] = nil;
-      @attributes['parse'] = 'true';
-      @attributes['match'] = '*';
-      @attributes['sort'] = 'path';
- 
-      markup.scan(Liquid::TagAttributes) do | key, value |
-        if 'path' == key
-          # path can be dynamic to support includes
-          @attributes['path'] = Liquid::Variable.new(value)
-        else
-          @attributes[key] = value.gsub /"(.*)"/, '\1'
-        end
+      attributes = {}
+
+      # Parse parameters
+      markup.scan(Liquid::TagAttributes) do |key, value|
+        attributes[key] = value
       end
 
-      if @attributes['path'].nil?
-        raise SyntaxError.new("The `path` attribute is missing for `loopdir` tag.")
-      end
+      @path     = attributes['path']   || '.'
+      @exclude  = Regexp.new(attributes['exclude'] || '.html$', Regexp::EXTENDED | Regexp::IGNORECASE)
+      @rev      = attributes['reverse'].nil?
 
-      if 'true' == @attributes['parse']
-        @attributes['parse'] = true
-      else
-        @attributes['parse'] = false
-      end
- 
       super
     end
- 
+
     def render(context)
-      context.registers[:loopdir] ||= Hash.new(0)
- 
-      items = []
+      context.registers[:directory] ||= Hash.new(0)
 
-      path = @attributes['path'].render(context)
- 
-      Dir.glob(File.join(path, @attributes['match'])).each do |pathname|
-        if @attributes['parse']
-          item = {}
+      source_dir = context.registers[:site].source
+      directory_files = File.join(source_dir, @path, "*")
 
-          content = File.read(pathname)
+      files = Dir.glob(directory_files).reject{|f| f =~ @exclude }
+      files.sort! {|x,y| @rev ? x <=> y : y <=> x }
 
-          if content =~ /^(---\s*\n.*?\n?)^(---\s*$\n?)/m
-            content = $POSTMATCH
-
-            begin
-              item = YAML.load($1)
-            rescue => e
-              puts "YAML Exception reading #{name}: #{e.message}"
-            end
-          end
-
-          item['content'] = content
-        else
-          context['item'] = pathname
-        end
-
-        item['name'] = File.basename(pathname, @attributes['match'].sub('*', ''))
-        item['fullname'] = path + '/' + item['name']
-        item['path'] = pathname
-
-        items.push item
-      end
-
-      sortby = @attributes['sort'].gsub(/^-/, '')
-
-      items.sort! do | x, y |
-        x[sortby] <=> y[sortby]
-      end
-
-      if sortby != @attributes['sort']
-        items.reverse!
-      end
+      length = files.length
+      result = []
 
       context.stack do
-        result = []
+        files.each_with_index do |filename, index|
+          basename = File.basename(filename)
 
-        items.each do | item |
-          context['item'] = item
+          filepath  = [@path, basename] - ['.']
+          path = filepath.join '/'
+          url  = '/' + filepath.join('/')
+
+          m, cats, date, slug, ext = *basename.match(MATCHER)
+
+          if m
+            date = Time.parse(date)
+            ext = ext
+            slug = slug
+          else
+            date = File.ctime(filename)
+            ext = basename[/\.[a-z]+$/, 0]
+            slug = basename.sub(ext, '')
+          end
+
+          context['file'] = {
+            'date' => date,
+            'name' => basename,
+            'slug' => slug,
+            'url' => url
+          }
+
+          context['forloop'] = {
+            'name' => 'directory',
+            'length' => length,
+            'index' => index + 1,
+            'index0' => index,
+            'rindex' => length - index,
+            'rindex0' => length - index - 1,
+            'first' => (index == 0),
+            'last' => (index == length - 1)
+          }
 
           result << render_all(@nodelist, context)
         end
-
-        result
       end
+      result
     end
+
   end
+
 end
- 
-Liquid::Template.register_tag('loopdir', Jekyll::Loopdir)
+
+Liquid::Template.register_tag('directory', Jekyll::DirectoryTag)

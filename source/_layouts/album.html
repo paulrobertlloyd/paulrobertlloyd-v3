@@ -11,11 +11,27 @@ layout: default
         <div class="post__main prose  e-content">
             {{ content | widont }}
 
-            <ul class="list">
-            {% loopdir path:'assets/images/photos/birmingham/' %}
-                <li class="list__item">Item: {{ item }}</li>
-            {% endloopdir %}
-            </ul>
+            {% directory path: assets/images/photos/birmingham %}
+            <figure>
+                <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
+                <figcaption>
+                    <dl>
+                        <dt>Date taken</dt>
+                        <dd>{{ file.url | exif: 'date_time' | date: "%e %B %Y" }}</dd>
+                        <dt>Model</dt>
+                        <dd>{{ file.url | exif: 'model' }}</dd>
+                        <dt>Aperture</dt>
+                        <dd><i>f</i>/{{ file.url | exif: 'f_number.to_f' }}</dd>
+                        <dt>Exposure</dt>
+                        <dd>{{ file.url | exif: 'exposure_time.to_s' }}</dd>
+                        <dt>Film speed</dt>
+                        <dd><abbr title="International Organization for Standardization ">ISO</abbr>{{ file.url | exif: 'iso_speed_ratings' }}</dd>
+                        <dt>Focal Length</dt>
+                        <dd>{{ file.url | exif: 'focal_length' }}</dd>
+                    </dl>
+                </figcaption>
+            </figure>
+            {% enddirectory %}
         </div>
 
         {% include sections/tags.html %}
