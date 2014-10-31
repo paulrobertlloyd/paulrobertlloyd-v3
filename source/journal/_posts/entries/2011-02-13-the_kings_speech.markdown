@@ -12,7 +12,9 @@ tag:
   - Royalty
   - Winston Churchill
 ---
-![Colin Firth in The King's Speech](/assets/images/2011/02/the_kings_speech.jpg)
+{% figure l-bleed "Colin Firth in The King's Speech" %}
+![](/assets/images/2011/02/the_kings_speech.jpg)
+{% endfigure %}
 
 However you wish to measure it, [The King's Speech][1] is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn't imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
 
@@ -24,7 +26,9 @@ The closing speech is given by Prince Albert, Duke of York, second son of George
 
 The Prince tries several unsuccessful treatments to cure his impediment until his wife, the Duchess of York (Helena Bonham Carter) persuades him to see Lionel Logue (Geoffrey Rush), an unconventional Australian speech therapist. Logue discovers the psychological roots behind Bertie's stammer, and with the aid of breathing techniques, tongue twisters and much swearing, helps him overcome his handicap.
 
+{% figure "Official trailer" %}
 {% embed https://www.youtube.com/watch?v=pzI4D6dyp_o %}
+{% endfigure %}
 
 Firth's portrayal of Bertie is sublime. His stammer feels genuine and lacking in any obvious method, instead drawing you into the emotions that result having such difficulty speaking. Whilst visibly distressing, and with a story set against the run up to war, there remained plenty of moments for comedy. In fact, much of the film depicts an underlying lightheartedness, especially in the exchanges between Bertie's family and with Logue.
 

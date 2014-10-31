@@ -11,7 +11,9 @@ tags:
   - San Francisco
   - SXSW
 ---
+{% figure l-bleed %}
 ![Road block in Austin](/assets/images/2012/03/on_the_road_again.jpg)
+{% endfigure %}
 
 The unremarkable rusty orange exterior of the Hyatt Regency hotel in Austin serves only to make the interior more surprising -- spectacular even. Its large triangular atrium reveals 17 floors from which 448 rooms can be accessed. Walking along its corridors feels strangely cinematic.
 

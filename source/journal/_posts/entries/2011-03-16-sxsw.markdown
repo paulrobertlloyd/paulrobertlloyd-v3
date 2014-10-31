@@ -8,7 +8,9 @@ tag:
   - Events
   - SXSW
 ---
-![A sign reading Austin](/assets/images/2011/03/sxsw.jpg)
+{% figure l-bleed "A sign reading Austin" %}
+![](/assets/images/2011/03/sxsw_austin_sign.jpg)
+{% endfigure %}
 
 It's been three years since I last visited the United States. For a small but considerable part of my life this place was home; an experience that's left me as equally fascinated by its people and culture as I remain frustrated.
 
@@ -25,7 +27,7 @@ Much of this years programme catered towards topics the marketing and sales guys
 
 ## For The People
 {% figure "The Great British Booze-up at Shakespeare's Pub" %}
-![](/assets/images/2011/03/greatbritishboozeup.jpg)
+![](/assets/images/2011/03/sxsw_great_british_booze_up.jpg)
 {% endfigure %}
 
 Regardless of its size, diminishing quality and rampent commercialisation, the one thing SXSW still ensures is the convergence of peers at a single place and point in time. This year saw many of my fellow Clearleft'ies in attendance -- indeed, being able to experience the event alongside my colleagues was the main reason for going. We were joined by a small British contingent who were able to make the Ginger Man our 'local' for the week.
