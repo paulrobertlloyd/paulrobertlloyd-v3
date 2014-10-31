@@ -10,7 +10,9 @@ tags:
   - Review
   - James Bond
 ---
-![Daniel Craig in Skyfall](/assets/images/2012/11/skyfall.jpg)
+{% figure l-bleed "Daniel Craig in Skyfall" %}
+![](/assets/images/2012/11/skyfall_bond_db5.jpg)
+{% endfigure %}
 
 Fifty years after the release of <cite>[Dr. No][1]</cite>, James Bond returns in <cite>[Skyfall][2]</cite>, the twenty-third instalment of the longest continually-running film series in history.
  
@@ -23,7 +25,7 @@ This is Daniel Craig's third outing as James Bond, although the narrative arc br
 That past appears in the form of Raoul Silva, a former MI6 agent turned cyber terrorist gleefully portrayed by Javier Bardem. Silva, is a character tainted with just the right amount of comic book devilishness, and his origin story produces a grizzly reveal mid-way through the film. This, alongside his distinctive looks and exuberant style, easily rank Silva as the best Bond villain in a generation.
 
 {% figure "Javier Bardem as Bond villain Raoul Silva" %}
-![](/assets/images/2012/11/skyfall-silva.jpg)
+![](/assets/images/2012/11/skyfall_silva.jpg)
 {% endfigure %}
 
 Equalling Bardem's performance, Daniel Craig wrestles the crown of best Bond away from Sean Connery. Having grown more comfortable in the role, his pithy one-liners sit more naturally within the dialogue. All the classic Bond mannerisms and traits are there, although again he orders his favourite drink without saying the immortal 'shaken, not stirred' line.
@@ -33,7 +35,7 @@ Unlike previous films, much of the action remains in the UK. This lends a differ
 While a treat for domestic audiences to see Bond running around the streets of London, the scenes set in more exotic locations -- a bike chase across the rooftops of Istanbul, a fist fight in neon-drenched Shanghai, drinks in a Macau casino -- are a reminder that Bond works best when furthest away from his desk. The luscious colours found in Roger Deakins' stunning cinematography ensure these far-flung locations are visually arresting, contrasting with the more sombre palettes of Whitehall and the Scottish highlands.
 
 {% figure "The role of M, played by Judi Dench, is central to the story" %}
-![](/assets/images/2012/11/skyfall-m.jpg)
+![](/assets/images/2012/11/skyfall_m.jpg)
 {% endfigure %}
 
 There was product placement -- something that has featured in Bond movies since the start -- but thankfully this was achieved without any obvious 'ca-ching' moments.

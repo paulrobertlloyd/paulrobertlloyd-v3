@@ -10,7 +10,9 @@ tags:
   - Responsive design
   - A List Apart
 ---
-![Illustration for The Web Aesthetic](/assets/images/2012/10/the_web_aesthetic.jpg)
+{% figure l-bleed "Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart" %}
+![](/assets/images/2012/10/the_web_aesthetic.jpg)
+{% endfigure %}
 
 At the beginning of this year I was struck by a realisation, prompted in part by the discussions around [responsive images][1] but also the artistic ingenuity of the [image optimisation][2] techniques being used by Jeremy. If the capabilities of a medium can dictate how we design for it, how might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 
@@ -43,8 +45,6 @@ Or, as Dave suggested in his own article:
 
 The advent of responsive design has forced us to reassess many long held assumptions. Perhaps that's why now is such an exciting time to be a *web* designer.
 
-<small>*Illustration by [Kevin Cornell][13]*</small>
-
 [1]: http://alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/
 [2]: http://adactio.com/journal/5439/
 [3]: http://maban.co.uk/
@@ -57,4 +57,3 @@ The advent of responsive design has forced us to reassess many long held assumpt
 [10]: http://layervault.tumblr.com/post/32267022219/flat-interface-design
 [11]: http://lucentwebdesign.co.uk/index.php/blog/entry/responsive_images_the_simplest_solutions_are_the_best_solutions
 [12]: http://alistapart.com/articles/mo-pixels-mo-problems/
-[13]: http://alistapart.com/authors/c/kevincornell

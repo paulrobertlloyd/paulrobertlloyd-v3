@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Page Not Found (404)
+subtitle: Eek!
 permalink: /error/404.html
 ---
+{% figure "Illustration: [Waldo Pancake](http://waldopancake.com/)" %}
 ![](/assets/images/error/404.png)
+{% endfigure %}
 
-## Eek!
-The page you requested wasn’t found in the location specified. You may have an incorrect URL, or the file could have been moved or renamed.
-If you’re having problems finding a particular page, try searching the site or return to the [homepage](/).
-
-*Illustration by [Waldo Pancake](http://waldopancake.com/)*
+The page you requested wasn’t found in the location specified. You may have an incorrect URL, or the file could have been moved or renamed. If you’re having problems finding a particular page, try searching the site or return to the [homepage](/).

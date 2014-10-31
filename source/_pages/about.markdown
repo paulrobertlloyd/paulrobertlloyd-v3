@@ -4,7 +4,9 @@ title: About the Author
 excerpt: I'm Paul, a graphic designer, aspiring writer and occasional speaker who lives in beautiful Brighton, England.
 permalink: /about/
 ---
-![The author on Brighton beach, May 2010](/assets/images/about/author.jpg)
+{% figure l-bleed "The author on Brighton beach, May 2010" %}
+![](/assets/images/about/author.jpg)
+{% endfigure %}
 
 I'm Paul, a graphic designer, writer and speaker who lives in beautiful Brighton, England.
 
