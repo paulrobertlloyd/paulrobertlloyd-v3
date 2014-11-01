@@ -8,11 +8,8 @@
     margin-top: 2rem;
     color: $c__neutral-3;
 
-    ol {
-        margin-top: 2rem;
-    }
-
-    &::before {
-        @extend %rule-center;
+    &:before {
+        @include rule(2);
+        margin: 2rem auto; // 32px auto
     }
 }

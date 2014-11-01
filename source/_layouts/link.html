@@ -7,25 +7,27 @@ layout: default
             <h1 class="post__title  p-name">{{ page.title | smart }}</h1>
         </header>
 
-        <div class="post__main prose  e-content">
-            {% if page.link-embed %}
-                {% embed {{ page.link }} %}
-            {% endif %}
+        <div class="post__main">
+            <div class="prose  e-content">
+                {% if page.link-embed %}
+                    {% embed {{ page.link }} %}
+                {% endif %}
 
-            {{ content | widont }}
+                {{ content | widont }}
 
-            {% if page.link-embed == null %}
-                <aside class="post__aside">
-                    <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
-                </aside>
+                {% if page.link-embed == null %}
+                    <aside class="post__aside">
+                        <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
+                    </aside>
+                {% endif %}
+            </div>
+
+            {% include sections/tags.html %}
+
+            {% if page.discussion %}
+                {% include sections/discussion.html %}
             {% endif %}
         </div>
-
-        {% include sections/tags.html %}
-
-        {% if page.discussion %}
-            {% include sections/discussion.html %}
-        {% endif %}
 
         <footer class="post__footer">
             <span class="u-hidden">Published on </span>

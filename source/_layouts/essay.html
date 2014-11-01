@@ -8,13 +8,15 @@ layout: default
             {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
         </header>
 
-        <div class="page__main prose  e-content">
-            {{ content | widont }}
-        </div>
+        <div class="page__main">
+            <div class="prose  e-content">
+                {{ content | widont }}
+            </div>
 
-        {% if page.essay-chapter %}
-            {% include navigation/chapters.html %}
-        {% endif %}
+            {% if page.essay-chapter %}
+                {% include navigation/chapters.html %}
+            {% endif %}
+        </div>
 
         <footer class="page__footer">
             <span class="u-hidden">Published on </span>

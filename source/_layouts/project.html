@@ -7,16 +7,18 @@ layout: default
             <h1 class="post__title  p-name">{{ page.title | smart }}</h1>
         </header>
 
-        <div class="post__main prose  e-content">
-            {{ content | widont }}
-        </div>
+        <div class="post__main">
+            <div class="prose  e-content">
+                {{ content | widont }}
 
-        {% if page.project-info %}
-        <aside class="post__aside">
-            <h1 class="u-hidden">Project summary</h1>
-            {% include content/project-info.html %}
-        </aside>
-        {% endif %}
+                {% if page.project-info %}
+                <aside class="post__aside">
+                    <h1 class="u-hidden">Project summary</h1>
+                    {% include content/project-info.html %}
+                </aside>
+                {% endif %}
+            </div>
+        </div>
     </article>
 
     {% include navigation/pages--post.html %}

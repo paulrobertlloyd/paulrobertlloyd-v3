@@ -7,9 +7,9 @@ body {
     margin: 0 auto;
     background-color: $c__neutral-8;
     max-width: 37.5em;
-    line-height: 1; /* 16px */
+    line-height: 1; // 16px
     color: $c__neutral-2;
-    font-size: 1em; /* 16px */
+    font-size: 1em; // 16px
 }
 
 h1,
@@ -21,8 +21,8 @@ h6 {
     margin: 0;
     @include ff--sans-serif(400);
     text-rendering: optimizeLegibility;
-    line-height: 1; /* 16px */
-    font-size: 1em; /* 16px */
+    line-height: 1; // 16px
+    font-size: 1em; // 16px
 
     @media print {
         page-break-after: avoid;
@@ -30,12 +30,12 @@ h6 {
 }
 
 hr {
-    margin: 2rem 0; // 32px 0
     border: 0;
     height: 0;
     line-height: 0;
 
-    &::before {
-        @extend %rule-center;
+    &:before {
+        @include rule(2);
+        margin: 2rem auto; // 32px auto
     }
 }

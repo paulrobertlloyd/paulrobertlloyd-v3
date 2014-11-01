@@ -8,17 +8,19 @@ layout: default
             {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
         </header>
 
-        <div class="post__main prose  e-content">
-            {{ content | widont }}
+        <div class="post__main">
+            <div class="prose  e-content">
+                {{ content | widont }}
+            </div>
+
+            {% include sections/tags.html %}
+
+            {% include sections/related.html %}
+
+            {% if page.discussion %}
+                {% include sections/discussion.html %}
+            {% endif %}
         </div>
-
-        {% include sections/tags.html %}
-
-        {% include sections/related.html %}
-
-        {% if page.discussion %}
-            {% include sections/discussion.html %}
-        {% endif %}
 
         <footer class="post__footer">
             <span class="u-hidden">Published on </span>
@@ -26,7 +28,7 @@ layout: default
             <span class="u-hidden">in </span>
             {% if page.location %}
                 {% assign post_location = page.location | split:", " %}
-                <span class="post__location  p-location  h-adr">
+                <span class="post__location  p-location h-adr">
                     <span class="p-locality">{{ post_location[0] }}</span>,
                     <span class="p-country-name">{{ post_location[1] }}</span>
                 </span>
