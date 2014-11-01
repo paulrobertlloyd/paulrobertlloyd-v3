@@ -10,14 +10,12 @@
 }
 
 @mixin fs--2 {
-    margin-top: 2em; // 48px
     margin-bottom: 0.5em; // 12px
     line-height: 1; // 24px
     font-size: 1.5rem; // 24px
 }
 
 @mixin fs--3 {
-    margin-top: 1.2em; // 24px
     margin-bottom: 0.6em; // 12px
     line-height: 1.2; // 24px
     font-size: 1.25rem; // 20px

@@ -1,6 +1,48 @@
 /*  =========================================================================
     Remark
     ========================================================================= */
+$remark__avatar-size: 5rem;
+
 .remark {
+    display: flex;
+    position: relative;
     clear: both;
+    margin-bottom: 1rem;
+    padding-left: $remark__avatar-size + 1rem;
+    min-height: $remark__avatar-size;
+    flex-direction: column;
+}
+
+.remark__header {
+    @include fs--3;
+    margin-bottom: 0.25rem;
+    order: 1;
+
+    &:before {
+        @include rule(1);
+    }
+}
+
+.remark__main {
+    order: 3;
+
+    ol,
+    ul {
+        list-style-position: inside;
+    }
+}
+
+.remark__footer {
+    @include fs--5;
+    margin-bottom: 1rem;
+    order: 2;
+}
+
+.remark__avatar {
+    @extend %l-align-left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $remark__avatar-size;
+    height: $remark__avatar-size;
 }
