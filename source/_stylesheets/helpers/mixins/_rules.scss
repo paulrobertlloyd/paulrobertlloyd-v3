@@ -1,0 +1,11 @@
+//  ============================================================================
+//  Linework
+//  ============================================================================
+
+@mixin rule($cols) {
+    display: block;
+    border-top: 1px solid $c__neutral-6;
+    width: $cols * $g__col-width;
+    content: '';
+    margin-bottom: 0.25rem;
+}
