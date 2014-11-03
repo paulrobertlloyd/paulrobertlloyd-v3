@@ -12,7 +12,7 @@ tags:
 discussion: closed
 ---
 {% figure l-bleed "Me and my fellow Games Makers in the Olympic Park" %}
-![](/assets/images/2012/09/games_maker.jpg)
+![](/assets/images/2012/09/games_maker_olympic_park.jpg)
 {% endfigure %}
 
 They say change is as good as a rest. With early morning commutes, a 'distinctive' uniform and interaction with the general public, volunteering at the London 2012 Paralympic Games couldn't have been further removed from the desk-bound job I'd become weary of.

@@ -8,8 +8,8 @@ layout: default
             {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
         </header>
 
-        <div class="post__main prose  e-content">
-            <div class="prose  e-content">
+        <div class="post__main">
+            <div class="post__content  prose  e-content">
                 {{ content | widont }}
 
                 {% directory path: assets/images/photos/birmingham %}
