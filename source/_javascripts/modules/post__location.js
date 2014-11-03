@@ -3,7 +3,7 @@
 (function (win, doc) {
     'use strict';
 
-    var postMain = doc.querySelector('.post__main'),
+    var postMain = doc.querySelector('.post__content'),
         postLocation = doc.querySelector('.post__location');
 
     if (postMain && postLocation) {
