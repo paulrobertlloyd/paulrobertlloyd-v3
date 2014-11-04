@@ -3,7 +3,7 @@
     ========================================================================= */
 .post__title {
     @include fs--1;
-    @include ff--sans-serif;
+    @include ff--sans-serif(200);
 }
 
 .post__subtitle {
