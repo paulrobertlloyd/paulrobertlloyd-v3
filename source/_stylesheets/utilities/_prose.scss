@@ -17,16 +17,12 @@
         @include fs--4;
     }
 
-    p,
     pre,
     blockquote,
-    ul,
-    ol,
-    dl,
     figure,
     table,
     fieldset {
-        @include fs--4;
+        margin-bottom: 2rem;
     }
 
     blockquote {
@@ -34,11 +30,9 @@
     }
 
     figcaption p {
-        @include fs--5;
-        @include ff--sans-serif;
+        @extend %t-caption;
         display: block;
         clear: left;
-        color: $c__neutral-4;
     }
 
     strong {
@@ -65,5 +59,10 @@
             background-image: none;
             text-shadow: none;
         }
+    }
+
+    .l-align-left,
+    .l-align-right {
+        width: 25%;
     }
 }

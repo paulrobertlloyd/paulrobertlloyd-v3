@@ -10,15 +10,16 @@
             {% when "1" %}
                 1 Remark.
             {% else %}
-                {{ remark_count }} Remarks.
+                {{ remark_count }} remarks.
             {% endcase %}
             {% if page.discussion == "open" %}
                 <a href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
             {% else %}
-                This dicussion has now ended.
+                The dicussion has now ended.
             {% endif %}
         </p>
     </summary>
+
     <div class="section__main">
         {% if remark_count >= "1" %}
             {% for remark in site.data.remarks.[page_id] reversed %}

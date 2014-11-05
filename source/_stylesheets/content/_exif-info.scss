@@ -1,0 +1,23 @@
+/*  =========================================================================
+    EXIF info list
+    ========================================================================= */
+
+.exif-info {
+    @extend %t-caption;
+}
+
+.exif-info__title {
+    @extend %u-hidden;
+}
+
+.exif-info__value {
+    float: left;
+    margin-left: 0;
+    width: 50%;
+
+    &[data-value="exif-date_time"],
+    &[data-value="exif-model"] {
+        float: none;
+        width: auto;
+    }
+}

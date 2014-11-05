@@ -12,15 +12,13 @@
         white-space: nowrap;
     }
 
-    .chart__value {
-        width: 85%;
-    }
-
     .chart__value--percent {
+        @extend %t-caption;
         display: block;
+        margin-top: -0.125rem; // -2px
+        margin-bottom: 0;
         background-color: $c__neutral-7;
-        padding: 0 0.5em;
+        padding: 0.25rem;
         white-space: nowrap;
-        color: $c__neutral-3;
     }
 }

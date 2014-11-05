@@ -1,0 +1,10 @@
+<ul class="list list--related">
+{% for related in site.related_posts | where: 'layout', 'entry' | sort: 'date' | limit:3 %}
+    <li class="list__item">
+        <article class="summary summary--related">
+            <h1 class="summary__title"><a href="{{ article.url }}">{{ related.title | smart }}</a></h1>
+            <p class="summary__meta">{{ related.layout | capitalize }}, <time datetime="{{ related.date | date_to_xmlschema }}">{{ related.date | date: "%e %B %Y" }}</time></p>
+        </article>
+    </li>
+{% endfor %}
+</ul>

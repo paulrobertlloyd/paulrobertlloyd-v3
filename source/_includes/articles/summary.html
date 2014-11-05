@@ -19,7 +19,7 @@
     {% if summary.layout == "link" %}
         {{ summary.content | markdownify | widont }}
     {% elsif summary.excerpt != null %}
-        {{ summary.excerpt | smart | widont  }}
+        {{ summary.excerpt | smart | widont }}
     {% endif %}
 
     {% if summary.layout == "entry" %}

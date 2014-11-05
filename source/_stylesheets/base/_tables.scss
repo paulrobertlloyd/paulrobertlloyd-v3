@@ -3,7 +3,7 @@
     http://developers.whatwg.org/tabular-data.html
     ========================================================================= */
 table {
-    margin: 0.75em 0 0.75em -0.5em; /* 24px 0 24px -8px */
+    margin: 0.75em 0 0.75em -0.5em; // 24px 0 24px -8px
     border-collapse: collapse;
     border-spacing: 0;
     font-size: 1rem;
@@ -14,18 +14,16 @@ tbody {
 }
 
 caption {
-    @include fs--5;
-    @include ff--sans-serif(400);
-    margin: 1rem 0 1rem 0.5rem; /* 16px 0 16px 8px */
+    @extend %t-caption;
+    margin: 1rem 0 1rem 0.5rem; // 16px 0 16px 8px
     caption-side: bottom;
     text-align: left;
-    color: $c__neutral-4;
 }
 
 td,
 th {
     border-top: 1px solid $c__neutral-7;
-    padding: 0.25em 1.5em 0.25em 0.5em; /* 4px 32px 4px 4px */
+    padding: 0.25rem 1.5rem 0.5625rem 0.5rem; // 4px 32px 9px 4px
     vertical-align: top;
     text-align: left;
     white-space: nowrap;
@@ -35,7 +33,7 @@ th {
 th {
     @include ff--sans-serif(600);
     border-top-color: $c__neutral-5;
-    padding-bottom: 0.75em;
+    padding-bottom: 1rem;
     line-height: 1.25;
 }
 

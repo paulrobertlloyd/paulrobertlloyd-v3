@@ -2,15 +2,35 @@
     Content Info
     ========================================================================= */
 .contentinfo {
+    margin-top: 1rem;
     border-top: 1px solid $c__neutral-7;
-    padding: 2em 0;
+    padding: 1rem 0;
+    overflow: hidden;
 
     small {
         font-size: 1em;
     }
 }
 
-.contentinfo__copyright,
-.contentinfo__feeds {
-    font-size: 80%;
+.contentinfo__about {
+    float: left;
+    width: 50%;
+
+    .section__title {
+        @extend %u-hidden;
+    }
+
+    .u-photo {
+        @extend %l-align-left;
+    }
+}
+
+.contentinfo__navigation {
+    float: left;
+    width: 50%;
+}
+
+.contentinfo__copyright {
+    @extend %t-caption;
+    clear: left;
 }

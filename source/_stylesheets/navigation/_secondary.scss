@@ -1,8 +1,11 @@
 /*  =========================================================================
-    Tag
+    Secondary navigation
     ========================================================================= */
-.tag {
-    @extend %t-caption;
-    display: inline-block;
-    margin-right: 0.25rem; // 4px
+
+.navigation--secondary {
+    @include grid('.list__item', 2);
+
+    .navigation__title {
+        @extend %u-hidden;
+    }
 }

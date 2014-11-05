@@ -1,10 +1,13 @@
 <footer class="contentinfo" role="contentinfo">
     <div class="contentinfo__about">
         {% include sections/about.html %}
+    </div>
+
+    <div class="contentinfo__navigation">
         {% include navigation/secondary.html %}
     </div>
 
     <p class="contentinfo__copyright">
-        <small><strong>© <abbr title="2014">MMXIV</abbr> Paul Robert Lloyd</strong>. Content <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">Creative Commons licensed</a> unless otherwise stated. Source code available on <a href="{{ site.scm.url }}" rel="source">{{ site.scm.title }}</a></small>
+        <small><strong>© <abbr title="{{ site.time | date: "%Y" }}">{{ site.time | date: "%Y" | roman }}</abbr> {{ site.author.name }}</strong>. Content <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">{{ site.license.type }} licensed</a> unless otherwise stated. Source code available on <a href="{{ site.scm.url }}" rel="source">{{ site.scm.title }}</a></small>
     </p>
 </footer>

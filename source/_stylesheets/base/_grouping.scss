@@ -11,7 +11,8 @@ dl,
 figure,
 table,
 fieldset {
-    margin: 0;
+    @include fs--5;
+    margin-top: 0;
     orphans: 3;
     widows: 3;
 }

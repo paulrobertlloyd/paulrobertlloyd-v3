@@ -3,8 +3,10 @@
 @import 'helpers/_vars';
 @import 'helpers/mixins/_font-family';
 @import 'helpers/mixins/_font-size';
+@import 'helpers/mixins/_grid';
 @import 'helpers/mixins/_rules';
 @import 'helpers/placeholders/_l';
+@import 'helpers/placeholders/_t';
 @import 'helpers/placeholders/_u';
 
 // Base reset and normalisation
@@ -23,7 +25,6 @@
 
 // Utilities
 @import 'utilities/_button';
-@import 'utilities/_grid';
 @import 'utilities/_icon';
 @import 'utilities/_list';
 @import 'utilities/_prose';
@@ -32,10 +33,13 @@
 // Navigation
 @import 'navigation/_pages';
 @import 'navigation/_primary';
+@import 'navigation/_secondary';
 
 // Content
 @import 'content/_chart';
+@import 'content/_exif-info';
 @import 'content/_footnotes';
+@import 'content/_project-info';
 @import 'content/_rating';
 @import 'content/_syntax';
 

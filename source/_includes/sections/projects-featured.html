@@ -1,7 +1,6 @@
 <section class="section section--featured-projects" aria-labelledby="featured-projects">
     <h1 class="section__title" id="featured-projects">Featured Projects</h1>
-
-    <ul class="list">
+    <ul class="list list--projects">
     {% for summary in site.categories.projects | sort: 'date' %}
         {% if summary.project-featured == true %}
         <li class="list__item">
