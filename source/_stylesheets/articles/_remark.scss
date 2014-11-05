@@ -14,13 +14,7 @@ $remark__avatar-size: 5rem;
 }
 
 .remark__header {
-    @include fs--3;
-    margin-bottom: 0.25rem;
     order: 1;
-
-    &:before {
-        @include rule(1);
-    }
 }
 
 .remark__main {
@@ -33,9 +27,12 @@ $remark__avatar-size: 5rem;
 }
 
 .remark__footer {
-    @include fs--5;
     margin-bottom: 1rem;
     order: 2;
+}
+
+.remark__title {
+    @extend %t-title;
 }
 
 .remark__avatar {
@@ -45,4 +42,8 @@ $remark__avatar-size: 5rem;
     left: 0;
     width: $remark__avatar-size;
     height: $remark__avatar-size;
+}
+
+.remark__pubdate {
+    @extend %t-caption;
 }

@@ -18,8 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
     @include ff--sans-serif(400);
+    margin: 0;
     text-rendering: optimizeLegibility;
     line-height: 1; // 16px
     font-size: 1em; // 16px
@@ -30,12 +30,13 @@ h6 {
 }
 
 hr {
+    margin: 2rem auto; // 32px auto
     border: 0;
     height: 0;
     line-height: 0;
 
     &:before {
         @include rule(2);
-        margin: 2rem auto; // 32px auto
+        margin: 0 auto;
     }
 }

@@ -5,38 +5,25 @@
     margin-bottom: 2rem; // 32px
 }
 
-.summary__title {
-    @include fs--3;
-    @include ff--sans-serif(400);
-}
-
 .summary__main {
     @include fs--4;
+}
+
+.summary__title {
+    @extend %t-title;
 }
 
 .summary__permalink {
     display: block;
 }
 
-/* Journal entry summary */
-.summary--entry {
-    .summary__title {
-        @include fs--2;
-    }
-
-    .summary__main {
-        @include fs--4;
-        font-feature-settings: 'liga', 'dlig', 'onum';
-
-        @media screen and (min-width: $bp__b) {
-            @include fs--3;
-        }
-    }
-
-    .summary__permalink {
-        margin: 0.5rem 0; // 8px 0
-    }
+.summary__pubdate,
+.summary__meta {
+    @extend %t-caption;
 }
+
+/* Journal entry summary */
+
 
 /* Journal link summary */
 .summary--link {

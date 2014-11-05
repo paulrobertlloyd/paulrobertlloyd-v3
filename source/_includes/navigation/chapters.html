@@ -1,6 +1,5 @@
 <nav class="navigation navigation--chapters" aria-labelledby="chapters">
     <h1 class="navigation__title" id="chapters">Chapters</h1>
-
     <ol class="list">
     {% for essay in site.pages | where: 'layout', 'essay' %}
         {% for tag in essay.tags %}

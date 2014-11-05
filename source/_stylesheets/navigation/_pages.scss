@@ -3,9 +3,9 @@
     ========================================================================= */
 .navigation--pages {
     position: fixed;
-    left: 2rem;
-    right: 2rem;
     top: 50%;
+    right: 2rem;
+    left: 2rem;
 
     .navigation__item {
         position: absolute;
@@ -13,12 +13,12 @@
 
         &:before {
             display: block;
+            transform: rotate(45deg);
+            border-style: solid;
+            border-color: $c__neutral-6;
             width: 2rem;
             height: 2rem;
-            border-color: $c__neutral-6;
-            border-style: solid;
             content: '';
-            transform: rotate(45deg);
         }
 
         &:hover {

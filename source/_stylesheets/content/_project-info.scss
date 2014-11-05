@@ -1,8 +1,15 @@
 /*  =========================================================================
-    Tag
+    Project info list
     ========================================================================= */
-.tag {
+
+.project-info {
     @extend %t-caption;
-    display: inline-block;
-    margin-right: 0.25rem; // 4px
+}
+
+.project-info__title {
+    @extend %u-hidden;
+}
+
+.project-info__value {
+    margin-left: 0;
 }

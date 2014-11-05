@@ -1,0 +1,24 @@
+//  ============================================================================
+//  Typography helpers
+//  ============================================================================
+
+// Captions and metadata
+.t-caption,
+%t-caption {
+    @include fs--6;
+    @include ff--sans-serif(400);
+    margin-bottom: 0.5rem;
+    color: $c__neutral-4;
+}
+
+// Titles
+.t-title,
+%t-title {
+    @include fs--4;
+    @include ff--sans-serif(400);
+    margin-bottom: 0.25rem;
+
+    &:before {
+        @include rule(1);
+    }
+}
