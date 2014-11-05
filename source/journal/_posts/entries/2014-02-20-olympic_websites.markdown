@@ -13,7 +13,7 @@ tags:
   - Winter Olympics
 ---
 {% figure "Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women's 7.5 km Sprint" %}
-![](/assets/images/2014/02/olympic_websites_anastasiya kuzmina.jpg)
+![](/assets/images/2014/02/olympic_websites_anastasiya_kuzmina.jpg)
 {% endfigure %}
 
 > When it comes to web design it's rare that all elements--functionality, clarity of information, and subjective beauty--come together to create a result that is widely admired, recognized or lauded in the same vein as anything resembling the likes of Saul Bass' AT&T logo, or Susan Kare's icons for the original Mac OS.
@@ -36,7 +36,7 @@ I believe that has proven to be the case. The logo for [Sochi 2014][10] was clea
 While much publicity is poured over these logos and emblems, they play a supporting role to that of the five interlocking rings; [Pierre de Coubertin's ingenious symbol][13] is still going strong 102 years later. In fact, it almost doesn't matter what logo an organising committee chooses as it'll often be reduced down to a horizontal wordmark anyway:
 
 {% figure "Uganda's Stephen Kiprotich crosses the finish line to win the men's marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not" %}
-![](/assets/images/2014/02/olympic_websites_stephen kiprotich.jpg)
+![](/assets/images/2014/02/olympic_websites_stephen_kiprotich.jpg)
 {% endfigure %}
 
 In that respect, Sochi's stark typographic mark makes a lot of sense. Featuring no culturally symbolic motifs, 'the first digital Games emblem in Olympic history' is signified by the inclusion of the .ru top level domain. According to [the press release][14]:
@@ -65,7 +65,7 @@ Whereas the world's foremost architects, graphic artists, typographers, iconogra
 Surely a desire to produce modern, great looking websites must exist somewhere within the Olympic movement? Those hoping to host future games clearly understand the importance of good design on the web. None more so than the city of Oslo, which announced its intention to bid for the 2022 winter games by launching the stunning [ol22.no][21]:
 
 {% figure "Website for Oslo 2022, applicant to host the Winter Games of 2022" %}
-![](/assets/images/2014/02/olympic_websites_oslo_2022.jpg)
+![](/assets/images/2014/02/olympic_websites_oslo_2022.png)
 {% endfigure %}
 
 Although at this stage the website has a different and more tightly scoped purpose than if it were supporting an Olympic Games, it is beautifully designed and thoughtfully laid out. Should Oslo earn the right to host the 2022 games, it seems unthinkable the accompanying website wouldn't share those same qualities. Will it?
