@@ -1,6 +1,7 @@
 /*  =========================================================================
     Section
     ========================================================================= */
+
 .section__title {
     @include fs--2;
     @include ff--sans-serif(400);
@@ -13,7 +14,6 @@
 /* Tags */
 .section--tags {
     .section__title {
-        @include fs--5;
-        font-weight: 600;
+        @extend %u-hidden;
     }
 }
