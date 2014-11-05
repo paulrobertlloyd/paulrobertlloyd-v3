@@ -9,9 +9,11 @@ require 'typogruby'
 
 module Jekyll
   module SmartypantsFilter
+
     def smart(input)
       return RubyPants.new(input).to_html
     end
+
   end
 end
 

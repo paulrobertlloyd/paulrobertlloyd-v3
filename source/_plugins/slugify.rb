@@ -4,6 +4,7 @@
 
 module Jekyll
   module Utils
+
     def slugify(string)
       unless string.nil?
         # Remove apostrophes then replace each non-alphanumeric character sequence with an underscore
@@ -13,5 +14,6 @@ module Jekyll
         slug.downcase
       end
     end
+
   end
 end

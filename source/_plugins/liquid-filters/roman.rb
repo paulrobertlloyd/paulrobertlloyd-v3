@@ -6,33 +6,42 @@
 #
 
 module Jekyll
-  module RomanNumeralFilter # TODO: Make this work better, i.e. 2014 => MMXIV
-    def roman(input)
-      number = input.chomp.to_i
+  module RomanNumeralFilter
 
-      def convert_to_roman number
-        romans_array = [[1000,'M'],[500,'D'],[100,'C'],[50,'L'],[10,'X'],[5,'V'],[1,'I']]
-        converted_array = []
-
-        romans_array.each do |rom_num|
-          num = rom_num[0]
-          letter = rom_num[1]
-
-          if number > num
-            times = number / num
-            roman_letter = letter*times
-            converted_array.push(roman_letter)
-            number = number % num
-          end
-        end
-        converted_array.join()
+    class Integer
+      def initialize(number)
+        @number = number.to_i
       end
 
-      while number != 0
-        roman_number = convert_to_roman number
-        return roman_number
+      def to_roman
+        roman_arr = {
+          1000 => "M",
+          900 => "CM",
+          500 => "D",
+          400 => "CD",
+          100 => "C",
+          90 => "XC",
+          50 => "L",
+          40 => "XL",
+          10 => "X",
+          9 => "IX",
+          5 => "V",
+          4 => "IV",
+          1 => "I"
+        }
+        num = @number
+
+        roman_arr.reduce("") do |res, (arab, roman)|
+          whole_part, num = num.divmod(arab)
+          res << roman * whole_part
+        end
       end
     end
+
+    def roman(input)
+      return Integer.new(input).to_roman
+    end
+
   end
 end
 

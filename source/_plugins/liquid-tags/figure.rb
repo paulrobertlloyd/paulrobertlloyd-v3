@@ -17,6 +17,7 @@ require 'nokogiri'
 
 module Jekyll
   class FigureTag < Liquid::Block
+
     @class = nil
     @caption = nil
 
