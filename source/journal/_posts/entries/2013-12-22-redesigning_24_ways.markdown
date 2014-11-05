@@ -110,7 +110,7 @@ I was keen to introduce more modularity into my code, do more with a CSS preproc
 
 Although I didn't employ strict adherence to the [BEM][20] methodology, I found the underlying concept incredibly useful in helping me name patterns.
 
-{% figure "[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/statuses/395351309169459200)" %}
+{% figure tweet "[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/statuses/395351309169459200)" %}
 > It's finally happened... I'm seriously considering using a .list\-\-item class name.
 > 
 > Sky, meet flying pigs.

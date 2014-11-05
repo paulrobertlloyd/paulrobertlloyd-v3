@@ -22,3 +22,15 @@
         @include rule(1);
     }
 }
+
+// Small caps
+.smcp,
+%smcp {
+    font-feature-settings: 'smcp' 1;
+}
+
+// Caps to small caps
+.caps,
+%c2sc {
+    font-feature-settings: 'c2sc' 1;
+}

@@ -1,6 +1,23 @@
 /*  =========================================================================
     Post
     ========================================================================= */
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__header {
+    order: 2;
+}
+
+.post__main {
+    order: 3;
+}
+
+.post__footer {
+    order: 1;
+}
+
 .post__title {
     @include fs--1;
     @include ff--sans-serif(200);
@@ -11,13 +28,17 @@
     @include ff--sans-serif;
 }
 
-.post__location,
-.post__pubdate {
-    @include ff--sans-serif;
+.post__location {
     @extend %c2sc;
+    @include ff--sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
     color: $c__neutral-2;
+}
+
+.post__pubdate {
+    @extend %t-caption;
+    @include fs--5;
 }
 
 .post__footer .post__location::before,
