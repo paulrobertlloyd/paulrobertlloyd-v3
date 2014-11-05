@@ -2,6 +2,7 @@ require 'jekyll/post'
 
 module Jekyll
   module RelatedPostsByTags
+
     # Remove #related_posts so that it can be overridden
     def self.included(klass)
       klass.class_eval do

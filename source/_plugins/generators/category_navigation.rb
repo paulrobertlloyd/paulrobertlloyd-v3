@@ -5,6 +5,7 @@
 
 module Jekyll
   class CategoryPostNavigation < Generator
+
     def generate(site)
       site.categories.each_pair do |category, posts|
         posts.sort! { |a,b| b <=> a}
@@ -25,5 +26,6 @@ module Jekyll
         end
       end
     end
+
   end
 end

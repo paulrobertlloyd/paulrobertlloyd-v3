@@ -9,6 +9,7 @@ require 'exifr'
 
 module Jekyll
   module ExifFilter
+
     def exif(url, property)
       source = @context.registers[:site].config['source']
 
@@ -22,6 +23,7 @@ module Jekyll
 
       return property.split('.').inject(exif){|o,m| o.send(m)}
     end
+
   end
 end
 

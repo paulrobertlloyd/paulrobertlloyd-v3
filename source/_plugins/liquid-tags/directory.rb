@@ -43,9 +43,9 @@ module Jekyll
         attributes[key] = value
       end
 
-      @path     = attributes['path']   || '.'
-      @exclude  = Regexp.new(attributes['exclude'] || '.html$', Regexp::EXTENDED | Regexp::IGNORECASE)
-      @rev      = attributes['reverse'].nil?
+      @path    = attributes['path']   || '.'
+      @exclude = Regexp.new(attributes['exclude'] || '.html$', Regexp::EXTENDED | Regexp::IGNORECASE)
+      @rev     = attributes['reverse'].nil?
 
       super
     end
@@ -103,9 +103,10 @@ module Jekyll
           result << render_all(@nodelist, context)
         end
       end
-      result
-    end
 
+      result
+
+    end
   end
 
 end

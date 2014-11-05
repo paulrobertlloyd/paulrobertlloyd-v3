@@ -14,6 +14,7 @@
 
 module Jekyll
   module WidontFilter
+
     def widont(text)
       text.strip!
 
@@ -35,6 +36,7 @@ module Jekyll
 
       return text
     end
+
   end
 end
 
