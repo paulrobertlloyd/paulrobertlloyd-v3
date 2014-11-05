@@ -4,48 +4,38 @@
 
 // Font sizes
 @mixin fs--1 {
-    margin-bottom: 2rem; // 32px
-    line-height: 0.8333; // 40px
+    margin: 0 0 2rem; // 0 0 32px
+    line-height: 0.9167; // 44px
     font-size: 3em; // 48px
     letter-spacing: -0.125rem;
 }
 
 @mixin fs--2 {
-    margin-bottom: 0.75rem; // 12px
+    margin: 0 0 0.75rem; // 0 0 12px
     line-height: 1; // 24px
     font-size: 1.5em; // 24px
 }
 
 @mixin fs--3 {
-    margin-bottom: 0.75rem; // 12px
+    margin: 0 0 0.75rem; // 0 0 12px
     line-height: 1.2; // 24px
     font-size: 1.25em; // 20px
 }
 
 @mixin fs--4 {
-    margin-bottom: 0.75rem; // 12px
+    margin: 0 0 0.75rem; // 0 0 12px
     line-height: 1.2222; // 22px
     font-size: 1.125em; // 18px
 }
 
 @mixin fs--5 {
-    margin-bottom: 0.75rem; // 12px
+    margin: 0 0 0.75rem; // 0 0 12px
     line-height: 1.375; // 22px
     font-size: 1em; // 16px
 }
 
 @mixin fs--6 {
-    margin-bottom: 0.5rem; // 8px
+    margin: 0 0 0.5rem; // 0 0 8px
     line-height: 1.14285714285714; // 16px
     font-size: 0.875em; // 14px
-}
-
-// Small caps
-.caps,
-%c2sc {
-    font-feature-settings: 'c2sc' 1;
-}
-
-%smcp {
-    font-feature-settings: 'smcp' 1;
 }

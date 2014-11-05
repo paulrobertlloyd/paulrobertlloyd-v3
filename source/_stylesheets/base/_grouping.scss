@@ -12,7 +12,6 @@ figure,
 table,
 fieldset {
     @include fs--5;
-    margin-top: 0;
     orphans: 3;
     widows: 3;
 }

@@ -9,6 +9,10 @@
         @include fs--2;
     }
 
+    p + h2 {
+        margin-top: 2rem;
+    }
+
     h3 {
         @include fs--3;
     }
@@ -22,17 +26,22 @@
     figure,
     table,
     fieldset {
-        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     blockquote {
-        margin: 0.5rem 0 1.5rem -1.0625rem; // 8px 0 24px -17px
+        margin-left: -1.0625rem; // -17px
     }
 
-    figcaption p {
-        @extend %t-caption;
-        display: block;
-        clear: left;
+    figcaption {
+        padding-top: 0.5rem;
+
+        p {
+            @extend %t-caption;
+            display: block;
+            clear: left;
+        }
     }
 
     strong {

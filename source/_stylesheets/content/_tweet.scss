@@ -1,0 +1,28 @@
+/*  =========================================================================
+    Tweet
+    ========================================================================= */
+
+.tweet {
+    blockquote {
+        position: relative;
+        margin-bottom: 0.5rem;
+        background-color: $c__neutral-7;
+        padding: 0.75rem 1rem;
+
+        &::after {
+            display: block;
+            position: absolute;
+            bottom: -0.5rem;
+            left: 1rem;
+            transform: rotate(45deg);
+            background-color: $c__neutral-7;
+            width: 1rem;
+            height: 1rem;
+            content: '';
+        }
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
