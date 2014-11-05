@@ -2,6 +2,23 @@
 //  Typography
 //  ============================================================================
 
+// Font families
+@mixin ff--serif($font-weight: 400) {
+    font-family: "Charter ITC Std", serif;
+    font-weight: $font-weight;
+}
+
+@mixin ff--sans-serif($font-weight: 400) {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: $font-weight;
+}
+
+@mixin ff--monospace($font-weight: 400) {
+    font-family: "Source Code Pro", monospace;
+    font-weight: $font-weight;
+}
+
+
 // Font sizes
 @mixin fs--1 {
     margin: 0 0 2rem; // 0 0 32px

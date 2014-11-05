@@ -1,11 +1,11 @@
 /*  =========================================================================
     Button
     ========================================================================= */
+
 .button {
     display: inline-block;
-    border: 0;
-    background-color: $c__accent-light;
+    border: 1px solid $c__accent-light;
     padding: 0.5em;
-    color: $c__neutral-8;
+    color: $c__accent-light;
     font-family: $f__sans-serif;
 }
