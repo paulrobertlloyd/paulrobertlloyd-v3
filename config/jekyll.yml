@@ -58,7 +58,3 @@ jekyll-archives:
     year: /:year/
     month: /:year/:month/
     tag: /tags/:name.html
-
-# Gems
-gems:
-  - jekyll-sitemap
