@@ -11,10 +11,12 @@ end
 group :development do
   gem 'guard'
   gem 'guard-jekyll-plus', github: 'berrberr/guard-jekyll-plus'
-  gem 'guard-jslint-on-rails'
+  gem 'guard-jshintrb', github: 'paulrobertlloyd/guard-jshintrb'
   gem 'guard-livereload'
-  gem 'guard-sass'
-  gem 'guard-shell'
+  gem 'guard-sass', github: 'paulrobertlloyd/guard-sass'
+  gem 'guard-scss-lint', github: 'chrislopresto/guard-scss-lint'
+
+  gem 'autoprefixer-rails'
 end
 
 # Rake (for task management)
@@ -22,14 +24,14 @@ gem 'rake'
 
 # Jekyll
 gem 'jekyll'
-gem 'jekyll-archives'
-gem 'jekyll-assets'
-gem 'jekyll-pypedown'
-gem 'jekyll-sitemap'
-gem 'exifr'
-gem 'typogruby'
-gem 'nokogiri'
-gem 'uglifier'
-gem 'autoprefixer-rails'
-gem 'scss-lint'
-gem 'therubyracer'
+group :jekyll_plugins do
+  gem 'jekyll-archives'
+  gem 'jekyll-assets'
+  gem 'jekyll-pypedown'
+  gem 'jekyll-sitemap'
+
+  gem 'exifr'
+  gem 'nokogiri'
+  gem 'typogruby'
+  gem 'uglifier'
+end

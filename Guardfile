@@ -17,18 +17,14 @@ guard :sass, :output => 'public/assets/', :syntax => :scss, :shallow => true, :s
   end
 end
 
-# Sass Lint https://github.com/causes/scss-lint
-guard :shell do
-  watch(%r{^source/.+\.scss}) {
-    |m| eager 'scss-lint source/_stylesheets --config config/lint/scss.yml'
-  }
-  watch('config/lint/scss.yml')
-end
+# Scss Lint https://github.com/chrislopresto/guard-scss-lint
+# guard :'scss-lint', :config => 'config/lint/scss.yml' do
+#   watch(%r{^source/.+\.scss})
+# end
 
-# JS Lint https://github.com/wireframe/guard-jslint-on-rails
-guard :'jslint-on-rails', :config => '/config/lint/js.yml' do
+# JSHint https://github.com/thegarage/guard-jshintrb
+guard :jshintrb do
   watch(%r{^source/_javascripts/.+\.js})
-  watch('config/lint/js.yml')
 end
 
 # LiveReload https://github.com/guard/guard-livereload

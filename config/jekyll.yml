@@ -61,7 +61,4 @@ jekyll-archives:
 
 # Gems
 gems:
-  - jekyll-assets
-  - jekyll-archives
-  - jekyll-pypedown
   - jekyll-sitemap
