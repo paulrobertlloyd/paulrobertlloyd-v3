@@ -10,6 +10,7 @@ project-info:
   client: Matter Publishing
   year: 2012
   role: UX, branding and graphic design
+  note: Company acquired by Medium in April 2013.
 ---
 The brainchild of journalists Bobbie Johnson and Jim Giles, _MATTER_ is home to in-depth journalism about the ideas shaping our future. Stories cover everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them.
 
@@ -45,8 +46,6 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 ## Result
 {% figure "Screenshots of finished product" %}
 {% endfigure %}
-
-MATTER was acquired by Medium in April 2013.
 
 ## Elsewhere
 * [Clearleft's project case study][4]

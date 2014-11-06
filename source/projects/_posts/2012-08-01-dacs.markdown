@@ -24,7 +24,7 @@ After a period of analysis and prototyping, we realised the website needed diffe
 {% figure "Colour palette, patterns, artists photo" %}
 {% endfigure %}
 
-DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this into a suitable web aesthetic. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS' identity and brand strategy. During this process, we realised that while Didot worked well in a print context, the typeface was ill-suited to screen, and few areas on the website reflected the discursive use it was intended to communicate.
+DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this into a suitable web aesthetic. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS’ identity and brand strategy. During this process, we deprecated the use of Didot online; while it worked well in a print context, the typeface was ill-suited to screen, and few areas on the website needed to reflected the discursive tone for which it was intended.
 
 {% figure "Artist shown front and centre on a page layout" %}
 {% endfigure %}

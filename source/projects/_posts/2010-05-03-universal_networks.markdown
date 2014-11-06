@@ -5,50 +5,14 @@ date: '2010-05-03'
 excerpt: Design for NBCUniversal's international channel portfolio.
 permalink: /projects/universal_networks.html
 hidden: true
+project-info:
+  client: NBCUniversal
+  year: 2010
+  role: Design
 ---
-{% figure "Syfy Universal home page" %}
-![](/assets/images/projects/universal_networks/0.jpg)
-{% endfigure %}
+_Universal Networks_ encompasses NBCUniversal’s portfolio of over 70 international television channels. In 2009, these were consolidated into five brands: Syfy, Diva, Studio Universal and Universal Channel. NBCUniversal wanted to create a holistic online user experience across each brand and territory.
 
-{% figure "Syfy Universal show page" %}
-![](/assets/images/projects/universal_networks/1.jpg)
-{% endfigure %}
-
-{% figure "Syfy Universal schedule page" %}
-![](/assets/images/projects/universal_networks/2.jpg)
-{% endfigure %}
-
-{% figure "Studio Universal home page" %}
-![](/assets/images/projects/universal_networks/3.jpg)
-{% endfigure %}
-
-{% figure "Studio Universal film page" %}
-![](/assets/images/projects/universal_networks/4.jpg)
-{% endfigure %}
-
-{% figure "Studio Universal schedule page" %}
-![](/assets/images/projects/universal_networks/5.jpg)
-{% endfigure %}
-
-{% figure "Universal Channel home page" %}
-![](/assets/images/projects/universal_networks/6.jpg)
-{% endfigure %}
-
-{% figure "Universal Channel schedule page" %}
-![](/assets/images/projects/universal_networks/7.jpg)
-{% endfigure %}
-
-{% figure "13TH STREET Universal home page" %}
-![](/assets/images/projects/universal_networks/8.jpg)
-{% endfigure %}
-
-{% figure "13TH STREET Universal schedule page" %}
-![](/assets/images/projects/universal_networks/9.jpg)
-{% endfigure %}
-
-Design for a family of five sites representing NBCUniversal's international channel portfolio, including <cite>Syfy Universal</cite>, <cite>Universal Channel</cite>, <cite>13th Street Universal</cite> and <cite>Studio Universal</cite>.
-
-Working alongside [James Box][1], I helped devise a common user experience and underlying design language that worked across different regional editions and also allowed each channel to exhibit its own unique brand personality.
+Working with [James Box][1] at Clearleft, we devised an underlying user experience and design language, expressed as a common library of localisable design patterns. These were customisable, allowing each brand to exhibit its own individuality and brand personality.
 
 Example implementations can be seen at:
 

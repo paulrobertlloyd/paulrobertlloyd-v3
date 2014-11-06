@@ -14,7 +14,7 @@ project-info:
 ---
 Each December, Drew McLellan and his small team publish _24 ways_, a daily dose of design and development goodness, delivering a little Christmas cheer to the web community.
 
-The previous website was designed by Tim Van Damme in 2007. His innovative design pushed the limits of the medium, but six years later, and with an accumulated archive of hundreds of articles, it was fraying at the edges. Furthermore, the site failed to reflect the best practices its authors advocated, such as web typography and colour contrast and CSS3 techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to a broadening range of devices accessing the site.
+The previous website was designed by Tim Van Damme in 2007. His innovative design pushed the limits of the medium, but six years later, and with an accumulated archive of hundreds of articles, it was fraying at the edges. Furthermore, the site failed to reflect the best practices its authors advocated, such as web typography, colour contrast and CSS3 techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to a broadening range of devices accessing the site.
 
 ## Typography
 {% figure "Type specimens for Merriweather and Lato" %}
@@ -22,13 +22,13 @@ The previous website was designed by Tim Van Damme in 2007. His innovative desig
 
 24 ways is not a commercial venture, and with little budget to spend on webfonts, I looked to use open source typefaces. I paired Merriweather (headings) with Lato (body copy and interface elements).
 
-Lato offered a stylish take on the modern-looking design readers were used to. I used Lato, a sturdy typeface, for both much of the interface as well as body copy. In contrast, using Merriweather for headings and standfirsts hinted towards a more scholarly tone.
+Lato offered a stylish take on the modern-looking design readers were accustomed to, and was used for much of the interface as well as body copy. In contrast, the use of Merriweather for headings and standfirsts hinted towards a more scholarly tone.
 
 ## Colour
 {% figure "The colour palette adapts based on the year and day an article is published" %}
 {% endfigure %}
 
-I was keen to exploit the unique nature of 24 ways: twenty-four different articles written by different authors, published on different days, and different years. I created a colour palette based on the publication's signature red, that would change over time based on these variables.
+I was keen to exploit the unique nature of 24 ways: twenty-four different articles written by different authors, published on different days, and different years. I created a colour palette based on the publication’s signature red, that would change over time based on these variables.
 
 ## Shape
 {% figure "The diamond shape is evocative of stars and Christmas trees" %}
@@ -43,13 +43,13 @@ It seems everyone is using circles these days, so I was determined to use someth
 {% figure "Article page (phone)" %}
 {% endfigure %}
 
-The previous design dominated the content presented within it. I designed an interface that would receded when viewing articles, while index and collection pages, took a very different approach, showcasing twenty-four articles in a grid, evoking the feel of a calendar.
+The previous design dominated the content presented within it. I designed an interface that would recede when viewing articles. Index and collection pages, took a very different approach, showcasing twenty-four articles in a grid, evoking the feel of a calendar.
 
 ## Modern development practices
 {% figure "Mark-up pattern using BEM-like naming convention" %}
 {% endfigure %}
 
-Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads. This improved the performance on the site, especially on mobile devices where bandwidth may be more constrained.
+Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads. This improved the performance on the site, especially on mobile devices where bandwidth can be more constrained.
 
 ## Result
 {% figure "Screenshots of finished product" %}

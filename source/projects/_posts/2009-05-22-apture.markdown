@@ -6,34 +6,28 @@ excerpt: Designing a powerful publishing tool for the web's content creators.
 permalink: /projects/apture.html
 hidden: true
 project-featured: true
+project-info:
+  client: Apture
+  year: 2009
+  role: UX, design and front-end development
+  notes: Company acquired by Google in November 2011
 ---
-{% figure "Apture logo" %}
-![](/assets/images/projects/apture/0.jpg)
-{% endfigure %}
+_Apture_ was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their web pages.
 
-{% figure "Home page" %}
-![](/assets/images/projects/apture/1.jpg)
-{% endfigure %}
+Working alongside Apture’s CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.
 
-{% figure "Product promotional page" %}
-![](/assets/images/projects/apture/2.jpg)
-{% endfigure %}
+## Brand idenity
+The logo was informed by the products behaviour; small gems of information that spring from the page. Bright, colourful, engaging. <mark>TBD</mark>
 
-{% figure "Site Editor Dashboard" %}
-![](/assets/images/projects/apture/3.jpg)
-{% endfigure %}
+## Website
+<mark>TBD</mark>
 
-Apture was a publishing tool that gave content creators the power to find and incorporate relevant multimedia directly into their web pages. Working closely alongside Apture's small team, and often on-site at their offices in San Mateo, I helped launch the initial product in April 2008.
+## Media-hub browsing interface
+Complex interactions within a confined space. Before the advent of mobile design, constraints. Powerful. Inspiring. Needed to suggest breath of media available without overwhelming the user.. <mark>TBD</mark>
 
-[Tristan Harris][1], co-founder and CEO said:
-
+## Results
+{% figure "<cite>Tristan Harris, co-founder and CEO</cite>" %}
 > I've worked alongside some of the most brilliant interaction and graphic designers in the world in my career, but Paul is one of the most talented and consistently impressive designers I've met. Beyond driving most of Apture's graphic, interaction and web design work, he cares deeply about building beautiful, visually organised products, which I think is why we both got along in the first place.
-
-In addition to evolving the visual language and interaction design of the user-facing product (with particular focus on a [revised 'media hub' search interface][2]), I also produced the company's logo and associated brand collateral.
-
-*Apture was acquired by Google in November 2011*.
-
-[1]: http://tristanharris.com/
-[2]: http://web.archive.org/web/20090529090403/http://blog.apture.com/2009/05/introducing-media-hub-20-link-more-content-faster-and-easier/
+{% endfigure %}
 
 *[CEO]: Chief Executive Officer

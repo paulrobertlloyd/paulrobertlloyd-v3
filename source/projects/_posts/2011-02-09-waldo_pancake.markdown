@@ -5,26 +5,16 @@ date: '2011-02-09'
 excerpt: A new home for Jim Smith, purveyor of the funniest coffee cups.
 permalink: /projects/waldo_pancake.html
 hidden: true
+project-info:
+  client: Jim Smith
+  year: 2011
+  role: Front-end development
 ---
-{% figure "The Waldo Pancake website" %}
-![](/assets/images/projects/waldo_pancake/0.jpg)
-{% endfigure %}
+Jim Smith (aka <cite>[Waldo Pancake][1]</cite>) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every [Puccino's][2] coffee shop.
 
-{% figure "Navigation" %}
-![](/assets/images/projects/waldo_pancake/1.jpg)
-{% endfigure %}
-
-{% figure "Slideshow featuring some of Jim's work" %}
-![](/assets/images/projects/waldo_pancake/2.jpg)
-{% endfigure %}
-
-Jim Smith (aka [Waldo Pancake][1]) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every [Puccino's][2] coffee shop.
-
-His existing site used a Flash-based solution, but this meant his work couldn't be viewed on mobile devices. Wanting to maintain similar slideshow functionality (with images that could be updated via an FTP client) Jim approached me to redevelop his website. In addition to visualising his designs in HTML, I created a simple file based content management system in PHP and utilised jQuery to provide cross-browser compatible image slideshows.
+With an existing site that was Flash-based, Jim’s work could no longer be viewed on mobile devices. Jim asked me to redevelop his website, retaining slideshows of work (updated by simply uploading images via an FTP client) that would work across all platforms.
 
 [1]: http://waldopancake.com/
 [2]: http://puccinosworldwide.com/
 
 *[FTP]: File Transfer Protocol
-*[HTML]: HyperText Markup Language
-*[PHP]: PHP: Hypertext Preprocessor
