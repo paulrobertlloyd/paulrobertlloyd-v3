@@ -1,51 +1,22 @@
 ---
 layout: project
-title: Channel 4 News
+title: Channel 4 News for iPad
 date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence across web, tablet and mobile.
 permalink: /projects/channel4_news.html
 hidden: true
+project-info:
+  client: Channel 4
+  year: 2010
+  role: Design
 ---
-{% figure "Home page" %}
-![](/assets/images/projects/channel4_news/0.jpg)
-{% endfigure %}
+Broadcast weeknights at 7pm, _Channel 4 News_ is noted for its award-winning coverage of international news and extensive current affairs reporting.
 
-{% figure "Category" %}
-![](/assets/images/projects/channel4_news/1.jpg)
-{% endfigure %}
+After redesigning their website, Channel 4 wished to re-imagine the Channel 4 News service for tablet and smart phone users. While it would have been easy to repurpose the website, research showed that tablet users demonstrated a more leisurely approach that pointed at a visually-rich, linear solution.
 
-{% figure "Special Report" %}
-![](/assets/images/projects/channel4_news/2.jpg)
-{% endfigure %}
+With this insight, and working alongside [James Box][1] and [James Bates][2] at Clearleft, I created an engaging browsing mechanism driven by story headlines and high quality imagery. This made it easy for users to casually flip through stories, honing in on anything that caught the eye.
 
-{% figure "Country" %}
-![](/assets/images/projects/channel4_news/3.jpg)
-{% endfigure %}
-
-{% figure "Article" %}
-![](/assets/images/projects/channel4_news/4.jpg)
-{% endfigure %}
-
-{% figure "Benjamin Cohen's Blog" %}
-![](/assets/images/projects/channel4_news/5.jpg)
-{% endfigure %}
-
-{% figure "iPad: Home screen" %}
-![](/assets/images/projects/channel4_news/6.jpg)
-{% endfigure %}
-
-{% figure "iPad: Special Reports" %}
-![](/assets/images/projects/channel4_news/7.jpg)
-{% endfigure %}
-
-{% figure "iPad: Special Report" %}
-![](/assets/images/projects/channel4_news/8.jpg)
-{% endfigure %}
-
-Channel 4 News focuses on in-depth quality reporting, yet the previous website was centred around breaking news. This was forcing their editorial staff into a constant cycle of small updates rather than allowing them to address deeper stories.
-
-In collaboration with [James Box][1], [James Bates][2] and [Cathy Jones][3], I helped design an innovative and bold website that drew upon their on air brand, highlighted the broadcasting talent and showcased in-depth reporting by means of curated 'Special Reports'. I was later involved in the design of the companion iPad app, that took the design of the website and adapted it to suit the requirements of a touch based interface.
+Shortly after its launch Apple featured it as 'App of the Week'. In a few short weeks the application received over one hundred positive reviews, with an average rating of 4.5 stars.
 
 [1]: http://clearleft.com/is/james-box/
 [2]: http://clearleft.com/is/james-bates/
-[3]: http://www.electricelephant.com/

@@ -5,29 +5,13 @@ date: '2008-08-22'
 excerpt: A tool for curating and printing group-based photo albums.
 permalink: /projects/groopix.html
 hidden: true
+project-info:
+  client: Steve Douty
+  year: 2008
+  role: UX, design and front-end development
 ---
-{% figure "Logo" %}
-![](/assets/images/projects/groopix/0.jpg)
-{% endfigure %}
+_Groopix_ was an online tool that allowed users to easily curate and print group based photo albums.
 
-{% figure "My Groops" %}
-![](/assets/images/projects/groopix/1.jpg)
-{% endfigure %}
-
-{% figure "Collection" %}
-![](/assets/images/projects/groopix/2.jpg)
-{% endfigure %}
-
-{% figure "My Pix" %}
-![](/assets/images/projects/groopix/3.jpg)
-{% endfigure %}
-
-{% figure "My Account" %}
-![](/assets/images/projects/groopix/4.jpg)
-{% endfigure %}
-
-Groopix was an online tool that allowed users to easily curate and print group based photo albums.
-
-Working closely with CEO Steve Douty, I created the company's logo, and worked on the user experience and interaction design of the main product.
+Working closely with CEO Steve Douty, I produced the company’s branding and visual design and developed the underlying user experience of the product.
 
 *[CEO]: Chief Executive Officer

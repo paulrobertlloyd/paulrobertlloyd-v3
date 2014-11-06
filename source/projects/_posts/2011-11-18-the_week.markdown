@@ -14,15 +14,23 @@ project-info:
     Named Digital Edition of the Year at the PPA Awards 2011
     Average rating of four stars in the App Store
 ---
-_The Week_ condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UK's most popular weekly subscription magazine.
+_The Week_ condenses the week’s news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it’s the UK’s most popular weekly subscription magazine.
 
-Part of this success can be attributed to a rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. Working with [Harry Brignull][1] at Clearleft, we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
+Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. Working with [Harry Brignull][1] at Clearleft, we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
 
 ## Prototyping
 {% figure "Image of early prototype/design" %}
 {% endfigure %}
 
-We began the design process by starting with paper sketches before proceeding onto the implementation of a quick, low-fidelity prototype. We took this into usability testing and experimented with different design approaches before settling on a formula that was intuitive and easily navigable.
+A highly iterative approach saw the design evolve over the course of the project. Starting with paper sketches before creating quick, low-fidelity click-through prototypes in Keynote. Throughout this process, we used real content from the magazine to ensure our design would meant the demands of the content it would need to deliver. By forming a close working relationship with key stakeholders across the business - including both commercial and editorial teams -- meant we were able to take into account differing requirements and manage expectations.
+
+## Page turner
+{% figure "Overview of IA" %}
+{% endfigure %}
+
+With a readership not looking for rich interactivity, we chose to focus on creating an app that was intuitive and easy to navigate. We experimented with a number of different design approaches, with usability testing proving an invaluable means of validating our final proposal.
+
+The predictable IA of the magazine was retained by creating overview pages for each section that linked though to individual articles. From both section and article pages, users could quickly swipe though the magazine, replicating the skimmable nature of the printed version. This model also allowed for the inclusion of full-screen interactive advertising, inserted at modest intervals, much like in the magazine.
 
 ## Translating print design to iPad
 {% figure "Comparison(s) of magazine spread vs tablet screen" %}
@@ -31,7 +39,12 @@ We began the design process by starting with paper sketches before proceeding on
 {% figure "Harry's comparison of print vs tablet DPI" %}
 {% endfigure %}
 
-A challenging aspect of this project was attempting to convey the familiarity of the magazine within the confined space of an iPad. Not only is a tablet physically smaller, but its resolution much lower. We retained the predictable IA of the magazine by creating overview pages for each section in the printed magazine that linked though to individual articles. From both index and article pages, users could swipe though the magazine, retaining the skimmable nature of the printed version.
+A challenging aspect of this project was conveying the familiarity of the magazine within the confined space of an iPad which physically smaller, and with a lower resolution. Simply transferring the content of one page to a single screen would not be an option. While competing products often used pinch and zoom, we created bespoke layouts for both portrait and landscape device orientation.
+
+A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. <mark>[WHAT DID WE DO WITH THESE?]</mark>
+
+## Collaborative development
+Working closely with the development team at [Kaldor][3], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][4] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience. 
 
 ## Result
 {% figure "Screenshots of finished product" %}
@@ -48,6 +61,8 @@ The app was far more successful than anticipated, spending a number of weeks in 
 
 [1]: http://www.90percentofeverything.com/about/
 [2]: http://clearleft.com/made/the-week
+[3]: http://kaldorgroup.com/
+[4]: http://pugpig.com/
 
 *[UK]: United Kingdom
 *[IA]: information architecture

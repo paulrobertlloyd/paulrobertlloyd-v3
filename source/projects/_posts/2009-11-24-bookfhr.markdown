@@ -5,22 +5,14 @@ date: '2009-11-24'
 excerpt: Visual and user experience design for provider of travel services
 permalink: /projects/bookfhr.html
 hidden: true
+project-info:
+  client: FHR Airport Services
+  year: 2009
+  role: Design
 ---
-{% figure "Home page" %}
-![](/assets/images/projects/bookfhr/0.jpg)
-{% endfigure %}
+_BookFHR_ provides discounts on airport hotels, parking and lounges and other travel services in the UK.
 
-{% figure "Search results" %}
-![](/assets/images/projects/bookfhr/1.jpg)
-{% endfigure %}
-
-{% figure "Booking form" %}
-![](/assets/images/projects/bookfhr/2.jpg)
-{% endfigure %}
-
-BookFHR provides discounts on airport hotels, parking and lounges and other travel services in the UK.
-
-During a short engagement working alongside [Richard Rutter][1], I helped improve the overall user experience, with particular a focus on search and booking flows. I provided a more consistent visual treatment for the site, and took the opportunity to refine the company's logo too.
+During a short engagement working alongside [Richard Rutter][1] at Clearleft, I helped improve the overall user experience, with particular a focus on search and booking flows. I provided a more consistent visual treatment for the site, and took the opportunity to refine the company’s logo.
 
 [1]: http://clearleft.com/is/richard-rutter/
 
