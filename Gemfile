@@ -13,7 +13,7 @@ group :development do
   gem 'guard-jekyll-plus', github: 'berrberr/guard-jekyll-plus'
   gem 'guard-jshintrb', github: 'paulrobertlloyd/guard-jshintrb'
   gem 'guard-livereload'
-  gem 'guard-sass', github: 'paulrobertlloyd/guard-sass'
+  gem 'guard-sass'
   gem 'guard-scss-lint', github: 'chrislopresto/guard-scss-lint'
 
   gem 'autoprefixer-rails'

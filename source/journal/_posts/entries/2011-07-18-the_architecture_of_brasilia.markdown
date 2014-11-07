@@ -11,7 +11,7 @@ tags:
 ---
 Brasília is a planned city situated in the centre of Brazil's vast and unpopulated interior. Built in the mid-fifties, it was inaugurated as the country's capital on April 22, 1960.
 
-![Sketched plan of Brasília](/assets/images/2011/07/the_architecture_of_brasilia_plan.png){: .l-align-right} This city is remarkable for a number of reasons, not least its aeroplane like street layout (shown right) planned by [Lúcio Costa][1]. It was built in just 41 months, with its construction ordered by the country's new President, [Juscelino Kubitschek][2] who came to power promising '50 years progress in five'. However it's the distinctive architecture that draws most attention, and much of this was designed by [Oscar Niemeyer][3].
+![Sketched plan of Brasília](/assets/images/2011/07/the_architecture_of_brasilia_plan.png){: .l-align-right}This city is remarkable for a number of reasons, not least its aeroplane like street layout (shown right) planned by [Lúcio Costa][1]. It was built in just 41 months, with its construction ordered by the country's new President, [Juscelino Kubitschek][2] who came to power promising '50 years progress in five'. However it's the distinctive architecture that draws most attention, and much of this was designed by [Oscar Niemeyer][3].
 
 Niemeyer is one of the few architects given the opportunity to design on such a scale, so it's not surprising to discover many familiar design patterns and motifs on the city's different buildings.
 
