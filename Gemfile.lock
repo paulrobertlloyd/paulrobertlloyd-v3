@@ -57,6 +57,10 @@ GEM
     coffee-script-source (1.8.0)
     colorator (0.1)
     colorize (0.7.3)
+    css_press (0.3.2)
+      csspool-st (= 3.1.2)
+      json
+    csspool-st (3.1.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -78,6 +82,11 @@ GEM
       multi_json (~> 1.8)
     hike (1.2.3)
     hitimes (1.2.2)
+    html_press (0.8.2)
+      htmlentities
+      multi_css (>= 0.1.0)
+      multi_js (>= 0.1.0)
+    htmlentities (4.3.2)
     http_parser.rb (0.6.0)
     i18n (0.6.11)
     jekyll (2.5.0)
@@ -106,6 +115,9 @@ GEM
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
+    jekyll-minify-html (1.1.0)
+      html_press (~> 0.8.2)
+      jekyll (>= 0.12)
     jekyll-paginate (1.1.0)
     jekyll-pypedown (0.0.2)
       jekyll (~> 2.4)
@@ -123,6 +135,7 @@ GEM
       rake
     json (1.8.1)
     kramdown (1.5.0)
+    libv8 (3.16.14.7)
     liquid (2.6.1)
     listen (2.7.11)
       celluloid (>= 0.15.2)
@@ -132,6 +145,10 @@ GEM
     mercenary (0.3.4)
     method_source (0.8.2)
     mini_portile (0.6.1)
+    multi_css (0.1.0)
+      css_press
+    multi_js (0.1.0)
+      uglifier (~> 2)
     multi_json (1.10.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -155,6 +172,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.0)
+    ref (1.0.5)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
     sass (3.4.7)
@@ -176,6 +194,9 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.19.1)
     tilt (1.4.1)
     timers (4.0.1)
@@ -207,9 +228,11 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   jekyll-assets
+  jekyll-minify-html
   jekyll-pypedown
   jekyll-sitemap
   nokogiri
   rake
+  therubyracer
   typogruby
   uglifier

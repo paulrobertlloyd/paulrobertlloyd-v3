@@ -1,4 +1,4 @@
-production: true
+env: production
 
 # Image server
 url: //v3.paulrobertlloyd.com
