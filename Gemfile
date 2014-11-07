@@ -27,15 +27,14 @@ group :jekyll_plugins do
   gem 'jekyll-minify-html'
   gem 'jekyll-pypedown'
   gem 'jekyll-sitemap'
-
-  gem 'exifr'
-  gem 'nokogiri'
-  gem 'typogruby'
-  gem 'uglifier'
 end
 
 # Rake (manages build tasks)
 gem 'rake'
 
-# JavaScript runtime
+# Other dependancies
+gem 'exifr'
+gem 'nokogiri'
 gem 'therubyracer'
+gem 'typogruby'
+gem 'uglifier'
