@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
-# Capistrano (for automated deployment)
+# Capistrano (automates deployment)
 group :development do
   gem 'capistrano'
   gem 'capistrano-rvm'
   gem 'capistrano-bundler'
 end
 
-# Guard (for development)
+# Guard (automates development tasks)
 group :development do
   gem 'guard'
   gem 'guard-jekyll-plus', github: 'berrberr/guard-jekyll-plus'
@@ -17,13 +17,9 @@ group :development do
   gem 'guard-scss-lint', github: 'chrislopresto/guard-scss-lint'
 
   gem 'autoprefixer-rails'
-  gem 'therubyracer'
 end
 
-# Rake (for task management)
-gem 'rake'
-
-# Jekyll
+# Jekyll (generates static files)
 gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
@@ -37,3 +33,9 @@ group :jekyll_plugins do
   gem 'typogruby'
   gem 'uglifier'
 end
+
+# Rake (manages build tasks)
+gem 'rake'
+
+# JavaScript runtime
+gem 'therubyracer'
