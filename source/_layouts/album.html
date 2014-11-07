@@ -12,10 +12,13 @@ layout: default
             <div class="post__content  prose  e-content">
                 {{ content | widont }}
 
-                {% directory path: assets/images/photos/birmingham %}
+                {% capture page_id %}{{ page.path | remove: "photos/_posts/" | remove: ".markdown" }}{% endcapture %}
+                {{ page_id }}
+                {% directory path: assets/images/photos/2013-09-21-birmingham %}
                 <figure>
                     <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
                     <figcaption>
+                        <h2 class="exif-title">{{ file.url | exif: 'comment' }}</h2>
                         <dl class="exif-info">
                             <dt class="exif-info__title">Date taken</dt>
                             <dd class="exif-info__value" data-value="exif-date_time">{{ file.url | exif: 'date_time' | date: "%e %B %Y" }}</dd>
@@ -28,7 +31,7 @@ layout: default
                             <dt class="exif-info__title">Film speed</dt>
                             <dd class="exif-info__value" data-value="exif-iso_speed_ratings"><abbr title="International Organization for Standardization ">ISO</abbr>{{ file.url | exif: 'iso_speed_ratings' }}</dd>
                             <dt class="exif-info__title">Focal Length</dt>
-                            <dd class="exif-info__value" data-value="exif-focal_length">{{ file.url | exif: 'focal_length' }}</dd>
+                            <dd class="exif-info__value" data-value="exif-focal_length">{{ file.url | exif: 'focal_length.to_f' }} mm</dd>
                         </dl>
                     </figcaption>
                 </figure>
