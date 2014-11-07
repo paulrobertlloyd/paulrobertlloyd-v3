@@ -22,14 +22,6 @@ GIT
       guard (~> 2.0)
       jshintrb
 
-GIT
-  remote: git://github.com/paulrobertlloyd/guard-sass.git
-  revision: 1ee7579b1232f9d371d161c3c72bf1876cff9e50
-  specs:
-    guard-sass (1.6.0)
-      guard (>= 2.8.0)
-      sass (>= 3.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -80,6 +72,9 @@ GEM
       em-websocket (~> 0.5)
       guard (~> 2.0)
       multi_json (~> 1.8)
+    guard-sass (1.6.0)
+      guard (>= 2.8.0)
+      sass (>= 3.1)
     hike (1.2.3)
     hitimes (1.2.2)
     html_press (0.8.2)
@@ -223,7 +218,7 @@ DEPENDENCIES
   guard-jekyll-plus!
   guard-jshintrb!
   guard-livereload
-  guard-sass!
+  guard-sass
   guard-scss-lint!
   jekyll
   jekyll-archives
