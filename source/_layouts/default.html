@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
+{% if page.discussion %}
     <link rel="dns-prefetch" href="//gravatar.com"/>
+{% endif %}
     <link rel="dns-prefetch" href="{{ site.img_url }}"/>
 
     <script>
@@ -19,12 +21,19 @@
 
     {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
     {% capture category %}{{ page.categories | first }}{% endcapture %}
+
 {% if page.template == 'home' or location == 'journal' or category == 'journal' %}
     <link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>
 {% endif %}
+
 {% if page.template == 'home' or location == 'projects' or category == 'projects' %}
     <link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>
 {% endif %}
+
+{% if page.template == 'home' or location == 'photos' or category == 'photos' %}
+    <link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>
+{% endif %}
+
     <link rel="canonical" href="{{ page.url | remove:'.html' }}"/>
     <link rel="icon" href="/assets/icons/icon.png"/>
 
@@ -47,7 +56,7 @@
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
     <meta name="twitter:creator" content="{{ site.author.twitter }}"/>
     {% if page.image %}
-    <meta name="twitter:image" content="{{ site.img_url }}/300x200/80{{ page.image }}"/>
+    <meta name="twitter:image" content="{{ site.img_url }}/300x200/80/{{ page.image }}"/>
     <meta name="twitter:card" content="summary_large_image"/>
     {% else %}
     <meta name="twitter:card" content="summary"/>

@@ -12,6 +12,10 @@
     </header>
 
     <div class="summary__main  p-summary">
+    {% if summary.image %}
+        <img class="summary__image  u-photo" src="{{ site.img_url }}/300x200/80/{{ summary.image }}"/>
+    {% endif %}
+
     {% if summary.link-embed == "photo" %}
         {% embed {{ summary.link }} %}
     {% endif %}
