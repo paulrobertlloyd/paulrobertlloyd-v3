@@ -17,6 +17,7 @@ group :development do
   gem 'guard-scss-lint', github: 'chrislopresto/guard-scss-lint'
 
   gem 'autoprefixer-rails'
+  gem 'therubyracer'
 end
 
 # Rake (for task management)
