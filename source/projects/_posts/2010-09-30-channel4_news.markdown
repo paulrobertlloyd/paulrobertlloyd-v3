@@ -18,5 +18,7 @@ With this insight, and working alongside [James Box][1] and [James Bates][2] at 
 
 Shortly after its launch Apple featured it as 'App of the Week'. In a few short weeks the application received over one hundred positive reviews, with an average rating of 4.5 stars.
 
+{% include content/project-info.html %}
+
 [1]: http://clearleft.com/is/james-box/
 [2]: http://clearleft.com/is/james-bates/

@@ -11,7 +11,7 @@ end
 group :development do
   gem 'guard'
   gem 'guard-jekyll-plus', github: 'berrberr/guard-jekyll-plus'
-  gem 'guard-jshintrb', github: 'paulrobertlloyd/guard-jshintrb'
+  gem 'guard-jshintrb'
   gem 'guard-livereload'
   gem 'guard-sass'
   gem 'guard-scss-lint', github: 'chrislopresto/guard-scss-lint'

@@ -14,6 +14,8 @@ Jim Smith (aka <cite>[Waldo Pancake][1]</cite>) is a designer, illustrator and c
 
 With an existing site that was Flash-based, Jim’s work could no longer be viewed on mobile devices. Jim asked me to redevelop his website, retaining slideshows of work (updated by simply uploading images via an FTP client) that would work across all platforms.
 
+{% include content/project-info.html %}
+
 [1]: http://waldopancake.com/
 [2]: http://puccinosworldwide.com/
 

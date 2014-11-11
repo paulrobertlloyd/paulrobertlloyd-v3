@@ -2,37 +2,38 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="post article--link  h-entry">
-        <header class="post__header">
-            <h1 class="post__title  p-name">{{ page.title | smart }}</h1>
-        </header>
+    <article class="page page--link  h-entry">
+        {% include articles/page__header.html %}
 
-        <div class="post__main">
-            <div class="post__content  prose  e-content">
-                {% if page.link-embed %}
-                    {% embed {{ page.link }} %}
-                {% endif %}
+        <div class="page__main">
+            {% if page.link-embed %}
+                {% embed {{ page.link }} %}
+            {% endif %}
 
+            <div class="prose  e-content">
                 {{ content | widont }}
-
-                {% if page.link-embed == null %}
-                    <aside class="post__aside">
-                        <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
-                    </aside>
-                {% endif %}
             </div>
 
-            {% include sections/tags.html %}
+            {% if page.link-embed == null %}
+                <aside class="page__aside">
+                    <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
+                </aside>
+            {% endif %}
+
+            {% if page.tags %}
+                {% include sections/tags.html %}
+            {% endif %}
+
+            {% if page.series %}
+                {% include navigation/series.html %}
+            {% endif %}
 
             {% if page.discussion %}
                 {% include sections/discussion.html %}
             {% endif %}
         </div>
 
-        <footer class="post__footer">
-            <span class="u-hidden">Published on </span>
-            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-        </footer>
+        {% include articles/page__footer.html %}
     </article>
 
     {% include navigation/pages--post.html %}

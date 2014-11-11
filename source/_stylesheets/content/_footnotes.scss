@@ -6,7 +6,7 @@
     @extend %t-caption;
     margin-top: 2rem;
 
-    &:before {
+    &::before {
         @include rule(2);
         margin: 2rem auto; // 32px auto
     }

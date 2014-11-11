@@ -2,18 +2,21 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="post post--entry  h-entry">
-        <header class="post__header">
-            <h1 class="post__title  p-name">{{ page.title | smart | widot }}</h1>
-            {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
-        </header>
+    <article class="page page--entry  h-entry">
+        {% include articles/page__header.html %}
 
-        <div class="post__main">
-            <div class="post__content  prose  e-content">
+        <div class="page__main">
+            <div class="prose  e-content">
                 {{ content | widont }}
             </div>
 
-            {% include sections/tags.html %}
+            {% if page.tags %}
+                {% include sections/tags.html %}
+            {% endif %}
+
+            {% if page.series %}
+                {% include navigation/series.html %}
+            {% endif %}
 
             {% include sections/related.html %}
 
@@ -22,18 +25,7 @@ layout: default
             {% endif %}
         </div>
 
-        <footer class="post__footer">
-            <span class="u-hidden">Published on </span>
-            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-            <span class="u-hidden">in </span>
-            {% if page.location %}
-                {% assign post_location = page.location | split:", " %}
-                <span class="post__location  p-location h-adr">
-                    <span class="p-locality">{{ post_location[0] }}</span>,
-                    <span class="p-country-name">{{ post_location[1] }}</span>
-                </span>
-            {% endif %}
-        </footer>
+        {% include articles/page__footer.html %}
     </article>
 
     {% include navigation/pages--post.html %}
