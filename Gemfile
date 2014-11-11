@@ -14,7 +14,7 @@ group :development do
   gem 'guard-jshintrb'
   gem 'guard-livereload'
   gem 'guard-sass'
-  gem 'guard-scss-lint', github: 'chrislopresto/guard-scss-lint'
+  gem 'guard-scss-lint'
 
   gem 'autoprefixer-rails'
 end
