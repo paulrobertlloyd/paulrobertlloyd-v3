@@ -52,6 +52,8 @@ I created a design language that encompassed the variety of content types publis
 ## Elsewhere
 * [Clearleft's project case study][1]
 
+{% include content/project-info.html %}
+
 [1]: http://clearleft.com/made/unicef
 
 *[HTML]: HyperText Markup Language

@@ -12,7 +12,7 @@
         position: absolute;
         margin-top: -1rem;
 
-        &:before {
+        &::before {
             display: block;
             transform: rotate(45deg);
             border-style: solid;
@@ -32,7 +32,7 @@
     .navigation__item--prev {
         left: 0;
 
-        &:before {
+        &::before {
             border-width: 0 0 1px 1px;
         }
     }
@@ -40,7 +40,7 @@
     .navigation__item--next {
         right: 0;
 
-        &:before {
+        &::before {
             border-width: 1px 1px 0 0;
         }
     }

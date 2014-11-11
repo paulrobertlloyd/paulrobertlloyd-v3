@@ -3,24 +3,22 @@ layout: default
 ---
 <main class="main" role="main">
     <article class="page page--essay  h-entry">
-        <header class="page__header">
-            <h1 class="page__title  p-name">{{ page.title | smart | widot }}</h1>
-            {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
-        </header>
+        {% include articles/page__header.html %}
 
         <div class="page__main">
-            <div class="post__content  prose  e-content">
+            <div class="prose  e-content">
                 {{ content | widont }}
             </div>
 
-            {% if page.essay-chapter %}
-                {% include navigation/chapters.html %}
+            {% if page.tags %}
+                {% include sections/tags.html %}
+            {% endif %}
+
+            {% if page.series %}
+                {% include navigation/series.html %}
             {% endif %}
         </div>
 
-        <footer class="page__footer">
-            <span class="u-hidden">Published on </span>
-            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-        </footer>
+        {% include articles/page__footer.html %}
     </article>
 </main>

@@ -2,11 +2,9 @@
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 subtitle: 'Updating the Brands: ITV'
+series: Dissertation
 date: '2002-06-01'
 permalink: /essays/dissertation/updating_the_brands_itv.html
-tags:
-  - Dissertation
-essay-chapter: 9
 ---
 By the mid-ninetees every ITV region was back to using individual identities -- with only Grampian using the original 1989 idents and graphics. At the same time, the ITV network was entering a period of consolidation and mergers amongst the franchises, threatening its regional identity.
 

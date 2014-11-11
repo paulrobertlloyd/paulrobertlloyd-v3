@@ -2,49 +2,49 @@
 layout: default
 ---
 <main class="main" role="main">
-    <article class="post post--entry  h-entry">
-        <header class="post__header">
-            <h1 class="post__title  p-name">{{ page.title | smart | widot }}</h1>
-            {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
-        </header>
+    <article class="page page--album  h-entry">
+        {% include articles/page__header.html %}
 
-        <div class="post__main">
-            <div class="post__content  prose  e-content">
+        <div class="page__main">
+            <div class="prose  e-content">
                 {{ content | widont }}
-
-                {% capture page_id %}{{ page.path | remove: "photos/_posts/" | remove: ".markdown" }}{% endcapture %}
-                {{ page_id }}
-                {% directory path: assets/images/photos/2013-09-21-birmingham %}
-                <figure>
-                    <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
-                    <figcaption>
-                        <h2 class="exif-title">{{ file.url | exif: 'comment' }}</h2>
-                        <dl class="exif-info">
-                            <dt class="exif-info__title">Date taken</dt>
-                            <dd class="exif-info__value" data-value="exif-date_time">{{ file.url | exif: 'date_time' | date: "%e %B %Y" }}</dd>
-                            <dt class="exif-info__title">Model</dt>
-                            <dd class="exif-info__value" data-value="exif-model">{{ file.url | exif: 'model' }}</dd>
-                            <dt class="exif-info__title">Aperture</dt>
-                            <dd class="exif-info__value" data-value="exif-f_number"><i>f</i>/{{ file.url | exif: 'f_number.to_f' }}</dd>
-                            <dt class="exif-info__title">Exposure</dt>
-                            <dd class="exif-info__value" data-value="exif-exposure_time">{{ file.url | exif: 'exposure_time.to_s' }}</dd>
-                            <dt class="exif-info__title">Film speed</dt>
-                            <dd class="exif-info__value" data-value="exif-iso_speed_ratings"><abbr title="International Organization for Standardization ">ISO</abbr>{{ file.url | exif: 'iso_speed_ratings' }}</dd>
-                            <dt class="exif-info__title">Focal Length</dt>
-                            <dd class="exif-info__value" data-value="exif-focal_length">{{ file.url | exif: 'focal_length.to_f' }} mm</dd>
-                        </dl>
-                    </figcaption>
-                </figure>
-                {% enddirectory %}
-
-                {% include sections/tags.html %}
             </div>
+
+            {% capture page_id %}{{ page.path | remove: "photos/_posts/" | remove: ".markdown" }}{% endcapture %}
+            {{ page_id }}
+            {% directory path: assets/images/photos/2013-09-21-birmingham %}
+            <figure>
+                <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
+                <figcaption>
+                    <h2 class="exif-title">{{ file.url | exif: 'comment' }}</h2>
+                    <dl class="exif-info">
+                        <dt class="exif-info__title">Date taken</dt>
+                        <dd class="exif-info__value" data-value="exif-date_time">{{ file.url | exif: 'date_time' | date: "%e %B %Y" }}</dd>
+                        <dt class="exif-info__title">Model</dt>
+                        <dd class="exif-info__value" data-value="exif-model">{{ file.url | exif: 'model' }}</dd>
+                        <dt class="exif-info__title">Aperture</dt>
+                        <dd class="exif-info__value" data-value="exif-f_number"><i>f</i>/{{ file.url | exif: 'f_number.to_f' }}</dd>
+                        <dt class="exif-info__title">Exposure</dt>
+                        <dd class="exif-info__value" data-value="exif-exposure_time">{{ file.url | exif: 'exposure_time.to_s' }}</dd>
+                        <dt class="exif-info__title">Film speed</dt>
+                        <dd class="exif-info__value" data-value="exif-iso_speed_ratings"><abbr title="International Organization for Standardization ">ISO</abbr>{{ file.url | exif: 'iso_speed_ratings' }}</dd>
+                        <dt class="exif-info__title">Focal Length</dt>
+                        <dd class="exif-info__value" data-value="exif-focal_length">{{ file.url | exif: 'focal_length.to_f' }} mm</dd>
+                    </dl>
+                </figcaption>
+            </figure>
+            {% enddirectory %}
+
+            {% if page.tags %}
+                {% include sections/tags.html %}
+            {% endif %}
+
+            {% if page.series %}
+                {% include navigation/series.html %}
+            {% endif %}
         </div>
 
-        <footer class="post__footer">
-            <span class="u-hidden">Published on </span>
-            <time class="post__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%e %B %Y" }}</time>
-        </footer>
+        {% include articles/page__footer.html %}
     </article>
 
     {% include navigation/pages--post.html %}

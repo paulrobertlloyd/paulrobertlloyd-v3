@@ -45,6 +45,8 @@ When I thought about ways people might discover the site, I realised that social
 ## Elsewhere
 * [(Re)introducing Bradshaw's Guide][2]
 
+{% include content/project-info.html %}
+
 [1]: https://twitter.com/bradshawsguide
 [2]: /2013/04/bradshaws_guide
 

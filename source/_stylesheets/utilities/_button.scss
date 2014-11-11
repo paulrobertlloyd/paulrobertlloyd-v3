@@ -5,7 +5,8 @@
 .button {
     display: inline-block;
     border: 1px solid $c__accent-light;
-    padding: 0.5em;
+    background: transparent;
+    padding: 0.5rem 0.75rem;
     color: $c__accent-light;
     font-family: $f__sans-serif;
 }

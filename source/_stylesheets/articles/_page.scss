@@ -2,12 +2,53 @@
     Page
     ========================================================================= */
 
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.page__header {
+    order: 2;
+}
+
+.page__main {
+    order: 3;
+}
+
+.page__footer {
+    order: 1;
+}
+
 .page__title {
     @include fs--1;
-    @include ff--sans-serif;
+    @include ff--sans-serif(200);
 }
 
 .page__subtitle {
     @include fs--2;
     @include ff--sans-serif;
+}
+
+.page__location {
+    @extend %c2sc;
+    @include ff--sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.03125rem; // 0.5px
+    color: $c__neutral-2;
+}
+
+.page__pubdate {
+    @extend %t-caption;
+    @include fs--5;
+}
+
+.page__footer .page__location::before,
+.js .page__main .page__location::after {
+    margin: 0 0.25rem; // 0 4px
+    color: $c__neutral-5;
+    content: '\2022';
+}
+
+.js .page__main .page__location::after {
+    margin: 0 0.5rem 0 0.25rem; // 0 8px 0 4px
 }

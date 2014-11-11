@@ -3,15 +3,20 @@ layout: default
 ---
 <main class="main" role="main">
     <article class="page  h-entry">
-        <header class="page__header">
-            <h1 class="page__title  p-name">{{ page.title | smart }}</h1>
-            {% if page.subtitle %}<h2 class="page__subtitle">{{ page.subtitle | smart | widot }}</h2>{% endif %}
-        </header>
+        {% include articles/page__header.html %}
 
         <div class="page__main">
-            <div class="post__content  prose  e-content">
+            <div class="prose  e-content">
                 {{ content | widont }}
             </div>
+
+            {% if page.tags %}
+                {% include sections/tags.html %}
+            {% endif %}
+
+            {% if page.series %}
+                {% include navigation/series.html %}
+            {% endif %}
         </div>
     </article>
 </main>

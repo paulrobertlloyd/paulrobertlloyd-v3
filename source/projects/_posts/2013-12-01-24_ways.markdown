@@ -61,6 +61,8 @@ Beyond the responsive development, I was keen to employ other best practices. Th
 * [Drew McLellan: Rebuilding 24 ways][1]
 * [Redesigning 24 ways][2]
 
+{% include content/project-info.html %}
+
 [1]: http://allinthehead.com/retro/366/rebuilding-24-ways
 [2]: /2013/12/redesigning_24_ways
 

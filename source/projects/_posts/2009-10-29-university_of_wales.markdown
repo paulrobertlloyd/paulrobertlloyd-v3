@@ -14,4 +14,6 @@ The _University of Wales_ is a confederal university responsible for accrediting
 
 Working with [James Box][1] at Clearleft and with a tight budget and fixed timescale, I created an extensible design language that could be applied across the website, micro sites and the ‘myWales’ social e-learning network.
 
+{% include content/project-info.html %}
+
 [1]: http://clearleft.com/is/james-box/

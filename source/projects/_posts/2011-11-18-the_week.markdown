@@ -59,6 +59,8 @@ The app was far more successful than anticipated, spending a number of weeks in 
 ## Elsewhere
 * [Clearleft's project case study][2]
 
+{% include content/project-info.html %}
+
 [1]: http://www.90percentofeverything.com/about/
 [2]: http://clearleft.com/made/the-week
 [3]: http://kaldorgroup.com/

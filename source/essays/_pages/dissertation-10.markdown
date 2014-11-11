@@ -2,11 +2,9 @@
 layout: essay
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 subtitle: Multi-Channel Competition
+series: Dissertation
 date: '2002-06-01'
 permalink: /essays/dissertation/multichannel_competition.html
-tags:
-  - Dissertation
-essay-chapter: 10
 ---
 Unlike their analogue variants, digital satellite and cable services introduced a new method of browsing their greater number of channels: the Electronic Programme Guide (EPG). This allowed the viewer to browse channels and gain information about other programmes being shown, as well as browse channels by genre i.e. entertainment, sport, arts etc. Now audiences could watch television on a programme by programme basis rather than be dictated by channel schedules.
 

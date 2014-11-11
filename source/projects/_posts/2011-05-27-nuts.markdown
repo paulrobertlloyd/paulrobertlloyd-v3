@@ -18,4 +18,6 @@ Initially focused on fixing obvious usability problems, we later spent short thr
 
 The final sprint focused on implementing a new brand. I worked with Pentagram in New York and [Jon Aizlewood][1] in Brighton to ensure the new identity would work as well online as it does off.
 
+{% include content/project-info.html %}
+
 [1]: http://carbongraffiti.com/

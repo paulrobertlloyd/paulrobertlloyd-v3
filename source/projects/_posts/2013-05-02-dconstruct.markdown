@@ -38,6 +38,8 @@ Like the previous year's design, the homepage featured prominent images of the s
 
 Referencing the theme of communicating with machines, I researched different ways humans have tried to direct machines through history. Punch cards became the unifying motif, providing an interesting textural patterning on the website and associated conference collateral.
 
+{% include content/project-info.html %}
+
 [1]: http://2010.dconstruct.org/
 [2]: /2010/08/dconstruct_conference_badge
 [3]: http://2011.dconstruct.org/

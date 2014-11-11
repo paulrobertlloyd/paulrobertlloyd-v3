@@ -2,16 +2,16 @@
     <fieldset class="form__fieldset">
         <legend class="form__title">Get in touch</legend>
         <div class="form__field">
-            <label class="form__label" for"name">Your name</label>
-            <input class="form__input" name="name" type="text"/>
+            <label class="form__label" for="name">Your name</label>
+            <input class="form__input form__input--text " name="name" type="text"/>
         </div>
         <div class="form__field">
-            <label class="form__label" for"_replyto">Your email</label>
-            <input class="form__input" name="_replyto" type="email"/>
+            <label class="form__label" for="_replyto">Your email</label>
+            <input class="form__input form__input--text " name="_replyto" type="email"/>
         </div>
         <div class="form__field">
-            <label class="form__label" for"message">Message</label>
-            <textarea class="form__input" name="message" row="8" cols="40"></textarea>
+            <label class="form__label" for="message">Message</label>
+            <textarea class="form__input form__input--textarea" name="message" row="20" cols="40"></textarea>
         </div>
     </fieldset>
     <input class="form__hidden" name="_next" type="hidden" value="{{ site.url }}/contact/thanks"/>

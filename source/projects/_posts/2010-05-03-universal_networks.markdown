@@ -21,6 +21,8 @@ Example implementations can be seen at:
   * [Studio Universal][4] (Brazil)
   * [13TH STREET Universal][5] (Spain)
 
+{% include content/project-info.html %}
+
 [1]: http://clearleft.com/is/james-box/
 [2]: http://syfy.co.uk/
 [3]: http://universalchannel.co.za/
