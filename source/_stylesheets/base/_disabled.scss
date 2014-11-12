@@ -3,8 +3,7 @@
     http://developers.whatwg.org/links.html#disabled-elements
     ========================================================================= */
 
-button[disabled],
-input[disabled] {
+[disabled] {
 /*  Re-set default cursor for disabled elements */
     cursor: default;
 }

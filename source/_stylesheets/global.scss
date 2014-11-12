@@ -1,63 +1,63 @@
-@import 'helpers/_webfonts';
+@import 'helpers/webfonts';
 
-@import 'helpers/_vars';
-@import 'helpers/mixins/_grid';
-@import 'helpers/mixins/_rules';
-@import 'helpers/mixins/_typography';
-@import 'helpers/placeholders/_l';
-@import 'helpers/placeholders/_t';
-@import 'helpers/placeholders/_u';
+@import 'helpers/vars';
+@import 'helpers/mixins/grid';
+@import 'helpers/mixins/rules';
+@import 'helpers/mixins/typography';
+@import 'helpers/placeholders/l';
+@import 'helpers/placeholders/t';
+@import 'helpers/placeholders/u';
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
-@import 'base/_reset';
-@import 'base/_sections';
-@import 'base/_grouping';
-@import 'base/_text';
-@import 'base/_edits';
-@import 'base/_embedded';
-@import 'base/_links';
-@import 'base/_tables';
-@import 'base/_forms';
-@import 'base/_interactive';
-@import 'base/_disabled';
+@import 'base/reset';
+@import 'base/sections';
+@import 'base/grouping';
+@import 'base/text';
+@import 'base/edits';
+@import 'base/embedded';
+@import 'base/links';
+@import 'base/tables';
+@import 'base/forms';
+@import 'base/interactive';
+@import 'base/disabled';
 
 // Utilities
-@import 'utilities/_button';
-@import 'utilities/_form';
-@import 'utilities/_icon';
-@import 'utilities/_list';
-@import 'utilities/_prose';
-@import 'utilities/_tag';
+@import 'utilities/button';
+@import 'utilities/form';
+@import 'utilities/icon';
+@import 'utilities/list';
+@import 'utilities/prose';
+@import 'utilities/tag';
 
 // Navigation
-@import 'navigation/_pages';
-@import 'navigation/_primary';
-@import 'navigation/_secondary';
+@import 'navigation/pages';
+@import 'navigation/primary';
+@import 'navigation/secondary';
 
 // Content
-@import 'content/_chart';
-@import 'content/_exif-info';
-@import 'content/_footnotes';
-@import 'content/_project-info';
-@import 'content/_rating';
-@import 'content/_syntax';
-@import 'content/_tweet';
+@import 'content/chart';
+@import 'content/exif-info';
+@import 'content/footnotes';
+@import 'content/project-info';
+@import 'content/rating';
+@import 'content/syntax';
+@import 'content/tweet';
 
 // Articles
-@import 'articles/_page';
-@import 'articles/_remark';
-@import 'articles/_summary';
+@import 'articles/page';
+@import 'articles/remark';
+@import 'articles/summary';
 
 // Sections
-@import 'sections/_index';
-@import 'sections/_section';
+@import 'sections/index';
+@import 'sections/section';
 
 // Structure
-@import 'structure/_banner';
-@import 'structure/_main';
-@import 'structure/_contentinfo';
+@import 'structure/banner';
+@import 'structure/main';
+@import 'structure/contentinfo';
 
 // JS enhancements
-@import 'js/_embed';
-@import 'js/_search';
+@import 'js/embed';
+@import 'js/search';

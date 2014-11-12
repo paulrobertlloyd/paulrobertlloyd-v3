@@ -13,18 +13,22 @@ linters:
     style: include_zero
 
   NameFormat:
-    enabled: true
-    convention: BEM
+    enabled: false
+    convention: BEM # TODO: Lint for BEM-like names
 
   PropertySortOrder:
     enabled: true
     order: concentric
     ignore_unspecified: false
 
+  QualifyingElement:
+    enabled: true
+    allow_element_with_attribute: true
+
   SelectorDepth:
     enabled: true
     max_depth: 3
 
   SelectorFormat:
-    enabled: true
-    convention: BEM
+    enabled: false
+    convention: BEM # TODO: Lint for BEM-like selectors

@@ -22,10 +22,8 @@
             content: '';
         }
 
-        &:hover {
-            &:before {
-                border-color: $c__neutral-5;
-            }
+        &:hover::before {
+            border-color: $c__neutral-5;
         }
     }
 
