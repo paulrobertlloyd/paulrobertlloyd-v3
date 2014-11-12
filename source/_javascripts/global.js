@@ -1,4 +1,4 @@
 //= require modules/embed
-//= require modules/post__location
+//= require modules/page__location
 //= require modules/search
 //= require modules/picture

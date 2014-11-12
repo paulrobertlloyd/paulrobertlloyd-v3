@@ -1,7 +1,6 @@
 ---
 layout: essay
-title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
-subtitle: Early Graphic Design in Television
+title: Early Graphic Design in Television
 series: Dissertation
 date: '2002-06-01'
 permalink: /essays/dissertation/early_graphic_design_in_television.html
