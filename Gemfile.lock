@@ -65,6 +65,8 @@ GEM
     guard-scss-lint (0.0.2)
       guard (~> 2.0)
       scss-lint (~> 0)
+    guard-shell (0.7.0)
+      guard (>= 2.0.0)
     hike (1.2.3)
     hitimes (1.2.2)
     html_press (0.8.2)
@@ -210,6 +212,7 @@ DEPENDENCIES
   guard-livereload
   guard-sass
   guard-scss-lint
+  guard-shell
   jekyll
   jekyll-archives
   jekyll-assets

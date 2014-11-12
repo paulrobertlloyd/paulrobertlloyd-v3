@@ -5,6 +5,17 @@ guard :'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/developmen
   watch('config/jekyll/development.yml')
 end
 
+# Scss Lint https://github.com/chrislopresto/guard-scss-lint
+# guard :'scss-lint', :config => 'config/lint/scss.yml' do
+#   watch(%r{^source/_stylesheets/.+\.scss})
+# end
+guard :shell do
+  watch(%r{^source/.+\.scss}) {
+    |m| eager 'scss-lint source/_stylesheets --config config/lint/scss.yml'
+  }
+  watch('config/lint/scss.yml')
+end
+
 # Sass https://github.com/hawx/guard-sass
 # Autoprefix https://github.com/ai/autoprefixer-rails
 guard :sass, :output => 'public/assets/', :syntax => :scss, :shallow => true, :silent => true do
@@ -23,12 +34,6 @@ guard :sass, :output => 'public/assets/', :syntax => :scss, :shallow => true, :s
       io << ::AutoprefixerRails.process(original_css, browsers: ['> 1%', 'ie >= 7'])
     end
   end
-end
-
-# Scss Lint https://github.com/chrislopresto/guard-scss-lint
-guard :'scss-lint', :config => 'config/lint/scss.yml' do
-  watch(%r{^source/_stylesheets/.+\.scss})
-  watch('config/lint/scss.yml')
 end
 
 # JSHint https://github.com/thegarage/guard-jshintrb

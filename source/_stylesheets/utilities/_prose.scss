@@ -3,8 +3,8 @@
     ========================================================================= */
 
 .prose {
-    font-feature-settings: 'liga', 'dlig', 'onum';
     @include ff--serif;
+    font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
         @include fs--2;

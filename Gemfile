@@ -15,6 +15,7 @@ group :development do
   gem 'guard-livereload'
   gem 'guard-sass'
   gem 'guard-scss-lint'
+  gem 'guard-shell'
 
   gem 'autoprefixer-rails'
 end
