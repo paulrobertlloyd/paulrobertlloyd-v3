@@ -43,6 +43,8 @@ GEM
     eventmachine (1.0.3)
     execjs (2.2.2)
     exifr (1.2.0)
+    exiftool (0.6.0)
+      json
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     formatador (0.2.5)
@@ -206,6 +208,7 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-rvm
   exifr
+  exiftool
   guard
   guard-jekyll-plus!
   guard-jshintrb

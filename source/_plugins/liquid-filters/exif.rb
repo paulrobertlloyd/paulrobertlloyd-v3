@@ -2,15 +2,15 @@
 # An EXIF plugin for Jekyll
 # 
 # USAGE
-# <h1>{% img.url | exif: [property] %}</h1>
+# <h1>{% img.url | exif: [param] %}</h1>
 #
 
-require 'exifr'
+require 'exiftool'
 
 module Jekyll
   module ExifFilter
 
-    def exif(url, property)
+    def exif(url, param)
       source = @context.registers[:site].config['source']
 
       if File.exist?(url)
@@ -19,9 +19,11 @@ module Jekyll
         file_name = File.join(source, url)
       end
 
-      exif = EXIFR::JPEG::new(file_name)
+      metadata = Exiftool.new(file_name)
 
-      return property.split('.').inject(exif){|o,m| o.send(m)}
+      return param.split('.').map{ |property, method|
+        metadata[property.to_sym]
+      }
     end
 
   end

@@ -16,7 +16,7 @@ layout: default
             <figure>
                 <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
                 <figcaption>
-                    <h2 class="exif-title">{{ file.url | exif: 'comment' }}</h2>
+                    <h2 class="exif-title">{{ file.url | exif: 'title' }}</h2>
                     <dl class="exif-info">
                         <dt class="exif-info__title">Date taken</dt>
                         <dd class="exif-info__value" data-value="exif-date_time">{{ file.url | exif: 'date_time' | date: "%e %B %Y" }}</dd>
