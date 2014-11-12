@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Long Title Because Shorter Version Says Styleguide
-subtitle: A guide to the mark-up styles used throughout this site
+title: Styleguide
 excerpt: A guide to the mark-up styles used throughout this site.
 permalink: /about/styleguide.html
 style-disabled: |

@@ -1,7 +1,6 @@
 ---
 layout: essay
-title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
-subtitle: News Presentation in 1990
+title: News Presentation in 1990
 series: Dissertation
 date: '2002-06-01'
 permalink: /essays/dissertation/news_presentation_in_1990.html

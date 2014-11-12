@@ -1,7 +1,6 @@
 ---
 layout: essay
-title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
-subtitle: The Visuality of Television
+title: The Visuality of Television
 series: Dissertation
 date: '2002-06-01'
 permalink: /essays/dissertation/the_visuality_of_television.html

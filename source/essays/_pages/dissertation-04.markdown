@@ -1,7 +1,6 @@
 ---
 layout: essay
-title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
-subtitle: The Launch of Channel 4
+title: The Launch of Channel 4
 series: Dissertation
 date: '2002-06-01'
 permalink: /essays/dissertation/the_launch_of_channel_4.html

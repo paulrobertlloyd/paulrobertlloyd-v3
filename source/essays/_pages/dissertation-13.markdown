@@ -1,7 +1,6 @@
 ---
 layout: essay
-title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
-subtitle: Conclusion
+title: Conclusion
 series: Dissertation
 date: '2002-06-01'
 permalink: /essays/dissertation/conclusion.html
