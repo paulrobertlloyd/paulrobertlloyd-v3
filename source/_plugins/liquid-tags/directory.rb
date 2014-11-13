@@ -43,20 +43,22 @@ module Jekyll
         attributes[key] = value
       end
 
-      @path    = attributes['path']   || '.'
-      @exclude = Regexp.new(attributes['exclude'] || '.html$', Regexp::EXTENDED | Regexp::IGNORECASE)
-      @rev     = attributes['reverse'].nil?
+      @path     = Liquid::Variable.new(attributes['path']) || '.'
+      @exclude  = Regexp.new(attributes['exclude'] || '.html$', Regexp::EXTENDED | Regexp::IGNORECASE)
+      @rev      = attributes['reverse'].nil?
 
       super
     end
 
     def render(context)
       context.registers[:directory] ||= Hash.new(0)
+      path = @path.render(context)
 
       source_dir = context.registers[:site].source
-      directory_files = File.join(source_dir, @path, "*")
+      directory_files = File.join(source_dir, path, "*")
 
       files = Dir.glob(directory_files).reject{|f| f =~ @exclude }
+
       files.sort! {|x,y| @rev ? x <=> y : y <=> x }
 
       length = files.length
@@ -66,8 +68,8 @@ module Jekyll
         files.each_with_index do |filename, index|
           basename = File.basename(filename)
 
-          filepath  = [@path, basename] - ['.']
-          path = filepath.join '/'
+          filepath  = [path, basename] - ['.']
+          # path = filepath.join '/'
           url  = '/' + filepath.join('/')
 
           m, cats, date, slug, ext = *basename.match(MATCHER)
@@ -79,7 +81,7 @@ module Jekyll
           else
             date = File.ctime(filename)
             ext = basename[/\.[a-z]+$/, 0]
-            slug = basename.sub(ext, '')
+            slug = ext ? basename.sub(ext, '') : basename
           end
 
           context['file'] = {
@@ -103,10 +105,9 @@ module Jekyll
           result << render_all(@nodelist, context)
         end
       end
-
       result
-
     end
+
   end
 
 end
