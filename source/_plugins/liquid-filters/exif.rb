@@ -19,6 +19,8 @@ module Jekyll
         file_name = File.join(source, url)
       end
 
+      puts file_name
+
       metadata = Exiftool.new(file_name)
 
       return param.split('.').map{ |property, method|
