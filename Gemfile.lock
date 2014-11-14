@@ -44,8 +44,6 @@ GEM
     execjs (2.2.2)
     exiftool (0.6.0)
       json
-    exiftool_vendored (9.71.0)
-      exiftool (>= 0.6.0)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     formatador (0.2.5)
@@ -134,6 +132,7 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
+    mini_exiftool (2.4.2)
     mini_portile (0.6.1)
     multi_css (0.1.0)
       css_press
@@ -208,7 +207,7 @@ DEPENDENCIES
   capistrano
   capistrano-bundler
   capistrano-rvm
-  exiftool_vendored
+  exiftool
   guard
   guard-jekyll-plus!
   guard-jshintrb
@@ -222,6 +221,7 @@ DEPENDENCIES
   jekyll-minify-html
   jekyll-pypedown
   jekyll-sitemap
+  mini_exiftool
   nokogiri
   rake
   therubyracer
