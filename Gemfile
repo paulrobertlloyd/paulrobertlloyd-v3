@@ -34,7 +34,7 @@ end
 gem 'rake'
 
 # Other dependancies
-gem 'exiftool'
+gem 'exiftool_vendored'
 gem 'nokogiri'
 gem 'therubyracer'
 gem 'typogruby'
