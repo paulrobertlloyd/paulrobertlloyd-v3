@@ -49,7 +49,7 @@ Understanding these basic components will not only make you a smarter developer,
 ## Progressive Enhancement
 The move to web standards seemed like such an upheaval at the time, but it pales in comparison to the challenges we're facing today. Back then, we had to support just a handful of browsers. Now our products need to work across a range of devices, each with different features and capabilities.
 
-{% figure "Image: [Brad Frost](https://www.flickr.com/photos/brad_frost/7387823392/)" %}
+{% figure "Photograph: [Brad Frost](https://www.flickr.com/photos/brad_frost/7387823392/)" %}
 ![An collection of Internet connected devices](/assets/images/2013/08/keep_up_devices.jpg)
 {% endfigure %}
 
