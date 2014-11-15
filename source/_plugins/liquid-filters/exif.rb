@@ -5,8 +5,7 @@
 # <h1>{% img.url | exif: [param] %}</h1>
 #
 
-#require 'exiftool'
-require 'mini_exiftool'
+require 'exiftool'
 
 module Jekyll
   module ExifFilter
@@ -22,8 +21,7 @@ module Jekyll
 
       puts file_name
 
-      #metadata = Exiftool.new(file_name)
-      metadata = MiniExiftool.new(file_name)
+      metadata = Exiftool.new(file_name)
 
       return param.split('.').map{ |property, method|
         metadata[property.to_sym]
