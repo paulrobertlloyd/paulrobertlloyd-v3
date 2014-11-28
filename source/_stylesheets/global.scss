@@ -2,6 +2,7 @@
 
 @import 'helpers/vars';
 @import 'helpers/mixins/grid';
+@import 'helpers/mixins/mq';
 @import 'helpers/mixins/rules';
 @import 'helpers/mixins/typography';
 @import 'helpers/placeholders/l';
@@ -30,12 +31,6 @@
 @import 'utilities/prose';
 @import 'utilities/tag';
 
-// Navigation
-@import 'navigation/navigation';
-@import 'navigation/pages';
-@import 'navigation/primary';
-@import 'navigation/secondary';
-
 // Content
 @import 'content/chart';
 @import 'content/exif-info';
@@ -53,10 +48,12 @@
 // Sections
 @import 'sections/index';
 @import 'sections/section';
+@import 'sections/nav';
 
 // Structure
 @import 'structure/banner';
 @import 'structure/main';
+@import 'structure/navigation';
 @import 'structure/contentinfo';
 
 // JS enhancements

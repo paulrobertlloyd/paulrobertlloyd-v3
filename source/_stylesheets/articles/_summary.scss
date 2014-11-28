@@ -3,15 +3,17 @@
     ========================================================================= */
 
 .summary {
-    margin-bottom: 2rem; // 32px
+    margin-bottom: 4rem; // 64px
+    overflow: hidden;
 }
 
 .summary__main {
-    @include fs--4;
+    @include fs--5;
 }
 
 .summary__title {
     @extend %t-title;
+    @include fs--3;
 }
 
 .summary__permalink {
@@ -24,7 +26,19 @@
 }
 
 /* Journal entry summary */
+.summary--entry {
+    .summary__title {
+        @include fs--1;
+    }
 
+    .summary__image {
+        @extend %l-align-right;
+    }
+
+    .prose {
+        @include fs--3;
+    }
+}
 
 /* Journal link summary */
 .summary--link {
@@ -48,5 +62,10 @@
         &:hover {
             opacity: 1;
         }
+    }
+
+    .js-embed {
+        @extend %l-bleed;
+        padding-bottom: 75%;
     }
 }

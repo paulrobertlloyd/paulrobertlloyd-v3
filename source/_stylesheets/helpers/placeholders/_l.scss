@@ -2,6 +2,42 @@
 //  Layout helpers
 //  ============================================================================
 
+// Container
+.l-container,
+%l-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    @include mq(b) {
+
+    }
+
+    @include mq(c) {
+
+    }
+
+//    &::before,
+//    &::after {
+//        display: block;
+//        position: absolute;
+//        z-index: 0;
+//        top: 0;
+//        bottom: 0;
+//        width: 10%;
+//        background-color: rgba($c__neutral-1, 0.1);
+//        content: '';
+//    }
+//
+//    &::before {
+//        left: 0;
+//    }
+//
+//    &::after {
+//        right: 0;
+//    }
+}
+
 // Align item to left/right of another
 .l-align-left,
 %l-align-left {
@@ -20,14 +56,14 @@
 %l-hang-left {
     float: left;
     margin-right: 1rem;
-    margin-left: -25%;
+    margin-left: -16.6667%;
     width: 50%;
 }
 
 .l-hang-right,
 %l-hang-right {
     float: right;
-    margin-right: -25%;
+    margin-right: -16.6667%;
     margin-left: 1rem;
     width: 50%;
 }
@@ -35,19 +71,20 @@
 // Item touches left/right/both edge(s) of page
 .l-bleed,
 %l-bleed {
-    margin-right: -25%;
-    margin-left: -25%;
-    width: 150%;
+    color: red;
+    //margin-right: -16.6667%;
+    //margin-left: -16.6667%;
+    //width: 160%;
 }
 
 .l-bleed-left,
 %l-bleed-left {
-    margin-left: -25%;
-    width: 125%;
+    //margin-left: -16.6667%;
+    //width: 120%;
 }
 
 .l-bleed-right,
 %l-bleed-right {
-    margin-right: -25%;
-    width: 125%;
+    //margin-right: -16.6667%;
+    //width: 120%;
 }

@@ -1,0 +1,21 @@
+//  ============================================================================
+//  Media Queries
+//  ============================================================================
+
+@mixin mq($breakpoint) {
+  @if $breakpoint == a {
+      @media only screen and (min-width: $mq__a) {
+          @content;
+      }
+  }
+  @else if $breakpoint == b {
+      @media only screen and (min-width: $mq__b) {
+          @content;
+      }
+  }
+  @else if $breakpoint == c {
+      @media only screen and (min-width: $mq__c) {
+          @content;
+      }
+  }
+}

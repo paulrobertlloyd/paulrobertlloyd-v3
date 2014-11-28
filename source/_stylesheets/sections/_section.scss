@@ -5,15 +5,9 @@
 .section__title {
     @include fs--2;
     @include ff--sans-serif(400);
-    
+    margin-top: 2rem;
+
     .section--is-expandable & {
         display: inline-block;
-    }
-}
-
-/* Tags */
-.section--tags {
-    .section__title {
-        @extend %u-hidden;
     }
 }

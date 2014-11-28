@@ -1,0 +1,23 @@
+<nav class="section section--years" aria-labelledby="years">
+    <h1 class="section__title  u-hidden" id="years">Years</h1>
+
+    <ol class="nav nav--years">
+    {% for post in site.posts %}
+        {% capture year %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+        {% if forloop.first %}
+        <li class="nav__item{% if this_year == year %} is-active{% endif %}">
+            <a class="nav__item__label" href="/{{ this_year }}/">{{ this_year }}</a>
+        </li>
+        {% endif %}
+
+        {% if this_year != next_year %}
+        <li class="nav__item{% if next_year == year %} is-active{% endif %}">
+            <a class="nav__item__label" href="/{{ next_year }}/">{{ next_year }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ol>
+</nav>

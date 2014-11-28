@@ -1,9 +1,10 @@
 /*  =========================================================================
-    Secondary navigation
+    Navigation content
     ========================================================================= */
 
-.navigation--secondary {
-    @include grid('.list__item', 2);
+.navigation {
+    //position: absolute;
+    //top: 0;
 
     .navigation__title {
         @extend %u-hidden;

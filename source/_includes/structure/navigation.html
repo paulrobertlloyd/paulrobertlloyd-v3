@@ -1,11 +1,21 @@
-<nav class="navigation navigation--primary" role="navigation" aria-labelledby="menu">
+<nav class="navigation" role="navigation" aria-labelledby="menu">
     <h1 class="navigation__title" id="menu">Menu</h1>
 
-    <ul class="list list--inline">
-        <li class="list__item"><a class="navigation__item{% if location == 'journal' or category == 'journal' %} is-active{% endif %}" href="/journal/">Journal</a>
-        <li class="list__item"><a class="navigation__item{% if location == 'projects' %} is-active{% endif %}" href="/projects/">Work</a></li>
-        <li class="list__item"><a class="navigation__item{% if location == 'photos' %} is-active{% endif %}" href="/photos/">Photos</a></li>
-        <li class="list__item"><a class="navigation__item{% if location == 'about' %} is-active{% endif %}" href="/about/">About</a></li>
-        <li class="list__item"><a class="navigation__item{% if location == 'contact' %} is-active{% endif %}" href="/contact/">Contact</a></li>
+    <ul class="nav nav--primary">
+        <li class="nav__item{% if location == 'journal' or category == 'journal' %} is-active{% endif %}">
+            <a class="nav__item__label" href="/journal/">Journal</a>
+        </li>
+        <li class="nav__item{% if location == 'projects' %} is-active{% endif %}">
+            <a class="nav__item__label" href="/projects/">Work</a>
+        </li>
+        <li class="nav__item{% if location == 'photos' %} is-active{% endif %}">
+            <a class="nav__item__label" href="/photos/">Photos</a>
+        </li>
+        <li class="nav__item{% if location == 'about' %} is-active{% endif %}">
+            <a class="nav__item__label" href="/about/">About</a>
+        </li>
+        <li class="nav__item{% if location == 'contact' %} is-active{% endif %}">
+            <a class="nav__item__label" href="/contact/">Contact</a>
+        </li>
     </ul>
 </nav>
