@@ -20,11 +20,13 @@
         {% embed {{ summary.link }} %}
     {% endif %}
 
-    {% if summary.layout == "link" %}
-        {{ summary.content | markdownify | widont }}
-    {% elsif summary.excerpt != null %}
-        {{ summary.excerpt | smart | widont }}
-    {% endif %}
+        <div class="prose">
+        {% if summary.layout == "link" %}
+            {{ summary.content | markdownify | widont }}
+        {% elsif summary.excerpt != null %}
+            {{ summary.excerpt | smart | widont }}
+        {% endif %}
+        </div>
 
     {% if summary.layout == "entry" %}
         <a class="summary__permalink  u-url" href="{{ summary.url | remove:'.html' }}" rel="bookmark">Continue reading</a>

@@ -5,9 +5,8 @@
 
 body {
     @include ff--sans-serif(400);
-    margin: 0 auto;
+    margin: 0;
     background-color: $c__neutral-8;
-    max-width: 37.5em;
     line-height: 1; // 16px
     color: $c__neutral-2;
     font-size: 1em; // 16px

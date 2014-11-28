@@ -20,11 +20,19 @@
 
 
 // Font sizes
+@mixin fs--0 {
+    margin: 0 0 2rem; // 0 0 32px
+    line-height: 0.9375; // 60px
+    font-size: 4em; // 64px
+    letter-spacing: -0.25rem;
+    text-indent: -4px;
+}
+
 @mixin fs--1 {
     margin: 0 0 2rem; // 0 0 32px
-    line-height: 0.9167; // 44px
-    font-size: 3em; // 48px
-    letter-spacing: -0.125rem;
+    line-height: 1; // 40px
+    font-size: 2.5em; // 40px
+    letter-spacing: -0.125rem; // 1px
 }
 
 @mixin fs--2 {

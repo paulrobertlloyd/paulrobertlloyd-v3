@@ -1,14 +1,50 @@
 /*  =========================================================================
-    Page navigation
+    Nav
     ========================================================================= */
 
-.navigation--pages {
+.nav__item {
+    &.is-active {
+        font-weight: bold;
+    }
+}
+
+
+/* Primary navigation  */
+.nav--primary {
+    .nav__item {
+        @include fs--6;
+        display: inline;
+        margin-right: 1rem;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Secondary navigation */
+.nav--secondary {
+    @include grid('.nav__item', 2);
+}
+
+
+/* Series navigation */
+.nav--series,
+.nav--years {
+    .nav__item {
+        border-top: 1px solid $c__neutral-6;
+        padding: 0.25rem 0;
+    }
+}
+
+
+/* Page navigation */
+.nav--pages {
     position: fixed;
+    z-index: 1;
     top: 50%;
     right: 2rem;
     left: 2rem;
 
-    .navigation__item {
+    .nav__item {
         position: absolute;
         margin-top: -1rem;
 
@@ -16,18 +52,18 @@
             display: block;
             transform: rotate(45deg);
             border-style: solid;
-            border-color: $c__neutral-6;
+            border-color: $c__neutral-5;
             width: 2rem;
             height: 2rem;
             content: '';
         }
 
         &:hover::before {
-            border-color: $c__neutral-5;
+            border-color: $c__neutral-4;
         }
     }
 
-    .navigation__item--prev {
+    .nav__item--prev {
         left: 0;
 
         &::before {
@@ -35,7 +71,7 @@
         }
     }
 
-    .navigation__item--next {
+    .nav__item--next {
         right: 0;
 
         &::before {
@@ -43,7 +79,7 @@
         }
     }
 
-    .navigation__item__label {
+    .nav__item__label {
         @extend %u-hidden;
     }
 }

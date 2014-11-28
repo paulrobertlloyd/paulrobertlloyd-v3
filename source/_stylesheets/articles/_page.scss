@@ -20,8 +20,8 @@
 }
 
 .page__title {
-    @include fs--1;
-    @include ff--sans-serif(200);
+    @include fs--0;
+    @include ff--sans-serif(900);
 }
 
 .page__subtitle {

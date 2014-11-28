@@ -6,6 +6,22 @@
     @include ff--serif;
     font-feature-settings: 'liga', 'dlig', 'onum';
 
+    //margin: 0 0 0.75rem; // 0 0 12px
+//    line-height: 1.375; // 22px
+//    font-size: 1em; // 16px
+
+    @include mq(b) {
+        margin: 0 0 12px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    @include mq(c) {
+        margin: 0 0 14px;
+        line-height: 28px;
+        font-size: 20px;
+    }
+
     h2 {
         @include fs--2;
     }

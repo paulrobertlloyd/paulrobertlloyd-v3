@@ -14,7 +14,7 @@ Last Thursday I attended [Break Conference][1], where content, graphic, product,
 Having long wanted to attend a conference featuring such a breadth of disciplines, I've spent the intervening days digesting what I heard. Common themes emerged, as did a surprising conclusion.
 
 ## The importance of language
-Design, often considered a practice largely concerned with aesthetics, must also consider its relationship with language. This topic was always likely to feature given the day's first speaker, **Sarah Richards** who was formally Head of Content Design at the UK's Government Digital Service (GDS).
+Design, often considered a practice largely concerned with aesthetics, must also consider its relationship with language. This topic was always likely to feature given the day's first speaker, **Sarah Richards**, formally Head of Content Design at the UK's Government Digital Service (GDS).
 
 Learning about the government's policy on Afghanistan used to require visiting six different websites, a situation more problematic should your livelihood depend on understanding certain legislation. Sarah's team audited 75,000 pages of content on Direct.gov, Business Link and 24 ministerial departments, before transferring the meaningful parts (around 3000 pages) to a single domain: gov.uk. All content published by government must now adhere to a strict [styleguide][2]; devoid of any jargon or waffle and written in plain English.
 

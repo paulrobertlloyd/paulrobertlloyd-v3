@@ -7,8 +7,10 @@
         {% endif %}
     </header>
 
-    <div class="remark__main  prose">
-        {{ remark.content | markdownify }}
+    <div class="remark__main">
+        <div class="prose">
+            {{ remark.content | markdownify }}
+        </div>
     </div>
 
     <footer class="remark__footer">

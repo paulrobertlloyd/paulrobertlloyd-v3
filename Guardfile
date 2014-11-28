@@ -1,3 +1,5 @@
+Bundler.require(:jekyll_plugins)
+
 # Jekyll https://github.com/berrberr/guard-jekyll-plus
 guard :'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'] do
   watch(%r{^source/.+})
@@ -20,6 +22,7 @@ end
 # Autoprefix https://github.com/ai/autoprefixer-rails
 guard :sass, :output => 'public/assets/', :syntax => :scss, :shallow => true, :silent => true do
   watch(%r{^source/_stylesheets/.+\.scss})
+
   callback(:run_on_changes_end) do |_, _, files|
     Array(files).each do |file|
       time = Benchmark.realtime { autoprefix_file(file) }

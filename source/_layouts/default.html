@@ -70,18 +70,18 @@
 
     <title>
 {% if page.template == 'home' %}
-    Strong opinions, loosely held - {{ site.title }}
+    Strong opinions, loosely held
 {% elsif page.template == 'archive-year' %}
-    {{ page.title | date: "%Y" }} - {{ site.title }}
+    {{ page.title | date: "%Y" }}
 {% elsif page.template == 'archive-month' %}
-    {{ page.title | date: "%B %Y" }} - {{ site.title }}
+    {{ page.title | date: "%B %Y" }}
 {% else %}
-    {{ page.title | smart }} – {{ site.title }}
-{% endif %}
+    {{ page.title | smart }}
+{% endif %} – {{ site.title }}
     </title>
 </head>
 
-<body>
+<body class="l-container">
     {% include structure/banner.html %}
     {{ content }}
     {% include structure/navigation.html %}
