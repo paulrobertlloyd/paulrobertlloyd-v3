@@ -49,7 +49,7 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     formatador (0.2.5)
-    guard (2.8.2)
+    guard (2.9.2)
       formatador (>= 0.2.4)
       listen (~> 2.7)
       lumberjack (~> 1.0)
@@ -209,7 +209,7 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-rvm
   exiftool
-  guard (~> 2.8.0)
+  guard
   guard-jekyll-plus!
   guard-jshintrb
   guard-livereload
