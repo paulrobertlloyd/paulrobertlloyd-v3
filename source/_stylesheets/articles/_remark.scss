@@ -32,11 +32,11 @@ $remark__avatar-size: 5rem;
 }
 
 .remark__title {
-    @extend %t-title;
+    @include t-title;
 }
 
 .remark__avatar {
-    @extend %l-align-left;
+    @include l-align-left;
     position: absolute;
     top: 0;
     left: 0;
@@ -45,5 +45,5 @@ $remark__avatar-size: 5rem;
 }
 
 .remark__pubdate {
-    @extend %t-caption;
+    @include t-caption;
 }

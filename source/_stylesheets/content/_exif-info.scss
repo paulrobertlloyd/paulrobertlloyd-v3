@@ -3,11 +3,11 @@
     ========================================================================= */
 
 .exif-info {
-    @extend %t-caption;
+    @include t-caption;
 }
 
 .exif-info__title {
-    @extend %u-hidden;
+    @include u-hidden;
 }
 
 .exif-info__value {

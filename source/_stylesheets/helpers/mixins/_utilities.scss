@@ -1,10 +1,9 @@
 //  ============================================================================
-//  Utilities helpers
+//  Utilities
 //  ============================================================================
 
 // Clearfix
-.u-cf,
-%u-cf {
+@mixin u-cf {
     &::before,
     &::after {
         display: table;
@@ -17,8 +16,7 @@
 }
 
 // Visually hidden, but still audible
-.u-hidden,
-%u-hidden {
+@mixin u-hidden {
     position: absolute;
     margin: -1px;
     border: 0;

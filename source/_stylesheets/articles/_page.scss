@@ -30,15 +30,15 @@
 }
 
 .page__location {
-    @extend %c2sc;
     @include ff--sans-serif;
+    @include c2sc;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
     color: $c__neutral-2;
 }
 
 .page__pubdate {
-    @extend %t-caption;
+    @include t-caption;
     @include fs--5;
 }
 

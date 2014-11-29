@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .project-info {
-    @extend %t-caption;
+    @include t-caption;
 }
 
 .project-info__value {

@@ -3,8 +3,7 @@
 //  ============================================================================
 
 // Container
-.l-container,
-%l-container {
+@mixin l-container {
     position: relative;
     margin: 0 auto;
     padding: 0 2rem;
@@ -39,29 +38,25 @@
 }
 
 // Align item to left/right of another
-.l-align-left,
-%l-align-left {
+@mixin l-align-left {
     float: left;
     margin-right: 1rem;
 }
 
-.l-align-right,
-%l-align-right {
+@mixin l-align-right {
     float: right;
     margin-left: 1rem;
 }
 
 // Prise item out to left/right gutter
-.l-hang-left,
-%l-hang-left {
+@mixin l-hang-left {
     float: left;
     margin-right: 1rem;
     margin-left: -16.6667%;
     width: 50%;
 }
 
-.l-hang-right,
-%l-hang-right {
+@mixin l-hang-right {
     float: right;
     margin-right: -16.6667%;
     margin-left: 1rem;
@@ -69,22 +64,18 @@
 }
 
 // Item touches left/right/both edge(s) of page
-.l-bleed,
-%l-bleed {
-    color: red;
-    //margin-right: -16.6667%;
-    //margin-left: -16.6667%;
-    //width: 160%;
+@mixin l-bleed {
+    margin-right: -16.6667%;
+    margin-left: -16.6667%;
+    width: 160%;
 }
 
-.l-bleed-left,
-%l-bleed-left {
-    //margin-left: -16.6667%;
-    //width: 120%;
+@mixin l-bleed-left {
+    margin-left: -16.6667%;
+    width: 120%;
 }
 
-.l-bleed-right,
-%l-bleed-right {
-    //margin-right: -16.6667%;
-    //width: 120%;
+@mixin l-bleed-right {
+    margin-right: -16.6667%;
+    width: 120%;
 }

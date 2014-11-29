@@ -39,10 +39,10 @@
 /* Page navigation */
 .nav--pages {
     position: fixed;
-    z-index: 1;
     top: 50%;
     right: 2rem;
     left: 2rem;
+    z-index: 1;
 
     .nav__item {
         position: absolute;
@@ -80,6 +80,6 @@
     }
 
     .nav__item__label {
-        @extend %u-hidden;
+        @include u-hidden;
     }
 }
