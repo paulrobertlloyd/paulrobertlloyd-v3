@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .footnotes {
-    @extend %t-caption;
+    @include t-caption;
     margin-top: 2rem;
 
     &::before {

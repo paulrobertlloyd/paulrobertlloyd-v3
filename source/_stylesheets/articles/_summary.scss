@@ -12,7 +12,7 @@
 }
 
 .summary__title {
-    @extend %t-title;
+    @include t-title;
     @include fs--3;
 }
 
@@ -22,7 +22,7 @@
 
 .summary__pubdate,
 .summary__meta {
-    @extend %t-caption;
+    @include t-caption;
 }
 
 /* Journal entry summary */
@@ -32,7 +32,7 @@
     }
 
     .summary__image {
-        @extend %l-align-right;
+        @include l-align-right;
     }
 
     .prose {
@@ -65,7 +65,7 @@
     }
 
     .js-embed {
-        @extend %l-bleed;
+        @include l-bleed;
         padding-bottom: 75%;
     }
 }

@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .tag {
-    @extend %t-caption;
+    @include t-caption;
     display: inline-block;
     margin-right: 0.25rem; // 4px
 }

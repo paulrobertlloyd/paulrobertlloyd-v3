@@ -6,7 +6,7 @@
     @include ff--serif;
     font-feature-settings: 'liga', 'dlig', 'onum';
 
-    //margin: 0 0 0.75rem; // 0 0 12px
+//    margin: 0 0 0.75rem; // 0 0 12px
 //    line-height: 1.375; // 22px
 //    font-size: 1em; // 16px
 
@@ -55,7 +55,7 @@
         padding-top: 0.5rem;
 
         p {
-            @extend %t-caption;
+            @include t-caption;
             display: block;
             clear: left;
         }

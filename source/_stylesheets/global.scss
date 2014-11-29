@@ -1,13 +1,11 @@
 @import 'helpers/webfonts';
-
 @import 'helpers/vars';
 @import 'helpers/mixins/grid';
+@import 'helpers/mixins/layout';
 @import 'helpers/mixins/mq';
 @import 'helpers/mixins/rules';
 @import 'helpers/mixins/typography';
-@import 'helpers/placeholders/l';
-@import 'helpers/placeholders/t';
-@import 'helpers/placeholders/u';
+@import 'helpers/mixins/utilities';
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2

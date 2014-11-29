@@ -7,6 +7,6 @@
     //top: 0;
 
     .navigation__title {
-        @extend %u-hidden;
+        @include u-hidden;
     }
 }
