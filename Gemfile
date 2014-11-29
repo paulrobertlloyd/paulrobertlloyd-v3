@@ -9,7 +9,7 @@ end
 
 # Guard (automates development tasks)
 group :development do
-  gem 'guard'
+  gem 'guard', '~> 2.8.0'
   gem 'guard-jekyll-plus', github: 'berrberr/guard-jekyll-plus'
   gem 'guard-jshintrb'
   gem 'guard-livereload'
