@@ -2,7 +2,7 @@
 layout: project
 title: nGenera Corporation
 date: '2008-04-25'
-excerpt: Rebrand for integrated platform of on demand enterprise technology..
+excerpt: Rebrand for integrated platform of on demand enterprise technology.
 permalink: /projects/ngenera.html
 hidden: true
 project-featured: true
@@ -11,9 +11,9 @@ project-info:
   year: 2008
   role: UX, branding, design and front-end development
 ---
-_nGenera Corporation_ (now [Moxie Software][1]) helps corporations and governments transform themselves into next-generation enterprises through an integrated platform of on-demand technology and innovative business research.
+_nGenera Corporation_ (now [Moxie Software][1])  helps corporations and governments transform themselves into forward thinking enterprises: organisations that enable employees to communicate via real-time social software platforms and tools.
 
-Formally known as BSG Alliance, Steve Douty (President of Platforms, Applications and Marketing) asked me to take their new name and build a brand that could encompass their growing suite of software products and consultation services.
+Steve Douty (president of platforms, applications and marketing) asked me to take the new nGenera name (the company was formerly BSG Alliance) and build a brand that could encompass its growing suite of software products and consultation services.
 
 ## Brand identity
 {% figure "Early identity sketches" %}
@@ -22,13 +22,13 @@ Formally known as BSG Alliance, Steve Douty (President of Platforms, Application
 {% figure "nGenera logo with tagline lock-up" %}
 {% endfigure %}
 
-With an intriguing -- if not immediately obvious -- name, the logo needed to reflect the organisation's broad ambition and signify a break with any past notions of 'enterprise'. The final solution combined an interlocking ‘n’ and ‘G’ with a subtle nod to those icons often associated with networking and connectivity. This distinctive mark could work at many sizes, while flat and rendered versions created to suit range of different applications. In order to encompass a range of operating devisions, a brand architecture was created. This also meant future acquisitions could easily be integrated into the overall business.
+With an intriguing –- if not immediately obvious –- name, the logo needed to reflect the organisation's broad ambition and signify a break with any past notions of enterprise. Combining an 'n' and 'G' in a subtle and intriguing manner, allowed me to create a mark that felt similar to common icons associated with networking and connectivity. This distinctive mark could work at many sizes, with flat and rendered versions created to suit different applications. To encompass a range of operating devisions, a brand architecture was created. This also meant future acquisitions could easily be integrated into the overall business.
 
 ## Collateral
 {% figure "Associated brand collateral, including presentation folders, report covers, letterheads and business cards" %}
 {% endfigure %}
 
-While other in-house and third party teams were responsible for implementing the brand, I provided overall guidance and created example collateral pieces such as reports, signage and business cards.
+While other in-house and third-party teams were responsible for implementing the brand, I provided overall guidance and created example collateral pieces such as reports, signage and business cards.
 
 ## Website
 {% figure "Home page" %}
@@ -37,7 +37,7 @@ While other in-house and third party teams were responsible for implementing the
 {% figure "Community landing page" %}
 {% endfigure %}
 
-I sought to distinguish nGenera’s web presence by creating an immersive and premium experience, realised through the use of deep blues accented by highly saturated colours from a complementary palette. Working with [Matt Pearson][2], I produced a [carousel device][3] for use on the homepage that introduced customers to the company’s range of products and services.
+I sought to distinguish nGenera’s web presence by creating an immersive and premium experience, realised through the use of deep blues accented by highly saturated colours from a complementary palette. Working with [Matt Pearson][2], I produced an carousel device for use on the homepage that introduced customers to the company’s range of products and services.
 
 {% include content/project-info.html %}
 

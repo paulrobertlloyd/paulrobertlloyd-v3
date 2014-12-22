@@ -12,9 +12,9 @@ project-info:
   role: UX, design and front-end development
   notes: Company acquired by Google in November 2011
 ---
-_Apture_ was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their web pages.
+_Apture_ was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their webpages.
 
-Working alongside Apture’s CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.
+Working alongside Apture's CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.
 
 ## Brand idenity
 The logo was informed by the products behaviour; small gems of information that spring from the page. Bright, colourful, engaging. <mark>TBD</mark>

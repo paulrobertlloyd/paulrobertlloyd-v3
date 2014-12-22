@@ -12,13 +12,13 @@ project-info:
 ---
 On the first Friday of September, Brighton plays host to an annual one-day conference called _dConstruct_. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 
-To reflect the changing theme, the site is redesigned each year. I was responsible for the design of the website for three years: 2010, 2011 and 2013.
+To reflect the changing theme, the site is redesigned each year. I was responsible for the design over three years: 2010, 2011 and 2013.
 
 ## 2010: Design and Creativity
 {% figure "Home page, speaker page on mobile device" %}
 {% endfigure %}
 
-The theme for 2010 was the fairly broad so I decided to make a feature of the speakers. The design referred back to an original dConstruct brand asset -- the opened cube net -- which was placed in different positions across the site to affect the layout of each page. Developed before 'responsive' had entered the lexicon of web design, this was one of the first sites to make use of media queries, with a mobile-orientated layout delivered to users viewing the site on smaller screens.
+The theme for 2010 was fairly broad so I decided to make a feature of the speakers. The design referred back to an original dConstruct brand asset – the opened cube net -- which was placed in different positions across the site to affect the layout of each page. Developed before *responsive* had entered the lexicon of web design, this was one of the first sites to make use of media queries, with a mobile-orientated layout delivered to users viewing the site on smaller screens.
 
 ### A Greener Badge
 {% figure "Photo of the greener badge" %}
@@ -36,7 +36,7 @@ Like the previous year's design, the homepage featured prominent images of the s
 {% figure "Home page, speaker page on mobile device" %}
 {% endfigure %}
 
-Referencing the theme of communicating with machines, I researched different ways humans have tried to direct machines through history. Punch cards became the unifying motif, providing an interesting textural patterning on the website and associated conference collateral.
+Referencing the theme of communicating with machines, I researched different ways humans have tried to direct machines through history. Punch cards became the unifying motif, providing an interesting textural patterning on the website and associated marketing and conference material.
 
 {% include content/project-info.html %}
 
