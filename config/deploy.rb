@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.3.3'
+lock '3.3.5'
 
 set :application, 'paulrobertlloyd_v3'
 set :repo_url, 'git@github.com:paulrobertlloyd/paulrobertlloyd.com.git'
