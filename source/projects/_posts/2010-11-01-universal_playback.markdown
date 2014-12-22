@@ -10,9 +10,9 @@ project-info:
   year: 2010
   role: Design
 ---
-_Playback_ is the TV-on-DVD label of Universal Pictures in the UK, responsible for releasing content from NBC Universal as well as other acquired series on DVD and Blu-ray disc.
+_Playback_ is the TV-on-DVD label of Universal Pictures in the UK, responsible for releasing content from NBCUniversal as well as other acquired series on DVD and Blu-ray disc.
 
-With a diverse catalogue that includes dramas, classic sitcoms and cult television programmes from Universal, BBC and ITV, NBCUniversal were looking to draw on its range of exclusive imagery and video footage, and increase the presence of its Playback brand.
+With a diverse catalogue that includes dramas, classic sitcoms and cult television programmes from Universal, BBC and ITV, NBCUniversal was looking to draw on its range of exclusive imagery and video footage, and increase the presence of its Playback brand.
 
 <mark>TBD</mark>
 
