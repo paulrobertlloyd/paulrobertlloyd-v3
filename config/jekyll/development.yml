@@ -1,8 +1,6 @@
 env: development
-
-# Image server
-url: //paulrobertlloyd.dev
-img_url: //images.paulrobertlloyd.dev
+url: http://paulrobertlloyd.dev
+img_url: http://images.paulrobertlloyd.dev
 
 # Assets
 assets:

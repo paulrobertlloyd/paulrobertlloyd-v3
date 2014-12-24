@@ -5,6 +5,12 @@ layout: default
     <article class="page page--entry  h-entry">
         {% include articles/page__header.html %}
 
+        {% capture page_url %}{{ site.url }}{{ page.url | remove:'.html' }}{% endcapture %}
+
+        <p>Page URL: {{ page_url }}</p>
+
+        {% webmentions page_url %}
+
         <div class="page__main">
             <div class="prose  e-content">
                 {{ content | widont }}
