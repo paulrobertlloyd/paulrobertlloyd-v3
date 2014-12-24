@@ -5,6 +5,7 @@
 *.log
 *.rej
 *.sass-cache
+*.webmention-cache
 *.swo
 *.swp
 *.zip
