@@ -6,17 +6,13 @@
     @include t-caption;
 }
 
-.exif-info__title {
-    @include u-hidden;
-}
-
 .exif-info__value {
     float: left;
     margin-left: 0;
     width: 50%;
 
-    &[data-value="exif-date_time"],
-    &[data-value="exif-model"] {
+    &[data-exif="exif-date_time"],
+    &[data-exif="exif-model"] {
         float: none;
         width: auto;
     }

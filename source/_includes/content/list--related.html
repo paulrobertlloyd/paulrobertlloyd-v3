@@ -3,7 +3,7 @@
     <li class="list__item">
         <article class="summary summary--related">
             <h1 class="summary__title"><a href="{{ related.url }}">{{ related.title | smart }}</a></h1>
-            <p class="summary__meta">{{ related.layout | capitalize }}, <time datetime="{{ related.date | date_to_xmlschema }}">{{ related.date | date: "%e %B %Y" }}</time></p>
+            <p class="summary__meta"><time datetime="{{ related.date | date_to_xmlschema }}">{{ related.date | date: "%e %B %Y" }}</time></p>
         </article>
     </li>
 {% endfor %}

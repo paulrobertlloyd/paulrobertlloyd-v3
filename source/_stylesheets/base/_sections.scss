@@ -5,11 +5,24 @@
 
 body {
     @include ff--sans-serif(400);
+    font-size: $base-font-size;
+    line-height: $baseline-unitless;
     margin: 0;
     background-color: $c__neutral-8;
-    line-height: 1; // 16px
     color: $c__neutral-2;
-    font-size: 1em; // 16px
+
+    @media (max-width: 860px) {
+        font-size: $base-font-size*.9;
+    }
+
+    @media (max-width: 500px) {
+        font-size: $base-font-size*.8;
+    }
+
+    &.inverted {
+        background-color: $c__neutral-1;
+        color: $c__neutral-7;
+    }
 }
 
 h1,
@@ -18,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    @include ff--sans-serif(400);
+    @include ff--sans-serif;
     margin: 0;
     text-rendering: optimizeLegibility;
     line-height: 1; // 16px

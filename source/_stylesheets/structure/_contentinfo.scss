@@ -3,6 +3,7 @@
     ========================================================================= */
 
 .contentinfo {
+    @include l-container;
     margin-top: 1rem;
     border-top: 1px solid $c__neutral-6;
     overflow: hidden;
@@ -15,10 +16,6 @@
 .contentinfo__about {
     float: left;
     width: 50%;
-
-    .section__title {
-        @include u-hidden;
-    }
 
     .u-photo {
         @include l-align-left;

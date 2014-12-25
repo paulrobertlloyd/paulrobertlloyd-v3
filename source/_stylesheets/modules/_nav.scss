@@ -4,18 +4,33 @@
 
 .nav__item {
     &.is-active {
-        font-weight: bold;
+        font-weight: 600;
     }
 }
 
 
 /* Primary navigation  */
 .nav--primary {
+    @include l-container;
+    position: relative;
+    margin-top: 6rem;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: right;
+
     .nav__item {
-        @include fs--6;
-        display: inline;
+        display: inline-block;
         margin-right: 1rem;
+        margin-bottom: 0;
         text-transform: uppercase;
+    }
+
+    .nav__item__label {
+        color: $c__neutral-2;
+
+        .inverted & {
+            color: $c__neutral-7;
+        }
     }
 }
 
@@ -39,7 +54,7 @@
 /* Page navigation */
 .nav--pages {
     position: fixed;
-    top: 50%;
+    top: 14.5rem;
     right: 2rem;
     left: 2rem;
     z-index: 1;
@@ -52,14 +67,14 @@
             display: block;
             transform: rotate(45deg);
             border-style: solid;
-            border-color: $c__neutral-5;
-            width: 2rem;
-            height: 2rem;
+            border-color: rgba($c__neutral-1, 0.1);
+            width: 1.75rem;
+            height: 1.75rem;
             content: '';
         }
 
         &:hover::before {
-            border-color: $c__neutral-4;
+            border-color: rgba($c__neutral-1, 0.2);
         }
     }
 
@@ -67,7 +82,7 @@
         left: 0;
 
         &::before {
-            border-width: 0 0 1px 1px;
+            border-width: 0 0 2px 2px;
         }
     }
 
@@ -75,11 +90,11 @@
         right: 0;
 
         &::before {
-            border-width: 1px 1px 0 0;
+            border-width: 2px 2px 0 0;
         }
     }
 
     .nav__item__label {
-        @include u-hidden;
+        @include hidden;
     }
 }
