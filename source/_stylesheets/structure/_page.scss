@@ -2,31 +2,22 @@
     Page
     ========================================================================= */
 
-.page {
-    display: flex;
-    flex-direction: column;
-}
-
 .page__header {
-    order: 2;
+    margin-bottom: 1rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    background-color: rgba($c__neutral-4, 0.15);
 }
 
 .page__main {
-    order: 3;
-}
-
-.page__footer {
-    order: 1;
+    @include l-container;
 }
 
 .page__title {
+    @include l-container;
     @include fs--0;
-    @include ff--sans-serif(900);
-}
-
-.page__subtitle {
-    @include fs--2;
-    @include ff--sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 .page__location {
@@ -39,7 +30,6 @@
 
 .page__pubdate {
     @include t-caption;
-    @include fs--5;
 }
 
 .page__footer .page__location::before,

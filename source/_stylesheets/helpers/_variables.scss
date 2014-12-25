@@ -2,6 +2,17 @@
 //  Variables
 //  ============================================================================
 
+// Unit sizing
+$base-font-size: (18/16)*100%;
+$baseline-unitless: 28/(16*($base-font-size/100%));
+$baseline: $baseline-unitless * 1rem;
+
+// Fonts
+$f__serif: 'Charter ITC Std', serif;
+$f__sans-serif: 'Source Sans Pro', sans-serif;
+$f__monospace: 'Source Code Pro', monospace;
+$f__icon: 'Icons', serif; // TODO: Add icon font, font-awesome?
+
 // Colours
 $c__accent-light: #3d8;
 $c__accent-dark: #0a5;
@@ -18,12 +29,6 @@ $c__neutral-8: #fff;
 $c__link: #170880;
 $c__link-hover: lighten($c__link, 20%);
 $c__link-active: #800817;
-
-// Fonts
-$f__serif: 'Charter ITC Std', serif;
-$f__sans-serif: 'Source Sans Pro', sans-serif;
-$f__monospace: 'Source Code Pro', monospace;
-$f__icon: 'Icons', serif; // TODO: Add icon font, font-awesome?
 
 // Breakpoints
 $mq__a: 32em; // 512px

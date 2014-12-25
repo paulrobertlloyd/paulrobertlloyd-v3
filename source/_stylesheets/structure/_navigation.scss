@@ -3,10 +3,8 @@
     ========================================================================= */
 
 .navigation {
-    //position: absolute;
-    //top: 0;
-
-    .navigation__title {
-        @include u-hidden;
-    }
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }

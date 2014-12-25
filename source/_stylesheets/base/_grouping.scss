@@ -12,7 +12,7 @@ dl,
 figure,
 table,
 fieldset {
-    @include fs--5;
+    margin: 0;
     orphans: 3;
     widows: 3;
 }

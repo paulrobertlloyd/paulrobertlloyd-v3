@@ -1,0 +1,242 @@
+//  ============================================================================
+//  Mixins
+//  ============================================================================
+
+// Clearfix
+@mixin clearfix {
+    &::before,
+    &::after {
+        display: table;
+        content: ' ';
+    }
+
+    &::after {
+        clear: both;
+    }
+}
+
+
+// Image replacement
+@mixin image-replace {
+    text-indent: 200%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+// Visually hidden, but still audible
+@mixin hidden {
+    position: absolute;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+
+// Grid
+@mixin grid($grid-element, $cols) {
+    margin: 0 -1em;
+    overflow: hidden;
+
+    #{$grid-element} {
+        display: block;
+        float: left;
+        padding: 0 1em;
+        width: percentage(1/$cols);
+
+        &:nth-child(#{$cols}n + 1) {
+            clear: left;
+        }
+    }
+}
+
+
+// Line rule
+@mixin rule($cols) {
+    display: block;
+    border-top: 1px solid $c__neutral-6;
+    width: $cols * $g__col-width;
+    content: '';
+    margin-bottom: 0.1875rem; // 3px
+}
+
+
+// Media Queries
+@mixin mq($breakpoint) {
+    @if $breakpoint == a {
+        @media only screen and (min-width: $mq__a) {
+            @content;
+        }
+    } @else if $breakpoint == b {
+        @media only screen and (min-width: $mq__b) {
+            @content;
+        }
+    } @else if $breakpoint == c {
+        @media only screen and (min-width: $mq__c) {
+            @content;
+        }
+    }
+}
+
+
+// Font families
+@mixin ff--serif($font-weight: 400) {
+    font-family: $f__serif, serif;
+    font-weight: $font-weight;
+}
+
+@mixin ff--sans-serif($font-weight: 400) {
+    font-family: $f__sans-serif, sans-serif;
+    font-weight: $font-weight;
+}
+
+@mixin ff--monospace($font-weight: 400) {
+    font-family: $f__monospace, monospace;
+    font-weight: $font-weight;
+}
+
+
+// Font sizes
+@mixin fs--0 {
+    margin-bottom: 2rem; // 0 0 32px
+    line-height: 0.9167; // 44px
+    font-size: 3rem; // 48px
+    letter-spacing: -0.125rem;
+}
+
+@mixin fs--1 {
+    margin-bottom: 2rem; // 0 0 32px
+    line-height: 1; // 40px
+    font-size: 2.5rem; // 40px
+    letter-spacing: -0.125rem; // 1px
+}
+
+@mixin fs--2 {
+    margin-bottom: 0.75rem; // 0 0 12px
+    line-height: 1; // 24px
+    font-size: 1.5rem; // 24px
+}
+
+@mixin fs--3 {
+    margin-bottom: 0.75rem; // 0 0 12px
+    line-height: 1.2; // 24px
+    font-size: 1.25rem; // 20px
+}
+
+@mixin fs--4 {
+    margin-bottom: 0.75rem; // 0 0 12px
+    line-height: 1.3334; // 24px
+    font-size: 1.125rem; // 18px
+}
+
+@mixin fs--5 {
+    margin-bottom: 0.75rem; // 0 0 12px
+    line-height: 1.25; // 20px
+    font-size: 1rem; // 16px
+}
+
+@mixin fs--6 {
+    margin-bottom: 0.5rem; // 0 0 8px
+    line-height: 1.14285714285714; // 16px
+    font-size: 0.875rem; // 14px
+}
+
+
+// Small caps
+@mixin smcp {
+    font-feature-settings: 'smcp' 1;
+}
+
+
+// Caps to small caps
+@mixin c2sc {
+    font-feature-settings: 'c2sc' 1;
+}
+
+
+// Captions and metadata
+@mixin t-caption {
+    @include fs--6;
+    @include ff--sans-serif(400);
+    margin-bottom: 0.5rem;
+    //color: $c__neutral-4;
+    opacity: 0.5;
+}
+
+
+// Titles
+@mixin t-title {
+    @include fs--4;
+    @include ff--sans-serif(600);
+    margin-bottom: 0.25rem;
+
+    &:before {
+        @include rule(1);
+    }
+}
+
+
+// Container
+@mixin l-container {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    max-width: 45rem;
+
+    @include mq(b) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+// Align item to left/right of another
+@mixin l-align-left {
+    float: left;
+    margin-right: 1rem;
+}
+
+@mixin l-align-right {
+    float: right;
+    margin-left: 1rem;
+}
+
+
+// Prise item out to left/right gutter
+@mixin l-hang-left {
+    float: left;
+    margin-right: 1rem;
+    margin-left: -16.6667%;
+    width: 50%;
+}
+
+@mixin l-hang-right {
+    float: right;
+    margin-right: -16.6667%;
+    margin-left: 1rem;
+    width: 50%;
+}
+
+
+// Item touches left/right/both edge(s) of page
+@mixin l-bleed {
+    margin-right: -16.6667%;
+    margin-left: -16.6667%;
+    width: 160%;
+}
+
+@mixin l-bleed-left {
+    margin-left: -16.6667%;
+    width: 120%;
+}
+
+@mixin l-bleed-right {
+    margin-right: -16.6667%;
+    width: 120%;
+}

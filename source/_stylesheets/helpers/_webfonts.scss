@@ -22,26 +22,28 @@
  * © 2014 MyFonts Inc. All rights reserved
 */
 
-@import url('//hello.myfonts.net/count/2cb8af'); // must be at top of file, otherwise CSS will not work
+$myfonts-id: 2CEDF9;
+
+@import url('//hello.myfonts.net/count/#{$myfonts-id}'); // must be at top of file, otherwise CSS will not work
 
 @font-face {
     font-family: 'Charter ITC Std';
     font-weight: normal;
     font-style: normal;
-    src: url('/assets/fonts/2CB8AF_0_0.eot');
-    src: url('/assets/fonts/2CB8AF_0_0.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/2CB8AF_0_0.woff2') format('woff2'),
-        url('/assets/fonts/2CB8AF_0_0.woff') format('woff'),
-        url('/assets/fonts/2CB8AF_0_0.ttf') format('truetype');
+    src: url('/assets/fonts/#{$myfonts-id}_0_0.eot');
+    src: url('/assets/fonts/#{$myfonts-id}_0_0.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/#{$myfonts-id}_0_0.woff2') format('woff2'),
+        url('/assets/fonts/#{$myfonts-id}_0_0.woff') format('woff'),
+        url('/assets/fonts/#{$myfonts-id}_0_0.ttf') format('truetype');
 }
  
 @font-face {
     font-family: 'Charter ITC Std';
     font-weight: normal;
     font-style: italic;
-    src: url('/assets/fonts/2CB8AF_1_0.eot');
-    src: url('/assets/fonts/2CB8AF_1_0.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/2CB8AF_1_0.woff2') format('woff2'),
-        url('/assets/fonts/2CB8AF_1_0.woff') format('woff'),
-        url('/assets/fonts/2CB8AF_1_0.ttf') format('truetype');
+    src: url('/assets/fonts/#{$myfonts-id}_1_0.eot');
+    src: url('/assets/fonts/#{$myfonts-id}_1_0.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/#{$myfonts-id}_1_0.woff2') format('woff2'),
+        url('/assets/fonts/#{$myfonts-id}_1_0.woff') format('woff'),
+        url('/assets/fonts/#{$myfonts-id}_1_0.ttf') format('truetype');
 }

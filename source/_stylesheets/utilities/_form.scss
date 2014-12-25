@@ -17,11 +17,10 @@
 }
 
 .form__label {
-    //@include fs--4;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    top: 1px;
+    bottom: 1px;
+    left: 1px;
     padding: 1em 0.5em;
     width: 10em;
     line-height: 1;
@@ -31,6 +30,7 @@
     border: 1px solid rgba($c__neutral-3, 0.15);
     padding: 1em 0.5em 1em 6em;
     width: 100%;
+    line-height: 1;
 
     &:focus {
         outline: 2px solid rgba($c__neutral-3, 0.25);
