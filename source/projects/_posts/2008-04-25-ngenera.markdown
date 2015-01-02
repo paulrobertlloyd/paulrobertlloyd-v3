@@ -39,7 +39,7 @@ While other in-house and third-party teams were responsible for implementing the
 
 I sought to distinguish nGenera’s web presence by creating an immersive and premium experience, realised through the use of deep blues accented by highly saturated colours from a complementary palette. Working with [Matt Pearson][2], I produced an carousel device for use on the homepage that introduced customers to the company’s range of products and services.
 
-{% include content/project-info.html %}
+{% include html/content/project-info.html %}
 
 [1]: http://www.moxiesoft.com/
 [2]: http://zenbullets.com/

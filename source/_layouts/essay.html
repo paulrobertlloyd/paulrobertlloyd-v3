@@ -3,7 +3,7 @@ layout: default
 ---
 <main class="main" role="main">
     <article class="page page--essay  h-entry">
-        {% include articles/page__header.html %}
+        {% include html/structure/page__header.html %}
 
         <div class="page__main">
             <div class="prose  e-content">
@@ -11,14 +11,14 @@ layout: default
             </div>
 
             {% if page.tags %}
-                {% include sections/tags.html %}
+                {% include html/sections/tags.html %}
             {% endif %}
 
             {% if page.series %}
-                {% include nav/series.html %}
+                {% include html/nav/series.html %}
             {% endif %}
         </div>
 
-        {% include articles/page__footer.html %}
+        {% include html/structure/page__footer.html %}
     </article>
 </main>

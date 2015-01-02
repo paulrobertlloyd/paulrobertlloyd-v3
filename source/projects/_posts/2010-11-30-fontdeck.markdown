@@ -67,7 +67,7 @@ Type designer and foundry pages previously consisted of alphabetical indices of 
 ## Elsewhere
   * [Fontdeck: Realign not Redesign][1] - presentation I gave at Multipack Presents in February 2011
 
-{% include content/project-info.html %}
+{% include html/content/project-info.html %}
 
 [1]: https://speakerdeck.com/paulrobertlloyd/fontdeck-realign-not-redesign
 

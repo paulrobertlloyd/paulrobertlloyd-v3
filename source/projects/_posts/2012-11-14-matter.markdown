@@ -53,7 +53,7 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 * [Phil's blog post][6]
 * [Matter's blog post][7]
 
-{% include content/project-info.html %}
+{% include html/content/project-info.html %}
 
 [1]: http://www.kickstarter.com/projects/readmatter/matter
 [2]: http://clearleft.com/is/jeremy-keith/

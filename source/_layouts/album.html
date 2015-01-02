@@ -3,7 +3,7 @@ layout: default
 ---
 <main class="main" role="main">
     <article class="page page--album  h-entry">
-        {% include articles/page__header.html %}
+        {% include html/structure/page__header.html %}
 
         <div class="page__main">
             <div class="prose  e-content">
@@ -14,21 +14,21 @@ layout: default
             {% directory path: album_path %}
             <figure>
                 <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
-                {% include content/exif-info.html %}
+                {% include html/content/exif-info.html %}
             </figure>
             {% enddirectory %}
 
             {% if page.tags %}
-                {% include sections/tags.html %}
+                {% include html/sections/tags.html %}
             {% endif %}
 
             {% if page.series %}
-                {% include nav/series.html %}
+                {% include html/nav/series.html %}
             {% endif %}
         </div>
 
-        {% include articles/page__footer.html %}
+        {% include html/structure/page__footer.html %}
     </article>
 
-    {% include nav/pages--post.html %}
+    {% include html/nav/pages--post.html %}
 </main>

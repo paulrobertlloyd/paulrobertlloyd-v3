@@ -48,7 +48,7 @@ Responsive design was used to deliver the same content to different devices, reg
 ## Elsewhere
 * [Clearleft's project case study][4]
 
-{% include content/project-info.html %}
+{% include html/content/project-info.html %}
 
 [1]: http://www.90percentofeverything.com/about/
 [2]: http://clearleft.com/is/richard-rutter
