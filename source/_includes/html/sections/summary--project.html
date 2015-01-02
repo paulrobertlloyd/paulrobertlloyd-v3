@@ -1,0 +1,21 @@
+<article class="summary summary--project summary--project--{{ summary.title | slugify }}  h-entry">
+    <header class="summary__header">
+        <h1 class="summary__title  p-name">
+            <a class="summary__link" href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | smart }}</a>
+        </h1>
+    </header>
+
+    <div class="summary__main  p-summary">
+        <div class="summary__image">
+            {% include svg/logo--{{ summary.title | slugify }}.svg %}
+        </div>
+
+        <div class="prose">
+            {{ summary.excerpt | smart | widont }}
+        </div>
+    </div>
+
+    <footer class="summary__footer">
+        <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%B %Y" }}</time>
+    </footer>
+</article>
