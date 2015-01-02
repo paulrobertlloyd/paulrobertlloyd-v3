@@ -1,4 +1,4 @@
-{% capture page_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: "journal/_posts/links/" | remove: ".markdown" }}{% endcapture %}
+{% capture entry_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: "journal/_posts/links/" | remove: ".markdown" }}{% endcapture %}
 {% capture remark_count %}{{ site.data.remarks.[page_id] | size }}{% endcapture %}
 <details class="section section--discussion section--is-expandable" aria-labelledby="discussion">
     <summary class="section__header">
@@ -22,7 +22,7 @@
 
     <div class="section__main">
         {% if remark_count >= "1" %}
-            {% for remark in site.data.remarks.[page_id] reversed %}
+            {% for remark in site.data.remarks.[entry_id] reversed %}
                 {% include html/sections/remark.html %}
             {% endfor %}
         {% endif %}
