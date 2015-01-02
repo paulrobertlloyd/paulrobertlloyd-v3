@@ -1,7 +1,7 @@
-<nav class="section section--pages" aria-labelledby="pagination">
-    <h1 class="section__title audible" id="pagination">Browse {{ page.categories | first }}</h1>
+<nav class="section section--entries" aria-labelledby="entries">
+    <h1 class="section__title audible" id="entries">Browse {{ page.categories | first }}</h1>
 
-    <div class="nav nav--pages">
+    <div class="nav nav--pagination">
     {% if page.next_in_category != nil %}
         <a class="nav__item nav__item--prev" rel="prev bookmark" href="{{ page.next_in_category.url | remove:'.html' }}" title="{{ page.next_in_category.title }}">
             <span class="nav__item__label">Previous entry</span>

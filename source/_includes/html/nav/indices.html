@@ -1,7 +1,7 @@
-<nav class="section section--pages" aria-labelledby="pagination">
-    <h1 class="section__title audible" id="pagination">Browse {{ page.title }}</h1>
+<nav class="section section--indices" aria-labelledby="indices">
+    <h1 class="section__title audible" id="indices">Browse {{ page.title }}</h1>
 
-    <div class="nav nav--pages">
+    <div class="nav nav--pagination">
     {% if paginator.next_page %}
         <a class="nav__item nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
             <span class="nav__item__label">Older</span>
