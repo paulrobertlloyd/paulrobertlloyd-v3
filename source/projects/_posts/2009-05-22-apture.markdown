@@ -5,7 +5,6 @@ date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
 permalink: /projects/apture.html
 hidden: true
-project-featured: true
 project-info:
   client: Apture
   year: 2009
