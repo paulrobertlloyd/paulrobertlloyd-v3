@@ -2,15 +2,21 @@
     Banner
     ========================================================================= */
 
+.banner {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba($c__accent, 0.4);
+    padding-bottom: 5rem;
+}
+
 .banner__title {
-    @include l-container;
+    text-align: center;
     line-height: 0.1;
 }
 
 .banner__logo {
-    fill: $c__neutral-2;
+    fill: $c__accent;
 
     .inverted & {
-        fill: $c__neutral-7;
+        fill: $c__neutral--8;
     }
 }

@@ -11,10 +11,3 @@
         display: inline;
     }
 }
-
-/* Articles */
-.list--articles,
-.list--presentations,
-.list--related {
-    @include grid('.list__item', 3)
-}

@@ -1,24 +1,22 @@
 ---
 layout: default
 ---
-<main class="main" role="main">
-    <article class="page page--essay  h-entry">
-        {% include html/structure/page__header.html %}
+<article class="page page--essay  h-entry">
+    {% include html/structure/page__header.html %}
 
-        <div class="page__main">
-            <div class="prose  e-content">
-                {{ content | widont }}
-            </div>
-
-            {% if page.tags %}
-                {% include html/sections/tags.html %}
-            {% endif %}
-
-            {% if page.series %}
-                {% include html/nav/series.html %}
-            {% endif %}
+    <div class="page__main">
+        <div class="prose  e-content">
+            {{ content | widont }}
         </div>
 
-        {% include html/structure/page__footer.html %}
-    </article>
-</main>
+        {% if page.tags %}
+            {% include html/sections/tags.html %}
+        {% endif %}
+
+        {% if page.series %}
+            {% include html/nav/series.html %}
+        {% endif %}
+    </div>
+
+    {% include html/structure/page__footer.html %}
+</article>

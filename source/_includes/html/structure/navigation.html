@@ -1,21 +1,23 @@
 <nav class="navigation" role="navigation" aria-labelledby="menu">
-    <h1 class="navigation__title audible" id="menu">Menu</h1>
+    <div class="l-container">
+        <h1 class="navigation__title audible" id="menu">Menu</h1>
 
-    <ul class="nav nav--primary">
-        <li class="nav__item{% if location == 'journal' or category == 'journal' %} is-active{% endif %}">
-            <a class="nav__item__label" href="/journal/">Journal</a>
-        </li>
-        <li class="nav__item{% if location == 'projects' %} is-active{% endif %}">
-            <a class="nav__item__label" href="/projects/">Work</a>
-        </li>
-        <li class="nav__item{% if location == 'photos' %} is-active{% endif %}">
-            <a class="nav__item__label" href="/photos/">Photos</a>
-        </li>
-        <li class="nav__item{% if location == 'about' %} is-active{% endif %}">
-            <a class="nav__item__label" href="/about/">About</a>
-        </li>
-        <li class="nav__item{% if location == 'contact' %} is-active{% endif %}">
-            <a class="nav__item__label" href="/contact/">Contact</a>
-        </li>
-    </ul>
+        <ul class="nav nav--primary">
+            <li class="nav__item{% if location == 'journal' or category == 'journal' %} is-active{% endif %}">
+                <a class="nav__item__label" href="/journal/">Journal</a>
+            </li>
+            <li class="nav__item{% if location == 'projects' %} is-active{% endif %}">
+                <a class="nav__item__label" href="/projects/">Portfolio</a>
+            </li>
+            <li class="nav__item{% if location == 'photos' %} is-active{% endif %}">
+                <a class="nav__item__label" href="/photos/">Photos</a>
+            </li>
+            <li class="nav__item{% if location == 'about' %} is-active{% endif %}">
+                <a class="nav__item__label" href="/about/">About</a>
+            </li>
+            <li class="nav__item{% if location == 'contact' %} is-active{% endif %}">
+                <a class="nav__item__label" href="/contact/">Contact</a>
+            </li>
+        </ul>
+    </div>
 </nav>

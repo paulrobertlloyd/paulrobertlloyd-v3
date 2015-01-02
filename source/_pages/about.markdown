@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Author
+title: About
 excerpt: I'm Paul, a graphic designer, aspiring writer and occasional speaker who lives in beautiful Brighton, England.
 permalink: /about/
 ---

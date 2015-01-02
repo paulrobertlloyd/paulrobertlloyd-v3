@@ -3,29 +3,22 @@
     ========================================================================= */
 
 .page__header {
-    margin-bottom: 1rem;
-    padding-top: 8rem;
-    padding-bottom: 1rem;
-    background-color: rgba($c__neutral-4, 0.15);
-}
-
-.page__main {
-    @include l-container;
+    padding-bottom: 2rem;
 }
 
 .page__title {
-    @include l-container;
-    @include fs--0;
-    font-weight: bold;
-    margin-bottom: 0;
+    @include fs--double-english;
+    color: $c__accent;
+    font-weight: 600;
 }
 
 .page__location {
+    @include fs--pica;
     @include ff--sans-serif;
     @include c2sc;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
-    color: $c__neutral-2;
+    color: $c__neutral--2;
 }
 
 .page__pubdate {
@@ -35,7 +28,7 @@
 .page__footer .page__location::before,
 .js .page__main .page__location::after {
     margin: 0 0.25rem; // 0 4px
-    color: $c__neutral-5;
+    color: $c__neutral--5;
     content: '\2022';
 }
 

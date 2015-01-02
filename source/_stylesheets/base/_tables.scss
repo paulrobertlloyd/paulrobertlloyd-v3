@@ -4,7 +4,7 @@
     ========================================================================= */
 
 table {
-    margin: 0.75em 0 0.75em -0.5em; // 24px 0 24px -8px
+    margin: 0.75em -0.5em; // 12px -8px
     border-collapse: collapse;
     border-spacing: 0;
     font-size: 1rem;
@@ -23,7 +23,7 @@ caption {
 
 td,
 th {
-    border-top: 1px solid $c__neutral-7;
+    border-top: 1px solid $c__neutral--7;
     padding: 0.25rem 1.5rem 0.5625rem 0.5rem; // 4px 32px 9px 4px
     vertical-align: top;
     text-align: left;
@@ -33,7 +33,7 @@ th {
 
 th {
     @include ff--sans-serif(600);
-    border-top-color: $c__neutral-5;
+    border-top-color: $c__neutral--5;
     padding-bottom: 1rem;
     line-height: 1.25;
 }

@@ -56,29 +56,17 @@
 
 
 // Line rule
-@mixin rule($cols) {
-    display: block;
-    border-top: 1px solid $c__neutral-6;
-    width: $cols * $g__col-width;
-    content: '';
-    margin-bottom: 0.1875rem; // 3px
-}
-
-
-// Media Queries
-@mixin mq($breakpoint) {
-    @if $breakpoint == a {
-        @media only screen and (min-width: $mq__a) {
-            @content;
+@mixin rule($el: 'before', $color: $c__neutral--8) {
+    @if $el == 'before' or $el == 'after' {
+        &:#{$el} {
+            display: block;
+            margin-bottom: 0.25rem;
+            border-top: 0.25rem solid $color;
+            width: $u__gutter*2;
+            content: '';
         }
-    } @else if $breakpoint == b {
-        @media only screen and (min-width: $mq__b) {
-            @content;
-        }
-    } @else if $breakpoint == c {
-        @media only screen and (min-width: $mq__c) {
-            @content;
-        }
+    } @else {
+        @error "`#{$el}` is not a valid pseudo-element.";
     }
 }
 
@@ -101,48 +89,54 @@
 
 
 // Font sizes
-@mixin fs--0 {
-    margin-bottom: 2rem; // 0 0 32px
-    line-height: 0.9167; // 44px
-    font-size: 3rem; // 48px
-    letter-spacing: -0.125rem;
+@mixin fs--pica($line-height: (16/12)) {
+    font-size: 0.75rem; // 12px
+    line-height: $line-height; // Default: 16px
 }
 
-@mixin fs--1 {
-    margin-bottom: 2rem; // 0 0 32px
-    line-height: 1; // 40px
-    font-size: 2.5rem; // 40px
-    letter-spacing: -0.125rem; // 1px
-}
-
-@mixin fs--2 {
-    margin-bottom: 0.75rem; // 0 0 12px
-    line-height: 1; // 24px
-    font-size: 1.5rem; // 24px
-}
-
-@mixin fs--3 {
-    margin-bottom: 0.75rem; // 0 0 12px
-    line-height: 1.2; // 24px
-    font-size: 1.25rem; // 20px
-}
-
-@mixin fs--4 {
-    margin-bottom: 0.75rem; // 0 0 12px
-    line-height: 1.3334; // 24px
-    font-size: 1.125rem; // 18px
-}
-
-@mixin fs--5 {
-    margin-bottom: 0.75rem; // 0 0 12px
-    line-height: 1.25; // 20px
-    font-size: 1rem; // 16px
-}
-
-@mixin fs--6 {
-    margin-bottom: 0.5rem; // 0 0 8px
-    line-height: 1.14285714285714; // 16px
+@mixin fs--english($line-height: (20/14)) {
     font-size: 0.875rem; // 14px
+    line-height: $line-height; // Default: 20px
+}
+
+@mixin fs--double-brevier($line-height: (20/16)) {
+    font-size: 1rem; // 16px
+    line-height: $line-height; // Default: 20px
+}
+
+@mixin fs--great-primer($line-height: (24/18)) {
+    font-size: 1.125rem; // 18px
+    line-height: $line-height; // Default: 24px
+}
+
+@mixin fs--paragon($line-height: (24/20)) {
+    font-size: 1.25rem; // 20px
+    line-height: $line-height; // Default: 24px
+}
+
+@mixin fs--double-pica($line-height: (28/24)) {
+    font-size: 1.5rem; // 24px
+    line-height: $line-height; // Default: 28px
+}
+
+@mixin fs--double-english($line-height: (32/28)) {
+    font-size: 1.75rem; // 28px
+    line-height: $line-height; // Default: 32px
+}
+
+@mixin fs--double-great-primer($line-height: (40/36)) {
+    font-size: 2.25rem; // 36px
+    line-height: $line-height; // Default: 40px
+}
+
+@mixin fs--canon($line-height: (52/48)) {
+    font-size: 3rem; // 48px
+    line-height: $line-height; // Default: 52px
+}
+
+@mixin fs--inch($line-height: (76/72)) {
+    font-size: 4.5rem; // 72px
+    line-height: $line-height; // Default: 76px
 }
 
 
@@ -160,23 +154,10 @@
 
 // Captions and metadata
 @mixin t-caption {
-    @include fs--6;
+    @include fs--english;
     @include ff--sans-serif(400);
     margin-bottom: 0.5rem;
-    //color: $c__neutral-4;
-    opacity: 0.5;
-}
-
-
-// Titles
-@mixin t-title {
-    @include fs--4;
-    @include ff--sans-serif(600);
-    margin-bottom: 0.25rem;
-
-    &:before {
-        @include rule(1);
-    }
+    color: $c__neutral--4;
 }
 
 
@@ -196,7 +177,7 @@
 }
 
 
-// Align item to left/right of another
+// Align item left or right
 @mixin l-align-left {
     float: left;
     margin-right: 1rem;
@@ -208,7 +189,7 @@
 }
 
 
-// Prise item out to left/right gutter
+// Pull item left or right
 @mixin l-hang-left {
     float: left;
     margin-right: 1rem;
@@ -224,19 +205,8 @@
 }
 
 
-// Item touches left/right/both edge(s) of page
+// Pull item left and right
 @mixin l-bleed {
-    margin-right: -16.6667%;
-    margin-left: -16.6667%;
-    width: 160%;
-}
-
-@mixin l-bleed-left {
-    margin-left: -16.6667%;
-    width: 120%;
-}
-
-@mixin l-bleed-right {
-    margin-right: -16.6667%;
-    width: 120%;
+    margin-right: -$u__gutter;
+    margin-left: -$u__gutter;
 }

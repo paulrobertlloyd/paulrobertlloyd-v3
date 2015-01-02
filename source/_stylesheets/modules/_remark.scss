@@ -1,7 +1,7 @@
 /*  =========================================================================
     Remark
     ========================================================================= */
-$remark__avatar-size: 5rem;
+$remark__avatar-size: $u__gutter*2;
 
 .remark {
     display: flex;
@@ -32,7 +32,9 @@ $remark__avatar-size: 5rem;
 }
 
 .remark__title {
-    @include t-title;
+    @include fs--great-primer;
+    @include ff--sans-serif(600);
+    @include rule(before, $c__accent);
 }
 
 .remark__avatar {

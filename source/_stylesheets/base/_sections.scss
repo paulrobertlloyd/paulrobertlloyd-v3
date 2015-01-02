@@ -5,23 +5,15 @@
 
 body {
     @include ff--sans-serif(400);
-    font-size: $base-font-size;
-    line-height: $baseline-unitless;
     margin: 0;
-    background-color: $c__neutral-8;
-    color: $c__neutral-2;
-
-    @media (max-width: 860px) {
-        font-size: $base-font-size*.9;
-    }
-
-    @media (max-width: 500px) {
-        font-size: $base-font-size*.8;
-    }
+    background-color: $c__neutral--9;
+    line-height: $u__baseline-unitless;
+    color: $c__neutral--2;
+    font-size: $u__font-size;
 
     &.inverted {
-        background-color: $c__neutral-1;
-        color: $c__neutral-7;
+        background-color: $c__neutral--1;
+        color: $c__neutral--7;
     }
 }
 
@@ -43,13 +35,9 @@ h6 {
 }
 
 hr {
+    @include rule;
     margin: 2rem auto; // 32px auto
     border: 0;
     height: 0;
     line-height: 0;
-
-    &:before {
-        @include rule(2);
-        margin: 0 auto;
-    }
 }

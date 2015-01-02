@@ -4,9 +4,9 @@
 
 .button {
     display: inline-block;
-    border: 1px solid $c__accent-light;
-    background: transparent;
+    border: 0;
+    background: $c__accent;
     padding: 0.5rem 0.75rem;
-    color: $c__accent-light;
+    color: $c__neutral--9;
     font-family: $f__sans-serif;
 }
