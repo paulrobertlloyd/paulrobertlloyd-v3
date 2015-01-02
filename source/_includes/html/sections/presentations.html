@@ -1,0 +1,14 @@
+<section class="section section--presentations" aria-labelledby="presentations">
+    <h1 class="section__title" id="presentations">Recent presentations</h1>
+
+    <ul class="list list--presentations">
+    {% for presentation in site.data.presentations %}
+        <li class="list__item">
+            <article class="summary summary--presentation">
+                <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title | smart }}</a></h1>
+                <p class="summary__meta">{{ presentation.location }}, <time datetime="{{ presentation.date | date_to_xmlschema }}">{{ presentation.date | date: "%B %Y" }}</time></p>
+            </article>
+        </li>
+    {% endfor %}
+    </ul>
+</section>
