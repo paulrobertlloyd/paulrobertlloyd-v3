@@ -14,8 +14,4 @@
             {{ summary.excerpt | smart | widont }}
         </div>
     </div>
-
-    <footer class="summary__footer">
-        <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%B %Y" }}</time>
-    </footer>
 </article>

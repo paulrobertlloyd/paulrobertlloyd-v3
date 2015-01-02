@@ -3,8 +3,8 @@
     ========================================================================= */
 
 .section__title {
-    @include ff--sans-serif(700);
-    @include fs--2;
+    @include ff--sans-serif(600);
+    @include fs--great-primer;
     margin-top: 2rem;
 
     .section--is-expandable & {

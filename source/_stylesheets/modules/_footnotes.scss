@@ -4,10 +4,5 @@
 
 .footnotes {
     @include t-caption;
-    margin-top: 2rem;
-
-    &::before {
-        @include rule(2);
-        margin: 2rem auto; // 32px auto
-    }
+    @include rule;
 }

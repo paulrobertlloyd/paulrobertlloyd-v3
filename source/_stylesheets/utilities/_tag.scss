@@ -3,7 +3,12 @@
     ========================================================================= */
 
 .tag {
-    @include t-caption;
-    display: inline-block;
-    margin-right: 0.25rem; // 4px
+    @include fs--english;
+    text-transform: lowercase;
+    word-spacing: -0.25em;
+
+    &::before {
+        opacity: 0.5;
+        content: '#';
+    }
 }

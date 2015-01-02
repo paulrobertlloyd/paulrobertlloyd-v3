@@ -3,32 +3,44 @@
     ========================================================================= */
 
 .contentinfo {
-    @include l-container;
-    margin-top: 1rem;
-    border-top: 1px solid $c__neutral-6;
-    overflow: hidden;
+    background-color: $c__neutral--6;
 
-    small {
-        font-size: 1em;
+    .l-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 }
 
 .contentinfo__about {
-    float: left;
-    width: 50%;
+    @include fs--english;
 
-    .u-photo {
-        @include l-align-left;
+    [rel="home"] {
+        color: inherit;
     }
 }
 
 .contentinfo__navigation {
-    float: left;
-    width: 50%;
+    .nav__item__label {
+        color: $c__neutral--9;
+    }
+}
+
+.contentinfo__legal {
+    &::before {
+        display: block;
+        margin-right: -$u__gutter;
+        margin-bottom: 1rem;
+        margin-left: -$u__gutter;
+        border-top: 1px solid $c__neutral--5;
+        content: '';
+    }
+
+    a {
+        color: inherit;
+    }
 }
 
 .contentinfo__copyright {
-    @include t-caption;
-    clear: left;
-    padding: 2rem 0 1rem;
+    @include fs--pica;
+    display: block;
 }

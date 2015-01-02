@@ -83,9 +83,9 @@
     </title>
 </head>
 
-<body{% if location == 'photos' or category == 'photos' %} class="inverted"{% endif %}>
+<body{% if location == 'photos' or category == 'photos' %} class="inverted"{% endif %} id="top">
     {% include html/structure/banner.html %}
-    {{ content }}
+    {% include html/structure/main.html %}
     {% include html/structure/navigation.html %}
     {% include html/structure/contentinfo.html %}
     <script>

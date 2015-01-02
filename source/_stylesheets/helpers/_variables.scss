@@ -2,10 +2,11 @@
 //  Variables
 //  ============================================================================
 
-// Unit sizing
-$base-font-size: (18/16)*100%;
-$baseline-unitless: 28/(16*($base-font-size/100%));
-$baseline: $baseline-unitless * 1rem;
+// Units
+$u__font-size: (16/16)*100%;
+$u__baseline-unitless: 20/(16*($u__font-size/100%));
+$u__baseline: $u__baseline-unitless * 1rem;
+$u__gutter: 1.25rem;
 
 // Fonts
 $f__serif: 'Charter ITC Std', serif;
@@ -14,21 +15,23 @@ $f__monospace: 'Source Code Pro', monospace;
 $f__icon: 'Icons', serif; // TODO: Add icon font, font-awesome?
 
 // Colours
-$c__accent-light: #3d8;
-$c__accent-dark: #0a5;
+$c__accent: #12c;
+$c__accent--invert: #c21;
 
-$c__neutral-1: #222;
-$c__neutral-2: #444;
-$c__neutral-3: #666;
-$c__neutral-4: #888;
-$c__neutral-5: #bbb;
-$c__neutral-6: #ddd;
-$c__neutral-7: #eee;
-$c__neutral-8: #fff;
+$c__neutral: #101112;
+$c__neutral--1: lighten($c__neutral, 10%);
+$c__neutral--2: lighten($c__neutral, 20%);
+$c__neutral--3: lighten($c__neutral, 30%);
+$c__neutral--4: lighten($c__neutral, 40%);
+$c__neutral--5: lighten($c__neutral, 50%);
+$c__neutral--6: lighten($c__neutral, 60%);
+$c__neutral--7: lighten($c__neutral, 70%);
+$c__neutral--8: lighten($c__neutral, 80%);
+$c__neutral--9: lighten($c__neutral, 90%);
 
-$c__link: #170880;
-$c__link-hover: lighten($c__link, 20%);
-$c__link-active: #800817;
+$c__link: lighten($c__accent, 0);
+$c__link--hover: lighten($c__accent, 20%);
+$c__link--active: $c__accent--invert;
 
 // Breakpoints
 $mq__a: 32em; // 512px

@@ -19,7 +19,6 @@ legend {
 
 label {
     display: block;
-    font-weight: 700;
 }
 
 button,
@@ -99,9 +98,9 @@ textarea {
 
 /* Placeholder */
 ::placeholder {
-    color: $c__neutral-5;
+    color: $c__neutral--5;
 }
 
 :focus::placeholder {
-    color: $c__neutral-6;
+    color: $c__neutral--6;
 }

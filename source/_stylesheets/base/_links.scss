@@ -12,13 +12,13 @@ a:active,
 a:hover {
 /*  Improve readability when focused and also mouse hovered in all browsers */
     outline: 0;
-    color: $c__link-hover;
+    color: $c__link--hover;
 }
 
 a:active {
 /*  Remove gray background color from active links in IE 10 */
     background-color: transparent;
-    color: $c__link-active;
+    color: $c__link--active;
 }
 
 @media print {

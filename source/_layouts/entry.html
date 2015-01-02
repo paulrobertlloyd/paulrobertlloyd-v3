@@ -1,32 +1,30 @@
 ---
 layout: default
 ---
-<main class="main" role="main">
-    <article class="page page--entry  h-entry">
-        {% include html/structure/page__header.html %}
+<article class="page page--entry  h-entry">
+    {% include html/structure/page__header.html %}
 
-        <div class="page__main">
-            <div class="prose  e-content">
-                {{ content | widont }}
-            </div>
-
-            {% if page.tags %}
-                {% include html/sections/tags.html %}
-            {% endif %}
-
-            {% if page.series %}
-                {% include html/nav/series.html %}
-            {% endif %}
-
-            {% include html/sections/related.html %}
-
-            {% if page.discussion %}
-                {% include html/sections/discussion.html %}
-            {% endif %}
+    <div class="page__main">
+        <div class="prose  e-content">
+            {{ content | widont }}
         </div>
 
-        {% include html/structure/page__footer.html %}
-    </article>
+        {% if page.tags %}
+            {% include html/sections/tags.html %}
+        {% endif %}
 
-    {% include html/nav/entries.html %}
-</main>
+        {% if page.series %}
+            {% include html/nav/series.html %}
+        {% endif %}
+
+        {% include html/sections/related.html %}
+
+        {% if page.discussion %}
+            {% include html/sections/discussion.html %}
+        {% endif %}
+    </div>
+
+    {% include html/structure/page__footer.html %}
+</article>
+
+{% include html/nav/entries.html %}

@@ -1,45 +1,31 @@
 <article class="summary summary--{{ summary.layout }}  h-entry">
     <header class="summary__header">
-        {% if summary.layout == "link" %}
         <h1 class="summary__title  p-name">
-            <a class="summary__link" href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}</a>
+            {% if summary.layout == "link" %}
+                <a class="summary__link" href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}</a>
+            {% else %}
+                <a class="summary__link" href="{{ summary.url | remove:'.html' }}">{{ summary.title | smart }}</a>
+            {% endif %}
         </h1>
-        {% else %}
-        <h1 class="summary__title  p-name">
-            <a class="summary__link" href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | smart }}</a>
-        </h1>
-        {% endif %}
     </header>
 
     <div class="summary__main  p-summary">
-    {% if summary.image %}
-        <img class="summary__image  u-photo" src="{{ site.img_url }}/300x200/80/{{ summary.image }}"/>
-    {% endif %}
-
-    {% if summary.link-embed == "photo" %}
-        {% embed {{ summary.link }} %}
-    {% endif %}
+        {% if summary.link-embed == "photo" %}
+            {% embed {{ summary.link }} %}
+        {% endif %}
 
         <div class="prose">
-        {% if summary.layout == "link" %}
-            {{ summary.content | markdownify | widont }}
-        {% elsif summary.excerpt != null %}
-            {{ summary.excerpt | smart | widont }}
-        {% endif %}
+            {% if summary.layout == "link" %}
+                {{ summary.content | markdownify | widont }}
+            {% elsif summary.excerpt != null %}
+                {{ summary.excerpt | smart | widont }}
+            {% endif %}
         </div>
-
-    {% if summary.layout == "entry" %}
-        <a class="summary__permalink  u-url" href="{{ summary.url | remove:'.html' }}" rel="bookmark">Continue reading</a>
-    {% endif %}
     </div>
 
     <footer class="summary__footer">
-    {% if summary.layout == "link" %}
-        <a class="summary__permalink  u-url" href="{{ summary.url | remove:'.html' }}" rel="bookmark">Permalink</a>
-    {% elsif summary.layout == "entry" %}
-        <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%e %B %Y" }}</time>
-    {% else %}
-        <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%B %Y" }}</time>
-    {% endif %}
+        <a class="summary__permalink  u-url" href="{{ summary.url | remove:'.html' }}" rel="bookmark">
+            <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%B %Y" }}</time>
+        </a>
     </footer>
 </article>

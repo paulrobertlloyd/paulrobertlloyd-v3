@@ -1,34 +1,38 @@
 <footer class="contentinfo" role="contentinfo">
-    <section class="contentinfo__about" aria-labelledby="about">
-        <h1 class="contentinfo__title audible" id="about">About</h1>
-        <p class="h-card"><a class="u-url p-name" href="{{ site.author.url }}" rel="home">Paul Robert Lloyd</a> is a <span class="p-role">graphic designer</span>, <span class="p-role">writer</span> and <span class="p-role">speaker</span> who lives in beautiful <span class="p-locality">Brighton</span>, <span class="p-country-name">England</span>.</p>
-    </section>
+    <div class="l-container">
+        <section class="contentinfo__about" aria-labelledby="about">
+            <h1 class="contentinfo__title audible" id="about">About</h1>
+            <p class="h-card"><a class="u-url p-name" href="{{ site.author.url }}" rel="home">Paul Robert Lloyd</a> is a <span class="p-role">graphic designer</span>, <span class="p-role">writer</span> and <span class="p-role">speaker</span> who lives in beautiful <span class="p-locality">Brighton</span>, <span class="p-country-name">England</span>.</p>
+        </section>
 
-    <nav class="contentinfo__navigation" role="navigation" aria-labelledby="more">
-        <h1 class="contentinfo__title audible" id="more">More</h1>
-        <ul class="nav nav--secondary">
-            <li class="nav__item">
-                <a class="nav__item__label" href="/archive/">Archive</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__item__label" href="/essays/">Essays</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__item__label" href="/about/colophon">Colophon</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__item__label" href="/about/styleguide">Styleguide</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__item__label" href="/feed" rel="alternate" type="application/atom+xml">RSS Feed</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__item__label" href="https://twitter.com/{{ site.author.twitter }}" rel="me">{{ site.author.twitter }}</a>
-            </li>
-        </ul>
-    </nav>
+        <nav class="contentinfo__navigation" role="navigation" aria-labelledby="more">
+            <h1 class="contentinfo__title audible" id="more">More</h1>
+            <ul class="nav nav--secondary">
+                <li class="nav__item">
+                    <a class="nav__item__label" href="/archive/">Archive</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__item__label" href="/essays/">Essays</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__item__label" href="/about/colophon">Colophon</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__item__label" href="/about/styleguide">Styleguide</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__item__label" href="/feed" rel="alternate" type="application/atom+xml">RSS Feed</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__item__label" href="https://twitter.com/{{ site.author.twitter }}" rel="me">Twitter</a>
+                </li>
+            </ul>
+        </nav>
 
-    <p class="contentinfo__copyright">
-        <small><strong>© <abbr title="{{ site.time | date: "%Y" }}">{{ site.time | date: "%Y" | roman }}</abbr> {{ site.author.name }}</strong>. Content <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">{{ site.license.type }} licensed</a> unless otherwise stated. Source code available on <a href="{{ site.scm.url }}" rel="source">{{ site.scm.title }}</a></small>
-    </p>
+        <p class="contentinfo__legal">
+            <small class="contentinfo__copyright">
+                <strong>© <abbr title="{{ site.time | date: "%Y" }}">{{ site.time | date: "%Y" | roman }}</abbr> {{ site.author.name }}</strong>. Content <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">{{ site.license.type }} licensed</a> unless otherwise stated. Source code available on <a href="{{ site.scm.url }}" rel="source">{{ site.scm.title }}</a>
+            </small>
+        </p>
+    </div>
 </footer>

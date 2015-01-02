@@ -11,90 +11,81 @@
 
 /* Primary navigation  */
 .nav--primary {
-    @include l-container;
-    position: relative;
-    margin-top: 6rem;
-    font-size: 1rem;
-    line-height: 1;
-    text-align: right;
+    @include fs--english;
+    margin: 0.75rem 0;
+    overflow: hidden;
 
     .nav__item {
-        display: inline-block;
-        margin-right: 1rem;
-        margin-bottom: 0;
-        text-transform: uppercase;
-    }
-
-    .nav__item__label {
-        color: $c__neutral-2;
-
-        .inverted & {
-            color: $c__neutral-7;
-        }
+        float: left;
+        margin: 0.25rem 0;
+        width: percentage(1/3);
     }
 }
 
 
 /* Secondary navigation */
 .nav--secondary {
-    @include grid('.nav__item', 2);
+    @include fs--english;
+    margin: 0.75rem 0;
+    overflow: hidden;
+
+    .nav__item {
+        float: left;
+        margin: 0.25rem 0;
+        width: percentage(1/3);
+    }
 }
 
 
 /* Series navigation */
-.nav--series,
-.nav--years {
-    .nav__item {
-        border-top: 1px solid $c__neutral-6;
-        padding: 0.25rem 0;
-    }
-}
+//.nav--series,
+//.nav--years {
+//    .nav__item {
+//        border-top: 1px solid $c__neutral-6;
+//        padding: 0.25rem 0;
+//    }
+//}
 
 
 /* Page navigation */
-.nav--pages {
-    position: fixed;
-    top: 14.5rem;
-    right: 2rem;
-    left: 2rem;
-    z-index: 1;
+.nav--pagination {
+    position: relative;
+    border-top: 1px solid rgba($c__accent, 0.4);
+    height: $u__gutter*2;
+    overflow: hidden;
+
+    &::before {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        border-right: 1px dashed rgba($c__accent, 0.4);
+        width: 1px;
+        content: '';
+    }
 
     .nav__item {
-        position: absolute;
-        margin-top: -1rem;
+        line-height: $u__gutter*2;
 
-        &::before {
-            display: block;
-            transform: rotate(45deg);
-            border-style: solid;
-            border-color: rgba($c__neutral-1, 0.1);
-            width: 1.75rem;
-            height: 1.75rem;
-            content: '';
+        .nav__item__icon {
+            fill: $c__link;
         }
 
-        &:hover::before {
-            border-color: rgba($c__neutral-1, 0.2);
+        &:hover .nav__item__icon {
+            fill: $c__link--hover;
+        }
+
+        &:active .nav__item__icon {
+            fill: $c__link--active;
         }
     }
 
     .nav__item--prev {
-        left: 0;
-
-        &::before {
-            border-width: 0 0 2px 2px;
-        }
+        float: left;
     }
 
     .nav__item--next {
-        right: 0;
-
-        &::before {
-            border-width: 2px 2px 0 0;
-        }
-    }
-
-    .nav__item__label {
-        @include hidden;
+        float: right;
     }
 }
