@@ -50,7 +50,7 @@ The underlying design language encompassed a variety of content types and clearl
 ## Elsewhere
 * [Clearleft's project case study][1]
 
-{% include content/project-info.html %}
+{% include html/content/project-info.html %}
 
 [1]: http://clearleft.com/made/unicef
 

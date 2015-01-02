@@ -5,6 +5,6 @@ title: Academic Essays
 {% assign pages = site.pages | where: 'layout', 'essay' | sort: 'date' %}
 {% for summary in pages reversed %}
     {% if summary.excerpt %}
-        {% include articles/summary.html %}
+        {% include html/sections/summary.html %}
     {% endif %}
 {% endfor %}

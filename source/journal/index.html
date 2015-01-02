@@ -3,9 +3,9 @@ layout: index
 title: Journal
 ---
 {% for summary in paginator.posts %}
-    {% include articles/summary.html %}
+    {% include html/sections/summary.html %}
 {% endfor %}
 
-{% include nav/pages--index.html %}
+{% include html/nav/pages--index.html %}
 
-{% include forms/search.html %}
+{% include html/forms/search.html %}

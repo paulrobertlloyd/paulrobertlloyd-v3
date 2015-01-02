@@ -14,7 +14,7 @@ _Universal Networks_ encompasses NBCUniversal's portfolio of over seventy intern
 
 Working with [James Box][1] at Clearleft, we devised an underlying user experience and design language, expressed as a common library of localisable design patterns. These were customisable, allowing each brand to exhibit its own individuality and brand personality.
 
-{% include content/project-info.html %}
+{% include html/content/project-info.html %}
 
 [1]: http://clearleft.com/is/james-box/
 

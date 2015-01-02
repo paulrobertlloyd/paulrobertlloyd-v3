@@ -84,10 +84,10 @@
 </head>
 
 <body{% if location == 'photos' or category == 'photos' %} class="inverted"{% endif %}>
-    {% include structure/banner.html %}
+    {% include html/structure/banner.html %}
     {{ content }}
-    {% include structure/navigation.html %}
-    {% include structure/contentinfo.html %}
+    {% include html/structure/navigation.html %}
+    {% include html/structure/contentinfo.html %}
     <script>
         if (enhanced) {
             document.write('<'+'script src=\"{% asset_path global.js %}\"></'+'script>');
