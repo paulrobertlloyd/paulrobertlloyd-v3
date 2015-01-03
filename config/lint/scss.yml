@@ -32,3 +32,8 @@ linters:
   SelectorFormat:
     enabled: false
     convention: BEM # TODO: Lint for BEM-like selectors
+
+  SpaceBeforeBrace:
+    enabled: true
+    style: space
+    allow_single_line_padding: true
