@@ -1,4 +1,3 @@
-<nav class="section section--series" aria-labelledby="series">
 {% comment %}
     Use if statement until arrays can be combined in Liquid.
     See: https://github.com/Shopify/liquid/pull/429
@@ -8,6 +7,7 @@
 {% else %}
     {% assign series = site.pages | where: 'series', page.series %}
 {% endif %}
+<nav class="section section--series" aria-labelledby="series">
     <h1 class="section__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
 
     <ol class="nav nav--series">

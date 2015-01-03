@@ -1,12 +1,17 @@
+{% if page.path contains 'projects' %}
+    {% assign related = page.related_posts %}
+{% else %}
+    {% assign related = site.related_posts reversed | where: 'layout', 'entry' | sort: 'date' %}
+{% endif %}
 <section class="section section--related" aria-labelledby="related">
-    <h1 class="section__title" id="related">Related Posts</h1>
+    <h1 class="section__title" id="related">Related</h1>
 
     <ul class="list list--related">
-    {% for related in site.related_posts | where: 'layout', 'entry' | sort: 'date' | limit:3 %}
+    {% for item in related | limit: 3 %}
         <li class="list__item">
             <article class="summary summary--related">
-                <h1 class="summary__title"><a href="{{ related.url }}">{{ related.title | smart }}</a></h1>
-                <p class="summary__meta"><time datetime="{{ related.date | date_to_xmlschema }}">{{ related.date | date: "%e %B %Y" }}</time></p>
+                <h1 class="summary__title"><a href="{{ item.url }}">{{ item.title | smart }}</a></h1>
+                {% if item.date %}<p class="summary__meta"><time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time></p>{% endif %}
             </article>
         </li>
     {% endfor %}

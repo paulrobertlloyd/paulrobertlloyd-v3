@@ -5,11 +5,15 @@ date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 permalink: /projects/bradshaws_guide.html
 hidden: true
-project-featured: true
-project-info:
+project_featured: true
+project_info:
   client: Personal project
   year: Ongoing
   role: Design and front-end development
+related_posts:
+  - title: '(Re)introducing Bradshaw’s Guide'
+    url: /2013/04/bradshaws_guide
+    date: '2013-04-17 00:48:12 +0100'
 ---
 Largely inspired by the popular BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw’s 1866 handbook for tourists exploring Britain’s railways.
 
@@ -42,12 +46,8 @@ Producing the guide involved correcting copy originating from an automated OCR p
 
 When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][1] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
 
-## Elsewhere
-* [(Re)introducing Bradshaw's Guide][2]
-
 {% include html/content/project-info.html %}
 
 [1]: https://twitter.com/bradshawsguide
-[2]: /2013/04/bradshaws_guide
 
 *[BBC]: British Broadcasting Corporation

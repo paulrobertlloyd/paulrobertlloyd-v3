@@ -5,7 +5,7 @@ date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.
 permalink: /projects/universal_playback.html
 hidden: true
-project-info:
+project_info:
   client: NBCUniversal
   year: 2010
   role: Design

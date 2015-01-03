@@ -77,7 +77,7 @@
     font-weight: $font-weight;
 }
 
-@mixin ff--sans-serif($font-weight: 400) {
+@mixin ff--sans-serif($font-weight: 500) {
     font-family: $f__sans-serif, sans-serif;
     font-weight: $font-weight;
 }
@@ -153,9 +153,9 @@
 
 
 // Captions and metadata
-@mixin t-caption {
+@mixin caption {
     @include fs--english;
-    @include ff--sans-serif(400);
+    @include ff--sans-serif;
     margin-bottom: 0.5rem;
     color: $c__neutral--4;
 }

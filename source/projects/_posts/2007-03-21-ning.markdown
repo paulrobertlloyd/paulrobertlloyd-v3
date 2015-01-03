@@ -5,7 +5,7 @@ date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
 permalink: /projects/ning.html
 hidden: true
-project-info:
+project_info:
   client: Ning
   year: 2005–2007
   role: Lead design, branding and front-end development

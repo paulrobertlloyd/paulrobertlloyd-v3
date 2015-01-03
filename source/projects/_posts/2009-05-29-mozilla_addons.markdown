@@ -5,7 +5,7 @@ date: '2009-05-29'
 excerpt: Introducing browser add-ons to a mainstream audience.
 permalink: /projects/mozilla_addons.html
 hidden: true
-project-info:
+project_info:
   client: Mozilla Corporation
   year: 2009
   role: Design

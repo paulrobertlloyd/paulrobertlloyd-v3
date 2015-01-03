@@ -5,7 +5,7 @@ date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence on the iPad.
 permalink: /projects/channel4_news.html
 hidden: true
-project-info:
+project_info:
   client: Channel 4
   year: 2010
   role: Design

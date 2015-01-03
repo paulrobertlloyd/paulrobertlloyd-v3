@@ -5,12 +5,19 @@ date: '2013-12-01'
 excerpt: Award-winning collaborative redesign for popular advent calendar for web geeks.
 permalink: /projects/24_ways.html
 hidden: true
-project-featured: true
-project-info:
+project_featured: true
+project_info:
   client: Drew McLellan
   year: 2013
   role: Design and front-end development
   notes: Awarded best collaborative project at the net Awards 2014
+related_posts:
+  - title: 'Drew McLellan: Rebuilding 24 ways'
+    url: http://allinthehead.com/retro/366/rebuilding-24-ways
+    date: '2013-12-01 00:00:00 +0000'
+  - title: 'Redesigning 24 ways'
+    url: /2013/12/redesigning_24_ways
+    date: '2013-12-22 22:53:51 +0000'
 ---
 Each December, Drew McLellan and his small team publish _24 ways_, a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
 
@@ -53,16 +60,9 @@ Beyond the responsive development, I was keen to employ other best practices. Th
 {% figure "Screenshots of finished product" %}
 {% endfigure %}
 
-[Testimonial from Drew]
-
-## Elsewhere
-* [Drew McLellan: Rebuilding 24 ways][1]
-* [Redesigning 24 ways][2]
+<mark>[Testimonial from Drew]</mark>
 
 {% include html/content/project-info.html %}
-
-[1]: http://allinthehead.com/retro/366/rebuilding-24-ways
-[2]: /2013/12/redesigning_24_ways
 
 *[CSS3]: Cascading Style Sheets (Level 3)
 *[BEM]: Block, Element, Modifier

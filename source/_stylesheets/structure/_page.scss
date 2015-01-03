@@ -2,8 +2,24 @@
     Page
     ========================================================================= */
 
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
 .page__header {
     padding-bottom: 2rem;
+    order: 1;
+}
+
+.page__main {
+    order: 3;
+}
+
+.page__footer {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    order: 2;
 }
 
 .page__title {
@@ -22,7 +38,7 @@
 }
 
 .page__pubdate {
-    @include t-caption;
+    @include caption;
 }
 
 .page__footer .page__location::before,

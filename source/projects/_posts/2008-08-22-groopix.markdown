@@ -5,7 +5,7 @@ date: '2008-08-22'
 excerpt: A tool for curating and printing group-based photo albums.
 permalink: /projects/groopix.html
 hidden: true
-project-info:
+project_info:
   client: Steve Douty
   year: 2008
   role: UX, design and front-end development

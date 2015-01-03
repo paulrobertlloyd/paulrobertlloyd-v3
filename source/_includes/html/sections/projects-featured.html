@@ -3,7 +3,7 @@
 
     <ul class="list list--projects">
     {% for summary in site.categories.projects | sort: 'date' %}
-        {% if summary.project-featured == true %}
+        {% if summary.project_featured == true %}
         <li class="list__item">
             {% include html/sections/summary--project.html %}
         </li>

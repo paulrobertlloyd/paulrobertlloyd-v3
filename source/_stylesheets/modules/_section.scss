@@ -4,8 +4,9 @@
 
 .section__title {
     @include ff--sans-serif(600);
-    @include fs--great-primer;
+    @include fs--paragon;
     margin-top: 2rem;
+    margin-bottom: 0.5rem;
 
     .section--is-expandable & {
         display: inline-block;
