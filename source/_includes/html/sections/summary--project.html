@@ -1,15 +1,18 @@
-<article class="summary summary--project summary--project--{{ summary.title | slugify }}  h-entry">
+<article class="summary summary--project  h-entry">
     <header class="summary__header">
         <h1 class="summary__title  p-name">
-            <a class="summary__link" href="{{ summary.url | remove:'.html' }}" rel="bookmark">{{ summary.title | smart }}</a>
+            <a class="summary__link" href="{{ summary.url | remove:'.html' }}" rel="bookmark">
+                {% if summary.project_featured %}
+                <div class="summary__image summary__image--{{ summary.title | slugify | replace: '_','-' }}">
+                    {% include svg/logo--{{ summary.title | slugify | replace: '_','-' }}.svg %}
+                </div>
+                {% endif %}
+                {{ summary.title | smart }}
+            </a>
         </h1>
     </header>
 
     <div class="summary__main  p-summary">
-        <div class="summary__image">
-            {% include svg/logo--{{ summary.title | slugify }}.svg %}
-        </div>
-
         <div class="prose">
             {{ summary.excerpt | smart | widont }}
         </div>

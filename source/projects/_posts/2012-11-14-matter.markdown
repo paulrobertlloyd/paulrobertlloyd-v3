@@ -5,8 +5,8 @@ date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter.html
 hidden: true
-project-featured: true
-project-info:
+project_featured: true
+project_info:
   client: Matter Publishing
   year: 2012
   role: UX, branding and graphic design

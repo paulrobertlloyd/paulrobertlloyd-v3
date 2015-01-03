@@ -3,6 +3,6 @@
     ========================================================================= */
 
 .footnotes {
-    @include t-caption;
+    @include caption;
     @include rule;
 }

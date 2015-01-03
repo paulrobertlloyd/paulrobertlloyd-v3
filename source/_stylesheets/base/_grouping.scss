@@ -29,10 +29,10 @@ pre {
 }
 
 blockquote {
-    @include ff--sans-serif(400);
+    @include ff--sans-serif;
     margin: 0.5rem 0 1rem; // 8px 0 16px
     border-left: 0.5rem solid $c__neutral--8; // 8px
-    padding-left: 1rem; // 16px
+    padding-left: 0.75rem; // 12px
     color: $c__neutral--3;
 }
 

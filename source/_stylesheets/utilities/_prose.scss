@@ -8,8 +8,9 @@
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
-        @include ff--sans-serif(700);
+        @include ff--sans-serif(600);
         @include fs--paragon;
+        margin-bottom: 0.5rem;
     }
 
     h3 {
@@ -49,7 +50,7 @@
         padding-bottom: 0.5rem;
 
         p {
-            @include t-caption;
+            @include caption;
         }
     }
 

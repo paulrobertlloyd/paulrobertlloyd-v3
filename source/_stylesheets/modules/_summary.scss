@@ -7,8 +7,8 @@
 }
 
 .summary__title {
-    @include fs--great-primer;
     @include ff--sans-serif(600);
+    @include fs--great-primer;
 
     .summary--related &,
     .summary--article &,
@@ -23,17 +23,17 @@
 
 .summary__pubdate,
 .summary__meta {
-    @include t-caption;
+    @include caption;
 }
 
-/* Journal entry summary */
+/* Entry summary */
 .summary--entry {
     .summary__title {
         @include fs--double-english;
     }
 }
 
-/* Journal link summary */
+/* Link summary */
 .summary--link {
     .summary__link::after {
         content: ' \2192';
@@ -56,9 +56,34 @@
             opacity: 1;
         }
     }
+}
 
-    .js-embed {
-        @include l-bleed;
-        padding-bottom: 75%;
+/* Project summary */
+.summary--project {
+    .summary__image {
+        position: relative;
+        margin-bottom: $u__gutter/2;
+        background-color: $c__neutral--4;
+        padding-bottom: 68%;
+        height: 0;
+    }
+
+    .summary__image--24-ways { background-color: $c__24-ways; }
+    .summary__image--unicef-uk { background-color: $c__unicef-uk; }
+    .summary__image--bradshaws-guide { background-color: $c__bradshaws-guide; }
+    .summary__image--matter { background-color: $c__matter; }
+    .summary__image--dacs { background-color: $c__dacs; }
+    .summary__image--the-week { background-color: $c__the-week; }
+    .summary__image--fontdeck { background-color: $c__fontdeck; }
+    .summary__image--ngenera { background-color: $c__ngenera; }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        fill: #fff;
     }
 }

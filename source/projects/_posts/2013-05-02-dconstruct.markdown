@@ -5,10 +5,14 @@ date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
 permalink: /projects/dconstruct.html
 hidden: true
-project-info:
+project_info:
   client: Clearleft
   year: 2010, 2011, 2013
   role: Design
+related_posts:
+  - title: 'A Greener Conference Badge for dConstruct'
+    url: /2010/08/dconstruct_conference_badge
+    date: '2010-08-31 23:58:46 +0100'
 ---
 On the first Friday of September, Brighton plays host to an annual one-day conference called _dConstruct_. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 

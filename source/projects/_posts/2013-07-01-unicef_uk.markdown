@@ -5,11 +5,14 @@ date: '2013-07-01'
 excerpt: Mobile-first redesign for charity that raises funds to protect children's rights worldwide.
 permalink: /projects/unicef_uk.html
 hidden: true
-project-featured: true
-project-info:
+project_featured: true
+project_info:
   client: UNICEF UK
   year: 2013
   role: Design and front-end development
+related_posts:
+  - title: 'Clearleft project case study'
+    url: http://clearleft.com/made/unicef
 ---
 _UNICEF UK_ is a charity raising funds in the UK to support UNICEF's work to protect children and the defend their rights worldwide.
 
@@ -47,12 +50,7 @@ We experimented with different ways of simplifying wayfinding around the site. B
 
 The underlying design language encompassed a variety of content types and clearly delineated between areas of navigation and content. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site -- even on larger screens. In time, it is hoped this responsive mobile design will form the foundation of a fully responsive site, accessible from all devices, large or small.
 
-## Elsewhere
-* [Clearleft's project case study][1]
-
 {% include html/content/project-info.html %}
-
-[1]: http://clearleft.com/made/unicef
 
 *[HTML]: HyperText Markup Language
 *[UK]: United Kingdom

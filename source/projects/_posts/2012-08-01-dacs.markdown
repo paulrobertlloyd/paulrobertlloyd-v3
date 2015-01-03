@@ -5,8 +5,8 @@ date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artists' rights organisation.
 permalink: /projects/dacs.html
 hidden: true
-project-featured: true
-project-info:
+project_featured: true
+project_info:
   client: Design and Artists Copyright Society
   year: 2012
   role: Design and front-end development

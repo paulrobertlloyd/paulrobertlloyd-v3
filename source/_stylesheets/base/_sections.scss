@@ -4,7 +4,7 @@
     ========================================================================= */
 
 body {
-    @include ff--sans-serif(400);
+    @include ff--sans-serif;
     margin: 0;
     background-color: $c__neutral--9;
     line-height: $u__baseline-unitless;

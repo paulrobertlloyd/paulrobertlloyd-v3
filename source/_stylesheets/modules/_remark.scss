@@ -47,5 +47,5 @@ $remark__avatar-size: $u__gutter*2;
 }
 
 .remark__pubdate {
-    @include t-caption;
+    @include caption;
 }

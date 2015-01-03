@@ -1,21 +1,21 @@
 <aside class="project-info">
     <h2 class="project-info__title audible">Project summary</h2>
     <dl class="project-info__values">
-    {% if page.project-info.client %}
+    {% if page.project_info.client %}
         <dt class="project-info__title">Client</dt>
-        <dd class="project-info__value">{{ page.project-info.client | smart }}</dd>
+        <dd class="project-info__value">{{ page.project_info.client | smart }}</dd>
     {% endif %}
-    {% if page.project-info.year %}
+    {% if page.project_info.year %}
         <dt class="project-info__title">Year</dt>
-        <dd class="project-info__value">{{ page.project-info.year }}</dd>
+        <dd class="project-info__value">{{ page.project_info.year }}</dd>
     {% endif %}
-    {% if page.project-info.role %}
+    {% if page.project_info.role %}
         <dt class="project-info__title">Role</dt>
-        <dd class="project-info__value">{{ page.project-info.role | smart }}</dd>
+        <dd class="project-info__value">{{ page.project_info.role | smart }}</dd>
     {% endif %}
-    {% if page.project-info.notes %}
+    {% if page.project_info.notes %}
         <dt class="project-info__title">Notes</dt>
-        <dd class="project-info__value">{{ page.project-info.notes | smart }}</dd>
+        <dd class="project-info__value">{{ page.project_info.notes | smart }}</dd>
     {% endif %}
     </dl>
 </aside>
