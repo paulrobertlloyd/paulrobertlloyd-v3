@@ -11,8 +11,7 @@ project_info:
   role: Design
 related_posts:
   - title: 'A Greener Conference Badge for dConstruct'
-    url: /2010/08/dconstruct_conference_badge
-    date: '2010-08-31 23:58:46 +0100'
+    url: http://paulrobertlloyd.com/2010/08/dconstruct_conference_badge
 ---
 On the first Friday of September, Brighton plays host to an annual one-day conference called _dConstruct_. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 

@@ -15,3 +15,5 @@ _cwhomes.co.uk_ is a property portal that brings together the combined resources
 Originally launched in 2001, by 2005 the site was facing competition from larger nationwide property portals such as Rightmove and Prime Location. In addition, the site had become slow to load and its appearance outdated.
 
 Working alongside Andrew Ayriss at Orange Vision, I gave the existing site a vibrant and contemporary update, and developed a standards-based front-end codebase that was more performant and easier to maintain.
+
+{% include html/content/project-info.html %}

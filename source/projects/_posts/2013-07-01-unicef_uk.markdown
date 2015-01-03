@@ -11,7 +11,7 @@ project_info:
   year: 2013
   role: Design and front-end development
 related_posts:
-  - title: 'Clearleft project case study'
+  - title: 'UNICEF UK case study'
     url: http://clearleft.com/made/unicef
 ---
 _UNICEF UK_ is a charity raising funds in the UK to support UNICEF's work to protect children and the defend their rights worldwide.

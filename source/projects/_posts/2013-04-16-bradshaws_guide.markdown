@@ -12,8 +12,7 @@ project_info:
   role: Design and front-end development
 related_posts:
   - title: '(Re)introducing Bradshaw’s Guide'
-    url: /2013/04/bradshaws_guide
-    date: '2013-04-17 00:48:12 +0100'
+    url: http://paulrobertlloyd.com/2013/04/bradshaws_guide
 ---
 Largely inspired by the popular BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw’s 1866 handbook for tourists exploring Britain’s railways.
 

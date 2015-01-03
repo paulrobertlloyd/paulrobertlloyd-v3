@@ -13,6 +13,9 @@ project_info:
   notes: |
     Named Digital Edition of the Year at the PPA Awards 2011
     Average rating of four stars in the App Store
+related_posts:
+  - title: 'The Week case study'
+    url: http://clearleft.com/made/the-week
 ---
 _The Week_ condenses the week’s news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it’s the UK’s most popular weekly subscription magazine.
 
@@ -44,7 +47,7 @@ A challenging aspect of this project was conveying the familiarity of the magazi
 A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. <mark>[WHAT DID WE DO WITH THESE?]</mark>
 
 ## Collaborative development
-Working closely with the development team at [Kaldor][3], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][4] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience. 
+Working closely with the development team at [Kaldor][2], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][3] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience. 
 
 ## Result
 {% figure "Screenshots of finished product" %}
@@ -56,15 +59,11 @@ The app was far more successful than anticipated, spending a number of weeks in 
 > This was the most technically complex software project we've ever attempted, yet in its first year it's been a real success. We've found new readers, increased revenue from existing readers and gained the title lots of exposure.
 {% endfigure %}
 
-## Elsewhere
-* [Clearleft's project case study][2]
-
 {% include html/content/project-info.html %}
 
 [1]: http://www.90percentofeverything.com/about/
-[2]: http://clearleft.com/made/the-week
-[3]: http://kaldorgroup.com/
-[4]: http://pugpig.com/
+[2]: http://kaldorgroup.com/
+[3]: http://pugpig.com/
 
 *[UK]: United Kingdom
 *[IA]: information architecture

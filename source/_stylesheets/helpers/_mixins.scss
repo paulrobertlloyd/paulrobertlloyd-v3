@@ -60,7 +60,7 @@
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: block;
-            margin-bottom: 0.25rem;
+            margin-bottom: $u__baseline/4;
             border-top: 0.25rem solid $color;
             width: $u__gutter*2;
             content: '';

@@ -8,11 +8,13 @@ $u__baseline-unitless: 20/(16*($u__font-size/100%));
 $u__baseline: $u__baseline-unitless * 1rem;
 $u__gutter: 1.25rem;
 
+
 // Fonts
 $f__serif: 'Charter ITC Std', serif;
 $f__sans-serif: 'Avenir Next', sans-serif;
 $f__monospace: 'Source Code Pro', monospace;
 $f__icon: 'Icons', serif; // TODO: Add icon font, font-awesome?
+
 
 // Colours
 $c__accent: #12c;
@@ -42,10 +44,12 @@ $c__the-week: #ed1c24;
 $c__fontdeck: #d0021b;
 $c__ngenera: #00173b;
 
+
 // Breakpoints
-$mq__a: 32em; // 512px
-$mq__b: 45em; // 720px
-$mq__c: 64em; // 1024px
+$b__a: 32em; // 512px
+$b__b: 45em; // 720px
+$b__c: 64em; // 1024px
+
 
 // Grid
 $g__col-width: 80px;

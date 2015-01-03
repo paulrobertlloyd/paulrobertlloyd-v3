@@ -10,6 +10,9 @@ project_info:
   client: Design and Artists Copyright Society
   year: 2012
   role: Design and front-end development
+related_posts:
+  - title: 'DACS case study'
+    url: http://clearleft.com/made/dacs
 ---
 _DACS_ (the Design and Artists Copyright Society) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
 
@@ -45,15 +48,11 @@ Responsive design was used to deliver the same content to different devices, reg
 > It looks beautiful! The feedback so far has been great -- and it's just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!
 {% endfigure %}
 
-## Elsewhere
-* [Clearleft's project case study][4]
-
 {% include html/content/project-info.html %}
 
 [1]: http://www.90percentofeverything.com/about/
 [2]: http://clearleft.com/is/richard-rutter
 [3]: http://www.cognite.co.uk/
-[4]: http://clearleft.com/made/dacs
 
 *[DACS]: Design and Artists Copyright Society
 *[CMS]: content management system

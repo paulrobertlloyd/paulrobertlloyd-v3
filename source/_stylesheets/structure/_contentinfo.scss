@@ -6,8 +6,8 @@
     background-color: $c__neutral--6;
 
     .l-container {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: $u__baseline;
+        padding-bottom: $u__baseline;
     }
 }
 
@@ -29,7 +29,7 @@
     &::before {
         display: block;
         margin-right: -$u__gutter;
-        margin-bottom: 1rem;
+        margin-bottom: $u__baseline;
         margin-left: -$u__gutter;
         border-top: 1px solid $c__neutral--5;
         content: '';

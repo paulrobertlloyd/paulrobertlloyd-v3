@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MATTER
+title: Matter
 date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter.html
@@ -10,7 +10,12 @@ project_info:
   client: Matter Publishing
   year: 2012
   role: UX, branding and graphic design
-  note: Company acquired by Medium in April 2013.
+  note: Company acquired by Medium in April 2013
+related_posts:
+  - title: 'Matter case study'
+    url: http://clearleft.com/made/matter
+  - title: 'Building Matter'
+    url: https://adactio.com/journal/5886
 ---
 The brainchild of journalists Bobbie Johnson and Jim Giles, _MATTER_ is home to in-depth journalism about the ideas shaping our future. Stories cover everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them.
 
@@ -47,18 +52,8 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 {% figure "Screenshots of finished product" %}
 {% endfigure %}
 
-## Elsewhere
-* [Clearleft's project case study][4]
-* [Jeremy's blog post][5]
-* [Phil's blog post][6]
-* [Matter's blog post][7]
-
 {% include html/content/project-info.html %}
 
 [1]: http://www.kickstarter.com/projects/readmatter/matter
 [2]: http://clearleft.com/is/jeremy-keith/
 [3]: http://www.gyford.com/
-[4]: http://clearleft.com/made/matter
-[5]: #
-[6]: #
-[7]: #
