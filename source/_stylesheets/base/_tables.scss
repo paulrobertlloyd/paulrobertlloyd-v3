@@ -4,10 +4,8 @@
     ========================================================================= */
 
 table {
-    margin: 0.75em -0.5em; // 12px -8px
     border-collapse: collapse;
     border-spacing: 0;
-    font-size: 1rem;
 }
 
 tbody {
@@ -24,7 +22,7 @@ caption {
 td,
 th {
     border-top: 1px solid $c__neutral--7;
-    padding: 0.25rem 1.5rem 0.5625rem 0.5rem; // 4px 32px 9px 4px
+    padding: 0.25rem 1.5rem 0.5625rem 0; // 4px 32px 9px 0
     vertical-align: top;
     text-align: left;
     white-space: nowrap;

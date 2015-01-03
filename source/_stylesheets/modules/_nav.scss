@@ -51,7 +51,7 @@
 .nav--pagination {
     position: relative;
     border-top: 1px solid rgba($c__accent, 0.4);
-    height: $u__gutter*2;
+    height: $u__baseline*2;
     overflow: hidden;
 
     &::before {
@@ -66,7 +66,7 @@
     }
 
     .nav__item {
-        line-height: $u__gutter*2;
+        line-height: $u__baseline*2;
 
         .nav__item__icon {
             fill: $c__link;

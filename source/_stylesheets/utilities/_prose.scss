@@ -10,7 +10,6 @@
     h2 {
         @include ff--sans-serif(600);
         @include fs--paragon;
-        margin-bottom: 0.5rem;
     }
 
     h3 {
@@ -20,34 +19,45 @@
 
     * + h2,
     * + h3 {
-        margin-top: 2rem;
+        margin-top: $u__baseline*2;
     }
 
     h4 {
         @include fs--double-brevier;
     }
 
+    h2,
+    h3,
     p,
-    pre,
-    blockquote,
     ul,
     ol,
-    dl,
+    dl {
+        margin-bottom: $u__baseline/2;
+    }
+
+    pre,
+    blockquote,
     figure,
     table,
     fieldset {
-        margin-bottom: 0.75rem;
+        margin-bottom: $u__baseline*1.5;
     }
 
-    ul ul {
-        margin-bottom: 0;
+    pre {
+        @include fs--english;
+    }
+
+    blockquote {
+        @include ff--sans-serif;
+        border-left: 0.5rem solid $c__neutral--8; // 8px
+        padding-left: 0.75rem; // 12px
+        color: $c__neutral--3;
     }
 
     figcaption {
         @include rule(after);
-        margin-bottom: $u__gutter;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: $u__baseline/2;
+        padding-bottom: $u__baseline/2;
 
         p {
             @include caption;

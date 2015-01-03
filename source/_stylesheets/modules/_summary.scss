@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .summary {
-    margin-bottom: $u__gutter;
+    margin-bottom: $u__baseline;
 }
 
 .summary__title {
@@ -62,7 +62,7 @@
 .summary--project {
     .summary__image {
         position: relative;
-        margin-bottom: $u__gutter/2;
+        margin-bottom: $u__baseline/2;
         background-color: $c__neutral--4;
         padding-bottom: 68%;
         height: 0;
