@@ -10,7 +10,7 @@ tags:
   - United States
 discussion: closed
 ---
-{% figure l-hang-right %}
+{% figure class:'l-pull-left' %}
 ![Flight information screen](/assets/images/2009/02/sfo_lhr.jpg)
 {% endfigure %}
 

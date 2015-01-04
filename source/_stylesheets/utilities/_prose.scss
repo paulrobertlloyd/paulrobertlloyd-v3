@@ -35,11 +35,11 @@
         margin-bottom: $u__baseline/2;
     }
 
-    pre,
-    blockquote,
-    figure,
-    table,
-    fieldset {
+    > pre,
+    > blockquote,
+    > figure,
+    > table,
+    > fieldset {
         margin-bottom: $u__baseline*1.5;
     }
 
@@ -52,16 +52,6 @@
         border-left: 0.5rem solid $c__neutral--8; // 8px
         padding-left: 0.75rem; // 12px
         color: $c__neutral--3;
-    }
-
-    figcaption {
-        @include rule(after);
-        padding-top: $u__baseline/2;
-        padding-bottom: $u__baseline/2;
-
-        p {
-            @include caption;
-        }
     }
 
     strong {
@@ -93,13 +83,6 @@
     .l-align-left,
     .l-align-right {
         width: 25%;
-    }
-
-    .l-bleed {
-        figcaption {
-            padding-right: $u__gutter;
-            padding-left: $u__gutter;
-        }
     }
 
     .caps {

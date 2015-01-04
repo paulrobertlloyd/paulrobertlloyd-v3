@@ -37,20 +37,10 @@
 }
 
 
-// Grid
-@mixin grid($grid-element, $cols) {
-    margin: 0 -1em;
-    overflow: hidden;
-
-    #{$grid-element} {
-        display: block;
-        float: left;
-        padding: 0 1em;
-        width: percentage(1/$cols);
-
-        &:nth-child(#{$cols}n + 1) {
-            clear: left;
-        }
+// Media Queries
+@mixin mq($breakpoint) {
+    @media only screen and (min-width: $breakpoint) {
+        @content;
     }
 }
 

@@ -11,7 +11,7 @@ tag:
 ---
 Following five days in Austin, I ventured on to San Francisco. A quick stop arranged primarily to catch up with friends, I made sure my stay would be long enough to see all the sights I neglected to visit whilst I was a resident.
 
-{% figure l-bleed "Boats docked in Fisherman's Wharf" %}
+{% figure class:'l-bleed', caption:'Boats docked in Fisherman's Wharf' %}
 ![](/assets/images/2011/03/san_francisco_fishermans_wharf.jpg)
 {% endfigure %}
 
@@ -23,7 +23,7 @@ The following day I visited SFMoMA, a modern art museum that is far more spaciou
 
 Before going on to visit the equally impressive City Hall, I enjoyed a discussion about the role of technology with [Tristan][1] in South Park, whilst sipping an Iced Latte -- when in Rome do as the Romans do. That evening I shared a selection of scrumptious pizzas at Zero Zero with David and Athena whilst catching up on the latest gossip and industry insight.
 
-{% figure "Outdoor corridor at Stanford University" %}
+{% figure caption:'Outdoor corridor at Stanford University' %}
 ![](/assets/images/2011/03/san_francisco_stanford_university.jpg)
 {% endfigure %}
 

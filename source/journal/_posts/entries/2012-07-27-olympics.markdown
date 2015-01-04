@@ -8,7 +8,7 @@ tags:
   - Olympics
   - London 2012
 ---
-{% figure l-bleed "Olympic Opening Ceremony rehearsals" %}
+{% figure class:'l-bleed', caption:'Olympic Opening Ceremony rehearsals' %}
 ![](/assets/images/2012/07/olympics.jpg)
 {% endfigure %}
 

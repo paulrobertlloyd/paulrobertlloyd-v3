@@ -10,7 +10,7 @@ tags:
   - Travel
 discussion: closed
 ---
-{% figure l-bleed "Bradshaw's Guide being viewed on an iPhone" %}
+{% figure class:'l-bleed', caption:'Bradshaw's Guide being viewed on an iPhone' %}
 ![](/assets/images/2013/04/bradshaws_guide.png)
 {% endfigure %}
 
@@ -27,7 +27,7 @@ Bradshaw's work is well suited to hypertext, with stations categorised by locati
 
 Besides the historical, technical and artistic aspects, making Bradshaw's work more widely available might also encourage people to spend more time on the railways and holiday at home, rather than fly overseas (readers should ignore the author's current location).
 
-{% figure "Bradshaw's Guide viewed on an iPad" %}
+{% figure caption:'Bradshaw's Guide viewed on an iPad' %}
 ![](/assets/images/2013/04/bradshaws_guide_ipad.png)
 {% endfigure %}
 

@@ -11,7 +11,7 @@ tags:
   - Kiwibank
   - Springload
 ---
-{% figure "The new Kiwibank homepage viewed on different devices" %}
+{% figure caption:'The new Kiwibank homepage viewed on different devices' %}
 ![](/assets/images/2012/05/kiwibank.jpg)
 {% endfigure %}
 

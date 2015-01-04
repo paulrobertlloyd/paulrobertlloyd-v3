@@ -13,21 +13,21 @@ It followed that with a new corporate identity, most elements of the corporation
 
 BBC1 retained the globe, however it was given a new twist by using an orange air balloon styled as a globe, and floating it above different landmarks and regions across Britain, Lambie-Nairn again aiming to reposition the channel. The use of bright orange for the balloon was in strong contrast to the earthy browns, greens and yellows as well as the blues within the sky.
 
-{% figure "Figure 24: BBC1's image was given a new twist with an identity featuring an orange balloon flown over Britain. Later additions to the ident set showed images of people skateboarding, bungee jumping, in carnivals and at a market" %}
+{% figure caption:'Figure 24: BBC1's image was given a new twist with an identity featuring an orange balloon flown over Britain. Later additions to the ident set showed images of people skateboarding, bungee jumping, in carnivals and at a market' %}
 ![BBC One 'English 11' ident, 1997](/assets/images/essays/dissertation/figure-24a.png){: .l-align-left}
 ![BBC One 'Scotish 6' ident, 1997](/assets/images/essays/dissertation/figure-24b.png){: .l-align-left}
 ![BBC One 'Carnival' ident, 2000](/assets/images/essays/dissertation/figure-24c.png){: .l-align-left}
 ![BBC One 'Skateboarders' ident, 2000](/assets/images/essays/dissertation/figure-24d.png){: .l-align-left}
 {% endfigure %}
 
-{% figure "Figure 25: BBC2's idents were left pretty much untouched. A new addition to the collection at this time showed the strength of the identity. This featured a simple paint-pot that mimicked one of the first idents <cite>Paint</cite>. However with more and more idents being added to the collection -- some no longer featuring the viridian colour -- such as <cite>Kebab</cite> shown above, the brand was becoming increasingly weakened" %}
+{% figure caption:'Figure 25: BBC2's idents were left pretty much untouched. A new addition to the collection at this time showed the strength of the identity. This featured a simple paint-pot that mimicked one of the first idents <cite>Paint</cite>. However with more and more idents being added to the collection -- some no longer featuring the viridian colour -- such as <cite>Kebab</cite> shown above, the brand was becoming increasingly weakened' %}
 ![BBC Two 'Paint' ident, 1997](/assets/images/essays/dissertation/figure-25a.png){: .l-align-left}
 ![BBC Two 'Paint Pot' ident, 1997](/assets/images/essays/dissertation/figure-25b.png){: .l-align-left}
 ![BBC Two 'Arial' ident, 1997](/assets/images/essays/dissertation/figure-25c.png){: .l-align-left}
 ![BBC Two 'Kebab' ident, 2000](/assets/images/essays/dissertation/figure-25d.png){: .l-align-left}
 {% endfigure %}
 
-{% figure "Figure 26: All of the BBC's children's output was given a new look, using just the colours yellow and black and a distinct use of simple animation" %}
+{% figure caption:'Figure 26: All of the BBC's children's output was given a new look, using just the colours yellow and black and a distinct use of simple animation' %}
 ![CBBC 'Mouse' ident, 1997](/assets/images/essays/dissertation/figure-26a.png){: .l-align-left}
 ![CBBC 'Mouse' ident, 1997](/assets/images/essays/dissertation/figure-26b.png){: .l-align-left}
 ![CBBC 'Mouse' ident, 1997](/assets/images/essays/dissertation/figure-26c.png){: .l-align-left}
