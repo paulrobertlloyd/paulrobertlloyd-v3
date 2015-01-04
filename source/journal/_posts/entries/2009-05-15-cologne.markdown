@@ -11,7 +11,7 @@ tags:
   - Cologne
 discussion: closed
 ---
-{% figure l-bleed "Cologne Cathedral and Hohenzollern Bridge" %}
+{% figure class:'l-bleed', caption:'Cologne Cathedral and Hohenzollern Bridge' %}
 ![](/assets/images/2009/05/cologne.jpg)
 {% endfigure %}
 

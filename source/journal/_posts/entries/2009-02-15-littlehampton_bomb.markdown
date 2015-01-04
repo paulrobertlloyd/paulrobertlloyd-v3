@@ -9,7 +9,7 @@ tags:
   - Littlehampton
 discussion: closed
 ---
-{% figure l-hang-right %}
+{% figure class:'l-pull-left' %}
 ![Bomb scene in Littlehampton](/assets/images/2009/02/littlehampton_bomb.jpg)
 {% endfigure %}
 

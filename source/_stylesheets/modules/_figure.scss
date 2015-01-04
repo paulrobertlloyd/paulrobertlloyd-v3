@@ -1,0 +1,37 @@
+/*  =========================================================================
+    Figure
+    ========================================================================= */
+
+.figure__caption {
+    @include caption;
+    @include rule(after);
+    clear: left;
+}
+
+
+/* Tweet */
+.figure--tweet {
+    blockquote {
+        position: relative;
+        margin-bottom: $u__baseline;
+        border-left: 0;
+        background-color: $c__neutral--8;
+        padding: $u__baseline/2 $u__gutter/2;
+
+        &::after {
+            display: block;
+            position: absolute;
+            bottom: -($u__baseline/2);
+            left: $u__gutter/2;
+            transform: rotate(45deg);
+            background-color: $c__neutral--8;
+            width: $u__baseline;
+            height: $u__baseline;
+            content: '';
+        }
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+}

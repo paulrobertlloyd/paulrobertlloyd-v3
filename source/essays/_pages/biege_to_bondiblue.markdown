@@ -15,7 +15,7 @@ A standard design for a personal computer did not exist -- in fact the idea of a
 ## The Apple II
 The introduction of the Apple II in 1977 was the first step in changing this view. This was basically an improved version of the Apple I with a couple of additions. It also differed by enclosing the circuitry in a case. Made of plastic, this was the first personal computer to do so.
 
-{% figure "Image taken from an Apple II Advertisement" %}
+{% figure caption:'Image taken from an Apple II Advertisement' %}
 ![The Apple II](/assets/images/essays/beige_to_bondiblue/apple_ii_promotion.jpg)
 {% endfigure %}
 
@@ -46,7 +46,7 @@ Apple's acquisition of NeXT in 1996 brought Steve Jobs back to the company and b
 
 The result was the iMac, and the man responsible for its design was London-born Jonathan Ive -- Apple's Vice President of Industrial Design.
 
-{% figure "The iMac" %}
+{% figure caption:'The iMac' %}
 ![The iMac](/assets/images/essays/beige_to_bondiblue/apple_imac.jpg)
 {% endfigure %}
 

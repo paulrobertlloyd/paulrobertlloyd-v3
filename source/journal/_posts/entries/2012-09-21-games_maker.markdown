@@ -11,7 +11,7 @@ tags:
   - Volunteering
 discussion: closed
 ---
-{% figure l-bleed "Me and my fellow Games Makers in the Olympic Park" %}
+{% figure class:'l-bleed', caption:'Me and my fellow Games Makers in the Olympic Park' %}
 ![](/assets/images/2012/09/games_maker_olympic_park.jpg)
 {% endfigure %}
 
@@ -42,7 +42,7 @@ Surrounded by colleagues of all ages, professions and backgrounds, I was using l
 
 A two-year journey had come to an abrupt end, the nervy expectation of two weeks prior replaced with an uneasy emptiness. Before our first shift, we were told to enjoy ourselves as it would be over before we knew it. And so it was proven.
 
-{% figure "A photo from the final Games Maker shift" %}
+{% figure caption:'A photo from the final Games Maker shift' %}
 ![](/assets/images/2012/09/games_maker_last_night.jpg)
 {% endfigure %}
 

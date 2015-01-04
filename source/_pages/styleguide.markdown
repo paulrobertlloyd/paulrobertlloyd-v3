@@ -64,7 +64,7 @@ The `pre` element represents a block of pre-formatted text, in which structure i
 The `blockquote` element represents a section that is being quoted from another source.
 
 <div class="example" markdown="1">
-{% figure "Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
+{% figure caption:'Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947' %}
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {% endfigure %}
 </div>
@@ -127,7 +127,7 @@ Here is a defined term.
 Figures are usually used to refer to images:
 
 <div class="example" markdown="1">
-{% figure "This is a placeholder image, with supporting caption" %}
+{% figure caption:'This is a placeholder image, with supporting caption' %}
 ![Placeholder image](http://lorempixum.com/680/400/abstract/)
 {% endfigure %}
 </div>
@@ -135,7 +135,7 @@ Figures are usually used to refer to images:
 Here, a part of a poem is marked up using figure:
 
 <div class="example" markdown="1">
-{% figure "<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
+{% figure caption:'<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98' %}
 'Twas brillig, and the slithy toves
 Did gyre and gimble in the wabe;
 All mimsy were the borogoves,

@@ -10,7 +10,7 @@ tags:
   - Steve Jobs
   - Walter Isaacson
 ---
-{% figure l-bleed %}
+{% figure class:'l-bleed' %}
 ![Steve Jobs by Walter Isaacson](/assets/images/2012/01/steve_jobs_by_walter_isaacson.jpg)
 {% endfigure %}
 

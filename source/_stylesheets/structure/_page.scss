@@ -8,7 +8,7 @@
 }
 
 .page__header {
-    padding-bottom: 2rem;
+    padding-bottom: $u__baseline*2;
     order: 1;
 }
 
@@ -26,6 +26,10 @@
     @include fs--double-english;
     color: $c__accent;
     font-weight: 600;
+
+    @include mq($b__a) {
+        @include fs--canon;
+    }
 }
 
 .page__location {

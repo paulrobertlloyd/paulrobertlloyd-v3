@@ -8,7 +8,7 @@ tags:
   - Olympics
   - London 2012
 ---
-{% figure l-bleed "London 2012 Closing Ceremony" %}
+{% figure class:'l-bleed', caption:'London 2012 Closing Ceremony' %}
 ![](/assets/images/2012/08/now_that_the_games_have_gone.jpg)
 {% endfigure %}
 

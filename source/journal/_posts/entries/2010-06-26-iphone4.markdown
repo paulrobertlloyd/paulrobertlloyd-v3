@@ -9,7 +9,7 @@ tags:
   - iPhone
 discussion: closed
 ---
-{% figure bleed "The iPhone 4" %}
+{% figure bleed "The iPhone 4' %}
 ![](/assets/images/2010/06/iphone4.jpg)
 {% endfigure %}
 

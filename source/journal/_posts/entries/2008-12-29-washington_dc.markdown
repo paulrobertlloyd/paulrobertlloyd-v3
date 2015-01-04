@@ -15,7 +15,7 @@ The final stop in my four-city tour of the US in October was Washington, DC I've
 
 Perhaps unsurprisingly, I spent a good deal of time in DC taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country's history.
 
-{% figure l-bleed "The Vietnam Veterans Memorial" %}
+{% figure class:'l-bleed', caption:'The Vietnam Veterans Memorial' %}
 ![](/assets/images/2008/12/washington_dc_vietnam_memorial.jpg)
 {% endfigure %}
 
@@ -23,13 +23,13 @@ Whilst the presidential memorials were large and grandiose, I actually found the
 
 Here two granite walls create a 'V' shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a "wound that is closed and healing".
 
-{% figure l-hang-left "US Marine Corps War Memorial" %}
+{% figure class:'l-pull-left', caption:'US Marine Corps War Memorial' %}
 ![](/assets/images/2008/12/washington_dc_iwo_jima_memorial.jpg)
 {% endfigure %}
 
 I was surprised to find the [US Marine Corps War Memorial][3] (better known as the Iwo Jima Memorial) situated outside of DC, in Arlington, Virginia. Far larger than I was expecting too, this iconic sculpture by [Felix W. de Weldon][4] depicts the scene captured by photographer Joe Rosenthal in [Raising the Flag on Iwo Jima][5] that was taken during World War II.
 
-{% figure l-hang-right "The Netherlands Carillon" %}
+{% figure class:'l-pull-left', caption:'The Netherlands Carillon' %}
 ![](/assets/images/2008/12/washington_dc_netherlands_carillon.jpg)
 {% endfigure %}
 
@@ -39,7 +39,7 @@ Also located in Arlington is the [Pentagon][7]. As the headquarters for the US D
 
 You are however allowed to take photos of the [9/11 memorial][8], in which the 184 victims of that days attack on the Pentagon are remembered in the form of 184 beautifully illuminated benches. The arrangement of benches (positioned in a number of rows according to the victim's ages, from 3 to 71) really brings home the reality of the tragedy.
 
-{% figure l-bleed "The Pentagon Memorial" %}
+{% figure class:'l-bleed', caption:'The Pentagon Memorial' %}
 ![](/assets/images/2008/12/washington_dc_pentagon_memorial.jpg)
 {% endfigure %}
 
@@ -48,7 +48,7 @@ DC is still a relatively young capital, although the many neo-classical styled b
 
 This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind -- with a possible future use as a spaceport! As a sign of Saarinen's foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
 
-{% figure l-bleed "The main terminal building at Washington Dulles International Airport" %}
+{% figure class:'l-bleed', caption:'The main terminal building at Washington Dulles International Airport' %}
 ![](/assets/images/2008/12/washington_dc_dulles.jpg)
 {% endfigure %}
 

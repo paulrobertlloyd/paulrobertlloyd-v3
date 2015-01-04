@@ -15,7 +15,7 @@ Last month [I wrote about Bradshaw's Guide][1], a project that brings George Bra
 ## Bringing Order to Typographic Chaos
 Although the content of Bradshaw's Guide is well suited to hypertext, its chaotic and haphazard victorian typography, featuring a mix of fonts, weights and widths, felt somewhat at odds with the more structured nature of the web.
 
-{% figure "Scan of the inside cover of Bradshaw's 1866 railway handbook" %}
+{% figure caption:'Scan of the inside cover of Bradshaw's 1866 railway handbook' %}
 ![](/assets/images/2013/05/web_typography_bradshaws_cover.png)
 {% endfigure %}
 
@@ -23,7 +23,7 @@ To successfully mimic its design, a vast array of fonts and styles would be need
 
 Thankfully, beyond the cover and adverts, the guide is more consistently typeset, with different fonts and styles used to delineate content types. This structure gave me the confidence to keep my font selection limited.
 
-{% figure "Typographic hierarchy used in the original Bradshaw's Guide" %}
+{% figure caption:'Typographic hierarchy used in the original Bradshaw's Guide' %}
 ![](/assets/images/2013/05/web_typography_bradshaws_type.png)
 {% endfigure %}
 
@@ -46,7 +46,7 @@ Finding the right fonts was a particularly drawn out process. Beyond the usual r
 ## The Missing Web Typography Tool
 After an extensive search, I opted to use [Kameron][7] for headings, a chunky slab serif that contrasted strongly with [Linux Libertine][8], a delicate serif I had chosen for body copy.
 
-{% figure "Sample of fonts used on Bradshaw's Guide" %}
+{% figure caption:'Sample of fonts used on Bradshaw's Guide' %}
 ![](/assets/images/2013/05/web_typography_bradshaws_web.png)
 {% endfigure %}
 

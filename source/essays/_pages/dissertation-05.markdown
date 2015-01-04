@@ -9,7 +9,7 @@ As in other areas of contemporary marketing, the idea of "the brand" replaced ol
 
 The first real attempt to create a brand to rival Channel 4's came in 1989 when the Independent Television Association decided to create a new ITV corporate brand for its fragmented network, that would provide a consistent image across its regions with a stylish and meaningful design.
 
-{% figure "<cite>McClellan, 1990</cite>" %}
+{% figure caption:'<cite>McClellan, 1990</cite>' %}
 > English Markell Pockett had to come up with a new logo that could incorporate fifteen regional variations into a single corporate image to counter the strong national images of new satellite stations like BSB.
 {% endfigure %}
 
@@ -17,7 +17,7 @@ This was achieved by developing a generic ITV logo alongside regional variations
 
 Theme specific identities were also created for sport, drama and children's programming. Although a nice idea in theory, some regions refused to use these idents and for those who did, it wasn't long before many adapted them to suit their own tastes. To accept the common logo and identity was seen to be dubbing down their own for which was relied on as a link with their viewers. Furthermore, 1992 saw three regions lose their franchises, and those that replaced them launched with their own idents.
 
-{% figure "Figure 9: As part of ITV's 1989 rebrand, a generic ident was produced that incorporated each regions existing identity. This example shows the ident used in the Tyne Tees region" %}
+{% figure caption:'Figure 9: As part of ITV's 1989 rebrand, a generic ident was produced that incorporated each regions existing identity. This example shows the ident used in the Tyne Tees region' %}
 ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9a.png){: .l-align-left}
 ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9b.png){: .l-align-left}
 ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9c.png){: .l-align-left}
@@ -28,7 +28,7 @@ Theme specific identities were also created for sport, drama and children's prog
 ![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9h.png){: .l-align-left}
 {% endfigure %}
 
-{% figure "Figure 10: The generic ITV logo, shown alongside regional and genre variations" %}
+{% figure caption:'Figure 10: The generic ITV logo, shown alongside regional and genre variations' %}
 ![ITV logo, 1989](/assets/images/essays/dissertation/figure-10a.png){: .l-align-left}
 ![ITV Childrens logo, 1989](/assets/images/essays/dissertation/figure-10b.png){: .l-align-left}
 ![ITV Sport logo, 1989](/assets/images/essays/dissertation/figure-10c.png){: .l-align-left}
@@ -47,7 +47,7 @@ Whilst BBC1's slightly wooden and stayed COW ident was popular, BBC2's hadn't ma
 
 In 1990, Martin Lambie-Nairn -- a former employee of the BBC's in-house graphics department during the 1960's -- was brought in to refresh the identities of both channels.
 
-{% figure "<cite>Aldersey-Williams, 1993</cite>" %}
+{% figure caption:'<cite>Aldersey-Williams, 1993</cite>' %}
 > The identity for BBC1 retained a globe as the central element, reminding viewers of the BBC's self-appointed role as a kind of super-national messenger.
 {% endfigure %}
 
@@ -57,13 +57,13 @@ For BBC2, Lambie-Nairn used a far more radical approach by creating a family of 
 
 Whilst BBC1's image was designed to endure and remain graphically appealing, BBC2's identity would be developed over time. Consistency was also brought to each channel, with all promotional material carrying the channel logos in fixed positions on screen, and all other information such as programme start times, menus, apologies etc. set in the Futura typeface.
 
-{% figure "Figure 11: The BBC's branding was consistent across both channels and also its children's programming" %}
+{% figure caption:'Figure 11: The BBC's branding was consistent across both channels and also its children's programming' %}
 ![BBC One ident, 1991](/assets/images/essays/dissertation/figure-11a.png){: .l-align-left}
 ![BBC Two 'Paint' ident, 1991](/assets/images/essays/dissertation/figure-11b.png){: .l-align-left}
 ![Childrens BBC ident, 1991](/assets/images/essays/dissertation/figure-11c.png)
 {% endfigure %}
 
-{% figure "Figure 12: BBC2 had a variety of idents that were added to over the following years" %}
+{% figure caption:'Figure 12: BBC2 had a variety of idents that were added to over the following years' %}
 ![BBC Two 'Blade' ident, 1991](/assets/images/essays/dissertation/figure-12a.png){: .l-align-left}
 ![BBC Two 'Dog' ident, 1993](/assets/images/essays/dissertation/figure-12b.png){: .l-align-left}
 ![BBC Two 'Car' ident, 1993](/assets/images/essays/dissertation/figure-12c.png){: .l-align-left}
@@ -72,7 +72,7 @@ Whilst BBC1's image was designed to endure and remain graphically appealing, BBC
 
 After what Lambie-Nairn described as a 'repositioning' of the two channels, both were seen as more up-to-date and accessible, without destroying BBC1's already strong image. The BBC2 identities became a particular hit, both with the public and within the design industry. With no change to its programming, BBC2 was now seen as sophisticated, witty and entertaining. The '2' figure was developed further over the following years with idents such as 'Fluffy Dog' in which an excitable figure two leaps into the air and summersaults, and 'Car' in which the 2 becomes a remote controlled car that whizzes around the screen, both becoming firm favourites with the audience. Alan Yentob, controller of BBC2 at the time, was quoted as saying:
 
-{% figure "<cite>Lambie-Nairn, 1997, p122</cite>" %}
+{% figure caption:'<cite>Lambie-Nairn, 1997, p122</cite>' %}
 > It has received lots of fan mail and correspondence. We will definitely be renewing its contract.
 {% endfigure %}
 
