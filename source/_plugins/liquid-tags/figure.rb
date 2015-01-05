@@ -2,7 +2,7 @@
 # Creates a <figure> element with optional class(es) and caption.
 #
 # USAGE
-# {% figure class: [class name], caption: ['Optional caption'] %}
+# {% figure class:[class name], caption:['Caption'] %}
 # Figure content
 # {% endfigure %}
 #
