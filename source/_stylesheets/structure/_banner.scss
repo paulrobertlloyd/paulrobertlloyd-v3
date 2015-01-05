@@ -8,6 +8,10 @@
     padding-bottom: $u__baseline*4;
 }
 
+.banner__container {
+    @include container($u__max-width);
+}
+
 .banner__title {
     text-align: center;
     line-height: 0.1;

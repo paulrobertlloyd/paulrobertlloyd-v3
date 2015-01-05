@@ -38,7 +38,6 @@ $remark__avatar-size: $u__gutter*2;
 }
 
 .remark__avatar {
-    @include l-align-left;
     position: absolute;
     top: 0;
     left: 0;

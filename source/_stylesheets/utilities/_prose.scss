@@ -84,14 +84,17 @@
         @include c2sc;
     }
 
-    .l-align-left,
     .l-align-right {
-        width: 25%;
+        @include span(2 of 6 last);
+        margin-left: gutter();
+    }
+
+    .l-align-left {
+        @include span(2 of 6);
     }
 
     .l-bleed,
     .l-pull-left {
-        @include clearfix;
         @include span(10 of 8 wider);
         margin-left: -(span(1 wider));
     }

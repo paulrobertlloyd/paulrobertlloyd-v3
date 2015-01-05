@@ -2,8 +2,7 @@
     Main content
     ========================================================================= */
 
-.main {
-    .l-container {
-        padding-bottom: $u__baseline*4;
-    }
+.main__container {
+    @include container($u__max-width);
+    padding-bottom: $u__baseline*4;
 }
