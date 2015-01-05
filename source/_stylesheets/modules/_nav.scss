@@ -12,12 +12,31 @@
 /* Primary navigation  */
 .nav--primary {
     @include fs--english;
+    @include clearfix;
+
+    .nav__item {
+        @include span(1 of 3);
+        margin-bottom: $u__baseline/2;
+
+        &:nth-child(3n) {
+            @include last;
+        }
+    }
 }
 
 
 /* Secondary navigation */
 .nav--secondary {
     @include fs--english;
+    @include clearfix; 
+
+    .nav__item {
+        @include span(1 of 3);
+
+        &:nth-child(3n) {
+            @include last;
+        }
+    }
 }
 
 

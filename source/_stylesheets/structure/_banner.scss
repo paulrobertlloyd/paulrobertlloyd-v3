@@ -5,7 +5,7 @@
 .banner {
     margin-bottom: $u__baseline;
     border-bottom: 1px solid rgba($c__accent, 0.4);
-    padding-bottom: 8rem;
+    padding-bottom: $u__baseline*4;
 }
 
 .banner__title {

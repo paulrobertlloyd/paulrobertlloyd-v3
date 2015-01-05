@@ -199,4 +199,9 @@
 @mixin l-bleed {
     margin-right: -$u__gutter;
     margin-left: -$u__gutter;
+
+    @include mq($b__a) {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }

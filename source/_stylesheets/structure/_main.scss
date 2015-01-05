@@ -3,5 +3,7 @@
     ========================================================================= */
 
 .main {
-    padding-bottom: $u__baseline*4;
+    .l-container {
+        padding-bottom: $u__baseline*4;
+    }
 }

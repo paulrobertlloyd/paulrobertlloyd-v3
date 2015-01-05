@@ -4,6 +4,8 @@
 
 .page {
     display: flex;
+    padding-right: span(1 wide);
+    padding-left: span(1 wide);
     flex-direction: column;
 }
 
@@ -29,6 +31,7 @@
 
     @include mq($b__a) {
         @include fs--canon;
+        @include span(6 of 8);
     }
 }
 

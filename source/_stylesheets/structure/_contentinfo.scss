@@ -13,6 +13,11 @@
 
 .contentinfo__about {
     @include fs--english;
+    margin-bottom: $u__baseline;
+
+    @include mq($b__a) {
+        @include span(3 of 6);
+    }
 
     [rel="home"] {
         color: inherit;
@@ -20,17 +25,24 @@
 }
 
 .contentinfo__navigation {
+    margin-bottom: $u__baseline;
+
+    @include mq($b__a) {
+        @include span(3 of 6 last);
+    }
+
     .nav__item__label {
         color: $c__neutral--9;
     }
 }
 
 .contentinfo__legal {
+    @include break;
+    @include span(6 of 6);
+
     &::before {
         display: block;
-        margin-right: -$u__gutter;
         margin-bottom: $u__baseline;
-        margin-left: -$u__gutter;
         border-top: 1px solid $c__neutral--5;
         content: '';
     }

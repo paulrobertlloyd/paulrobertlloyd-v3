@@ -51,5 +51,23 @@ $b__b: 45em; // 720px
 $b__c: 64em; // 1024px
 
 
-// Grid
-$g__col-width: 80px;
+// Grid (Susy)
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: auto,
+  container-position: center,
+  columns: 8,
+  gutters: 0.5,
+  column-width: false,
+  global-box-sizing: border-box,
+  last-flow: to,
+  debug: (
+    image: true,
+    color: rgba(#f00, 0.1),
+    output: overlay,
+    toggle: top right,
+  )
+);

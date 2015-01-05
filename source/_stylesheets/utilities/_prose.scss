@@ -80,12 +80,35 @@
         }
     }
 
+    .caps {
+        @include c2sc;
+    }
+
     .l-align-left,
     .l-align-right {
         width: 25%;
     }
 
-    .caps {
-        @include c2sc;
+    .l-bleed,
+    .l-pull-left {
+        @include clearfix;
+        @include span(10 of 8 wider);
+        margin-left: -(span(1 wider));
+    }
+
+    .l-bleed {
+        .figure__caption {
+            padding-left: (span(1 wide));
+        }
+    }
+
+    .l-pull-left {
+        .figure__main {
+            @include span(6);
+        }
+
+        .figure__caption {
+            @include span(2 last);
+        }
     }
 }

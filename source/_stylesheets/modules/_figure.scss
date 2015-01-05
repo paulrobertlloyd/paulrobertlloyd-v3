@@ -5,7 +5,6 @@
 .figure__caption {
     @include caption;
     @include rule(after);
-    clear: left;
 }
 
 

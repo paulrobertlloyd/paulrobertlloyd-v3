@@ -3,11 +3,7 @@
     ========================================================================= */
 
 .l-container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $u__gutter;
-    padding-left: $u__gutter;
-    max-width: 57.5em;
+    @include container(57.5em)
 }
 
 .l-bleed {
