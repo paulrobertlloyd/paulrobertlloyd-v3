@@ -11,3 +11,21 @@
         display: inline;
     }
 }
+
+.list--related {
+    @include mq($b__a) {
+        @include clearfix;
+    }
+
+    .list__item {
+        @include mq($b__a) {
+            @include span(2 of 6);
+        }
+
+        &:last-child {
+            @include mq($b__a) {
+                @include last;
+            }
+        }
+    }
+}

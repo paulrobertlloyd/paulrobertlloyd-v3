@@ -28,14 +28,13 @@ group :jekyll_plugins do
   gem 'jekyll-minify-html'
   gem 'jekyll-pypedown'
   gem 'jekyll-sitemap'
+
+  gem 'exiftool'
+  gem 'susy'
+  gem 'therubyracer'
+  gem 'typogruby'
+  gem 'uglifier'
 end
 
 # Rake (manages build tasks)
 gem 'rake'
-
-# Other dependancies
-gem 'exiftool'
-gem 'nokogiri'
-gem 'therubyracer'
-gem 'typogruby'
-gem 'uglifier'
