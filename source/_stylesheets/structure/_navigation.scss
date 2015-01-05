@@ -8,3 +8,7 @@
     right: 0;
     left: 0;
 }
+
+.navigation__container {
+    @include container($u__max-width);
+}
