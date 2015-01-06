@@ -31,7 +31,6 @@
 
     @include mq($b__a) {
         @include fs--canon;
-        @include span(6 of 8);
     }
 }
 

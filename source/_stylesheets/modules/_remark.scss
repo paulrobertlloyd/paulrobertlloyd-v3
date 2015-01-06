@@ -1,15 +1,12 @@
 /*  =========================================================================
     Remark
     ========================================================================= */
-$remark__avatar-size: $u__gutter*2;
-
 .remark {
+    @include span(10 of 8);
     display: flex;
     position: relative;
-    clear: both;
-    margin-bottom: 1rem;
-    padding-left: $remark__avatar-size + 1rem;
-    min-height: $remark__avatar-size;
+    margin-left: -(span(1 wider));
+    padding-left: span(1 wider);
     flex-direction: column;
 }
 
@@ -41,8 +38,8 @@ $remark__avatar-size: $u__gutter*2;
     position: absolute;
     top: 0;
     left: 0;
-    width: $remark__avatar-size;
-    height: $remark__avatar-size;
+    width: span(1 of 8);
+    height: auto;
 }
 
 .remark__pubdate {

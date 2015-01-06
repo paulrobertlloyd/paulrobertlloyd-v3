@@ -2,11 +2,15 @@
     Section
     ========================================================================= */
 
+.section {
+    margin-top: $u__baseline;
+    margin-bottom: $u__baseline*2;
+}
+
 .section__title {
     @include ff--sans-serif(600);
     @include fs--paragon;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: $u__baseline/2;
 
     .section--is-expandable & {
         display: inline-block;

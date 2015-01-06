@@ -84,6 +84,8 @@
         @include c2sc;
     }
 
+    // TODO: Decide appropriate names for these figure layouts
+    // Align element right or left
     .l-align-right {
         @include span(2 of 6 last);
         margin-left: gutter();
@@ -93,9 +95,22 @@
         @include span(2 of 6);
     }
 
+    // Hang element to the left
+    .l-hang-left {
+        @include span(3 of 6);
+        margin-left: -(span(1 wider));
+
+        &.figure {
+            margin-bottom: 0;
+        }
+    }
+
+    // Bleed element to edges of page
+    // Pull places figure image to left of caption
     .l-bleed,
     .l-pull-left {
-        @include span(10 of 8 wider);
+        @include span(10 of 8 wider last);
+        margin-right: -(span(1 wider));
         margin-left: -(span(1 wider));
     }
 

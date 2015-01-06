@@ -2,9 +2,46 @@
     Figure
     ========================================================================= */
 
+.figure__main {
+    margin-bottom: $u__baseline/2;
+
+    // TODO: Review these overrides
+    p {
+        @include clearfix;
+    }
+
+    > p:last-child {
+        margin-bottom: 0;
+    }
+}
+
 .figure__caption {
     @include caption;
     @include rule(after);
+}
+
+
+/* 2up */
+.figure--2up {
+    img {
+        @include span(4 of 8);
+
+        &:nth-of-type(2n) {
+            @include last;
+        }
+    }
+}
+
+
+/* 4up */
+.figure--4up {
+    img {
+        @include span(2 of 8);
+
+        &:nth-of-type(4n) {
+            @include last;
+        }
+    }
 }
 
 
