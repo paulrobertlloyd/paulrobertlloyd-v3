@@ -11,8 +11,10 @@ layout: default
 
         {% capture album_path %}{{ page.path | replace: 'photos/_posts/','assets/images/photos/' | remove: '.markdown' }}{% endcapture %}
         {% directory path: album_path %}
-        <figure>
-            <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
+        <figure class="figure l-pull-left">
+            <div class="figure__main">
+                <img src="{{ site.img_url }}/800w/80{{ file.url | remove: 'assets/images/' }}" alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" />
+            </div>
             {% include html/content/exif-info.html %}
         </figure>
         {% enddirectory %}
