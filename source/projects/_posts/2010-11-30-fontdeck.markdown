@@ -41,7 +41,7 @@ Improving the product in discreet stages sounded appealing, but beyond a few tec
 
 The design used during private and public beta phases of the product roll-out no longer aligned with our redefined proposition, yet elements were retained to form the basis of what followed. The colour palette required only subtle changes; the signature dark blue colour was made slightly dustier, the saturated font category colours more muted.
 
-The original brand font was FF Info, but as this wasn't in our catalogue it didn't make sense to use it. In its place, I paired Adelle (lots of characters at different sizes) with PT Sans (legible at small sizes). Where web-safe alternatives were required (e.g. HTML newsletters), Georgia and Lucida Grande were chosen as fallbacks.
+The original brand font was FF Info, but as this wasn't in our catalogue it didn't make sense to use it. In its place, I paired Adelle (lots of character at different sizes) with PT Sans (legible at small sizes). Where web-safe alternatives were required (e.g. HTML newsletters), Georgia and Lucida Grande were chosen as fallbacks.
 
 ## Communicating professionalism
 {% figure caption:'Font family page' %}
