@@ -2,9 +2,7 @@
 layout: default
 ---
 <section class="page page--index">
-    <header class="page__header">
-        <h1 class="page__title">{{ page.title | smart }}</h1>
-    </header>
+    {% include html/structure/page__header.html %}
 
     <div class="page__main">
         {{ content }}
