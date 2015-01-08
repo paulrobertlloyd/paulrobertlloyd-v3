@@ -105,22 +105,24 @@
         }
     }
 
-    // Bleed element to edges of page
-    // Pull places figure image to left of caption
-    .l-bleed,
-    .l-pull-left {
+    // Elements that bleed to edges of container
+    %bleed {
         @include span(10 of 8 wider last);
         margin-right: -(span(1 wider));
         margin-left: -(span(1 wider));
     }
 
     .l-bleed {
+        @extend %bleed;
+
         .figure__caption {
             padding-left: (span(1 wide));
         }
     }
 
     .l-pull-left {
+        @extend %bleed;
+
         .figure__main {
             @include span(6);
         }
@@ -128,5 +130,10 @@
         .figure__caption {
             @include span(2 last);
         }
+    }
+
+    .embed--video {
+        @extend %bleed;
+        padding-bottom: 75%;
     }
 }

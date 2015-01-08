@@ -26,8 +26,10 @@ module Jekyll
       @path = @uri.path
       @query = @uri.query
 
-      def embedCode(embed_type, embed_url, embed_action)
-        %|<div class="embed embed--#{embed_type}" data-src="#{embed_url}"><a class="button" href="#{@uri}">#{embed_action}</a></div>|
+      def embedCode(embed_type, embed_src, embed_action)
+        %Q[<p class="embed" data-embed-src="#{embed_src}" data-embed-type="#{embed_type}">
+            <a class="button" href="#{@uri}">#{embed_action}</a>
+        </p>]
       end
 
       if @host.to_s.include? 'youtube.com'

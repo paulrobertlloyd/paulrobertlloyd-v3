@@ -5,19 +5,19 @@ layout: default
     {% include html/structure/page__header.html %}
 
     <div class="page__main">
-        {% if page.link-embed %}
-            {% embed {{ page.link }} %}
-        {% endif %}
-
         <div class="prose  e-content">
-            {{ content | widont }}
-        </div>
+            {% if page.link-embed %}
+                {% embed {{ page.link }} %}
+            {% endif %}
 
-        {% if page.link-embed == null %}
-            <aside class="page__aside">
-                <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
-            </aside>
-        {% endif %}
+            {{ content | widont }}
+
+            {% if page.link-embed == null %}
+                <aside class="page__aside">
+                    <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
+                </aside>
+            {% endif %}
+        </div>
 
         {% if page.tags %}
             {% include html/sections/tags.html %}

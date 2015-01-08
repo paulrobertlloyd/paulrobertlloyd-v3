@@ -18,7 +18,7 @@
         margin-top: -0.125rem; // -2px
         margin-bottom: 0;
         background-color: $c__neutral--8;
-        padding: 0.25rem;
+        padding: ($u__baseline / 4);
         white-space: nowrap;
     }
 }

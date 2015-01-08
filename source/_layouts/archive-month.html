@@ -1,13 +1,7 @@
 ---
-layout: default
+layout: index
 template: archive-month
 ---
-<section class="page page--index">
-    <header class="page__header">
-        <h1 class="page__title">{{ page.title | date: "%B %Y" }}</h1>
-    </header>
-
-    {% for summary in page.posts %}
-        {% include html/sections/summary.html %}
-    {% endfor %}
-</section>
+{% for summary in page.posts %}
+    {% include html/sections/summary.html %}
+{% endfor %}
