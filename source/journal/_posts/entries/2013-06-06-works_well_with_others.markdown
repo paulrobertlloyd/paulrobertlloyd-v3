@@ -18,7 +18,7 @@ Still, there are times when I'm responsible for visual design alone. This inevit
 
 A single-handed approach has its downsides, though. In seeking full ownership of a design and its implementation, a broader perspective can be lost. Critique and code review is essential.
 
-Recently, we have started holding weekly design reviews. Not only can I share my work with others in the company, but I’m forced to articulate the micro-processes that have taken place internally. Anyone in the company can attend, and some of the most interesting discussions have touched on how developers interpret visual design comps. In short, it is easy for both parties to make assumptions, and only closer co-operation can prevent this from happening.
+Recently, we have started holding weekly design reviews. Not only can I share my work with others in the company, but I'm forced to articulate the micro-processes that have taken place internally. Anyone in the company can attend, and some of the most interesting discussions have touched on how developers interpret visual design comps. In short, it is easy for both parties to make assumptions, and only closer co-operation can prevent this from happening.
 
 After a decade of self-contained practice, designers and developers are now having to open up to each other. In this new world, is there any room left for solo artists?
 
