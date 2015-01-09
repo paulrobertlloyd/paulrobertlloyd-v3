@@ -11,10 +11,10 @@ project_info:
   year: Ongoing
   role: Design and front-end development
 related_posts:
-  - title: '(Re)introducing Bradshaw’s Guide'
+  - title: '(Re)introducing Bradshaw's Guide'
     url: http://paulrobertlloyd.com/2013/04/bradshaws_guide
 ---
-Largely inspired by the popular BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw’s 1866 handbook for tourists exploring Britain’s railways.
+Largely inspired by the popular BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw's 1866 handbook for tourists exploring Britain's railways.
 
 In his TV travelogue, Michael Portillo explores Britain's railway network and, guided by Bradshaw's guidebook, looks at how the destinations have changed between Victorian and modern times. While you can buy reproductions of Bradshaw's handbook, it's over an inch thick -- pocket-sized by Victorian standards, but not in today's world of mobile phones. By making Bradshaw's work more widely accessible, tourists might feel encouraged to spend more time on the railways and commuters may discover the hidden gems they pass every day.
 

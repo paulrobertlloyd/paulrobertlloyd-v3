@@ -37,7 +37,7 @@ While other in-house and third-party teams were responsible for implementing the
 {% figure caption:'Community landing page' %}
 {% endfigure %}
 
-I sought to distinguish nGenera’s web presence by creating an immersive and premium experience, realised through the use of deep blues accented by highly saturated colours from a complementary palette. Working with [Matt Pearson][2], I produced an carousel device for use on the homepage that introduced customers to the company’s range of products and services.
+I sought to distinguish nGenera's web presence by creating an immersive and premium experience, realised through the use of deep blues accented by highly saturated colours from a complementary palette. Working with [Matt Pearson][2], I produced an carousel device for use on the homepage that introduced customers to the company's range of products and services.
 
 {% include html/content/project-info.html %}
 
