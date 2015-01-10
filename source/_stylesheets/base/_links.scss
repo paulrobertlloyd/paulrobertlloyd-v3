@@ -14,7 +14,7 @@ a {
         color: $c__link--hover;
     }
 
-    a:active {
+    &:active {
     /*  Remove gray background color from active links in IE 10 */
         background-color: transparent;
         color: $c__link--active;

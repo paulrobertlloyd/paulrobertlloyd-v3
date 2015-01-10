@@ -24,6 +24,11 @@ I haven't spent nearly enough time in this 'Area of Outstanding Natural Beauty',
 ![](/assets/images/2009/01/day_one_cannock_chase_2.jpg)
 {% endfigure %}
 
+{% figure class:'figure--2up', caption:'More scenes from Cannock Chase' %}
+![](/assets/images/2009/01/day_one_cannock_chase_3.jpg)
+![](/assets/images/2009/01/day_one_cannock_chase_4.jpg)
+{% endfigure %}
+
 This way of celebrating the arrival of a new year actually seems far more appropriate than getting drunk and starting it with a hang over. To spend the first few hours exploring a little piece of the English countryside felt like a real treat, and for that reason, I think a new yearly tradition has been born.
 
 [1]: http://www.bbc.co.uk/6music/shows/adamandjoe/

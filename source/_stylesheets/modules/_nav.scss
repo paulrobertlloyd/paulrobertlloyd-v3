@@ -41,20 +41,26 @@
 
 
 /* Series navigation */
-//.nav--series,
-//.nav--years {
-//    .nav__item {
-//        border-top: 1px solid $c__neutral-6;
-//        padding: 0.25rem 0;
-//    }
-//}
+.nav--series,
+.nav--years {
+    .nav__item {
+        border-top: 1px solid rgba($c__accent, 0.33);
+        padding-top: ($u__baseline / 4);
+        padding-bottom: ($u__baseline / 2);
+    }
+
+    .nav__item__label {
+        @include fs--english;
+        display: block;
+    }
+}
 
 
 /* Page navigation */
 .nav--pagination {
     position: relative;
-    border-top: 1px solid rgba($c__accent, 0.4);
-    height: $u__baseline*2;
+    border-top: 1px solid rgba($c__accent, 0.33);
+    height: ($u__baseline * 2);
     overflow: hidden;
 
     &::before {
@@ -63,13 +69,13 @@
         top: 0;
         bottom: 0;
         left: 50%;
-        border-right: 1px dashed rgba($c__accent, 0.4);
+        border-right: 1px dashed rgba($c__accent, 0.33);
         width: 1px;
         content: '';
     }
 
     .nav__item {
-        line-height: $u__baseline*2;
+        line-height: ($u__baseline * 2);
 
         .nav__item__icon {
             fill: $c__link;

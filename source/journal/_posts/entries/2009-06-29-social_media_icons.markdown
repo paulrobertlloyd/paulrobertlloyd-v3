@@ -47,7 +47,7 @@ style: |
   .icon--amazon { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -70px;}
   .icon--readernaut { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -140px;}
   .icon--creativecommons { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -210px;}
-  .icon--px500 { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -280px;}
+  .icon--500px { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -280px;}
   .icon--adn { background: url(/assets/images/2009/06/social_media_icons_black_v1100.png) no-repeat 0 -350px;}
   .icon--speakerdeck { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 0;}
   .icon--forrst { background: url(/assets/images/2009/06/social_media_icons_green_v1100.png) no-repeat 0 -70px;}
@@ -109,7 +109,7 @@ I've often found myself requiring icons when linking to or referencing different
 
 ## Included Icons
 <ul class="list list--icons">
-    <li class="list__item"><span class="icon icon--icon--px500">500px</span></li>
+    <li class="list__item"><span class="icon icon--500px">500px</span></li>
     <li class="list__item"><span class="icon icon--aim">AIM</span></li>
     <li class="list__item"><span class="icon icon--amazon">Amazon</span></li>
     <li class="list__item"><span class="icon icon--adn">App.net</span></li>
