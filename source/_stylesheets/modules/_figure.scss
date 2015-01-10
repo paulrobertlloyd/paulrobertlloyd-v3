@@ -1,28 +1,22 @@
 /*  =========================================================================
     Figure
     ========================================================================= */
-
-.figure__main {
-    margin-bottom: $u__baseline/2;
-
-    // TODO: Review these overrides
-    p {
-        @include clearfix;
-    }
-
-    > p:last-child {
-        margin-bottom: 0;
-    }
-}
-
 .figure__caption {
     @include caption;
     @include rule(after);
 }
 
 
-/* 2up */
+/* Ups */
+%figure--up {
+    p {
+        @include clearfix;
+    }
+}
+
 .figure--2up {
+    @extend %figure--up;
+
     img {
         @include span(4 of 8);
 
@@ -32,14 +26,40 @@
     }
 }
 
+.figure--3up {
+    @extend %figure--up;
 
-/* 4up */
+    img {
+        @include span(2 of 6);
+
+        &:nth-of-type(3n) {
+            @include last;
+        }
+    }
+}
+
 .figure--4up {
+    @extend %figure--up;
+
     img {
         @include span(2 of 8);
 
         &:nth-of-type(4n) {
             @include last;
+        }
+    }
+}
+
+.figure--5up {
+    @extend %figure--up;
+
+    @include with-layout(10, 0.2) {
+        img {
+            @include span(2 of 10);
+
+            &:nth-of-type(5n) {
+                @include last;
+            }
         }
     }
 }

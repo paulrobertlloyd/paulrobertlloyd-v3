@@ -3,16 +3,22 @@
     ========================================================================= */
 
 .section {
-    margin-top: $u__baseline;
-    margin-bottom: $u__baseline*2;
+    margin-bottom: ($u__baseline * 2);
 }
 
 .section__title {
     @include ff--sans-serif(600);
     @include fs--paragon;
-    margin-bottom: $u__baseline/2;
+    margin-bottom: ($u__baseline / 2);
 
     .section--is-expandable & {
         display: inline-block;
     }
+}
+
+.section--series {
+    @include clearfix;
+    @include span(2 of 6 last);
+    margin-right: -(span(1 wider));
+    margin-left: gutter();
 }

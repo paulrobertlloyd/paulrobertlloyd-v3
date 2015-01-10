@@ -9,13 +9,11 @@
 
 module Jekyll
   class FigureTag < Liquid::Block
-
     def initialize(tag_name, markup, tokens)
       super
       @attributes = {}
 
       markup.scan(Liquid::TagAttributes) do |key, value|
-      # TODO: Find preferred method for removing quotes from argument strings
         @attributes[key] = value.gsub(/^'|"/, '').gsub(/'|"$/, '')
       end
     end

@@ -58,8 +58,8 @@
         font-family: $f__sans-serif;
     }
 
-    > * > a {
-        background-image: linear-gradient(to left, rgba($c__link, 0.2), rgba($c__link, 0.2));
+    > * a {
+        background-image: linear-gradient(to left, rgba($c__link, 0.33), rgba($c__link, 0.33));
         background-repeat: repeat-x;
         background-position: 0 90%;
         background-size: 1px 1px;
@@ -67,11 +67,11 @@
 
         &:active,
         &:hover {
-            background-image: linear-gradient(to left, rgba($c__link--hover, 0.4), rgba($c__link--hover, 0.4));
+            background-image: linear-gradient(to left, rgba($c__link--hover, 0.66), rgba($c__link--hover, 0.66));
         }
 
         &:active {
-            background-image: linear-gradient(to left, rgba($c__link--active, 0.4), rgba($c__link--active, 0.4));
+            background-image: linear-gradient(to left, rgba($c__link--active, 0.66), rgba($c__link--active, 0.66));
         }
 
         &.button {
@@ -88,16 +88,29 @@
     // Align element right or left
     .l-align-right {
         @include span(2 of 6 last);
+        margin-bottom: $u__baseline/2;
         margin-left: gutter();
     }
 
     .l-align-left {
         @include span(2 of 6);
+        margin-bottom: $u__baseline/2;
     }
 
     // Hang element to the left
+    .l-hang-right {
+        @include span(3 of 6 last);
+        margin-right: -(span(1 wider));
+        margin-left: gutter();
+
+        &.figure {
+            margin-bottom: 0;
+        }
+    }
+
     .l-hang-left {
         @include span(3 of 6);
+        margin-right: gutter();
         margin-left: -(span(1 wider));
 
         &.figure {
@@ -107,7 +120,8 @@
 
     // Elements that bleed to edges of container
     %bleed {
-        @include span(10 of 8 wider last);
+        @include span(10 of 8 wider);
+        float: none;
         margin-right: -(span(1 wider));
         margin-left: -(span(1 wider));
     }
@@ -117,6 +131,10 @@
 
         .figure__caption {
             padding-left: (span(1 wide));
+        }
+
+        .embed--video {
+            padding-bottom: 75%;
         }
     }
 
@@ -130,10 +148,5 @@
         .figure__caption {
             @include span(2 last);
         }
-    }
-
-    .embed--video {
-        @extend %bleed;
-        padding-bottom: 75%;
     }
 }
