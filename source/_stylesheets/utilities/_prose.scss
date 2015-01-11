@@ -29,6 +29,7 @@
     h2,
     h3,
     p,
+    p > img,
     ul,
     ol,
     dl {
@@ -88,13 +89,11 @@
     // Align element right or left
     .l-align-right {
         @include span(2 of 6 last);
-        margin-bottom: $u__baseline/2;
         margin-left: gutter();
     }
 
     .l-align-left {
         @include span(2 of 6);
-        margin-bottom: $u__baseline/2;
     }
 
     // Hang element to the left
