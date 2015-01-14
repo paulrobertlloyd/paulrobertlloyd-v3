@@ -1,9 +1,18 @@
 /*  =========================================================================
     Figure
     ========================================================================= */
+.figure {
+    position: relative; // Helps position exif-info to bottom of figure__caption
+}
+
 .figure__caption {
     @include caption;
     @include rule(after);
+
+    .l-pull-left & {
+        @include rule(before);
+        @include rule(after, $display: none);
+    }
 }
 
 

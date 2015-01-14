@@ -26,13 +26,13 @@
         @include fs--double-brevier;
     }
 
-    h2,
-    h3,
-    p,
-    p > img,
-    ul,
-    ol,
-    dl {
+    > h2,
+    > h3,
+    > p,
+    > p > img,
+    > ul,
+    > ol,
+    > dl {
         margin-bottom: $u__baseline/2;
     }
 
@@ -119,6 +119,7 @@
 
     // Elements that bleed to edges of container
     %bleed {
+        @include clearfix;
         @include span(10 of 8 wider);
         float: none;
         margin-right: -(span(1 wider));
