@@ -10,11 +10,6 @@ body {
     line-height: $u__baseline-unitless;
     color: $c__neutral--1;
     font-size: $u__font-size;
-
-    &.inverted {
-        background-color: $c__neutral--1;
-        color: $c__neutral--7;
-    }
 }
 
 h1,

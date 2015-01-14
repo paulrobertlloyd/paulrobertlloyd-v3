@@ -42,14 +42,19 @@
 
 
 // Line rule
-@mixin rule($el: 'before', $color: $c__neutral--8) {
+@mixin rule($el: 'before', $color: $c__neutral--8, $display: block) {
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
-            display: block;
-            margin-bottom: $u__baseline/4;
-            border-top: 0.25rem solid $color;
-            width: $u__gutter*2;
+            display: $display;
+            border-top: ($u__baseline / 5) solid $color;
+            width: ($u__baseline * 2);
             content: '';
+            @if $el == 'before' {
+                margin-bottom: ($u__baseline / 5);
+            }
+            @if $el == 'after' {
+                margin-top: ($u__baseline / 5);
+            }
         }
     } @else {
         @error "`#{$el}` is not a valid pseudo-element.";

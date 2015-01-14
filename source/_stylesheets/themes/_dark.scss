@@ -1,0 +1,50 @@
+/*  =========================================================================
+    Theme: Dark
+    ========================================================================= */
+$c__accent--dark: #5eC;
+
+$c__link--dark: lighten($c__accent--dark, 0);
+$c__link--hover--dark: lighten($c__accent--dark, 20%);
+$c__link--active--dark: lighten($c__accent--dark, 40%);
+
+.theme--dark {
+    background-color: $c__neutral--1;
+    color: $c__neutral--7;
+
+    /* Base */
+    a {
+        color: $c__link--dark;
+
+        &:active,
+        &:hover {
+            color: $c__link--hover--dark;
+        }
+
+        &:active {
+            color: $c__link--active--dark;
+        }
+    }
+
+
+    /* Utilities */
+    .button {
+        background: $c__neutral--8;
+        color: $c__neutral--1;
+    }
+
+
+    /* Modules */
+    .exif-info__title {
+        color: $c__neutral--8;
+    }
+
+
+    /* Structure */
+    .banner__logo {
+        fill: $c__neutral--8;
+    }
+
+    .page__title {
+        color: $c__neutral--8;
+    }
+}

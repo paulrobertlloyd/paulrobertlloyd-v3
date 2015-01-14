@@ -18,7 +18,6 @@ $f__monospace: 'Source Code Pro', monospace;
 
 // Colours
 $c__accent: #12c;
-$c__accent--invert: #c21;
 
 $c__neutral: #101112;
 $c__neutral--1: lighten($c__neutral, 10%);
@@ -33,7 +32,7 @@ $c__neutral--9: lighten($c__neutral, 90%);
 
 $c__link: lighten($c__accent, 0);
 $c__link--hover: lighten($c__accent, 20%);
-$c__link--active: $c__accent--invert;
+$c__link--active: lighten($c__accent, 40%);
 
 $c__24-ways: #ff0040;
 $c__unicef-uk: #00aeef;
