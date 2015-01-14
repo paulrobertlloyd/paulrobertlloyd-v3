@@ -75,9 +75,9 @@
 {% if page.template == 'home' %}
     Strong opinions, loosely held
 {% elsif page.template == 'archive-year' %}
-    {{ page.title | date: "%Y" }}
+    {{ page.date | date: "%Y" }}
 {% elsif page.template == 'archive-month' %}
-    {{ page.title | date: "%B %Y" }}
+    {{ page.date | date: "%B %Y" }}
 {% else %}
     {{ page.title | smart }}
 {% endif %} – {{ site.title }}

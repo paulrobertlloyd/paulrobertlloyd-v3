@@ -11,7 +11,7 @@ tags:
   - Barbican Centre
 ---
 {% figure class:'l-bleed', caption:'Le Corbusier' %}
-{% image /2009/05/le_corbusier.jpg present:'bleed' %}
+{% image /2009/05/le_corbusier.jpg preset:'bleed' %}
 {% endfigure %}
 
 Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
