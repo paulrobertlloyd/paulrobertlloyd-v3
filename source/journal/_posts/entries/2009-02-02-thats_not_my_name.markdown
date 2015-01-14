@@ -10,7 +10,7 @@ tags:
   - United States
 discussion: closed
 ---
-{% figure class:'l-pull-left' %}
+{% figure %}
 !['Coll' written on the side of a Starbucks cup](/assets/images/2009/02/thats_not_my_name.jpg)
 {% endfigure %}
 

@@ -4,25 +4,27 @@
     ========================================================================= */
 
 table {
+    @include ff--sans-serif;
     border-collapse: collapse;
     border-spacing: 0;
 }
 
 tbody {
-    margin-bottom: 0.75em; // 12px
+    margin-bottom: $u__baseline;
 }
 
 caption {
-    @include caption;
-    margin: 1rem 0 1rem 0.5rem; // 16px 0 16px 8px
-    caption-side: bottom;
+    @include rule;
+    margin-bottom: ($u__baseline / 2);
     text-align: left;
 }
 
 td,
 th {
     border-top: 1px solid $c__neutral--7;
-    padding: 0.25rem 1.5rem 0.5625rem 0; // 4px 32px 9px 0
+    padding-top: ($u__baseline / 4);
+    padding-right: gutter();
+    padding-bottom: ($u__baseline / 2);
     vertical-align: top;
     text-align: left;
     white-space: nowrap;
@@ -30,10 +32,10 @@ th {
 }
 
 th {
-    @include ff--sans-serif(600);
     border-top-color: $c__neutral--5;
-    padding-bottom: 1rem;
+    padding-bottom: $u__baseline;
     line-height: 1.25;
+    font-weight: 600;
 }
 
 @media print {

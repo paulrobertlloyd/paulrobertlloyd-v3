@@ -27,7 +27,7 @@ Given a constrained budget, the software that managed content on the desktop was
 {% figure caption:'UNICEF colour palette' %}
 {% endfigure %}
 
-We placed considerable attention on ensuring the performance of the site didn’t suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity. These guidelines suggested using Univers on the web, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
+We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity. These guidelines suggested using Univers on the web, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
 
 ## Pattern based approach
 {% figure caption:'Whiteboard showing sketched patterns' %}

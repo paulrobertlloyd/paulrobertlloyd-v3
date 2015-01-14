@@ -17,26 +17,27 @@ This was achieved by developing a generic ITV logo alongside regional variations
 
 Theme specific identities were also created for sport, drama and children's programming. Although a nice idea in theory, some regions refused to use these idents and for those who did, it wasn't long before many adapted them to suit their own tastes. To accept the common logo and identity was seen to be dubbing down their own for which was relied on as a link with their viewers. Furthermore, 1992 saw three regions lose their franchises, and those that replaced them launched with their own idents.
 
-{% figure caption:'Figure 9: As part of ITV's 1989 rebrand, a generic ident was produced that incorporated each regions existing identity. This example shows the ident used in the Tyne Tees region' %}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9a.png){: .l-align-left}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9b.png){: .l-align-left}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9c.png){: .l-align-left}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9d.png){: .l-align-left}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9e.png){: .l-align-left}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9f.png){: .l-align-left}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9g.png){: .l-align-left}
-![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9h.png){: .l-align-left}
+{% figure class:'figure--4up', caption:'Figure 9: As part of ITV's 1989 rebrand, a generic ident was produced that incorporated each regions existing identity. This example shows the ident used in the Tyne Tees region' %}
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9a.png)
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9b.png)
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9c.png)
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9d.png)
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9e.png)
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9f.png)
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9g.png)
+![Tyne Tess ident, 1989](/assets/images/essays/dissertation/figure-9h.png)
 {% endfigure %}
 
-{% figure caption:'Figure 10: The generic ITV logo, shown alongside regional and genre variations' %}
-![ITV logo, 1989](/assets/images/essays/dissertation/figure-10a.png){: .l-align-left}
-![ITV Childrens logo, 1989](/assets/images/essays/dissertation/figure-10b.png){: .l-align-left}
-![ITV Sport logo, 1989](/assets/images/essays/dissertation/figure-10c.png){: .l-align-left}
-![ITV Drama logo, 1989](/assets/images/essays/dissertation/figure-10d.png)<br/>
-![Combined Border logo, 1989](/assets/images/essays/dissertation/figure-10e.png){: .l-align-left}
-![Combined London Weekend Television logo, 1989](/assets/images/essays/dissertation/figure-10f.png){: .l-align-left}
-![Combined Thames Television logo, 1989](/assets/images/essays/dissertation/figure-10g.png){: .l-align-left}
-![Combined Yorkshire Television logo, 1989](/assets/images/essays/dissertation/figure-10h.png){: .l-align-left}
+{% figure class:'figure--4up', caption:'Figure 10: The generic ITV logo, shown alongside regional and genre variations' %}
+![ITV logo, 1989](/assets/images/essays/dissertation/figure-10a.png)
+![ITV Childrens logo, 1989](/assets/images/essays/dissertation/figure-10b.png)
+![ITV Sport logo, 1989](/assets/images/essays/dissertation/figure-10c.png)
+![ITV Drama logo, 1989](/assets/images/essays/dissertation/figure-10d.png)
+
+![Combined Border logo, 1989](/assets/images/essays/dissertation/figure-10e.png)
+![Combined London Weekend Television logo, 1989](/assets/images/essays/dissertation/figure-10f.png)
+![Combined Thames Television logo, 1989](/assets/images/essays/dissertation/figure-10g.png)
+![Combined Yorkshire Television logo, 1989](/assets/images/essays/dissertation/figure-10h.png)
 {% endfigure %}
 
 With both Channel 4 and ITV having modern idents, the BBC's two channels were starting to look outdated and dull. The BBC has a special place in broadcasting, as it does in the nations cultural fabric (sometimes affectionately referred to as 'Auntie' Beeb).
@@ -57,16 +58,16 @@ For BBC2, Lambie-Nairn used a far more radical approach by creating a family of 
 
 Whilst BBC1's image was designed to endure and remain graphically appealing, BBC2's identity would be developed over time. Consistency was also brought to each channel, with all promotional material carrying the channel logos in fixed positions on screen, and all other information such as programme start times, menus, apologies etc. set in the Futura typeface.
 
-{% figure caption:'Figure 11: The BBC's branding was consistent across both channels and also its children's programming' %}
-![BBC One ident, 1991](/assets/images/essays/dissertation/figure-11a.png){: .l-align-left}
-![BBC Two 'Paint' ident, 1991](/assets/images/essays/dissertation/figure-11b.png){: .l-align-left}
+{% figure class:'figure--3up', caption:'Figure 11: The BBC's branding was consistent across both channels and also its children's programming' %}
+![BBC One ident, 1991](/assets/images/essays/dissertation/figure-11a.png)
+![BBC Two 'Paint' ident, 1991](/assets/images/essays/dissertation/figure-11b.png)
 ![Childrens BBC ident, 1991](/assets/images/essays/dissertation/figure-11c.png)
 {% endfigure %}
 
-{% figure caption:'Figure 12: BBC2 had a variety of idents that were added to over the following years' %}
-![BBC Two 'Blade' ident, 1991](/assets/images/essays/dissertation/figure-12a.png){: .l-align-left}
-![BBC Two 'Dog' ident, 1993](/assets/images/essays/dissertation/figure-12b.png){: .l-align-left}
-![BBC Two 'Car' ident, 1993](/assets/images/essays/dissertation/figure-12c.png){: .l-align-left}
+{% figure class:'figure--4up', caption:'Figure 12: BBC2 had a variety of idents that were added to over the following years' %}
+![BBC Two 'Blade' ident, 1991](/assets/images/essays/dissertation/figure-12a.png)
+![BBC Two 'Dog' ident, 1993](/assets/images/essays/dissertation/figure-12b.png)
+![BBC Two 'Car' ident, 1993](/assets/images/essays/dissertation/figure-12c.png)
 ![BBC Two 'Garden' ident, 1994](/assets/images/essays/dissertation/figure-12d.png)
 {% endfigure %}
 

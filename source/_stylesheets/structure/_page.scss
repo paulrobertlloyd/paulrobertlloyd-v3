@@ -35,7 +35,7 @@
 }
 
 .page__location {
-    @include fs--pica;
+    @include fs--english;
     @include ff--sans-serif;
     @include c2sc;
     text-transform: uppercase;
@@ -45,15 +45,4 @@
 
 .page__pubdate {
     @include caption;
-}
-
-.page__footer .page__location::before,
-.js .page__main .page__location::after {
-    margin: 0 0.25rem; // 0 4px
-    color: $c__neutral--5;
-    content: '\2022';
-}
-
-.js .page__main .page__location::after {
-    margin: 0 0.5rem 0 0.25rem; // 0 8px 0 4px
 }

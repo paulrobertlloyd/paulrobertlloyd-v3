@@ -34,7 +34,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 ![](/assets/images/2012/12/causeway_coast_4.jpg)
 {% endfigure %}
 
-{% figure class:'l-pull-left', caption:'**The Giant’s Causeway viewed from above:** 55% quality, 151 kB' %}
+{% figure class:'l-pull-left', caption:'**The Giant's Causeway viewed from above:** 55% quality, 151 kB' %}
 ![](/assets/images/2012/12/causeway_coast_5.jpg)
 {% endfigure %}
 
