@@ -2,9 +2,8 @@
     Embeded content
     ========================================================================= */
 
-.embed--video {
+.embed {
     position: relative;
-    background-color: $c__neutral--1;
     padding-bottom: 56.25%;
     height: 0;
 
@@ -17,4 +16,8 @@
         width: 100%;
         height: 100%;
     }
+}
+
+.embed--video {
+    background-color: $c__neutral--1;
 }

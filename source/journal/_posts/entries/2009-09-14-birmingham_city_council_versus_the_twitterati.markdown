@@ -16,7 +16,7 @@ tags:
 Last week Birmingham City Council launched its new £2.8m website. Delayed, over budget and woefully inadequate, it rightly faced a storm of criticism on Twitter and from the local press.
 
 {% figure caption:'The new Birmingham City Council Website' %}
-![](/assets/images/2009/09/birmingham_city_council_versus_the_twitterati_website.jpg)
+![](/assets/images/2009/09/birmingham_city_council_versus_the_twitterati_website.png)
 {% endfigure %}
 
 Whether as a result of the [public service dating game][1] (the council choosing the outsourcing firm Capita rather than a specialist web design agency), or the single success criteria being a site better than the one it replaced (a low baseline), the whole affair only succeeded in demonstrating how not to handle a large scale web project.

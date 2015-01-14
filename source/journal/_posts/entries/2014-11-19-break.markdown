@@ -3,7 +3,7 @@ layout: entry
 title: 'Break'
 date: '2014-11-19 01:41:32 +0000'
 location: Brighton, England
-excerpt: Last Thursday I attended Break Conference, where content, graphic, product, UX and web design practitioners took to the stage in Belfast’s Assembly Buildings. As the spiritual successor to Build, organiser Christopher Murphy hoped the event would remove the artificial barriers erected between these different specialisms.
+excerpt: Last Thursday I attended Break Conference, where content, graphic, product, UX and web design practitioners took to the stage in Belfast's Assembly Buildings. As the spiritual successor to Build, organiser Christopher Murphy hoped the event would remove the artificial barriers erected between these different specialisms.
 tags:
   - Design
   - Conferences

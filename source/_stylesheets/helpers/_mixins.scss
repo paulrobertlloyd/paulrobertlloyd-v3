@@ -142,6 +142,9 @@
 @mixin caption {
     @include fs--english;
     @include ff--sans-serif;
-    margin-bottom: 0.5rem;
     color: $c__neutral--4;
+
+    strong {
+        color: $c__neutral--2;
+    }
 }
