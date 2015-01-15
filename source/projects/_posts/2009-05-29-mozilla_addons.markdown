@@ -14,8 +14,6 @@ _Mozilla Add-ons_ is a catalogue of over 6,000 add-ons that allows Firefox users
 
 The previous site proved unappealing to users who were less tech savvy. Mozilla wanted to reposition add-ons as thousands of ways to improve the way you do things online. Working alongside [Richard Rutter][1], [Natalie Downe][2] and [Anna Debenham][3] at Clearleft, I created a design that was more consumer-orientated and approachable.
 
-{% include html/content/project-info.html %}
-
 [1]: http://clearleft.com/is/richard-rutter/
 [2]: http://clearleft.com/is/natalie-downe/
 [3]: http://maban.co.uk/

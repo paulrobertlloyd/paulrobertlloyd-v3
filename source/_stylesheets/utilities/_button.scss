@@ -12,12 +12,12 @@
 
     &:active,
     &:hover {
-        color: $c__neutral--9;
         background-color: $c__link--hover;
+        color: $c__neutral--9;
     }
 
     &:active {
-        color: $c__neutral--9;
         background-color: $c__link--active;
+        color: $c__neutral--9;
     }
 }
