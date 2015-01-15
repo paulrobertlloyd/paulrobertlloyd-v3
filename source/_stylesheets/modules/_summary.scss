@@ -12,7 +12,8 @@
 
     .summary--related &,
     .summary--article &,
-    .summary--presentation & {
+    .summary--presentation &,
+    .summary--project & {
         @include rule(before, $c__accent);
     }
 }
@@ -59,7 +60,7 @@
 }
 
 /* Project summary */
-.summary--project {
+.summary--featured-project {
     .summary__image {
         position: relative;
         margin-bottom: $u__baseline/2;

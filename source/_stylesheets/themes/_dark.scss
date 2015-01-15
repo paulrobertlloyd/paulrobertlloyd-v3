@@ -1,7 +1,7 @@
 /*  =========================================================================
     Theme: Dark
     ========================================================================= */
-$c__accent--dark: #5eC;
+$c__accent--dark: #5ec;
 
 $c__link--dark: lighten($c__accent--dark, 0);
 $c__link--hover--dark: lighten($c__accent--dark, 20%);
@@ -46,5 +46,9 @@ $c__link--active--dark: lighten($c__accent--dark, 40%);
 
     .page__title {
         color: $c__neutral--8;
+    }
+
+    .contentinfo {
+        background-color: $c__neutral--2;
     }
 }

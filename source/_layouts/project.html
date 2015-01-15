@@ -5,16 +5,16 @@ layout: default
     {% include html/structure/page__header.html %}
 
     <div class="page__main">
+        {% if page.project_info %}
+            {% include html/content/project-info.html %}
+        {% endif %}
+
         <div class="prose  e-content">
             {{ content | widont }}
         </div>
 
         {% if page.tags %}
             {% include html/sections/tags.html %}
-        {% endif %}
-
-        {% if page.series %}
-            {% include html/nav/series.html %}
         {% endif %}
 
         {% if page.related_posts %}

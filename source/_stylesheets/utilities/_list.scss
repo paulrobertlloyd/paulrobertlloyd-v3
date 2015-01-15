@@ -14,7 +14,8 @@
 
 .list--articles,
 .list--presentations,
-.list--related {
+.list--related,
+.list--projects {
     @include mq($b__a) {
         @include clearfix;
     }
@@ -39,10 +40,35 @@
 }
 
 .list--articles,
-.list--presentations {
+.list--presentations,
+.list--projects {
     .list__item {
         @include mq($b__a) {
             min-height: $u__baseline*6;
+        }
+    }
+}
+
+.list--featured-projects {
+    @include mq($b__a) {
+        @include clearfix;
+    }
+
+    .list__item {
+        @include mq($b__a) {
+            @include span(2 of 8);
+        }
+
+        &:nth-child(4n) {
+            @include mq($b__a) {
+                @include last;
+            }
+        }
+
+        &:nth-child(4n+1) {
+            @include mq($b__a) {
+                @include break;
+            }
         }
     }
 }

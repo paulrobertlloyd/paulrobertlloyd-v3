@@ -43,8 +43,9 @@
 
     &::before {
         display: block;
+        opacity: 0.25;
         margin-bottom: $u__baseline;
-        border-top: 1px solid $c__neutral--5;
+        border-top: 1px solid;
         content: '';
     }
 

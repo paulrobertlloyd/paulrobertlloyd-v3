@@ -22,3 +22,11 @@
     margin-right: -(span(1 wider));
     margin-left: gutter();
 }
+
+.section--featured-projects {
+    @include clearfix;
+    @include span(10 of 8 wider);
+    float: none;
+    margin-right: -(span(1 wider));
+    margin-left: -(span(1 wider));
+}
