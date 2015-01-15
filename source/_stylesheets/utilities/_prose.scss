@@ -38,9 +38,11 @@
 
     > pre,
     > blockquote,
-    > figure,
     > table,
-    > fieldset {
+    > fieldset,
+    > section,
+    .figure {
+        margin-top: $u__baseline*1.5;
         margin-bottom: $u__baseline*1.5;
     }
 

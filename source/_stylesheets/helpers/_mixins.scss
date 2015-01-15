@@ -123,11 +123,13 @@
 @mixin fs--canon($line-height: (52/48)) {
     font-size: 3rem; // 48px
     line-height: $line-height; // Default: 52px
+    letter-spacing: -1px;
 }
 
 @mixin fs--inch($line-height: (76/72)) {
     font-size: 4.5rem; // 72px
     line-height: $line-height; // Default: 76px
+    letter-spacing: -2px;
 }
 
 
