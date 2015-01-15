@@ -26,13 +26,13 @@
         @include fs--double-brevier;
     }
 
-    > h2,
-    > h3,
-    > p,
-    > p > img,
-    > ul,
-    > ol,
-    > dl {
+    h2,
+    h3,
+    p,
+    p > img,
+    ul,
+    ol,
+    dl {
         margin-bottom: $u__baseline/2;
     }
 
