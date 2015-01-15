@@ -1,71 +1,49 @@
 ---
 layout: essay
-title: News Presentation in 1990
+title: Conclusion
 series: Dissertation
 date: '2002-06-01'
-permalink: /essays/dissertation/news_presentation_in_1990.html
+permalink: /essays/dissertation/conclusion.html
 ---
-The computer techniques introduced during the eighties also made a strong impact on the graphics used within televised news.
+The introduction of multi-channel television at the beginning of the nineties saw a distinct visual change from that of individualism and variation across channels and networks, to conformity and consistency through the use of branding. Although Channel 4 had realised the power of a brand as means of creating effective competition, it wasn't until the launch of both satellite and cable television services that both the BBC and ITV saw the benefits that recognisable brands could bring.
 
-By the early nineties comedy shows such as <cite>The Day Today</cite> made light of this, with heavily computer generated animated titles with clichéd images of globes, eyes, similar urgent sounding music etc. This wasn't far from the truth as both ITN (who provided news for the commerical channels) and the BBC were using such material.
+Whilst this saw BBC1's identity being updated twice during the nineties, the image it portrays has remained pretty much unchanged to that of 50 years ago. As Britain's first channel, and paid for by the viewer, it is seen as the place to find quality programming. Here branding was only needed to reinforce this image. For BBC2 however, a brand was needed to remodel peoples perceptions of the channel whilst still being flexible enough so as to be able to change to suit the channels varied programming. Now that this brand has been established, it has remained largely unaltered for over 10 years. The same is true of Channel 4, where its original idents were in use for over 14 years. Their strength was perhaps only realised when they were replaced with a less suitable identity which only lasted for 2 years, before the channel returned to an image that has many similarities to its original.
 
-The BBC's Breakfast News had titles involving a globe at the centre of a clock face which turned back on itself before the 'C' in BBC spun out and around the globe, all to the music of horns and chimes. Similar themes were expressed later its One O'clock news programme. Later bulletins at six and nine had much heavier music, but still carried images of globes and maps of the world.
+As for ITV, it's never really been sure of its brand, mainly due to its regionalised structure. The need however to create a successful umbrella identity has lead to sometimes uncomfortable compromises. Even the use of dual-branding systems was sometimes not enough to persuade all its regions to adopt the ITV brand, or even name. Perhaps if and only when ITV becomes a single company, will it be able to create a brand strong enough to rival that of other broadcasters. However this would no doubt lead to the destruction of its strongest asset -- its regionality -- something the BBC is starting to make its own.
 
-{% figure class:'figure--4up', caption:'Figure 34: <cite>BBC Breakfast News</cite> titles, 1989' %}
-!['BBC Breakfast News' titles, 1989](/assets/images/essays/dissertation/figure-34a.png)
-!['BBC Breakfast News' titles, 1989](/assets/images/essays/dissertation/figure-34b.png)
-!['BBC Breakfast News' titles, 1989](/assets/images/essays/dissertation/figure-34c.png)
-!['BBC Breakfast News' titles, 1989](/assets/images/essays/dissertation/figure-34d.png)
-{% endfigure %}
+Once the strength of branding was realised, it wasn't soon after that other areas of programming began to use this device -- most notably news bulletins -- the BBC creating a distinct sub-brand, and ITN's being replaced with that of ITV's.
 
-{% figure class:'figure--4up', caption:'Figure 35: <cite>BBC One O'Clock News</cite> titles, 1986' %}
-!['BBC One O'Clock News' titles, 1986](/assets/images/essays/dissertation/figure-35a.png)
-!['BBC One O'Clock News' titles, 1986](/assets/images/essays/dissertation/figure-35b.png)
-!['BBC One O'Clock News' titles, 1986](/assets/images/essays/dissertation/figure-35c.png)
-!['BBC One O'Clock News' titles, 1986](/assets/images/essays/dissertation/figure-35d.png)
-{% endfigure %}
+It's interesting to note throughout the development of graphic design in television and the introduction of brands, the influence of just one man -- Martin Lambie-Nairn. Responsible for the BBC and Channel 4 identities, as well as the innovative titles for the BBC's Nine O'clock News, and later the branding of ITN and all of the BBC's news output. His solution for Channel 4 in 1982 was way ahead of its time, and yet when the rest of television has now tuned into branding, he and his company still remain at the forefront of the field.
 
-{% figure class:'figure--4up', caption:'Figure 36: <cite>BBC Six O'Clock News</cite> titles, 1984' %}
-!['BBC Six O'Clock News' titles, 1984](/assets/images/essays/dissertation/figure-36a.png)
-!['BBC Six O'Clock News' titles, 1984](/assets/images/essays/dissertation/figure-36b.png)
-!['BBC Six O'Clock News' titles, 1984](/assets/images/essays/dissertation/figure-36c.png)
-!['BBC Six O'Clock News' titles, 1984](/assets/images/essays/dissertation/figure-36d.png)
-{% endfigure %}
+The introduction of digital television towards the end of the decade bringing with it the EPG, has seen the use of visual devices other than that of branding, with details of forthcoming programming displayed at every opportunity -- even during programmes. With future technologies such as video recorders that can practically create your own schedules for you, as well as the ever growing digital convergence between television and the Internet, it will be interesting to see what broadcasters will do next -- will we still see a need for channel idents?
 
-As for ITN, these images were used much less, preferring to use purely computer animated sequences involving the programme titles or in the case of News at Ten, a computer rendered London skyline before closing in on the familiar clock face of Big Ben.
+One thing's for sure; broadcastering brands will need to be as strong as ever.
 
-{% figure class:'figure--4up', caption:'Figure 37: <cite>ITN News at 12:30,</cite> titles 1989' %}
-!['ITN News at 12:30' titles, 1989](/assets/images/essays/dissertation/figure-37a.png)
-!['ITN News at 12:30' titles, 1989](/assets/images/essays/dissertation/figure-37b.png)
-!['ITN News at 12:30' titles, 1989](/assets/images/essays/dissertation/figure-37c.png)
-!['ITN News at 12:30' titles, 1989](/assets/images/essays/dissertation/figure-37d.png)
-{% endfigure %}
+***
 
-{% figure class:'figure--4up', caption:'Figure 38: <cite>ITN News at Ten</cite> titles, 1988' %}
-!['ITN News at Ten' titles, 1988](/assets/images/essays/dissertation/figure-38a.png)
-!['ITN News at Ten' titles, 1988](/assets/images/essays/dissertation/figure-38b.png)
-!['ITN News at Ten' titles, 1988](/assets/images/essays/dissertation/figure-38c.png)
-!['ITN News at Ten' titles, 1988](/assets/images/essays/dissertation/figure-38d.png)
-{% endfigure %}
+## References
 
-However both the BBC and ITN started their bulletins in exactly the same manor -- their large initials being placed centre screen before launching into their respective animations, presumably as an indication of authority.
+### Books
+  * **Crook, G.** (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
+  * **Ellis, J.** (2000). <cite>Seeing Things. Television in the Age of Uncertainty</cite>. London: I.B. Tauris
+  * **Lambie-Nairn, M.** (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
 
-The first real change to come to this clichéd and computer orientated world was again in the habitual shape of Martin Lambie-Nairn, who produced new titles for the BBC's Nine O'clock News in 1988. These were based on a range of graphical elements with long-standing BBC associations such as the figure Jupiter from its coat of arms.
+### Press
+  * **Aldersey-Williams, H.** (1993). The different path of British broadcast design. <cite>Print, 47</cite>(1), 48-54.
+  * **Davies, J.** (1997). Strength in Numbers. <cite>Design, Spring 1997</cite>, 26-31.
+  * **Gilgrist, A.** (1997). £5m BBC logo 'will save cash'. <cite>Design Week, 12</cite>(19), 3.
+  * **McClellan, T.** (1990). TV in the age of eye candy. <cite>Eye, 1</cite>(1), 22-31.
+  * **Mistry, B.** (1996). Has Channel 4 made the right connection? <cite>Design Week, 11</cite>(32), 7.
 
-{% figure caption:'<cite>Lambie-Nairn, 1997, p119</cite>' %}
-> Conceptually, we attempted to communicate an idea of how a news programme actually functions: disparate information comes in, is collected, ordered then broadcast.
-{% endfigure %}
-
-{% figure class:'figure--5up', caption:'Figure 39: The look of the <cite>BBC Nine O'Clock News</cite> was unlike anything seen before' %}
-!['BBC Nine O'Clock News', 1988](/assets/images/essays/dissertation/figure-39a.png)
-!['BBC Nine O'Clock News', 1988](/assets/images/essays/dissertation/figure-39b.png)
-!['BBC Nine O'Clock News', 1988](/assets/images/essays/dissertation/figure-39c.png)
-!['BBC Nine O'Clock News', 1988](/assets/images/essays/dissertation/figure-39d.png)
-!['BBC Nine O'Clock News', 1988](/assets/images/essays/dissertation/figure-39e.png)
-{% endfigure %}
-
-This resulted in a dark, yet subtly colourful animation featured lightning bolts and strong geometric lines and shapes criss-crossing the screen, before ending with radiating concentric rings beaming out from a mast, reminiscent of old newsreel footage. However Lambie-Nairn had no control over the music that was used, and again a traditional and urgent sounding score only served to emphasise the harsher aspects of the animation.
+### Online
+  * **Gibson, J.** (1999, October 23). [Face of five set for ITV perch](http://media.guardian.co.uk/mediaguardian/story/0,7558,362192,00.html). <cite>MediaGuardian</cite> 
+  * **Lambie-Nairn.com** (2002). [BBC ONE](http://web.archive.org/web/20020215191943/http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725), <cite>Lambie-Nairn.com</cite>. Archived from [the original](http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725) on <time datetime="2002-02-15">15 February 2002</time>
+  * **McGonagle, M.** (2002). [Channel 5 Idents 1999](http://www.thetvroom.com/p-ch5-1999-a.html). <cite>TheTVRoom.com</cite>
+  * **Wilkes, N.** (2001). [BBC Two gets new on-screen look](http://www.digitalspy.co.uk/displayarticle.php?id=4234). <cite>DigitalSpy.co.uk</cite>
 
 *[BBC]: British Broadcasting Corporation
+*[EPG]: Electronic Programme Guide
 *[ITN]: Independant Television News
+*[ITV]: Independant Television
+*[TV]: television
 *[UK]: United Kingdom
