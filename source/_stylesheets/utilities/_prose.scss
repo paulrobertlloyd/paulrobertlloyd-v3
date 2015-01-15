@@ -132,6 +132,7 @@
         @extend %bleed;
 
         .figure__caption {
+            padding-right: (span(1 wide));
             padding-left: (span(1 wide));
         }
 
