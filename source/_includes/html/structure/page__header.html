@@ -1,9 +1,3 @@
 <header class="page__header">
-{% if page.template == 'archive-year' %}
-    <h1 class="page__title">{{ page.date | date:'%Y' }}</h1>
-{% elsif page.template == 'archive-month' %}
-    <h1 class="page__title">{{ page.date | date:'%B %Y' }}</h1>
-{% else %}
-    <h1 class="page__title{% if page.path contains '_posts' %}  p-name{% endif %}">{{ page.title | smart }}</h1>
-{% endif %}
+    <h1 class="page__title{% if page.path contains '_posts' %}  p-name{% endif %}">{% include html/structure/title.html %}</h1>
 </header>
