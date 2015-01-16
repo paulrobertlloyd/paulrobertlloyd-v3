@@ -10,7 +10,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.6)
-    autoprefixer-rails (5.0.0)
+    autoprefixer-rails (5.0.0.1)
       execjs
     blankslate (2.1.2.4)
     capistrano (3.3.5)
@@ -148,7 +148,7 @@ GEM
     multi_js (0.1.0)
       uglifier (~> 2)
     multi_json (1.10.1)
-    nenv (0.1.1)
+    nenv (0.2.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
