@@ -33,48 +33,19 @@
 }
 
 
-// Media Queries
-@mixin mq($breakpoint) {
-    @media only screen and (min-width: $breakpoint) {
-        @content;
-    }
-}
-
-
-// Line rule
-@mixin rule($el: 'before', $color: $c__neutral--8, $display: block) {
-    @if $el == 'before' or $el == 'after' {
-        &:#{$el} {
-            display: $display;
-            border-top: ($u__baseline / 5) solid $color;
-            width: ($u__baseline * 2);
-            content: '';
-            @if $el == 'before' {
-                margin-bottom: ($u__baseline / 5);
-            }
-            @if $el == 'after' {
-                margin-top: ($u__baseline / 5);
-            }
-        }
-    } @else {
-        @error "`#{$el}` is not a valid pseudo-element.";
-    }
-}
-
-
 // Font families
 @mixin ff--serif($font-weight: 400) {
-    font-family: $f__serif, serif;
+    font-family: 'Charter ITC Std', serif;
     font-weight: $font-weight;
 }
 
 @mixin ff--sans-serif($font-weight: 500) {
-    font-family: $f__sans-serif, sans-serif;
+    font-family: 'Avenir Next', sans-serif;
     font-weight: $font-weight;
 }
 
 @mixin ff--monospace($font-weight: 400) {
-    font-family: $f__monospace, monospace;
+    font-family: 'Source Code Pro', monospace;
     font-weight: $font-weight;
 }
 
@@ -133,16 +104,19 @@
 }
 
 
-// Small caps
-@mixin smcp {
-    font-feature-settings: 'smcp' 1;
+// Layout
+@mixin bleed {
+    @include clearfix;
+    @include span(10 of 8 wider);
+    float: none;
+    margin-right: -(span(1 wider));
+    margin-left: -(span(1 wider));
 }
 
 
-// Caps to small caps
-@mixin c2sc {
-    font-feature-settings: 'c2sc' 1;
-}
+// Caps
+@mixin smcp { font-feature-settings: 'smcp' 1; }
+@mixin c2sc { font-feature-settings: 'c2sc' 1; }
 
 
 // Captions and metadata
@@ -153,5 +127,26 @@
 
     strong {
         color: $c__neutral--2;
+    }
+}
+
+
+// Line rule
+@mixin rule($el: 'before', $color: $c__neutral--8, $display: block) {
+    @if $el == 'before' or $el == 'after' {
+        &:#{$el} {
+            display: $display;
+            border-top: ($u__baseline / 5) solid $color;
+            width: ($u__baseline * 2);
+            content: '';
+            @if $el == 'before' {
+                margin-bottom: ($u__baseline / 5);
+            }
+            @if $el == 'after' {
+                margin-top: ($u__baseline / 5);
+            }
+        }
+    } @else {
+        @error "`#{$el}` is not a valid pseudo-element.";
     }
 }

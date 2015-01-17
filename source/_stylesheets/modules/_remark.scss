@@ -29,8 +29,8 @@
 }
 
 .remark__title {
-    @include fs--great-primer;
     @include ff--sans-serif(600);
+    @include fs--great-primer;
     @include rule(before, $c__accent);
 }
 

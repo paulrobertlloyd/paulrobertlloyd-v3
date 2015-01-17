@@ -16,7 +16,7 @@
 
     .nav__item {
         @include span(1 of 3);
-        margin-bottom: $u__baseline/2;
+        margin-bottom: ($u__baseline / 2);
 
         &:nth-child(3n) {
             @include last;

@@ -3,6 +3,11 @@
     http://developers.whatwg.org/interactive-elements.html
     ========================================================================= */
 
+details {
+/*  Correct `block` display for `details` in IE 10/11 and Firefox */
+    display: block;
+}
+
 summary {
     display: inline-block;
     outline: 0;
