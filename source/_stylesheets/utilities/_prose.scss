@@ -32,7 +32,8 @@
     p > img,
     ul,
     ol,
-    dl {
+    dl,
+    .embed {
         margin-bottom: $u__baseline/2;
     }
 
@@ -42,8 +43,7 @@
     > fieldset,
     > section,
     .figure {
-        margin-top: $u__baseline*1.5;
-        margin-bottom: $u__baseline*1.5;
+        margin-bottom: $u__baseline;
     }
 
     pre {
@@ -58,7 +58,7 @@
     }
 
     strong {
-        font-family: $f__sans-serif;
+        @include ff--sans-serif(600);
     }
 
     > * a {
@@ -115,22 +115,13 @@
         margin-left: -(span(1 wider));
 
         &.figure {
-            margin-top: 0;
             margin-bottom: 0;
         }
     }
 
     // Elements that bleed to edges of container
-    %bleed {
-        @include clearfix;
-        @include span(10 of 8 wider);
-        float: none;
-        margin-right: -(span(1 wider));
-        margin-left: -(span(1 wider));
-    }
-
     .l-bleed {
-        @extend %bleed;
+        @include bleed;
 
         .figure__caption {
             padding-right: (span(1 wide));
@@ -143,7 +134,7 @@
     }
 
     .l-pull-left {
-        @extend %bleed;
+        @include bleed;
 
         .figure__main {
             @include span(6);

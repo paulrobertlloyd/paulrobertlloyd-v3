@@ -40,6 +40,10 @@ $c__link--active--dark: lighten($c__accent--dark, 40%);
 
 
     /* Structure */
+    .banner {
+        border-color: rgba($c__accent--dark, 0.4);
+    }
+
     .banner__logo {
         fill: $c__neutral--8;
     }

@@ -3,6 +3,12 @@
     http://developers.whatwg.org/sections.html
     ========================================================================= */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     @include ff--sans-serif;
     margin: 0;
@@ -10,6 +16,18 @@ body {
     line-height: $u__baseline-unitless;
     color: $c__neutral--1;
     font-size: $u__font-size;
+}
+
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+/*  Correct `block` display for section elements in IE 8/9 */
+/*  Correct `block` display for `main` in IE 11 */
+    display: block;
 }
 
 h1,
@@ -21,8 +39,8 @@ h6 {
     @include ff--sans-serif;
     margin: 0;
     text-rendering: optimizeLegibility;
-    line-height: 1; // 16px
-    font-size: 1em; // 16px
+    line-height: 1;
+    font-size: 1em;
 
     @media print {
         page-break-after: avoid;
@@ -31,7 +49,7 @@ h6 {
 
 hr {
     @include rule;
-    margin: 2rem auto; // 32px auto
+    margin: ($u__baseline * 2) auto;
     border: 0;
     height: 0;
     line-height: 0;
