@@ -19,4 +19,8 @@
 .project-info__value {
     margin-left: 0;
     padding-bottom: ($u__baseline / 2);
+    
+    li {
+        list-style-position: inside;
+    }
 }
