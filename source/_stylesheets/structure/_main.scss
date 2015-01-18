@@ -4,5 +4,6 @@
 
 .main__container {
     @include container($u__max-width);
-    padding-bottom: $u__baseline*4;
+    padding-top: $u__baseline;
+    padding-bottom: ($u__baseline * 4);
 }

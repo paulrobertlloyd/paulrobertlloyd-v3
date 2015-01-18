@@ -50,8 +50,6 @@ We experimented with different ways of simplifying wayfinding around the site. B
 
 The underlying design language encompassed a variety of content types and clearly delineated between areas of navigation and content. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site -- even on larger screens. In time, it is hoped this responsive mobile design will form the foundation of a fully responsive site, accessible from all devices, large or small.
 
-{% include html/content/project-info.html %}
-
 *[HTML]: HyperText Markup Language
 *[UK]: United Kingdom
 *[UNICEF]: The United Nations Children's Fund

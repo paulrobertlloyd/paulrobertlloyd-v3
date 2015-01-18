@@ -48,8 +48,6 @@ Responsive design was used to deliver the same content to different devices, reg
 > It looks beautiful! The feedback so far has been great -- and it's just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!
 {% endfigure %}
 
-{% include html/content/project-info.html %}
-
 [1]: http://www.90percentofeverything.com/about/
 [2]: http://clearleft.com/is/richard-rutter
 [3]: http://www.cognite.co.uk/

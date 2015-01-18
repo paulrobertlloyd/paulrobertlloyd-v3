@@ -5,7 +5,7 @@
 .js .page--link {
     .embed--photo,
     .embed--video {
-        @extend %bleed; // TODO: Bleed as a mixin
+        @include bleed;
         padding-bottom: 75%;
     }
 }

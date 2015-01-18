@@ -16,7 +16,7 @@
     @include fs--english;
     margin-bottom: $u__baseline;
 
-    @include mq($b__a) {
+    @include susy-breakpoint(b__a) {
         @include span(3 of 6);
     }
 
@@ -28,7 +28,7 @@
 .contentinfo__navigation {
     margin-bottom: $u__baseline;
 
-    @include mq($b__a) {
+    @include susy-breakpoint(b__a) {
         @include span(3 of 6 last);
     }
 
@@ -43,8 +43,9 @@
 
     &::before {
         display: block;
+        opacity: 0.25;
         margin-bottom: $u__baseline;
-        border-top: 1px solid $c__neutral--5;
+        border-top: 1px solid;
         content: '';
     }
 

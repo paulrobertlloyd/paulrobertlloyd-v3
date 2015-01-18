@@ -1,40 +1,39 @@
 ---
 layout: essay
-title: 'Updating the Brands: BBC'
+title: Multi-Channel Competition
 series: Dissertation
 date: '2002-06-01'
-permalink: /essays/dissertation/updating_the_brands_bbc.html
+permalink: /essays/dissertation/multichannel_competition.html
 ---
-With no corporate guidelines, the BBC had 'zillions of logos' and was generating new ones at a rate of two a week. With the advent of digital and the launch of more channels and services, its brand was being increasingly weakened.
+Unlike their analogue variants, digital satellite and cable services introduced a new method of browsing their greater number of channels: the Electronic Programme Guide (EPG). This allowed the viewer to browse channels and gain information about other programmes being shown, as well as browse channels by genre i.e. entertainment, sport, arts etc. Now audiences could watch television on a programme by programme basis rather than be dictated by channel schedules.
 
-In 1997, the BBC's corporate identity across all divisions was updated, with the previous slanted underlined logo designed in 1986 far simplified. According to Lambie-Nairn, who was selected to oversee the branding of the corporation, the existing logo was dated, expensive to print and didn't work on screen. Whilst the new logo still contained the initials BBC inside three boxes, they were now settled on their upright with the type set in Gill Sans. Lambie-Nairn described the new logo as "robust and elegant and solving all the technical problems in one hit" (Gilgrist, 1997). With guidelines that dictated that a channel, directorate, regional and other names should run to the right of the logo and also be set in Gill Sans, meant it all looked like it came from the same organisation.
+This saw idents, end credits and other programme junctions being increasingly used to promote programmes. Channel 4 was the first to do so, using the right hand quarter of screen displaying the channel's logo with information about forthcoming programmes or programme related material that could be purchased whilst the end credits rolled.
 
-It followed that with a new corporate identity, most elements of the corporation would have to be redesigned or altered to work alongside it. On television, BBC2 kept the popular 2's and although some idents were discontinued, for those that remained only the 2 was slightly enlarged and new BBC logo and channel name added, with further idents added to the collection over the following years.
+This information in the past tended to be shown at the end of a programme. In addition, late 2001 saw channels start to use programme junctions and their associated idents to not only display information about what channel you were watching, but also contained menus (before only seen in separate promotions, or when there had been schedule changes), detailing up-coming programmes. 
 
-BBC1 retained the globe, however it was given a new twist by using an orange air balloon styled as a globe, and floating it above different landmarks and regions across Britain, Lambie-Nairn again aiming to reposition the channel. The use of bright orange for the balloon was in strong contrast to the earthy browns, greens and yellows as well as the blues within the sky.
-
-{% figure class:'figure--4up', caption:'Figure 24: BBC1's image was given a new twist with an identity featuring an orange balloon flown over Britain. Later additions to the ident set showed images of people skateboarding, bungee jumping, in carnivals and at a market' %}
-![BBC One 'English 11' ident, 1997](/assets/images/essays/dissertation/figure-24a.png)
-![BBC One 'Scotish 6' ident, 1997](/assets/images/essays/dissertation/figure-24b.png)
-![BBC One 'Carnival' ident, 2000](/assets/images/essays/dissertation/figure-24c.png)
-![BBC One 'Skateboarders' ident, 2000](/assets/images/essays/dissertation/figure-24d.png)
+{% figure class:'figure--2up', caption:'Figure 31: 'End Credit Promotions' (ECPs) became a new trend in keeping viewers tuned to a particular channel "%}
+![ITV End Credit Promotion](/assets/images/essays/dissertation/figure-31a.png)
+![Channel 4 End Credit Promotion](/assets/images/essays/dissertation/figure-31b.png)
 {% endfigure %}
 
-{% figure class:'figure--4up', caption:'Figure 25: BBC2's idents were left pretty much untouched. A new addition to the collection at this time showed the strength of the identity. This featured a simple paint-pot that mimicked one of the first idents <cite>Paint</cite>. However with more and more idents being added to the collection -- some no longer featuring the viridian colour -- such as <cite>Kebab</cite> shown above, the brand was becoming increasingly weakened' %}
-![BBC Two 'Paint' ident, 1997](/assets/images/essays/dissertation/figure-25a.png)
-![BBC Two 'Paint Pot' ident, 1997](/assets/images/essays/dissertation/figure-25b.png)
-![BBC Two 'Arial' ident, 1997](/assets/images/essays/dissertation/figure-25c.png)
-![BBC Two 'Kebab' ident, 2000](/assets/images/essays/dissertation/figure-25d.png)
+{% figure class:'figure--2up', caption:'Figure 32: Menus shown prior to programmes' %}
+![Channel 4 Programme Menu](/assets/images/essays/dissertation/figure-32a.png)
+![BBC2 Programme Menu](/assets/images/essays/dissertation/figure-32b.png)
 {% endfigure %}
 
-{% figure class:'figure--4up', caption:'Figure 26: All of the BBC's children's output was given a new look, using just the colours yellow and black and a distinct use of simple animation' %}
-![CBBC 'Mouse' ident, 1997](/assets/images/essays/dissertation/figure-26a.png)
-![CBBC 'Mouse' ident, 1997](/assets/images/essays/dissertation/figure-26b.png)
-![CBBC 'Mouse' ident, 1997](/assets/images/essays/dissertation/figure-26c.png)
-![CBBC 'Mouse' ident, 1997](/assets/images/essays/dissertation/figure-26d.png)
+In November 2001, BBC2 updated its ten-year-old idents, for which such menus were an integral part. Although the original and subsequent sets of idents contained the viridian colour branding, it was not compulsory, and later idents started not to feature the colour -- for those that did the colour appeared in different places. The new idents involved giving the channel consistent co-ordinated colours -- a white 2 on a deep yellow backdrop, as well as a single four note jingle that could be subtly adapted. Also nation specific idents have been designed -- currently in Northern Ireland only, were part of the evening schedule is changed from the rest of the UK's to suit its local audience. The channel insignia was changed also to a purple rectangle positioned in the bottom right of the screen.
+
+{% figure class:'figure--5up', caption:'Figure 33: The BBC2 identity was radically changed after 10 years, using a standard and unaltered set of colour ways' %}
+![BBC Two 'Fire' ident, 2003](/assets/images/essays/dissertation/figure-33a.png)
+![BBC Two 'Bounce' ident, 2001](/assets/images/essays/dissertation/figure-33b.png)
+![BBC Two 'Domino' ident, 2001](/assets/images/essays/dissertation/figure-33c.png)
+![BBC Two 'Logo' ident, 2001](/assets/images/essays/dissertation/figure-33d.png)
+![BBC Two 'Fish' ident, 2001](/assets/images/essays/dissertation/figure-33e.png)
 {% endfigure %}
 
-Both channels kept the consistency seen in the last makeover, but this time all onscreen promotional material carried 'BBC ONE' or 'BBC TWO' centred at the bottom of the screen -- this placement more suitable for the upcoming widescreen format used in digital television.
+This was all aimed to give the channel a more contemporary feel "retaining and reinforcing the wit and personality the 2s have already established, whilst presenting a new and refreshed image for BBC2" (Wilkes, 2001). The first batch of idents featured the 2 bouncing, scaring of a shoal of mackerel, falling over like a domino, and growing a pair of robotic arms to turn round a portion of screen to reveal the BBC2 logo. There was also a change to the way junctions were handled with the idents including now, next and later information to guide viewers through what they might like to watch.
 
 *[BBC]: British Broadcasting Corporation
+*[EPG]: Electronic Programme Guide
+*[ITV]: Independant Television
 *[UK]: United Kingdom

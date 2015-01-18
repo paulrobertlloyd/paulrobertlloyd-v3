@@ -60,7 +60,5 @@ Beyond the responsive development, I was keen to employ other best practices. Th
 
 <mark>[Testimonial from Drew]</mark>
 
-{% include html/content/project-info.html %}
-
 *[CSS3]: Cascading Style Sheets (Level 3)
 *[BEM]: Block, Element, Modifier

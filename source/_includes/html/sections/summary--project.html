@@ -1,4 +1,4 @@
-<article class="summary summary--project  h-entry">
+<article class="summary summary--{% if summary.project_featured %}featured-{% endif %}project  h-entry">
     <header class="summary__header">
         <h1 class="summary__title  p-name">
             <a class="summary__link" href="{{ summary.url | remove:'.html' }}" rel="bookmark">

@@ -33,16 +33,18 @@
     ul,
     ol,
     dl,
-    [class*="highlighter-"] {
+    .embed {
         margin-bottom: $u__baseline/2;
     }
 
     > pre,
     > blockquote,
-    > figure,
     > table,
-    > fieldset {
-        margin-bottom: $u__baseline*1.5;
+    > fieldset,
+    > section,
+    > div[class*="highlighter-"],
+    .figure {
+        margin-bottom: $u__baseline;
     }
 
     pre {
@@ -57,7 +59,7 @@
     }
 
     strong {
-        font-family: $f__sans-serif;
+        @include ff--sans-serif(600);
     }
 
     > * a {
@@ -119,17 +121,11 @@
     }
 
     // Elements that bleed to edges of container
-    %bleed {
-        @include span(10 of 8 wider);
-        float: none;
-        margin-right: -(span(1 wider));
-        margin-left: -(span(1 wider));
-    }
-
     .l-bleed {
-        @extend %bleed;
+        @include bleed;
 
         .figure__caption {
+            padding-right: (span(1 wide));
             padding-left: (span(1 wide));
         }
 
@@ -139,7 +135,7 @@
     }
 
     .l-pull-left {
-        @extend %bleed;
+        @include bleed;
 
         .figure__main {
             @include span(6);
