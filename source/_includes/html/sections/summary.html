@@ -16,9 +16,9 @@
             {% endif %}
 
             {% if summary.layout == "link" %}
-                {{ summary.content | markdownify | widont }}
+                {{ summary.content | markdownify | typogrify | smart }}
             {% elsif summary.excerpt != null %}
-                {{ summary.excerpt | markdownify | widont | smart }}
+                {{ summary.excerpt | markdownify | typogrify | smart }}
             {% endif %}
         </div>
     </div>
