@@ -10,7 +10,7 @@
 }
 
 .page__header {
-    padding-bottom: $u__baseline*2;
+    padding-bottom: ($u__baseline * 2);
     order: 1;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .page__footer {
-    margin-top: -2rem;
-    margin-bottom: 2rem;
+    margin-top: -($u__baseline * 2);
+    margin-bottom: ($u__baseline * 2);
     order: 2;
 }
 
@@ -29,7 +29,7 @@
     color: $c__accent;
     font-weight: 600;
 
-    @include mq($b__a) {
+    @include susy-breakpoint(b__a) {
         @include fs--canon;
     }
 }

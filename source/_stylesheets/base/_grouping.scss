@@ -30,23 +30,28 @@ pre {
     }
 }
 
-ol {
+figure,
+figcaption {
+/*  Correct `block` display for `figure` and `figcaption` elements in IE 8/9 */
+    display: block;
+}
+
+ol,
+ul {
     padding: 0;
     list-style-position: inside;
+
+    @include susy-breakpoint(b__a) {
+        list-style-position: outside;
+    }
+}
+
+ol {
     list-style-type: decimal;
 }
 
 ul {
-    padding: 0;
-    list-style-position: inside;
     list-style-type: square;
-}
-
-@media screen and (min-width: 45em) {
-    ol,
-    ul {
-        list-style-position: outside;
-    }
 }
 
 nav li {
@@ -55,12 +60,12 @@ nav li {
 }
 
 dt {
-    font-weight: 600;
+    @include ff--sans-serif(600);
 }
 
 li li,
 dd {
-    margin-left: 2rem;
+    margin-left: ($u__baseline * 2);
 }
 
 li > *,

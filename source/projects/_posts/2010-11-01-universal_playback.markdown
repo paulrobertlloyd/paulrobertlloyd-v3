@@ -16,8 +16,6 @@ With a diverse catalogue that includes dramas, classic sitcoms and cult televisi
 
 <mark>TBD</mark>
 
-{% include html/content/project-info.html %}
-
 *[TV]: television
 *[DVD]: Digital Versatile Disc
 *[UK]: United Kingdom

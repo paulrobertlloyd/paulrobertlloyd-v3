@@ -1,3 +1,6 @@
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+{% capture category %}{{ page.categories | first }}{% endcapture %}
+
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
@@ -19,9 +22,6 @@
             document.documentElement.className += ' svg';
         }
     </script>
-
-    {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-    {% capture category %}{{ page.categories | first }}{% endcapture %}
 
 {% if page.template == 'home' or location == 'journal' or category == 'journal' %}
     <link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>
@@ -71,20 +71,10 @@
     <meta name="geo.position" content="50.8420;-0.1539"/>
 {% endif %}
 
-    <title>
-{% if page.template == 'home' %}
-    Strong opinions, loosely held
-{% elsif page.template == 'archive-year' %}
-    {{ page.title | date: "%Y" }}
-{% elsif page.template == 'archive-month' %}
-    {{ page.title | date: "%B %Y" }}
-{% else %}
-    {{ page.title | smart }}
-{% endif %} – {{ site.title }}
-    </title>
+    <title>{% include html/structure/title.html %} / {{ site.title }}</title>
 </head>
 
-<body{% if location == 'photos' or category == 'photos' %} class="inverted"{% endif %} id="top">
+<body{% if location == 'photos' or category == 'photos' %} class="theme--dark"{% endif %} id="top">
     {% include html/structure/banner.html %}
     {% include html/structure/main.html %}
     {% include html/structure/navigation.html %}

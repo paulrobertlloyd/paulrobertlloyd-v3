@@ -10,15 +10,15 @@
     </header>
 
     <div class="summary__main  p-summary">
-        {% if summary.link-embed == "photo" %}
-            {% embed {{ summary.link }} %}
-        {% endif %}
+        <div class="prose  e-content">
+            {% if summary.link-embed == "photo" %}
+                {% embed {{ summary.link }} %}
+            {% endif %}
 
-        <div class="prose">
             {% if summary.layout == "link" %}
                 {{ summary.content | markdownify | widont }}
             {% elsif summary.excerpt != null %}
-                {{ summary.excerpt | smart | widont }}
+                {{ summary.excerpt | markdownify | widont | smart }}
             {% endif %}
         </div>
     </div>

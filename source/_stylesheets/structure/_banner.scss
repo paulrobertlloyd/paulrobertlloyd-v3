@@ -3,9 +3,8 @@
     ========================================================================= */
 
 .banner {
-    margin-bottom: $u__baseline;
     border-bottom: 1px solid rgba($c__accent, 0.4);
-    padding-bottom: $u__baseline*4;
+    padding-bottom: ($u__baseline * 4);
 }
 
 .banner__container {
@@ -19,8 +18,4 @@
 
 .banner__logo {
     fill: $c__accent;
-
-    .inverted & {
-        fill: $c__neutral--8;
-    }
 }

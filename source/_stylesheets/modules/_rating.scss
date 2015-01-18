@@ -6,7 +6,7 @@
     color: $c__neutral--6;
 
     [data-icon] {
-        margin-left: -0.125rem;
+        margin-left: -($u__baseline / 5);
     }
 }
 

@@ -3,10 +3,21 @@
     ========================================================================= */
 
 .button {
+    @include ff--sans-serif;
     display: inline-block;
     border: 0;
     background: $c__accent;
-    padding: 0.5rem 0.75rem;
+    padding: ($u__baseline / 2) $u__baseline;
     color: $c__neutral--9;
-    font-family: $f__sans-serif;
+
+    &:active,
+    &:hover {
+        background-color: $c__link--hover;
+        color: $c__neutral--9;
+    }
+
+    &:active {
+        background-color: $c__link--active;
+        color: $c__neutral--9;
+    }
 }

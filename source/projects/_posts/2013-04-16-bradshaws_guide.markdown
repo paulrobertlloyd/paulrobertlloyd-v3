@@ -45,8 +45,6 @@ Producing the guide involved correcting copy originating from an automated OCR p
 
 When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][1] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
 
-{% include html/content/project-info.html %}
-
 [1]: https://twitter.com/bradshawsguide
 
 *[BBC]: British Broadcasting Corporation

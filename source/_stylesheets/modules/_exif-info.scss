@@ -3,17 +3,33 @@
     ========================================================================= */
 
 .exif-info {
-    @include caption;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.exif-info__title {
+    position: absolute;
+    top: ($u__baseline / 2);
+    color: $c__neutral--1;
+}
+
+.exif-info__values {
+    position: absolute;
+    bottom: 0;
 }
 
 .exif-info__value {
-    float: left;
+    @include span(1 of 2);
     margin-left: 0;
-    width: 50%;
 
-    &[data-exif="exif-date_time"],
-    &[data-exif="exif-model"] {
-        float: none;
-        width: auto;
+    &:nth-of-type(2n) {
+        @include last;
+    }
+
+    &[data-exif="date_created"],
+    &[data-exif="model"] {
+        @include span(full);
     }
 }

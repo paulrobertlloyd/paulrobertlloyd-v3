@@ -14,6 +14,7 @@ tbody {
 }
 
 caption {
+    @include caption;
     @include rule;
     margin-bottom: ($u__baseline / 2);
     text-align: left;
@@ -34,7 +35,6 @@ th {
 th {
     border-top-color: $c__neutral--5;
     padding-bottom: $u__baseline;
-    line-height: 1.25;
     font-weight: 600;
 }
 

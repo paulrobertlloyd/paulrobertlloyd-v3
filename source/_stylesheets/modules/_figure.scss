@@ -1,9 +1,18 @@
 /*  =========================================================================
     Figure
     ========================================================================= */
+.figure {
+    position: relative; // Helps position exif-info to bottom of figure__caption
+}
+
 .figure__caption {
     @include caption;
     @include rule(after);
+
+    .l-pull-left & {
+        @include rule(before);
+        @include rule(after, $display: none);
+    }
 }
 
 
@@ -72,13 +81,13 @@
         margin-bottom: $u__baseline;
         border-left: 0;
         background-color: $c__neutral--8;
-        padding: $u__baseline/2 $u__gutter/2;
+        padding: ($u__baseline / 2) ($u__gutter / 2);
 
         &::after {
             display: block;
             position: absolute;
-            bottom: -($u__baseline/2);
-            left: $u__gutter/2;
+            bottom: -($u__baseline / 2);
+            left: ($u__gutter / 2);
             transform: rotate(45deg);
             background-color: $c__neutral--8;
             width: $u__baseline;

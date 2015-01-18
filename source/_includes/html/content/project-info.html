@@ -15,7 +15,7 @@
     {% endif %}
     {% if page.project_info.notes %}
         <dt class="project-info__title">Notes</dt>
-        <dd class="project-info__value">{{ page.project_info.notes | smart }}</dd>
+        <dd class="project-info__value">{{ page.project_info.notes | smart | markdownify }}</dd>
     {% endif %}
     </dl>
 </aside>

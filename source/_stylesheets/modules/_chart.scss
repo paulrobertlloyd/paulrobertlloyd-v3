@@ -15,10 +15,10 @@
     .chart__value--percent {
         @include caption;
         display: block;
-        margin-top: -0.125rem; // -2px
+        margin-top: -($u__baseline / 5);
         margin-bottom: 0;
         background-color: $c__neutral--8;
-        padding: ($u__baseline / 4);
+        padding: ($u__baseline / 5);
         white-space: nowrap;
     }
 }

@@ -11,8 +11,8 @@ project_info:
   year: 2011
   role: Design
   notes: |
-    Named Digital Edition of the Year at the PPA Awards 2011
-    Average rating of four stars in the App Store
+    * Named Digital Edition of the Year at the PPA Awards 2011
+    * Average rating of four stars in the App Store
 related_posts:
   - title: 'The Week case study'
     url: http://clearleft.com/made/the-week
@@ -58,8 +58,6 @@ The app was far more successful than anticipated, spending a number of weeks in 
 {% figure caption:'<cite>Alex Watson, Head of App Development, Dennis Publishing</cite>' %}
 > This was the most technically complex software project we've ever attempted, yet in its first year it's been a real success. We've found new readers, increased revenue from existing readers and gained the title lots of exposure.
 {% endfigure %}
-
-{% include html/content/project-info.html %}
 
 [1]: http://www.90percentofeverything.com/about/
 [2]: http://kaldorgroup.com/

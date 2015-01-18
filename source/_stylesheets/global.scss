@@ -2,7 +2,6 @@
 @import 'susy';
 
 // Helpers
-@import 'helpers/reset';
 @import 'helpers/webfonts';
 @import 'helpers/variables';
 @import 'helpers/mixins';
@@ -53,20 +52,5 @@
 @import 'pages/entry';
 @import 'pages/link';
 
-
-.swatch {
-    display: block;
-    width: 2em;
-    height: 2em;
-}
-
-.swatch--neutral--0 { background-color: $c__neutral; }
-.swatch--neutral--1 { background-color: $c__neutral--1; }
-.swatch--neutral--2 { background-color: $c__neutral--2; }
-.swatch--neutral--3 { background-color: $c__neutral--3; }
-.swatch--neutral--4 { background-color: $c__neutral--4; }
-.swatch--neutral--5 { background-color: $c__neutral--5; }
-.swatch--neutral--6 { background-color: $c__neutral--6; }
-.swatch--neutral--7 { background-color: $c__neutral--7; }
-.swatch--neutral--8 { background-color: $c__neutral--8; }
-.swatch--neutral--9 { background-color: $c__neutral--9; }
+// Themes
+@import 'themes/dark';
