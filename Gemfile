@@ -14,7 +14,7 @@ group :development do
   gem 'guard-jshintrb'
   gem 'guard-livereload'
   gem 'guard-sass'
-  gem 'guard-scss-lint', '~> 0.0.1alpha'
+  gem 'guard-scss-lint'
 end
 
 # Jekyll (generates static files)
