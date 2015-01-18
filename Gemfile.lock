@@ -220,7 +220,7 @@ DEPENDENCIES
   guard-jshintrb
   guard-livereload
   guard-sass
-  guard-scss-lint (~> 0.0.1alpha)
+  guard-scss-lint
   jekyll
   jekyll-archives
   jekyll-assets
