@@ -2,7 +2,7 @@
 # A plugin for Jekyll that converts numbers into Roman numerals
 # 
 # USAGE
-# <h1>{% page.date | date: "%Y" | roman %}</h1>
+# <h1>{{ page.date | date: "%Y" | roman }}</h1>
 #
 
 module Jekyll

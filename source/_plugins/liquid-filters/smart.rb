@@ -2,10 +2,8 @@
 # A smartypants plugin for Jekyll
 # 
 # USAGE
-# <h1>{% page.title | smart %}</h1>
+# <h1>{{ page.title | smart }}</h1>
 #
-
-require 'typogruby'
 
 module Jekyll
   module SmartypantsFilter

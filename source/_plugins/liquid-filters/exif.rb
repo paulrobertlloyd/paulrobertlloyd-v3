@@ -2,7 +2,7 @@
 # An EXIF plugin for Jekyll
 # 
 # USAGE
-# <h1>{% img.url | exif: [param] %}</h1>
+# <h1>{{ img.url | exif: [param] }}</h1>
 #
 
 require 'exiftool'

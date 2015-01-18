@@ -10,7 +10,7 @@ layout: default
                 {% embed {{ page.link }} %}
             {% endif %}
 
-            {{ content | widont }}
+            {{ content | typogrify }}
 
             {% if page.link-embed == null %}
                 <aside class="page__aside">
