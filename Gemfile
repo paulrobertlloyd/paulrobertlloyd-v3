@@ -26,9 +26,9 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-assets'
   gem 'jekyll-minify-html'
-  gem 'jekyll-pypedown'
   gem 'jekyll-sitemap'
 
+  gem 'rouge' # Remove with Jekyll 3.0
   gem 'exiftool'
   gem 'susy'
   gem 'therubyracer'

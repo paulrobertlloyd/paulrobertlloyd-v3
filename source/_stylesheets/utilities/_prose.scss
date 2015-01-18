@@ -32,7 +32,8 @@
     p > img,
     ul,
     ol,
-    dl {
+    dl,
+    [class*="highlighter-"] {
         margin-bottom: $u__baseline/2;
     }
 
