@@ -27,7 +27,11 @@ paginate: 12
 paginate_path: /journal/:num/
 
 # Writing
-markdown: Pypedown # Pygments + Typograuby + kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    inline_theme: github
 
 # Assets
 assets:
