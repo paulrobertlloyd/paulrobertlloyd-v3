@@ -26,4 +26,3 @@ end
 guard :livereload, override_url: true do
   watch(%r{^public/.+})
 end
-
