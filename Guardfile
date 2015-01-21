@@ -1,7 +1,7 @@
 Bundler.require(:jekyll_plugins)
 
 # Jekyll https://github.com/berrberr/guard-jekyll-plus
-guard :'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'] do
+guard :'jekyll-plus', :config => ['config/jekyll.yml', 'config/jekyll/development.yml'], :silent => true do
   watch(%r{^source/.+})
   watch('config/jekyll.yml')
   watch('config/jekyll/development.yml')

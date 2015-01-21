@@ -10,7 +10,8 @@
 }
 
 .page__header {
-    padding-bottom: ($u__baseline * 2);
+    padding-top: ($u__baseline * 3);
+    padding-bottom: ($u__baseline * 3);
     order: 1;
 }
 
@@ -19,8 +20,8 @@
 }
 
 .page__footer {
-    margin-top: -($u__baseline * 2);
-    margin-bottom: ($u__baseline * 2);
+    margin-top: -($u__baseline * 3);
+    margin-bottom: ($u__baseline * 3);
     order: 2;
 }
 
