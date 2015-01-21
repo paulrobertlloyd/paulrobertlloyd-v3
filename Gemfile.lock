@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/berrberr/guard-jekyll-plus.git
+  revision: bbccb1aacdc8cfd2b2fe2240d00d733b2cdb3d78
+  specs:
+    guard-jekyll-plus (1.4.12)
+      guard (~> 2.0)
+      jekyll (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -53,9 +61,6 @@ GEM
       pry (>= 0.9.12)
       shellany (~> 0.0)
       thor (>= 0.18.1)
-    guard-jekyll-plus (2.0.0)
-      guard (~> 2.8)
-      jekyll (>= 1.0.0)
     guard-jshintrb (1.1.0)
       guard (~> 2.0)
       jshintrb
@@ -200,7 +205,7 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    typogruby (1.0.17)
+    typogruby (1.0.18)
       rubypants
     uglifier (2.7.0)
       execjs (>= 0.3.0)
@@ -216,7 +221,7 @@ DEPENDENCIES
   capistrano-rvm
   exiftool
   guard
-  guard-jekyll-plus
+  guard-jekyll-plus!
   guard-jshintrb
   guard-livereload
   guard-sass
