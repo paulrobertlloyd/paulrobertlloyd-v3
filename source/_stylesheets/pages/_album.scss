@@ -1,0 +1,17 @@
+/*  =========================================================================
+    Layout: Album
+    ========================================================================= */
+
+.page--album .figure {
+    min-height: 10rem;
+    max-height: 40rem;
+    margin-bottom: ($u__baseline * 3);
+}
+
+.page--album .figure__main {
+    background-color: rgba(0, 0, 0, 0.1);
+
+    img {
+        margin: 0 auto;
+    }
+}
