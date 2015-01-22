@@ -131,6 +131,7 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
+    mini_magick (4.0.2)
     multi_css (0.1.0)
       css_press
     multi_js (0.1.0)
@@ -230,6 +231,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-assets
   jekyll-sitemap
+  mini_magick
   octopress-autoprefixer
   octopress-minify-html
   rake

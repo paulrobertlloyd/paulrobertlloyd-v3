@@ -3,9 +3,9 @@
     ========================================================================= */
 
 .page--album .figure {
+    margin-bottom: ($u__baseline * 3);
     min-height: 10rem;
     max-height: 40rem;
-    margin-bottom: ($u__baseline * 3);
 }
 
 .page--album .figure__main {
@@ -13,5 +13,6 @@
 
     img {
         margin: 0 auto;
+        max-height: 100%;
     }
 }
