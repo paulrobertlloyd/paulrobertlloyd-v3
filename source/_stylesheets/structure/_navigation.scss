@@ -4,9 +4,13 @@
 
 .navigation {
     position: absolute;
-    top: ($u__baseline * 4);
+    top: ($u__baseline * 2.5);
     right: 0;
     left: 0;
+
+    @include susy-breakpoint(b__a) {
+        top: ($u__baseline * 2.25);
+    }
 }
 
 .navigation__container {
