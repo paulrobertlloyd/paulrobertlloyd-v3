@@ -10,7 +10,7 @@ tags:
   - Chicago
   - United States
 ---
-{% figure class:'class1 class2', caption:"_Cloud Gate_ by Anish Kapoor" %}
+{% figure class:'l-bleed', caption:"_Cloud Gate_ by Anish Kapoor" %}
 ![](/assets/images/2008/12/chicago.jpg)
 {% endfigure %}
 
