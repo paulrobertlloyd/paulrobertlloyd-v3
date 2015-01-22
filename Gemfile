@@ -37,3 +37,6 @@ end
 
 # Rake (manages build tasks)
 gem 'rake'
+
+# Image plugin
+# gem 'mini_magick'
