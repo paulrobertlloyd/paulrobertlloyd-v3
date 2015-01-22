@@ -11,15 +11,37 @@
 
 /* Primary navigation  */
 .nav--primary {
-    @include fs--english;
     @include clearfix;
+    @include fs--english;
+
+    @include susy-breakpoint(b__b) {
+        @include fs--double-brevier;
+    }
 
     .nav__item {
         @include span(1 of 3);
         margin-bottom: ($u__baseline / 2);
 
-        &:nth-child(3n) {
-            @include last;
+        @include susy-breakpoint(0) {
+            &:nth-child(3n) {
+                @include last;
+            }
+        }
+
+        @include susy-breakpoint(b__a) {
+            @include span(1 of 8);
+
+            &:nth-child(3n) {
+                @include span(1 of 8);
+            }
+
+            &:first-of-type {
+                margin-left: span(3 of 8 wide);
+            }
+
+            &:last-of-type {
+                @include last;
+            }
         }
     }
 }

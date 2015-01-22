@@ -4,7 +4,11 @@
 
 .banner {
     border-bottom: 1px solid rgba($c__accent, 0.4);
-    padding-bottom: ($u__baseline * 4);
+    padding-bottom: ($u__baseline * 3.5);
+
+    @include susy-breakpoint(b__a) {
+        padding-bottom: 0;
+    }
 }
 
 .banner__container {
@@ -14,8 +18,20 @@
 .banner__title {
     text-align: center;
     line-height: 0.1;
+
+    @include susy-breakpoint(b__a) {
+        text-align: left;
+    }
 }
 
 .banner__logo {
+    width: ($u__baseline * 2);
+    height: ($u__baseline * 2);
     fill: $c__accent;
+
+    @include susy-breakpoint(b__a) {
+        @include span(1 of 8);
+        width: ($u__baseline * 4);
+        height: ($u__baseline * 4);
+    }
 }

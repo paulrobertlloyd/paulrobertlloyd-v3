@@ -4,12 +4,12 @@
 
 .page--album .figure {
     margin-bottom: ($u__baseline * 3);
-    min-height: 10rem;
-    max-height: 40rem;
+    min-height: ($u__baseline * 8);
+    max-height: ($u__baseline * 32);
 }
 
 .page--album .figure__main {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(#000, 0.1);
 
     img {
         margin: 0 auto;
