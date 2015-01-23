@@ -4,6 +4,9 @@ title: Magical Melbourne
 series: Australasia 2009
 date: '2010-01-29 23:42:47 +0000'
 excerpt: After two and a half weeks exploring various cities, it was finally on to Melbourne, and the final stop on my short tour of Australasia.
+image:
+  url: /2010/01/melbourne_royal_exhibition_building.jpg)
+  caption: Royal Exhibition Building, Melbourne
 tags:
   - Travel
   - Australia
@@ -11,10 +14,6 @@ tags:
   - Olympics
 ---
 Melbourne's status as Australia's cultural and sporting capital is reflected by two imposing sights in the city -- the [Melbourne Cricket Ground][1] (MCG) and the [Shrine of Remembrance][2] -- both backed up by an amazing array of national, state and metropolitan galleries, performance venues and sports stadia. The extensive tram system is just as impressive, and gives you an insight as to how other cities may have looked had they not been so eager to turn their streets over to the motor vehicle.
-
-{% figure class:'l-bleed', caption:'Royal Exhibition Building, Melbourne' %}
-![](/assets/images/2010/01/melbourne_royal_exhibition_building.jpg)
-{% endfigure %}
 
 Melbourne is host to a number of different architectural styles, many of them quite daring, especially recent additions like [Federation Square][3] and [Eureka Tower][4]. However, unlike Wellington, there is a general cohesiveness. In fact this even extends to the city council's [new identity][5]. Having witnessed the city first hand, I can't see it as anything other than a perfect graphic manifestation of Melbourne's built environment.
 
@@ -25,7 +24,7 @@ Given Australia's passion for sport, it's perhaps no surprise that the MCG -- wh
 
 As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many of the buildings from this time remained. Unfortunately much has changed, although the Olympic Park is still home to the [Olympic Pool][8] -- the first fully indoor Olympic swimming venue. This is now an indoor training centre and office complex, and sadly the only major structure from the games to look much as it did in 1956. Many of the other buildings have since been replaced by motorways and car parks.
 
-{% figure class:'l-pull-right', caption:'The cauldron from the 1956 Olympic Games' %}
+{% figure class:'l-pull-left', caption:'The cauldron from the 1956 Olympic Games' %}
 ![](/assets/images/2010/01/melbourne_olympic_cauldron.jpg)
 {% endfigure %}
 

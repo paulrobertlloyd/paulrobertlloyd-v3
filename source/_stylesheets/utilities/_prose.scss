@@ -101,22 +101,26 @@
 
     // Hang element to the left
     .l-hang-right {
-        @include span(3 of 6 last);
-        margin-right: -(span(1 wider));
-        margin-left: gutter();
+        @include susy-breakpoint(b__a) {
+            @include span(3 of 6 last);
+            margin-right: -(span(1 wider));
+            margin-left: gutter();
 
-        &.figure {
-            margin-bottom: 0;
+            &.figure {
+                margin-bottom: 0;
+            }
         }
     }
 
     .l-hang-left {
-        @include span(3 of 6);
-        margin-right: gutter();
-        margin-left: -(span(1 wider));
+        @include susy-breakpoint(b__a) {
+            @include span(3 of 6);
+            margin-right: gutter();
+            margin-left: -(span(1 wider));
 
-        &.figure {
-            margin-bottom: 0;
+            &.figure {
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -125,12 +129,19 @@
         @include bleed;
 
         .figure__caption {
-            padding-right: (span(1 wide));
-            padding-left: (span(1 wide));
+            padding-right: (gutter());
+            padding-left: (gutter());
+
+            @include susy-breakpoint(b__a) {
+                padding-right: (span(1 wide));
+                padding-left: (span(1 wide));
+            }
         }
 
         .embed--video {
-            padding-bottom: 75%;
+            @include susy-breakpoint(b__a) {
+                padding-bottom: 75%;
+            }
         }
     }
 
@@ -138,11 +149,15 @@
         @include bleed;
 
         .figure__main {
-            @include span(6);
+            @include susy-breakpoint(b__a) {
+                @include span(6);
+            }
         }
 
         .figure__caption {
-            @include span(2 last);
+            @include susy-breakpoint(b__a) {
+                @include span(2 last);
+            }
         }
     }
 }

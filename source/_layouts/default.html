@@ -60,7 +60,7 @@
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
     <meta name="twitter:creator" content="{{ site.author.twitter }}"/>
     {% if page.image %}
-    <meta name="twitter:image" content="{{ site.img_url }}/180w/80/{{ page.image }}"/>
+    <meta name="twitter:image" content="{{ site.img_url }}/180w/80/{{ page.image.url }}"/>
     {% endif %}
     <meta name="twitter:card" content="summary"/>
 {% endif %}
