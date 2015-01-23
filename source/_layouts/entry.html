@@ -10,6 +10,12 @@ layout: default
         {% endif %}
 
         <div class="prose  e-content">
+            {% if page.image.caption %}
+                {% figure class:'l-bleed', caption:{{ page.image.caption }} %}
+{% picture showcase {{ page.image.url }} %}
+                {% endfigure %}
+            {% endif %}
+
             {{ content | typogrify }}
         </div>
 

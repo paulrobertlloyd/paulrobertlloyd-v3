@@ -15,4 +15,9 @@
 
 .navigation__container {
     @include container($u__max-width);
+    padding: 0 gutter();
+
+    @include susy-breakpoint(b__a) {
+        padding: 0;
+    }
 }

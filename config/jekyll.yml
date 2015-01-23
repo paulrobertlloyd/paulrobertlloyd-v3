@@ -40,6 +40,35 @@ assets:
     - _javascripts
   css_compressor: sass
 
+# Images
+picture:
+  source: assets/images
+  output: images
+  markup: img
+  presets:
+    default:
+      attr:
+        class: img img--default
+      source_default:
+        width: 400
+    supporting:
+      attr:
+        class: img img--supporting
+        sizes: '(min-width: 32em) 33vw, 100vw'
+      source_medium:
+        width: 800
+      source_default:
+        width: 400
+    showcase:
+      attr:
+        class: img img--showcase
+      source_large:
+        width: 1200
+      source_medium:
+        width: 800
+      source_default:
+        width: 400
+
 # Publishing
 source: ./source
 destination: ./public

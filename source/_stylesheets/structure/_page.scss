@@ -4,9 +4,14 @@
 
 .page {
     display: flex;
-    padding-right: span(1 wide);
-    padding-left: span(1 wide);
+    padding-right: gutter();
+    padding-left: gutter();
     flex-direction: column;
+
+    @include susy-breakpoint(b__a) {
+        padding-right: span(1 wide);
+        padding-left: span(1 wide);
+    }
 }
 
 .page__header {

@@ -39,4 +39,4 @@ end
 gem 'rake'
 
 # Image plugin
-# gem 'mini_magick'
+gem 'mini_magick'

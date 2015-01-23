@@ -8,8 +8,11 @@
 
 .contentinfo__container {
     @include container($u__max-width);
-    padding-top: $u__baseline;
-    padding-bottom: $u__baseline;
+    padding: $u__baseline gutter();
+
+    @include susy-breakpoint(b__a) {
+        padding: $u__baseline 0;
+    }
 }
 
 .contentinfo__about {
