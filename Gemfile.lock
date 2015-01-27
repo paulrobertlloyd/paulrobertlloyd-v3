@@ -1,15 +1,71 @@
 GIT
-  remote: git://github.com/berrberr/guard-jekyll-plus.git
-  revision: bbccb1aacdc8cfd2b2fe2240d00d733b2cdb3d78
+  remote: git://github.com/imathis/guard-jekyll-plus.git
+  revision: f2a7e71b2086fea65cf69136338dd6a952d934dd
   specs:
-    guard-jekyll-plus (1.4.12)
-      guard (~> 2.0)
-      jekyll (~> 2.0)
+    guard-jekyll-plus (2.0.0)
+      guard (~> 2.10, >= 2.10.3)
+      guard-compat (~> 1.1)
+      jekyll (>= 1.0.0)
+
+GIT
+  remote: git://github.com/jekyll/jekyll.git
+  revision: 69e8f1923c8568437465a96b4016caf0868982bf
+  specs:
+    jekyll (3.0.0.pre.beta1)
+      classifier-reborn (~> 2.0)
+      colorator (~> 0.1)
+      jekyll-coffeescript (~> 1.0)
+      jekyll-gist (~> 1.0)
+      jekyll-paginate (~> 1.0)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.1)
+      kramdown (~> 1.3)
+      liquid (~> 3.0)
+      mercenary (~> 0.3.3)
+      pygments.rb (~> 0.6.0)
+      redcarpet (~> 3.1)
+      safe_yaml (~> 1.0)
+      toml (~> 0.1.0)
+
+GIT
+  remote: git://github.com/pathawks/jekyll-archives.git
+  revision: 36f67cc956fe365ba1c4719ea9e760493c9d8bbf
+  branch: 3.0
+  specs:
+    jekyll-archives (2.0.0)
+      jekyll (>= 2.4)
+
+GIT
+  remote: git://github.com/paulrobertlloyd/autoprefixer.git
+  revision: b4853e8cd52a5bbb19f5a4dd24724179bc6cb0d9
+  branch: 3.0
+  specs:
+    octopress-autoprefixer (1.0.0)
+      autoprefixer-rails (~> 2.2)
+      jekyll (>= 2.0)
+      octopress-hooks (~> 2.0)
+
+GIT
+  remote: git://github.com/paulrobertlloyd/hooks.git
+  revision: 99ef0a3bbf644ad66ce50966723da8ed780d7d7f
+  branch: 3.0
+  specs:
+    octopress-hooks (2.3.2)
+      jekyll (>= 2.0)
+
+GIT
+  remote: git://github.com/paulrobertlloyd/minify-html.git
+  revision: 92de8bbdb4207fdcef2193a1c0785d3a4cf761e1
+  branch: 3.0
+  specs:
+    octopress-minify-html (1.2.1)
+      html_press (~> 0.8)
+      jekyll (>= 2.0)
+      octopress-hooks
 
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.6)
     autoprefixer-rails (2.2.0.20140804)
       execjs
     blankslate (2.1.2.4)
@@ -48,8 +104,6 @@ GEM
     exiftool (0.6.0)
       json
     fast-stemmer (1.0.2)
-    fastimage (1.6.6)
-      addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.6)
     formatador (0.2.5)
     guard (2.11.1)
@@ -61,6 +115,7 @@ GEM
       pry (>= 0.9.12)
       shellany (~> 0.0)
       thor (>= 0.18.1)
+    guard-compat (1.2.1)
     guard-jshintrb (1.1.0)
       guard (~> 2.0)
       jshintrb
@@ -83,26 +138,8 @@ GEM
     htmlentities (4.3.3)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
-    jekyll (2.5.3)
-      classifier-reborn (~> 2.0)
-      colorator (~> 0.1)
-      jekyll-coffeescript (~> 1.0)
-      jekyll-gist (~> 1.0)
-      jekyll-paginate (~> 1.0)
-      jekyll-sass-converter (~> 1.0)
-      jekyll-watch (~> 1.1)
-      kramdown (~> 1.3)
-      liquid (~> 2.6.1)
-      mercenary (~> 0.3.3)
-      pygments.rb (~> 0.6.0)
-      redcarpet (~> 3.1)
-      safe_yaml (~> 1.0)
-      toml (~> 0.1.0)
-    jekyll-archives (2.0.0)
-      jekyll (~> 2.4)
-    jekyll-assets (0.12.1)
-      fastimage (~> 1.6)
-      jekyll (~> 2.0)
+    jekyll-assets (0.9.2)
+      jekyll (>= 1.0.0, < 3.0.0)
       sass (~> 3.2)
       sprockets (~> 2.10)
       sprockets-helpers
@@ -114,7 +151,7 @@ GEM
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-sitemap (0.7.0)
-    jekyll-watch (1.2.0)
+    jekyll-watch (1.2.1)
       listen (~> 2.7)
     jshintrb (0.2.4)
       execjs
@@ -123,7 +160,7 @@ GEM
     json (1.8.2)
     kramdown (1.5.0)
     libv8 (3.16.14.7)
-    liquid (2.6.1)
+    liquid (3.0.1)
     listen (2.8.5)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -144,16 +181,6 @@ GEM
     notiffany (0.0.3)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    octopress-autoprefixer (1.0.0)
-      autoprefixer-rails (~> 2.2)
-      jekyll (~> 2.0)
-      octopress-hooks (~> 2.0)
-    octopress-hooks (2.3.2)
-      jekyll (~> 2.0)
-    octopress-minify-html (1.2.1)
-      html_press (~> 0.8)
-      jekyll (~> 2.0)
-      octopress-hooks
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
@@ -172,7 +199,6 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
     ref (1.0.5)
-    rouge (1.7.7)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
     sass (3.4.10)
@@ -195,7 +221,7 @@ GEM
       colorize (>= 0.7.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    susy (2.2.1)
+    susy (2.2.2)
       sass (>= 3.3.0, < 3.5)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
@@ -227,15 +253,15 @@ DEPENDENCIES
   guard-livereload
   guard-sass
   guard-scss-lint
-  jekyll
-  jekyll-archives
+  jekyll!
+  jekyll-archives!
   jekyll-assets
   jekyll-sitemap
   mini_magick
-  octopress-autoprefixer
-  octopress-minify-html
+  octopress-autoprefixer!
+  octopress-hooks!
+  octopress-minify-html!
   rake
-  rouge
   susy
   therubyracer
   typogruby

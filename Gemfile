@@ -10,7 +10,7 @@ end
 # Guard (automates development tasks)
 group :development do
   gem 'guard'
-  gem 'guard-jekyll-plus', github: 'berrberr/guard-jekyll-plus'
+  gem 'guard-jekyll-plus', github: 'imathis/guard-jekyll-plus'
   gem 'guard-jshintrb'
   gem 'guard-livereload'
   gem 'guard-sass'
@@ -18,16 +18,16 @@ group :development do
 end
 
 # Jekyll (generates static files)
-gem 'jekyll'
+gem 'jekyll', github: 'jekyll/jekyll'
 group :jekyll_plugins do
-  gem 'jekyll-archives'
+  gem 'jekyll-archives', github: 'pathawks/jekyll-archives', branch: '3.0'
   gem 'jekyll-assets'
   gem 'jekyll-sitemap'
 
-  gem 'octopress-autoprefixer'
-  gem 'octopress-minify-html'
+  gem 'octopress-hooks', github: 'paulrobertlloyd/hooks', branch: '3.0'
+  gem 'octopress-autoprefixer', github: 'paulrobertlloyd/autoprefixer', branch: '3.0'
+  gem 'octopress-minify-html', github: 'paulrobertlloyd/minify-html', branch: '3.0'
 
-  gem 'rouge' # Remove with Jekyll 3.0
   gem 'exiftool'
   gem 'susy'
   gem 'therubyracer'

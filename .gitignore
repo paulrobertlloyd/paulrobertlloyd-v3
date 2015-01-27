@@ -4,8 +4,6 @@
 *.orig
 *.log
 *.rej
-*.sass-cache
-*.webmention-cache
 *.swo
 *.swp
 *.zip
@@ -18,6 +16,9 @@
 ._*
 
 # Files to ignore
+*.jekyll-metadata
+*.sass-cache
+*.webmention-cache
 
 # Folders to ignore
 public
