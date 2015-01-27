@@ -1,13 +1,4 @@
 GIT
-  remote: git://github.com/imathis/guard-jekyll-plus.git
-  revision: f2a7e71b2086fea65cf69136338dd6a952d934dd
-  specs:
-    guard-jekyll-plus (2.0.0)
-      guard (~> 2.10, >= 2.10.3)
-      guard-compat (~> 1.1)
-      jekyll (>= 1.0.0)
-
-GIT
   remote: git://github.com/jekyll/jekyll.git
   revision: 69e8f1923c8568437465a96b4016caf0868982bf
   specs:
@@ -116,6 +107,10 @@ GEM
       shellany (~> 0.0)
       thor (>= 0.18.1)
     guard-compat (1.2.1)
+    guard-jekyll-plus (2.0.1)
+      guard (~> 2.10, >= 2.10.3)
+      guard-compat (~> 1.1)
+      jekyll (>= 1.0.0)
     guard-jshintrb (1.1.0)
       guard (~> 2.0)
       jshintrb
@@ -249,7 +244,7 @@ DEPENDENCIES
   capistrano-rvm
   exiftool
   guard
-  guard-jekyll-plus!
+  guard-jekyll-plus
   guard-jshintrb
   guard-livereload
   guard-sass

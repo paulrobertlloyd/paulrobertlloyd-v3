@@ -8,8 +8,11 @@ tags:
   - Web design and development
   - Responsive design
   - Interviews
+  - net Magazine
 ---
 Back in October, [Ethan Marcotte][1] asked me some questions about the design of my site. He was writing a round up of his [twenty favourite responsive websites][2] for .net Magazine and wanted quotes from each creator. In the spirit of [blogging more][3] I thought I'd share my answers here.
+
+* * *
 
 ### Why did you choose a responsive approach?
 My personal site has always been a place to try out new technology and techniques. As a site that is largely text based, I was also keen to take a content first approach.

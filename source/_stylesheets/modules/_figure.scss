@@ -1,5 +1,6 @@
 /*  =========================================================================
     Figure
+    TODO: Refactor all of this!
     ========================================================================= */
 .figure {
     position: relative; // Helps position exif-info to bottom of figure__caption
@@ -98,5 +99,9 @@
         :last-child {
             margin-bottom: 0;
         }
+    }
+
+    .figure__caption {
+        @include rule(after, $display: none);
     }
 }

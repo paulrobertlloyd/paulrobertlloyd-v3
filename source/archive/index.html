@@ -16,7 +16,7 @@ permalink: /archive/
         <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
         <ol class="list" reversed>
     {% endif %}
-            <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
+            <li class="list__item" value="{{ post.date | date: '%-d' }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
     {% if forloop.last %}
         </ol>
     </section>
