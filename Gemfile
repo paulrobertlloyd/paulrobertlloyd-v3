@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem 'octopress-autoprefixer', github: 'paulrobertlloyd/autoprefixer', branch: '3.0'
   gem 'octopress-minify-html', github: 'paulrobertlloyd/minify-html', branch: '3.0'
 
+  gem 'rouge' # Remove with Jekyll v3.0?
   gem 'exiftool'
   gem 'susy'
   gem 'therubyracer'
