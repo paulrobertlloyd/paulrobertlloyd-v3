@@ -11,6 +11,8 @@ tags:
 ---
 Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four questions as part of his [December Interview Series][1]. My answers are below. You can see how other designs and developers answered the same questions by [subscribing to the newsletter][2].
 
+* * *
+
 ## What was the best implementation of responsive web design you saw in 2012?
 The best responsive implementation can be found on the [BBC News Mobile][3] website. Designed and built very much with a mobile first mentality, it scales to meet different device characteristics beautifully. It's a fantastic example of progressive enhancement, too. Not just in terms of code; I love how decisions have been made regarding image usage, too. The basic HTML references just a single image, that for the headline story, with more capable devices receiving images for each subsequent story. This highlights some of the misguided thinking around images in a responsive environment. I believe we're focusing too much on how we can increase the quality and size of images, without first asking if we need those images at all.
 
