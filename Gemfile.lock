@@ -199,6 +199,7 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
     ref (1.0.5)
+    rouge (1.7.7)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
     sass (3.4.10)
@@ -262,6 +263,7 @@ DEPENDENCIES
   octopress-hooks!
   octopress-minify-html!
   rake
+  rouge
   susy
   therubyracer
   typogruby
