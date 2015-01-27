@@ -21,6 +21,7 @@ scm:
 
 # Permalinks
 permalink: /:year/:month/:title.html
+slugify_character: _
 
 # Pagination
 paginate: 12

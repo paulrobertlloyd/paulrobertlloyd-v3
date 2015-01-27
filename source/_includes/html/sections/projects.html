@@ -2,7 +2,8 @@
     <h1 class="section__title" id="projects">All Projects</h1>
 
     <ul class="list list--projects">
-    {% for summary in site.categories.projects | sort: 'date' %}
+    {% assign projects = site.categories.projects | sort: 'date' %}
+    {% for summary in projects %}
         {% if summary.project_featured != true %}
         <li class="list__item">
             {% include html/sections/summary--project.html %}
