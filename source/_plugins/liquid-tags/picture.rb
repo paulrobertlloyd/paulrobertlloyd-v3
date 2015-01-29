@@ -22,7 +22,7 @@ require 'digest/md5'
 require 'mini_magick'
 
 module Jekyll
-  class Picture < Liquid::Tag
+  class PictureTag < Liquid::Tag
 
     def initialize(tag_name, markup, tokens)
       @markup = markup
@@ -235,4 +235,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('picture', Jekyll::Picture)
+Liquid::Template.register_tag('picture', Jekyll::PictureTag)
