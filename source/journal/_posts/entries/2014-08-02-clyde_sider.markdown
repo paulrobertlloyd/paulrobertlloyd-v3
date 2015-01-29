@@ -11,7 +11,7 @@ tags:
   - Glasgow 2014
   - Volunteering
 ---
-{% figure caption:'The team I worked with during my penultimate shift outside Hampden Park' %}
+{% figure "The team I worked with during my penultimate shift outside Hampden Park" %}
 ![](/assets/images/2014/08/clyde_sider_hampden.jpg)
 {% endfigure %}
 
@@ -28,7 +28,7 @@ For me, volunteering a second time was an opportunity to recapture [the magic I 
 
 Following a successful application interview, I spent a further three weekends in Glasgow for orientation and training events. I enjoyed exploring this vibrant and engaging city and admiring its abundance of stunning architecture. The River Clyde crossed by iconic bridges and framed by oddly shaped buildings. Shopping districts featuring exquisite Victorian shopping malls and department stores. The sometimes brutal landscape the result of driving the M8 motorway straight through the heart of the city in the 1960s.
 
-{% figure caption:'The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number '[bridges to nowhere](https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere)' that can be found around the M8' %}
+{% figure "The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number '[bridges to nowhere](https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere)' that can be found around the M8" %}
 ![](/assets/images/2014/08/clyde_sider_bridge_to_nowhere.jpg)
 {% endfigure %}
 
@@ -46,7 +46,7 @@ However, as I discovered when I attended the athletics as a spectator, nothing c
 ## The Clyde-sider Experience
 Each shift began inside the stadium with everyone taking part in a [haka][7] (minus the dancing), before being dispatched to larger area groups. These groups were subdivided into smaller sub-teams, who were then briefed by their team leaders. A debrief at the end of the shift allowed us to relay any problems and suggest how things could be improved the next day.
 
-{% figure caption:'Illustration by [Christine J Thomson](http://thepapercutartist.com/)' %}
+{% figure "Illustration by [Christine J Thomson](http://thepapercutartist.com/)" %}
 ![](/assets/images/2014/08/clyde_sider_papercut.png)
 {% endfigure %}
 

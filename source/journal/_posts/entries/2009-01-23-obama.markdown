@@ -9,7 +9,7 @@ tags:
   - Politics
   - United States
 ---
-{% figure caption:'Barack Obama at a campaign rally in Pueblo, Colorado. Photograph: [Criz Stoddard](https://www.flickr.com/photos/zyrc/2993189541/)' %}
+{% figure "Barack Obama at a campaign rally in Pueblo, Colorado. Photograph: [Criz Stoddard](https://www.flickr.com/photos/zyrc/2993189541/)" %}
 ![](/assets/images/2009/01/obama.jpg)
 {% endfigure %}
 
@@ -24,7 +24,7 @@ I was amazed by the level of political awareness and activism that existed, perh
 ## Tuning into Obama
 Whilst I was now quite immersed in (some sort of) American way of life, I'm not sure when Obama first came to my attention. I do distinctly remember watching his announcement from Springfield, IL, in which he confirmed he was running for President, and already knew that he was the candidate I'd be supporting. Over time, his non-combative style, grace under pressure and call for change cemented that decision, whilst the way in which he embraced design, technology and the internet was encouraging given my interest in those areas.
 
-{% figure class:'l-hang-left', caption:'Barack Obama _Hope_ poster by Shepard Fairey' %}
+{% figure 1up l-hang-left "Barack Obama _Hope_ poster by Shepard Fairey" %}
 ![](/assets/images/2009/01/obama_hope_poster.png)
 {% endfigure %}
 

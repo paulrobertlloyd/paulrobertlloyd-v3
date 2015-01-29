@@ -24,7 +24,7 @@ Given Australia's passion for sport, it's perhaps no surprise that the MCG -- wh
 
 As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many of the buildings from this time remained. Unfortunately much has changed, although the Olympic Park is still home to the [Olympic Pool][8] -- the first fully indoor Olympic swimming venue. This is now an indoor training centre and office complex, and sadly the only major structure from the games to look much as it did in 1956. Many of the other buildings have since been replaced by motorways and car parks.
 
-{% figure class:'l-pull-left', caption:'The cauldron from the 1956 Olympic Games' %}
+{% figure 1up l-pull-left "The cauldron from the 1956 Olympic Games" %}
 ![](/assets/images/2010/01/melbourne_olympic_cauldron.jpg)
 {% endfigure %}
 
@@ -36,7 +36,7 @@ The centrepiece of this display was the original Olympic cauldron from the Melbo
 
 Keeping with this theme of sporting geekery, I was also keen to check out [Albert Park][10], host to the Australian Grand Prix every March. Although it was obvious to make out from maps situated around the park, it took me some time to realise that main road that circles the lake was indeed the race track.
 
-{% figure caption:'The pit lane on the Albert Park grand prix circuit' %}
+{% figure "The pit lane on the Albert Park grand prix circuit" %}
 ![](/assets/images/2010/01/melbourne_albert_park.jpg)
 {% endfigure %}
 

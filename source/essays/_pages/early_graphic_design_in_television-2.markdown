@@ -13,7 +13,7 @@ The increase of license holders required a greater range of programming but it a
 
 Graphic design's link with television however, began well before its launch in 1936:
 
-{% figure caption:'<cite>Crook, 1986</cite>' %}
+{% figure "<cite>Crook, 1986</cite>" %}
 > Contemporary descriptions of Baird's 1926 experiments with television broadcasts reveal that he used a variety of graphic forms to test legibility, including type script. Graphics and television were thus linked from the point of inception.
 {% endfigure %}
 
@@ -33,7 +33,7 @@ The quality of television broadcasts and receivers was crude to say the least. I
 
 This meant graphics produced for television had a huge number of restrictions put on them. Lettering had to be large and bold with strong tonal contrast and illustrations had to use fairly heavy lines and lack detail ('Op' and 'Pop' art themes were common used during the end of the fifties). Designers also had to work from the center of the screen outwards, so as to ensure their work would be seen.
 
-{% figure class:'figure--5up', caption:'Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)' %}
+{% figure 5up "Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)" %}
 ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1a.png)
 ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1b.png)
 ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1c.png)
@@ -41,7 +41,7 @@ This meant graphics produced for television had a huge number of restrictions pu
 ![Still from 'Wednesday Magazine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-1e.png)
 {% endfigure %}
 
-{% figure class:'figure--5up', caption:'Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)' %}
+{% figure 5up "Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)" %}
 ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2a.png)
 ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2b.png)
 ![Still from 'Kingsley Amis Goes Pop' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-2c.png)
@@ -55,7 +55,7 @@ After his career was interrupted by World War II, he returned to CBS and produce
 
 However his greatest creation was his corporate identity for CBS Television the well-known CBS 'eye' (see below) first aired on the 6th November 1951. He died at the age of 49, only a few months after being awarded art director of the year by the New York Art Directors Club in 1959.
 
-{% figure caption:'Figure 3: Corporate logo for CBS Television (CBS 1951-Present Day). Graphic Designer: William Golden (right)' %}
+{% figure "Figure 3: Corporate logo for CBS Television (CBS 1951-Present Day). Graphic Designer: William Golden (right)" %}
 ![The CBS Eye and its designer, William Golden](/assets/images/essays/early_graphic_design_in_television/figure-3.png)
 {% endfigure %}
 
@@ -63,7 +63,7 @@ It was Saul Bass though, who was to have the most influence on designers in the 
 
 His work on titles began almost by accident when working on an advertising campaign with the filmmaker Otto Preminger. Bass was designing a graphic symbol of a flame and a rose when he and Preminger came up with the idea of putting this image at the beginning of the film and animating it. Bass did this, adding credits to run over it, and from that moment on, Saul Bass became a title designer. He then went on to produce the titles for Preminger's film <cite>The Man with the Golden Arm</cite> in which:
 
-{% figure caption:'<cite>Montagu 1991: 5</cite>' %}
+{% figure "<cite>Montagu 1991: 5</cite>" %}
 > Bass used abstract shapes to portray the disjointed and unhappy life of an addict.
 {% endfigure %}
 
@@ -71,7 +71,7 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-{% figure class:'figure--3up', caption:'Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). [Watch on YouTube](https://www.youtube.com/watch?v=eGnpJ_KdqZE)' %}
+{% figure 3up "Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). [Watch on YouTube](https://www.youtube.com/watch?v=eGnpJ_KdqZE)" %}
 ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4a.png)
 ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4b.png)
 ![Still from 'The Man with the Golden Arm' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-4c.png)

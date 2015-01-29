@@ -11,7 +11,7 @@ layout: default
 
         <div class="prose  e-content">
             {% if page.image.caption %}
-                {% figure class:'l-bleed', caption:'{{ page.image.caption }}' %}
+                {% figure bleed "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
                 {% endfigure %}
             {% endif %}

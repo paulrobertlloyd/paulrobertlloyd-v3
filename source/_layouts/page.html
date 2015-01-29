@@ -6,6 +6,12 @@ layout: default
 
     <div class="page__main">
         <div class="prose">
+            {% if page.image.caption %}
+                {% figure 1up l-bleed "{{ page.image.caption }}" %}
+{% picture showcase {{ page.image.url }} %}
+                {% endfigure %}
+            {% endif %}
+
             {{ content | typogrify }}
         </div>
 

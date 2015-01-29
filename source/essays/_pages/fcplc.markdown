@@ -112,7 +112,7 @@ As for the grassroots of the game, where tomorrows players are to be found, ther
 Two recent examples of how the foundation has helped make a difference are in Colchester and Burnley. The Colchester United Football in the Community Scheme was given a £11,537 grant to fund to mobile floodlights to provide evening coaching schemes for local young people. This radical project uses the mobile floodlights to take football to local housing estates, and help provide professional coaching opportunities for children. Meanwhile, Burnley Borough Council received a £150,000 grant to fund pitch drainage and construct modern changing facilities at the Prairie Playing fields in the town. The council hopes these improvements will boost participation rates, especially amongst under represented groups.
 
 ### Future
-{% figure class:'l-bleed', caption:'Manchester United winning the European Cup in 1999' %}
+{% figure 1up l-bleed "Manchester United winning the European Cup in 1999" %}
 ![](/assets/images/essays/fcplc/manchester_united_1999.jpg)
 {% endfigure %}
 
@@ -193,7 +193,7 @@ Players wages have led to fans believing the players are no longer motivated bec
 ### Responsible Business Management
 The situation with players wages has only arisen because clubs forgetting football is a sport not a business. As a football club, you don't need to make profits just avoid sustained losses. But as chairman of football businesses, they tend to have their feet firmly in the City, believing in its philosophies such as "the market will regulate itself naturally" quoted from Southampton chairman, Rupert Lowe.
 
-{% figure class:'l-bleed', caption:'Preston North End's ground is also home to the National Football Museum' %}
+{% figure 1up l-bleed "Preston North End's ground is also home to the National Football Museum" %}
 ![Preston North End is also home to the National Football Museum](/assets/images/essays/fcplc/preston_north_end.jpg)
 {% endfigure %}
 
