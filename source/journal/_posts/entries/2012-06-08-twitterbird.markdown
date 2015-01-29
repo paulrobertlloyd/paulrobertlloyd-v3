@@ -9,7 +9,7 @@ tags:
   - Design
   - Twitter
 ---
-{% figure caption:'The new Twitter logo' %}
+{% figure "The new Twitter logo" %}
 ![](/assets/images/2012/06/twitterbird.jpg)
 {% endfigure %}
 

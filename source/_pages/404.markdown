@@ -3,7 +3,7 @@ layout: page
 title: Page Not Found (404)
 permalink: /error/404.html
 ---
-{% figure caption:'Illustration: [Waldo Pancake](http://waldopancake.com/)' %}
+{% figure "Illustration: [Waldo Pancake](http://waldopancake.com/)" %}
 ![](/assets/images/error/404.png)
 {% endfigure %}
 

@@ -16,7 +16,7 @@ Whilst I certainly understand the arguments made by a vocal minority campaigning
 
 Having a sovereign that is unelected and hereditary only works on the basis that her government, with the power to enact laws and collect taxes, is democratic and representative of the people. Whilst the Royal Family has modernised and adapted itself to stay relevant (a process that is likely continue on the accession of future monarchs), it seems ministers are less inclined to reform their own institutions in the same way.
 
-{% figure caption:''The People Say Yes', a video produced by the Yes campaign' %}
+{% figure "'The People Say Yes', a video produced by the Yes campaign" %}
 {% embed https://www.youtube.com/watch?v=Wl2I-c2xZ-c %}
 {% endfigure %}
 

@@ -13,7 +13,7 @@ On Friday evening I got a call from Jon on his way back to the house after a nig
 
 With some excitement, yet still fearing I might be being led up the garden path, I set foot outside the house and walked towards the end of the road. Everything seemed quiet and orderly, nothing suggesting I was in the immediate vicinity of a suspected bomb.
 
-{% figure class:'figure--2up', caption:'Bomb scene in Littlehampton' %}
+{% figure 2up "Bomb scene in Littlehampton" %}
 ![](/assets/images/2009/02/littlehampton_bomb_1.jpg)
 ![](/assets/images/2009/02/littlehampton_bomb_2.jpg)
 {% endfigure %}

@@ -22,7 +22,6 @@ require 'digest/md5'
 require 'mini_magick'
 
 module Jekyll
-
   class Picture < Liquid::Tag
 
     def initialize(tag_name, markup, tokens)
@@ -31,7 +30,6 @@ module Jekyll
     end
 
     def render(context)
-
       # Render any liquid variables in tag arguments and unescape template code
       render_markup = Liquid::Template.parse(@markup).render(context).gsub(/\\\{\\\{|\\\{\\%/, '\{\{' => '{{', '\{\%' => '{%')
 

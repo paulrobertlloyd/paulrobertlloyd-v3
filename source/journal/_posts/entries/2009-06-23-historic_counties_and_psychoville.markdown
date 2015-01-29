@@ -11,7 +11,7 @@ tags:
   - England
 discussion: closed
 ---
-{% figure caption:'Scene from Psychoville' %}
+{% figure "Scene from Psychoville" %}
 ![](/assets/images/2009/06/historic_counties_and_psychoville.jpg)
 {% endfigure %}
 

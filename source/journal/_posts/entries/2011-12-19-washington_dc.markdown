@@ -10,7 +10,7 @@ tags:
   - Virgina
   - United States
 ---
-{% figure caption:'Shannon looking towards the Lincoln Memorial' %}
+{% figure "Shannon looking towards the Lincoln Memorial" %}
 ![](/assets/images/2011/12/washington_dc.jpg)
 {% endfigure %}
 
@@ -28,7 +28,7 @@ The [Lincoln][8] and [Thomas Jefferson][9] memorials were as spectacular as I re
 In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for dinner at [Marvin][15] (a Southern flavoured restaurant), followed by cocktails at [The Gibson][16] before finishing up at [Lost Society][17] on U Street. I ended the night by getting lost on the metro, but apart from this minor mishap, I couldn't have asked for a better way to kick-off my trip.
 
 ## Apple Picking in Virginia
-{% figure caption:'The Apple Pickers' %}
+{% figure "The Apple Pickers" %}
 ![](/assets/images/2011/12/washington_dc_apple_pickers.jpg)
 {% endfigure %}
 

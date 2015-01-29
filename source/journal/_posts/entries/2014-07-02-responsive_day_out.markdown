@@ -11,7 +11,7 @@ tags:
   - Responsive design
 discussion: open
 ---
-{% figure class:'l-bleed', caption:'Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/)' %}
+{% figure 1up l-bleed "Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/)" %}
 {% picture showcase /2014/07/responsive_day_out.jpg %}
 {% endfigure %}
 
