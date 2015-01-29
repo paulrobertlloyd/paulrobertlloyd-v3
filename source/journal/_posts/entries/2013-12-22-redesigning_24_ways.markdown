@@ -10,7 +10,7 @@ tags:
   - Web design and development
   - 24 ways
 ---
-{% figure l-bleed "24 ways viewed on an iPad mini" %}
+{% figure l-extend "24 ways viewed on an iPad mini" %}
 ![](/assets/images/2013/12/24_ways_website.png)
 {% endfigure %}
 

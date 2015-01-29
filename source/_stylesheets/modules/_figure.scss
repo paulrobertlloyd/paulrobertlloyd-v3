@@ -8,13 +8,12 @@
 
 .figure__caption {
     @include caption;
-    //@include rule(after);
 }
 
 
-/* Image groups */
+/* Caption positioning */
 .figure--caption-right {
-    overflow: hidden;
+    @include clearfix;
 
     .figure__main {
         @include susy-breakpoint(b__a) {
@@ -23,9 +22,8 @@
     }
 
     .figure__caption {
-        @include rule(before);
-
         @include susy-breakpoint(b__a) {
+            @include rule(before);
             @include span(2 last);
         }
     }

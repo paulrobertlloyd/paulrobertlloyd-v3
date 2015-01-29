@@ -10,7 +10,7 @@ tags:
   - Review
   - James Bond
 ---
-{% figure l-bleed "Daniel Craig in Skyfall" %}
+{% figure l-extend "Daniel Craig in Skyfall" %}
 ![](/assets/images/2012/11/skyfall_bond_db5.jpg)
 {% endfigure %}
 

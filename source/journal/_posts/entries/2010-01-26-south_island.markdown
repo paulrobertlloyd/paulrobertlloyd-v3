@@ -14,7 +14,7 @@ Having arranged my flights into and out of New Zealand before I had decided upon
 
 The same could be said of my experience of the North Island too. After just [a day and a half in Auckland][1], I caught the [TranzScenic][2] [Overlander][3] rail service to Wellington, quickly by-passing much of the North Island in order to reach it's southerly tip later that day.
 
-{% figure l-bleed "The Overlander during its lunchtime stop at National Park railway station" %}
+{% figure l-extend "The Overlander during its lunchtime stop at National Park railway station" %}
 ![](/assets/images/2010/01/south_island_overlander.jpg)
 {% endfigure %}
 
@@ -29,7 +29,7 @@ Compared to Auckland, my initial take on Wellington was that if felt more Asian 
 ## Picton
 Picton is a small yet picturesque town at the foot of Queen Charlotte Sound, and I imagine its population doubles on the arrival of each ferry. Those who choose to holiday in this area typically use it as a base to explore the Marlborough Sounds. I was only here for the evening, so unable to see as much of these sea-drowned valleys as I would have liked. I did get a small taste of the area by walking along the short 'Bob's Bay Track' out to an isolated cove, before grabbing a bite to eat on a converted war ship, the [A.S. Echo][5].
 
-{% figure l-bleed "Queen Charlotte Sound" %}
+{% figure l-extend "Queen Charlotte Sound" %}
 ![](/assets/images/2010/01/south_island_queen_charlotte_sound.jpg)
 {% endfigure %}
 

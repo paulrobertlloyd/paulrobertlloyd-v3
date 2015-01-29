@@ -4,16 +4,15 @@ title: Le Corbusier, The Art of Architecture
 date: '2009-05-09 22:12:38 +0100'
 location: Littlehampton, England
 excerpt: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
+image:
+  url: /2009/05/le_corbusier.jpg
+  caption: Le Corbusier
 tags:
   - Architecture
   - Le Corbusier
   - Exhibitions
   - Barbican Centre
 ---
-{% figure l-bleed "Le Corbusier" %}
-{% picture showcase /2009/05/le_corbusier.jpg %}
-{% endfigure %}
-
 Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
 
 I've long been a fan of modern architecture, even more so since I've been travelling and furthering my photography skills. Indeed, the highlight of [my time in Chicago][1] last October was an architecture boat tour, and I'm sure much of my travels around Europe in the next few weeks will be spent pointing my camera towards iconic buildings such as the [Olympic Stadium][2] in Munich, and the [City of Art and Sciences][3] in Valencia.

@@ -10,7 +10,7 @@ tags:
   - England
 discussion: closed
 ---
-{% figure l-bleed "The England crest as it appears on the new shirt" %}
+{% figure l-extend "The England crest as it appears on the new shirt" %}
 ![](/assets/images/2009/03/tailored_for_england_crest.jpg)
 {% endfigure %}
 

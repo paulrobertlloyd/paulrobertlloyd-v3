@@ -16,7 +16,7 @@ The final stop in my four-city tour of the US in October was Washington, DC I've
 
 Perhaps unsurprisingly, I spent a good deal of time in DC taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country's history.
 
-{% figure l-bleed "The Vietnam Veterans Memorial" %}
+{% figure l-extend "The Vietnam Veterans Memorial" %}
 {% picture showcase /2008/12/washington_dc_vietnam_memorial.jpg %}
 {% endfigure %}
 
@@ -37,7 +37,7 @@ Also located in Arlington is the [Pentagon][7]. As the headquarters for the US D
 
 You are however allowed to take photos of the [9/11 memorial][8], in which the 184 victims of that days attack on the Pentagon are remembered in the form of 184 beautifully illuminated benches. The arrangement of benches (positioned in a number of rows according to the victim's ages, from 3 to 71) really brings home the reality of the tragedy.
 
-{% figure l-bleed "The Pentagon Memorial" %}
+{% figure l-extend "The Pentagon Memorial" %}
 {% picture showcase /2008/12/washington_dc_pentagon_memorial.jpg %}
 {% endfigure %}
 
@@ -46,7 +46,7 @@ DC is still a relatively young capital, although the many neo-classical styled b
 
 This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind -- with a possible future use as a spaceport! As a sign of Saarinen's foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
 
-{% figure l-bleed "The main terminal building at Washington Dulles International Airport" %}
+{% figure l-extend "The main terminal building at Washington Dulles International Airport" %}
 {% picture showcase /2008/12/washington_dc_dulles.jpg %}
 {% endfigure %}
 
