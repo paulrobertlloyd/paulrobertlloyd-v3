@@ -10,7 +10,7 @@ tags:
   - Responsive Summit
 discussion: closed
 ---
-{% figure class:'l-bleed' %}
+{% figure class:'l-extend' %}
 ![Scene from Dr. Strangelove](/assets/images/2012/02/responsive_summit.jpg)
 {% endfigure %}
 

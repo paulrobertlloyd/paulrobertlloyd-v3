@@ -183,9 +183,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pygments.rb (0.6.0)
+    pygments.rb (0.6.2)
       posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.1.0)
+      yajl-ruby (~> 1.2.0)
     rack (1.6.0)
     rainbow (2.0.0)
     rake (10.4.2)
@@ -233,7 +233,7 @@ GEM
     uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    yajl-ruby (1.1.0)
+    yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby

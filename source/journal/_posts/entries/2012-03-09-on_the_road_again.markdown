@@ -11,7 +11,7 @@ tags:
   - San Francisco
   - SXSW
 ---
-{% figure class:'l-bleed' %}
+{% figure class:'l-extend' %}
 ![Road block in Austin](/assets/images/2012/03/on_the_road_again.jpg)
 {% endfigure %}
 

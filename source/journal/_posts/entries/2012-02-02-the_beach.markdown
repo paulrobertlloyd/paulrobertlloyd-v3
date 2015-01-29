@@ -7,7 +7,7 @@ tags:
   - Writing
   - Creative writing
 ---
-{% figure class:'l-bleed' %}
+{% figure class:'l-extend' %}
 ![Ocean Beach, San Francisco](/assets/images/2012/02/the_beach.jpg)
 {% endfigure %}
 

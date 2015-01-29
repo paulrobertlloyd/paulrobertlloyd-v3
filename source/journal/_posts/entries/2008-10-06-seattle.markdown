@@ -17,7 +17,7 @@ The [Space Needle][1] is Seattle's signature landmark built for the 1962 Century
 
 The grounds exist today as 'Seattle Center', an arts and entertainment complex with museums, parkland and fairground rides. Key buildings from the exposition such as the Pacific Science Museum, Key Arena and Center House exist largely as they did almost 50 years ago, alongside newer buildings such as the [Experience Music Project][2] and McCaw Hall.
 
-{% figure l-bleed "The Space Needle with the Experience Music Project in the foreground" %}
+{% figure l-extend "The Space Needle with the Experience Music Project in the foreground" %}
 ![](/assets/images/2008/10/seattle_center.jpg)
 {% endfigure %}
 
@@ -28,7 +28,7 @@ With this structure dominating the northern suburbs where I was staying, peaking
 Linking the Seattle Center with downtown Seattle, is a monorail also built for the fair. Given the exposition was focused on an exciting scientific future I found it a little ironic that the monorail now terminates at a shopping mall -- consumerism, not science surely the dominating force in the 21st Century.
 
 ## Downtown and Pioneer Square
-{% figure figure--caption-right "Pike Place market" %}
+{% figure figure--caption-right l-extend "Pike Place market" %}
 ![](/assets/images/2008/10/seattle_pike_place.jpg)
 {% endfigure %}
 
@@ -38,7 +38,7 @@ However, I didn't explore these areas as much as I would have liked, mainly due 
 
 Here a daring steel and glass design wraps itself around public reading and research spaces, lounges and an innovative 'book spiral'. This continuous spiral allows visitors to browse the library's entire non-fiction collection without breaking up the Dewey Decimal classification system onto different floors.
 
-{% figure figure--caption-right "Inside Seattle Central Library" %}
+{% figure figure--caption-right l-extend "Inside Seattle Central Library" %}
 ![](/assets/images/2008/10/seattle_central_library.jpg)
 {% endfigure %}
 

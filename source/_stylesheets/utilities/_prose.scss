@@ -99,8 +99,8 @@
         @include span(2 of 6);
     }
 
-    // Hang element to the left
-    .l-hang-right {
+    // Pull element right or left
+    .l-pull-right {
         @include susy-breakpoint(b__a) {
             @include span(3 of 6 last);
             margin-right: -(span(1 wider));
@@ -108,7 +108,7 @@
         }
     }
 
-    .l-hang-left {
+    .l-pull-left {
         @include susy-breakpoint(b__a) {
             @include span(3 of 6);
             margin-right: gutter();
@@ -116,9 +116,9 @@
         }
     }
 
-    // Elements that bleed to edges of container
-    .l-bleed {
-        @include bleed;
+    // On wider breakpoints elements that extends outwards by additional column
+    .l-extend {
+        @include extend;
 
         .figure__caption {
             padding-right: (gutter());

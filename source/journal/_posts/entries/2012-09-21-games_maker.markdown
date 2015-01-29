@@ -11,7 +11,7 @@ tags:
   - Volunteering
 discussion: closed
 ---
-{% figure l-bleed "Me and my fellow Games Makers in the Olympic Park" %}
+{% figure l-extend "Me and my fellow Games Makers in the Olympic Park" %}
 ![](/assets/images/2012/09/games_maker_olympic_park.jpg)
 {% endfigure %}
 

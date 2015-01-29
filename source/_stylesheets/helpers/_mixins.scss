@@ -105,7 +105,7 @@
 
 
 // Layout
-@mixin bleed {
+@mixin extend {
     margin-right: -(gutter());
     margin-left: -(gutter());
 
