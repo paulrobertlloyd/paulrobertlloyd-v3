@@ -8,7 +8,7 @@ tag:
   - Events
   - SXSW
 ---
-{% figure 1up l-bleed "A sign reading Austin" %}
+{% figure l-bleed "A sign reading Austin" %}
 ![](/assets/images/2011/03/sxsw_austin_sign.jpg)
 {% endfigure %}
 

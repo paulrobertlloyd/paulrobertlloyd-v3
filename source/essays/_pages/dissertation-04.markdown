@@ -13,7 +13,7 @@ Taking into account that Channel 4 was to commission its programmes from indepen
 
 Although it was expensive to implement, it was radically different to its competitors, all of which returned to a single on-screen ident, be it BBC1's revolving globe, Anglia's revolving knight or Thames' London skyline.
 
-{% figure 4up "Figure 6: The four original launch idents for Channel 4" %}
+{% figure figure--image-quartet "Figure 6: The four original launch idents for Channel 4" %}
 ![Channel 4 launch ident 1](/assets/images/essays/dissertation/figure-6a.png)
 ![Channel 4 launch ident 1](/assets/images/essays/dissertation/figure-6b.png)
 ![Channel 4 launch ident 1](/assets/images/essays/dissertation/figure-6c.png)
@@ -35,7 +35,7 @@ Although it was expensive to implement, it was radically different to its compet
 ![Channel 4 launch ident 4](/assets/images/essays/dissertation/figure-6d.png)
 {% endfigure %}
 
-{% figure 4up "Figure 7: The idents were part of a consistent presentation style across the channel" %}
+{% figure figure--image-quartet "Figure 7: The idents were part of a consistent presentation style across the channel" %}
 ![Channel 4 clock](/assets/images/essays/dissertation/figure-7a.png)
 ![Channel 4 programme menu](/assets/images/essays/dissertation/figure-7b.png)
 ![Channel 4 promotion slide](/assets/images/essays/dissertation/figure-7c.png)
@@ -52,7 +52,7 @@ Robinson Lambie-Nairn encouraged the channel's presentation department to follow
 
 The success of the Channel 4 identity caused immediate resentment from various ITV regions, which considered the new channel to be its 'poor relation' (Lambie-Nairn, 1997, p85), yet it had an identity that was a talking point amongst both industry and public. They concluded that it was successful due to the fact that its idents were computer animated (apposed to its consistent and well applied design) and ordered their graphic designers to computerise their logos.
 
-{% figure 3up "Figure 8: The face of television across all channels became increasingly similar. Here are shown idents for BBC1, BBC2 and Thames (an ITV region serving London during weekdays)" %}
+{% figure figure--image-trio "Figure 8: The face of television across all channels became increasingly similar. Here are shown idents for BBC1, BBC2 and Thames (an ITV region serving London during weekdays)" %}
 ![BBC One ident, 1985](/assets/images/essays/dissertation/figure-8a.png)
 ![BBC Two ident, 1986](/assets/images/essays/dissertation/figure-8b.png)
 ![Thames Television ident](/assets/images/essays/dissertation/figure-8c.png)

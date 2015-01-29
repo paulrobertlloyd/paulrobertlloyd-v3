@@ -24,7 +24,7 @@ I haven't spent nearly enough time in this 'Area of Outstanding Natural Beauty',
 ![](/assets/images/2009/01/day_one_cannock_chase_2.jpg)
 {% endfigure %}
 
-{% figure 2up "More scenes from Cannock Chase" %}
+{% figure figure--image-duo "More scenes from Cannock Chase" %}
 ![](/assets/images/2009/01/day_one_cannock_chase_3.jpg)
 ![](/assets/images/2009/01/day_one_cannock_chase_4.jpg)
 {% endfigure %}

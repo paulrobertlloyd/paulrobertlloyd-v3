@@ -37,7 +37,7 @@ Summer was a little less hectic on the travel front, but after visiting my frien
 
 Of course the highlight of each summer, is a weekend spent with many friends on a camp site Dolgellau, North Wales. What started as an event focused on cycling (the nearby Coed-y-Brenin Forest is famed for its mountain bike trails) has since become more about getting away from it all, and relaxing in the [beautiful Welsh country side][15]. That and of course firing bottle rockets, chopping down trees, and [playing with boats in the river][16]!
 
-{% figure 1up l-hang-left "Seattle's Space Needle, taken from Queen Anne Hill" %}
+{% figure l-hang-left "Seattle's Space Needle, taken from Queen Anne Hill" %}
 ![](/assets/images/2009/01/2008_in_review_seattle.jpg)
 {% endfigure %}
 

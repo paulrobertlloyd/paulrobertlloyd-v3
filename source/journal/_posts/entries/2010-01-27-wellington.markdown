@@ -22,7 +22,7 @@ Much of this 'madness' can be attributed to the city's architectural style, whic
 
 However, if you look closely, you can still find a number of fine examples of the Art Deco style. The [Prudential Assurance Building][2] on Lambton Quay is one of few such buildings I spotted in the CBD, and there are many more in the surrounding districts (the Central Fire Station is a particularly beautiful example). The bohemian buildings along [Cuba Street][3] also have their own unique charm, as do some of the newer developments around the waterfront. So, not all bad.
 
-{% figure 1up l-bleed "The Beehive and Parliament House, Wellington" %}
+{% figure l-bleed "The Beehive and Parliament House, Wellington" %}
 ![](/assets/images/2010/01/wellington_parliament.jpg)
 {% endfigure %}
 

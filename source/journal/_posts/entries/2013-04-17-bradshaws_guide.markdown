@@ -10,7 +10,7 @@ tags:
   - Travel
 discussion: closed
 ---
-{% figure 1up l-bleed "Bradshaw's Guide being viewed on an iPhone" %}
+{% figure l-bleed "Bradshaw's Guide being viewed on an iPhone" %}
 ![](/assets/images/2013/04/bradshaws_guide.png)
 {% endfigure %}
 

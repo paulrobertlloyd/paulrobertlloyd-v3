@@ -12,7 +12,7 @@ tag:
   - Royalty
   - Winston Churchill
 ---
-{% figure 1up l-bleed "Colin Firth in The King's Speech" %}
+{% figure l-bleed "Colin Firth in The King's Speech" %}
 ![](/assets/images/2011/02/the_kings_speech.jpg)
 {% endfigure %}
 

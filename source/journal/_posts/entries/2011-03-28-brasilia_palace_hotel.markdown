@@ -11,7 +11,7 @@ tag:
   - Brasília
   - Brazil
 ---
-{% figure 1up l-bleed "The Brasília Palace Hotel" %}
+{% figure l-bleed "The Brasília Palace Hotel" %}
 ![](/assets/images/2011/03/brasilia_palace_hotel.jpg)
 {% endfigure %}
 

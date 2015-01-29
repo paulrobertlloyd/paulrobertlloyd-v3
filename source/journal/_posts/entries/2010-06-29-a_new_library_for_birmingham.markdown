@@ -11,7 +11,7 @@ tags:
   - Library of Birmingham
 discussion: closed
 ---
-{% figure 1up l-bleed "Artists impression of the new Library of Birmingham" %}
+{% figure l-bleed "Artists impression of the new Library of Birmingham" %}
 ![](/assets/images/2010/06/a_new_library_for_birmingham.jpg)
 {% endfigure %}
 
