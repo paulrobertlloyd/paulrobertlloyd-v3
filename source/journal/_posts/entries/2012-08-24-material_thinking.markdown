@@ -10,7 +10,7 @@ tags:
   - SXSW
   - Web design and development
 ---
-{% figure 1up l-bleed "Olympic Cauldron design by Heatherwick Studio" %}
+{% figure l-bleed "Olympic Cauldron design by Heatherwick Studio" %}
 ![](/assets/images/2012/08/material_thinking_olympic_cauldron.jpg)
 {% endfigure %}
 

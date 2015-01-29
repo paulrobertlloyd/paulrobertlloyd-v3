@@ -9,7 +9,7 @@ tags:
   - Clearleft
 discussion: closed
 ---
-{% figure 1up l-bleed "The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)" %}
+{% figure l-bleed "The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)" %}
 ![The Clearleft team](/assets/images/2009/06/clearleft.jpg)
 {% endfigure %}
 

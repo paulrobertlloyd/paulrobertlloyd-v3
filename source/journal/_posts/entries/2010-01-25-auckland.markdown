@@ -10,7 +10,7 @@ tags:
   - Auckland
 discussion: closed
 ---
-{% figure 1up l-bleed "Auckland's CBD viewed from atop Mount Eden" %}
+{% figure l-bleed "Auckland's CBD viewed from atop Mount Eden" %}
 ![Auckland](/assets/images/2010/01/auckland.jpg)
 {% endfigure %}
 

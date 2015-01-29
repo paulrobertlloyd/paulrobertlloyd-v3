@@ -10,7 +10,7 @@ tags:
   - Responsive design
   - A List Apart
 ---
-{% figure 1up l-bleed "Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart" %}
+{% figure l-bleed "Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart" %}
 ![](/assets/images/2012/10/the_web_aesthetic.jpg)
 {% endfigure %}
 

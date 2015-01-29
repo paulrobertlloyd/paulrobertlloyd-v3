@@ -47,7 +47,7 @@ This show reminded me that I should broaden my selection when looking for things
 
 Sammy J was just as funny as I remembered him, whilst Heath McIvor was astounding as the puppeteer behind Randy. The level of emotion he was able to convey with such a simple looking creature was amazing, and you could easily forget you were watching a puppet had the act not made a running joke of it.
 
-I still preferred Sammy J's solo performance, but saw enough to buy a ticket for Randy's own show that was also playing at Underbelly.
+I still preferred Sammy J's performance, but saw enough to buy a ticket for Randy's own show that was also playing at Underbelly.
 
 * * *
 
@@ -98,7 +98,7 @@ When these two things come together, stupid things can happen, opening themselve
 ### <cite>Randy is Sober</cite>
 {% include html/content/rating.html score='4' %}
 
-![Randy](/assets/images/2011/08/edinburgh_fringe_randy.jpg){: .l-align-right}After seeing Randy in the double-act with Sammy J, I was interested to see his solo performance. As mentioned earlier, Randy is a purple (and often foul mouthed) muppet-like puppet, skilfully operated by [Heath McIvor][9]. The dexterity in which Randy is manipulated, meant that the audience totally brought into the illusion, happily entering (lengthy) conversations with him.
+![Randy](/assets/images/2011/08/edinburgh_fringe_randy.jpg){: .l-align-right}After seeing Randy in the double-act with Sammy J, I was interested to see his performance. As mentioned earlier, Randy is a purple (and often foul mouthed) muppet-like puppet, skilfully operated by [Heath McIvor][9]. The dexterity in which Randy is manipulated, meant that the audience totally brought into the illusion, happily entering (lengthy) conversations with him.
 
 Afterwards I wondered if I would have enjoyed the performance had there been no puppet. I suspect so, but not as much without the visual aspect the puppetry provides. Alongside Sammy J, I've firmly become a fan of this Antipodean pair.
 

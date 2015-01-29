@@ -16,7 +16,7 @@ I briefly encountered Chicago in March after three long days aboard the Californ
 
 Having spent the previous week in the smaller cities of [Seattle][2] and San Francisco, I was quickly overwhelmed by the shear enormity of Chicago. Given her size, it's easy to make comparisons with New York, yet Chicago has a more varied spread of buildings, and whilst there are many skyscrapers, they don't compete with each other for space as much, giving the streets a less intimidating feel.
 
-{% figure 1up l-hang-left "Sears Tower as viewed during an architecture boat tour" %}
+{% figure l-hang-left "Sears Tower as viewed during an architecture boat tour" %}
     {% picture supporting /2008/12/chicago_sears_tower.jpg %}
 {% endfigure %}
 

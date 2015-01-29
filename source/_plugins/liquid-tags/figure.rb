@@ -3,7 +3,7 @@
 # TODO: Make this a (configurable) plugin
 #
 # USAGE
-# {% figure [classname] ["Caption"] [attr="value"] %}
+# {% figure [class(es)] ["Caption"] [attr="value"] %}
 # Figure content
 # {% endfigure %}
 #
@@ -23,7 +23,7 @@ module Jekyll
       # Gather settings
       site = context.registers[:site]
       converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
-      markup = /^(?:(?<classname>[^".:\/]+)\s+)?"(?<caption>[^"|\\"]*)"?\s(?<html_attr>[\s\S]+)?$/.match(render_markup)
+      markup = /^(?:(?<classes>[^".:\/]+)\s+)?"(?<caption>[^"|\\"]*)"?\s(?<html_attr>[\s\S]+)?$/.match(render_markup)
 
       # Used to escape markdown parsing rendering
       markdown_escape = "\ "
@@ -34,9 +34,9 @@ module Jekyll
       # …but some figures may have extra attributes
       unless markup.nil?
         # Optional class name
-        classname = markup[:classname].to_s
-        figure_classname = if markup[:classname]
-          " figure--#{classname}"
+        classes = markup[:classes].to_s
+        figure_classes = if markup[:classes]
+          " #{classes}"
         end
 
         # Optional caption
@@ -53,7 +53,7 @@ module Jekyll
       end
 
       # Render <figure>
-      figure_tag =  "<figure class=\"figure#{figure_classname}\"#{figure_html_attr}>\n"
+      figure_tag =  "<figure class=\"figure#{figure_classes}\"#{figure_html_attr}>\n"
       figure_tag += "#{markdown_escape * 2}#{figure_main}\n"
       figure_tag += "#{markdown_escape * 2}#{figure_caption}"
       figure_tag += "</figure>\n"

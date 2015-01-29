@@ -105,10 +105,6 @@
             @include span(3 of 6 last);
             margin-right: -(span(1 wider));
             margin-left: gutter();
-
-            &.figure {
-                margin-bottom: 0;
-            }
         }
     }
 
@@ -117,10 +113,6 @@
             @include span(3 of 6);
             margin-right: gutter();
             margin-left: -(span(1 wider));
-
-            &.figure {
-                margin-bottom: 0;
-            }
         }
     }
 
@@ -141,22 +133,6 @@
         .embed--video {
             @include susy-breakpoint(b__a) {
                 padding-bottom: 75%;
-            }
-        }
-    }
-
-    .l-pull-left {
-        @include bleed;
-
-        .figure__main {
-            @include susy-breakpoint(b__a) {
-                @include span(6);
-            }
-        }
-
-        .figure__caption {
-            @include susy-breakpoint(b__a) {
-                @include span(2 last);
             }
         }
     }
