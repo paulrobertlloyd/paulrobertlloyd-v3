@@ -1,8 +1,9 @@
 #
 # Creates a <figure> element with optional class(es) and caption.
+# TODO: Make this a (configurable) plugin
 #
 # USAGE
-# {% figure class:[class name], caption:['Caption'] %}
+# {% figure [classname] ["Caption"] [attr="value"] %}
 # Figure content
 # {% endfigure %}
 #
@@ -22,43 +23,40 @@ module Jekyll
       # Gather settings
       site = context.registers[:site]
       converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
-      markup = /^(?:(?<preset>[^".:\/]+)\s+)?"(?<caption>[^"|\\"]*)"?\s(?<html_attr>[\s\S]+)?$/.match(render_markup)
+      markup = /^(?:(?<classname>[^".:\/]+)\s+)?"(?<caption>[^"|\\"]*)"?\s(?<html_attr>[\s\S]+)?$/.match(render_markup)
 
-      # used to escape markdown parsing rendering below
+      # Used to escape markdown parsing rendering
       markdown_escape = "\ "
 
-      puts "Markup  " + markup.to_s + "\n"
-      if markup[:preset] != nil
-        puts "Preset  " + markup[:preset].to_s + "\n"
-      end
-      puts "Content " + converter.convert(super(context))
-      if markup[:caption]
-        puts "Caption " + markup[:caption].to_s + "\n"
-      end
-      if markup[:html_attr]
-        puts "Attr    " + markup[:html_attr].to_s + "\n"
-      end
-      puts "---\n"
+      # All figures have content…
+      figure_main = converter.convert(super(context)).sub('<p>', "<p class=\"figure__main\">")
 
-      figure_preset = markup[:preset]
-      figure_main = converter.convert(super(context))
-      figure_caption = converter.convert(markup[:caption])
+      # …but some figures may have extra attributes
+      unless markup.nil?
+        # Optional class name
+        classname = markup[:classname].to_s
+        figure_classname = if markup[:classname]
+          " figure--#{classname}"
+        end
+
+        # Optional caption
+        caption = converter.convert(markup[:caption].to_s)
+        figure_caption = if markup[:caption]
+          "<figcaption class=\"figure__caption\">#{caption}</figcaption>\n"
+        end
+
+        # Optional HTML attributes
+        html_attr = markup[:html_attr].to_s
+        figure_html_attr = if markup[:html_attr]
+          " #{html_attr}"
+        end
+      end
 
       # Render <figure>
-      # if markup[:preset]
-      #   source = "<figure class=\"figure figure--#{figure_preset}\">"
-      # else
-      #   source = "<figure class=\"figure\">"
-      # end
-      #
-      # source += "<div class=\"figure__main\">#{figure_main}</div>"
-      #
-      # if markup[:caption]
-      #   source += "<figcaption class=\"figure__caption\">#{figure_caption}</figcaption>"
-      #   source += "</figure>"
-      # else
-      #   source += "</figure>"
-      # end
+      figure_tag =  "<figure class=\"figure#{figure_classname}\"#{figure_html_attr}>\n"
+      figure_tag += "#{markdown_escape * 2}#{figure_main}\n"
+      figure_tag += "#{markdown_escape * 2}#{figure_caption}"
+      figure_tag += "</figure>\n"
     end
 
   end
