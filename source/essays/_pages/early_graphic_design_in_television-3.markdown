@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Growth & Evolution
 series: Early Graphic Design in Television
 date: '1999-03-01'

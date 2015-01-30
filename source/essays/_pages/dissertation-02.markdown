@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: The Visuality of Television
 series: Dissertation
 date: '2002-06-01'

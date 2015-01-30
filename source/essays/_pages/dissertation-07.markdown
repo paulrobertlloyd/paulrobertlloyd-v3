@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: 'Updating the Brands'
 series: Dissertation
 date: '2002-06-01'

@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-<article class="page">
+<article class="page  h-entry">
     {% include html/structure/page__header.html %}
 
     <div class="page__main">
-        <div class="prose">
+        <div class="prose  e-content">
             {% if page.image.caption %}
                 {% figure 1up l-bleed "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
                 {% endfigure %}
+            {% endif %}
+
+            {% if page.series %}
+                {% include html/nav/series.html %}
             {% endif %}
 
             {{ content | typogrify }}
@@ -18,9 +22,7 @@ layout: default
         {% if page.tags %}
             {% include html/sections/tags.html %}
         {% endif %}
-
-        {% if page.series %}
-            {% include html/nav/series.html %}
-        {% endif %}
     </div>
+
+    {% include html/structure/page__footer.html %}
 </article>

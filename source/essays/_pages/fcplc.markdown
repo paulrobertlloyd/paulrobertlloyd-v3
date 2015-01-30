@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: FC/plc
 date: '2002-05-01'
 excerpt: This was written during the research stage of my final major degree project. It's not intended to be authoritative, yet I feel it is still informative, and highlights a few issues and historical facts I never knew about football and the business it's become.

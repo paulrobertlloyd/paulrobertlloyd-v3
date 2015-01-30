@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Brand New Britain
 date: '2000-05-01'
 excerpt: A report published by think-tank Demos in September 1997 found that Britain's image abroad was one of a backward looking country. In the eyes of consumers we produced goods of poor quality whilst potential tourists saw a country were they would encounter bad weather and shoddy bed and breakfasts. Britain was in need of a new identity, but at a time when the country was unsure where its identity actually lay.
@@ -67,9 +67,9 @@ Wollf Olins, the brand-identity consultants responsible for identities such as t
 When a country like Britain spends 800 million pounds a year promoting itself overseas, it helps if its image is consistent with coordination between all the different organisations responsible for promoting it. Not only will this increase the country's profile, but will inevitably create an 'identity premium': any company that operates from a country with a string identity will be able to charge more for their services.
 
 ## What's Being Done
-With Labour in power, stars from the world of design, business and entertainment were often entertained at No. 10 and soon the idea of 'Cool Britannia' was alive and kicking. Whether 'Cool Britannia' was more for the benefit of the government than the country is debatable, but there was certainly a new sense of national optimism, helped in part by a renaissance in British film and fashion.
+![Millennium Products logo](/assets/images/essays/britain_rebranded/mp_logo.svg){: .l-align-right} With Labour in power, stars from the world of design, business and entertainment were often entertained at No. 10 and soon the idea of 'Cool Britannia' was alive and kicking. Whether 'Cool Britannia' was more for the benefit of the government than the country is debatable, but there was certainly a new sense of national optimism, helped in part by a renaissance in British film and fashion.
 
-![Millennium Products logo](/assets/images/essays/britain_rebranded/mp_logo.svg){: .l-align-left} As a means of promoting British design, technology, and innovation around the world, the Millennium Products initiative asked British companies to demonstrate their ability to lead the world in design. Successful designs included the Eurostar train, modern-day sign posting in Birmingham and a clockwork radio. When the final set of Millennium Product products were announced in December 1999, 1012 had received this status. These are being exhibited at EXPO 2000 in Hanover and British Government buildings around the world.
+As a means of promoting British design, technology, and innovation around the world, the Millennium Products initiative asked British companies to demonstrate their ability to lead the world in design. Successful designs included the Eurostar train, modern-day sign posting in Birmingham and a clockwork radio. When the final set of Millennium Product products were announced in December 1999, 1012 had received this status. These are being exhibited at EXPO 2000 in Hanover and British Government buildings around the world.
 
 {% figure l-extend "The Eurostar train was a Millennium Product" %}
 ![Eurostar train](/assets/images/essays/britain_rebranded/mp_eurostar.jpg)

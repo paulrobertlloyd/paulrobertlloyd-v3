@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: A New Medium is Born
 series: Early Graphic Design in Television
 date: '1999-03-01'

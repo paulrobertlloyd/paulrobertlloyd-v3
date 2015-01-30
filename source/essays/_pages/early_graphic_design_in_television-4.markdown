@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Pioneers
 series: Early Graphic Design in Television
 date: '1999-03-01'
@@ -35,7 +35,7 @@ In 1967, he left the BBC to join Associated Rediffusion however, when Rediffusio
 
 Here he worked on the on-screen graphics for the Apollo space missions including the near-disastrous Apollo 13 mission. An opportunity came up in 1970 with an open-brief for the design of a new company logo and title sequence for ITN's flagship programme <cite>News at Ten</cite>. However, the senior designer, Malcolm Beatson, had cornered the brief, but Lambie-Nairn had been asked to have ago at the brief himself by ITN's Editor in Chief. When his ideas were chosen over Beatson's, he was seen to be undermining him and resulted with the whole design department refusing to speak to him for a while. It was because of this, that he left ITN and joined LWT.
 
-{% figure "Figure 11: Typical still used up until the late 1970's to illustrate current affairs or news items. If the item were to complicated to convey in a single still, it would be animated" %}
+{% figure l-pull-left "Figure 11: Typical still used up until the late 1970's to illustrate current affairs or news items. If the item were to complicated to convey in a single still, it would be animated" %}
 ![Typical illustration used up until the late 1970's to illustrate the weak pound](/assets/images/essays/early_graphic_design_in_television/figure-11.png)
 {% endfigure %}
 

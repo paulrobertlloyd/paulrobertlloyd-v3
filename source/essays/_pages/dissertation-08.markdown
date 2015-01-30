@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Multi-Channel Competition
 series: Dissertation
 date: '2002-06-01'

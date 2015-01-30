@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
 series: Dissertation
 date: '2002-06-01'

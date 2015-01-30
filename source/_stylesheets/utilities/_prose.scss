@@ -44,6 +44,7 @@
     > section,
     > div[class*="highlighter-"],
     .figure {
+        margin-top: $u__baseline;
         margin-bottom: $u__baseline;
     }
 
@@ -69,8 +70,8 @@
         background-size: 1px 1px;
         text-shadow: 2px 0 0 $c__neutral--9, -2px 0 0 $c__neutral--9;
 
-        &:active,
-        &:hover {
+        &:hover,
+        &:active {
             background-image: linear-gradient(to left, rgba($c__link--hover, 0.66), rgba($c__link--hover, 0.66));
         }
 
@@ -119,16 +120,6 @@
     // On wider breakpoints elements that extends outwards by additional column
     .l-extend {
         @include extend;
-
-        .figure__caption {
-            padding-right: (gutter());
-            padding-left: (gutter());
-
-            @include susy-breakpoint(b__a) {
-                padding-right: (span(1 wide));
-                padding-left: (span(1 wide));
-            }
-        }
 
         .embed--video {
             @include susy-breakpoint(b__a) {

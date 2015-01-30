@@ -1,8 +1,10 @@
 <footer class="page__footer">
-    <span class="audible">Published on</span>
-    <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%e %B %Y" }}
-    </time>
+    {% if page.date %}
+        <span class="audible">Published on</span>
+        <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%e %B %Y" }}
+        </time>
+    {% endif %}
 
     {% if page.location %}
         <span class="audible">in</span>

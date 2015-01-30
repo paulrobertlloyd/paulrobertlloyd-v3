@@ -5,7 +5,7 @@
 .js .page--link {
     .embed--photo,
     .embed--video {
-        @include bleed;
+        @include extend;
         padding-bottom: 75%;
     }
 }
