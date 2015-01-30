@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Give Me 5
 series: Dissertation
 date: '2002-06-01'

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Computer Revolution
 series: Early Graphic Design in Television
 date: '1999-03-01'
@@ -17,7 +17,7 @@ ITN led the way in 1959, with the introduction of the 'Swingometer' and introduc
 
 Engineers at ITN, later designed their own system, the VT80 which helped to greatly improve the appearance of the on-screen graphics during the 1980  American elections. It was these advances that made the BBC realise how far behind it was in its use of computer technology. The need for this increased investment was made more apparent with the soon to be launched early morning service <cite>Breakfast Time</cite> in January 1982 (a result of the expansion of television broadcasting laws -- ITV launched its own service, TVam in the February of that year). It was only then that the BBC employed a further 20 designers and invested in the much needed computer hardware and software.
 
-{% figure "Figure 14: A film rostrum camera. Computer controlled rostrum cameras were introduced around the late 1970's" %}
+{% figure l-pull-left "Figure 14: A film rostrum camera. Computer controlled rostrum cameras were introduced around the late 1970's" %}
 ![A film rostrum camera](/assets/images/essays/early_graphic_design_in_television/figure-14.jpg)
 {% endfigure %}
 

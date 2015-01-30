@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: The Launch of Channel 4
 series: Dissertation
 date: '2002-06-01'

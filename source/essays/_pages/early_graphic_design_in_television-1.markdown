@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Early Graphic Design in Television
 series: Early Graphic Design in Television
 date: '1999-03-01'

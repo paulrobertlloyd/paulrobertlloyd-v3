@@ -4,27 +4,43 @@
     ========================================================================= */
 .figure {
     position: relative; // Helps position exif-info to bottom of figure__caption
+    clear: both;
 }
 
 .figure__caption {
     @include caption;
+    @include rule(after);
+    clear: left;
+
+    .l-extend & {
+        padding-right: (gutter());
+        padding-left: (gutter());
+
+        @include susy-breakpoint(b__a) {
+            padding-right: (span(1 wide));
+            padding-left: (span(1 wide));
+        }
+    }
 }
 
 
 /* Caption positioning */
 .figure--caption-right {
-    @include clearfix;
-
     .figure__main {
         @include susy-breakpoint(b__a) {
-            @include span(6);
+            @include span(6 of 8);
         }
     }
 
     .figure__caption {
+        clear: none;
+
         @include susy-breakpoint(b__a) {
             @include rule(before);
-            @include span(2 last);
+            @include rule(after, none);
+            @include span(2 of 8 last);
+            padding-right: 0;
+            padding-left: 0;
         }
     }
 }
@@ -98,5 +114,9 @@
         :last-child {
             margin-bottom: 0;
         }
+    }
+
+    .figure__caption {
+        @include rule(after, none);
     }
 }

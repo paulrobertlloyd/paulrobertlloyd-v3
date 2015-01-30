@@ -5,15 +5,15 @@ layout: default
     {% include html/structure/page__header.html %}
 
     <div class="page__main">
-        {% if page.series %}
-            {% include html/nav/series.html %}
-        {% endif %}
-
         <div class="prose  e-content">
             {% if page.image.caption %}
                 {% figure l-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
                 {% endfigure %}
+            {% endif %}
+
+            {% if page.series %}
+                {% include html/nav/series.html %}
             {% endif %}
 
             {{ content | typogrify }}

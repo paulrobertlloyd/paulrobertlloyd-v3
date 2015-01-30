@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: Beige to Bondi-Blue
 date: '2000-04-01'
 excerpt: A comparison between the Apple II (1977) and the iMac (1998).
@@ -31,7 +31,7 @@ The beige colour of the keyboard and the case was chosen to blend in with other 
 
 Steve Jobs wasn't only interested about the design of the machine though, realising that many other factors influenced buyers. One area of concern was Apple's logo, which at that time was a picture of Isaac Newton sitting under an apple tree. He saw this as one reason why sales of the Apple I were slow and brought in the Regis McKenna Agency to design a new one.
 
-![Apple 'rainbow' logo](/assets/images/essays/beige_to_bondiblue/apple_rainbow_logo.png){: .l-align-right}It was a young art director named Robert Janov who set about designing the new corporate logo. He realised Apple was selling to consumers and that the Apple II was one of the first computers to offer colour graphics. He designed an apple motif with a bite taken out (playfully commenting on the fact that computers used 'bits' and 'bytes') with six bands of colour running across it. When he suggested that these bands should be separated to make reproduction easier, Jobs refused -- insisting that the apple be reproduced with its full range of colours too, despite the cost.
+![Apple 'rainbow' logo](/assets/images/essays/beige_to_bondiblue/apple_rainbow_logo.svg){: .l-align-right}It was a young art director named Robert Janov who set about designing the new corporate logo. He realised Apple was selling to consumers and that the Apple II was one of the first computers to offer colour graphics. He designed an apple motif with a bite taken out (playfully commenting on the fact that computers used 'bits' and 'bytes') with six bands of colour running across it. When he suggested that these bands should be separated to make reproduction easier, Jobs refused -- insisting that the apple be reproduced with its full range of colours too, despite the cost.
 
 Another area of concern was the Apple II's manual. Originally provided with a sparse manual of thirty photocopied pages with some handwritten notes from Woznaik, it was replaced in 1978 with what was called the <cite>Apple II Technical Reference Manual</cite>. Steve Jobs realised that people often viewed a product by the quality of its documentation, so went to great length to replace the original manual with one that was easy to read and had a professional appearance.
 

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: page
 title: News Presentation in 1990
 series: Dissertation
 date: '2002-06-01'

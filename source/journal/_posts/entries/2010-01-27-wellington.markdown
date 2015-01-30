@@ -4,6 +4,9 @@ title: Absolutely, Positively, Wellington
 series: Australasia 2009
 date: '2010-01-27 23:12:23 +0000'
 excerpt: From Nelson I reluctantly headed back to Wellington, cursing myself for not having an itinerary that continued south. However, Wellington will remain the most memorable city of this trip, although perhaps not entirely for the right reasons.
+image:
+  url: /2010/01/wellington_cable_car.jpg
+  caption: The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden
 tags:
   - Travel
   - New Zealand
@@ -13,10 +16,6 @@ tags:
 From Nelson I reluctantly headed back to Wellington, cursing myself for not having an itinerary that continued south. However, Wellington will remain the most memorable city of this trip, although perhaps not entirely for the right reasons.
 
 The city markets itself under the slogan 'Absolutely, Positively, Wellington', which is sort of like working with somebody who constantly says "you don't have to be mad to work here -- but it helps!" before breaking into an annoying laugh.
-
-{% figure "The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden" %}
-![](/assets/images/2010/01/wellington_cable_car.jpg)
-{% endfigure %}
 
 Much of this 'madness' can be attributed to the city's architectural style, which could be described as eclectic at best. Other cities manage to curate a coherent cityscape, but in Wellington, anything goes. In fact it's the most mediocre buildings that seem to gain prominence -- the headquarters of the New Zealand Post immediately come to mind. The sleek black [BNZ Centre][1], whilst a perfect example of the International Style that wouldn't look out of place in Chicago, looks hideous here. But then so does every other building.
 

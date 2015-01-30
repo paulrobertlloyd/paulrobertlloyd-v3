@@ -4,6 +4,9 @@ title: A Small Taste of the South Island
 series: Australasia 2009
 date: '2010-01-26 00:07:49 +0000'
 excerpt: Having arranged my flights into and out of New Zealand before I had decided upon a full itinerary -- departing from Wellington rather than an airport further south -- meant I had little time to really explore the South Island.
+image:
+  url: /2010/01/south_island_overlander.jpg
+  caption: The Overlander during its lunchtime stop at National Park railway station
 tags:
   - Travel
   - New Zealand
@@ -13,10 +16,6 @@ tags:
 Having arranged my flights into and out of New Zealand before I had decided upon a full itinerary -- departing from Wellington rather than an airport further south -- meant I had little time to really explore the South Island.
 
 The same could be said of my experience of the North Island too. After just [a day and a half in Auckland][1], I caught the [TranzScenic][2] [Overlander][3] rail service to Wellington, quickly by-passing much of the North Island in order to reach it's southerly tip later that day.
-
-{% figure l-extend "The Overlander during its lunchtime stop at National Park railway station" %}
-![](/assets/images/2010/01/south_island_overlander.jpg)
-{% endfigure %}
 
 Sadly this was my only opportunity to travel by rail on this trip. Although much of the landscape wasn't as impressive as I had hoped for, the train did cross several large ravines; the engineering required to do so almost as impressive as the views it allowed for. The 'Railway Pie' described with such romance in the on-board menu -- while *incredibly* tasty -- was, as I later found out, just a plain old 'Mince Pie' on the Overlander's sister service, The Interislander ferry. The power of marketing!
 
