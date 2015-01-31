@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 69e8f1923c8568437465a96b4016caf0868982bf
+  revision: ec7d2ed5b6e3d74b2dfedf4f1085fe76c508cf54
   specs:
     jekyll (3.0.0.pre.beta1)
       classifier-reborn (~> 2.0)
@@ -80,7 +80,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
+    coffee-script-source (1.9.0)
     colorator (0.1)
     colorize (0.7.5)
     css_press (0.3.2)
@@ -163,7 +163,7 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
-    mini_magick (4.0.2)
+    mini_magick (4.0.3)
     multi_css (0.1.0)
       css_press
     multi_js (0.1.0)
@@ -197,7 +197,7 @@ GEM
     rouge (1.7.7)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
-    sass (3.4.10)
+    sass (3.4.11)
     scss-lint (0.30.0)
       rainbow (~> 2.0)
       sass (~> 3.4.0)

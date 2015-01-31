@@ -19,9 +19,10 @@ module Jekyll
 
     def render(context)
       url = Liquid::Template.parse(@link).render context
+      encoded_url = URI.encode(url)
 
       # Parse URL into its constituent parts - host, port, query string…
-      @uri = URI(url)
+      @uri = URI(encoded_url)
       @host = @uri.host
       @path = @uri.path
       @query = @uri.query
