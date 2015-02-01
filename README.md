@@ -3,7 +3,6 @@
 Source files to build my personal website, currently in development -- as is this document.
 
 ## System requirements
-(TODO: confirm version requirements in this section)
 
 * Ruby 2.0.0 or higher
 * ImageMagick (`brew install ImageMagick`)
