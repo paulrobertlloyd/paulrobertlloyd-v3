@@ -19,17 +19,17 @@ module Jekyll
 
     def render(context)
       url = Liquid::Template.parse(@link).render context
-      encoded_url = URI.encode(url)
+      url_encoded = URI.encode(url.strip)
 
       # Parse URL into its constituent parts - host, port, query string…
-      @uri = URI(encoded_url)
+      @uri = URI.parse(url_encoded)
       @host = @uri.host
       @path = @uri.path
       @query = @uri.query
 
       def embedCode(embed_type, embed_src, embed_action)
         %Q[<p class="embed" data-embed-src="#{embed_src}" data-embed-type="#{embed_type}">
-            <a class="button" href="#{@uri}">#{embed_action}</a>
+            <a class="button" href="#{@url}">#{embed_action}</a>
         </p>]
       end
 
@@ -48,11 +48,11 @@ module Jekyll
         return html
 
       elsif @host.to_s.include? 'mapbox.com'
-        html = embedCode("map", "#{@uri}", "View map on Mapbox")
+        html = embedCode("map", "#{@url}", "View map on Mapbox")
         return html
  
       elsif
-        print "#{@uri} does not support embedding\n"
+        print "#{@url} does not support embedding\n"
       end
 
     end
