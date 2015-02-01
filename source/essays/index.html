@@ -2,9 +2,9 @@
 layout: index
 title: Academic Essays
 ---
-{% assign pages = site.pages | where: 'layout', 'essay' | sort: 'date' %}
+{% assign pages = site.pages | sort: 'date' %}
 {% for summary in pages reversed %}
-    {% if summary.excerpt %}
-        {% include html/sections/summary.html %}
+    {% if summary.path contains 'essays' and summary.excerpt != null %}
+            {% include html/sections/summary.html %}
     {% endif %}
 {% endfor %}

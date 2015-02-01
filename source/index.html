@@ -58,17 +58,3 @@ title: Strong opinions, loosely held
     {% endfor %}
     </ol>
 </section>
-
-<section class="section">
-    <h1 class="section__title"><a href="/essays/">Essays</a></h1>
-
-    <ol class="list" reversed>
-    {% assign essays = site.pages | where: 'layout', 'essay' %}
-    {% for item in essays %}
-        <li class="list__item">
-            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
-            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
-    </ol>
-</section>

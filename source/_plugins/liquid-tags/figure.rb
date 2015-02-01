@@ -23,7 +23,7 @@ module Jekyll
       # Gather settings
       site = context.registers[:site]
       converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
-      markup = /^(?:(?<classes>[^".:\/]+)\s+)?"(?<caption>[^"|\\"]*)"?\s(?<html_attr>[\s\S]+)?$/.match(render_markup)
+      markup = /^(?:(?<classes>[^".:\/]+)\s+)?(?:"(?<caption>[^"|\\"]+)"\s+)?(?<html_attr>[\s\S]+)?$/.match(render_markup)
 
       # Used to escape markdown parsing rendering
       markdown_escape = "\ "

@@ -5,6 +5,13 @@
 .figure {
     position: relative; // Helps position exif-info to bottom of figure__caption
     clear: both;
+
+    &.l-pull-right,
+    &.l-pull-left,
+    &.l-align-right,
+    &.l-align-left {
+        margin-top: 0;
+    }
 }
 
 .figure__caption {
