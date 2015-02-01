@@ -92,7 +92,7 @@
     // TODO: Decide appropriate names for these figure layouts
     // Align element right or left
     .l-align-right {
-        @include span(2 of 6 last);
+        @include span(1.5 of 6 last);
         margin-left: gutter();
     }
 

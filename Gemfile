@@ -22,22 +22,19 @@ gem 'jekyll', github: 'jekyll/jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives', github: 'pathawks/jekyll-archives', branch: '3.0'
   gem 'jekyll-assets'
+  gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
 
   gem 'octopress-hooks', github: 'paulrobertlloyd/hooks', branch: '3.0'
   gem 'octopress-autoprefixer', github: 'paulrobertlloyd/autoprefixer', branch: '3.0'
   gem 'octopress-minify-html', github: 'paulrobertlloyd/minify-html', branch: '3.0'
 
-  gem 'rouge' # Remove with Jekyll v3.0?
   gem 'exiftool'
+  gem 'mini_magick'
   gem 'susy'
-  gem 'therubyracer'
   gem 'typogruby'
   gem 'uglifier'
 end
 
 # Rake (manages build tasks)
 gem 'rake'
-
-# Image plugin
-gem 'mini_magick'

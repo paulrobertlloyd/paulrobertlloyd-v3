@@ -4,6 +4,9 @@ layout: default
 <article class="page  h-entry">
     {% include html/structure/page__header.html %}
 
+    {{ page.next }}
+    {{ page.previous }}
+
     <div class="page__main">
         <div class="prose  e-content">
             {% if page.image.caption %}

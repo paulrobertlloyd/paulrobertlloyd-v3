@@ -1,22 +1,16 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: ec7d2ed5b6e3d74b2dfedf4f1085fe76c508cf54
+  revision: f55eb1f3fb0a9f871133144074e063c1bbb153f3
   specs:
     jekyll (3.0.0.pre.beta1)
-      classifier-reborn (~> 2.0)
       colorator (~> 0.1)
-      jekyll-coffeescript (~> 1.0)
-      jekyll-gist (~> 1.0)
-      jekyll-paginate (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
       kramdown (~> 1.3)
       liquid (~> 3.0)
       mercenary (~> 0.3.3)
-      pygments.rb (~> 0.6.0)
-      redcarpet (~> 3.1)
+      rouge (~> 1.7)
       safe_yaml (~> 1.0)
-      toml (~> 0.1.0)
 
 GIT
   remote: git://github.com/pathawks/jekyll-archives.git
@@ -59,7 +53,6 @@ GEM
   specs:
     autoprefixer-rails (2.2.0.20140804)
       execjs
-    blankslate (2.1.2.4)
     capistrano (3.3.5)
       capistrano-stats (~> 1.1.0)
       i18n
@@ -74,13 +67,7 @@ GEM
     capistrano-stats (1.1.1)
     celluloid (0.16.0)
       timers (~> 4.0.0)
-    classifier-reborn (2.0.3)
-      fast-stemmer (~> 1.0)
     coderay (1.1.0)
-    coffee-script (2.3.0)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.9.0)
     colorator (0.1)
     colorize (0.7.5)
     css_press (0.3.2)
@@ -94,7 +81,6 @@ GEM
     execjs (2.2.2)
     exiftool (0.6.0)
       json
-    fast-stemmer (1.0.2)
     ffi (1.9.6)
     formatador (0.2.5)
     guard (2.11.1)
@@ -139,9 +125,6 @@ GEM
       sprockets (~> 2.10)
       sprockets-helpers
       sprockets-sass
-    jekyll-coffeescript (1.0.1)
-      coffee-script (~> 2.2)
-    jekyll-gist (1.1.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
@@ -154,7 +137,6 @@ GEM
       rake
     json (1.8.2)
     kramdown (1.5.0)
-    libv8 (3.16.14.7)
     liquid (3.0.1)
     listen (2.8.5)
       celluloid (>= 0.15.2)
@@ -176,24 +158,16 @@ GEM
     notiffany (0.0.3)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    parslet (1.5.0)
-      blankslate (~> 2.0)
-    posix-spawn (0.3.9)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pygments.rb (0.6.2)
-      posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.2.0)
     rack (1.6.0)
     rainbow (2.0.0)
     rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.2.2)
-    ref (1.0.5)
     rouge (1.7.7)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
@@ -219,21 +193,15 @@ GEM
       net-ssh (>= 2.8.0)
     susy (2.2.2)
       sass (>= 3.3.0, < 3.5)
-    therubyracer (0.12.1)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.19.1)
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
-    toml (0.1.2)
-      parslet (~> 1.5.0)
     typogruby (1.0.18)
       rubypants
     uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby
@@ -252,14 +220,13 @@ DEPENDENCIES
   jekyll!
   jekyll-archives!
   jekyll-assets
+  jekyll-paginate
   jekyll-sitemap
   mini_magick
   octopress-autoprefixer!
   octopress-hooks!
   octopress-minify-html!
   rake
-  rouge
   susy
-  therubyracer
   typogruby
   uglifier
