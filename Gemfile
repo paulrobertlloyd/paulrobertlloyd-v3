@@ -28,13 +28,14 @@ group :jekyll_plugins do
   gem 'octopress-hooks', github: 'paulrobertlloyd/hooks', branch: '3.0'
   gem 'octopress-autoprefixer', github: 'paulrobertlloyd/autoprefixer', branch: '3.0'
   gem 'octopress-minify-html', github: 'paulrobertlloyd/minify-html', branch: '3.0'
+
+  gem 'exiftool'
+  gem 'mini_magick'
+  gem 'susy'
+  gem 'therubyracer' # Autoprefixer requires a JS runtime
+  gem 'typogruby'
+  gem 'uglifier'
 end
 
-# Other
-gem 'exiftool'
-gem 'mini_magick'
+# Rake (manages build tasks)
 gem 'rake'
-gem 'susy'
-gem 'therubyracer' # Autoprefixer requires a JS runtime
-gem 'typogruby'
-gem 'uglifier'
