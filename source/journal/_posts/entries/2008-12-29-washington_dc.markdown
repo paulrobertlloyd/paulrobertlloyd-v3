@@ -4,7 +4,8 @@ title: 'Washington DC: A Monumental City'
 date: '2008-12-29 20:49:25 +0000'
 excerpt: The final stop in my four-city tour of the US in October was Washington, D.C.
 image:
-  url: /2008/12/washington_dc_dulles.jpg
+  url: /2008/12/washington_dc_vietnam_memorial.jpg
+  caption: The Vietnam Veterans Memorial
 tags:
   - Architecture
   - Travel
@@ -16,15 +17,11 @@ The final stop in my four-city tour of the US in October was Washington, DC I've
 
 Perhaps unsurprisingly, I spent a good deal of time in DC taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country's history.
 
-{% figure l-extend "The Vietnam Veterans Memorial" %}
-{% picture showcase /2008/12/washington_dc_vietnam_memorial.jpg %}
-{% endfigure %}
-
 Whilst the presidential memorials were large and grandiose, I actually found the smaller [Vietnam Veterans Memorial][1] to be one of the most thoughtful. Like the Pentagon Memorial I would visit later in my trip, I was intrigued by the system that was devised for the arrangement of names of those who lost their lives.
 
 Here two granite walls create a 'V' shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a "wound that is closed and healing".
 
-{% figure figure--image-duo "US Marine Corps War Memorial" %}
+{% figure figure--image-duo "US Marine Corps War Memorial and Netherlands Carillon" %}
 {% picture supporting /2008/12/washington_dc_iwo_jima_memorial.jpg %}
 {% picture supporting /2008/12/washington_dc_netherlands_carillon.jpg %}
 {% endfigure %}

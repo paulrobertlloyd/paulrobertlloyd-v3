@@ -4,16 +4,15 @@ title: The Web Aesthetic
 date: '2012-10-09 02:50:00 +0100'
 location: Brighton, England
 excerpt: At the beginning of this year I was struck by a realisation, prompted in part by the discussions around responsive images but also the artistic ingenuity of the image optimisation techniques being used by Jeremy. How might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
+image: 
+  url: /2012/10/the_web_aesthetic.jpg
+  caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart'
 tags:
   - Writing
   - Web design and development
   - Responsive design
   - A List Apart
 ---
-{% figure l-extend "Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart" %}
-![](/assets/images/2012/10/the_web_aesthetic.jpg)
-{% endfigure %}
-
 At the beginning of this year I was struck by a realisation, prompted in part by the discussions around [responsive images][1] but also the artistic ingenuity of the [image optimisation][2] techniques being used by Jeremy. If the capabilities of a medium can dictate how we design for it, how might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 
 Shortly afterwards, and with eerie coincidence, [Anna][3] introduced me to Rose Weisburd, who was looking for writers for A List Apart. Nine months later, and after many weekends hunched over my laptop in coffee shops around Brighton, I can now point to an article authored by me on this esteemed publication: <cite>[The Web Aesthetic][4]</cite>. From the introduction:

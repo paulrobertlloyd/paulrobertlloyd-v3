@@ -4,16 +4,15 @@ title: How I Learned to Stop Worrying and Love Responsive Images
 date: '2012-02-26 23:21:55 +0000'
 location: Brighton, England
 excerpt: Last week I was invited to Responsive Summit, a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the Dr. Strangelove reference either.
+image:
+  url: /2012/02/responsive_summit.jpg
+  caption: Scene from Dr. Strangelove
 tags:
   - Web design and development
   - Responsive design
   - Responsive Summit
 discussion: closed
 ---
-{% figure class:'l-extend' %}
-![Scene from Dr. Strangelove](/assets/images/2012/02/responsive_summit.jpg)
-{% endfigure %}
-
 Last week I was invited to [Responsive Summit][1], a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the [Dr. Strangelove][2] reference either.
 
 Whilst some disliked the perceived exclusivity, I found it encouraging that [Chris][3], [Josh][4] and [Alex][5] were able to arrange such a meet-up in just 6 days. Blogging about our thoughts and experiences is better than pithy tweets, but sharing them in person? That's better still.
@@ -29,17 +28,15 @@ Lessons were learnt about how to arrange similar meet-ups in the future, but tha
 We also agreed to share our findings from the day on our blogs. I'm going to concentrate much of my report on the topic of responsive images; possibly the meatiest and most difficult challenges we've encountered so far.
 
 ## Media Queries in HTML?
-
 On many topics we found agreement, yet thankfully, there were areas of disagreement too.
 
 Chris asked if we needed media query like behaviour in HTML. For example, a list of links might be better represented as a select menu in certain instances. I questioned whether such an approach would be a regression, taking us back to the 'bad old days' of mixing together presentation, behaviour and content. I still believe that structuring documents semantically, with CSS and JavaScript manipulating that information, is the right approach. Progressive enhancement is forever revealed as a guiding principle when crafting web experiences. I'd hate to see that change.
 
 {% figure "Josh Brewer facilitated the discussion. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6924116705/in/set-72157629074652364/)" %}
-![](/assets/images/2012/02/responsive_summit_josh.jpg)
+{% picture /2012/02/responsive_summit_josh.jpg %}
 {% endfigure %}
 
 ## The Picture Element
-
 Yet Chris's suggestion isn't a million miles away from a [proposal to handle images in a responsive way][6] with a `<picture>` element. Much like `<video>` and `<audio>` in HTML5, this new element would allow requests to be sent for images matching inline media queries, falling back to an `<img>` element for browsers that didn't recognise the new syntax:
 
 ~~~ html
@@ -74,7 +71,6 @@ This might be an potential avenue for exploration, but it's not without problems
 Secondly, and likely an issue with any potential solution involving file formats, is the method of creation. Any format would need support in popular editing packages for it to become a truly popularised; although plug-ins and extensions could satisfy this requirement in the short term.
 
 ### What We Need Is a Portable Network Graphic
-
 So rather than a new file format, or even a new container format, what we really need is an existing image format that can be extended, yet at the same time provide backwards compatibility.
 
 What about [PNG][13]?
@@ -94,7 +90,7 @@ Perhaps what we're really after is the image equivalent of variable bit-rate, as
 And with that, I've sufficiently demonstrated my naivety regarding image formats.
 
 {% figure "Me, in deep pondering mode. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6778001526/in/set-72157629074652364/)" %}
-![](/assets/images/2012/02/responsive_summit_paul.jpg)
+{% picture /2012/02/responsive_summit_paul.jpg %}
 {% endfigure %}
 
 ## Immediate Solutions

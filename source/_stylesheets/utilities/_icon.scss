@@ -1,11 +1,10 @@
 /*  =========================================================================
-    Main content
+    Icons
     ========================================================================= */
 
-.main {
-    padding: $u__baseline $u__baseline ($u__baseline * 4);
-}
-
-.main__container {
-    @include container($u__max-width);
+[data-icon] {
+    &:before {
+        content: attr(data-icon);
+        speak: none;
+    }
 }

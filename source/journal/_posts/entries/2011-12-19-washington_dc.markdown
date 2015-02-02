@@ -4,16 +4,15 @@ title: Back in the District
 series: North America 2011
 date: '2011-12-19 22:00:28 +0000'
 excerpt: My North American adventure started in Washington DC; ostensibly so I could attend an edition of this year's An Event Apart conference. Yet it was also a good excuse to catch up with Shannon, who graciously planned a tour of the city for me and Andy.
+image:
+  url: /2011/12/washington_dc.jpg
+  caption: Shannon looking towards the Lincoln Memorial
 tags:
   - Travel
   - Washington, DC
   - Virgina
   - United States
 ---
-{% figure "Shannon looking towards the Lincoln Memorial" %}
-![](/assets/images/2011/12/washington_dc.jpg)
-{% endfigure %}
-
 [Yesterday I wrote][1] about how I found myself on a second extended tour of North America. This was a journey that started in Washington DC; ostensibly so I could attend an edition of this year's An Event Apart conference. Yet it was also a good excuse to catch up with [Shannon][2], who graciously planned a tour of the city for me and [Andy][3].
 
 ## Segs in the City
@@ -29,7 +28,7 @@ In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for
 
 ## Apple Picking in Virginia
 {% figure "The Apple Pickers" %}
-![](/assets/images/2011/12/washington_dc_apple_pickers.jpg)
+{% picture /2011/12/washington_dc_apple_pickers.jpg %}
 {% endfigure %}
 
 The fun continued on Sunday when I went Apple picking with Shannon and some of her friends at the [Stribling Orchard][18] in rural Virginia. Having visited Washington before, I jumped at the chance to get out of the city and try something new. It wasn't long before I was trying out the accent and batting apples across the orchard, baseball style. It's a sight I'm sure [Kyle][19] would have paid good money to see; I'd gone native!

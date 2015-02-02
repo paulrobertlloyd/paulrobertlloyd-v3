@@ -65,7 +65,7 @@ picture:
     supporting:
       attr:
         class: img img--supporting
-        sizes: '(min-width: 32em) 33vw, 100vw'
+        sizes: '(min-width: 32em) 40vw, 100vw'
       source_medium:
         width: 800
       source_default:

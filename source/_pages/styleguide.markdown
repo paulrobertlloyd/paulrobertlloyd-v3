@@ -64,7 +64,7 @@ The `pre` element represents a block of pre-formatted text, in which structure i
 The `blockquote` element represents a section that is being quoted from another source.
 
 <div class="example" markdown="1">
-{% figure bleed "Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" style="border: 1px solid red" %}
+{% figure bleed "Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {% endfigure %}
 </div>
@@ -146,7 +146,7 @@ And the mome raths outgrabe.
 Here, a tweet is marked up using figure:
 
 <div class="example" markdown="1">
-{% figure tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
+{% figure figure--tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
 > How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
 {% endfigure %}
 </div>

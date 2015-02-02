@@ -4,14 +4,13 @@ title: Now That The Games Have Gone
 date: '2012-08-14 03:02:30 +0100'
 location: Brighton, England
 excerpt: The last two weeks have been amazing. I tried my best to sample as much ofthe Olympic fever as I could, but with so much going on, the spectacle was overwhelming. So much to see, so little time to see it.
+image:
+  url: /2012/08/now_that_the_games_have_gone.jpg
+  caption: London 2012 Closing Ceremony
 tags:
   - Olympics
   - London 2012
 ---
-{% figure l-extend "London 2012 Closing Ceremony" %}
-![](/assets/images/2012/08/now_that_the_games_have_gone.jpg)
-{% endfigure %}
-
 **The last two weeks have been amazing**. I tried my best to sample as much of the Olympic fever as I could, but even having watched the [men's cycling][1] on Box Hill, [women's football][2] at Wembley, [mixed doubles tennis][3] at Wimbledon and the Closing Ceremony, I still felt like I was missing out. With so much going on, the spectacle was overwhelming. So much to see, so little time to see it.
 
 These Games have revealed as much about myself as they have about the nation as a whole. I've long admired the Olympics and often wondered what it would be like to experience them for myself, yet I was too easily drawn into the cynicism that surrounded the build up. Many of the initial concerns remain -- how wonderful it would be to see the IOC choose commercial partners more wisely. Thankfully, a sense of balance was restored with Danny Boyle's thoughtfully choreographed Opening Ceremony -- a sort of pep talk for the nation -- and the 16 days of brilliant sporting action that followed.

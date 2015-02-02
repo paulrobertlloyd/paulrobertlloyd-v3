@@ -53,7 +53,7 @@ As it turned out, the success of the retuning campaign led to Channel 5 using th
 
 As a sign of things to come, Channel 5 controversially launched with a DOG (Digital Onscreen Graphic) -- the channels logo constantly displayed in the top left hand corner of the screen. A device heavily used on cable and satellite channels, this was new to terrestrial viewers and irritated them. It was decided to use such a device so that people could find the new channel, but only served to irritate them. However it still remains today, yet with a higher level of transparency than when first seen.
 
-{% figure "Figure 17: Channel 5 constantly displays its logo on screen" %}
+{% figure figure--caption-right "Figure 17: Channel 5 constantly displays its logo on screen" %}
 ![Close up of Channel 5 'DOG'](/assets/images/essays/dissertation/figure-17.png)
 {% endfigure %}
 

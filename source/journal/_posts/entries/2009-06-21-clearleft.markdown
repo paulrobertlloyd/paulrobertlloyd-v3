@@ -4,15 +4,14 @@ title: Hello Clearleft
 date: '2009-06-21 17:30:00 +0100'
 location: Littlehampton, England
 excerpt: Continuing the trend of this blog documenting events that happened several weeks ago, this month saw me become the ninth member of the Brighton based web agency Clearleft.
+image:
+  url: /2009/06/clearleft.jpg
+  caption: 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)'
 tags:
   - Personal
   - Clearleft
 discussion: closed
 ---
-{% figure l-extend "The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)" %}
-![The Clearleft team](/assets/images/2009/06/clearleft.jpg)
-{% endfigure %}
-
 This month saw me become the ninth member of the Brighton based web agency [Clearleft][1].
 
 My relationship with Clearleft goes back to 2006 when they were contracted by my former employer [Ning][2] to design a video sharing application. This was against some pretty rigid requirements, not least a set of style guidelines created by yours truly. Thankfully they liked what they saw and this placed me firmly on the companies radar.
@@ -23,7 +22,7 @@ I was planning to use my [trip around Europe][3] in May to decide which directio
 
 Shortly before leaving for Europe, [Andy][4] asked if I would like to join the company full time. I'd been offered the opportunity to join Clearleft a few times before, but now everything felt right -- no doubt helped by having already worked alongside the team.
 
-![Clearleft logo](/assets/images/2009/06/clearleft_logo.png){: .l-align-right}Without trying to sound too corny, I'm not sure I would have given up freelancing for any other company.
+{% picture supporting /2009/06/clearleft_logo.png class="l-pull-right" alt="Clearleft logo" %}Without trying to sound too corny, I'm not sure I would have given up freelancing for any other company.
 
 I love that they are a small yet multi-disciplined agency. Two well-respected conferences in the shape of [UX London][5] and [dConstruct][6], [workshops][7], a [usability testing application][8] and an internship programme demonstrate a desire not only to try different things, but contribute to the wider community.
 

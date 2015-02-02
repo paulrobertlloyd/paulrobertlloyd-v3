@@ -7,8 +7,6 @@ permalink: /essays/a_new_medium_for_design.html
 ---
 Here I discuss the development of graphic design on the Internet, the problems associated with designing for this medium and some of the solutions. I will show how new technologies used in the creation of websites have solved many of these problems, but also demonstrate with examples of well designed websites, as well as those inconsiderate to the medium, how these solutions have brought forward issues about usability and technology informing design.
 
-![MTV, Radiohead and amazon.co.uk logos](/assets/images/essays/a_new_medium_for_design/mtv_radiohead_amazon.gif)
-
 In order to fully research this topic, I have used books found on the subject in the college library, as well as industry magazines and articles on reputable Internet sites. These were [BBC News Online][1], and usability expert Jakob Nielsen's own site devoted to usability [useit.com][2], having quoted him within the text from an interview with him on this topic found in one of the aforementioned magazines. I also visited sites mentioned in the text to get a first hand feel for them, and these were [www.mtv.co.uk][3], [www.radiohead.com][4] and [www.amazon.com][5] during June 2001. It should be noted that these sites have changed considerably since then, so these links point to archived versions.
 
 ## Introduction

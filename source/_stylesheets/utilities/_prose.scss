@@ -42,7 +42,7 @@
     > table,
     > fieldset,
     > section,
-    > div[class*="highlighter-"],
+    div[class*="highlighter-"],
     .figure {
         margin-top: $u__baseline;
         margin-bottom: $u__baseline;
@@ -89,7 +89,6 @@
         @include c2sc;
     }
 
-    // TODO: Decide appropriate names for these figure layouts
     // Align element right or left
     .l-align-right {
         @include span(1.5 of 6 last);

@@ -1,10 +1,9 @@
 /*  =========================================================================
     Figure
-    TODO: Refactor all of this!
     ========================================================================= */
 .figure {
+    @include clearfix;
     position: relative; // Helps position exif-info to bottom of figure__caption
-    clear: both;
 
     &.l-pull-right,
     &.l-pull-left,
@@ -44,7 +43,7 @@
 
         @include susy-breakpoint(b__a) {
             @include rule(before);
-            @include rule(after, none);
+            @include rule(after, $display: none);
             @include span(2 of 8 last);
             padding-right: 0;
             padding-left: 0;

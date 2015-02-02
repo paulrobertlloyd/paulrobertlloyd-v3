@@ -6,15 +6,12 @@ location: Brighton, England
 excerpt: Last Friday I attended Responsive Day Out 2. The format was the same as last year, but the tenor was a little different. Gone were the theoretical presentations, talk of trying to sell responsive web design to clients and fears of embarking on responsive projects. Instead presentations focused on the actual doing; getting into the nitty-gritty.
 image:
   url: /2014/07/responsive_day_out.jpg
+  caption: 'Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/)'
 tags:
   - Web design and development
   - Responsive design
 discussion: open
 ---
-{% figure l-extend "Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/)" %}
-{% picture showcase /2014/07/responsive_day_out.jpg %}
-{% endfigure %}
-
 Last Friday I attended [Responsive Day Out 2][1], follow-up to last year's event at which [I spoke][2]. The format was the same -- sessions split into three short 20-minute talks followed by a 15-minute joint discussion -- but the tenor was a little different. Gone were the theoretical presentations, talk of trying to sell responsive web design to clients and fears of embarking on responsive projects. Instead presentations focused on the actual doing; getting into the nitty-gritty.
 
 There was one change to last year's format: the event concluded with [an hour-long keynote by Ethan Marcotte][3], who used his talk to advocate laziness -- or rather discourage the building of overly complex systems. Using an example from his work on Editorially, Ethan explained that by using the `nth-child` selector in CSS, he could create a simple grid without using a pre-existing grid framework. There's no shortage of responsive frameworks, each promising to make a developer's life easier, but are they always that helpful?

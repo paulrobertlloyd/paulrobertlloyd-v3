@@ -22,11 +22,11 @@ Before I really started to explore the city, I met up with friend and former col
 ## The Spiritual Home of Australian Sport
 Given Australia's passion for sport, it's perhaps no surprise that the MCG -- whilst outside the CBD -- still forms an integral part of the city. Its six large light towers dominate the landscape around Melbourne's 'Sports and Entertainment Precinct', a huge section of parkland littered with sporting venues of every size and description.
 
-As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many of the buildings from this time remained. Unfortunately much has changed, although the Olympic Park is still home to the [Olympic Pool][8] -- the first fully indoor Olympic swimming venue. This is now an indoor training centre and office complex, and sadly the only major structure from the games to look much as it did in 1956. Many of the other buildings have since been replaced by motorways and car parks.
-
-{% figure figure--caption-right "The cauldron from the 1956 Olympic Games" %}
-![](/assets/images/2010/01/melbourne_olympic_cauldron.jpg)
+{% figure l-pull-left "The cauldron from the 1956 Olympic Games" %}
+{% picture supporting /2010/01/melbourne_olympic_cauldron.jpg %}
 {% endfigure %}
+
+As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many of the buildings from this time remained. Unfortunately much has changed, although the Olympic Park is still home to the [Olympic Pool][8] -- the first fully indoor Olympic swimming venue. This is now an indoor training centre and office complex, and sadly the only major structure from the games to look much as it did in 1956. Many of the other buildings have since been replaced by motorways and car parks.
 
 The same is true of the MCG. Whilst one part of the huge oval is still named in honour of the Olympics, the oldest part of the complex is actually the light towers that were erected in 1985. The rest of the was stadium completely rebuilt in sections between 1992 and 2005. Part of this refurbishment included the creation of the [National Sports Museum][9], which includes a special section devoted entirely to the Olympics.
 
@@ -37,7 +37,7 @@ The centrepiece of this display was the original Olympic cauldron from the Melbo
 Keeping with this theme of sporting geekery, I was also keen to check out [Albert Park][10], host to the Australian Grand Prix every March. Although it was obvious to make out from maps situated around the park, it took me some time to realise that main road that circles the lake was indeed the race track.
 
 {% figure "The pit lane on the Albert Park grand prix circuit" %}
-![](/assets/images/2010/01/melbourne_albert_park.jpg)
+{% picture /2010/01/melbourne_albert_park.jpg %}
 {% endfigure %}
 
 So much of the supporting track furniture is removed from the site when the circuit is not in use. Even the pit lane complex could be mistaken for offices, were it not for the road layout and the row of garage doors along its frontage. Of course I couldn't pass by without standing on the very same podium that Jenson Button had stood [only 10 months beforehand][11] -- although when I looked out across the start/finish straight all I could see was a makeshift car park.

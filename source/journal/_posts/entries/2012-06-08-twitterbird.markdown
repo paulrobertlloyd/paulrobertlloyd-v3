@@ -10,7 +10,7 @@ tags:
   - Twitter
 ---
 {% figure "The new Twitter logo" %}
-![](/assets/images/2012/06/twitterbird.jpg)
+{% picture /2012/06/twitterbird.jpg %}
 {% endfigure %}
 
 With a [worsening financial crisis][1] and continued [destruction of the world's natural resources][2], there are undoubtedly more important things to worry about than Twitter's slightly tweaked bird logo. Yet here we are.
@@ -30,19 +30,19 @@ Only if you ignore the flowery introduction and read [Bowman's responses][6] to 
 Still, where the previous logo had character and charm (the quiff was a beautiful touch), this revision perhaps better reflects the company as it stands today: slicker, more corporate, and balding. No place is this better reflected than in the company's stringent new 'Trademark and Content Display Policy', for which [Gawker provides a helpful summary][8]:
 
 {% figure %}
-![Twitter bird usage guidelines](/assets/images/2012/06/twitterbird_donts.png)
+{% picture /2012/06/twitterbird_donts.png alt="Twitter bird usage guidelines" %}
 {% endfigure %}
 
 > Per the illustration, you absolutely cannot:
 >
 > * add a gray speech bubble next to the bird that makes it appear as if the bird is talking or smoking hookah
-  * make the bird be upside down
-  * reunite the bird with his bird family
-  * change the bird to a better color
-  * give the bird a small gray ledge on which to perch
-  * transform the bird into a bubble letter "t" or the word "twitter"
-  * give the bird eyes and legs and a song in his heart
-  * make the bird look the way he used to even though no one would notice
+> * make the bird be upside down
+> * reunite the bird with his bird family
+> * change the bird to a better color
+> * give the bird a small gray ledge on which to perch
+> * transform the bird into a bubble letter "t" or the word "twitter"
+> * give the bird eyes and legs and a song in his heart
+> * make the bird look the way he used to even though no one would notice
 
 You must also use the right blue, yet nowhere is the value of this colour stated. I'm all for providing brand guidelines ([Dribbble provide a great example][9]) but push too hard, and you risk coming across as overly controlling or even litigious.
 

@@ -4,14 +4,13 @@ title: Dessie
 date: '2012-10-08 19:56:32 +0100'
 location: Brighton, England
 excerpt: A page on my website, dedicated to a cat.
+image:
+  url: /2012/10/dessie.jpg
+  caption: Dessie
 tags:
   - Personal
   - Family
 ---
-{% figure %}
-![Dessie](/assets/images/2012/10/dessie.jpg)
-{% endfigure %}
-
 My family was never a cat family, so it was a strange day in 1997 when we decided to buy two kittens.
 
 The first, Luke, was a beautiful sleek black cat, but he had a death wish. If he wasn't getting into scrapes with other cats, he was annoying customers at [my parents' business][1] by climbing into the bottom of their cars before falling out a few miles down the road. After a few years, we had little choice but to find him a new home, one where he would get into less trouble.
