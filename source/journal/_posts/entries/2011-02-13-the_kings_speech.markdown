@@ -3,6 +3,9 @@ layout: entry
 title: The King's Speech
 date: '2011-02-13 23:13:23 +0000'
 excerpt: The King's Speech is undoubtedly one of the most successful independent British films ever made, yet some see this popularity as problematic given the artistic licence given to the events it portrays.
+image:
+  url: /2011/02/the_kings_speech.jpg
+  caption: Colin Firth in The King's Speech
 tag:
   - Film
   - Film review
@@ -12,10 +15,6 @@ tag:
   - Royalty
   - Winston Churchill
 ---
-{% figure l-extend "Colin Firth in The King's Speech" %}
-![](/assets/images/2011/02/the_kings_speech.jpg)
-{% endfigure %}
-
 However you wish to measure it, [The King's Speech][1] is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn't imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
 
 This period of history appears to be enjoying a renaissance in both film and on television. The BBC's revival of <cite>[Upstairs, Downstairs][3]</cite>, a popular drama [that first aired in the 1970s][4] returned at Christmas, with this latest series also set during the events of the addiction crisis. Indeed, many of those mentioned in this film were seen dining at 165 Eaton Place.
@@ -35,7 +34,6 @@ Firth's portrayal of Bertie is sublime. His stammer feels genuine and lacking in
 Helena Bonham Carter's performance as Bertie's wife Elizabeth is also worthy of mention, perhaps more so given she plays someone for which the audience has greater familiarity with her later role as the Queen Mother. Guy Pearce plays David (Prince of Wales and briefly Edward VII) the villain of the story, transitioning easily from respected older brother, to irresponsible playboy and sinister tease.
 
 ## The Myth of Churchill
-
 The performance that stands out the most though is that of Churchill. Played by Timothy Spall, his character chews up the scenery which only serves to highlight the historical inaccuracies this presents.
 
 It's often said that Hollywood has little regard for respecting the details of history (U571 and Braveheart immediately come to mind), but it would seem British filmmakers are just as guilty. In his article, <cite>[Why The King's Speech is a gross falsification][6]</cite>, Christopher Hitchens attempts to debunk the myth of Churchill:
@@ -47,7 +45,6 @@ In [another analysis of the plot][7], Alex von Tunzelmann notes that Churchill e
 Whilst I was exploring [the BBC's wonderful archive on the abdication crisis][8], I found a 1993 Radio 4 documentary in which [Philip Ziegler posits an alternative history][9]. He suggests that had David not abdicated, an interim government lead by Lloyd George would count Churchill as its most prominent member.
 
 ## Appeasement
-
 However, the inaccuracies aren't limited to the Churchill. Hitchen's reminds us of George VI's clear support for Chamberlain's policy of appeasement with Nazi Germany:
 
 > Chamberlain was then paraded on the palace balcony, saluted by royalty in front of cheering crowds. Thus the Munich sell-out had received the royal assent before the prime minister was obliged to go to parliament and justify what he had done.
@@ -67,7 +64,6 @@ So whilst the Royal Family supported the policy of appeasement, there remains a 
 It's also been questioned whether George VI's speech was actually cured at all. The family of BBC engineer David Martin say he was [asked to edit the King's wartime speeches][13], to take out the stammer and make his speeches more fluent.
 
 ## The Role of Film
-
 Whenever such a film finds popularity there are always those ready to debate whether historical accuracy should take precedence over entertainment value. That I watched the film without spotting any glaring errors in the storyline suggests the portrayal already aligns with our common understanding of these events.
 
 Should the film have given a detailed yet undramatic history lesson, or entertained us enough to promote an interested in the story? The later can only be achieved by providing a compelling enough story, one that can attract audiences and begin a dialogue. Given my renewed interest in the topic, alongside the reassessments and debates in the press, it would appear the film achieved all it needed to.

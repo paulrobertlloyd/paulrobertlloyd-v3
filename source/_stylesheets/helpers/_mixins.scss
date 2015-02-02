@@ -145,7 +145,7 @@
             width: ($u__baseline * 2);
             content: '';
             @if $el == 'before' {
-                margin-bottom: ($u__baseline / 5);
+                margin-bottom: ($u__baseline / 2);
             }
             @if $el == 'after' {
                 margin-top: ($u__baseline / 5);

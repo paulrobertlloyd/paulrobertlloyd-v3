@@ -44,6 +44,10 @@ ul {
     @include susy-breakpoint(b__a) {
         list-style-position: outside;
     }
+
+    blockquote & {
+        list-style-position: inside;
+    }
 }
 
 ol {

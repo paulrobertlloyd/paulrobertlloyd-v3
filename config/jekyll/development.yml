@@ -1,6 +1,5 @@
 env: development
 url: //paulrobertlloyd.dev
-img_url: //images.paulrobertlloyd.dev
 
 # Assets
 assets:

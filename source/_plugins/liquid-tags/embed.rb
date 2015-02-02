@@ -19,7 +19,8 @@ module Jekyll
 
     def render(context)
       url = Liquid::Template.parse(@link).render context
-      url_encoded = URI.encode(url.strip)
+      url_cleaned = url.strip
+      url_encoded = URI.encode(url_cleaned)
 
       # Parse URL into its constituent parts - host, port, query string…
       @uri = URI.parse(url_encoded)
@@ -44,15 +45,15 @@ module Jekyll
         return html
 
       elsif @host.to_s.include? 'flickr.com'
-        html = embedCode("photo", "#{@uri}/player/", "View photo on Flickr")
+        html = embedCode("photo", "#{url_cleaned}player/", "View photo on Flickr")
         return html
 
       elsif @host.to_s.include? 'mapbox.com'
-        html = embedCode("map", "#{@url}", "View map on Mapbox")
+        html = embedCode("map", "#{url_cleaned}", "View map on Mapbox")
         return html
  
       elsif
-        print "#{@url} does not support embedding\n"
+        print "#{url_cleaned} does not support embedding\n"
       end
 
     end

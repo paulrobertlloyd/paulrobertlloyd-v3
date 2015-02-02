@@ -4,6 +4,9 @@ title: Landmark Olympic Websites, Where Art Thou?
 date: '2014-02-20 00:13:28 +0000'
 location: Brighton, England
 excerpt: Whereas the world's foremost architects, graphic artists, typographers, iconographers and illustrators are asked to create their best work to celebrate each Olympic Games, still we wait for the Olympic movement to give equal consideration to the design of its websites.
+image:
+  url: /2014/02/olympic_websites_anastasiya_kuzmina.jpg
+  caption: Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women's 7.5 km Sprint
 tags:
   - Brand identity
   - Design
@@ -12,10 +15,6 @@ tags:
   - Web design and development
   - Winter Olympics
 ---
-{% figure "Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women's 7.5 km Sprint" %}
-![](/assets/images/2014/02/olympic_websites_anastasiya_kuzmina.jpg)
-{% endfigure %}
-
 > When it comes to web design it's rare that all elements--functionality, clarity of information, and subjective beauty--come together to create a result that is widely admired, recognized or lauded in the same vein as anything resembling the likes of Saul Bass' AT&T logo, or Susan Kare's icons for the original Mac OS.
 
 [Writing in 2007][1], Armin Vit wondered which web sites could be considered landmarks of our profession. In drawing comparisons with celebrated graphic art, he cited the work of Milton Glaser, Paul Rand and Massimo Vignelli. Had further examples been given, I'm sure [Otl Aicher's iconic identity][2] for the Olympic Games of Munich 1972 would have been included too.
@@ -30,13 +29,13 @@ It's too early to know what London 2012 will add to this rich history, but surel
 I believe that has proven to be the case. The logo for [Sochi 2014][10] was clearly influenced by that of London 2012, and although [Rio 2016][11] reverts to a more traditional design, [PyeongChang 2018's][12] is just as original as London's:
 
 {% figure "Logos for the London 2012, Sochi 2014, Rio 2016 and PyeongChang 2018 Olympic Games" %}
-![](/assets/images/2014/02/olympic_websites_logos_2012-2018.png)
+{% picture /2014/02/olympic_websites_logos_2012-2018.png %}
 {% endfigure %}
 
 While much publicity is poured over these logos and emblems, they play a supporting role to that of the five interlocking rings; [Pierre de Coubertin's ingenious symbol][13] is still going strong 102 years later. In fact, it almost doesn't matter what logo an organising committee chooses as it'll often be reduced down to a horizontal wordmark anyway:
 
 {% figure "Uganda's Stephen Kiprotich crosses the finish line to win the men's marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not" %}
-![](/assets/images/2014/02/olympic_websites_stephen_kiprotich.jpg)
+{% picture /2014/02/olympic_websites_stephen_kiprotich.jpg %}
 {% endfigure %}
 
 In that respect, Sochi's stark typographic mark makes a lot of sense. Featuring no culturally symbolic motifs, 'the first digital Games emblem in Olympic history' is signified by the inclusion of the .ru top level domain. According to [the press release][14]:
@@ -49,7 +48,7 @@ This press release is no longer available, probably because **the website has fa
 Ignoring the fact that [sochi2014.ru][15] redirects to a canonical domain of sochi2014.com, it's hard to believe that in 2014, a website with such international reach, financial backing and development timescale is not responsive, particularly given the rationale around the logo.
 
 {% figure "Website of the Sochi 2014 XXII Olympic Winter Games" %}
-![](/assets/images/2014/02/olympic_websites_sochi_2014.png)
+{% picture /2014/02/olympic_websites_sochi_2014.png %}
 {% endfigure %}
 
 The design of the site is no better, baring little relationship to the brand identity of these games. Instead, the site features isometric banners and inconsistent shadows reminiscent of a style prevalent fifteen years ago. Page layouts are crowded, with small text rendered in both Arial and Trebuchet, the brand font relegated to use on promotional images. To use this site--if you can find your way around the four different navigation menus--is to imagine the last ten years in web design didn't happen.
@@ -65,7 +64,7 @@ Whereas the world's foremost architects, graphic artists, typographers, iconogra
 Surely a desire to produce modern, great looking websites must exist somewhere within the Olympic movement? Those hoping to host future games clearly understand the importance of good design on the web. None more so than the city of Oslo, which announced its intention to bid for the 2022 winter games by launching the stunning [ol22.no][21]:
 
 {% figure "Website for Oslo 2022, applicant to host the Winter Games of 2022" %}
-![](/assets/images/2014/02/olympic_websites_oslo_2022.png)
+{% picture /2014/02/olympic_websites_oslo_2022.png %}
 {% endfigure %}
 
 Although at this stage the website has a different and more tightly scoped purpose than if it were supporting an Olympic Games, it is beautifully designed and thoughtfully laid out. Should Oslo earn the right to host the 2022 games, it seems unthinkable the accompanying website wouldn't share those same qualities. Will it?

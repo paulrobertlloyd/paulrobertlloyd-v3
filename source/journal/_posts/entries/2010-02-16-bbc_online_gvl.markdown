@@ -13,14 +13,14 @@ tags:
   - Design principles
 discussion: closed
 ---
-I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
+I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of its online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
 
 In the last few years however, there has been a shift in the opposite direction. The [iPlayer][1] -- the corporation's time-shifted internet television and radio platform -- is an industry leader. Fans of the [Semantic Web][2] can marvel at the [programmes][3] and [music][4] databases that support many aspects of the site, complete with [smart URL structures][5] that ensure data remains permanent and findable. A redesigned and customisable [home page][6] surfaces a wealth of information to around 13 million people each day.
 
 The speed at which these changes have been rolled out, has in part been aided by the creation of strict visual design guidelines, referred to as the [Global Visual Language][7] or GVL.
 
-{% figure "A selection of mastheads used on 'Barlesque' sites that adhere to the Global Visual Language v2" %}
-![](/assets/images/2010/02/bbc_online_gvl_mastheads.jpg)
+{% figure figure--caption-right "A selection of mastheads used on 'Barlesque' sites that adhere to the Global Visual Language v2" %}
+{% picture /2010/02/bbc_online_gvl_mastheads.jpg %}
 {% endfigure %}
 
 These guidelines introduced a single fixed page width, added a common masthead and footer, documented how individual site banners should work and established a simple underlying grid system. All new pages created on the site adhere to these standards meaning users now enjoy a coherent and joined up experience across BBC Online.
@@ -37,8 +37,8 @@ Comment in response to [BBC Music Website Relaunch][10]:
 
 I guess you could say I'm not a fan of Verdana! Furthermore, the new global masthead hid much of the sites navigation behind an 'Explore' button, and also lead to occasions where logos in the banner would clash with the main logo in the masthead:
 
-{% figure "The large logo in the masthead often clashed with logos within section banners. Originally the BBC News site showed the correct logo, but had to be altered to avoid it reading as BBC BBC NEWS" %}
-![Masthead logo clashing with a logo in the news banner](/assets/images/2010/02/bbc_online_gvl_masthead_news.png)
+{% figure figure--caption-right "The large logo in the masthead often clashed with logos within section banners. Originally the BBC News site showed the correct logo, but had to be altered to avoid it reading as BBC BBC NEWS" %}
+{% picture /2010/02/bbc_online_gvl_masthead_news.png alt="Masthead logo clashing with a logo in the news banner" %}
 {% endfigure %}
 
 I was so concerned by these oversights that I thought about ways to rectify these issues. The visual design language had just been applied to the [BBC News][11] website at the time, so I set upon redesigning the home and news item pages. The curious are welcome to view the full resolution comps I came up with:
@@ -80,8 +80,8 @@ These principles have resulted in the following output:
 ### Grid
 A new grid allows for much flexibility. Thirty-one 16px columns can be combined to create two or four columns on the left-hand side of the page, whilst a wider right-hand column ensures that advertising units (which are shown to international visitors) are accommodated. The choice of grid has lead to the introduction of interwoven vertical and horizontal bands, with the right-hand column becoming a signature feature across the site.
 
-{% figure "Example grid usage in the new Global Visual Language" %}
-![](/assets/images/2010/02/bbc_online_gvl_grid.jpg)
+{% figure figure--caption-right "Example grid usage in the new Global Visual Language" %}
+{% picture /2010/02/bbc_online_gvl_grid.jpg %}
 {% endfigure %}
 
 [James][17] has been saying recently that designers need to think more carefully about their grid layouts, considering what content needs to be catered for rather than just relying on [more rigid][18] and symmetrical layouts. This looks like a textbook example.
@@ -102,8 +102,8 @@ The examples demonstrate a consistent cross-site navigation element across the t
 ### Photography, Iconography and More!
 The embedded media players also get an update, as do carousels and other page components. To top it all off, the guidelines elicit the use of a single set of bespoke icons:
 
-{% figure "Icons used in the new Global Visual Language" %}
-![](/assets/images/2010/02/bbc_online_gvl_icons.png)
+{% figure figure--caption-right "Icons used in the new Global Visual Language" %}
+{% picture /2010/02/bbc_online_gvl_icons.png %}
 {% endfigure %}
 
 ## Final Thoughts

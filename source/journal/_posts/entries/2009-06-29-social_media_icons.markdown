@@ -99,11 +99,11 @@ style: |
 ---
 I've often found myself requiring icons when linking to or referencing different social networks I'm a member of. Whilst there are a lot of icon sets available that can help me do this, most seem to be oversized and highly stylised. In the past I've used site favicons, but these can often be visually inconsistent.
 
-![](/assets/images/2009/06/social_media_icons_sizes.png){: .l-align-right}With that in mind, and taking inspiration from the gorgeous icons used by [Tim van Damme][1] on his address card site, and the [Social Media Mini Iconpack][2] by Komodo media, I've created a selection of different icons each available in four different sizes (48×48, 32×32, 24×24 and 16×16).
+With that in mind, and taking inspiration from the gorgeous icons used by [Tim van Damme][1] on his address card site, and the [Social Media Mini Iconpack][2] by Komodo media, I've created a selection of different icons each available in four different sizes (48×48, 32×32, 24×24 and 16×16).
 
 * * *
 
-[Download Social Media Icons][3] -- Version 1.10, 3.8Mb
+**[Download Social Media Icons][3]** -- Version 1.11, 3.8Mb
 
 <small>Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][4]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.</small>
 
@@ -184,6 +184,15 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 
 ## Release Notes
 
+### v1.11 <small>26 April 2014</small>
+Limited maintainance release, including contributions from the community:
+
+  * Added 1 new icon (Deviant Art by @luclabs)
+  * Removed 3 icons (Dopplr, Posterous, Zootool)
+  * GitHub icon updated to use Octocat (by @luclabs)
+  * Added alternative blue GitHub icon (by @luclabs)
+  * Correct spelling of Pinterest (thanks @planspark, @JustinLongo)
+
 ### v1.10 <small>3 December 2012</small>
   * Added 5 new icons (App.net, Behance, Microsoft, Readability, This Is My Jam)
   * Removed 12 icons (About.me, Digg This, Formspring, Google Talk, iLike, iTunes, MSN Messenger, OpenID, Plancast, Yahoo! Messenger, Upcoming, Viddler)
@@ -215,7 +224,7 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 ### v1.8 <small>21 August 2011</small>
   * Added 5 new icons (about.me, Forrst, Google+, rdio, Speaker Deck)
   * Removed 1 icon (Ember)
-  * 16x16 icons are now saved as 32-bit alpha PNG
+  * 16×16 icons are now saved as 32-bit alpha PNG
   * Various other icon refinements
 
 ### v1.7 <small>20 December 2010</small>
@@ -235,7 +244,7 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
   * Various other icon refinements
 
 ### v1.5.1 <small>16 March 2010</small>
-  * Fixed border on delicious-16x16.png
+  * Fixed border on `delicious-16x16.png`
 
 ### v1.5 <small>14 March 2010</small>
   * Added 12 new icons (Creative Commons, Dribbble, Foursquare, Get Satisfaction, Gowalla, identi.ca, PayPal, SlideShare, Viddler, XING, Xbox, Zootool)
@@ -254,7 +263,7 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 ### v1.1 <small>26 July 2009</small>
   * Added 14 new icons (AIM, Amazon, Bebo, vCard, Google Talk, MSN Messenger, Nike+, OpenID, OPML, Orkut, Picasa, Skype, Virb, Yahoo Messenger)
   * QuickSnapper is now Ember
-  * 16x16 icons now provided in 8-bit PNG format
+  * 16×16 icons now provided in 8-bit PNG format
   * Various visual tweaks to all icons (borders, highlights etc.)
   * Package now includes 'Read Me' file with licence information
 
@@ -263,7 +272,7 @@ Please provide any feedback or suggestions by [submitting a new issue on GitHub]
 
 [1]: http://timvandamme.com/
 [2]: http://www.komodomedia.com/blog/2008/12/social-media-mini-iconpack/
-[3]: https://github.com/paulrobertlloyd/socialmediaicons/archive/v1.10.0.zip
+[3]: https://github.com/paulrobertlloyd/socialmediaicons/archive/1.11.0.zip
 [4]: http://creativecommons.org/licenses/by-sa/3.0/
 [5]: https://github.com/paulrobertlloyd/socialmediaicons/issues
 

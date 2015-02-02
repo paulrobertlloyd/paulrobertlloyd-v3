@@ -4,15 +4,11 @@
 
 .banner {
     border-bottom: 1px solid rgba($c__accent, 0.4);
+    padding: 0 $u__baseline;
 }
 
 .banner__container {
     @include container($u__max-width);
-    padding: 0 gutter() ($u__baseline * 3.5);
-
-    @include susy-breakpoint(b__a) {
-        padding: 0;
-    }
 }
 
 .banner__title {

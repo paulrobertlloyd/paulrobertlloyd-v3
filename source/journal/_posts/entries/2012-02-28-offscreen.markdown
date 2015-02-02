@@ -4,15 +4,14 @@ title: Offscreen Magazine
 date: '2012-02-28 22:54:21 +0000'
 location: Brighton, England
 excerpt: Offscreen is a new magazine edited, produced and beautifully designed by Kai Brach, focusing on the personalities behind the pixels -- in a good way.
+image:
+  url: /2012/02/offscreen.jpg
+  caption: 'Cover of Issue No1. Photograph: [Kai Brach](https://www.flickr.com/photos/brakai295/6873407277/)'
 tags:
   - Writing
   - Offscreen Magazine
 ---
 [Offscreen][1] is a new magazine edited, produced and beautifully designed by [Kai Brach][2], that focuses on the personalities behind the pixels -- in a good way.
-
-{% figure l-extend "Cover of Issue No1. Photograph: [Kai Brach](https://www.flickr.com/photos/brakai295/6873407277/)" %}
-![](/assets/images/2012/02/offscreen.jpg)
-{% endfigure %}
 
 [The inaugural issue][3] contains six in-depth interviews (Dan Cederholm, Drew Wilson, Hannah Donovan, Ryan Singer, Andrew Wilkinson and Benjamin de Cock) and a selection of essays, all interspersed by a number of regular features. I'm honoured to be featured in one of these, <cite>Logbook</cite>, which charts a day in the life of me and four other designers and developers.
 

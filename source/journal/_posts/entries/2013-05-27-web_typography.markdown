@@ -3,7 +3,7 @@ layout: entry
 title: What I Want from a Web Font
 date: '2013-05-27 23:23:15 +0100'
 location: Brighton, England
-excerpt: Last month I wrote about Bradshaw's Guide, a project that brings George Bradshaw's 1866 descriptive railway handbook to the web. Today I'll cover some of the typographic decisions I made, and how they lead me to believe that we still lack the necessary tools for web typography.
+excerpt: Last month I wrote about Bradshaw's Guide, a project that brings George Bradshaw's 1866 descriptive railway handbook to the web. Today I'll cover some of the typographic decisions I made, and how they lead me to believe that we still lack the necessary tools for web typography. 
 tags:
   - Projects
   - Bradshaw's Guide
@@ -16,15 +16,15 @@ Last month [I wrote about Bradshaw's Guide][1], a project that brings George Bra
 Although the content of Bradshaw's Guide is well suited to hypertext, its chaotic and haphazard victorian typography, featuring a mix of fonts, weights and widths, felt somewhat at odds with the more structured nature of the web.
 
 {% figure "Scan of the inside cover of Bradshaw's 1866 railway handbook" %}
-![](/assets/images/2013/05/web_typography_bradshaws_cover.png)
+{% picture /2013/05/web_typography_bradshaws_cover.png %}
 {% endfigure %}
 
 To successfully mimic its design, a vast array of fonts and styles would be needed, requiring assets in size and number that would slow page loads and degrade the experience, especially on mobile. The challenge then, was to maintain this identifiable aesthetic, but in a performant manner.
 
 Thankfully, beyond the cover and adverts, the guide is more consistently typeset, with different fonts and styles used to delineate content types. This structure gave me the confidence to keep my font selection limited.
 
-{% figure "Typographic hierarchy used in the original Bradshaw's Guide" %}
-![](/assets/images/2013/05/web_typography_bradshaws_type.png)
+{% figure figure--caption-right "Typographic hierarchy used in the original Bradshaw's Guide" %}
+{% picture /2013/05/web_typography_bradshaws_type.png %}
 {% endfigure %}
 
 ## Font Selection
@@ -46,8 +46,8 @@ Finding the right fonts was a particularly drawn out process. Beyond the usual r
 ## The Missing Web Typography Tool
 After an extensive search, I opted to use [Kameron][7] for headings, a chunky slab serif that contrasted strongly with [Linux Libertine][8], a delicate serif I had chosen for body copy.
 
-{% figure "Sample of fonts used on Bradshaw's Guide" %}
-![](/assets/images/2013/05/web_typography_bradshaws_web.png)
+{% figure figure--caption-right "Sample of fonts used on Bradshaw's Guide" %}
+{% picture /2013/05/web_typography_bradshaws_web.png %}
 {% endfigure %}
 
 With content made up of English and European characters, punctuation marks, [manacles][9], numerals and fractions, Libertine Regular needed to contain a large number of glyphs, including those needed for OpenType feature adaptions (ligatures, small caps, old style numerals etc.). Libertine Italic and Kameron Bold are used less often, so fewer characters were required. With the regular weight of Kameron used for uppercase headings, this was subset to include only uppercase letters, numbers and a few basic punctuation marks.

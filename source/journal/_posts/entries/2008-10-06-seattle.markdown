@@ -5,6 +5,7 @@ date: '2008-10-06 06:23:36 +0100'
 excerpt: The first stop in my four city tour of America was Seattle in the north-western state of Washington. Probably best known for it's iconic Space Needle, it's perhaps no surprise that I spent most of my time fixated on this slender looking tower.
 image:
   url: /2008/10/seattle_center.jpg
+  caption: The Space Needle with the Experience Music Project in the foreground
 tags:
   - Architecture
   - Travel
@@ -17,11 +18,7 @@ The [Space Needle][1] is Seattle's signature landmark built for the 1962 Century
 
 The grounds exist today as 'Seattle Center', an arts and entertainment complex with museums, parkland and fairground rides. Key buildings from the exposition such as the Pacific Science Museum, Key Arena and Center House exist largely as they did almost 50 years ago, alongside newer buildings such as the [Experience Music Project][2] and McCaw Hall.
 
-{% figure l-extend "The Space Needle with the Experience Music Project in the foreground" %}
-![](/assets/images/2008/10/seattle_center.jpg)
-{% endfigure %}
-
-The Space Needle retains it's original ['Googie' architectural style][3], but latterly a number of improvements have been made. Renovation early this century saw the addition of a spiralling entrance way, and a beam of light can now be emitted from it's tip. Both of these were depicted in the official poster for the fair, but missing from the final design.
+The Space Needle retains its original ['Googie' architectural style][3], but latterly a number of improvements have been made. Renovation early this century saw the addition of a spiralling entrance way, and a beam of light can now be emitted from it's tip. Both of these were depicted in the official poster for the fair, but missing from the final design.
 
 With this structure dominating the northern suburbs where I was staying, peaking over and between buildings at every turn, it was hard to resist dinner in it's revolving restaurant. As the central core and windows stay fixed as the floor rotates, a slight juddering movement and dimmed lighting in the restaurant made me quite queazy by the end of my meal. The food served was expertly prepared, with a wide selection of Pacific Northwest cuisine, good portion sizes and a courteous waiting service.
 
@@ -29,7 +26,7 @@ Linking the Seattle Center with downtown Seattle, is a monorail also built for t
 
 ## Downtown and Pioneer Square
 {% figure figure--caption-right l-extend "Pike Place market" %}
-![](/assets/images/2008/10/seattle_pike_place.jpg)
+{% picture /2008/10/seattle_pike_place.jpg %}
 {% endfigure %}
 
 The downtown area of the city is much like others in the US -- dominated by tall sky scrappers of failing banks like Washington Mutual -- but to the west is [Pike Place Market][4], a warren of small shops, fish mongers, tourist traps and restaurants, and home to the first Starbucks. To the south lies Pioneer Square, a leafy and laid back historic district, home to preserved buildings from the early 20th Century, most notably Smith Tower.
@@ -39,7 +36,7 @@ However, I didn't explore these areas as much as I would have liked, mainly due 
 Here a daring steel and glass design wraps itself around public reading and research spaces, lounges and an innovative 'book spiral'. This continuous spiral allows visitors to browse the library's entire non-fiction collection without breaking up the Dewey Decimal classification system onto different floors.
 
 {% figure figure--caption-right l-extend "Inside Seattle Central Library" %}
-![](/assets/images/2008/10/seattle_central_library.jpg)
+{% picture /2008/10/seattle_central_library.jpg %}
 {% endfigure %}
 
 ## Impression

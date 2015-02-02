@@ -4,14 +4,13 @@ title: Once In A Lifetime
 date: '2012-07-27 17:53:23 +0100'
 location: Brighton, England
 excerpt: Olympics happen once every four years. Most are unlikely to ever experience them in their own country. I get shivers whenever I see banners with the Olympic Rings on them. This is once in a lifetime event, and I intend to make the very most of it.
+image:
+  url: /2012/07/olympics.jpg
+  caption: Olympic Opening Ceremony rehearsals
 tags:
   - Olympics
   - London 2012
 ---
-{% figure l-extend "Olympic Opening Ceremony rehearsals" %}
-![](/assets/images/2012/07/olympics.jpg)
-{% endfigure %}
-
 I've always been fascinated by the Olympics. I vaguely remember the Seoul games of 1988, but I do recall watching cycling and athletics in Barcelona four years later. I've been glued to the television for subsequent games, although Athens 2004 has faded from memory. Beijing was magical, made sweeter by a surprising British medal haul. Heightened expectations have followed our athletes ever since.
 
 It is less the sport that fascinates me; the Olympics are the only instance where all my interests in culture, modern history, design and architecture intersect. And with 18 former host cities, they provide inspiration for travel destinations too.

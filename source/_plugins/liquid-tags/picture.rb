@@ -203,6 +203,11 @@ module Jekyll
         gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
         gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
       end
+      
+      # Don't process SVG images
+      if ext == ".svg"
+        svg = true
+      end
 
       gen_name = "#{basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{ext}"
       gen_dest_dir = File.join(site_dest, image_dest, image_dir)
@@ -210,20 +215,23 @@ module Jekyll
 
       # Generate resized files
       unless File.exists?(gen_dest_file)
+        warn "Warning:".yellow + " #{instance[:src]} is an SVG. It will not be resized." if svg
 
-        warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
-
-        #  If the destination directory doesn't exist, create it
+        # If the destination directory doesn't exist, create it
         FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
 
-        # Let people know their images are being generated
-        puts "Generating #{gen_name}"
+        unless svg
+          warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
 
-        # Scale and crop
-        image.combine_options do |i|
-          i.resize "#{gen_width}x#{gen_height}^"
-          i.gravity "center"
-          i.crop "#{gen_width}x#{gen_height}+0+0"
+          # Let people know their images are being generated
+          puts "Generating #{gen_name}"
+
+          # Scale and crop
+          image.combine_options do |i|
+            i.resize "#{gen_width}x#{gen_height}^"
+            i.gravity "center"
+            i.crop "#{gen_width}x#{gen_height}+0+0"
+          end
         end
 
         image.write gen_dest_file

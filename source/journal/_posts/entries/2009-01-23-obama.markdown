@@ -4,15 +4,14 @@ title: Obama, America & Me
 date: '2009-01-23 16:19:06 +0000'
 location: Littlehampton, England
 excerpt: Growing up, my brother was always the one in our family more interested in American culture. Whilst he followed the NBA and listened to Public Enemy, Wu-Tang Clan and Eminem, I stood to the National Anthem and worried about Britain's growing closeness to Europe. America was of little importance to me.
+image:
+  url: /2009/01/obama.jpg
+  caption: 'Barack Obama at a campaign rally in Pueblo, Colorado. Photograph: [Criz Stoddard](https://www.flickr.com/photos/zyrc/2993189541/)'
 tags:
   - Barack Obama
   - Politics
   - United States
 ---
-{% figure "Barack Obama at a campaign rally in Pueblo, Colorado. Photograph: [Criz Stoddard](https://www.flickr.com/photos/zyrc/2993189541/)" %}
-![](/assets/images/2009/01/obama.jpg)
-{% endfigure %}
-
 Growing up, my brother was always the one in our family more interested in American culture. Whilst he followed the NBA and listened to Public Enemy, Wu-Tang Clan and Eminem, I stood to the National Anthem and worried about Britain's growing closeness to Europe. America was of little importance to me.
 
 Two years ago, he and my mother came to visit me shortly after I had moved to California. I admired America enough to know the opportunity to live and work there was something not to be turned down, yet I probably saw this more as a chance to promote my own culture and ideals, rather than learn about or be influenced by theirs. In stark contrast, my brother during his first short visit, walked with a spring in his step, gleefully chatted with shop assistants, waitresses, and taxi drivers, his eyes wide open throughout the trip.
@@ -24,8 +23,8 @@ I was amazed by the level of political awareness and activism that existed, perh
 ## Tuning into Obama
 Whilst I was now quite immersed in (some sort of) American way of life, I'm not sure when Obama first came to my attention. I do distinctly remember watching his announcement from Springfield, IL, in which he confirmed he was running for President, and already knew that he was the candidate I'd be supporting. Over time, his non-combative style, grace under pressure and call for change cemented that decision, whilst the way in which he embraced design, technology and the internet was encouraging given my interest in those areas.
 
-{% figure l-pull-left "Barack Obama _Hope_ poster by Shepard Fairey" %}
-![](/assets/images/2009/01/obama_hope_poster.png)
+{% figure l-pull-right "Barack Obama _Hope_ poster by Shepard Fairey" %}
+{% picture supporting /2009/01/obama_hope_poster.png %}
 {% endfigure %}
 
 By the time of the [Iowa Caucuses][2], and [New Hampshire primaries][4] I had decided that I would be returning to the UK, yet I continued to watch the election with a keen interest, watching every debate, every concession speech, every victory rally.
@@ -49,5 +48,6 @@ Two months since his election, I'm still excited by the opportunity for change t
 [4]: http://en.wikipedia.org/wiki/New_Hampshire_primary
 [5]: http://www.nytimes.com/
 
+*[NBA]: National Basketball Association
 *[BBC]: British Broadcasting Corporation
 *[UK]: United Kingdom

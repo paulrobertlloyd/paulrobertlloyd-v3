@@ -4,14 +4,13 @@ title: Sage
 date: '2011-09-27 23:26:56 +0100'
 location: Brighton, England
 excerpt: Today I was told the sudden and unexpected news that one of my family's pets, Sage, had been put to sleep. Unbeknown to us, his body was being ravaged by a cancerous tumour so aggressive, that it only made itself visible last weekend. He had days to live.
+image:
+  url: /2011/09/sage.jpg
+  caption: Sage
 tags:
   - Personal
   - Family
 ---
-{% figure %}
-![Sage](/assets/images/2011/09/sage.jpg)
-{% endfigure %}
-
 Today I was told the sudden and unexpected news that one of my family's pets, [Sage][1], had been put to sleep. Unbeknown to us, his body was being ravaged by a cancerous tumour so aggressive, that it only made itself visible last weekend. He had days to live.
 
 Growing up with animals, such news is a recurring theme. Sometimes you have time to prepare yourself, but often it's a quick turn of events that catches you out, leaving only a painful reminder that every moment you have with them is valuable.

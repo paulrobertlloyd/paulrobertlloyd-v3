@@ -6,7 +6,7 @@ date: '2010-01-25 23:44:04 +0000'
 excerpt: Before the tan disappears I'd like to record my short journey across New Zealand and Australia. There is much to say, so over the next few days, I shall try to describe how I ended the previous decade down-under.
 image:
   url: /2010/01/auckland.jpg
-  cation: Auckland's CBD viewed from atop Mount Eden
+  caption: Auckland's CBD viewed from atop Mount Eden
 tags:
   - Travel
   - New Zealand
@@ -22,7 +22,7 @@ After unpacking and settling in, I ventured outside, intent on discovering the c
 It was at this point I remembered why I love to travel. Whilst photos and entries such as this become remnants of such trips, there is so much of the experience you can't take back home. This, as well as knowing I had achieved something that was just an idea a few months beforehand, proved to be an enormous rush.
 
 {% figure "A section of wall on the outside of the War Memorial Museum, commemorating battles fought in Palestine during World War I" %}
-![](/assets/images/2010/01/auckland_war_memorial_museum.jpg)
+{% picture /2010/01/auckland_war_memorial_museum.jpg %}
 {% endfigure %}
 
 The feeling of the familiar was the immediate impression I got of Auckland. Having visited many other 'post-colonial' cities (Sydney, San Francisco, Montreal) there were many times I felt I could be in any one of those places.

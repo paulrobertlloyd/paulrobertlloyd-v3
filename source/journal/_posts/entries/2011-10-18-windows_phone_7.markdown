@@ -9,13 +9,13 @@ tags:
   - Mobile
   - Windows Phone 7
 ---
-{% figure %}
-![Windows Phone 7](/assets/images/2011/10/windows_phone_7.jpg)
-{% endfigure %}
-
 With three years of iPhone ownership I've become accustomed to the design and behaviour of iOS, yet at the same time ignorant of other smartphone platforms. As an interactive designer working on mobile products this can lead to poor assumptions and little empathy for users of different platforms. As a responsible consumer, it's important to understand the wider marketplace so my choice of phone is based upon an informed decision.
 
 Thankfully, with Clearleft having acquired a few different devices for mobile testing, I can spend a little time with each to learn how they work. First up; Windows Phone 7.
+
+{% figure %}
+{% picture /2011/10/windows_phone_7.jpg alt="Windows Phone 7" %}
+{% endfigure %}
 
 ## Initial Impressions
 I've watched the development of this platform from afar and been impressed by what I've seen. At this year's SXSW I saw a presentation by [Mike Kruzeniski][1] where he made the case for [print-inspired content-led interfaces][2] -- an approach that contrasts sharply with Apple's latest [skeuomorphic designs][3].
@@ -46,7 +46,7 @@ In conclusion, I'm puzzled by Windows Phone 7. This is a Microsoft product that 
 ## Hardware
 Finally, a note on the hardware, in this case the [HTC HD7][4]. Whilst this wasn't the focus of my test drive, it was interesting to compare with the iPhone.
 
-The 480 x 800, 4.3" screen had a comparable resolution to an iPhone's retina screen, but the slow refresh rate became all too apparent upon scrolling text. Much has been made of larger screens versus the 3.5-inch size adopted by Apple. I hadn't paid much attention to the screen size, but I couldn't shift an underlying feeling of difficulty using the device. It was only on reading [Dustin Curtis' post][5], that I realised why. The hardware buttons at the bottom of the device demanded constant usage, yet these were always out of reach, meaning I had to constantly reposition my hands.
+The 480 × 800, 4.3" screen had a comparable resolution to an iPhone's retina screen, but the slow refresh rate became all too apparent upon scrolling text. Much has been made of larger screens versus the 3.5-inch size adopted by Apple. I hadn't paid much attention to the screen size, but I couldn't shift an underlying feeling of difficulty using the device. It was only on reading [Dustin Curtis' post][5], that I realised why. The hardware buttons at the bottom of the device demanded constant usage, yet these were always out of reach, meaning I had to constantly reposition my hands.
 
 The specifications would suggest the 5MP camera would produce images comparable with a compact. However image quality was not only worse than my current iPhone 3G, but even worse than some of the feature phones I owned five years ago. Incorrect colours and high compression rendered many of the photos I'd taken useless.
 
