@@ -1,0 +1,11 @@
+<section class="section section--testimonials" aria-labelledby="testimonials">
+    <h1 class="section__title" id="testimonials">Testimonials</h1>
+
+    <ul class="list list--testimonials">
+    {% for testimonial in site.data.testimonials limit:2 %}
+        <li class="list__item">
+            {% figure figure--tweet "**{{ testimonial.referee }}** {{ testimonial.role }}" %}{{ testimonial.content }}{% endfigure %}
+        </li>
+    {% endfor %}
+    </ul>
+</section>

@@ -2,9 +2,11 @@
 layout: default
 ---
 <section class="page page--index">
-    {% include html/structure/page__header.html %}
+    <div class="l-container">
+        {% include html/structure/page__header.html %}
 
-    <div class="page__main">
-        {{ content }}
+        <div class="page__main">
+            {{ content }}
+        </div>
     </div>
 </section>

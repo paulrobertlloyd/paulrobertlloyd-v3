@@ -2,35 +2,37 @@
 layout: default
 ---
 <article class="page page--entry  h-entry">
-    {% include html/structure/page__header.html %}
+    <div class="l-container">
+        {% include html/structure/page__header.html %}
 
-    <div class="page__main">
-        <div class="prose  e-content">
-            {% if page.image.caption %}
-                {% figure l-extend "{{ page.image.caption }}" %}
+        <div class="page__main">
+            <div class="prose  e-content">
+                {% if page.image.caption %}
+                    {% figure l-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
-                {% endfigure %}
+                    {% endfigure %}
+                {% endif %}
+
+                {% if page.series %}
+                    {% include html/nav/series.html %}
+                {% endif %}
+
+                {{ content | typogrify }}
+            </div>
+
+            {% if page.tags %}
+                {% include html/sections/tags.html %}
             {% endif %}
 
-            {% if page.series %}
-                {% include html/nav/series.html %}
-            {% endif %}
+            {% include html/sections/related.html %}
 
-            {{ content | typogrify }}
+            {% if page.discussion %}
+                {% include html/sections/discussion.html %}
+            {% endif %}
         </div>
 
-        {% if page.tags %}
-            {% include html/sections/tags.html %}
-        {% endif %}
-
-        {% include html/sections/related.html %}
-
-        {% if page.discussion %}
-            {% include html/sections/discussion.html %}
-        {% endif %}
+        {% include html/structure/page__footer.html %}
     </div>
-
-    {% include html/structure/page__footer.html %}
 </article>
 
 {% include html/nav/entries.html %}

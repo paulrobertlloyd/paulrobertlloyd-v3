@@ -4,9 +4,12 @@
 
 .page {
     display: flex;
+    flex-direction: column;
+}
+
+@mixin page-container {
     padding-right: gutter();
     padding-left: gutter();
-    flex-direction: column;
 
     @include susy-breakpoint(b__a) {
         padding-right: span(1 wide);
@@ -15,16 +18,19 @@
 }
 
 .page__header {
+    @include page-container;
     padding-top: 8%;
     padding-bottom: 8%;
     order: 1;
 }
 
 .page__main {
+    @include page-container;
     order: 3;
 }
 
 .page__footer {
+    @include page-container;
     margin-top: -8%;
     margin-bottom: 8%;
     order: 2;

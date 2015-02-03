@@ -1,5 +1,5 @@
 <nav class="navigation" role="navigation" aria-labelledby="menu">
-    <div class="navigation__container">
+    <div class="l-container">
         <h1 class="navigation__title audible" id="menu">Menu</h1>
 
         <ul class="nav nav--primary">
@@ -17,6 +17,9 @@
             </li>
             <li class="nav__item{% if location == 'contact' %}  is-active{% endif %}">
                 <a class="nav__item__label" href="/contact/">Contact</a>
+            </li>
+            <li class="nav__item{% if location == 'hire' %}  is-active{% endif %}">
+                <a class="nav__item__label" href="/hire/">Hire me</a>
             </li>
         </ul>
     </div>
