@@ -2,33 +2,35 @@
 layout: default
 ---
 <article class="page page--link  h-entry">
-    {% include html/structure/page__header.html %}
+    <div class="l-container">
+        {% include html/structure/page__header.html %}
 
-    <div class="page__main">
-        <div class="prose  e-content">
-            {% if page.link-embed %}
-                {% embed {{ page.link }} %}
+        <div class="page__main">
+            <div class="prose  e-content">
+                {% if page.link-embed %}
+                    {% embed {{ page.link }} %}
+                {% endif %}
+
+                {{ content | typogrify }}
+
+                {% if page.link-embed == null %}
+                    <aside class="container__aside">
+                        <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
+                    </aside>
+                {% endif %}
+            </div>
+
+            {% if page.tags %}
+                {% include html/sections/tags.html %}
             {% endif %}
 
-            {{ content | typogrify }}
-
-            {% if page.link-embed == null %}
-                <aside class="page__aside">
-                    <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
-                </aside>
+            {% if page.discussion %}
+                {% include html/sections/discussion.html %}
             {% endif %}
         </div>
 
-        {% if page.tags %}
-            {% include html/sections/tags.html %}
-        {% endif %}
-
-        {% if page.discussion %}
-            {% include html/sections/discussion.html %}
-        {% endif %}
+        {% include html/structure/page__footer.html %}
     </div>
-
-    {% include html/structure/page__footer.html %}
 </article>
 
 {% include html/nav/entries.html %}

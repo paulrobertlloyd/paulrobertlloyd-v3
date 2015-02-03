@@ -12,10 +12,35 @@
     }
 }
 
+.list--testimonials {
+    @include susy-breakpoint(b__a) {
+        @include clearfix;
+    }
+
+    .list__item {
+        @include susy-breakpoint(b__a) {
+            @include span(3 of 6);
+        }
+
+        &:nth-child(2n) {
+            @include susy-breakpoint(b__a) {
+                @include last;
+            }
+        }
+
+        &:nth-child(2n+1) {
+            @include susy-breakpoint(b__a) {
+                @include break;
+            }
+        }
+    }
+}
+
 .list--articles,
 .list--presentations,
 .list--related,
-.list--projects {
+.list--projects,
+.list--services {
     @include susy-breakpoint(b__a) {
         @include clearfix;
     }

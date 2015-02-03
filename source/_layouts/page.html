@@ -2,30 +2,29 @@
 layout: default
 ---
 <article class="page  h-entry">
-    {% include html/structure/page__header.html %}
+    <div class="l-container">
+        {% include html/structure/page__header.html %}
 
-    {{ page.next }}
-    {{ page.previous }}
-
-    <div class="page__main">
-        <div class="prose  e-content">
-             {% if page.image.caption %}
-                {% figure l-extend "{{ page.image.caption }}" %}
+        <div class="page__main">
+            <div class="prose  e-content">
+                 {% if page.image.caption %}
+                    {% figure l-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
-                {% endfigure %}
-            {% endif %}
+                    {% endfigure %}
+                {% endif %}
 
-            {% if page.series %}
-                {% include html/nav/series.html %}
-            {% endif %}
+                {% if page.series %}
+                    {% include html/nav/series.html %}
+                {% endif %}
 
-            {{ content | typogrify }}
+                {{ content | typogrify }}
+            </div>
+
+            {% if page.tags %}
+                {% include html/sections/tags.html %}
+            {% endif %}
         </div>
 
-        {% if page.tags %}
-            {% include html/sections/tags.html %}
-        {% endif %}
+        {% include html/structure/page__footer.html %}
     </div>
-
-    {% include html/structure/page__footer.html %}
 </article>

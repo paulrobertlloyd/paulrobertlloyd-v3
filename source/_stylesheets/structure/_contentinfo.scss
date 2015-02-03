@@ -4,11 +4,8 @@
 
 .contentinfo {
     background-color: $c__neutral--6;
-    padding: $u__baseline;
-}
-
-.contentinfo__container {
-    @include container($u__max-width);
+    padding-top: $u__baseline;
+    padding-bottom: $u__baseline;
 }
 
 .contentinfo__about {

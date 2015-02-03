@@ -3,12 +3,11 @@
     ========================================================================= */
 
 .banner {
-    border-bottom: 1px solid rgba($c__accent, 0.4);
-    padding: 0 $u__baseline;
-}
+    //padding: 0 $u__baseline;
 
-.banner__container {
-    @include container($u__max-width);
+    .l-container {
+        border-bottom: 1px solid rgba($c__accent, 0.4);
+    }
 }
 
 .banner__title {

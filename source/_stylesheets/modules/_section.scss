@@ -38,3 +38,11 @@
     margin-right: -(span(1 wider));
     margin-left: -(span(1 wider));
 }
+
+.section--hello {
+    p {
+        @include ff--sans-serif;
+        @include fs--paragon;
+        margin-bottom: $u__baseline;
+    }
+}
