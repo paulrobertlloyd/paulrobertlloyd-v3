@@ -2,26 +2,24 @@
 layout: default
 ---
 <article class="page page--project  h-entry">
-    <div class="l-container">
-        {% include html/structure/page__header.html %}
+    {% include html/structure/page__header.html %}
 
-        <div class="page__main">
-            {% if page.project_info %}
-                {% include html/content/project-info.html %}
-            {% endif %}
+    <div class="page__main">
+        {% if page.project_info %}
+            {% include html/content/project-info.html %}
+        {% endif %}
 
-            <div class="prose  e-content">
-                {{ content | typogrify }}
-            </div>
-
-            {% if page.tags %}
-                {% include html/sections/tags.html %}
-            {% endif %}
-
-            {% if page.related_posts %}
-                {% include html/sections/related.html %}
-            {% endif %}
+        <div class="prose  e-content">
+            {{ content | typogrify }}
         </div>
+
+        {% if page.tags %}
+            {% include html/sections/tags.html %}
+        {% endif %}
+
+        {% if page.related_posts %}
+            {% include html/sections/related.html %}
+        {% endif %}
     </div>
 </article>
 
