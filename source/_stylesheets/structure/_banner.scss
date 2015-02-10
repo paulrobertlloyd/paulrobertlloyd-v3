@@ -3,14 +3,14 @@
     ========================================================================= */
 
 .banner {
-    //padding: 0 $u__baseline;
-
     .l-container {
         border-bottom: 1px solid rgba($c__accent, 0.4);
     }
 }
 
 .banner__title {
+    position: relative;
+    z-index: 2;
     text-align: center;
     line-height: 0.1;
 
