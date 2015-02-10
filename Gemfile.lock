@@ -1,6 +1,13 @@
 GIT
+  remote: git://github.com/jekyll/jekyll-archives.git
+  revision: 4a3bfdbd0935b7aaf4ad58d37799b814e7973691
+  specs:
+    jekyll-archives (2.0.0)
+      jekyll (>= 2.4)
+
+GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 128427cc872e38a75a67d3ceb4b3d326533e855a
+  revision: 8fe9561f64d959def755c7323dcb6a8a690e4ebd
   specs:
     jekyll (3.0.0.pre.beta1)
       colorator (~> 0.1)
@@ -11,14 +18,6 @@ GIT
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-
-GIT
-  remote: git://github.com/pathawks/jekyll-archives.git
-  revision: 36f67cc956fe365ba1c4719ea9e760493c9d8bbf
-  branch: 3.0
-  specs:
-    jekyll-archives (2.0.0)
-      jekyll (>= 2.4)
 
 GIT
   remote: git://github.com/paulrobertlloyd/autoprefixer.git
@@ -77,13 +76,13 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    eventmachine (1.0.5)
+    eventmachine (1.0.7)
     execjs (2.3.0)
     exiftool (0.6.0)
       json
     ffi (1.9.6)
     formatador (0.2.5)
-    guard (2.11.1)
+    guard (2.12.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
       lumberjack (~> 1.0)
@@ -146,7 +145,7 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
-    mini_magick (4.0.3)
+    mini_magick (4.0.4)
     multi_css (0.1.0)
       css_press
     multi_js (0.1.0)
@@ -156,7 +155,7 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
-    notiffany (0.0.3)
+    notiffany (0.0.5)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pry (0.10.1)
