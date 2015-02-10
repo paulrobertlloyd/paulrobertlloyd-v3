@@ -20,7 +20,7 @@ end
 # Jekyll (generates static files)
 gem 'jekyll', github: 'jekyll/jekyll'
 group :jekyll_plugins do
-  gem 'jekyll-archives', github: 'pathawks/jekyll-archives', branch: '3.0'
+  gem 'jekyll-archives', github: 'jekyll/jekyll-archives'
   gem 'jekyll-assets'
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
