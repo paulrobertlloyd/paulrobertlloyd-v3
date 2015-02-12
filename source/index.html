@@ -3,58 +3,8 @@ layout: index
 template: home
 title: Strong opinions, loosely held
 ---
-<section class="section">
-    <h1 class="section__title"><a href="/journal/">Journal Entries</a></h1>
-
-    <ol class="list" reversed>
-    {% assign entries = site.posts | where: 'layout', 'entry' %}
-    {% for item in entries %}
-        <li class="list__item">
-            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
-            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
-    </ol>
-</section>
-
-<section class="section">
-    <h1 class="section__title"><a href="/journal/">Journal Links</a></h1>
-
-    <ol class="list" reversed>
-    {% assign links = site.posts | where: 'layout', 'link' %}
-    {% for item in links %}
-        <li class="list__item">
-            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
-            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
-    </ol>
-</section>
-
-<section class="section">
-    <h1 class="section__title"><a href="/projects/">Projects</a></h1>
-
-    <ol class="list" reversed>
-    {% assign projects = site.posts | where: 'layout', 'project' %}
-    {% for item in projects %}
-        <li class="list__item">
-            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
-            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
-    </ol>
-</section>
-
-<section class="section">
-    <h1 class="section__title"><a href="/photos/">Photos</a></h1>
-
-    <ol class="list" reversed>
-    {% assign photos = site.posts | where: 'layout', 'album' %}
-    {% for item in photos %}
-        <li class="list__item">
-            <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
-            <a href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
-    </ol>
-</section>
+{% include html/sections/hello.html %}
+{% include html/sections/projects-featured.html %}
+{% for summary in site.posts limit:6 %}
+    {% include html/sections/summary.html %}
+{% endfor %}
