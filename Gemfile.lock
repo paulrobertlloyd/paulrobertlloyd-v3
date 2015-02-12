@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 8fe9561f64d959def755c7323dcb6a8a690e4ebd
+  revision: 249249f76b0bcfd9cdb4b12b10a5030ef4fcd5e1
   specs:
     jekyll (3.0.0.pre.beta1)
       colorator (~> 0.1)
