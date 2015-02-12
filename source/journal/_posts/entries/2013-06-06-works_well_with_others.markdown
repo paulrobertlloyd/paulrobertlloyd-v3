@@ -5,8 +5,10 @@ date: '2013-06-06 00:00:00 +0000'
 location: Brighton, England
 excerpt: A brief thought about collaboration.
 tags:
-  - Web design and development
+  - The Pastry Box Project
   - Personal
+  - Web design and development
+  - Writing
 ---
 Four years ago, I was hired by Clearleft as a visual designer. Although it was recognised that I could write good front-end code, the nature of projects at that time meant different roles were segregated. After all, it is easier to manage projects when the component parts -- user experience, visual design, and front-end development -- can be pieced together like a jigsaw.
 
