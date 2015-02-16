@@ -7,16 +7,10 @@
                 <a class="nav__item__label" href="/journal/">Journal</a>
             </li>
             <li class="nav__item{% if location == 'projects' %}  is-active{% endif %}">
-                <a class="nav__item__label" href="/projects/">Portfolio</a>
+                <a class="nav__item__label" href="/projects/">Projects</a>
             </li>
-            <li class="nav__item{% if location == 'photos' %}  is-active{% endif %}">
+            <li class="nav__item{% if location == 'photos' or category == 'photos' %}  is-active{% endif %}">
                 <a class="nav__item__label" href="/photos/">Photos</a>
-            </li>
-            <li class="nav__item{% if location == 'archive' %}  is-active{% endif %}">
-                <a class="nav__item__label" href="/archive/">Archive</a>
-            </li>
-            <li class="nav__item{% if location == 'about' %}  is-active{% endif %}">
-                <a class="nav__item__label" href="/about/">About</a>
             </li>
             <li class="nav__item{% if location == 'contact' %}  is-active{% endif %}">
                 <a class="nav__item__label" href="/contact/">Contact</a>

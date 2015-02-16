@@ -8,12 +8,12 @@
   date: '2014-04-17'
   url: http://www.smashingmagazine.com/2014/04/17/after-editorially-alternative-collaborative-online-writing-tools/
 
-- title: 'Adobe Edge CC Review'
+- title: 'Review: Adobe Edge CC'
   publication: 'Digital Arts'
   date: '2013-06-20'
   url: http://digitalartsonline.co.uk/reviews/creative-software/adobe-edge-review/
 
-- title: 'Bohemian Coding Sketch 2 Review'
+- title: 'Review: Bohemian Coding Sketch 2'
   publication: 'Digital Arts'
   date: '2013-05-15'
   url: http://digitalartsonline.co.uk/reviews/interactive-design/bohemian-coding-sketch-2-review/
@@ -37,3 +37,33 @@
   publication: '24 ways'
   date: '2011-12-05'
   url: http://24ways.org/2011/collaborative-development-for-a-responsively-designed-web
+
+- title: 'Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth'
+  publication: 'Disertation paper for BA(Hons) Graphic Design'
+  date: '2002-06-01'
+  url: /articles/dissertation/
+
+- title: 'FC/plc'
+  publication: 'Research paper for BA(Hons) Graphic Design'
+  date: '2002-05-01'
+  url: /articles/fcplc
+
+- title: 'The World Wide Web: A New Medium for Design'
+  publication: 'Essay for BA(Hons) Graphic Design'
+  date: '2001-06-01'
+  url: /articles/a_new_medium_for_design
+
+- title: 'Brand New Britain'
+  publication: 'Essay for BA(Hons) Graphic Design' 
+  date: '2000-05-01'
+  url: /articles/britain_rebranded
+
+- title: 'Beige to Bondi-Blue'
+  publication: 'Essay for BA(Hons) Graphic Design'
+  date: '2000-04-01'
+  url: /articles/biege_to_bondiblue
+
+- title: 'Early Graphic Design in Television'
+  publication: 'Essay for BA(Hons) Graphic Design'
+  date: '1999-03-01'
+  url: /articles/early_graphic_design_in_television/

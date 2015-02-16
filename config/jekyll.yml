@@ -6,7 +6,7 @@ author:
   name: Paul Robert Lloyd
   url: http://paulrobertlloyd.com
   email: noreply@paulrobertlloyd.com
-  twitter: "@paulrobertlloyd"
+  handle: "paulrobertlloyd"
 
 # License
 license:
@@ -21,7 +21,6 @@ scm:
 
 # Permalinks
 permalink: /:year/:month/:title.html
-slugify_character: _
 
 # Pagination
 paginate: 12

@@ -3,7 +3,7 @@ layout: page
 title: 'Updating the Brands'
 series: Dissertation
 date: '2002-06-01'
-permalink: /essays/dissertation/updating_the_brands.html
+permalink: /articles/dissertation/updating_the_brands.html
 ---
 ## Channel 4
 
