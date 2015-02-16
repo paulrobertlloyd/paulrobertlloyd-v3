@@ -3,7 +3,7 @@ layout: page
 title: Branding ITV & BBC
 series: Dissertation
 date: '2002-06-01'
-permalink: /essays/dissertation/branding_itv_bbc.html
+permalink: /articles/dissertation/branding_itv_bbc.html
 ---
 As in other areas of contemporary marketing, the idea of "the brand" replaced older models of production and sales. Television companies saw a key role in the development of brands as having identities that were different to competitors which could be recognised and valued by their target audiences.
 

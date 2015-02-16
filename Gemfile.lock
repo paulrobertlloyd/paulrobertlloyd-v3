@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 249249f76b0bcfd9cdb4b12b10a5030ef4fcd5e1
+  revision: fa6981fb8c09cbf64107cb936d7aab40a52a24a7
   specs:
     jekyll (3.0.0.pre.beta1)
       colorator (~> 0.1)
@@ -96,7 +96,7 @@ GEM
       guard (~> 2.10, >= 2.10.3)
       guard-compat (~> 1.1)
       jekyll (>= 1.0.0)
-    guard-jshintrb (1.1.0)
+    guard-jshintrb (1.1.1)
       guard (~> 2.0)
       jshintrb
     guard-livereload (2.4.0)
@@ -172,7 +172,7 @@ GEM
     rouge (1.8.0)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
-    sass (3.4.11)
+    sass (3.4.12)
     scss-lint (0.30.0)
       rainbow (~> 2.0)
       sass (~> 3.4.0)

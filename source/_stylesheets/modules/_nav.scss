@@ -36,27 +36,12 @@
             }
 
             &:first-of-type {
-                margin-left: span(2 of 8 wide);
+                margin-left: span(4 of 8 wide);
             }
 
             &:last-of-type {
                 @include last;
             }
-        }
-    }
-}
-
-
-/* Secondary navigation */
-.nav--secondary {
-    @include fs--english;
-    @include clearfix; 
-
-    .nav__item {
-        @include span(1 of 3);
-
-        &:nth-child(3n) {
-            @include last;
         }
     }
 }

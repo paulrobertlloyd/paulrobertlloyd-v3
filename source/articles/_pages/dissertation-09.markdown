@@ -3,7 +3,7 @@ layout: page
 title: News Presentation in 1990
 series: Dissertation
 date: '2002-06-01'
-permalink: /essays/dissertation/news_presentation_in_1990.html
+permalink: /articles/dissertation/news_presentation_in_1990.html
 ---
 The computer techniques introduced during the eighties also made a strong impact on the graphics used within televised news.
 

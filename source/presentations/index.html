@@ -1,0 +1,24 @@
+---
+layout: index
+title: Presentations
+---
+{% for presentation in site.data.presentations %}
+    {% capture this_year %}{{ presentation.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ presentation.previous.date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+    <section class="section section--month" aria-labelledby="month-{{ this_year }}">
+        <h1 class="section__title" id="month-{{ this_year }}">{{ this_year }}</h1>
+        <ol class="list" reversed>
+    {% endif %}
+            <li class="list__item">
+                <article class="summary summary--presentation">
+                    <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title | smart }}</a></h1>
+                    <p class="summary__meta">{{ presentation.location }}, <time datetime="{{ presentation.date | date_to_xmlschema }}">{{ presentation.date | date: "%B %Y" }}</time></p>
+                </article>
+            </li>
+    {% if forloop.last %}
+        </ol>
+    </section>
+    {% endif %}
+{% endfor %}
