@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-<div class="page page--index">
-    {% include html/structure/page__header.html %}
+<div class="index index--{{ page.title | lowercase }}">
+    <header class="index__header">
+        <h1 class="index__title">{% include html/structure/title.html %}</h1>
+    </header>
 
-    <div class="page__main">
+    <div class="index__main">
         {{ content }}
     </div>
 </div>

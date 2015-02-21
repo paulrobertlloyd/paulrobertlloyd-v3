@@ -48,12 +48,12 @@
 @import 'structure/contentinfo';
 @import 'structure/main';
 @import 'structure/navigation';
-@import 'structure/page';
 
 // Pages
-@import 'pages/album';
-@import 'pages/entry';
-@import 'pages/link';
+@import 'pages/page--link';
+@import 'pages/page--album';
+@import 'pages/page--entry';
+@import 'pages/index';
 
 // Themes
 @import 'themes/dark';
