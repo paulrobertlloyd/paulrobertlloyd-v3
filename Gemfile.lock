@@ -1,13 +1,13 @@
 GIT
   remote: git://github.com/jekyll/jekyll-archives.git
-  revision: 4a3bfdbd0935b7aaf4ad58d37799b814e7973691
+  revision: 73e5197f710bf59321e2dfcd2d24c51a49ce4b0c
   specs:
     jekyll-archives (2.0.0)
       jekyll (>= 2.4)
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: fa6981fb8c09cbf64107cb936d7aab40a52a24a7
+  revision: e240bbb1bf6743a35476157605fe96496e55b529
   specs:
     jekyll (3.0.0.pre.beta1)
       colorator (~> 0.1)
@@ -82,7 +82,7 @@ GEM
       json
     ffi (1.9.6)
     formatador (0.2.5)
-    guard (2.12.1)
+    guard (2.12.3)
       formatador (>= 0.2.4)
       listen (~> 2.7)
       lumberjack (~> 1.0)
@@ -145,7 +145,7 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
-    mini_magick (4.0.4)
+    mini_magick (4.1.0)
     multi_css (0.1.0)
       css_press
     multi_js (0.1.0)
@@ -155,7 +155,7 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
-    notiffany (0.0.5)
+    notiffany (0.0.6)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pry (0.10.1)
