@@ -4,20 +4,15 @@
 
 .section {
     margin-bottom: ($u__baseline * 2);
-
-    a,
-    a:hover,
-    a:active {
-        // Override .prose > * a
-        background-image: none;
-        text-shadow: none;
-    }
+    overflow: hidden;
 }
 
 .section__title {
-    @include ff--sans-serif(600);
-    @include fs--paragon;
+    @include fs--double-pica;
     margin-bottom: ($u__baseline / 2);
+    font-weight: 700;
+    word-break: break-word;
+    hyphens: auto;
 
     .section--is-expandable & {
         display: inline-block;
@@ -37,4 +32,18 @@
     float: none;
     margin-right: -(span(1 wider));
     margin-left: -(span(1 wider));
+}
+
+.section--hello {
+    .section__title::after {
+        content: ',';
+    }
+}
+
+.section--pitch {
+    @include span(5);
+}
+
+.section--extra {
+    @include span(3 last);
 }

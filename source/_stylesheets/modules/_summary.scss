@@ -3,30 +3,32 @@
     ========================================================================= */
 
 .summary {
+    display: flex;
     margin-bottom: $u__baseline;
+    flex-direction: column;
 
     @include susy-breakpoint(b__a) {
         position: relative;
     }
 }
 
+.summary__header {
+    order: 1;
+}
+
 .summary__footer {
-    @include susy-breakpoint(b__a) {
-        @include span(1 wider);
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-left: -(span(1 wider));
-    }
+    order: 2;
+}
+
+.summary__main {
+    order: 3;
 }
 
 .summary__title {
-    @include ff--sans-serif(600);
-    @include fs--great-primer;
+    @include fs--paragon;
+    font-weight: 700;
 
     .summary--related &,
-    .summary--article &,
-    .summary--presentation &,
     .summary--project & {
         @include rule(before, $c__accent);
     }
@@ -36,28 +38,27 @@
     display: block;
 }
 
-.summary__pubdate,
-.summary__meta {
+.summary__pubdate {
     @include caption;
 }
 
 /* Entry summary */
 .summary--entry {
-    margin-bottom: (4 * $u__baseline);
+//    margin-bottom: (4 * $u__baseline);
 
-    .summary__title {
-        @include fs--canon;
-        margin-bottom: $u__baseline;
-    }
+//    .summary__title {
+//        @include fs--canon;
+//        margin-bottom: $u__baseline;
+//    }
 }
 
 /* Link summary */
 .summary--link {
-    margin-bottom: (2 * $u__baseline);
+//    margin-bottom: (2 * $u__baseline);
 
-    .summary__title {
-        margin-bottom: ($u__baseline / 5);
-    }
+//    .summary__title {
+//        margin-bottom: ($u__baseline / 5);
+//    }
 
     .summary__link::after {
         content: ' \2192';

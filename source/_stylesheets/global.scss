@@ -24,7 +24,6 @@
 @import 'utilities/button';
 @import 'utilities/form';
 @import 'utilities/icon';
-@import 'utilities/layout';
 @import 'utilities/list';
 @import 'utilities/prose';
 @import 'utilities/tag';
@@ -50,6 +49,7 @@
 @import 'structure/navigation';
 
 // Pages
+@import 'pages/page';
 @import 'pages/page--link';
 @import 'pages/page--album';
 @import 'pages/page--entry';

@@ -100,4 +100,4 @@ jekyll-archives:
   permalinks:
     year: /:year/
     month: /:year/:month/
-    tag: /tags/:name.html
+    tag: /topics/:name.html

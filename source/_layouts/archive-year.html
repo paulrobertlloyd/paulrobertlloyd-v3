@@ -5,29 +5,24 @@ template: archive-year
 {% for post in page.posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
-    {% capture this_month_name %}{{ post.date | date: "%B" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
-    {% capture next_month_name %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+    {% capture this_month-name %}{{ post.date | date: "%B" }}{% endcapture %}
+    {% if this_month != month %}
+        {% capture month %}{{ this_month }}{% endcapture %}
+        {% unless forloop.first %}
+                </ol>
+            </div>
+        </section>
+        {% endunless %}
 
-    {% if forloop.first %}
-    <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-        <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
-        <ol class="list" reversed>
-    {% endif %}
-            <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
-    {% if forloop.last %}
-        </ol>
-    </section>
-    {% else %}
-        {% if this_month != next_month %}
-        </ol>
-    </section>
+        <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+            <header class="section__header">
+                <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month-name }}</a></h1>
+            </header>
 
-    <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-        <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ next_month }}/">{{ next_month_name }}</a></h1>
-        <ol class="list" reversed>
-        {% endif %}
+            <div class="section__main">
+                <ol class="list list--inline list--inline--separated" reversed>
     {% endif %}
+                    <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
 {% endfor %}
 
 {% include html/forms/search.html %}

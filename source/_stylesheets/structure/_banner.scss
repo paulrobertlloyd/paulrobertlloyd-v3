@@ -3,8 +3,11 @@
     ========================================================================= */
 
 .banner {
-    .l-container {
-        border-bottom: 1px solid rgba($c__accent, 0.4);
+    border-bottom: 1px solid rgba($c__accent, 0.4);
+    height: $u__baseline * 2.5;
+
+    @include susy-breakpoint(b__a) {
+        height: ($u__baseline * 5);
     }
 }
 
