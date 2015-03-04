@@ -3,17 +3,17 @@
     ========================================================================= */
 
 .contentinfo {
-    @include fs--english;
+    @include fs--double-emerald;
     text-align: center;
+    padding: $u__baseline 0;
 }
 
 .contentinfo__legal {
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline / 2);
 
     &::before {
         display: block;
         opacity: 0.25;
-        margin-bottom: $u__baseline;
         border-top: 1px solid;
         content: '';
     }

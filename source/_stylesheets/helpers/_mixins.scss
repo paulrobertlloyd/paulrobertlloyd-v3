@@ -4,6 +4,7 @@
 
 // Clearfix
 @mixin clearfix {
+    &::before,
     &::after {
         display: table;
         clear: both;
@@ -53,6 +54,11 @@
 // Font sizes
 @mixin fs--pica($line-height: (16/12)) {
     font-size: 0.75rem; // 12px
+    line-height: $line-height; // Default: 16px
+}
+
+@mixin fs--double-emerald($line-height: (16/13)) {
+    font-size: 0.8125rem; // 13px
     line-height: $line-height; // Default: 16px
 }
 

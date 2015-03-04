@@ -29,9 +29,9 @@
 }
 
 .remark__title {
-    @include ff--sans-serif(600);
     @include fs--great-primer;
     @include rule(before, $c__accent);
+    font-weight: 700;
 }
 
 .remark__avatar {

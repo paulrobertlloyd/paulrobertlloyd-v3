@@ -4,7 +4,7 @@
 
 .nav__item {
     &.is-active {
-        font-weight: 600;
+        font-weight: 700;
     }
 }
 
@@ -13,6 +13,8 @@
 .nav--primary {
     @include clearfix;
     @include fs--english;
+    margin: 0 auto;
+    max-width: $u__max-width;
 
     @include susy-breakpoint(b__b) {
         @include fs--double-brevier;

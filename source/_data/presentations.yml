@@ -3,6 +3,15 @@
   date: '2013-09-19'
   url: http://lanyrd.com/2013/mkgeeknight/scqdzd/
 
+- title: 'Aquent Gymnasium'
+  location: 'London, England'
+  date: '2013-07-31'
+  url: http://lanyrd.com/2013/vitamintalent/scmkwq/
+  resources:
+    notes: http://paulrobertlloyd.dev/downloads/2013/07/keep_up.pdf
+    slides: https://speakerdeck.com/paulrobertlloyd/keep-up
+    transcript: /2013/08/keep_up
+
 - title: 'This is LDNIA #4'
   location: 'London, England'
   date: '2013-08-21'
@@ -42,6 +51,10 @@
   location: 'Leamington, England'
   date: '2011-08-13'
   url: http://lanyrd.com/2011/geekinthepark/sfmmy/
+  resources:
+    notes: http://paulrobertlloyd.dev/downloads/2011/08/the_web_native_designer.pdf
+    slides: http://speakerdeck.com/u/paulrobertlloyd/p/the-web-native-designer-august-2011
+    transcript: /2011/09/web_native
 
 - title: 'Oxford Geek Night 21'
   location: 'Oxford, England'
@@ -52,3 +65,16 @@
   location: 'London, England'
   date: '2011-03-08'
   url: http://lanyrd.com/2011/apa-digital-breakfast-march/scxmh/
+  resources:
+    notes: http://paulrobertlloyd.dev/downloads/2011/03/the_web_native_designer.pdf
+    slides: http://speakerdeck.com/paulrobertlloyd/the-web-native-designer-march-2011
+    transcript: /2011/03/web_native
+
+- title: 'Multipack Presents: The Design Process'
+  location: 'Birmingham, England'
+  date: '2010-11-20'
+  url: http://lanyrd.com/2010/multipack-presents-the-design-process/shmm/
+  resources:
+    notes: http://paulrobertlloyd.com/downloads/2010/11/styleguides_for_the_web.pdf
+    slides: http://speakerdeck.com/u/paulrobertlloyd/p/styleguides-for-the-web-2010
+    transcript: /2010/12/styleguides_for_the_web

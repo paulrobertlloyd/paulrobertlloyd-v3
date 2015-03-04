@@ -24,7 +24,7 @@
     border: dashed $c__neutral--8;
     border-width: 0 0 1px;
     padding: ($u__baseline / 2);
-    font-weight: 600;
+    font-weight: 700;
 
     @include susy-breakpoint(b__a) {
         bottom: 0;
@@ -64,5 +64,5 @@
 }
 
 .form__submit {
-    font-weight: 600;
+    font-weight: 700;
 }

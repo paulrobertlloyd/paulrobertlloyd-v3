@@ -39,7 +39,7 @@
 .page__title {
     @include fs--double-english;
     color: $c__accent;
-    font-weight: 600;
+    font-weight: 700;
 
     @include susy-breakpoint(b__a) {
         @include fs--canon;

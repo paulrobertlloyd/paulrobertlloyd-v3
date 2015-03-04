@@ -10,8 +10,10 @@
 }
 
 body {
+    @include container($u__max-width);
     @include ff--sans-serif;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: $c__neutral--9;
     line-height: $u__baseline-unitless;
     color: $c__neutral--1;
@@ -36,7 +38,6 @@ h3,
 h4,
 h5,
 h6 {
-    @include ff--sans-serif;
     margin: 0;
     text-rendering: optimizeLegibility;
     line-height: 1;

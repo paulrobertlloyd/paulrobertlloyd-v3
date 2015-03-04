@@ -9,6 +9,19 @@
 .list--inline {
     .list__item {
         display: inline;
+        margin-left: 0;
+    }
+}
+
+.list--inline--separated {
+    .list__item::after {
+        display: inline-block;
+        margin: 0 0.25em;
+        content: '\00B7';
+    }
+
+    .list__item:last-of-type::after {
+        content: none;
     }
 }
 

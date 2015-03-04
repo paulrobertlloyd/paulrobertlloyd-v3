@@ -8,12 +8,12 @@
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
-        @include ff--sans-serif(600);
+        @include ff--sans-serif(700);
         @include fs--paragon;
     }
 
     h3 {
-        @include ff--sans-serif(600);
+        @include ff--sans-serif(700);
         @include fs--great-primer;
     }
 
@@ -60,7 +60,7 @@
     }
 
     strong {
-        @include ff--sans-serif(600);
+        @include ff--sans-serif(700);
     }
 
     > * a {

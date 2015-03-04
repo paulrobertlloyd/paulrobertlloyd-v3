@@ -4,7 +4,7 @@ title: Editing Tips for Designers
 date: '2011-09-26 20:35:46 +0100'
 tags:
   - Cennydd Bowles
-  - Writing
+  - Editing
 link: http://cennydd.co.uk/2011/editing-tips-for-designers/
 ---
 Cennydd Bowles:

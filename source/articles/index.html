@@ -1,24 +1,38 @@
 ---
-layout: index
+layout: default
 title: Articles
 ---
-{% for article in site.data.articles %}
-    {% capture this_year %}{{ article.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ article.previous.date | date: "%Y" }}{% endcapture %}
+<div class="index index--articles">
+    <header class="index__header">
+        <h1 class="index__title">Articles</h1>
+        <p>See also: <a class="tag" href="/topics/writing/">Writing</a></p>
+    </header>
 
-    {% if forloop.first %}
-    <section class="section section--month" aria-labelledby="month-{{ this_year }}">
-        <h1 class="section__title" id="month-{{ this_year }}">{{ this_year }}</h1>
-        <ol class="list" reversed>
+    <div class="index__main">
+{% for article in site.data.articles %}
+    {% capture this_year %}{{ article.date | date: '%Y' }}{% endcapture %}
+    {% if this_year != year %}
+        {% capture year %}{{ this_year }}{% endcapture %}
+        {% unless forloop.first %}
+                </ol>
+            </div>
+        </section>
+        {% endunless %}
+
+        <section class="section section--year" aria-labelledby="year-{{ this_year }}">
+            <header class="section__header">
+                <h1 class="section__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+            </header>
+
+            <div class="section__main">
+                <ol class="list" reversed>
     {% endif %}
-            <li class="list__item">
-                <article class="summary summary--article">
-                    <h1 class="summary__title"><a href="{{ article.url }}">{{ article.title | smart }}</a></h1>
-                    <p class="summary__meta">{{ article.publication }}, <time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%Y" }}</time></p>
-                </article>
-            </li>
-    {% if forloop.last %}
-        </ol>
-    </section>
-    {% endif %}
+                    <li class="list__item">
+                        <article class="summary summary--article">
+                            <h1 class="summary__title"><a href="{{ article.url }}">{{ article.title | smart }}</a></h1>
+                            <p class="summary__meta">{{ article.publication }}, <time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: '%B %Y' }}</time></p>
+                        </article>
+                    </li>
 {% endfor %}
+    </div>
+</div>
