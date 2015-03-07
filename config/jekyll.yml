@@ -41,8 +41,8 @@ assets:
 
 # Images
 picture:
-  source: assets/images
-  output: images
+  source: _assets/images
+  output: assets/images
   markup: img
   presets:
     default:
