@@ -22,7 +22,7 @@ template: archive-year
             <div class="section__main">
                 <ol class="list list--inline list--inline--separated" reversed>
     {% endif %}
-                    <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></li>
+                    <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
 {% include html/forms/search.html %}

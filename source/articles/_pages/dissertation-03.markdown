@@ -3,7 +3,7 @@ layout: page
 title: Early Graphic Design in Television
 series: Dissertation
 date: '2002-06-01'
-permalink: /articles/dissertation/early_graphic_design_in_television.html
+permalink: /articles/dissertation/early_graphic_design_in_television
 ---
 Television in the United Kingdom for a large part of its history consisted of three channels run by two networks -- the BBC (British Broadcasting Corporation) and ITV (Independent Television). The BBC was the world's first television service dating as far back as 1936 -- a public service paid for by a licence fee. ITV followed in 1955 with a network of regional television companies that unlike the BBC was a commercial service supported by advertising.
 

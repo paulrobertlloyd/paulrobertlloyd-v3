@@ -3,7 +3,7 @@ layout: project
 title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
-permalink: /projects/dconstruct.html
+permalink: /projects/dconstruct
 hidden: true
 project_info:
   client: Clearleft

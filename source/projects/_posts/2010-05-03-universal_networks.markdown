@@ -3,7 +3,7 @@ layout: project
 title: Universal Networks
 date: '2010-05-03'
 excerpt: Design for NBCUniversal's international channel portfolio.
-permalink: /projects/universal_networks.html
+permalink: /projects/universal_networks
 hidden: true
 project_info:
   client: NBCUniversal

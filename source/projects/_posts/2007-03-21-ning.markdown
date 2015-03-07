@@ -3,7 +3,7 @@ layout: project
 title: Ning
 date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
-permalink: /projects/ning.html
+permalink: /projects/ning
 hidden: true
 project_info:
   client: Ning

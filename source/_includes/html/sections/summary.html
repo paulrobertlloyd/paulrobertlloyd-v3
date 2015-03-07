@@ -2,9 +2,9 @@
     <header class="summary__header">
         <h1 class="summary__title  p-name">
             {% if summary.layout == "link" %}
-                <a class="summary__link" href="{{ summary.link | remove:'.html' }}">{{ summary.title | smart }}</a>
+                <a class="summary__link" href="{{ summary.link }}">{{ summary.title | smart }}</a>
             {% else %}
-                <a class="summary__link" href="{{ summary.url | remove:'.html' }}">{{ summary.title | smart }}</a>
+                <a class="summary__link" href="{{ summary.url }}">{{ summary.title | smart }}</a>
             {% endif %}
         </h1>
     </header>
@@ -24,7 +24,7 @@
     </div>
 
     <footer class="summary__footer">
-        <a class="summary__permalink  u-url" href="{{ summary.url | remove:'.html' }}" rel="bookmark">
+        <a class="summary__permalink  u-url" href="{{ summary.url }}" rel="bookmark">
             <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%B %Y" }}</time>
         </a>
     </footer>

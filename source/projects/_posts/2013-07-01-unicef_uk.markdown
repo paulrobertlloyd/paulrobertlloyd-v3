@@ -3,7 +3,7 @@ layout: project
 title: UNICEF UK
 date: '2013-07-01'
 excerpt: Mobile-first redesign for charity that raises funds to protect children's rights worldwide.
-permalink: /projects/unicef_uk.html
+permalink: /projects/unicef_uk
 hidden: true
 project_featured: true
 project_info:

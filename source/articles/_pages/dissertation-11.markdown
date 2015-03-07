@@ -3,7 +3,7 @@ layout: page
 title: Conclusion
 series: Dissertation
 date: '2002-06-01'
-permalink: /articles/dissertation/conclusion.html
+permalink: /articles/dissertation/conclusion
 ---
 The introduction of multi-channel television at the beginning of the nineties saw a distinct visual change from that of individualism and variation across channels and networks, to conformity and consistency through the use of branding. Although Channel 4 had realised the power of a brand as means of creating effective competition, it wasn't until the launch of both satellite and cable television services that both the BBC and ITV saw the benefits that recognisable brands could bring.
 
