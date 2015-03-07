@@ -2,17 +2,19 @@
 layout: default
 ---
 <article class="page page--album  h-entry">
-    {% include html/structure/page__header.html %}
+    <header class="page__header">
+        <h1 class="page__title  p-name">{{ page.title }}</h1>
+    </header>
 
     <div class="page__main">
         <div class="prose  e-content">
             {{ content | typogrify }}
 
-            {% capture album_path %}{{ page.path | replace: 'photos/_posts/','assets/images/photos/' | remove: '.markdown' }}{% endcapture %}
+            {% capture album_path %}{{ page.path | replace: 'photos/_posts/','_assets/images/photos/' | remove: '.markdown' }}{% endcapture %}
             {% directory path: album_path %}
             <figure class="figure figure--caption-right l-extend">
                 <p class="figure__main">
-                    {% picture {{ file.url | remove: 'assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
+                    {% picture {{ file.url | remove: '_assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
                 {% include html/content/exif-info.html %}
             </figure>
@@ -26,9 +28,14 @@ layout: default
         {% if page.series %}
             {% include html/nav/series.html %}
         {% endif %}
+
+        {% include html/nav/entries.html %}
     </div>
 
-    {% include html/structure/page__footer.html %}
+    <footer class="page__footer">
+        <span class="audible">Published on</span>
+        <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%e %B %Y" }}
+        </time>
+    </footer>
 </article>
-
-{% include html/nav/entries.html %}

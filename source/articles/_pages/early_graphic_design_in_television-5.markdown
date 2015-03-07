@@ -18,7 +18,7 @@ ITN led the way in 1959, with the introduction of the 'Swingometer' and introduc
 Engineers at ITN, later designed their own system, the VT80 which helped to greatly improve the appearance of the on-screen graphics during the 1980  American elections. It was these advances that made the BBC realise how far behind it was in its use of computer technology. The need for this increased investment was made more apparent with the soon to be launched early morning service <cite>Breakfast Time</cite> in January 1982 (a result of the expansion of television broadcasting laws -- ITV launched its own service, TVam in the February of that year). It was only then that the BBC employed a further 20 designers and invested in the much needed computer hardware and software.
 
 {% figure l-align-left "Figure 14: A film rostrum camera. Computer controlled rostrum cameras were introduced around the late 1970's" %}
-![A film rostrum camera](/assets/images/essays/early_graphic_design_in_television/figure-14.jpg)
+{% picture supporting /articles/early_graphic_design_in_television/figure-14.jpg %}
 {% endfigure %}
 
 The computers use throughout the rest of television graphics has followed a path of ever-increased usage -- from its control of the rostrum camera, to being able to generate images for on-screen. Before computers, the film rostrum camera was used in many areas of television graphics. The rostrum camera is a vertically mounted camera that is able move up and down above a bench on which the artwork is placed, and it is the bench that is able to produce the majority of the movement. Used mostly in the filming of animated title sequences, it was also used for the filming compilations of stills (be them photographs, paintings or prepared artwork) and shooting cells or drawings a frame at a time ready for animation.
@@ -28,21 +28,21 @@ In 1958, the BBC adapted the film rostrum camera so that it was able to record s
 As for lettering this became easier and less time consuming than the original hand drawn methods, first of with the Masseeley hot press printing machine in 1955, and then with 'Letraset' four years later, before character generators began to take over in 1969. Television graphics have reached a point now in which the vast majority in all aspects of graphic design is created on computer, and is becoming increasingly more integrated.
 
 {% figure figure--image-quintet "Figure 15: Yorkshire Television ident <cite>Liquid Gold</cite> (Yorkshire Television 1986. Designed by Jeff Parr)" %}
-![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15a.png)
-![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15b.png)
-![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15c.png)
-![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15d.png)
-![Gold Chevron ident for Yorkshire Television](/assets/images/essays/early_graphic_design_in_television/figure-15e.png)
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-15a.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-15b.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-15c.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-15d.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-15e.png alt="Still from ident" %}
 {% endfigure %}
 
 However it was the eighties in which the computers use was more obvious to the viewer due to the fact that it had reached a stage in which it could be successfully used to create title-sequences or station indents and present graphical information. Green monitor output and wireframe graphics were fashionable at the start of the decade for use in station or programme promotions. As the technology improved, and greater effects could be achieved, so the fashion changed, meaning that during the mid to late eighties 3D animated computer graphics (usually with metallic or chrome rendering) were more commonly used.
 
 {% figure figure--image-quintet "Figure 16: Title sequence from <cite>Ghosts in the Machine II</cite> (Channel Four 1988. Designed by Richard Markell)" %}
-![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16a.png)
-![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16b.png)
-![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16c.png)
-![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16d.png)
-![Still from 'Ghosts in the Machine' opening sequence](/assets/images/essays/early_graphic_design_in_television/figure-16e.png)
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-16a.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-16b.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-16c.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-16d.png alt="Still from ident" %}
+{% picture thumbnail /articles/early_graphic_design_in_television/figure-16e.png alt="Still from ident" %}
 {% endfigure %}
 
 As for programme titles, they all seemed to embrace colour in a way that was not seen during the previous decade with the influence from Channel Four's identity on graphic designers particularly evident at this time. Using a similar palette to that of new channels identity, designers and often mixed photographs with illustrations which were usually very stylistic and sometimes of a cartoon nature. It also saw a return of the familiar black background in titles -- last seen in the fifties -- and on most occasions, titles ended with a simple title on black.

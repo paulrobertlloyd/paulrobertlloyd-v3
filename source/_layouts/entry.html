@@ -2,7 +2,9 @@
 layout: default
 ---
 <article class="page page--entry  h-entry">
-    {% include html/structure/page__header.html %}
+    <header class="page__header">
+        <h1 class="page__title  p-name">{{ page.title }}</h1>
+    </header>
 
     <div class="page__main">
         <div class="prose  e-content">
@@ -30,5 +32,19 @@ layout: default
         {% include html/nav/entries.html %}
     </div>
 
-    {% include html/structure/page__footer.html %}
+    <footer class="page__footer">
+        <span class="audible">Published on</span>
+        <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%e %B %Y" }}
+        </time>
+
+        {% if page.location %}
+        <span class="audible">in</span>
+        {% assign post_location = page.location | split: ", " %}
+        <span class="page__location  p-location h-adr">
+            <span class="p-locality">{{ post_location[0] }}</span>,
+            <span class="p-country-name">{{ post_location[1] }}</span>
+        </span>
+        {% endif %}
+    </footer>
 </article>
