@@ -6,17 +6,11 @@
     @include fs--double-emerald;
     padding: $u__baseline 0;
     text-align: center;
+    border-top: 1px solid $c__neutral--5;
 }
 
 .contentinfo__legal {
     margin-bottom: ($u__baseline / 2);
-
-    &::before {
-        display: block;
-        opacity: 0.25;
-        border-top: 1px solid;
-        content: '';
-    }
 
     a {
         color: inherit;
