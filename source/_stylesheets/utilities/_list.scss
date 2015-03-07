@@ -82,7 +82,7 @@
 .list--projects {
     .list__item {
         @include susy-breakpoint(b__a) {
-            min-height: $u__baseline*6;
+            min-height: ($u__baseline * 6);
         }
     }
 }

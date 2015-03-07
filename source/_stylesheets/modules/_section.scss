@@ -8,6 +8,7 @@
 }
 
 .section__title {
+    @include ff--sans-serif;
     @include fs--double-pica;
     margin-bottom: ($u__baseline / 2);
     font-weight: 700;
