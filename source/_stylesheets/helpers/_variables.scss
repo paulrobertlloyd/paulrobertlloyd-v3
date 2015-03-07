@@ -4,7 +4,7 @@
 
 // Units
 $u__font-size: (16/16)*100%;
-$u__baseline-unitless: 20/(16*($u__font-size/100%));
+$u__baseline-unitless: 16/(16*($u__font-size/100%));
 $u__baseline: $u__baseline-unitless * 1rem;
 $u__max-width: 57.5em;
 $u__gutter: 1.25rem; // TODO: Deprecate this

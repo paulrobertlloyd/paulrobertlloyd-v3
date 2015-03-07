@@ -4,7 +4,7 @@
 
 .prose {
     @include ff--serif;
-    line-height: 1.5;
+    line-height: ($u__baseline-unitless * 1.5);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
@@ -19,7 +19,7 @@
 
     * + h2,
     * + h3 {
-        margin-top: $u__baseline*2;
+        margin-top: $u__baseline;
     }
 
     h4 {
@@ -34,7 +34,7 @@
     ol,
     dl,
     .embed {
-        margin-bottom: $u__baseline/2;
+        margin-bottom: ($u__baseline / 2);
     }
 
     > pre,

@@ -10,6 +10,7 @@ end
 # Guard (automates development tasks)
 group :development do
   gem 'guard'
+  gem 'guard-jekyll'
   gem 'guard-jekyll-plus'
   gem 'guard-jshintrb'
   gem 'guard-livereload'
