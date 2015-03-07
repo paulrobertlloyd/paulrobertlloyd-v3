@@ -1,12 +1,7 @@
-{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-{% capture category %}{{ page.categories | first }}{% endcapture %}
-
+{% capture location %}{{ page.path | split:'/' | first }}{% endcapture %}
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-    {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
-    <link rel="dns-prefetch" href="//hello.myfonts.net"/>
-
     <script>
         document.documentElement.className += 'js';
 
@@ -14,16 +9,14 @@
         if (enhanced) {
             document.documentElement.className += ' js-enhanced';
         }
-
-        if(document.implementation.hasFeature('http://www.w3.org/TR/SVG11/feature#BasicStructure', '1.1')) {
-            document.documentElement.className += ' svg';
-        }
     </script>
 
-    <link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>
-    <link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>
-    <link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>
-    <link rel="canonical" href="{{ page.url }}"/>
+    <link rel="dns-prefetch" href="//hello.myfonts.net"/>
+    {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
+    {% if location == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
+    {% if location == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
+    {% if location == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
+    {% if location != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
 
     {% stylesheet global %}
 
@@ -34,29 +27,24 @@
 {% endif %}
 
     <meta charset="utf-8"/>
-    <meta name="referrer" content="origin"/>
     <meta name="author" content="{{ site.author.name }}"/>
+    <meta name="referrer" content="origin"/>
     <meta name="robots" content="index, follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta name="geo.placename" content="Brighton"/>
-    <meta name="geo.region" content="gb-bnh"/>
-    <meta name="geo.country" content="gb"/>
-    <meta name="geo.position" content="50.8420;-0.1539"/>
-
-{% if category == 'journal' or category == 'projects' %}
-    <meta name="twitter:site" content="{{ site.author.twitter }}"/>
+{% if page.path contains '_posts' %}
+    <meta name="twitter:site" content="{{ site.author.handle }}"/>
+    <meta name="twitter:creator" content="{{ site.author.handle }}"/>
+    <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
-    <meta name="twitter:creator" content="{{ site.author.twitter }}"/>
     {% if page.image %}<meta name="twitter:image" content="{{ site.img_url }}/assets/images{{ page.image.url }}"/>{% endif %}
-    <meta name="twitter:card" content="summary"/>
 {% endif %}
 
     <title>{% include html/structure/title.html %} / {{ site.title }}</title>
 </head>
 
-<body{% if location == 'photos' or category == 'photos' %} class="theme--dark"{% endif %} id="top">
+<body id="top">
     {% include html/structure/banner.html %}
     {% include html/structure/main.html %}
     {% include html/structure/navigation.html %}
