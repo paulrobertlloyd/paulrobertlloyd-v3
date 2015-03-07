@@ -13,7 +13,7 @@
     <ol class="nav nav--series">
     {% for item in series offset:1 %}
         <li class="nav__item{% if page.url == item.url %} is-active{% endif %}">
-            <a class="nav__item__label" href="{{ item.url | remove:'.html' }}">{{ item.title }}</a>
+            <a class="nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
         </li>
     {% endfor %}
     </ol>

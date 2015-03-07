@@ -3,7 +3,7 @@ layout: page
 title: Branding News
 series: Dissertation
 date: '2002-06-01'
-permalink: /articles/dissertation/branding_news.html
+permalink: /articles/dissertation/branding_news
 ---
 Although all the BBC's news programmes contained similar elements and musical scores, there was no consistent branding across the programmes. With each having its own editorial staff and defined 'personalities' meant graphics were drawn many times over, following different styles and conventions used for each bulletin. As a measure of cost cutting, as well as the benefits of a single united brand, all news output was unified in 1994.
 

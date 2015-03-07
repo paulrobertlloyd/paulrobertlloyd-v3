@@ -3,7 +3,7 @@ layout: project
 title: Groopix
 date: '2008-08-22'
 excerpt: A tool for curating and printing group-based photo albums.
-permalink: /projects/groopix.html
+permalink: /projects/groopix
 hidden: true
 project_info:
   client: Steve Douty

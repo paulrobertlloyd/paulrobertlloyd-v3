@@ -1,7 +1,7 @@
 <article class="summary summary--{% if summary.project_featured %}featured-{% endif %}project  h-entry">
     <header class="summary__header">
         <h1 class="summary__title  p-name">
-            <a class="summary__link" href="{{ summary.url | remove:'.html' }}" rel="bookmark">
+            <a class="summary__link" href="{{ summary.url }}" rel="bookmark">
                 {% if summary.project_featured %}
                 <div class="summary__image summary__image--{{ summary.title | slugify | replace: '_','-' }}">
                     {% include svg/logo--{{ summary.title | slugify | replace: '_','-' }}.svg %}

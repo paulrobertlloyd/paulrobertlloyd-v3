@@ -3,7 +3,7 @@ layout: page
 title: The Launch of Channel 4
 series: Dissertation
 date: '2002-06-01'
-permalink: /articles/dissertation/the_launch_of_channel_4.html
+permalink: /articles/dissertation/the_launch_of_channel_4
 ---
 The launch of Channel 4 in 1982 saw the first new television channel since BBC2, and heralded in a whole new era of television. Channel 4 was to be a channel aimed towards minority and neglected interests, would take risks and unlike the other channels at that time, was to commission programmes from independent programme makers -- acting more like a publisher than a broadcaster.
 

@@ -3,7 +3,7 @@ layout: project
 title: Universal Playback
 date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.
-permalink: /projects/universal_playback.html
+permalink: /projects/universal_playback
 hidden: true
 project_info:
   client: NBCUniversal
