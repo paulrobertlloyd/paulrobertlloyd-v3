@@ -54,7 +54,7 @@
 
 /* Link summary */
 .summary--link {
-//    margin-bottom: (2 * $u__baseline);
+//    margin-bottom: ($u__baseline * 2);
 
 //    .summary__title {
 //        margin-bottom: ($u__baseline / 5);
@@ -69,7 +69,7 @@
 .summary--featured-project {
     .summary__image {
         position: relative;
-        margin-bottom: $u__baseline/2;
+        margin-bottom: ($u__baseline / 2);
         background-color: $c__neutral--4;
         padding-bottom: 68%;
         height: 0;

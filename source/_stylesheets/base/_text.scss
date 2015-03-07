@@ -59,9 +59,9 @@ sup {
 }
 
 sub {
-    bottom: -($u__baseline / 5);
+    bottom: ($u__baseline / -5);
 }
 
 sup {
-    top: -($u__baseline / 2);
+    top: ($u__baseline / -2);
 }
