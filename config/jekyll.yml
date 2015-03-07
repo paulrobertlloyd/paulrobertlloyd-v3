@@ -20,7 +20,7 @@ scm:
   url: https://github.com/paulrobertlloyd/paulrobertlloyd.com
 
 # Permalinks
-permalink: /:year/:month/:title.html
+permalink: /:year/:month/:title
 
 # Pagination
 paginate: 12
