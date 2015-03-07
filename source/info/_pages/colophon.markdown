@@ -2,7 +2,7 @@
 layout: page
 title: Colophon
 excerpt: This site is built using a variety of third-party tools and services.
-permalink: /colophon
+permalink: /info/colophon
 ---
 This website is produced on an Apple [iMac][1], using [OmniGraffle][2] and [Sketch][3] to realise early design concepts before being marked up as HTML in [TextMate][4]. I use and recommend [WebFaction][5] for web hosting. Type set in [FONT][6] and served via [FONT SERVICE][7].
 

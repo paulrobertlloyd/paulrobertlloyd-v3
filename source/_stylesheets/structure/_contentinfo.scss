@@ -4,9 +4,9 @@
 
 .contentinfo {
     @include fs--double-emerald;
+    border-top: 1px solid $c__neutral--5;
     padding: $u__baseline 0;
     text-align: center;
-    border-top: 1px solid $c__neutral--5;
 }
 
 .contentinfo__legal {
