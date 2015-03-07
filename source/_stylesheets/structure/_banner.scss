@@ -3,32 +3,32 @@
     ========================================================================= */
 
 .banner {
-    border-bottom: 1px solid rgba($c__accent, 0.4);
-    height: $u__baseline * 2.5;
-
-    @include susy-breakpoint(b__a) {
-        height: ($u__baseline * 5);
-    }
-}
-
-.banner__title {
-    position: relative;
-    z-index: 2;
+    margin-bottom: ($u__baseline * 5);
+    overflow: hidden;
     text-align: center;
-    line-height: 0.1;
 
     @include susy-breakpoint(b__a) {
         text-align: left;
     }
 }
 
-.banner__logo {
-    width: ($u__baseline * 2);
-    height: ($u__baseline * 2);
-    fill: $c__accent;
+.banner__home {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    line-height: 0.1;
 
     @include susy-breakpoint(b__a) {
         @include span(1 of 8);
+    }
+}
+
+.banner__logo {
+    width: ($u__baseline * 3);
+    height: ($u__baseline * 3);
+    fill: $c__accent;
+
+    @include susy-breakpoint(b__a) {
         width: ($u__baseline * 4);
         height: ($u__baseline * 4);
     }

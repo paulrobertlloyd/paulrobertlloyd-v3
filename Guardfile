@@ -1,7 +1,7 @@
 Bundler.require(:jekyll_plugins)
 
-# Jekyll https://github.com/berrberr/guard-jekyll-plus
-guard :jekyll_plus, :config => ['config/jekyll.yml', 'config/jekyll/development.yml'], :silent => false do
+# Jekyll https://github.com/imathis/guard-jekyll-plus
+guard :jekyll_plus, :config => ['config/jekyll.yml', 'config/jekyll/development.yml'] do
   watch(%r{^source/.+})
   watch('config/jekyll.yml')
   watch('config/jekyll/development.yml')
@@ -14,7 +14,7 @@ end
 
 # Sass https://github.com/hawx/guard-sass
 # Autoprefix https://github.com/ai/autoprefixer-rails
-guard :sass, :output => 'public/assets/', :syntax => :scss, :shallow => true, :silent => true do
+guard :sass, :output => 'public/assets/', :syntax => :scss, :shallow => true do
   watch(%r{^source/_stylesheets/.+\.scss})
 
   callback(:run_on_changes_end) do |_, _, files|
