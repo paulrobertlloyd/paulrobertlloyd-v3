@@ -1,14 +1,7 @@
 ---
-layout: default
+layout: index
 title: Articles
 ---
-<div class="index index--articles">
-    <header class="index__header">
-        <h1 class="index__title">Articles</h1>
-        <p>See also: <a class="tag" href="/topics/writing/">Writing</a></p>
-    </header>
-
-    <div class="index__main">
 {% for article in site.data.articles %}
     {% capture this_year %}{{ article.date | date: '%Y' }}{% endcapture %}
     {% if this_year != year %}
@@ -34,5 +27,3 @@ title: Articles
                         </article>
                     </li>
 {% endfor %}
-    </div>
-</div>
