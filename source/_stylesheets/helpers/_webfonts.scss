@@ -30,9 +30,7 @@ $myfonts-id: 2CEDF9;
     font-family: 'Charter ITC Std';
     font-weight: normal;
     font-style: normal;
-    src: url('/assets/fonts/#{$myfonts-id}_0_0.eot');
-    src: url('/assets/fonts/#{$myfonts-id}_0_0.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/#{$myfonts-id}_0_0.woff2') format('woff2'),
+    src: url('/assets/fonts/#{$myfonts-id}_0_0.woff2') format('woff2'),
         url('/assets/fonts/#{$myfonts-id}_0_0.woff') format('woff'),
         url('/assets/fonts/#{$myfonts-id}_0_0.ttf') format('truetype');
 }
@@ -41,9 +39,7 @@ $myfonts-id: 2CEDF9;
     font-family: 'Charter ITC Std';
     font-weight: normal;
     font-style: italic;
-    src: url('/assets/fonts/#{$myfonts-id}_1_0.eot');
-    src: url('/assets/fonts/#{$myfonts-id}_1_0.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/#{$myfonts-id}_1_0.woff2') format('woff2'),
+    src: url('/assets/fonts/#{$myfonts-id}_1_0.woff2') format('woff2'),
         url('/assets/fonts/#{$myfonts-id}_1_0.woff') format('woff'),
         url('/assets/fonts/#{$myfonts-id}_1_0.ttf') format('truetype');
 }
