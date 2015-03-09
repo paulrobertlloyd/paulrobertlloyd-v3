@@ -2,35 +2,21 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-    <script>
-        document.documentElement.className += 'js';
-
-        var enhanced = (document.querySelector && window.getComputedStyle && window.innerWidth);
-        if (enhanced) {
-            document.documentElement.className += ' js-enhanced';
-        }
-    </script>
-
     <link rel="dns-prefetch" href="//hello.myfonts.net"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
     {% if location == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
     {% if location == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
     {% if location == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
     {% if location != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
-
-    {% stylesheet global %}
-
-{% if page.style %}
-    <style>
-        {{ page.style }}
-    </style>
-{% endif %}
+    <link rel="shortcut icon" type="image/ico" href="assets/icons/favicon.ico"/>
+    <link rel="shortcut icon apple-touch-icon" type="image/png" href="assets/icons/apple-touch-icon.png"/>
 
     <meta charset="utf-8"/>
     <meta name="author" content="{{ site.author.name }}"/>
     <meta name="referrer" content="origin"/>
     <meta name="robots" content="index, follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="fulljs" content="{% asset_path global.js %}">
 
 {% if page.path contains '_posts' %}
     <meta name="twitter:site" content="{{ site.author.handle }}"/>
@@ -39,6 +25,18 @@
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
     {% if page.image %}<meta name="twitter:image" content="{{ site.img_url }}/assets/images{{ page.image.url }}"/>{% endif %}
+{% endif %}
+
+    <script>
+        {% include javascripts/enhance.js %}
+    </script>
+
+    {% stylesheet global %}
+
+{% if page.style %}
+    <style>
+        {{ page.style }}
+    </style>
 {% endif %}
 
     <title>{% include html/structure/title.html %} / {{ site.title }}</title>
@@ -50,9 +48,7 @@
     {% include html/structure/navigation.html %}
     {% include html/structure/contentinfo.html %}
     <script>
-        if (enhanced) {
-            document.write('<'+'script src=\"{% asset_path global.js %}\"></'+'script>');
-        }
+        {% include javascripts/fontloader.js %}
     </script>
 </body>
 </html>

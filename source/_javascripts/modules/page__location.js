@@ -1,5 +1,3 @@
-//= require shim/scopedQuerySelector
-
 (function (win, doc) {
     'use strict';
 
