@@ -36,18 +36,30 @@
 
 // Font families
 @mixin ff--serif($font-weight: 400) {
-    font-family: 'Charter ITC Std', serif;
+    font-family: serif;
     font-weight: $font-weight;
+
+    .fonts-loaded & {
+        font-family: 'Charter ITC Std', serif;
+    }
 }
 
 @mixin ff--sans-serif($font-weight: 500) {
-    font-family: 'Avenir Next', sans-serif;
+    font-family: sans-serif;
     font-weight: $font-weight;
+
+    .fonts-loaded & {
+        font-family: 'Avenir Next', sans-serif;
+    }
 }
 
 @mixin ff--monospace($font-weight: 400) {
-    font-family: 'Source Code Pro', monospace;
+    font-family: monospace;
     font-weight: $font-weight;
+
+    .fonts-loaded & {
+        font-family: 'Source Code Pro', monospace;
+    }
 }
 
 

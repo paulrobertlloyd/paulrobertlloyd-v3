@@ -1,0 +1,12 @@
+[submodule "source/_javascripts/vendor/scopedQuerySelector"]
+	path = source/_javascripts/vendor/scopedQuerySelector
+	url = https://github.com/lazd/scopedQuerySelectorShim.git
+[submodule "source/_javascripts/vendor/promis"]
+	path = source/_javascripts/vendor/promis
+	url = https://github.com/bramstein/promis.git
+[submodule "source/_javascripts/vendor/fontfaceobserver"]
+	path = source/_javascripts/vendor/fontfaceobserver
+	url = https://github.com/bramstein/fontfaceobserver.git
+[submodule "source/_javascripts/vendor/picturefill"]
+	path = source/_javascripts/vendor/picturefill
+	url = https://github.com/scottjehl/picturefill.git
