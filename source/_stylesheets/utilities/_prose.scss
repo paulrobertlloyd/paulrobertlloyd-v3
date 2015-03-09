@@ -7,6 +7,10 @@
     line-height: ($u__baseline-unitless * 1.5);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
+    @include susy-breakpoint(b__c) {
+        @include fs--great-primer($line-height: (28/18));
+    }
+
     h2 {
         @include ff--sans-serif(700);
         @include fs--paragon;
