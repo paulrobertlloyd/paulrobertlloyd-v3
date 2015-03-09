@@ -1,13 +1,5 @@
 source "https://rubygems.org"
 
-# Capistrano (automates deployment)
-group :development do
-  gem 'capistrano'
-  gem 'capistrano-rvm'
-  gem 'capistrano-bundler'
-  gem 'capistrano-git-submodule-strategy'
-end
-
 # Guard (automates development tasks)
 group :development do
   gem 'guard'
@@ -20,7 +12,7 @@ group :development do
 end
 
 # Jekyll (generates static files)
-gem 'jekyll', github: 'jekyll/jekyll'
+gem 'jekyll', '3.0.0.beta2'
 group :jekyll_plugins do
   gem 'jekyll-archives', github: 'jekyll/jekyll-archives'
   gem 'jekyll-assets'

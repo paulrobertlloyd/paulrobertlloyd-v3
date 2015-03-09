@@ -16,6 +16,7 @@
 ._*
 
 # Files to ignore
+*.jekyll-assets-cache
 *.jekyll-metadata
 *.sass-cache
 *.webmention-cache
