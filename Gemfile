@@ -5,6 +5,7 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-rvm'
   gem 'capistrano-bundler'
+  gem 'capistrano-git-submodule-strategy'
 end
 
 # Guard (automates development tasks)

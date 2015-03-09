@@ -12,7 +12,8 @@ set :deploy_to, '/home/prlloyd/webapps/paulrobertlloyd_v3'
 set :tmp_dir, "/home/prlloyd/webapps/paulrobertlloyd_v3/tmp/capistrano"
 
 # Default value for :scm is :git
-# set :scm, :git
+set :scm, :git
+set :git_strategy, Capistrano::Git::SubmoduleStrategy
 
 # Default value for :format is :pretty
 set :format, :pretty

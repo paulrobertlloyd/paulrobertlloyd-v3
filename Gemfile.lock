@@ -59,6 +59,8 @@ GEM
     capistrano-bundler (1.1.4)
       capistrano (~> 3.1)
       sshkit (~> 1.2)
+    capistrano-git-submodule-strategy (0.1.15)
+      capistrano (~> 3.1)
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
@@ -216,6 +218,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   capistrano-bundler
+  capistrano-git-submodule-strategy
   capistrano-rvm
   exiftool
   guard
