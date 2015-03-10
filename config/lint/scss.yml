@@ -1,4 +1,7 @@
-# Default application configuration that all configurations inherit from.
+exclude:
+  - '../../source/_stylesheets/vendor/**'
+  - '../../source/_javascripts/vendor/**'
+
 linters:
   Comment:
     enabled: false

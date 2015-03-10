@@ -1,6 +1,5 @@
 env: production
 url: //v3.paulrobertlloyd.com
-minify_html: false
 
 # Assets
 assets:

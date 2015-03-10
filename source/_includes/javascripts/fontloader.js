@@ -1,19 +1,25 @@
-(function( window ){
-    if( window.document.documentElement.className.indexOf( 'fonts-loaded' ) > -1 ){
+(function (win, doc) {
+    'use strict';
+
+    if (doc.documentElement.className.indexOf('fonts-loaded') > -1) {
         return;
     }
-    var fontA = new window.FontFaceObserver( 'Charter ITC Std', {
+
+    var serif400 = new win.FontFaceObserver('Charter ITC Std', {
         weight: 'normal',
         style: 'normal'
     });
-    var fontB = new window.FontFaceObserver( 'Charter ITC Std', {
+
+    var serif400i = new win.FontFaceObserver('Charter ITC Std', {
         weight: 'normal',
         style: 'italic'
     });
-    window.Promise
-        .all([fontA.check(), fontB.check()])
-        .then(function(){
-            window.document.documentElement.className += ' fonts-loaded';
-            window.enhance&&window.enhance.cookie('fonts-loaded',!0,7);
+
+    win.Promise
+        .all([serif400.check(), serif400i.check()])
+        .then(function () {
+            doc.documentElement.className += ' fonts-loaded';
+            win.enhance.cookie('fonts-loaded', !0, 7);
         });
-}( this ));
+
+}(this, this.document));
