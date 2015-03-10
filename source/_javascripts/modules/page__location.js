@@ -9,4 +9,5 @@
 
         postStart.insertBefore(postLocation, postStart.firstChild);
     }
+
 }(this, this.document));

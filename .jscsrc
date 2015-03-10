@@ -1,5 +1,5 @@
 {
-    "preset": "gooYandexgle",
+    "preset": "yandex",
     "fileExtensions": [ ".js", "jscs" ],
 
     "requireParenthesesAroundIIFE": true,

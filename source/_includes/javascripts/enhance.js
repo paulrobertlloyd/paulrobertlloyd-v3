@@ -1,23 +1,23 @@
-(function( window, undefined ) {
+(function (win, doc, undefined) {
     'use strict';
 
     var enhance = {};
 
-    function loadJS( src ){
-        var ref = window.document.getElementsByTagName( 'script' )[ 0 ];
-        var script = window.document.createElement( 'script' );
+    function loadJS(src) {
+        var ref = doc.getElementsByTagName('script')[0];
+        var script = doc.createElement('script');
         script.src = src;
         script.async = true;
-        ref.parentNode.insertBefore( script, ref );
+        ref.parentNode.insertBefore(script, ref);
         return script;
     }
     enhance.loadJS = loadJS;
 
-    function getMeta( metaname ){
-        var metas = window.document.getElementsByTagName( 'meta' );
+    function getMeta(metaname) {
+        var metas = doc.getElementsByTagName('meta');
         var meta;
-        for( var i = 0; i < metas.length; i ++ ){
-            if( metas[ i ].name && metas[ i ].name === metaname ){
+        for (var i = 0; i < metas.length; i = i + 1){
+            if (metas[i].name && metas[i].name === metaname){
                 meta = metas[ i ];
                 break;
             }
@@ -26,43 +26,42 @@
     }
     enhance.getMeta = getMeta;
 
-    function cookie( name, value, days ){
+    function cookie(name, value, days) {
         var expires;
-        if( value === undefined ){
-            var cookiestring = '; ' + window.document.cookie;
-            var cookies = cookiestring.split( '; ' + name + '=' );
-            if ( cookies.length == 2 ){
-                return cookies.pop().split( ';' ).shift();
+        if (value === undefined) {
+            var cookiestring = '; ' + doc.cookie;
+            var cookies = cookiestring.split('; ' + name + '=');
+            if (cookies.length === 2){
+                return cookies.pop().split(';').shift();
             }
             return null;
-        }
-        else {
-            if( value === false ){
+        } else {
+            if (value === false) {
                 days = -1;
             }
-            if ( days ) {
+            if (days) {
                 var date = new Date();
-                date.setTime( date.getTime() + ( days * 24 * 60 * 60 * 1000 ) );
-                expires = '; expires='+date.toGMTString();
-            }
-            else {
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = '; expires=' + date.toGMTString();
+            } else {
                 expires = '';
             }
-            window.document.cookie = name + '=' + value + expires + '; path=/';
+            doc.cookie = name + '=' + value + expires + '; path=/';
         }
     }
     enhance.cookie = cookie;
 
-    if( !( 'querySelector' in window.document ) ){
+    if (!(doc.querySelector && win.innerWidth)) {
         return;
     }
 
-    window.document.documentElement.className += ' js-enhanced';
+    doc.documentElement.className += ' js-enhanced';
 
-    var fullJS = getMeta( 'fulljs' );
-    if( fullJS ){
-        loadJS( fullJS.content );
+    var fullJS = getMeta('fulljs');
+    if (fullJS){
+        loadJS(fullJS.content);
     }
 
-    window.enhance = enhance;
-}( this ));
+    win.enhance = enhance;
+
+}(this, this.document));
