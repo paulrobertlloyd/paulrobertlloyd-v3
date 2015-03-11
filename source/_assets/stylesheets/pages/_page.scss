@@ -1,0 +1,59 @@
+/*  =========================================================================
+    Page
+    ========================================================================= */
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin page-container {
+    padding-right: gutter();
+    padding-left: gutter();
+
+    @include susy-breakpoint(b__a) {
+        padding-right: span(1 wide);
+        padding-left: span(1 wide);
+    }
+}
+
+.page__header {
+    @include page-container;
+    padding-bottom: 8%;
+    order: 1;
+}
+
+.page__main {
+    @include page-container;
+    order: 3;
+}
+
+.page__footer {
+    @include page-container;
+    margin-top: -8%;
+    margin-bottom: 8%;
+    order: 2;
+}
+
+.page__title {
+    @include fs--double-english;
+    color: $c__accent;
+    font-weight: 700;
+
+    @include susy-breakpoint(b__a) {
+        @include fs--canon;
+    }
+}
+
+.page__location {
+    @include fs--english;
+    @include ff--sans-serif;
+    @include c2sc;
+    text-transform: uppercase;
+    letter-spacing: 0.03125rem; // 0.5px
+    color: $c__neutral--2;
+}
+
+.page__pubdate {
+    @include caption;
+}

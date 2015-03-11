@@ -1,0 +1,19 @@
+/*  =========================================================================
+    Edits
+    http://developers.whatwg.org/edits.html
+    ========================================================================= */
+
+mark,
+ins {
+    padding: 0 0.125rem; // 0 2px
+}
+
+mark {
+/*  Address styling not present in IE 8/9 */
+    background: #ffc;
+}
+
+ins {
+    background-color: lighten($c__link, 95%);
+    text-decoration: none;
+}

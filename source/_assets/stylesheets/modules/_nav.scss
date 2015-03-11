@@ -1,0 +1,119 @@
+/*  =========================================================================
+    Nav
+    ========================================================================= */
+
+.nav__item {
+    &.is-active {
+        font-weight: 700;
+    }
+}
+
+
+/* Primary navigation  */
+.nav--primary {
+    @include clearfix;
+    @include fs--english($line-height: 1);
+    margin-top: ($u__baseline * 3);
+    border-bottom: 2px solid $c__accent;
+    padding-top: ($u__baseline * 0.5);
+    padding-bottom: ($u__baseline * 0.5);
+
+    @include susy-breakpoint(b__a) {
+        @include fs--double-brevier($line-height: 1);
+        margin-top: 0;
+        padding-top: ($u__baseline * 2);
+        padding-bottom: ($u__baseline * 2);
+    }
+
+    .nav__item {
+        @include span(1 of 4);
+        text-align: center;
+
+        @include susy-breakpoint(b__a) {
+            @include span(1 of 8);
+            text-align: right;
+        }
+    }
+
+    .nav__item:first-of-type {
+        @include susy-breakpoint(b__a) {
+            margin-left: span(4 of 8 wide);
+        }
+    }
+
+    .nav__item:last-of-type {
+        @include last;
+    }
+}
+
+
+/* Series navigation */
+.nav--series,
+.nav--years {
+    @include ff--sans-serif();
+
+    .nav__item__label {
+        @include fs--english;
+        display: block;
+        border-top: 1px solid rgba($c__accent, 0.33);
+        padding-top: ($u__baseline / 4);
+        padding-bottom: ($u__baseline / 2);
+
+        &:hover {
+            border-top-color: rgba($c__accent, 0.66);
+            background-color: rgba($c__neutral--8, 0.33);
+        }
+    }
+
+    a,
+    a:hover,
+    a:active {
+        // Override .prose > * a
+        background-image: none;
+        text-shadow: none;
+    }
+}
+
+
+/* Page navigation */
+.nav--pagination {
+    position: relative;
+    border-top: 1px solid rgba($c__accent, 0.33);
+    height: ($u__baseline * 2);
+    overflow: hidden;
+
+    &::before {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        border-right: 1px dashed rgba($c__accent, 0.33);
+        width: 1px;
+        content: '';
+    }
+
+    .nav__item {
+        line-height: ($u__baseline * 2);
+
+        .nav__item__icon {
+            fill: $c__link;
+        }
+
+        &:hover .nav__item__icon {
+            fill: $c__link--hover;
+        }
+
+        &:active .nav__item__icon {
+            fill: $c__link--active;
+        }
+    }
+
+    .nav__item--prev {
+        float: left;
+    }
+
+    .nav__item--next {
+        float: right;
+    }
+}

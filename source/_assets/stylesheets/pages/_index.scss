@@ -1,0 +1,35 @@
+/*  =========================================================================
+    Index
+    ========================================================================= */
+
+.index {
+    overflow: hidden;
+}
+
+.index__header {
+    @include susy-breakpoint(b__a) {
+        @include span(2);
+    }
+}
+
+.index__main {
+    @include span(6 last);
+
+    .section__header {
+        @include span(1 of 6);
+    }
+
+    .section__main {
+        @include span(5 of 6 last);
+    }
+}
+
+.index__title {
+    @include fs--double-english;
+    color: $c__accent;
+    font-weight: 700;
+
+    @include susy-breakpoint(b__a) {
+        @include fs--canon;
+    }
+}

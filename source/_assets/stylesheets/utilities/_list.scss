@@ -1,0 +1,112 @@
+/*  =========================================================================
+    List
+    ========================================================================= */
+
+.list__item {
+    list-style: none;
+}
+
+.list--inline {
+    .list__item {
+        display: inline;
+        margin-left: 0;
+    }
+}
+
+.list--inline--separated {
+    .list__item::after {
+        display: inline-block;
+        margin: 0 0.25em;
+        content: '\00B7';
+    }
+
+    .list__item:last-of-type::after {
+        content: none;
+    }
+}
+
+.list--testimonials {
+    @include susy-breakpoint(b__a) {
+        @include clearfix;
+    }
+
+    .list__item {
+        @include susy-breakpoint(b__a) {
+            @include span(3 of 6);
+        }
+
+        &:nth-child(2n) {
+            @include susy-breakpoint(b__a) {
+                @include last;
+            }
+        }
+
+        &:nth-child(2n+1) {
+            @include susy-breakpoint(b__a) {
+                @include break;
+            }
+        }
+    }
+}
+
+.list--articles,
+.list--presentations,
+.list--related,
+.list--projects,
+.list--services {
+    @include susy-breakpoint(b__a) {
+        @include clearfix;
+    }
+
+    .list__item {
+        @include susy-breakpoint(b__a) {
+            @include span(2 of 6);
+        }
+
+        &:nth-child(3n) {
+            @include susy-breakpoint(b__a) {
+                @include last;
+            }
+        }
+
+        &:nth-child(3n+1) {
+            @include susy-breakpoint(b__a) {
+                @include break;
+            }
+        }
+    }
+}
+
+.list--articles,
+.list--presentations,
+.list--projects {
+    .list__item {
+        @include susy-breakpoint(b__a) {
+            min-height: ($u__baseline * 6);
+        }
+    }
+}
+
+.list--featured-projects {
+    @include susy-breakpoint(b__a) {
+        @include clearfix;
+    }
+
+    .list__item {
+        @include susy-breakpoint(b__a) {
+            @include span(2 of 8);
+        }
+
+        &:nth-child(4n) {
+            @include susy-breakpoint(b__a) {
+                @include last;
+            }
+        }
+
+        &:nth-child(4n+1) {
+            @include susy-breakpoint(b__a) {
+                @include break;
+            }
+        }
+    }
+}

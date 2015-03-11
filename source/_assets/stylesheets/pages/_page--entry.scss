@@ -1,0 +1,19 @@
+/*  =========================================================================
+    Layout: Entry
+    ========================================================================= */
+
+.page--entry .page__location::before {
+    margin: 0 ($u__baseline / 4);
+    color: $c__neutral--5;
+    content: '\2022';
+}
+
+.js-enhanced .page--entry .page__location::before {
+    display: none;
+}
+
+.js-enhanced .page--entry .page__location::after {
+    margin: 0 ($u__baseline / 2) 0 ($u__baseline / 4);
+    color: $c__neutral--5;
+    content: '\2022';
+}
