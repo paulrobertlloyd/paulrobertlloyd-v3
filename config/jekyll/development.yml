@@ -5,7 +5,4 @@ url: //paulrobertlloyd.dev
 assets:
   gzip: false
   cache: true
-  cachebust: none
-
-# Drafts
-show_drafts: true
+  cachebust: soft

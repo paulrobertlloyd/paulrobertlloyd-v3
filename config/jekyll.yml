@@ -35,9 +35,12 @@ kramdown:
 # Assets
 assets:
   sources:
-    - _stylesheets
-    - _javascripts
+    - _assets/fonts
+    - _assets/icons
+    - _assets/javascripts
+    - _assets/stylesheets
   css_compressor: sass
+  js_compressor: uglifier
 
 # Images
 picture:

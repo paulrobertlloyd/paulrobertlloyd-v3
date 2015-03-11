@@ -5,5 +5,4 @@ url: //v3.paulrobertlloyd.com
 assets:
   gzip: false
   cache: true
-  cachebust: hard
-  js_compressor: uglifier
+  cachebust: soft
