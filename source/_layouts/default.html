@@ -43,14 +43,14 @@
     </style>
 {% endif %}
 
-    <title>{% include html/structure/title.html %} / {{ site.title }}</title>
+    <title>{% include structure/title.html %} / {{ site.title }}</title>
 </head>
 
 <body id="top">
-    {% include html/structure/banner.html %}
-    {% include html/structure/main.html %}
-    {% include html/structure/navigation.html %}
-    {% include html/structure/contentinfo.html %}
+    {% include structure/banner.html %}
+    {% include structure/main.html %}
+    {% include structure/navigation.html %}
+    {% include structure/contentinfo.html %}
     <script>
         {% asset foot.js %}
     </script>

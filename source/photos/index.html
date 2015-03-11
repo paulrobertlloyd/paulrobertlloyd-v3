@@ -4,5 +4,5 @@ title: Photos
 ---
 {% assign posts = site.posts | where: 'layout', 'album' | sort: 'date' %}
 {% for summary in posts reversed %}
-    {% include html/sections/summary.html %}
+    {% include sections/summary.html %}
 {% endfor %}

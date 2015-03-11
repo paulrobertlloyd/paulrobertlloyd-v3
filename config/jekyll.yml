@@ -39,6 +39,7 @@ assets:
     - _assets/icons
     - _assets/javascripts
     - _assets/stylesheets
+    - _assets/vectors
   css_compressor: sass
   js_compressor: uglifier
 

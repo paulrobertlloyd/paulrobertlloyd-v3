@@ -6,7 +6,7 @@
     {% for summary in projects reversed %}
         {% if summary.project_featured == true %}
         <li class="list__item">
-            {% include html/sections/summary--project.html %}
+            {% include sections/summary--project.html %}
         </li>
         {% endif %}
     {% endfor %}
