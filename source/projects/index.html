@@ -2,5 +2,15 @@
 layout: index
 title: Projects
 ---
-{% include sections/projects-featured.html limit='8' %}
-{% include sections/projects.html %}
+<section class="section section--projects" aria-labelledby="projects">
+    <h1 class="section__title" id="projects">All Projects</h1>
+
+    <ul class="list list--projects">
+    {% assign projects = site.categories.projects | sort: 'date' %}
+    {% for summary in projects %}
+        <li class="list__item">
+            {% include sections/summary.html %}
+        </li>
+    {% endfor %}
+    </ul>
+</section>

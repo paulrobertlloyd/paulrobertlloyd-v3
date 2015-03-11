@@ -1,0 +1,15 @@
+/*  =========================================================================
+    Theme: UNICEF UK
+    ========================================================================= */
+
+/* Variables */
+$c__unicef-uk: #00aeef;
+
+/* Adjustments */
+.theme--unicef {
+    background-color: $c__unicef-uk;
+
+    .page {
+        background-color: #fff;
+    }
+}
