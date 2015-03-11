@@ -32,7 +32,7 @@
 {% endif %}
 
     <script>
-        {% include javascripts/enhance.js %}
+        {% asset head.js %}
     </script>
 
     {% stylesheet global %}
@@ -52,7 +52,7 @@
     {% include html/structure/navigation.html %}
     {% include html/structure/contentinfo.html %}
     <script>
-        {% include javascripts/fontloader.js %}
+        {% asset foot.js %}
     </script>
 </body>
 </html>
