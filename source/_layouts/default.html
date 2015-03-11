@@ -46,7 +46,7 @@
     <title>{% include structure/title.html %} / {{ site.title }}</title>
 </head>
 
-<body id="top">
+<body id="top" class="layout--{{ page.layout }} page--{{ page.title | slugify | replace: '_','-' }}">
     {% include structure/banner.html %}
     {% include structure/main.html %}
     {% include structure/navigation.html %}
