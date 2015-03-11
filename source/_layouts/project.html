@@ -8,7 +8,7 @@ layout: default
 
     <div class="page__main">
         {% if page.project_info %}
-            {% include html/content/project-info.html %}
+            {% include content/project-info.html %}
         {% endif %}
 
         <div class="prose  e-content">
@@ -16,13 +16,13 @@ layout: default
         </div>
 
         {% if page.tags %}
-            {% include html/sections/tags.html %}
+            {% include sections/tags.html %}
         {% endif %}
 
         {% if page.related_posts %}
-            {% include html/sections/related.html %}
+            {% include sections/related.html %}
         {% endif %}
 
-        {% include html/nav/entries.html %}
+        {% include nav/entries.html %}
     </div>
 </article>

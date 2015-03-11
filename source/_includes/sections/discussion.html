@@ -23,7 +23,7 @@
     <div class="section__main">
         {% if remark_count >= "1" %}
             {% for remark in site.data.remarks[entry_id] reversed %}
-                {% include html/sections/remark.html %}
+                {% include sections/remark.html %}
             {% endfor %}
         {% endif %}
     </div>

@@ -4,7 +4,7 @@
             <a class="summary__link" href="{{ summary.url }}" rel="bookmark">
                 {% if summary.project_featured %}
                 <div class="summary__image summary__image--{{ summary.title | slugify | replace: '_','-' }}">
-                    {% include svg/logo--{{ summary.title | slugify | replace: '_','-' }}.svg %}
+                    {% asset logo--{{ summary.title | slugify | replace: '_','-' }}.svg %}
                 </div>
                 {% endif %}
                 {{ summary.title | smart }}

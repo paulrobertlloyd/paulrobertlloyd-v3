@@ -16,20 +16,20 @@ layout: default
                 <p class="figure__main">
                     {% picture {{ file.url | remove: '_assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
-                {% include html/content/exif-info.html %}
+                {% include content/exif-info.html %}
             </figure>
             {% enddirectory %}
         </div>
 
         {% if page.tags %}
-            {% include html/sections/tags.html %}
+            {% include sections/tags.html %}
         {% endif %}
 
         {% if page.series %}
-            {% include html/nav/series.html %}
+            {% include nav/series.html %}
         {% endif %}
 
-        {% include html/nav/entries.html %}
+        {% include nav/entries.html %}
     </div>
 
     <footer class="page__footer">

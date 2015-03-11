@@ -4,7 +4,7 @@
     <div class="nav nav--pagination">
     {% if paginator.next_page %}
         <a class="nav__item nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
-            {% include svg/nav__item__icon--prev.svg %}
+            {% asset nav__item__icon--prev.svg %}
             <span class="nav__item__label">Older</span>
         </a>
     {% endif %}
@@ -12,7 +12,7 @@
     {% if paginator.previous_page %}
         <a class="nav__item nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
             <span class="nav__item__label">Newer</span>
-            {% include svg/nav__item__icon--next.svg %}
+            {% asset nav__item__icon--next.svg %}
         </a>
     {% endif %}
     </div>
