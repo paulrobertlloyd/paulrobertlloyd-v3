@@ -5,18 +5,18 @@
         return;
     }
 
-    var serif400 = new win.FontFaceObserver('Charter ITC Std', {
+    var charterRegular = new win.FontFaceObserver('Charter ITC Std', {
         weight: 'normal',
         style: 'normal'
     });
 
-    var serif400i = new win.FontFaceObserver('Charter ITC Std', {
+    var charterItalic = new win.FontFaceObserver('Charter ITC Std', {
         weight: 'normal',
         style: 'italic'
     });
 
     win.Promise
-        .all([serif400.check(), serif400i.check()])
+        .all([charterRegular.check(), charterItalic.check()])
         .then(function () {
             doc.documentElement.className += ' fonts-loaded';
             win.enhance.cookie('fonts-loaded', !0, 7);
