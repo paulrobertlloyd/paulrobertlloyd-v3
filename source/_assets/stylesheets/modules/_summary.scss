@@ -64,33 +64,3 @@
         content: ' \2192';
     }
 }
-
-/* Project summary */
-.summary--featured-project {
-    .summary__image {
-        position: relative;
-        margin-bottom: ($u__baseline / 2);
-        background-color: $c__neutral--4;
-        padding-bottom: 68%;
-        height: 0;
-    }
-
-    .summary__image--24-ways         { background-color: $c__24-ways; }
-    .summary__image--unicef-uk       { background-color: $c__unicef-uk; }
-    .summary__image--bradshaw-s-guide { background-color: $c__bradshaws-guide; }
-    .summary__image--matter          { background-color: $c__matter; }
-    .summary__image--dacs            { background-color: $c__dacs; }
-    .summary__image--the-week        { background-color: $c__the-week; }
-    .summary__image--fontdeck        { background-color: $c__fontdeck; }
-    .summary__image--ngenera         { background-color: $c__ngenera; }
-
-    .logo {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        fill: #fff;
-    }
-}

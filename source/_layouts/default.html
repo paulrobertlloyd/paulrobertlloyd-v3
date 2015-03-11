@@ -1,4 +1,5 @@
-{% capture location %}{{ page.path | split:'/' | first }}{% endcapture %}
+{% capture page_section %}{{ page.path | split:'/' | first | remove:'.html' }}{% endcapture %}
+{% capture page_theme %} theme--{{ page.id | split:'/' | last | replace: '_','-' }}{% endcapture %}
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
 <html lang="en-gb" class="fonts-loaded">
@@ -8,10 +9,10 @@
 <head>
     <link rel="dns-prefetch" href="//hello.myfonts.net"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
-    {% if location == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
-    {% if location == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
-    {% if location == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
-    {% if location != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
+    {% if page_section == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
+    {% if page_section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
+    {% if page_section == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
+    {% if page_section != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
     <link rel="icon" type="image/ico" href="{% asset_path favicon.ico %}"/>
     <link rel="apple-touch-icon" type="image/png" href="{% asset_path apple-touch-icon.png %}"/>
 
@@ -46,7 +47,7 @@
     <title>{% include structure/title.html %} / {{ site.title }}</title>
 </head>
 
-<body id="top" class="layout--{{ page.layout }} page--{{ page.title | slugify | replace: '_','-' }}">
+<body id="top" class="section--{{ page_section }}{% if page.theme %} theme--{{ page.theme }}{% endif %}">
     {% include structure/banner.html %}
     {% include structure/main.html %}
     {% include structure/navigation.html %}

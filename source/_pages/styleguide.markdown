@@ -2,7 +2,7 @@
 layout: page
 title: Styleguide
 excerpt: A guide to the mark-up styles used throughout this site.
-permalink: /info/styleguide
+permalink: /styleguide
 style-disabled: |
   .example {
       outline: 1px dashed #ddd;
