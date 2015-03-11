@@ -1,0 +1,50 @@
+/*  =========================================================================
+    Section
+    ========================================================================= */
+
+.section {
+    margin-bottom: ($u__baseline * 2);
+    overflow: hidden;
+}
+
+.section__title {
+    @include ff--sans-serif;
+    @include fs--double-pica;
+    margin-bottom: ($u__baseline / 2);
+    font-weight: 700;
+    word-break: break-word;
+    hyphens: auto;
+
+    .section--is-expandable & {
+        display: inline-block;
+    }
+}
+
+.section--series {
+    @include clearfix;
+    @include span(2 of 6 last);
+    margin-right: -(span(1 wider));
+    margin-left: gutter();
+}
+
+.section--featured-projects {
+    @include clearfix;
+    @include span(10 of 8 wider);
+    float: none;
+    margin-right: -(span(1 wider));
+    margin-left: -(span(1 wider));
+}
+
+.section--hello {
+    .section__title::after {
+        content: ',';
+    }
+}
+
+.section--pitch {
+    @include span(5);
+}
+
+.section--extra {
+    @include span(3 last);
+}

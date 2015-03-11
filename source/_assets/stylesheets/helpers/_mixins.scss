@@ -1,0 +1,175 @@
+//  ============================================================================
+//  Mixins
+//  ============================================================================
+
+// Clearfix
+@mixin clearfix {
+    &::before,
+    &::after {
+        display: table;
+        clear: both;
+        content: '';
+    }
+}
+
+
+// Image replacement
+@mixin image-replace {
+    text-indent: 200%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+// Visually hidden, but still audible
+@mixin hidden {
+    position: absolute;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+
+// Font families
+@mixin ff--serif($font-weight: 400) {
+    font-family: serif;
+    font-weight: $font-weight;
+
+    .fonts-loaded & {
+        font-family: 'Charter ITC Std', serif;
+    }
+}
+
+@mixin ff--sans-serif($font-weight: 500) {
+    font-family: sans-serif;
+    font-weight: $font-weight;
+
+    .fonts-loaded & {
+        font-family: 'Avenir Next', sans-serif;
+    }
+}
+
+@mixin ff--monospace($font-weight: 400) {
+    font-family: monospace;
+    font-weight: $font-weight;
+
+    .fonts-loaded & {
+        font-family: 'Source Code Pro', monospace;
+    }
+}
+
+
+// Font sizes
+@mixin fs--pica($line-height: (16/12)) {
+    font-size: 0.75rem; // 12px
+    line-height: $line-height; // Default: 16px
+}
+
+@mixin fs--double-emerald($line-height: (16/13)) {
+    font-size: 0.8125rem; // 13px
+    line-height: $line-height; // Default: 16px
+}
+
+@mixin fs--english($line-height: (20/14)) {
+    font-size: 0.875rem; // 14px
+    line-height: $line-height; // Default: 20px
+}
+
+@mixin fs--double-brevier($line-height: (20/16)) {
+    font-size: 1rem; // 16px
+    line-height: $line-height; // Default: 20px
+}
+
+@mixin fs--great-primer($line-height: (24/18)) {
+    font-size: 1.125rem; // 18px
+    line-height: $line-height; // Default: 24px
+}
+
+@mixin fs--paragon($line-height: (24/20)) {
+    font-size: 1.25rem; // 20px
+    line-height: $line-height; // Default: 24px
+}
+
+@mixin fs--double-pica($line-height: (28/24)) {
+    font-size: 1.5rem; // 24px
+    line-height: $line-height; // Default: 28px
+}
+
+@mixin fs--double-english($line-height: (32/28)) {
+    font-size: 1.75rem; // 28px
+    line-height: $line-height; // Default: 32px
+}
+
+@mixin fs--double-great-primer($line-height: (40/36)) {
+    font-size: 2.25rem; // 36px
+    line-height: $line-height; // Default: 40px
+}
+
+@mixin fs--canon($line-height: (52/48)) {
+    font-size: 3rem; // 48px
+    line-height: $line-height; // Default: 52px
+    letter-spacing: -1px;
+}
+
+@mixin fs--inch($line-height: (76/72)) {
+    font-size: 4.5rem; // 72px
+    line-height: $line-height; // Default: 76px
+    letter-spacing: -2px;
+}
+
+
+// Layout
+@mixin extend {
+    margin-right: -(gutter());
+    margin-left: -(gutter());
+
+    @include susy-breakpoint(b__a) {
+        @include clearfix;
+        @include span(10 of 8 wider);
+        float: none;
+        margin-right: -(span(1 wider));
+        margin-left: -(span(1 wider));
+    }
+}
+
+
+// Caps
+@mixin smcp { font-feature-settings: 'smcp' 1; }
+@mixin c2sc { font-feature-settings: 'c2sc' 1; }
+
+
+// Captions and metadata
+@mixin caption {
+    @include fs--english;
+    @include ff--sans-serif;
+    color: $c__neutral--4;
+
+    strong {
+        color: $c__neutral--2;
+    }
+}
+
+
+// Line rule
+@mixin rule($el: 'before', $color: $c__neutral--8, $display: block) {
+    @if $el == 'before' or $el == 'after' {
+        &:#{$el} {
+            display: $display;
+            border-top: ($u__baseline / 5) solid $color;
+            width: ($u__baseline * 2);
+            content: '';
+            @if $el == 'before' {
+                margin-bottom: ($u__baseline / 2);
+            }
+            @if $el == 'after' {
+                margin-top: ($u__baseline / 5);
+            }
+        }
+    } @else {
+        @error "`#{$el}` is not a valid pseudo-element.";
+    }
+}

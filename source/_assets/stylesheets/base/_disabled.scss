@@ -1,0 +1,9 @@
+/*  =========================================================================
+    Disabled elements
+    http://developers.whatwg.org/links.html#disabled-elements
+    ========================================================================= */
+
+[disabled] {
+/*  Re-set default cursor for disabled elements */
+    cursor: default;
+}

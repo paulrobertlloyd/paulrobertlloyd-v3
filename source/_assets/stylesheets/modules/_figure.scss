@@ -1,0 +1,128 @@
+/*  =========================================================================
+    Figure
+    ========================================================================= */
+.figure {
+    @include clearfix;
+    position: relative; // Helps position exif-info to bottom of figure__caption
+
+    &.l-pull-right,
+    &.l-pull-left,
+    &.l-align-right,
+    &.l-align-left {
+        margin-top: 0;
+    }
+}
+
+.figure__caption {
+    @include caption;
+    @include rule(after);
+    clear: left;
+
+    .l-extend & {
+        padding-right: (gutter());
+        padding-left: (gutter());
+
+        @include susy-breakpoint(b__a) {
+            padding-right: (span(1 wide));
+            padding-left: (span(1 wide));
+        }
+    }
+}
+
+
+/* Caption positioning */
+.figure--caption-right {
+    .figure__main {
+        @include susy-breakpoint(b__a) {
+            @include span(6 of 8);
+        }
+    }
+
+    .figure__caption {
+        clear: none;
+
+        @include susy-breakpoint(b__a) {
+            @include rule(before);
+            @include rule(after, $display: none);
+            @include span(2 of 8 last);
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+}
+
+
+/* Image groups */
+.figure--image-duo {
+    img {
+        @include span(4 of 8);
+
+        &:nth-of-type(2n) {
+            @include last;
+        }
+    }
+}
+
+.figure--image-trio {
+    img {
+        @include span(2 of 6);
+
+        &:nth-of-type(3n) {
+            @include last;
+        }
+    }
+}
+
+.figure--image-quartet {
+    img {
+        @include span(2 of 8);
+
+        &:nth-of-type(4n) {
+            @include last;
+        }
+    }
+}
+
+.figure--image-quintet {
+    @include with-layout(10, 0.2) {
+        img {
+            @include span(2 of 10);
+
+            &:nth-of-type(5n) {
+                @include last;
+            }
+        }
+    }
+}
+
+
+/* Tweet */
+.figure--tweet {
+    blockquote {
+        position: relative;
+        margin-bottom: $u__baseline;
+        border-left: 0;
+        background-color: $c__neutral--8;
+        padding: ($u__baseline / 2);
+
+        &::after {
+            display: block;
+            position: absolute;
+            bottom: ($u__baseline / -2);
+            left: ($u__baseline / 2);
+            transform: rotate(45deg);
+            background-color: $c__neutral--8;
+            width: $u__baseline;
+            height: $u__baseline;
+            content: '';
+        }
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .figure__caption {
+        @include rule(after, none);
+    }
+}

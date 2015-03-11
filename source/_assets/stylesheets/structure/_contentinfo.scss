@@ -1,0 +1,22 @@
+/*  =========================================================================
+    Content Info
+    ========================================================================= */
+
+.contentinfo {
+    @include fs--double-emerald;
+    border-top: 1px solid $c__neutral--5;
+    padding: $u__baseline 0;
+    text-align: center;
+}
+
+.contentinfo__legal {
+    margin-bottom: ($u__baseline / 2);
+
+    a {
+        color: inherit;
+    }
+}
+
+.contentinfo__copyright {
+    font-size: 100%;
+}
