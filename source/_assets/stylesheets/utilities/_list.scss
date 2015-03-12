@@ -25,35 +25,9 @@
     }
 }
 
-.list--testimonials {
-    @include susy-breakpoint(b__a) {
-        @include clearfix;
-    }
-
-    .list__item {
-        @include susy-breakpoint(b__a) {
-            @include span(3 of 6);
-        }
-
-        &:nth-child(2n) {
-            @include susy-breakpoint(b__a) {
-                @include last;
-            }
-        }
-
-        &:nth-child(2n+1) {
-            @include susy-breakpoint(b__a) {
-                @include break;
-            }
-        }
-    }
-}
-
 .list--articles,
 .list--presentations,
-.list--related,
-.list--projects,
-.list--services {
+.list--related {
     @include susy-breakpoint(b__a) {
         @include clearfix;
     }
@@ -78,35 +52,10 @@
 }
 
 .list--articles,
-.list--presentations,
-.list--projects {
+.list--presentations {
     .list__item {
         @include susy-breakpoint(b__a) {
             min-height: ($u__baseline * 6);
-        }
-    }
-}
-
-.list--featured-projects {
-    @include susy-breakpoint(b__a) {
-        @include clearfix;
-    }
-
-    .list__item {
-        @include susy-breakpoint(b__a) {
-            @include span(2 of 8);
-        }
-
-        &:nth-child(4n) {
-            @include susy-breakpoint(b__a) {
-                @include last;
-            }
-        }
-
-        &:nth-child(4n+1) {
-            @include susy-breakpoint(b__a) {
-                @include break;
-            }
         }
     }
 }

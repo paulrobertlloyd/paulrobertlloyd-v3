@@ -4,7 +4,7 @@
 
 .embed {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: percentage(9/16);
     height: 0;
 
     .embed__iframe {
@@ -20,4 +20,8 @@
 
 .embed--video {
     background-color: $c__neutral--1;
+}
+
+.embed--slidedeck {
+    padding-bottom: percentage(3/4);
 }

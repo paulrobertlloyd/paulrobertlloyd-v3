@@ -1,8 +1,8 @@
 /*  =========================================================================
-    Project info list
+    Meta
     ========================================================================= */
 
-.project-info {
+.meta {
     @include caption;
     @include clearfix;
     @include span(2 of 6 last);
@@ -10,13 +10,13 @@
     margin-left: gutter();
 }
 
-.project-info__title {
+.meta__title {
     border-top: 1px solid $c__neutral--8;
     padding-top: ($u__baseline / 4);
     color: $c__neutral--2;
 }
 
-.project-info__value {
+.meta__value {
     margin-left: 0;
     padding-bottom: ($u__baseline / 2);
     

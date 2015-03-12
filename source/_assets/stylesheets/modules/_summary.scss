@@ -28,8 +28,7 @@
     @include fs--paragon;
     font-weight: 700;
 
-    .summary--related &,
-    .summary--project & {
+    .summary--related & {
         @include rule(before, $c__accent);
     }
 }

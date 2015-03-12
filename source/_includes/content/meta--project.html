@@ -1,0 +1,21 @@
+<aside class="meta meta--project">
+    <h2 class="meta__title audible">About This Project</h2>
+    <dl class="meta__values">
+    {% if page.meta.client %}
+        <dt class="meta__title">Client</dt>
+        <dd class="meta__value">{{ page.meta.client | smart }}</dd>
+    {% endif %}
+    {% if page.meta.year %}
+        <dt class="meta__title">Year</dt>
+        <dd class="meta__value">{{ page.meta.year }}</dd>
+    {% endif %}
+    {% if page.meta.role %}
+        <dt class="meta__title">Role</dt>
+        <dd class="meta__value">{{ page.meta.role | smart }}</dd>
+    {% endif %}
+    {% if page.meta.notes %}
+        <dt class="meta__title">Notes</dt>
+        <dd class="meta__value">{{ page.meta.notes | smart | markdownify }}</dd>
+    {% endif %}
+    </dl>
+</aside>

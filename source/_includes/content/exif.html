@@ -1,0 +1,17 @@
+<figcaption class="figure__caption exif">
+    <h2 class="exif__title">{{ file.url | exif: 'title' }}</h2>
+    <dl class="exif__values">
+        <dt class="exif__title audible">Date taken</dt>
+        <dd class="exif__value" title="Date taken" data-exif="date_created">{{ file.url | exif: 'date_created' | replace: ':','-' | date: "%e %B %Y" }}</dd>
+        <dt class="exif__title audible">Model</dt>
+        <dd class="exif__value" title="Model" data-exif="model">{{ file.url | exif: 'model' }}</dd>
+        <dt class="exif__title audible">Aperture</dt>
+        <dd class="exif__value" title="Aperture" data-exif="f_number"><i>f</i>/{{ file.url | exif: 'f_number.to_f' }}</dd>
+        <dt class="exif__title audible">Exposure</dt>
+        <dd class="exif__value" title="Exposure" data-exif="exposure_time">{{ file.url | exif: 'exposure_time' }}</dd>
+        <dt class="exif__title audible">Film speed</dt>
+        <dd class="exif__value" title="Film speed" data-exif="iso_speed_ratings"><abbr title="International Organization for Standardization ">ISO</abbr>{{ file.url | exif: 'iso' }}</dd>
+        <dt class="exif__title audible">Focal Length</dt>
+        <dd class="exif__value" title="Focal Length" data-exif="focal_length">{{ file.url | exif: 'focal_length.to_f' }}</dd>
+    </dl>
+</figcaption>

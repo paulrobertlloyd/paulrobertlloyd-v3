@@ -5,8 +5,7 @@ date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
 permalink: /projects/ngenera
 hidden: true
-project_featured: true
-project_info:
+meta:
   client: nGenera Corporation
   year: 2008
   role: UX, branding, design and front-end development

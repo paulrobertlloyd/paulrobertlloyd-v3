@@ -23,6 +23,7 @@ group :jekyll_plugins do
 
   gem 'exiftool'
   gem 'mini_magick'
+  gem 'oembed'
   gem 'susy'
   gem 'therubyracer' # Autoprefixer requires a JS runtime
   gem 'typogruby'

@@ -5,7 +5,7 @@ date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
 permalink: /projects/apture
 hidden: true
-project_info:
+meta:
   client: Apture
   year: 2009
   role: UX, design and front-end development

@@ -5,7 +5,7 @@ date: '2006-01-30'
 excerpt: Property portal for independent estate agents in Coventry and Warwickshire.
 permalink: /projects/cwhomes
 hidden: true
-project_info:
+meta:
   client: Coventry & Warwickshire Homes
   year: 2006
   role: Lead design, branding and front-end development
