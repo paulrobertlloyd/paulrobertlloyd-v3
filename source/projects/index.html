@@ -3,6 +3,6 @@ layout: index
 title: Projects
 ---
 {% assign projects = site.categories.projects | sort: 'date' %}
-{% for summary in projects %}
+{% for summary in projects reversed %}
     {% include sections/summary.html %}
 {% endfor %}
