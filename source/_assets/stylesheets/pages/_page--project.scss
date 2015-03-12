@@ -2,3 +2,16 @@
     Layout: Project
     ========================================================================= */
 
+.page--project {
+    .page__header {
+        padding-bottom: 0;
+    }
+
+    .page__title {
+        text-align: center;
+    }
+
+    .page__main {
+        outline: 10px solid;
+    }
+}

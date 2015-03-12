@@ -6,10 +6,22 @@
 $c__unicef-uk: #00aeef;
 
 /* Adjustments */
-.theme--unicef {
+.theme--unicef-uk {
     background-color: $c__unicef-uk;
 
-    .page {
+    .page__header,
+    .page__intro {
+        color: #fff;
+    }
+
+    .logo {
+        fill: #fff;
+        width: 33%;
+        height: 33%;
+    }
+
+    .page__main {
         background-color: #fff;
+        outline-color: #fff;
     }
 }

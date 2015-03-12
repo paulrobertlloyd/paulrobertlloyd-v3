@@ -1,0 +1,12 @@
+/*  =========================================================================
+    Lede
+    ========================================================================= */
+
+.lede {
+    line-height: ($u__baseline-unitless * 1.5);
+    font-feature-settings: 'liga', 'dlig', 'onum';
+
+    @include susy-breakpoint(b__c) {
+        @include fs--paragon;
+    }
+}

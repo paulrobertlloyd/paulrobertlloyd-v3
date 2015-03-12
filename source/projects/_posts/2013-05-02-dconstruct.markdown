@@ -9,9 +9,8 @@ meta:
   client: Clearleft
   year: 2010, 2011, 2013
   role: Design
-related_posts:
-  - title: 'A Greener Conference Badge for dConstruct'
-    url: http://paulrobertlloyd.com/2010/08/dconstruct_conference_badge
+tags:
+  - dConstruct
 ---
 On the first Friday of September, Brighton plays host to an annual one-day conference called _dConstruct_. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 

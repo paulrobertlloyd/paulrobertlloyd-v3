@@ -11,8 +11,13 @@ layout: default
                 {{ page.title }}
             {% endif %}
         </h1>
-        <p class="page__lede  p-summary">{{ page.exceprt }}</p>
     </header>
+
+    <div class="page__intro">
+        <div class="lede  p-summary">
+            {{ page.excerpt | markdownify | typogrify }}
+        </div>
+    </div>
 
     <div class="page__main">
         <div class="prose  e-content">

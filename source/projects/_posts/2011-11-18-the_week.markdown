@@ -12,13 +12,10 @@ meta:
   notes: |
     * Named Digital Edition of the Year at the PPA Awards 2011
     * Average rating of four stars in the App Store
-related_posts:
-  - title: 'The Week case study'
-    url: http://clearleft.com/made/the-week
 ---
 _The Week_ condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UKs most popular weekly subscription magazine.
 
-Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. Working with [Harry Brignull][1] at Clearleft, we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
+Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. [Working with Harry Brignull at Clearleft][1], we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
 
 ## Prototyping
 {% figure "Image of early prototype/design" %}
@@ -58,7 +55,7 @@ The app was far more successful than anticipated, spending a number of weeks in 
 > This was the most technically complex software project we've ever attempted, yet in its first year it's been a real success. We've found new readers, increased revenue from existing readers and gained the title lots of exposure.
 {% endfigure %}
 
-[1]: http://www.90percentofeverything.com/about/
+[1]: http://clearleft.com/made/the-week
 [2]: http://kaldorgroup.com/
 [3]: http://pugpig.com/
 

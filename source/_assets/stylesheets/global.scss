@@ -24,11 +24,13 @@
 @import 'utilities/button';
 @import 'utilities/form';
 @import 'utilities/icon';
+@import 'utilities/lede';
 @import 'utilities/list';
 @import 'utilities/prose';
 @import 'utilities/tag';
 
 // Modules
+@import 'modules/caps';
 @import 'modules/chart';
 @import 'modules/embed';
 @import 'modules/exif';
