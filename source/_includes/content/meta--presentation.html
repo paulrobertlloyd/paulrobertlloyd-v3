@@ -3,11 +3,11 @@
     <dl class="meta__values">
     {% if page.meta.event %}
         <dt class="meta__title">Event</dt>
-        <dd class="meta__value"><a href="{{ page.meta.event-url }}">{{ page.meta.event | smart }}</a></dd>
+        <dd class="meta__value">{{ page.meta.event | smart }}</dd>
     {% endif %}
-    {% if page.meta.location %}
+    {% if page.location %}
         <dt class="meta__title">Location</dt>
-        <dd class="meta__value">{{ page.meta.location | smart }}</dd>
+        <dd class="meta__value">{{ page.location | smart }}</dd>
     {% endif %}
     {% if page.meta.resources %}
         <dt class="meta__title">Resources</dt>
