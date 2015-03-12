@@ -3,23 +3,17 @@ layout: default
 ---
 <article class="page page--project  h-entry">
     <header class="page__header">
-        <h1 class="page__title  p-name">
-            {% if page.theme %}
-                {% capture page_logo %}logo--{{ page.theme }}.svg{% endcapture %}
-                {{ page_logo | asset }}
-            {% else %}
-                {{ page.title }}
-            {% endif %}
-        </h1>
-        <p class="page__lede  p-summary">{{ page.exceprt }}</p>
+        <h1 class="page__title  p-name">{{ page.title }}</h1>
     </header>
 
     <div class="page__main">
-        {% if page.project_info %}
-            {% include content/meta--project.html %}
+        {% if page.presentation_info %}
+            {% include content/meta--presentation.html %}
         {% endif %}
 
         <div class="prose  e-content">
+            {% embed {{ page.link }} %}
+
             {{ content | typogrify }}
         </div>
 

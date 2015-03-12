@@ -5,7 +5,7 @@ date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
 permalink: /projects/dconstruct
 hidden: true
-project_info:
+meta:
   client: Clearleft
   year: 2010, 2011, 2013
   role: Design

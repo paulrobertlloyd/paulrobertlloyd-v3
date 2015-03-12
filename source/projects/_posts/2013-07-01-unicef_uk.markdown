@@ -6,8 +6,7 @@ excerpt: '**UNICEF UK** raises funds to protect children and the defend their ri
 permalink: /projects/unicef_uk
 theme: unicef-uk
 hidden: true
-project_featured: true
-project_info:
+meta:
   client: UNICEF UK
   year: 2013
   role: Design and front-end development

@@ -1,26 +1,26 @@
 /*  =========================================================================
-    EXIF info list
+    EXIF
     ========================================================================= */
 
-.exif-info {
+.exif {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
 }
 
-.exif-info__title {
+.exif__title {
     position: absolute;
     top: ($u__baseline / 2);
     color: $c__neutral--1;
 }
 
-.exif-info__values {
+.exif__values {
     position: absolute;
     bottom: 0;
 }
 
-.exif-info__value {
+.exif__value {
     @include span(1 of 2);
     margin-left: 0;
 

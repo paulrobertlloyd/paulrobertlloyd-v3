@@ -1,0 +1,23 @@
+<aside class="meta meta--presentation">
+    <h2 class="meta__title audible">Aboutt This Presentation</h2>
+    <dl class="meta__values">
+    {% if page.meta.event %}
+        <dt class="meta__title">Event</dt>
+        <dd class="meta__value"><a href="{{ page.meta.event-url }}">{{ page.meta.event | smart }}</a></dd>
+    {% endif %}
+    {% if page.meta.location %}
+        <dt class="meta__title">Location</dt>
+        <dd class="meta__value">{{ page.meta.location | smart }}</dd>
+    {% endif %}
+    {% if page.meta.resources %}
+        <dt class="meta__title">Resources</dt>
+        <dd class="meta__value">
+            <ul class="summary__meta list list--inline list--inline--separated">
+            {% for resource in page.meta.resources %}
+                <li class="list__item"><a href="{{ resource[1] }}">{{ resource[0] | capitalize }}</a></li>
+            {% endfor %}
+            </ul>
+        </dd>
+    {% endif %}
+    </dl>
+</aside>

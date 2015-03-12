@@ -5,8 +5,7 @@ date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 permalink: /projects/bradshaws_guide
 hidden: true
-project_featured: true
-project_info:
+meta:
   client: Personal project
   year: Ongoing
   role: Design and front-end development
