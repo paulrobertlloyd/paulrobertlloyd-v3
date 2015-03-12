@@ -33,6 +33,8 @@
 /* Caption positioning */
 .figure--caption-right {
     .figure__main {
+        overflow: hidden;
+
         @include susy-breakpoint(b__a) {
             @include span(6 of 8);
         }

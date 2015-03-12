@@ -27,10 +27,6 @@
 .summary__title {
     @include fs--paragon;
     font-weight: 700;
-
-    .summary--related & {
-        @include rule(before, $c__accent);
-    }
 }
 
 .summary__permalink {

@@ -24,38 +24,3 @@
         content: none;
     }
 }
-
-.list--articles,
-.list--presentations,
-.list--related {
-    @include susy-breakpoint(b__a) {
-        @include clearfix;
-    }
-
-    .list__item {
-        @include susy-breakpoint(b__a) {
-            @include span(2 of 6);
-        }
-
-        &:nth-child(3n) {
-            @include susy-breakpoint(b__a) {
-                @include last;
-            }
-        }
-
-        &:nth-child(3n+1) {
-            @include susy-breakpoint(b__a) {
-                @include break;
-            }
-        }
-    }
-}
-
-.list--articles,
-.list--presentations {
-    .list__item {
-        @include susy-breakpoint(b__a) {
-            min-height: ($u__baseline * 6);
-        }
-    }
-}

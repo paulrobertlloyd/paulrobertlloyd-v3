@@ -9,9 +9,6 @@ meta:
   client: Clearleft/OmniTI
   year: 2010 - 2013
   role: Lead design
-related_posts:
-  - title: 'Fontdeck: Realign not Redesign'
-    url: https://speakerdeck.com/paulrobertlloyd/fontdeck-realign-not-redesign
 ---
 _Fontdeck_ is a professional web font service that allows designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
 

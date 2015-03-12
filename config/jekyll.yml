@@ -87,8 +87,8 @@ source: ./source
 destination: ./public
 include:
   - '**_pages'
-exclude:
-  - '**.scss'
+# exclude:
+#   - '**.scss'
 
 # Archives
 jekyll-archives:

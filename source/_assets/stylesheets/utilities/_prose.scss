@@ -68,29 +68,15 @@
     }
 
     > * a {
-        background-image: linear-gradient(to left, rgba($c__link, 0.33), rgba($c__link, 0.33));
-        background-repeat: repeat-x;
-        background-position: 0 90%;
-        background-size: 1px 1px;
-        text-shadow: 2px 0 0 $c__neutral--9, -2px 0 0 $c__neutral--9;
+        @include text-decoration-color($c__link, $c__neutral--9);
 
-        &:hover,
-        &:active {
-            background-image: linear-gradient(to left, rgba($c__link--hover, 0.66), rgba($c__link--hover, 0.66));
+        &:hover {
+            @include text-decoration-color($c__link--hover, $c__neutral--9);
         }
 
         &:active {
-            background-image: linear-gradient(to left, rgba($c__link--active, 0.66), rgba($c__link--active, 0.66));
+            @include text-decoration-color($c__link--active, $c__neutral--9);
         }
-
-        &.button {
-            background-image: none;
-            text-shadow: none;
-        }
-    }
-
-    .caps {
-        @include c2sc;
     }
 
     // Align element right or left

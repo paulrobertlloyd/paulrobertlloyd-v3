@@ -3,8 +3,8 @@
     ========================================================================= */
 
 .page {
-    display: flex;
-    flex-direction: column;
+//    display: flex;
+//    flex-direction: column;
 }
 
 @mixin page-container {
@@ -20,19 +20,23 @@
 .page__header {
     @include page-container;
     padding-bottom: 8%;
-    order: 1;
+//    order: 1;
+}
+
+.page__intro {
+    @include page-container;
 }
 
 .page__main {
     @include page-container;
-    order: 3;
+//    order: 3;
 }
 
 .page__footer {
     @include page-container;
     margin-top: -8%;
     margin-bottom: 8%;
-    order: 2;
+//    order: 2;
 }
 
 .page__title {

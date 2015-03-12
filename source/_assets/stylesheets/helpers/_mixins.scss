@@ -154,6 +154,16 @@
 }
 
 
+// Text underline colour
+@mixin text-decoration-color($color, $background) {
+    background-image: linear-gradient(to bottom, $background 50%, rgba($color, 0.66) 50%);
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    background-size: 1px 1px;
+    text-shadow: 2px 0 0 $background, -2px 0 0 $background;
+}
+
+
 // Line rule
 @mixin rule($el: 'before', $color: $c__neutral--8, $display: block) {
     @if $el == 'before' or $el == 'after' {

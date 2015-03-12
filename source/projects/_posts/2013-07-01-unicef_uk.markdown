@@ -10,15 +10,17 @@ meta:
   client: UNICEF UK
   year: 2013
   role: Design and front-end development
-related_posts:
-  - title: 'UNICEF UK case study'
-    url: http://clearleft.com/made/unicef
 ---
-_UNICEF UK_ is a charity raising funds in the UK to support UNICEF's work to protect children and the defend their rights worldwide.
+Given a constrained budget, the software that managed content on the desktop was to be retained, meaning the mobile site would have to replicate the same pages and information architecture. [Working alongside Ben Sauer at Clearleft][1], my primary task was to ensure this content and architecture could be understood by users on smaller screens. The site also needed to degrade gracefully on older mobile devices, and take into account the often imperfect nature of cellular connectivity. Put simply, we needed to employ mobile-first design principles with desktop-first content, rationalising and simplifying where possible.
 
-Like many organisations, UNICEF had seen its mobile traffic increase, with mobile devices accounting for approximately 20% of site visits. A limited mobile version of its website had been produced in recognition of this, yet much of the information about its vital work remained on a desktop-orientated website.
+## Searching for patterns
+{% figure figure--image-trio l-extend "Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site." %}
+<span class="tint">{% picture supporting /projects/unicef-uk/homepage_prioritisation.jpg %}</span>
+<span class="tint">{% picture supporting /projects/unicef-uk/pattern_identification.jpg %}</span>
+<span class="tint">{% picture supporting /projects/unicef-uk/pattern_definition.jpg %}</span>
+{% endfigure %}
 
-Given a constrained budget, the software that managed content on the desktop was to be retained, meaning the mobile site would have to replicate the same pages and information architecture. Working alongside Ben Sauer at Clearleft, my primary task was to ensure this content and architecture could be understood by users on smaller screens. The site also needed to degrade gracefully on older mobile devices, and take into account the often imperfect nature of cellular connectivity. Put simply, we needed to employ mobile-first design principles with desktop-first content, rationalising and simplifying where possible.
+We asked key stakeholders on the project to dissect the homepage and a key internal page, placing component parts in order of importance. Working with UNICEF's content editor, we pulled out common patterns, noting those which were essential and those that were superfluous. The relevant patterns were then sketched on a whiteboard where we imagined how they would adapt on smaller screens. These were then used as the basis for the front-end build. This pattern-based approach allowed us to simplify what was already there, rather than start again from scratch.
 
 ## Translating UNICEF's brand guidelines to the web
 {% figure "Roboto type specimen" %}
@@ -28,12 +30,6 @@ Given a constrained budget, the software that managed content on the desktop was
 {% endfigure %}
 
 We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity. These guidelines suggested using Univers on the web, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
-
-## Pattern based approach
-{% figure "Whiteboard showing sketched patterns" %}
-{% endfigure %}
-
-We asked key stakeholders on the project to dissect the homepage and a key internal page, placing component parts in order of importance. Working with UNICEF's content editor, we pulled out common patterns, noting those which were essential and those that were superfluous. The relevant patterns were then sketched on a whiteboard where we imagined how they would adapt on smaller screens. These were then used as the basis for the front-end build. This pattern-based approach allowed us to simplify what was already there, rather than start again from scratch.
 
 ## Navigation
 {% figure "Slide out menu on mobile" %}
@@ -49,6 +45,8 @@ We experimented with different ways of simplifying wayfinding around the site. B
 {% endfigure %}
 
 The underlying design language encompassed a variety of content types and clearly delineated between areas of navigation and content. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site -- even on larger screens. In time, it is hoped this responsive mobile design will form the foundation of a fully responsive site, accessible from all devices, large or small.
+
+[1]: http://clearleft.com/made/unicef
 
 *[HTML]: HyperText Markup Language
 *[UK]: United Kingdom

@@ -10,11 +10,8 @@ meta:
   year: 2013
   role: Design and front-end development
   notes: Awarded best collaborative project at the net Awards 2014
-related_posts:
-  - title: 'Rebuilding 24 ways'
-    url: http://allinthehead.com/retro/366/rebuilding-24-ways
-  - title: 'Redesigning 24 ways'
-    url: http://paulrobertlloyd.com/2013/12/redesigning_24_ways
+tags:
+  - 24 ways
 ---
 Each December, Drew McLellan and his small team publish _24 ways_, a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
 
