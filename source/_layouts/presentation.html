@@ -7,13 +7,17 @@ layout: default
     </header>
 
     <div class="page__main">
-        {% if page.presentation_info %}
+        {% embed {{ page.link }} %}
+
+        {% if page.meta %}
             {% include content/meta--presentation.html %}
         {% endif %}
 
-        <div class="prose  e-content">
-            {% embed {{ page.link }} %}
+        <p class="page__intro  p-summary">
+            {{ page.excerpt }}
+        </p>
 
+        <div class="prose  e-content">
             {{ content | typogrify }}
         </div>
 

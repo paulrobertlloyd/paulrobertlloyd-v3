@@ -2,7 +2,27 @@
 layout: index
 title: Present&shy;ations
 ---
-{% for presentation in site.data.presentations %}
+<section class="section section--appearances" aria-labelledby="appearances">
+    <header class="section__header">
+        <h1 class="section__title" id="appearances">Upcoming</h1>
+    </header>
+
+    <div class="section__main">
+        <ol class="list" reversed>
+            {% for appearance in site.data.appearances %}
+            <li class="list__item">
+                <article class="summary summary--presentation">
+                    <h1 class="summary__title"><a href="{{ appearance.url }}">{{ appearance.title | smart }}</a></h1>
+                    <p class="summary__meta">{{ appearance.location }} · <time datetime="{{ appearance.date | date_to_xmlschema }}">{{ appearance.date | date: "%B %Y" }}</time></p>
+                </article>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>
+
+{% assign presentations = site.posts | where: 'layout', 'presentation' | sort: 'date' %}
+{% for presentation in presentations reversed %}
     {% capture this_year %}{{ presentation.date | date: '%Y' }}{% endcapture %}
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
@@ -23,14 +43,8 @@ title: Present&shy;ations
                     <li class="list__item">
                         <article class="summary summary--presentation">
                             <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title | smart }}</a></h1>
+                            <p class="summary__meta">{{ presentation.meta.event }}</p>
                             <p class="summary__meta">{{ presentation.location }} · <time datetime="{{ presentation.date | date_to_xmlschema }}">{{ presentation.date | date: "%B %Y" }}</time></p>
-                            {% if presentation.resources %}
-                            <ul class="summary__meta list list--inline list--inline--separated">
-                                {% for resource in presentation.resources %}
-                                <li class="list__item"><a href="{{ resource[1] }}">{{ resource[0] | capitalize }}</a></li>
-                                {% endfor %}
-                            </ul>
-                            {% endif %}
                         </article>
                     </li>
 {% endfor %}

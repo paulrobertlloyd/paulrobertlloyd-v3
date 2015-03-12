@@ -15,11 +15,11 @@ layout: default
     </header>
 
     <div class="page__main">
-        {% if page.project_info %}
-            {% include content/meta--project.html %}
-        {% endif %}
-
         <div class="prose  e-content">
+            {% if page.meta %}
+                {% include content/meta--project.html %}
+            {% endif %}
+
             {{ content | typogrify }}
         </div>
 
