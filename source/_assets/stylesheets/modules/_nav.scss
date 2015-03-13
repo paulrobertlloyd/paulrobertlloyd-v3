@@ -14,7 +14,7 @@
     @include clearfix;
     @include fs--english($line-height: 1);
     margin-top: ($u__baseline * 3);
-    border-bottom: 2px solid $c__accent;
+    border-bottom: 2px solid;
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
 
@@ -55,14 +55,9 @@
     .nav__item__label {
         @include fs--english;
         display: block;
-        border-top: 1px solid rgba($c__accent, 0.33);
+        border-top: 1px solid;
         padding-top: ($u__baseline / 4);
         padding-bottom: ($u__baseline / 2);
-
-        &:hover {
-            border-top-color: rgba($c__accent, 0.66);
-            background-color: rgba($c__neutral--8, 0.33);
-        }
     }
 }
 
@@ -70,7 +65,7 @@
 /* Page navigation */
 .nav--pagination {
     position: relative;
-    border-top: 1px solid rgba($c__accent, 0.33);
+    border-top: 1px solid;
     height: ($u__baseline * 2);
     overflow: hidden;
 
@@ -80,25 +75,13 @@
         top: 0;
         bottom: 0;
         left: 50%;
-        border-right: 1px dashed rgba($c__accent, 0.33);
+        border-right: 1px dashed;
         width: 1px;
         content: '';
     }
 
     .nav__item {
         line-height: ($u__baseline * 2);
-
-        .nav__item__icon {
-            fill: $c__link;
-        }
-
-        &:hover .nav__item__icon {
-            fill: $c__link--hover;
-        }
-
-        &:active .nav__item__icon {
-            fill: $c__link--active;
-        }
     }
 
     .nav__item--prev {

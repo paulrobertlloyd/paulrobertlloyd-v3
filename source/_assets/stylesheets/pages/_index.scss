@@ -26,7 +26,6 @@
 
 .index__title {
     @include fs--double-english;
-    color: $c__accent;
     font-weight: 700;
 
     @include susy-breakpoint(b__a) {

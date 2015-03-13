@@ -6,7 +6,6 @@
     @include fs--english;
     text-transform: lowercase;
     word-spacing: -0.25em;
-    color: $c__neutral--5;
 
     &::before {
         opacity: 0.5;

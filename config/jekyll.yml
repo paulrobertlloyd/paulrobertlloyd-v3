@@ -82,6 +82,19 @@ picture:
       source_default:
         width: 400
 
+# Defaults
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      theme: 'default'
+  -
+    scope:
+      path: 'photos'
+    values:
+      theme: 'dark'
+
 # Publishing
 source: ./source
 destination: ./public

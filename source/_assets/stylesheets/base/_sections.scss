@@ -13,9 +13,7 @@ body {
     @include container($u__max-width);
     @include ff--sans-serif;
     margin: 0 gutter();
-    background-color: $c__neutral--9;
     line-height: ($u__baseline-unitless * 1.5);
-    color: $c__neutral--1;
     font-size: $u__font-size;
 
     @include susy-breakpoint(b__a) {
