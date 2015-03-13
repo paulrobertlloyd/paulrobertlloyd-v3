@@ -10,13 +10,13 @@ layout: default
         <div class="prose  e-content">
             {{ content | typogrify }}
 
-            {% capture album_path %}{{ page.path | replace: 'photos/_posts/','_assets/images/photos/' | remove: '.markdown' }}{% endcapture %}
+            {% capture album_path %}{{ page.path | replace: 'photos/_posts/','_images/photos/' | remove: '.markdown' }}{% endcapture %}
             {% directory path: album_path %}
             <figure class="figure figure--caption-right l-extend">
                 <p class="figure__main">
-                    {% picture {{ file.url | remove: '_assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
+                    {% picture {{ file.url | remove: '_images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
-                {% include content/exif-info.html %}
+                {% include content/exif.html %}
             </figure>
             {% enddirectory %}
         </div>
