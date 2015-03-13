@@ -1,7 +1,7 @@
 <article class="summary summary--{{ summary.layout }}  h-entry">
     <header class="summary__header">
         <h1 class="summary__title  p-name">
-            {% if summary.layout == "link" %}
+            {% if summary.layout == 'link' %}
                 <a class="summary__link" href="{{ summary.link }}">{{ summary.title | smart }}</a>
             {% else %}
                 <a class="summary__link" href="{{ summary.url }}">{{ summary.title | smart }}</a>
@@ -10,12 +10,12 @@
     </header>
 
     <div class="summary__main  p-summary">
-        <div class="prose  e-content">
+        <div class="{% if section.class == 'entry' %}lede  {% endif %}e-content">
             {% if summary.link-embed == "photo" %}
                 {% embed {{ summary.link }} %}
             {% endif %}
 
-            {% if summary.layout == "link" %}
+            {% if summary.layout == 'link' %}
                 {{ summary.content | markdownify | typogrify | smart }}
             {% elsif summary.excerpt != null %}
                 {{ summary.excerpt | markdownify | typogrify | smart }}
@@ -25,7 +25,7 @@
 
     <footer class="summary__footer">
         <a class="summary__permalink  u-url" href="{{ summary.url }}" rel="bookmark">
-            <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: "%B %Y" }}</time>
+            <time class="summary__pubdate  dt-published" datetime="{{ summary.date | date_to_xmlschema }}">{{ summary.date | date: '%e %B %Y' }}</time>
         </a>
     </footer>
 </article>

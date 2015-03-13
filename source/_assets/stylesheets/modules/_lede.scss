@@ -3,10 +3,16 @@
     ========================================================================= */
 
 .lede {
-    line-height: ($u__baseline-unitless * 1.5);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     @include susy-breakpoint(b__c) {
-        @include fs--paragon;
+        @include fs--paragon($line-height: (28/20));
+    }
+
+    p,
+    ul,
+    ol,
+    dl {
+        margin-bottom: ($u__baseline / 2);
     }
 }

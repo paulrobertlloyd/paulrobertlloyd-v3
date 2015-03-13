@@ -19,30 +19,28 @@
 @import 'base/interactive';
 @import 'base/disabled';
 
-// Utilities
-@import 'utilities/audible';
-@import 'utilities/button';
-@import 'utilities/form';
-@import 'utilities/icon';
-@import 'utilities/lede';
-@import 'utilities/list';
-@import 'utilities/prose';
-@import 'utilities/tag';
-
 // Modules
+@import 'modules/audible';
+@import 'modules/button';
 @import 'modules/caps';
 @import 'modules/chart';
 @import 'modules/embed';
 @import 'modules/exif';
 @import 'modules/figure';
 @import 'modules/footnotes';
+@import 'modules/form';
+@import 'modules/icon';
+@import 'modules/lede';
+@import 'modules/list';
 @import 'modules/meta';
 @import 'modules/nav';
+@import 'modules/prose';
 @import 'modules/rating';
 @import 'modules/remark';
 @import 'modules/search-results';
 @import 'modules/section';
 @import 'modules/summary';
+@import 'modules/tag';
 
 // Structure
 @import 'structure/banner';

@@ -5,8 +5,13 @@
 .contentinfo {
     @include fs--double-emerald;
     border-top: 1px solid $c__neutral--5;
+    margin: 0 auto;
     padding: $u__baseline 0;
     text-align: center;
+
+    @include susy-breakpoint(b__c) {
+        max-width: span(6);
+    }
 }
 
 .contentinfo__legal {

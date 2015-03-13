@@ -29,32 +29,20 @@
     font-weight: 700;
 }
 
-.summary__permalink {
-    display: block;
-}
-
 .summary__pubdate {
     @include caption;
 }
 
 /* Entry summary */
 .summary--entry {
-//    margin-bottom: (4 * $u__baseline);
-
-//    .summary__title {
-//        @include fs--canon;
-//        margin-bottom: $u__baseline;
-//    }
+    .summary__title {
+        @include fs--canon;
+        margin-bottom: $u__baseline;
+    }
 }
 
 /* Link summary */
 .summary--link {
-//    margin-bottom: ($u__baseline * 2);
-
-//    .summary__title {
-//        margin-bottom: ($u__baseline / 5);
-//    }
-
     .summary__link::after {
         content: ' \2192';
     }

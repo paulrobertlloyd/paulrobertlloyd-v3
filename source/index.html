@@ -9,9 +9,9 @@ title: I heart hyperlinks
         </header>
 
         <div class="section__main">
-            <div class="lede">
+            {% if section.class == 'intro' %}<div class="lede">{% endif %}
                 {{ section.text | markdownify | typogrify }}
-            </div>
+            {% if section.class == 'intro' %}</div>{% endif %}
         </div>
     </section>
 {% endfor %}
