@@ -4,9 +4,9 @@
     I'm [Paul Robert Lloyd][1]{: .p-name .u-url}, a [graphic designer][2]{: .p-role}, [writer][3]{: .p-role} and [speaker][4]{: .p-role} who lives in beautiful [Brighton][5]{: .p-locality}, [England][6]{: .p-country-name}.
     {: .h-card}
     
-    Specialising in interaction design and front-end web development, I've worked with publishers ([Dennis Publishing][7], [MATTER][8]); entertainment companies ([Channel 4][9], [NBCUniversal][10]); and charities ([UNICEF][11], [DACS][12]). I advocate [collaborative practice][13], [systems thinking][14] and [embracing the inherent nature of the web][15].
+    Specialising in interaction design and front-end web development, I've worked with publishers ([Dennis][7], [MATTER][8]), media companies ([Channel 4][9], [NBCUniversal][10]) and charities ([UNICEF][11], [DACS][12]). I advocate [collaborative practice][13], [systems thinking][14] and [embracing the inherent nature of the web][15].
     
-    In my spare time I'm either working on [side projects][16], planning [adventures abroad][17] or volunteering at large events; I was a [Games Maker][18] at London 2012 and a [Clyde-sider][19] at Glasgow 2014.
+    In my spare time I'm either working on [side projects][16], planning [adventures abroad][17] or volunteering; I was a [Games Maker][18] at London 2012 and [Clyde-sider][19] at Glasgow 2014.
     
     One day I will get a dog.
     
@@ -37,14 +37,14 @@
     
     With over ten years agency and in-house experience, I'm comfortable with every stage of the product design process, from sketching on whiteboards, creating visual comps or building modular front-end component libraries.
     
-    I'm available to take on new engagements from March 2015.
+    I'm available to take on new engagements from May 2015.
 
 - class: extra
   title: Elsewhere
   text: |
-    I write on here about a variety of [topics][1], but less considered thoughts can be found on [Twitter][2], while works in progress can be found on [Dribbble][3] and [GitHub][4].
+    I write on here about a variety of [topics][1], but less considered thoughts can be found on [Twitter][2]{: rel="me"}, while works in progress can be found on [Dribbble][3]{: rel="me"} and [GitHub][4]{: rel="me"}.
     
     [1]: /topics/
-    [2]: https://twitter.com/{{ site.author.handle }}
-    [3]: https://dribbble.com/{{ site.author.handle }}
-    [4]: https://github.com/{{ site.author.handle }}
+    [2]: https://twitter.com/paulrobertlloyd
+    [3]: https://dribbble.com/paulrobertlloyd
+    [4]: https://github.com/paulrobertlloyd
