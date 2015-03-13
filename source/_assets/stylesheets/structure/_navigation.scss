@@ -8,8 +8,8 @@
     right: 0;
     left: 0;
     margin: 0 gutter();
-    max-width: $u__max-width;
     border-bottom: 2px solid;
+    max-width: $u__max-width;
 
     @include susy-media($b__c) {
         margin: 0 auto;
