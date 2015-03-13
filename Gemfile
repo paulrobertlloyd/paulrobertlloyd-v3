@@ -5,7 +5,6 @@ group :development do
   gem 'guard'
   gem 'guard-jekyll-plus'
   gem 'guard-livereload'
-  gem 'guard-sass'
   gem 'guard-scss-lint'
 end
 
@@ -17,10 +16,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
 
-  gem 'octopress-hooks', github: 'paulrobertlloyd/hooks', branch: '3.0'
-  gem 'octopress-autoprefixer', github: 'paulrobertlloyd/autoprefixer', branch: '3.0'
-  gem 'octopress-minify-html', github: 'paulrobertlloyd/minify-html', branch: '3.0'
-
+  gem 'autoprefixer-rails'
   gem 'exiftool'
   gem 'mini_magick'
   gem 'oembed'

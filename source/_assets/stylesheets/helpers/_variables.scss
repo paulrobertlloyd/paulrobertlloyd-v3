@@ -57,8 +57,9 @@ $susy: (
     )
 );
 
+// Breakpoints (Susy)
 $susy-media: (
     b__a: 32em, // 512px
     b__b: 45em, // 720px
-    b__c: 64em, // 1024px
+    b__c: $u__max-width,
 );

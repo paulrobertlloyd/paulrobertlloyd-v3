@@ -28,29 +28,25 @@
 }
 
 .section--intro {
-    .section__title {
-        @include fs--double-english;
-
-        @include susy-breakpoint(b__a) {
-            @include fs--canon;
-        }
-
-        &::after {
-            content: ',';
-        }
-    }
-
     @include susy-breakpoint(b__b) {
-        .section__title {
-            
-        }
-
         .section__header {
             @include span(2 of 8);
         }
 
         .section__main {
             @include span(6 of 8 last);
+        }
+    }
+
+    .section__title {
+        @include fs--double-english;
+
+        &::after {
+            content: ',';
+        }
+
+        @include susy-breakpoint(b__a) {
+            @include fs--canon;
         }
     }
 }

@@ -5,47 +5,16 @@ GIT
     jekyll-archives (2.0.0)
       jekyll (>= 2.4)
 
-GIT
-  remote: git://github.com/paulrobertlloyd/autoprefixer.git
-  revision: b4853e8cd52a5bbb19f5a4dd24724179bc6cb0d9
-  branch: 3.0
-  specs:
-    octopress-autoprefixer (1.0.0)
-      autoprefixer-rails (~> 2.2)
-      jekyll (>= 2.0)
-      octopress-hooks (~> 2.0)
-
-GIT
-  remote: git://github.com/paulrobertlloyd/hooks.git
-  revision: 99ef0a3bbf644ad66ce50966723da8ed780d7d7f
-  branch: 3.0
-  specs:
-    octopress-hooks (2.3.2)
-      jekyll (>= 2.0)
-
-GIT
-  remote: git://github.com/paulrobertlloyd/minify-html.git
-  revision: 92de8bbdb4207fdcef2193a1c0785d3a4cf761e1
-  branch: 3.0
-  specs:
-    octopress-minify-html (1.2.1)
-      html_press (~> 0.8)
-      jekyll (>= 2.0)
-      octopress-hooks
-
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (2.2.0.20140804)
+    autoprefixer-rails (5.1.7)
       execjs
+      json
     celluloid (0.16.0)
       timers (~> 4.0.0)
     coderay (1.1.0)
     colorator (0.1)
-    css_press (0.3.2)
-      csspool-st (= 3.1.2)
-      json
-    csspool-st (3.1.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -73,19 +42,11 @@ GEM
       em-websocket (~> 0.5)
       guard (~> 2.8)
       multi_json (~> 1.8)
-    guard-sass (1.6.0)
-      guard (>= 2.8.0)
-      sass (>= 3.1)
     guard-scss-lint (0.0.1alpha)
       guard (~> 2.0)
       scss-lint (~> 0.30.0)
     hike (1.2.3)
     hitimes (1.2.2)
-    html_press (0.8.2)
-      htmlentities
-      multi_css (>= 0.1.0)
-      multi_js (>= 0.1.0)
-    htmlentities (4.3.3)
     http_parser.rb (0.6.0)
     jekyll (3.0.0.beta2)
       colorator (~> 0.1)
@@ -120,10 +81,6 @@ GEM
     mercenary (0.3.5)
     method_source (0.8.2)
     mini_magick (4.1.0)
-    multi_css (0.1.0)
-      css_press
-    multi_js (0.1.0)
-      uglifier (~> 2)
     multi_json (1.11.0)
     nenv (0.2.0)
     notiffany (0.0.6)
@@ -179,11 +136,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   exiftool
   guard
   guard-jekyll-plus
   guard-livereload
-  guard-sass
   guard-scss-lint
   jekyll (= 3.0.0.beta2)
   jekyll-archives!
@@ -191,9 +148,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   mini_magick
-  octopress-autoprefixer!
-  octopress-hooks!
-  octopress-minify-html!
   oembed
   rake
   susy
