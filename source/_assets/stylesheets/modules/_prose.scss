@@ -4,7 +4,6 @@
 
 .prose {
     @include ff--serif;
-    line-height: ($u__baseline-unitless * 1.5);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     @include susy-breakpoint(b__c) {
@@ -23,22 +22,11 @@
 
     * + h2,
     * + h3 {
-        margin-top: $u__baseline;
+        margin-top: ($u__baseline * 2);
     }
 
     h4 {
         @include fs--double-brevier;
-    }
-
-    h2,
-    h3,
-    p,
-    p > img,
-    ul,
-    ol,
-    dl,
-    .embed {
-        margin-bottom: ($u__baseline / 2);
     }
 
     > pre,
@@ -47,9 +35,10 @@
     > fieldset,
     > section,
     div[class*="highlighter-"],
+    .embed,
     .figure {
-        margin-top: $u__baseline;
-        margin-bottom: $u__baseline;
+        margin-top: ($u__baseline * 2);
+        margin-bottom: ($u__baseline * 2);
     }
 
     pre {
@@ -65,18 +54,6 @@
 
     strong {
         @include ff--sans-serif(700);
-    }
-
-    > * a {
-        @include text-decoration-color($c__link, $c__neutral--9);
-
-        &:hover {
-            @include text-decoration-color($c__link--hover, $c__neutral--9);
-        }
-
-        &:active {
-            @include text-decoration-color($c__link--active, $c__neutral--9);
-        }
     }
 
     // Align element right or left

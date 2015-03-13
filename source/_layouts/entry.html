@@ -9,7 +9,7 @@ layout: default
     <div class="page__main">
         <div class="prose  e-content">
             {% if page.image.caption %}
-                {% figure l-extend "{{ page.image.caption }}" %}
+                {% figure l-extend '{{ page.image.caption }}' %}
 {% picture showcase {{ page.image.url }} %}
                 {% endfigure %}
             {% endif %}
@@ -35,12 +35,12 @@ layout: default
     <footer class="page__footer">
         <span class="audible">Published on</span>
         <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">
-            {{ page.date | date: "%e %B %Y" }}
+            {{ page.date | date: '%e %B %Y' }}
         </time>
 
         {% if page.location %}
         <span class="audible">in</span>
-        {% assign post_location = page.location | split: ", " %}
+        {% assign post_location = page.location | split: ', ' %}
         <span class="page__location  p-location h-adr">
             <span class="p-locality">{{ post_location[0] }}</span>,
             <span class="p-country-name">{{ post_location[1] }}</span>
