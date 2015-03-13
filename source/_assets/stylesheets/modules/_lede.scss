@@ -5,7 +5,7 @@
 .lede {
     font-feature-settings: 'liga', 'dlig', 'onum';
 
-    @include susy-breakpoint(b__c) {
+    @include susy-media($b__c) {
         @include fs--paragon($line-height: (28/20));
     }
 

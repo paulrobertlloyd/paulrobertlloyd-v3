@@ -6,7 +6,7 @@
     @include ff--serif;
     font-feature-settings: 'liga', 'dlig', 'onum';
 
-    @include susy-breakpoint(b__c) {
+    @include susy-media($b__c) {
         @include fs--great-primer($line-height: (28/18));
     }
 

@@ -14,7 +14,7 @@
 
 // Pull element right or left
 .l-pull-right {
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         @include span(3 of 6 last);
         margin-right: -(span(1 wider));
         margin-left: gutter();
@@ -22,7 +22,7 @@
 }
 
 .l-pull-left {
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         @include span(3 of 6);
         margin-right: gutter();
         margin-left: -(span(1 wider));
@@ -34,7 +34,7 @@
     @include extend;
 
     .embed--video {
-        @include susy-breakpoint(b__a) {
+        @include susy-media($b__a) {
             padding-bottom: 75%;
         }
     }

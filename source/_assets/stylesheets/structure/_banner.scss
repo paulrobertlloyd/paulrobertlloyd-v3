@@ -3,11 +3,13 @@
     ========================================================================= */
 
 .banner {
-    margin-bottom: ($u__baseline * 5);
+    margin-bottom: ($u__baseline * 4);
+    padding-bottom: ($u__baseline * 2);
     overflow: hidden;
     text-align: center;
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
+        padding-bottom: 0;
         text-align: left;
     }
 }
@@ -18,7 +20,7 @@
     z-index: 2;
     line-height: 0.1;
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         @include span(1 of 8);
     }
 }
@@ -27,7 +29,7 @@
     width: ($u__baseline * 3);
     height: ($u__baseline * 3);
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         width: ($u__baseline * 4);
         height: ($u__baseline * 4);
     }

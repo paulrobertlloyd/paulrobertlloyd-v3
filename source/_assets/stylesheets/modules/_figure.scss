@@ -4,8 +4,8 @@
 .figure {
     @include clearfix;
     position: relative; // Helps position exif-info to bottom of figure__caption
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
 
     &.l-pull-right,
     &.l-pull-left,
@@ -24,7 +24,7 @@
         padding-right: (gutter());
         padding-left: (gutter());
 
-        @include susy-breakpoint(b__a) {
+        @include susy-media($b__a) {
             padding-right: (span(1 wide));
             padding-left: (span(1 wide));
         }
@@ -37,7 +37,7 @@
     .figure__main {
         overflow: hidden;
 
-        @include susy-breakpoint(b__a) {
+        @include susy-media($b__a) {
             @include span(6 of 8);
         }
     }
@@ -45,7 +45,7 @@
     .figure__caption {
         clear: none;
 
-        @include susy-breakpoint(b__a) {
+        @include susy-media($b__a) {
             @include rule(before);
             @include rule(after, $display: none);
             @include span(2 of 8 last);

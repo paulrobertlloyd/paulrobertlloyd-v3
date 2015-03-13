@@ -1,5 +1,5 @@
 //  ============================================================================
-//  Variables
+//  Global Variables
 //  ============================================================================
 
 // Units
@@ -10,8 +10,6 @@ $u__max-width: 57.5rem;
 
 
 // Colours
-$c__accent: #12c;
-
 $c__neutral: #101112;
 $c__neutral--1: lighten($c__neutral, 10%);
 $c__neutral--2: lighten($c__neutral, 20%);
@@ -23,10 +21,6 @@ $c__neutral--7: lighten($c__neutral, 70%);
 $c__neutral--8: lighten($c__neutral, 80%);
 $c__neutral--9: lighten($c__neutral, 90%);
 
-$c__link: lighten($c__accent, 0);
-$c__link--hover: lighten($c__accent, 20%);
-$c__link--active: lighten($c__accent, 40%);
-
 $c__24-ways: #ff0040;
 $c__bradshaws-guide: #363330;
 $c__matter: #874a88;
@@ -34,6 +28,12 @@ $c__dacs: #560a5e;
 $c__the-week: #ed1c24;
 $c__fontdeck: #d0021b;
 $c__ngenera: #00173b;
+
+
+// Breakpoints
+$b__a: 32em; // 512px
+$b__b: 45em; // 720px
+$b__c: $u__max-width + ($u__baseline * 2);
 
 
 // Grid (Susy)
@@ -55,11 +55,4 @@ $susy: (
         output: overlay,
         toggle: top right,
     )
-);
-
-// Breakpoints (Susy)
-$susy-media: (
-    b__a: 32em, // 512px
-    b__b: 45em, // 720px
-    b__c: ($u__max-width + ($u__baseline * 2))
 );

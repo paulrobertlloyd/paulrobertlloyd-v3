@@ -127,7 +127,7 @@
     margin-right: -(gutter());
     margin-left: -(gutter());
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         @include clearfix;
         @include span(10 of 8 wider);
         float: none;
