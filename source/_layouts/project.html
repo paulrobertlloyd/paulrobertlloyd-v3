@@ -4,7 +4,7 @@ layout: default
 <article class="page page--project  h-entry">
     <header class="page__header">
         <h1 class="page__title  p-name">
-            {% if page.theme %}
+            {% if page.theme != 'default' %}
                 {% capture page_logo %}logo--{{ page.theme }}.svg{% endcapture %}
                 {{ page_logo | asset }}
             {% else %}

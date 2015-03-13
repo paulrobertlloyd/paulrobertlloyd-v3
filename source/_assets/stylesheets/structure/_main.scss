@@ -4,16 +4,4 @@
 
 .main {
     @include clearfix;
-
-    a {
-        @include text-decoration-color($c__link, $c__neutral--9);
-
-        &:hover {
-            @include text-decoration-color($c__link--hover, $c__neutral--9);
-        }
-
-        &:active {
-            @include text-decoration-color($c__link--active, $c__neutral--9);
-        }
-    }
 }

@@ -1,5 +1,4 @@
 {% capture page_section %}{{ page.path | split:'/' | first | remove:'.html' }}{% endcapture %}
-{% capture page_theme %} theme--{{ page.id | split:'/' | last | replace: '_','-' }}{% endcapture %}
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
 <html lang="en-gb" class="fonts-loaded">
@@ -47,7 +46,7 @@
     <title>{% include structure/title.html %} / {{ site.title }}</title>
 </head>
 
-<body id="top" class="section--{{ page_section }}{% if page.theme %} theme--{{ page.theme }}{% endif %}">
+<body id="top" class="theme--{{ page.theme }}">
     {% include structure/banner.html %}
     {% include structure/main.html %}
     {% include structure/navigation.html %}

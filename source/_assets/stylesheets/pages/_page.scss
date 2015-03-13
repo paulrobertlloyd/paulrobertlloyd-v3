@@ -47,7 +47,6 @@
 
 .page__title {
     @include fs--double-english;
-    color: $c__accent;
     font-weight: 700;
 
     @include susy-breakpoint(b__a) {
@@ -61,7 +60,6 @@
     @include c2sc;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
-    color: $c__neutral--2;
 }
 
 .page__pubdate {
