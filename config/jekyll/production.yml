@@ -3,6 +3,14 @@ url: //v3.paulrobertlloyd.com
 
 # Assets
 assets:
-  gzip: false
+  gzip:
+    - text/css
+    - application/javascript
+    - application/font-woff
+    - application/font-woff2
+    - application/x-font-ttf
+    - image/png
+    - image/ico
+    - image/svg+xml
   cache: true
   cachebust: soft
