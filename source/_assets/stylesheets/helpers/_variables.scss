@@ -6,7 +6,7 @@
 $u__font-size: (16/16)*100%;
 $u__baseline-unitless: 16/(16*($u__font-size/100%));
 $u__baseline: $u__baseline-unitless * 1rem;
-$u__max-width: 57.5em;
+$u__max-width: 57.5rem;
 
 
 // Colours
@@ -61,5 +61,5 @@ $susy: (
 $susy-media: (
     b__a: 32em, // 512px
     b__b: 45em, // 720px
-    b__c: $u__max-width,
+    b__c: ($u__max-width + ($u__baseline * 2))
 );
