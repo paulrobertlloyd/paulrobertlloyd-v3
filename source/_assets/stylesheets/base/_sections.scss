@@ -16,7 +16,7 @@ body {
     line-height: ($u__baseline-unitless * 1.5);
     font-size: $u__font-size;
 
-    @include susy-breakpoint(b__c) {
+    @include susy-media($b__c) {
         margin: 0 auto;
     }
 }

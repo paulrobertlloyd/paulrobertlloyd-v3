@@ -7,7 +7,7 @@
     margin-bottom: $u__baseline;
     flex-direction: column;
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         position: relative;
     }
 }

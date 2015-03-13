@@ -9,7 +9,7 @@
     padding: $u__baseline 0;
     text-align: center;
 
-    @include susy-breakpoint(b__c) {
+    @include susy-media($b__c) {
         max-width: span(6);
     }
 }

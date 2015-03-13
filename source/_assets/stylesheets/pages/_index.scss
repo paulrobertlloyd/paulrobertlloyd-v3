@@ -7,7 +7,7 @@
 }
 
 .index__header {
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         @include span(2);
     }
 }
@@ -28,7 +28,7 @@
     @include fs--double-english;
     font-weight: 700;
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         @include fs--canon;
     }
 }

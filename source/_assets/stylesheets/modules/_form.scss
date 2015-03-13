@@ -26,7 +26,7 @@
     padding: ($u__baseline / 2);
     font-weight: 700;
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         bottom: 0;
         border-width: 0 1px 0 0;
         width: span(2 of 6 first);
@@ -35,7 +35,7 @@
     &::after {
         content: ':';
 
-        @include susy-breakpoint(b__a) {
+        @include susy-media($b__a) {
             content: '';
         }
     }
@@ -49,7 +49,7 @@
     padding-top: ($u__baseline * 3);
     width: 100%;
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         padding-top: ($u__baseline / 2);
         padding-left: span(2 of 6 wide);
     }

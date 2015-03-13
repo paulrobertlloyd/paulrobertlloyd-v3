@@ -11,7 +11,7 @@
     padding-right: gutter();
     padding-left: gutter();
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         padding-right: span(1 wide);
         padding-left: span(1 wide);
     }
@@ -49,7 +49,7 @@
     @include fs--double-english;
     font-weight: 700;
 
-    @include susy-breakpoint(b__a) {
+    @include susy-media($b__a) {
         @include fs--canon;
     }
 }

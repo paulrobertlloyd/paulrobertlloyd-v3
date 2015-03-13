@@ -28,7 +28,7 @@
 }
 
 .section--intro {
-    @include susy-breakpoint(b__b) {
+    @include susy-media($b__b) {
         .section__header {
             @include span(2 of 8);
         }
@@ -41,24 +41,24 @@
     .section__title {
         @include fs--double-english;
 
-        &::after {
-            content: ',';
+        @include susy-media($b__a) {
+            @include fs--canon;
         }
 
-        @include susy-breakpoint(b__a) {
-            @include fs--canon;
+        &::after {
+            content: ',';
         }
     }
 }
 
 .section--pitch {
-    @include susy-breakpoint(b__b) {
+    @include susy-media($b__b) {
         @include span(5);
     }
 }
 
 .section--extra {
-    @include susy-breakpoint(b__b) {
+    @include susy-media($b__b) {
         @include span(3 last);
     }
 }
