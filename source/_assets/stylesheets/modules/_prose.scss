@@ -12,28 +12,32 @@
 
     h2 {
         @include ff--sans-serif(700);
-        @include fs--paragon;
+        @include fs--double-pica;
+        margin-bottom: ($u__baseline / 2);
     }
 
     h3 {
         @include ff--sans-serif(700);
-        @include fs--great-primer;
-    }
-
-    * + h2,
-    * + h3 {
-        margin-top: ($u__baseline * 2);
+        @include fs--paragon;
+        margin-bottom: ($u__baseline / 2);
     }
 
     h4 {
-        @include fs--double-brevier;
+        @include ff--sans-serif;
+        @include fs--great-primer;
+        margin-bottom: ($u__baseline / 2);
     }
 
-    > pre,
-    > blockquote,
-    > table,
-    > fieldset,
-    > section,
+    * + h2,
+    * + h3,
+    * + h4 {
+        margin-top: ($u__baseline * 2);
+    }
+
+    pre,
+    blockquote,
+    table,
+    fieldset,
     div[class*="highlighter-"],
     .embed,
     .figure {

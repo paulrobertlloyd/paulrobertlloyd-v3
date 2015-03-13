@@ -8,9 +8,6 @@
 }
 
 @mixin page-container {
-    padding-right: gutter();
-    padding-left: gutter();
-
     @include susy-media($b__a) {
         padding-right: span(1 wide);
         padding-left: span(1 wide);

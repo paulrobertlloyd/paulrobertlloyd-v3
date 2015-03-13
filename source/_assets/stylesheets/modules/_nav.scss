@@ -27,9 +27,8 @@
 
     .nav__item {
         float: left;
-        width: span(1 of 4);
         margin-right: gutter();
-        text-align: right;
+        width: span(1 of 4);
 
         @include susy-media($b__a) {
             display: inline-block;
