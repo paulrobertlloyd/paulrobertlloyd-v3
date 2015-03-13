@@ -6,14 +6,16 @@ layout: default
         <h1 class="page__title  p-name">{{ page.title }}</h1>
     </header>
 
+    {% if page.image.caption %}
+    <div class="page__media">
+        {% figure l-extend '{{ page.image.caption }}' %}
+{% picture showcase {{ page.image.url }} %}
+        {% endfigure %}
+    </div>
+    {% endif %}
+
     <div class="page__main">
         <div class="prose  e-content">
-            {% if page.image.caption %}
-                {% figure l-extend '{{ page.image.caption }}' %}
-{% picture showcase {{ page.image.url }} %}
-                {% endfigure %}
-            {% endif %}
-
             {% if page.series %}
                 {% include nav/series.html %}
             {% endif %}

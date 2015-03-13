@@ -6,12 +6,14 @@ layout: default
         <h1 class="page__title  p-name">{{ page.title }}</h1>
     </header>
 
+    {% if page.link-embed %}
+    <div class="page__media">
+        {% embed {{ page.link }} %}
+    </div>
+    {% endif %}
+
     <div class="page__main">
         <div class="prose  e-content">
-            {% if page.link-embed %}
-                {% embed {{ page.link }} %}
-            {% endif %}
-
             {{ content | typogrify }}
 
             {% if page.link-embed == null %}
