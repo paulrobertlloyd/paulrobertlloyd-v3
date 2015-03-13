@@ -4,6 +4,8 @@
 .figure {
     @include clearfix;
     position: relative; // Helps position exif-info to bottom of figure__caption
+    margin-left: 0;
+    margin-right: 0;
 
     &.l-pull-right,
     &.l-pull-left,

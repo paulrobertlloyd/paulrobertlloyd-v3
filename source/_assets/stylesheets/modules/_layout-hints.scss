@@ -1,0 +1,41 @@
+/*  =========================================================================
+    Layout hints
+    ========================================================================= */
+
+// Align element right or left
+.l-align-right {
+    @include span(1.5 of 6 last);
+    margin-left: gutter();
+}
+
+.l-align-left {
+    @include span(2 of 6);
+}
+
+// Pull element right or left
+.l-pull-right {
+    @include susy-breakpoint(b__a) {
+        @include span(3 of 6 last);
+        margin-right: -(span(1 wider));
+        margin-left: gutter();
+    }
+}
+
+.l-pull-left {
+    @include susy-breakpoint(b__a) {
+        @include span(3 of 6);
+        margin-right: gutter();
+        margin-left: -(span(1 wider));
+    }
+}
+
+// On wider breakpoints elements that extends outwards by additional column
+.l-extend {
+    @include extend;
+
+    .embed--video {
+        @include susy-breakpoint(b__a) {
+            padding-bottom: 75%;
+        }
+    }
+}
