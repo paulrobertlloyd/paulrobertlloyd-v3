@@ -3,12 +3,8 @@
     ========================================================================= */
 
 .tag {
-    @include fs--english;
+    @include fs--double-emerald;
+    margin-right: ($u__baseline / 4);
     text-transform: lowercase;
-    word-spacing: -0.25em;
-
-    &::before {
-        opacity: 0.5;
-        content: '#';
-    }
+    color: $c__neutral--5;
 }
