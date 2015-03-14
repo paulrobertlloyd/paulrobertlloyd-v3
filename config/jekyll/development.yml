@@ -4,5 +4,5 @@ url: //paulrobertlloyd.dev
 # Assets
 assets:
   gzip: false
-  cache: true
+  cache: ../.jekyll-assets-cache
   cachebust: none

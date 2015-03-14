@@ -8,7 +8,7 @@ layout: default
 
     {% if page.image.caption %}
     <div class="page__media">
-        {% figure l-extend '{{ page.image.caption }}' %}
+        {% figure l-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
         {% endfigure %}
     </div>

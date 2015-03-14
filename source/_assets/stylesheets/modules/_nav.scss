@@ -69,31 +69,53 @@
 
 /* Page navigation */
 .nav--pagination {
-    position: relative;
-    border-top: 1px solid;
-    height: ($u__baseline * 2);
     overflow: hidden;
-
-    &::before {
-        display: block;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        border-right: 1px dashed;
-        width: 1px;
-        content: '';
-    }
 
     .nav__item {
         line-height: ($u__baseline * 2);
+        text-decoration: none;
+
+        @include susy-media($b__c) {
+            position: fixed;
+            top: 50%;
+            bottom: 50%;
+            margin-top: -3rem;
+            padding: 0 ($u__baseline / 2);
+            transition: all 0.2s;
+        }
+    }
+
+    .nav__item__label {
+        @include susy-media($b__c) {
+            display: none;
+        }
+    }
+
+    .nav__item:hover {
+        .nav__item__label {
+            @include susy-media($b__c) {
+                display: inline-block;
+            }
+        }
     }
 
     .nav__item--prev {
         float: left;
+
+        @include susy-media($b__c) {
+            left: 0;
+        }
     }
 
     .nav__item--next {
         float: right;
+
+        @include susy-media($b__c) {
+            right: 0;
+        }
+    }
+    
+    .nav__item__icon {
+        
     }
 }
