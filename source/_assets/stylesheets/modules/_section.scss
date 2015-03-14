@@ -9,7 +9,7 @@
 
 .section__title {
     @include ff--sans-serif;
-    @include fs--double-pica;
+    @include fs--paragon;
     margin-bottom: ($u__baseline / 2);
     font-weight: 700;
     word-break: break-word;
