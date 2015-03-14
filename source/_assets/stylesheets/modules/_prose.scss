@@ -34,6 +34,13 @@
         margin-top: ($u__baseline * 2);
     }
 
+    p,
+    ul,
+    ol,
+    dl {
+        margin-bottom: ($u__baseline / 2);
+    }
+
     pre,
     blockquote,
     table,

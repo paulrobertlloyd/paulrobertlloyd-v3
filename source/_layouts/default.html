@@ -23,8 +23,8 @@
     <meta name="fulljs" content="{% asset_path global.js %}">
 
 {% if page.path contains '_posts' %}
-    <meta name="twitter:site" content="{{ site.author.handle }}"/>
-    <meta name="twitter:creator" content="{{ site.author.handle }}"/>
+    <meta name="twitter:site" content="@paulrobertlloyd"/>
+    <meta name="twitter:creator" content="@paulrobertlloyd"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
@@ -43,7 +43,7 @@
     </style>
 {% endif %}
 
-    <title>{% include structure/title.html %} / {{ site.title }}</title>
+    <title>{% if page.title %}{% include structure/title.html %} / {% endif %}{{ site.title }}</title>
 </head>
 
 <body id="top" class="theme--{{ page.theme }}">

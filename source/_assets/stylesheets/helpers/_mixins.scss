@@ -155,12 +155,15 @@
 
 
 // Text underline colour
-@mixin text-decoration-color($color, $background) {
-    background-image: linear-gradient(to bottom, $background 50%, rgba($color, 0.66) 50%);
-    background-repeat: repeat-x;
-    background-position: 0 85%;
-    background-size: 1px 1px;
-    text-shadow: 2px 0 0 $background, -2px 0 0 $background;
+@mixin text-decoration-color($color, $background: inherit, $size: 1px) {
+    @if $color != 'none' {
+        background-image: linear-gradient(to bottom, $background 50%, rgba($color, 0.66) 50%);
+        background-repeat: repeat-x;
+        background-position: 0 85%;
+        background-size: $size $size;
+        text-decoration: none;
+        text-shadow: 2px 0 0 $background, -2px 0 0 $background;
+    }
 }
 
 
