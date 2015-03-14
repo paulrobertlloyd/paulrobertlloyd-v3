@@ -3,9 +3,9 @@
     ========================================================================= */
 
 /* Variables */
-$c__background: #332532;
-$c__accent: #fd9757;
-$c__mute: #644d52;
+$c__background: #332633;
+$c__accent: #fc9656;
+$c__mute: #634c53;
 
 /* Adjustments */
 .theme--dark {
@@ -14,11 +14,17 @@ $c__mute: #644d52;
 
     a {
         color: #fff;
-        text-decoration-color: #644d52;
     }
 
     .banner__logo {
         fill: $c__accent;
+    }
+
+    .main,
+    .contentinfo {
+        a {
+            @include text-decoration-color(lighten($c__mute, 25%), $c__background, $size: 3px);
+        }
     }
 
     .navigation,
@@ -26,6 +32,7 @@ $c__mute: #644d52;
         border-color: $c__mute;
     }
 
+    .index__title,
     .section__title {
         color: $c__accent;
     }

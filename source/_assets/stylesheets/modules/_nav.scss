@@ -76,16 +76,16 @@
     overflow: hidden;
 
     .nav__item {
-        line-height: ($u__baseline * 2);
         text-decoration: none;
+        line-height: ($u__baseline * 2);
 
         @include susy-media($b__c) {
             position: fixed;
             top: 50%;
             bottom: 50%;
+            transition: all 0.2s;
             margin-top: -3rem;
             padding: 0 ($u__baseline / 2);
-            transition: all 0.2s;
         }
     }
 
@@ -117,9 +117,5 @@
         @include susy-media($b__c) {
             right: 0;
         }
-    }
-    
-    .nav__item__icon {
-        
     }
 }

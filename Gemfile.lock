@@ -22,7 +22,7 @@ GEM
     execjs (2.4.0)
     exiftool (0.6.0)
       json
-    ffi (1.9.6)
+    ffi (1.9.7)
     formatador (0.2.5)
     guard (2.12.4)
       formatador (>= 0.2.4)

@@ -1,5 +1,6 @@
 ---
 layout: page
+theme: dark
 title: Thanks!
 permalink: /contact/thanks
 ---
