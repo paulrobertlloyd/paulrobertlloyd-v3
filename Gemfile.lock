@@ -24,7 +24,7 @@ GEM
       json
     ffi (1.9.7)
     formatador (0.2.5)
-    guard (2.12.4)
+    guard (2.12.5)
       formatador (>= 0.2.4)
       listen (~> 2.7)
       lumberjack (~> 1.0)
