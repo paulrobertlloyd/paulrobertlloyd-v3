@@ -2,9 +2,9 @@
     <header class="summary__header">
         <h1 class="summary__title  p-name">
             {% if summary.layout == 'link' %}
-                <a class="summary__link" href="{{ summary.link }}">{{ summary.title | smart }}</a>
+                <a class="summary__link" href="{{ summary.link }}">{{ summary.title | smartify }}</a>
             {% else %}
-                <a class="summary__link" href="{{ summary.url }}">{{ summary.title | smart }}</a>
+                <a class="summary__link" href="{{ summary.url }}">{{ summary.title | smartify }}</a>
             {% endif %}
         </h1>
     </header>
@@ -16,9 +16,9 @@
             {% endif %}
 
             {% if summary.layout == 'link' %}
-                {{ summary.content | markdownify | typogrify | smart }}
+                {{ summary.content | markdownify | typogrify }}
             {% elsif summary.excerpt != null %}
-                {{ summary.excerpt | markdownify | typogrify | smart }}
+                {{ summary.excerpt | markdownify | typogrify }}
             {% endif %}
         </div>
     </div>

@@ -13,7 +13,7 @@ title: Present&shy;ations
             {% for appearance in site.data.appearances %}
             <li class="list__item">
                 <article class="summary summary--presentation">
-                    <h1 class="summary__title"><a href="{{ appearance.url }}">{{ appearance.title | smart }}</a></h1>
+                    <h1 class="summary__title"><a href="{{ appearance.url }}">{{ appearance.title | smartify }}</a></h1>
                     <p class="summary__meta">{{ appearance.location }} · <time datetime="{{ appearance.date | date_to_xmlschema }}">{{ appearance.date | date: "%B %Y" }}</time></p>
                 </article>
             </li>
@@ -43,7 +43,7 @@ title: Present&shy;ations
     {% endif %}
                     <li class="list__item">
                         <article class="summary summary--presentation">
-                            <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title | smart }}</a></h1>
+                            <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title | smartify }}</a></h1>
                             <p class="summary__meta">{{ presentation.meta.event }}, {{ presentation.location }} · <time datetime="{{ presentation.date | date_to_xmlschema }}">{{ presentation.date | date: "%B %Y" }}</time></p>
                         </article>
                     </li>

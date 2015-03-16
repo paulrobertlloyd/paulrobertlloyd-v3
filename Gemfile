@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem 'jekyll-assets'
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
+  gem 'jekyll-smartify'
 
   gem 'autoprefixer-rails'
   gem 'exiftool'

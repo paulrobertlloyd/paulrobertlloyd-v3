@@ -5,7 +5,7 @@ theme: dark
 {% for section in site.data.homepage %}
     <section class="section section--{{ section.class }}">
         <header class="section__header">
-            <h1 class="section__title">{{ section.title | smart }}</h1>
+            <h1 class="section__title">{{ section.title | smartify }}</h1>
         </header>
 
         <div class="section__main">
