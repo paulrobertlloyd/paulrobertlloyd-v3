@@ -5,4 +5,4 @@ url: //v3.paulrobertlloyd.com
 assets:
   gzip: false
   cache: true
-  cachebust: soft
+  cachebust: hard
