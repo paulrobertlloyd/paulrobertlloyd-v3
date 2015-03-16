@@ -1,1 +1,1 @@
-{% if page.type == 'year' %}{{ page.date | date: "%Y" }}{% elsif page.type == 'month' %}{{ page.date | date: "%B %Y" }}{% else %}{{ page.title | smart }}{% endif %}
+{% if page.type == 'year' %}{{ page.date | date: "%Y" }}{% elsif page.type == 'month' %}{{ page.date | date: "%B %Y" }}{% else %}{{ page.title | smartify }}{% endif %}

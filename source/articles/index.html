@@ -23,7 +23,7 @@ title: Articles
     {% endif %}
                     <li class="list__item">
                         <article class="summary summary--article">
-                            <h1 class="summary__title"><a href="{{ article.url }}">{{ article.title | smart }}</a></h1>
+                            <h1 class="summary__title"><a href="{{ article.url }}">{{ article.title | smartify }}</a></h1>
                             <p class="summary__meta">{{ article.publication }}, <time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: '%B %Y' }}</time></p>
                         </article>
                     </li>
