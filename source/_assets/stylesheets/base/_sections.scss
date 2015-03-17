@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background: $c__selection;
+}
+
 body {
     @include container($u__max-width);
     @include ff--sans-serif;
