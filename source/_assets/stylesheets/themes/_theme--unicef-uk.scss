@@ -2,12 +2,12 @@
     Theme: UNICEF UK
     ========================================================================= */
 
-/* Variables */
-$c__unicef-uk: #00aeef;
+// Variables
+$theme__unicef-uk: #00aeef;
 
 /* Adjustments */
 .theme--unicef-uk {
-    background-color: $c__unicef-uk;
+    background-color: $theme__unicef-uk;
 
     .page__header,
     .page__intro {

@@ -1,16 +1,16 @@
 /*  =========================================================================
-    Theme: Dark
+    Theme: Default
     ========================================================================= */
 
 // Variables
 // https://color.adobe.com/forge-color-theme-5030599/
-$theme__background: #332633;
+$theme__background: lighten(#a39989, 33%);
 $theme__accent: #fc9656;
-$theme__text: #fff;
+$theme__text: #332633;
 $theme__mute: #634c53;
 
 /* Adjustments */
-.theme--dark {
+.theme--default {
     background-color: $theme__background;
     color: $theme__text;
 

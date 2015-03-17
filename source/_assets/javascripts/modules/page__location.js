@@ -1,3 +1,5 @@
+//= require vendor/scopedQuerySelector/src/scopedQuerySelectorShim
+
 (function (win, doc) {
     'use strict';
 

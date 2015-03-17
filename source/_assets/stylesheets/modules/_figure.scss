@@ -15,10 +15,19 @@
     }
 }
 
+.figure__main {
+    margin-bottom: ($u__baseline / 2);
+    overflow: hidden;
+}
+
 .figure__caption {
     @include caption;
     @include rule(after);
     clear: left;
+
+    p {
+        margin-bottom: ($u__baseline / 2);
+    }
 
     .l-extend & {
         padding-right: (gutter());

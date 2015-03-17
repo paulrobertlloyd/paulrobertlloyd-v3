@@ -16,14 +16,14 @@
 
 .page__header {
     @include page-container;
-    padding-bottom: 8%;
+    padding-bottom: ($u__baseline * 4);
     order: 1;
 }
 
 .page__footer {
     @include page-container;
-    margin-top: -8%;
-    margin-bottom: 8%;
+    margin-top: ($u__baseline * -4);
+    margin-bottom: ($u__baseline * 4);
     order: 2;
 }
 
@@ -34,6 +34,7 @@
 
 .page__media {
     @include page-container;
+    margin-bottom: ($u__baseline * 2);
     order: 4;
 }
 
