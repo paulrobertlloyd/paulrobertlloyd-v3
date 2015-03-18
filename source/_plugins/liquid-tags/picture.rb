@@ -118,9 +118,9 @@ module Jekyll
       # Generate resized/renamed images and vectors
       instance.each { |key, source|
         unless svg
-          instance[key][:generated_src] = generate_image(source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
+          instance[key][:generated_src] = generate_image('bitmap', source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
         else
-          instance[key][:generated_src] = generate_vector(source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
+          instance[key][:generated_src] = generate_image('vector', source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
         end
       }
 
@@ -138,106 +138,97 @@ module Jekyll
                       "</picture>\n"
 
       elsif settings['markup'] == 'img'
-        source_tags = ''
-        source_keys.each { |source|
-          source_tags += "#{instance[source][:generated_src]} #{instance[source][:width]}w,"
-        }
+        unless svg
+          source_tags = ''
+          source_keys.each { |source|
+            source_tags += "#{instance[source][:generated_src]} #{instance[source][:width]}w,"
+          }
 
-        picture_tag = "<img srcset=\"#{source_tags}\" src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}/>"
+          picture_tag = "<img srcset=\"#{source_tags}\" src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}/>"
+        else
+          picture_tag = "<img src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}/>"
+        end
       end
 
       picture_tag
     end
 
 
-    def generate_image(instance, site_source, site_dest, image_source, image_dest, baseurl)
+    def generate_image(image_type, instance, site_source, site_dest, image_source, image_dest, baseurl)
       digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
 
       image_dir = File.dirname(instance[:src])
       ext = File.extname(instance[:src])
       basename = File.basename(instance[:src], ext)
 
-      size = FastImage.size(File.join(site_source, image_source, instance[:src]))
-      orig_width = size[0]
-      orig_height = size[1]
-      orig_ratio = orig_width*1.0/orig_height
+      if image_type == 'bitmap'
+        size = FastImage.size(File.join(site_source, image_source, instance[:src]))
+        orig_width = size[0]
+        orig_height = size[1]
+        orig_ratio = orig_width*1.0/orig_height
 
-      gen_width = if instance[:width]
-        instance[:width].to_f
-      elsif instance[:height]
-        orig_ratio * instance[:height].to_f
+        gen_width = if instance[:width]
+          instance[:width].to_f
+        elsif instance[:height]
+          orig_ratio * instance[:height].to_f
+        else
+          orig_width
+        end
+
+        gen_height = if instance[:height]
+          instance[:height].to_f
+        elsif instance[:width]
+          instance[:width].to_f / orig_ratio
+        else
+          orig_height
+        end
+
+        gen_ratio = gen_width/gen_height
+
+        # Don't allow upscaling. If the image is smaller than the requested dimensions, recalculate.
+        if orig_width < gen_width || orig_height < gen_height
+          undersize = true
+          gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
+          gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
+        end
+
+        gen_name = "#{basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{ext}"
       else
-        orig_width
+
+        gen_name = "#{basename}--#{digest}#{ext}"
       end
 
-      gen_height = if instance[:height]
-        instance[:height].to_f
-      elsif instance[:width]
-        instance[:width].to_f / orig_ratio
-      else
-        orig_height
-      end
-
-      gen_ratio = gen_width/gen_height
-
-      # Don't allow upscaling. If the image is smaller than the requested dimensions, recalculate.
-      if orig_width < gen_width || orig_height < gen_height
-        undersize = true
-        gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
-        gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
-      end
-
-      gen_name = "#{basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{ext}"
+      #gen_name = "#{basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{ext}"
       gen_dest_dir = File.join(site_dest, image_dest, image_dir)
       gen_dest_file = File.join(gen_dest_dir, gen_name)
 
       # Generate resized files
       unless File.exists?(gen_dest_file)
-
-        warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
-
         #  If the destination directory doesn't exist, create it
         FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
 
-        # Let people know their images are being generated
-        puts "Generating bitmap #{gen_name}"
+        if image_type == 'bitmap'
+          warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
 
-        image = MiniMagick::Image.open(File.join(site_source, image_source, instance[:src]))
-        # Scale and crop
-        image.combine_options do |i|
-          i.resize "#{gen_width}x#{gen_height}^"
-          i.gravity "center"
-          i.crop "#{gen_width}x#{gen_height}+0+0"
+          # Let people know their images are being generated
+          puts "Generating bitmap: #{gen_name}"
+
+          image = MiniMagick::Image.open(File.join(site_source, image_source, instance[:src]))
+          # Scale and crop
+          image.combine_options do |i|
+            i.resize "#{gen_width}x#{gen_height}^"
+            i.gravity "center"
+            i.crop "#{gen_width}x#{gen_height}+0+0"
+          end
+
+          image.write gen_dest_file
+        else
+          # Let people know their images are being generated
+          puts "Generating vector: #{gen_name}"
+
+          image = File.join(site_source, image_source, instance[:src])
+          FileUtils.copy(image, gen_dest_file)
         end
-
-        image.write gen_dest_file
-      end
-
-      # Return path relative to the site root for html
-      Pathname.new(File.join(baseurl, image_dest, image_dir, gen_name)).cleanpath
-    end
-
-
-    def generate_vector(instance, site_source, site_dest, image_source, image_dest, baseurl)
-      digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
-      image_dir = File.dirname(instance[:src])
-      ext = File.extname(instance[:src])
-      basename = File.basename(instance[:src], ext)
-
-      gen_name = "#{basename}--#{digest}#{ext}"
-      gen_dest_dir = File.join(site_dest, image_dest, image_dir)
-      gen_dest_file = File.join(gen_dest_dir, gen_name)
-
-      # Generate resized files
-      unless File.exists?(gen_dest_file)
-        # If the destination directory doesn't exist, create it
-        FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
-
-        # Let people know their images are being generated
-        puts "Generating vector #{gen_name}"
-
-        image = File.join(site_source, image_source, instance[:src])
-        FileUtils.copy(image, gen_dest_file)
       end
 
       # Return path relative to the site root for html
