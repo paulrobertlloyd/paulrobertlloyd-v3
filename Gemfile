@@ -19,6 +19,7 @@ group :jekyll_plugins do
 
   gem 'autoprefixer-rails'
   gem 'exiftool'
+  gem 'fastimage'
   gem 'mini_magick'
   gem 'oembed'
   gem 'susy'

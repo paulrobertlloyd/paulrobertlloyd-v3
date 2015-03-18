@@ -20,6 +20,7 @@ require 'fileutils'
 require 'pathname'
 require 'digest/md5'
 require 'mini_magick'
+require 'fastimage'
 
 module Jekyll
   class PictureTag < Liquid::Tag
@@ -28,6 +29,7 @@ module Jekyll
       @markup = markup
       super
     end
+
 
     def render(context)
       # Render any liquid variables in tag arguments and unescape template code
@@ -59,6 +61,14 @@ module Jekyll
         {}
       end
 
+      # Get file extension 
+      file_extension = File.extname(markup[:image_src])
+
+      # Check for SVG
+      if file_extension == ".svg"
+        svg = true
+      end
+
       # Process html attributes
       html_attr = if markup[:html_attr]
         Hash[ *markup[:html_attr].scan(/(?<attr>[^\s="]+)(?:="(?<value>[^"]+)")?\s?/).flatten ]
@@ -83,11 +93,6 @@ module Jekyll
         end
       }
 
-      # Prepare ppi variables
-      ppi = if instance['ppi'] then instance.delete('ppi').sort.reverse else nil end
-      # this might work??? ppi = instance.delete('ppi'){ |ppi|  [nil] }.sort.reverse
-      ppi_sources = {}
-
       # Switch width and height keys to the symbols that generate_image() expects
       instance.each { |key, source|
         raise "Preset #{key} is missing a width or a height" if !source['width'] and !source['height']
@@ -97,50 +102,26 @@ module Jekyll
 
       # Store keys in an array for ordering the instance sources
       source_keys = instance.keys
-      # used to escape markdown parsing rendering below
+
+      # Used to escape markdown parsing rendering below
       markdown_escape = "\ "
 
       # Raise some exceptions before we start expensive processing
       raise "Picture Tag can't find the \"#{markup[:preset]}\" preset. Check picture: presets in _config.yml for a list of presets." unless preset
       raise "Picture Tag can't find this preset source. Check picture: presets: #{markup[:preset]} in _config.yml for a list of sources." unless (source_src.keys - source_keys).empty?
 
-      # Process instance
-      # Add image paths for each source
+      # Process instance and add image paths for each source
       instance.each_key { |key|
         instance[key][:src] = source_src[key] || markup[:image_src]
       }
 
-      # Construct ppi sources
-      # Generates -webkit-device-ratio and resolution: dpi media value for cross browser support
-      # Reference: http://www.brettjankord.com/2012/11/28/cross-browser-retinahigh-resolution-media-queries/
-      if ppi
-        instance.each { |key, source|
-          ppi.each { |p|
-            if p != 1
-              ppi_key = "#{key}-x#{p}"
-
-              ppi_sources[ppi_key] = {
-                :width => if source[:width] then (source[:width].to_f * p).round else nil end,
-                :height => if source[:height] then (source[:height].to_f * p).round else nil end,
-                'media' => if source['media']
-                  "#{source['media']} and (-webkit-min-device-pixel-ratio: #{p}), #{source['media']} and (min-resolution: #{(p * 96).round}dpi)"
-                else
-                  "(-webkit-min-device-pixel-ratio: #{p}), (min-resolution: #{(p * 96).to_i}dpi)"
-                end,
-                :src => source[:src]
-              }
-
-              # Add ppi_key to the source keys order
-              source_keys.insert(source_keys.index(key), ppi_key)
-            end
-          }
-        }
-      instance.merge!(ppi_sources)
-      end
-
-      # Generate resized images
+      # Generate resized/renamed images and vectors
       instance.each { |key, source|
-        instance[key][:generated_src] = generate_image(source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
+        unless svg
+          instance[key][:generated_src] = generate_image(source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
+        else
+          instance[key][:generated_src] = generate_vector(source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
+        end
       }
 
       # Construct and return tag
@@ -151,11 +132,10 @@ module Jekyll
           source_tags += "#{markdown_escape * 4}<source srcset=\"#{instance[source][:generated_src]}\"#{media}>\n"
         }
 
-        # Note: we can't indent html output because markdown parsers will turn 4 spaces into code blocks. Added backslash+space escapes to bypass markdown parsing of indented code below
         picture_tag = "<picture>\n"\
-                      "#{source_tags}"\
-                      "#{markdown_escape * 4}<img srcset=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
-                      "#{markdown_escape * 2}</picture>\n"
+                      "#{markdown_escape * 4}#{source_tags}"\
+                      "#{markdown_escape * 4}<img src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
+                      "</picture>\n"
 
       elsif settings['markup'] == 'img'
         source_tags = ''
@@ -169,17 +149,18 @@ module Jekyll
       picture_tag
     end
 
+
     def generate_image(instance, site_source, site_dest, image_source, image_dest, baseurl)
-      image = MiniMagick::Image.open(File.join(site_source, image_source, instance[:src]))
-      digest = Digest::MD5.hexdigest(image.to_blob).slice!(0..5)
+      digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
 
       image_dir = File.dirname(instance[:src])
       ext = File.extname(instance[:src])
       basename = File.basename(instance[:src], ext)
 
-      orig_width = image[:width].to_f
-      orig_height = image[:height].to_f
-      orig_ratio = orig_width/orig_height
+      size = FastImage.size(File.join(site_source, image_source, instance[:src]))
+      orig_width = size[0]
+      orig_height = size[1]
+      orig_ratio = orig_width*1.0/orig_height
 
       gen_width = if instance[:width]
         instance[:width].to_f
@@ -188,6 +169,7 @@ module Jekyll
       else
         orig_width
       end
+
       gen_height = if instance[:height]
         instance[:height].to_f
       elsif instance[:width]
@@ -195,6 +177,7 @@ module Jekyll
       else
         orig_height
       end
+
       gen_ratio = gen_width/gen_height
 
       # Don't allow upscaling. If the image is smaller than the requested dimensions, recalculate.
@@ -203,11 +186,6 @@ module Jekyll
         gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
         gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
       end
-      
-      # Don't process SVG images
-      if ext == ".svg"
-        svg = true
-      end
 
       gen_name = "#{basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{ext}"
       gen_dest_dir = File.join(site_dest, image_dest, image_dir)
@@ -215,23 +193,21 @@ module Jekyll
 
       # Generate resized files
       unless File.exists?(gen_dest_file)
-        warn "Warning:".yellow + " #{instance[:src]} is an SVG. It will not be resized." if svg
 
-        # If the destination directory doesn't exist, create it
+        warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
+
+        #  If the destination directory doesn't exist, create it
         FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
 
-        unless svg
-          warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
+        # Let people know their images are being generated
+        puts "Generating bitmap #{gen_name}"
 
-          # Let people know their images are being generated
-          puts "Generating #{gen_name}"
-
-          # Scale and crop
-          image.combine_options do |i|
-            i.resize "#{gen_width}x#{gen_height}^"
-            i.gravity "center"
-            i.crop "#{gen_width}x#{gen_height}+0+0"
-          end
+        image = MiniMagick::Image.open(File.join(site_source, image_source, instance[:src]))
+        # Scale and crop
+        image.combine_options do |i|
+          i.resize "#{gen_width}x#{gen_height}^"
+          i.gravity "center"
+          i.crop "#{gen_width}x#{gen_height}+0+0"
         end
 
         image.write gen_dest_file
@@ -240,6 +216,34 @@ module Jekyll
       # Return path relative to the site root for html
       Pathname.new(File.join(baseurl, image_dest, image_dir, gen_name)).cleanpath
     end
+
+
+    def generate_vector(instance, site_source, site_dest, image_source, image_dest, baseurl)
+      digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
+      image_dir = File.dirname(instance[:src])
+      ext = File.extname(instance[:src])
+      basename = File.basename(instance[:src], ext)
+
+      gen_name = "#{basename}--#{digest}#{ext}"
+      gen_dest_dir = File.join(site_dest, image_dest, image_dir)
+      gen_dest_file = File.join(gen_dest_dir, gen_name)
+
+      # Generate resized files
+      unless File.exists?(gen_dest_file)
+        # If the destination directory doesn't exist, create it
+        FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
+
+        # Let people know their images are being generated
+        puts "Generating vector #{gen_name}"
+
+        image = File.join(site_source, image_source, instance[:src])
+        FileUtils.copy(image, gen_dest_file)
+      end
+
+      # Return path relative to the site root for html
+      Pathname.new(File.join(baseurl, image_dest, image_dir, gen_name)).cleanpath
+    end
+
   end
 end
 
