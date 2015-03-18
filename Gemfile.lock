@@ -23,6 +23,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.7)
     autoprefixer-rails (5.1.7)
       execjs
       json
@@ -37,6 +38,8 @@ GEM
     execjs (2.4.0)
     exiftool (0.6.0)
       json
+    fastimage (1.6.8)
+      addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.8)
     formatador (0.2.5)
     guard (2.12.5)
@@ -148,6 +151,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   exiftool
+  fastimage
   guard
   guard-jekyll-plus
   guard-livereload
