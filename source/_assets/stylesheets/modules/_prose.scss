@@ -41,22 +41,22 @@
         margin-bottom: ($u__baseline / 2);
     }
 
-    pre,
-    blockquote,
-    table,
-    fieldset,
-    div[class*="highlighter-"],
+    > pre,
+    > blockquote,
+    > table,
+    > fieldset,
+    [class*="highlighter-"],
     .embed,
     .figure {
         margin-top: ($u__baseline * 2);
         margin-bottom: ($u__baseline * 2);
     }
 
-    pre {
+    > pre {
         @include fs--english;
     }
 
-    blockquote {
+    > blockquote {
         @include ff--sans-serif;
         border-left: 0.5rem solid $c__neutral--8; // 8px
         padding-left: 0.75rem; // 12px
