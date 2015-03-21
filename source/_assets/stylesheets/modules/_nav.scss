@@ -26,14 +26,12 @@
     }
 
     .nav__item {
-        float: left;
-        margin-right: gutter();
-        width: span(1 of 4);
+        @include span(1 of 4);
 
         @include susy-media($b__a) {
             display: inline-block;
             float: none;
-            margin-right: 0;
+            margin-right: gutter();
             text-align: right;
         }
 
@@ -51,6 +49,7 @@
     }
 
     .nav__item__label {
+        @include text-decoration-color('none');
         text-decoration: none;
     }
 }

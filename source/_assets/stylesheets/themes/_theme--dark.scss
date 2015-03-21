@@ -2,40 +2,22 @@
     Theme: Dark
     ========================================================================= */
 
-// Variables
-// https://color.adobe.com/forge-color-theme-5030599/
-$theme__background: #332633;
-$theme__accent: #fc9656;
-$theme__text: #fff;
-$theme__mute: #634c53;
-
-/* Adjustments */
 .theme--dark {
-    background-color: $theme__background;
-    color: $theme__text;
+    background-color: $c__identity--1;
+    //background: linear-gradient(-17deg, $c__identity--1, $c__identity--2);
+    color: $c__neutral--9;
 
     a {
-        color: $theme__text;
+        @include text-decoration-color($c__neutral--9);
+        color: #fff;
     }
 
     .banner__logo {
-        fill: $theme__accent;
-    }
-
-    .main,
-    .contentinfo {
-        a {
-            @include text-decoration-color($theme__text, $theme__background);
-        }
-    }
-
-    .navigation,
-    .contentinfo {
-        border-color: $theme__mute;
+        fill: #fff;
     }
 
     .index__title,
     .section__title {
-        color: $theme__accent;
+        color: $c__neutral--9;
     }
 }

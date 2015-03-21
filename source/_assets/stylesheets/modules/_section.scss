@@ -3,7 +3,8 @@
     ========================================================================= */
 
 .section {
-    margin-bottom: ($u__baseline * 2);
+    margin-top: ($u__baseline * 1.5);
+    margin-bottom: ($u__baseline * 1.5);
     overflow: hidden;
 }
 
@@ -48,6 +49,10 @@
         &::after {
             content: ',';
         }
+    }
+
+    .p-name {
+        @include text-decoration-color('none');
     }
 }
 
