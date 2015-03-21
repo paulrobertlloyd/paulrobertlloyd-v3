@@ -56,8 +56,7 @@
 
 
 /* Series navigation */
-.nav--series,
-.nav--years {
+.nav--series {
     @include ff--sans-serif();
 
     .nav__item__label {
