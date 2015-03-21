@@ -16,7 +16,7 @@
     });
 
     win.Promise
-        .all([charterRegular.check(), charterItalic.check()])
+        .all([charterRegular.check, charterItalic.check])
         .then(function () {
             doc.documentElement.className += ' fonts-loaded';
             win.enhance.cookie('fonts-loaded', !0, 7);
