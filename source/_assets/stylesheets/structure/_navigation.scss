@@ -15,9 +15,9 @@
     }
 
     &::after {
-        content: '';
         display: block;
-        border-top: 2px solid;
         opacity: 0.5;
+        border-top: 2px solid;
+        content: '';
     }
 }
