@@ -12,13 +12,16 @@
     {% if page_section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
     {% if page_section == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
     {% if page_section != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
-    <link rel="icon" type="image/ico" href="{% asset_path favicon.ico %}"/>
-    <link rel="apple-touch-icon" type="image/png" href="{% asset_path apple-touch-icon.png %}"/>
+    <link rel="shortcut icon" type="image/ico" href="{% asset_path favicon.ico %}"/>
+    <link rel="shortcut icon apple-touch-icon" type="image/png" href="{% asset_path icon.png %}"/>
+    <link rel="manifest" href="manifest.json"/>
 
     <meta charset="utf-8"/>
     <meta name="author" content="{{ site.author.name }}"/>
     <meta name="referrer" content="origin"/>
     <meta name="robots" content="index, follow"/>
+    <meta name="theme-color" content="#1122cc">
+    <meta name="application-name" content="{{ site.title }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="fulljs" content="{% asset_path global.js %}">
 
