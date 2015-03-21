@@ -34,18 +34,17 @@ kramdown:
 # Assets
 assets:
   sources:
-    - _assets/fonts
-    - _assets/icons
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/vectors
+    - assets/_fonts
+    - assets/_icons
+    - assets/_javascripts
+    - assets/_stylesheets
+    - assets/_vectors
   css_compressor: sass
   js_compressor: uglifier
 
 # Images
 picture:
-  source: _images
-  output: assets/images
+  cdn_url: //images.paulrobertlloyd.dev
   markup: img
   presets:
     default:
@@ -76,6 +75,7 @@ picture:
         class: img img--showcase
       source_large:
         width: 1024
+        quality: 90
       source_medium:
         width: 768
       source_default:

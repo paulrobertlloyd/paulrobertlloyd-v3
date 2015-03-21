@@ -1,5 +1,6 @@
 env: production
 url: //v3.paulrobertlloyd.com
+image_url: //images.v3.paulrobertlloyd.com
 
 # Assets
 assets:

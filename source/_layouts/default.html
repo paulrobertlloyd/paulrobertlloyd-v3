@@ -7,6 +7,7 @@
 <!--#endif -->
 <head>
     <link rel="dns-prefetch" href="//hello.myfonts.net"/>
+    <link rel="dns-prefetch" href="{{ site.image_url }}"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
     {% if page_section == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
     {% if page_section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
@@ -31,7 +32,7 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
-    {% if page.image %}<meta name="twitter:image" content="{{ site.img_url }}/assets/images{{ page.image.url }}"/>{% endif %}
+    {% if page.image %}<meta name="twitter:image" content="{{ site.img_url }}/180w/80/{{ page.image.url }}"/>{% endif %}
 {% endif %}
 
     <script>

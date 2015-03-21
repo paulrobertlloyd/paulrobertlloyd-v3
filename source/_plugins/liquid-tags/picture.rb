@@ -18,9 +18,6 @@
 
 require 'fileutils'
 require 'pathname'
-require 'digest/md5'
-require 'mini_magick'
-require 'fastimage'
 
 module Jekyll
   class PictureTag < Liquid::Tag
@@ -39,17 +36,22 @@ module Jekyll
       site = context.registers[:site]
       settings = site.config['picture']
       markup = /^(?:(?<preset>[^\s.:\/]+)\s+)?(?<image_src>[^\s]+\.[a-zA-Z0-9]{3,4})\s*(?<source_src>(?:(source_[^\s.:\/]+:\s+[^\s]+\.[a-zA-Z0-9]{3,4})\s*)+)?(?<html_attr>[\s\S]+)?$/.match(render_markup)
-      preset = settings['presets'][ markup[:preset] ] || settings['presets']['default']
+      preset = settings['presets'][markup[:preset]] || settings['presets']['default']
 
       raise "Picture Tag can't read this tag. Try {% picture [preset] path/to/img.jpg [source_key: path/to/alt-img.jpg] [attr=\"value\"] %}." unless markup
 
       # Assign defaults
-      settings['source'] ||= '.'
-      settings['output'] ||= 'generated'
       settings['markup'] ||= 'picturefill'
+      settings['quality'] ||= '80'
 
-      # Prevent Jekyll from erasing our generated files
-      site.config['keep_files'] << settings['output'] unless site.config['keep_files'].include?(settings['output'])
+      # Assign defaults for image generation
+      if !settings['generate'].nil?
+        settings['generate']['source'] ||= '.'
+        settings['generate']['output'] ||= 'generated'
+
+        # Prevent Jekyll from erasing our generated files
+        site.config['keep_files'] << settings['generate']['output'] unless site.config['keep_files'].include?(settings['generate']['output'])
+      end
 
       # Deep copy preset for single instance manipulation
       instance = Marshal.load(Marshal.dump(preset))
@@ -59,14 +61,6 @@ module Jekyll
         Hash[ *markup[:source_src].gsub(/:/, '').split ]
       else
         {}
-      end
-
-      # Get file extension 
-      file_extension = File.extname(markup[:image_src])
-
-      # Check for SVG
-      if file_extension == ".svg"
-        svg = true
       end
 
       # Process html attributes
@@ -93,15 +87,20 @@ module Jekyll
         end
       }
 
-      # Switch width and height keys to the symbols that generate_image() expects
+      # Switch width and height keys to the symbols generate_image() expects
+      # Get quality or use default setting
       instance.each { |key, source|
         raise "Preset #{key} is missing a width or a height" if !source['width'] and !source['height']
         instance[key][:width] = instance[key].delete('width') if source['width']
         instance[key][:height] = instance[key].delete('height') if source['height']
+        instance[key][:quality] =  source['quality'] || settings['quality']
       }
 
       # Store keys in an array for ordering the instance sources
       source_keys = instance.keys
+
+      # Get file extension
+      source_ext = File.extname(markup[:image_src])
 
       # Used to escape markdown parsing rendering below
       markdown_escape = "\ "
@@ -115,12 +114,12 @@ module Jekyll
         instance[key][:src] = source_src[key] || markup[:image_src]
       }
 
-      # Generate resized/renamed images and vectors
+      # Generate path to resized image
       instance.each { |key, source|
-        unless svg
-          instance[key][:generated_src] = generate_image('bitmap', source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
+        if !settings['generate'].nil?
+          instance[key][:generated_src] = generate_image(source, site.source, site.dest, settings['generate']['source'], settings['generate']['output'], site.config["baseurl"])
         else
-          instance[key][:generated_src] = generate_image('vector', source, site.source, site.dest, settings['source'], settings['output'], site.config["baseurl"])
+          instance[key][:generated_src] = generate_path(source, settings["cdn_url"])
         end
       }
 
@@ -138,7 +137,7 @@ module Jekyll
                       "</picture>\n"
 
       elsif settings['markup'] == 'img'
-        unless svg
+        unless source_ext == ".svg"
           source_tags = ''
           source_keys.each { |source|
             source_tags += "#{instance[source][:generated_src]} #{instance[source][:width]}w,"
@@ -154,14 +153,31 @@ module Jekyll
     end
 
 
-    def generate_image(image_type, instance, site_source, site_dest, image_source, image_dest, baseurl)
+    def generate_path(instance, cdnurl)
+      img_src = instance[:src]
+      img_width = instance[:width]
+      img_quality = instance[:quality]
+
+      gen_name = "#{img_width}w/#{img_quality}#{img_src}"
+
+      # Return path relative to the CDN location
+      Pathname.new(File.join(cdnurl, gen_name))
+    end
+
+
+    def generate_image(instance, site_source, site_dest, image_source, image_dest, baseurl)
+      require 'digest/md5'
+      require 'mini_magick'
+      require 'fastimage'
+
       digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
 
       image_dir = File.dirname(instance[:src])
       ext = File.extname(instance[:src])
       basename = File.basename(instance[:src], ext)
+      img_quality = instance[:quality]
 
-      if image_type == 'bitmap'
+      unless ext == '.svg'
         size = FastImage.size(File.join(site_source, image_source, instance[:src]))
         orig_width = size[0]
         orig_height = size[1]
@@ -206,7 +222,7 @@ module Jekyll
         #  If the destination directory doesn't exist, create it
         FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
 
-        if image_type == 'bitmap'
+        unless ext == '.svg'
           warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
 
           # Let people know their images are being generated
@@ -219,7 +235,7 @@ module Jekyll
             i.resize "#{gen_width}x#{gen_height}^"
             i.gravity "center"
             i.crop "#{gen_width}x#{gen_height}+0+0"
-            i.quality "85"
+            i.quality "#{img_quality}"
             i.interlace "plane"
           end
 
