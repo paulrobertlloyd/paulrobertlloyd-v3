@@ -1,6 +1,5 @@
 ---
 layout: page
-theme: dark
 title: Contact
 permalink: /contact/
 ---

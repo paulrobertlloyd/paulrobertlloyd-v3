@@ -149,34 +149,17 @@
 }
 
 
-// Text shadow
-@mixin text-decoration-background($color) {
-    text-shadow: 0.03em 0 $color, -0.03em 0 $color, 0 0.03em $color, 0 -0.03em $color, 0.06em 0 $color, -0.06em 0 $color, 0.09em 0 $color, -0.09em 0 $color, 0.12em 0 $color, -0.12em 0 $color;
-}
-
-
 // Text underline colour
-@mixin text-decoration-color($color, $background: 'inherit') {
+@mixin text-decoration-color($color) {
     @if $color != 'none' {
-        @include text-decoration-background($background);
-        background-image: linear-gradient(to bottom, $background 50%, rgba($color, 0.66) 50%);
+        background-image: linear-gradient(to bottom, transparent 50%, rgba($color, 0.66) 50%);
         background-repeat: repeat-x;
-        background-position: 0% 85%;
-        background-size: 0.05em 1px;
+        background-position: 0% 88%;
+        background-size: 0.5em 1px;
         text-decoration: none;
         color: $color;
-
-        &::selection {
-            @include text-decoration-background($c__selection);
-        }
-
-        &:before,
-        &:after,
-        *,
-        *:before,
-        *:after {
-            text-shadow: none;
-        }
+    } @else {
+        background-image: none;
     }
 }
 
