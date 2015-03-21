@@ -2,20 +2,12 @@
     Figure
     ========================================================================= */
 .figure {
-    @include clearfix;
     position: relative; // Helps position exif-info to bottom of figure__caption
-    margin-right: 0;
-    margin-left: 0;
-
-    &.l-pull-right,
-    &.l-pull-left,
-    &.l-align-right,
-    &.l-align-left {
-        margin-top: 0;
-    }
+    margin: ($u__baseline * 2) 0;
 }
 
 .figure__main {
+    @include clearfix;
     margin-bottom: ($u__baseline / 2);
     overflow: hidden;
 }

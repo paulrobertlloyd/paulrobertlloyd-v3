@@ -52,34 +52,34 @@ picture:
       attr:
         class: img img--default
       source_medium:
-        width: 800
+        width: 768
       source_default:
-        width: 400
+        width: 480
     thumbnail:
       attr:
         class: img img--thumbnail
         sizes: '33vw'
       source_medium:
-        width: 400
+        width: 480
       source_default:
-        width: 200
+        width: 240
     supporting:
       attr:
         class: img img--supporting
         sizes: '(min-width: 32em) 40vw, 100vw'
       source_medium:
-        width: 800
+        width: 768
       source_default:
-        width: 400
+        width: 480
     showcase:
       attr:
         class: img img--showcase
       source_large:
-        width: 1200
+        width: 1024
       source_medium:
-        width: 800
+        width: 768
       source_default:
-        width: 400
+        width: 480
 
 # Defaults
 defaults:

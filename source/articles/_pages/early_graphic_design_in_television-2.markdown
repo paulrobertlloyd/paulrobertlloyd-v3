@@ -71,16 +71,8 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-{% figure figure--image-trio "Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967). [Watch on YouTube](https://www.youtube.com/watch?v=eGnpJ_KdqZE)" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4a.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4b.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4c.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4d.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4e.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4f.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4g.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4h.png alt="Still from ident" %}
-{% picture thumbnail /articles/early_graphic_design_in_television/figure-4i.png alt="Still from ident" %}
+{% figure figure--image-trio "Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967)" %}
+{% embed https://www.youtube.com/watch?v=eGnpJ_KdqZE %}
 {% endfigure %}
 
 Bass had most influence on the early graphic designers in television due to the fact that it was a new medium with precedents for design having to be found elsewhere. Often this was from print but Bass was the only one who provided a potential influence. However, his influence was often hard to emulate on television with its many technical, time and budgetary constraints. In fact it was also difficult for them to find inspiration from anything they, their colleagues or their predecessors produced, because for a long time video was not used to keep a record of programme output. Advertisers also found they had the same problems when they encountered the moving image with the arrival of commercial television in 1955.

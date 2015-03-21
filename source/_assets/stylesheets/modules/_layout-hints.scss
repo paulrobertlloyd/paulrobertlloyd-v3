@@ -5,17 +5,20 @@
 // Align element right or left
 .l-align-right {
     @include span(1.5 of 6 last);
+    margin-top: ($u__baseline / 2);
     margin-left: gutter();
 }
 
 .l-align-left {
     @include span(2 of 6);
+    margin-top: ($u__baseline / 2);
 }
 
 // Pull element right or left
 .l-pull-right {
     @include susy-media($b__a) {
         @include span(3 of 6 last);
+        margin-top: ($u__baseline / 2);
         margin-right: -(span(1 wider));
         margin-left: gutter();
     }
@@ -24,6 +27,7 @@
 .l-pull-left {
     @include susy-media($b__a) {
         @include span(3 of 6);
+        margin-top: 0;
         margin-right: gutter();
         margin-left: -(span(1 wider));
     }
