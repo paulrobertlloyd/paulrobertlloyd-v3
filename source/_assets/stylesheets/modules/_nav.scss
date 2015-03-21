@@ -63,6 +63,7 @@
 
     .nav__item__label {
         @include fs--english;
+        @include text-decoration-color($color: 'none');
         display: block;
         border-top: 1px solid;
         padding-top: ($u__baseline / 4);

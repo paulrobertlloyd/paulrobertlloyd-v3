@@ -198,7 +198,6 @@ module Jekyll
         gen_name = "#{basename}--#{digest}#{ext}"
       end
 
-      #gen_name = "#{basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{ext}"
       gen_dest_dir = File.join(site_dest, image_dest, image_dir)
       gen_dest_file = File.join(gen_dest_dir, gen_name)
 
@@ -214,11 +213,14 @@ module Jekyll
           puts "Generating bitmap: #{gen_name}"
 
           image = MiniMagick::Image.open(File.join(site_source, image_source, instance[:src]))
-          # Scale and crop
+
+          # Scale, crop, adjust quality and make progressive
           image.combine_options do |i|
             i.resize "#{gen_width}x#{gen_height}^"
             i.gravity "center"
             i.crop "#{gen_width}x#{gen_height}+0+0"
+            i.quality "85"
+            i.interlace "plane"
           end
 
           image.write gen_dest_file

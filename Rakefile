@@ -36,8 +36,10 @@ task :deploy => :build do
   server = "paulrobertlloyd.com"
   path = "/home/prlloyd/webapps/paulrobertlloyd_v3"
   sh "rsync -hvrt #{destination} #{user}@#{server}:#{path}"
-  sh "rsync -hvrt #{config} #{user}@#{server}:#{path}"
-  puts 'Your website is now published!'
+  sh "rsync -hvrt --delete-after #{config} #{user}@#{server}:#{path}"
+  puts "Your website is now published!"
+  # sh "nginx -s reload"
+  # puts "Server restarted"
 end
 
 

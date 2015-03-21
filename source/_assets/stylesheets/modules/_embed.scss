@@ -6,6 +6,7 @@
     position: relative;
     padding-bottom: percentage(9/16);
     height: 0;
+    margin: ($u__baseline * 2) 0;
 
     .embed__iframe {
         position: absolute;

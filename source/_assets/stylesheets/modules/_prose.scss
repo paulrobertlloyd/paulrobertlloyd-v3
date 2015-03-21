@@ -44,10 +44,7 @@
     > pre,
     > blockquote,
     > table,
-    > fieldset,
-    [class*="highlighter-"],
-    .embed,
-    .figure {
+    > fieldset {
         margin-top: ($u__baseline * 2);
         margin-bottom: ($u__baseline * 2);
     }

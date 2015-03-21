@@ -156,7 +156,7 @@
 
 
 // Text underline colour
-@mixin text-decoration-color($color, $background) {
+@mixin text-decoration-color($color, $background: 'inherit') {
     @if $color != 'none' {
         @include text-decoration-background($background);
         background-image: linear-gradient(to bottom, $background 50%, rgba($color, 0.66) 50%);
