@@ -1,0 +1,11 @@
+---
+---
+{
+    "name": "{{ site.title }}",
+    "icons": [{
+        "src": "{% asset_path icon.png %}",
+        "sizes": "192x192"
+    }],
+    "display": "standalone",
+    "start_url": "./"
+}
