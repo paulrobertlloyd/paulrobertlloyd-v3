@@ -5,7 +5,6 @@ Source files to build my personal website, currently in development.
 ## System requirements
 
 * Ruby 2.0.0 or higher
-* ImageMagick (`brew install ImageMagick`)
 * ExifTool (`brew install ExifTool`)
 * nginx (`brew install nginx`)
 
