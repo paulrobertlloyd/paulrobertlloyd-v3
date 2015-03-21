@@ -3,7 +3,7 @@
 {
     "name": "{{ site.title }}",
     "icons": [{
-        "src": "{% asset_path icon.png %}",
+        "src": "{% asset_path icon--192x192.png %}",
         "sizes": "192x192"
     }],
     "display": "standalone",
