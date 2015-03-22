@@ -25,7 +25,7 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :build do
-  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
+  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml --full-rebuild"
 end
 
 
@@ -35,7 +35,7 @@ task :deploy => :build do
   user = "prlloyd"
   server = "paulrobertlloyd.com"
   path = "/home/prlloyd/webapps/paulrobertlloyd_v3"
-  sh "rsync -hvrt #{destination} #{user}@#{server}:#{path}"
+  sh "rsync -hvrt --delete-after #{destination} #{user}@#{server}:#{path}"
   sh "rsync -hvrt --delete-after #{config} #{user}@#{server}:#{path}"
   puts "Your website is now published!"
   # sh "nginx -s reload"

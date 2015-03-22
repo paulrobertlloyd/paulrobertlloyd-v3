@@ -1,9 +1,12 @@
 env: production
 url: //v3.paulrobertlloyd.com
-image_url: //images.v3.paulrobertlloyd.com
 
 # Assets
 assets:
   gzip: false
   cache: true
   cachebust: hard
+
+# Picture
+picture:
+  url: //images.v3.paulrobertlloyd.com

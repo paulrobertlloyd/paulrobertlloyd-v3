@@ -119,7 +119,7 @@ module Jekyll
         if !settings['generate'].nil?
           instance[key][:generated_src] = generate_image(source, site.source, site.dest, settings['generate']['source'], settings['generate']['output'], site.config["baseurl"])
         else
-          instance[key][:generated_src] = generate_path(source, settings["cdn_url"])
+          instance[key][:generated_src] = generate_path(source, settings["url"])
         end
       }
 
