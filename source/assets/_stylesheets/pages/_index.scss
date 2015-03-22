@@ -17,6 +17,7 @@
 
     .section__header {
         @include span(1 of 6);
+        margin-top: ($u__baseline * 1.5);
     }
 
     .section__main {

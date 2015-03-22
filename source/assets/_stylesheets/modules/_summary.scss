@@ -4,7 +4,8 @@
 
 .summary {
     display: flex;
-    margin-bottom: $u__baseline;
+    margin-top: ($u__baseline * 1.5);
+    margin-bottom: ($u__baseline * 1.5);
     flex-direction: column;
 
     @include susy-media($b__a) {
@@ -33,16 +34,9 @@
     @include caption;
 }
 
-/* Entry summary */
-.summary--entry {
-    .summary__title {
-        @include fs--canon;
-    }
-}
-
 /* Link summary */
 .summary--link {
-    .summary__link::after {
+    a[href^="http://"]::after {
         content: ' \2192';
     }
 }

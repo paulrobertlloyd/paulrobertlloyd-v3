@@ -29,18 +29,23 @@
 
 .page__intro {
     @include page-container;
-    order: 3;
+    order: 4;
 }
 
 .page__media {
     @include page-container;
     margin-bottom: ($u__baseline * 2);
-    order: 4;
+    order: 3;
 }
 
 .page__main {
+    @include ff--serif;
     @include page-container;
     order: 5;
+
+    @include susy-media($b__c) {
+        @include fs--great-primer($line-height: (28/18));
+    }
 }
 
 .page__title {

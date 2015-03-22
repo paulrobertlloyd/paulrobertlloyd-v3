@@ -3,12 +3,7 @@
     ========================================================================= */
 
 .prose {
-    @include ff--serif;
     font-feature-settings: 'liga', 'dlig', 'onum';
-
-    @include susy-media($b__c) {
-        @include fs--great-primer($line-height: (28/18));
-    }
 
     h2 {
         @include ff--sans-serif(700);
@@ -45,8 +40,8 @@
     > blockquote,
     > table,
     > fieldset {
-        margin-top: ($u__baseline * 2);
-        margin-bottom: ($u__baseline * 2);
+        margin-top: ($u__baseline * 1.5);
+        margin-bottom: ($u__baseline * 1.5);
     }
 
     > pre {
@@ -55,8 +50,19 @@
 
     > blockquote {
         @include ff--sans-serif;
-        border-left: 0.5rem solid $c__neutral--8; // 8px
-        padding-left: 0.75rem; // 12px
+        position: relative;
+        padding-left: 1.25rem; // 20px
+
+        &:before {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0.1;
+            border-left: 0.5em solid; // 8px
+            content: '';
+        }
     }
 
     strong {

@@ -4,9 +4,11 @@
     ========================================================================= */
 
 a {
+    text-decoration: none;
+
     &:active,
     &:hover {
-    /*  Improve readability when focused and also mouse hovered in all browsers */
+    /*  Improve readability when focused and mouse hovered in all browsers */
         outline: 0;
     }
 
