@@ -9,9 +9,9 @@ theme: dark
         </header>
 
         <div class="section__main">
-            {% if section.class == 'intro' %}<div class="lede">{% endif %}
+            <div class="prose{% if section.class == 'intro' %} lede{% endif %}">
                 {{ section.text | markdownify | typogrify }}
-            {% if section.class == 'intro' %}</div>{% endif %}
+            </div>
         </div>
     </section>
 {% endfor %}

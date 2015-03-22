@@ -10,7 +10,7 @@
     </header>
 
     <div class="summary__main  p-summary">
-        <div class="{% if section.class == 'entry' %}lede  {% endif %}e-content">
+        <div class="prose{% if section.layout == 'entry' %} lede{% endif %}  e-content">
             {% if summary.link-embed == "photo" %}
                 {% embed {{ summary.link }} %}
             {% endif %}

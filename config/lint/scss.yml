@@ -1,6 +1,6 @@
 exclude:
-  - '../../source/_assets/stylesheets/vendor/**'
-  - '../../source/_assets/javascripts/vendor/**'
+  - '../../source/assets/_stylesheets/vendor/**'
+  - '../../source/assets/_javascripts/vendor/**'
 
 linters:
   Comment:

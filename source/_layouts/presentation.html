@@ -8,19 +8,21 @@ layout: default
 
     {% if page.link %}
     <div class="page__media">
-        <!-- embed {{ page.link }} -->
+        {% embed {{ page.link }} %}
     </div>
     {% endif %}
 
-    <div class="page__main">
+    <div class="page__intro">
         {% if page.meta %}
             {% include content/meta--presentation.html %}
         {% endif %}
 
-        <p class="page__intro  p-summary">
-            {{ page.excerpt }}
-        </p>
+        <div class="prose lede  p-summary">
+            {{ page.excerpt | markdownify | typogrify }}
+        </div>
+    </div>
 
+    <div class="page__main">
         <div class="prose  e-content">
             {{ content | typogrify }}
         </div>

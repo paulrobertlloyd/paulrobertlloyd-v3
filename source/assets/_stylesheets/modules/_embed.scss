@@ -4,7 +4,7 @@
 
 .embed {
     position: relative;
-    margin: ($u__baseline * 2) 0;
+    margin: ($u__baseline * 1.5) 0;
     padding-bottom: percentage(9/16);
     height: 0;
 
@@ -24,5 +24,6 @@
 }
 
 .embed--slidedeck {
+    background-color: $c__neutral--1;
     padding-bottom: percentage(3/4);
 }

@@ -47,11 +47,6 @@
     .nav__item:last-child {
         margin-right: 0;
     }
-
-    .nav__item__label {
-        @include text-decoration-color('none');
-        text-decoration: none;
-    }
 }
 
 
