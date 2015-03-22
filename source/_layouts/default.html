@@ -13,6 +13,7 @@
     {% if page_section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
     {% if page_section == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
     {% if page_section != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
+
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
     <link rel="apple-touch-icon" type="image/png" href="{% asset_path icon--192x192.png %}"/>
     <link rel="manifest" href="/manifest.json"/>
@@ -24,6 +25,7 @@
     <meta name="theme-color" content="#1122cc">
     <meta name="application-name" content="{{ site.title }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="fullcss"  content="{% asset_path global.css %}">
     <meta name="fulljs" content="{% asset_path global.js %}">
 
 {% if page.path contains '_posts' %}
@@ -35,17 +37,24 @@
     {% if page.image %}<meta name="twitter:image" content="{{ site.img_url }}/180w/80/{{ page.image.url }}"/>{% endif %}
 {% endif %}
 
-    <script>
-        {% asset head.js %}
-    </script>
-
-    {% stylesheet global %}
+    <noscript><link rel="stylesheet" href="{% asset_path global.css %}"></noscript>
+<!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
+    <link rel="stylesheet" href="{% asset_path global.css %}"/>
+<!--#else -->
+    <style>
+        {% asset critical.css %}
+    </style>
+<!--#endif -->
 
 {% if page.style %}
     <style>
         {{ page.style }}
     </style>
 {% endif %}
+
+    <script>
+        {% asset head.js %}
+    </script>
 
     <title>{% if page.title %}{% include structure/title.html %} / {% endif %}{{ site.title }}</title>
 </head>

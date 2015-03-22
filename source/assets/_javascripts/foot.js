@@ -1,3 +1,6 @@
+//= require vendor/promis/promise
+// = require vendor/fontfaceobserver/fontfaceobserver
+
 (function (win, doc) {
     'use strict';
 
