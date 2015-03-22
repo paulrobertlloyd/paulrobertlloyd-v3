@@ -34,7 +34,6 @@
 
 .page__media {
     @include page-container;
-    margin-bottom: ($u__baseline * 2);
     order: 3;
 }
 
