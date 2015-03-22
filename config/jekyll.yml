@@ -42,9 +42,8 @@ assets:
   css_compressor: sass
   js_compressor: uglifier
 
-# Images
+# Pictures
 picture:
-  cdn_url: //images.paulrobertlloyd.dev
   markup: img
   presets:
     default:

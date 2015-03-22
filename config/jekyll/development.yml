@@ -1,9 +1,12 @@
 env: development
 url: //paulrobertlloyd.dev
-image_url: //images.paulrobertlloyd.dev
 
 # Assets
 assets:
   gzip: false
   cache: ../.jekyll-assets-cache
   cachebust: none
+
+# Picture
+picture:
+  url: //images.paulrobertlloyd.dev
