@@ -13,9 +13,9 @@
     {% if page_section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
     {% if page_section == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
     {% if page_section != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
     <link rel="apple-touch-icon" type="image/png" href="{% asset_path icon--192x192.png %}"/>
-    <link rel="manifest" href="manifest.json"/>
+    <link rel="manifest" href="/manifest.json"/>
 
     <meta charset="utf-8"/>
     <meta name="author" content="{{ site.author.name }}"/>

@@ -4,12 +4,14 @@
 
 .theme--dark {
     background-color: $c__identity--1;
-    //background: linear-gradient(-17deg, $c__identity--1, $c__identity--2);
     color: $c__neutral--9;
 
     a {
-        @include text-decoration-color($c__neutral--9);
         color: #fff;
+    }
+
+    .prose a {
+        @include text-decoration-color($c__neutral--9);
     }
 
     .banner__logo {

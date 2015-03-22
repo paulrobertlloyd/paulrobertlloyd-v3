@@ -45,12 +45,14 @@ assets:
 # Pictures
 picture:
   markup: img
+  quality: 75
   presets:
     default:
       attr:
         class: img img--default
       source_medium:
         width: 768
+        quality: 80
       source_default:
         width: 480
     thumbnail:
@@ -67,6 +69,7 @@ picture:
         sizes: '(min-width: 32em) 40vw, 100vw'
       source_medium:
         width: 768
+        quality: 80
       source_default:
         width: 480
     showcase:
@@ -74,9 +77,10 @@ picture:
         class: img img--showcase
       source_large:
         width: 1024
-        quality: 90
+        quality: 85
       source_medium:
         width: 768
+        quality: 80
       source_default:
         width: 480
 
