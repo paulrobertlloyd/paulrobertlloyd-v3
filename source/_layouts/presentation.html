@@ -26,9 +26,9 @@ layout: default
         <div class="prose  e-content">
             {{ content | typogrify }}
         </div>
-
-        {% if page.tags %}
-            {% include sections/tags.html %}
-        {% endif %}
     </div>
+
+    {% if page.tags %}
+        {% include page/tags.html %}
+    {% endif %}
 </article>

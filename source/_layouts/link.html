@@ -22,15 +22,15 @@ layout: default
                 </aside>
             {% endif %}
         </div>
-
-        {% if page.tags %}
-            {% include sections/tags.html %}
-        {% endif %}
-
-        {% if page.discussion %}
-            {% include sections/discussion.html %}
-        {% endif %}
     </div>
+
+    {% if page.discussion %}
+        {% include page/discussion.html %}
+    {% endif %}
+
+    {% if page.tags %}
+        {% include page/tags.html %}
+    {% endif %}
 
     <footer class="page__footer">
         <span class="audible">Published on</span>

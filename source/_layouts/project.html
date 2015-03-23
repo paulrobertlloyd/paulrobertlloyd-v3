@@ -14,7 +14,7 @@ layout: default
     </header>
 
     <div class="page__intro">
-        <div class="lede  p-summary">
+        <div class="prose lede  p-summary">
             {{ page.excerpt | markdownify | typogrify }}
         </div>
     </div>
@@ -27,9 +27,9 @@ layout: default
 
             {{ content | typogrify }}
         </div>
-
-        {% if page.tags %}
-            {% include sections/tags.html %}
-        {% endif %}
     </div>
+
+    {% if page.tags %}
+        {% include page/tags.html %}
+    {% endif %}
 </article>

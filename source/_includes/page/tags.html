@@ -1,0 +1,9 @@
+<section class="page__tags" aria-labelledby="tags">
+    <h1 class="audible" id="tags">Tags</h1>
+
+    <ul class="list list--inline">
+    {% for tag in page.tags %}
+        <li class="list__item"><a rel="tag" class="tag  p-category" href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
+    {% endfor %}
+    </ul>
+</section>

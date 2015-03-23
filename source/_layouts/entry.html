@@ -22,29 +22,15 @@ layout: default
 
             {{ content | typogrify }}
         </div>
-
-        {% if page.tags %}
-            {% include sections/tags.html %}
-        {% endif %}
-
-        {% if page.discussion %}
-            {% include sections/discussion.html %}
-        {% endif %}
     </div>
 
-    <footer class="page__footer">
-        <span class="audible">Published on</span>
-        <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">
-            {{ page.date | date: '%e %B %Y' }}
-        </time>
+    {% if page.discussion %}
+        {% include page/discussion.html %}
+    {% endif %}
 
-        {% if page.location %}
-        <span class="audible">in</span>
-        {% assign post_location = page.location | split: ', ' %}
-        <span class="page__location  p-location h-adr">
-            <span class="p-locality">{{ post_location[0] }}</span>,
-            <span class="p-country-name">{{ post_location[1] }}</span>
-        </span>
-        {% endif %}
-    </footer>
+    {% if page.tags %}
+        {% include page/tags.html %}
+    {% endif %}
+
+    {% include page/footer.html %}
 </article>

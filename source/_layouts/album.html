@@ -21,19 +21,14 @@ layout: default
             {% enddirectory %}
         </div>
 
-        {% if page.tags %}
-            {% include sections/tags.html %}
-        {% endif %}
-
         {% if page.series %}
             {% include nav/series.html %}
         {% endif %}
     </div>
 
-    <footer class="page__footer">
-        <span class="audible">Published on</span>
-        <time class="page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">
-            {{ page.date | date: "%e %B %Y" }}
-        </time>
-    </footer>
+    {% if page.tags %}
+        {% include page/tags.html %}
+    {% endif %}
+
+    {% include page/footer.html %}
 </article>

@@ -4,6 +4,7 @@ title: 24 ways
 date: '2013-12-01'
 excerpt: Award-winning collaborative redesign for popular advent calendar for web geeks.
 permalink: /projects/24_ways
+theme: 24-ways
 hidden: true
 meta:
   client: Drew McLellan
