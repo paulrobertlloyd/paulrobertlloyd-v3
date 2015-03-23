@@ -1,11 +1,18 @@
 env: production
 url: //v3.paulrobertlloyd.com
 
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
 # Assets
 assets:
   gzip: false
   cache: true
   cachebust: hard
+  js_compressor: uglifier
 
 # Picture
 picture:

@@ -22,28 +22,31 @@
     function loadCSS(href, before, media) {
         var link = doc.createElement('link');
         var ref = before || doc.getElementsByTagName('script')[0];
-        var sheets = doc.styleSheets;
+        var sheets = window.document.styleSheets;
         link.rel = 'stylesheet';
         link.href = href;
         link.media = 'only x';
 
         ref.parentNode.insertBefore(link, ref);
 
-        function toggleMedia() {
+        link.onloadcssdefined = function (callback) {
             var defined;
-            for (var i = 0; i < sheets.length; i = i + 1){
-                if (sheets[i].href && sheets[i].href.indexOf(href) > -1) {
+            for (var i = 0; i < sheets.length; i = i + 1) {
+                if (sheets[ i ].href && sheets[i].href.indexOf(href) > -1) {
                     defined = true;
                 }
             }
             if (defined) {
-                link.media = media || 'all';
+                callback();
             } else {
-                setTimeout(toggleMedia);
+                setTimeout (function () {
+                    link.onloadcssdefined (callback);
+                });
             }
-        }
-
-        toggleMedia();
+        };
+        link.onloadcssdefined(function () {
+            link.media = media || 'all';
+        });
         return link;
     }
     enhance.loadCSS = loadCSS;

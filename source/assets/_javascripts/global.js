@@ -1,4 +1,5 @@
-//= require modules/page__location
-//= require modules/embed
-//= require modules/search
-//= require vendor/picturefill/dist/picturefill
+// = require modules/embed
+// = require modules/fonts
+// = require modules/page__location
+// = require modules/picture
+// = require modules/search

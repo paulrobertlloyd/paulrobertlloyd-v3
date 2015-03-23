@@ -1,5 +1,5 @@
-//= require vendor/scopedQuerySelector/src/scopedQuerySelectorShim
-
+// Move position of published location
+// = require vendor/scopedQuerySelector/src/scopedQuerySelectorShim
 (function (win, doc) {
     'use strict';
 

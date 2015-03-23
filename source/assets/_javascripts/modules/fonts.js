@@ -1,6 +1,6 @@
-//= require vendor/promis/promise
+// Load webfonts
+// = require vendor/promis/promise
 // = require vendor/fontfaceobserver/fontfaceobserver
-
 (function (win, doc) {
     'use strict';
 

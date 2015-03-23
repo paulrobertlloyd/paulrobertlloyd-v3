@@ -1,10 +1,13 @@
+---
+layout: compress
+---
 {% capture page_section %}{{ page.path | split:'/' | first | remove:'.html' }}{% endcapture %}
 <!DOCTYPE html>
-<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->
+<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
 <html lang="en-gb" class="fonts-loaded">
-<!--#else -->
+<!--#else-->
 <html lang="en-gb">
-<!--#endif -->
+<!--#endif-->
 <head>
     <link rel="dns-prefetch" href="//hello.myfonts.net"/>
     <link rel="dns-prefetch" href="{{ site.picture.url }}"/>
@@ -38,13 +41,13 @@
 {% endif %}
 
     <noscript><link rel="stylesheet" href="{% asset_path global.css %}"></noscript>
-<!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
+<!--#if expr="$HTTP_COOKIE=/fullcss\=true/"-->
     <link rel="stylesheet" href="{% asset_path global.css %}"/>
-<!--#else -->
+<!--#else-->
     <style>
         {% asset critical.css %}
     </style>
-<!--#endif -->
+<!--#endif-->
 
 {% if page.style %}
     <style>
@@ -64,8 +67,5 @@
     {% include structure/main.html %}
     {% include structure/navigation.html %}
     {% include structure/contentinfo.html %}
-    <script>
-        {% asset foot.js %}
-    </script>
 </body>
 </html>
