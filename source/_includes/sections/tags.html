@@ -1,9 +1,0 @@
-<section class="section section--topics" aria-labelledby="topics">
-    <h1 class="section__title audible" id="topics">Topics</h1>
-
-    <ul class="list list--inline list--topics">
-    {% for tag in page.tags %}
-        <li class="list__item"><a class="tag  p-category" href="/topics/{{ tag | slugify }}">{{ tag }}</a></li>
-    {% endfor %}
-    </ul>
-</section>

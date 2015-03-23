@@ -27,14 +27,14 @@
     order: 2;
 }
 
-.page__intro {
-    @include page-container;
-    order: 4;
-}
-
 .page__media {
     @include page-container;
     order: 3;
+}
+
+.page__intro {
+    @include page-container;
+    order: 4;
 }
 
 .page__main {
@@ -45,6 +45,16 @@
     @include susy-media($b__c) {
         @include fs--great-primer($line-height: (28/18));
     }
+}
+
+.page__dicussion {
+    @include page-container;
+    order: 6;
+}
+
+.page__tags {
+    @include page-container;
+    order: 7;
 }
 
 .page__title {
