@@ -12,11 +12,11 @@ tags:
   - SVG
   - Web design and development
 ---
-Having spent many hours simplifying, optimising and minifying SVGs, typically using a combination of tools and services, I was overjoyed to learn that [Jake Archibald][1] had [taken it upon himself][2] to build a web-based GUI atop [SVGO][3].
+Having spent many hours simplifying, optimising and minifying SVGs, typically using a combination of tools and services, I was overjoyed to learn that [Jake Archibald][1] had [taken it upon himself][2] to build a web-based interface atop [SVGO][3].
 
 [SVGOMG][4] is easy to use and surfaces the range of optimisation options offered by SVGO. But beyond the obvious utility, it stands out as an example of how to build a 'web app' ([whatever that means][5]) in a responsible and accessible way. I asked Jake a few questions about how he went about designing and developing this application.
 
-### SVGOMG has a truly native app feel. What obstacles did you overcome (if any) to make it work so seamlessly on the web?
+### SVGOMG has a truly native app feel. What obstacles did you overcome (if any) to make it work seamlessly on the web?
 
 > It was easier than I expected, but I think I was expecting it to be impossible. I was surprised at how much I used [flexbox][6], and how stable it is across modern browsers. Pretty much all of the layout is flexbox driven.
 >
@@ -40,7 +40,7 @@ Having spent many hours simplifying, optimising and minifying SVGs, typically us
 >
 > I thought about making the site work without JS by doing the SVG work on the server, but this would be slow and a maintenance burden. I'm a strong believer in progressive enhancement, but also that each phase of the enhancement needs a user. Working without JS benefits older browsers, but as a site targeted at developers I figured I could safely leave older browsers behind.
 
-### You are a big proponent of web performance. What steps did you take to make the app feel so speedy?
+### You are a big proponent of web performance. What steps did you take to make the app feel speedy?
 
 > Although I have no intention of making the site work without JS, I still render before JS is available. In fact, it gets to first render with only 5k of HTML with some inlined CSS and SVG, the main scripts and CSS are all loaded in the background. This means the site appears to load in 1.5s even on 3G with an empty cache, and most of that is DNS and SSL.
 >
@@ -72,4 +72,5 @@ Having spent many hours simplifying, optimising and minifying SVGs, typically us
 *[JS]: JavaScript
 *[SSL]: Secure Sockets Layer
 *[SVG]: Scalable Vector Graphic
+*[SVGOMG]: SVGO's Missing GUI
 *[URL]: Uniform resource locator
