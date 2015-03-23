@@ -7,21 +7,27 @@
 }
 
 .index__header {
-    @include susy-media($b__a) {
+    @include susy-media($b__b) {
         @include span(2);
     }
 }
 
 .index__main {
-    @include span(6 last);
+    @include susy-media($b__b) {
+        @include span(6 last);
+    }
 
     .section__header {
-        @include span(1 of 6);
-        margin-top: ($u__baseline * 1.5);
+        @include susy-media($b__c) {
+            @include span(1 of 6);
+            margin-top: ($u__baseline * 1.5);
+        }
     }
 
     .section__main {
-        @include span(5 of 6 last);
+        @include susy-media($b__c) {
+            @include span(5 of 6 last);
+        }
     }
 }
 
