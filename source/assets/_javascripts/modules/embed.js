@@ -1,7 +1,5 @@
-/*
-    Inspired by the code used on http://2014.dconstruct.org/
-*/
-
+// Progressively enhance links to embedded content
+// Inspired by the code used on http://2014.dconstruct.org/
 (function (win, doc) {
     'use strict';
 

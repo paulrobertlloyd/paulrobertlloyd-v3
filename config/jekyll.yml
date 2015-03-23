@@ -40,7 +40,6 @@ assets:
     - assets/_stylesheets
     - assets/_vectors
   css_compressor: sass
-  js_compressor: uglifier
 
 # Pictures
 picture:
