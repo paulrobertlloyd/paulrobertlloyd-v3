@@ -2,5 +2,28 @@
 layout: index
 ---
 {% for item in page.posts %}
-    {% include item/entry.html %}
+    {% if page.type == 'year' %}
+        {% capture this_year %}{{ item.date | date: "%Y" }}{% endcapture %}
+        {% capture this_month %}{{ item.date | date: "%m" }}{% endcapture %}
+        {% capture this_month-name %}{{ item.date | date: "%B" }}{% endcapture %}
+        {% if this_month != month %}
+            {% capture month %}{{ this_month }}{% endcapture %}
+            {% unless forloop.first %}
+                    </ol>
+                </div>
+            </section>
+            {% endunless %}
+
+            <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+                <header class="section__header">
+                    <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month-name }}</a></h1>
+                </header>
+
+                <div class="section__main">
+                    <ol class="list list--inline list--inline--separated" reversed>
+        {% endif %}
+                        <li class="list__item" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% else %}
+        {% include item/entry.html %}
+    {% endif %}
 {% endfor %}
