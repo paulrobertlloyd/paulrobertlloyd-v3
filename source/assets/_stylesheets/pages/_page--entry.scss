@@ -3,9 +3,9 @@
     ========================================================================= */
 
 .page--entry .page__location::before {
+    opacity: 0.5;
     margin: 0 ($u__baseline / 4);
     content: '/';
-    opacity: 0.5;
 }
 
 .js-enhanced .page--entry .page__location::before {
@@ -13,7 +13,7 @@
 }
 
 .js-enhanced .page--entry .page__location::after {
+    opacity: 0.5;
     margin: 0 ($u__baseline / 2) 0 ($u__baseline / 4);
     content: '/';
-    opacity: 0.5;
 }

@@ -17,10 +17,10 @@ body {
     @include container($u__max-width);
     @include ff--sans-serif;
     margin: 0 gutter();
+    text-rendering: geometricPrecision;
     line-height: ($u__baseline-unitless * 1.5);
     font-size: $u__font-size;
     font-smoothing: antialiased;
-    text-rendering: geometricPrecision;
 
     @include susy-media($b__c) {
         margin: 0 auto;

@@ -1,11 +1,17 @@
 // Progressively enhance links to embedded content
 // Inspired by the code used on http://2014.dconstruct.org/
+// = require polyfills/classList
 (function (win, doc) {
     'use strict';
 
-    var embed = doc.getElementsByClassName('embed')[0],
-        src,
-        type;
+    var p = doc.getElementsByTagName('p');
+    p.forEach(function(entry) {
+        console.log(entry);
+    });
+
+    var embed = p.classList.contains('embed');
+    var src;
+    var type;
 
     if (embed) {
         if (win.innerWidth > 400) {

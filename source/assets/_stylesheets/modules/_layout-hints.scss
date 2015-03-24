@@ -2,7 +2,7 @@
     Layout hints
     ========================================================================= */
 
-// Align element right or left
+/* Align element right or left */
 .l-align-right {
     @include span(1.5 of 6 last);
     margin-top: ($u__baseline / 2);
@@ -10,11 +10,21 @@
 }
 
 .l-align-left {
-    @include span(2 of 6);
+    @include span(1.5 of 6);
     margin-top: ($u__baseline / 2);
 }
 
-// Pull element right or left
+
+/* Pull element aside */
+.l-aside-right {
+    @include clearfix;
+    @include span(2 of 6 last);
+    margin-right: -(span(1 wider));
+    margin-left: gutter();
+}
+
+
+/* Pull element right or left */
 .l-pull-right {
     @include susy-media($b__a) {
         @include span(3 of 6 last);
@@ -33,7 +43,8 @@
     }
 }
 
-// On wider breakpoints elements that extends outwards by additional column
+
+/* On wider breakpoints elements that extends outwards by additional column */
 .l-extend {
     @include extend;
 

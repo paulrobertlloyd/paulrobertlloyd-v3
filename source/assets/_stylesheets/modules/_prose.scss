@@ -42,19 +42,23 @@
 
     blockquote {
         position: relative;
+        margin-right: ($u__baseline * -1);
+        margin-left: ($u__baseline * -1);
+        padding-right: $u__baseline;
+        padding-left: $u__baseline;
 
         &:before {
             display: block;
             position: absolute;
             top: 0;
             bottom: 0;
-            left: -1rem;
+            left: 0;
             border-left: 1px solid;
             content: '';
         }
 
-        p {
-            margin-bottom: ($u__baseline * 0.75);
+        :last-child {
+            margin-bottom: 0;
         }
     }
 
