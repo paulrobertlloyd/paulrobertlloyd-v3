@@ -3,6 +3,16 @@ layout: index
 title: Archive
 permalink: /archive/
 ---
+<section class="section section--search" aria-labelledby="search">
+    <header class="section__header">
+        <h1 class="section__title" id="search">Search</h1>
+    </header>
+
+    <div class="section__main">
+        {% include forms/search.html %}
+    </div>
+</section>
+
 {% for post in site.posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
@@ -26,5 +36,3 @@ permalink: /archive/
     {% endif %}
                     <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-
-{% include forms/search.html %}
