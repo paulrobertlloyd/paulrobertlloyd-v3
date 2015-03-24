@@ -7,24 +7,28 @@
 }
 
 .index__header {
-    @include susy-media($b__b) {
+    @include susy-media($b__c) {
         @include span(2);
     }
 }
 
 .index__main {
-    @include susy-media($b__b) {
+    @include susy-media($b__c) {
         @include span(6 last);
     }
 
     .section__header {
-        @include susy-media($b__c) {
+        @include span(2 of 8);
+
+        @include susy-media($b__b) {
             @include span(1 of 6);
         }
     }
 
     .section__main {
-        @include susy-media($b__c) {
+        @include span(6 of 8 last);
+
+        @include susy-media($b__b) {
             @include span(5 of 6 last);
         }
     }
