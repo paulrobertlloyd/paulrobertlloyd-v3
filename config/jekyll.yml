@@ -44,6 +44,7 @@ assets:
 # Pictures
 picture:
   markup: img
+  local_path: /assets/images
   presets:
     default:
       attr:

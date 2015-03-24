@@ -34,23 +34,23 @@ module Jekyll
 
       # Gather settings
       site = context.registers[:site]
-      settings = site.config['picture']
+      @settings = site.config['picture']
       markup = /^(?:(?<preset>[^\s.:\/]+)\s+)?(?<image_src>[^\s]+\.[a-zA-Z0-9]{3,4}?[^\s:\/]*)\s*(?<source_src>(?:(source_[^\s.:\/]+:\s+[^\s]+\.[a-zA-Z0-9]{3,4}?[^\s:\/]*)\s*)+)?(?<html_attr>[\s\S]+)?$/.match(render_markup)
-      preset = settings['presets'][markup[:preset]] || settings['presets']['default']
+      preset = @settings['presets'][markup[:preset]] || @settings['presets']['default']
 
       raise "Picture Tag can't read this tag. Try {% picture [preset] path/to/img.jpg [source_key: path/to/alt-img.jpg] [attr=\"value\"] %}." unless markup
 
       # Assign defaults
-      settings['markup'] ||= 'picturefill'
-      settings['quality'] ||= '80'
+      @settings['markup'] ||= 'picturefill'
+      @settings['quality'] ||= '80'
 
       # Assign defaults for image generation
-      if !settings['generate'].nil?
-        settings['generate']['source'] ||= '.'
-        settings['generate']['output'] ||= 'generated'
+      if !@settings['generate'].nil?
+        @settings['generate']['source'] ||= '.'
+        @settings['generate']['output'] ||= 'generated'
 
         # Prevent Jekyll from erasing our generated files
-        site.config['keep_files'] << settings['generate']['output'] unless site.config['keep_files'].include?(settings['generate']['output'])
+        site.config['keep_files'] << @settings['generate']['output'] unless site.config['keep_files'].include?(@settings['generate']['output'])
       end
 
       # Deep copy preset for single instance manipulation
@@ -74,7 +74,7 @@ module Jekyll
         html_attr = instance.delete('attr').merge(html_attr)
       end
 
-      if settings['markup'] == 'picturefill'
+      if @settings['markup'] == 'picturefill'
         html_attr['data-picture'] = nil
         html_attr['data-alt'] = html_attr.delete('alt')
       end
@@ -93,7 +93,7 @@ module Jekyll
         raise "Preset #{key} is missing a width or a height" if !source['width'] and !source['height']
         instance[key][:width] = instance[key].delete('width') if source['width']
         instance[key][:height] = instance[key].delete('height') if source['height']
-        instance[key][:quality] =  source['quality'] || settings['quality']
+        instance[key][:quality] =  source['quality'] || @settings['quality']
       }
 
       # Store keys in an array for ordering the instance sources
@@ -116,15 +116,15 @@ module Jekyll
 
       # Generate path to resized image
       instance.each { |key, source|
-        if !settings['generate'].nil?
-          instance[key][:generated_src] = generate_image(source, site.source, site.dest, settings['generate']['source'], settings['generate']['output'], site.config["baseurl"])
+        if !@settings['generate'].nil?
+          instance[key][:generated_src] = generate_image(source, site.source, site.dest, @settings['generate']['source'], @settings['generate']['output'], site.config['baseurl'])
         else
-          instance[key][:generated_src] = generate_path(source, settings["url"])
+          instance[key][:generated_src] = generate_path(source)
         end
       }
 
       # Construct and return tag
-      if settings['markup'] == 'picture'
+      if @settings['markup'] == 'picture'
         source_tags = ''
         source_keys.each { |source|
           media = " media=\"#{instance[source]['media']}\"" unless source == 'source_default'
@@ -136,7 +136,7 @@ module Jekyll
                       "#{markdown_escape * 4}<img src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
                       "</picture>\n"
 
-      elsif settings['markup'] == 'img'
+      elsif @settings['markup'] == 'img'
         unless source_ext == ".svg"
           source_tags = ''
           source_keys.each { |source|
@@ -153,15 +153,21 @@ module Jekyll
     end
 
 
-    def generate_path(instance, cdnurl)
+    def generate_path(instance)
       img_src = instance[:src]
+      img_ext = File.extname(instance[:src])
       img_width = instance[:width]
       img_quality = instance[:quality]
 
-      gen_name = "#{img_width}w/#{img_quality}#{img_src}"
+      if img_ext == ".svg"
+        path = @settings['local_path']
+        file = "#{img_src}"
+      else
+        path = @settings['cdn_url']
+        file = "#{img_width}w/#{img_quality}#{img_src}"
+      end
 
-      # Return path relative to the CDN location
-      Pathname.new(File.join(cdnurl, gen_name))
+      Pathname.new(File.join(path, file))
     end
 
 
