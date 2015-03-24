@@ -8,7 +8,7 @@ tags:
   - Politics
   - Elections
   - General Election 2010
-  - Conservative Pary
+  - Conservative Party
   - Labour Party
   - Liberal Democrats
 discussion: closed
