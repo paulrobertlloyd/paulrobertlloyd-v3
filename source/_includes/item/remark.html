@@ -3,7 +3,7 @@
         <h1 class="item__title">
         {% capture item_author %}{{ item.author }}<img class="item__avatar  u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=120&amp;d=http%3A%2F%2F{{ site.url }}%2Fassets%images%2Fgravatar.png" width="80" height="80" alt=""/>{% endcapture %}
         {% if item.url %}
-            <a class="item__author  p-name u-url" href="{{ remark.url }}">{{ item_author }}</a>
+            <a class="item__author  p-name u-url" href="{{ item.url }}">{{ item_author }}</a>
         {% else %}
             <span class="item__author  p-name">{{ item_author }}</span>
         {% endif %}
