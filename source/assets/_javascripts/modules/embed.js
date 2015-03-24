@@ -11,7 +11,6 @@
     // Embed.rb generates a <p> element, so look for those first
     var p = doc.getElementsByTagName('p');
     for (var i = 0; i < p.length; i = i + 1) {
-        console.log(p[i]);
 
         // If a <p> has the right attributes…
         if (p[i].hasAttribute('data-embed-src')) {
