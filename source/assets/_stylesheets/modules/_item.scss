@@ -14,6 +14,7 @@
 }
 
 .item__footer {
+    margin-bottom: $u__baseline;
     order: 2;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .item__meta {
-    @include caption;
+    @include fs--caption;
 }
 
 .item__avatar {

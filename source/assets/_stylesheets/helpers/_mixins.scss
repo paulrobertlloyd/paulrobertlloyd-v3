@@ -40,7 +40,7 @@
     font-weight: $font-weight;
 
     .fonts-loaded & {
-        font-family: 'Charter ITC Std', serif;
+        font-family: 'Charter', serif;
     }
 }
 
@@ -49,17 +49,13 @@
     font-weight: $font-weight;
 
     .fonts-loaded & {
-        font-family: 'Avenir Next', sans-serif;
+        font-family: 'Avenir', sans-serif;
     }
 }
 
 @mixin ff--monospace($font-weight: 400) {
-    font-family: monospace;
+    font-family: 'Menlo', monospace;
     font-weight: $font-weight;
-
-    .fonts-loaded & {
-        font-family: 'Source Code Pro', monospace;
-    }
 }
 
 
@@ -67,7 +63,7 @@
 @mixin fs--heading-1 {
     line-height: (28/32);
     font-size: 2rem; // 32px
-    letter-spacing: -1px;
+    letter-spacing: -0.015em;
 
     @include susy-media($b__c) {
         line-height: (36/40);
@@ -83,6 +79,7 @@
 @mixin fs--heading-2 {
     line-height: (24/20);
     font-size: 1.25rem; // 20px
+    letter-spacing: -0.02em;
 
     @include susy-media($b__c) {
         line-height: (28/24);
@@ -93,6 +90,7 @@
 @mixin fs--heading-3 {
     line-height: (24/18);
     font-size: 1.125rem; // 18px
+    letter-spacing: -0.015em;
 
     @include susy-media($b__c) {
         line-height: (28/21);
@@ -103,6 +101,7 @@
 @mixin fs--heading-4 {
     line-height: (20/16);
     font-size: 1rem; // 16px
+    letter-spacing: -0.01em;
 
     @include susy-media($b__c) {
         line-height: (24/18);
@@ -113,6 +112,7 @@
 @mixin fs--body {
     line-height: (24/16);
     font-size: 1rem; // 16px
+    letter-spacing: 0.01em;
 
     @include susy-media($b__b) {
         line-height: (28/18);
@@ -144,13 +144,6 @@
 // Caps
 @mixin smcp { font-feature-settings: 'smcp' 1; }
 @mixin c2sc { font-feature-settings: 'c2sc' 1; }
-
-
-// Captions and metadata
-@mixin caption {
-    @include fs--caption;
-    @include ff--sans-serif;
-}
 
 
 // Text underline colour

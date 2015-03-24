@@ -3,7 +3,8 @@
     ========================================================================= */
 
 .meta {
-    @include caption;
+    @include ff--sans-serif;
+    @include fs--caption;
     @include clearfix;
     @include span(2 of 6 last);
     margin-right: -(span(1 wider));

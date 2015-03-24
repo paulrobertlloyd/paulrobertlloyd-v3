@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .footnotes {
-    @include caption;
+    @include fs--caption;
     @include rule;
     margin-top: ($u__baseline * 2);
 }
