@@ -64,61 +64,60 @@
 
 
 // Font sizes
-@mixin fs--pica($line-height: (16/12)) {
-    font-size: 0.75rem; // 12px
-    line-height: $line-height; // Default: 16px
-}
-
-@mixin fs--double-emerald($line-height: (16/13)) {
-    font-size: 0.8125rem; // 13px
-    line-height: $line-height; // Default: 16px
-}
-
-@mixin fs--english($line-height: (20/14)) {
-    font-size: 0.875rem; // 14px
-    line-height: $line-height; // Default: 20px
-}
-
-@mixin fs--double-brevier($line-height: (20/16)) {
-    font-size: 1rem; // 16px
-    line-height: $line-height; // Default: 20px
-}
-
-@mixin fs--great-primer($line-height: (24/18)) {
-    font-size: 1.125rem; // 18px
-    line-height: $line-height; // Default: 24px
-}
-
-@mixin fs--paragon($line-height: (24/20)) {
-    font-size: 1.25rem; // 20px
-    line-height: $line-height; // Default: 24px
-}
-
-@mixin fs--double-pica($line-height: (28/24)) {
-    font-size: 1.5rem; // 24px
-    line-height: $line-height; // Default: 28px
-}
-
-@mixin fs--double-english($line-height: (32/28)) {
+@mixin fs--heading-1 {
     font-size: 1.75rem; // 28px
-    line-height: $line-height; // Default: 32px
-}
-
-@mixin fs--double-great-primer($line-height: (40/36)) {
-    font-size: 2.25rem; // 36px
-    line-height: $line-height; // Default: 40px
-}
-
-@mixin fs--canon($line-height: (52/48)) {
-    font-size: 3rem; // 48px
-    line-height: $line-height; // Default: 52px
+    line-height: (28/28);
     letter-spacing: -1px;
+
+    @include susy-media($b__c) {
+        font-size: 3rem; // 48px
+        line-height: (44/48);
+    }
 }
 
-@mixin fs--inch($line-height: (76/72)) {
-    font-size: 4.5rem; // 72px
-    line-height: $line-height; // Default: 76px
-    letter-spacing: -2px;
+@mixin fs--heading-2 {
+    font-size: 1.25rem; // 20px
+    line-height: (24/20);
+
+    @include susy-media($b__c) {
+        font-size: 1.5rem; // 24px
+        line-height: (28/24);
+    }
+}
+
+@mixin fs--heading-3 {
+    font-size: 1.125rem; // 18px
+    line-height: (24/18);
+
+    @include susy-media($b__c) {
+        font-size: 1.3125rem; // 21px
+        line-height: (28/21);
+    }
+}
+
+@mixin fs--heading-4 {
+    font-size: 1rem; // 16px
+    line-height: (20/16);
+
+    @include susy-media($b__c) {
+        font-size: 1.125rem; // 18px
+        line-height: (24/18);
+    }
+}
+
+@mixin fs--body {
+    font-size: 1rem; // 16px
+    line-height: (24/16);
+
+    @include susy-media($b__b) {
+        font-size: 1.125rem; // 18px
+        line-height: (28/18);
+    }
+}
+
+@mixin fs--caption {
+    font-size: 0.875rem; // 14px
+    line-height: (20/14);
 }
 
 
@@ -144,7 +143,7 @@
 
 // Captions and metadata
 @mixin caption {
-    @include fs--english;
+    @include fs--caption;
     @include ff--sans-serif;
 }
 

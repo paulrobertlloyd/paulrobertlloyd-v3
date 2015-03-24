@@ -1,0 +1,6 @@
+<article class="item item--presentation">
+    <h1 class="item__title">
+        <a href="{{ item.url }}">{{ item.title | smartify }}</a>
+    </h1>
+    <p class="item__meta">{{ item.meta.event }}, {{ item.location }} · <time  class="item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%B %Y" }}</time></p>
+</article>

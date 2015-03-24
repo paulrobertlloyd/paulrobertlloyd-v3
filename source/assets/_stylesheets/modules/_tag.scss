@@ -3,7 +3,6 @@
     ========================================================================= */
 
 .tag {
-    @include fs--double-emerald;
     margin-right: ($u__baseline / 4);
     text-transform: lowercase;
     color: $c__neutral--5;

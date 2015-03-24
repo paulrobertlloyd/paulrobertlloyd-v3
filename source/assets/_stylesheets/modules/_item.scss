@@ -1,20 +1,23 @@
 /*  =========================================================================
-    Remark
+    Items
     ========================================================================= */
-.remark {
-    @include span(10 of 8);
+
+.item {
     display: flex;
     position: relative;
-    margin-left: -(span(1 wider));
-    padding-left: span(1 wider);
+    margin-bottom: ($u__baseline * 1.5);
     flex-direction: column;
 }
 
-.remark__header {
+.item__header {
     order: 1;
 }
 
-.remark__main {
+.item__footer {
+    order: 2;
+}
+
+.item__main {
     order: 3;
 
     ol,
@@ -23,18 +26,15 @@
     }
 }
 
-.remark__footer {
-    margin-bottom: 1rem;
-    order: 2;
+.item__title {
+    @include fs--heading-3;
 }
 
-.remark__title {
-    @include fs--great-primer;
-    @include rule(before);
-    font-weight: 700;
+.item__meta {
+    @include caption;
 }
 
-.remark__avatar {
+.item__avatar {
     position: absolute;
     top: 0;
     left: 0;
@@ -42,6 +42,16 @@
     height: auto;
 }
 
-.remark__pubdate {
-    @include caption;
+/* Entry item */
+.item--entry {
+    .item__title {
+        @include fs--heading-2;
+    }
+}
+
+/* Link item */
+.item--link {
+    .item__title a[href^="http://"]::after {
+        content: ' \2192';
+    }
 }

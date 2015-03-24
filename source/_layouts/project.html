@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="page page--project  h-entry">
-    <header class="page__header">
+    <header class="page__header page-container">
         <h1 class="page__title  p-name">
             {% if page.theme != 'default' %}
                 {% capture page_logo %}logo--{{ page.theme }}.svg{% endcapture %}
@@ -13,13 +13,13 @@ layout: default
         </h1>
     </header>
 
-    <div class="page__intro">
+    <div class="page__intro page-container">
         <div class="prose lede  p-summary">
             {{ page.excerpt | markdownify | typogrify }}
         </div>
     </div>
 
-    <div class="page__main">
+    <div class="page__main page-container">
         <div class="prose  e-content">
             {% if page.meta %}
                 {% include content/meta--project.html %}

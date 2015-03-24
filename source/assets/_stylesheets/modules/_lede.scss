@@ -3,9 +3,6 @@
     ========================================================================= */
 
 .lede {
+    @include fs--heading-3;
     font-feature-settings: 'liga', 'dlig', 'onum';
-
-    @include susy-media($b__c) {
-        @include fs--paragon($line-height: (28/20));
-    }
 }

@@ -5,9 +5,9 @@
         <dt class="meta__title">Event</dt>
         <dd class="meta__value">{{ page.meta.event | smartify }}</dd>
     {% endif %}
-    {% if page.location %}
+    {% if page.meta.location %}
         <dt class="meta__title">Location</dt>
-        <dd class="meta__value">{{ page.location | smartify }}</dd>
+        <dd class="meta__value">{{ page.meta.location | smartify }}</dd>
     {% endif %}
     {% if page.meta.resources %}
         <dt class="meta__title">Resources</dt>

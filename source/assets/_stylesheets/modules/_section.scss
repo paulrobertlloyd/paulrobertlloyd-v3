@@ -4,11 +4,12 @@
 
 .section {
     overflow: hidden;
+    margin-top: ($u__baseline * 1.5);
 }
 
 .section__title {
     @include ff--sans-serif;
-    @include fs--paragon;
+    @include fs--heading-2;
     margin-bottom: ($u__baseline / 2);
     font-weight: 700;
     word-break: break-word;
@@ -38,11 +39,7 @@
     }
 
     .section__title {
-        @include fs--double-english;
-
-        @include susy-media($b__a) {
-            @include fs--canon;
-        }
+        @include fs--heading-1;
 
         &::after {
             content: ',';

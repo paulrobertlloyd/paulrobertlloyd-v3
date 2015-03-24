@@ -1,6 +1,6 @@
 ---
 layout: index
 ---
-{% for summary in page.posts %}
-    {% include sections/summary.html %}
+{% for item in page.posts %}
+    {% include item/entry.html %}
 {% endfor %}

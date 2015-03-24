@@ -3,6 +3,6 @@ layout: index
 title: Photos
 ---
 {% assign posts = site.posts | where: 'layout', 'album' | sort: 'date' %}
-{% for summary in posts reversed %}
-    {% include sections/summary.html %}
+{% for item in posts reversed %}
+    {% include item/album.html %}
 {% endfor %}
