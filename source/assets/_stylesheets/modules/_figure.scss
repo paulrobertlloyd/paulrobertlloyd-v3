@@ -4,20 +4,10 @@
 .figure {
     position: relative; // Helps position exif-info to bottom of figure__caption
     margin-bottom: ($u__baseline * 1.5);
-
-    blockquote {
-        margin: 0;
-    }
-
-    cite {
-        font-style: normal;
-    }
 }
 
 .figure__main {
-    @include clearfix;
     margin-bottom: ($u__baseline / 2);
-    overflow: hidden;
 }
 
 .figure__caption {
@@ -67,6 +57,13 @@
 
 
 /* Image groups */
+[class^="figure--image"] {
+    .figure__main {
+        @include clearfix;
+        overflow: hidden;
+    }
+}
+
 .figure--image-duo {
     img {
         @include span(4 of 8);
@@ -110,20 +107,31 @@
 }
 
 
+/* Quote */
+.figure--quote {
+    blockquote {
+        margin: 0;
+    }
+
+    cite {
+        font-style: normal;
+    }
+}
+
+
 /* Tweet */
 .figure--tweet {
     blockquote {
         position: relative;
-        margin-bottom: $u__baseline;
         border-left: 0;
         background-color: $c__neutral--8;
-        padding: ($u__baseline / 2);
+        padding: $u__baseline;
 
         &::after {
             display: block;
             position: absolute;
             bottom: ($u__baseline / -2);
-            left: ($u__baseline / 2);
+            left: ($u__baseline * 1.5);
             transform: rotate(45deg);
             background-color: $c__neutral--8;
             width: $u__baseline;

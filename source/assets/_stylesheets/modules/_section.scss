@@ -9,7 +9,7 @@
 
 .section__title {
     @include ff--sans-serif;
-    @include fs--heading-2;
+    @include fs--heading-3;
     margin-bottom: ($u__baseline / 2);
     font-weight: 700;
     word-break: break-word;
@@ -17,20 +17,6 @@
 
     .is-expandable & {
         display: inline-block;
-    }
-}
-
-
-/* Series section */
-.section--series {
-    @include clearfix;
-    @include span(2 of 6 last);
-    margin-right: -(span(1 wider));
-    margin-left: gutter();
-
-    .nav__item__label {
-        background: none;
-        font-size: 1rem;
     }
 }
 

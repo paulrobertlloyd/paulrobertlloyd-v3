@@ -5,6 +5,10 @@ layout: default
     {% include page/header.html %}
 
     <div class="page__main page-container">
+        {% if page.series %}
+            {% include nav/series.html %}
+        {% endif %}
+
         <div class="prose  e-content">
             {{ content | typogrify }}
 
@@ -18,10 +22,6 @@ layout: default
             </figure>
             {% enddirectory %}
         </div>
-
-        {% if page.series %}
-            {% include nav/series.html %}
-        {% endif %}
     </div>
 
     {% if page.tags %}

@@ -36,6 +36,7 @@ kbd,
 samp {
     @include ff--monospace;
     font-size: 85%;
+    font-feature-settings: 'liga' 0;
 }
 
 kbd {

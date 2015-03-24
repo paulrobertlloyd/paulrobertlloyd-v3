@@ -3,14 +3,10 @@ layout: page
 title: Styleguide
 excerpt: A guide to the mark-up styles used throughout this site.
 permalink: /styleguide/
-style-disabled: |
+style: |
   .example {
       outline: 1px dashed #ddd;
-      margin: 0.75em -1em;
-      padding: 0.75em 1em;
-  }
-  .example > * {
-      margin-bottom: 0;
+      outline-offset: 1rem;
   }
 ---
 This document is a guide to the mark-up styles used throughout the site. Parts of this markup guide are attributable to [Dave Shea](http://www.mezzoblue.com/), and licensed under [Creative Commons](http://creativecommons.org/licenses/by-sa/2.0/uk/){: rel="license"}.
@@ -64,12 +60,10 @@ The `pre` element represents a block of pre-formatted text, in which structure i
 The `blockquote` element represents a section that is being quoted from another source.
 
 <div class="example" markdown="1">
-{% figure bleed "Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-{% endfigure %}
 </div>
 
-Additionally, you might wish to cite the source, as in the above example. The correct method involves including the `cite` attribute on the `blockquote` element, but since no browser makes any use of that information, it's useful to link to the source also.
+If you wish to add a citation, you will need to use the [`figure` element](#figures).
 
 ### Ordered list
 The `ol` element denotes an ordered list, and various numbering schemes are available through the CSS (including 1,2,3... a,b,c... i,ii,iii... and so on). Each item requires a surrounding `<li>` and `</li>` tag, to denote individual items within the list (as you may have guessed, `li` stands for list item).
@@ -140,6 +134,14 @@ Here, a part of a poem is marked up using figure:
 Did gyre and gimble in the wabe;
 All mimsy were the borogoves,
 And the mome raths outgrabe.
+{% endfigure %}
+</div>
+
+Here, a cited quote is marked up using figure:
+
+<div class="example" markdown="1">
+{% figure figure--quote "Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
+> Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {% endfigure %}
 </div>
 
