@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .section {
-    margin-top: ($u__baseline * 1.5);
+    margin-bottom: ($u__baseline * 1.5);
     overflow: hidden;
 }
 
@@ -15,18 +15,27 @@
     word-break: break-word;
     hyphens: auto;
 
-    .section--is-expandable & {
+    .is-expandable & {
         display: inline-block;
     }
 }
 
+
+/* Series section */
 .section--series {
     @include clearfix;
     @include span(2 of 6 last);
     margin-right: -(span(1 wider));
     margin-left: gutter();
+
+    .nav__item__label {
+        background: none;
+        font-size: 1rem;
+    }
 }
 
+
+/* Homepage intro section */
 .section--intro {
     @include susy-media($b__b) {
         .section__header {
@@ -51,12 +60,16 @@
     }
 }
 
+
+/* Homepage pitch section */
 .section--pitch {
     @include susy-media($b__b) {
         @include span(5);
     }
 }
 
+
+/* Homepage extra section */
 .section--extra {
     @include susy-media($b__b) {
         @include span(3 last);

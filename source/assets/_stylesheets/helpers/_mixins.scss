@@ -65,8 +65,8 @@
 
 // Font sizes
 @mixin fs--heading-1 {
-    line-height: (28/28);
-    font-size: 1.75rem; // 28px
+    line-height: (28/32);
+    font-size: 2rem; // 32px
     letter-spacing: -1px;
 
     @include susy-media($b__c) {
