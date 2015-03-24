@@ -7,7 +7,7 @@
 }
 
 .figure__main {
-    margin-bottom: ($u__baseline / 2);
+    margin: 0;
 }
 
 .figure__caption {
@@ -15,10 +15,6 @@
     @include fs--caption;
     @include rule(after);
     clear: left;
-
-    p {
-        margin-bottom: ($u__baseline / 2);
-    }
 
     .l-extend & {
         padding-right: (gutter());
@@ -103,18 +99,6 @@
                 @include last;
             }
         }
-    }
-}
-
-
-/* Quote */
-.figure--quote {
-    blockquote {
-        margin: 0;
-    }
-
-    cite {
-        font-style: normal;
     }
 }
 
