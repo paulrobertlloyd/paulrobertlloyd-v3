@@ -6,9 +6,8 @@ excerpt: 'Following the latest trends is fun but can also encourage laziness; yo
 link: http://speakerdeck.com/paulrobertlloyd/the-web-native-designer-march-2011
 meta:
   event: 'APA Digital Breakfast'
-  location: London, England
-  resources:
-    notes: /downloads/2011/03/the_web_native_designer.pdf
+  location: 'London, England'
+  resources: '[Notes](/downloads/2011/03/the_web_native_designer.pdf)'
 tag:
   - Design
   - Process

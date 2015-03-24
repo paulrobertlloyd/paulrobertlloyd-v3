@@ -6,9 +6,8 @@ excerpt: 'Graphic designers have long honed their craft to meet the specific con
 link: https://speakerdeck.com/paulrobertlloyd/the-edge-of-the-web-redux
 meta:
   event: 'Front-end London'
-  location: London, England
-  resources:
-    notes: /downloads/2013/03/the_edge_of_the_web_redux.pdf
+  location: 'London, England'
+  resources: '[Notes](/downloads/2013/03/the_edge_of_the_web_redux.pdf)'
 tags:
   - Web design and development
   - Web standards

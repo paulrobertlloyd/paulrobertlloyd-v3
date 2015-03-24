@@ -6,11 +6,11 @@ excerpt: 'Graphic designers have long honed their craft to meet the specific con
 link: https://vimeo.com/64108866
 meta:
   event: 'Responsive Day Out'
-  location: Brighton, England
-  resources:
-    slides: https://speakerdeck.com/paulrobertlloyd/the-edge-of-the-web
-    notes: /downloads/2013/03/the_edge_of_the_web.pdf
-    audio: http://responsiveconf.com.s3.amazonaws.com/audio/15-paul-robert-lloyd-responsiveconf.mp3
+  location: 'Brighton, England'
+  resources: |
+    * [Slides](https://speakerdeck.com/paulrobertlloyd/the-edge-of-the-web)
+    * [Notes](/downloads/2013/03/the_edge_of_the_web.pdf)
+    * [Audio](http://responsiveconf.com.s3.amazonaws.com/audio/15-paul-robert-lloyd-responsiveconf.mp3)
 tags:
   - Web design and development
   - Web standards

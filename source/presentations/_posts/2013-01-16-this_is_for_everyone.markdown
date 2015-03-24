@@ -6,9 +6,8 @@ excerpt: 'With the help of Doctor Who and the Avengers, discover how to embrace 
 link: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone
 meta:
   event: 'Talk Web Design'
-  location: London, England
-  resources:
-    notes: /downloads/2013/01/this_is_for_everyone.pdf
+  location: 'London, England'
+  resources: '[Notes](downloads/2013/01/this_is_for_everyone.pdf)'
 tags:
   - Web design and development
   - Web standards
