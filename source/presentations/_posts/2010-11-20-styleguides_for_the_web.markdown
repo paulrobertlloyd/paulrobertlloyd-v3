@@ -41,7 +41,7 @@ Branding agencies achieve this by producing styleguides; documents that explain 
 I've been collecting styleguides for a number of years, partly as I'm interested in branding and corporate identity, but also to refer to when creating my own guidelines. One of my favourites is that created for Skype:
 
 {% figure "A selection of pages from the Skype styleguide" %}
-{% picture /2010/12/styleguides_for_the_web_skype.png %}
+{% picture /2010/11/styleguides_for_the_web_skype.png %}
 {% endfigure %}
 
 As a brand made up from a number of different elements (the logo, clouds, rainbows, illustrations and sometimes photography), it would be easy for the brand to become diluted should these not be consistently applied. Skype's branding guidelines explain how each component is constructed before providing examples of these different pieces brought together. The visual styleguide, 'How We Look', is accompanied by a separate document called 'How We Think' which focuses on messaging and tone of voice.
@@ -58,7 +58,7 @@ Until recently I hadn't found many examples of styleguides designed especially f
   * **Colour Palette:** A colour palette was created for use on non-branded areas of the site (such as the homepage and search pages). This has yet to appear in the final guidelines, but may do once these non-branded areas get redesigned.
 
 {% figure "A page on the BBC website detailing the GEL typography guidelines" %}
-{% picture /2010/12/styleguides_for_the_web_gel.png alt="GEL typography guidelines on the BBC website" %}
+{% picture /2010/11/styleguides_for_the_web_gel.png alt="GEL typography guidelines on the BBC website" %}
 {% endfigure %}
 
 When GVL3 was finally released in July, its name had changed to GEL ([Global Experience Language][4]), an acceptance that the web is equally as much about interaction and behaviour as it is visual design. The guidelines now included a pattern library documenting key interactions used across the site such as auto suggest in search fields, tool tips, carousels and photo slideshows.
@@ -142,8 +142,8 @@ Whilst much of this talk has focused on the styleguide as a deliverable, I hope 
 [10]: http://fontdeck.com
 [11]: http://typekit.com
 [12]: http://www.channel4.com/about_c4/styleguide/
-[13]: /assets/images/2010/12/styleguide_universal_playback.png
-[14]: /assets/images/2010/12/styleguide_nuts_online.png
+[13]: /assets/images/2010/11/styleguide_universal_playback.png
+[14]: /assets/images/2010/11/styleguide_nuts_online.png
 [15]: http://weblog.muledesign.com/2010/08/why_we_dont_deliver_photoshop_files.php
 [16]: http://natbat.net/
 [17]: http://adactio.com/
