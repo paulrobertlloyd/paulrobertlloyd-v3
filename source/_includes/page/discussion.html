@@ -1,6 +1,6 @@
 {% capture entry_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: "journal/_posts/links/" | remove: ".markdown" }}{% endcapture %}
 {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
-<details class="page__discussion page-container" aria-labelledby="discussion">
+<details class="page__discussion page-container  is-expandable" aria-labelledby="discussion">
     <summary class="section__header">
         <h1 class="section__title" id="discussion">Discussion</h1>
         <p>
