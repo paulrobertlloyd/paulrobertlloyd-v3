@@ -37,4 +37,5 @@
 .index__title {
     @include fs--heading-1;
     font-weight: 700;
+    word-break: break-word;
 }

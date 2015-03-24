@@ -29,7 +29,7 @@ module Jekyll
       markdown_escape = "\ "
 
       # All figures have content…
-      figure_main = converter.convert(super(context)).sub(/<([\w]).*?(?:class="([\s\S]+)")?>/, "<\\1 class=\"figure__main  \\2\">")
+      figure_main = converter.convert(super(context)).sub(/<([\w]+).*?(?:class="([\s\S]+)")?>/, "<\\1 class=\"figure__main  \\2\">")
 
       # …but some figures may have extra attributes
       unless markup.nil?

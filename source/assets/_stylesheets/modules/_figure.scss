@@ -57,7 +57,7 @@
 
 
 /* Image groups */
-[class^="figure--image"] {
+[class*="figure--image"] {
     .figure__main {
         @include clearfix;
         overflow: hidden;
