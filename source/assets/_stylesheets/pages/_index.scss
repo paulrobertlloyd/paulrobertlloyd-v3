@@ -20,7 +20,6 @@
     .section__header {
         @include susy-media($b__c) {
             @include span(1 of 6);
-            margin-top: ($u__baseline * 1.5);
         }
     }
 
@@ -32,10 +31,6 @@
 }
 
 .index__title {
-    @include fs--double-english;
+    @include fs--heading-1;
     font-weight: 700;
-
-    @include susy-media($b__a) {
-        @include fs--canon;
-    }
 }

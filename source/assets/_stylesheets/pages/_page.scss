@@ -7,7 +7,9 @@
     flex-direction: column;
 }
 
-@mixin page-container {
+.page-container {
+    margin-bottom: $u__baseline;
+
     @include susy-media($b__a) {
         padding-right: span(1 wide);
         padding-left: span(1 wide);
@@ -15,60 +17,45 @@
 }
 
 .page__header {
-    @include page-container;
     padding-bottom: ($u__baseline * 4);
     order: 1;
 }
 
 .page__footer {
-    @include page-container;
     margin-top: ($u__baseline * -4);
     margin-bottom: ($u__baseline * 4);
     order: 2;
 }
 
 .page__media {
-    @include page-container;
     order: 3;
 }
 
 .page__intro {
-    @include page-container;
     order: 4;
 }
 
 .page__main {
     @include ff--serif;
-    @include page-container;
+    @include fs--body;
     order: 5;
-
-    @include susy-media($b__c) {
-        @include fs--great-primer($line-height: (28/18));
-    }
 }
 
-.page__dicussion {
-    @include page-container;
+.page__discussion {
     order: 6;
 }
 
 .page__tags {
-    @include page-container;
     order: 7;
 }
 
 .page__title {
-    @include fs--double-english;
+    @include fs--heading-1;
     font-weight: 700;
-
-    @include susy-media($b__a) {
-        @include fs--canon;
-    }
 }
 
 .page__location {
-    @include fs--english;
-    @include ff--sans-serif;
+    @include caption;
     @include c2sc;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px

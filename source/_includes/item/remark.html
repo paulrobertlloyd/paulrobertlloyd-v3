@@ -1,0 +1,24 @@
+<article class="item item--remark{% if item.gravatar == '15091a37bacfa4bdd011282627eaca2b' %} item--remark-author{% endif %}" id="remark-{{ forloop.rindex }}">
+    <header class="item__header  h-card">
+        <h1 class="item__title">
+        {% capture item_author %}{{ item.author }}<img class="item__avatar  u-photo" src="https://gravatar.com/avatar/{{ remark.gravatar }}?s=120&amp;d=http%3A%2F%2F{{ site.url }}%2Fassets%images%2Fgravatar.png" width="80" height="80" alt=""/>{% endcapture %}
+        {% if item.url %}
+            <a class="item__author  p-name u-url" href="{{ remark.url }}">{{ item_author }}</a>
+        {% else %}
+            <span class="item__author  p-name">{{ item_author }}</span>
+        {% endif %}
+        </h1>
+    </header>
+
+    <div class="item__main">
+        <div class="prose">
+            {{ item.content | markdownify }}
+        </div>
+    </div>
+
+    <footer class="item__footer">
+        <p class="item__meta">
+            <time class="item__pubdate" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
+        </p>
+    </footer>
+</article>

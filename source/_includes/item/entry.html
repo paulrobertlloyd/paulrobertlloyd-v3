@@ -1,0 +1,33 @@
+<article class="item item--{{ item.layout }}  h-entry">
+    <header class="item__header">
+        <h1 class="item__title  p-name">
+            {% if item.layout == 'link' %}
+                <a class="item__link" href="{{ item.link }}">{{ item.title | smartify }}</a>
+            {% else %}
+                <a class="item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
+            {% endif %}
+        </h1>
+    </header>
+
+    <div class="item__main">
+        <div class="prose{% if item.layout == 'entry' %} lede{% endif %}  p-summary">
+            {% if item.link-embed == "photo" %}
+                {% embed {{ item.link }} %}
+            {% endif %}
+
+            {% if item.layout == 'link' %}
+                {{ item.content | markdownify | typogrify }}
+            {% elsif item.excerpt != null %}
+                {{ item.excerpt | markdownify | typogrify }}
+            {% endif %}
+        </div>
+    </div>
+
+    <footer class="item__footer">
+        <p class="item__meta">
+            <a class="item__permalink  u-url" href="{{ item.url }}" rel="bookmark">
+                <time class="item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%e %B %Y' }}</time>
+            </a>
+        </p>
+    </footer>
+</article>

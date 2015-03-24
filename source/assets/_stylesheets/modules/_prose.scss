@@ -7,19 +7,19 @@
 
     h2 {
         @include ff--sans-serif(700);
-        @include fs--double-pica;
+        @include fs--heading-2;
         margin-bottom: ($u__baseline / 2);
     }
 
     h3 {
         @include ff--sans-serif(700);
-        @include fs--paragon;
+        @include fs--heading-3;
         margin-bottom: ($u__baseline / 2);
     }
 
     h4 {
         @include ff--sans-serif;
-        @include fs--great-primer;
+        @include fs--heading-4;
         margin-bottom: ($u__baseline / 2);
     }
 
@@ -44,23 +44,16 @@
         margin-bottom: ($u__baseline * 1.5);
     }
 
-    > pre {
-        @include fs--english;
-    }
-
     > blockquote {
-        @include ff--sans-serif;
         position: relative;
-        padding-left: 1.25rem; // 20px
 
         &:before {
             display: block;
             position: absolute;
             top: 0;
             bottom: 0;
-            left: 0;
-            opacity: 0.1;
-            border-left: 0.5em solid; // 8px
+            left: -1rem;
+            border-left: 1px solid;
             content: '';
         }
     }

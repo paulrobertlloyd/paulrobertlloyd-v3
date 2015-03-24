@@ -4,30 +4,22 @@ title: Present&shy;ations
 ---
 <section class="section section--appearances" aria-labelledby="appearances">
     <header class="section__header">
-        <h1 class="section__title" id="appearances">Upcoming</h1>
+        <h1 class="section__title" id="appearances">Next…</h1>
     </header>
 
     <div class="section__main">
-        <ol class="list" reversed>
-            {% for appearance in site.data.appearances %}
-            <li class="list__item">
-                <article class="summary summary--presentation">
-                    <h1 class="summary__title"><a href="{{ appearance.url }}">{{ appearance.title | smartify }}</a></h1>
-                    <p class="summary__meta">{{ appearance.location }} · <time datetime="{{ appearance.date | date_to_xmlschema }}">{{ appearance.date | date: "%B %Y" }}</time></p>
-                </article>
-            </li>
-            {% endfor %}
-        </ol>
+        {% for item in site.data.appearances %}
+            {% include item/presentation.html %}
+        {% endfor %}
     </div>
 </section>
 
 {% assign presentations = site.posts | where: 'layout', 'presentation' | sort: 'date' %}
-{% for presentation in presentations reversed %}
-    {% capture this_year %}{{ presentation.date | date: '%Y' }}{% endcapture %}
+{% for item in presentations reversed %}
+    {% capture this_year %}{{ item.date | date: '%Y' }}{% endcapture %}
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
         {% unless forloop.first %}
-                </ol>
             </div>
         </section>
         {% endunless %}
@@ -38,12 +30,6 @@ title: Present&shy;ations
             </header>
 
             <div class="section__main">
-                <ol class="list" reversed>
     {% endif %}
-                    <li class="list__item">
-                        <article class="summary summary--presentation">
-                            <h1 class="summary__title"><a href="{{ presentation.url }}">{{ presentation.title | smartify }}</a></h1>
-                            <p class="summary__meta">{{ presentation.meta.event }}, {{ presentation.location }} · <time datetime="{{ presentation.date | date_to_xmlschema }}">{{ presentation.date | date: "%B %Y" }}</time></p>
-                        </article>
-                    </li>
+                {% include item/presentation.html %}
 {% endfor %}

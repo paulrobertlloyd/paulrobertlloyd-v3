@@ -2,11 +2,11 @@
 layout: presentation
 title: Styleguides for the Web
 date: '2010-11-20 14:00:00 +0000'
-location: Birmingham, England
 excerpt: 'Clearly communicating the fundamental aspects of your design at the different stages of a project can help you better communicate with clients, developers and your peers, ensuring your vision doesn''t get lost in the transformation from static comp to dynamic ever changing website.'
 link: https://speakerdeck.com/paulrobertlloyd/styleguides-for-the-web-2010
 meta:
   event: 'Multipack Presents: The Design Process'
+  location: Birmingham, England
   resources:
     notes: /downloads/2010/11/styleguides_for_the_web.pdf
 tag:

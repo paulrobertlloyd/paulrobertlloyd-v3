@@ -7,7 +7,7 @@
 }
 
 .form__title {
-    @include fs--double-brevier;
+    @include fs--heading-3;
     padding-bottom: $u__baseline;
 }
 

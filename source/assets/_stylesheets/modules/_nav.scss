@@ -12,13 +12,13 @@
 /* Primary navigation  */
 .nav--primary {
     @include clearfix;
-    @include fs--english($line-height: 1);
+    font-size: 1rem;
+    line-height: 1;
     margin-top: ($u__baseline * 3);
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
 
     @include susy-media($b__a) {
-        @include fs--double-brevier($line-height: 1);
         margin-top: 0;
         padding-top: ($u__baseline * 2);
         padding-bottom: ($u__baseline * 2);
@@ -55,7 +55,6 @@
     @include ff--sans-serif();
 
     .nav__item__label {
-        @include fs--english;
         @include text-decoration-color($color: 'none');
         display: block;
         border-top: 1px solid;

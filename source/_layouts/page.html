@@ -2,19 +2,17 @@
 layout: default
 ---
 <article class="page  h-entry">
-    <header class="page__header">
-        <h1 class="page__title  p-name">{{ page.title }}</h1>
-    </header>
+    {% include page/header.html %}
 
     {% if page.image.caption %}
-    <div class="page__media">
+    <div class="page__media page-container">
         {% figure l-extend '{{ page.image.caption }}' %}
 {% picture showcase {{ page.image.url }} %}
         {% endfigure %}
     </div>
     {% endif %}
 
-    <div class="page__main">
+    <div class="page__main page-container">
         <div class="prose  e-content">
             {% if page.series %}
                 {% include nav/series.html %}

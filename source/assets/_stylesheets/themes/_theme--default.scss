@@ -10,16 +10,17 @@
         color: $c__identity--1;
     }
 
-    .prose a {
-        @include text-decoration-color($c__identity--1);
+    .prose {
+        a {
+            @include text-decoration-color($c__identity--1);
+        }
+
+        blockquote::before {
+            border-color: $c__identity--2;
+        }
     }
 
     .banner__logo {
         fill: $c__identity--1;
-    }
-
-    .index__title,
-    .section__title {
-        color: $c__identity--1;
     }
 }
