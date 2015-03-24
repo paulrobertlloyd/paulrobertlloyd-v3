@@ -13,6 +13,28 @@ permalink: /archive/
     </div>
 </section>
 
+<section class="section section--tags" aria-labelledby="tags">
+    <header class="section__header">
+        <h1 class="section__title" id="tags">Tags</h1>
+    </header>
+
+    <div class="section__main">
+        <ol class="list list--inline">
+        {% capture tags %}
+            {% for tag in site.tags %}
+                {{ tag[1].size | plus: 1000 }}#{{ tag[0] | replace:' ','_' }}
+            {% endfor %}
+        {% endcapture %}
+        {% assign sortedtags = tags | split:' ' | sort | reverse %}
+        {% for tag in sortedtags limit:25 %}
+            {% assign item = tag | split:'#' %}
+            <li class="list__item"><a rel="tag" class="tag" href="/tags/{{ item[1] | slugify }}">{{ item[1] | replace:'_',' ' | smartify }}</a></li>
+        {% endfor %}
+        </ul>
+        <p><a href="/tags/">View all tags</a></p>
+    </div>
+</section>
+
 {% for post in site.posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
