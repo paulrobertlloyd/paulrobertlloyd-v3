@@ -12,11 +12,11 @@
 /* Primary navigation  */
 .nav--primary {
     @include clearfix;
-    font-size: 1rem;
-    line-height: 1;
     margin-top: ($u__baseline * 3);
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
+    line-height: 1;
+    font-size: 1rem;
 
     @include susy-media($b__a) {
         margin-top: 0;

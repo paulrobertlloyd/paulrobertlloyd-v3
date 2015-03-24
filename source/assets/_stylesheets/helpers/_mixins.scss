@@ -65,59 +65,59 @@
 
 // Font sizes
 @mixin fs--heading-1 {
-    font-size: 1.75rem; // 28px
     line-height: (28/28);
+    font-size: 1.75rem; // 28px
     letter-spacing: -1px;
 
     @include susy-media($b__c) {
-        font-size: 3rem; // 48px
         line-height: (44/48);
+        font-size: 3rem; // 48px
     }
 }
 
 @mixin fs--heading-2 {
-    font-size: 1.25rem; // 20px
     line-height: (24/20);
+    font-size: 1.25rem; // 20px
 
     @include susy-media($b__c) {
-        font-size: 1.5rem; // 24px
         line-height: (28/24);
+        font-size: 1.5rem; // 24px
     }
 }
 
 @mixin fs--heading-3 {
-    font-size: 1.125rem; // 18px
     line-height: (24/18);
+    font-size: 1.125rem; // 18px
 
     @include susy-media($b__c) {
-        font-size: 1.3125rem; // 21px
         line-height: (28/21);
+        font-size: 1.3125rem; // 21px
     }
 }
 
 @mixin fs--heading-4 {
-    font-size: 1rem; // 16px
     line-height: (20/16);
+    font-size: 1rem; // 16px
 
     @include susy-media($b__c) {
-        font-size: 1.125rem; // 18px
         line-height: (24/18);
+        font-size: 1.125rem; // 18px
     }
 }
 
 @mixin fs--body {
-    font-size: 1rem; // 16px
     line-height: (24/16);
+    font-size: 1rem; // 16px
 
     @include susy-media($b__b) {
-        font-size: 1.125rem; // 18px
         line-height: (28/18);
+        font-size: 1.125rem; // 18px
     }
 }
 
 @mixin fs--caption {
-    font-size: 0.875rem; // 14px
     line-height: (20/14);
+    font-size: 0.875rem; // 14px
 }
 
 
