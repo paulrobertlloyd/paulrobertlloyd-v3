@@ -153,7 +153,7 @@ Here, a tweet is marked up using figure:
 {% endfigure %}
 </div>
 
-##Text-level Semantics
+## Text-level Semantics
 There are a number of inline HTML elements you may use anywhere within other elements.
 
 ### Links and anchors
