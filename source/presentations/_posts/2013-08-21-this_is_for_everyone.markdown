@@ -6,9 +6,8 @@ excerpt: 'Graphic designers have long honed their craft to meet the specific con
 link: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-ldnia-number-4
 meta:
   event: 'This is LDNIA #4'
-  location: London, England
-  resources:
-    notes: /downloads/2013/09/this_is_for_everyone.pdf
+  location: 'London, England'
+  resources: '[Notes](/downloads/2013/09/this_is_for_everyone.pdf)'
 tags:
   - Web design and development
   - Web standards

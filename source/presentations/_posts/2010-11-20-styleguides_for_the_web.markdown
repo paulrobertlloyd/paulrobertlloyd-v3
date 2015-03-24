@@ -6,9 +6,8 @@ excerpt: 'Clearly communicating the fundamental aspects of your design at the di
 link: https://speakerdeck.com/paulrobertlloyd/styleguides-for-the-web-2010
 meta:
   event: 'Multipack Presents: The Design Process'
-  location: Birmingham, England
-  resources:
-    notes: /downloads/2010/11/styleguides_for_the_web.pdf
+  location: 'Birmingham, England'
+  resources: '[Notes](/downloads/2010/11/styleguides_for_the_web.pdf)'
 tag:
   - Design
   - Styleguides

@@ -6,9 +6,8 @@ excerpt: 'When print design can lay claim to a history stretching back to the mi
 link: http://speakerdeck.com/u/paulrobertlloyd/p/the-web-native-designer-august-2011
 meta:
   event: 'Geek in the Park 2011'
-  location: Leamington Spa, England
-  resources:
-    notes: /downloads/2011/08/the_web_native_designer.pdf
+  location: 'Leamington Spa, England'
+  resources: '[Notes](/downloads/2011/08/the_web_native_designer.pdf)'
 tags:
   - Web design and development
 ---

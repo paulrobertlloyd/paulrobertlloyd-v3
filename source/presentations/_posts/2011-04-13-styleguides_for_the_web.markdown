@@ -6,9 +6,8 @@ excerpt: 'Clearly communicating the fundamental aspects of your design at the di
 link: http://speakerdeck.com/paulrobertlloyd/styleguides-for-the-web-2011
 meta:
   event: 'Oxford Geek Night 21'
-  location: Oxford, England
-  resources:
-    notes: /downloads/2011/04/styleguides_for_the_web.pdf
+  location: 'Oxford, England'
+  resources: '[Notes](/downloads/2011/04/styleguides_for_the_web.pdf)'
 tag:
   - Design
   - Styleguides

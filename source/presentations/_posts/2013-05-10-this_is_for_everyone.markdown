@@ -6,9 +6,8 @@ excerpt: 'Constantly viewed through the lens of other media, design on the web h
 link: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-port-80
 meta:
   event: 'Port80'
-  location: Newport, Wales
-  resources:
-    notes: /downloads/2013/05/this_is_for_everyone.pdf
+  location: 'Newport, Wales'
+  resources: '[Notes](/downloads/2013/05/this_is_for_everyone.pdf)'
 tags:
   - Web design and development
   - Web standards

@@ -6,9 +6,8 @@ excerpt: 'Graphic designers have long honed their craft to meet the specific con
 link: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web
 meta:
   event: 'Speak the Web'
-  location: Sheffield, England
-  resources:
-    notes: http://paulrobertlloyd.com/downloads/2013/07/this_is_for_everyone.pdf
+  location: 'Sheffield, England'
+  resources: '[Notes](http://paulrobertlloyd.com/downloads/2013/07/this_is_for_everyone.pdf)'
 tags:
   - Web design and development
   - Web standards

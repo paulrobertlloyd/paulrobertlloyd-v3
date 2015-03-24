@@ -6,9 +6,8 @@ excerpt: 'Aquent Gymnasium is an online learning platform that offers free cours
 link: https://speakerdeck.com/paulrobertlloyd/keep-up
 meta:
   event: 'Aquent Gymnasium UK Launch'
-  location: London, England
-  resources:
-    notes: /downloads/2013/07/keep_up.pdf
+  location: 'London, England'
+  resources: '[Notes](/downloads/2013/07/keep_up.pdf)'
 tags:
   - Web design and development
   - Web standards

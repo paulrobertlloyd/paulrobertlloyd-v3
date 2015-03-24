@@ -6,10 +6,10 @@ excerpt: 'I want to talk about the world we live in. The one which sees us becom
 link: https://speakerdeck.com/paulrobertlloyd/fear-uncertainty-and-doubt
 meta:
   event: 'MK Geek Night #6'
-  location: Milton Keynes, England
-  resources:
-    notes: /downloads/2013/09/fear_uncertainty_and_doubt.pdf
-    audio: https://soundcloud.com/mkgn/mkgn-6-paul-robert-lloyd-fear
+  location: 'Milton Keynes, England'
+  resources: |
+    * [Notes](/downloads/2013/09/fear_uncertainty_and_doubt.pdf)
+    * [Audio](https://soundcloud.com/mkgn/mkgn-6-paul-robert-lloyd-fear)
 tags:
   - Privacy
   - Security

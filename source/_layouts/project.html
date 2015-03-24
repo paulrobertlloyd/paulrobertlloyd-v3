@@ -20,11 +20,11 @@ layout: default
     </div>
 
     <div class="page__main page-container">
-        <div class="prose  e-content">
-            {% if page.meta %}
-                {% include content/meta--project.html %}
-            {% endif %}
+        {% if page.meta %}
+            {% include content/meta.html %}
+        {% endif %}
 
+        <div class="prose  e-content">
             {{ content | typogrify }}
         </div>
     </div>

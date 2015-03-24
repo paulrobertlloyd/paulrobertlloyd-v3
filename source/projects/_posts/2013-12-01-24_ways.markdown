@@ -10,7 +10,7 @@ meta:
   client: Drew McLellan
   year: 2013
   role: Design and front-end development
-  notes: Awarded best collaborative project at the net Awards 2014
+  notes: 'Awarded best collaborative project at the net Awards 2014'
 tags:
   - 24 ways
 ---
