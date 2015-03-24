@@ -19,6 +19,8 @@ body {
     margin: 0 gutter();
     line-height: ($u__baseline-unitless * 1.5);
     font-size: $u__font-size;
+    font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
 
     @include susy-media($b__c) {
         margin: 0 auto;

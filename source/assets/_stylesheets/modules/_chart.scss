@@ -13,7 +13,7 @@
     }
 
     .chart__value--percent {
-        @include caption;
+        @include fs--caption;
         display: block;
         margin-top: ($u__baseline / -5);
         margin-bottom: 0;

@@ -32,19 +32,15 @@
     p,
     ul,
     ol,
-    dl {
-        margin-bottom: ($u__baseline / 2);
+    dl,
+    pre,
+    blockquote,
+    table,
+    fieldset {
+        margin-bottom: ($u__baseline * 1.25);
     }
 
-    > pre,
-    > blockquote,
-    > table,
-    > fieldset {
-        margin-top: ($u__baseline * 1.5);
-        margin-bottom: ($u__baseline * 1.5);
-    }
-
-    > blockquote {
+    blockquote {
         position: relative;
 
         &:before {
@@ -55,6 +51,10 @@
             left: -1rem;
             border-left: 1px solid;
             content: '';
+        }
+
+        p {
+            margin-bottom: ($u__baseline * 0.75);
         }
     }
 

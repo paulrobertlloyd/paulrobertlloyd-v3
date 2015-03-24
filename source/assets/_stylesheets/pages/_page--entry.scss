@@ -4,7 +4,8 @@
 
 .page--entry .page__location::before {
     margin: 0 ($u__baseline / 4);
-    content: '\2022';
+    content: '/';
+    opacity: 0.5;
 }
 
 .js-enhanced .page--entry .page__location::before {
@@ -13,5 +14,6 @@
 
 .js-enhanced .page--entry .page__location::after {
     margin: 0 ($u__baseline / 2) 0 ($u__baseline / 4);
-    content: '\2022';
+    content: '/';
+    opacity: 0.5;
 }

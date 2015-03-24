@@ -47,6 +47,10 @@
 
 .page__tags {
     order: 7;
+
+    .tag {
+        @include fs--caption;
+    }
 }
 
 .page__title {
@@ -55,12 +59,13 @@
 }
 
 .page__location {
-    @include caption;
-    @include c2sc;
+    @include ff--sans-serif;
+    @include fs--caption;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
 }
 
 .page__pubdate {
-    @include caption;
+    @include ff--sans-serif;
+    @include fs--caption;
 }
