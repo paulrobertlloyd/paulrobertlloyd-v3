@@ -5,9 +5,9 @@
 .contentinfo {
     margin: 0 auto;
     padding: $u__baseline 0;
-    font-size: 0.8125rem; // 13px
-    line-height: (16 / 13);
     text-align: center;
+    line-height: (16 / 13);
+    font-size: 0.8125rem; // 13px
 
     @include susy-media($b__c) {
         max-width: span(6);
