@@ -17,6 +17,10 @@
     margin-left: 0;
     padding-bottom: ($u__baseline / 2);
 
+    p {
+        margin: 0;
+    }
+
     li {
         list-style-position: inside;
     }

@@ -8,7 +8,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (5.1.7.1)
+    autoprefixer-rails (5.1.8)
       execjs
       json
     celluloid (0.16.0)
@@ -76,8 +76,8 @@ GEM
     kramdown (1.6.0)
     libv8 (3.16.14.7)
     liquid (3.0.1)
-    listen (2.9.0)
-      celluloid (>= 0.15.2)
+    listen (2.10.0)
+      celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     lumberjack (1.0.9)

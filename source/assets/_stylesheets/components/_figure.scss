@@ -16,6 +16,10 @@
     @include rule(after);
     clear: left;
 
+    > p {
+        margin: 0;
+    }
+
     .l-extend & {
         padding-right: (gutter());
         padding-left: (gutter());
@@ -30,9 +34,9 @@
 
 /* Caption positioning */
 .figure--caption-right {
-    .figure__main {
-        overflow: hidden;
+    @include clearfix;
 
+    .figure__main {
         @include susy-media($b__a) {
             @include span(6 of 8);
         }
@@ -56,7 +60,6 @@
 [class*="figure--image"] {
     .figure__main {
         @include clearfix;
-        overflow: hidden;
     }
 }
 

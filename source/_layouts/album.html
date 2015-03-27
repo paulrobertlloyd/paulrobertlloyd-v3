@@ -18,7 +18,7 @@ layout: default
                 <p class="figure__main">
                     {% picture {{ file.url | remove: 'assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
-                {% include content/exif.html %}
+                {% include components/exif.html %}
             </figure>
             {% enddirectory %}
         </div>

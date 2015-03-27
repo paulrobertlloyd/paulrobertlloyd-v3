@@ -3,9 +3,10 @@ layout: index
 title: Tags
 permalink: /tags/
 ---
-{% assign tags = site.tags | sort %}
 <ol class="list list--inline">
-{% for tag in tags %}
-    <li class="list__item"><a rel="tag" class="tag" href="/tags/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
+{% assign tags = site.tags | sort %}
+{% for tag_array in tags %}
+    {% capture tag %}{{ tag_array[0] }}{% endcapture %}
+    <li class="list__item">{% include components/tag.html tag=tag %}</li>
 {% endfor %}
 </ol>

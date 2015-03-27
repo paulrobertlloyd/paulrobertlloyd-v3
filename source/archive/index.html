@@ -20,17 +20,18 @@ permalink: /archive/
 
     <div class="section__main">
         <ol class="list list--inline">
-        {% capture tags %}
+        {% capture site_tags %}
             {% for tag in site.tags %}
                 {{ tag[1].size | plus: 1000 }}#{{ tag[0] | replace:' ','_' }}
             {% endfor %}
         {% endcapture %}
-        {% assign sortedtags = tags | split:' ' | sort | reverse %}
-        {% for tag in sortedtags limit:25 %}
-            {% assign item = tag | split:'#' %}
-            <li class="list__item"><a rel="tag" class="tag" href="/tags/{{ item[1] | slugify }}">{{ item[1] | replace:'_',' ' | smartify }}</a></li>
+        {% assign popular_tags = site_tags | split:' ' | sort | reverse %}
+        {% for popular_tag in popular_tags limit:25 %}
+            {% assign tag_array = popular_tag | split:'#' %}
+            {% capture tag %}{{ tag_array[1] | replace:'_',' ' }}{% endcapture %}
+            <li class="list__item">{% include components/tag.html tag=tag %}</li-->
         {% endfor %}
-        </ul>
+        </ol>
         <p><a href="/tags/">View all tags</a></p>
     </div>
 </section>

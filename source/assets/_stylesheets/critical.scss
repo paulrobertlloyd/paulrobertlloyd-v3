@@ -16,20 +16,22 @@
 @import 'base/tables';
 @import 'base/forms';
 
-// Modules
-@import 'modules/audible';
-@import 'modules/button';
-@import 'modules/figure';
-@import 'modules/form';
-@import 'modules/icon';
-@import 'modules/item';
-@import 'modules/layout-hints';
-@import 'modules/lede';
-@import 'modules/list';
-@import 'modules/meta';
-@import 'modules/nav';
-@import 'modules/prose';
-@import 'modules/section';
+// Content
+@import 'content/prose';
+
+// Components
+@import 'components/audible';
+@import 'components/button';
+@import 'components/figure';
+@import 'components/form';
+@import 'components/icon';
+@import 'components/item';
+@import 'components/layout-hints';
+@import 'components/lede';
+@import 'components/list';
+@import 'components/meta';
+@import 'components/nav';
+@import 'components/section';
 
 // Structure
 @import 'structure/banner';
