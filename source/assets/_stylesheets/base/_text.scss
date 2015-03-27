@@ -30,13 +30,17 @@ abbr[title]:hover {
     cursor: help;
 }
 
-pre,
 code,
 kbd,
 samp {
     @include ff--monospace;
     font-size: 85%;
     font-feature-settings: 'liga' 0;
+}
+
+:not(pre) > code {
+    background-color: $c__neutral--a;
+    padding: 0.125em 0.25em;
 }
 
 kbd {

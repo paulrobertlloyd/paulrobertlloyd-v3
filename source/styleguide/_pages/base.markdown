@@ -1,13 +1,9 @@
 ---
 layout: page
-title: Styleguide
+title: Content
+series: Styleguide
 excerpt: A guide to the mark-up styles used throughout this site.
 permalink: /styleguide/
-style: |
-  .example {
-      outline: 1px dashed #ddd;
-      outline-offset: 1rem;
-  }
 ---
 This document is a guide to the mark-up styles used throughout the site. Parts of this markup guide are attributable to [Dave Shea](http://www.mezzoblue.com/), and licensed under [Creative Commons](http://creativecommons.org/licenses/by-sa/2.0/uk/){: rel="license"}.
 
@@ -15,15 +11,15 @@ Line length: dolor sit amet consect eturadi *isicing elit, sed do eiusmod *tempo
 
 Ligatures and numerals: fi ff ffl ffi 1234567890 1/2 1/3 1/4
 
-## Sections this is a long header
+## Second-level heading
 The main page header of this guide is an `h1` element. Any header elements may include links, as depicted in the example.
 
 The secondary header above is an `h2` element, which may be used for any form of important page-level header. More than one may be used per page. Consider using an `h2` unless you need a header level of less importance, or as a sub-header to an existing `h2` element.
 
-### Third-Level Header this is a long header
+### Third-level heading
 The header above is an `h3` element, which may be used for any form of page-level header which falls below the `h2` header in a document hierarchy.
 
-#### Fourth-Level Header this is a long header
+#### Fourth-level heading
 The header above is an `h4` element, which may be used for any form of page-level header which falls below the `h3` header in a document hierarchy.
 
 ## Grouping content
@@ -115,42 +111,6 @@ Here is another term.
 Here is term that shares a definition with the term below.
 Here is a defined term.
 : `dt` terms may stand on their own without an accompanying `dd`, but in that case they _share_ descriptions with the next available `dt`. You may not have a `dd` without a parent `dt`.
-</div>
-
-### Figures
-Figures are usually used to refer to images:
-
-<div class="example" markdown="1">
-{% figure "This is a placeholder image, with supporting caption" %}
-![Placeholder image](http://lorempixum.com/680/400/abstract/)
-{% endfigure %}
-</div>
-
-Here, a part of a poem is marked up using figure:
-
-<div class="example" markdown="1">
-{% figure "<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
-'Twas brillig, and the slithy toves
-Did gyre and gimble in the wabe;
-All mimsy were the borogoves,
-And the mome raths outgrabe.
-{% endfigure %}
-</div>
-
-Here, a cited quote is marked up using figure:
-
-<div class="example" markdown="1">
-{% figure "Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
-> Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-{% endfigure %}
-</div>
-
-Here, a tweet is marked up using figure:
-
-<div class="example" markdown="1">
-{% figure figure--tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
-> How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
-{% endfigure %}
 </div>
 
 ## Text-level Semantics
@@ -334,82 +294,6 @@ If you use these elements, you must use every element. They should appear in thi
 | Half-and-half or Light Cream   | 1 quart         | 2 quart   |
 | Freshly grated nutmeg to taste |                             |
 
-</div>
-
-## Forms
-Forms can be used when you wish to collect data from users. The `fieldset` element enables you to group related fields within a form, and each one should contain a corresponding `legend`. The `label` element ensures field descriptions are associated with their corresponding form widgets.
-
-<div class="example">
-    <form action="#">
-        <fieldset>
-            <legend>Legend</legend>
-            <div>
-                <label for="text">Text Input <abbr title="Required">*</abbr></label>
-                <input id="text" class="text" type="text"/>
-                <em>Note about this field</em>
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input id="password" class="text" type="password"/>
-                <em>Note about this field</em>
-            </div>
-            <div>
-                <label for="url">Web Address</label>
-                <input id="url" class="text" type="url"/>
-                <em>Note about this field</em>
-            </div>
-            <div>
-                <label for="email">Email Address</label>
-                <input id="email" class="text" type="email"/>
-                <em>Note about this field</em>
-            </div>
-            <div>
-                <label for="search">Search</label>
-                <input id="search" class="text" type="search"/><input id="password" class="search button" type="submit"/>
-                <em>Note about this field</em>
-            </div>
-            <div>
-                <label for="textarea">Textarea</label>
-                <textarea id="textarea" rows="8" cols="48"></textarea>
-                <em class="clear">Note about this field</em>
-            </div>
-            <div>
-                <label for="checkbox">Single Checkbox</label>
-                <label for="checkbox" class="check"><input id="checkbox" type="checkbox" class="checkbox"/> Label</label>
-            </div>
-            <div>
-                <label for="select">Select</label>
-                <select id="select">
-                    <optgroup label="Option Group">
-                        <option>Option One</option>
-                        <option>Option Two</option>
-                        <option>Option Three</option>
-                    </optgroup>
-                </select>
-                <em>Note about this selection</em>
-            </div>
-            <fieldset class="options">
-                <legend>Checkbox <abbr title="Required">*</abbr></legend>
-                <ul>
-                    <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked" /> Choice A</label></li>
-                    <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox" /> Choice B</label></li>
-                    <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox" /> Choice C</label></li>
-                </ul>
-            </fieldset>
-            <fieldset class="options">
-                <legend>Radio</legend>
-                <ul>
-                    <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked" /> Option 1</label></li>
-                    <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio" /> Option 2</label></li>
-                </ul>
-            </fieldset>
-            <div class="submit">
-                <input class="button" type="submit" value="Post Comment" />
-                <input class="button" type="button" value="Preview" />
-                <a href="#">Cancel</a>
-            </div>
-        </fieldset>
-    </form>
 </div>
 
 *[ASCII]: American Standard Code for Information Interchange
