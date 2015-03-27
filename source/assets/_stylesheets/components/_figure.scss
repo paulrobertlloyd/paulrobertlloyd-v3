@@ -6,8 +6,9 @@
     margin-bottom: ($u__baseline * 1.5);
 }
 
-.figure__main {
-    margin: 0;
+.figure__main,
+p.figure__main {
+    margin-bottom: ($u__baseline / 2);
 }
 
 .figure__caption {
@@ -16,8 +17,8 @@
     @include rule(after);
     clear: left;
 
-    > p {
-        margin: 0;
+    p {
+        margin-bottom: ($u__baseline / 2);
     }
 
     .l-extend & {
