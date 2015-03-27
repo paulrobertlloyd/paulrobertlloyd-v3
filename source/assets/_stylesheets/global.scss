@@ -28,11 +28,9 @@
 @import 'components/caps';
 @import 'components/chart';
 @import 'components/embed';
-@import 'components/example';
 @import 'components/exif';
 @import 'components/figure';
 @import 'components/footnotes';
-@import 'components/form';
 @import 'components/icon';
 @import 'components/item';
 @import 'components/layout-hints';
@@ -43,6 +41,9 @@
 @import 'components/rating';
 @import 'components/section';
 @import 'components/tag';
+
+// Forms
+@import 'forms/form';
 
 // Structure
 @import 'structure/banner';

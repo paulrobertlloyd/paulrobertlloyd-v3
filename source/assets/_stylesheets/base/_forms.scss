@@ -3,6 +3,11 @@
     http://developers.whatwg.org/forms.html
     ========================================================================= */
 
+form {
+    @include ff--sans-serif;
+    font-size: 1rem;
+}
+
 fieldset {
 /*  Define consistent border, margin, and padding */
     margin: 0;

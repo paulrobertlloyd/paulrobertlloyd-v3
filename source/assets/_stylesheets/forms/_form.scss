@@ -2,10 +2,6 @@
     Form
     ========================================================================= */
 
-.form {
-    @include ff--sans-serif;
-}
-
 .form__title {
     @include fs--heading-3;
     padding-bottom: $u__baseline;
