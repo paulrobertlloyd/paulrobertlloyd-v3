@@ -7,6 +7,8 @@
 }
 
 .index__header {
+    margin-bottom: ($u__baseline * 2);
+
     @include susy-media($b__c) {
         @include span(2);
     }
@@ -38,4 +40,11 @@
     @include fs--heading-1;
     font-weight: 700;
     word-break: break-word;
+}
+
+/* Variations */
+.index--projects {
+    .item--project {
+        float: left;
+    }
 }

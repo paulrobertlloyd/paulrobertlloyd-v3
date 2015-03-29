@@ -7,7 +7,7 @@
 
     <div class="item__main  p-summary">
         <div class="prose">
-            {{ item.excerpt | markdownify | typogrify }}
+            {{ item.meta.role | markdownify | typogrify }}
         </div>
     </div>
 

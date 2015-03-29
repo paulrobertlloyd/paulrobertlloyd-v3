@@ -81,9 +81,14 @@
     font-size: 1.25rem; // 20px
     letter-spacing: -0.02em;
 
-    @include susy-media($b__c) {
+    @include susy-media($b__b) {
         line-height: (28/24);
         font-size: 1.5rem; // 24px
+    }
+
+    @include susy-media($b__c) {
+        line-height: (32/28);
+        font-size: 1.75rem; // 28px
     }
 }
 

@@ -4,5 +4,9 @@ title: Projects
 ---
 {% assign projects = site.categories.projects | sort: 'date' %}
 {% for item in projects reversed %}
-    {% include item/project.html %}
+    {% if item.theme != 'default' %}
+        {% include item/project.html %}
+    {% endif %}
 {% endfor %}
+
+{% include components/projects.html %}

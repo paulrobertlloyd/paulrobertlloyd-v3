@@ -24,9 +24,27 @@ pre {
     tab-size: 4;
 }
 
-@media print {
-    blockquote {
+blockquote {
+    position: relative;
+    padding-right: $u__baseline;
+    padding-left: $u__baseline;
+
+    @include susy-media(print) {
         page-break-inside: avoid;
+    }
+
+    &:before {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        border-left: 1px solid;
+        content: '';
+    }
+
+    :last-child {
+        margin-bottom: 0;
     }
 }
 

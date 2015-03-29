@@ -3,6 +3,7 @@
     ========================================================================= */
 
 .section {
+    @include clearfix;
     margin-bottom: ($u__baseline * 1.5);
     overflow: hidden;
 }
@@ -59,5 +60,13 @@
 .section--extra {
     @include susy-media($b__b) {
         @include span(3 last);
+    }
+}
+
+
+/* Projects section */
+.section--projects {
+    .nav__item {
+        @include span(2);
     }
 }

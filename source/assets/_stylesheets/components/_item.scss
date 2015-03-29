@@ -35,6 +35,10 @@
     @include fs--caption;
 }
 
+.item__permalink {
+    color: $c__neutral--3;
+}
+
 .item__avatar {
     position: absolute;
     top: 0;
@@ -44,7 +48,8 @@
 }
 
 /* Entry item */
-.item--entry {
+.item--entry,
+.item--project {
     .item__title {
         @include fs--heading-2;
     }

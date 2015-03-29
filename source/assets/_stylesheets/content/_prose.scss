@@ -29,34 +29,14 @@
         margin-top: ($u__baseline * 2);
     }
 
-    p,
-    ul,
-    ol,
-    dl,
-    pre,
-    blockquote,
-    table,
-    fieldset {
+    > p,
+    > ul,
+    > ol,
+    > dl,
+    > pre,
+    > blockquote,
+    > table,
+    > fieldset {
         margin-bottom: ($u__baseline * 1.25);
-    }
-
-    blockquote {
-        position: relative;
-        padding-right: $u__baseline;
-        padding-left: $u__baseline;
-
-        &:before {
-            display: block;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            border-left: 1px solid;
-            content: '';
-        }
-
-        :last-child {
-            margin-bottom: 0;
-        }
     }
 }
