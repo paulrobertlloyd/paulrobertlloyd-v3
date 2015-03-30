@@ -4,19 +4,17 @@ layout: default
 <article class="page  h-entry">
     {% include page/header.html %}
 
-    {% if page.image.caption %}
-    <div class="page__media page-container">
-        {% figure l-extend '{{ page.image.caption }}' %}
+    <div class="page__main">
+        {% if page.image.caption %}
+            {% figure l-extend '{{ page.image.caption }}' %}
 {% picture showcase {{ page.image.url }} %}
-        {% endfigure %}
-    </div>
-    {% endif %}
+            {% endfigure %}
+        {% endif %}
 
-    <div class="page__main page-container">
         {% if page.excerpt %}
-        <div class="lede  p-summary">
-            {{ page.excerpt | markdownify | typogrify }}
-        </div>
+            <div class="lede  p-summary">
+                {{ page.excerpt | markdownify | typogrify }}
+            </div>
         {% endif %}
 
         {% if page.series %}

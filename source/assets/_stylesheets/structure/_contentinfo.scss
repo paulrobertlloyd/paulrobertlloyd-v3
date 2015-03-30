@@ -5,12 +5,13 @@
 .contentinfo {
     margin: 0 auto;
     border-top: 1px solid;
-    padding: $u__baseline 0;
+    padding: $u__baseline gutter();
     text-align: center;
     line-height: (16 / 13);
     font-size: 0.8125rem; // 13px
 
     @include susy-media($b__c) {
+        padding: $u__baseline 0;
         max-width: span(6);
     }
 }

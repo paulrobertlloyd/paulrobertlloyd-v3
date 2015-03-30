@@ -19,7 +19,7 @@
 .l-aside-right {
     @include clearfix;
     @include span(2 of 6 last);
-    margin-right: -(span(1 wider));
+    margin-right: (span(1 wider) * -1);
     margin-left: gutter();
 }
 
@@ -29,7 +29,7 @@
     @include susy-media($b__a) {
         @include span(3 of 6 last);
         margin-top: ($u__baseline / 2);
-        margin-right: -(span(1 wider));
+        margin-right: (span(1 wider) * -1);
         margin-left: gutter();
     }
 }
@@ -46,11 +46,14 @@
 
 /* On wider breakpoints elements that extends outwards by additional column */
 .l-extend {
-    @include extend;
+    margin-right: (gutter() * -1);
+    margin-left: (gutter() * -1);
 
-    .embed--video {
-        @include susy-media($b__a) {
-            padding-bottom: 75%;
-        }
+    @include susy-media($b__b) {
+        @include clearfix;
+        @include span(10 of 8 wider);
+        float: none;
+        margin-right: (span(1 wider) * -1);
+        margin-left: (span(1 wider) * -1);
     }
 }

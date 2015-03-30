@@ -4,13 +4,13 @@ layout: default
 <article class="page page--link  h-entry">
     {% include page/header.html %}
 
-    {% if page.link-embed %}
-    <div class="page__media page-container">
-        {% embed {{ page.link }} %}
-    </div>
-    {% endif %}
+    <div class="page__main">
+        {% if page.link-embed %}
+            {% figure l-extend %}
+{% embed {{ page.link }} %}
+            {% endfigure %}
+        {% endif %}
 
-    <div class="page__main page-container">
         <div class="prose  e-content">
             {{ content | typogrify }}
 

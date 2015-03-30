@@ -82,8 +82,8 @@
     letter-spacing: -0.02em;
 
     @include susy-media($b__b) {
-        line-height: (28/24);
-        font-size: 1.5rem; // 24px
+        line-height: (32/28);
+        font-size: 1.75rem; // 28px
     }
 
     @include susy-media($b__c) {
@@ -125,29 +125,14 @@
     }
 
     @include susy-media($b__c) {
-        line-height: (32/20);
-        font-size: 1.25rem; // 20px
+        line-height: (32/19);
+        font-size: 1.1875rem; // 19px
     }
 }
 
 @mixin fs--caption {
     line-height: (20/16);
     font-size: 1rem; // 16px
-}
-
-
-// Layout
-@mixin extend {
-    margin-right: -(gutter());
-    margin-left: -(gutter());
-
-    @include susy-media($b__a) {
-        @include clearfix;
-        @include span(10 of 8 wider);
-        float: none;
-        margin-right: -(span(1 wider));
-        margin-left: -(span(1 wider));
-    }
 }
 
 
@@ -161,7 +146,7 @@
     @if $color != 'none' {
         background-image: linear-gradient(to bottom, transparent 50%, rgba($color, 0.66) 50%);
         background-repeat: repeat-x;
-        background-position: 0% 88%;
+        background-position: 0% 90%;
         background-size: 0.5em 2px;
         text-decoration: none;
     } @else {
