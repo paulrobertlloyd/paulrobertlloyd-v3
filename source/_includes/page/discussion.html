@@ -1,8 +1,8 @@
 {% capture entry_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: "journal/_posts/links/" | remove: ".markdown" }}{% endcapture %}
 {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
 <details class="page__discussion page-container  is-expandable" aria-labelledby="discussion">
-    <summary class="section__header">
-        <h1 class="section__title" id="discussion">Discussion</h1>
+    <summary class="container__header">
+        <h1 class="container__title" id="discussion">Discussion</h1>
         <p>
             {% case remark_count %}
             {% when "0" %}
@@ -20,7 +20,7 @@
         </p>
     </summary>
 
-    <div class="section__main">
+    <div class="container__main">
         {% if remark_count >= "1" %}
             {% for item in site.data.remarks[entry_id] reversed %}
                 {% include item/remark.html %}

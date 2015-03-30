@@ -2,12 +2,12 @@
 layout: index
 title: Present&shy;ations
 ---
-<section class="section section--appearances" aria-labelledby="appearances">
-    <header class="section__header">
-        <h1 class="section__title" id="appearances">Next…</h1>
+<section class="container container--appearances" aria-labelledby="appearances">
+    <header class="container__header">
+        <h1 class="container__title" id="appearances">Next…</h1>
     </header>
 
-    <div class="section__main">
+    <div class="container__main">
         {% for item in site.data.appearances %}
             {% include item/presentation.html %}
         {% endfor %}
@@ -24,12 +24,12 @@ title: Present&shy;ations
         </section>
         {% endunless %}
 
-        <section class="section section--year" aria-labelledby="year-{{ this_year }}">
-            <header class="section__header">
-                <h1 class="section__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+        <section class="container container--year" aria-labelledby="year-{{ this_year }}">
+            <header class="container__header">
+                <h1 class="container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
             </header>
 
-            <div class="section__main">
+            <div class="container__main">
     {% endif %}
                 {% include item/presentation.html %}
 {% endfor %}

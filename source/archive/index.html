@@ -3,22 +3,22 @@ layout: index
 title: Archive
 permalink: /archive/
 ---
-<section class="section section--search" aria-labelledby="search">
-    <header class="section__header">
-        <h1 class="section__title" id="search">Search</h1>
+<section class="container container--search" aria-labelledby="search">
+    <header class="container__header">
+        <h1 class="container__title" id="search">Search</h1>
     </header>
 
-    <div class="section__main">
+    <div class="container__main">
         {% include forms/search.html %}
     </div>
 </section>
 
-<section class="section section--tags" aria-labelledby="tags">
-    <header class="section__header">
-        <h1 class="section__title" id="tags">Tags</h1>
+<section class="container container--tags" aria-labelledby="tags">
+    <header class="container__header">
+        <h1 class="container__title" id="tags">Tags</h1>
     </header>
 
-    <div class="section__main">
+    <div class="container__main">
         <ol class="list list--inline">
         {% capture site_tags %}
             {% for tag in site.tags %}
@@ -49,12 +49,12 @@ permalink: /archive/
         </section>
         {% endunless %}
 
-        <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-            <header class="section__header">
-                <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
+        <section class="container container--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+            <header class="container__header">
+                <h1 class="container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
             </header>
 
-            <div class="section__main">
+            <div class="container__main">
                 <ol class="list list--inline list--inline--separated" reversed>
     {% endif %}
                     <li class="list__item list__item--{{ item.layout }}" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>

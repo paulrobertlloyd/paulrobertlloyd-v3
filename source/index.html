@@ -2,15 +2,15 @@
 layout: default
 theme: dark
 ---
-{% for section in site.data.homepage %}
-    <section class="section section--{{ section.class }}">
-        <header class="section__header">
-            <h1 class="section__title">{{ section.title | smartify }}</h1>
+{% for container in site.data.homepage %}
+    <section class="container container--{{ container.class }}">
+        <header class="container__header">
+            <h1 class="container__title">{{ container.title | smartify }}</h1>
         </header>
 
-        <div class="section__main">
-            <div class="{% if section.class == 'intro' %}lede{% endif %}">
-                {{ section.text | markdownify | typogrify }}
+        <div class="container__main">
+            <div class="{% if container.class == 'intro' %}lede{% endif %}">
+                {{ container.text | markdownify | typogrify }}
             </div>
         </div>
     </section>
