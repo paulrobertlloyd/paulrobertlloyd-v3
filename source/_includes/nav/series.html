@@ -7,8 +7,8 @@
 {% else %}
     {% assign series = site.pages | where: 'series', page.series %}
 {% endif %}
-<nav class="section section--series  {{ include.class }}" aria-labelledby="series">
-    <h1 class="section__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
+<nav class="container container--series  {{ include.class }}" aria-labelledby="series">
+    <h1 class="container__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
 
     <ol class="nav nav--series">
     {% for item in series offset:1 %}

@@ -1,19 +1,19 @@
 /*  =========================================================================
-    Section
+    Container
     ========================================================================= */
 
-.section {
+.container {
     @include clearfix;
     margin-bottom: ($u__baseline * 2);
     overflow: hidden;
 
-    + section {
+    + .container {
         border-top: 1px solid;
         padding-top: ($u__baseline / 4);
     }
 }
 
-.section__title {
+.container__title {
     @include ff--sans-serif;
     @include fs--heading-3;
     margin-bottom: $u__baseline;
@@ -28,7 +28,7 @@
 
 
 /* Index section */
-.section--index__title {
+.container--index__title {
     @include fs--heading-1;
     font-weight: 700;
     word-break: break-word;
@@ -38,12 +38,12 @@
     }
 }
 
-.section--index__main {
+.container--index__main {
     @include susy-media($b__c) {
         @include span(6 last);
     }
 
-    .section__header {
+    .container__header {
         @include span(2 of 8);
 
         @include susy-media($b__b) {
@@ -51,7 +51,7 @@
         }
     }
 
-    .section__main {
+    .container__main {
         @include span(6 of 8 last);
 
         @include susy-media($b__b) {
@@ -62,18 +62,18 @@
 
 
 /* Homepage intro section */
-.section--intro {
+.container--intro {
     @include susy-media($b__b) {
-        .section__header {
+        .container__header {
             @include span(2 of 8);
         }
 
-        .section__main {
+        .container__main {
             @include span(6 of 8 last);
         }
     }
 
-    .section__title {
+    .container__title {
         @include fs--heading-1;
 
         &::after {
@@ -88,7 +88,7 @@
 
 
 /* Homepage pitch section */
-.section--pitch {
+.container--pitch {
     @include susy-media($b__b) {
         @include span(5);
     }
@@ -96,7 +96,7 @@
 
 
 /* Homepage extra section */
-.section--extra {
+.container--extra {
     @include susy-media($b__b) {
         @include span(3 last);
     }
@@ -104,7 +104,7 @@
 
 
 /* Projects section */
-.section--projects {
+.container--projects {
     .nav__item {
         @include span(2);
 

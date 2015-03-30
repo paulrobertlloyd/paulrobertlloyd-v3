@@ -14,12 +14,12 @@ layout: index
             </section>
             {% endunless %}
 
-            <section class="section section--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-                <header class="section__header">
-                    <h1 class="section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month-name }}</a></h1>
+            <section class="container container--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+                <header class="container__header">
+                    <h1 class="container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month-name }}</a></h1>
                 </header>
 
-                <div class="section__main">
+                <div class="container__main">
                     <ol class="list list--inline list--inline--separated" reversed>
         {% endif %}
                         <li class="list__item list__item--{{ item.layout }}" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>

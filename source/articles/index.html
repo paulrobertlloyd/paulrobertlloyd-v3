@@ -13,12 +13,12 @@ title: Articles
         </section>
         {% endunless %}
 
-        <section class="section section--year" aria-labelledby="year-{{ this_year }}">
-            <header class="section__header">
-                <h1 class="section__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+        <section class="container container--year" aria-labelledby="year-{{ this_year }}">
+            <header class="container__header">
+                <h1 class="container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
             </header>
 
-            <div class="section__main">
+            <div class="container__main">
     {% endif %}
                 {% include item/article.html %}
 {% endfor %}

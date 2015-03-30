@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-{% capture page_section %}{{ page.path | split:'/' | first | remove:'.html' }}{% endcapture %}
+{% capture section %}{{ page.path | split:'/' | first | remove:'.html' }}{% endcapture %}
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
 <html lang="en-gb" class="fonts-loaded">
@@ -12,11 +12,11 @@ layout: compress
     <link rel="dns-prefetch" href="//hello.myfonts.net"/>
     <link rel="dns-prefetch" href="{{ site.picture.url }}"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
-    {% if page_section == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
-    {% if page_section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
-    {% if page_section == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
+    {% if section == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
+    {% if section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
+    {% if section == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
 
-    {% if page_section != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
+    {% if section != 'index.html' %}<link rel="canonical" href="{{ page.url | remove:'.html' }}"/>{% endif %}
     {% if page.previous_in_category != nil %}<link rel="prev bookmark" href="{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}"/>{% endif %}
     {% if page.next_in_category != nil %}<link rel="next bookmark" href="{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}"/>{% endif %}
 
