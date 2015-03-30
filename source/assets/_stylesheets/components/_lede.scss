@@ -3,6 +3,14 @@
     ========================================================================= */
 
 .lede {
+    @include ff--sans-serif;
     @include fs--heading-3;
     font-feature-settings: 'liga', 'dlig', 'onum';
+
+    > p,
+    > ul,
+    > ol,
+    > dl {
+        margin-bottom: ($u__baseline * 0.75);
+    }
 }

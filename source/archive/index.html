@@ -36,10 +36,10 @@ permalink: /archive/
     </div>
 </section>
 
-{% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
-    {% capture this_month-name %}{{ post.date | date: "%B %Y" }}{% endcapture %}
+{% for item in site.posts %}
+    {% capture this_year %}{{ item.date | date: "%Y" }}{% endcapture %}
+    {% capture this_month %}{{ item.date | date: "%m" }}{% endcapture %}
+    {% capture this_month-name %}{{ item.date | date: "%B %Y" }}{% endcapture %}
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
         {% capture month %}{{ this_month }}{% endcapture %}
@@ -57,5 +57,5 @@ permalink: /archive/
             <div class="section__main">
                 <ol class="list list--inline list--inline--separated" reversed>
     {% endif %}
-                    <li class="list__item" value="{{ post.date | date: "%-d" }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    <li class="list__item list__item--{{ item.layout }}" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}

@@ -22,7 +22,7 @@ layout: index
                 <div class="section__main">
                     <ol class="list list--inline list--inline--separated" reversed>
         {% endif %}
-                        <li class="list__item" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li class="list__item list__item--{{ item.layout }}" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% else %}
         {% include item/entry.html %}
     {% endif %}

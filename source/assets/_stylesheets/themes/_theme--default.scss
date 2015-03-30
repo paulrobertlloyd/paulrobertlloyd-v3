@@ -8,15 +8,26 @@
 
     a {
         color: $c__identity--1;
+
+        &:active,
+        &:hover {
+            color: $c__identity--2;
+        }
+
+        &:active {
+            color: $c__identity--2;
+        }
     }
 
+    blockquote::before {
+        border-color: $c__identity--2;
+    }
+
+    .lede,
     .prose {
         a {
             @include text-decoration-color($c__identity--1);
-        }
-
-        blockquote::before {
-            border-color: $c__identity--2;
+            color: $c__neutral--2;
         }
     }
 

@@ -8,16 +8,10 @@
     right: 0;
     left: 0;
     margin: 0 gutter();
+    border-bottom: 1px solid;
     max-width: $u__max-width;
 
     @include susy-media($b__c) {
         margin: 0 auto;
-    }
-
-    &::after {
-        display: block;
-        opacity: 0.5;
-        border-top: 2px solid;
-        content: '';
     }
 }

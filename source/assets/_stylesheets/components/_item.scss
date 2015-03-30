@@ -5,7 +5,7 @@
 .item {
     display: flex;
     position: relative;
-    margin-bottom: ($u__baseline * 1.5);
+    margin-bottom: $u__baseline;
     flex-direction: column;
 }
 
@@ -29,20 +29,29 @@
 
 .item__title {
     @include fs--heading-3;
+    padding-top: 1.25rem;
+}
+
+.item__body {
+    > * {
+        margin-bottom: ($u__baseline * 0.75);
+    }
 }
 
 .item__meta {
     @include fs--caption;
+    color: $c__neutral--4;
 }
 
-.item__permalink {
-    color: $c__neutral--3;
+.item__pubdate {
+    color: $c__neutral--4;
 }
 
 .item__avatar {
     position: absolute;
     top: 0;
     left: 0;
+    background-color: $c__neutral--a;
     width: span(1 of 8);
     height: auto;
 }
@@ -50,14 +59,38 @@
 /* Entry item */
 .item--entry,
 .item--project {
+    margin-bottom: ($u__baseline * 2);
+
     .item__title {
         @include fs--heading-2;
+        padding-top: 0.875rem;
     }
 }
 
 /* Link item */
 .item--link {
+    @include susy-media($b__c) {
+        padding-right: span(1 of 6);
+    }
+
     .item__title a[href^="http://"]::after {
         content: ' \2192';
+    }
+}
+
+/* Item project */
+.item--project {
+    @include span(2 of 6);
+
+    &:nth-child(3n) {
+        @include last;
+    }
+
+    &:nth-child(3n+1) {
+        clear: left;
+    }
+
+    &:last-child {
+        float: left;
     }
 }

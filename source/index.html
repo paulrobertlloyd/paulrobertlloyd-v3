@@ -9,7 +9,7 @@ theme: dark
         </header>
 
         <div class="section__main">
-            <div class="prose{% if section.class == 'intro' %} lede{% endif %}">
+            <div class="{% if section.class == 'intro' %}lede{% endif %}">
                 {{ section.text | markdownify | typogrify }}
             </div>
         </div>
