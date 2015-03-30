@@ -1,9 +1,0 @@
-<section class="page__tags page-container" aria-labelledby="tags">
-    <h1 class="audible" id="tags">Tags</h1>
-
-    <ul class="list list--inline">
-    {% for tag in page.tags %}
-        <li class="list__item">{% include components/tag.html tag=tag %}</li>
-    {% endfor %}
-    </ul>
-</section>

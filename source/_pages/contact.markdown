@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 If you wish to get in touch, please send me a message using the form below.
 
-{% include forms/contact.html %}
+{% include components/form/contact.html %}
 
 ## Testimonials
 {% figure "<cite>Harry Brignull, UX consultant</cite>" %}

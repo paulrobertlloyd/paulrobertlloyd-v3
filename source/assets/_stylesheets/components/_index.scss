@@ -1,0 +1,35 @@
+/*  =========================================================================
+    Index
+    ========================================================================= */
+
+.index__title {
+    @include fs--heading-1;
+    font-weight: 700;
+    word-break: break-word;
+
+    @include susy-media($b__c) {
+        @include span(2);
+    }
+}
+
+.index__main {
+    @include susy-media($b__c) {
+        @include span(6 last);
+    }
+
+    .container__header {
+        @include span(2 of 8);
+
+        @include susy-media($b__b) {
+            @include span(2 of 6);
+        }
+    }
+
+    .container__main {
+        @include span(6 of 8 last);
+
+        @include susy-media($b__b) {
+            @include span(4 of 6 last);
+        }
+    }
+}

@@ -5,7 +5,6 @@
 .container {
     @include clearfix;
     margin-bottom: ($u__baseline * 2);
-    overflow: hidden;
 
     + .container {
         border-top: 1px solid;
@@ -27,41 +26,15 @@
 }
 
 
-/* Index section */
-.container--index__title {
-    @include fs--heading-1;
-    font-weight: 700;
-    word-break: break-word;
-
-    @include susy-media($b__c) {
-        @include span(2);
-    }
-}
-
-.container--index__main {
-    @include susy-media($b__c) {
-        @include span(6 last);
-    }
-
-    .container__header {
-        @include span(2 of 8);
-
-        @include susy-media($b__b) {
-            @include span(2 of 6);
-        }
-    }
-
-    .container__main {
-        @include span(6 of 8 last);
-
-        @include susy-media($b__b) {
-            @include span(4 of 6 last);
-        }
+/* Tags */
+.container--tags {
+    .tag {
+        @include fs--caption;
     }
 }
 
 
-/* Homepage intro section */
+/* Homepage intro */
 .container--intro {
     @include susy-media($b__b) {
         .container__header {
@@ -87,7 +60,7 @@
 }
 
 
-/* Homepage pitch section */
+/* Homepage pitch */
 .container--pitch {
     @include susy-media($b__b) {
         @include span(5);
@@ -95,7 +68,7 @@
 }
 
 
-/* Homepage extra section */
+/* Homepage extra */
 .container--extra {
     @include susy-media($b__b) {
         @include span(3 last);
@@ -103,7 +76,7 @@
 }
 
 
-/* Projects section */
+/* Projects */
 .container--projects {
     .nav__item {
         @include span(2);

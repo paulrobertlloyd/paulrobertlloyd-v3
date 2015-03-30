@@ -29,19 +29,19 @@
 @import 'components/exif';
 @import 'components/figure';
 @import 'components/footnotes';
+@import 'components/form';
 @import 'components/icon';
+@import 'components/index';
 @import 'components/item';
 @import 'components/layout-hints';
 @import 'components/lede';
 @import 'components/list';
 @import 'components/meta';
 @import 'components/nav';
+@import 'components/page';
 @import 'components/prose';
 @import 'components/rating';
 @import 'components/tag';
-
-// Forms
-@import 'forms/form';
 
 // Structure
 @import 'structure/banner';
@@ -50,9 +50,7 @@
 @import 'structure/navigation';
 
 // Pages
-@import 'pages/page';
 @import 'pages/page--link';
-@import 'pages/page--album';
 @import 'pages/page--entry';
 @import 'pages/page--project';
 

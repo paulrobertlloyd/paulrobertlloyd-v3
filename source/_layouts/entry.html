@@ -4,17 +4,15 @@ layout: default
 <article class="page page--entry  h-entry">
     {% include page/header.html %}
 
-    {% if page.image.caption %}
-    <div class="page__media page-container">
-        {% figure l-extend "{{ page.image.caption }}" %}
+    <div class="container container--content">
+        {% if page.image.caption %}
+            {% figure l-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
-        {% endfigure %}
-    </div>
-    {% endif %}
+            {% endfigure %}
+        {% endif %}
 
-    <div class="page__main page-container">
         {% if page.series %}
-            {% include nav/series.html class='l-aside-right' %}
+            {% include components/nav/series.html class='l-aside-right' %}
         {% endif %}
 
         <div class="prose  e-content">
@@ -23,11 +21,11 @@ layout: default
     </div>
 
     {% if page.discussion %}
-        {% include page/discussion.html %}
+        {% include components/container/discussion.html %}
     {% endif %}
 
     {% if page.tags %}
-        {% include page/tags.html %}
+        {% include components/container/tags.html %}
     {% endif %}
 
     {% include page/footer.html %}

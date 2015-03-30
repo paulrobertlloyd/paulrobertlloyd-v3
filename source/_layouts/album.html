@@ -6,7 +6,7 @@ layout: default
 
     <div class="page__main page-container">
         {% if page.series %}
-            {% include nav/series.html %}
+            {% include components/nav/series.html %}
         {% endif %}
 
         <div class="prose  e-content">
@@ -14,7 +14,7 @@ layout: default
 
             {% capture album_path %}{{ page.path | replace: 'photos/_posts/','assets/images/photos/' | remove: '.markdown' }}{% endcapture %}
             {% directory path: album_path %}
-            <figure class="figure figure--caption-right l-extend">
+            <figure class="figure figure--photo figure--caption-right l-extend">
                 <p class="figure__main">
                     {% picture {{ file.url | remove: 'assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
@@ -25,7 +25,7 @@ layout: default
     </div>
 
     {% if page.tags %}
-        {% include page/tags.html %}
+        {% include components/container/tags.html %}
     {% endif %}
 
     {% include page/footer.html %}
