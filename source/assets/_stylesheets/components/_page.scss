@@ -3,48 +3,21 @@
     ========================================================================= */
 
 .page {
-    display: flex;
-    flex-direction: column;
-}
-
-.page-container {
-    margin-bottom: $u__baseline;
-
-    @include susy-media($b__a) {
-        padding-right: span(1 wide);
-        padding-left: span(1 wide);
+    .container {
+        @include susy-media($b__a) {
+            padding-right: span(1 wide);
+            padding-left: span(1 wide);
+        }
     }
 }
 
 .page__header {
     padding-bottom: ($u__baseline * 4);
-    order: 1;
 }
 
 .page__footer {
     margin-top: ($u__baseline * -4);
     margin-bottom: ($u__baseline * 4);
-    order: 2;
-}
-
-.page__media {
-    order: 3;
-}
-
-.page__main {
-    order: 4;
-}
-
-.page__discussion {
-    order: 5;
-}
-
-.page__tags {
-    order: 6;
-
-    .tag {
-        @include fs--caption;
-    }
 }
 
 .page__title {

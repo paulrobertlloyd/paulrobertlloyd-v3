@@ -21,26 +21,23 @@
 @import 'components/button';
 @import 'components/container';
 @import 'components/figure';
+@import 'components/form';
 @import 'components/icon';
 @import 'components/item';
+@import 'components/index';
 @import 'components/layout-hints';
 @import 'components/lede';
 @import 'components/list';
 @import 'components/meta';
 @import 'components/nav';
+@import 'components/page';
 @import 'components/prose';
-
-// Forms
-@import 'forms/form';
 
 // Structure
 @import 'structure/banner';
 @import 'structure/contentinfo';
 @import 'structure/main';
 @import 'structure/navigation';
-
-// Pages
-@import 'pages/page';
 
 // Themes
 @import 'themes/theme--dark';

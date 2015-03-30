@@ -9,7 +9,7 @@ title: Present&shy;ations
 
     <div class="container__main">
         {% for item in site.data.appearances %}
-            {% include item/presentation.html %}
+            {% include components/item/presentation.html %}
         {% endfor %}
     </div>
 </section>
@@ -31,5 +31,5 @@ title: Present&shy;ations
 
             <div class="container__main">
     {% endif %}
-                {% include item/presentation.html %}
+                {% include components/item/presentation.html %}
 {% endfor %}

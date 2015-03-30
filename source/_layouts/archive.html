@@ -24,6 +24,6 @@ layout: index
         {% endif %}
                         <li class="list__item list__item--{{ item.layout }}" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% else %}
-        {% include item/entry.html %}
+        {% include components/item/entry.html %}
     {% endif %}
 {% endfor %}

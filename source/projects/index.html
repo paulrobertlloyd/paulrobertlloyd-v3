@@ -3,13 +3,13 @@ layout: default
 title: Projects
 ---
 {% assign projects = site.categories.projects | sort: 'date' %}
-<section class="container container--index">
-    <h1 class="container--index__title">{% include structure/title.html %}</h1>
+<section class="index">
+    <h1 class="index__title">{% include structure/title.html %}</h1>
 
-    <div class="container--index__main">
+    <div class="index__main">
         {% for item in projects reversed %}
             {% if item.theme != 'default' %}
-                {% include item/project.html %}
+                {% include components/item/project.html %}
             {% endif %}
         {% endfor %}
     </div>

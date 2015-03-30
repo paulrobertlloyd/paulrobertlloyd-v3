@@ -3,7 +3,7 @@ layout: index
 title: Journal
 ---
 {% for item in paginator.posts %}
-    {% include item/entry.html %}
+    {% include components/item/entry.html %}
 {% endfor %}
 
-{% include nav/pagination.html %}
+{% include components/nav/pagination.html %}

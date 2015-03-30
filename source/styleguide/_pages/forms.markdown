@@ -6,7 +6,7 @@ excerpt: A guide to the mark-up styles used throughout this site.
 permalink: /styleguide/forms
 ---
 ## Contact
-{% include forms/contact.html %}
+{% include components/form/contact.html %}
 
 ## Search
-{% include forms/search.html %}
+{% include components/form/search.html %}
