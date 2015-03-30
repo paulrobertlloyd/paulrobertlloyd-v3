@@ -4,17 +4,15 @@ layout: default
 <article class="page page--presentation  h-entry">
     {% include page/header.html %}
 
-    {% if page.link %}
-    <div class="page__media page-container">
-        <!-- embed {{ page.link }} -->
-    </div>
-    {% endif %}
+    <div class="page__main">
+        {% if page.link %}
+            {% embed {{ page.link }} %}
+        {% endif %}
 
-    <div class="page__main page-container">
         {% if page.excerpt %}
-        <div class="lede  p-summary">
-            {{ page.excerpt | markdownify | typogrify }}
-        </div>
+            <div class="lede  p-summary">
+                {{ page.excerpt | markdownify | typogrify }}
+            </div>
         {% endif %}
 
         {% if page.meta %}

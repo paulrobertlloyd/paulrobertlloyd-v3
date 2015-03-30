@@ -4,4 +4,9 @@
 
 .main {
     @include clearfix;
+    padding: 0 gutter();
+
+    @include susy-media($b__c) {
+        padding: 0;
+    }
 }

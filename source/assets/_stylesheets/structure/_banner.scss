@@ -3,13 +3,13 @@
     ========================================================================= */
 
 .banner {
-    margin-bottom: ($u__baseline * 4);
-    padding-bottom: ($u__baseline * 2);
+    margin-bottom: ($u__baseline * 2);
+    padding: 0 gutter() $u__baseline;
     overflow: hidden;
     text-align: center;
 
-    @include susy-media($b__a) {
-        padding-bottom: 0;
+    @include susy-media($b__c) {
+        padding: 0 0 $u__baseline;
         text-align: left;
     }
 }

@@ -25,7 +25,7 @@ $c__neutral--7: lighten($c__neutral, 70%);
 $c__neutral--8: lighten($c__neutral, 80%);
 $c__neutral--9: lighten($c__neutral, 90%);
 
-$c__selection: #f00; // TODO: Change this
+$c__selection: rgba($c__identity--2, 0.1);
 
 $c__24-ways: #ff0040;
 $c__bradshaws-guide: #363330;
@@ -39,7 +39,7 @@ $c__ngenera: #00173b;
 // Breakpoints
 $b__a: 32em; // 512px
 $b__b: 45em; // 720px
-$b__c: $u__max-width + ($u__baseline * 2);
+$b__c: $u__max-width;
 
 
 // Grid (Susy)

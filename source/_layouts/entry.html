@@ -4,9 +4,9 @@ layout: default
 <article class="page page--entry  h-entry">
     {% include page/header.html %}
 
-    <div class="container container--content">
+    <div class="page__main">
         {% if page.image.caption %}
-            {% figure l-extend "{{ page.image.caption }}" %}
+            {% figure l-extend '{{ page.image.caption }}' %}
 {% picture showcase {{ page.image.url }} %}
             {% endfigure %}
         {% endif %}

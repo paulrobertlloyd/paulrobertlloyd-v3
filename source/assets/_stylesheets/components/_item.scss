@@ -5,7 +5,7 @@
 .item {
     display: flex;
     position: relative;
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 2);
     flex-direction: column;
 }
 
@@ -29,7 +29,6 @@
 
 .item__title {
     @include fs--heading-3;
-    padding-top: 1.25rem;
 }
 
 .item__body {
@@ -59,13 +58,17 @@
 /* Entry item */
 .item--entry,
 .item--project {
-    margin-bottom: ($u__baseline * 2);
-
     .item__title {
         @include fs--heading-2;
         padding-top: 0.875rem;
     }
 }
+
+.item--link,
+.item--presentation {
+    padding-top: 1.25rem;
+}
+
 
 /* Link item */
 .item--link {

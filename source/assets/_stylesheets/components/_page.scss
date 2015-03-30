@@ -3,21 +3,23 @@
     ========================================================================= */
 
 .page {
-    .container {
-        @include susy-media($b__a) {
-            padding-right: span(1 wide);
-            padding-left: span(1 wide);
-        }
+    position: relative;
+}
+
+.page__main,
+.page .container {
+    @include susy-media($b__b) {
+        padding-right: span(1 wide);
+        padding-left: span(1 wide);
     }
 }
 
 .page__header {
-    padding-bottom: ($u__baseline * 4);
-}
+    margin-bottom: ($u__baseline * 2);
 
-.page__footer {
-    margin-top: ($u__baseline * -4);
-    margin-bottom: ($u__baseline * 4);
+    @include susy-media($b__b) {
+        padding-left: span(1 wide);
+    }
 }
 
 .page__title {
@@ -32,8 +34,32 @@
     letter-spacing: 0.03125rem; // 0.5px
 }
 
+.page__location::before {
+    opacity: 0.5;
+    margin: 0 ($u__baseline / 4);
+    content: '/';
+
+    .js-enhanced & {
+        display: none;
+    }
+}
+
+.page__location::after {
+    .js-enhanced & {
+        opacity: 0.5;
+        margin: 0 ($u__baseline / 2) 0 ($u__baseline / 4);
+        content: '/';
+    }
+}
+
 .page__pubdate {
     @include ff--sans-serif;
     @include fs--caption;
     color: $c__neutral--4;
+
+    @include susy-media($b__c) {
+        position: absolute;
+        left: 0;
+        top: 1.75rem;
+    }
 }
