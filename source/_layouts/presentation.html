@@ -10,17 +10,17 @@ layout: default
     </div>
     {% endif %}
 
-    <div class="page__intro page-container">
+    <div class="page__main page-container">
+        {% if page.excerpt %}
+        <div class="lede  p-summary">
+            {{ page.excerpt | markdownify | typogrify }}
+        </div>
+        {% endif %}
+
         {% if page.meta %}
             {% include components/meta.html class='l-aside-right' %}
         {% endif %}
 
-        <div class="prose lede  p-summary">
-            {{ page.excerpt | markdownify | typogrify }}
-        </div>
-    </div>
-
-    <div class="page__main page-container">
         <div class="prose  e-content">
             {{ content | typogrify }}
         </div>

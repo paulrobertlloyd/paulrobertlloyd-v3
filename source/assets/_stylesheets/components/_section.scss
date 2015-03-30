@@ -4,20 +4,59 @@
 
 .section {
     @include clearfix;
-    margin-bottom: ($u__baseline * 1.5);
+    margin-bottom: ($u__baseline * 2);
     overflow: hidden;
+
+    + section {
+        border-top: 1px solid;
+        padding-top: ($u__baseline / 4);
+    }
 }
 
 .section__title {
     @include ff--sans-serif;
     @include fs--heading-3;
-    margin-bottom: ($u__baseline / 2);
+    margin-bottom: $u__baseline;
     font-weight: 700;
     word-break: break-word;
     hyphens: auto;
 
     .is-expandable & {
         display: inline-block;
+    }
+}
+
+
+/* Index section */
+.section--index__title {
+    @include fs--heading-1;
+    font-weight: 700;
+    word-break: break-word;
+
+    @include susy-media($b__c) {
+        @include span(2);
+    }
+}
+
+.section--index__main {
+    @include susy-media($b__c) {
+        @include span(6 last);
+    }
+
+    .section__header {
+        @include span(2 of 8);
+
+        @include susy-media($b__b) {
+            @include span(2 of 6);
+        }
+    }
+
+    .section__main {
+        @include span(6 of 8 last);
+
+        @include susy-media($b__b) {
+            @include span(4 of 6 last);
+        }
     }
 }
 
@@ -42,7 +81,7 @@
         }
     }
 
-    .prose .p-name {
+    .lede .p-name {
         @include text-decoration-color('none');
     }
 }
@@ -68,5 +107,13 @@
 .section--projects {
     .nav__item {
         @include span(2);
+
+        &:nth-child(4n+1) {
+            @include last;
+        }
+
+        &:last-child {
+            float: left;
+        }
     }
 }

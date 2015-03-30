@@ -1,21 +1,7 @@
 <article class="item item--project  h-entry">
-    <header class="item__header">
-        <h1 class="item__title  p-name">
-            <a class="item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
-        </h1>
-    </header>
+    <h1 class="item__title  p-name">
+        <a class="item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
+    </h1>
 
-    <div class="item__main  p-summary">
-        <div class="prose">
-            {{ item.meta.role | markdownify | typogrify }}
-        </div>
-    </div>
-
-    <footer class="item__footer">
-        <p class="item__meta">
-            <a class="item__permalink  u-url" href="{{ item.url }}" rel="bookmark">
-                <time class="item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%e %B %Y' }}</time>
-            </a>
-        </p>
-    </footer>
+    <p class="item__meta  p-summary">{{ item.excerpt | markdownify | typogrify }}</p>
 </article>

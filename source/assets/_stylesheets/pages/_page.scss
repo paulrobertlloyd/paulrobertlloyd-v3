@@ -31,22 +31,16 @@
     order: 3;
 }
 
-.page__intro {
+.page__main {
     order: 4;
 }
 
-.page__main {
-    @include ff--serif;
-    @include fs--body;
+.page__discussion {
     order: 5;
 }
 
-.page__discussion {
-    order: 6;
-}
-
 .page__tags {
-    order: 7;
+    order: 6;
 
     .tag {
         @include fs--caption;
@@ -68,4 +62,5 @@
 .page__pubdate {
     @include ff--sans-serif;
     @include fs--caption;
+    color: $c__neutral--4;
 }

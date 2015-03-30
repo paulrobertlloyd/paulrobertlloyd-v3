@@ -16,9 +16,6 @@
 @import 'base/tables';
 @import 'base/forms';
 
-// Content
-@import 'content/prose';
-
 // Components
 @import 'components/audible';
 @import 'components/button';
@@ -30,6 +27,7 @@
 @import 'components/list';
 @import 'components/meta';
 @import 'components/nav';
+@import 'components/prose';
 @import 'components/section';
 
 // Forms
@@ -43,7 +41,6 @@
 
 // Pages
 @import 'pages/page';
-@import 'pages/index';
 
 // Themes
 @import 'themes/theme--dark';

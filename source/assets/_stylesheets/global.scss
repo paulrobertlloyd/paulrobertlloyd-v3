@@ -19,9 +19,6 @@
 @import 'base/interactive';
 @import 'base/disabled';
 
-// Content
-@import 'content/prose';
-
 // Components
 @import 'components/audible';
 @import 'components/button';
@@ -38,6 +35,7 @@
 @import 'components/list';
 @import 'components/meta';
 @import 'components/nav';
+@import 'components/prose';
 @import 'components/rating';
 @import 'components/section';
 @import 'components/tag';
@@ -57,9 +55,7 @@
 @import 'pages/page--album';
 @import 'pages/page--entry';
 @import 'pages/page--project';
-@import 'pages/index';
 
 // Themes
 @import 'themes/theme--dark';
 @import 'themes/theme--default';
-@import 'themes/theme--unicef-uk';

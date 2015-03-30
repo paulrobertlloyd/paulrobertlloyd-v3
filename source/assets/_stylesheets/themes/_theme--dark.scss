@@ -10,8 +10,11 @@
         color: #fff;
     }
 
-    .prose a {
-        @include text-decoration-color($c__neutral--9);
+    .lede,
+    .prose {
+        a {
+            @include text-decoration-color($c__neutral--9);
+        }
     }
 
     .banner__logo {

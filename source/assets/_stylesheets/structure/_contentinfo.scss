@@ -4,6 +4,7 @@
 
 .contentinfo {
     margin: 0 auto;
+    border-top: 1px solid;
     padding: $u__baseline 0;
     text-align: center;
     line-height: (16 / 13);
@@ -11,14 +12,6 @@
 
     @include susy-media($b__c) {
         max-width: span(6);
-    }
-
-    &::before {
-        display: block;
-        opacity: 0.5;
-        margin-bottom: $u__baseline;
-        border-top: 1px solid;
-        content: '';
     }
 }
 

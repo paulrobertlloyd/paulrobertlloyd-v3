@@ -18,7 +18,7 @@ body {
     @include ff--sans-serif;
     margin: 0 gutter();
     text-rendering: geometricPrecision;
-    line-height: ($u__baseline-unitless * 1.5);
+    line-height: ($u__baseline-unitless * 1.4);
     font-size: $u__font-size;
     font-smoothing: antialiased;
 

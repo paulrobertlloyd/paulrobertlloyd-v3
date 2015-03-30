@@ -24,3 +24,9 @@
         content: none;
     }
 }
+
+/* Variations */
+.list__item--entry,
+.list__item--project {
+    font-weight: 700;
+}

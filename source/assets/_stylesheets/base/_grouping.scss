@@ -33,6 +33,10 @@ blockquote {
         page-break-inside: avoid;
     }
 
+    > * {
+        margin-bottom: ($u__baseline / 2);
+    }
+
     &:before {
         display: block;
         position: absolute;
