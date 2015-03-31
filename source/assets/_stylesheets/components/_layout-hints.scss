@@ -17,10 +17,15 @@
 
 /* Pull element aside */
 .l-aside-right {
-    @include clearfix;
-    @include span(2 of 6 last);
-    margin-right: (span(1 wider) * -1);
-    margin-left: gutter();
+    @include susy-media($b__a) {
+        @include clearfix;
+        @include span(2 of 6 last);
+        margin-left: gutter();
+    }
+
+    @include susy-media($b__b) {
+        margin-right: (span(1 wider) * -1);
+    }
 }
 
 

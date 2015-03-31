@@ -11,7 +11,7 @@
 
     <div class="item__main">
         <div class="item__body{% if item.layout == 'entry' %} lede{% endif %}  p-summary">
-            {% if item.link-embed == "photo" %}
+            {% if item.link-embed == 'photo' or item.link-embed == 'video' %}
                 {% embed {{ item.link }} %}
             {% endif %}
 

@@ -69,6 +69,8 @@
 .item--project {
     .item__title {
         @include fs--heading-2;
+        padding-top: ($u__baseline * 1.25);
+        padding-bottom: ($u__baseline / 4);
     }
 }
 
@@ -95,17 +97,5 @@
 
 /* Project */
 .item--project {
-    @include span(2 of 6);
-
-    &:nth-child(3n) {
-        @include last;
-    }
-
-    &:nth-child(3n+1) {
-        clear: left;
-    }
-
-    &:last-child {
-        float: left;
-    }
+    @include gallery(1 of 3);
 }

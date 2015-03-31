@@ -21,6 +21,7 @@
     @include text-decoration-color('none');
     position: relative;
     z-index: 2;
+    line-height: 0.1;
 
     @include susy-media($b__a) {
         margin: 0 auto;
@@ -31,7 +32,6 @@
 .banner__home {
     @include text-decoration-color('none');
     display: inline-block;
-    line-height: 0.1;
 }
 
 .banner__logo {

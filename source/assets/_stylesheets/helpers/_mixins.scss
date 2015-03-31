@@ -61,78 +61,69 @@
 
 // Font sizes
 @mixin fs--heading-1 {
-    line-height: (28/32);
+    line-height: (14/16);
     font-size: 2rem; // 32px
     letter-spacing: -0.015em;
 
     @include susy-media($b__b) {
-        line-height: (36/40);
         font-size: 2.5rem; // 40px
     }
 
     @include susy-media($b__c) {
-        margin-bottom: 0.25rem;
-        line-height: (48/56);
         font-size: 3.5rem; // 56px
     }
 }
 
 @mixin fs--heading-2 {
-    line-height: (24/20);
-    font-size: 1.25rem; // 20px
+    line-height: (14/16);
+    font-size: 1.5rem; // 24px
     letter-spacing: -0.02em;
 
     @include susy-media($b__b) {
-        line-height: (32/28);
         font-size: 1.75rem; // 28px
     }
 
     @include susy-media($b__c) {
-        line-height: (36/32);
         font-size: 2rem; // 32px
     }
 }
 
 @mixin fs--heading-3 {
-    line-height: (24/18);
+    line-height: (16/12);
     font-size: 1.25rem; // 20px
     letter-spacing: -0.015em;
 
     @include susy-media($b__c) {
-        line-height: (28/24);
         font-size: 1.5rem; // 24px
     }
 }
 
 @mixin fs--heading-4 {
-    line-height: (20/16);
+    line-height: (16/10);
     font-size: 1rem; // 16px
     letter-spacing: -0.01em;
 
     @include susy-media($b__c) {
-        line-height: (24/20);
         font-size: 1.25rem; // 20px
     }
 }
 
 @mixin fs--body {
-    line-height: (24/16);
+    line-height: (16/10);
     font-size: 1rem; // 16px
     letter-spacing: 0.01em;
 
     @include susy-media($b__b) {
-        line-height: (28/18);
         font-size: 1.125rem; // 18px
     }
 
     @include susy-media($b__c) {
-        line-height: (32/19);
         font-size: 1.1875rem; // 19px
     }
 }
 
 @mixin fs--caption {
-    line-height: (20/16);
+    line-height: (16/16);
     font-size: 1rem; // 16px
 }
 
