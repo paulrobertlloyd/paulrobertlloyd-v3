@@ -21,7 +21,7 @@
         @include span(2 of 8);
 
         @include susy-media($b__b) {
-            @include span(2 of 6);
+            @include span(1 of 6);
         }
     }
 
@@ -29,7 +29,7 @@
         @include span(6 of 8 last);
 
         @include susy-media($b__b) {
-            @include span(4 of 6 last);
+            @include span(5 of 6 last);
         }
     }
 }

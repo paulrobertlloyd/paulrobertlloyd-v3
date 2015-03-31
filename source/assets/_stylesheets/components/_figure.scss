@@ -110,15 +110,16 @@
     position: relative;
     margin-bottom: ($u__baseline * 3);
     min-height: ($u__baseline * 8);
-    max-height: ($u__baseline * 32);
+    //max-height: ($u__baseline * 32);
 
     .figure__main {
+        @include clearfix;
+        margin-bottom: 0;
         background-color: $c__neutral--a;
     }
 
     img {
         margin: 0 auto;
-        max-height: 100%;
     }
 }
 

@@ -71,6 +71,7 @@
     }
 
     @include susy-media($b__c) {
+        margin-bottom: 0.25rem;
         line-height: (48/56);
         font-size: 3.5rem; // 56px
     }
@@ -109,8 +110,8 @@
     letter-spacing: -0.01em;
 
     @include susy-media($b__c) {
-        line-height: (24/18);
-        font-size: 1.125rem; // 18px
+        line-height: (24/20);
+        font-size: 1.25rem; // 20px
     }
 }
 

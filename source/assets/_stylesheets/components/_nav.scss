@@ -23,8 +23,9 @@
     @include susy-media($b__a) {
         margin-top: 0;
         padding-top: ($u__baseline * 2);
-        padding-bottom: ($u__baseline * 2);
+        padding-bottom: $u__baseline;
         text-align: right;
+        font-size: 1.125rem; // 18px
     }
 
     .nav__item {

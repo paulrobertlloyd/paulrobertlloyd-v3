@@ -55,22 +55,25 @@
     height: auto;
 }
 
-/* Entry item */
+
+/* Article */
+.item--article,
+.item--presentation {
+    margin-bottom: $u__baseline;
+}
+
+
+/* Entry */
+.item--album,
 .item--entry,
 .item--project {
     .item__title {
         @include fs--heading-2;
-        padding-top: 0.875rem;
     }
 }
 
-.item--link,
-.item--presentation {
-    padding-top: 1.25rem;
-}
 
-
-/* Link item */
+/* Link */
 .item--link {
     @include susy-media($b__c) {
         padding-right: span(1 of 6);
@@ -81,7 +84,16 @@
     }
 }
 
-/* Item project */
+
+/* Remark */
+.item--remark {
+    @include susy-media($b__c) {
+        padding-right: span(1 of 6);
+    }
+}
+
+
+/* Project */
 .item--project {
     @include span(2 of 6);
 
