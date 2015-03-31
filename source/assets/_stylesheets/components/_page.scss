@@ -6,7 +6,7 @@
     position: relative;
 
     .container--tags,
-    .container--discussion {
+    .disclosure--discussion {
         @include susy-media($b__b) {
             margin-right: span(1 wide);
             margin-left: span(1 wide);

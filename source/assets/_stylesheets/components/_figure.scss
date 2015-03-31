@@ -64,42 +64,26 @@
 
 .figure--image-duo {
     img {
-        @include span(4 of 8);
-
-        &:nth-of-type(2n) {
-            @include last;
-        }
+        @include gallery(4 of 8);
     }
 }
 
 .figure--image-trio {
     img {
-        @include span(2 of 6);
-
-        &:nth-of-type(3n) {
-            @include last;
-        }
+        @include gallery(2 of 6);
     }
 }
 
 .figure--image-quartet {
     img {
-        @include span(2 of 8);
-
-        &:nth-of-type(4n) {
-            @include last;
-        }
+        @include gallery(2 of 8);
     }
 }
 
 .figure--image-quintet {
     @include with-layout(10, 0.2) {
         img {
-            @include span(2 of 10);
-
-            &:nth-of-type(5n) {
-                @include last;
-            }
+            @include gallery(2 of 10);
         }
     }
 }
@@ -110,7 +94,6 @@
     position: relative;
     margin-bottom: ($u__baseline * 3);
     min-height: ($u__baseline * 8);
-    //max-height: ($u__baseline * 32);
 
     .figure__main {
         @include clearfix;

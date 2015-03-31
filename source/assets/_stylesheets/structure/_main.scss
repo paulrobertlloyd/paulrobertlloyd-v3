@@ -8,7 +8,7 @@
     padding: 0 gutter();
 
     @include susy-media($b__c) {
-        margin-top: ($u__baseline * 7);
+        margin-top: ($u__baseline * 8);
         padding: 0;
     }
 }

@@ -19,15 +19,21 @@
     font-weight: 700;
     word-break: break-word;
     hyphens: auto;
-
-    .is-expandable & {
-        display: inline-block;
-    }
 }
 
 
 /* Tags */
 .container--tags {
+    .container__title {
+        @include fs--caption;
+        display: inline-block;
+        margin-right: ($u__baseline / 2);
+    }
+
+    .list--inline {
+        display: inline-block;
+    }
+
     .tag {
         @include fs--caption;
     }
@@ -79,14 +85,10 @@
 /* Projects */
 .container--projects {
     .nav__item {
-        @include span(2);
+        @include gallery(4);
 
-        &:nth-child(4n+1) {
-            @include last;
-        }
-
-        &:last-child {
-            float: left;
+        @include susy-media($b__b) {
+            @include gallery(2);
         }
     }
 }

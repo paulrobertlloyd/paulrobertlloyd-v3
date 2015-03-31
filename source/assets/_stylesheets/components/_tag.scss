@@ -6,10 +6,10 @@
     @include ff--sans-serif;
     @include fs--caption;
     display: inline-block;
-    margin: 0 ($u__baseline / 2) ($u__baseline / 2) 0;
-    background-color: $c__neutral--a;
-    padding: ($u__baseline / 8) ($u__baseline / 2);
+    //margin: 0 ($u__baseline / 2) ($u__baseline / 2) 0;
+    //background-color: $c__neutral--a;
+    //padding: ($u__baseline / 8) ($u__baseline / 2);
+    margin-right: ($u__baseline / 2);
     text-transform: lowercase;
     white-space: nowrap;
-    color: $c__neutral--5;
 }

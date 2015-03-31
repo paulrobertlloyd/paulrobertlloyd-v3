@@ -1,30 +1,29 @@
 {% capture entry_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: "journal/_posts/links/" | remove: ".markdown" }}{% endcapture %}
 {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
-<details class="container container--discussion  is-expandable" aria-labelledby="discussion">
-    <summary class="container__header">
-        <h1 class="container__title" id="discussion">Discussion</h1>
-        <p>
-            {% case remark_count %}
-            {% when "0" %}
-                No remarks yet.
-            {% when "1" %}
-                1 Remark.
-            {% else %}
-                {{ remark_count }} remarks.
-            {% endcase %}
-            {% if page.discussion == "open" %}
-                <a href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
-            {% else %}
-                The dicussion has now ended.
-            {% endif %}
-        </p>
+<details class="disclosure disclosure--discussion">
+    <summary class="disclosure__summary">
+        {% case remark_count %}
+        {% when "0" %}
+            This entry has no remarks yet.
+        {% when "1" %}
+            This entry has only a single remark.
+        {% else %}
+            This entry has {{ remark_count }} remarks.
+        {% endcase %}
+        {% if page.discussion == "open" %}
+            <a href="mailto:remark+{{ page.id | remove_first: "/" | replace: "/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
+        {% else %}
+            The dicussion has now ended.
+        {% endif %}
     </summary>
 
-    <div class="container__main">
+    <section class="container container--discussion" aria-labelledby="discussion">
+        <h1 class="container__title" id="discussion">Discussion</h1>
+
         {% if remark_count >= "1" %}
             {% for item in site.data.remarks[entry_id] reversed %}
                 {% include components/item/remark.html %}
             {% endfor %}
         {% endif %}
-    </div>
+    </section>
 </details>

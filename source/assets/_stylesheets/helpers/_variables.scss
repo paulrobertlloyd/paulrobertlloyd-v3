@@ -55,10 +55,10 @@ $susy: (
     column-width: false,
     global-box-sizing: border-box,
     last-flow: to,
-//    debug: (
-//        image: show,
-//        color: rgba(#f00, 0.1),
-//        output: overlay,
-//        toggle: top right,
-//    )
+    debug: (
+        image: show,
+        color: $c__selection,
+        output: overlay,
+        toggle: bottom right,
+    )
 );
