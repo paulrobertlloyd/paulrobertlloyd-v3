@@ -1,9 +1,9 @@
 /*  =========================================================================
-    Theme: Dark
+    Theme: Home
     ========================================================================= */
 
-.theme--dark {
-    background-color: $c__neutral--1;
+.theme--home {
+    background-color: $c__identity--1;
     color: $c__neutral--9;
 
     a {
@@ -27,6 +27,6 @@
     }
 
     .banner {
-        background-color: rgba($c__neutral--1, 0.95);
+        background-color: rgba($c__identity--1, 0.95);
     }
 }

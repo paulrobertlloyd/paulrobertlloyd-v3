@@ -8,15 +8,12 @@
 
     a {
         color: $c__identity--1;
+    }
 
-        &:active,
-        &:hover {
-            color: $c__identity--2;
-        }
+    a:active,
+    a:hover {
+        color: $c__identity--2;
 
-        &:active {
-            color: $c__identity--2;
-        }
     }
 
     blockquote::before {
@@ -29,9 +26,18 @@
             @include text-decoration-color($c__identity--1);
             color: $c__neutral--2;
         }
+
+        a:active,
+        a:hover {
+            color: inherit;
+        }
     }
 
     .banner__logo {
-        fill: $c__identity--1;
+        fill: $c__neutral--2;
+    }
+
+    .banner {
+        background-color: rgba($c__neutral--9, 0.95);
     }
 }

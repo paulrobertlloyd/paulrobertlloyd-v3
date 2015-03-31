@@ -38,7 +38,8 @@
     > pre,
     > blockquote,
     > table,
-    > fieldset {
+    > fieldset,
+    .highlighter-rouge {
         margin-bottom: ($u__baseline * 1.25);
     }
 }

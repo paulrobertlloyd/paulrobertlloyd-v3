@@ -4,9 +4,11 @@
 
 .main {
     @include clearfix;
+    margin-top: ($u__baseline * 6);
     padding: 0 gutter();
 
     @include susy-media($b__c) {
+        margin-top: ($u__baseline * 7);
         padding: 0;
     }
 }

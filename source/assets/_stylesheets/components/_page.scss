@@ -4,10 +4,17 @@
 
 .page {
     position: relative;
+
+    .container--tags,
+    .container--discussion {
+        @include susy-media($b__b) {
+            margin-right: span(1 wide);
+            margin-left: span(1 wide);
+        }
+    }
 }
 
-.page__main,
-.page .container {
+.page__main {
     @include susy-media($b__b) {
         padding-right: span(1 wide);
         padding-left: span(1 wide);
@@ -18,6 +25,7 @@
     margin-bottom: ($u__baseline * 2);
 
     @include susy-media($b__b) {
+        margin-bottom: ($u__baseline * 4);
         padding-left: span(1 wide);
     }
 }
@@ -59,7 +67,7 @@
 
     @include susy-media($b__c) {
         position: absolute;
-        left: 0;
         top: 1.75rem;
+        left: 0;
     }
 }

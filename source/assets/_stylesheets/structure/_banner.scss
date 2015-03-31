@@ -3,27 +3,35 @@
     ========================================================================= */
 
 .banner {
-    margin-bottom: ($u__baseline * 2);
-    padding: 0 gutter() $u__baseline;
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0 gutter() ($u__baseline * 2);
     text-align: center;
 
-    @include susy-media($b__c) {
-        padding: 0 0 $u__baseline;
+    @include susy-media($b__a) {
+        padding: 0;
         text-align: left;
+    }
+}
+
+.banner__title {
+    @include text-decoration-color('none');
+    position: relative;
+    z-index: 2;
+
+    @include susy-media($b__a) {
+        margin: 0 auto;
+        max-width: $u__max-width;
     }
 }
 
 .banner__home {
     @include text-decoration-color('none');
     display: inline-block;
-    position: relative;
-    z-index: 2;
     line-height: 0.1;
-
-    @include susy-media($b__a) {
-        @include span(1 of 8);
-    }
 }
 
 .banner__logo {
