@@ -13,6 +13,7 @@
     @include susy-media($b__c) {
         padding: $u__baseline 0;
         max-width: span(6);
+        text-align: left;
     }
 }
 
