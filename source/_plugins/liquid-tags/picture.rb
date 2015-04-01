@@ -157,6 +157,7 @@ module Jekyll
       img_src = instance[:src]
       img_ext = File.extname(instance[:src])
       img_width = instance[:width]
+      img_height = instance[:height]
       img_quality = instance[:quality]
 
       if img_ext == ".svg"
@@ -164,7 +165,11 @@ module Jekyll
         file = "#{img_src}"
       else
         path = @settings['cdn_url']
-        file = "#{img_width}w/#{img_quality}#{img_src}"
+        if img_height
+          file = "#{img_width}x#{img_height}/#{img_quality}#{img_src}"
+        else
+          file = "#{img_width}w/#{img_quality}#{img_src}"
+        end
       end
 
       Pathname.new(File.join(path, file))
@@ -178,15 +183,15 @@ module Jekyll
 
       digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
 
-      image_dir = File.dirname(instance[:src])
-      ext = File.extname(instance[:src])
-      basename = File.basename(instance[:src], ext)
+      img_dir = File.dirname(instance[:src])
+      img_ext = File.extname(instance[:src])
+      img_basename = File.basename(instance[:src], img_ext)
       img_quality = instance[:quality]
 
-      unless ext == '.svg'
-        size = FastImage.size(File.join(site_source, image_source, instance[:src]))
-        orig_width = size[0]
-        orig_height = size[1]
+      unless img_ext == '.svg'
+        img_size = FastImage.size(File.join(site_source, image_source, instance[:src]))
+        orig_width = img_size[0]
+        orig_height = img_size[1]
         orig_ratio = orig_width*1.0/orig_height
 
         gen_width = if instance[:width]
@@ -214,13 +219,13 @@ module Jekyll
           gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
         end
 
-        gen_name = "#{basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{ext}"
+        gen_name = "#{img_basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{img_ext}"
       else
 
-        gen_name = "#{basename}--#{digest}#{ext}"
+        gen_name = "#{img_basename}--#{digest}#{img_ext}"
       end
 
-      gen_dest_dir = File.join(site_dest, image_dest, image_dir)
+      gen_dest_dir = File.join(site_dest, image_dest, img_dir)
       gen_dest_file = File.join(gen_dest_dir, gen_name)
 
       # Generate resized files
@@ -228,7 +233,7 @@ module Jekyll
         #  If the destination directory doesn't exist, create it
         FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
 
-        unless ext == '.svg'
+        unless img_ext == '.svg'
           warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
 
           # Let people know their images are being generated
@@ -256,7 +261,7 @@ module Jekyll
       end
 
       # Return path relative to the site root for html
-      Pathname.new(File.join(baseurl, image_dest, image_dir, gen_name)).cleanpath
+      Pathname.new(File.join(baseurl, image_dest, img_dir, gen_name)).cleanpath
     end
 
   end

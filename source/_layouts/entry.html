@@ -6,7 +6,7 @@ layout: default
 
     <div class="page__main">
         {% if page.image.caption %}
-            {% figure l-extend '{{ page.image.caption }}' %}
+            {% figure l-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
             {% endfigure %}
         {% endif %}

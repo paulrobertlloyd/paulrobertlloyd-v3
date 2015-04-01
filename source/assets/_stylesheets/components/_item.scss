@@ -98,4 +98,8 @@
 /* Project */
 .item--project {
     @include gallery(1 of 3);
+
+    @include susy-media($b__c) {
+        @include gallery(2 of 6);
+    }
 }
