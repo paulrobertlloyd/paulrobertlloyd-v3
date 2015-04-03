@@ -5,7 +5,6 @@ date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
 permalink: /projects/ngenera
 theme: ngenera
-hidden: true
 meta:
   client: nGenera Corporation
   year: 2008

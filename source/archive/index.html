@@ -13,9 +13,11 @@ permalink: /archive/
     </div>
 </section>
 
-<section class="container container--tags" aria-labelledby="tags">
+<section class="container container--archive" aria-labelledby="tags">
     <header class="container__header">
-        <h1 class="container__title" id="tags">Tags</h1>
+        <h1 class="container__title" id="tags">
+            <a href="/tags/">Tags</a>
+        </h1>
     </header>
 
     <div class="container__main">
@@ -32,7 +34,6 @@ permalink: /archive/
             <li class="list__item">{% include components/tag.html tag=tag %}</li-->
         {% endfor %}
         </ol>
-        <p><a href="/tags/">View all tags</a></p>
     </div>
 </section>
 
@@ -40,9 +41,11 @@ permalink: /archive/
     {% capture this_year %}{{ item.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ item.date | date: "%m" }}{% endcapture %}
     {% capture this_month-name %}{{ item.date | date: "%B %Y" }}{% endcapture %}
+
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
         {% capture month %}{{ this_month }}{% endcapture %}
+
         {% unless forloop.first %}
                 </ol>
             </div>
@@ -57,5 +60,24 @@ permalink: /archive/
             <div class="container__main">
                 <ol class="list list--inline list--inline--separated" reversed>
     {% endif %}
+
                     <li class="list__item list__item--{{ item.layout }}" value="{{ item.date | date: "%-d" }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+    {% if forloop.last %}
+                </ol>
+            </div>
+        </section>
+    {% endif %}
 {% endfor %}
+
+<section class="container container--archive" aria-labelledby="lloydyweb">
+    <header class="container__header">
+        <h1 class="container__title" id="lloydyweb">
+            <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
+        </h1>
+    </header>
+
+    <div class="container__main">
+        <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous website</a>.</p>
+    </div>
+</section>

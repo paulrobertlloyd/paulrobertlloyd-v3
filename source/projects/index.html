@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 ---
-{% assign projects = site.categories.projects | sort: 'date' %}
+{% assign projects = site.pages | where: 'layout','project' | sort: 'date' %}
 <section class="index">
     <h1 class="index__title">{% include structure/title.html %}</h1>
 

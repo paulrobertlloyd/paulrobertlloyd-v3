@@ -4,7 +4,6 @@ title: Groopix
 date: '2008-08-22'
 excerpt: A tool for curating and printing group-based photo albums.
 permalink: /projects/groopix
-hidden: true
 meta:
   client: Steve Douty
   year: 2008

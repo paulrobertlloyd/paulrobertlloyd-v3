@@ -4,7 +4,6 @@ title: Nuts.com
 date: '2011-05-27'
 excerpt: Incremental redesign for family run, customer-focused food retailer.
 permalink: /projects/nuts
-hidden: true
 meta:
   client: Nuts.com
   year: 2010-12

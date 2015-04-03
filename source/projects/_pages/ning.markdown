@@ -5,7 +5,6 @@ date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
 permalink: /projects/ning
 theme: ning
-hidden: true
 meta:
   client: Ning
   year: 2005–2007

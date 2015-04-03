@@ -4,13 +4,10 @@ title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
 permalink: /projects/dconstruct
-hidden: true
 meta:
   client: Clearleft
   year: 2010, 2011, 2013
   role: Design
-tags:
-  - dConstruct
 ---
 On the first Friday of September, Brighton plays host to an annual one-day conference called _dConstruct_. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 

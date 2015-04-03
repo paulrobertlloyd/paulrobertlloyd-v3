@@ -5,7 +5,6 @@ date: '2013-07-01'
 excerpt: Mobile-first redesign for leading children's charity.
 permalink: /projects/unicef_uk
 theme: unicef-uk
-hidden: true
 meta:
   client: UNICEF UK
   year: 2013

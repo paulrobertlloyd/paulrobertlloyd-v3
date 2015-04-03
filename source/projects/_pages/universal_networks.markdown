@@ -4,7 +4,6 @@ title: Universal Networks
 date: '2010-05-03'
 excerpt: Design for NBCUniversal's international channel portfolio.
 permalink: /projects/universal_networks
-hidden: true
 meta:
   client: NBCUniversal
   year: 2010
