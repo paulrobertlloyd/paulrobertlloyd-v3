@@ -1,21 +1,20 @@
 ---
 layout: entry
-title: '100 Days with Clearleft'
+title: '100 Days'
 date: '2015-04-03 17:53:00 +0100'
 location: Brighton, England
-excerpt: 
+excerpt: 'I''ve returned to 68 Middle Street just in time for the start of _100 days_, a collaborative project where the aim is to complete a creative process every day for one hundred days.'
 tags:
   - Clearleft
   - Drawing
   - Freelance
+  - 100 days
 ---
-Although Clearleft was first on my list of companies I'd like to freelance for, I was hesitant about having them be my first client, as doing so might throw into question [my decision to leave][1] in the first place.
+Although Clearleft was first on the list of companies I'd like to freelance for, I was hesitant about having them be my first client, as it might throw into question [why I left in the first place][1]. Thankfully doing so has actually validated my decision to spend [14 months at the Guardian][2]; I've been surprised by just how often that experience has enabled me to contribute more meaningfully to our work with [John Lewis][3].
 
-Thankfully, returning straight away has actually validated that decision. [My 14 month-long experiment][2] at the Guardian, while it produced few tangible outcomes, has provided a bedrock of experience from which I can build upon. In fact, I've been surprised by how often I've refered back to my time there during conversations with the project team at Clearleft, and with our client John Lewis.
+I also returned to 68 Middle Street in time for the start of [_100 days_][4], a project in which several members of the team are aiming to complete and document a creative process (a 'design operation') every day for one hundred days. Based on [Michael Bierut's original idea][5], it is less about producing consistently great work, but rather an exercise in perseverance; as Woody Allen said "Eighty percent of success is showing up". The project started on 23 March and runs until 1 July 2015.
 
-I also returned to 68 Middle Street in time for the start of [_100 days_][3], a collaborative project in which several members of the team aim to complete and document a creative process (a 'design operation') every day for one hundred days. Based on [Michael Bierut's original idea][4], the project is less about producing a set of 100 consistent great designs, but rather an exercise in perseverance; as Woody Allen said "Eighty percent of success is showing up". The project started on 23 March and runs until 1 July 2015.
-
-For my design operation, I've chosen to create a single-line drawing each day, a constraint that should help me produce a coherent body of work yet also allow a degree of flexibility as I progress.
+For my design operation, I've chosen to create a single-line drawing each day, a simple constraint that should help me produce a coherent body of work yet also allow a degree of flexibility as I progress.
 
 {% figure figure--image-quartet "Drawings from days 1 to 12" %}
 {% picture thumbnail /2015/04/100_days_01.jpg %}
@@ -36,5 +35,6 @@ For my design operation, I've chosen to create a single-line drawing each day, a
 
 [1]: /2013/10/moving_in_moving_on
 [2]: /2015/01/changing_gears
-[3]: http://clearleft100days.tumblr.com
-[4]: http://designobserver.com/feature/five-years-of-100-days/24678
+[3]: http://johnlewis.com
+[4]: http://clearleft100days.tumblr.com
+[5]: http://designobserver.com/feature/five-years-of-100-days/24678
