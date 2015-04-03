@@ -17,18 +17,18 @@ I also returned to 68 Middle Street in time for the start of [_100 days_][4], a 
 For my design operation, I've chosen to create a single-line drawing each day, a simple constraint that should help me produce a coherent body of work yet also allow a degree of flexibility as I progress.
 
 {% figure figure--image-quartet "Drawings from days 1 to 12" %}
-{% picture thumbnail /2015/04/100_days_01.jpg %}
-{% picture thumbnail /2015/04/100_days_02.jpg %}
-{% picture thumbnail /2015/04/100_days_03.jpg %}
-{% picture thumbnail /2015/04/100_days_04.jpg %}
-{% picture thumbnail /2015/04/100_days_05.jpg %}
-{% picture thumbnail /2015/04/100_days_06.jpg %}
-{% picture thumbnail /2015/04/100_days_07.jpg %}
-{% picture thumbnail /2015/04/100_days_08.jpg %}
-{% picture thumbnail /2015/04/100_days_09.jpg %}
-{% picture thumbnail /2015/04/100_days_10.jpg %}
-{% picture thumbnail /2015/04/100_days_11.jpg %}
-{% picture thumbnail /2015/04/100_days_12.jpg %}
+{% picture thumbnail /2015/04/100_days_01.jpg alt="New bus for London" %}
+{% picture thumbnail /2015/04/100_days_02.jpg alt="Plug" %}
+{% picture thumbnail /2015/04/100_days_03.jpg alt="ITV Digital monkey" %}
+{% picture thumbnail /2015/04/100_days_04.jpg alt="House keys" %}
+{% picture thumbnail /2015/04/100_days_05.jpg alt="Glass" %}
+{% picture thumbnail /2015/04/100_days_06.jpg alt="Wallet" %}
+{% picture thumbnail /2015/04/100_days_07.jpg alt="Running shoe" %}
+{% picture thumbnail /2015/04/100_days_08.jpg alt="Lego TV van" %}
+{% picture thumbnail /2015/04/100_days_09.jpg alt="Fish and chips" %}
+{% picture thumbnail /2015/04/100_days_10.jpg alt="Television remote" %}
+{% picture thumbnail /2015/04/100_days_11.jpg alt="Petrified wood" %}
+{% picture thumbnail /2015/04/100_days_12.jpg alt="Apple power brick" %}
 {% endfigure %}
 
 12 days in, and I'm still enjoying the challenge, mainly as I've yet to fully master it. Illustrations have ranged from minimalist to expressive; some are quite detailed, others look more like deranged scribbles! I used to draw quite regularly as a child, but as graphic design drew me ever closer to the computer screen, the habit receded. It'll be interesting to see if this project reverses that trend.
