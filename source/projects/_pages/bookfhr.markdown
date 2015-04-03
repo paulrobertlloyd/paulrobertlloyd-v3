@@ -4,7 +4,6 @@ title: BookFHR
 date: '2009-11-24'
 excerpt: Visual and user experience design for provider of travel services
 permalink: /projects/bookfhr
-hidden: true
 meta:
   client: FHR Airport Services
   year: 2009

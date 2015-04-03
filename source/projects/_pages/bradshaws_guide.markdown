@@ -5,13 +5,10 @@ date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 permalink: /projects/bradshaws_guide
 theme: bradshaws-guide
-hidden: true
 meta:
   client: Personal project
   year: Ongoing
   role: Design and front-end development
-tags:
-  - Bradshaw's Guide
 ---
 Largely inspired by the popular BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw's 1866 handbook for tourists exploring Britain's railways.
 

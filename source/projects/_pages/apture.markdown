@@ -4,7 +4,6 @@ title: Apture
 date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
 permalink: /projects/apture
-hidden: true
 meta:
   client: Apture
   year: 2009

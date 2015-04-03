@@ -5,14 +5,11 @@ date: '2013-12-01'
 excerpt: Award-winning collaborative redesign for popular advent calendar for web geeks.
 permalink: /projects/24_ways
 theme: 24-ways
-hidden: true
 meta:
   client: Drew McLellan
   year: 2013
   role: Design and front-end development
   notes: 'Awarded best collaborative project at the net Awards 2014'
-tags:
-  - 24 ways
 ---
 Each December, Drew McLellan and his small team publish _24 ways_, a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
 
