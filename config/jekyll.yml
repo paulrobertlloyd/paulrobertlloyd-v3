@@ -58,7 +58,7 @@ picture:
         class: img img--thumbnail
         sizes: '33vw'
       source_medium:
-        width: 480
+        width: 320
       source_default:
         width: 240
     supporting:
