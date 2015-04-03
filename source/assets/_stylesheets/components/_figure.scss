@@ -59,6 +59,11 @@
 [class*="figure--image"] {
     .figure__main {
         @include clearfix;
+        margin-top: ($u__baseline * -1.5);
+    }
+
+    img {
+        margin-top: ($u__baseline * 1.5);
     }
 }
 

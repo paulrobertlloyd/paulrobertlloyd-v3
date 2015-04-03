@@ -24,12 +24,6 @@
     .prose {
         a {
             @include text-decoration-color($c__identity--1);
-            color: $c__neutral--2;
-        }
-
-        a:active,
-        a:hover {
-            color: inherit;
         }
     }
 
