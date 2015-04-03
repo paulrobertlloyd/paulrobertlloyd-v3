@@ -63,10 +63,13 @@ module Jekyll
       elsif @host.to_s.include? 'speakerdeck.com'
         client = SpeakerDeckApi.new
         oEmbed = client.fetch("#{url_cleaned}")
-        html = oEmbed['html'].match(/src=["'](?<iframe_src>[^"']*)["']/)
-        embed_src = html[:iframe_src]
-
-        return embedCode("slidedeck", "#{embed_src}", "View presentation on Speaker Deck")
+        if oEmbed['html']
+          html = oEmbed['html'].match(/src=["'](?<iframe_src>[^"']*)["']/)
+          embed_src = html[:iframe_src]
+          return embedCode("slidedeck", "#{embed_src}", "View presentation on Speaker Deck")
+        else
+          warn "Warning:".yellow + " #{url_cleaned} does not provide the required oEmbed feature"
+        end
 
       elsif
         print "#{url_cleaned} does not support embedding\n"
