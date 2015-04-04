@@ -69,37 +69,36 @@
 [class*="figure--image"] {
     .figure__main {
         @include clearfix;
-        margin-top: ($u__baseline * -1.5);
+        margin-top: ($u__baseline * -1);
     }
 
     img {
-        margin-top: ($u__baseline * 1.5);
+        margin-top: $u__baseline;
+        @include gutters($u__baseline);
     }
 }
 
 .figure--image-duo {
     img {
-        @include gallery(1 of 2);
+        @include gallery(4 of 8);
     }
 }
 
 .figure--image-trio {
     img {
-        @include gallery(1 of 3);
+        @include gallery(3 of 9);
     }
 }
 
 .figure--image-quartet {
     img {
-        @include gallery(1 of 4);
+        @include gallery(2 of 8);
     }
 }
 
 .figure--image-quintet {
-    @include with-layout(10, 0.2) {
-        img {
-            @include gallery(1 of 5);
-        }
+    img {
+        @include gallery(2 of 10);
     }
 }
 
