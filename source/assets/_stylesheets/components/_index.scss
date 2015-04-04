@@ -7,29 +7,25 @@
     font-weight: 700;
     word-break: break-word;
 
-    @include susy-media($b__c) {
-        @include span(2);
+    @include susy-media($b__b) {
+        @include span(1 first);
     }
 }
 
 .index__main {
-    @include susy-media($b__c) {
-        @include span(6 last);
+    @include susy-media($b__b) {
+        @include span(4 at 2 last);
     }
 
     .container__header {
-        @include span(2 of 8);
-
-        @include susy-media($b__b) {
-            @include span(1 of 6);
+        @include susy-media($b__a) {
+            @include span(1 of (3 3 3 3) first);
         }
     }
 
     .container__main {
-        @include span(6 of 8 last);
-
-        @include susy-media($b__b) {
-            @include span(5 of 6 last);
+        @include susy-media($b__a) {
+            @include span(3 of (3 3 3 3) last);
         }
     }
 }

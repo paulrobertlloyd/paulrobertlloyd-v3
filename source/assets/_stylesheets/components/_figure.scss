@@ -13,19 +13,17 @@
     @include ff--sans-serif;
     @include fs--caption;
     @include rule(after);
-    clear: left;
 
     p {
         margin-bottom: ($u__baseline / 2);
     }
 
     .l-extend & {
-        padding-right: (gutter());
-        padding-left: (gutter());
+        //padding-right: (gutter());
+        //padding-left: (gutter());
 
         @include susy-media($b__a) {
-            padding-right: (span(1 wide));
-            padding-left: (span(1 wide));
+            padding-left: span(1 wide);
         }
     }
 }
@@ -37,19 +35,31 @@
 
     .figure__main {
         @include susy-media($b__a) {
-            @include span(6 of 8);
+            @include span(3 at 1 of (3 3 3 3));
         }
     }
 
     .figure__caption {
-        clear: none;
+        padding-left: 0;
 
         @include susy-media($b__a) {
             @include rule(before);
             @include rule(after, $display: none);
-            @include span(2 of 8 last);
-            padding-right: 0;
-            padding-left: 0;
+            @include span(1 at 4  of (3 3 3 3));
+        }
+    }
+
+    &.l-extend {
+        .figure__main {
+            @include susy-media($b__a) {
+                @include span(3 at 1 of (4 3 3 3 3));
+            }
+        }
+
+        .figure__caption {
+            @include susy-media($b__a) {
+                @include span(2 at 4 of (4 3 3 3 3));
+            }
         }
     }
 }
@@ -69,26 +79,26 @@
 
 .figure--image-duo {
     img {
-        @include gallery(4 of 8);
+        @include gallery(1 of 2);
     }
 }
 
 .figure--image-trio {
     img {
-        @include gallery(2 of 6);
+        @include gallery(1 of 3);
     }
 }
 
 .figure--image-quartet {
     img {
-        @include gallery(2 of 8);
+        @include gallery(1 of 4);
     }
 }
 
 .figure--image-quintet {
     @include with-layout(10, 0.2) {
         img {
-            @include gallery(2 of 10);
+            @include gallery(1 of 5);
         }
     }
 }

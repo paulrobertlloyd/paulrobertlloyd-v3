@@ -10,9 +10,9 @@
     line-height: (16 / 14);
     font-size: 0.875rem; // 14px
 
-    @include susy-media($b__c) {
+    @include susy-media($b__b) {
+        @include span(4 at 2);
         padding: $u__baseline 0;
-        max-width: span(6);
         text-align: left;
     }
 }

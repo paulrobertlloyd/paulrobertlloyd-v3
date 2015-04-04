@@ -5,14 +5,14 @@ layout: default
     {% include components/page/header.html %}
 
     <div class="page__main">
-        {% if page.excerpt %}
-        <div class="lede  p-summary">
-            {{ page.excerpt | markdownify | typogrify }}
-        </div>
+        {% if page.meta %}
+            {% include components/meta.html class='l-aside' %}
         {% endif %}
 
-        {% if page.meta %}
-            {% include components/meta.html class='l-aside-right' %}
+        {% if page.excerpt %}
+            <div class="lede  p-summary">
+                {{ page.excerpt | markdownify | typogrify }}
+            </div>
         {% endif %}
 
         <div class="prose  e-content">

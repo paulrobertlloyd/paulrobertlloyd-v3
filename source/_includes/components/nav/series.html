@@ -7,7 +7,7 @@
 {% else %}
     {% assign series = site.pages | where: 'series', page.series %}
 {% endif %}
-<details class="disclosure disclosure--series  {{ include.class }}">
+<details class="disclosure disclosure--series  {{ include.class }}" open>
     <summary class="disclosure__summary">
         Series:
     </summary>
