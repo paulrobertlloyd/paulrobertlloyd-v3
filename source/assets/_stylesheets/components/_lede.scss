@@ -5,6 +5,7 @@
 .lede {
     @include ff--sans-serif;
     @include fs--heading-3;
+    margin-bottom: ($u__baseline * 2);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     > p,
