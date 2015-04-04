@@ -7,17 +7,17 @@
 
     .container--tags,
     .disclosure--discussion {
+        @include rule;
+
         @include susy-media($b__b) {
-            margin-right: span(1 wide);
-            margin-left: span(1 wide);
+            @include span(4 at 2 last);
         }
     }
 }
 
 .page__main {
     @include susy-media($b__b) {
-        padding-right: span(1 wide);
-        padding-left: span(1 wide);
+        @include span(4 at 2 last);
     }
 }
 
@@ -25,7 +25,8 @@
     margin-bottom: ($u__baseline * 2);
 
     @include susy-media($b__b) {
-        padding: 0 span(1 wide);
+        margin-bottom: ($u__baseline * 3);
+        padding-left: span(1 wide);
     }
 }
 
@@ -64,7 +65,7 @@
     @include fs--caption;
     color: $c__neutral--4;
 
-    @include susy-media($b__c) {
+    @include susy-media($b__b) {
         position: absolute;
         top: 1.75rem;
         left: 0;
