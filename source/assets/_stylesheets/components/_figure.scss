@@ -6,7 +6,7 @@
 }
 
 .figure__main {
-    margin-bottom: ($u__baseline / 2);
+    margin-bottom: $u__baseline;
 }
 
 .figure__caption {
@@ -15,14 +15,14 @@
     @include rule(after);
 
     p {
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: $u__baseline;
     }
 
     .l-extend & {
-        //padding-right: (gutter());
-        //padding-left: (gutter());
+        padding-right: (gutter());
+        padding-left: (gutter());
 
-        @include susy-media($b__a) {
+        @include susy-media($b__b) {
             padding-left: span(1 wide);
         }
     }
@@ -40,8 +40,6 @@
     }
 
     .figure__caption {
-        padding-left: 0;
-
         @include susy-media($b__a) {
             @include rule(before);
             @include rule(after, $display: none);
@@ -51,14 +49,16 @@
 
     &.l-extend {
         .figure__main {
-            @include susy-media($b__a) {
+            @include susy-media($b__b) {
                 @include span(3 at 1 of (4 3 3 3 3));
             }
         }
 
         .figure__caption {
-            @include susy-media($b__a) {
+            @include susy-media($b__b) {
                 @include span(2 at 4 of (4 3 3 3 3));
+                padding-right: 0;
+                padding-left: 0;
             }
         }
     }
@@ -69,11 +69,11 @@
 [class*="figure--image"] {
     .figure__main {
         @include clearfix;
-        margin-top: ($u__baseline * -1);
+        margin-top: ($u__baseline * -1.5);
     }
 
     img {
-        margin-top: $u__baseline;
+        margin-top: ($u__baseline * 1.5);
         @include gutters($u__baseline);
     }
 }

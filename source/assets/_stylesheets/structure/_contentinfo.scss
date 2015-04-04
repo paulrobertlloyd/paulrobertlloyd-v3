@@ -3,6 +3,7 @@
     ========================================================================= */
 
 .contentinfo {
+    @include container($u__max-width);
     margin: 0 auto;
     border-top: 0.05rem solid;
     padding: $u__baseline gutter();

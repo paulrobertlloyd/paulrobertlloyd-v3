@@ -46,8 +46,8 @@
 
 /* On wider breakpoints elements that extends outwards by additional column */
 .l-extend {
-    //margin-right: (gutter() * -1);
-    //margin-left: (gutter() * -1);
+    margin-right: (gutter() * -1);
+    margin-left: (gutter() * -1);
 
     @include susy-media($b__b) {
         margin-left: (percentage(1/3) * -1);
