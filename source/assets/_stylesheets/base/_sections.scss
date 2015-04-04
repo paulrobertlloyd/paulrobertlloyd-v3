@@ -14,7 +14,6 @@
 }
 
 body {
-    @include container($u__max-width);
     @include ff--sans-serif;
     margin: 0 auto;
     text-rendering: geometricPrecision;
