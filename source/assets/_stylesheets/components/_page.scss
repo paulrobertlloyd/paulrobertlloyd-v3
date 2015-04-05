@@ -15,18 +15,18 @@
     }
 }
 
-.page__main {
-    @include susy-media($b__b) {
-        @include span(4 at 2 last);
-    }
-}
-
 .page__header {
     margin-bottom: ($u__baseline * 2);
 
     @include susy-media($b__b) {
         margin-bottom: ($u__baseline * 3);
         padding-left: span(1 wide);
+    }
+}
+
+.page__main {
+    @include susy-media($b__b) {
+        @include span(4 at 2 last);
     }
 }
 

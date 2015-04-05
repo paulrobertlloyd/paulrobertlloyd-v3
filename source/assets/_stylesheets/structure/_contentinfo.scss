@@ -4,28 +4,32 @@
 
 .contentinfo {
     @include container($u__max-width);
-    margin: 0 auto;
-    border-top: 0.05rem solid;
-    padding: $u__baseline gutter();
+    margin: $u__baseline auto;
+    max-width: $u__max-width;
     text-align: center;
     line-height: (16 / 14);
     font-size: 0.875rem; // 14px
 
     @include susy-media($b__b) {
-        @include span(4 at 2);
-        padding: $u__baseline 0;
         text-align: left;
     }
 }
 
 .contentinfo__legal {
-    margin-bottom: ($u__baseline / 2);
+    border-top: 0.05rem solid;
+    padding: ($u__baseline / 2) 0;
 
-    a {
-        color: inherit;
+    @include susy-media($b__b) {
+        margin-left: span(1 wide);
     }
 }
 
 .contentinfo__copyright {
     font-size: 100%;
+}
+
+.contentinfo__links {
+    @include susy-media($b__b) {
+        margin-left: span(1 wide);
+    }
 }

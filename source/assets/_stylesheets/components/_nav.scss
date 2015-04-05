@@ -17,14 +17,15 @@
     margin-top: ($u__baseline * 3);
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
-    line-height: 1;
-    font-size: 1rem;
 
     @include susy-media($b__a) {
         margin-top: 0;
+        margin-left: span(1 wide);
         padding-top: ($u__baseline * 2);
         padding-bottom: $u__baseline;
+        width: span(4 last);
         text-align: right;
+        line-height: (16/18);
         font-size: 1.125rem; // 18px
     }
 
