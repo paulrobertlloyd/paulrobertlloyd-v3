@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Content
+title: Scoped Content
 series: Styleguide
-excerpt: A guide to the mark-up styles used throughout this site.
+excerpt: The content of this excerpt is styled using `.s-lede`.
 permalink: /styleguide/
 ---
+The content on this page is styled using `.s-prose`.
+
 This document is a guide to the mark-up styles used throughout the site. Parts of this markup guide are attributable to [Dave Shea](http://www.mezzoblue.com/), and licensed under [Creative Commons](http://creativecommons.org/licenses/by-sa/2.0/uk/){: rel="license"}.
 
 Line length: dolor sit amet consect eturadi *isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.

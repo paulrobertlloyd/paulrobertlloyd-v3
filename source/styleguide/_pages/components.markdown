@@ -2,7 +2,6 @@
 layout: page
 title: Components
 series: Styleguide
-excerpt: The content of this excerpt is styled using `.lede`.
 permalink: /styleguide/components
 meta:
   Simple: Simple texual content
@@ -11,8 +10,6 @@ meta:
     * Such a list
     * Like this one
 ---
-The content on this page is styled using `.prose`.
-
 ## Embed
 
 ### Youtube

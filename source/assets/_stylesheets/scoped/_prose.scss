@@ -2,7 +2,7 @@
     Prose
     ========================================================================= */
 
-.prose {
+.s-prose {
     @include ff--serif;
     @include fs--body;
     font-feature-settings: 'liga', 'dlig', 'onum';
