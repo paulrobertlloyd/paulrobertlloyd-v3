@@ -129,20 +129,17 @@ puts "Hello World"
 {% picture thumbnail /styleguide/pattern_5.jpg %}
 {% endfigure %}
 
-## Meta
+## Misc
+
+#### `.c-meta`
 {% include components/meta.html %}
 
-## Rating
+#### `.c-rating`
 {% include components/rating.html score='1' %}
 {% include components/rating.html score='2' %}
 {% include components/rating.html score='3' %}
 {% include components/rating.html score='4' %}
 {% include components/rating.html score='5' %}
 
-## Tag
+#### `.c-tag`
 {% include components/tag.html tag="tag name" %}
-
-## Footnote
-This is some text with a footnote.[^1]
-
-[^1]: And this is the footnote.

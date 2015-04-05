@@ -2,18 +2,18 @@
     Meta
     ========================================================================= */
 
-.meta {
+.c-meta {
     @include ff--sans-serif;
     @include fs--caption;
 }
 
-.meta__title {
+.c-meta__title {
     border-top: 1px solid $c__neutral--8;
     padding-top: ($u__baseline / 4);
     color: $c__neutral--2;
 }
 
-.meta__value {
+.c-meta__value {
     margin-left: 0;
     padding-bottom: ($u__baseline / 2);
 

@@ -115,6 +115,13 @@
         background-color: $c__neutral--a;
     }
 
+    .figure__caption {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
     img {
         margin: 0 auto;
     }

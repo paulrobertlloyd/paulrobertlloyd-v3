@@ -2,18 +2,18 @@
     Rating - 5-star ratings
     ========================================================================= */
 
-.rating {
+.c-rating {
     color: $c__neutral--6;
 
-    [data-icon] {
+    .u-icon {
         margin-left: -($u__baseline / 5);
     }
 }
 
-.rating--score-1 [data-icon]:nth-child(-n+1),
-.rating--score-2 [data-icon]:nth-child(-n+2),
-.rating--score-3 [data-icon]:nth-child(-n+3),
-.rating--score-4 [data-icon]:nth-child(-n+4),
-.rating--score-5 [data-icon]:nth-child(-n+5) {
+.c-rating--score-1 .u-icon:nth-child(n-1),
+.c-rating--score-2 .u-icon:nth-child(n-2),
+.c-rating--score-3 .u-icon:nth-child(n-3),
+.c-rating--score-4 .u-icon:nth-child(n-4),
+.c-rating--score-5 .u-icon:nth-child(n-5) {
     color: $c__neutral--2;
 }

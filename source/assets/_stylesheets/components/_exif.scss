@@ -2,29 +2,27 @@
     EXIF
     ========================================================================= */
 
-.exif {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.exif__title {
+.c-exif__title {
     position: absolute;
     top: ($u__baseline / 2);
 }
 
-.exif__values {
+.c-exif__values {
     position: absolute;
     bottom: 0;
 }
 
-.exif__value {
-    @include gallery(1 of 2);
+.c-exif__value {
     margin-left: 0;
+    opacity: 0.66;
+
+    &:nth-child(2n+2) {
+        float: left;
+        width: 50%;
+    }
 
     &[data-exif="date_created"],
     &[data-exif="model"] {
-        @include span(full);
+        width: 100%;
     }
 }
