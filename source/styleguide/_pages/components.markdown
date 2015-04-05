@@ -46,7 +46,7 @@ meta:
 
 ## Figure
 
-The `.figure` component can be used to annotate illustrations, diagrams, photos, code listings, etc. Styles are provided for a number of different content types.
+The `.c-figure` component can be used to annotate illustrations, diagrams, photos, code listings, etc. Styles are provided for a number of different content types.
 
 ### Preformatted text
 {% figure "<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
@@ -77,25 +77,25 @@ puts "Hello World"
 
 ### Images
 
-#### `.figure`
+#### `.c-figure`
 {% figure "Single image, with supporting caption" %}
 {% picture /styleguide/pattern_1.jpg %}
 {% endfigure %}
 
-#### `.figure--image-duo`
+#### `.c-figure--image-duo`
 {% figure c-figure--image-duo "Two images, with supporting caption" %}
 {% picture supporting /styleguide/pattern_1.jpg %}
 {% picture supporting /styleguide/pattern_2.jpg %}
 {% endfigure %}
 
-#### `.figure--image-trio`
+#### `.c-figure--image-trio`
 {% figure c-figure--image-trio "Three images, with supporting caption" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
 {% endfigure %}
 
-#### `.figure--image-quartet`
+#### `.c-figure--image-quartet`
 {% figure c-figure--image-quartet "Four images, with supporting caption" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
@@ -103,7 +103,7 @@ puts "Hello World"
 {% picture thumbnail /styleguide/pattern_4.jpg %}
 {% endfigure %}
 
-#### `.figure--image-quintet`
+#### `.c-figure--image-quintet`
 {% figure c-figure--image-quintet "Five images, with supporting caption" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
@@ -114,34 +114,34 @@ puts "Hello World"
 
 ### With right-aligned caption
 
-#### `.figure.figure--caption-right`
+#### `.c-figure.c-figure--caption-right`
 {% figure c-figure--caption-right "Single image, with supporting caption to the right" %}
 {% picture /styleguide/pattern_1.jpg %}
 {% endfigure %}
 
-#### `.figure--image-duo.figure--caption-right`
-{% figure c-figure--image-duo figure--caption-right "Two images, with supporting caption to the right" %}
+#### `.c-figure--image-duo.c-figure--caption-right`
+{% figure c-figure--image-duo c-figure--caption-right "Two images, with supporting caption to the right" %}
 {% picture supporting /styleguide/pattern_1.jpg %}
 {% picture supporting /styleguide/pattern_2.jpg %}
 {% endfigure %}
 
-#### `.figure--image-trio.figure--caption-right`
-{% figure c-figure--image-trio figure--caption-right "Three images, with supporting caption to the right" %}
+#### `.c-figure--image-trio.c-figure--caption-right`
+{% figure c-figure--image-trio c-figure--caption-right "Three images, with supporting caption to the right" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
 {% endfigure %}
 
-#### `.figure--image-quartet.figure--caption-right`
-{% figure c-figure--image-quartet figure--caption-right "Four images, with supporting caption to the right" %}
+#### `.c-figure--image-quartet.c-figure--caption-right`
+{% figure c-figure--image-quartet c-figure--caption-right "Four images, with supporting caption to the right" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
 {% picture thumbnail /styleguide/pattern_4.jpg %}
 {% endfigure %}
 
-#### `.figure--image-quintet.figure--caption-right`
-{% figure c-figure--image-quintet figure--caption-right "Five images, with supporting caption to the right" %}
+#### `.c-figure--image-quintet.c-figure--caption-right`
+{% figure c-figure--image-quintet c-figure--caption-right "Five images, with supporting caption to the right" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}

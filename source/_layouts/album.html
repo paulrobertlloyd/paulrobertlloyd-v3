@@ -15,11 +15,11 @@ theme: dark
 
             {% capture album_path %}{{ page.path | replace: 'photos/_posts/','assets/images/photos/' | remove: '.markdown' }}{% endcapture %}
             {% directory path: album_path %}
-            <figure class="figure figure--photo figure--caption-right u-extend">
-                <p class="figure__main">
+            <figure class="c-figure c-figure--photo c-figure--caption-right u-extend">
+                <p class="c-figure__main">
                     {% picture {{ file.url | remove: 'assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
-                <figcaption class="figure__caption">
+                <figcaption class="c-figure__caption">
                     {% include exif.html %}
                 </figcaption>
             </figure>
