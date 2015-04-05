@@ -12,4 +12,16 @@
         margin-top: ($u__baseline * 7);
         padding: 0;
     }
+
+    a {
+        color: $c__identity--1;
+    }
+
+    a:hover {
+        color: $c__identity--2;
+    }
+
+    a:active {
+        color: lighten($c__identity--2, 10%);
+    }
 }

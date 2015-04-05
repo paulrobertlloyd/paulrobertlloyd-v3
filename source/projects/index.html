@@ -8,7 +8,7 @@ title: Projects
 
     <div class="index__main">
         {% for item in projects reversed %}
-            {% if item.theme != 'default' %}
+            {% if item.theme != 'light' %}
                 {% include components/item/project.html %}
             {% endif %}
         {% endfor %}
@@ -20,7 +20,7 @@ title: Projects
 
     <ol class="nav nav--series">
     {% for item in projects reversed %}
-        {% if item.theme == 'default' %}
+        {% if item.theme == 'light' %}
             <li class="nav__item" value="{{ post.date | date: "%-d" }}">
                 <a class="nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
             </li>
