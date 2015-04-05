@@ -22,7 +22,7 @@ This over-reliance on the motor vehicle, matched with an abundance of confusing 
 
 After spending the remaining hour trying find the correct terminal and gate, once the plane had left the tarmac, I was pretty sure I never wanted to set foot in this airport ever again.
 
-{% figure l-extend "The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photograph: [J Brew](https://www.flickr.com/photos/brewbooks/225876606/)" %}
+{% figure u-extend "The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photograph: [J Brew](https://www.flickr.com/photos/brewbooks/225876606/)" %}
 {% picture showcase /2010/01/lax.jpg %}
 {% endfigure %}
 

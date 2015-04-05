@@ -23,8 +23,12 @@
 @import 'scoped/prose';
 @import 'scoped/lede';
 
+// Utilities
+@import 'utilities/audible';
+@import 'utilities/icon';
+@import 'utilities/layout-hints';
+
 // Components
-@import 'components/audible';
 @import 'components/button';
 @import 'components/caps';
 @import 'components/chart';
@@ -35,10 +39,8 @@
 @import 'components/figure';
 @import 'components/footnotes';
 @import 'components/form';
-@import 'components/icon';
 @import 'components/index';
 @import 'components/item';
-@import 'components/layout-hints';
 @import 'components/list';
 @import 'components/meta';
 @import 'components/nav';

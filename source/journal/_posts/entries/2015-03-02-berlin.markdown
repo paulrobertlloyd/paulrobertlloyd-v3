@@ -33,7 +33,7 @@ Other cities make much of their waterways, but the River Spree that runs though 
 ## Olympiastadion
 A common aspect of my travels is visiting [former Olympic stadiums][7], and this trip was no different. Germany has an unfortunate history relating to the Olympics; I had previously visited [the site of the 1972 massacre in Munich][8], and here I was visiting the centrepiece of Hitler's orchestrated event of 1936. Tourism can sometimes fell like a very crass activity.
 
-{% figure l-extend "The imposing gates to Berlin's Olympic Stadium" %}
+{% figure u-extend "The imposing gates to Berlin's Olympic Stadium" %}
 {% picture showcase /2015/03/berlin_olympiastadion.jpg %}
 {% endfigure %}
 

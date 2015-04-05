@@ -34,7 +34,7 @@ I believe that has proven to be the case. The logo for [Sochi 2014][10] was clea
 
 While much publicity is poured over these logos and emblems, they play a supporting role to that of the five interlocking rings; [Pierre de Coubertin's ingenious symbol][13] is still going strong 102 years later. In fact, it almost doesn't matter what logo an organising committee chooses as it'll often be reduced down to a horizontal wordmark anyway:
 
-{% figure figure--caption-right l-extend "Uganda's Stephen Kiprotich crosses the finish line to win the men's marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not" %}
+{% figure figure--caption-right u-extend "Uganda's Stephen Kiprotich crosses the finish line to win the men's marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not" %}
 {% picture /2014/02/olympic_websites_stephen_kiprotich.jpg %}
 {% endfigure %}
 

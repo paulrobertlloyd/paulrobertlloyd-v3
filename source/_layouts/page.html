@@ -6,13 +6,13 @@ layout: default
 
     <div class="page__main">
         {% if page.image.caption %}
-            {% figure l-extend '{{ page.image.caption }}' %}
+            {% figure u-extend '{{ page.image.caption }}' %}
 {% picture showcase {{ page.image.url }} %}
             {% endfigure %}
         {% endif %}
 
         {% if page.series %}
-            {% include components/nav/series.html class='l-aside' %}
+            {% include components/nav/series.html class='u-aside' %}
         {% endif %}
 
         {% if page.excerpt %}
