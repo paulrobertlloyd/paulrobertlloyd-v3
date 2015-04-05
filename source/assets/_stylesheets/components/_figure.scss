@@ -3,6 +3,7 @@
     ========================================================================= */
 .c-figure {
     margin-bottom: ($u__baseline * 1.5);
+    overflow: hidden;
 }
 
 .c-figure__main {
@@ -22,7 +23,7 @@
         padding-right: (gutter());
         padding-left: (gutter());
 
-        @include susy-media($b__b) {
+        @include susy-media($b__c) {
             padding-left: span(1 wide);
         }
     }
@@ -31,16 +32,14 @@
 
 /* Caption positioning */
 .c-figure--caption-right {
-    @include clearfix;
-
     .c-figure__main {
-        @include susy-media($b__a) {
+        @include susy-media($b__c) {
             @include span(3 at 1 of (3 3 3 3));
         }
     }
 
     .c-figure__caption {
-        @include susy-media($b__a) {
+        @include susy-media($b__c) {
             @include rule(before);
             @include rule(after, $display: none);
             @include span(1 at 4  of (3 3 3 3));
@@ -49,17 +48,39 @@
 
     &.u-extend {
         .c-figure__main {
-            @include susy-media($b__b) {
+            @include susy-media($b__c) {
                 @include span(3 at 1 of (4 3 3 3 3));
             }
         }
 
         .c-figure__caption {
-            @include susy-media($b__b) {
+            @include susy-media($b__c) {
                 @include span(2 at 4 of (4 3 3 3 3));
                 padding-right: 0;
                 padding-left: 0;
             }
+        }
+    }
+}
+
+
+/* Photo */
+.c-figure--photo {
+    position: relative;
+    margin-bottom: ($u__baseline * 3);
+    min-height: ($u__baseline * 8);
+
+    .c-figure__main {
+        @include clearfix;
+        background-color: $c__neutral--a;
+    }
+
+    .c-figure__caption {
+        @include susy-media($b__c) {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
         }
     }
 }
@@ -99,31 +120,6 @@
 .c-figure--image-quintet {
     img {
         @include gallery(2 of 10);
-    }
-}
-
-
-/* Photo */
-.c-figure--photo {
-    position: relative;
-    margin-bottom: ($u__baseline * 3);
-    min-height: ($u__baseline * 8);
-
-    .c-figure__main {
-        @include clearfix;
-        margin-bottom: 0;
-        background-color: $c__neutral--a;
-    }
-
-    .c-figure__caption {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-    }
-
-    img {
-        margin: 0 auto;
     }
 }
 
