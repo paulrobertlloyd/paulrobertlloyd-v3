@@ -22,7 +22,7 @@
 
         {% if remark_count >= "1" %}
             {% for item in site.data.remarks[entry_id] reversed %}
-                {% include components/item/remark.html %}
+                {% include item/remark.html %}
             {% endfor %}
         {% endif %}
     </section>

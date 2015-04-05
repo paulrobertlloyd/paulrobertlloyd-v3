@@ -62,13 +62,13 @@ layout: compress
         {% asset head.js %}
     </script>
 
-    <title>{% if page.title %}{% include structure/title.html %} / {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{% include title.html %} / {% endif %}{{ site.title }}</title>
 </head>
 
 <body id="top">
-    {% include structure/banner.html %}
-    {% include structure/main.html %}
-    {% include structure/navigation.html %}
-    {% include structure/contentinfo.html %}
+    {% include banner.html %}
+    {% include main.html %}
+    {% include navigation.html %}
+    {% include contentinfo.html %}
 </body>
 </html>

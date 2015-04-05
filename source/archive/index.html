@@ -9,7 +9,7 @@ permalink: /archive/
     </header>
 
     <div class="container__main">
-        {% include components/form/search.html %}
+        {% include form/search.html %}
     </div>
 </section>
 
@@ -31,7 +31,7 @@ permalink: /archive/
         {% for popular_tag in popular_tags limit:25 %}
             {% assign tag_array = popular_tag | split:'#' %}
             {% capture tag %}{{ tag_array[1] | replace:'_',' ' }}{% endcapture %}
-            <li class="list__item">{% include components/tag.html tag=tag %}</li-->
+            <li class="list__item">{% include tag.html tag=tag %}</li-->
         {% endfor %}
         </ol>
     </div>

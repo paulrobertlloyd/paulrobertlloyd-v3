@@ -7,6 +7,6 @@ permalink: /tags/
 {% assign tags = site.tags | sort %}
 {% for tag_array in tags %}
     {% capture tag %}{{ tag_array[0] }}{% endcapture %}
-    <li class="list__item">{% include components/tag.html tag=tag %}</li>
+    <li class="list__item">{% include tag.html tag=tag %}</li>
 {% endfor %}
 </ol>

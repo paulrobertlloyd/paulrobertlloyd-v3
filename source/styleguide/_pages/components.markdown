@@ -132,14 +132,14 @@ puts "Hello World"
 ## Misc
 
 #### `.c-meta`
-{% include components/meta.html %}
+{% include meta.html %}
 
 #### `.c-rating`
-{% include components/rating.html score='1' %}
-{% include components/rating.html score='2' %}
-{% include components/rating.html score='3' %}
-{% include components/rating.html score='4' %}
-{% include components/rating.html score='5' %}
+{% include rating.html score='1' %}
+{% include rating.html score='2' %}
+{% include rating.html score='3' %}
+{% include rating.html score='4' %}
+{% include rating.html score='5' %}
 
 #### `.c-tag`
-{% include components/tag.html tag="tag name" %}
+{% include tag.html tag="tag name" %}

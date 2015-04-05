@@ -2,7 +2,7 @@
     Content Info
     ========================================================================= */
 
-.contentinfo {
+.c-contentinfo {
     @include container($u__max-width);
     margin: $u__baseline auto;
     max-width: $u__max-width;
@@ -15,7 +15,7 @@
     }
 }
 
-.contentinfo__legal {
+.c-contentinfo__legal {
     border-top: 0.05rem solid;
     padding: ($u__baseline / 2) 0;
 
@@ -24,11 +24,11 @@
     }
 }
 
-.contentinfo__copyright {
+.c-contentinfo__copyright {
     font-size: 100%;
 }
 
-.contentinfo__links {
+.c-contentinfo__links {
     @include susy-media($b__b) {
         margin-left: span(1 wide);
     }

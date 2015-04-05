@@ -2,7 +2,7 @@
     Main content
     ========================================================================= */
 
-.main {
+.c-main {
     @include clearfix;
     @include container($u__max-width);
     margin-top: ($u__baseline * 6);
