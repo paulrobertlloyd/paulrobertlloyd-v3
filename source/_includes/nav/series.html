@@ -7,13 +7,15 @@
 {% else %}
     {% assign series = site.pages | where: 'series', page.series %}
 {% endif %}
-<details class="disclosure disclosure--series  {{ include.class }}" open>
-    <summary class="disclosure__summary">
+<details class="c-disclosure c-disclosure--series {{ include.class }}" open>
+    <summary class="c-disclosure__summary">
         Series:
     </summary>
 
-    <nav class="container container--series" aria-labelledby="series">
-        <h1 class="container__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
+    <nav class="c-container c-container--series" aria-labelledby="series">
+        <header class="c-container__header">
+            <h1 class="c-container__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
+        </header>
 
         <ol class="nav nav--series">
         {% for item in series offset:1 %}

@@ -22,8 +22,8 @@
             if (win.innerWidth > 400) {
                 src = embed.getAttribute('data-embed-src');
                 type = embed.getAttribute('data-embed-type');
-                embed.className += ' embed--' + type;
-                embed.innerHTML = '<iframe class="embed__iframe" src="' + src + '" width="500" height="300" frameborder="0" allowfullscreen></iframe>';
+                embed.className += ' c-embed--' + type;
+                embed.innerHTML = '<iframe class="c-embed__iframe" src="' + src + '" width="500" height="300" frameborder="0" allowfullscreen></iframe>';
                 embed.removeAttribute('data-embed-src');
                 embed.removeAttribute('data-embed-type');
             }

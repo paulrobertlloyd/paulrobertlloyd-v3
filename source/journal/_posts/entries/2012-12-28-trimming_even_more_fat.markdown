@@ -31,18 +31,18 @@ In order to keep the size of this file down, fallbacks (PNG for the logo, EOT an
 
 In addition to these changes, refactoring the remaining styles meant the new CSS file is slightly smaller than the three previous files it replaces:
 
-<table class="chart chart--hbar">
+<table class="c-chart chart--hbar">
     <tbody>
         <tr>
             <th colspan="2">Bytes downloaded (requests)</th>
         </tr>
         <tr>
-            <td class="chart__abel">Before (CSS+JS+SVG)</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:100%;">11.47 kB  (3)</span></td>
+            <td class="c-chart__abel">Before (CSS+JS+SVG)</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">11.47 kB  (3)</span></td>
         </tr>
         <tr>
-            <td class="chart__label">After (CSS only)</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:93.80%;">10.76 kB  (1)</span></td>
+            <td class="c-chart__label">After (CSS only)</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:93.80%;">10.76 kB  (1)</span></td>
         </tr>
     </tbody>
 </table>
@@ -53,23 +53,23 @@ In my previous post, I mentioned that I was now serving the site via [CloudFlare
 I really like CloudFlare, but it came with a notable downside: Time to First Byte times were longer than they ought to be. This issue has been [dismissed by CloudFlare][6], yet real world usage suggested the responsiveness of this site was indeed impacted. [Andy Hume][7] recommended I try [Fastly][8]. While it doesn't optimise files or provide security protection, it provides the same core service as CloudFlare more effectively:
 
 ### First view
-<table class="chart chart--hbar">
+<table class="c-chart chart--hbar">
     <caption>Homepage comparison: <a href="http://webpagetest.org/result/121219_DH_DDQ/">19 December 2012</a> v <a href="http://webpagetest.org/result/121227_BD_GR8/">27 December 2012</a></caption>
     <tbody>
         <tr>
             <th colspan="2">CloudFlare</th>
         </tr>
         <tr>
-            <td class="chart__label">First byte</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:12.25%;">1.225 s</span></td>
+            <td class="c-chart__label">First byte</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:12.25%;">1.225 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Document Complete</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:67.22%;">6.722 s</span></td>
+            <td class="c-chart__label">Document Complete</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:67.22%;">6.722 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Fully Loaded</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:67.98%;">6.798 s</span></td>
+            <td class="c-chart__label">Fully Loaded</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:67.98%;">6.798 s</span></td>
         </tr>
     </tbody>
     <tbody>
@@ -77,38 +77,38 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
             <th colspan="2">Fastly</th>
         </tr>
         <tr>
-            <td class="chart__label">First Byte</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:1.89%;">0.189 s</span></td>
+            <td class="c-chart__label">First Byte</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:1.89%;">0.189 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Document Complete</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:29.88%;">2.988 s</span></td>
+            <td class="c-chart__label">Document Complete</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:29.88%;">2.988 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Fully Loaded</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:30.64%;">3.064 s</span></td>
+            <td class="c-chart__label">Fully Loaded</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:30.64%;">3.064 s</span></td>
         </tr>
     </tbody>
 </table>
 
 ### Repeat view
-<table class="chart chart--hbar">
+<table class="c-chart chart--hbar">
     <caption>Homepage comparison: <a href="http://webpagetest.org/result/121219_DH_DDQ/">19 December 2012</a> v <a href="http://webpagetest.org/result/121227_BD_GR8/">27 December 2012</a></caption>
     <tbody>
         <tr>
             <th colspan="2">CloudFlare</th>
         </tr>
         <tr>
-            <td class="chart__label">First Byte</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:11.88%;">1.188 s</span></td>
+            <td class="c-chart__label">First Byte</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:11.88%;">1.188 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Document Complete</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:19.61%;">1.961 s</span></td>
+            <td class="c-chart__label">Document Complete</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:19.61%;">1.961 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Fully Loaded</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:34.45%;">3.445 s</span></td>
+            <td class="c-chart__label">Fully Loaded</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:34.45%;">3.445 s</span></td>
         </tr>
     </tbody>
     <tbody>
@@ -116,16 +116,16 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
             <th colspan="2">Fastly</th>
         </tr>
         <tr>
-            <td class="chart__label">First Byte</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:3.87%;">0.387 s</span></td>
+            <td class="c-chart__label">First Byte</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.87%;">0.387 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Document Complete</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:7.43%;">0.743 s</span></td>
+            <td class="c-chart__label">Document Complete</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:7.43%;">0.743 s</span></td>
         </tr>
         <tr>
-            <td class="chart__label">Fully Loaded</td>
-            <td class="chart__value"><span class="chart__value--percent" style="width:7.43%;">0.743 s</span></td>
+            <td class="c-chart__label">Fully Loaded</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:7.43%;">0.743 s</span></td>
         </tr>
     </tbody>
 </table>

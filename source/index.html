@@ -3,12 +3,12 @@ layout: default
 theme: home
 ---
 {% for container in site.data.homepage %}
-    <section class="container container--{{ container.class }}">
-        <header class="container__header">
-            <h1 class="container__title">{{ container.title | smartify }}</h1>
+    <section class="c-container container--{{ container.class }}">
+        <header class="c-container__header">
+            <h1 class="c-container__title">{{ container.title | smartify }}</h1>
         </header>
 
-        <div class="container__main">
+        <div class="c-container__main">
             <div class="{% if container.class == 'intro' %}s-lede{% endif %}">
                 {{ container.text | markdownify | typogrify | namespace }}
             </div>

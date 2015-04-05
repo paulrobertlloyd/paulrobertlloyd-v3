@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<article class="page page--entry  h-entry">
+<article class="c-page c-page--entry h-entry">
     {% include page/header.html %}
 
-    <div class="page__main">
+    <div class="c-page__main">
         {% if page.image.caption %}
             {% figure u-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
@@ -15,7 +15,7 @@ layout: default
             {% include nav/series.html class='u-aside' %}
         {% endif %}
 
-        <div class="s-prose  e-content">
+        <div class="s-prose e-content">
             {{ content | typogrify | namespace }}
         </div>
     </div>

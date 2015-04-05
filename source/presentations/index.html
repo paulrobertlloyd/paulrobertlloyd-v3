@@ -3,12 +3,12 @@ layout: index
 title: Present&shy;ations
 intro: I like to share accumulated knowledge with my peers, and have spoken at design conferences around the UK and Europe.
 ---
-<section class="container container--appearances" aria-labelledby="appearances">
-    <header class="container__header">
-        <h1 class="container__title" id="appearances">Next…</h1>
+<section class="c-container container--appearances" aria-labelledby="appearances">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="appearances">Next…</h1>
     </header>
 
-    <div class="container__main">
+    <div class="c-container__main">
         {% for item in site.data.appearances %}
             {% include item/presentation.html %}
         {% endfor %}
@@ -25,12 +25,12 @@ intro: I like to share accumulated knowledge with my peers, and have spoken at d
         </section>
         {% endunless %}
 
-        <section class="container container--year" aria-labelledby="year-{{ this_year }}">
-            <header class="container__header">
-                <h1 class="container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+        <section class="c-container container--year" aria-labelledby="year-{{ this_year }}">
+            <header class="c-container__header">
+                <h1 class="c-container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
             </header>
 
-            <div class="container__main">
+            <div class="c-container__main">
     {% endif %}
                 {% include item/presentation.html %}
 {% endfor %}

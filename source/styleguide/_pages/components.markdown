@@ -10,6 +10,26 @@ meta:
     * Such a list
     * Like this one
 ---
+## Charts
+
+### Horizontal
+
+<table class="c-chart chart--hbar">
+    <tbody>
+        <tr>
+            <th colspan="2">Javascript: Bytes downloaded (requests)</th>
+        </tr>
+        <tr>
+            <td class="c-chart__label">Before</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">35.00 kB (2)</span></td>
+        </tr>
+        <tr>
+            <td class="c-chart__label">After</td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.66%;">1.28 kB (1)</span></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Embed
 
 ### Youtube

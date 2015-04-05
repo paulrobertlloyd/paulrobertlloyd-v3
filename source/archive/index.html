@@ -3,24 +3,24 @@ layout: index
 title: Archive
 permalink: /archive/
 ---
-<section class="container container--search" aria-labelledby="search">
-    <header class="container__header">
-        <h1 class="container__title" id="search">Search</h1>
+<section class="c-container container--search" aria-labelledby="search">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="search">Search</h1>
     </header>
 
-    <div class="container__main">
+    <div class="c-container__main">
         {% include form/search.html %}
     </div>
 </section>
 
-<section class="container container--archive" aria-labelledby="tags">
-    <header class="container__header">
-        <h1 class="container__title" id="tags">
+<section class="c-container container--archive" aria-labelledby="tags">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="tags">
             <a href="/tags/">Tags</a>
         </h1>
     </header>
 
-    <div class="container__main">
+    <div class="c-container__main">
         <ol class="list list--inline">
         {% capture site_tags %}
             {% for tag in site.tags %}
@@ -52,12 +52,12 @@ permalink: /archive/
         </section>
         {% endunless %}
 
-        <section class="container container--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-            <header class="container__header">
-                <h1 class="container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
+        <section class="c-container container--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+            <header class="c-container__header">
+                <h1 class="c-container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
             </header>
 
-            <div class="container__main">
+            <div class="c-container__main">
                 <ol class="list list--inline list--inline--separated" reversed>
     {% endif %}
 
@@ -70,14 +70,14 @@ permalink: /archive/
     {% endif %}
 {% endfor %}
 
-<section class="container container--archive" aria-labelledby="lloydyweb">
-    <header class="container__header">
-        <h1 class="container__title" id="lloydyweb">
+<section class="c-container container--archive" aria-labelledby="lloydyweb">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="lloydyweb">
             <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
         </h1>
     </header>
 
-    <div class="container__main">
+    <div class="c-container__main">
         <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous website</a>.</p>
     </div>
 </section>

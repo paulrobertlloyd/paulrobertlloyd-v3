@@ -17,8 +17,10 @@
         {% endif %}
     </summary>
 
-    <section class="container container--discussion" aria-labelledby="discussion">
-        <h1 class="container__title" id="discussion">Discussion</h1>
+    <section class="c-container c-container--discussion" aria-labelledby="discussion">
+        <header class="c-container__header">
+            <h1 class="c-container__title" id="discussion">Discussion</h1>
+        </header>
 
         {% if remark_count >= "1" %}
             {% for item in site.data.remarks[entry_id] reversed %}

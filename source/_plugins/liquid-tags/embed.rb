@@ -41,8 +41,8 @@ module Jekyll
       @query = @uri.query
 
       def embedCode(embed_type, embed_src, embed_action)
-        %Q[<p class="embed" data-embed-src="#{embed_src}" data-embed-type="#{embed_type}">
-            <a class="button" href="#{@uri}">#{embed_action}</a>
+        %Q[<p class="c-embed" data-embed-src="#{embed_src}" data-embed-type="#{embed_type}">
+            <a class="c-button" href="#{@uri}">#{embed_action}</a>
         </p>]
       end
 

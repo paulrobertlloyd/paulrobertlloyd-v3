@@ -2,15 +2,15 @@
 layout: default
 theme: dark
 ---
-<article class="page page--album  h-entry">
+<article class="c-page c-page--album h-entry">
     {% include page/header.html %}
 
-    <div class="page__main">
+    <div class="c-page__main">
         {% if page.series %}
             {% include nav/series.html %}
         {% endif %}
 
-        <div class="s-prose  e-content">
+        <div class="s-prose e-content">
             {{ content | typogrify | namespace }}
 
             {% capture album_path %}{{ page.path | replace: 'photos/_posts/','assets/images/photos/' | remove: '.markdown' }}{% endcapture %}
