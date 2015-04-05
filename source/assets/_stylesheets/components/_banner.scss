@@ -2,7 +2,7 @@
     Banner
     ========================================================================= */
 
-.banner {
+.c-banner {
     position: fixed;
     top: 0;
     right: 0;
@@ -30,7 +30,7 @@
     }
 }
 
-.banner__title {
+.c-banner__title {
     line-height: 0;
 
     @include susy-media($b__c) {
@@ -39,11 +39,11 @@
     }
 }
 
-.banner__home {
+.c-banner__home {
     display: inline-block;
 }
 
-.banner__logo {
+.c-banner__logo {
     width: ($u__baseline * 3);
     height: ($u__baseline * 3);
     fill: $c__neutral--2;

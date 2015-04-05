@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="page  h-entry">
-    {% include components/page/header.html %}
+    {% include page/header.html %}
 
     <div class="page__main">
         {% if page.image.caption %}
@@ -12,7 +12,7 @@ layout: default
         {% endif %}
 
         {% if page.series %}
-            {% include components/nav/series.html class='u-aside' %}
+            {% include nav/series.html class='u-aside' %}
         {% endif %}
 
         {% if page.excerpt %}

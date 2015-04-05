@@ -31,9 +31,11 @@
 @import 'utilities/layout-hints';
 
 // Components
+@import 'components/banner';
 @import 'components/button';
 @import 'components/chart';
 @import 'components/container';
+@import 'components/contentinfo';
 @import 'components/disclosure';
 @import 'components/embed';
 @import 'components/exif';
@@ -42,14 +44,10 @@
 @import 'components/index';
 @import 'components/item';
 @import 'components/list';
+@import 'components/main';
 @import 'components/meta';
 @import 'components/nav';
+@import 'components/navigation';
 @import 'components/page';
 @import 'components/rating';
 @import 'components/tag';
-
-// Structure
-@import 'structure/banner';
-@import 'structure/contentinfo';
-@import 'structure/main';
-@import 'structure/navigation';

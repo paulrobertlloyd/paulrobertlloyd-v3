@@ -3,11 +3,11 @@ layout: default
 theme: dark
 ---
 <article class="page page--album  h-entry">
-    {% include components/page/header.html %}
+    {% include page/header.html %}
 
     <div class="page__main">
         {% if page.series %}
-            {% include components/nav/series.html %}
+            {% include nav/series.html %}
         {% endif %}
 
         <div class="s-prose  e-content">
@@ -20,7 +20,7 @@ theme: dark
                     {% picture {{ file.url | remove: 'assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
                 <figcaption class="figure__caption">
-                    {% include components/exif.html %}
+                    {% include exif.html %}
                 </figcaption>
             </figure>
             {% enddirectory %}
@@ -28,8 +28,8 @@ theme: dark
     </div>
 
     {% if page.tags %}
-        {% include components/container/tags.html %}
+        {% include container/tags.html %}
     {% endif %}
 
-    {% include components/page/footer.html %}
+    {% include page/footer.html %}
 </article>

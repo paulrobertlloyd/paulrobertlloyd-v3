@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="page page--presentation  h-entry">
-    {% include components/page/header.html %}
+    {% include page/header.html %}
 
     <div class="page__main">
         {% if page.link %}
@@ -10,7 +10,7 @@ layout: default
         {% endif %}
 
         {% if page.meta %}
-            {% include components/meta.html class='u-aside' %}
+            {% include meta.html class='u-aside' %}
         {% endif %}
 
         {% if page.excerpt %}
@@ -25,8 +25,8 @@ layout: default
     </div>
 
     {% if page.tags %}
-        {% include components/container/tags.html %}
+        {% include container/tags.html %}
     {% endif %}
 
-    {% include components/page/footer.html %}
+    {% include page/footer.html %}
 </article>

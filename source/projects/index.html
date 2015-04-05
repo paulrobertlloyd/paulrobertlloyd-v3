@@ -5,7 +5,7 @@ title: Projects
 {% assign projects = site.pages | where: 'layout','project' | sort: 'date' %}
 {% for item in projects reversed %}
     {% if item.theme != null %}
-        {% include components/item/project.html %}
+        {% include item/project.html %}
     {% endif %}
 {% endfor %}
 

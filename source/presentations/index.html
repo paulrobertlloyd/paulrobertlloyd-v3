@@ -10,7 +10,7 @@ intro: I like to share accumulated knowledge with my peers, and have spoken at d
 
     <div class="container__main">
         {% for item in site.data.appearances %}
-            {% include components/item/presentation.html %}
+            {% include item/presentation.html %}
         {% endfor %}
     </div>
 </section>
@@ -32,5 +32,5 @@ intro: I like to share accumulated knowledge with my peers, and have spoken at d
 
             <div class="container__main">
     {% endif %}
-                {% include components/item/presentation.html %}
+                {% include item/presentation.html %}
 {% endfor %}

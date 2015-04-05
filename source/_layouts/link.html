@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="page page--link  h-entry">
-    {% include components/page/header.html %}
+    {% include page/header.html %}
 
     <div class="page__main">
         {% if page.link-embed %}
@@ -21,12 +21,12 @@ layout: default
     </div>
 
     {% if page.discussion %}
-        {% include components/container/discussion.html %}
+        {% include container/discussion.html %}
     {% endif %}
 
     {% if page.tags %}
-        {% include components/container/tags.html %}
+        {% include container/tags.html %}
     {% endif %}
 
-    {% include components/page/footer.html %}
+    {% include page/footer.html %}
 </article>

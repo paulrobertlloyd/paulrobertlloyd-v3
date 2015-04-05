@@ -21,7 +21,7 @@
     var step = 10;
     var max = 10;
     var color = 'rgba(0,0,0,0.2)';
-    var top = doc.getElementsByClassName('banner')[0];
+    var top = doc.getElementsByClassName('c-banner')[0];
     var setShadow = function () {
         var scroll = (doc.documentElement.scrollTop) ? doc.documentElement.scrollTop : doc.body.scrollTop;
         var amount = Math.min((scroll - start) / step, max);
