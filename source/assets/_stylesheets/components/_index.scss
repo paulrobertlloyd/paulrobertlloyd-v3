@@ -2,11 +2,7 @@
     Index
     ========================================================================= */
 
-.index__title {
-    @include fs--heading-1;
-    font-weight: 700;
-    word-break: break-word;
-
+.index__header {
     @include susy-media($b__b) {
         @include span(1 first);
     }
@@ -28,4 +24,10 @@
             @include span(3 of (3 3 3 3) last);
         }
     }
+}
+
+.index__title {
+    @include fs--heading-1;
+    font-weight: 700;
+    word-break: break-word;
 }

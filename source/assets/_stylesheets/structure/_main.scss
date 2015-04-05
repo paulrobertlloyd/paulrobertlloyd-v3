@@ -15,13 +15,28 @@
 
     a {
         color: $c__identity--1;
+
+        .t-dark &,
+        .t-home & {
+            color: $c__neutral--9;
+        }
     }
 
     a:hover {
         color: $c__identity--2;
+
+        .t-dark &,
+        .t-home & {
+            color: $c__neutral--9;
+        }
     }
 
     a:active {
         color: lighten($c__identity--2, 10%);
+
+        .t-dark &,
+        .t-home & {
+            color: lighten($c__neutral--9, 10%);
+        }
     }
 }

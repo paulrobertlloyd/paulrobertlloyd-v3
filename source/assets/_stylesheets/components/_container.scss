@@ -88,7 +88,7 @@
         @include gallery(1 of 2);
 
         @include susy-media($b__b) {
-            @include gallery(1 of 4);
+            @include gallery(2 of 6);
         }
     }
 }
