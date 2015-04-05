@@ -1,7 +1,9 @@
 /*  =========================================================================
-    Small caps
+    Footnotes
     ========================================================================= */
 
-.caps {
-    @include c2sc;
+.s-footnotes {
+    @include fs--caption;
+    @include rule;
+    margin-top: ($u__baseline * 2);
 }

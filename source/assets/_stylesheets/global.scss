@@ -20,24 +20,24 @@
 @import 'base/disabled';
 
 // Scoped contexts
-@import 'scoped/prose';
+@import 'scoped/footnotes';
 @import 'scoped/lede';
+@import 'scoped/prose';
 
 // Utilities
 @import 'utilities/audible';
+@import 'utilities/caps';
 @import 'utilities/icon';
 @import 'utilities/layout-hints';
 
 // Components
 @import 'components/button';
-@import 'components/caps';
 @import 'components/chart';
 @import 'components/container';
 @import 'components/disclosure';
 @import 'components/embed';
 @import 'components/exif';
 @import 'components/figure';
-@import 'components/footnotes';
 @import 'components/form';
 @import 'components/index';
 @import 'components/item';

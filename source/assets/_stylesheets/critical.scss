@@ -17,11 +17,13 @@
 @import 'base/forms';
 
 // Scoped contexts
-@import 'scoped/prose';
+@import 'scoped/footnotes';
 @import 'scoped/lede';
+@import 'scoped/prose';
 
 // Utilities
 @import 'utilities/audible';
+@import 'utilities/caps';
 @import 'utilities/icon';
 @import 'utilities/layout-hints';
 

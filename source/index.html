@@ -10,7 +10,7 @@ theme: home
 
         <div class="container__main">
             <div class="{% if container.class == 'intro' %}s-lede{% endif %}">
-                {{ container.text | markdownify | typogrify }}
+                {{ container.text | markdownify | typogrify | namespace }}
             </div>
         </div>
     </section>

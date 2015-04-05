@@ -16,9 +16,9 @@
             {% endif %}
 
             {% if item.layout == 'link' %}
-                {{ item.content | markdownify | typogrify }}
+                {{ item.content | markdownify | typogrify | namespace }}
             {% elsif item.excerpt != null %}
-                {{ item.excerpt | markdownify | typogrify }}
+                {{ item.excerpt | markdownify | typogrify | namespace }}
             {% endif %}
         </div>
     </div>
