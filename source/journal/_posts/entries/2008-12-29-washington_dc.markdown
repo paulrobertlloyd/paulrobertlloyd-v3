@@ -21,7 +21,7 @@ Whilst the presidential memorials were large and grandiose, I actually found the
 
 Here two granite walls create a 'V' shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a "wound that is closed and healing".
 
-{% figure figure--image-duo "US Marine Corps War Memorial and Netherlands Carillon" %}
+{% figure c-figure--image-duo "US Marine Corps War Memorial and Netherlands Carillon" %}
 {% picture supporting /2008/12/washington_dc_iwo_jima_memorial.jpg %}
 {% picture supporting /2008/12/washington_dc_netherlands_carillon.jpg %}
 {% endfigure %}

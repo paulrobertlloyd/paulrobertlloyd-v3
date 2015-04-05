@@ -16,7 +16,7 @@ I also returned to 68 Middle Street in time for the start of [_100 days_][4], a 
 
 For my design operation, I've chosen to create a single-line drawing each day, a simple constraint that should help me produce a coherent body of work yet also allow a degree of flexibility as I progress.
 
-{% figure figure--image-quartet "Drawings from days 1 to 12" %}
+{% figure c-figure--image-quartet "Drawings from days 1 to 12" %}
 {% picture thumbnail /2015/04/100_days_01.jpg alt="New bus for London" %}
 {% picture thumbnail /2015/04/100_days_02.jpg alt="Plug" %}
 {% picture thumbnail /2015/04/100_days_03.jpg alt="ITV Digital monkey" %}
