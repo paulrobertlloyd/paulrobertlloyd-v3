@@ -2,11 +2,11 @@
     Page
     ========================================================================= */
 
-.page {
+.c-page {
     position: relative;
 
-    .container--tags,
-    .disclosure--discussion {
+    .c-container--tags,
+    .c-disclosure--discussion {
         @include rule;
 
         @include susy-media($b__b) {
@@ -15,7 +15,7 @@
     }
 }
 
-.page__header {
+.c-page__header {
     margin-bottom: ($u__baseline * 2);
 
     @include susy-media($b__b) {
@@ -24,25 +24,25 @@
     }
 }
 
-.page__main {
+.c-page__main {
     @include susy-media($b__b) {
         @include span(4 at 2 last);
     }
 }
 
-.page__title {
+.c-page__title {
     @include fs--heading-1;
     font-weight: 700;
 }
 
-.page__location {
+.c-page__location {
     @include ff--sans-serif;
     @include fs--caption;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
 }
 
-.page__location::before {
+.c-page__location::before {
     opacity: 0.5;
     margin: 0 ($u__baseline / 4);
     content: '/';
@@ -52,7 +52,7 @@
     }
 }
 
-.page__location::after {
+.c-page__location::after {
     .js-enhanced & {
         opacity: 0.5;
         margin: 0 ($u__baseline / 2) 0 ($u__baseline / 4);
@@ -60,7 +60,7 @@
     }
 }
 
-.page__pubdate {
+.c-page__pubdate {
     @include ff--sans-serif;
     @include fs--caption;
     color: $c__neutral--4;

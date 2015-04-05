@@ -2,17 +2,17 @@
     Container
     ========================================================================= */
 
-.container {
+.c-container {
     @include clearfix;
     margin-bottom: ($u__baseline * 2);
 
-    + .container {
+    + .c-container {
         border-top: 0.05rem solid;
         padding-top: ($u__baseline / 4);
     }
 }
 
-.container__title {
+.c-container__title {
     @include ff--sans-serif;
     @include fs--heading-3;
     margin-bottom: $u__baseline;
@@ -23,36 +23,35 @@
 
 
 /* Tags */
-.container--tags {
-    .container__title {
-        @include fs--caption;
+.c-container--tags {
+    .c-container__header {
         display: inline-block;
+    }
+
+    .c-container__title {
+        @include fs--caption;
         margin-right: ($u__baseline / 2);
     }
 
     .list--inline {
         display: inline-block;
     }
-
-    .tag {
-        @include fs--caption;
-    }
 }
 
 
 /* Homepage intro */
-.container--intro {
+.c-container--intro {
     @include susy-media($b__b) {
-        .container__header {
+        .c-container__header {
             @include span(1 first);
         }
 
-        .container__main {
+        .c-container__main {
             @include span(4 at 2 last);
         }
     }
 
-    .container__title {
+    .c-container__title {
         @include fs--heading-1;
 
         &::after {
@@ -67,7 +66,7 @@
 
 
 /* Homepage pitch */
-.container--pitch {
+.c-container--pitch {
     @include susy-media($b__b) {
         @include span(3);
     }
@@ -75,7 +74,7 @@
 
 
 /* Homepage extra */
-.container--extra {
+.c-container--extra {
     @include susy-media($b__b) {
         @include span(2 at 4);
     }
@@ -83,7 +82,7 @@
 
 
 /* Projects */
-.container--projects {
+.c-container--projects {
     .nav__item {
         @include gallery(1 of 2);
 

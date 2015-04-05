@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<article class="page page--project  h-entry">
+<article class="c-page c-page--project h-entry">
     {% include page/header.html %}
 
-    <div class="page__main">
+    <div class="c-page__main">
         {% if page.meta %}
             {% include meta.html class='u-aside' %}
         {% endif %}
 
         {% if page.excerpt %}
-            <div class="s-lede  p-summary">
+            <div class="s-lede p-summary">
                 {{ page.excerpt | markdownify | typogrify | namespace }}
             </div>
         {% endif %}
 
-        <div class="s-prose  e-content">
+        <div class="s-prose e-content">
             {{ content | typogrify | namespace }}
         </div>
     </div>

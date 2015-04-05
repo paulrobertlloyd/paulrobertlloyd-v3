@@ -14,12 +14,12 @@ intro: I like to share accumulated knowledge with my peers, and have written art
         </section>
         {% endunless %}
 
-        <section class="container container--year" aria-labelledby="year-{{ this_year }}">
-            <header class="container__header">
-                <h1 class="container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+        <section class="c-container container--year" aria-labelledby="year-{{ this_year }}">
+            <header class="c-container__header">
+                <h1 class="c-container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
             </header>
 
-            <div class="container__main">
+            <div class="c-container__main">
     {% endif %}
                 {% include item/article.html %}
 {% endfor %}

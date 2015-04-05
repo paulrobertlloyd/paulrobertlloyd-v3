@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<article class="page page--link  h-entry">
+<article class="c-page c-page--link h-entry">
     {% include page/header.html %}
 
-    <div class="page__main">
+    <div class="c-page__main">
         {% if page.link-embed %}
             {% figure u-extend %}
 {% embed {{ page.link }} %}
             {% endfigure %}
         {% endif %}
 
-        <div class="s-prose  e-content">
+        <div class="s-prose e-content">
             {{ content | typogrify | namespace }}
 
             {% if page.link-embed == null %}
-                <p><a class="button" href="{{ page.link }}">Visit this link</a></p>
+                <p><a class="c-button" href="{{ page.link }}">Visit this link</a></p>
             {% endif %}
         </div>
     </div>
