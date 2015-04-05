@@ -31,7 +31,7 @@ In order to keep the size of this file down, fallbacks (PNG for the logo, EOT an
 
 In addition to these changes, refactoring the remaining styles meant the new CSS file is slightly smaller than the three previous files it replaces:
 
-<table class="c-chart chart--hbar">
+<table class="c-chart c-chart--hbar">
     <tbody>
         <tr>
             <th colspan="2">Bytes downloaded (requests)</th>
@@ -53,7 +53,7 @@ In my previous post, I mentioned that I was now serving the site via [CloudFlare
 I really like CloudFlare, but it came with a notable downside: Time to First Byte times were longer than they ought to be. This issue has been [dismissed by CloudFlare][6], yet real world usage suggested the responsiveness of this site was indeed impacted. [Andy Hume][7] recommended I try [Fastly][8]. While it doesn't optimise files or provide security protection, it provides the same core service as CloudFlare more effectively:
 
 ### First view
-<table class="c-chart chart--hbar">
+<table class="c-chart c-chart--hbar">
     <caption>Homepage comparison: <a href="http://webpagetest.org/result/121219_DH_DDQ/">19 December 2012</a> v <a href="http://webpagetest.org/result/121227_BD_GR8/">27 December 2012</a></caption>
     <tbody>
         <tr>
@@ -92,7 +92,7 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
 </table>
 
 ### Repeat view
-<table class="c-chart chart--hbar">
+<table class="c-chart c-chart--hbar">
     <caption>Homepage comparison: <a href="http://webpagetest.org/result/121219_DH_DDQ/">19 December 2012</a> v <a href="http://webpagetest.org/result/121227_BD_GR8/">27 December 2012</a></caption>
     <tbody>
         <tr>

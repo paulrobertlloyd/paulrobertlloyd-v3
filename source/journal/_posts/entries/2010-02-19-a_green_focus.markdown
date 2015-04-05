@@ -27,7 +27,7 @@ Prior to my move to California in 2006, I had flown only once, on a long haul re
 
 However, thanks to [Dopplr][4]'s ability to track the carbon generated from all these trips I've taken, you can see that since returning from America in 2007, there has been a year-on-year reduction of my footprint:
 
-<table class="c-chart chart--hbar">
+<table class="c-chart c-chart--hbar">
     <caption>My carbon footprint since 2003 as measured by Dopplr</caption>
     <thead>
         <tr>

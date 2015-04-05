@@ -14,7 +14,7 @@ meta:
 
 ### Horizontal
 
-<table class="c-chart chart--hbar">
+<table class="c-chart c-chart--hbar">
     <tbody>
         <tr>
             <th colspan="2">Javascript: Bytes downloaded (requests)</th>
@@ -71,7 +71,7 @@ puts "Hello World"
 {% endfigure %}
 
 ### Tweet
-{% figure figure--tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
+{% figure c-figure--tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
 > How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
 {% endfigure %}
 
@@ -83,20 +83,20 @@ puts "Hello World"
 {% endfigure %}
 
 #### `.figure--image-duo`
-{% figure figure--image-duo "Two images, with supporting caption" %}
+{% figure c-figure--image-duo "Two images, with supporting caption" %}
 {% picture supporting /styleguide/pattern_1.jpg %}
 {% picture supporting /styleguide/pattern_2.jpg %}
 {% endfigure %}
 
 #### `.figure--image-trio`
-{% figure figure--image-trio "Three images, with supporting caption" %}
+{% figure c-figure--image-trio "Three images, with supporting caption" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
 {% endfigure %}
 
 #### `.figure--image-quartet`
-{% figure figure--image-quartet "Four images, with supporting caption" %}
+{% figure c-figure--image-quartet "Four images, with supporting caption" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
@@ -104,7 +104,7 @@ puts "Hello World"
 {% endfigure %}
 
 #### `.figure--image-quintet`
-{% figure figure--image-quintet "Five images, with supporting caption" %}
+{% figure c-figure--image-quintet "Five images, with supporting caption" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
@@ -115,25 +115,25 @@ puts "Hello World"
 ### With right-aligned caption
 
 #### `.figure.figure--caption-right`
-{% figure figure--caption-right "Single image, with supporting caption to the right" %}
+{% figure c-figure--caption-right "Single image, with supporting caption to the right" %}
 {% picture /styleguide/pattern_1.jpg %}
 {% endfigure %}
 
 #### `.figure--image-duo.figure--caption-right`
-{% figure figure--image-duo figure--caption-right "Two images, with supporting caption to the right" %}
+{% figure c-figure--image-duo figure--caption-right "Two images, with supporting caption to the right" %}
 {% picture supporting /styleguide/pattern_1.jpg %}
 {% picture supporting /styleguide/pattern_2.jpg %}
 {% endfigure %}
 
 #### `.figure--image-trio.figure--caption-right`
-{% figure figure--image-trio figure--caption-right "Three images, with supporting caption to the right" %}
+{% figure c-figure--image-trio figure--caption-right "Three images, with supporting caption to the right" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
 {% endfigure %}
 
 #### `.figure--image-quartet.figure--caption-right`
-{% figure figure--image-quartet figure--caption-right "Four images, with supporting caption to the right" %}
+{% figure c-figure--image-quartet figure--caption-right "Four images, with supporting caption to the right" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}
@@ -141,7 +141,7 @@ puts "Hello World"
 {% endfigure %}
 
 #### `.figure--image-quintet.figure--caption-right`
-{% figure figure--image-quintet figure--caption-right "Five images, with supporting caption to the right" %}
+{% figure c-figure--image-quintet figure--caption-right "Five images, with supporting caption to the right" %}
 {% picture thumbnail /styleguide/pattern_1.jpg %}
 {% picture thumbnail /styleguide/pattern_2.jpg %}
 {% picture thumbnail /styleguide/pattern_3.jpg %}

@@ -23,7 +23,7 @@ After its involvement, it became clear that the 'experimental' section had an im
 
 Typical graphic design during the sixties saw a move to a greater use of photography and more detailed illustration, due mainly to the fact that 625-line transmissions when they were launched in 1964, allowed greater picture definition, allowing graphic designers more creativity. There was also a lot more innovation with the increasing knowledge of the effects a film rostrum camera could achieve. The greater use of calligraphy was apparent at this time too.
 
-{% figure figure--image-quintet "Figure 5: Title sequence from <cite>The Avengers</cite> (ABC 1963. Designed by Jerome Gask). [Watch on YouTube](https://www.youtube.com/watch?v=aDy_-dvMCNs)" %}
+{% figure c-figure--image-quintet "Figure 5: Title sequence from <cite>The Avengers</cite> (ABC 1963. Designed by Jerome Gask). [Watch on YouTube](https://www.youtube.com/watch?v=aDy_-dvMCNs)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-5a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-5b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-5c.png alt="Still from ident" %}
@@ -31,7 +31,7 @@ Typical graphic design during the sixties saw a move to a greater use of photogr
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-5e.png alt="Still from ident" %}
 {% endfigure %}
 
-{% figure figure--image-quintet "Figure 6: Title sequence from <cite>Darkness at Noon</cite> (Associated Rediffusion 1964. Designed by Arnold Schwartzman)" %}
+{% figure c-figure--image-quintet "Figure 6: Title sequence from <cite>Darkness at Noon</cite> (Associated Rediffusion 1964. Designed by Arnold Schwartzman)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-6a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-6b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-6c.png alt="Still from ident" %}
@@ -41,7 +41,7 @@ Typical graphic design during the sixties saw a move to a greater use of photogr
 
 The introduction, firstly of 625-line broadcasts and later colour, had obvious benefits to designers although in a way they were also a hindrance. It has to be remembered that even though these improvements were available, they were being broadcast alongside the old 405-line transmissions (which even with their quality weren't suspended until early 1985). It was up to the audience to upgrade their sets and sales of colour receivers were unexpectedly low when colour television broadcasts began. Before the majority of viewers had 625-line and colour receivers, the designer still had to consider those watching on 405-lines and monochrome sets.
 
-{% figure figure--image-quintet "Figure 7: Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)" %}
+{% figure c-figure--image-quintet "Figure 7: Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-7a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-7b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-7c.png alt="Still from ident" %}
@@ -49,7 +49,7 @@ The introduction, firstly of 625-line broadcasts and later colour, had obvious b
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-7e.png alt="Still from ident" %}
 {% endfigure %}
 
-{% figure figure--image-quintet "Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)" %}
+{% figure c-figure--image-quintet "Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-8a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-8b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-8c.png alt="Still from ident" %}

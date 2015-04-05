@@ -13,12 +13,12 @@ The music from the individual bulletins was retained, but updated and modified t
 
 The sets background also varied its colour through the course of the day -- starting with light pinks and blues at breakfast, darkening through the day to dark blues and oranges for the Nine O'clock bulletin, reflecting the time of day.
 
-{% figure figure--image-duo "Figure 40: The BBC's virtual news studio took pride of place at the start of its bulletins" %}
+{% figure c-figure--image-duo "Figure 40: The BBC's virtual news studio took pride of place at the start of its bulletins" %}
 {% picture supporting /articles/dissertation/figure-40a.png alt="BBC News logo, 1994" %}
 {% picture supporting /articles/dissertation/figure-40b.png alt="Still from BBC Six O'Clock News opening titles, 1994" %}
 {% endfigure %}
 
-{% figure figure--image-quartet "Figure 41: Window keys for <cite>BBC Breakfast News</cite> and the One, Six and Nine O'clock bulletins. Variations here, and with the opening musical scores helped keep some aspects of individuality" %}
+{% figure c-figure--image-quartet "Figure 41: Window keys for <cite>BBC Breakfast News</cite> and the One, Six and Nine O'clock bulletins. Variations here, and with the opening musical scores helped keep some aspects of individuality" %}
 {% picture thumbnail /articles/dissertation/figure-41a.png alt="BBC Breakfast News studio, 1994" %}
 {% picture thumbnail /articles/dissertation/figure-41b.png alt="BBC One O'Clock News studio, 1994" %}
 {% picture thumbnail /articles/dissertation/figure-41c.png alt="BBC Six O'Clock News studio, 1994" %}
@@ -37,7 +37,7 @@ As for the set:
 
 The modern building nearly all of glass provided the backdrop for all ITN's bulletins, with modifications only needed to prevent reflection and allow the set to be undisturbed by weather conditions.
 
-{% figure figure--image-quartet "Figure 42: The clock face of Big Ben was at the start of every ITN bulletin from 1996" %}
+{% figure c-figure--image-quartet "Figure 42: The clock face of Big Ben was at the start of every ITN bulletin from 1996" %}
 {% picture thumbnail /articles/dissertation/figure-42a.png alt="Still from ITV Evening News titles, 1996" %}
 {% picture thumbnail /articles/dissertation/figure-42b.png alt="Still from ITV Evening News titles, 1996" %}
 {% picture thumbnail /articles/dissertation/figure-42c.png alt="Still from ITV Evening News titles, 1996" %}
@@ -46,7 +46,7 @@ The modern building nearly all of glass provided the backdrop for all ITN's bull
 
 In 1999 however, news programmes on ITV, like those on Channels 4 and 5, no longer used the ITN name or branding, and used the ITV name instead -- reinforcing this brand rather than ITN's own.
 
-{% figure figure--image-quartet "Figure 43: As provider of news to ITV, ITN were forced to remove all its name and branding, using a separate 'ITV News' name. This was to re-enforce ITV's brand further, rather than ITN's" %}
+{% figure c-figure--image-quartet "Figure 43: As provider of news to ITV, ITN were forced to remove all its name and branding, using a separate 'ITV News' name. This was to re-enforce ITV's brand further, rather than ITN's" %}
 {% picture thumbnail /articles/dissertation/figure-43a.png alt="Still from ITV Evening News titles, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-43b.png alt="Still from ITV Evening News titles, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-43c.png alt="Still from ITV Evening News titles, 1999" %}
@@ -57,7 +57,7 @@ Up until the launch of Channel 5 in 1997 and its news offering <cite>5 News</cit
 
 This was radically different to anything that had been seen on television in the UK before, and was loosely based on a news programme from Canada. Its title sequence had a fast pace matched by its musical score, bright colours and quick cuts between news type images.
 
-{% figure figure--image-quartet "Figure 44: Channel 5's fast paced and colourful titles, as well as its presentation style, were to change the face of television news in the years to come" %}
+{% figure c-figure--image-quartet "Figure 44: Channel 5's fast paced and colourful titles, as well as its presentation style, were to change the face of television news in the years to come" %}
 {% picture thumbnail /articles/dissertation/figure-44a.png alt="Still from 5 News titles, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-44b.png alt="Still from 5 News titles, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-44c.png alt="Still from 5 News titles, 1997" %}
@@ -82,28 +82,28 @@ This was done with the creation of a set of similar elements: concentric radiati
 
 The main bulletins on BBC1 shared similar but varied titles in which maps of first Britain then the world interacted alongside the spelling out of major capitals, overlaid with clock hands, radiating rings and globes. Towards the end of the sequence the hour of the programme (be it 1, 6, 9 and later 10) were brought in, spinning on their axis before resting in a straight position. <cite>BBC News 24</cite> and <cite>BBC World</cite> (the BBC's 24-hour rolling news channels) continued these themes -- with News 24's graphics package having a closer resemblance to those titles seen on the BBC's domestic output.
 
-{% figure figure--image-quartet "Figure 45: <cite>BBC News at Ten O'Clock</cite>" %}
+{% figure c-figure--image-quartet "Figure 45: <cite>BBC News at Ten O'Clock</cite>" %}
 {% picture thumbnail /articles/dissertation/figure-45a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-45b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-45c.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-45d.png alt="Still from titles" %}
 {% endfigure %}
 
-{% figure figure--image-duo "Figure 46: <cite>BBC News 24</cite> and <cite>BBC World</cite>, the corporations 24 hour news channels, carried the branding" %}
+{% figure c-figure--image-duo "Figure 46: <cite>BBC News 24</cite> and <cite>BBC World</cite>, the corporations 24 hour news channels, carried the branding" %}
 {% picture supporting /articles/dissertation/figure-46a.png alt="Still from BBC News 24 titles, 1999" %}
 {% picture supporting /articles/dissertation/figure-46b.png alt="Still from BBC World titles, 1999" %}
 {% endfigure %}
 
 As for the BBC's regions, they again took the BBC News elements, whilst adjusting their colours -- the English regions used oranges, yellows and light blue for example -- and adding local elements such as map shapes and place names. All this was to increase viewers to the regional programmes, with the use of similar elements suggesting to viewers that they were essentially watching the same programme from the same people.
 
-{% figure figure--image-quartet "Figure 47: The same brand elements were used for regional news programmes" %}
+{% figure c-figure--image-quartet "Figure 47: The same brand elements were used for regional news programmes" %}
 {% picture thumbnail /articles/dissertation/figure-47a.png alt="Still from BBC North West Today titles, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-47b.png alt="Still from BBC North West Today titles, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-47c.png alt="Still from BBC North West Today titles, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-47d.png alt="Still from BBC North West Today titles, 1999" %}
 {% endfigure %}
 
-{% figure figure--image-quartet "Figure 48: The BBC News brand was applied to all national output, including its bulletins for the Welsh forth channel S4C" %}
+{% figure c-figure--image-quartet "Figure 48: The BBC News brand was applied to all national output, including its bulletins for the Welsh forth channel S4C" %}
 {% picture thumbnail /articles/dissertation/figure-48a.png alt="Still from BBC Reporting Scotland titles, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-48b.png alt="Still from BBC Wales Today titles, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-48c.png alt="Still from BBC Newsline titles, 1999" %}

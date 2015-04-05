@@ -37,7 +37,7 @@ I have to confess that I have a soft spot for this building, though it's often d
 
 Were it not for its unfortunate position, where it obstructs the flow of pedestrian traffic from Centenary Square to Chamberlain Square, I'd love to see it refurbished and given a new role in the city. How wonderful to see it set amongst the water gardens seen in the original plans, which were designed to soften the edges of this imposing mass of concrete. Perhaps too, the atrium could be returned to its original design, removed of the bars and fast food restaurants that currently suffocate this space. Instead, it faces demolition once the new library opens.
 
-{% figure figure--caption-right "Inside Birmingham Central Library, as it was in 1974" %}
+{% figure c-figure--caption-right "Inside Birmingham Central Library, as it was in 1974" %}
 {% picture /2010/06/a_new_library_for_birmingham_1974.jpg %}
 {% endfigure %}
 

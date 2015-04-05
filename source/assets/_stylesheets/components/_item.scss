@@ -2,23 +2,23 @@
     Items
     ========================================================================= */
 
-.item {
+.c-item {
     display: flex;
     position: relative;
     margin-bottom: $u__baseline;
     flex-direction: column;
 }
 
-.item__header {
+.c-item__header {
     order: 1;
 }
 
-.item__footer {
+.c-item__footer {
     margin-bottom: $u__baseline;
     order: 2;
 }
 
-.item__main {
+.c-item__main {
     order: 3;
 
     ol,
@@ -27,26 +27,26 @@
     }
 }
 
-.item__title {
+.c-item__title {
     @include fs--heading-3;
 }
 
-.item__body {
+.c-item__body {
     > * {
         margin-bottom: ($u__baseline * 0.75);
     }
 }
 
-.item__meta {
+.c-item__meta {
     @include fs--caption;
     color: $c__neutral--4;
 }
 
-.item__pubdate {
+.c-item__pubdate {
     color: $c__neutral--4;
 }
 
-.item__avatar {
+.c-item__avatar {
     position: absolute;
     top: 0;
     left: 0;
@@ -57,17 +57,17 @@
 
 
 /* Article */
-.item--article,
-.item--presentation {
+.c-item--article,
+.c-item--presentation {
     margin-bottom: $u__baseline;
 }
 
 
 /* Entry */
-.item--album,
-.item--entry,
-.item--project {
-    .item__title {
+.c-item--album,
+.c-item--entry,
+.c-item--project {
+    .c-item__title {
         @include fs--heading-2;
         padding-top: ($u__baseline * 1.25);
         padding-bottom: ($u__baseline / 4);
@@ -76,19 +76,19 @@
 
 
 /* Link */
-.item--link {
+.c-item--link {
     @include susy-media($b__c) {
         padding-right: span(1 of 6);
     }
 
-    .item__title a[href^="http://"]::after {
+    .c-item__title a[href^="http://"]::after {
         content: ' \2192';
     }
 }
 
 
 /* Remark */
-.item--remark {
+.c-item--remark {
     @include susy-media($b__c) {
         padding-right: span(1 of 6);
     }
@@ -96,7 +96,7 @@
 
 
 /* Project */
-.item--project {
+.c-item--project {
     @include gallery(1 of 3);
 
     @include susy-media($b__c) {

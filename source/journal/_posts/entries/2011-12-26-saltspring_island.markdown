@@ -24,7 +24,7 @@ I quickly found myself drawn into island life. I started my first day with a fil
 
 The sense of community on this island of 10,500 is palpable, but even more so during Halloween. Workmen fixing power lines joined parents, teachers and children wearing fancy dress costumes throughout the day. That evening we went trick or treating. A small cul-de-sac of houses happily welcomed the hoards of kids that had descended on their quiet neighbourhood. We were greeted by cobwebs, ghastly decorations, intricately carved pumpkins and plenty of ghosts, with one controlled by a willing conspirator on a roof, tasked with dangling white sheets from a fishing rod!
 
-{% figure figure--caption-right "Pumpkin carvings" %}
+{% figure c-figure--caption-right "Pumpkin carvings" %}
 {% picture /2011/12/saltspring_island_halloween.jpg %}
 {% endfigure %}
 

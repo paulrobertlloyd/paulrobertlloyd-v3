@@ -42,7 +42,7 @@ module Jekyll
         # Optional caption
         caption = converter.convert(markup[:caption].to_s)
         figure_caption = if markup[:caption]
-          "<figcaption class=\"figure__caption\">#{caption}</figcaption>\n"
+          "<figcaption class=\"c-figure__caption\">#{caption}</figcaption>\n"
         end
 
         # Optional HTML attributes
@@ -53,7 +53,7 @@ module Jekyll
       end
 
       # Render <figure>
-      figure_tag =  "<figure class=\"figure#{figure_classes}\"#{figure_html_attr}>\n"
+      figure_tag =  "<figure class=\"c-figure#{figure_classes}\"#{figure_html_attr}>\n"
       figure_tag += "#{markdown_escape * 2}#{figure_main}\n"
       figure_tag += "#{markdown_escape * 2}#{figure_caption}"
       figure_tag += "</figure>\n"

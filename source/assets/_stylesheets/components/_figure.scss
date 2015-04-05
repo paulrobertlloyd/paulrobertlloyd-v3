@@ -1,15 +1,15 @@
 /*  =========================================================================
     Figure
     ========================================================================= */
-.figure {
+.c-figure {
     margin-bottom: ($u__baseline * 1.5);
 }
 
-.figure__main {
+.c-figure__main {
     margin-bottom: $u__baseline;
 }
 
-.figure__caption {
+.c-figure__caption {
     @include ff--sans-serif;
     @include fs--caption;
     @include rule(after);
@@ -18,7 +18,7 @@
         margin-bottom: $u__baseline;
     }
 
-    .l-extend & {
+    .u-extend & {
         padding-right: (gutter());
         padding-left: (gutter());
 
@@ -30,16 +30,16 @@
 
 
 /* Caption positioning */
-.figure--caption-right {
+.c-figure--caption-right {
     @include clearfix;
 
-    .figure__main {
+    .c-figure__main {
         @include susy-media($b__a) {
             @include span(3 at 1 of (3 3 3 3));
         }
     }
 
-    .figure__caption {
+    .c-figure__caption {
         @include susy-media($b__a) {
             @include rule(before);
             @include rule(after, $display: none);
@@ -47,14 +47,14 @@
         }
     }
 
-    &.l-extend {
-        .figure__main {
+    &.u-extend {
+        .c-figure__main {
             @include susy-media($b__b) {
                 @include span(3 at 1 of (4 3 3 3 3));
             }
         }
 
-        .figure__caption {
+        .c-figure__caption {
             @include susy-media($b__b) {
                 @include span(2 at 4 of (4 3 3 3 3));
                 padding-right: 0;
@@ -67,7 +67,7 @@
 
 /* Image groups */
 [class*="figure--image"] {
-    .figure__main {
+    .c-figure__main {
         @include clearfix;
         margin-top: ($u__baseline * -1.5);
     }
@@ -78,25 +78,25 @@
     }
 }
 
-.figure--image-duo {
+.c-figure--image-duo {
     img {
         @include gallery(4 of 8);
     }
 }
 
-.figure--image-trio {
+.c-figure--image-trio {
     img {
         @include gallery(3 of 9);
     }
 }
 
-.figure--image-quartet {
+.c-figure--image-quartet {
     img {
         @include gallery(2 of 8);
     }
 }
 
-.figure--image-quintet {
+.c-figure--image-quintet {
     img {
         @include gallery(2 of 10);
     }
@@ -104,18 +104,18 @@
 
 
 /* Photo */
-.figure--photo {
+.c-figure--photo {
     position: relative;
     margin-bottom: ($u__baseline * 3);
     min-height: ($u__baseline * 8);
 
-    .figure__main {
+    .c-figure__main {
         @include clearfix;
         margin-bottom: 0;
         background-color: $c__neutral--a;
     }
 
-    .figure__caption {
+    .c-figure__caption {
         position: absolute;
         top: 0;
         right: 0;
@@ -129,7 +129,7 @@
 
 
 /* Tweet */
-.figure--tweet {
+.c-figure--tweet {
     blockquote {
         position: relative;
         border-left: 0;
@@ -153,7 +153,7 @@
         }
     }
 
-    .figure__caption {
+    .c-figure__caption {
         @include rule(after, none);
     }
 }

@@ -15,10 +15,9 @@
     .c-chart__value--percent {
         @include fs--caption;
         display: block;
-        margin-top: ($u__baseline / -5);
         margin-bottom: 0;
         background-color: $c__neutral--8;
-        padding: ($u__baseline / 5);
+        padding: ($u__baseline / 4);
         white-space: nowrap;
     }
 }

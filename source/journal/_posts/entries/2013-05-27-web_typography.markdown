@@ -23,7 +23,7 @@ To successfully mimic its design, a vast array of fonts and styles would be need
 
 Thankfully, beyond the cover and adverts, the guide is more consistently typeset, with different fonts and styles used to delineate content types. This structure gave me the confidence to keep my font selection limited.
 
-{% figure figure--caption-right "Typographic hierarchy used in the original Bradshaw's Guide" %}
+{% figure c-figure--caption-right "Typographic hierarchy used in the original Bradshaw's Guide" %}
 {% picture /2013/05/web_typography_bradshaws_type.png %}
 {% endfigure %}
 
@@ -46,7 +46,7 @@ Finding the right fonts was a particularly drawn out process. Beyond the usual r
 ## The Missing Web Typography Tool
 After an extensive search, I opted to use [Kameron][7] for headings, a chunky slab serif that contrasted strongly with [Linux Libertine][8], a delicate serif I had chosen for body copy.
 
-{% figure figure--caption-right "Sample of fonts used on Bradshaw's Guide" %}
+{% figure c-figure--caption-right "Sample of fonts used on Bradshaw's Guide" %}
 {% picture /2013/05/web_typography_bradshaws_web.png %}
 {% endfigure %}
 
