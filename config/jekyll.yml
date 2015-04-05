@@ -85,11 +85,6 @@ picture:
 defaults:
   -
     scope:
-      path: ''
-    values:
-      theme: 'default'
-  -
-    scope:
       path: 'photos'
     values:
       theme: 'dark'

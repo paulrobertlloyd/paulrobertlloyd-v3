@@ -8,12 +8,21 @@
     right: 0;
     left: 0;
     z-index: 1;
+    background-color: rgba($c__neutral--9, 0.95);
     padding: 0 gutter() ($u__baseline * 2);
     text-align: center;
 
     @include susy-media($b__a) {
         padding: 0;
         text-align: left;
+    }
+
+    .t-dark & {
+        background-color: rgba($c__neutral--1, 0.95);
+    }
+
+    .t-home & {
+        background-color: rgba($c__identity--1, 0.95);
     }
 }
 
@@ -37,9 +46,15 @@
 .banner__logo {
     width: ($u__baseline * 3);
     height: ($u__baseline * 3);
+    fill: $c__neutral--2;
 
     @include susy-media($b__a) {
         width: ($u__baseline * 4);
         height: ($u__baseline * 4);
+    }
+
+    .t-dark &,
+    .t-home & {
+        fill: $c__neutral--9;
     }
 }

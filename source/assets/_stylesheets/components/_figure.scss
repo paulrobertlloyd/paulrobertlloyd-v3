@@ -73,8 +73,8 @@
     }
 
     img {
-        margin-top: ($u__baseline * 1.5);
         @include gutters($u__baseline);
+        margin-top: ($u__baseline * 1.5);
     }
 }
 
