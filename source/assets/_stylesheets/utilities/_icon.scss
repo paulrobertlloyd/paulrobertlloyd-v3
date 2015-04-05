@@ -2,7 +2,7 @@
     Icons
     ========================================================================= */
 
-[data-icon] {
+.u-icon {
     &:before {
         content: attr(data-icon);
         speak: none;

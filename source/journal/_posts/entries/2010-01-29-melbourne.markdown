@@ -22,7 +22,7 @@ Before I really started to explore the city, I met up with friend and former col
 ## The Spiritual Home of Australian Sport
 Given Australia's passion for sport, it's perhaps no surprise that the MCG -- whilst outside the CBD -- still forms an integral part of the city. Its six large light towers dominate the landscape around Melbourne's 'Sports and Entertainment Precinct', a huge section of parkland littered with sporting venues of every size and description.
 
-{% figure l-pull-left "The cauldron from the 1956 Olympic Games" %}
+{% figure u-pull-left "The cauldron from the 1956 Olympic Games" %}
 {% picture supporting /2010/01/melbourne_olympic_cauldron.jpg %}
 {% endfigure %}
 

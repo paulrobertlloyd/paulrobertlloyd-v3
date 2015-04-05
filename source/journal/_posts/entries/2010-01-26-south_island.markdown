@@ -28,7 +28,7 @@ Compared to Auckland, my initial take on Wellington was that if felt more Asian 
 ## Picton
 Picton is a small yet picturesque town at the foot of Queen Charlotte Sound, and I imagine its population doubles on the arrival of each ferry. Those who choose to holiday in this area typically use it as a base to explore the Marlborough Sounds. I was only here for the evening, so unable to see as much of these sea-drowned valleys as I would have liked. I did get a small taste of the area by walking along the short 'Bob's Bay Track' out to an isolated cove, before grabbing a bite to eat on a converted war ship, the [A.S. Echo][5].
 
-{% figure l-extend "Queen Charlotte Sound" %}
+{% figure u-extend "Queen Charlotte Sound" %}
 {% picture showcase /2010/01/south_island_queen_charlotte_sound.jpg %}
 {% endfigure %}
 
@@ -45,7 +45,7 @@ Nelson also claims to be geographical centre of New Zealand. With an appropriate
 
 There is a whole other side to Nelson that could easily be missed should you not travel south along State Highway 6 towards Tahunanui Beach. This road runs along Nelson's Waterfront and is home to a number of small cafes and restaurants. The best known of these is [The Boat Shed][9], a small restaurant clinging to the roadside and perched on several stilts. Luckily I grabbed a one of the few remaining seats at the crowded bar, and after sampling the menu, can't recommend this establishment highly enough.
 
-{% figure l-extend "Sunset over Tahunanui Beach, with the Abel Tasman National Park in the distance" %}
+{% figure u-extend "Sunset over Tahunanui Beach, with the Abel Tasman National Park in the distance" %}
 {% picture showcase /2010/01/south_island_tahunanui_beach.jpg %}
 {% endfigure %}
 
