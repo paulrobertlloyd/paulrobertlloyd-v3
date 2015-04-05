@@ -5,6 +5,14 @@ series: Styleguide
 excerpt: A guide to the mark-up styles used throughout this site.
 permalink: /styleguide/utilities
 ---
+## Typography
+
+#### `.u-caps`
+CAPS
+
+#### `.u-amp`
+This & that
+
 ## Layout hints
 
 #### `.u-align-right`
