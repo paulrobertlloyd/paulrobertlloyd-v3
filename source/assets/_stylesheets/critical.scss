@@ -16,6 +16,10 @@
 @import 'base/tables';
 @import 'base/forms';
 
+// Scoped contexts
+@import 'scoped/prose';
+@import 'scoped/lede';
+
 // Components
 @import 'components/audible';
 @import 'components/button';
@@ -27,12 +31,10 @@
 @import 'components/item';
 @import 'components/index';
 @import 'components/layout-hints';
-@import 'components/lede';
 @import 'components/list';
 @import 'components/meta';
 @import 'components/nav';
 @import 'components/page';
-@import 'components/prose';
 
 // Structure
 @import 'structure/banner';

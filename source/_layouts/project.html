@@ -10,12 +10,12 @@ layout: default
         {% endif %}
 
         {% if page.excerpt %}
-            <div class="lede  p-summary">
+            <div class="s-lede  p-summary">
                 {{ page.excerpt | markdownify | typogrify }}
             </div>
         {% endif %}
 
-        <div class="prose  e-content">
+        <div class="s-prose  e-content">
             {{ content | typogrify }}
         </div>
     </div>

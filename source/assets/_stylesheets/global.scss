@@ -19,6 +19,10 @@
 @import 'base/interactive';
 @import 'base/disabled';
 
+// Scoped contexts
+@import 'scoped/prose';
+@import 'scoped/lede';
+
 // Components
 @import 'components/audible';
 @import 'components/button';
@@ -35,12 +39,10 @@
 @import 'components/index';
 @import 'components/item';
 @import 'components/layout-hints';
-@import 'components/lede';
 @import 'components/list';
 @import 'components/meta';
 @import 'components/nav';
 @import 'components/page';
-@import 'components/prose';
 @import 'components/rating';
 @import 'components/tag';
 
