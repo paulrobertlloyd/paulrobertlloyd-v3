@@ -242,3 +242,8 @@ If you use these elements, you must use every element. They should appear in thi
 *[HTML]: HyperText Markup Language
 *[BBC]: British Broadcasting Corportation
 *[Staffs.]: Staffordshire
+
+#### `.s-footnote`
+This is some text with a footnote.[^1]
+
+[^1]: And this is the footnote.

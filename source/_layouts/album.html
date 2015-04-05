@@ -19,7 +19,9 @@ theme: dark
                 <p class="figure__main">
                     {% picture {{ file.url | remove: 'assets/images/' }} alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}" %}
                 </p>
-                {% include components/exif.html %}
+                <figcaption class="figure__caption">
+                    {% include components/exif.html %}
+                </figcaption>
             </figure>
             {% enddirectory %}
         </div>

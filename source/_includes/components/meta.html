@@ -1,10 +1,10 @@
-<aside class="meta  {{ include.class }}">
-    <h2 class="meta__title u-audible">Information about {{ page.title }}</h2>
-    <dl class="meta__values">
+<aside class="c-meta {{ include.class }}">
+    <h2 class="c-meta__title u-audible">Information about {{ page.title }}</h2>
+    <dl class="c-meta__values">
         {% for item in page.meta %}
             {% capture meta__value %}{{ item[1] }}{% endcapture %}
-            <dt class="meta__title">{{ item[0] | capitalize }}</dt>
-            <dd class="meta__value">{{ meta__value | smartify | markdownify }}</dd>
+            <dt class="c-meta__title">{{ item[0] | capitalize }}</dt>
+            <dd class="c-meta__value">{{ meta__value | smartify | markdownify }}</dd>
         {% endfor %}
     </dl>
 </aside>
