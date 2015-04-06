@@ -4,15 +4,6 @@
 
 .c-page {
     position: relative;
-
-    .c-page__tags,
-    .c-page__discussion {
-        @include rule;
-
-        @include susy-media($b__b) {
-            @include span(4 at 2 last);
-        }
-    }
 }
 
 .c-page__header {
@@ -25,6 +16,8 @@
 }
 
 .c-page__main {
+    margin-bottom: ($u__baseline * 2);
+
     @include susy-media($b__b) {
         @include span(4 at 2 last);
     }
@@ -51,6 +44,16 @@
         position: absolute;
         top: 1.75rem;
         left: 0;
+    }
+}
+
+.c-page__tags,
+.c-page__discussion {
+    @include rule;
+    margin-bottom: ($u__baseline * 2);
+
+    @include susy-media($b__b) {
+        @include span(4 at 2);
     }
 }
 
