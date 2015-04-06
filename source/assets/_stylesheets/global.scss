@@ -29,6 +29,10 @@
 @import 'utilities/caps';
 @import 'utilities/icon';
 @import 'utilities/layout-hints';
+@import 'utilities/separate';
+
+// Objects
+@import 'objects/list';
 
 // Components
 @import 'components/banner';
@@ -43,7 +47,6 @@
 @import 'components/form';
 @import 'components/index';
 @import 'components/item';
-@import 'components/list';
 @import 'components/main';
 @import 'components/meta';
 @import 'components/nav';

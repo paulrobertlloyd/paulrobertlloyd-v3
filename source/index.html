@@ -3,7 +3,7 @@ layout: default
 theme: home
 ---
 {% for container in site.data.homepage %}
-    <section class="c-container container--{{ container.class }}">
+    <section class="c-container c-container--{{ container.class }}">
         <header class="c-container__header">
             <h1 class="c-container__title">{{ container.title | smartify }}</h1>
         </header>

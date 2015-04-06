@@ -1,6 +1,6 @@
 <article class="c-item item--article">
     <h1 class="c-item__title">
-        <a href="{{ item.url }}">{{ item.title | smartify }}</a>
+        <a class="c-item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
     </h1>
 
     <p class="c-item__meta">{{ item.publication }}, <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%B %Y' }}</time></p>
