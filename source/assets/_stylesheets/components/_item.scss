@@ -99,8 +99,11 @@
     padding-left: (span(1 of 8) + gutter());
 
     @include susy-media($b__b) {
-        padding-right: span(1 of 4 wide);
         padding-left: 0;
+    }
+
+    @include susy-media($b__c) {
+        padding-right: span(1 of 4 wide);
     }
 }
 

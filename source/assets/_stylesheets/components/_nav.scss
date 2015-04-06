@@ -64,48 +64,92 @@
 
 /* Page navigation */
 .c-nav--pagination {
+    @include rule;
     overflow: hidden;
 
+    @include susy-media($b__c) {
+        @include rule($display: none);
+    }
+
     .c-nav__item {
-        line-height: ($u__baseline * 2);
+        float: left;
+        margin-right: $u__baseline;
+        font-weight: 700;
 
         @include susy-media($b__c) {
+            overflow: hidden;
             position: fixed;
-            top: 50%;
-            bottom: 50%;
+            bottom: $u__baseline;
             transition: all 0.2s;
-            margin-top: -3rem;
-            padding: 0 ($u__baseline / 2);
         }
     }
 
     .c-nav__item__label {
         @include susy-media($b__c) {
             display: none;
-        }
-    }
-
-    .c-nav__item:hover {
-        .c-nav__item__label {
-            @include susy-media($b__c) {
-                display: inline-block;
-            }
+            line-height: ($u__baseline * 4);
+            height: ($u__baseline * 4);
+            float: left;
         }
     }
 
     .c-nav__item--prev {
-        float: left;
+        &::before {
+            content: "\27E8";
+            color: $c__neutral--a;
+
+            @include susy-media($b__c) {
+                font-size: ($u__baseline * 4);
+                float: left;
+                height: ($u__baseline * 4);
+                line-height: ($u__baseline * 4);
+                display: block;
+            }
+        }
 
         @include susy-media($b__c) {
+            margin-left: $u__baseline;
             left: 0;
         }
     }
 
     .c-nav__item--next {
-        float: right;
+        &::after {
+            content: "\27E9";
+            color: $c__neutral--a;
+
+            @include susy-media($b__c) {
+                font-size: ($u__baseline * 4);
+                float: left;
+                height: ($u__baseline * 4);
+                line-height: ($u__baseline * 4);
+                display: block;
+            }
+        }
 
         @include susy-media($b__c) {
             right: 0;
+        }
+    }
+
+    // Hover states
+    .c-nav__item:hover {
+        .c-nav__item__label {
+            @include susy-media($b__c) {
+                display: block;
+            }
+        }
+
+        .c-nav__item--prev::before {
+            @include susy-media($b__c) {
+                color: $c__neutral--5;
+            }
+        }
+
+        .c-nav__item--next::after {
+            @include susy-media($b__c) {
+                color: $c__neutral--5;
+            }
         }
     }
 }
