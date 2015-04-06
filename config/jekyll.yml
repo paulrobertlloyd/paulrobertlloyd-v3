@@ -73,6 +73,16 @@ picture:
       attr:
         class: img img--showcase
       source_large:
+        width: 1024
+        quality: 70
+      source_medium:
+        width: 768
+      source_default:
+        width: 480
+    feature:
+      attr:
+        class: img img--feature
+      source_large:
         width: 1280
         height: 720
         quality: 70

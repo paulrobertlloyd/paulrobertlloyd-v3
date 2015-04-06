@@ -8,6 +8,10 @@
 
 .c-figure__main {
     margin-bottom: $u__baseline;
+
+    img {
+        display: block;
+    }
 }
 
 .c-figure__caption {
