@@ -136,7 +136,7 @@
     .c-nav__item--prev:hover::before,
     .c-nav__item--next:hover::after {
         @include susy-media($b__c) {
-            color: darken($c__neutral--a, 25%);
+            color: $c__neutral--6;
         }
     }
 }
