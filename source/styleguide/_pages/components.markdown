@@ -155,11 +155,11 @@ puts "Hello World"
 {% include meta.html %}
 
 #### `.c-rating`
-{% include rating.html score='1' %}
-{% include rating.html score='2' %}
-{% include rating.html score='3' %}
-{% include rating.html score='4' %}
-{% include rating.html score='5' %}
+{% include rating.html score="1" %}
+{% include rating.html score="2" %}
+{% include rating.html score="3" %}
+{% include rating.html score="4" %}
+{% include rating.html score="5" %}
 
 #### `.c-tag`
 {% include tag.html tag="tag name" %}

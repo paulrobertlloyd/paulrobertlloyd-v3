@@ -6,7 +6,7 @@ layout: default
 
     <div class="c-page__main">
         {% if page.link-embed %}
-            {% figure u-extend %}
+            {% figure u-extend "{{ page.image.caption }}" %}
 {% embed {{ page.link }} %}
             {% endfigure %}
         {% endif %}

@@ -1,4 +1,4 @@
-<article class="c-item c-item--remark{% if item.gravatar == '15091a37bacfa4bdd011282627eaca2b' %} c-item--remark-author{% endif %}" id="remark-{{ forloop.rindex }}">
+<article class="c-item c-item--remark{% if item.gravatar == "15091a37bacfa4bdd011282627eaca2b" %} c-item--remark-author{% endif %}" id="remark-{{ forloop.rindex }}">
     <header class="c-item__header h-card">
         <h1 class="c-item__title">
         {% capture item_author %}{{ item.author }}<img class="c-item__avatar  u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=120&amp;d=http%3A%2F%2F{{ site.url }}%2Fassets%images%2Fgravatar.png" width="80" height="80" alt=""/>{% endcapture %}
@@ -18,7 +18,7 @@
 
     <footer class="c-item__footer">
         <p class="c-item__meta">
-            <time class="c-item__pubdate" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
+            <time class="c-item__pubdate" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
         </p>
     </footer>
 </article>

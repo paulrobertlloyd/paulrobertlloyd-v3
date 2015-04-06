@@ -9,7 +9,7 @@ theme: home
         </header>
 
         <div class="c-container__main">
-            <div class="{% if container.class == 'intro' %}s-lede{% endif %}">
+            <div class="{% if container.class == "intro" %}s-lede{% endif %}">
                 {{ container.text | markdownify | typogrify | namespace }}
             </div>
         </div>
