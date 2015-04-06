@@ -42,24 +42,6 @@
     letter-spacing: 0.03125rem; // 0.5px
 }
 
-.c-page__location::before {
-    opacity: 0.5;
-    margin: 0 ($u__baseline / 4);
-    content: '/';
-
-    .js-enhanced & {
-        display: none;
-    }
-}
-
-.c-page__location::after {
-    .js-enhanced & {
-        opacity: 0.5;
-        margin: 0 ($u__baseline / 2) 0 ($u__baseline / 4);
-        content: '/';
-    }
-}
-
 .c-page__pubdate {
     @include ff--sans-serif;
     @include fs--caption;

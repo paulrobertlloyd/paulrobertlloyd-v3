@@ -9,4 +9,9 @@
     margin-right: ($u__baseline / 2);
     text-transform: lowercase;
     white-space: nowrap;
+
+    &::before {
+        opacity: 0.25;
+        content: '#\2009';
+    }
 }

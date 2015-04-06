@@ -31,6 +31,10 @@
     @include fs--heading-3;
 }
 
+.c-item__link {
+    font-weight: 700;
+}
+
 .c-item__body {
     > * {
         margin-bottom: ($u__baseline * 0.75);
@@ -77,12 +81,19 @@
 
 /* Link */
 .c-item--link {
-    @include susy-media($b__c) {
-        padding-right: span(1 of 6);
-    }
-
     .c-item__title a[href^="http://"]::after {
         content: ' \2192';
+    }
+
+    .c-item__link {
+        font-weight: normal;
+    }
+
+    .c-item__header,
+    .c-item__main {
+        @include susy-media($b__c) {
+            padding-right: span(1 of 6);
+        }
     }
 }
 

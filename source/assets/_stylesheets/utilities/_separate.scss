@@ -1,0 +1,16 @@
+/*  =========================================================================
+    Separate
+    ========================================================================= */
+
+.u-separate {
+    &::after {
+        font-weight: normal;
+        opacity: 0.5;
+        margin: 0 ($u__baseline / 2);
+        content: '/';
+    }
+
+    &:nth-child(n+2):last-child::after {
+        content: none;
+    }
+}

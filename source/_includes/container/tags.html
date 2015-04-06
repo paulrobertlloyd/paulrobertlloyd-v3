@@ -3,9 +3,9 @@
         <h1 class="c-container__title" id="tags">Tags</h1>
     </header>
 
-    <ul class="list list--inline">
+    <ul class="o-list o-list--inline">
         {% for tag in page.tags %}
-            <li class="list__item">{% include tag.html tag=tag %}</li>
+            <li class="o-list__item">{% include tag.html tag=tag %}</li>
         {% endfor %}
     </ul>
 </section>
