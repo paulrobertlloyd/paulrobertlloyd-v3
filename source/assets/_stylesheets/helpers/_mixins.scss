@@ -111,7 +111,7 @@
 @mixin fs--body {
     line-height: (16/10);
     font-size: 1rem; // 16px
-    letter-spacing: 0.01em;
+    letter-spacing: 0.0075em;
 
     @include susy-media($b__b) {
         font-size: 1.125rem; // 18px

@@ -4,31 +4,48 @@ title: Colophon
 excerpt: This site is built using a variety of third-party tools and services.
 permalink: /colophon/
 ---
-This website is produced on an Apple [iMac][1], using [OmniGraffle][2] and [Sketch][3] to realise early design concepts before being marked up as HTML in [TextMate][4]. I use and recommend [WebFaction][5] for web hosting. Type set in [FONT][6] and served via [FONT SERVICE][7].
+This website is produced on an [Apple Mac][1], using [Sketch][2] to realise early design concepts before being coded in [TextMate][3]. I use and recommend [WebFaction][4] for web hosting. Type is set in [Charter ITC][5] and [Calibre][6].
 
-This site is published using [Jekyll][8] and a number of supporting plugins:
+This site is published using [Jekyll][7] with a number of supporting plugins:
 
-  * [PLUGIN NAME][9] by PLUGIN AUTHOR
+  * [jekyll-archives][8] by Alfred Xing
+  * [jekyll-assets][9] by Aleksey V Zapparov
+  * [jekyll-paginate][10] by Parker Moore
+  * [jekyll-sitemap][11] by GitHub, Inc.
+  * [jekyll-smartify][12] by Pat Hawks
+  * [Simple Jekyll Search][13] by Christian Fei
 
-Additional enhancements:
+Other notable tools and services used to build this site include:
 
-  * [MapBox][10] interactive maps
-  * [ENHANCEMENT][11]
+  * [exiftool][14] by Matthew McEachen and Phil Harvey
+  * [fontfaceobserver][15] by Bram Stein
+  * [Picturefill][16] by Filament Group, Inc.
+  * [Susy][17] by Eric M. Suzanne 
+  * [typogruby][18] by Arjan van der Gaag
+  * [MapBox][19] by Mapbox Inc.
 
-I always try to adhere to [web standards][12] and best practices. Therefore, pages are semantically structured using valid [HTML5][13] with presentational design provided by [CSS][14]. Syndicated feeds are available using [Atom][15]-flavoured RSS.
+I always try to adhere to [web standards][20] and best practices. Pages are semantically structured using valid [HTML5][21] with presentational design provided by [CSS][22]. Syndicated feeds are available using [Atom][23]-flavoured RSS.
 
-[1]: http://apple.com/imac/
-[2]: http://omnigroup.com/products/omnigraffle/
-[3]: http://bohemiancoding.com/sketch/
-[4]: http://macromates.com/
-[5]: https://webfaction.com/?aid=42929
-[6]: #
-[7]: #
-[8]: http://jekyllrb.com/
-[9]: #
-[10]: http://mapbox.com/
-[11]: #
-[12]: http://webstandards.org/
-[13]: http://www.w3.org/TR/html5/
-[14]: http://www.w3.org/Style/CSS/
-[15]: http://www.atomenabled.org/
+[1]: http://apple.com/macbook-pro/
+[2]: http://bohemiancoding.com/sketch/
+[3]: http://macromates.com/
+[4]: https://webfaction.com/?aid=42929
+[5]: http://myfonts.com/fonts/itc/charter/
+[6]: https://klim.co.nz/retail-fonts/calibre/
+[7]: http://jekyllrb.com/
+[8]: https://rubygems.org/gems/jekyll-archives
+[9]: https://rubygems.org/gems/jekyll-assets
+[10]: https://rubygems.org/gems/jekyll-paginate
+[11]: https://rubygems.org/gems/jekyll-sitemap
+[12]: https://rubygems.org/gems/jekyll-smartify
+[13]: https://github.com/christian-fei/Simple-Jekyll-Search
+[14]: https://rubygems.org/gems/exiftool
+[15]: https://npmjs.com/package/fontfaceobserver
+[16]: https://scottjehl.github.io/picturefill/
+[17]: http://susy.oddbird.net
+[18]: https://rubygems.org/gems/typogruby
+[19]: http://mapbox.com/
+[20]: http://webstandards.org/
+[21]: http://w3.org/TR/html5/
+[22]: http://w3.org/Style/CSS/
+[23]: http://atomenabled.org/

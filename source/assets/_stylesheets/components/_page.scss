@@ -2,6 +2,10 @@
     Page
     ========================================================================= */
 
+.c-page {
+    position: relative; // Required for .c-page__pubdate
+}
+
 .c-page__header {
     margin-bottom: ($u__baseline * 2);
 
