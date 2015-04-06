@@ -4,17 +4,24 @@
 
     var addEvent = function () {
         return document.addEventListener ? function (a, c, d) {
-            if (a && a.nodeName || a === window) a.addEventListener(c, d, !1);
-            else if (a && a.length)
-                for (var b = 0; b < a.length; b++) addEvent(a[b], c, d)
-        } : function (a, c, d) {
-            if (a && a.nodeName || a === window) a.attachEvent('on' + c, function () {
-                return d.call(a, window.event)
-            });
-            else if (a && a.length) {
-                for (var b = 0; b < a.length; b++) addEvent(a[b], c, d);
+            if (a && a.nodeName || a === window) {
+                a.addEventListener(c, d, !1);
+            } else if (a && a.length) {
+                for (var b = 0; b < a.length; b = b + 1) {
+                    addEvent(a[b], c, d);
+                }
             }
-        }
+        } : function (a, c, d) {
+            if (a && a.nodeName || a === window) {
+                a.attachEvent('on' + c, function () {
+                    return d.call(a, window.event);
+                });
+            } else if (a && a.length) {
+                for (var b = 0; b < a.length; b = b + 1) {
+                    addEvent(a[b], c, d);
+                }
+            }
+        };
     }();
 
     var start = 0;
@@ -27,17 +34,9 @@
         var amount = Math.min((scroll - start) / step, max);
         top.style.boxShadow = '0 0 ' + amount + 'px ' + color;
     };
-//  var touchThrottle = 10,
-//
-//  touchThrottleStart = touchThrottle;
+
     addEvent(win, 'scroll', function () {
-//      if (touchThrottle == 0) {
         setShadow();
-//          touchThrottle = touchThrottleStart;
-//      }
-//      touchThrottle--;
     });
-//  addEvent(win, 'touchmove', function(e) {
-//      setShadow();
-//  });
+
 }(this, this.document));

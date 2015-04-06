@@ -42,7 +42,7 @@ module Jekyll
 
       def embedCode(embed_type, embed_src, embed_action)
         %Q[<p class="c-embed" data-embed-src="#{embed_src}" data-embed-type="#{embed_type}">
-            <a class="c-button" href="#{@uri}">#{embed_action}</a>
+            <a href="#{@uri}">#{embed_action}</a>
         </p>]
       end
 
