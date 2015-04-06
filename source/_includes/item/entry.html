@@ -9,12 +9,14 @@
         </h1>
     </header>
 
+    {% if item.link-embed == "photo" or item.link-embed == "video" %}
+    <div class="c-item__media">
+        {% embed {{ item.link }} %}
+    </div>
+    {% endif %}
+
     <div class="c-item__main">
         <div class="c-item__body{% if item.layout == "entry" %} s-lede{% endif %} p-summary">
-            {% if item.link-embed == "photo" or item.link-embed == "video" %}
-                {% embed {{ item.link }} %}
-            {% endif %}
-
             {% if item.layout == "link" %}
                 {{ item.content | markdownify | typogrify | namespace }}
             {% elsif item.excerpt != null %}

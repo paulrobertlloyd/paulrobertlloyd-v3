@@ -18,13 +18,12 @@
     order: 2;
 }
 
-.c-item__main {
+.c-item__media {
     order: 3;
+}
 
-    ol,
-    ul {
-        list-style-position: inside;
-    }
+.c-item__main {
+    order: 4;
 }
 
 .c-item__title {
