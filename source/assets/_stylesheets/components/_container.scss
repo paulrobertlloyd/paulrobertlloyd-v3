@@ -3,8 +3,7 @@
     ========================================================================= */
 
 .c-container {
-    @include clearfix;
-    margin-bottom: ($u__baseline * 2);
+    overflow: hidden;
 
     + .c-container {
         border-top: 0.05rem solid;
@@ -14,7 +13,7 @@
 
 .c-container__title {
     @include ff--sans-serif;
-    @include fs--heading-3;
+    @include fs--heading-2;
     margin-bottom: $u__baseline;
     font-weight: 700;
     word-break: break-word;

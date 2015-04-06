@@ -6,7 +6,6 @@
     <div class="c-nav c-nav--pagination">
     {% if paginator.next_page %}
         <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
-            {% asset nav__item__icon--prev.svg %}
             <span class="c-nav__item__label">Older</span>
         </a>
     {% endif %}
@@ -14,7 +13,6 @@
     {% if paginator.previous_page %}
         <a class="c-nav__item c-nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
             <span class="c-nav__item__label">Newer</span>
-            {% asset nav__item__icon--next.svg %}
         </a>
     {% endif %}
     </div>
