@@ -8,12 +8,5 @@
     right: 0;
     left: 0;
     z-index: 2;
-    margin: 0 auto;
-    padding: 0 gutter();
-    max-width: $u__max-width;
     height: 0;
-
-    @include susy-media($b__c) {
-        padding: 0;
-    }
 }

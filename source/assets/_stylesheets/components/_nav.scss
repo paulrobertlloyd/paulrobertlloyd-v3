@@ -79,7 +79,7 @@
         @include susy-media($b__c) {
             overflow: hidden;
             position: fixed;
-            bottom: $u__baseline;
+            bottom: ($u__baseline * 1.5);
             transition: all 0.2s;
         }
     }
@@ -116,7 +116,6 @@
     .c-nav__item--next {
         &::after {
             content: "\27E9";
-            color: $c__neutral--a;
 
             @include susy-media($b__c) {
                 font-size: ($u__baseline * 4);
@@ -124,6 +123,7 @@
                 height: ($u__baseline * 4);
                 line-height: ($u__baseline * 4);
                 display: block;
+                color: $c__neutral--a;
             }
         }
 
@@ -133,23 +133,10 @@
     }
 
     // Hover states
-    .c-nav__item:hover {
-        .c-nav__item__label {
-            @include susy-media($b__c) {
-                display: block;
-            }
-        }
-
-        .c-nav__item--prev::before {
-            @include susy-media($b__c) {
-                color: $c__neutral--5;
-            }
-        }
-
-        .c-nav__item--next::after {
-            @include susy-media($b__c) {
-                color: $c__neutral--5;
-            }
+    .c-nav__item--prev:hover::before,
+    .c-nav__item--next:hover::after {
+        @include susy-media($b__c) {
+            color: darken($c__neutral--a, 25%);
         }
     }
 }

@@ -55,10 +55,10 @@ $susy: (
     gutters: 0.5,
     global-box-sizing: border-box,
     last-flow: to,
-//    debug: (
-//        image: show,
-//        color: $c__select,
-//        output: overlay,
-//        toggle: bottom right,
-//    )
+    debug: (
+        image: show,
+        color: $c__select,
+        output: overlay,
+        toggle: bottom right,
+    )
 );

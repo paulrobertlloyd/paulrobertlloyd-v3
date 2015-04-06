@@ -15,7 +15,8 @@
     margin-bottom: ($u__baseline * 2);
 
     @include susy-media($b__b) {
-        @include span(4 at 2 last);
+        //@include span(4 at 2 last);
+        padding-left: span(1 wide);
     }
 }
 

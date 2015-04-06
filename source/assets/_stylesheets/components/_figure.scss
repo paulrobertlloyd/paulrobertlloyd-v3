@@ -24,11 +24,25 @@
     }
 
     .u-extend & {
-        padding-right: (gutter());
-        padding-left: (gutter());
+        margin-right: $u__baseline;
+        margin-left: $u__baseline;
+
+        @include susy-media($b__a) {
+            margin-right: ($u__baseline * 2);
+            margin-left: ($u__baseline * 2);
+        }
+
+        @include susy-media($b__b) {
+            $margin-left: span(1 wide);
+            $gutter-left: $u__baseline;
+
+            padding-left: calc(#{$margin-left} - #{$gutter-left});
+        }
 
         @include susy-media($b__c) {
             padding-left: span(1 wide);
+            margin-right: 0;
+            margin-left: 0;
         }
     }
 }

@@ -1,0 +1,19 @@
+/*  =========================================================================
+    Container
+    ========================================================================= */
+
+.u-container {
+    @include container($u__max-width);
+    margin-right: $u__baseline;
+    margin-left: $u__baseline;
+
+    @include susy-media($b__a) {
+        margin-right: ($u__baseline * 2);
+        margin-left: ($u__baseline * 2);
+    }
+
+    @include susy-media($b__c) {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

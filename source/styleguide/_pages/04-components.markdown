@@ -42,7 +42,7 @@ meta:
 {% embed https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-tw61ntxz/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/40.5/-105.5 %}
 
 ### Speaker Deck
-{% embed https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web %}
+<!-- embed https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web %} -->
 
 ## Figure
 
