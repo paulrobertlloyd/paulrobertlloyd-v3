@@ -22,23 +22,6 @@
 }
 
 
-/* Tags */
-.c-container--tags {
-    .c-container__header {
-        display: inline-block;
-    }
-
-    .c-container__title {
-        @include fs--caption;
-        margin-right: ($u__baseline / 2);
-    }
-
-    .list--inline {
-        display: inline-block;
-    }
-}
-
-
 /* Homepage intro */
 .c-container--intro {
     @include susy-media($b__b) {
@@ -83,7 +66,7 @@
 
 /* Projects */
 .c-container--projects {
-    .nav__item {
+    .c-nav__item {
         @include gallery(1 of 2);
 
         @include susy-media($b__b) {

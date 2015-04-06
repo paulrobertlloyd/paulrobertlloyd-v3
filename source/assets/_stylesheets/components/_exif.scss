@@ -10,8 +10,8 @@
 }
 
 .c-exif__values {
-    overflow: hidden;
     margin-bottom: $u__baseline;
+    overflow: hidden;
 
     @include susy-media($b__c) {
         position: absolute;
@@ -20,9 +20,9 @@
 }
 
 .c-exif__value {
-    margin-left: 0;
-    opacity: 0.66;
     float: left;
+    opacity: 0.66;
+    margin-left: 0;
     width: 25%;
 
     &:nth-child(2n+2) {

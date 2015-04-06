@@ -4,9 +4,9 @@
 
 .u-separate {
     &::after {
-        font-weight: normal;
         opacity: 0.5;
         margin: 0 ($u__baseline / 2);
+        font-weight: normal;
         content: '/';
     }
 
