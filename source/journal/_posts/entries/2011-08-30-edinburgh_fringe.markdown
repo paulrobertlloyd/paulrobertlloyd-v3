@@ -21,7 +21,7 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 ## Friday
 
 ### Andy Parsons: Gruntled
-{% include rating.html score='2' %}
+{% include rating.html score="2" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_andy_parsons.jpg class="u-align-right" %}I think I was interested in seeing [Andy Parsons][1] more due a friends impression than his own appearances on <cite>Mock The Week</cite>. As a regular on this weekly satirical panel show, maybe I shouldn't have been surprised that much of his comedy was politically themed. Whilst Parsons was well informed, he seemed unwilling to dive too deep into any particular topic. An oft-hand remark that people may think this was boring may have revealed why, but I would love to have heard more satire and less about his finding a pair of pants in a jar of mayonnaise.
 
@@ -30,7 +30,7 @@ A perfectly entertaining evening but after seeing other acts, his felt weak in c
 ## Saturday
 
 ### Chris T-T: Disobedience
-{% include rating.html score='4' %}
+{% include rating.html score="4" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_chris_tt.jpg class="u-align-right" %}The only musical performance I heard was this set of songs based on and inspired by the writings of A.A. Milne sung by [Chris T-T][2] (the husband of Clearleft's new project manager, [Rifa][3]).
 
@@ -41,7 +41,7 @@ This show reminded me that I should broaden my selection when looking for things
 * * *
 
 ### Sammy J and Randy: Ricketts Lane
-{% include rating.html score='4' %}
+{% include rating.html score="4" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_sammy_j_and_randy.jpg class="u-align-right" %}I saw [Sammy J][4] at last year's festival, but only if I'm honest because thought the show was free! It turned out to be my favourite show of last years Fringe. This year he was performing twice, and because I had booked a number of gigs I was only able to see his double act alongside a purple muppet-like puppet called Randy.
 
@@ -52,7 +52,7 @@ I still preferred Sammy J's performance, but saw enough to buy a ticket for Rand
 * * *
 
 ### Richard Herring: What is Love, Anyway?
-{% include rating.html score='5' %}
+{% include rating.html score="5" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_richard_herring.jpg class="u-align-right" %}I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite>TMWRNJ</cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring's latest show in which he 'seeks to destroy love before it destroys him'.
 
@@ -63,7 +63,7 @@ Herring sets out to destroy love, but by the end of the show he has probably rei
 * * *
 
 ### BUG Hosted by Adam Buxton
-{% include rating.html score='5' %}
+{% include rating.html score="5" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_adam_buxton.jpg class="u-align-right" %}It was only on learning that [Adam Buxton][6] was bringing his sold-out <cite>BUG</cite> show to Edinburgh that I committed to buying tickets for this years festival. With expectations massively heightened, I was secretly preparing for disappointment. Instead I came away overjoyed and with a list of links and YouTube clips to watch again and share with friends.
 
@@ -76,7 +76,7 @@ For 90-minutes we were truly spoiled, even more so thanks to Adam's set pieces; 
 ## Sunday
 
 ### Foil, Arms and Hog: Comedy Doesn't Pay
-{% include rating.html score='3' %}
+{% include rating.html score="3" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_foil_arms_and_hog.jpg class="u-align-right" %}Needing to find shelter from the pouring rain before a later show, I headed to Bristo Square and the Gilded Balloon (held in Teviot Row House, a building that resembles a fairy tale castle) to see what I could find. With little choice left, I bought tickets for the only show available, a comedy sketch show performed by an Irish three-piece called [Foil, Arms and Hog][7].
 
@@ -87,7 +87,7 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 * * *
 
 ### Dave Gorman's Powerpoint Presentation
-{% include rating.html score='5' %}
+{% include rating.html score="5" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_dave_gorman.jpg class="u-align-right" %}A performer that can only be described as a comedy genius, [Dave Gorman][8]'s latest show -- his first at the fringe in 8 years -- was end-to-end funny. I'm not sure if it was the title, or his previous work, but I definitely detected a strong geek strain running through the audience (and having briefly accepted that I may be one too) I was richly rewarded with a performance that largely focused on advertising and social media.
 
@@ -96,7 +96,7 @@ When these two things come together, stupid things can happen, opening themselve
 * * *
 
 ### Randy is Sober
-{% include rating.html score='4' %}
+{% include rating.html score="4" %}
 
 {% picture thumbnail /2011/08/edinburgh_fringe_randy.jpg class="u-align-right" %}After seeing Randy in the double-act with Sammy J, I was interested to see his performance. As mentioned earlier, Randy is a purple (and often foul mouthed) muppet-like puppet, skilfully operated by [Heath McIvor][9]. The dexterity in which Randy is manipulated, meant that the audience totally brought into the illusion, happily entering (lengthy) conversations with him.
 
@@ -105,7 +105,7 @@ Afterwards I wondered if I would have enjoyed the performance had there been no 
 * * *
 
 ### Best of the Fest
-{% include rating.html score='2' %}
+{% include rating.html score="2" %}
 
 The final show I attended was <cite>Best of the Fest</cite>. Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the MC, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [<cite>Beefs 2011</cite>][12] live though, so it wasn't all bad.
 

@@ -2,10 +2,10 @@
     Use if statement until arrays can be combined in Liquid.
     See: https://github.com/Shopify/liquid/pull/429
 {% endcomment %}
-{% if page.path contains '_posts' %}
-    {% assign series = site.posts | where: 'series', page.series | sort: date %}
+{% if page.path contains "_posts" %}
+    {% assign series = site.posts | where:"series",page.series | sort:date %}
 {% else %}
-    {% assign series = site.pages | where: 'series', page.series %}
+    {% assign series = site.pages | where:"series",page.series %}
 {% endif %}
 <details class="c-disclosure c-disclosure--series {{ include.class }}" open>
     <summary class="c-disclosure__summary">

@@ -1,7 +1,7 @@
 <article class="c-item c-item--{{ item.layout }} h-entry">
     <header class="c-item__header">
         <h1 class="c-item__title p-name">
-            {% if item.layout == 'link' %}
+            {% if item.layout == "link" %}
                 <a class="c-item__link" href="{{ item.link }}">{{ item.title | smartify }}</a>
             {% else %}
                 <a class="c-item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
@@ -10,12 +10,12 @@
     </header>
 
     <div class="c-item__main">
-        <div class="c-item__body{% if item.layout == 'entry' %} s-lede{% endif %} p-summary">
-            {% if item.link-embed == 'photo' or item.link-embed == 'video' %}
+        <div class="c-item__body{% if item.layout == "entry" %} s-lede{% endif %} p-summary">
+            {% if item.link-embed == "photo" or item.link-embed == "video" %}
                 {% embed {{ item.link }} %}
             {% endif %}
 
-            {% if item.layout == 'link' %}
+            {% if item.layout == "link" %}
                 {{ item.content | markdownify | typogrify | namespace }}
             {% elsif item.excerpt != null %}
                 {{ item.excerpt | markdownify | typogrify | namespace }}
@@ -26,7 +26,7 @@
     <footer class="c-item__footer">
         <p class="c-item__meta">
             <a class="c-item__permalink u-url" href="{{ item.url }}" rel="bookmark">
-                <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%e %B %Y' }}</time>
+                <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
             </a>
         </p>
     </footer>

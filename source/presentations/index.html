@@ -15,9 +15,9 @@ intro: I like to share accumulated knowledge with my peers, and have spoken at d
     </div>
 </section>
 
-{% assign presentations = site.posts | where: 'layout', 'presentation' | sort: 'date' %}
+{% assign presentations = site.posts | where:"layout","presentation" | sort:date %}
 {% for item in presentations reversed %}
-    {% capture this_year %}{{ item.date | date: '%Y' }}{% endcapture %}
+    {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
         {% unless forloop.first %}

@@ -24,23 +24,23 @@ permalink: /archive/
         <ol class="o-list o-list--inline">
         {% capture site_tags %}
             {% for tag in site.tags %}
-                {{ tag[1].size | plus: 1000 }}#{{ tag[0] | replace:' ','_' }}
+                {{ tag[1].size | plus:1000 }}#{{ tag[0] | replace:" ","_" }}
             {% endfor %}
         {% endcapture %}
-        {% assign popular_tags = site_tags | split:' ' | sort | reverse %}
+        {% assign popular_tags = site_tags | split:" " | sort | reverse %}
         {% for popular_tag in popular_tags limit:25 %}
-            {% assign tag_array = popular_tag | split:'#' %}
-            {% capture tag %}{{ tag_array[1] | replace:'_',' ' }}{% endcapture %}
-            <li class="o-list__item">{% include tag.html tag=tag %}</li-->
+            {% assign tag_array = popular_tag | split:"#" %}
+            {% capture tag %}{{ tag_array[1] | replace:"_"," " }}{% endcapture %}
+            <li class="o-list__item">{% include tag.html tag=tag %}</li>
         {% endfor %}
         </ol>
     </div>
 </section>
 
 {% for item in site.posts %}
-    {% capture this_year %}{{ item.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ item.date | date: "%m" }}{% endcapture %}
-    {% capture this_month-name %}{{ item.date | date: "%B %Y" }}{% endcapture %}
+    {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
+    {% capture this_month %}{{ item.date | date:"%m" }}{% endcapture %}
+    {% capture this_month-name %}{{ item.date | date:"%B %Y" }}{% endcapture %}
 
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
@@ -61,7 +61,7 @@ permalink: /archive/
                 <ol class="o-list o-list--inline" reversed>
     {% endif %}
 
-                    <li class="c-item--{{ item.layout }} o-list__item u-separate" value="{{ item.date | date: "%-d" }}">
+                    <li class="c-item--{{ item.layout }} o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
                         <a class="c-item__link" href="{{ item.url }}">{{ item.title }}</a>
                     </li>
 

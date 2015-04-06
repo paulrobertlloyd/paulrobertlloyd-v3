@@ -1,17 +1,17 @@
 <div class="c-exif">
-    <h3 class="c-exif__title">{{ file.url | exif: 'title' }}</h3>
+    <h3 class="c-exif__title">{{ file.url | exif: "title" }}</h3>
     <dl class="c-exif__values">
         <dt class="c-exif__title u-audible">Date taken</dt>
-        <dd class="c-exif__value" title="Date taken" data-exif="date_created">{{ file.url | exif: 'date_created' | replace: ':','-' | date: "%e %B %Y" }}</dd>
+        <dd class="c-exif__value" title="Date taken" data-exif="date_created">{{ file.url | exif: "date_created" | replace:":","-" | date:"%e %B %Y" }}</dd>
         <dt class="c-exif__title u-audible">Model</dt>
-        <dd class="c-exif__value" title="Model" data-exif="model">{{ file.url | exif: 'model' }}</dd>
+        <dd class="c-exif__value" title="Model" data-exif="model">{{ file.url | exif: "model" }}</dd>
         <dt class="c-exif__title u-audible">Aperture</dt>
-        <dd class="c-exif__value" title="Aperture" data-exif="f_number"><i>f</i>/{{ file.url | exif: 'f_number.to_f' }}</dd>
+        <dd class="c-exif__value" title="Aperture" data-exif="f_number"><i>f</i>/{{ file.url | exif: "f_number.to_f" }}</dd>
         <dt class="c-exif__title u-audible">Exposure</dt>
-        <dd class="c-exif__value" title="Exposure" data-exif="exposure_time">{{ file.url | exif: 'exposure_time' }}</dd>
+        <dd class="c-exif__value" title="Exposure" data-exif="exposure_time">{{ file.url | exif: "exposure_time" }}</dd>
         <dt class="c-exif__title u-audible">Film speed</dt>
-        <dd class="c-exif__value" title="Film speed" data-exif="iso_speed_ratings"><abbr title="International Organization for Standardization ">ISO</abbr>{{ file.url | exif: 'iso' }}</dd>
+        <dd class="c-exif__value" title="Film speed" data-exif="iso_speed_ratings"><abbr title="International Organization for Standardization ">ISO</abbr>{{ file.url | exif: "iso" }}</dd>
         <dt class="c-exif__title u-audible">Focal Length</dt>
-        <dd class="c-exif__value" title="Focal Length" data-exif="focal_length">{{ file.url | exif: 'focal_length.to_f' }}</dd>
+        <dd class="c-exif__value" title="Focal Length" data-exif="focal_length">{{ file.url | exif: "focal_length.to_f" }}</dd>
     </dl>
 </div>

@@ -2,10 +2,10 @@
 layout: index
 ---
 {% for item in page.posts %}
-    {% if page.type == 'year' %}
-        {% capture this_year %}{{ item.date | date: "%Y" }}{% endcapture %}
-        {% capture this_month %}{{ item.date | date: "%m" }}{% endcapture %}
-        {% capture this_month-name %}{{ item.date | date: "%B" }}{% endcapture %}
+    {% if page.type == "year" %}
+        {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
+        {% capture this_month %}{{ item.date | date:"%m" }}{% endcapture %}
+        {% capture this_month-name %}{{ item.date | date:"%B" }}{% endcapture %}
         {% if this_month != month %}
             {% capture month %}{{ this_month }}{% endcapture %}
             {% unless forloop.first %}
@@ -22,7 +22,7 @@ layout: index
                 <div class="c-container__main">
                     <ol class="o-list o-list--inline" reversed>
         {% endif %}
-                        <li class="c-item--{{ item.layout }} o-list__item u-separate" value="{{ item.date | date: "%-d" }}">
+                        <li class="c-item--{{ item.layout }} o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
                             <a class="c-item__link" href="{{ item.url }}">{{ item.title }}</a>
                         </li>
     {% else %}

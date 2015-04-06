@@ -6,7 +6,7 @@ layout: default
 
     <div class="c-page__main">
         {% if page.image.caption %}
-            {% figure u-extend '{{ page.image.caption }}' %}
+            {% figure u-extend "{{ page.image.caption }}" %}
 {% picture showcase {{ page.image.url }} %}
             {% endfigure %}
         {% endif %}
@@ -18,7 +18,7 @@ layout: default
         {% endif %}
 
         {% if page.series %}
-            {% include nav/series.html class='u-aside' %}
+            {% include nav/series.html class="u-aside" %}
         {% endif %}
 
         <div class="s-prose e-content">

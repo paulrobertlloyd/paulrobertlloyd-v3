@@ -2,7 +2,7 @@
 layout: index
 title: Projects
 ---
-{% assign projects = site.pages | where: 'layout','project' | sort: 'date' %}
+{% assign projects = site.pages | where:"layout","project" | sort:date %}
 <div class="c-container c-container--case-studies">
     {% for item in projects reversed %}
         {% if item.theme != null %}
@@ -17,7 +17,7 @@ title: Projects
     <ol class="c-nav c-nav--series o-list">
     {% for item in projects reversed %}
         {% if item.theme == null %}
-            <li class="c-nav__item o-list__item" value="{{ post.date | date: "%-d" }}">
+            <li class="c-nav__item o-list__item" value="{{ post.date | date:"%-d" }}">
                 <a class="c-nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
             </li>
         {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-{% capture section %}{{ page.path | split:'/' | first | remove:'.html' }}{% endcapture %}
+{% capture section %}{{ page.path | split:"/" | first | remove:".html" }}{% endcapture %}
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
 <html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }} {% endif %}fonts-loaded">
@@ -12,11 +12,11 @@ layout: compress
     <link rel="dns-prefetch" href="//hello.myfonts.net"/>
     <link rel="dns-prefetch" href="{{ site.picture.url }}"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
-    {% if section == 'index.html' or location == 'journal' %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
-    {% if section == 'index.html' or location == 'projects' %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
-    {% if section == 'index.html' or location == 'photos' %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
+    {% if section == "index.html" or location == "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
+    {% if section == "index.html" or location == "projects" %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
+    {% if section == "index.html" or location == "photos" %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
 
-    {% if section != 'index.html' %}<link rel="canonical" href="{{ page.url }}"/>{% endif %}
+    {% if section != "index.html" %}<link rel="canonical" href="{{ page.url }}"/>{% endif %}
     {% if page.previous_in_category != nil %}<link rel="prev bookmark" href="{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}"/>{% endif %}
     {% if page.next_in_category != nil %}<link rel="next bookmark" href="{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}"/>{% endif %}
 
@@ -34,7 +34,7 @@ layout: compress
     <meta name="fullcss"  content="{% asset_path global.css %}">
     <meta name="fulljs" content="{% asset_path global.js %}">
 
-{% if page.path contains '_posts' %}
+{% if page.path contains "_posts" %}
     <meta name="twitter:site" content="@paulrobertlloyd"/>
     <meta name="twitter:creator" content="@paulrobertlloyd"/>
     <meta name="twitter:card" content="summary"/>

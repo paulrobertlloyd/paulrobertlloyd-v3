@@ -4,7 +4,7 @@ title: Articles
 intro: I like to share accumulated knowledge with my peers, and have written articles for publications like net Magazine, A List Apart and 24 ways.
 ---
 {% for item in site.data.articles %}
-    {% capture this_year %}{{ item.date | date: '%Y' }}{% endcapture %}
+    {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
 
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
