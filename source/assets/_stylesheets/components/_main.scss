@@ -3,7 +3,6 @@
     ========================================================================= */
 
 .c-main {
-    @include clearfix;
     @include container($u__max-width);
     margin-top: ($u__baseline * 6);
     padding: 0 gutter();

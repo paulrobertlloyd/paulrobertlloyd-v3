@@ -2,16 +2,21 @@
     Layout hints
     ========================================================================= */
 
+$grid: (4 3 3 3 3);
+$context-inner: nested(4 of $grid at 2);
+
 /* Align element right or left */
 .u-align-right {
-    @include span(1.5 of 6 last);
-    margin-top: ($u__baseline / 2);
+    @include span(1 of $context-inner last);
+    margin-top: 0;
+    margin-bottom: ($u__baseline / 2);
     margin-left: gutter();
 }
 
 .u-align-left {
-    @include span(1.5 of 6);
-    margin-top: ($u__baseline / 2);
+    @include span(1 of $context-inner first);
+    margin-top: 0;
+    margin-bottom: ($u__baseline / 2);
 }
 
 
@@ -28,19 +33,17 @@
 /* Pull element right or left */
 .u-pull-right {
     @include susy-media($b__a) {
-        @include span(3 of 6 last);
+        @include span(2 of $context-inner last);
         margin-top: ($u__baseline / 2);
-        margin-right: (span(1 wider) * -1);
         margin-left: gutter();
     }
 }
 
 .u-pull-left {
     @include susy-media($b__a) {
-        @include span(3 of 6);
-        margin-top: 0;
-        margin-right: gutter();
-        margin-left: -(span(1 wider));
+        @include span(2 of $context-inner first);
+        margin-top: ($u__baseline / 2);
+        margin-left: (percentage(1/3) * -1);
     }
 }
 
