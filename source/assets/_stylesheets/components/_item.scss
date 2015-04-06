@@ -5,7 +5,7 @@
 .c-item {
     display: flex;
     position: relative;
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 1.5);
     flex-direction: column;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .c-item__footer {
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline / 2);
     order: 2;
 }
 
@@ -37,7 +37,7 @@
 
 .c-item__body {
     > * {
-        margin-bottom: ($u__baseline * 0.75);
+        margin-bottom: ($u__baseline / 2);
     }
 }
 
@@ -57,13 +57,10 @@
     background-color: $c__neutral--a;
     width: span(1 of 8);
     height: auto;
-}
 
-
-/* Article */
-.c-item--article,
-.c-item--presentation {
-    margin-bottom: $u__baseline;
+    @include susy-media($b__b) {
+        left: ((span(1 of 8) + gutter()) * -1);
+    }
 }
 
 
@@ -92,7 +89,7 @@
     .c-item__header,
     .c-item__main {
         @include susy-media($b__c) {
-            padding-right: span(1 of 6);
+            padding-right: span(1 of 4 wide);
         }
     }
 }
@@ -100,8 +97,11 @@
 
 /* Remark */
 .c-item--remark {
-    @include susy-media($b__c) {
-        padding-right: span(1 of 6);
+    padding-left: (span(1 of 8) + gutter());
+
+    @include susy-media($b__b) {
+        padding-right: span(1 of 4 wide);
+        padding-left: 0;
     }
 }
 
