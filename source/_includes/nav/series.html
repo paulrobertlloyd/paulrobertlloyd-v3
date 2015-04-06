@@ -17,10 +17,10 @@
             <h1 class="c-container__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
         </header>
 
-        <ol class="nav nav--series">
+        <ol class="c-nav c-nav--series o-list">
         {% for item in series offset:1 %}
-            <li class="nav__item{% if page.url == item.url %} is-active{% endif %}">
-                <a class="nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
+            <li class="c-nav__item o-list__item{% if page.url == item.url %} is-active{% endif %}">
+                <a class="c-nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
             </li>
         {% endfor %}
         </ol>

@@ -80,11 +80,6 @@ ul {
     list-style-type: square;
 }
 
-nav li {
-    margin: 0;
-    list-style-type: none;
-}
-
 dt {
     @include ff--sans-serif;
     font-weight: 700;

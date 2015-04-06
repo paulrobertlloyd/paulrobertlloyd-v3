@@ -13,8 +13,8 @@
     text-align: center;
 
     @include susy-media($b__a) {
-        text-align: left;
         padding-bottom: 0;
+        text-align: left;
     }
 
     @include susy-media($b__c) {

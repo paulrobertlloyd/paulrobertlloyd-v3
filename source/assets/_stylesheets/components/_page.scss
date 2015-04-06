@@ -53,3 +53,18 @@
         left: 0;
     }
 }
+
+.c-page__tags {
+    .c-container__header {
+        float: left;
+    }
+
+    .c-container__title {
+        @include fs--caption;
+        margin-right: ($u__baseline / 2);
+    }
+
+    .list--inline {
+        display: inline-block;
+    }
+}

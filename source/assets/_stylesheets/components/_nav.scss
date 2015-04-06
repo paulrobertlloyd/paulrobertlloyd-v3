@@ -2,9 +2,7 @@
     Nav
     ========================================================================= */
 
-.nav__item {
-    list-style: none;
-
+.c-nav__item {
     &.is-active {
         font-weight: 700;
     }
@@ -12,7 +10,7 @@
 
 
 /* Primary navigation */
-.nav--primary {
+.c-nav--primary {
     @include clearfix;
     margin-top: ($u__baseline * 3);
     padding-top: ($u__baseline * 0.5);
@@ -29,7 +27,7 @@
         font-size: 1.125rem; // 18px
     }
 
-    .nav__item {
+    .c-nav__item {
         @include span(1 of 4);
 
         @include susy-media($b__a) {
@@ -42,24 +40,20 @@
         @include susy-media($b__b) {
             width: span(1 of 6);
         }
-
-        @include susy-media($b__c) {
-            width: span(1 of 8);
-        }
     }
 
-    .nav__item:last-child {
+    .c-nav__item:last-child {
         margin-right: 0;
     }
 }
 
 
 /* Series navigation */
-.nav--series {
+.c-nav--series {
     @include ff--sans-serif;
     @include fs--caption;
 
-    .nav__item__label {
+    .c-nav__item__label {
         display: block;
         border-top: 1px solid;
         padding-top: ($u__baseline / 8);
@@ -69,11 +63,10 @@
 
 
 /* Page navigation */
-.nav--pagination {
+.c-nav--pagination {
     overflow: hidden;
 
-    .nav__item {
-        text-decoration: none;
+    .c-nav__item {
         line-height: ($u__baseline * 2);
 
         @include susy-media($b__c) {
@@ -86,21 +79,21 @@
         }
     }
 
-    .nav__item__label {
+    .c-nav__item__label {
         @include susy-media($b__c) {
             display: none;
         }
     }
 
-    .nav__item:hover {
-        .nav__item__label {
+    .c-nav__item:hover {
+        .c-nav__item__label {
             @include susy-media($b__c) {
                 display: inline-block;
             }
         }
     }
 
-    .nav__item--prev {
+    .c-nav__item--prev {
         float: left;
 
         @include susy-media($b__c) {
@@ -108,7 +101,7 @@
         }
     }
 
-    .nav__item--next {
+    .c-nav__item--next {
         float: right;
 
         @include susy-media($b__c) {
