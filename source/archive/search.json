@@ -4,8 +4,7 @@
 {% for post in site.posts %}
     {
         "title": "{{ post.title | escape }}",
-        "category": "{{ post.categories | first | capitalize }}",
-        "type": "{{ post.layout | capitalize }}",
+        "type": "{{ post.layout }}",
         "tags": "{{ post.tags | array_to_sentence_string }}",
         "url": "{{ post.url | remove:'.html' }}",
         "date": "{{ post.date }}"

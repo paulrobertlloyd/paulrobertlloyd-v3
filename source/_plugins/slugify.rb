@@ -1,6 +1,6 @@
 #
 # Patch Utils.slugify to use underscores in place of hypens.
-# TODO: Make this available as a (configurable) plugin
+# TODO: Make this a (configurable) plugin
 # https://github.com/jekyll/jekyll-help/issues/254
 #
 

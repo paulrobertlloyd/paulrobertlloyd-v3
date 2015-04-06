@@ -3,7 +3,7 @@ layout: index
 title: Archive
 permalink: /archive/
 ---
-<section class="c-container container--search" aria-labelledby="search">
+<section class="c-container c-container--search" aria-labelledby="search">
     <header class="c-container__header">
         <h1 class="c-container__title" id="search">Search</h1>
     </header>
@@ -13,7 +13,7 @@ permalink: /archive/
     </div>
 </section>
 
-<section class="c-container container--archive" aria-labelledby="tags">
+<section class="c-container c-container--archive" aria-labelledby="tags">
     <header class="c-container__header">
         <h1 class="c-container__title" id="tags">
             <a href="/tags/">Tags</a>
@@ -52,7 +52,7 @@ permalink: /archive/
         </section>
         {% endunless %}
 
-        <section class="c-container container--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+        <section class="c-container c-container--month" aria-labelledby="month-{{ this_year }}{{ this_month }}">
             <header class="c-container__header">
                 <h1 class="c-container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
             </header>
@@ -72,7 +72,7 @@ permalink: /archive/
     {% endif %}
 {% endfor %}
 
-<section class="c-container container--archive" aria-labelledby="lloydyweb">
+<section class="c-container c-container--archive" aria-labelledby="lloydyweb">
     <header class="c-container__header">
         <h1 class="c-container__title" id="lloydyweb">
             <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
