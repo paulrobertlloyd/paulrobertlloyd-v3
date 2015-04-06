@@ -5,8 +5,8 @@
 .c-page {
     position: relative;
 
-    .c-container--tags,
-    .c-disclosure--discussion {
+    .c-page__tags,
+    .c-page__discussion {
         @include rule;
 
         @include susy-media($b__b) {

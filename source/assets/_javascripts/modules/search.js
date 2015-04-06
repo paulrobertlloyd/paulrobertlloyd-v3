@@ -3,26 +3,26 @@
 (function (win, doc) {
     'use strict';
 
-    if (doc.querySelector('.form--search')) {
-        var searchForm = doc.querySelector('.form--search');
-        var searchInput = doc.querySelector('.form--search .form__input');
+    if (doc.querySelector('.c-form--search')) {
+        var searchForm = doc.querySelector('.c-form--search');
+        var searchInput = doc.querySelector('.c-form--search .c-form__input');
         var searchResults = doc.createElement('ol');
 
         searchForm.appendChild(searchResults);
         searchForm.setAttribute('action', '#search');
         searchForm.removeAttribute('method');
         searchInput.removeAttribute('name');
-        searchResults.setAttribute('class', 'list list--inline list--results');
+        searchResults.setAttribute('class', 'o-list o-list--inline');
 
-        [].forEach.call(doc.querySelectorAll('.form--search .form__submit, .form--search .form__hidden'),
+        [].forEach.call(doc.querySelectorAll('.c-form--search .c-form__submit, .c-form--search .c-form__hidden'),
         function (e) {
             e.parentNode.removeChild(e);
         });
 
         SimpleJekyllSearch.init({
-            searchInput: doc.querySelector('.form--search .form__input'),
-            resultsContainer: doc.querySelector('.list--results'),
-            searchResultTemplate: '<li class="list__item c-item--{type} u-separate"><a class="c-item__link" href="{url}">{title}</a></li>',
+            searchInput: doc.querySelector('.c-form--search .c-form__input'),
+            resultsContainer: doc.querySelector('.o-list'),
+            searchResultTemplate: '<li class="c-item--{type} o-list__item u-separate"><a class="c-item__link" href="{url}">{title}</a></li>',
             noResultsText: '<li>Nothing matched your query</li>',
             dataSource: '/archive/search.json',
             limit: 10,

@@ -1,7 +1,7 @@
 {% capture entry_id %}{{ page.path | remove: "journal/_posts/entries/" | remove: "journal/_posts/links/" | remove: ".markdown" }}{% endcapture %}
 {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
-<details class="disclosure disclosure--discussion">
-    <summary class="disclosure__summary">
+<details class="c-page__discussion c-disclosure">
+    <summary class="c-disclosure__summary">
         {% case remark_count %}
         {% when "0" %}
             This entry has no remarks yet.
