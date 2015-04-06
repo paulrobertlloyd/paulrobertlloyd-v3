@@ -3,7 +3,7 @@ layout: page
 title: Scoped Content
 series: Styleguide
 excerpt: The content of this excerpt is styled using `.s-lede`.
-permalink: /styleguide/
+permalink: /styleguide/scopes
 ---
 The content on this page is styled using `.s-prose`.
 

@@ -3,11 +3,13 @@ layout: index
 title: Projects
 ---
 {% assign projects = site.pages | where: 'layout','project' | sort: 'date' %}
-{% for item in projects reversed %}
-    {% if item.theme != null %}
-        {% include item/project.html %}
-    {% endif %}
-{% endfor %}
+<div class="c-container c-container--case-studies">
+    {% for item in projects reversed %}
+        {% if item.theme != null %}
+            {% include item/project.html %}
+        {% endif %}
+    {% endfor %}
+</div>
 
 <section class="c-container c-container--projects" aria-labelledby="projects">
     <h1 class="c-container__title" id="projects">Archived Projects</h1>

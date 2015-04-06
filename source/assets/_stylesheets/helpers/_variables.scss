@@ -25,7 +25,8 @@ $c__neutral--7: lighten($c__neutral, 75%);
 $c__neutral--8: lighten($c__neutral, 85%);
 $c__neutral--9: lighten($c__neutral, 95%);
 
-$c__selection: rgba($c__identity--2, 0.1);
+$c__select: rgba($c__identity--2, 0.1);
+$c__focus: rgba($c__identity--2, 0.25);
 
 $c__24-ways: #ff0040;
 $c__bradshaws-guide: #363330;
@@ -54,10 +55,10 @@ $susy: (
     gutters: 0.5,
     global-box-sizing: border-box,
     last-flow: to,
-    debug: (
-        image: show,
-        color: $c__selection,
-        output: overlay,
-        toggle: bottom right,
-    )
+//    debug: (
+//        image: show,
+//        color: $c__select,
+//        output: overlay,
+//        toggle: bottom right,
+//    )
 );
