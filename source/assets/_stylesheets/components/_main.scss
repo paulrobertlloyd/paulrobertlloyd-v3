@@ -3,13 +3,10 @@
     ========================================================================= */
 
 .c-main {
-    @include container($u__max-width);
-    margin-top: ($u__baseline * 6);
-    padding: 0 gutter();
+    padding-top: ($u__baseline * 6);
 
     @include susy-media($b__c) {
-        margin-top: ($u__baseline * 7);
-        padding: 0;
+        padding-top: ($u__baseline * 8);
     }
 
     a {

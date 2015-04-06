@@ -9,16 +9,12 @@
     left: 0;
     z-index: 2;
     background-color: rgba($c__neutral--9, 0.95);
-    padding: 0 gutter() ($u__baseline * 2);
+    padding-bottom: ($u__baseline * 2);
     text-align: center;
 
     @include susy-media($b__a) {
         padding-bottom: 0;
         text-align: left;
-    }
-
-    @include susy-media($b__c) {
-        padding: 0;
     }
 
     .t-dark & {
@@ -32,11 +28,6 @@
 
 .c-banner__title {
     line-height: 0;
-
-    @include susy-media($b__c) {
-        margin: 0 auto;
-        max-width: $u__max-width;
-    }
 }
 
 .c-banner__home {

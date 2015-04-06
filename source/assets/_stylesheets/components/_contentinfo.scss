@@ -3,20 +3,14 @@
     ========================================================================= */
 
 .c-contentinfo {
-    @include container($u__max-width);
-    margin: $u__baseline auto;
-    padding: 0 gutter();
-    max-width: $u__max-width;
+    margin-top: $u__baseline;
+    margin-bottom: $u__baseline;
     text-align: center;
     line-height: (16 / 14);
     font-size: 0.875rem; // 14px
 
     @include susy-media($b__b) {
         text-align: left;
-    }
-
-    @include susy-media($b__c) {
-        padding: 0;
     }
 }
 
