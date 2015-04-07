@@ -235,8 +235,8 @@ If you use these elements, you must use every element. They should appear in thi
 | Dark Rum                       | 1 &frac12; cups | 3 cups    |
 | Brandy                         | 1 &frac12; cups | 3 cups    |
 | Vanilla                        | 1 tbsp          | 2 tbsp    |
-| Half-and-half or Light Cream   | 1 quart         | 2 quart   |
-| Freshly grated nutmeg to taste |                             |
+| Light Cream                    | 1 quart         | 2 quart   |
+| Freshly grated nutmeg to taste                               |
 
 *[ASCII]: American Standard Code for Information Interchange
 *[HTML]: HyperText Markup Language

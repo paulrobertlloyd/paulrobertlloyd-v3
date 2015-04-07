@@ -3,8 +3,8 @@
     ========================================================================= */
 
 .c-container {
-    overflow: hidden;
     margin-bottom: $u__baseline;
+    overflow: hidden;
 
     + .c-container {
         border-top: 0.05rem solid;
