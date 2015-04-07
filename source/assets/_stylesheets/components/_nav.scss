@@ -100,7 +100,6 @@
         }
 
         &::before {
-            color: $c__neutral--a;
             content: '\27E8';
 
             @include susy-media($b__c) {
@@ -108,6 +107,7 @@
                 float: left;
                 height: ($u__baseline * 4);
                 line-height: ($u__baseline * 4);
+                color: $c__neutral--a;
                 font-size: ($u__baseline * 4);
             }
         }

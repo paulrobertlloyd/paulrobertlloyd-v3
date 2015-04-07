@@ -42,16 +42,16 @@
     .highlighter-rouge {
         margin-bottom: ($u__baseline * 1.25);
     }
-    
-    a {
+
+    a:not(.c-button) {
         @include text-decoration-color($c__identity--1);
     }
 
-    a:hover {
+    a:not(.c-button):hover {
         @include text-decoration-color($c__identity--2);
     }
 
-    a:active {
+    a:not(.c-button):active {
         @include text-decoration-color(lighten($c__identity--2, 10%));
     }
 }
