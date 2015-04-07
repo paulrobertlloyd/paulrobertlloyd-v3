@@ -69,7 +69,6 @@
 .c-item--project {
     .c-item__title {
         @include fs--heading-2;
-        padding-top: ($u__baseline * 1.25);
         padding-bottom: ($u__baseline / 4);
     }
 }
