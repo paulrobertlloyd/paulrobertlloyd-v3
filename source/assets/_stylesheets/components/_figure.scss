@@ -40,9 +40,9 @@
         }
 
         @include susy-media($b__c) {
-            padding-left: span(1 wide);
             margin-right: 0;
             margin-left: 0;
+            padding-left: span(1 wide);
         }
     }
 }

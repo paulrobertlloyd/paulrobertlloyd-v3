@@ -3,14 +3,18 @@
     http://developers.whatwg.org/sections.html
     ========================================================================= */
 
-*,
-*::before,
-*::after {
+::selection {
+    background: $c__select;
+}
+
+html {
     box-sizing: border-box;
 }
 
-::selection {
-    background: $c__select;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {

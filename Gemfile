@@ -3,6 +3,7 @@ source "https://rubygems.org"
 # Guard (automates development tasks)
 group :development do
   gem 'guard'
+  gem 'guard-jekyll'
   gem 'guard-jekyll-plus'
   gem 'guard-livereload'
   gem 'guard-scss-lint'
