@@ -19,7 +19,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.0.7)
-    execjs (2.5.0)
+    execjs (2.5.1)
     exiftool (0.6.0)
       json
     ffi (1.9.8)
