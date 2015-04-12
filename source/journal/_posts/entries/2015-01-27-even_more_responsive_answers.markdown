@@ -16,7 +16,7 @@ Each month [net Magazine][1] run a section called _Exchange_, where four industr
 
 In the spirit of [previous][2] [articles][3], I'm sharing my unedited answers here as well.
 
-* * *
+## Navigation
 
 {% figure c-figure--tweet "[@Jordan_Simpson, 4 December 2014](https://twitter.com/jordan_simpson/status/540520320374157312)" %}
 > What is your recommended method of handling dropdown menus when viewed on tablet and smartphone devices?
@@ -32,11 +32,15 @@ Before thinking about a menu's presentation or behaviour, first ensure the items
 
 A great resource for responsive patterns (including those dealing with navigation) is Brad Frost's [This is Responsive][5], but new possibilities are being uncovered every day.
 
+## Tables
+
 {% figure c-figure--tweet "[@joewattsdesign, 4 December 2014](https://twitter.com/joewattsdesign/status/540530144616910848)" %}
 > I deal a lot with dashboards and still can't find a good way of handling tables... please help!
 {% endfigure %}
 
 As no two tables are the same, there's no definitive solution. Simpler tables could be presented as a list at smaller breakpoints, while more complex tables may require a change of orientation so that column headers appear fixed on the left, with data in a scrollable area to the right. Or maybe you allow users to choose which columns to hide/show. [Jason Grimsby has a good summary][6] of the options available -- and what you should consider before choosing one.
+
+## Advertising
 
 {% figure c-figure--tweet "[@andybudd, 4 December 2014](https://twitter.com/andybudd/status/540515016823549953)" %}
 > How do you deal with fixed width banner ads in a responsive site?

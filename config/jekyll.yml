@@ -50,7 +50,7 @@ picture:
       attr:
         class: img img--default
       source_medium:
-        width: 768
+        width: 800
       source_default:
         width: 480
     thumbnail:
@@ -84,12 +84,14 @@ picture:
         class: img img--feature
       source_large:
         width: 1280
-        height: 720
+        height: 800
         quality: 70
       source_medium:
         width: 768
+        height: 480
       source_default:
         width: 480
+        height: 300
 
 # Defaults
 defaults:
