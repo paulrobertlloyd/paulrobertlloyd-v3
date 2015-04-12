@@ -157,6 +157,11 @@
             @if $el == 'after' {
                 margin-top: ($u__baseline / 4);
             }
+
+            .t-dark &,
+            .t-home & {
+                border-color: $c__neutral--9a;
+            }
         }
     } @else {
         @error "`#{$el}` is not a valid pseudo-element.";

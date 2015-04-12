@@ -21,6 +21,11 @@
     @include susy-media($b__b) {
         margin-left: span(1 wide);
     }
+
+    .t-dark &,
+    .t-home & {
+        border-color: $c__neutral--9a;
+    }
 }
 
 .c-contentinfo__copyright {
