@@ -22,8 +22,7 @@
         margin-left: span(1 wide);
     }
 
-    .t-dark &,
-    .t-home & {
+    .t-inverted & {
         border-color: $c__neutral--9a;
     }
 }

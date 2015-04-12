@@ -45,6 +45,10 @@ blockquote {
         left: 0;
         border-left: 1px solid $c__identity--2;
         content: '';
+
+        .t-inverted & {
+            border-color: $c__neutral--a;
+        }
     }
 
     :last-child {

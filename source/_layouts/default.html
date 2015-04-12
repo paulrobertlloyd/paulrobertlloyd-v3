@@ -4,9 +4,9 @@ layout: compress
 {% capture section %}{{ page.path | split:"/" | first | remove:".html" }}{% endcapture %}
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
-<html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }} {% endif %}fonts-loaded">
+<html lang="en-gb" class="{% for theme in page.theme %}t-{{ theme | append:' ' }}{% endfor %}fonts-loaded">
 <!--#else-->
-<html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }} {% endif %}">
+<html lang="en-gb" class="{% for theme in page.theme %}t-{{ theme | append:' ' }}{% endfor %}">
 <!--#endif-->
 <head>
     <link rel="dns-prefetch" href="//hello.myfonts.net"/>

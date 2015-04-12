@@ -10,7 +10,6 @@
 
 .c-meta__title {
     @include rule($height: 1px);
-    color: $c__neutral--2;
 
     &:first-of-type {
         @include rule;
