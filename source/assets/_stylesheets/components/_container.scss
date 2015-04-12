@@ -7,7 +7,7 @@
     margin-bottom: $u__baseline;
 
     + .c-container {
-        border-top: 0.05rem solid;
+        border-top: 1px solid $c__neutral--a;
         padding-top: ($u__baseline / 4);
     }
 }
@@ -22,6 +22,22 @@
     font-weight: 700;
     word-break: break-word;
     hyphens: auto;
+}
+
+
+/* Index container */
+.c-container--index {
+    .c-container__header {
+        @include susy-media($b__a) {
+            @include span(1 of (3 3 3 3) first);
+        }
+    }
+
+    .c-container__main {
+        @include susy-media($b__a) {
+            @include span(3 of (3 3 3 3) last);
+        }
+    }
 }
 
 

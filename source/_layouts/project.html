@@ -5,12 +5,6 @@ layout: default
     {% include page/header.html %}
 
     <div class="c-page__main">
-        {% if page.excerpt %}
-            <div class="s-lede p-summary">
-                {{ page.excerpt | markdownify | typogrify | namespace }}
-            </div>
-        {% endif %}
-
         {% if page.meta %}
             {% include meta.html class="u-aside" %}
         {% endif %}

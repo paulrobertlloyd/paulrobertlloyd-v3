@@ -82,10 +82,6 @@
     @include susy-media($b__b) {
         font-size: 1.75rem; // 28px
     }
-
-    @include susy-media($b__c) {
-        font-size: 2rem; // 32px
-    }
 }
 
 @mixin fs--heading-3 {
@@ -148,18 +144,18 @@
 
 
 // Line rule
-@mixin rule($el: 'before', $color: $c__neutral--8, $display: block) {
+@mixin rule($el: 'before', $display: block, $height: ($u__baseline / 4)) {
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: $display;
-            border-top: ($u__baseline / 5) solid $color;
+            border-top: $height solid $c__neutral--a;
             width: ($u__baseline * 2);
             content: '';
             @if $el == 'before' {
-                margin-bottom: ($u__baseline / 2);
+                margin-bottom: ($u__baseline / 4);
             }
             @if $el == 'after' {
-                margin-top: ($u__baseline / 5);
+                margin-top: ($u__baseline / 4);
             }
         }
     } @else {

@@ -16,19 +16,7 @@
 
     @include susy-media($b__b) {
         @include span(4 at 2 last);
-        margin-top: ($u__baseline * 1.25);
-    }
-
-    .c-container__header {
-        @include susy-media($b__a) {
-            @include span(1 of (3 3 3 3) first);
-        }
-    }
-
-    .c-container__main {
-        @include susy-media($b__a) {
-            @include span(3 of (3 3 3 3) last);
-        }
+        margin-top: ($u__baseline * 1.5);
     }
 }
 

@@ -9,14 +9,17 @@
 }
 
 .c-meta__title {
-    border-top: 1px solid $c__neutral--8;
-    padding-top: ($u__baseline / 4);
+    @include rule($height: 1px);
     color: $c__neutral--2;
+
+    &:first-of-type {
+        @include rule;
+    }
 }
 
 .c-meta__value {
     margin-left: 0;
-    padding-bottom: ($u__baseline / 2);
+    padding-bottom: $u__baseline;
 
     p {
         margin: 0;
