@@ -11,12 +11,6 @@ layout: default
             {% endfigure %}
         {% endif %}
 
-        {% if page.excerpt %}
-            <div class="s-lede p-summary">
-                {{ page.excerpt | markdownify | typogrify | namespace }}
-            </div>
-        {% endif %}
-
         {% if page.series %}
             {% include nav/series.html class="u-aside" %}
         {% endif %}
