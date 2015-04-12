@@ -2,7 +2,7 @@
     Figure
     ========================================================================= */
 .c-figure {
-    margin-bottom: ($u__baseline * 1.5);
+    margin-bottom: $u__baseline;
     overflow: hidden;
 }
 
@@ -11,6 +11,7 @@
 
     img {
         display: block;
+        max-width: 100%;
     }
 }
 

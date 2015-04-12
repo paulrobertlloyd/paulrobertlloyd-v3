@@ -9,25 +9,21 @@ tags:
   - Formula 1
   - The Guardian
 ---
-_TL;DR: I'm leaving the Guardian and going freelance in March. If you would like to work with me, [please get in touch][1]!_
-
-* * *
-
 My interest in Formula One was reignited in 2009. Back on the BBC after 12 Schumacher-dominated, ad-interrupted years on ITV, this was the season that saw Brawn GP emerge from the ashes of the old Honda factory team, with their brilliant white car delivering Jenson Button his first world championship.
 
 Six years later and I'm still watching. Formula One isn't an easy sport to follow, not least because of politicising behind the scenes. On track, success is largely determined by the design of the car rather than the skill of a driver _cf._ four-time world champion Sebastian Vettel needs to win a championship with another team to be considered one of the sport's greats. A select few (Senna, Hamilton, Alonso) could be given a tractor and still win races, yet most drivers, like Button, require the right combination of car, setup and team -- and a dash of good fortune -- to be successful.
 
 * * *
 
-I spent nearly five years at [Clearleft][2], which is the longest I've worked for any single employer. Their small, supportive environment provided the right conditions in which I could flourish. I had the opportunity to work on interesting and varied products, and was given a platform from which I could write and speak about the profession I love.
+I spent nearly five years at [Clearleft][1], which is the longest I've worked for any single employer. Their small, supportive environment provided the right conditions in which I could flourish. I had the opportunity to work on interesting and varied products, and was given a platform from which I could write and speak about the profession I love.
 
-Yet by the end of 2013, [I felt drained by familiar conversations and routines][3]. Looking for a new challenge, and curious about other options, I found myself at the Guardian. Having not worked at a large organisation before, I viewed this as a bit of an experiment, an investigation into life on the other side of the agency/client divide.
+Yet by the end of 2013, [I felt drained by familiar conversations and routines][2]. Looking for a new challenge, and curious about other options, I found myself at the Guardian. Having not worked at a large organisation before, I viewed this as a bit of an experiment, an investigation into life on the other side of the agency/client divide.
 
 The last 14 months have been truly fascinating.
 
 * I saw the diligence required to develop software at scale, with the biggest challenges often not technical, but organisational. With many people contributing to a code base, clear goals, sensible conventions and peer review are essential. Even though I was hired as a designer, I was able to get _really_ close to the product, shipping changes seen by millions.
 
-* I learnt about the [conviction and patience][4] needed to deliver a coherent design language across the organisation's many facets. Keen observers will have noticed a significant improvement in how the Guardian presents itself, both on and offline, over the last year.
+* I learnt about the [conviction and patience][3] needed to deliver a coherent design language across the organisation's many facets. Keen observers will have noticed a significant improvement in how the Guardian presents itself, both on and offline, over the last year.
 
 * Most notably, I saw how the status quo needs to be continually and rigorously resisted, and witnessed courageous acts of civil disobedience in defence of a more progressive vision -- and sane paragraph spacing!
 
@@ -47,19 +43,19 @@ Ideally, freelancing will allow me to work with organisations around the UK *and
 
 If the next stage of my career is to have a theme, it is to spend more time making and doing more meaningful things. I suspect this desire will be tempered by a degree of pragmatism at times, but this is the ultimate goal.
 
-Having taken a year off from speaking and writing, my mind is buzzing with ideas. Conscious that the last time I freelanced I barely wrote anything, this time I'm making an effort to contribute more fully. I'll be writing [six articles for the Pastry Box Project][5], and I'm actively looking for other writing opportunities. I have some talk ideas which I hope to develop over the next few months, too.
+Having taken a year off from speaking and writing, my mind is buzzing with ideas. Conscious that the last time I freelanced I barely wrote anything, this time I'm making an effort to contribute more fully. I'll be writing [six articles for the Pastry Box Project][4], and I'm actively looking for other writing opportunities. I have some talk ideas which I hope to develop over the next few months, too.
 
-The embarrassment felt publishing this entry on a website in such drastic need of a redesign hasn't escaped me either. After a year faffing with the development of its replacement (Ruby! Jekyll! Sass!), I plan to launch a new site in a few weeks time. Hopefully then I can return to finishing my digitisation of [Bradshaw's Guide][6]. [Barebones][7] has been a little neglected too.
+The embarrassment felt publishing this entry on a website in such drastic need of a redesign hasn't escaped me either. After a year faffing with the development of its replacement (Ruby! Jekyll! Sass!), I plan to launch a new site in a few weeks time. Hopefully then I can return to finishing my digitisation of [Bradshaw's Guide][5]. [Barebones][6] has been a little neglected too.
 
-Who knows what the coming year will hold, but it's sure going to be interesting! If you have a project you think may interest me, [please do get in touch][1].
+Who knows what the coming year will hold, but it's sure going to be interesting! If you have a project you think may interest me, [please do get in touch][7].
 
-[1]: /contact/
-[2]: http://clearleft.com/
-[3]: /2013/10/moving_in_moving_on/
-[4]: https://the-pastry-box-project.net/paul-lloyd/2015-january-12
-[5]: https://the-pastry-box-project.net/baker/paul-lloyd
-[6]: http://bradshawsguide.org/
-[7]: https://github.com/paulrobertlloyd/barebones
+[1]: http://clearleft.com/
+[2]: /2013/10/moving_in_moving_on/
+[3]: https://the-pastry-box-project.net/paul-lloyd/2015-january-12
+[4]: https://the-pastry-box-project.net/baker/paul-lloyd
+[5]: http://bradshawsguide.org/
+[6]: https://github.com/paulrobertlloyd/barebones
+[7]: /contact/
 
 *[TL;DR]: Too long; didn't read
 *[BBC]: British Broadcasting Corportation

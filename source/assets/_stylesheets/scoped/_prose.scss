@@ -10,19 +10,19 @@
     h2 {
         @include ff--sans-serif(700);
         @include fs--heading-2;
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: $u__baseline;
     }
 
     h3 {
         @include ff--sans-serif(700);
         @include fs--heading-3;
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: $u__baseline;
     }
 
     h4 {
         @include ff--sans-serif;
         @include fs--heading-4;
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: $u__baseline;
     }
 
     * + h2,
