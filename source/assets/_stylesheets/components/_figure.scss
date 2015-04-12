@@ -147,19 +147,23 @@
 .c-figure--tweet {
     blockquote {
         position: relative;
-        border-left: 0;
-        background-color: $c__neutral--8;
+        background-color: $c__neutral--a;
         padding: $u__baseline;
+
+        &::before {
+            border-left: 0;
+        }
 
         &::after {
             display: block;
             position: absolute;
-            bottom: ($u__baseline / -2);
+            bottom: ($u__baseline * -1);
             left: ($u__baseline * 1.5);
-            transform: rotate(45deg);
-            background-color: $c__neutral--8;
-            width: $u__baseline;
-            height: $u__baseline;
+            border-left: $u__baseline solid transparent;
+            border-top: $u__baseline solid $c__neutral--a;
+            border-right: $u__baseline solid transparent;
+            width: 0;
+            height: 0;
             content: '';
         }
 

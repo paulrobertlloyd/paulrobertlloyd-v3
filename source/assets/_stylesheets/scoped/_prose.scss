@@ -45,13 +45,25 @@
 
     a:not(.c-button) {
         @include text-decoration-color($c__identity--1);
+
+        .t-inverted & {
+            @include text-decoration-color($c__neutral--9a);
+        }
     }
 
     a:not(.c-button):hover {
         @include text-decoration-color($c__identity--2);
+
+        .t-inverted & {
+            @include text-decoration-color($c__neutral--9);
+        }
     }
 
     a:not(.c-button):active {
         @include text-decoration-color(lighten($c__identity--2, 10%));
+
+        .t-inverted & {
+            @include text-decoration-color(lighten($c__neutral--9, 10%));
+        }
     }
 }

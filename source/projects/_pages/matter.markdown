@@ -4,7 +4,7 @@ title: Matter
 date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter
-theme: matter
+theme: [inverted, matter]
 meta:
   client: Matter Publishing
   year: 2012

@@ -29,42 +29,6 @@
     @include fs--heading-1;
     margin-bottom: $u__baseline;
     font-weight: 700;
-
-    .t-24-ways & {
-        color: $c__24-ways;
-    }
-
-    .t-unicef-uk & {
-        color: $c__unicef-uk;
-    }
-
-    .t-bradshaws-guide & {
-        color: $c__bradshaws-guide;
-    }
-
-    .t-matter & {
-        color: $c__matter;
-    }
-
-    .t-dacs & {
-        color: $c__dacs;
-    }
-
-    .t-the-week & {
-        color: $c__the-week;
-    }
-
-    .t-fontdeck & {
-        color: $c__fontdeck;
-    }
-
-    .t-ngenera & {
-        color: $c__ngenera;
-    }
-
-    .t-ning & {
-        color: $c__ning;
-    }
 }
 
 .c-page__location {

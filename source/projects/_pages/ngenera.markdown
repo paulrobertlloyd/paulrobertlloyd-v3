@@ -4,7 +4,7 @@ title: nGenera
 date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
 permalink: /projects/ngenera
-theme: ngenera
+theme: [inverted, ngenera]
 meta:
   client: nGenera Corporation
   year: 2008
@@ -21,7 +21,7 @@ Steve Douty (president of platforms, applications and marketing) asked me to tak
 {% figure "nGenera logo with tagline lock-up" %}
 {% endfigure %}
 
-With an intriguing –- if not immediately obvious –- name, the logo needed to reflect the organisation's broad ambition and signify a break with any past notions of enterprise. Combining an 'n' and 'G' in a subtle and intriguing manner, allowed me to create a mark that felt similar to common icons associated with networking and connectivity. This distinctive mark could work at many sizes, with flat and rendered versions created to suit different applications. To encompass a range of operating devisions, a brand architecture was created. This also meant future acquisitions could easily be integrated into the overall business.
+With an intriguing -- if not immediately obvious -- name, the logo needed to reflect the organisation's broad ambition and signify a break with any past notions of enterprise. Combining an 'n' and 'G' in a subtle and intriguing manner, allowed me to create a mark that felt similar to common icons associated with networking and connectivity. This distinctive mark could work at many sizes, with flat and rendered versions created to suit different applications. To encompass a range of operating devisions, a brand architecture was created. This also meant future acquisitions could easily be integrated into the overall business.
 
 ## Collateral
 {% figure "Associated brand collateral, including presentation folders, report covers, letterheads and business cards" %}

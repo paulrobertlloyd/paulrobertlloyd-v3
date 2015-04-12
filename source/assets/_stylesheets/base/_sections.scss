@@ -22,19 +22,63 @@ body {
     margin: 0 auto;
     background-color: $c__neutral--9;
     text-rendering: geometricPrecision;
-    line-height: ($u__baseline-unitless * 1.5);
     color: $c__neutral--2;
+    line-height: ($u__baseline-unitless * 1.5);
     font-size: $u__font-size;
     font-smoothing: antialiased;
 
-    .t-dark & {
+    .t-inverted & {
         background-color: $c__neutral--1;
         color: $c__neutral--9;
     }
 
     .t-home & {
         background-color: $c__identity--1;
-        color: $c__neutral--9;
+    }
+
+    .t-24-ways & {
+        background-color: $c__24-ways;
+//        background-image: linear-gradient(to bottom, $c__24-ways 10%, mix($c__24-ways, $c__identity--2, 70%) 90%);
+    }
+
+    .t-unicef-uk & {
+        background-color: $c__unicef-uk;
+//        background-image: linear-gradient(to bottom, $c__unicef-uk 10%, mix($c__unicef-uk, $c__identity--2, 70%) 90%);
+    }
+
+    .t-bradshaws-guide & {
+        background-color: $c__bradshaws-guide;
+//        background-image: linear-gradient(to bottom, $c__bradshaws-guide 10%, mix($c__bradshaws-guide, $c__identity--2, 70%) 90%);
+    }
+
+    .t-matter & {
+        background-color: $c__matter;
+//        background-image: linear-gradient(to bottom, $c__matter 10%, mix($c__matter, $c__identity--2, 70%) 90%);
+    }
+
+    .t-dacs & {
+        background-color: $c__dacs;
+//        background-image: linear-gradient(to bottom, $c__dacs 10%, mix($c__dacs, $c__identity--2, 70%) 90%);
+    }
+
+    .t-the-week & {
+        background-color: $c__the-week;
+//        background-image: linear-gradient(to bottom, $c__the-week 10%, mix($c__the-week, $c__identity--2, 70%) 90%);
+    }
+
+    .t-fontdeck & {
+        background-color: $c__fontdeck;
+//        background-image: linear-gradient(to bottom, $c__fontdeck 10%, mix($c__fontdeck, $c__identity--2, 70%) 90%);
+    }
+
+    .t-ngenera & {
+        background-color: $c__ngenera;
+//        background-image: linear-gradient(to bottom, $c__ngenera 10%, mix($c__ngenera, $c__identity--2, 70%) 90%);
+    }
+
+    .t-ning & {
+        background-color: $c__ning;
+//        background-image: linear-gradient(to bottom, $c__ning 10%, mix($c__ning, $c__identity--2, 70%) 90%);
     }
 }
 

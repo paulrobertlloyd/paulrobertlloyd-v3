@@ -17,17 +17,15 @@
     a {
         @include text-decoration-color($c__identity--1);
 
-        .t-dark &,
-        .t-home & {
-            @include text-decoration-color($c__neutral--8);
+        .t-inverted & {
+            @include text-decoration-color($c__neutral--9a);
         }
     }
 
     a:hover {
         @include text-decoration-color($c__identity--2);
 
-        .t-dark &,
-        .t-home & {
+        .t-inverted & {
             @include text-decoration-color($c__neutral--9);
         }
     }
@@ -35,8 +33,7 @@
     a:active {
         @include text-decoration-color(lighten($c__identity--2, 10%));
 
-        .t-dark &,
-        .t-home & {
+        .t-inverted & {
             @include text-decoration-color(lighten($c__neutral--9, 10%));
         }
     }
