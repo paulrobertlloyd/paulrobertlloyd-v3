@@ -1,13 +1,8 @@
 <header class="c-page__header">
-    <h1 class="c-page__title p-name">{{ page.title | typogrify | namespace }}</h1>
-    {% if page.path contains "projects" and page.theme %}
+    <h1 class="c-page__title p-name">{{ page.title | typogrify }}</h1>
+    {% if page.path contains "_pages" and page.excerpt %}
         <div class="c-page__excerpt s-lede p-summary">
             {{ page.excerpt | markdownify | typogrify | namespace }}
-        </div>
-        <div class="c-hero u-extend">
-            <img class="c-hero__screen" src="{{ site.picture.cdn_url }}/640w/90{{ page.url }}/desktop_1.png" alt=""/>
-            <img class="c-hero__screen" src="{{ site.picture.cdn_url }}/640w/90{{ page.url }}/desktop_2.png" alt=""/>
-            <img class="c-hero__screen" src="{{ site.picture.cdn_url }}/640w/90{{ page.url }}/mobile_1.png" alt=""/>
         </div>
     {% endif %}
 </header>
