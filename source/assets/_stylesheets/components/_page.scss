@@ -7,12 +7,12 @@
 }
 
 .c-page__header {
-    padding-top: ($u__baseline * 1.5);
-    padding-bottom: ($u__baseline * 1.5);
+    padding-top: $u__baseline;
+    padding-bottom: $u__baseline;
 
     @include susy-media($b__b) {
         padding-top: 0;
-        padding-bottom: ($u__baseline * 3);
+        padding-bottom: ($u__baseline * 2);
         padding-left: span(1 wide);
     }
 }
@@ -27,7 +27,44 @@
 
 .c-page__title {
     @include fs--heading-1;
+    margin-bottom: $u__baseline;
     font-weight: 700;
+
+    .t-24-ways & {
+        color: $c__24-ways;
+    }
+
+    .t-unicef-uk & {
+        color: $c__unicef-uk;
+    }
+
+    .t-bradshaws-guide & {
+        color: $c__bradshaws-guide;
+    }
+
+    .t-matter & {
+        color: $c__matter;
+    }
+
+    .t-dacs & {
+        color: $c__dacs;
+    }
+
+    .t-the-week & {
+        color: $c__the-week;
+    }
+
+    .t-fontdeck & {
+        color: $c__fontdeck;
+    }
+
+    .t-ngenera & {
+        color: $c__ngenera;
+    }
+
+    .t-ning & {
+        color: $c__ning;
+    }
 }
 
 .c-page__location {
@@ -42,6 +79,7 @@
     @include fs--caption;
     position: absolute;
     top: 0;
+    left: 0;
     color: $c__neutral--4;
 
     @include susy-media($b__b) {
@@ -67,6 +105,7 @@
     .c-container__title {
         @include fs--caption;
         margin-right: ($u__baseline / 2);
+        line-height: 1.5;
     }
 
     .list--inline {

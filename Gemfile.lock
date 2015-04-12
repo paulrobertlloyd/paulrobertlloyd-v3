@@ -8,7 +8,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (5.1.8)
+    autoprefixer-rails (5.1.8.1)
       execjs
       json
     celluloid (0.16.0)
@@ -19,7 +19,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.0.7)
-    execjs (2.5.1)
+    execjs (2.5.2)
     exiftool (0.6.0)
       json
     ffi (1.9.8)

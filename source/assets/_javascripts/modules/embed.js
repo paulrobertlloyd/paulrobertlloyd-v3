@@ -18,8 +18,8 @@
             var src;
             var type;
 
-            // …and if the viewport is wider than 400px, embed!
-            if (win.innerWidth > 400) {
+            // …and if the viewport is wider than 32em, embed!
+            if (win.matchMedia('(min-width: 32em)')) {
                 src = embed.getAttribute('data-embed-src');
                 type = embed.getAttribute('data-embed-type');
                 embed.className += ' c-embed--' + type;

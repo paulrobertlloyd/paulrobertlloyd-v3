@@ -34,7 +34,6 @@ $context-inner: nested(4 of $grid at 2);
 .u-pull-right {
     @include susy-media($b__a) {
         @include span(2 of $context-inner last);
-        margin-top: ($u__baseline / 2);
         margin-left: gutter();
     }
 }
@@ -42,7 +41,6 @@ $context-inner: nested(4 of $grid at 2);
 .u-pull-left {
     @include susy-media($b__a) {
         @include span(2 of $context-inner first);
-        margin-top: ($u__baseline / 2);
         margin-left: (percentage(1/3) * -1);
     }
 }

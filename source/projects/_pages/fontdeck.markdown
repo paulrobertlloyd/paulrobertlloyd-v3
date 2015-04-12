@@ -22,6 +22,10 @@ With limited time and budget, I was part of a small team that convened over one 
 
 The key values of the product were distilled into a compelling proposition: 'purveyors of the finest web fonts, Fontdeck is the professional web font solution; easy to use yet flexible enough to meet the real needs of designers'. This became a lightening rod for the design direction that followed.
 
+{% figure u-pull-left "<cite>Richard Rutter, co-founder and CEO</cite>" %}
+> Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.
+{% endfigure %}
+
 Improving the product in discreet stages sounded appealing, but beyond a few technical items, making substantial changes soon became difficult. We knew where we wanted to be, but it was difficult to get there without a vision of what the service might look like. I devised a holistic design for the product that would serve the following goals:
 
   * Communicate professionalism of the service and the quality of our library
@@ -59,10 +63,5 @@ The single text-heavy about page was replaced by an expanded about section. This
 {% endfigure %}
 
 Type designer and foundry pages previously consisted of alphabetical indices of names, but I saw this as an opportunity to make those responsible for our font library the heroes of the service. Individual foundry and designer pages now featured a photo or logo and short bio alongside a list of the fonts they had created.
-
-## Result
-{% figure "<cite>Richard Rutter, co-founder and CEO</cite>" %}
-> Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.
-{% endfigure %}
 
 *[CSS]: Cascading Style Sheets
