@@ -9,6 +9,11 @@
     + .c-container {
         border-top: 1px solid $c__neutral--a;
         padding-top: ($u__baseline / 4);
+
+        .t-dark &,
+        .t-home & {
+            border-color: $c__neutral--9a;
+        }
     }
 }
 
