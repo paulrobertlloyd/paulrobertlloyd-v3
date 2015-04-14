@@ -2,10 +2,10 @@
 layout: link
 title: All the Oxygen Trapped in a Bubble
 date: '2012-05-22 01:49:24 +0100'
+link:
+  url: http://signalvnoise.com/posts/3177-all-the-oxygen-trapped-in-a-bubble
 tags:
   - Silicon Valley
-  - David Heinemeier Hansson
-link: http://signalvnoise.com/posts/3177-all-the-oxygen-trapped-in-a-bubble
 ---
 David Heinemeier Hansson:
 

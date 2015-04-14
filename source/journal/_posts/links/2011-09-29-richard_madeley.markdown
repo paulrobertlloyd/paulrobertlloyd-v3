@@ -2,10 +2,11 @@
 layout: link
 title: Richard Madeley
 date: '2011-09-29 01:24:01 +0100'
+link:
+  url: https://twitter.com/davidsim/status/119159252597227522
 tags:
-  - Richard Madely
   - Comedy
-link: https://twitter.com/davidsim/status/119159252597227522
+  - Television
 ---
 David Sim:
 

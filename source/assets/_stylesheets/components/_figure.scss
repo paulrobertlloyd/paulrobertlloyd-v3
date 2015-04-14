@@ -2,7 +2,7 @@
     Figure
     ========================================================================= */
 .c-figure {
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 1.5);
     overflow: hidden;
 }
 
@@ -159,9 +159,9 @@
             position: absolute;
             bottom: ($u__baseline * -1);
             left: ($u__baseline * 1.5);
-            border-left: $u__baseline solid transparent;
             border-top: $u__baseline solid $c__neutral--a;
             border-right: $u__baseline solid transparent;
+            border-left: $u__baseline solid transparent;
             width: 0;
             height: 0;
             content: '';

@@ -4,31 +4,25 @@ layout: default
 <article class="c-page c-page--presentation h-entry">
     {% include page/header.html %}
 
-    <div class="c-page__main">
-        {% if page.link %}
-            <!-- embed {{ page.link }} -->
+    <div class="c-page__main s-prose e-content">
+        {% if page.link.embed %}
+            {% embed {{ page.link.url }} %}
         {% endif %}
 
-        {% if page.meta %}
-            {% include meta.html class="u-aside" %}
-        {% endif %}
-
-        {% if page.excerpt %}
-            <div class="s-lede p-summary">
-                {{ page.excerpt | markdownify | typogrify | namespace }}
-            </div>
-        {% endif %}
-
-        <div class="s-prose e-content">
-            {{ content | typogrify | namespace }}
-        </div>
+        {{ content | typogrify | namespace }}
     </div>
 
-    {% if page.tags %}
-        {% include page/tags.html %}
+    {% if page.meta %}
+        <div class="c-page__aside">
+            {% include meta.html %}
+        </div>
     {% endif %}
+
+    {% include page/discussion.html %}
+
+    {% include page/tags.html %}
 
     {% include page/footer.html %}
 
-    {% include nav/paginate-pages.html %}
+    {% include nav/paginate-posts.html %}
 </article>

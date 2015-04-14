@@ -39,12 +39,13 @@
     > blockquote,
     > table,
     > fieldset,
+    > .c-embed
     .highlighter-rouge {
         margin-bottom: ($u__baseline * 1.25);
     }
 
     a:not(.c-button) {
-        @include text-decoration-color($c__identity--1);
+        @include text-decoration-color(rgba($c__identity--1, 0.5));
 
         .t-inverted & {
             @include text-decoration-color($c__neutral--9a);

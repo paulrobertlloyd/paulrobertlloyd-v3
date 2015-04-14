@@ -4,21 +4,17 @@ layout: default
 <article class="c-page c-page--project h-entry">
     {% include page/header.html %}
 
-    {% if page.theme %}
-        <div class="c-hero">
-            <img class="c-hero__screen" src="{{ site.picture.cdn_url }}/640w/90{{ page.url }}/desktop_1.png" alt=""/>
-            <img class="c-hero__screen" src="{{ site.picture.cdn_url }}/640w/90{{ page.url }}/desktop_2.png" alt=""/>
-            <img class="c-hero__screen" src="{{ site.picture.cdn_url }}/640w/90{{ page.url }}/mobile_1.png" alt=""/>
-        </div>
+    {% if page.hero %}
+        {% include page/hero.html %}
     {% endif %}
 
-    <div class="c-page__main">
-        {% if page.meta %}
-            {% include meta.html class="u-aside" %}
-        {% endif %}
-
-        <div class="s-prose e-content">
-            {{ content | typogrify | namespace }}
-        </div>
+    <div class="c-page__main s-prose e-content">
+        {{ content | typogrify | namespace }}
     </div>
+
+    {% if page.meta %}
+        <div class="c-page__aside">
+            {% include meta.html %}
+        </div>
+    {% endif %}
 </article>

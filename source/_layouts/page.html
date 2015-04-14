@@ -4,19 +4,13 @@ layout: default
 <article class="c-page h-entry">
     {% include page/header.html %}
 
-    <div class="c-page__main">
-        {% if page.image.caption %}
-            {% figure u-extend "{{ page.image.caption }}" %}
-{% picture feature {{ page.image.url }} %}
-            {% endfigure %}
-        {% endif %}
-
-        {% if page.series %}
-            {% include nav/series.html class="u-aside" %}
-        {% endif %}
-
-        <div class="s-prose e-content">
-            {{ content | typogrify | namespace }}
-        </div>
+    <div class="c-page__main s-prose e-content">
+        {{ content | typogrify | namespace }}
     </div>
+
+    {% if page.series %}
+        <div class="c-page__aside">
+            {% include nav/series.html %}
+        </div>
+    {% endif %}
 </article>

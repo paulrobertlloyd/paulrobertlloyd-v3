@@ -2,12 +2,13 @@
 layout: link
 title: Carousel
 date: '2012-10-06 01:05:18 +0100'
+link:
+  url: https://www.flickr.com/photos/paulrobertlloyd/8052168399/
+  embed: photo
 tags:
   - Photography
   - London
   - England
-link: https://www.flickr.com/photos/paulrobertlloyd/8052168399/
-link-embed: photo
 ---
 One of my favourite photos from [a day exploring London][1] early last month.
 

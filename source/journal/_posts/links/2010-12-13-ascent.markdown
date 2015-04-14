@@ -2,12 +2,13 @@
 layout: link
 title: Ascent
 date: '2010-12-13 11:04:00 +0000'
+link:
+  url: https://www.youtube.com/watch?v=W2VygftZSCs
+  embed: video
 tags:
   - Video
   - NASA
   - Space
-link: https://www.youtube.com/watch?v=W2VygftZSCs
-link-embed: video
 ---
 A truly amazing video from NASA:
 

@@ -2,12 +2,12 @@
 layout: link
 title: To Fly. To Serve.
 date: '2011-09-27 22:44:50 +0100'
+link:
+  url: https://www.youtube.com/watch?v=a4JdQi60an0
+  embed: video
 tags:
   - Advertising
-  - British Airways
-  - Virgin Atlantic
-link: https://www.youtube.com/watch?v=a4JdQi60an0
-link-embed: video
+  - Video
 ---
 Whatever you may think of British Airways, it's hard not to be impressed by this latest campaign. Part of a brand repositioning exercise that sees [the return of the company's coat of arms][1], this advert meticulously recounts the history of BA through its planes, people, ancestor companies and branding. It also features a nostalgic nod to Concorde, which still looks like an aircraft of the future rather than one of the past.
 

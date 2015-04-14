@@ -2,10 +2,10 @@
 layout: link
 title: Fuel-Careful F1 Less of a Guilty Pleasure
 date: '2014-04-22 21:51:23 +0000'
+link:
+  url: http://bigstory.ap.org/article/column-fuel-careful-f1-less-guilty-pleasure
 tags:
   - Formula 1
-  - John Leicester
-link: http://bigstory.ap.org/article/column-fuel-careful-f1-less-guilty-pleasure
 ---
 John Leicester provides a considered view on the new energy-conscious regulations governing Formula 1:
 

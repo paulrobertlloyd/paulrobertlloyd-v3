@@ -14,16 +14,16 @@ $c__identity--1: #03c;
 $c__identity--2: #60c;
 
 $c__neutral: #101112;
-$c__neutral--1: lighten($c__neutral, 15%);
+$c__neutral--1: lighten($c__neutral, 10%);
 $c__neutral--a: rgba($c__neutral--1, 0.15);
-$c__neutral--2: lighten($c__neutral, 25%);
-$c__neutral--3: lighten($c__neutral, 35%);
-$c__neutral--4: lighten($c__neutral, 45%);
-$c__neutral--5: lighten($c__neutral, 55%);
-$c__neutral--6: lighten($c__neutral, 65%);
-$c__neutral--7: lighten($c__neutral, 75%);
-$c__neutral--8: lighten($c__neutral, 85%);
-$c__neutral--9: lighten($c__neutral, 95%);
+$c__neutral--2: lighten($c__neutral, 20%);
+$c__neutral--3: lighten($c__neutral, 30%);
+$c__neutral--4: lighten($c__neutral, 40%);
+$c__neutral--5: lighten($c__neutral, 50%);
+$c__neutral--6: lighten($c__neutral, 60%);
+$c__neutral--7: lighten($c__neutral, 70%);
+$c__neutral--8: lighten($c__neutral, 80%);
+$c__neutral--9: lighten($c__neutral, 90%);
 $c__neutral--9a: rgba($c__neutral--9, 0.3);
 
 $c__select: rgba($c__identity--2, 0.1);
@@ -41,8 +41,8 @@ $c__ning: #093;
 
 
 // Breakpoints
-$b__a: 32em; // 512px
-$b__b: 45em; // 720px
+$b__a: 32rem; // 512px
+$b__b: 45rem; // 720px
 $b__c: $u__max-width;
 
 

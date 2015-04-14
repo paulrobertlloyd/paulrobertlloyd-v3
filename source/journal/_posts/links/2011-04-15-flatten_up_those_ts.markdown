@@ -2,10 +2,10 @@
 layout: link
 title: Flatten up Those T's
 date: '2011-04-15 18:21:13 +0100'
+link:
+  url: http://markdotto.com/2011/04/15/fatten-up-those-ts/
 tags:
-  - Mark Otto
   - Web design and development
-link: http://markdotto.com/2011/04/15/fatten-up-those-ts/
 ---
 Invaluable advise from Twitter's Mark Otto:
 

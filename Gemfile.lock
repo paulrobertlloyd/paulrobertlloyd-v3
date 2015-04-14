@@ -8,7 +8,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (5.1.8.1)
+    autoprefixer-rails (5.1.9)
       execjs
       json
     celluloid (0.16.0)

@@ -4,31 +4,25 @@ layout: default
 <article class="c-page c-page--link h-entry">
     {% include page/header.html %}
 
-    <div class="c-page__main">
-        {% if page.link-embed %}
-            {% figure u-extend "{{ page.image.caption }}" %}
-{% embed {{ page.link }} %}
-            {% endfigure %}
-        {% endif %}
+    {% if page.link.embed %}
+        {% figure c-page__media u-extend %}
+{% embed {{ page.link.url }} %}
+        {% endfigure %}
+    {% endif %}
 
-        <div class="s-prose e-content">
-            {{ content | typogrify | namespace }}
-
-            {% if page.link-embed == null %}
-                <p><a class="c-button" href="{{ page.link }}">Visit this link</a></p>
-            {% endif %}
-        </div>
+    <div class="c-page__main s-prose e-content">
+        {{ content | typogrify | namespace }}
     </div>
 
-    {% if page.discussion %}
-        {% include page/discussion.html %}
-    {% endif %}
+    <div class="c-page__aside">
+        <p><a class="c-button" href="{{ page.link.url }}">Visit this link</a></p>
+    </div>
 
-    {% if page.tags %}
-        {% include page/tags.html %}
-    {% endif %}
+    {% include page/discussion.html %}
+
+    {% include page/tags.html %}
 
     {% include page/footer.html %}
 
-    {% include nav/paginate-pages.html %}
+    {% include nav/paginate-posts.html %}
 </article>
