@@ -2,11 +2,12 @@
 layout: link
 title: Modern Medicine
 date: '2012-05-24 01:42:30 +0100'
+link:
+  url: http://farmerandfarmer.org/medicine/
 tags:
   - Social media
   - Software development
   - Psychology
-link: http://farmerandfarmer.org/medicine/
 ---
 Jonathan Harris:
 

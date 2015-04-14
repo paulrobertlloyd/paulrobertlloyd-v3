@@ -1,0 +1,5 @@
+<div class="c-hero">
+{% for hero in page.hero %}
+    <img class="c-hero__screen c-hero__screen--{{ hero }}" src="{{ site.picture.cdn_url }}/640w/90{{ page.url }}/{{ hero }}.png" alt=""/>
+{% endfor %}
+</div>

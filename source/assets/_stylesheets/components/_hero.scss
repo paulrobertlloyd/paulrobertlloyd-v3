@@ -6,9 +6,9 @@ $u__shadow-size: 4px;
 
 .c-hero {
     position: relative;
+    margin-bottom: ($u__baseline * 2);
     border-bottom: 1px solid $c__neutral--a;
     padding-bottom: 40%;
-    margin-bottom: ($u__baseline * 2);
     overflow: hidden;
 }
 
@@ -23,37 +23,24 @@ $u__shadow-size: 4px;
     width: span(3 at 3);
 }
 
-.c-hero__screen[src*="desktop_1"] {
+.c-hero__screen[src*="desktop-1"] {
     top: ($u__baseline * 2);
-    left: $u__baseline;
     z-index: 1;
-
-    @include susy-media($b__a) {
-        left: ($u__baseline * 2);
-    }
 }
 
-.c-hero__screen[src*="desktop_2"] {
+.c-hero__screen[src*="desktop-2"] {
     top: $u__shadow-size;
-    right: $u__baseline;
+    right: ($u__baseline * 2);
     z-index: 2;
-
-    @include susy-media($b__a) {
-        right: ($u__baseline * 2);
-    }
 }
 
 .c-hero__screen[src*="mobile"] {
     top: ($u__baseline * 6);
-    right: ($u__baseline * 2);
+    right: 0;
     z-index: 3;
     background-image: url(asset_path('mobile.png'));
     background-repeat: no-repeat;
     background-size: contain;
     padding: 2.5% 0.8% 0;
     width: span(1 at 3);
-
-    @include susy-media($b__a) {
-        right: 0;
-    }
 }

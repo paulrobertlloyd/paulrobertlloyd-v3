@@ -1,8 +1,10 @@
 <header class="c-page__header">
     <h1 class="c-page__title p-name">{{ page.title | typogrify }}</h1>
-    {% if page.path contains "_pages" and page.excerpt %}
-        <div class="c-page__excerpt s-lede p-summary">
-            {{ page.excerpt | markdownify | typogrify | namespace }}
-        </div>
-    {% endif %}
+    {% unless page.path contains "journal" %}
+        {% if page.excerpt %}
+            <div class="c-page__excerpt s-lede p-summary">
+                {{ page.excerpt | markdownify | typogrify | namespace }}
+            </div>
+        {% endif %}
+    {% endunless %}
 </header>

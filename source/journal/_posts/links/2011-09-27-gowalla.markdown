@@ -2,10 +2,10 @@
 layout: link
 title: Gowalla 4 and Loss Of Personal Milestone Data
 date: '2011-09-27 22:37:20 +0100'
+link:
+  url: http://log.maniacalrage.net/post/10706807295/gowalla-4-and-loss-of-personal-milestone-data
 tags:
   - Gowalla
-  - Garrett Murray
-link: http://log.maniacalrage.net/post/10706807295/gowalla-4-and-loss-of-personal-milestone-data
 ---
 Garrett Murray perfectly sums up my thoughts on the changes to Gowalla:
 

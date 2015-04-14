@@ -2,10 +2,11 @@
 layout: link
 title: 'Naming Things'
 date: '2014-12-22 12:35:26 +0000'
+link:
+  url: http://24ways.org/2014/naming-things/
 tags:
   - Writing
   - 24 ways
-link: http://24ways.org/2014/naming-things/
 ---
 My contribution to [this year's 24 ways][1] attempts to tackle one of the most difficult aspects of web development, naming things:
 

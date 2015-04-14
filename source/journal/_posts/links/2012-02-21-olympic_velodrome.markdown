@@ -2,6 +2,9 @@
 layout: link
 title: The Olympic Velodrome
 date: '2012-02-21 01:52:40 +0000'
+link:
+  url: https://www.flickr.com/photos/paulrobertlloyd/6913342093/
+  embed: photo
 tags:
   - Photography
   - Architecture
@@ -9,8 +12,6 @@ tags:
   - Olympics
   - London
   - England
-link: https://www.flickr.com/photos/paulrobertlloyd/6913342093/
-link-embed: photo
 ---
 Last weekend I visited the new Olympic velodrome for the UCI Track Cycling World Cup. Part of [London Prepares][1], a programme of test events before the games take place this summer, it was thrilling to see athletes up close as they also prepare for London 2012. The building is absolutely stunning, although Ben Terrett notes [a few design oversights][2] that remain.
 

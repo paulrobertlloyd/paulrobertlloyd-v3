@@ -2,11 +2,11 @@
 layout: link
 title: Baseline Grids on the Web
 date: '2012-11-02 00:31:50 +0000'
+link:
+  url: http://jasonsantamaria.com/articles/baseline-grids-on-the-web
 tags:
   - Web design and development
   - Typography
-  - Jason Santa Maria
-link: http://jasonsantamaria.com/articles/baseline-grids-on-the-web
 ---
 Jason Santa Maria:
 

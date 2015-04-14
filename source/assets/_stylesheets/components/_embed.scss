@@ -4,9 +4,7 @@
 
 .c-embed {
     position: relative;
-    margin-bottom: ($u__baseline * 1.5);
     background-color: $c__neutral--a;
-    padding: $u__baseline;
     padding-bottom: percentage(2/3);
     height: 0;
 }
@@ -23,4 +21,9 @@
 
 .c-embed--video {
     padding-bottom: percentage(9/16);
+}
+
+.c-embed--slidedeck {
+    padding-top: 63px; // Speaker Deck player header and footer chrome height
+    padding-bottom: percentage(3/4);
 }

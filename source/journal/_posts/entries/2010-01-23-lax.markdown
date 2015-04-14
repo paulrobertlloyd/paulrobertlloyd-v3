@@ -6,6 +6,7 @@ date: '2010-01-23 19:07:09 +0000'
 excerpt: I hoped that almost missing my flight would be the worst my trip to New Zealand would have to offer, but thanks to overzealous immigration officials at LAX, that was nothing but a minor blip.
 image:
   url: /2010/01/lax.jpg
+  caption: 'The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photograph: [J Brew](https://www.flickr.com/photos/brewbooks/225876606/)'
 tags:
   - Travel
   - United States
@@ -21,10 +22,6 @@ LAX is a maze of nine terminal buildings arranged around a stretch of highway. W
 This over-reliance on the motor vehicle, matched with an abundance of confusing and conflicting signage, meant the last time I was here in 2007, I found myself spending 2 of the 3 available hours between my connecting flights stuck on the wrong shuttle bus touring the airport's many car parks. A short conversation with the bus driver -- in which I had to explain that even though I'm from England, I didn't know the Queen -- gave little relief.
 
 After spending the remaining hour trying find the correct terminal and gate, once the plane had left the tarmac, I was pretty sure I never wanted to set foot in this airport ever again.
-
-{% figure u-extend "The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photograph: [J Brew](https://www.flickr.com/photos/brewbooks/225876606/)" %}
-{% picture showcase /2010/01/lax.jpg %}
-{% endfigure %}
 
 ## A Single Ticked Box
 Forward to last August. As I was booking my flights to New Zealand fairly late, the only route available to Auckland was via LAX. I had some reservations, but I placed these aside, especially as a 6-hour layover in Los Angeles would mean a rare opportunity to meet my friend [Kyle][1].

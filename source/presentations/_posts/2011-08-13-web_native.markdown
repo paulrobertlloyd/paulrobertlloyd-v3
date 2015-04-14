@@ -3,7 +3,9 @@ layout: presentation
 title: The Web Native Designer
 date: '2011-08-13 20:00:00 +0100'
 excerpt: 'When print design can lay claim to a history stretching back to the middle ages, it''s no surprise that we''ve applied its methods to the web. As this comparatively new medium approches the same level of ubiquity of paper, it''s underlying technologies adapting to meet this need, but the design process needs to mature too.'
-link: http://speakerdeck.com/u/paulrobertlloyd/p/the-web-native-designer-august-2011
+link: 
+  url: http://speakerdeck.com/u/paulrobertlloyd/p/the-web-native-designer-august-2011
+  embed: slidedeck
 meta:
   event: 'Geek in the Park 2011'
   location: 'Leamington Spa, England'

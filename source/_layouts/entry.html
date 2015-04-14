@@ -4,31 +4,27 @@ layout: default
 <article class="c-page c-page--entry h-entry">
     {% include page/header.html %}
 
-    <div class="c-page__main">
-        {% if page.image.caption %}
-            {% figure u-extend "{{ page.image.caption }}" %}
+    {% if page.image %}
+        {% figure c-page__media u-extend "{{ page.image.caption }}" %}
 {% picture feature {{ page.image.url }} %}
-            {% endfigure %}
-        {% endif %}
+        {% endfigure %}
+    {% endif %}
 
-        {% if page.series %}
-            {% include nav/series.html class="u-aside" %}
-        {% endif %}
-
-        <div class="s-prose e-content">
-            {{ content | typogrify | namespace }}
-        </div>
+    <div class="c-page__main s-prose e-content">
+        {{ content | typogrify | namespace }}
     </div>
 
-    {% if page.discussion %}
-        {% include page/discussion.html %}
+    {% if page.series %}
+        <div class="c-page__aside">
+            {% include nav/series.html %}
+        </div>
     {% endif %}
 
-    {% if page.tags %}
-        {% include page/tags.html %}
-    {% endif %}
+    {% include page/discussion.html %}
+
+    {% include page/tags.html %}
 
     {% include page/footer.html %}
 
-    {% include nav/paginate-pages.html %}
+    {% include nav/paginate-posts.html %}
 </article>

@@ -100,7 +100,7 @@
         }
 
         &::before {
-            content: '\27E8';
+            content: '\27E8\00A0';
 
             @include susy-media($b__c) {
                 display: block;
@@ -119,7 +119,7 @@
         }
 
         &::after {
-            content: '\27E9';
+            content: '\00A0\27E9';
 
             @include susy-media($b__c) {
                 display: block;

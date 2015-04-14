@@ -59,13 +59,19 @@ $context-inner: nested(4 of $grid at 2);
         margin-left: ($u__baseline * -2);
     }
 
-    @include susy-media($b__b) {
-        margin-left: ($margin-left * -1);
-        margin-left: calc((#{$margin-left} + #{$gutter-left}) * -1);
-    }
-
     @include susy-media($b__c) {
         margin-right: 0;
-        margin-left: ($margin-left * -1);
+        margin-left: 0;
+    }
+
+    .s-prose & {
+        @include susy-media($b__b) {
+            margin-left: ($margin-left * -1);
+            margin-left: calc((#{$margin-left} + #{$gutter-left}) * -1);
+        }
+
+        @include susy-media($b__c) {
+            margin-left: ($margin-left * -1);
+        }
     }
 }

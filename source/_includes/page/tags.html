@@ -1,11 +1,13 @@
-<section class="c-page__tags c-container" aria-labelledby="tags">
-    <header class="c-container__header">
-        <h1 class="c-container__title" id="tags">Tags</h1>
-    </header>
+{% if page.tags %}
+    <section class="c-page__tags c-container" aria-labelledby="tags">
+        <header class="c-container__header">
+            <h1 class="c-container__title" id="tags">Tags</h1>
+        </header>
 
-    <ul class="o-list o-list--inline">
-        {% for tag in page.tags %}
-            <li class="o-list__item">{% include tag.html tag=tag %}</li>
-        {% endfor %}
-    </ul>
-</section>
+        <ul class="o-list o-list--inline">
+            {% for tag in page.tags %}
+                <li class="o-list__item">{% include tag.html tag=tag %}</li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}

@@ -2,13 +2,13 @@
 layout: link
 title: Cennydd Bowles on the Ethical Designer
 date: '2014-04-13 15:20:11 +0000'
+link:
+  url: https://www.youtube.com/watch?v=SB_GDF-mKTE
+  embed: video
 tags:
   - Video
   - Ethics
   - Design
-  - Cennydd Bowles
-link: https://www.youtube.com/watch?v=SB_GDF-mKTE
-link-embed: video
 ---
 Possibly the most important design talk you'll hear this year:
 

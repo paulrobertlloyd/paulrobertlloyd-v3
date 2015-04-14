@@ -2,11 +2,11 @@
 layout: link
 title: Next Larger Context
 date: '2012-02-27 02:03:33 +0000'
+link:
+  url: http://quotevadis.com/post/18011423665/eliel-saarinen-always-design-things-by-context
 tags:
   - Design
   - Architecture
-  - Eliel Saarinen
-link: http://quotevadis.com/post/18011423665/eliel-saarinen-always-design-things-by-context
 ---
 Eliel Saarinen:
 
