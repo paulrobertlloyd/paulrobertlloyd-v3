@@ -31,6 +31,10 @@
     font-weight: 700;
 }
 
+.c-page__excerpt {
+    margin-bottom: ($u__baseline * 4);
+}
+
 .c-page__aside {
     margin-bottom: ($u__baseline * 2);
 
@@ -68,11 +72,11 @@
 
 .c-page__tags {
     @include rule;
+}
 
-    .c-page__tags__title {
-        float: left;
-        @include fs--caption;
-        margin-right: ($u__baseline / 2);
-        line-height: 1.5;
-    }
+.c-page__tags__title {
+    float: left;
+    @include fs--caption;
+    margin-right: ($u__baseline / 2);
+    line-height: 1.5;
 }
