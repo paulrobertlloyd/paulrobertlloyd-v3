@@ -51,7 +51,7 @@
 
 .c-item__avatar {
     position: absolute;
-    top: 0;
+    top: ($u__baseline / 2);
     left: 0;
     background-color: $c__neutral--a;
     width: span(1 of 8);

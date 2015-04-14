@@ -61,26 +61,18 @@
 
 .c-page__tags,
 .c-page__discussion {
-    @include rule;
-    margin-bottom: ($u__baseline * 2);
-
     @include susy-media($b__b) {
         @include span(4 at 2);
     }
 }
 
 .c-page__tags {
-    .c-container__header {
-        float: left;
-    }
+    @include rule;
 
-    .c-container__title {
+    .c-page__tags__title {
+        float: left;
         @include fs--caption;
         margin-right: ($u__baseline / 2);
         line-height: 1.5;
-    }
-
-    .list--inline {
-        display: inline-block;
     }
 }

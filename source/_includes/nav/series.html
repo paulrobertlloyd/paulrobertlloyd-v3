@@ -7,22 +7,16 @@
 {% else %}
     {% assign series = site.pages | where:"series",page.series %}
 {% endif %}
-<details class="c-disclosure c-disclosure--series" open>
-    <summary class="c-disclosure__summary">
-        Series:
-    </summary>
+<nav class="c-container c-container--series" aria-labelledby="series">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
+    </header>
 
-    <nav class="c-container c-container--series" aria-labelledby="series">
-        <header class="c-container__header">
-            <h1 class="c-container__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
-        </header>
-
-        <ol class="c-nav c-nav--series o-list">
-        {% for item in series offset:1 %}
-            <li class="c-nav__item o-list__item{% if page.url == item.url %} is-active{% endif %}">
-                <a class="c-nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
-            </li>
-        {% endfor %}
-        </ol>
-    </nav>
-</details>
+    <ol class="c-nav c-nav--series o-list">
+    {% for item in series offset:1 %}
+        <li class="c-nav__item o-list__item{% if page.url == item.url %} is-active{% endif %}">
+            <a class="c-nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+    </ol>
+</nav>
