@@ -1,8 +1,6 @@
 {% if page.tags %}
-    <section class="c-page__tags c-container" aria-labelledby="tags">
-        <header class="c-container__header">
-            <h1 class="c-container__title" id="tags">Tags</h1>
-        </header>
+    <section class="c-page__tags" aria-labelledby="tags">
+        <h1 class="c-page__tags__title" id="tags">Tags</h1>
 
         <ul class="o-list o-list--inline">
             {% for tag in page.tags %}
