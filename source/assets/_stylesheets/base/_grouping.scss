@@ -43,12 +43,8 @@ blockquote {
         top: 0;
         bottom: 0;
         left: 0;
-        border-left: 1px solid $c__identity--2;
+        border-left: 1px solid $c__neutral--1a;
         content: '';
-
-        .t-inverted & {
-            border-color: $c__neutral--1a;
-        }
     }
 
     :last-child {

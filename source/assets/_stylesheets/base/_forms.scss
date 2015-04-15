@@ -92,6 +92,8 @@ input::-moz-focus-inner {
 input {
 /*  Address Firefox 4+ setting `line-height` on `input` */
     line-height: normal;
+/*  Remove default styling on iOS */
+    -webkit-appearance: none;
 }
 
 textarea {

@@ -3,5 +3,5 @@
         <a class="c-item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
     </h1>
 
-    <p class="c-item__meta p-summary">{{ item.excerpt | markdownify | typogrify | namespace }}</p>
+    <p class="c-item__meta p-summary">{{ item.excerpt | typogrify | namespace }}</p>
 </article>

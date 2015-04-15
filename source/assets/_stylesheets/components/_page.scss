@@ -3,15 +3,14 @@
     ========================================================================= */
 
 .c-page {
-    position: relative; // Required for .c-page__pubdate
+    position: relative;
 }
 
 .c-page__header {
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 2);
     padding-top: ($u__baseline * 1.5); // Required for .c-page__pubdate
 
     @include susy-media($b__b) {
-        margin-bottom: ($u__baseline * 2);
         padding-top: 0;
         padding-left: span(1 wide);
     }
@@ -32,7 +31,11 @@
 }
 
 .c-page__excerpt {
-    margin-bottom: ($u__baseline * 4);
+    margin-bottom: ($u__baseline * 2);
+
+    @include susy-media($b__b) {
+        margin-bottom: ($u__baseline * 4);
+    }
 }
 
 .c-page__aside {
@@ -59,6 +62,10 @@
     color: $c__neutral--4;
 
     @include susy-media($b__b) {
+        top: 1rem;
+    }
+
+    @include susy-media($b__c) {
         top: 1.75rem;
     }
 }
