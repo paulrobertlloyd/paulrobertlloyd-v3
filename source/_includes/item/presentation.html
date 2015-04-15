@@ -3,5 +3,5 @@
         <a class="c-item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
     </h1>
 
-    <p class="c-item__meta">{% if item.meta.event %}{{ item.meta.event }}, {% endif %}{{ item.location }} · <time  class="item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" }}</time></p>
+    <p class="c-item__meta">{% if item.meta.event %}{{ item.meta.event }}, {{ item.meta.location }}{% endif %}{{ item.location }} · <time  class="item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" }}</time></p>
 </article>

@@ -75,8 +75,8 @@
 }
 
 .c-page__tags__title {
-    float: left;
     @include fs--caption;
+    float: left;
     margin-right: ($u__baseline / 2);
     line-height: 1.5;
 }
