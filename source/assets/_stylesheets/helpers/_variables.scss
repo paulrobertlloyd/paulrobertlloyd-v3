@@ -15,23 +15,24 @@ $c__identity--2: #60c;
 
 $c__neutral: #101112;
 $c__neutral--1: lighten($c__neutral, 10%);
-$c__neutral--a: rgba($c__neutral--1, 0.15);
+$c__neutral--1a: rgba($c__neutral--1, 0.25);
 $c__neutral--2: lighten($c__neutral, 20%);
 $c__neutral--3: lighten($c__neutral, 30%);
 $c__neutral--4: lighten($c__neutral, 40%);
 $c__neutral--5: lighten($c__neutral, 50%);
+$c__neutral--5a: rgba($c__neutral--5, 0.25);
 $c__neutral--6: lighten($c__neutral, 60%);
 $c__neutral--7: lighten($c__neutral, 70%);
 $c__neutral--8: lighten($c__neutral, 80%);
 $c__neutral--9: lighten($c__neutral, 90%);
-$c__neutral--9a: rgba($c__neutral--9, 0.3);
+$c__neutral--9a: rgba($c__neutral--9, 0.25);
 
 $c__select: rgba($c__identity--2, 0.1);
 $c__focus: rgba($c__identity--2, 0.2);
 
 $c__24-ways: #ff0040;
 $c__unicef-uk: #00afef;
-$c__bradshaws-guide: #363330;
+$c__bradshaws-guide: #fa5;
 $c__matter: #874a88;
 $c__dacs: #560a5e;
 $c__the-week: #ed1c24;

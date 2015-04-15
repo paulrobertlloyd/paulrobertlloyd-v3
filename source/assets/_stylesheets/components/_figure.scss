@@ -91,7 +91,7 @@
 
     .c-figure__main {
         @include clearfix;
-        background-color: $c__neutral--a;
+        background-color: $c__neutral--1a;
     }
 
     .c-figure__caption {
@@ -147,7 +147,7 @@
 .c-figure--tweet {
     blockquote {
         position: relative;
-        background-color: $c__neutral--a;
+        background-color: $c__neutral--1a;
         padding: $u__baseline;
 
         &::before {
@@ -159,7 +159,7 @@
             position: absolute;
             bottom: ($u__baseline * -1);
             left: ($u__baseline * 1.5);
-            border-top: $u__baseline solid $c__neutral--a;
+            border-top: $u__baseline solid $c__neutral--1a;
             border-right: $u__baseline solid transparent;
             border-left: $u__baseline solid transparent;
             width: 0;
