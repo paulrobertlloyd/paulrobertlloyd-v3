@@ -53,10 +53,12 @@
     @include ff--sans-serif;
     @include fs--caption;
 
+    .c-nav__item {
+        @include rule($height: 1px);
+    }
+
     .c-nav__item__label {
         display: block;
-        border-top: 1px solid;
-        padding-top: ($u__baseline / 8);
         padding-bottom: $u__baseline;
     }
 }
@@ -67,7 +69,12 @@
     @include rule;
     overflow: hidden;
 
-    @include susy-media($b__c) {
+    @include susy-media($b__b) {
+        bottom: 1rem;
+        position: absolute;
+    }
+
+    @include susy-media($b__d) {
         @include rule($display: none);
     }
 
@@ -76,7 +83,7 @@
         margin-right: $u__baseline;
         font-weight: 700;
 
-        @include susy-media($b__c) {
+        @include susy-media($b__d) {
             position: fixed;
             bottom: ($u__baseline * 1.5);
             transition: all 0.2s;
@@ -85,7 +92,7 @@
     }
 
     .c-nav__item__label {
-        @include susy-media($b__c) {
+        @include susy-media($b__d) {
             display: none;
             float: left;
             height: ($u__baseline * 4);
@@ -94,7 +101,7 @@
     }
 
     .c-nav__item--prev {
-        @include susy-media($b__c) {
+        @include susy-media($b__d) {
             left: 0;
             margin-left: $u__baseline;
         }
@@ -102,7 +109,7 @@
         &::before {
             content: '\27E8\00A0';
 
-            @include susy-media($b__c) {
+            @include susy-media($b__d) {
                 display: block;
                 float: left;
                 height: ($u__baseline * 4);
@@ -121,7 +128,7 @@
         &::after {
             content: '\00A0\27E9';
 
-            @include susy-media($b__c) {
+            @include susy-media($b__d) {
                 display: block;
                 float: left;
                 height: ($u__baseline * 4);

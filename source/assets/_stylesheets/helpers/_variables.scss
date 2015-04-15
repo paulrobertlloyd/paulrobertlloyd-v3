@@ -6,7 +6,7 @@
 $u__font-size: (16/16)*100%;
 $u__baseline-unitless: 16/(16*($u__font-size/100%));
 $u__baseline: $u__baseline-unitless * 1rem;
-$u__max-width: 57.5rem;
+$u__max-width: 60rem;
 
 
 // Colours
@@ -44,7 +44,8 @@ $c__ning: #093;
 // Breakpoints
 $b__a: 32rem; // 512px
 $b__b: 45rem; // 720px
-$b__c: $u__max-width;
+$b__c: $u__max-width + ($u__baseline * 2);
+$b__d: 65rem; // 1040px
 
 
 // Grid (Susy)

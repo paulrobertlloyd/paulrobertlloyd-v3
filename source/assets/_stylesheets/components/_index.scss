@@ -2,20 +2,25 @@
     Index
     ========================================================================= */
 
+.c-index {
+    position: relative;
+}
+
 .c-index__header {
     padding-bottom: ($u__baseline * 1.5);
 
     @include susy-media($b__b) {
         @include span(1 first);
-        padding-bottom: ($u__baseline * 3);
     }
 }
 
 .c-index__main {
-    margin-bottom: ($u__baseline * 2);
-
     @include susy-media($b__b) {
         @include span(4 at 2 last);
+        margin-top: ($u__baseline / 2);
+    }
+
+    @include susy-media($b__c) {
         margin-top: ($u__baseline * 1.5);
     }
 }
