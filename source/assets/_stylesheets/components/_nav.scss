@@ -70,8 +70,8 @@
     overflow: hidden;
 
     @include susy-media($b__b) {
-        bottom: 1rem;
         position: absolute;
+        bottom: 1rem;
     }
 
     @include susy-media($b__d) {

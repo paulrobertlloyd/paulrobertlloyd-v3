@@ -7,6 +7,11 @@ layout: default
     </header>
 
     <div class="c-index__main">
+        {% if page.excerpt %}
+            <div class="c-index__excerpt s-lede">
+                {{ page.excerpt | markdownify | typogrify | namespace }}
+            </div>
+        {% endif %}
         {{ content }}
     </div>
 

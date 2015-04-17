@@ -20,9 +20,9 @@
 @import 'base/disabled';
 
 // Scoped contexts
-@import 'scoped/footnotes';
-@import 'scoped/lede';
-@import 'scoped/prose';
+@import 'scopes/footnotes';
+@import 'scopes/lede';
+@import 'scopes/prose';
 
 // Utilities
 @import 'utilities/audible';
