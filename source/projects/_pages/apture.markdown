@@ -14,16 +14,15 @@ _Apture_ was a publishing tool that gave content creators the power to find and 
 
 Working alongside Apture's CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.
 
-## Brand identity
-The logo was informed by the products behaviour; small gems of information that spring from the page. Bright, colourful, engaging. <mark>TBD</mark>
+{% figure "The deign of the company's logo was informed by the key interaction of the product; small windows of information that could spring from a page being represented by three colourful gems." %}
+{% endfigure %}
 
-## Website
-<mark>TBD</mark>
+{% figure "Website TBD" %}
+{% endfigure %}
 
-## Media-hub browsing interface
-Complex interactions within a confined space. Before the advent of mobile design, constraints. Powerful. Inspiring. Needed to suggest breath of media available without overwhelming the user.. <mark>TBD</mark>
+{% figure "The media-hub browsing interface needed to suggest breath of media available without overwhelming the user. Much like designing for mobile, its small window meant simplifying complex interactions within a confined space." %}
+{% endfigure %}
 
-## Results
 {% figure "<cite>Tristan Harris, co-founder and CEO</cite>" %}
 > I've worked alongside some of the most brilliant interaction and graphic designers in the world in my career, but Paul is one of the most talented and consistently impressive designers I've met. Beyond driving most of Apture's graphic, interaction and web design work, he cares deeply about building beautiful, visually organised products, which I think is why we both got along in the first place.
 {% endfigure %}
