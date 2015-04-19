@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: Styleguides for the Web
 date: '2011-04-13 20:00:00 +0100'
 excerpt: 'Clearly communicating the fundamental aspects of your design at the different stages of a project can help you better communicate with clients, developers and your peers, ensuring your vision doesn''t get lost in the transformation from static comp to dynamic ever changing website.'

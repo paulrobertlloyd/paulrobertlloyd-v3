@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: The Web Native Designer
 date: '2011-03-08 10:00:00 +0000'
 excerpt: 'Following the latest trends is fun but can also encourage laziness; you should think about design in terms of a particular brief rather than the particular fashion of the day. Yet it can be useful to focus on underlying trends: how we work, how we communicate with clients and how we''re now starting to appreciate the web as a medium in its own right.'

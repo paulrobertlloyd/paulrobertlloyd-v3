@@ -22,7 +22,7 @@
         SimpleJekyllSearch.init({
             searchInput: doc.querySelector('.c-form--search .c-form__input'),
             resultsContainer: doc.querySelector('.o-list'),
-            searchResultTemplate: '<li class="c-item--{type} o-list__item u-separate"><a class="c-item__link" href="{url}">{title}</a></li>',
+            searchResultTemplate: '<li class="o-list__item o-list__item--{type} u-separate"><a href="{url}">{title}</a></li>',
             noResultsText: '<li>Nothing matched your query</li>',
             dataSource: '/archive/search.json',
             limit: 10,

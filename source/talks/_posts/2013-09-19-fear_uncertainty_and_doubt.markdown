@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: Fear, Uncertainty and Doubt
 date: '2013-09-19 20:30:00 +0100'
 excerpt: 'This is a talk about the world we live in. One which sees us becoming increasingly reliant upon a small number of web services and the companies that operate them, most of which emanate from a small centre of innovation: Silicon Valley.'
