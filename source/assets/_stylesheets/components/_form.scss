@@ -55,6 +55,11 @@
     }
 }
 
+.c-form__input--search {
+    padding: ($u__baseline / 2);
+    text-align: center;
+}
+
 .c-form__input--textarea {
     height: ($u__baseline * 10);
 }
