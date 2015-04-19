@@ -1,27 +1,13 @@
-<article class="c-item c-item--{{ item.layout }} h-entry">
+<article class="c-item c-item--entry h-entry">
     <header class="c-item__header">
         <h1 class="c-item__title p-name">
-            {% if item.layout == "link" %}
-                <a class="c-item__link" href="{{ item.link.url }}">{{ item.title | smartify | typogrify }}</a>
-            {% else %}
-                <a class="c-item__link" href="{{ item.url }}">{{ item.title | smartify | typogrify }}</a>
-            {% endif %}
+            <a class="c-item__link" href="{{ item.url }}">{{ item.title | smartify | typogrify }}</a>
         </h1>
     </header>
 
-    {% if item.link.embed == "photo" or item.link.embed == "video" %}
-    <div class="c-item__media">
-        {% embed {{ item.link.url }} %}
-    </div>
-    {% endif %}
-
     <div class="c-item__main">
-        <div class="c-item__body{% if item.layout == "entry" %} s-lede{% endif %} p-summary">
-            {% if item.layout == "link" %}
-                {{ item.content | markdownify | typogrify | namespace }}
-            {% elsif item.excerpt != null %}
-                {{ item.excerpt | markdownify | typogrify | namespace }}
-            {% endif %}
+        <div class="c-item__body s-lede p-summary">
+            {{ item.excerpt | markdownify | typogrify | namespace }}
         </div>
     </div>
 

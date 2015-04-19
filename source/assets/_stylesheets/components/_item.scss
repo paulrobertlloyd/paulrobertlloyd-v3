@@ -53,7 +53,7 @@
     position: absolute;
     top: ($u__baseline / 2);
     left: 0;
-    background-color: $c__neutral--1a;
+    background-color: $c__neutral--a;
     width: span(1 of 8);
     height: auto;
 
@@ -103,6 +103,29 @@
 
     @include susy-media($b__c) {
         padding-right: span(1 of 4 wide);
+    }
+}
+
+
+/* Album */
+.c-item--album {
+    padding-left: ($u__baseline * 7);
+    min-height: ($u__baseline * 6);
+
+    .c-item__photo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-shadow: 4px 4px $c__neutral--a;
+        width: ($u__baseline * 6);
+        height: ($u__baseline * 6);
+    }
+
+    .c-item__header,
+    .c-item__main {
+        @include susy-media($b__c) {
+            padding-right: span(1 of 4 wide);
+        }
     }
 }
 

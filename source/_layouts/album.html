@@ -22,7 +22,9 @@ theme: inverted
     </div>
 
     {% if page.series %}
-        {% include nav/series.html %}
+        <div class="c-page__aside">
+            {% include nav/series.html %}
+        </div>
     {% endif %}
 
     {% include page/tags.html %}

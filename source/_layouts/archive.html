@@ -26,6 +26,13 @@ layout: index
                             <a class="c-item__link" href="{{ item.url }}">{{ item.title }}</a>
                         </li>
     {% else %}
-        {% include item/entry.html %}
+        {% case item.layout %}
+        {% when 'link' %}
+            {% include item/link.html %}
+        {% when 'album' %}
+            {% include item/album.html %}
+        {% else %}
+            {% include item/entry.html %}
+        {% endcase %}
     {% endif %}
 {% endfor %}

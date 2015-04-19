@@ -7,7 +7,7 @@ $u__shadow-size: 4px;
 .c-hero {
     position: relative;
     margin-bottom: ($u__baseline * 2);
-    border-bottom: 1px solid $c__neutral--1a;
+    border-bottom: 1px solid $c__neutral--a;
     padding-bottom: 40%;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@ $u__shadow-size: 4px;
 .c-hero__screen--desktop,
 .c-hero__screen--desktop-1,
 .c-hero__screen--desktop-2 {
-    box-shadow: 0 0 0 1px $c__neutral--1a, 0 0 $u__shadow-size 2px $c__neutral--1a;
+    box-shadow: 0 0 0 1px $c__neutral--a, 0 0 $u__shadow-size 2px $c__neutral--a;
     width: span(3 at 3);
 }
 
