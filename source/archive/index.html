@@ -61,8 +61,8 @@ permalink: /archive/
                 <ol class="o-list o-list--inline" reversed>
     {% endif %}
 
-                    <li class="c-item--{{ item.layout }} o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
-                        <a class="c-item__link" href="{{ item.url }}">{{ item.title }}</a>
+                    <li class="o-list__item o-list__item--{{ item.layout }} u-separate" value="{{ item.date | date:"%-d" }}">
+                        <a href="{{ item.url }}">{{ item.title }}</a>
                     </li>
 
     {% if forloop.last %}

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Present&shy;ations
+title: Talks
 intro: I like to share accumulated knowledge with my peers, and have spoken at design conferences around the UK and Europe.
 ---
 <section class="c-container c-container--index" aria-labelledby="appearances">
@@ -10,13 +10,13 @@ intro: I like to share accumulated knowledge with my peers, and have spoken at d
 
     <div class="c-container__main">
         {% for item in site.data.appearances %}
-            {% include item/presentation.html %}
+            {% include item/talk.html %}
         {% endfor %}
     </div>
 </section>
 
-{% assign presentations = site.posts | where:"layout","presentation" | sort:date %}
-{% for item in presentations reversed %}
+{% assign talks = site.posts | where:'layout','talk' | sort:date %}
+{% for item in talks reversed %}
     {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
     {% if this_year != year %}
         {% capture year %}{{ this_year }}{% endcapture %}
@@ -32,5 +32,5 @@ intro: I like to share accumulated knowledge with my peers, and have spoken at d
 
             <div class="c-container__main">
     {% endif %}
-                {% include item/presentation.html %}
+                {% include item/talk.html %}
 {% endfor %}
