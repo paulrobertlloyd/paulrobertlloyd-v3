@@ -10,7 +10,7 @@ compress_html:
 # Assets
 assets:
   gzip: false
-  cache: true
+  cache: ../.jekyll-assets-cache
   cachebust: hard
   js_compressor: uglifier
 
