@@ -3,5 +3,12 @@ layout: index
 title: Journal
 ---
 {% for item in paginator.posts %}
-    {% include item/entry.html %}
+    {% case item.layout %}
+    {% when 'link' %}
+        {% include item/link.html %}
+    {% when 'album' %}
+        {% include item/album.html %}
+    {% else %}
+        {% include item/entry.html %}
+    {% endcase %}
 {% endfor %}

@@ -5,7 +5,7 @@
 .c-exif__title {
     @include susy-media($b__c) {
         position: absolute;
-        top: ($u__baseline / 2);
+        top: 0;
     }
 }
 
