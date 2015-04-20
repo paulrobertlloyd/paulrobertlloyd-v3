@@ -57,7 +57,7 @@ Whilst some of these interactions are interesting, it appears to be innovation f
 ## Built In Flexibility
 Perhaps the BBC should point disgruntled users to MSNBC, as I'm sure they would come running back. With GVL3 in full effect, the new site takes this approachable homogeneity, and infuses it with the strong BBC News brand.
 
-{% figure u-extend "Different layout variations available to editors on the new BBC News website" %}
+{% figure u-bleed "Different layout variations available to editors on the new BBC News website" %}
 {% picture showcase /2010/09/bbc_news_redesign_variations.png %}
 {% endfigure %}
 

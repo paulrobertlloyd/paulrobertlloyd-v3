@@ -47,7 +47,7 @@ Apple's acquisition of NeXT in 1996 brought Steve Jobs back to the company and b
 
 The result was the iMac, and the man responsible for its design was London-born Jonathan Ive -- Apple's Vice President of Industrial Design.
 
-{% figure u-extend "The iMac" %}
+{% figure u-bleed "The iMac" %}
 {% picture showcase /articles/beige_to_bondiblue/apple_imac.jpg %}
 {% endfigure %}
 
@@ -67,7 +67,7 @@ Design cues of the CPU were also mirrored in the keyboard, which shared the same
 
 Later the Bondi-Blue colour was replaced with Blueberry (a lighter bluer colour), and four other colours were introduced. For the first time the consumer could decide the colour of their computer -- something they were able to do with their cars decades ago. With the second major revision, a new graphite (grey) colour was introduced which was more transparent than the five other colours and was aimed at a more conservative user.
 
-{% figure u-extend %}
+{% figure u-bleed %}
 {% picture showcase /articles/beige_to_bondiblue/apple_imac_flowershot.png alt="iMac Flowershot" %}
 {% endfigure %}
 

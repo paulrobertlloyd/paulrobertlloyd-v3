@@ -46,8 +46,21 @@ $context-inner: nested(4 of $grid at 2);
 }
 
 
-/* On wider breakpoints elements that extends outwards by additional column */
+/* On wider breakpoints, extend element outwards by an additional column */
 .u-extend {
+    $margin-left: percentage(1/3);
+
+    .s-prose & {
+        @include susy-media($b__b) {
+            margin-left: ($margin-left * -1);
+        }
+    }
+}
+
+
+
+/* On wider breakpoints, bleed element to edges of the main container */
+.u-bleed {
     $margin-left: percentage(1/3);
     $gutter-left: ($u__baseline * 2);
 

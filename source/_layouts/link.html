@@ -5,7 +5,7 @@ layout: default
     {% include page/header.html %}
 
     {% if page.link.embed %}
-        {% figure c-page__media u-extend %}
+        {% figure c-page__media u-bleed %}
 {% embed {{ page.link.url }} %}
         {% endfigure %}
     {% endif %}

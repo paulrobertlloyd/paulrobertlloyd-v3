@@ -19,11 +19,11 @@ This sounded right up my street, so shortly after midnight I headed straight to 
 
 I haven't spent nearly enough time in this 'Area of Outstanding Natural Beauty', especially when you consider it's close proximity to my parents home in Walsall. Of course in the early January frost, the landscape was just incredible. With the crisp ground crunching beneath my feet, and clean fresh air filling my lungs, I couldn't have asked for a better start to 2009.
 
-{% figure u-extend %}
+{% figure u-bleed %}
 {% picture showcase /2009/01/day_one_cannock_chase_2.jpg alt="Frosty Cannock Chase" %}
 {% endfigure %}
 
-{% figure c-figure--image-duo u-extend "Frost over Cannock Chase" %}
+{% figure c-figure--image-duo u-bleed "Frost over Cannock Chase" %}
 {% picture /2009/01/day_one_cannock_chase_3.jpg alt="Frosty Cannock Chase" %}
 {% picture /2009/01/day_one_cannock_chase_4.jpg alt="Frosty Cannock Chase" %}
 {% endfigure %}

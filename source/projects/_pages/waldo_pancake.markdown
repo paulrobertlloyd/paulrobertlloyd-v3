@@ -4,6 +4,7 @@ title: Waldo Pancake
 date: '2011-02-09'
 excerpt: A new home for Jim Smith, purveyor of the funniest coffee cups.
 permalink: /projects/waldo_pancake
+hero: [desktop-1, desktop-2]
 meta:
   client: Jim Smith
   year: 2011
@@ -11,10 +12,13 @@ meta:
 ---
 Jim Smith (aka <cite>[Waldo Pancake][1]</cite>) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every Puccino's coffee shop.
 
-With an existing site that was Flash-based, Jim's work could no longer be viewed on mobile devices. Jim asked me to redevelop his website, retaining slideshows of work (updated by simply uploading images via an FTP client) that would work across all platforms.
+With an existing site that was Flash-based, his work could no longer be viewed on mobile devices. Jim asked me to redevelop his website, retaining the slideshows of work (updated by uploading images via an FTP client), yet implemented using standards-based web technologies.
+
+In addition to visualising designs in HTML, I created a file based content management system in PHP, and used jQuery to provide cross-browser compatible image slideshows.
 
 [1]: http://waldopancake.com/
 [2]: http://puccinosworldwide.com/
 
 *[aka]: also known as
 *[FTP]: File Transfer Protocol
+*[PHP]: PHP: Hypertext Preprocessor
