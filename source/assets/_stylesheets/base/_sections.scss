@@ -95,6 +95,7 @@ h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     font-size: 1em;
+    font-weight: inherit;
 
     @media print {
         page-break-after: avoid;
