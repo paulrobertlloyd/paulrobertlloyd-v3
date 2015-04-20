@@ -2,10 +2,10 @@
 layout: project
 title: 24 ways
 date: '2013-12-01'
-excerpt: Award-winning collaborative redesign for popular advent calendar for web geeks.
+excerpt: Award-winning redesign for popular advent calendar for web geeks.
 permalink: /projects/24_ways
 theme: [inverted, 24-ways]
-hero: [desktop-1, desktop-2, mobile]
+hero: [desktop-1, desktop-2, phone]
 meta:
   client: Drew McLellan
   year: 2013
