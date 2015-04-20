@@ -21,7 +21,7 @@ Always eager to learn more about the discipline, this exhibition about [Le Corbu
 
 The exhibition is divided into three parts. 'Context' charts his early influences and features his early designs for villas in Switzerland and France. 'Privacy and Publicity' explores his passion and advocacy of 'type-objects' -- lights, tables, chairs and other items for which he furnished his buildings or endorsed in his periodicals. The final section 'Built Art' is the largest of the three sections and perhaps where 'The Art of Architecture' is most evident. With many of his paintings, tapestries and sculptures on display, this section also features his later signature buildings such as the [Unité d'Habitation][5] in Marsilles, the [Philips Pavilion][6] for Expo 58 in Brussels, as well as his urban planning and architecture in [Chandigarh][7], the capital of Punjab and Haryana in India.
 
-{% figure c-figure--caption-right u-extend "The Philips Pavilion at the 1958 World's Fair in Brussels" %}
+{% figure c-figure--caption-right u-bleed "The Philips Pavilion at the 1958 World's Fair in Brussels" %}
 {% picture /2009/05/le_corbusier_phillips_pavilion.jpg %}
 {% endfigure %}
 

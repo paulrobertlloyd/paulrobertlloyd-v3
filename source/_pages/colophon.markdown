@@ -17,14 +17,15 @@ This site is published using [Jekyll][7] with a number of supporting plugins:
 
 Other notable tools and services used to build this site include:
 
-  * [exiftool][14] by Matthew McEachen and Phil Harvey
-  * [fontfaceobserver][15] by Bram Stein
-  * [Picturefill][16] by Filament Group, Inc.
-  * [Susy][17] by Eric M. Suzanne 
-  * [typogruby][18] by Arjan van der Gaag
-  * [MapBox][19] by Mapbox Inc.
+  * [converjon][14] by Leon Weidauer
+  * [exiftool][15] by Matthew McEachen and Phil Harvey
+  * [fontfaceobserver][16] by Bram Stein
+  * [Picturefill][17] by Filament Group, Inc.
+  * [Susy][18] by Eric M. Suzanne
+  * [typogruby][19] by Arjan van der Gaag
+  * [MapBox][20] by Mapbox Inc.
 
-I always try to adhere to [web standards][20] and best practices. Pages are semantically structured using valid [HTML5][21] with presentational design provided by [CSS][22]. Syndicated feeds are available using [Atom][23]-flavoured RSS.
+I always try to adhere to [web standards][21] and best practices. Pages are semantically structured using valid [HTML5][22] with presentational design provided by [CSS][23]. Syndicated feeds are available using [Atom][24]-flavoured RSS.
 
 [1]: http://apple.com/macbook-pro/
 [2]: http://bohemiancoding.com/sketch/
@@ -39,6 +40,7 @@ I always try to adhere to [web standards][20] and best practices. Pages are sema
 [11]: https://rubygems.org/gems/jekyll-sitemap
 [12]: https://rubygems.org/gems/jekyll-smartify
 [13]: https://github.com/christian-fei/Simple-Jekyll-Search
+[14]: https://github.com/berlinonline/converjon
 [14]: https://rubygems.org/gems/exiftool
 [15]: https://npmjs.com/package/fontfaceobserver
 [16]: https://scottjehl.github.io/picturefill/

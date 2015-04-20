@@ -70,7 +70,7 @@ When a country like Britain spends 800 million pounds a year promoting itself ov
 
 As a means of promoting British design, technology, and innovation around the world, the Millennium Products initiative asked British companies to demonstrate their ability to lead the world in design. Successful designs included the Eurostar train, modern-day sign posting in Birmingham and a clockwork radio. When the final set of Millennium Product products were announced in December 1999, 1012 had received this status. These are being exhibited at EXPO 2000 in Hanover and British Government buildings around the world.
 
-{% figure u-extend "The Eurostar train was a Millennium Product" %}
+{% figure u-bleed "The Eurostar train was a Millennium Product" %}
 {% picture /articles/britain_rebranded/mp_eurostar.jpg %}
 {% endfigure %}
 

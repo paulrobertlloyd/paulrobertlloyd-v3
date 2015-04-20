@@ -5,7 +5,7 @@ layout: default
     {% include page/header.html %}
 
     {% if page.image %}
-        {% figure c-page__media u-extend "{{ page.image.caption }}" %}
+        {% figure c-page__media u-bleed "{{ page.image.caption }}" %}
 {% picture feature {{ page.image.url }} %}
         {% endfigure %}
     {% endif %}

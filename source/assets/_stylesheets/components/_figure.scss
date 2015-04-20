@@ -2,8 +2,8 @@
     Figure
     ========================================================================= */
 .c-figure {
+    @include clearfix;
     margin-bottom: ($u__baseline * 1.5);
-    overflow: hidden;
 }
 
 .c-figure__main {
@@ -24,7 +24,7 @@
         margin-bottom: $u__baseline;
     }
 
-    .u-extend & {
+    .u-bleed & {
         margin-right: $u__baseline;
         margin-left: $u__baseline;
 
@@ -65,7 +65,7 @@
         }
     }
 
-    &.u-extend {
+    &.u-bleed {
         .c-figure__main {
             @include susy-media($b__c) {
                 @include span(3 at 1 of (4 3 3 3 3));
@@ -115,6 +115,7 @@
     img {
         @include gutters($u__baseline);
         margin-top: ($u__baseline * 1.5);
+        box-shadow: 0 0 0 1px $c__neutral--a;
     }
 }
 

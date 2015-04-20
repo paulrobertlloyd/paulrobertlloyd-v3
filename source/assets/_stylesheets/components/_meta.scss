@@ -5,6 +5,7 @@
 .c-meta {
     @include ff--sans-serif;
     @include fs--caption;
+    margin-top: ($u__baseline / 2);
 }
 
 .c-meta__title {

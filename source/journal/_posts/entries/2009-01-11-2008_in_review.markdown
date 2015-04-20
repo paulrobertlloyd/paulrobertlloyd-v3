@@ -14,7 +14,7 @@ I really loved San Francisco, but it never felt like home. Whilst this was mainl
 
 With this in mind, January saw me return to California to tie up loose ends and say my good-byes, as well as attend an [Edward Tufte][2] seminar and visit the Macworld Expo (where I was able to get my hands on the newly announced MacBook Air). I also took the time out to savour some favourites one last time -- the Smoked Turkey sandwich from [Atlas Cafe][3] in the Mission and a Latte at [Farley's Coffee][4] on Potrero Hill -- two dietary treats that still make my mouth water!
 
-{% figure c-figure--caption-right u-extend "My new desk and office space in February" %}
+{% figure c-figure--caption-right u-bleed "My new desk and office space in February" %}
 {% picture /2009/01/2008_in_review_new_office.jpg %}
 {% endfigure %}
 
@@ -27,7 +27,7 @@ One benefit of this new capacity for self-determination was that it allowed for 
 
 In anticipation of my travels, I purchased a more professional camera in the shape of the [Canon Powershot G9][7]. With a large set of manual controls, the capacity to shoot raw, and the ability to add lens filters, whilst small enough to fit in my pocket, this camera seemed most suited to my needs when compared to a larger dSLR that I would have to lug around.
 
-{% figure u-extend "Waking up on the third day of my trip on the California Zephyr, I was greeted by this amazing sunrise over Nebraskan farmland" %}
+{% figure u-bleed "Waking up on the third day of my trip on the California Zephyr, I was greeted by this amazing sunrise over Nebraskan farmland" %}
 {% picture showcase /2009/01/2008_in_review_nebraska.jpg %}
 {% endfigure %}
 

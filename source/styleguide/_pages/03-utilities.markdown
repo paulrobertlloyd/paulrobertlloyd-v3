@@ -40,3 +40,8 @@ This & that
 **.u-extend**{: .u-extend.block }
 
 Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+
+#### `.u-bleed`
+**.u-bleed**{: .u-bleed.block }
+
+Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
