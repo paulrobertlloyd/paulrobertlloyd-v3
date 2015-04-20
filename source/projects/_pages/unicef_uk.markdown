@@ -5,6 +5,7 @@ date: '2013-07-01'
 excerpt: Mobile-first redesign for leading children's charity.
 permalink: /projects/unicef_uk
 theme: [inverted, unicef-uk]
+hero: [phone, phablet, tablet]
 meta:
   client: UNICEF UK
   year: 2013
@@ -42,9 +43,6 @@ We placed considerable attention on ensuring the performance of the site didn't 
 We experimented with different ways of simplifying wayfinding around the site. By removing layers of navigation and advocating the inclusion of more links within body copy, we were able to reduce unnecessary interactions and invoke fewer taps. Moving breadcrumb navigation to a slide-out menu meant users could orientate themselves within the site.
 
 ## Mobile-first design
-{% figure "Design on mobile and tablet" %}
-{% endfigure %}
-
 The underlying design language encompassed a variety of content types and clearly delineated between areas of navigation and content. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site -- even on larger screens. In time, it is hoped this responsive mobile design will form the foundation of a fully responsive site, accessible from all devices, large or small.
 
 [1]: http://clearleft.com/made/unicef

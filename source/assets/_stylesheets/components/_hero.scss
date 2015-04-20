@@ -18,6 +18,7 @@ $u__shadow-size: 4px;
     top: 0;
 }
 
+/* Desktop screens */
 .c-hero__screen--desktop,
 .c-hero__screen--desktop-1,
 .c-hero__screen--desktop-2 {
@@ -38,9 +39,10 @@ $u__shadow-size: 4px;
     z-index: 2;
 }
 
+/* Tablet screen */
 .c-hero__screen--tablet {
     top: 0;
-    right: 10%;
+    right: 17.5%;
     z-index: 2;
     background-image: url(asset_path('hero-tablet.png'));
     background-repeat: no-repeat;
@@ -49,11 +51,24 @@ $u__shadow-size: 4px;
     width: span(2 at 3);
 }
 
-.c-hero__screen--mobile {
+/* Phablet screen */
+.c-hero__screen--phablet {
+    top: ($u__baseline * 2);
+    left: span(1 at 1 wide);
+    z-index: 1;
+    background-image: url(asset_path('hero-phablet.png'));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5% 2% 0;
+    width: span(1 at 1 wide);
+}
+
+/* Phone screen */
+.c-hero__screen--phone {
     top: ($u__baseline * 6);
-    right: 0;
+    right: $u__baseline;
     z-index: 3;
-    background-image: url(asset_path('hero-mobile.png'));
+    background-image: url(asset_path('hero-phone.png'));
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 2.5% 0.8% 0;
