@@ -9,7 +9,6 @@ layout: compress
 <html lang="en-gb" class="{% for theme in page.theme %}t-{{ theme | append:' ' }}{% endfor %}">
 <!--#endif-->
 <head>
-    <link rel="dns-prefetch" href="//hello.myfonts.net"/>
     <link rel="dns-prefetch" href="{{ site.picture.cdn_url }}"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="//gravatar.com"/>{% endif %}
     {% if section == "index.html" or location == "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
