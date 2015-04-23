@@ -4,7 +4,7 @@ title: Colophon
 excerpt: This site is built using a variety of third-party tools and services.
 permalink: /colophon/
 ---
-This website is produced on an [Apple Mac][1], using [Sketch][2] to realise early design concepts before being coded in [TextMate][3]. I use and recommend [WebFaction][4] for web hosting. Type is set in [Charter ITC][5] and [Calibre][6].
+This website is produced on an [Apple Mac][1], using [Sketch][2] to realise early design concepts before being coded in [TextMate][3]. I use and recommend [WebFaction][4] for web hosting. Type is set in [Tiempos Text][5] and [Calibre][6], both designed by Kris Sowersby.
 
 This site is published using [Jekyll][7] with a number of supporting plugins:
 
@@ -31,7 +31,7 @@ I always try to adhere to [web standards][21] and best practices. Pages are sema
 [2]: http://bohemiancoding.com/sketch/
 [3]: http://macromates.com/
 [4]: https://webfaction.com/?aid=42929
-[5]: http://myfonts.com/fonts/itc/charter/
+[5]: https://klim.co.nz/retail-fonts/tiempos-text/
 [6]: https://klim.co.nz/retail-fonts/calibre/
 [7]: http://jekyllrb.com/
 [8]: https://rubygems.org/gems/jekyll-archives
