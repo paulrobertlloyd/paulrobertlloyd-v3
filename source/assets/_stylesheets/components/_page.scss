@@ -10,7 +10,7 @@
     margin-bottom: ($u__baseline * 2);
     padding-top: ($u__baseline * 1.5); // Required for .c-page__pubdate
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         padding-top: 0;
         padding-left: span(1 wide);
     }
@@ -19,7 +19,7 @@
 .c-page__main {
     margin-bottom: ($u__baseline * 2);
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         @include span(4 at 2 last);
     }
 }
@@ -33,7 +33,7 @@
 .c-page__excerpt {
     margin-bottom: ($u__baseline * 2);
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         margin-bottom: ($u__baseline * 4);
     }
 }
@@ -41,7 +41,7 @@
 .c-page__aside {
     margin-bottom: ($u__baseline * 2);
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         @include span(1 at 1 first);
     }
 }
@@ -61,18 +61,18 @@
     left: 0;
     color: $c__neutral--4;
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         top: 1rem;
     }
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         top: 1.75rem;
     }
 }
 
 .c-page__tags,
 .c-page__discussion {
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         @include span(4 at 2);
     }
 }

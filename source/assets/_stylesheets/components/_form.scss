@@ -22,7 +22,7 @@
     padding: ($u__baseline / 2);
     font-weight: 700;
 
-    @include susy-media($b__a) {
+    @media (min-width: $b__a) {
         bottom: 0;
         border-width: 0 1px 0 0;
         width: span(1 of 4);
@@ -31,7 +31,7 @@
     &::after {
         content: ':';
 
-        @include susy-media($b__a) {
+        @media (min-width: $b__a) {
             content: '';
         }
     }
@@ -45,7 +45,7 @@
     padding-top: ($u__baseline * 3);
     width: 100%;
 
-    @include susy-media($b__a) {
+    @media (min-width: $b__a) {
         padding-top: ($u__baseline / 2);
         padding-left: span(1 of 4);
     }

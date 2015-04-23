@@ -3,10 +3,17 @@
     ========================================================================= */
 
 .c-navigation {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1002;
-    height: 0;
+    @media print {
+        display: none;
+        position: static;
+    }
+
+    @media screen {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1002;
+        height: 0;
+    }
 }

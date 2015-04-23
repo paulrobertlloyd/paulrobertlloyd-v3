@@ -47,6 +47,16 @@
     a:not(.c-button) {
         @include text-decoration-color(rgba($c__identity--1, 0.5));
 
+        @media print {
+            @include text-decoration-color($c__neutral--2);
+
+            &::after {
+                @include ff--monospace;
+                font-size: 80%;
+                content: '[' attr(href) ']';
+            }
+        }
+
         .t-inverted & {
             @include text-decoration-color($c__neutral--9a);
         }

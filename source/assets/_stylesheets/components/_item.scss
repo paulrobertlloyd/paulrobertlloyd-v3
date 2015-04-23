@@ -19,6 +19,7 @@
 }
 
 .c-item__media {
+    margin-bottom: ($u__baseline / 2);
     order: 3;
 }
 
@@ -53,7 +54,7 @@
     width: span(1 of 8);
     height: auto;
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         left: ((span(1 of 8) + gutter()) * -1);
     }
 }
@@ -73,12 +74,14 @@
 
 /* Link */
 .c-item--link {
-    @include susy-media($b__c) {
-        padding-right: span(1 of 4 wide);
-    }
-
     .c-item__title a[href^="http://"]::after {
         content: ' \2192';
+    }
+
+    .c-item__body {
+        @media (min-width: $b__c) {
+            padding-right: span(1 of 4 wide);
+        }
     }
 }
 
@@ -87,11 +90,11 @@
 .c-item--remark {
     padding-left: (span(1 of 8) + gutter());
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         padding-left: 0;
     }
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         padding-right: span(1 of 4 wide);
     }
 }
@@ -117,7 +120,7 @@
 .c-item--project {
     @include gallery(2 of 4);
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         @include gallery(2 of 6);
     }
 }

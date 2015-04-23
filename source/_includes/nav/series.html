@@ -15,7 +15,7 @@
     <ol class="c-nav c-nav--series o-list">
     {% for item in series offset:1 %}
         <li class="c-nav__item o-list__item{% if page.url == item.url %} is-active{% endif %}">
-            <a class="c-nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
+            <a class="c-nav__item__label" href="{{ item.url }}">{% if item.path contains "photos" %}Photos: {% endif %}{{ item.title }}</a>
         </li>
     {% endfor %}
     </ol>

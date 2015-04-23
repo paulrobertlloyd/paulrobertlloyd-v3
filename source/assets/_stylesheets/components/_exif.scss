@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .c-exif__title {
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         position: absolute;
         top: 0;
     }
@@ -13,7 +13,7 @@
     margin-bottom: $u__baseline;
     overflow: hidden;
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         position: absolute;
         bottom: 0;
     }
@@ -26,7 +26,7 @@
     width: 25%;
 
     &:nth-child(2n+2) {
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             width: 50%;
         }
     }
@@ -35,7 +35,7 @@
     &[data-exif="model"] {
         width: 50%;
 
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             width: 100%;
         }
     }

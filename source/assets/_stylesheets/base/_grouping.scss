@@ -29,7 +29,7 @@ blockquote {
     padding-right: $u__baseline;
     padding-left: $u__baseline;
 
-    @include susy-media(print) {
+    @media print {
         page-break-inside: avoid;
     }
 
@@ -63,7 +63,7 @@ ul {
     padding: 0;
     list-style-position: inside;
 
-    @include susy-media($b__a) {
+    @media (min-width: $b__a) {
         list-style-position: outside;
     }
 

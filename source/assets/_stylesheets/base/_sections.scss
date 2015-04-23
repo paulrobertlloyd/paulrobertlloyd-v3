@@ -27,6 +27,10 @@ body {
     font-size: $u__font-size;
     font-smoothing: antialiased;
 
+    @media print {
+        color: $c__neutral !important;
+    }
+
     .t-inverted & {
         background-color: $c__neutral--1;
         color: $c__neutral--9;
