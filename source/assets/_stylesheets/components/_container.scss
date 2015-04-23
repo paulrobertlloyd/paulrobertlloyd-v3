@@ -76,6 +76,11 @@
     @media (min-width: $b__b) {
         @include span(3);
     }
+
+    .s-lede {
+        @include fs--body;
+        line-height: (5/4);
+    }
 }
 
 
@@ -83,6 +88,11 @@
 .c-container--extra {
     @media (min-width: $b__b) {
         @include span(2 at 4);
+    }
+
+    .s-lede {
+        @include fs--body;
+        line-height: (5/4);
     }
 }
 
