@@ -40,7 +40,7 @@ layout: compress
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
-    {% if page.image %}<meta name="twitter:image" content="{{ site.img_url }}/180w/80/{{ page.image.url }}"/>{% endif %}
+    {% if page.image %}<meta name="twitter:image" content="{{ site.img_url }}/180w/80{{ page.image.url }}"/>{% endif %}
 {% endif %}
 
     <noscript><link rel="stylesheet" href="{% asset_path global.css %}"></noscript>
