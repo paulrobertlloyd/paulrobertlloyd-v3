@@ -7,12 +7,12 @@
     margin-right: $u__baseline;
     margin-left: $u__baseline;
 
-    @include susy-media($b__a) {
+    @media (min-width: $b__a) {
         margin-right: ($u__baseline * 2);
         margin-left: ($u__baseline * 2);
     }
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         margin-right: auto;
         margin-left: auto;
     }

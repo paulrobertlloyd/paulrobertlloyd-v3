@@ -32,13 +32,13 @@
 /* Index container */
 .c-container--index {
     .c-container__header {
-        @include susy-media($b__a) {
+        @media (min-width: $b__a) {
             @include span(1 of (3 3 3 3) first);
         }
     }
 
     .c-container__main {
-        @include susy-media($b__a) {
+        @media (min-width: $b__a) {
             @include span(3 of (3 3 3 3) last);
         }
     }
@@ -47,7 +47,7 @@
 
 /* Homepage intro */
 .c-container--intro {
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         .c-container__header {
             @include span(1 first);
         }
@@ -73,7 +73,7 @@
 
 /* Homepage pitch */
 .c-container--pitch {
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         @include span(3);
     }
 }
@@ -81,7 +81,7 @@
 
 /* Homepage extra */
 .c-container--extra {
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         @include span(2 at 4);
     }
 }
@@ -92,7 +92,7 @@
     .c-nav__item {
         @include gallery(2 of 4);
 
-        @include susy-media($b__b) {
+        @media (min-width: $b__b) {
             @include gallery(2 of 6);
         }
     }

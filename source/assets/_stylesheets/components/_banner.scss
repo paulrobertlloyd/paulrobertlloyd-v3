@@ -3,16 +3,23 @@
     ========================================================================= */
 
 .c-banner {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1002;
     background-color: rgba($c__neutral--9, 0.95);
     padding-bottom: ($u__baseline * 2);
     text-align: center;
 
-    @include susy-media($b__a) {
+    @media print {
+        position: static;
+    }
+
+    @media screen {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1002;
+    }
+
+    @media (min-width: $b__a) {
         padding-bottom: 0;
         text-align: left;
     }
@@ -75,13 +82,15 @@
     height: ($u__baseline * 3);
     fill: $c__neutral--2;
 
-    @include susy-media($b__a) {
+    @media (min-width: $b__a) {
         width: ($u__baseline * 4);
         height: ($u__baseline * 4);
     }
 
-    .t-inverted &,
-    .t-home & {
-        fill: $c__neutral--9;
+    @media screen {
+        .t-inverted &,
+        .t-home & {
+            fill: $c__neutral--9;
+        }
     }
 }

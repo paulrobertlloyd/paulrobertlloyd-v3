@@ -3,9 +3,15 @@
     ========================================================================= */
 
 .c-main {
-    padding-top: ($u__baseline * 6);
+    @media print {
+        padding-top: ($u__baseline * 4);
+    }
 
-    @include susy-media($b__c) {
+    @media screen {
+        padding-top: ($u__baseline * 6);
+    }
+
+    @media screen and (min-width: $b__c) {
         padding-top: ($u__baseline * 8);
     }
 

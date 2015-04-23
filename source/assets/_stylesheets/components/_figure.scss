@@ -28,19 +28,19 @@
         margin-right: $u__baseline;
         margin-left: $u__baseline;
 
-        @include susy-media($b__a) {
+        @media (min-width: $b__a) {
             margin-right: ($u__baseline * 2);
             margin-left: ($u__baseline * 2);
         }
 
-        @include susy-media($b__b) {
+        @media (min-width: $b__b) {
             $margin-left: span(1 wide);
             $gutter-left: $u__baseline;
 
             padding-left: calc(#{$margin-left} - #{$gutter-left});
         }
 
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             margin-right: 0;
             margin-left: 0;
             padding-left: span(1 wide);
@@ -52,13 +52,13 @@
 /* Caption positioning */
 .c-figure--caption-right {
     .c-figure__main {
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             @include span(3 at 1 of (3 3 3 3));
         }
     }
 
     .c-figure__caption {
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             @include rule(before);
             @include rule(after, $display: none);
             @include span(1 at 4  of (3 3 3 3));
@@ -67,13 +67,13 @@
 
     &.u-bleed {
         .c-figure__main {
-            @include susy-media($b__c) {
+            @media (min-width: $b__c) {
                 @include span(3 at 1 of (4 3 3 3 3));
             }
         }
 
         .c-figure__caption {
-            @include susy-media($b__c) {
+            @media (min-width: $b__c) {
                 @include span(2 at 4 of (4 3 3 3 3));
                 padding-right: 0;
                 padding-left: 0;
@@ -95,7 +95,7 @@
     }
 
     .c-figure__caption {
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             position: absolute;
             top: 0;
             right: 0;

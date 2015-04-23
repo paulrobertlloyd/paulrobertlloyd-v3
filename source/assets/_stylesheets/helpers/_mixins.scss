@@ -65,11 +65,11 @@
     font-size: 2rem; // 32px
     letter-spacing: -0.015em;
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         font-size: 2.5rem; // 40px
     }
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         font-size: 3.5rem; // 56px
     }
 }
@@ -79,17 +79,17 @@
     font-size: 1.5rem; // 24px
     letter-spacing: -0.02em;
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         font-size: 1.75rem; // 28px
     }
 }
 
 @mixin fs--heading-3 {
-    line-height: (20/16);
+    line-height: (18/16);
     font-size: 1.25rem; // 20px
     letter-spacing: -0.015em;
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         font-size: 1.5rem; // 24px
     }
 }
@@ -99,7 +99,7 @@
     font-size: 1rem; // 16px
     letter-spacing: -0.01em;
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         font-size: 1.25rem; // 20px
     }
 }
@@ -109,11 +109,11 @@
     font-size: 1rem; // 16px
     letter-spacing: 0.0075em;
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         font-size: 1.125rem; // 18px
     }
 
-    @include susy-media($b__c) {
+    @media (min-width: $b__c) {
         font-size: 1.1875rem; // 19px
     }
 }

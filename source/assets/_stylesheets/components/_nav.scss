@@ -16,7 +16,7 @@
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
 
-    @include susy-media($b__a) {
+    @media (min-width: $b__a) {
         margin-top: 0;
         margin-left: span(1 wide);
         padding-top: ($u__baseline * 2);
@@ -30,14 +30,14 @@
     .c-nav__item {
         @include span(1 of 4);
 
-        @include susy-media($b__a) {
+        @media (min-width: $b__a) {
             display: inline-block;
             float: none;
             margin-right: gutter();
             text-align: right;
         }
 
-        @include susy-media($b__b) {
+        @media (min-width: $b__b) {
             width: span(1 of 6);
         }
     }
@@ -69,13 +69,17 @@
     @include rule;
     overflow: hidden;
 
-    @include susy-media($b__b) {
+    @media (min-width: $b__b) {
         position: absolute;
         bottom: 1rem;
     }
 
-    @include susy-media($b__d) {
+    @media (min-width: $b__d) {
         @include rule($display: none);
+    }
+
+    @media print {
+        display: none;
     }
 
     .c-nav__item {
@@ -83,7 +87,7 @@
         margin-right: $u__baseline;
         font-weight: 700;
 
-        @include susy-media($b__d) {
+        @media (min-width: $b__d) {
             position: fixed;
             bottom: ($u__baseline * 1.5);
             transition: all 0.2s;
@@ -92,7 +96,7 @@
     }
 
     .c-nav__item__label {
-        @include susy-media($b__d) {
+        @media (min-width: $b__d) {
             display: none;
             float: left;
             height: ($u__baseline * 4);
@@ -101,7 +105,7 @@
     }
 
     .c-nav__item--prev {
-        @include susy-media($b__d) {
+        @media (min-width: $b__d) {
             left: 0;
             margin-left: $u__baseline;
         }
@@ -109,7 +113,7 @@
         &::before {
             content: '\27E8\00A0';
 
-            @include susy-media($b__d) {
+            @media (min-width: $b__d) {
                 display: block;
                 float: left;
                 height: ($u__baseline * 4);
@@ -121,14 +125,14 @@
     }
 
     .c-nav__item--next {
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             right: 0;
         }
 
         &::after {
             content: '\00A0\27E9';
 
-            @include susy-media($b__d) {
+            @media (min-width: $b__d) {
                 display: block;
                 float: left;
                 height: ($u__baseline * 4);
@@ -142,7 +146,7 @@
     // Hover states
     .c-nav__item--prev:hover::before,
     .c-nav__item--next:hover::after {
-        @include susy-media($b__c) {
+        @media (min-width: $b__c) {
             color: $c__neutral--6;
         }
     }
