@@ -37,7 +37,7 @@ This is where the relaxed nature of US regulation becomes a problem. For example
 
 This harmonisation would be result of a mechanism known as the 'Investor-State Dispute Settlement' (ISDS). This gives corporations the power to sue governments for the potential reduction of profits resulting from a law being made.
 
-This clause is already present in similar trade agreements –– you may have heard about Philip Morris' attempts to sue the Australian government for introducing plain packaging on cigarettes:
+This clause is already present in similar trade agreements -- you may have heard about Philip Morris' attempts to sue the Australian government for introducing plain packaging on cigarettes:
 
 {% embed https://www.youtube.com/watch?v=6UsHHOCH4q8 %}
 
@@ -46,7 +46,7 @@ ISDS disputes take place in secret and bypass and override domestic judicial sys
 ## Combination
 The impact of TTIP has been largely been ignored during the current general election campaign (noticeably so by UKIP), receiving only passing mention in what often sound like academic debates about privatisation of the NHS. The main parties (including Labour) are largely positive towards the agreement, believing it will boast trade and reduce unemployment, regardless of [studies that prove the opposite][6].
 
-It's worrying to think how legislation like TTIP, designed to liberalise markets, would further empower those corporations born on the internet. As their interests extend to the devices embedded within every aspect of our lives (with the data flowing between them co-opted by the national security services), it's hard not to see a future where we citizens become merely serfs, feeding the machine its daily diet of clicks and taps.
+It's worrying to think how legislation like TTIP, designed to liberalise markets, would further empower those corporations born on the internet. As their interests extend to the devices embedded within every aspect of our lives (with the data flowing between them co-opted by the national security services), it's hard not to see a future where citizens become merely serfs, feeding the machine its daily diet of clicks and taps.
 
 [1]: http://www.theguardian.com/commentisfree/2015/apr/16/challenge-google-while-we-can-eu-anti-trust
 [2]: https://en.wikipedia.org/wiki/Technological_determinism

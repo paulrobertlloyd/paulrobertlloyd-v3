@@ -28,7 +28,7 @@
     * + h2,
     * + h3,
     * + h4 {
-        margin-top: ($u__baseline * 2);
+        margin-top: ($u__baseline * 3);
     }
 
     > p,
@@ -42,6 +42,12 @@
     > .c-embed,
     .highlighter-rouge {
         margin-bottom: ($u__baseline * 1.25);
+    }
+
+    // Adjust font-size of san-serif emboldened text, so x-height matches serif
+    p > strong,
+    dt {
+        font-size: 115%;
     }
 
     a:not(.c-button) {

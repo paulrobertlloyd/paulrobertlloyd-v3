@@ -8,12 +8,12 @@
         return;
     }
 
-    var charterRegular = new win.FontFaceObserver('Charter', {
+    var tiemposRegular = new win.FontFaceObserver('Tiempos', {
         weight: 'normal',
         style: 'normal'
     });
 
-    var charterItalic = new win.FontFaceObserver('Charter', {
+    var tiemposItalic = new win.FontFaceObserver('Tiempos', {
         weight: 'normal',
         style: 'italic'
     });
@@ -34,7 +34,7 @@
     });
 
     win.Promise
-        .all([charterRegular.check, charterItalic.check, calibreRegular.check, calibreItalic.check, calibreSemibold.check])
+        .all([tiemposRegular.check, tiemposItalic.check, calibreRegular.check, calibreItalic.check, calibreSemibold.check])
         .then(function () {
             doc.documentElement.className += ' fonts-loaded';
             win.enhance.cookie('fonts-loaded', !0, 7);

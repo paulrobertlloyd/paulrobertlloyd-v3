@@ -8,6 +8,8 @@ theme: inverted
     <div class="c-page__main s-prose e-content">
         {{ content | typogrify | namespace }}
 
+        <hr/>
+
         {% capture album_path %}{{ page.path | replace:"photos/_posts/","assets/images/photos/" | remove:".markdown" }}{% endcapture %}
         {% directory path: album_path %}
         <figure class="c-figure c-figure--photo c-figure--caption-right u-bleed">
