@@ -1,5 +1,5 @@
 env: production
-url: //v3.paulrobertlloyd.com
+url: https://v3.paulrobertlloyd.com
 
 # Compress HTML
 compress_html:
@@ -16,4 +16,4 @@ assets:
 
 # Picture
 picture:
-  cdn_url: //images.v3.paulrobertlloyd.com
+  cdn_url: https://images.paulrobertlloyd.com
