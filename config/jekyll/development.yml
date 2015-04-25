@@ -1,5 +1,5 @@
 env: development
-url: https://paulrobertlloyd.dev
+url: http://paulrobertlloyd.dev
 
 # Assets
 assets:
@@ -9,4 +9,4 @@ assets:
 
 # Picture
 picture:
-  cdn_url: https://images.paulrobertlloyd.dev
+  cdn_url: http://images.paulrobertlloyd.dev
