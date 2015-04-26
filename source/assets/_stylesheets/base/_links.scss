@@ -13,14 +13,15 @@ a {
         outline: 0;
     }
 
-    &:active {
-    /*  Remove gray background color from active links in IE 10 */
-        background-color: transparent;
+    &:focus {
+        outline: 1px solid $c__focus;
+        background-color: $c__focus;
     }
 
-    &:focus {
-        outline: 4px solid $c__focus;
-        background-color: $c__focus;
+    &:active {
+        outline: 0;
+    /*  Remove gray background color from active links in IE 10 */
+        background-color: transparent;
     }
 }
 
