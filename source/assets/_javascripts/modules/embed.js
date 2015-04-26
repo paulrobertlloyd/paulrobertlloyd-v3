@@ -8,8 +8,8 @@
 (function (win, doc) {
     'use strict';
 
-    // Embed.rb generates a <p> element, so look for those first
-    var p = doc.getElementsByTagName('p');
+    var breakpoint = win.getComputedStyle(doc.documentElement, ':after').getPropertyValue('content');
+    var p          = doc.getElementsByTagName('p'); // Embed.rb generates a <p> element, so look for those first
     for (var i = 0; i < p.length; i = i + 1) {
 
         // If a <p> has the right attributes…
@@ -19,7 +19,7 @@
             var type;
 
             // …and if the viewport is wider than 32em, embed!
-            if (win.matchMedia('(min-width: 32em)')) {
+            if (breakpoint.indexOf('s') !== -1) {
                 src = embed.getAttribute('data-embed-src');
                 type = embed.getAttribute('data-embed-type');
                 embed.className += ' c-embed--' + type;

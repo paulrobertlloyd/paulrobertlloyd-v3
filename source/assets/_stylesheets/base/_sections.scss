@@ -9,6 +9,23 @@
 
 html {
     box-sizing: border-box;
+
+    &::after {
+        display: none;
+        content: 's';
+
+        @media screen and (min-width: $b__a) {
+            content: 'm';
+        }
+
+        @media screen and (min-width: $b__b) {
+            content: 'l';
+        }
+
+        @media screen and (min-width: $b__c) {
+            content: 'xl';
+        }
+    }
 }
 
 *,

@@ -28,7 +28,7 @@ $c__neutral--9: lighten($c__neutral, 90%);
 $c__neutral--9a: rgba($c__neutral--9, 0.25);
 
 $c__select: rgba($c__identity--2, 0.1);
-$c__focus: rgba($c__identity--2, 0.2);
+$c__focus: mix($c__identity--2, $c__neutral--9, 20%);
 
 $c__24-ways: #ff0040;
 $c__unicef-uk: #00afef;
@@ -60,10 +60,10 @@ $susy: (
     gutters: 0.5,
     global-box-sizing: border-box,
     last-flow: to,
-//    debug: (
-//        image: show,
-//        color: $c__focus,
-//        output: overlay,
-//        toggle: bottom right,
-//    )
+    debug: (
+        image: show,
+        color: $c__focus,
+        output: overlay,
+        toggle: bottom right,
+    )
 );
