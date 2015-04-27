@@ -10,6 +10,7 @@
 
     var breakpoint = win.getComputedStyle(doc.documentElement, ':after').getPropertyValue('content');
     var p          = doc.getElementsByTagName('p'); // Embed.rb generates a <p> element, so look for those first
+
     for (var i = 0; i < p.length; i = i + 1) {
 
         // If a <p> has the right attributes…
@@ -18,8 +19,8 @@
             var src;
             var type;
 
-            // …and if the viewport is wider than 32em, embed!
-            if (breakpoint.indexOf('s') !== -1) {
+            // …and if the breakpint is not that of 's', embed!
+            if (breakpoint.indexOf('s') == -1) {
                 src = embed.getAttribute('data-embed-src');
                 type = embed.getAttribute('data-embed-type');
                 embed.className += ' c-embed--' + type;
