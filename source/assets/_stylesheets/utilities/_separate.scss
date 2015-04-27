@@ -5,7 +5,7 @@
 .u-separate {
     &::after {
         opacity: 0.5;
-        margin: 0 ($u__baseline / 2);
+        margin: 0 ($u__baseline * 0.5) 0 ($u__baseline * 0.75);
         font-weight: normal;
         content: '/';
     }
