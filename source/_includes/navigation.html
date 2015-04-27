@@ -1,18 +1,10 @@
 <nav class="c-navigation u-container" role="navigation" aria-labelledby="menu">
     <h1 class="c-navigation__title u-audible" id="menu">Menu</h1>
 
-    <ul class="c-nav c-nav--primary o-list">
-        <li class="c-nav__item o-list__item{% if section == "journal" %} is-active{% endif %}">
-            <a class="c-nav__item__label" href="/journal/">Journal</a>
-        </li>
-        <li class="c-nav__item o-list__item{% if section == "projects" %} is-active{% endif %}">
-            <a class="c-nav__item__label" href="/projects/">Projects</a>
-        </li>
-        <li class="c-nav__item o-list__item{% if section == "photos" %} is-active{% endif %}">
-            <a class="c-nav__item__label" href="/photos/">Photos</a>
-        </li>
-        <li class="c-nav__item o-list__item{% if section == "contact" %} is-active{% endif %}">
-            <a class="c-nav__item__label" href="/contact/">Contact</a>
-        </li>
-    </ul>
+    <p class="c-navigation__links">
+        <a class="c-navigation__link{% if section == "journal" %} is-active{% endif %}" href="/journal/">Journal</a>
+        <a class="c-navigation__link{% if section == "projects" %} is-active{% endif %}" href="/projects/">Projects</a>
+        <a class="c-navigation__link{% if section == "photos" %} is-active{% endif %}" href="/photos/">Photos</a>
+        <a class="c-navigation__link{% if section == "contact" %} is-active{% endif %}" href="/contact/">Contact</a>
+    </p>
 </nav>

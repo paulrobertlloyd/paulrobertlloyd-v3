@@ -3,18 +3,10 @@
         <small class="c-contentinfo__copyright">© <abbr title="{{ site.time | date:"%Y" }}">{{ site.time | date:"%Y" | roman }}</abbr> {{ site.author.name }}. Content <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">{{ site.license.type }} licensed</a> unless otherwise stated.</small>
     </p>
 
-    <ul class="c-contentinfo__links o-list o-list--inline">
-        <li class="o-list__item u-separate">
-            <a href="/archive">Archive</a>
-        </li>
-        <li class="o-list__item u-separate">
-            <a href="/colophon">Colophon</a>
-        </li>
-        <li class="o-list__item u-separate">
-            <a href="/styleguide">Styleguide</a>
-        </li>
-        <li class="o-list__item u-separate">
-            <a href="{{ site.scm.url }}" rel="source">Source</a>
-        </li>
-    </ul>
+    <p class="c-contentinfo__links">
+        <a class="c-contentinfo__link u-separate" href="/archive">Archive</a>
+        <a class="c-contentinfo__link u-separate" href="/colophon">Colophon</a>
+        <a class="c-contentinfo__link u-separate" href="/styleguide">Styleguide</a>
+        <a class="c-contentinfo__link u-separate" href="{{ site.scm.url }}" rel="source">Source</a>
+    </p>
 </footer>
