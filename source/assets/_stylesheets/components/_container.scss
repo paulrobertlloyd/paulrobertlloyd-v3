@@ -4,7 +4,7 @@
 
 .c-container {
     @include clearfix;
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 2);
 
     + .c-container {
         border-top: 1px solid $c__neutral--a;
