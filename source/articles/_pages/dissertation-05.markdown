@@ -33,7 +33,6 @@ Theme specific identities were also created for sport, drama and children's prog
 {% picture thumbnail /articles/dissertation/figure-10b.png alt="ITV Childrens logo, 1989" %}
 {% picture thumbnail /articles/dissertation/figure-10c.png alt="ITV Sport logo, 1989" %}
 {% picture thumbnail /articles/dissertation/figure-10d.png alt="ITV Drama logo, 1989" %}
-
 {% picture thumbnail /articles/dissertation/figure-10e.png alt="Combined Border logo, 1989" %}
 {% picture thumbnail /articles/dissertation/figure-10f.png alt="Combined London Weekend Television logo, 1989" %}
 {% picture thumbnail /articles/dissertation/figure-10g.png alt="Combined Thames Television logo, 1989" %}

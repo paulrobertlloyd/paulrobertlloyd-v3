@@ -16,7 +16,7 @@
     h3 {
         @include ff--sans-serif(700);
         @include fs--heading-3;
-        margin-bottom: $u__baseline;
+        margin-bottom: ($u__baseline / 4);
     }
 
     h4 {
