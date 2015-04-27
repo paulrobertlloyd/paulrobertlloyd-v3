@@ -2,11 +2,20 @@
     Embeded content
     ========================================================================= */
 
-.c-embed {
+[class*="c-embed--"] {
     position: relative;
     background-color: $c__neutral--a;
     padding-bottom: percentage(2/3);
     height: 0;
+}
+
+.c-embed--video {
+    padding-bottom: percentage(9/16);
+}
+
+.c-embed--slidedeck {
+    padding-top: 63px; // Speaker Deck player header and footer chrome height
+    padding-bottom: percentage(3/4);
 }
 
 .c-embed__iframe {
@@ -17,13 +26,4 @@
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.c-embed--video {
-    padding-bottom: percentage(9/16);
-}
-
-.c-embed--slidedeck {
-    padding-top: 63px; // Speaker Deck player header and footer chrome height
-    padding-bottom: percentage(3/4);
 }

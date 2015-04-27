@@ -99,22 +99,24 @@
     &:last-child {
         margin-right: 0;
     }
-}
 
-.c-navigation__link.is-active {
-    .is-fixed & {
-        box-shadow: inset 0 2px 0 0 $c__neutral--2;
+    &.is-active {
+        font-weight: 700;
 
-        .t-inverted & {
+        .is-fixed & {
+            box-shadow: inset 0 2px 0 0 $c__neutral--2;
+        }
+
+        .t-inverted .is-fixed & {
             box-shadow: inset 0 2px 0 0 $c__neutral--9;
         }
-    }
 
-    @media (min-width: $b__a) {
-        box-shadow: inset 0 3px 0 0 $c__neutral--2;
+        @media (min-width: $b__a) {
+            box-shadow: inset 0 3px 0 0 $c__neutral--2;
 
-        .t-inverted & {
-            box-shadow: inset 0 3px 0 0 $c__neutral--9;
+            .t-inverted & {
+                box-shadow: inset 0 3px 0 0 $c__neutral--9;
+            }
         }
     }
 }
