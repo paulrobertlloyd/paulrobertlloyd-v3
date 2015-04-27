@@ -85,11 +85,12 @@
 }
 
 @mixin fs--heading-3 {
-    line-height: (18/16);
+    line-height: (24/20);
     font-size: 1.25rem; // 20px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__c) {
+        line-height: (28/24);
         font-size: 1.5rem; // 24px
     }
 }
