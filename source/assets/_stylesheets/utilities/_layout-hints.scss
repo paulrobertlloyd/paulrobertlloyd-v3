@@ -2,21 +2,29 @@
     Layout hints
     ========================================================================= */
 
-$grid: (4 3 3 3 3);
-$context-inner: nested(4 of $grid at 2);
-
 /* Align element right or left */
 .u-align-right {
-    @include span(1 of $context-inner last);
+    float: right;
     margin-top: 0;
     margin-bottom: ($u__baseline / 2);
     margin-left: gutter();
+    width: percentage(1/3);
+
+    @media (min-width: $b__b) {
+        width: span(1 of $g__inner);
+    }
 }
 
 .u-align-left {
-    @include span(1 of $context-inner first);
+    float: left;
     margin-top: 0;
+    margin-right: gutter();
     margin-bottom: ($u__baseline / 2);
+    width: percentage(1/3);
+
+    @media (min-width: $b__b) {
+        width: span(1 of $g__inner);
+    }
 }
 
 
@@ -32,15 +40,19 @@ $context-inner: nested(4 of $grid at 2);
 
 /* Pull element right or left */
 .u-pull-right {
+    max-width: 100%;
+
     @media (min-width: $b__a) {
-        @include span(2 of $context-inner last);
+        @include span(2 of $g__inner last);
         margin-left: gutter();
     }
 }
 
 .u-pull-left {
+    max-width: 100%;
+
     @media (min-width: $b__a) {
-        @include span(2 of $context-inner first);
+        @include span(2 of $g__inner first);
         margin-left: (percentage(1/3) * -1);
     }
 }

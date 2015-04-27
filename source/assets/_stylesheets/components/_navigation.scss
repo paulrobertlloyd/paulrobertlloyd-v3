@@ -87,11 +87,8 @@
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
 
-    $grid: (4 3 3 3 3);
-    $context: nested(4 of $grid at 2);
-
     @media (min-width: $b__a) {
-        @include span(1 of $context at 1);
+        @include span(1 of $g__inner at 1);
         padding-top: ($u__baseline * 2);
         padding-bottom: $u__baseline;
     }

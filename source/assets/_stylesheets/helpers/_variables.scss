@@ -49,6 +49,9 @@ $b__d: 65rem; // 1040px
 
 
 // Grid (Susy)
+$g__cols: (4 3 3 3 3);
+$g__inner: nested(4 of $g__cols at 2);
+
 $susy: (
     flow: ltr,
     math: fluid,
@@ -56,7 +59,7 @@ $susy: (
     gutter-position: after,
     container: auto,
     container-position: center,
-    columns: 4 3 3 3 3,
+    columns: $g__cols,
     gutters: 0.5,
     global-box-sizing: border-box,
     last-flow: to,

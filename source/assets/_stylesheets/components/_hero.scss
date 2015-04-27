@@ -29,14 +29,22 @@ $u__shadow-size: 4px;
 .c-hero__screen--desktop,
 .c-hero__screen--desktop-1 {
     top: ($u__baseline * 2);
-    left: ($u__baseline * 2);
+    left: 0;
     z-index: 1;
+
+    @media (min-width: $b__b) {
+        left: ($u__baseline * 2);
+    }
 }
 
 .c-hero__screen--desktop-2 {
     top: $u__shadow-size;
-    right: ($u__baseline * 2);
+    right: 0;
     z-index: 2;
+
+    @media (min-width: $b__b) {
+        right: ($u__baseline * 2);
+    }
 }
 
 /* Tablet screen */

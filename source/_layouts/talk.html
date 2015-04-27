@@ -6,7 +6,7 @@ layout: default
 
     <div class="c-page__main s-prose e-content">
         {% if page.link.embed %}
-            <!-- embed {{ page.link.url }} -->
+            {% embed {{ page.link.url }} %}
         {% endif %}
 
         {{ content | typogrify | namespace }}

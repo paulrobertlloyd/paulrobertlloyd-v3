@@ -77,10 +77,6 @@
     }
 }
 
-.c-page__tags {
-    @include rule;
-}
-
 .c-page__tags__title {
     @include fs--caption;
     float: left;

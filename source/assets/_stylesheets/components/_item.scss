@@ -5,8 +5,12 @@
 .c-item {
     display: flex;
     position: relative;
-    margin-bottom: ($u__baseline * 2);
+    margin-bottom: ($u__baseline * 4);
     flex-direction: column;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
 }
 
 .c-item__header {
@@ -34,6 +38,10 @@
 .c-item__body {
     > * {
         margin-bottom: ($u__baseline / 2);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -83,6 +91,13 @@
             padding-right: span(1 of 4 wide);
         }
     }
+}
+
+
+/* Article/Talk */
+.c-item--article,
+.c-item--talk {
+    margin-bottom: ($u__baseline * 2);
 }
 
 
