@@ -5,6 +5,7 @@ date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter
 theme: [inverted, matter]
+hero: [phone, tablet, desktop]
 meta:
   client: Matter Publishing
   year: 2012
@@ -16,7 +17,8 @@ The brainchild of journalists Bobbie Johnson and Jim Giles, _MATTER_ is home to 
 After an enormously successful [Kickstarter campaign][1] proved there was a real desire for high-quality, focused, long-form writing, Bobbie and Jim [asked Clearleft][2] to envisage the user experience and visual design. I worked [alongside Jeremy Keith][3] who did the front-end development, and [Phil Gyford][4] who handled the Django-based back-end.
 
 ## Identity
-{% figure "Image of logo sketches" %}
+{% figure "Early logo sketches" %}
+{% picture /projects/matter/logo_sketches.jpg %}
 {% endfigure %}
 
 {% figure "Logo on the website, t-shirt and Twitter profile" %}
@@ -28,10 +30,11 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 Much of my work for MATTER focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that MATTER aims for.
 
 ## Typography
-{% figure "Type samples/experimentation" %}
-{% endfigure %}
-
-{% figure "Type specimens for Calluna and Calluna Sans" %}
+{% figure c-figure--image-quartet "Type samples/experimentation" %}
+{% picture thumbnail /projects/matter/type_calluna.png %}
+{% picture thumbnail /projects/matter/type_centro.png %}
+{% picture thumbnail /projects/matter/type_enigma.png %}
+{% picture thumbnail /projects/matter/type_ptsans.png %}
 {% endfigure %}
 
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
