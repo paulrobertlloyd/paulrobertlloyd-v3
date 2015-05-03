@@ -4,6 +4,7 @@ title: Apture
 date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
 permalink: /projects/apture
+hero: [desktop-1.png, desktop-2.png]
 meta:
   client: Apture
   year: 2009
@@ -14,13 +15,8 @@ _Apture_ was a publishing tool that gave content creators the power to find and 
 
 Working alongside Apture's CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.
 
-{% figure "The deign of the company's logo was informed by the key interaction of the product; small windows of information that could spring from a page being represented by three colourful gems." %}
-{% endfigure %}
-
-{% figure "Website TBD" %}
-{% endfigure %}
-
-{% figure "The media-hub browsing interface needed to suggest breath of media available without overwhelming the user. Much like designing for mobile, its small window meant simplifying complex interactions within a confined space." %}
+{% figure "The deign of the company's logo was informed by a key interaction in the product. Three colourful gems represent the small windows of information that spring from an Apture enhanced page." %}
+{% picture /projects/apture/logo.svg %}
 {% endfigure %}
 
 {% figure "<cite>Tristan Harris, co-founder and CEO</cite>" %}

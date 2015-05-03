@@ -4,6 +4,7 @@ title: Universal Playback
 date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.
 permalink: /projects/universal_playback
+hero: [desktop-1.png, desktop-2.png]
 meta:
   client: NBCUniversal
   year: 2010
@@ -13,7 +14,10 @@ _Playback_ is the TV-on-DVD label of Universal Pictures in the UK, responsible f
 
 With a diverse catalogue that includes dramas, classic sitcoms and cult television programmes from Universal, BBC and ITV, NBCUniversal was looking to draw on its range of exclusive imagery and video footage, and increase the presence of its Playback brand.
 
-<mark>TBD</mark>
+Working alongside [Andy Hume][1] and [Rob Pearson][2] at Clearleft, I developed a modular design that could showcase differing types of content. As Playback often acts as a supporting brand to the television shows it releases, an element of customisation was added, allowing site editors to choose a colour palette that would coordinate with a show's branding.
+
+[1]: http://clearleft.com/is/andy-hume
+[2]: http://clearleft.com/is/rob-pearson
 
 *[TV]: television
 *[DVD]: Digital Versatile Disc
