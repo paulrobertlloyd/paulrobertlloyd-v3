@@ -28,7 +28,7 @@ Any discussion about encryption usually leaves me confused and befuddled (the sh
 
 My new website serves only static resources (pages are generated using [Jekyll][10] on my local machine), does not submit any form data (my contact form uses [Formspree][11], a third-party service), and does not transmit any sensitive data. Therefore I believe it's safe for me to continue using compression. However, if you have a website that posts sensitive data (perhaps you have a secure admin area), you may wish to investigate this issue further.
 
-In the meantime, perhaps there needs to be a discussion about the approaches that will help us to build websites that both secure _and_ fast.
+In the meantime, perhaps there needs to be a discussion about which approaches will help us build websites that are both secure _and_ fast.
 
 [^1]: I originally thought I wasn't able to override this behaviour because requests to my custom-configured nginx instance are proxied via WebFaction's [own front-end nginx process][12]. After considerable head scratching, I realised several conflicting nginx processes were running. Quitting these and starting a new single process fixed the issue.
 
