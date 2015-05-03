@@ -5,7 +5,9 @@ layout: default
     {% include page/header.html %}
 
     {% if page.hero %}
-        {% include page/hero.html %}
+        {% figure c-page__media %}
+{% include hero.html hero=page.hero %}
+        {% endfigure %}
     {% endif %}
 
     <div class="c-page__main s-prose e-content">

@@ -5,7 +5,7 @@ date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 permalink: /projects/matter
 theme: [inverted, matter]
-hero: [phone, tablet, desktop]
+hero: [phone.png, tablet.png, desktop.png]
 meta:
   client: Matter Publishing
   year: 2012

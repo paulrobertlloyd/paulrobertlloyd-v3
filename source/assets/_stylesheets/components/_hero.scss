@@ -6,7 +6,6 @@ $u__shadow-size: 4px;
 
 .c-hero {
     position: relative;
-    margin-bottom: ($u__baseline * 2);
     border-bottom: 1px solid $c__neutral--a;
     padding-bottom: 40%;
     overflow: hidden;
@@ -15,7 +14,9 @@ $u__shadow-size: 4px;
 .c-hero__screen {
     display: block;
     position: absolute;
-    top: 0;
+    top: $u__shadow-size;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 /* Desktop screens */
@@ -29,7 +30,7 @@ $u__shadow-size: 4px;
 .c-hero__screen--desktop,
 .c-hero__screen--desktop-1 {
     top: ($u__baseline * 2);
-    left: 0;
+    left: $u__shadow-size;
     z-index: 1;
 
     @media (min-width: $b__b) {
@@ -39,7 +40,7 @@ $u__shadow-size: 4px;
 
 .c-hero__screen--desktop-2 {
     top: $u__shadow-size;
-    right: 0;
+    right: $u__shadow-size;
     z-index: 2;
 
     @media (min-width: $b__b) {
@@ -48,15 +49,33 @@ $u__shadow-size: 4px;
 }
 
 /* Tablet screen */
-.c-hero__screen--tablet {
-    top: 0;
+.c-hero__screen--tablet,
+.c-hero__screen--tablet-1 {
+    top: $u__shadow-size;
     right: 17.5%;
     z-index: 2;
-    background-image: url(asset_path('hero-tablet.png'));
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 5.5% 2% 0;
+    background-image: url(asset_path('hero-tablet-portrait.png'));
+    padding: 5.4% 2.1%;
     width: span(2 at 3);
+}
+
+.c-hero__screen--tablet-1 {
+    right: $u__shadow-size;
+    z-index: 3;
+
+    @media (min-width: $b__b) {
+        right: ($u__baseline * 2);
+    }
+}
+
+.c-hero__screen--tablet-2 {
+    top: auto;
+    bottom: ($u__baseline * -1.5);
+    left: 17.5%;
+    z-index: 2;
+    background-image: url(asset_path('hero-tablet-landscape.png'));
+    padding: 2.1% 5.4%;
+    width: (span(2 at 3) * 946/640); // Width/height of tablet image
 }
 
 /* Phablet screen */
@@ -65,8 +84,6 @@ $u__shadow-size: 4px;
     left: span(1 at 1 wide);
     z-index: 1;
     background-image: url(asset_path('hero-phablet.png'));
-    background-repeat: no-repeat;
-    background-size: 100%;
     padding: 5% 2% 0;
     width: span(1 at 1 wide);
 }
@@ -77,8 +94,6 @@ $u__shadow-size: 4px;
     right: $u__baseline;
     z-index: 3;
     background-image: url(asset_path('hero-phone.png'));
-    background-repeat: no-repeat;
-    background-size: 100%;
     padding: 2.5% 0.8% 0;
     width: span(1 at 3);
 }

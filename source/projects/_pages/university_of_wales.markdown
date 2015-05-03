@@ -4,7 +4,7 @@ title: University of Wales
 date: '2009-10-29'
 excerpt: An extensible design language for international university.
 permalink: /projects/university_of_wales
-hero: [desktop-1, desktop-2]
+hero: [desktop-1.png, desktop-2.png]
 meta:
   client: University of Wales
   year: 2009

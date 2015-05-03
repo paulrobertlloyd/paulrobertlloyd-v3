@@ -4,6 +4,7 @@ title: Mozilla Add-ons
 date: '2009-05-29'
 excerpt: Introducing browser add-ons to a mainstream audience.
 permalink: /projects/mozilla_addons
+hero: [desktop-1.png, desktop-2.png]
 meta:
   client: Mozilla Corporation
   year: 2009

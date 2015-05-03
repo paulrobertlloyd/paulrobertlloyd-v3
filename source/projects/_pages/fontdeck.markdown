@@ -5,7 +5,7 @@ date: '2010-11-30'
 excerpt: Defining a distinctive look for the purveyor of the finest web fonts.
 permalink: /projects/fontdeck
 theme: fontdeck
-hero: [desktop-1, desktop-2]
+hero: [desktop-1.png, desktop-2.png]
 meta:
   client: Clearleft/OmniTI
   year: 2010 - 2013

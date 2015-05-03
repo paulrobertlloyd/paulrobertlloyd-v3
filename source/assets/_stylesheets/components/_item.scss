@@ -7,10 +7,6 @@
     position: relative;
     margin-bottom: ($u__baseline * 4);
     flex-direction: column;
-
-    &:last-of-type {
-        margin-bottom: 0;
-    }
 }
 
 .c-item__header {
