@@ -36,20 +36,22 @@
 
 // Font families
 @mixin ff--serif($font-weight: normal) {
-    font-family: serif;
+    font-family: 'Georgia', serif;
     font-weight: $font-weight;
 
     .fonts-loaded & {
-        font-family: 'Tiempos', serif;
+        font-family: 'Tiempos', 'Georgia', serif;
+        font-size-adjust: 0.481;
     }
 }
 
 @mixin ff--sans-serif($font-weight: normal) {
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: $font-weight;
 
     .fonts-loaded & {
-        font-family: 'Calibre', sans-serif;
+        font-family: 'Calibre', 'Helvetica Neue', sans-serif;
+        font-size-adjust: 0.523;
     }
 }
 

@@ -12,6 +12,13 @@
     @media (min-width: $b__b) {
         @include span(1 first);
     }
+
+    // Hide title on smallest breakpoint, as can be seen in sticky header
+    .c-index--landing & {
+        @media (max-width: $b__a) {
+            display: none;
+        }
+    }
 }
 
 .c-index__main {
