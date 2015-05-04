@@ -82,6 +82,14 @@
 }
 
 
+/* Series */
+.c-container--series__label {
+    @include fs--caption;
+    display: block;
+    font-weight: normal;
+}
+
+
 /* Projects */
 .c-container--projects {
     .c-nav__item {

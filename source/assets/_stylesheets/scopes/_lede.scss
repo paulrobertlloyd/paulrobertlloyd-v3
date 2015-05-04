@@ -5,7 +5,7 @@
 .s-lede {
     @include decorated-links;
     @include ff--sans-serif;
-    @include fs--heading-3;
+    @include fs--lede;
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     > p,

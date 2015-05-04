@@ -11,8 +11,14 @@ layout: default
             {% endfigure %}
         {% endif %}
 
+        {% if page.embed %}
+            {% figure u-bleed "{{ page.embed.caption }}" %}
+{% embed {{ page.embed.url }} %}
+            {% endfigure %}
+        {% endif %}
+
         {% if page.series %}
-            {% include nav/series.html class="u-aside" %}
+            {% include nav/series-posts.html class="u-aside" %}
         {% endif %}
 
         {{ content | typogrify | namespace }}

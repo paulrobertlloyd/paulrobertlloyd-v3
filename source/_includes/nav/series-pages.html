@@ -1,0 +1,17 @@
+{% assign series = site.pages | where:"series",page.series %}
+<nav class="c-container c-container--series {{ include.class }}" aria-labelledby="chapters">
+    <header class="c-container__header">
+        <h1 class="c-container__title audible" id="chapters">Chapters</h1>
+    </header>
+
+    <ol class="c-nav c-nav--series o-list">
+        <li class="c-nav__item o-list__item{% if page.url == series[0].url %} is-active{% endif %}">
+            <a class="c-nav__item__label" href="{{ series[0].url }}">Introduction</a>
+        </li>
+        {% for item in series offset:1 %}
+        <li class="c-nav__item o-list__item{% if page.url == item.url %} is-active{% endif %}">
+            <a class="c-nav__item__label" href="{{ item.url }}">{% if item.path contains "photos" %}Photos: {% endif %}{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</nav>

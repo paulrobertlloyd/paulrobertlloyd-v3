@@ -1,24 +1,17 @@
-{% comment %}
-    Use if statement until arrays can be combined in Liquid.
-    See: https://github.com/Shopify/liquid/pull/429
-{% endcomment %}
-{% if page.path contains "_posts" %}
-    {% assign series = site.posts | where:"series",page.series | sort:date %}
-{% else %}
-    {% assign series = site.pages | where:"series",page.series %}
-{% endif %}
+{% assign series = site.posts | where:"series",page.series | sort:date %}
 <nav class="c-container c-container--series {{ include.class }}" aria-labelledby="series">
     <header class="c-container__header">
         <h1 class="c-container__title" id="series">
-            <a class="c-container__link" href="{{ series[0].url }}">{{ page.series }}</a>
+            <span class="c-container--series__label">Series:</span>
+            <span class="c-container--series__title">{{ page.series }}<span>
         </h1>
     </header>
 
     <ol class="c-nav c-nav--series o-list">
-    {% for item in series offset:1 %}
+        {% for item in series %}
         <li class="c-nav__item o-list__item{% if page.url == item.url %} is-active{% endif %}">
             <a class="c-nav__item__label" href="{{ item.url }}">{% if item.path contains "photos" %}Photos: {% endif %}{{ item.title }}</a>
         </li>
-    {% endfor %}
+        {% endfor %}
     </ol>
 </nav>
