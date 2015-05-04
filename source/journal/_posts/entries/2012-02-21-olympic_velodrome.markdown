@@ -1,10 +1,9 @@
 ---
-layout: link
+layout: entry
 title: The Olympic Velodrome
 date: '2012-02-21 01:52:40 +0000'
-link:
-  url: https://www.flickr.com/photos/paulrobertlloyd/6913342093/
-  embed: photo
+image:
+  url: /2012/02/olympic_velodrome.jpg
 tags:
   - Photography
   - Architecture

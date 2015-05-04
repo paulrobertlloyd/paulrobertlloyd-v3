@@ -7,9 +7,11 @@
 {% else %}
     {% assign series = site.pages | where:"series",page.series %}
 {% endif %}
-<nav class="c-container c-container--series" aria-labelledby="series">
+<nav class="c-container c-container--series {{ include.class }}" aria-labelledby="series">
     <header class="c-container__header">
-        <h1 class="c-container__title" id="series"><a href="{{ series[0].url }}">{{ page.series }}</a></h1>
+        <h1 class="c-container__title" id="series">
+            <a class="c-container__link" href="{{ series[0].url }}">{{ page.series }}</a>
+        </h1>
     </header>
 
     <ol class="c-nav c-nav--series o-list">

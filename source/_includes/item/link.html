@@ -5,16 +5,14 @@
         </h1>
     </header>
 
-    {% if item.link.embed == "photo" or item.link.embed == "video" %}
-    <div class="c-item__media">
-        {% embed {{ item.link.url }} %}
-    </div>
-    {% endif %}
+    <div class="c-item__main p-summary">
+        {% if item.link.embed == "photo" or item.link.embed == "video" %}
+            {% figure u-bleed %}
+{% embed {{ item.link.url }} %}
+            {% endfigure %}
+        {% endif %}
 
-    <div class="c-item__main">
-        <div class="c-item__body p-summary">
-            {{ item.content | markdownify | typogrify | namespace }}
-        </div>
+        {{ item.content | markdownify | typogrify | namespace }}
     </div>
 
     <footer class="c-item__footer">

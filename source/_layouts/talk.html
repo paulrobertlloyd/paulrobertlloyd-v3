@@ -5,18 +5,16 @@ layout: default
     {% include page/header.html %}
 
     <div class="c-page__main s-prose e-content">
+        {% if page.meta %}
+            {% include meta.html class="u-aside" %}
+        {% endif %}
+
         {% if page.link.embed %}
             {% embed {{ page.link.url }} %}
         {% endif %}
 
         {{ content | typogrify | namespace }}
     </div>
-
-    {% if page.meta %}
-        <div class="c-page__aside">
-            {% include meta.html %}
-        </div>
-    {% endif %}
 
     {% include page/discussion.html %}
 

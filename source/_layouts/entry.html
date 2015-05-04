@@ -4,21 +4,19 @@ layout: default
 <article class="c-page c-page--entry h-entry">
     {% include page/header.html %}
 
-    {% if page.image %}
-        {% figure c-page__media "{{ page.image.caption }}" %}
-{% picture feature {{ page.image.url }} %}
-        {% endfigure %}
-    {% endif %}
-
     <div class="c-page__main s-prose e-content">
+        {% if page.image %}
+            {% figure u-bleed "{{ page.image.caption }}" %}
+{% picture feature {{ page.image.url }} %}
+            {% endfigure %}
+        {% endif %}
+
+        {% if page.series %}
+            {% include nav/series.html class="u-aside" %}
+        {% endif %}
+
         {{ content | typogrify | namespace }}
     </div>
-
-    {% if page.series %}
-        <div class="c-page__aside">
-            {% include nav/series.html %}
-        </div>
-    {% endif %}
 
     {% include page/discussion.html %}
 

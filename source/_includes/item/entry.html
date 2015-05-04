@@ -5,10 +5,14 @@
         </h1>
     </header>
 
-    <div class="c-item__main">
-        <div class="c-item__body s-lede p-summary">
-            {{ item.excerpt | markdownify | typogrify | namespace }}
-        </div>
+    <div class="c-item__main s-lede p-summary">
+        {% if item.tags contains "Photography" %}
+            {% figure u-bleed %}
+{% picture feature {{ item.image.url }} %}
+            {% endfigure %}
+        {% endif %}
+
+        {{ item.excerpt | markdownify | typogrify | namespace }}
     </div>
 
     <footer class="c-item__footer">

@@ -1,10 +1,9 @@
 ---
-layout: link
+layout: entry
 title: West Pier at Sunset
 date: '2011-10-21 03:40:13 +0100'
-link:
-  url: https://www.flickr.com/photos/paulrobertlloyd/6251638865/in/set-72157627785545113/
-  embed: photo
+image:
+  url: /2011/10/west_pier_at_sunset.jpg
 tags:
   - Photography
   - Architecture

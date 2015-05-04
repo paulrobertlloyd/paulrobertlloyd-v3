@@ -38,14 +38,6 @@
     }
 }
 
-.c-page__aside {
-    margin-bottom: ($u__baseline * 2);
-
-    @media (min-width: $b__b) {
-        @include span(1 at 1 first);
-    }
-}
-
 .c-page__location {
     @include ff--sans-serif;
     @include fs--caption;

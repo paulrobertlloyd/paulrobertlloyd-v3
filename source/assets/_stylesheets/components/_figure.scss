@@ -7,8 +7,6 @@
 }
 
 .c-figure__main {
-    margin-bottom: $u__baseline;
-
     img {
         display: block;
         max-width: 100%;
@@ -19,6 +17,7 @@
     @include ff--sans-serif;
     @include fs--caption;
     @include rule(after);
+    margin-top: $u__baseline;
 
     p {
         margin-bottom: $u__baseline;

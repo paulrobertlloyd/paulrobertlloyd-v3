@@ -4,18 +4,18 @@ layout: default
 <article class="c-page c-page--link h-entry">
     {% include page/header.html %}
 
-    {% if page.link.embed %}
-        {% figure c-page__media u-bleed %}
-{% embed {{ page.link.url }} %}
-        {% endfigure %}
-    {% endif %}
-
     <div class="c-page__main s-prose e-content">
-        {{ content | typogrify | namespace }}
-    </div>
+        {% if page.link.embed %}
+            {% figure u-bleed %}
+{% embed {{ page.link.url }} %}
+            {% endfigure %}
+        {% endif %}
 
-    <div class="c-page__aside">
-        <p><a class="c-button" href="{{ page.link.url }}">Visit this link</a></p>
+        <div class="u-aside">
+            <p><a class="c-button" href="{{ page.link.url }}">Visit this link</a></p>
+        </div>
+
+        {{ content | typogrify | namespace }}
     </div>
 
     {% include page/discussion.html %}

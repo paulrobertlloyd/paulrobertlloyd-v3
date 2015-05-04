@@ -18,27 +18,12 @@
     order: 2;
 }
 
-.c-item__media {
-    margin-bottom: ($u__baseline / 2);
-    order: 3;
-}
-
 .c-item__main {
-    order: 4;
+    order: 3;
 }
 
 .c-item__title {
     @include fs--heading-3;
-}
-
-.c-item__body {
-    > * {
-        margin-bottom: ($u__baseline / 2);
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
 }
 
 .c-item__meta {
@@ -80,12 +65,6 @@
 .c-item--link {
     .c-item__title a[href^="http://"]::after {
         content: ' \2192';
-    }
-
-    .c-item__body {
-        @media (min-width: $b__c) {
-            padding-right: span(1 of 4 wide);
-        }
     }
 }
 

@@ -5,11 +5,17 @@
 .c-meta {
     @include ff--sans-serif;
     @include fs--caption;
-    margin-top: ($u__baseline / 2);
+    overflow: hidden;
 }
 
 .c-meta__title {
     @include rule($height: 1px);
+
+    @media (max-width: $b__b) {
+        @include span(1 at 1);
+        clear: left;
+        padding-bottom: $u__baseline;
+    }
 
     &:first-of-type {
         @include rule;
@@ -19,6 +25,17 @@
 .c-meta__value {
     margin-left: 0;
     padding-bottom: $u__baseline;
+
+    @media (max-width: $b__b) {
+        @include rule($height: 1px);
+        @include span(4 at 2 last);
+    }
+
+    &:first-of-type {
+        @media (max-width: $b__b) {
+            margin-top: 3px;
+        }
+    }
 
     p {
         margin: 0;
