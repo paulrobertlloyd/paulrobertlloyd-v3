@@ -46,10 +46,6 @@ blockquote {
         border-left: 1px solid $c__neutral--a;
         content: '';
     }
-
-    :last-child {
-        margin-bottom: 0;
-    }
 }
 
 figure,

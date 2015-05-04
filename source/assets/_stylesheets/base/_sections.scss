@@ -39,7 +39,6 @@ body {
     margin: 0 auto;
     background-color: $c__neutral--9;
     text-rendering: geometricPrecision;
-    line-height: ($u__baseline-unitless * 1.5);
     color: $c__neutral--1;
     font-size: $u__font-size;
     font-smoothing: antialiased;
@@ -114,7 +113,6 @@ h5,
 h6 {
     margin: 0;
     text-rendering: optimizeLegibility;
-    line-height: 1;
     font-size: 1em;
     font-weight: inherit;
 

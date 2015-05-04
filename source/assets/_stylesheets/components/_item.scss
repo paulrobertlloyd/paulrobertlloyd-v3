@@ -5,7 +5,7 @@
 .c-item {
     display: flex;
     position: relative;
-    margin-bottom: ($u__baseline * 4);
+    margin-bottom: ($u__baseline * 2.5);
     flex-direction: column;
 }
 
@@ -66,13 +66,6 @@
     .c-item__title a[href^="http://"]::after {
         content: ' \2192';
     }
-}
-
-
-/* Article/Talk */
-.c-item--article,
-.c-item--talk {
-    margin-bottom: ($u__baseline * 2);
 }
 
 

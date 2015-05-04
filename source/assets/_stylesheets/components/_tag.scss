@@ -4,7 +4,6 @@
 
 .c-tag {
     @include ff--sans-serif;
-    @include fs--caption;
     display: inline-block;
     margin-right: ($u__baseline / 2);
     text-transform: lowercase;

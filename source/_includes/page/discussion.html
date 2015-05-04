@@ -1,5 +1,5 @@
 {% if page.discussion %}
-    {% capture entry_id %}{{ page.path | remove:"journal/_posts/entries/" | remove:"journal/_posts/links/" | remove:".markdown" }}{% endcapture %}
+    {% capture entry_id %}{{ page.path | remove:"journal/_posts/" | remove:"links/_posts/" | remove:".markdown" }}{% endcapture %}
     {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
     <section class="c-page__discussion c-container" aria-labelledby="discussion">
         <header class="c-container__header">
