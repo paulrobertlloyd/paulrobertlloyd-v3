@@ -23,7 +23,7 @@ The following day I visited SFMoMA, a modern art museum that is far more spaciou
 Before going on to visit the equally impressive City Hall, I enjoyed a discussion about the role of technology with [Tristan][1] in South Park, whilst sipping an Iced Latte -- when in Rome do as the Romans do. That evening I shared a selection of scrumptious pizzas at Zero Zero with David and Athena whilst catching up on the latest gossip and industry insight.
 
 {% figure "Outdoor corridor at Stanford University" %}
-{% picture /2011/03/san_francisco_stanford_university.jpg %}
+{% picture /2011/03/san_francisco_stanford_university.jpg alt="" %}
 {% endfigure %}
 
 On Friday, I headed south to Palo Alto, where I wandered around the beautiful grounds of Stanford University -- why I never did this whilst I lived so close I don't know, as the free Marguerite shuttle made doing so all too easy. That evening I had dinner with Steve in a Redwood City pub that had a subtle British theme; the table service supplied a well prepared selection of dishes, including many inspired by traditional English faire, with the background music sourced from my side of the Atlantic.

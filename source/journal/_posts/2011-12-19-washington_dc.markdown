@@ -28,7 +28,7 @@ In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for
 
 ## Apple Picking in Virginia
 {% figure "The Apple Pickers" %}
-{% picture /2011/12/washington_dc_apple_pickers.jpg %}
+{% picture /2011/12/washington_dc_apple_pickers.jpg alt="" %}
 {% endfigure %}
 
 The fun continued on Sunday when I went Apple picking with Shannon and some of her friends at the [Stribling Orchard][18] in rural Virginia. Having visited Washington before, I jumped at the chance to get out of the city and try something new. It wasn't long before I was trying out the accent and batting apples across the orchard, baseball style. It's a sight I'm sure [Kyle][19] would have paid good money to see; I'd gone native!
