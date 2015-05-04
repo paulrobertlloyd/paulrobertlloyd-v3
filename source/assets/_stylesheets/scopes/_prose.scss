@@ -3,8 +3,9 @@
     ========================================================================= */
 
 .s-prose {
+    @include decorated-links;
     @include ff--serif;
-    @include fs--body;
+    @include fs--prose;
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
@@ -49,37 +50,11 @@
         font-size: 115%;
     }
 
-    a:not([class]) {
-        @include text-decoration-color(rgba($c__identity--1, 0.5));
-
+    a::after {
         @media print {
-            @include text-decoration-color($c__neutral--2);
-
-            &::after {
-                @include ff--monospace;
-                font-size: 80%;
-                content: '[' attr(href) ']';
-            }
-        }
-
-        .t-inverted & {
-            @include text-decoration-color($c__neutral--9a);
-        }
-    }
-
-    a:not([class]):hover {
-        @include text-decoration-color($c__identity--2);
-
-        .t-inverted & {
-            @include text-decoration-color($c__neutral--9);
-        }
-    }
-
-    a:not([class]):active {
-        @include text-decoration-color(lighten($c__identity--2, 10%));
-
-        .t-inverted & {
-            @include text-decoration-color(lighten($c__neutral--9, 10%));
+            @include ff--monospace;
+            font-size: 80%;
+            content: '[' attr(href) ']';
         }
     }
 }

@@ -8,7 +8,6 @@
 
     + .c-container {
         border-top: 1px solid $c__neutral--a;
-        padding-top: ($u__baseline / 4);
 
         .t-inverted & {
             border-color: $c__neutral--9a;
@@ -72,11 +71,6 @@
     @media (min-width: $b__b) {
         @include span(3);
     }
-
-    .s-lede {
-        line-height: 1.25;
-        font-size: 1rem; // 16px
-    }
 }
 
 
@@ -84,11 +78,6 @@
 .c-container--extra {
     @media (min-width: $b__b) {
         @include span(2 at 4);
-    }
-
-    .s-lede {
-        line-height: 1.25;
-        font-size: 1rem; // 16px
     }
 }
 

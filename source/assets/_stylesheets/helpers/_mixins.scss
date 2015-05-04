@@ -75,7 +75,7 @@
 }
 
 @mixin fs--heading-2 {
-    line-height: (14/16);
+    line-height: (4/3);
     font-size: 1.5rem; // 24px
     letter-spacing: -0.02em;
 
@@ -105,7 +105,7 @@
     }
 }
 
-@mixin fs--body {
+@mixin fs--prose {
     line-height: (3/2);
     font-size: 1rem; // 16px
 
@@ -115,9 +115,24 @@
     }
 }
 
-@mixin fs--caption {
+@mixin fs--billboard {
     line-height: (20/16);
     font-size: 1rem; // 16px
+
+    @media (min-width: $b__b) {
+        line-height: (24/18);
+        font-size: 1.125rem; // 18px
+    }
+}
+
+@mixin fs--caption {
+    line-height: (18/14);
+    font-size: 0.875rem; // 14px
+
+    @media (min-width: $b__b) {
+        line-height: (20/16);
+        font-size: 1rem; // 16px
+    }
 }
 
 
@@ -136,6 +151,34 @@
         text-decoration: none;
     } @else {
         background-image: none;
+    }
+}
+
+
+// Decorated links
+@mixin decorated-links {
+    a:not([class]) {
+        @include text-decoration-color($c__identity--1);
+
+        .t-inverted & {
+            @include text-decoration-color($c__neutral--9a);
+        }
+    }
+
+    a:not([class]):hover {
+        @include text-decoration-color($c__identity--2);
+
+        .t-inverted & {
+            @include text-decoration-color($c__neutral--9);
+        }
+    }
+
+    a:not([class]):active {
+        @include text-decoration-color(lighten($c__identity--2, 10%));
+
+        .t-inverted & {
+            @include text-decoration-color(lighten($c__neutral--9, 10%));
+        }
     }
 }
 
