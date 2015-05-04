@@ -16,7 +16,7 @@ _Apture_ was a publishing tool that gave content creators the power to find and 
 Working alongside Apture's CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.
 
 {% figure "The deign of the company's logo was informed by a key interaction in the product. Three colourful gems represent the small windows of information that spring from an Apture enhanced page." %}
-{% picture /projects/apture/logo.svg %}
+{% picture /projects/apture/logo.svg alt="The Apture logo" %}
 {% endfigure %}
 
 {% figure "<cite>Tristan Harris, co-founder and CEO</cite>" %}

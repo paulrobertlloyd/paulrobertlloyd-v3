@@ -30,13 +30,13 @@
             width: 50%;
         }
     }
+}
 
-    &[data-exif="date_created"],
-    &[data-exif="model"] {
-        width: 50%;
+.c-exif__value--date-created,
+.c-exif__value--model {
+    width: 50%;
 
-        @media (min-width: $b__c) {
-            width: 100%;
-        }
+    @media (min-width: $b__c) {
+        width: 100%;
     }
 }

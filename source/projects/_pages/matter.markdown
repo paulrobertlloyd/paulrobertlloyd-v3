@@ -18,7 +18,7 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 
 ## Identity
 {% figure "Early logo sketches" %}
-{% picture /projects/matter/logo_sketches.jpg %}
+{% picture /projects/matter/logo_sketches.jpg alt="" %}
 {% endfigure %}
 
 {% figure "Logo on the website, t-shirt and Twitter profile" %}
@@ -31,10 +31,10 @@ Much of my work for MATTER focused on its visual identity. I thought a lot about
 
 ## Typography
 {% figure c-figure--image-quartet "Type samples/experimentation" %}
-{% picture thumbnail /projects/matter/type_calluna.png %}
-{% picture thumbnail /projects/matter/type_centro.png %}
-{% picture thumbnail /projects/matter/type_enigma.png %}
-{% picture thumbnail /projects/matter/type_ptsans.png %}
+{% picture thumbnail /projects/matter/type_calluna.png alt="Calluna type specimen" %}
+{% picture thumbnail /projects/matter/type_centro.png alt="Centro type specimen" %}
+{% picture thumbnail /projects/matter/type_enigma.png alt="Enigma type specimen" %}
+{% picture thumbnail /projects/matter/type_ptsans.png alt="PT Sans type specimen" %}
 {% endfigure %}
 
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
