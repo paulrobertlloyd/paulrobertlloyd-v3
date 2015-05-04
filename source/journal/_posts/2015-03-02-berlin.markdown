@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: Briefly Berlin
-series: Briefly Berlin
+series: Berlin, February 2015
 date: '2015-03-02 20:44:41 +0000'
 location: Brighton, England
 excerpt: Before going freelance, I decided to take some time off during February. Part of this included spending a few days in Berlin.

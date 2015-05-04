@@ -4,6 +4,9 @@ title: Continuing Adventures in America
 series: North America 2011
 date: '2011-12-18 23:09:35 +0000'
 excerpt: Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year's long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in San Francisco, maybe such lofty goals are foolhardy. Before I write about my most recent travels, I address the hypocrisy in taking such a trip.
+embed:
+  url: https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-5tk2u4wo/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#4/38/-98
+  caption: My itinerary mapped
 tags:
   - Travel
   - United States
@@ -12,10 +15,6 @@ tags:
 At the end of last year I stated that [I'd only be taking one long-haul trip this year][1], one that would take in Austin, San Francisco and Canada. Between then and March, my itinerary changed so that I could visit my brother in Brazil (and indulge in a [bit of utopian architecture][2] on the way) but it was a tough decision. Ever since visiting [Montreal in 2007][3], I've long wanted to see more of Canada.
 
 Luckily, I was later invited to my friends Dan & Liz's wedding taking place in San Francisco in November. This presented the opportunity to make another overseas trip, one that could take in Canada and the [An Event Apart][4] conference happening in Washington DC the week before:
-
-{% figure u-bleed "My itinerary mapped" %}
-{% embed https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-5tk2u4wo/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#4/38/-98 %}
-{% endfigure %}
 
   * **20 October:** Depart London Heathrow
   * **21-25 October:** [Washington, DC][5]

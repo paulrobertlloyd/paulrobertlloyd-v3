@@ -24,9 +24,7 @@ theme: inverted
     </div>
 
     {% if page.series %}
-        <div class="c-page__aside">
-            {% include nav/series.html %}
-        </div>
+        {% include nav/series-posts.html %}
     {% endif %}
 
     {% include page/tags.html %}

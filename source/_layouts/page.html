@@ -5,12 +5,10 @@ layout: default
     {% include page/header.html %}
 
     <div class="c-page__main s-prose e-content">
+        {% if page.series %}
+            {% include nav/series-pages.html class="u-aside" %}
+        {% endif %}
+
         {{ content | typogrify | namespace }}
     </div>
-
-    {% if page.series %}
-        <div class="c-page__aside">
-            {% include nav/series.html %}
-        </div>
-    {% endif %}
 </article>
