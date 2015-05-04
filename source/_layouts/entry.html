@@ -7,7 +7,7 @@ layout: default
     <div class="c-page__main s-prose e-content">
         {% if page.image %}
             {% figure u-bleed "{{ page.image.caption }}" %}
-{% picture feature {{ page.image.url }} %}
+{% picture feature {{ page.image.url }} alt="" %}
             {% endfigure %}
         {% endif %}
 

@@ -8,7 +8,7 @@
     <div class="c-item__main s-lede p-summary">
         {% if item.tags contains "Photography" %}
             {% figure u-bleed %}
-{% picture feature {{ item.image.url }} %}
+{% picture feature {{ item.image.url }} alt="{{ item.title }}" %}
             {% endfigure %}
         {% endif %}
 
