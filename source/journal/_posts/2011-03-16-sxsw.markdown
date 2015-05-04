@@ -26,7 +26,7 @@ Much of this years programme catered towards topics the marketing and sales guys
 
 ## For The People
 {% figure "The Great British Booze-up at Shakespeare's Pub" %}
-{% picture /2011/03/sxsw_great_british_booze_up.jpg %}
+{% picture /2011/03/sxsw_great_british_booze_up.jpg alt="" %}
 {% endfigure %}
 
 Regardless of its size, diminishing quality and rampent commercialisation, the one thing SXSW still ensures is the convergence of peers at a single place and point in time. This year saw many of my fellow Clearleft'ies in attendance -- indeed, being able to experience the event alongside my colleagues was the main reason for going. We were joined by a small British contingent who were able to make the Ginger Man our 'local' for the week.
