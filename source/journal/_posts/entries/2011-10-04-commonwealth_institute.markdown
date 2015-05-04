@@ -1,10 +1,9 @@
 ---
-layout: link
+layout: entry
 title: The Commonwealth Institute
 date: '2011-10-04 21:57:57 +0100'
-link:
-  url: https://www.flickr.com/photos/paulrobertlloyd/6209428156/in/set-72157627812094542/
-  embed: photo
+image:
+  url: /2011/10/commonwealth_institute.jpg
 tags:
   - Photography
   - Architecture

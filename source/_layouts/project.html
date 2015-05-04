@@ -4,19 +4,17 @@ layout: default
 <article class="c-page c-page--project h-entry">
     {% include page/header.html %}
 
-    {% if page.hero %}
-        {% figure c-page__media %}
-{% include hero.html hero=page.hero %}
-        {% endfigure %}
-    {% endif %}
-
     <div class="c-page__main s-prose e-content">
+        {% if page.hero %}
+            {% figure u-extend %}
+{% include hero.html hero=page.hero %}
+            {% endfigure %}
+        {% endif %}
+
+        {% if page.meta %}
+            {% include meta.html class="u-aside" %}
+        {% endif %}
+
         {{ content | typogrify | namespace }}
     </div>
-
-    {% if page.meta %}
-        <div class="c-page__aside">
-            {% include meta.html %}
-        </div>
-    {% endif %}
 </article>

@@ -1,10 +1,9 @@
 ---
-layout: link
+layout: entry
 title: St. Giles' Cathedral
 date: '2011-09-05 00:08:59 +0100'
-link:
-  url: https://www.flickr.com/photos/paulrobertlloyd/6114236666/in/set-72157627469803873/
-  embed: photo
+image:
+  url: /2011/09/st_giles_cathedral.jpg
 tags:
   - Photography
   - Edinburgh
