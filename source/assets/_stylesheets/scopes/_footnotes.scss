@@ -7,4 +7,8 @@
     @include fs--caption;
     @include rule;
     margin-top: ($u__baseline * 2);
+
+    li {
+        margin-bottom: $u__baseline;
+    }
 }

@@ -55,6 +55,7 @@
 .c-item--project {
     .c-item__title {
         @include fs--heading-2;
+        padding-top: ($u__baseline / 2);
         padding-bottom: ($u__baseline / 4);
         font-weight: 700;
     }

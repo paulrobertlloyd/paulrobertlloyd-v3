@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="c-index">
+<section class="c-index{% if page.path contains "journal" or "projects" or "photos" or "contact" %} c-index--landing{% endif %}">
     <header class="c-index__header">
         <h1 class="c-index__title">{% include title.html %}</h1>
     </header>
