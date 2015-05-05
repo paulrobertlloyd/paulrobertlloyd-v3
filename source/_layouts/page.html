@@ -5,6 +5,12 @@ layout: default
     {% include page/header.html %}
 
     <div class="c-page__main s-prose e-content">
+        {% if page.image %}
+            {% figure u-bleed "{{ page.image.caption }}" %}
+{% picture feature {{ page.image.url }} alt="" %}
+            {% endfigure %}
+        {% endif %}
+
         {% if page.series %}
             {% include nav/series-pages.html class="u-aside" %}
         {% endif %}
