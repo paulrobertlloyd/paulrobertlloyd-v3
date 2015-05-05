@@ -3,7 +3,8 @@
     ========================================================================= */
 .c-figure {
     @include clearfix;
-    margin-bottom: ($u__baseline * 1.5);
+    margin-top: ($u__baseline * 2);
+    margin-bottom: ($u__baseline * 2);
 }
 
 .c-figure__main {
@@ -58,6 +59,8 @@
     }
 
     .c-figure__caption {
+        margin-top: 0;
+
         @media (min-width: $b__c) {
             @include rule(before);
             @include rule(after, $display: none);
