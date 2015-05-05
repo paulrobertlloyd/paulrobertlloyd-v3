@@ -22,13 +22,10 @@
 }
 
 .c-index__main {
+    margin-bottom: ($u__baseline * 2);
+
     @media (min-width: $b__b) {
         @include span(4 at 2 last);
-        margin-top: ($u__baseline / 2);
-    }
-
-    @media (min-width: $b__c) {
-        margin-top: $u__baseline;
     }
 }
 

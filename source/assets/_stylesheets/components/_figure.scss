@@ -23,7 +23,8 @@
         margin-bottom: $u__baseline;
     }
 
-    .u-bleed & {
+    .u-bleed &,
+    .u-extend & {
         margin-right: $u__baseline;
         margin-left: $u__baseline;
 
