@@ -7,11 +7,7 @@
     margin-bottom: ($u__baseline * 2);
 
     + .c-container {
-        border-top: 1px solid $c__neutral--a;
-
-        .t-inverted & {
-            border-color: $c__neutral--9a;
-        }
+        border-top: 1px solid;
     }
 }
 

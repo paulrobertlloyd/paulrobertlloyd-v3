@@ -14,15 +14,11 @@
 }
 
 .c-contentinfo__legal {
-    border-top: 1px solid $c__neutral--a;
+    border-top: 1px solid;
     padding: ($u__baseline / 2) 0;
 
     @media (min-width: $b__b) {
         margin-left: span(1 wide);
-    }
-
-    .t-inverted & {
-        border-color: $c__neutral--9a;
     }
 }
 

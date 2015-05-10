@@ -13,7 +13,7 @@
     &.is-fixed {
         position: fixed;
         top: 0;
-        box-shadow: $c__neutral--a 0 0 10px;
+        box-shadow: 0 0 10px $c__neutral--a;
     }
 
     .t-inverted & {
@@ -72,11 +72,9 @@
 }
 
 .c-navigation__links {
-    @include clearfix;
-
     @media (min-width: $b__a) {
         @include span(4 at 2 last);
-        line-height: (16/18);
+        line-height: (20/18);
         font-size: 1.125rem; // 18px
     }
 }
@@ -96,42 +94,45 @@
     &:last-child {
         margin-right: 0;
     }
+}
 
-    &:hover {
-        .is-fixed & {
-            box-shadow: inset 0 2px 0 0 $c__neutral--5a;
-        }
+.c-navigation__link:hover {
+//    color: $c__neutral--a;
 
-        .t-inverted .is-fixed & {
-            box-shadow: inset 0 2px 0 0 $c__neutral--9a;
-        }
+//    .t-inverted & {
+//        color: $c__neutral--ai;
+//    }
 
-        @media (min-width: $b__a) {
-            box-shadow: inset 0 3px 0 0 $c__neutral--5a;
-
-            .t-inverted & {
-                box-shadow: inset 0 3px 0 0 $c__neutral--9a;
-            }
-        }
+    .is-fixed & {
+        box-shadow: inset 0 2px 0 0;
     }
 
-    &.is-active {
-        font-weight: 700;
-
-        .is-fixed & {
-            box-shadow: inset 0 2px 0 0 $c__neutral--2;
-        }
-
-        .t-inverted .is-fixed & {
-            box-shadow: inset 0 2px 0 0 $c__neutral--9;
-        }
-
-        @media (min-width: $b__a) {
-            box-shadow: inset 0 3px 0 0 $c__neutral--2;
-
-            .t-inverted & {
-                box-shadow: inset 0 3px 0 0 $c__neutral--9;
-            }
-        }
+    @media (min-width: $b__a) {
+        box-shadow: inset 0 3px 0 0;
     }
+}
+
+.c-navigation__link.is-active {
+    font-weight: 700;
+//    color: $c__neutral--2;
+
+//    .t-inverted & {
+//        color: $c__neutral--9;
+//    }
+
+    .is-fixed & {
+        box-shadow: inset 0 2px 0 0;
+    }
+
+    @media (min-width: $b__a) {
+        box-shadow: inset 0 3px 0 0;
+    }
+}
+
+.c-navigation__label {
+//    color: $c__neutral--2;
+
+//    .t-inverted & {
+//        color: $c__neutral--9;
+//    }
 }

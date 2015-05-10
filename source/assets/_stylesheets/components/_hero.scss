@@ -52,7 +52,7 @@ $u__shadow-size: 4px;
 .c-hero__screen--tablet,
 .c-hero__screen--tablet-1 {
     top: $u__shadow-size;
-    right: 17.5%;
+    right: 16%;
     z-index: 2;
     background-image: url(asset_path('hero-tablet-portrait.png'));
     padding: 5.4% 2.1%;
@@ -94,6 +94,6 @@ $u__shadow-size: 4px;
     right: $u__baseline;
     z-index: 3;
     background-image: url(asset_path('hero-phone.png'));
-    padding: 2.5% 0.8% 0;
+    padding: 2.4% 0.8% 0;
     width: span(1 at 3);
 }

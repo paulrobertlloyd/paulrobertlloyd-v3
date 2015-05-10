@@ -5,19 +5,19 @@
 .c-button {
     @include ff--sans-serif;
     display: inline-block;
-    border: 1px solid $c__identity--1;
+    border: 1px solid;
     background: none;
     padding: ($u__baseline / 2) $u__baseline;
-    color: $c__identity--1;
+//    color: $c__identity--1;
     font-weight: 700;
 
-    &:hover {
-        border-color: $c__identity--2;
-        color: $c__identity--2;
-    }
+//    &:hover {
+//        border-color: $c__identity--2;
+//        color: $c__identity--2;
+//    }
 
-    &:active {
-        border-color: lighten($c__identity--2, 10%);
-        color: lighten($c__identity--2, 10%);
-    }
+//    &:active {
+//        border-color: lighten($c__identity--2, 10%);
+//        color: lighten($c__identity--2, 10%);
+//    }
 }

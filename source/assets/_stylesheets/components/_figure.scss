@@ -116,7 +116,6 @@
     img {
         @include gutters($u__baseline);
         margin-top: ($u__baseline * 1.5);
-        box-shadow: 0 0 0 1px $c__neutral--a;
     }
 }
 
