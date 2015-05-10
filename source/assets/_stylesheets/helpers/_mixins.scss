@@ -171,28 +171,28 @@
 // Decorated links
 @mixin decorated-links {
     a:not([class]) {
-        @include text-decoration-color($c__identity--1);
+        @include text-decoration-color($c__neutral--a);
 
         .t-inverted & {
             @include text-decoration-color($c__neutral--ai);
         }
     }
 
-    a:not([class]):hover {
-        @include text-decoration-color($c__identity--2);
-
-        .t-inverted & {
-            @include text-decoration-color($c__neutral--9);
-        }
-    }
-
-    a:not([class]):active {
-        @include text-decoration-color(lighten($c__identity--2, 10%));
-
-        .t-inverted & {
-            @include text-decoration-color(lighten($c__neutral--9, 10%));
-        }
-    }
+//    a:not([class]):hover {
+//        @include text-decoration-color($c__identity--2);
+//
+//        .t-inverted & {
+//            @include text-decoration-color($c__neutral--9);
+//        }
+//    }
+//
+//    a:not([class]):active {
+//        @include text-decoration-color(lighten($c__identity--2, 10%));
+//
+//        .t-inverted & {
+//            @include text-decoration-color(lighten($c__neutral--9, 10%));
+//        }
+//    }
 }
 
 

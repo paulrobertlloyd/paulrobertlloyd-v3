@@ -3,7 +3,6 @@
     ========================================================================= */
 
 .s-prose {
-    @include decorated-links;
     @include ff--serif;
     @include fs--prose;
     font-feature-settings: 'liga', 'dlig', 'onum';

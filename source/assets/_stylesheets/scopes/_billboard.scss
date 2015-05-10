@@ -3,7 +3,6 @@
     ========================================================================= */
 
 .s-billboard {
-    @include decorated-links;
     @include ff--sans-serif;
     @include fs--billboard;
     font-feature-settings: 'liga', 'dlig', 'onum';
