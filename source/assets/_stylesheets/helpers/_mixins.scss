@@ -174,7 +174,7 @@
         @include text-decoration-color($c__identity--1);
 
         .t-inverted & {
-            @include text-decoration-color($c__neutral--9a);
+            @include text-decoration-color($c__neutral--ai);
         }
     }
 
@@ -201,8 +201,9 @@
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: $display;
-            border-top: $height solid $c__neutral--a;
+            border-top: $height solid;
             width: ($u__baseline * 2);
+//            opacity: 0.5;
             content: '';
             @if $el == 'before' {
                 margin-bottom: ($u__baseline / 4);

@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: ae584e43ed11467290ab40b8557c77c07db17feb
+  revision: 221c0b62b61a86f0d9d80af0fb44ecf4091c7339
   specs:
-    jekyll (3.0.0.pre.beta2)
+    jekyll (3.0.0.pre.beta4)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -53,7 +53,7 @@ GEM
       guard-compat (~> 1.1)
       jekyll
       nenv (~> 0.1)
-    guard-jekyll-plus (2.0.1)
+    guard-jekyll-plus (2.0.2)
       guard (~> 2.10, >= 2.10.3)
       guard-compat (~> 1.1)
       jekyll (>= 1.0.0)
@@ -103,7 +103,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rack (1.6.0)
+    rack (1.6.1)
     rainbow (2.0.0)
     rake (10.4.2)
     rb-fsevent (0.9.4)

@@ -2,13 +2,6 @@
     EXIF
     ========================================================================= */
 
-.c-exif__title {
-    @media (min-width: $b__c) {
-        position: absolute;
-        top: 0;
-    }
-}
-
 .c-exif__values {
     margin-bottom: $u__baseline;
     overflow: hidden;
