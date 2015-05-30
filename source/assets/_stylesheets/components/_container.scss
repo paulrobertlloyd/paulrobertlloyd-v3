@@ -8,6 +8,7 @@
 
     + .c-container {
         border-top: 1px solid;
+        padding-top: ($u__baseline / 2);
     }
 }
 
@@ -18,7 +19,6 @@
 .c-container__title {
     @include ff--sans-serif;
     @include fs--heading-2;
-    padding-top: ($u__baseline / 2);
     padding-bottom: ($u__baseline / 4);
     font-weight: 700;
     word-break: break-word;

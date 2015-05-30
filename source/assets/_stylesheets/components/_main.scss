@@ -10,26 +10,26 @@
     }
 
     a {
-        color: $c__identity--1;
+//        color: $c__identity--1;
 
         .t-inverted & {
-            color: $c__neutral--9;
+//            color: $c__neutral--9;
         }
     }
 
     a:hover {
-        color: $c__identity--2;
+//        color: $c__identity--2;
 
         .t-inverted & {
-            color: $c__neutral--9;
+//            color: $c__neutral--9;
         }
     }
 
     a:active {
-        color: lighten($c__identity--2, 10%);
+//        color: lighten($c__identity--2, 10%);
 
         .t-inverted & {
-            color: lighten($c__neutral--9, 10%);
+//            color: lighten($c__neutral--9, 10%);
         }
     }
 }

@@ -159,8 +159,8 @@
     @if $color != 'none' {
         background-image: linear-gradient(to bottom, transparent 50%, $color 50%);
         background-repeat: repeat-x;
-        background-position: 0% 92.5%;
-        background-size: 0.5em 2px;
+        background-position: 0% 0.975em;
+        background-size: 0.5em 0.15em;
         text-decoration: none;
     } @else {
         background-image: none;
@@ -170,22 +170,22 @@
 
 // Decorated links
 @mixin decorated-links {
-    a:not([class]) {
-        @include text-decoration-color($c__neutral--a);
+    a {
+        @include text-decoration-color($c__neutral--2);
 
         .t-inverted & {
             @include text-decoration-color($c__neutral--ai);
         }
     }
 
-//    a:not([class]):hover {
-//        @include text-decoration-color($c__identity--2);
-//
-//        .t-inverted & {
-//            @include text-decoration-color($c__neutral--9);
-//        }
-//    }
-//
+    a:hover {
+        @include text-decoration-color($c__neutral--1);
+
+        .t-inverted & {
+            @include text-decoration-color($c__neutral--9);
+        }
+    }
+
 //    a:not([class]):active {
 //        @include text-decoration-color(lighten($c__identity--2, 10%));
 //
