@@ -35,6 +35,10 @@
     color: $c__neutral--3;
 }
 
+.c-item__permalink {
+    @include text-decoration-color('none');
+}
+
 .c-item__avatar {
     position: absolute;
     top: ($u__baseline / 2);
@@ -63,7 +67,7 @@
 
 /* Link */
 .c-item--link {
-    .c-item__title a[href^="http://"]::after {
+    .c-item__title::after {
         content: ' \2192';
     }
 }

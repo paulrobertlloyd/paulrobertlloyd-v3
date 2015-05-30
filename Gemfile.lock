@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 221c0b62b61a86f0d9d80af0fb44ecf4091c7339
+  revision: fb716d6b833348d3fcc6dd8fe79d08d9736eeda0
   specs:
-    jekyll (3.0.0.pre.beta4)
+    jekyll (3.0.0.pre.beta5)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -22,7 +22,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (5.1.11)
+    autoprefixer-rails (5.2.0)
       execjs
       json
     celluloid (0.16.0)
@@ -85,7 +85,7 @@ GEM
     json (1.8.2)
     kramdown (1.7.0)
     libv8 (3.16.14.7)
-    liquid (3.0.2)
+    liquid (3.0.3)
     listen (2.10.0)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
@@ -106,15 +106,15 @@ GEM
     rack (1.6.1)
     rainbow (2.0.0)
     rake (10.4.2)
-    rb-fsevent (0.9.4)
+    rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.3)
     ref (1.0.5)
-    rouge (1.8.0)
+    rouge (1.9.0)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
-    sass (3.4.13)
+    sass (3.4.14)
     scss-lint (0.30.0)
       rainbow (~> 2.0)
       sass (~> 3.4.0)
@@ -130,7 +130,7 @@ GEM
     sprockets-sass (1.3.1)
       sprockets (~> 2.0)
       tilt (~> 1.1)
-    susy (2.2.3)
+    susy (2.2.5)
       sass (>= 3.3.0, < 3.5)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)

@@ -24,8 +24,8 @@ $c__neutral--7: lighten($c__neutral, 70%);
 $c__neutral--8: lighten($c__neutral, 80%);
 $c__neutral--9: lighten($c__neutral, 90%);
 
-$c__neutral--a: rgba($c__neutral, 0.25);
-$c__neutral--ai: invert(rgba($c__neutral, 0.33));
+$c__neutral--a: rgba($c__neutral, 0.5);
+$c__neutral--ai: invert(rgba($c__neutral, 0.5));
 
 $c__select: rgba($c__identity--2, 0.1);
 $c__focus: mix($c__identity--2, $c__neutral--9, 20%);
