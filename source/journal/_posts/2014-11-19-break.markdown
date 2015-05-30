@@ -7,7 +7,6 @@ excerpt: Last Thursday I attended Break Conference, where content, graphic, prod
 tags:
   - Design
   - Conferences
-  - Break Conference
 ---
 Last Thursday I attended [Break Conference][1], where content, graphic, product, UX and web design practitioners took to the stage in Belfast's Assembly Buildings to explore the edges of design. As the spiritual successor to Build, organiser Christopher Murphy conceived an event that hoped to remove the artificial barriers erected between these different specialisms.
 
