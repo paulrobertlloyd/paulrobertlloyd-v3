@@ -3,33 +3,17 @@
     ========================================================================= */
 
 .c-main {
-    @include decorated-links;
-
     @media screen {
         padding-top: ($u__baseline * 4);
     }
 
     a {
-//        color: $c__identity--1;
-
-        .t-inverted & {
-//            color: $c__neutral--9;
+        &:hover {
+            color: $c__identity--1;
         }
-    }
 
-    a:hover {
-//        color: $c__identity--2;
-
-        .t-inverted & {
-//            color: $c__neutral--9;
-        }
-    }
-
-    a:active {
-//        color: lighten($c__identity--2, 10%);
-
-        .t-inverted & {
-//            color: lighten($c__neutral--9, 10%);
+        &:not([class]) {
+            @include text-decoration-color($c__identity--1);
         }
     }
 }

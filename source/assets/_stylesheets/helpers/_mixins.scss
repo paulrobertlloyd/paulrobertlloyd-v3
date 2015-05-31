@@ -13,27 +13,6 @@
 }
 
 
-// Image replacement
-@mixin image-replace {
-    text-indent: 200%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-
-// Visually hidden, but still audible
-@mixin hidden {
-    position: absolute;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-}
-
-
 // Font families
 @mixin ff--serif($font-weight: normal) {
     font-family: 'Georgia', serif;
@@ -82,7 +61,7 @@
     letter-spacing: -0.02em;
 
     @media (min-width: $b__b) {
-        font-size: 1.75rem; // 28px
+        font-size: 2rem; // 32px
     }
 }
 
@@ -157,42 +136,11 @@
 // Text underline colour
 @mixin text-decoration-color($color) {
     @if $color != 'none' {
-        background-image: linear-gradient(to bottom, transparent 50%, $color 50%);
-        background-repeat: repeat-x;
-        background-position: 0% 0.975em;
-        background-size: 0.5em 0.15em;
+        background-image: linear-gradient(to bottom, transparent 93%, $color 93%);
         text-decoration: none;
     } @else {
         background-image: none;
     }
-}
-
-
-// Decorated links
-@mixin decorated-links {
-    a {
-        @include text-decoration-color($c__neutral--2);
-
-        .t-inverted & {
-            @include text-decoration-color($c__neutral--ai);
-        }
-    }
-
-    a:hover {
-        @include text-decoration-color($c__neutral--1);
-
-        .t-inverted & {
-            @include text-decoration-color($c__neutral--9);
-        }
-    }
-
-//    a:not([class]):active {
-//        @include text-decoration-color(lighten($c__identity--2, 10%));
-//
-//        .t-inverted & {
-//            @include text-decoration-color(lighten($c__neutral--9, 10%));
-//        }
-//    }
 }
 
 
@@ -203,7 +151,7 @@
             display: $display;
             border-top: $height solid;
             width: ($u__baseline * 2);
-//            opacity: 0.5;
+            opacity: 0.5;
             content: '';
             @if $el == 'before' {
                 margin-bottom: ($u__baseline / 4);
