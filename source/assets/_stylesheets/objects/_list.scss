@@ -12,6 +12,6 @@
     }
 }
 
-.o-list__item--entry {
-    font-weight: 700;
+.o-list__item--separate {
+    @include separate;
 }
