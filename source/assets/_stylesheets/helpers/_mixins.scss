@@ -149,9 +149,9 @@
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: $display;
+            opacity: 0.5;
             border-top: $height solid;
             width: ($u__baseline * 2);
-            opacity: 0.5;
             content: '';
             @if $el == 'before' {
                 margin-bottom: ($u__baseline / 4);
