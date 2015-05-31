@@ -22,7 +22,7 @@
     h4 {
         @include ff--sans-serif;
         @include fs--heading-4;
-        margin-bottom: $u__baseline;
+        margin-bottom: ($u__baseline / 2);
     }
 
     * + h2 {
@@ -48,9 +48,16 @@
         margin-bottom: ($u__baseline * 1.25);
     }
 
+    > dl dd,
+    > li > p {
+        margin-bottom: ($u__baseline / 2);
+    }
+
     // Adjust font-size of san-serif emboldened text, so x-height matches serif
-    p > strong {
-        font-size: 115%;
+    p > strong,
+    p > b,
+    dt:not([class]) {
+        font-size: 120%;
     }
 
     a {
