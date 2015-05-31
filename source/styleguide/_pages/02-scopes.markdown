@@ -227,4 +227,4 @@ If you use these elements, you must use every element. They should appear in thi
 *[BBC]: British Broadcasting Corportation
 *[Staffs.]: Staffordshire
 
-[^1]: Footnote content uses the `s-footnote`{: .language-css} scope.
+[^1]: Footnotes appears within the `s-footnotes`{: .language-css} scope.
