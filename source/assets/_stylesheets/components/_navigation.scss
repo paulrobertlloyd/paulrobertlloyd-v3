@@ -94,21 +94,21 @@
     &:last-child {
         margin-right: 0;
     }
+
+    &.is-active {
+        font-weight: 700;
+
+        .is-fixed & {
+            box-shadow: inset 0 2px 0 0;
+        }
+
+        @media (min-width: $b__a) {
+            box-shadow: inset 0 3px 0 0;
+        }
+    }
 }
 
 .c-navigation__link:hover {
-    .is-fixed & {
-        box-shadow: inset 0 2px 0 0;
-    }
-
-    @media (min-width: $b__a) {
-        box-shadow: inset 0 3px 0 0;
-    }
-}
-
-.c-navigation__link.is-active {
-    font-weight: 700;
-
     .is-fixed & {
         box-shadow: inset 0 2px 0 0;
     }
