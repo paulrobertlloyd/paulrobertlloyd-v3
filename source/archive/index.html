@@ -58,10 +58,10 @@ permalink: /archive/
             </header>
 
             <div class="c-container__main">
-                <ol class="o-list o-list--inline" reversed>
+                <ol class="c-link-list o-list o-list--inline" reversed>
     {% endif %}
 
-                    <li class="o-list__item o-list__item--{{ item.layout }} u-separate" value="{{ item.date | date:"%-d" }}">
+                    <li class="c-link-list__item o-list__item o-list__item--{{ item.layout }}" value="{{ item.date | date:"%-d" }}">
                         <a href="{{ item.url }}">{{ item.title }}</a>
                     </li>
 

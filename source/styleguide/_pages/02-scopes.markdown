@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scoped Content
-series: Styleguide
+series: Style guide
 excerpt: The content of this excerpt is styled using `.s-lede`.
 permalink: /styleguide/scopes
 ---

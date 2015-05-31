@@ -41,6 +41,7 @@
 .c-page__location {
     @include ff--sans-serif;
     @include fs--caption;
+    @include separate;
     text-transform: uppercase;
     letter-spacing: 0.03125rem; // 0.5px
 }

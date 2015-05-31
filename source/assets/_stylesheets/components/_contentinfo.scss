@@ -4,33 +4,26 @@
 
 .c-contentinfo {
     margin-bottom: $u__baseline;
+}
+
+.c-contentinfo__main {
+    border-top: 1px solid;
+    padding: ($u__baseline / 2) 0;
     text-align: center;
     line-height: (16 / 14);
     font-size: 0.875rem; // 14px
 
     @media (min-width: $b__b) {
+        margin-left: span(1 wide);
         text-align: left;
     }
 }
 
-.c-contentinfo__legal {
-    border-top: 1px solid;
-    padding: ($u__baseline / 2) 0;
-
-    @media (min-width: $b__b) {
-        margin-left: span(1 wide);
-    }
-}
-
-.c-contentinfo__copyright {
-    font-size: 100%;
+.c-contentinfo__license {
+    margin-bottom: ($u__baseline / 2);
 }
 
 .c-contentinfo__links {
-    @media (min-width: $b__b) {
-        margin-left: span(1 wide);
-    }
-
     @media print {
         display: none;
     }

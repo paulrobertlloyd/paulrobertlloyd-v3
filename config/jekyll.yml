@@ -26,6 +26,7 @@ paginate: 12
 paginate_path: /journal/:num/
 
 # Writing
+# See: https://github.com/jekyll/jekyll/issues/3371
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:

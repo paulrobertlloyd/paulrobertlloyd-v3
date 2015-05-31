@@ -13,7 +13,7 @@ small {
 /*  Address inconsistent and variable font size in all browsers */
     display: inline-block;
     letter-spacing: 0;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: normal;
 }
 
@@ -41,13 +41,8 @@ code,
 kbd,
 samp {
     @include ff--monospace;
-    font-size: 80%;
+    font-size: 90%;
     font-feature-settings: 'liga' 0;
-}
-
-:not(pre) > code {
-    background-color: $c__neutral--a;
-    padding: 0.125em 0.25em;
 }
 
 kbd {
