@@ -1,22 +1,14 @@
 ---
 layout: page
-title: Scoped Content
+title: Scopes
 series: Style guide
-excerpt: The content of this excerpt is styled using `.s-lede`.
+excerpt: Areas of user-generated content, with HTML that has come from a CMS.
 permalink: /styleguide/scopes
 ---
-The content on this page is styled using `.s-prose`.
-
-This document is a guide to the mark-up styles used throughout the site. Parts of this markup guide are attributable to [Dave Shea](http://www.mezzoblue.com/), and licensed under [Creative Commons](http://creativecommons.org/licenses/by-sa/2.0/uk/){: rel="license"}.
-
-Line length: dolor sit amet consect eturadi *isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
-
-Ligatures and numerals: fi ff ffl ffi 1234567890 1/2 1/3 1/4
+The introductory paragraph above uses the `.s-lede`{: .language-css} class to scope that content. The rest of the content on this page lies within the `.s-prose`{: .language-css} scope[^1].
 
 ## Second-level heading
-The main page header of this guide is an `h1` element. Any header elements may include links, as depicted in the example.
-
-The secondary header above is an `h2` element, which may be used for any form of important page-level header. More than one may be used per page. Consider using an `h2` unless you need a header level of less importance, or as a sub-header to an existing `h2` element.
+Main page headings are `h1` elements, so futher headings within this scope should start with `h2`, an example of which appears directly above. More than one may be used per page. Consider using an `h2` unless you need a header level of less importance, or as a sub-header to an existing `h2` element.
 
 ### Third-level heading
 The header above is an `h3` element, which may be used for any form of page-level header which falls below the `h2` header in a document hierarchy.
@@ -27,7 +19,7 @@ The header above is an `h4` element, which may be used for any form of page-leve
 ## Grouping content
 
 ### Paragraphs
-All paragraphs are wrapped in `p` tags. Additionally, `p` elements can be wrapped with a `blockquote` element _if the `p` element is indeed a quote_. Historically, `blockquote` has been used purely to force indents, but this is now achieved using CSS. Reserve `blockquote` for quotes.
+All paragraphs are wrapped in `p` tags.
 
 ### Horizontal rule
 The `hr` element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. The following extract from <cite>Pandora's Star</cite> by Peter F. Hamilton shows two paragraphs that precede a scene change and the paragraph that follows it:
@@ -53,7 +45,7 @@ The `pre` element represents a block of pre-formatted text, in which structure i
 ### Blockquotes
 The `blockquote` element represents a section that is being quoted from another source.
 
-> Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
+> You must be the change you wish to see in the world.
 
 If you wish to add a citation, you will need to use the [`figure` element](components#figure).
 
@@ -89,7 +81,7 @@ Sometimes we may want each list item to contain block elements, typically a para
   * The full list of islands in the British Isles includes over 1,000 islands, of which 51 have an area larger than 20 km<sup>2</sup>.
 
 ### Definition list
-he `dl` element is for another type of list called a definition list. Instead of list items, the content of a `dl` consists of `dt` (Definition Term) and `dd` (Definition description) pairs. Though it may be called a "definition list", `dl` can apply to other scenarios where a parent/child relationship is applicable. For example, it may be used for marking up dialogues, with each `dt` naming a speaker, and each `dd` containing his or her words.
+he `dl` element is for another type of list called a definition list. Instead of list items, the content of a `dl` consists of `dt` (definition term) and `dd` (definition description) pairs. Though it may be called a "definition list", `dl` can apply to other scenarios where a parent/child relationship is applicable. For example, it may be used for marking up dialogues, with each `dt` naming a speaker, and each `dd` containing his or her words.
 
 This is a term.
 : This is the definition of that term, which both live in a `dl`.
@@ -110,7 +102,7 @@ The `a` element is used to hyperlink text, be that to another page, a named frag
 [Go to the home page](/) or [return to the top of this page](#top).
 
 ### Stressed emphasis
-The `em` element is used to denote text with stressed emphasis, i.e., something you'd pronounce differently. Where italicizing is required for stylistic differentiation, the `i` element may be preferable. Example:
+The `em` element is used to denote text with stressed emphasis, i.e., something you'd pronounce differently. Where italicising is required for stylistic differentiation, the `i` element may be preferable. Example:
 
 You simply _must_ try the negitoro maki!
 
@@ -146,12 +138,12 @@ The `dfn` element is used to highlight the first use of a term. The `title` attr
 Bob's <dfn title="Dog">canine</dfn> mother and <dfn title="Horse">equine</dfn> father sat him down and carefully explained that he was an <dfn title="A mutation that combines two or more sets of chromosomes from different species">allopolyploid</dfn> organism.
 
 ### Abbreviation
-The `abbr` element is used for any abbreviated text, whether it be acronym, initialism, or otherwise. Generally, it's less work and useful (enough) to mark up only the first occurrence of any particular abbreviation on a page, and ignore the rest. Any text in the `title` attribute will appear when the user's mouse hovers the abbreviation (although notably, this does not work in Internet Explorer for Windows). Example abbreviations:
+The `abbr` element is used for any abbreviated text, whether it be acronym, initialism, or otherwise. Any text in the `title` attribute will appear when the user's mouse hovers the abbreviation. Example abbreviations:
 
 BBC, HTML, and Staffs.
 
 ### Time
-he `time` element is used to represent either a time on a 24 hour clock, or a precise date in the proleptic Gregorian calendar, optionally with a time and a time-zone offset. Example:
+The `time` element is used to represent either a time on a 24 hour clock, or a precise date in the proleptic Gregorian calendar, optionally with a time and a time-zone offset. Example:
 
 Queen Elizabeth II was proclaimed sovereign of each of the Commonwealth realms on <time datetime="1952-02-6">6</time> and <time datetime="1952-02-7">7 February 1952</time>, after the death of her father, King George VI.
 
@@ -160,15 +152,7 @@ The `code` element is used to represent fragments of computer code. Useful for t
 
 When you call the `activate()` method on the `robotSnowman` object, the eyes glow.
 
-Used in conjunction with the `pre` element:
-
-~~~
-<?php
-    echo 'Hello World!';
-?>
-~~~
-
-Shown with syntax highlighting:
+The following exampes shows the `code` element used in conjunction with the `pre` element (with the applicable syntax highlighting applied automatically):
 
 ~~~ php
 <?php
@@ -243,7 +227,4 @@ If you use these elements, you must use every element. They should appear in thi
 *[BBC]: British Broadcasting Corportation
 *[Staffs.]: Staffordshire
 
-#### `.s-footnote`
-This is some text with a footnote.[^1]
-
-[^1]: And this is the footnote.
+[^1]: Footnote content uses the `s-footnote`{: .language-css} scope.
