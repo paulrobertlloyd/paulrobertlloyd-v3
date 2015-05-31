@@ -4,7 +4,7 @@
     {% if page.location %}
     {% assign page_location = page.location | split:", " %}
     <span class="u-audible">in</span>
-    <span class="u-separate c-page__location p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
+    <span class="c-page__location p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
     {% endif %}
 
     <span class="u-audible">on</span>

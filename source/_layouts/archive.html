@@ -20,10 +20,10 @@ layout: index
                 </header>
 
                 <div class="c-container__main">
-                    <ol class="o-list o-list--inline" reversed>
+                    <ol class="c-link-list o-list o-list--inline" reversed>
         {% endif %}
-                        <li class="c-item--{{ item.layout }} o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
-                            <a class="c-item__link" href="{{ item.url }}">{{ item.title }}</a>
+                        <li class="c-link-list__item o-list__item o-list__item--{{ item.layout }}" value="{{ item.date | date:"%-d" }}">
+                            <a href="{{ item.url }}">{{ item.title }}</a>
                         </li>
     {% else %}
         {% case item.layout %}

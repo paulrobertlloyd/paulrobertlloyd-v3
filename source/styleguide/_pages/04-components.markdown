@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Components
-series: Styleguide
+series: Style guide
 permalink: /styleguide/components
 meta:
   Simple: Simple texual content
@@ -163,3 +163,11 @@ puts "Hello World"
 
 #### `.c-tag`
 {% include tag.html tag="tag name" %}
+
+## Forms
+
+### Contact
+{% include form/contact.html %}
+
+### Search
+{% include form/search.html %}

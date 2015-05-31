@@ -1,47 +1,56 @@
 ---
 layout: page
 title: Utilities
-series: Styleguide
-excerpt: A guide to the mark-up styles used throughout this site.
+series: Style guide
+excerpt: Reusable classes with a single purpose and specific role.
 permalink: /styleguide/utilities
 style: |
-    .block {
+    .example--block {
         display: block;
-        background-color: rgba(0, 0, 0, 0.25);
-        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 3.5rem;
     }
 ---
-## Typography
+## Content
 
-#### `.u-caps`
-CAPS
+### Visually hidden
+The `.u-audible`{: .language-css} class allows elements to be visually hidden, whilst ensuring they can still be accessed and real aloud by accessible software and other devices that place less emphasis on visual presentation.
 
-#### `.u-amp`
-This & that
+### Small caps
+The `.u-caps`{: .language-css} class is added automatically to a string of UPPERCASE letters.
 
-## Layout hints
+### Ampersands
+The `.u-amp`{: .language-css} class is added automatically when an ampsersand (&) appears in a run of text.
 
-#### `.u-align-right`
-**.u-align-right**{: .u-align-right.block } The Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+### Icons
+The `.u-icon`{: .language-css} class is used to show an icon or glyph before a span of text, for example this <span class="u-icon" data-icon="&#9733;" aria-hidden="true">star</span>.
 
-#### `.u-align-left`
-**.u-align-left**{: .u-align-left.block } The Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+## Layout
 
-#### `.u-aside`
-**.u-aside**{: .u-aside.block } The Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+### Container
+The `.u-container`{: .language-css} class is used for macro layout control, constraining major structural components like `.c-banner`{: .language-css} and `.c-contentinfo`{: .language-css}.
 
-#### `.u-pull-right`
-**.u-pull-right**{: .u-pull-right.block } The Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+### Align right
+**.u-align-right**{: .u-align-right.example--block } The `.u-align-right`{: .language-css} class is used to align an element to the right, and is typically used within prose.
 
-#### `.u-pull-left`
-**.u-pull-left**{: .u-pull-left.block } The Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+### Align left
+**.u-align-left**{: .u-align-left.example--block } The `.u-align-left`{: .language-css} class is used to align an element to the left, and is typically used within prose.
 
-#### `.u-extend`
-**.u-extend**{: .u-extend.block }
+### Pull right
+**.u-pull-right**{: .u-pull-right.example--block } The `.u-pull-right`{: .language-css} class pulls an element to the right, and is typically used within prose.
 
-Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+### Pull left
+**.u-pull-left**{: .u-pull-left.example--block } The `.u-pull-left`{: .language-css} class pulls an element to the left, and is typically used within prose.
 
-#### `.u-bleed`
-**.u-bleed**{: .u-bleed.block }
+### Aside
+**.u-aside**{: .u-aside.example--block } The `.u-aside`{: .language-css} class pull sidebar content to the left of the main content. This is typically used for meta or page navigation compoenents.
 
-Atomium is a building in Brussels originally constructed for Expo 58, the 1958 Brussels World's Fair. Designed by the engineer André Waterkeyn and architects André and Jean Polak, it stands tall. Its nine diameter stainless steel clad spheres are connected so that the whole forms the shape of a unit cell of an iron crystal magnified 165 billion times.
+### Extend
+**.u-extend**{: .u-extend.example--block }
+
+On wider breakpoints, the `.u-extend`{: .language-css} class extends an element outwards by an additional column, and is typically used within prose.
+
+### Bleed
+**.u-bleed**{: .u-bleed.example--block }
+
+On wider breakpoints, the `.u-bleed`{: .language-css} class ensures an element bleeds to edges of the main container, and is typically used within prose.

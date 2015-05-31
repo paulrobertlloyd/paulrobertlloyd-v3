@@ -164,3 +164,17 @@
         @error "`#{$el}` is not a valid pseudo-element.";
     }
 }
+
+// Separate with a slash
+@mixin separate {
+    &::after {
+        opacity: 0.5;
+        margin: 0 ($u__baseline / 4);
+        font-weight: normal;
+        content: '\00a0/';
+    }
+
+    &:nth-child(n+2):last-child::after {
+        content: none;
+    }
+}

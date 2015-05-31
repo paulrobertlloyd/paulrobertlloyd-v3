@@ -8,7 +8,7 @@
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
-        @include ff--sans-serif(700);
+        @include ff--sans-serif;
         @include fs--heading-2;
         margin-bottom: $u__baseline;
     }
@@ -25,11 +25,14 @@
         margin-bottom: $u__baseline;
     }
 
-    * + h2,
+    * + h2 {
+        margin-top: ($u__baseline * 3);
+    }
+
     * + h3,
     * + h4,
     p + figure {
-        margin-top: ($u__baseline * 3);
+        margin-top: ($u__baseline * 1.5);
     }
 
     > p,
@@ -50,11 +53,21 @@
         font-size: 115%;
     }
 
-    a::after {
-        @media print {
-            @include ff--monospace;
-            font-size: 80%;
-            content: '[' attr(href) ']';
+    a {
+        &:hover {
+            color: $c__identity--1;
+        }
+
+        &:not([class]) {
+            @include text-decoration-color($c__identity--1);
+        }
+
+        &::after {
+            @media print {
+                @include ff--monospace;
+                font-size: 80%;
+                content: '[' attr(href) ']';
+            }
         }
     }
 }
