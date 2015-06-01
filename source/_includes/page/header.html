@@ -2,7 +2,7 @@
     <h1 class="c-page__title p-name">{{ page.title | typogrify }}</h1>
     {% unless page.path contains "journal" or page.path contains "links" %}
         {% if page.excerpt %}
-            <div class="c-page__excerpt s-lede p-summary">
+            <div class="c-page__excerpt s-prose s-prose--lede p-summary">
                 {{ page.excerpt | markdownify | typogrify | namespace }}
             </div>
         {% endif %}

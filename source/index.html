@@ -8,7 +8,7 @@ theme: [inverted, home]
             <h1 class="c-container__title">{{ container.title | smartify }}</h1>
         </header>
 
-        <div class="c-container__main {% if container.class == "intro" %}s-lede{% else %}s-billboard{% endif %}">
+        <div class="c-container__main s-prose {% if container.class == "intro" %}s-prose--lede{% else %}s-prose--billboard{% endif %}">
             {{ container.text | markdownify | typogrify | namespace }}
         </div>
     </section>

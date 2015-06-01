@@ -3,8 +3,6 @@
     ========================================================================= */
 
 .s-prose {
-    @include ff--serif;
-    @include fs--prose;
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
@@ -53,13 +51,6 @@
         margin-bottom: ($u__baseline / 2);
     }
 
-    // Adjust font-size of san-serif emboldened text, so x-height matches serif
-    p > strong,
-    p > b,
-    dt:not([class]) {
-        font-size: 120%;
-    }
-
     a {
         &:hover {
             color: $c__identity--1;
@@ -77,4 +68,26 @@
             }
         }
     }
+}
+
+.s-prose--body {
+    @include ff--serif;
+    @include fs--body;
+
+    // Adjust font-size of san-serif emboldened text, so x-height matches serif
+    p > strong,
+    p > b,
+    dt:not([class]) {
+        font-size: 120%;
+    }
+}
+
+.s-prose--lede {
+    @include ff--sans-serif;
+    @include fs--lede;
+}
+
+.s-prose--billboard {
+    @include ff--sans-serif;
+    @include fs--billboard;
 }
