@@ -5,7 +5,10 @@ date: '2013-12-01'
 excerpt: Award-winning redesign for popular advent calendar for web geeks.
 permalink: /projects/24_ways
 theme: [inverted, 24-ways]
-hero: [desktop-1.png, desktop-2.png, phone.png]
+hero:
+  - /projects/24_ways/desktop-1.png
+  - /projects/24_ways/desktop-2.png
+  - /projects/24_ways/phone.png
 meta:
   client: Drew McLellan
   year: 2013

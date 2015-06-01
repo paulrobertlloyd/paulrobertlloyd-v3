@@ -2,6 +2,7 @@
 layout: page
 title: Components
 series: Style guide
+excerpt: Finite, discrete, implementation-specific parts of our UI.
 permalink: /styleguide/components
 meta:
   Simple: Simple texual content
@@ -10,9 +11,13 @@ meta:
     * Such a list
     * Like this one
 ---
-## Charts
+## Buttons
+Buttons are normally used to submit form data, although on occasion it may be desired to have a link appear like a button too. In both cases, the `.c-button`{: .language-css} component class is used. Example:
 
-### Horizontal
+<button class="c-button">Button</button> <input class="c-button" type="button" value="Input button"/> <a class="c-button" href="#">Link button</a>
+
+## Charts
+The `.c-chart`{: .language-css} component class is used for tabular content that has been visually formatted to appear in the form of a chart. Currently, only horizontal bar charts are supported (`.c-chart--hbar`{: .language-css}). The following example shows a size comparision:
 
 <table class="c-chart c-chart--hbar">
     <tbody>
@@ -30,25 +35,40 @@ meta:
     </tbody>
 </table>
 
-## Embed
+## Embeds
+The `.c-embed`{: .language-css} component class is used for embedded content.
 
-### Youtube
+### Videos
+The `.c-embed--video`{: .language-css} modifier is used when embedding video content, typcially sourced from either Vimeo or YouTube:
+
 {% embed https://www.youtube.com/watch?v=4ViLiXA0E70 %}
 
-### Flickr
+### Photos
+The `.c-embed--photo`{: .language-css} modifier is used when embedding photographic content, typically sourced from Flickr:
+
 {% embed https://www.flickr.com/photos/paulrobertlloyd/6913342093/ %}
 
-### Mapbox
+### Maps
+The `.c-embed--map`{: .language-css} modifier is used when embedding photographic content, typically sourced from MapBox:
+
 {% embed https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-tw61ntxz/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/40.5/-105.5 %}
 
-### Speaker Deck
-<!-- embed https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web %} -->
+### Slide decks
+The `.c-embed--slidedeck`{: .language-css} modifier is used when embedding presentations, typically sourced from SpeakerDeck:
 
-## Figure
+{% embed https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web %}
 
-The `.c-figure` component can be used to annotate illustrations, diagrams, photos, code listings, etc. Styles are provided for a number of different content types.
+## EXIF data
+The `.c-exif`{: .language-css} component class is used when display the EXIF data found within an image file.
 
-### Preformatted text
+{% include exif.html url='/assets/images/photos/2015-03-02-olympiastadion/02.jpg' %}
+
+## Figures
+The `.c-figure`{: .language-css} component class is used when annotating illustrations, diagrams, photos, code listings, etc.
+
+### Citations
+The `.c-figure`{: .language-css} component class is particually suited when you wish to provide a citation for a piece of content. The following examples show a section of preformatted text and a quotation from Winston Churchill:
+
 {% figure "<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
 <pre>
 'Twas brillig, and the slithy toves
@@ -58,53 +78,43 @@ And the mome raths outgrabe.
 </pre>
 {% endfigure %}
 
-### Code block
-{% figure "Hello World, in Ruby" %}
-~~~ ruby
-puts "Hello World"
-~~~ 
-{% endfigure %}
-
-### Quote
 {% figure "Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {% endfigure %}
 
 ### Tweet
+The `.c-figure--tweet`{: .language-css} modifier is used to display the content of a tweet:
+
 {% figure c-figure--tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
 > How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
 {% endfigure %}
 
 ### Images
+Images are the most typical use for the `.c-figure`{: .language-css} component class:
 
-#### `.c-figure`
 {% figure "Single image, with supporting caption" %}
 {% picture /styleguide/pattern_1.jpg alt="Image 1" %}
 {% endfigure %}
 
-#### `.c-figure--image-duo`
-{% figure c-figure--image-duo "Two images, with supporting caption" %}
+{% figure c-figure--image-duo "The `.c-figure--image-duo`{: .language-css} modifier is used to display two images side-by-side" %}
 {% picture supporting /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture supporting /styleguide/pattern_2.jpg alt="Image 2" %}
 {% endfigure %}
 
-#### `.c-figure--image-trio`
-{% figure c-figure--image-trio "Three images, with supporting caption" %}
+{% figure c-figure--image-trio "The `.c-figure--image-trio`{: .language-css} modifier is used to display three images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% endfigure %}
 
-#### `.c-figure--image-quartet`
-{% figure c-figure--image-quartet "Four images, with supporting caption" %}
+{% figure c-figure--image-quartet "The `.c-figure--image-quartet`{: .language-css} modifier is used to display four images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
 {% endfigure %}
 
-#### `.c-figure--image-quintet`
-{% figure c-figure--image-quintet "Five images, with supporting caption" %}
+{% figure c-figure--image-quintet "The `.c-figure--image-quintet`{: .language-css} modifier is used to display five images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
@@ -112,36 +122,32 @@ puts "Hello World"
 {% picture thumbnail /styleguide/pattern_5.jpg alt="Image 5" %}
 {% endfigure %}
 
-### With right-aligned caption
+### Images with a right-aligned caption
+The `.c-figure--caption-right`{: .language-css} modifier moves the caption to the right at the largest breakpoint:
 
-#### `.c-figure.c-figure--caption-right`
 {% figure c-figure--caption-right "Single image, with supporting caption to the right" %}
 {% picture /styleguide/pattern_1.jpg alt="Image 1" %}
 {% endfigure %}
 
-#### `.c-figure--image-duo.c-figure--caption-right`
-{% figure c-figure--image-duo c-figure--caption-right "Two images, with supporting caption to the right" %}
+{% figure c-figure--image-duo c-figure--caption-right "The `.c-figure--image-duo`{: .language-css} modifier is used to display two images side-by-side" %}
 {% picture supporting /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture supporting /styleguide/pattern_2.jpg alt="Image 2" %}
 {% endfigure %}
 
-#### `.c-figure--image-trio.c-figure--caption-right`
-{% figure c-figure--image-trio c-figure--caption-right "Three images, with supporting caption to the right" %}
+{% figure c-figure--image-trio c-figure--caption-right "The `.c-figure--image-trio`{: .language-css} modifier is used to display three images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% endfigure %}
 
-#### `.c-figure--image-quartet.c-figure--caption-right`
-{% figure c-figure--image-quartet c-figure--caption-right "Four images, with supporting caption to the right" %}
+{% figure c-figure--image-quartet c-figure--caption-right "The `.c-figure--image-quartet`{: .language-css} modifier is used to display four images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
 {% endfigure %}
 
-#### `.c-figure--image-quintet.c-figure--caption-right`
-{% figure c-figure--image-quintet c-figure--caption-right "Five images, with supporting caption to the right" %}
+{% figure c-figure--image-quintet c-figure--caption-right "The `.c-figure--image-quintet`{: .language-css} modifier is used to display five images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
@@ -149,25 +155,24 @@ puts "Hello World"
 {% picture thumbnail /styleguide/pattern_5.jpg alt="Image 5" %}
 {% endfigure %}
 
-## Misc
+## Forms
+_TBD_
 
-#### `.c-meta`
+## Hero
+The `.c-hero`{: .language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
+
+{% assign hero = "/projects/bradshaws_guide/desktop.png|/projects/bradshaws_guide/tablet.png|/projects/bradshaws_guide/phone.png" | split: "|" %}
+{% include hero.html imageset=hero %}
+
+## Meta information
 {% include meta.html %}
 
-#### `.c-rating`
+## Ratings
 {% include rating.html score="1" %}
 {% include rating.html score="2" %}
 {% include rating.html score="3" %}
 {% include rating.html score="4" %}
 {% include rating.html score="5" %}
 
-#### `.c-tag`
+## Tags
 {% include tag.html tag="tag name" %}
-
-## Forms
-
-### Contact
-{% include form/contact.html %}
-
-### Search
-{% include form/search.html %}

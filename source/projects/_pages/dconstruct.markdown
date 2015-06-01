@@ -4,7 +4,17 @@ title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
 permalink: /projects/dconstruct
-hero: [2010/desktop-1.png, 2010/desktop-2.png]
+hero:
+  - projects/dconstruct/2010/desktop-1.png
+  - projects/dconstruct/2010/desktop-2.png
+hero-2011:
+  - projects/dconstruct/2011/desktop-1.png
+  - projects/dconstruct/2011/desktop-2.png
+  - projects/dconstruct/2011/phone.png
+hero-2013:
+  - projects/dconstruct/2013/desktop-1.png
+  - projects/dconstruct/2013/desktop-2.png
+  - projects/dconstruct/2013/phone.png
 meta:
   client: Clearleft
   year: 2010, 2011, 2013
@@ -28,16 +38,14 @@ Prior to this event, Clearleft used plastic wallets to hold the combined confere
 
 ## 2011: Designing Digital Products
 {% figure "Home page, speaker page on mobile device" %}
-{% assign imageset-2011 = "2011/desktop-1.png|2011/desktop-2.png|2011/phone.png" | split: "|" %}
-{% include hero.html hero=imageset-2011 %}
+{% include hero.html imageset=page.hero-2011 %}
 {% endfigure %}
 
 Like the previous year's design, the homepage featured prominent images of the speakers. The design process involved close collaboration with Andy Hume, which was needed for us to build a highly responsive website that would work well across devices. With this in mind, the main navigation was simplified to just four items (Conference, Workshops, Location and Register) with an alternative navigation method shown when browsing speaker pages on smaller screens.
 
 ## 2013: Communicating with Machines
 {% figure "Home page, speaker page on mobile device" %}
-{% assign imageset-2013 = "2013/desktop-1.png|2013/desktop-2.png|2013/phone.png" | split: "|" %}
-{% include hero.html hero=imageset-2013 %}
+{% include hero.html imageset=page.hero-2013 %}
 {% endfigure %}
 
 Referencing the theme of communicating with machines, I researched different ways humans have tried to direct machines through history. Punch cards became the unifying motif, providing an interesting textural patterning on the website and associated marketing and conference material.
