@@ -5,7 +5,9 @@ date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
 permalink: /projects/ning
 theme: [inverted, ning]
-hero: [desktop-1.png, desktop-2.png]
+hero:
+  - /projects/ning/desktop-1.png
+  - /projects/ning/desktop-2.png
 meta:
   client: Ning
   year: 2005–2007

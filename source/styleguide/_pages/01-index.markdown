@@ -2,11 +2,10 @@
 layout: page
 title: Style guide
 series: Style guide
+excerpt: A guide to the mark-up styles and patterns used throughout the site.
 permalink: /styleguide/
 ---
-This site has long featured a style guide (or more precisely, pattern library), though it has rarely documented the full extend of the patterns utilised.
-
-These are grouped by implementation method, which can be described as follows:
+This site has long featured a style guide (or more precisely, pattern library), though it has rarely documented the full extend of the patterns utilised. This guide documents the vast majority of patterns used, grouped by their method of implementation:
 
 [Scopes](scopes)
 : Areas of user-generated content, with HTML that has come from a CMS.
@@ -14,5 +13,5 @@ These are grouped by implementation method, which can be described as follows:
 [Utilities](utilities)
 : Reusable classes with a single purpose and specific role.
 
-Components
-: [TBD]
+[Components](components)
+: Finite, discrete, implementation-specific parts of our UI.

@@ -2,13 +2,19 @@
     EXIF
     ========================================================================= */
 
+.c-exif {
+    @include ff--sans-serif;
+}
+
 .c-exif__values {
     margin-bottom: $u__baseline;
     overflow: hidden;
 
-    @media (min-width: $b__c) {
-        position: absolute;
-        bottom: 0;
+    .c-figure--photo & {
+        @media (min-width: $b__c) {
+            position: absolute;
+            bottom: 0;
+        }
     }
 }
 

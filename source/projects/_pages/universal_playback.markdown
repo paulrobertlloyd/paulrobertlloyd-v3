@@ -4,7 +4,9 @@ title: Universal Playback
 date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.
 permalink: /projects/universal_playback
-hero: [desktop-1.png, desktop-2.png]
+hero:
+  - /projects/universal_playback/desktop-1.png
+  - /projects/universal_playback/desktop-2.png
 meta:
   client: NBCUniversal
   year: 2010

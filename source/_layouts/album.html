@@ -17,7 +17,7 @@ theme: inverted
                 {% picture {{ file.url | remove:"assets/images/" }} alt="" %}
             </p>
             <figcaption class="c-figure__caption">
-                {% include exif.html %}
+                {% include exif.html url=file.url %}
             </figcaption>
         </figure>
         {% enddirectory %}

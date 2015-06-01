@@ -24,9 +24,8 @@ caption {
 td,
 th {
     border-top: 1px solid $c__neutral--7;
-    padding-top: 0;
     padding-right: $u__baseline;
-    padding-bottom: $u__baseline;
+    padding-bottom: ($u__baseline / 2);
     vertical-align: top;
     text-align: left;
     white-space: nowrap;

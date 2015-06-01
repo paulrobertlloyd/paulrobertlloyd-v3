@@ -5,7 +5,10 @@ date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artists' rights organisation.
 permalink: /projects/dacs
 theme: [inverted, dacs]
-hero: [desktop-1.png, desktop-2.png, mobile.png]
+hero:
+  - /projects/dacs/desktop-1.png
+  - /projects/dacs/desktop-2.png
+  - /projects/dacs/mobile.png
 meta:
   client: Design and Artists Copyright Society
   year: 2012

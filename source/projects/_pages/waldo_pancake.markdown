@@ -4,7 +4,9 @@ title: Waldo Pancake
 date: '2011-02-09'
 excerpt: A new home for Jim Smith, purveyor of the funniest coffee cups.
 permalink: /projects/waldo_pancake
-hero: [desktop-1.png, desktop-2.png]
+hero:
+  - /projects/waldo_pancake/desktop-1.png
+  - /projects/waldo_pancake/desktop-2.png
 meta:
   client: Jim Smith
   year: 2011

@@ -5,7 +5,9 @@ date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
 permalink: /projects/ngenera
 theme: [inverted, ngenera]
-hero: [desktop-1.png, desktop-2.png]
+hero:
+  - /projects/ngenera/desktop-1.png
+  - /projects/ngenera/desktop-2.png
 meta:
   client: nGenera Corporation
   year: 2008

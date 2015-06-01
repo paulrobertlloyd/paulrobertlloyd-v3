@@ -4,7 +4,9 @@ title: Channel 4 News for iPad
 date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence on the iPad.
 permalink: /projects/channel4_news
-hero: [tablet-1.png, tablet-2.png]
+hero:
+  - /projects/channel4_news/tablet-1.png
+  - /projects/channel4_news/tablet-2.png
 meta:
   client: Channel 4
   year: 2010

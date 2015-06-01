@@ -5,7 +5,9 @@ date: '2011-11-18'
 excerpt: Award-winning iPad app for weekly current affairs magazine.
 permalink: /projects/the_week
 theme: [inverted, the-week]
-hero: [tablet-1.png, tablet-2.png]
+hero:
+  - /projects/the_week/tablet-1.png
+  - /projects/the_week/tablet-2.png
 meta:
   client: Dennis Publishing
   year: 2011

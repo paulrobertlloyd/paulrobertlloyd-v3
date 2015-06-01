@@ -12,6 +12,11 @@
         white-space: nowrap;
     }
 
+    .c-chart__value {
+        padding-top: ($u__baseline / 8);
+        padding-right: 0;
+    }
+
     .c-chart__value--percent {
         @include fs--caption;
         display: block;
