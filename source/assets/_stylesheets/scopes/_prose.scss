@@ -6,9 +6,13 @@
     font-feature-settings: 'liga', 'dlig', 'onum';
 
     h2 {
-        @include ff--sans-serif;
+        @include ff--sans-serif(700);
         @include fs--heading-2;
         margin-bottom: $u__baseline;
+    }
+
+    * + h2 {
+        margin-top: ($u__baseline * 3);
     }
 
     h3 {
@@ -21,10 +25,6 @@
         @include ff--sans-serif;
         @include fs--heading-4;
         margin-bottom: ($u__baseline / 2);
-    }
-
-    * + h2 {
-        margin-top: ($u__baseline * 3);
     }
 
     * + h3,
