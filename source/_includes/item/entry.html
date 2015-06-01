@@ -5,7 +5,7 @@
         </h1>
     </header>
 
-    <div class="c-item__main s-lede p-summary">
+    <div class="c-item__main s-prose s-prose--lede p-summary">
         {% if item.tags contains "Photography" %}
             {% figure u-bleed %}
 {% picture feature {{ item.image.url }} alt="{{ item.title }}" %}

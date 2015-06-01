@@ -8,7 +8,7 @@ layout: default
 
     <div class="c-index__main">
         {% if page.excerpt %}
-            <div class="c-index__excerpt s-lede">
+            <div class="c-index__excerpt s-prose s-prose--lede">
                 {{ page.excerpt | markdownify | typogrify | namespace }}
             </div>
         {% endif %}
