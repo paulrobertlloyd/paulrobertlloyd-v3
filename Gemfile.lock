@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: bc806fd2a7269a8c7430f99c78db35bc08de7ef5
+  revision: 407fc82b2d822ace149dfaf6ee74991163a9e2b6
   specs:
-    jekyll (3.0.0.pre.beta5)
+    jekyll (3.0.0.pre.beta6)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -38,7 +38,7 @@ GEM
       json
     ffi (1.9.8)
     formatador (0.2.5)
-    guard (2.12.5)
+    guard (2.12.6)
       formatador (>= 0.2.4)
       listen (~> 2.7)
       lumberjack (~> 1.0)
@@ -82,7 +82,7 @@ GEM
       redcarpet (~> 3.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    json (1.8.2)
+    json (1.8.3)
     kramdown (1.7.0)
     libv8 (3.16.14.7)
     liquid (3.0.3)
@@ -93,7 +93,7 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
-    multi_json (1.11.0)
+    multi_json (1.11.1)
     nenv (0.2.0)
     notiffany (0.0.6)
       nenv (~> 0.1)
@@ -109,7 +109,7 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.2.3)
+    redcarpet (3.3.1)
     ref (1.0.5)
     rouge (1.9.0)
     rubypants (0.2.0)
