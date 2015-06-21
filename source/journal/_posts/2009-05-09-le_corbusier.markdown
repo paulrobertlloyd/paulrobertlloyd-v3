@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Le Corbusier, The Art of Architecture
+title: Le Corbusier - The Art of Architecture
 date: '2009-05-09 22:12:38 +0100'
 location: Littlehampton, England
 excerpt: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
@@ -31,7 +31,7 @@ I can't say I particularly liked a lot of Corbusier's work, I've never been that
 
 It's no accident that this exhibition is housed in the Barbican Centre, as it and [the surrounding estate][10], designed by Chamberlin, Powell and Bon in the early 1960's owes a lot to Le Corbusier, as do similar sites such as [Park Hill][11] in Sheffield and [Cumbernauld Town Centre][12]. Yet aside from a small 'resource room', little attention was paid to these and other buildings influenced by his work. Rather it would seem the topics surrounding his influence are only available in the related talks and events.
 
-[Le Corbusier, The Art of Architecture][13] runs until May 24th.
+[Le Corbusier, The Art of Architecture][13] runs until 24 May.
 
 [1]: /2008/12/chicago/
 [2]: http://en.wikipedia.org/wiki/Olympic_Stadium_(Munich)
