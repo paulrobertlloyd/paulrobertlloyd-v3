@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 5647b9168941228dfff696cec10ac4731213a4b5
+  revision: 68c398886198be9a87cba5d223ff1da110ab4bb6
   specs:
     jekyll (3.0.0.pre.beta7)
       colorator (~> 0.1)
@@ -22,7 +22,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (5.2.0.1)
+    autoprefixer-rails (5.2.1)
       execjs
       json
     celluloid (0.16.0)
@@ -109,12 +109,12 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.3.1)
+    redcarpet (3.3.2)
     ref (1.0.5)
     rouge (1.9.0)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
-    sass (3.4.14)
+    sass (3.4.15)
     scss-lint (0.30.0)
       rainbow (~> 2.0)
       sass (~> 3.4.0)
