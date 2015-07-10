@@ -2,7 +2,7 @@
 layout: index
 title: Projects
 ---
-{% assign projects = site.pages | where:"layout","project" | sort:"date" %}
+{% assign projects = site.projects | sort:"date" %}
 <div class="c-container c-container--case-studies">
     {% for item in projects reversed %}
         {% if item.theme != null %}

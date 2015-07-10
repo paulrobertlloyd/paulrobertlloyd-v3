@@ -3,7 +3,6 @@ layout: project
 title: Ning
 date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
-permalink: /projects/ning
 theme: [inverted, ning]
 hero:
   - /projects/ning/desktop-1.png

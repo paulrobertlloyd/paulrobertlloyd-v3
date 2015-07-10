@@ -3,7 +3,6 @@ layout: project
 title: Bradshaw's Guide
 date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
-permalink: /projects/bradshaws_guide
 theme: bradshaws-guide
 hero:
   - /projects/bradshaws_guide/desktop.png,

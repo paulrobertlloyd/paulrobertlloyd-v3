@@ -3,7 +3,6 @@ layout: project
 title: cwhomes.co.uk
 date: '2006-01-30'
 excerpt: Property portal for independent estate agents in Coventry and Warwickshire.
-permalink: /projects/cwhomes
 hero:
   - /projects/cwhomes/desktop-1.png
   - /projects/cwhomes/desktop-2.png

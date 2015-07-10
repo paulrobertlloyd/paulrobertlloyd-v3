@@ -3,7 +3,6 @@ layout: project
 title: Universal Playback
 date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.
-permalink: /projects/universal_playback
 hero:
   - /projects/universal_playback/desktop-1.png
   - /projects/universal_playback/desktop-2.png
