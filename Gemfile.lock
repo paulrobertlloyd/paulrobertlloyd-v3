@@ -105,7 +105,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.3.2)
-    ref (1.0.5)
+    ref (2.0.0)
     rouge (1.9.0)
     rubypants (0.2.0)
     safe_yaml (1.0.4)

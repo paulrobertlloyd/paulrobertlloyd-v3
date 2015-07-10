@@ -1,4 +1,6 @@
-- title: 'WebExpo 2015'
-  location: 'Prague, Czech Republic'
+- title: 'Responsive Principles'
+  url: 'http://2015.webexpo.cz/en/'
   date: '2015-09-19'
-  url: http://2015.webexpo.cz/en/
+  meta:
+    event: 'WebExpo 2015'
+    location: 'Prague, Czech Republic'
