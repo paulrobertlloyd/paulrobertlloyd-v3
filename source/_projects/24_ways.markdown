@@ -3,7 +3,7 @@ layout: project
 title: 24 ways
 date: '2013-12-01'
 excerpt: Award-winning redesign for popular advent calendar for web geeks.
-theme: [inverted, 24-ways]
+theme: 24-ways
 hero:
   - /projects/24_ways/desktop-1.png
   - /projects/24_ways/desktop-2.png
@@ -58,15 +58,15 @@ Where the previous design used a rigid template across all sections of the site,
 Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads. This improved the performance on the site, especially on mobile devices where bandwidth can be more constrained.
 
 ## What people said
-{% figure c-figure--tweet "[@susanjrobertson 2014](https://twitter.com/susanjrobertson/status/407673287729111040)" %}
+{% figure c-figure--tweet "[@susanjrobertson](https://twitter.com/susanjrobertson/status/407673287729111040)" %}
 > Really loving [@paulrobertlloyd](https://twitter.com/paulrobertlloyd)’s design for [@24ways](https://twitter.com/24ways). The more I read and poke around the more I discover that is awesome :)
 {% endfigure %}
 
-{% figure c-figure--tweet "[@davidlwarner 2014](https://twitter.com/davidlwarner/status/407191676801662976)" %}
+{% figure c-figure--tweet "[@davidlwarner](https://twitter.com/davidlwarner/status/407191676801662976)" %}
 > Nice work on [@24ways](https://twitter.com/24ways)! Readable, usable, beautiful. Love the mobile nav menu.
 {% endfigure %}
 
-{% figure c-figure--tweet "[@laurakalbag 2014](https://twitter.com/laurakalbag/status/407438919123611648)" %}
+{% figure c-figure--tweet "[@laurakalbag](https://twitter.com/laurakalbag/status/407438919123611648)" %}
 > The new [@24ways](https://twitter.com/24ways) design is lovely. Nice one [@paulrobertlloyd](https://twitter.com/paulrobertlloyd). (He likes his hamburgers with triple beef...)
 {% endfigure %}
 

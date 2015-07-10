@@ -3,7 +3,7 @@ layout: project
 title: Matter
 date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
-theme: [inverted, matter]
+theme: matter
 hero:
   - /projects/matter/phone.png
   - /projects/matter/tablet.png

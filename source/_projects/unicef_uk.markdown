@@ -3,7 +3,7 @@ layout: project
 title: UNICEF UK
 date: '2013-07-01'
 excerpt: Mobile-first redesign for leading children's charity.
-theme: [inverted, unicef-uk]
+theme: unicef-uk
 hero:
   - /projects/unicef_uk/phone.png
   - /projects/unicef_uk/phablet.png

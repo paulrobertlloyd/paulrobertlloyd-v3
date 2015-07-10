@@ -27,10 +27,4 @@
         width: ($u__baseline * 4);
         height: ($u__baseline * 4);
     }
-
-    @media screen {
-        .t-inverted & {
-            fill: $c__neutral--9;
-        }
-    }
 }

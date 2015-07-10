@@ -4,8 +4,17 @@
 
 .t-inverted {
     @media screen {
-        .logo {
-            fill: #fff;
+        body {
+            background-color: $c__neutral--1;
+            color: $c__neutral--9;
+        }
+
+        .c-banner__logo {
+            fill: $c__neutral--9;
+        }
+
+        .c-navigation {
+            background-color: rgba($c__neutral--1, 0.95);
         }
     }
 }

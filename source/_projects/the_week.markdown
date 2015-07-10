@@ -3,7 +3,7 @@ layout: project
 title: The Week
 date: '2011-11-18'
 excerpt: Award-winning iPad app for weekly current affairs magazine.
-theme: [inverted, the-week]
+theme: the-week
 hero:
   - /projects/the_week/tablet-1.png
   - /projects/the_week/tablet-2.png
