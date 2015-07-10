@@ -3,7 +3,6 @@ layout: project
 title: Channel 4 News for iPad
 date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence on the iPad.
-permalink: /projects/channel4_news
 hero:
   - /projects/channel4_news/tablet-1.png
   - /projects/channel4_news/tablet-2.png

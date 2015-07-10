@@ -3,7 +3,6 @@ layout: project
 title: Groopix
 date: '2008-08-22'
 excerpt: A tool for curating and printing group-based photo albums.
-permalink: /projects/groopix
 hero:
   - /projects/groopix/desktop-1.png
   - /projects/groopix/desktop-2.png

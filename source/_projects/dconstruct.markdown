@@ -3,7 +3,6 @@ layout: project
 title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
-permalink: /projects/dconstruct
 hero:
   - projects/dconstruct/2010/desktop-1.png
   - projects/dconstruct/2010/desktop-2.png

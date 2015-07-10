@@ -3,7 +3,6 @@ layout: project
 title: Apture
 date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
-permalink: /projects/apture
 hero:
   - /projects/apture/desktop-1.png
   - /projects/apture/desktop-2.png

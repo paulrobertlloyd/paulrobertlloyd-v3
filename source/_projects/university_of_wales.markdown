@@ -3,7 +3,6 @@ layout: project
 title: University of Wales
 date: '2009-10-29'
 excerpt: An extensible design language for international university.
-permalink: /projects/university_of_wales
 hero:
   - /projects/university_of_wales/desktop-1.png
   - /projects/university_of_wales/desktop-2.png

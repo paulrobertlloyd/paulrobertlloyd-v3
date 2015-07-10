@@ -3,7 +3,6 @@ layout: project
 title: Nuts.com
 date: '2011-05-27'
 excerpt: Incremental redesign for family run, customer-focused food retailer.
-permalink: /projects/nuts
 hero:
   - /projects/nuts/desktop-1.png
   - /projects/nuts/desktop-2.png

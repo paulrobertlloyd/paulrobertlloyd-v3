@@ -3,7 +3,6 @@ layout: project
 title: Fontdeck
 date: '2010-11-30'
 excerpt: Defining a distinctive look for the purveyor of the finest web fonts.
-permalink: /projects/fontdeck
 theme: fontdeck
 hero:
   - /projects/fontdeck/desktop-1.png
