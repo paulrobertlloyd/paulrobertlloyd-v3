@@ -32,6 +32,11 @@ kramdown:
   syntax_highlighter_opts:
     inline_theme: github
 
+# Collections
+collections:
+  talks:
+    output: true
+
 # Assets
 assets:
   sources:

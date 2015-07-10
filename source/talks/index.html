@@ -15,7 +15,7 @@ intro: I like to share accumulated knowledge with my peers, and have spoken at d
     </div>
 </section>
 
-{% assign talks = site.posts | where:'layout','talk' | sort:date %}
+{% assign talks = site.talks | sort:"date" %}
 {% for item in talks reversed %}
     {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
     {% if this_year != year %}
