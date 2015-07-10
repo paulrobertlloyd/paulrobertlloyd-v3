@@ -16,7 +16,6 @@
 .c-figure__caption {
     @include ff--sans-serif;
     @include fs--caption;
-    @include rule(after);
     margin-top: $u__baseline;
 
     p {
@@ -140,40 +139,5 @@
 .c-figure--image-quintet {
     img {
         @include gallery(2 of 10);
-    }
-}
-
-
-/* Tweet */
-.c-figure--tweet {
-    blockquote {
-        position: relative;
-        background-color: $c__neutral--a;
-        padding: $u__baseline;
-
-        &::before {
-            border-left: 0;
-        }
-
-        &::after {
-            display: block;
-            position: absolute;
-            bottom: ($u__baseline * -1);
-            left: ($u__baseline * 1.5);
-            border-top: $u__baseline solid $c__neutral--a;
-            border-right: $u__baseline solid transparent;
-            border-left: $u__baseline solid transparent;
-            width: 0;
-            height: 0;
-            content: '';
-        }
-
-        :last-child {
-            margin-bottom: 0;
-        }
-    }
-
-    .c-figure__caption {
-        @include rule(after, none);
     }
 }

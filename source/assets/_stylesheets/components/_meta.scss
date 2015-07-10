@@ -16,10 +16,6 @@
         clear: left;
         padding-bottom: $u__baseline;
     }
-
-    &:first-of-type {
-        @include rule;
-    }
 }
 
 .c-meta__value {

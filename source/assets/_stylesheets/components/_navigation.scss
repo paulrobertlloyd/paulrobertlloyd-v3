@@ -40,6 +40,7 @@
     display: block;
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
+    text-decoration: none;
 
     @media (min-width: $b__a) {
         @include span(1 of $g__inner at 1);
