@@ -51,13 +51,13 @@
         margin-bottom: ($u__baseline / 2);
     }
 
-    a {
-        &:hover {
-            color: $c__identity--1;
-        }
+    blockquote {
+        font-style: italic;
+    }
 
+    a {
         &:not([class]) {
-            @include text-decoration-color($c__identity--1);
+            text-decoration: underline;
         }
 
         &::after {

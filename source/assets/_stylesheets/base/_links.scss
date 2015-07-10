@@ -4,13 +4,14 @@
     ========================================================================= */
 
 a {
-    text-decoration: none;
+    // text-decoration: none;
     color: inherit;
 
     &:active,
     &:hover {
     /*  Improve readability when focused and mouse hovered in all browsers */
         outline: 0;
+        color: $c__identity--1;
     }
 
     &:focus {

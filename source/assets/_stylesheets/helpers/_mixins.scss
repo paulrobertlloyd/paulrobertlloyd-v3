@@ -115,6 +115,11 @@
         line-height: (30/18);
         font-size: 1.125rem; // 18px
     }
+
+    @media (min-width: $b__c) {
+        line-height: (32/20);
+        font-size: 1.25rem; // 20px
+    }
 }
 
 @mixin fs--caption {
@@ -136,7 +141,7 @@
 // Text underline colour
 @mixin text-decoration-color($color) {
     @if $color != 'none' {
-        background-image: linear-gradient(to bottom, transparent 93%, $color 93%);
+        background-image: linear-gradient(to bottom, transparent 95%, $color 0%);
         text-decoration: none;
     } @else {
         background-image: none;

@@ -36,7 +36,7 @@
 }
 
 .c-item__permalink {
-    @include text-decoration-color('none');
+    text-decoration: none;
 }
 
 .c-item__avatar {

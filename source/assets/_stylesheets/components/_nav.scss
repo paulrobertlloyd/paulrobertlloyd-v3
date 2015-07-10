@@ -50,7 +50,7 @@
         font-weight: 700;
 
         @media (min-width: $b__d) {
-            @include text-decoration-color('none');
+            text-decoration: none;
             position: fixed;
             bottom: ($u__baseline * 1.5);
             transition: all 0.2s;
