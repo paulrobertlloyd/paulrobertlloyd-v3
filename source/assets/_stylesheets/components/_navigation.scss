@@ -16,50 +16,6 @@
         box-shadow: 0 0 10px $c__neutral--a;
     }
 
-    .t-inverted & {
-        background-color: rgba($c__neutral--1, 0.95);
-    }
-
-    .t-home & {
-        background-color: rgba($c__identity--1, 0.95);
-    }
-
-    .t-24-ways & {
-        background-color: rgba($c__24-ways, 0.95);
-    }
-
-    .t-unicef-uk & {
-        background-color: rgba($c__unicef-uk, 0.95);
-    }
-
-    .t-bradshaws-guide & {
-        background-color: rgba($c__bradshaws-guide, 0.95);
-    }
-
-    .t-matter & {
-        background-color: rgba($c__matter, 0.95);
-    }
-
-    .t-dacs & {
-        background-color: rgba($c__dacs, 0.95);
-    }
-
-    .t-the-week & {
-        background-color: rgba($c__the-week, 0.95);
-    }
-
-    .t-fontdeck & {
-        background-color: rgba($c__fontdeck, 0.95);
-    }
-
-    .t-ngenera & {
-        background-color: rgba($c__ngenera, 0.95);
-    }
-
-    .t-ning & {
-        background-color: rgba($c__ning, 0.95);
-    }
-
     @media (min-width: $b__a) {
         top: 0;
         height: 0;

@@ -47,51 +47,6 @@ body {
     @media print {
         color: $c__neutral !important;
     }
-
-    .t-inverted & {
-        background-color: $c__neutral--1;
-        color: $c__neutral--9;
-    }
-
-    .t-home & {
-        background-color: $c__identity--1;
-    }
-
-    .t-24-ways & {
-        background-color: $c__24-ways;
-    }
-
-    .t-unicef-uk & {
-        background-color: $c__unicef-uk;
-    }
-
-    .t-bradshaws-guide & {
-        background-color: $c__bradshaws-guide;
-    }
-
-    .t-matter & {
-        background-color: $c__matter;
-    }
-
-    .t-dacs & {
-        background-color: $c__dacs;
-    }
-
-    .t-the-week & {
-        background-color: $c__the-week;
-    }
-
-    .t-fontdeck & {
-        background-color: $c__fontdeck;
-    }
-
-    .t-ngenera & {
-        background-color: $c__ngenera;
-    }
-
-    .t-ning & {
-        background-color: $c__ning;
-    }
 }
 
 article,
