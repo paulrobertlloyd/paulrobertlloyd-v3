@@ -34,6 +34,8 @@ kramdown:
 
 # Collections
 collections:
+  articles:
+    output: true
   projects:
     output: true
   talks:
