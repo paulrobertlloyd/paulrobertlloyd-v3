@@ -67,7 +67,7 @@
 
 /* Link */
 .c-item--link {
-    .c-item__title::after {
+    .c-item__link::after {
         content: ' \2192';
     }
 }
