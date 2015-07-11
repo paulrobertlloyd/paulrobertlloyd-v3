@@ -9,7 +9,6 @@ hero:
   - /projects/matter/tablet.png
   - /projects/matter/desktop.png
 meta:
-  client: Matter Publishing
   year: 2012
   role: UX, branding and graphic design
   note: 'Company acquired by Medium in April 2013'
@@ -46,10 +45,6 @@ One of the guiding principles established early on was to privilege the reading 
 {% endfigure %}
 
 As well as being able to purchase individual articles as ebooks via Amazon and iTunes, subscribers could get access to all the stories on the website. Crucial to making this work was creating a frictionless payment flow. A guided two-step flow kept form fields to a minimum, and made subscribing a painless experience.
-
-## Result
-{% figure "Screenshots of finished product" %}
-{% endfigure %}
 
 [1]: http://www.kickstarter.com/projects/readmatter/matter
 [2]: http://clearleft.com/made/matter

@@ -21,11 +21,11 @@ theme: inverted
             </figcaption>
         </figure>
         {% enddirectory %}
-    </div>
 
-    {% if page.series %}
-        {% include nav/series-posts.html %}
-    {% endif %}
+        {% if page.series %}
+            {% include nav/series.html %}
+        {% endif %}
+    </div>
 
     {% include page/tags.html %}
 

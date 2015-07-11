@@ -9,5 +9,4 @@ image:
 tags:
   - Germany
   - Berlin
-hidden: true
 ---

@@ -7,7 +7,6 @@ hero:
   - /projects/cwhomes/desktop-1.png
   - /projects/cwhomes/desktop-2.png
 meta:
-  client: Coventry & Warwickshire Homes
   year: 2006
   role: Lead design, branding and front-end development
 ---

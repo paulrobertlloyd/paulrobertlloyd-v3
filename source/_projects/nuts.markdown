@@ -7,7 +7,6 @@ hero:
   - /projects/nuts/desktop-1.png
   - /projects/nuts/desktop-2.png
 meta:
-  client: Nuts.com
   year: 2010-12
   role: Design
 ---

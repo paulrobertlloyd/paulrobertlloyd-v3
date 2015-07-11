@@ -7,7 +7,6 @@ hero:
   - /projects/channel4_news/tablet-1.png
   - /projects/channel4_news/tablet-2.png
 meta:
-  client: Channel 4
   year: 2010
   role: Design
 ---

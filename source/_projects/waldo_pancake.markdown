@@ -7,7 +7,6 @@ hero:
   - /projects/waldo_pancake/desktop-1.png
   - /projects/waldo_pancake/desktop-2.png
 meta:
-  client: Jim Smith
   year: 2011
   role: Front-end development
 ---

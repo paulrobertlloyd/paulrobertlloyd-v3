@@ -9,7 +9,6 @@ hero:
   - /projects/dacs/desktop-2.png
   - /projects/dacs/mobile.png
 meta:
-  client: Design and Artists Copyright Society
   year: 2012
   role: Design and front-end development
 ---

@@ -9,7 +9,6 @@ hero:
   - /projects/24_ways/desktop-2.png
   - /projects/24_ways/phone.png
 meta:
-  client: Drew McLellan
   year: 2013
   role: Design and front-end development
   notes: 'Awarded best collaborative project at the net Awards 2014'

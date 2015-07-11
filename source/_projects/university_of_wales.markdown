@@ -7,7 +7,6 @@ hero:
   - /projects/university_of_wales/desktop-1.png
   - /projects/university_of_wales/desktop-2.png
 meta:
-  client: University of Wales
   year: 2009
   role: Design
 ---

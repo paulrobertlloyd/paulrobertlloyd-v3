@@ -15,7 +15,6 @@ hero-2013:
   - projects/dconstruct/2013/desktop-2.png
   - projects/dconstruct/2013/phone.png
 meta:
-  client: Clearleft
   year: 2010, 2011, 2013
   role: Design
 ---

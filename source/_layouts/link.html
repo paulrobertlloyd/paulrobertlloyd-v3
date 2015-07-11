@@ -11,11 +11,9 @@ layout: default
             {% endfigure %}
         {% endif %}
 
-        <div class="u-aside">
-            <p><a class="c-button" href="{{ page.link.url }}">Visit this link</a></p>
-        </div>
-
         {{ content | typogrify | namespace }}
+
+        <p><a class="c-button" href="{{ page.link.url }}">Visit this link</a></p>
     </div>
 
     {% include page/discussion.html %}

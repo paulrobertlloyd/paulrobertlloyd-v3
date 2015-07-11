@@ -8,7 +8,6 @@ hero:
   - /projects/the_week/tablet-1.png
   - /projects/the_week/tablet-2.png
 meta:
-  client: Dennis Publishing
   year: 2011
   role: Design
   notes: |
@@ -42,7 +41,7 @@ The predictable IA of the magazine was retained by creating overview pages for e
 
 A challenging aspect of this project was conveying the familiarity of the magazine within the confined space of an iPad which physically smaller, and with a lower resolution. Simply transferring the content of one page to a single screen would not be an option. While competing products often used pinch and zoom, we created bespoke layouts for both portrait and landscape device orientation.
 
-A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. <mark>[WHAT DID WE DO WITH THESE?]</mark>
+A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. These were retained, appearing alongside larger articles and linked from section fronts.
 
 ## Collaborative development
 Working closely with the development team at [Kaldor][2], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][3] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience. 

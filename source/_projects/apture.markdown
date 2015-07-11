@@ -7,7 +7,6 @@ hero:
   - /projects/apture/desktop-1.png
   - /projects/apture/desktop-2.png
 meta:
-  client: Apture
   year: 2009
   role: UX, design and front-end development
   notes: Company acquired by Google in November 2011

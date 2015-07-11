@@ -7,7 +7,6 @@ hero:
   - /projects/universal_networks/desktop-1.png
   - /projects/universal_networks/desktop-2.png
 meta:
-  client: NBCUniversal
   year: 2010
   role: Design
 ---

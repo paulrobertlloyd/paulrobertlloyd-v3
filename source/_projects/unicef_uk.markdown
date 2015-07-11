@@ -9,7 +9,6 @@ hero:
   - /projects/unicef_uk/phablet.png
   - /projects/unicef_uk/tablet.png
 meta:
-  client: UNICEF UK
   year: 2013
   role: Design and front-end development
 ---

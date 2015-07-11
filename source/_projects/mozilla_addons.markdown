@@ -7,7 +7,6 @@ hero:
   - /projects/mozilla_addons/desktop-1.png
   - /projects/mozilla_addons/desktop-2.png
 meta:
-  client: Mozilla Corporation
   year: 2009
   role: Design
 ---
