@@ -9,7 +9,6 @@ hero:
   - /projects/bradshaws_guide/tablet.png
   - /projects/bradshaws_guide/phone.png
 meta:
-  client: Personal project
   year: Ongoing
   role: Design and front-end development
 ---

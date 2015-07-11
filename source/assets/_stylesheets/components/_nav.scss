@@ -36,10 +36,6 @@
         bottom: 1rem;
     }
 
-    @media (min-width: $b__d) {
-        @include rule($display: none);
-    }
-
     @media print {
         display: none;
     }
@@ -48,69 +44,13 @@
         float: left;
         margin-right: $u__baseline;
         font-weight: 700;
-
-        @media (min-width: $b__d) {
-            text-decoration: none;
-            position: fixed;
-            bottom: ($u__baseline * 1.5);
-            transition: all 0.2s;
-            overflow: hidden;
-        }
     }
 
-    .c-nav__item__label {
-        @media (min-width: $b__d) {
-            display: none;
-            float: left;
-            height: ($u__baseline * 4);
-            line-height: ($u__baseline * 4);
-        }
+    .c-nav__item--prev::before {
+        content: '\27E8\00A0';
     }
 
-    .c-nav__item--prev {
-        @media (min-width: $b__d) {
-            left: 0;
-            margin-left: $u__baseline;
-        }
-
-        &::before {
-            content: '\27E8\00A0';
-
-            @media (min-width: $b__d) {
-                display: block;
-                float: left;
-                height: ($u__baseline * 4);
-                line-height: ($u__baseline * 4);
-                color: $c__neutral--a;
-                font-size: ($u__baseline * 4);
-            }
-        }
-    }
-
-    .c-nav__item--next {
-        @media (min-width: $b__c) {
-            right: 0;
-        }
-
-        &::after {
-            content: '\00A0\27E9';
-
-            @media (min-width: $b__d) {
-                display: block;
-                float: left;
-                height: ($u__baseline * 4);
-                line-height: ($u__baseline * 4);
-                color: $c__neutral--a;
-                font-size: ($u__baseline * 4);
-            }
-        }
-    }
-
-    // Hover states
-    .c-nav__item--prev:hover::before,
-    .c-nav__item--next:hover::after {
-        @media (min-width: $b__c) {
-            color: $c__neutral--6;
-        }
+    .c-nav__item--next::after {
+        content: '\00A0\27E9';
     }
 }

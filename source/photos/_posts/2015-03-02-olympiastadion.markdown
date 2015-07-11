@@ -10,5 +10,4 @@ tags:
   - Germany
   - Berlin
   - Architecture
-hidden: true
 ---

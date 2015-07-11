@@ -3,12 +3,11 @@ layout: project
 title: Ning
 date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
-theme: [inverted, ning]
+theme: ning
 hero:
   - /projects/ning/desktop-1.png
   - /projects/ning/desktop-2.png
 meta:
-  client: Ning
   year: 2005–2007
   role: Lead design, branding and front-end development
 ---

@@ -8,7 +8,6 @@ hero:
   - /projects/fontdeck/desktop-1.png
   - /projects/fontdeck/desktop-2.png
 meta:
-  client: Clearleft/OmniTI
   year: 2010 - 2013
   role: Lead design
 ---

@@ -7,7 +7,6 @@ hero:
   - /projects/bookfhr/desktop-1.png
   - /projects/bookfhr/desktop-2.png
 meta:
-  client: FHR Airport Services
   year: 2009
   role: Design
 ---

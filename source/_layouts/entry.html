@@ -17,11 +17,11 @@ layout: default
             {% endfigure %}
         {% endif %}
 
-        {% if page.series %}
-            {% include nav/series-posts.html class="u-aside" %}
-        {% endif %}
-
         {{ content | typogrify | namespace }}
+
+        {% if page.series %}
+            {% include nav/series.html %}
+        {% endif %}
     </div>
 
     {% include page/discussion.html %}

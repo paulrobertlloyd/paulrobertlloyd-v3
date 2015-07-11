@@ -7,7 +7,6 @@ hero:
   - /projects/groopix/desktop-1.png
   - /projects/groopix/desktop-2.png
 meta:
-  client: Steve Douty
   year: 2008
   role: UX, design and front-end development
 ---
