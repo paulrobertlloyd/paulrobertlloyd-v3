@@ -1,6 +1,9 @@
 <footer class="c-page__footer">
     <span class="u-audible">Published</span>
 
+    <span class="u-audible">by</span>
+    <a class="u-audible p-author h-card" href="{{ site.author.url }}" rel="author">{{ site.author.name }}</a>
+
     <span class="u-audible">on</span>
     <time class="c-page__pubdate dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time>
 
