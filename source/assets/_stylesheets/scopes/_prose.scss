@@ -51,10 +51,6 @@
         margin-bottom: ($u__baseline / 2);
     }
 
-    blockquote {
-        font-style: italic;
-    }
-
     a {
         &:not([class]) {
             text-decoration: underline;

@@ -61,7 +61,8 @@
     letter-spacing: -0.02em;
 
     @media (min-width: $b__b) {
-        font-size: 2rem; // 32px
+        line-height: (24/28);
+        font-size: 1.75rem; // 28px
     }
 }
 
@@ -114,11 +115,6 @@
     @media (min-width: $b__b) {
         line-height: (30/18);
         font-size: 1.125rem; // 18px
-    }
-
-    @media (min-width: $b__c) {
-        line-height: (32/20);
-        font-size: 1.25rem; // 20px
     }
 }
 

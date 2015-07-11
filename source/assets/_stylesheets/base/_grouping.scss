@@ -28,6 +28,7 @@ blockquote {
     position: relative;
     padding-right: $u__baseline;
     padding-left: $u__baseline;
+    opacity: 0.9;
 
     @media print {
         page-break-inside: avoid;
