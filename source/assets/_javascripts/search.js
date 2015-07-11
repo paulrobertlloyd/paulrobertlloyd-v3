@@ -19,12 +19,12 @@
             e.parentNode.removeChild(e);
         });
 
-        SimpleJekyllSearch.init({
+        SimpleJekyllSearch ({
             searchInput: doc.querySelector('.c-form--search .c-form__input'),
             resultsContainer: doc.querySelector('.o-list'),
             searchResultTemplate: '<li class="o-list__item o-list__item--separate"><a href="{url}">{title}</a></li>',
             noResultsText: '<li class="o-list__item">Nothing matched your query</li>',
-            dataSource: '/archive/search.json',
+            json: '/archive/search.json',
             limit: 10,
         });
     }
