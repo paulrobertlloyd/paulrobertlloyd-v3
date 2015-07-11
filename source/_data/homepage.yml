@@ -1,7 +1,8 @@
 - class: intro
   title: Hello
   text: |
-    I'm **Paul Robert Lloyd**{: p-name}, a [designer][2], [writer][3] and [speaker][4] who lives in beautiful [Brighton][5]{: .p-locality}, [England][6]{: .p-country-name}.
+    I'm **Paul Robert Lloyd**{: .p-name}, a [designer][2], [writer][3] and [speaker][4] who lives in beautiful [Brighton][5]{: .p-locality}, [England][6]{: .p-country-name}.
+    {: .p-note}
     
     Specialising in graphic design and front-end web development, I advocate [collaborative practice][13], [systems thinking][14] and [embracing the universal nature of the web][15].
     
