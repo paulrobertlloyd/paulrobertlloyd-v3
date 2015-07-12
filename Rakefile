@@ -19,13 +19,19 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :'dev-build', [:flags] do |t, args|
+  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml"
+end
+
+
+desc "Regenerate the website files and place them into destination"
+task :'dev-rebuild', [:flags] do |t, args|
   sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --full-rebuild"
 end
 
 
 desc "Regenerate the website files and place them into destination"
 task :build do
-  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml --full-rebuild"
+  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
 end
 
 

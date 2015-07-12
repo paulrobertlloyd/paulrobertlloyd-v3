@@ -11,7 +11,7 @@ tags:
 ---
 I'm attending my second [Indie Web Camp][1] this weekend, with the sole aim of implementing [Webmentions][2]. This has meant prematurely launching my new [Jekyll][3]-based website. That this has been [in development since last February][4], many would say this moment is long overdue. I'll write in more detail about the various changes made (and Jekyll plugins written) in a later post, but for now it feels good to finally get the monkey off my back.
 
-So here's to continued iteration, broken features and a greater willingness to develop this website -- my website -- in public. And in that spirit, if anyone wishes to help me test webmentions, this is the place to do it.
+So here's to continued iteration, broken features and a greater willingness to develop this website -- my website -- in public. And in that spirit, if you wish to help me test Webmentions, this is the place to do it.
 
 [1]: https://indiewebcamp.com/2015/Brighton
 [2]: https://indiewebcamp.com/Webmention

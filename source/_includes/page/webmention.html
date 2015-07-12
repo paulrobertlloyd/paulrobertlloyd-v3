@@ -1,4 +1,4 @@
-{% capture this_url %}{{ site.url }}{{ page.url }}{% endcapture %}
+{% capture this_url %}{{ site.author.url }}{{ page.url }}{% endcapture %}
 {% capture webmentions_count %}{% webmention_count this_url %}{% endcapture %}
 <section class="c-page__webmentions c-container" aria-labelledby="webmentions">
     <header class="c-container__header">
@@ -17,5 +17,7 @@
 
     <div class="c-container__main">
         {% webmentions this_url %}
+
+        {% include form/webmention.html %}
     </div>
 </section>
