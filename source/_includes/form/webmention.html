@@ -1,0 +1,10 @@
+<form class="form form--webmention" action="https://webmention.io/webmention" method="post">
+    <fieldset class="c-form__fieldset">
+        <label class="c-form__field">
+            Have you written a response to this? <label for="webmention-source">Let me know the <abbr title="Uniform Resource Locator">URL</abbr>
+            <input class="c-form__input c-form__input--text" name="source" type="url" placeholder="http://…"/>
+        </label>
+    </fieldset>
+    <input class="c-form__hidden" name="target" type="hidden" value="{{ site.url }}{{ page.url }}"/>
+    <input class="c-form__submit c-button" type="submit" value="Ping!"/>
+</form>

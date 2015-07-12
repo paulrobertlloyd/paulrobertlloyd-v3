@@ -2,7 +2,7 @@
 #  https://github.com/aarongustafson/jekyll-webmention_io 
 #  Licence : MIT
 #  
-#  this liquid plugin insert a webmentions into your Octopress or Jekyll blog
+#  This liquid plugin insert a webmentions into your Octopress or Jekyll blog
 #  using http://webmention.io/ and the following syntax:
 #
 #    {% webmentions URL %}
@@ -111,7 +111,6 @@ module Jekyll
     end
 
     def parse_links(links)
-
       # load from the cache
       cache_file = File.join(WEBMENTION_CACHE_DIR, 'webmentions_received.yml')
       if File.exists?(cache_file)
@@ -123,7 +122,7 @@ module Jekyll
       targets = []
 
       links.reverse_each { |link|
-        
+
         id = link['id']
         target = link['target'].sub(/\?.*$/, '')
         pubdate = link['data']['published_ts']
@@ -219,7 +218,7 @@ module Jekyll
             link_title = false
           end
 
-          # truncation
+          # Truncation
           if content and content.length > 200 
             content = content[0..200].gsub(/\s\w+\s*$/, '...')
           end
@@ -232,15 +231,20 @@ module Jekyll
           author_block = ''
           if author = link['data']['author']
 
-            # puts author
+            # Puts author
             a_name = author['name']
             a_url = author['url']
             a_photo = author['photo']
 
+            # Remove query string from photo URL
+            a_photo_url = URI::parse(a_photo)
+            a_photo_url.fragment = a_photo_url.query = nil
+            a_photo_resized_url = 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=' + a_photo_url.to_s + '&#38;container=focus&#38;resize_w=120&#38;resize_h=120&#38;refresh=2592000'
+
             if a_photo
               status = `curl -s -I -L -o /dev/null -w "%{http_code}" --location "#{a_photo}"`
               if status == "200"
-                author_block << "<img class=\"webmention__author__photo u-photo\" src=\"#{a_photo}\" alt=\"\" title=\"#{a_name}\">"
+                author_block << "<img class=\"webmention__author__photo u-photo\" src=\"#{a_photo_resized_url}\" alt=\"\" title=\"#{a_name}\">"
               else
                 webmention_classes << ' webmention--no-photo'
               end
@@ -326,22 +330,20 @@ module Jekyll
           content_block << meta_block
 
           # put it together
-          webmention << "<li id=\"webmention-#{id}\" class=\"webmentions__item\">"
-          webmention << "<article class=\"h-cite #{webmention_classes}\">"
+          webmention << "<li class=\"webmentions__item\">"
+          webmention << "<article class=\"h-cite #{webmention_classes}\" id=\"webmention-#{id}\">"
 
           webmention << author_block
           webmention << content_block
-          webmention << '</article></li>'
+          webmention << "</article></li>"
 
           cached_webmentions[target][the_date][id] = webmention
-          
         end
-        
       }
 
       # store it all back in the cache
       File.open(cache_file, 'w') { |f| YAML.dump(cached_webmentions, f) }
-      
+
       all_webmentions = {}
 
       # merge & organize by day
