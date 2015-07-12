@@ -18,8 +18,8 @@
 # Files to ignore
 *.jekyll-assets-cache
 *.jekyll-metadata
+*.jekyll-webmentions-cache
 *.sass-cache
-*.webmention-cache
 
 # Folders to ignore
 public
