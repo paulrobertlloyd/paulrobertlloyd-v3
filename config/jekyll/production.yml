@@ -1,5 +1,5 @@
 env: production
-url: https://v3.paulrobertlloyd.com
+url: https://paulrobertlloyd.com
 
 # Compress HTML
 # compress_html:
