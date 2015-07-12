@@ -59,7 +59,8 @@
 }
 
 .c-page__tags,
-.c-page__discussion {
+.c-page__discussion,
+.c-page__webmentions {
     @media (min-width: $b__b) {
         @include span(4 at 2);
     }
