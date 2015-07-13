@@ -1,6 +1,3 @@
-[submodule "source/assets/_javascripts/vendor/scopedQuerySelector"]
-	path = source/assets/_javascripts/vendor/scopedQuerySelector
-	url = https://github.com/lazd/scopedQuerySelectorShim.git
 [submodule "source/assets/_javascripts/vendor/promis"]
 	path = source/assets/_javascripts/vendor/promis
 	url = https://github.com/bramstein/promis.git
@@ -13,3 +10,6 @@
 [submodule "source/assets/_javascripts/vendor/Simple-Jekyll-Search"]
 	path = source/assets/_javascripts/vendor/Simple-Jekyll-Search
 	url = https://github.com/christian-fei/Simple-Jekyll-Search.git
+[submodule "source/assets/_javascripts/vendor/RouterRouter"]
+	path = source/assets/_javascripts/vendor/RouterRouter
+	url = https://github.com/jgarber623/RouterRouter

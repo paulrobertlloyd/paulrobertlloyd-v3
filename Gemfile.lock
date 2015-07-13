@@ -50,6 +50,8 @@ GEM
     guard-scss-lint (0.0.1alpha)
       guard (~> 2.0)
       scss-lint (~> 0.30.0)
+    hash-joiner (0.0.7)
+      safe_yaml
     hike (1.2.3)
     hitimes (1.2.2)
     http_parser.rb (0.6.0)
@@ -151,6 +153,7 @@ DEPENDENCIES
   guard-jekyll-plus
   guard-livereload
   guard-scss-lint
+  hash-joiner
   jekyll (~> 3.0.0.pre.beta)
   jekyll-archives!
   jekyll-assets

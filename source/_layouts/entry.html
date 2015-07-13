@@ -28,9 +28,15 @@ layout: default
 
     {% include page/discussion.html %}
 
-    {% include page/webmention.html %}
-
     {% include page/tags.html %}
 
     {% include nav/paginate-posts.html %}
 </article>
+
+{% include templates/responses.html %}
+{% include templates/reply.html %}
+{% include templates/reference.html %}
+
+{% include templates/likes.html %}
+{% include templates/reposts.html %}
+{% include templates/avatar.html %}
