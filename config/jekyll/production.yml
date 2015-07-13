@@ -2,10 +2,10 @@ env: production
 url: https://paulrobertlloyd.com
 
 # Compress HTML
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
 
 # Assets
 assets:
