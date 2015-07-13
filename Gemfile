@@ -20,7 +20,6 @@ group :jekyll_plugins do
 
   gem 'autoprefixer-rails'
   gem 'exiftool'
-  gem 'hash-joiner'
   gem 'oembed'
   gem 'susy'
   gem 'therubyracer' # Autoprefixer requires a JS runtime
