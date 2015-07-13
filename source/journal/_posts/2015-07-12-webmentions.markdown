@@ -13,6 +13,8 @@ I'm attending my second [Indie Web Camp][1] this weekend, with the sole aim of i
 
 So here's to continued iteration, broken features and a greater willingness to develop this website -- my website -- in public. And in that spirit, if you wish to help me test Webmentions, this is the place to do it.
 
+_Note: Webmentions are being accepted, but will not be displayed for the time being._
+
 [1]: https://indiewebcamp.com/2015/Brighton
 [2]: https://indiewebcamp.com/Webmention
 [3]: http://jekyllrb.com
