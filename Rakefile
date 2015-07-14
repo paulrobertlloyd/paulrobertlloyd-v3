@@ -31,7 +31,7 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :build do
-  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
+  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml --full-rebuild"
 end
 
 
