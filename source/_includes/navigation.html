@@ -2,7 +2,7 @@
     <h1 class="c-navigation__title u-audible" id="menu">Menu</h1>
 
     <p class="c-navigation__links">
-        <a class="c-navigation__link{% if section == "journal" %} is-active{% endif %}" href="/journal/" tabindex="2">
+        <a class="c-navigation__link{% if section == "journal" or section == "links" %} is-active{% endif %}" href="/journal/" tabindex="2">
             <span class="c-navigation__label">Journal</span>
         </a>
         <a class="c-navigation__link{% if section == "projects" %} is-active{% endif %}" href="/projects/" tabindex="3">
