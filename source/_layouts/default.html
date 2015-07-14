@@ -11,9 +11,7 @@ layout: compress
 <head>
     <link rel="dns-prefetch" href="{{ site.picture.cdn_url }}"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="https://gravatar.com"/>{% endif %}
-    {% if section == "index" or section == "journal" or section == "links" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
-    {% if section == "index" or section == "projects" %}<link rel="alternate" href="/projects/feed" type="application/atom+xml" title="Project feed"/>{% endif %}
-    {% if section == "index" or section == "photos" %}<link rel="alternate" href="/photos/feed" type="application/atom+xml" title="Photos feed"/>{% endif %}
+    {% if section == "journal" or section == "links" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     {% if page.previous_in_category != nil %}<link rel="prev bookmark" href="{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}"/>{% endif %}
