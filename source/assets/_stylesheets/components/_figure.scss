@@ -3,7 +3,7 @@
     ========================================================================= */
 .c-figure {
     @include clearfix;
-    margin-bottom: ($u__baseline * 2);
+    margin-bottom: $u__baseline;
 }
 
 .c-figure__main {
@@ -17,6 +17,7 @@
     @include ff--sans-serif;
     @include fs--caption;
     margin-top: $u__baseline;
+    margin-bottom: $u__baseline;
 
     p {
         margin-bottom: $u__baseline;
