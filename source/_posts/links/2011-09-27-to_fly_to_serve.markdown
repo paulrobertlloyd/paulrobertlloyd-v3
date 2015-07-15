@@ -1,5 +1,4 @@
 ---
-layout: link
 title: To Fly. To Serve.
 date: '2011-09-27 22:44:50 +0100'
 link:

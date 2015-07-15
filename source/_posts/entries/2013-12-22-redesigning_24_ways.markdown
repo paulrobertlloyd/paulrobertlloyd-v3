@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Redesigning 24 ways
 date: '2013-12-22 22:53:51 +0000'
 location: Brighton, England

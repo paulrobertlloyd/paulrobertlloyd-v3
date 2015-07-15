@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Post Office Railway (Mail Rail)
 date: '2011-04-25 13:12:00 +0100'
 link:

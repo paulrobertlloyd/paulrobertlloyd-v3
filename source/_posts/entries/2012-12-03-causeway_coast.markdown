@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Exploring the Causeway Coast
 date: '2012-12-03 22:44:50 +0000'
 location: Brighton, England

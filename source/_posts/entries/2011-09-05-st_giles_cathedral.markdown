@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: St. Giles' Cathedral
 date: '2011-09-05 00:08:59 +0100'
 image:

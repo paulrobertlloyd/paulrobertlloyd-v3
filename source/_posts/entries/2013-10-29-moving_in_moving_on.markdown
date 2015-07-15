@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Moving In, Moving On
 date: '2013-10-29 14:20:00 +0000'
 location: Brighton, England

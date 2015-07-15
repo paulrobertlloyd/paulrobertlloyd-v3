@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: An Inconvenient Update
 date: '2009-02-14 23:37:18 +0000'
 location: Littlehampton, England

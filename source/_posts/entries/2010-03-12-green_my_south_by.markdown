@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Green My South By
 date: '2010-03-12 02:42:00 +0000'
 location: Littlehampton, England

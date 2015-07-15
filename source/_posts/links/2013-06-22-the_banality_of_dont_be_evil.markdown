@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Banality of 'Don't Be Evil'
 date: '2013-06-22 02:00:23 +0100'
 link:

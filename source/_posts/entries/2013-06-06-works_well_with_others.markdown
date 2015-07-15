@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Works Well With Others
 date: '2013-06-06 00:00:00 +0000'
 location: Brighton, England

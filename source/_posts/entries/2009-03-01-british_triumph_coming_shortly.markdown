@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: British Triumph Coming Shortly
 date: '2009-03-01 22:39:26 +0000'
 location: Littlehampton, England

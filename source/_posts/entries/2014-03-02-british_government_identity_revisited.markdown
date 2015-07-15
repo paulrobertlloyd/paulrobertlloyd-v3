@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: British Government Identity, Revisited
 date: '2014-03-02 01:32:03 +0000'
 location: Brighton, England

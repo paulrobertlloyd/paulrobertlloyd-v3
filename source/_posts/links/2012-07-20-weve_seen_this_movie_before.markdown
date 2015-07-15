@@ -1,5 +1,4 @@
 ---
-layout: link
 title: We've Seen This Movie Before
 date: '2012-07-20 23:51:44 +0100'
 link:

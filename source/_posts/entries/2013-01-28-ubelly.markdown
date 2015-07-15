@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: And the Award Goes to...
 date: '2013-01-28 23:00:24 +0000'
 location: Brighton, England

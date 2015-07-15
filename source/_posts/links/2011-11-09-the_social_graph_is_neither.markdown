@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Social Graph is Neither
 date: '2011-11-09 21:16:51 +0000'
 link:

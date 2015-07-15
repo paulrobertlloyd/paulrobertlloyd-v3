@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Problem with Facebook's 'Places'
 date: '2010-08-24 18:21:00 +0100'
 link:

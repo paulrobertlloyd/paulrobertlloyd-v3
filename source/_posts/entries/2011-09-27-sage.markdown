@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Sage
 date: '2011-09-27 23:26:56 +0100'
 location: Brighton, England

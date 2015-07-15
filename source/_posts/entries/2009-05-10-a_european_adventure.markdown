@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A European Adventure
 date: '2009-05-10 00:33:58 +0100'
 location: Littlehampton, England

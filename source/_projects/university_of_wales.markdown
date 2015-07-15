@@ -1,5 +1,4 @@
 ---
-layout: project
 title: University of Wales
 date: '2009-10-29'
 excerpt: An extensible design language for international university.

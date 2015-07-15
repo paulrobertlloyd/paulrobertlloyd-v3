@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A Week with Windows Phone 7
 date: '2011-10-18 23:49:26 +0100'
 location: Brighton, England

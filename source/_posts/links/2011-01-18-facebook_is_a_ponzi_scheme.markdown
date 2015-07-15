@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Facebook is a Ponzi Scheme
 date: '2011-01-18 10:20:00 +0000'
 link:

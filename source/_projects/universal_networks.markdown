@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Universal Networks
 date: '2010-05-03'
 excerpt: Design for NBCUniversal's international channel portfolio.

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: My Intention Is This
 date: '2014-01-05 19:51:27 +0000'
 location: Brighton, England

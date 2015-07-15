@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Two Years
 date: '2011-06-08 23:46:23 +0100'
 location: Brighton, England

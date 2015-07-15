@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Back in the District
 series: North America 2011
 date: '2011-12-19 22:00:28 +0000'

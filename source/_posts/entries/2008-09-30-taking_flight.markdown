@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Taking Flight
 date: '2008-09-30 09:34:24 +0100'
 location: Solihull, England

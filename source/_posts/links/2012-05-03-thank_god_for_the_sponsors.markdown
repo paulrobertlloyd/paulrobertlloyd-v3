@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Not Excited by the Olympics? Then Thank God for the Sponsors
 date: '2012-05-03 22:22:59 +0100'
 link:

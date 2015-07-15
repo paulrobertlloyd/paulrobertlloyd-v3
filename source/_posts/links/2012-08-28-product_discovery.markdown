@@ -1,5 +1,4 @@
 ---
-layout: link
 title: 'Usable yet Useless: Why Every Business Needs Product Discovery'
 date: '2012-08-28 14:38:10 +0100'
 link:

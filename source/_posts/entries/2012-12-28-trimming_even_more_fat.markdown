@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Trimming Even More Fat
 date: '2012-12-28 19:56:19 +0000'
 location: Walsall, England

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 2010 in Review
 date: '2011-01-10 00:16:26 +0000'
 location: Brighton, England

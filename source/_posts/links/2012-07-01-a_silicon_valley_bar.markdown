@@ -1,5 +1,4 @@
 ---
-layout: link
 title: A Silicon Valley Bar
 date: '2012-07-01 17:20:35 +0100'
 link:

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Historic Counties & Psychoville
 date: '2009-06-23 00:30:00 +0100'
 location: Littlehampton, England

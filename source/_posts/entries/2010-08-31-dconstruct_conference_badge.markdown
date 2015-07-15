@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A Greener Conference Badge for dConstruct
 date: '2010-08-31 23:58:46 +0100'
 location: Brighton, England

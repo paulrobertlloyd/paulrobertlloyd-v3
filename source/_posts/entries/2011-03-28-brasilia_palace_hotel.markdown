@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Brasília Palace Hotel
 date: '2011-03-28 20:28:04 +0100'
 location: São Paulo, Brazil

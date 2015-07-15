@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: (Re)introducing Bradshaw's Guide
 date: '2013-04-17 00:48:12 +0100'
 location: San Francisco, USA

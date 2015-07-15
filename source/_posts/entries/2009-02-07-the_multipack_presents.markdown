@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Multipack Presents...
 date: '2009-02-07 22:29:57 +0000'
 location: Littlehampton, England

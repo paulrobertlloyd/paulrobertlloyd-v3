@@ -50,18 +50,6 @@
     > li > p {
         margin-bottom: ($u__baseline / 2);
     }
-
-    a {
-        text-decoration: underline;
-
-        &::after {
-            @media print {
-                @include ff--monospace;
-                font-size: 80%;
-                content: '[' attr(href) ']';
-            }
-        }
-    }
 }
 
 .s-prose--body {
@@ -74,12 +62,32 @@
     dt:not([class]) {
         font-size: 120%;
     }
+
+    a:not([class]) {
+        text-decoration: underline;
+
+        &::after {
+            @media print {
+                @include ff--monospace;
+                font-size: 80%;
+                content: '[' attr(href) ']';
+            }
+        }
+    }
 }
 
 .s-prose--lede {
     @include fs--lede;
+
+    a {
+        text-decoration: underline;
+    }
 }
 
 .s-prose--billboard {
     @include fs--billboard;
+
+    a {
+        text-decoration: underline;
+    }
 }

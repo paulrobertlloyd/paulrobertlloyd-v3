@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Lanyards. What Are They Good For?'
 date: '2015-07-06 20:46:36 +0100'
 location: Brighton, England

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'SXSW: Greener is Better'
 date: '2010-10-31 22:09:00 +0000'
 location: Brighton, England

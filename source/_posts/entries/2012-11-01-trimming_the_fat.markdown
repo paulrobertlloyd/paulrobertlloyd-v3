@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Trimming the Fat
 date: '2012-11-01 01:15:00 +0000'
 location: Brighton, England

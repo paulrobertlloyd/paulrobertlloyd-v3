@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Winning the World Cup Would Be the Worst Thing to Happen to English Football
 date: '2010-06-12 22:27:40 +0100'
 location: (On a train home from) Southampton, England

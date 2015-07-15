@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 28 Days Later
 date: '2009-02-28 11:24:34 +0000'
 location: Walsall, England

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 2008 in Review
 date: '2009-01-11 23:42:49 +0000'
 location: Littlehampton, England

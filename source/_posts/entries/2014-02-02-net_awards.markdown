@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: net Awards 2014
 date: '2014-02-02 16:57:58 +0000'
 location: Brighton, England

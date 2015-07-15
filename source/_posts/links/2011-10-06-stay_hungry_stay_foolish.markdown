@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Stay Hungry. Stay Foolish.
 date: '2011-10-06 20:44:26 +0100'
 link:

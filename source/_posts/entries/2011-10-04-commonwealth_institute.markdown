@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Commonwealth Institute
 date: '2011-10-04 21:57:57 +0100'
 image:

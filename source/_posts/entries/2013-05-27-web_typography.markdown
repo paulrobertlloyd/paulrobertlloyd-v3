@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: What I Want from a Web Font
 date: '2013-05-27 23:23:15 +0100'
 location: Brighton, England

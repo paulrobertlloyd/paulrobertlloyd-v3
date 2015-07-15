@@ -35,12 +35,46 @@ kramdown:
 
 # Collections
 collections:
-  articles:
+  contents:
     output: true
   projects:
     output: true
   talks:
     output: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: '_content'
+    values:
+      layout: content
+  -
+    scope:
+      path: '_posts/entries'
+    values:
+      layout: post-entry
+  -
+    scope:
+      path: '_posts/links'
+    values:
+      layout: post-link
+  -
+    scope:
+      path: '_posts/photos'
+    values:
+      layout: post-album
+      theme: inverted
+  -
+    scope:
+      path: '_projects'
+    values:
+      layout: project
+  -
+    scope:
+      path: '_talks'
+    values:
+      layout: talk
 
 # Assets
 assets:
@@ -104,19 +138,9 @@ picture:
         width: 480
         height: 300
 
-# Defaults
-defaults:
-  -
-    scope:
-      path: 'photos'
-    values:
-      theme: 'dark'
-
 # Publishing
 source: ./source
 destination: ./public
-include:
-  - '**_pages'
 exclude:
   - '**.scss'
 

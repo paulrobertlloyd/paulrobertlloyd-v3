@@ -1,5 +1,4 @@
 ---
-layout: project
 title: nGenera
 date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.

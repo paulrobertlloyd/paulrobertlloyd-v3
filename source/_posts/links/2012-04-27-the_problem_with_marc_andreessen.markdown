@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Problem With Marc Andreessen
 date: '2012-04-27 14:04:32 +0100'
 link:

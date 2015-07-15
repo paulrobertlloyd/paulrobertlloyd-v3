@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: DuckDuckGo
 date: '2012-03-03 00:21:20 +0000'
 location: Brighton, England

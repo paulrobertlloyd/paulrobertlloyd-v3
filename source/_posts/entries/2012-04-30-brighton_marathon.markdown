@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Marathon Man
 date: '2012-04-30 23:48:01 +0100'
 location: Brighton, England

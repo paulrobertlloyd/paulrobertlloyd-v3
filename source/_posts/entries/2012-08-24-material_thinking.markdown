@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Material Thinking
 date: '2012-08-24 01:44:10 +0100'
 location: Brighton, England

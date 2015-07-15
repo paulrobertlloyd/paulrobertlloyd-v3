@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Cennydd Bowles on the Ethical Designer
 date: '2014-04-13 15:20:11 +0000'
 link:

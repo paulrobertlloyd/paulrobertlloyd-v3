@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Matter
 date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.

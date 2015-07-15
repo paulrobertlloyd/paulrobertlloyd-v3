@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Driven to Design
 date: '2009-02-03 23:10:49 +0000'
 location: San Francisco, USA

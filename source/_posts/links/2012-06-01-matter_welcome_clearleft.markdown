@@ -1,5 +1,4 @@
 ---
-layout: link
 title: 'MATTER: Welcome Clearleft'
 date: '2012-06-01 22:39:40 +0100'
 link:

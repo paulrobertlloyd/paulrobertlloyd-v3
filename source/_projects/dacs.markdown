@@ -1,5 +1,4 @@
 ---
-layout: project
 title: DACS
 date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artists' rights organisation.

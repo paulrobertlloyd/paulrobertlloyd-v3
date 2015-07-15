@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Europa!
 date: '2009-06-13 01:39:10 +0100'
 location: Walsall, England

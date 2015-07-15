@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Richard Madeley
 date: '2011-09-29 01:24:01 +0100'
 link:

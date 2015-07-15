@@ -1,5 +1,4 @@
 ---
-layout: link
 title: 'Better CSS with Sass by Cole Henley'
 date: '2015-07-06 15:11:35 +0100'
 link:

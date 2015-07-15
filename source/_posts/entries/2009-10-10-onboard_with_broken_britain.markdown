@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Onboard with Broken Britain
 date: '2009-10-10 01:52:28 +0100'
 location: Littlehampton, England

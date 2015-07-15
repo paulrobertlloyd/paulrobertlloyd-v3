@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: SFO/LHR
 date: '2009-02-05 11:44:34 +0000'
 location: Heathrow, England

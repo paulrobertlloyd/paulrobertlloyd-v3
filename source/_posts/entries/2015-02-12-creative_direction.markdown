@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Creative Direction
 date: '2015-02-12 15:57:41 -0200'
 location: São Paulo, Brazil

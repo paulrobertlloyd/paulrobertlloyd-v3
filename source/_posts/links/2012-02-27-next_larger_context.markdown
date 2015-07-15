@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Next Larger Context
 date: '2012-02-27 02:03:33 +0000'
 link:

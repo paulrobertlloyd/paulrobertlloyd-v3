@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Worst SXSW Ever Was My Best SXSW Ever
 date: '2011-03-16 18:05:15 +0000'
 location: San Francisco, USA

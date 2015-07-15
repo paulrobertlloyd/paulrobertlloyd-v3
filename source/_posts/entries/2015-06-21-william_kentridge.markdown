@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'William Kentridge - If We Ever Get to Heaven'
 date: '2015-06-21 13:54:51 +0100'
 location: Brighton, England

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Jake Archibald: Building SVGO''s Missing GUI'
 date: '2015-03-23 13:26:25 +0000'
 location: Brighton, England

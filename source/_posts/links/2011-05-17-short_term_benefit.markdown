@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Short Term Benefit
 date: '2011-05-17 12:13:00 +0100'
 link:

@@ -1,5 +1,4 @@
 ---
-layout: link
 title: 'Naming Things'
 date: '2014-12-22 12:35:26 +0000'
 link:

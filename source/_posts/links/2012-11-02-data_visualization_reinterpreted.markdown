@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Data Visualization Reinterpreted
 date: '2012-11-02 01:10:58 +0000'
 link:

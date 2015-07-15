@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Fuel-Careful F1 Less of a Guilty Pleasure
 date: '2014-04-22 21:51:23 +0000'
 link:

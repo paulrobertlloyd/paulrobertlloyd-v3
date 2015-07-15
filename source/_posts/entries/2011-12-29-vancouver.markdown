@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Vibrant Vancouver
 series: North America 2011
 date: '2011-12-29 00:57:39 +0000'

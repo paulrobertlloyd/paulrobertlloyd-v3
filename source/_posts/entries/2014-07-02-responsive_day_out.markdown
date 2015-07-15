@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'The Pursuit of Laziness: Thoughts from Responsive Day Out'
 date: '2014-07-02 13:44:54 +0000'
 location: Brighton, England

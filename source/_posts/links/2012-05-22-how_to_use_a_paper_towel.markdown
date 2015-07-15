@@ -1,5 +1,4 @@
 ---
-layout: link
 title: How to Use a Paper Towel
 date: '2012-05-22 02:13:32 +0100'
 link:

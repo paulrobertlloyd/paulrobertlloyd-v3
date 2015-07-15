@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Olympic Velodrome
 date: '2012-02-21 01:52:40 +0000'
 image:

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Obama, America & Me
 date: '2009-01-23 16:19:06 +0000'
 location: Littlehampton, England

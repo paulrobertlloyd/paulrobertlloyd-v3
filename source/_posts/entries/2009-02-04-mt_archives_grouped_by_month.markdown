@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Entry Archives, Grouped by Month in Movable Type
 date: '2009-02-04 20:27:23 +0000'
 location: San Francisco, USA

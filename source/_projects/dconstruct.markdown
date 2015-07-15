@@ -1,5 +1,4 @@
 ---
-layout: project
 title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.

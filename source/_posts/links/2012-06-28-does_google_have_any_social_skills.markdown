@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Does Google Have Any Social Skills at All?
 date: '2012-06-28 23:53:00 +0100'
 link:

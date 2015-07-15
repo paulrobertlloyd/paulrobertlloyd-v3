@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: My Life as a Games Maker
 date: '2012-09-21 21:02:44 +0100'
 location: São Paulo, Brazil

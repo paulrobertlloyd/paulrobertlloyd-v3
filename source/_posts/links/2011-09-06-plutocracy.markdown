@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Osborne's Version of Sustainable Development
 date: '2011-09-06 21:38:08 +0100'
 link:

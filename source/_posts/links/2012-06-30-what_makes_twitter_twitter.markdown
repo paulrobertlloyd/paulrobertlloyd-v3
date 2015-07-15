@@ -1,5 +1,4 @@
 ---
-layout: link
 title: What makes Twitter Twitter?
 date: '2012-06-30 23:14:02 +0100'
 link:

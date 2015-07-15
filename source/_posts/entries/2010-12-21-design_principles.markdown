@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Design Principles
 date: '2010-12-21 23:22:30 +0000'
 location: Brighton, England

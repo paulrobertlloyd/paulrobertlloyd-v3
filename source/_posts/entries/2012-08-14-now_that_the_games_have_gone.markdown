@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Now That The Games Have Gone
 date: '2012-08-14 03:02:30 +0100'
 location: Brighton, England

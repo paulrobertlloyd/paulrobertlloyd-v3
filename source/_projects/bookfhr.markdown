@@ -1,5 +1,4 @@
 ---
-layout: project
 title: BookFHR
 date: '2009-11-24'
 excerpt: Visual and user experience design for provider of travel services

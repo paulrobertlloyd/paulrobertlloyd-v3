@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Continuing Adventures in America
 series: North America 2011
 date: '2011-12-18 23:09:35 +0000'

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Onwards to Ottawa
 series: North America 2011
 date: '2011-12-20 22:57:23 +0000'

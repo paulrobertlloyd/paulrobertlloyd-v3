@@ -1,5 +1,4 @@
 ---
-layout: link
 title: End Hover Abuse Now
 date: '2010-09-18 11:49:00 +0100'
 link:

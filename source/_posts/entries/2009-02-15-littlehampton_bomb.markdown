@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A Bomb in Littlehampton?
 date: '2009-02-15 23:14:53 +0000'
 location: Littlehampton, England

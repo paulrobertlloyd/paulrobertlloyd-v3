@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'San Francisco: There and Back Again'
 series: North America 2011
 date: '2012-01-01 23:44:07 +0000'

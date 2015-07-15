@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Hacked Off
 date: '2011-07-29 14:16:02 +0100'
 link:

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: I Never Left My Heart in San Francisco
 date: '2011-03-23 00:17:33 +0000'
 location: Brasília, Brazil

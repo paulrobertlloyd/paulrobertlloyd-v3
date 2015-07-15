@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Flipping The Bird
 date: '2012-06-08 00:17:17 +0100'
 location: Brighton, England

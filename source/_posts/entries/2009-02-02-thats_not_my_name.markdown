@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: That's Not My Name!
 date: '2009-02-02 22:07:44 +0000'
 location: San Francisco, USA

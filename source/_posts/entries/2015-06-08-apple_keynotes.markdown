@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Apple: it''s not you, it''s me'
 date: '2015-06-08 22:36:06 +0100'
 location: Brighton, England

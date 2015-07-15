@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'At Indie Web Camp, Playing With Webmentions'
 date: '2015-07-12 12:22:00 +0100'
 location: Brighton, England

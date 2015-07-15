@@ -4,9 +4,9 @@ title: Journal
 ---
 {% for item in paginator.posts %}
     {% case item.layout %}
-    {% when 'link' %}
+    {% when 'post-link' %}
         {% include item/link.html %}
-    {% when 'album' %}
+    {% when 'post-album' %}
         {% include item/album.html %}
     {% else %}
         {% include item/entry.html %}

@@ -1,5 +1,4 @@
 ---
-layout: link
 title: No Longer Loving Google
 date: '2012-02-02 20:05:11 +0000'
 link:

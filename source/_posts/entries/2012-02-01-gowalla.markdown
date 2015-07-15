@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: After Gowalla
 date: '2012-02-01 00:19:07 +0000'
 location: Brighton, England

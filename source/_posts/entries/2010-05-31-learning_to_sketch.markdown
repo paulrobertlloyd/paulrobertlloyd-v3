@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Learning to Sketch
 date: '2010-05-31 14:01:17 +0100'
 location: Littlehampton, England
