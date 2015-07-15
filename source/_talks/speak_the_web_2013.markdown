@@ -10,7 +10,4 @@ meta:
   event: 'Speak the Web'
   location: 'Sheffield, England'
   resources: '[Notes](http://paulrobertlloyd.com/downloads/2013/07/this_is_for_everyone.pdf)'
-tags:
-  - Web design and development
-  - Web standards
 ---

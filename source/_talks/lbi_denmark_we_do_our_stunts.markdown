@@ -12,6 +12,4 @@ meta:
   resources: |
     * [Notes](downloads/2012/05/web_native_design.pdf)
     * [Audio](/downloads/2012/05/web_native_design.mp3)
-tags:
-  - Web design and development
 ---

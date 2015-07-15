@@ -10,7 +10,4 @@ meta:
   event: 'Oxford Geek Night 21'
   location: 'Oxford, England'
   resources: '[Notes](/downloads/2011/04/styleguides_for_the_web.pdf)'
-tag:
-  - Design
-  - Styleguides
 ---

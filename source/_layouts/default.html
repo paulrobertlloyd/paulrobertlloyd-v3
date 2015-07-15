@@ -1,7 +1,6 @@
 ---
 layout: compress
 ---
-{% capture section %}{{ page.path | split:"/" | first | remove:".html" | remove:"_" }}{% endcapture %}
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
 <html lang="en-gb" class="{% for theme in page.theme %}t-{{ theme | append:' ' }}{% endfor %}fonts-loaded">
@@ -11,18 +10,26 @@ layout: compress
 <head>
     <link rel="dns-prefetch" href="{{ site.picture.cdn_url }}"/>
     {% if page.discussion %}<link rel="dns-prefetch" href="https://gravatar.com"/>{% endif %}
-    {% if section == "journal" or section == "links" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
-
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
-    {% if page.previous_in_category != nil %}<link rel="prev bookmark" href="{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}"/>{% endif %}
-    {% if page.next_in_category != nil %}<link rel="next bookmark" href="{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}"/>{% endif %}
 
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
     <link rel="apple-touch-icon" type="image/png" href="{% asset_path icon--192x192.png %}"/>
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <link rel="manifest" href="/manifest.json"/>
-
     <link rel="pingback" href="https://webmention.io/paulrobertlloyd.com/xmlrpc"/>
     <link rel="webmention" href="https://webmention.io/paulrobertlloyd.com/webmention"/>
+
+    {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
+    {% if page.previous_in_category != nil %}<link rel="prev bookmark" href="{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}"/>{% endif %}
+    {% if page.next_in_category != nil %}<link rel="next bookmark" href="{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}"/>{% endif %}
+
+{% if page.path contains "_posts" %}
+    <meta name="twitter:site" content="@paulrobertlloyd"/>
+    <meta name="twitter:creator" content="@paulrobertlloyd"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
+    {% if page.image %}<meta name="twitter:image" content="{{ site.picture.cdn_url }}/180w/80{{ page.image.url }}"/>{% endif %}
+{% endif %}
 
     <meta charset="utf-8"/>
     <meta name="author" content="{{ site.author.name }}"/>
@@ -33,15 +40,6 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="fullcss"  content="{% asset_path global.css %}">
     <meta name="fulljs" content="{% asset_path global.js %}">
-
-{% if page.path contains "_posts" %}
-    <meta name="twitter:site" content="@paulrobertlloyd"/>
-    <meta name="twitter:creator" content="@paulrobertlloyd"/>
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="{{ page.title }}"/>
-    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
-    {% if page.image %}<meta name="twitter:image" content="{{ site.picture.cdn_url }}/180w/80{{ page.image.url }}"/>{% endif %}
-{% endif %}
 
     <noscript><link rel="stylesheet" href="{% asset_path global.css %}"></noscript>
 <!--#if expr="$HTTP_COOKIE=/fullcss\=true/"-->

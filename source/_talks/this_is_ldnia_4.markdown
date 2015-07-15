@@ -10,7 +10,4 @@ meta:
   event: 'This is LDNIA #4'
   location: 'London, England'
   resources: '[Notes](/downloads/2013/09/this_is_for_everyone.pdf)'
-tags:
-  - Web design and development
-  - Web standards
 ---

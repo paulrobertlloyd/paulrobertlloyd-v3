@@ -11,7 +11,4 @@ meta:
   location: 'London, England'
   resources: |
     * [Notes](/downloads/2015/05/responsive_principles.pdf)
-tags:
-  - Web design and development
-  - Responsive design
 ---

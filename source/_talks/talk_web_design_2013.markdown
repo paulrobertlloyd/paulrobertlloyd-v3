@@ -10,7 +10,4 @@ meta:
   event: 'Talk Web Design'
   location: 'London, England'
   resources: '[Notes](downloads/2013/01/this_is_for_everyone.pdf)'
-tags:
-  - Web design and development
-  - Web standards
 ---

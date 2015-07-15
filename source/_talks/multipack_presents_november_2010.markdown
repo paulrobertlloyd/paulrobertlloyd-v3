@@ -10,9 +10,6 @@ meta:
   event: 'Multipack Presents: The Design Process'
   location: 'Birmingham, England'
   resources: '[Notes](/downloads/2010/11/styleguides_for_the_web.pdf)'
-tag:
-  - Design
-  - Styleguides
 ---
 ## The Auteur Theory of Design
 At this year's dConstruct conference, John Gruber talked about his ['Auteur Theory of Design'][1]. This states that:
