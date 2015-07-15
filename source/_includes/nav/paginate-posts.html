@@ -1,17 +1,17 @@
-<nav class="c-page__nav c-container" aria-labelledby="pages">
+<nav class="c-page__nav c-container" aria-labelledby="browse">
     <header class="c-container__header">
-        <h1 class="c-container__title u-audible" id="pages">Browse {{ page.categories | first }}</h1>
+        <h1 class="c-container__title u-audible" id="browse">Browse Journal</h1>
     </header>
 
     <div class="c-nav c-nav--pagination">
-    {% if page.next_in_category != nil %}
-        <a class="c-nav__item c-nav__item--prev" rel="prev bookmark" href="{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}">
+    {% if page.previous != nil %}
+        <a class="c-nav__item c-nav__item--prev" rel="next bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
             <span class="c-nav__item__label">Older</span>
         </a>
     {% endif %}
 
-    {% if page.previous_in_category != nil %}
-        <a class="c-nav__item c-nav__item--next" rel="next bookmark" href="{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}">
+    {% if page.next != nil %}
+        <a class="c-nav__item c-nav__item--next" rel="prev bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}">
             <span class="c-nav__item__label">Newer</span>
         </a>
     {% endif %}
