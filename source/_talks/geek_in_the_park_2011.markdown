@@ -10,8 +10,6 @@ meta:
   event: 'Geek in the Park 2011'
   location: 'Leamington Spa, England'
   resources: '[Notes](/downloads/2011/08/the_web_native_designer.pdf)'
-tags:
-  - Web design and development
 ---
 ## Web Versus Native
 Web versus native has become a common argument in development circles. Here, the word native is used to describe experiences built for mobile devices, designed to take advantage of the platforms they sit on. Yet the omission of native from the other side of this argument is puzzling -- surely applications and content on the web should feel part of that platform too?

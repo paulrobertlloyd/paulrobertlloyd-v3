@@ -10,9 +10,6 @@ meta:
   event: 'Aquent Gymnasium UK Launch'
   location: 'London, England'
   resources: '[Notes](/downloads/2013/07/keep_up.pdf)'
-tags:
-  - Web design and development
-  - Web standards
 ---
 ## An Introduction
 In 15 minutes I hope to give you an insight into the many opportunities and challenges facing web designers in 2013. But first, a little bit about myself.

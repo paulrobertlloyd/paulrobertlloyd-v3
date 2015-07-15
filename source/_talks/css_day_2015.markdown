@@ -11,7 +11,4 @@ meta:
   location: 'Amsterdam, The Netherlands'
   resources: |
     * [Notes](/downloads/2015/06/responsive_principles.pdf)
-tags:
-  - Web design and development
-  - Responsive design
 ---

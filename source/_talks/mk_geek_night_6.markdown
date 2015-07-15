@@ -12,9 +12,4 @@ meta:
   resources: |
     * [Notes](/downloads/2013/09/fear_uncertainty_and_doubt.pdf)
     * [Audio](https://soundcloud.com/mkgn/mkgn-6-paul-robert-lloyd-fear)
-tags:
-  - Privacy
-  - Security
-  - Silicon Valley
-  - Technology
 ---

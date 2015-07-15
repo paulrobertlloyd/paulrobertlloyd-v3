@@ -10,9 +10,6 @@ meta:
   event: 'APA Digital Breakfast'
   location: 'London, England'
   resources: '[Notes](/downloads/2011/03/the_web_native_designer.pdf)'
-tag:
-  - Design
-  - Process
 ---
 Today I spoke at the [APA's Digital Breakfast][1] event in London. The APA is an organisation that represents print publishers who produce magazines and editorial content for brand-based consumer magazines. This months event focused around the theme of Web Design Trends; [Chris Mills][2] [spoke about HTML5][3] and [Adam Bankin][4] talked about design beyond the desktop. A summary of my talk follows.
 

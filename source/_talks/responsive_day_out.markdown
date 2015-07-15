@@ -13,7 +13,4 @@ meta:
     * [Slides](https://speakerdeck.com/paulrobertlloyd/the-edge-of-the-web)
     * [Notes](/downloads/2013/03/the_edge_of_the_web.pdf)
     * [Audio](http://responsiveconf.com.s3.amazonaws.com/audio/15-paul-robert-lloyd-responsiveconf.mp3)
-tags:
-  - Web design and development
-  - Web standards
 ---
