@@ -4,6 +4,7 @@
 
 .c-index {
     position: relative;
+    overflow: hidden;
 }
 
 .c-index__header {
@@ -33,4 +34,12 @@
     @include fs--heading-1;
     font-weight: 700;
     word-break: break-all;
+}
+
+.c-index__archive {
+    margin-bottom: ($u__baseline * 2);
+
+    @media (min-width: $b__b) {
+        @include span(4 at 2);
+    }
 }

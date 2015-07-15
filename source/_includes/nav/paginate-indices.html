@@ -1,19 +1,15 @@
-<nav class="c-index__nav c-container" aria-labelledby="indices">
-    <header class="c-container__header">
-        <h1 class="c-container__title u-audible" id="indices">Browse {{ page.title }}</h1>
-    </header>
+<nav class="c-nav c-nav--pagination" aria-labelledby="indices">
+    <h1 class="u-audible" id="indices">Browse {{ page.title }}</h1>
 
-    <div class="c-nav c-nav--pagination">
     {% if paginator.next_page %}
-        <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
-            <span class="c-nav__item__label">Older</span>
-        </a>
+    <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
+        <span class="c-nav__item__label">Older</span>
+    </a>
     {% endif %}
 
     {% if paginator.previous_page %}
-        <a class="c-nav__item c-nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
-            <span class="c-nav__item__label">Newer</span>
-        </a>
+    <a class="c-nav__item c-nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
+        <span class="c-nav__item__label">Newer</span>
+    </a>
     {% endif %}
-    </div>
 </nav>

@@ -28,15 +28,11 @@
 
 .c-item__meta {
     @include fs--caption;
-    color: $c__neutral--3;
+    color: $c__neutral--4;
 }
 
 .c-item__pubdate {
-    color: $c__neutral--3;
-}
-
-.c-item__permalink {
-    text-decoration: none;
+    color: $c__neutral--4;
 }
 
 .c-item__avatar {
@@ -82,13 +78,35 @@
 /* Album */
 .c-item--album {
     padding-left: ($u__baseline * 7);
-    min-height: ($u__baseline * 6);
+    min-height: ($u__baseline * 7);
 
-    .c-item__photo {
+    .c-item__cover {
         position: absolute;
         top: 0;
         left: 0;
-        box-shadow: 4px 4px $c__neutral--a;
+
+        &::before,
+        &::after {
+            position: absolute;
+            background: $c__neutral--7;
+            height: 1px;
+            content: '';
+        }
+
+        &::before {
+            top: -4px;
+            right: 8px;
+            left: 8px;
+        }
+
+        &::after {
+            top: -2px;
+            right: 4px;
+            left: 4px;
+        }
+    }
+
+    .c-item__cover-photo {
         width: ($u__baseline * 6);
         height: ($u__baseline * 6);
     }
@@ -99,6 +117,14 @@
 .c-item--project {
     @include gallery(2 of 4);
 
+    @media (min-width: $b__c) {
+        @include gallery(2 of 6);
+    }
+}
+
+
+/* Series */
+.c-item--series {
     @media (min-width: $b__c) {
         @include gallery(2 of 6);
     }

@@ -8,12 +8,25 @@ layout: default
 
     <div class="c-index__main">
         {% if page.excerpt %}
-            <div class="c-index__excerpt s-prose s-prose--lede">
-                {{ page.excerpt | markdownify | typogrify | namespace }}
-            </div>
+        <div class="c-index__excerpt s-prose s-prose--lede">
+            {{ page.excerpt | markdownify | typogrify | namespace }}
+        </div>
         {% endif %}
         {{ content }}
     </div>
+
+    {% if page.path contains "journal" %}
+    <div class="c-index__archive c-container">
+        <ul class="o-list o-list--inline">
+            <li class="o-list__item o-list__item--separate">
+                <strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>
+            </li>
+            <li class="o-list__item">
+                Subscribe to the <a href="/styleguide"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> Feed</a>
+            </li>
+        </ul>
+    </div>
+    {% endif %}
 
     {% if paginator.next_page or paginator.previous_page %}
         {% include nav/paginate-indices.html %}

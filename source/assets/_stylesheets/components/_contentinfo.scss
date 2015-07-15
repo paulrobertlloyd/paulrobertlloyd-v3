@@ -7,15 +7,13 @@
 }
 
 .c-contentinfo__main {
-    border-top: 1px solid;
+    border-top: 1px solid $c__neutral--4;
     padding: ($u__baseline / 2) 0;
-    text-align: center;
     line-height: (16 / 14);
     font-size: 0.875rem; // 14px
 
     @media (min-width: $b__b) {
         margin-left: span(1 wide);
-        text-align: left;
     }
 }
 

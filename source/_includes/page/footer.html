@@ -1,15 +1,15 @@
-<footer class="c-page__footer">
-    <span class="u-audible">Published</span>
+<footer class="c-page__footer c-container">
+    <span>Published</span>
 
     <span class="u-audible">by</span>
     <a class="u-audible p-author h-card" href="{{ site.author.url }}" rel="author">{{ site.author.name }}</a>
 
-    <span class="u-audible">on</span>
+    <span>on</span>
     <time class="c-page__pubdate dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time>
 
     {% if page.location %}
     {% assign page_location = page.location | split:", " %}
-    <span class="u-audible">in</span>
+    <span>in</span>
     <span class="c-page__location p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
     {% endif %}
 </footer>
