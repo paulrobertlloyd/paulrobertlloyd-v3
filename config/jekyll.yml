@@ -35,8 +35,9 @@ kramdown:
 
 # Collections
 collections:
-  contents:
+  content:
     output: true
+    permalink: :path
   projects:
     output: true
   talks:
@@ -46,33 +47,36 @@ collections:
 defaults:
   -
     scope:
-      path: '_content'
+      type: content
     values:
       layout: content
   -
     scope:
+      type: posts
       path: '_posts/entries'
     values:
       layout: post-entry
   -
     scope:
+      type: posts
       path: '_posts/links'
     values:
       layout: post-link
   -
     scope:
+      type: posts
       path: '_posts/photos'
     values:
       layout: post-album
       theme: inverted
   -
     scope:
-      path: '_projects'
+      type: projects
     values:
       layout: project
   -
     scope:
-      path: '_talks'
+      type: talks
     values:
       layout: talk
 
