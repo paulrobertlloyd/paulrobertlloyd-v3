@@ -92,8 +92,8 @@
     min-height: ($u__baseline * 10);
 
     .c-figure__main {
+        @include background-placeholder;
         @include clearfix;
-        background-color: $c__neutral--a;
     }
 
     .c-figure__caption {

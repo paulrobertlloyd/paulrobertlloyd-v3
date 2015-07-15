@@ -3,8 +3,8 @@
     ========================================================================= */
 
 [class*="c-embed--"] {
+    @include background-placeholder;
     position: relative;
-    background-color: $c__neutral--a;
     padding-bottom: percentage(2/3);
     height: 0;
 }

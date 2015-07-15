@@ -134,6 +134,17 @@
 @mixin c2sc { font-feature-settings: 'c2sc' 1; }
 
 
+// Text highlight
+@mixin text-highlight {
+    border: solid $c__highlight;
+    border-width: 0 4px 2px 4px;
+    border-radius: 2px;
+    background-color: $c__highlight;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+
 // Text underline colour
 @mixin text-decoration-color($color) {
     @if $color != 'none' {
@@ -144,6 +155,11 @@
     }
 }
 
+
+// Background placeholder
+@mixin background-placeholder {
+    background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, #fff 3px, #fff 6px);
+}
 
 // Line rule
 @mixin rule($el: 'before', $display: block, $height: ($u__baseline / 4)) {

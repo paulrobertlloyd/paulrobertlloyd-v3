@@ -14,10 +14,6 @@
     @include ff--sans-serif;
     @include fs--caption;
 
-    .c-nav__item {
-        @include rule($height: 1px);
-    }
-
     .c-nav__item__label {
         display: block;
         padding-bottom: $u__baseline;

@@ -9,8 +9,6 @@
 }
 
 .c-meta__title {
-    @include rule($height: 1px);
-
     @media (max-width: $b__b) {
         @include span(1 at 1);
         clear: left;
@@ -23,14 +21,7 @@
     padding-bottom: $u__baseline;
 
     @media (max-width: $b__b) {
-        @include rule($height: 1px);
         @include span(4 at 2 last);
-    }
-
-    &:first-of-type {
-        @media (max-width: $b__b) {
-            margin-top: 3px;
-        }
     }
 
     p {
