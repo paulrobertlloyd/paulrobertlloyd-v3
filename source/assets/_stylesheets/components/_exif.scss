@@ -7,7 +7,6 @@
 }
 
 .c-exif__values {
-    margin-bottom: $u__baseline;
     overflow: hidden;
 
     .c-figure--photo & {
@@ -20,9 +19,9 @@
 
 .c-exif__value {
     float: left;
-    opacity: 0.66;
     margin-left: 0;
     width: 25%;
+    color: $c__neutral--4;
 
     &:nth-child(2n+2) {
         @media (min-width: $b__c) {

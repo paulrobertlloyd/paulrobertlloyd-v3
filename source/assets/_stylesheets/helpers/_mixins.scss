@@ -150,8 +150,7 @@
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: $display;
-            opacity: 0.5;
-            border-top: $height solid;
+            border-top: $height solid $c__neutral--4;
             width: ($u__baseline * 2);
             content: '';
             @if $el == 'before' {
@@ -169,8 +168,8 @@
 // Separate with a slash
 @mixin separate {
     &::after {
-        opacity: 0.5;
         margin: 0 ($u__baseline / 4);
+        color: $c__neutral--4;
         font-weight: normal;
         content: '\00a0/';
     }

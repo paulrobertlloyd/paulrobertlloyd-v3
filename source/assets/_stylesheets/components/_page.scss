@@ -4,6 +4,7 @@
 
 .c-page {
     position: relative;
+    overflow: hidden;
 }
 
 .c-page__header {
@@ -16,38 +17,16 @@
     }
 }
 
-.c-page__main {
-    margin-bottom: ($u__baseline * 2);
-
-    @media (min-width: $b__b) {
-        @include span(4 at 2 last);
-    }
-}
-
 .c-page__footer {
     @include ff--sans-serif;
     @include fs--caption;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    @media (min-width: $b__b) {
-        top: 1rem;
-    }
-
-    @media (min-width: $b__c) {
-        top: 0.5rem;
-    }
+    color: $c__neutral--4;
 }
 
 .c-page__title {
     @include fs--heading-1;
     margin-bottom: $u__baseline;
     font-weight: 700;
-}
-
-.c-page__location {
-    display: block;
 }
 
 .c-page__excerpt {
@@ -58,8 +37,11 @@
     }
 }
 
-.c-page__tags,
 .c-page__discussion,
+.c-page__footer,
+.c-page__main,
+.c-page__tags,
+.c-page__series,
 .c-page__webmentions {
     @media (min-width: $b__b) {
         @include span(4 at 2);

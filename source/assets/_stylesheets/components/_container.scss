@@ -5,11 +5,6 @@
 .c-container {
     @include clearfix;
     margin-bottom: ($u__baseline * 2);
-
-    + .c-container {
-        border-top: 1px solid;
-        padding-top: ($u__baseline / 2);
-    }
 }
 
 .c-container__header {

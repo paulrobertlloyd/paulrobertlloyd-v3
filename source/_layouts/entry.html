@@ -18,13 +18,11 @@ layout: default
         {% endif %}
 
         {{ content | typogrify | namespace }}
-
-        {% if page.series %}
-            {% include nav/series.html %}
-        {% endif %}
     </div>
 
     {% include page/footer.html %}
+
+    {% include page/series.html %}
 
     {% include page/discussion.html %}
 

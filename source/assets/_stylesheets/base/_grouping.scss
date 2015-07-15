@@ -26,9 +26,9 @@ pre {
 
 blockquote {
     position: relative;
+    opacity: 0.9;
     padding-right: $u__baseline;
     padding-left: $u__baseline;
-    opacity: 0.9;
 
     @media print {
         page-break-inside: avoid;

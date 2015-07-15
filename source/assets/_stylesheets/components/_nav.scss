@@ -28,12 +28,12 @@
 
 /* Page navigation */
 .c-nav--pagination {
-    @include rule;
-    overflow: hidden;
+    @include clearfix;
+    margin-bottom: ($u__baseline * 2);
 
     @media (min-width: $b__b) {
         position: absolute;
-        bottom: 1rem;
+        bottom: 0;
     }
 
     @media print {
