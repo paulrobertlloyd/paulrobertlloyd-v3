@@ -6,17 +6,18 @@ layout: default
         <h1 class="c-index__title">{% include title.html %}</h1>
     </header>
 
-    <div class="c-index__main">
+    <div class="c-index__section">
         {% if page.excerpt %}
         <div class="c-index__excerpt s-prose s-prose--lede">
             {{ page.excerpt | markdownify | typogrify | namespace }}
         </div>
         {% endif %}
+
         {{ content }}
     </div>
 
     {% if page.path contains "journal" %}
-    <div class="c-index__archive c-container">
+    <div class="c-index__section">
         <ul class="o-list o-list--inline">
             <li class="o-list__item o-list__item--separate">
                 <strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>

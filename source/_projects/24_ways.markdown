@@ -4,9 +4,9 @@ date: '2013-12-01'
 excerpt: Award-winning redesign for popular advent calendar for web geeks.
 theme: 24-ways
 hero:
-  - /projects/24_ways/desktop-1.png
-  - /projects/24_ways/desktop-2.png
-  - /projects/24_ways/phone.png
+  - projects/24_ways/desktop-1.png
+  - projects/24_ways/desktop-2.png
+  - projects/24_ways/phone.png
 meta:
   year: 2013
   role: Design and front-end development

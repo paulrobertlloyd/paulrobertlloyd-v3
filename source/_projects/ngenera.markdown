@@ -4,8 +4,8 @@ date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
 theme: ngenera
 hero:
-  - /projects/ngenera/desktop-1.png
-  - /projects/ngenera/desktop-2.png
+  - projects/ngenera/desktop-1.png
+  - projects/ngenera/desktop-2.png
 meta:
   year: 2008
   role: UX, branding, design and front-end development

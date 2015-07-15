@@ -3,8 +3,8 @@ title: BookFHR
 date: '2009-11-24'
 excerpt: Visual and user experience design for provider of travel services
 hero:
-  - /projects/bookfhr/desktop-1.png
-  - /projects/bookfhr/desktop-2.png
+  - projects/bookfhr/desktop-1.png
+  - projects/bookfhr/desktop-2.png
 meta:
   year: 2009
   role: Design

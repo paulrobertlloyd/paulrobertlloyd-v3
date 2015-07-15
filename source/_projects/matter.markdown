@@ -4,9 +4,9 @@ date: '2012-11-14'
 excerpt: A beautiful reading experience for publisher of unmissable journalism.
 theme: matter
 hero:
-  - /projects/matter/phone.png
-  - /projects/matter/tablet.png
-  - /projects/matter/desktop.png
+  - projects/matter/phone.png
+  - projects/matter/tablet.png
+  - projects/matter/desktop.png
 meta:
   year: 2012
   role: UX, branding and graphic design

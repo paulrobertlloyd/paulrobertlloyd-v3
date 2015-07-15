@@ -13,7 +13,7 @@ $u__max-width: 60rem;
 $c__identity--1: #03c;
 $c__identity--2: #60c;
 
-$c__neutral: #0B0C0C;
+$c__neutral: #0b0c0c;
 $c__neutral--1: lighten($c__neutral, 10%);
 $c__neutral--4: lighten($c__neutral, 40%);
 $c__neutral--7: lighten($c__neutral, 70%);
@@ -42,9 +42,6 @@ $b__d: 65rem; // 1040px
 
 
 // Grid (Susy)
-$g__cols: (4 3 3 3 3);
-$g__inner: nested(4 of $g__cols at 2);
-
 $susy: (
     flow: ltr,
     math: fluid,
@@ -52,14 +49,14 @@ $susy: (
     gutter-position: after,
     container: auto,
     container-position: center,
-    columns: $g__cols,
-    gutters: 0.75,
+    columns: 12,
+    gutters: 1/4,
     global-box-sizing: border-box,
     last-flow: to,
 //    debug: (
 //        image: show,
 //        color: $c__focus,
-//        output: overlay,
+//        output: background,
 //        toggle: bottom right,
 //    )
 );

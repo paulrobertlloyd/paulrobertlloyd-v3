@@ -43,7 +43,7 @@ The `.u-container`{: .language-css} utility class is used for macro layout contr
 **.u-pull-left**{: .u-pull-left.example--block } The `.u-pull-left`{: .language-css} utility class pulls an element to the left, and is typically used within prose.
 
 ### Aside
-**.u-aside**{: .u-aside.example--block } The `.u-aside`{: .language-css} utility class pull sidebar content to the left of the main content. This is typically used for meta or page navigation compoenents.
+**.u-aside**{: .u-aside.example--block } The `.u-aside`{: .language-css} utility class pull sidebar content to the left of the main content. This is typically used for meta or page navigation components.
 
 ### Extend
 **.u-extend**{: .u-extend.example--block }

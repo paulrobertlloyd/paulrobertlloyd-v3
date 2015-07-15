@@ -25,13 +25,13 @@
 .c-container--index {
     .c-container__header {
         @media (min-width: $b__a) {
-            @include span(1 of (3 3 3 3) first);
+            @include span(3 first);
         }
     }
 
     .c-container__main {
         @media (min-width: $b__a) {
-            @include span(3 of (3 3 3 3) last);
+            @include span(8 at 4 last);
         }
     }
 }
@@ -41,11 +41,11 @@
 .c-container--intro {
     @media (min-width: $b__b) {
         .c-container__header {
-            @include span(1 first);
+            @include span(3 first);
         }
 
         .c-container__main {
-            @include span(4 at 2 last);
+            @include span(9 at 3 last);
         }
     }
 
@@ -62,7 +62,7 @@
 /* Homepage pitch */
 .c-container--pitch {
     @media (min-width: $b__b) {
-        @include span(3);
+        @include span(7);
     }
 }
 
@@ -70,7 +70,7 @@
 /* Homepage extra */
 .c-container--extra {
     @media (min-width: $b__b) {
-        @include span(2 at 4);
+        @include span(5 at 8);
     }
 }
 
