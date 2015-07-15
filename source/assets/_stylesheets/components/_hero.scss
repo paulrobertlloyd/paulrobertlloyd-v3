@@ -24,7 +24,7 @@ $u__shadow-size: 4px;
 .c-hero__screen--desktop-1,
 .c-hero__screen--desktop-2 {
     box-shadow: 0 0 0 1px rgba($c__neutral, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral, 0.2);
-    width: span(3 at 3);
+    width: 56%;
 }
 
 .c-hero__screen--desktop,
@@ -56,7 +56,7 @@ $u__shadow-size: 4px;
     z-index: 2;
     background-image: url(asset_path('hero-tablet-portrait.png'));
     padding: 5.4% 2.1%;
-    width: span(2 at 3);
+    width: 36%;
 }
 
 .c-hero__screen--tablet-1 {
@@ -75,17 +75,17 @@ $u__shadow-size: 4px;
     z-index: 2;
     background-image: url(asset_path('hero-tablet-landscape.png'));
     padding: 2.1% 5.4%;
-    width: (span(2 at 3) * 946/640); // Width/height of tablet image
+    width: (36% * 946/640); // Width/height of tablet image
 }
 
 /* Phablet screen */
 .c-hero__screen--phablet {
     top: ($u__baseline * 2);
-    left: span(1 at 1 wide);
+    left: span(3 wide);
     z-index: 1;
     background-image: url(asset_path('hero-phablet.png'));
     padding: 5% 2% 0;
-    width: span(1 at 1 wide);
+    width: 24%;
 }
 
 /* Phone screen */
@@ -95,5 +95,5 @@ $u__shadow-size: 4px;
     z-index: 3;
     background-image: url(asset_path('hero-phone.png'));
     padding: 2.4% 0.8% 0;
-    width: span(1 at 3);
+    width: 16%;
 }

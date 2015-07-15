@@ -3,15 +3,15 @@
     ========================================================================= */
 
 .c-index {
+    @include clearfix;
     position: relative;
-    overflow: hidden;
 }
 
 .c-index__header {
     padding-bottom: ($u__baseline * 1.5);
 
     @media (min-width: $b__b) {
-        @include span(1 first);
+        @include span(3 first);
     }
 
     // Hide title on smallest breakpoint, as can be seen in sticky header
@@ -22,11 +22,12 @@
     }
 }
 
-.c-index__main {
+.c-index__section {
+    @include clearfix;
     margin-bottom: ($u__baseline * 2);
 
     @media (min-width: $b__b) {
-        @include span(4 at 2 last);
+        @include span(8 at 3);
     }
 }
 
@@ -34,12 +35,4 @@
     @include fs--heading-1;
     font-weight: 700;
     word-break: break-all;
-}
-
-.c-index__archive {
-    margin-bottom: ($u__baseline * 2);
-
-    @media (min-width: $b__b) {
-        @include span(4 at 2);
-    }
 }

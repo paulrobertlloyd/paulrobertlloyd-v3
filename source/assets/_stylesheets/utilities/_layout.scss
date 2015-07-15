@@ -1,6 +1,10 @@
 /*  =========================================================================
     Layout
     ========================================================================= */
+$g__ratio: (12/8); // Outer column count/inner column count
+$g__inner-gutter: (gutter() * $g__ratio);
+$g__inner-pull-left: (span(3) * $g__ratio);
+$g__inner-pull-right: (span(1) * $g__ratio);
 
 /* Container */
 .u-container {
@@ -25,26 +29,18 @@
 /* Align element right or left */
 .u-align-right {
     float: right;
+    width: (span(2) * $g__ratio);
     margin-top: 0;
     margin-bottom: ($u__baseline / 2);
-    margin-left: gutter();
-    width: percentage(1/3);
-
-    @media (min-width: $b__b) {
-        width: span(1 of $g__inner);
-    }
+    margin-left: $g__inner-gutter;
 }
 
 .u-align-left {
     float: left;
+    width: (span(2) * $g__ratio);
     margin-top: 0;
-    margin-right: gutter();
+    margin-right: $g__inner-gutter;
     margin-bottom: ($u__baseline / 2);
-    width: percentage(1/3);
-
-    @media (min-width: $b__b) {
-        width: span(1 of $g__inner);
-    }
 }
 
 
@@ -52,8 +48,9 @@
 .u-aside {
     @media (min-width: $b__b) {
         float: left;
-        margin-left: (percentage(1/3) * -1);
-        width: (percentage(1/3) - gutter());
+        margin-right: $g__inner-gutter;
+        margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
+        width: $g__inner-pull-left;
     }
 
     + * {
@@ -64,42 +61,32 @@
 
 /* Pull element right or left */
 .u-pull-right {
-    max-width: 100%;
-
     @media (min-width: $b__a) {
-        @include span(2 of $g__inner last);
-        margin-left: gutter();
+        float: right;
+        width: (span(4) * $g__ratio);
+        margin-left: $g__inner-gutter;
+    }
+
+    @media (min-width: $b__b) {
+        margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
     }
 }
 
 .u-pull-left {
-    max-width: 100%;
-
     @media (min-width: $b__a) {
-        @include span(2 of $g__inner first);
+        float: left;
+        width: (span(4) * $g__ratio);
+        margin-right: $g__inner-gutter;
     }
 
     @media (min-width: $b__b) {
-        margin-left: (percentage(1/3) * -1);
-    }
-}
-
-
-/* On wider breakpoints, extend element outwards by an additional column */
-.u-extend {
-    $margin-left: percentage(1/3);
-
-    @media (min-width: $b__b) {
-        margin-left: ($margin-left * -1);
+        margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
     }
 }
 
 
 /* On wider breakpoints, bleed element to edges of the main container */
 .u-bleed {
-    $margin-left: percentage(1/3);
-    $gutter-left: ($u__baseline * 2);
-
     margin-right: ($u__baseline * -1);
     margin-left: ($u__baseline * -1);
 
@@ -107,14 +94,14 @@
         margin-right: ($u__baseline * -2);
         margin-left: ($u__baseline * -2);
     }
+}
 
+
+/* On wider breakpoints, extend element outwards by an additional column */
+.u-bleed,
+.u-extend {
     @media (min-width: $b__b) {
-        margin-left: ($margin-left * -1);
-        margin-left: calc((#{$margin-left} + #{$gutter-left}) * -1);
-    }
-
-    @media (min-width: $b__c) {
-        margin-right: 0;
-        margin-left: ($margin-left * -1);
+        margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
+        margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
     }
 }

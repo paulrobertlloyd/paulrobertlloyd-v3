@@ -35,16 +35,15 @@
         }
 
         @media (min-width: $b__b) {
-            $margin-left: span(1 wide);
+            $margin-left: span(3 wide);
             $gutter-left: $u__baseline;
-
             padding-left: calc(#{$margin-left} - #{$gutter-left});
         }
 
         @media (min-width: $b__c) {
             margin-right: 0;
             margin-left: 0;
-            padding-left: span(1 wide);
+            padding-left: span(3 wide);
         }
     }
 }
@@ -54,7 +53,7 @@
 .c-figure--caption-right {
     .c-figure__main {
         @media (min-width: $b__c) {
-            @include span(3 at 1 of (3 3 3 3));
+            @include span(9 first); // Nested column context: 6 * 1.5
         }
     }
 
@@ -62,7 +61,7 @@
         @media (min-width: $b__c) {
             @include rule(before);
             @include rule(after, $display: none);
-            @include span(1 at 4  of (3 3 3 3));
+            @include span(3 last); // Nested column context: 2 * 1.5
             margin-top: 0;
         }
     }
@@ -70,13 +69,13 @@
     &.u-bleed {
         .c-figure__main {
             @media (min-width: $b__c) {
-                @include span(3 at 1 of (4 3 3 3 3));
+                @include span(8 first);
             }
         }
 
         .c-figure__caption {
             @media (min-width: $b__c) {
-                @include span(2 at 4 of (4 3 3 3 3));
+                @include span(4 last);
                 padding-right: 0;
                 padding-left: 0;
             }

@@ -10,7 +10,7 @@
 
 .c-meta__title {
     @media (max-width: $b__b) {
-        @include span(1 at 1);
+        @include span(3 first);
         clear: left;
         padding-bottom: $u__baseline;
     }
@@ -21,7 +21,7 @@
     padding-bottom: $u__baseline;
 
     @media (max-width: $b__b) {
-        @include span(4 at 2 last);
+        @include span(9 last);
     }
 
     p {

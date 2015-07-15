@@ -4,8 +4,8 @@ date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
 theme: ning
 hero:
-  - /projects/ning/desktop-1.png
-  - /projects/ning/desktop-2.png
+  - projects/ning/desktop-1.png
+  - projects/ning/desktop-2.png
 meta:
   year: 2005–2007
   role: Lead design, branding and front-end development

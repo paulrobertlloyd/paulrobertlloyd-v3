@@ -1,14 +1,11 @@
 {% if page.series %}
     {% assign series = site.posts | where:"series",page.series | sort:date %}
-    <aside class="c-page__series c-container" aria-labelledby="series">
-        <header class="c-container__header">
-            <h1 class="c-container__title" id="series">
-                <span class="c-container--series__label">Series:</span>
-                <span class="c-container--series__title">{{ page.series }}<span>
-            </h1>
-        </header>
+    <aside class="c-page__section" aria-labelledby="series">
+        <h1 class="c-page__section-title" id="series">
+            <span class="c-container--series__label">Series:</span>
+            <span class="c-container--series__title">{{ page.series }}<span>
+        </h1>
 
-        <div class="c-container__main">
         {% for item in series %}
             {% if item.url != page.url %}
                 <article class="c-item c-item--series h-entry">
@@ -22,6 +19,5 @@
                 </article>
             {% endif %}
         {% endfor %}
-        </div>
     </aside>
 {% endif %}

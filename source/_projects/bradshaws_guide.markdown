@@ -4,9 +4,9 @@ date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 theme: bradshaws-guide
 hero:
-  - /projects/bradshaws_guide/desktop.png,
-  - /projects/bradshaws_guide/tablet.png
-  - /projects/bradshaws_guide/phone.png
+  - projects/bradshaws_guide/desktop.png,
+  - projects/bradshaws_guide/tablet.png
+  - projects/bradshaws_guide/phone.png
 meta:
   year: Ongoing
   role: Design and front-end development

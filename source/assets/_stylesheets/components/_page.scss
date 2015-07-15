@@ -3,8 +3,8 @@
     ========================================================================= */
 
 .c-page {
+    @include clearfix;
     position: relative;
-    overflow: hidden;
 }
 
 .c-page__header {
@@ -13,7 +13,7 @@
 
     @media (min-width: $b__b) {
         padding-top: 0;
-        padding-left: span(1 wide);
+        padding-left: span(3 wide);
     }
 }
 
@@ -37,14 +37,16 @@
     }
 }
 
-.c-page__discussion,
+.c-page__section,
 .c-page__footer,
-.c-page__main,
-.c-page__tags,
-.c-page__series,
-.c-page__webmentions {
+.c-page__tags {
+    @include clearfix;
+    margin-bottom: ($u__baseline * 2);
+
     @media (min-width: $b__b) {
-        @include span(4 at 2);
+        //@include span(8 at 4);
+        padding-right: span(1 at 12 wide);
+        padding-left: span(3 wide);
     }
 }
 

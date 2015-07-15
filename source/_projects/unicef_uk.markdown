@@ -4,9 +4,9 @@ date: '2013-07-01'
 excerpt: Mobile-first redesign for leading children's charity.
 theme: unicef-uk
 hero:
-  - /projects/unicef_uk/phone.png
-  - /projects/unicef_uk/phablet.png
-  - /projects/unicef_uk/tablet.png
+  - projects/unicef_uk/phone.png
+  - projects/unicef_uk/phablet.png
+  - projects/unicef_uk/tablet.png
 meta:
   year: 2013
   role: Design and front-end development
