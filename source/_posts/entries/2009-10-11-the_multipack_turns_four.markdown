@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Multipack Turns Four
 date: '2009-10-11 15:59:31 +0100'
 location: Littlehampton, England

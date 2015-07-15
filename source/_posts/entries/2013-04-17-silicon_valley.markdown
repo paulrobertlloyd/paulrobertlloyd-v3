@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Don't Be Evil, and Get Rich Trying
 date: '2013-04-17 17:57:10 +0100'
 location: San Francisco, USA

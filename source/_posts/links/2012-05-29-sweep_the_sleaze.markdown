@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Sweep the Sleaze
 date: '2012-05-29 14:14:01 +0100'
 link:

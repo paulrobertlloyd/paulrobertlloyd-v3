@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Manchester Orchestra - Simple Math
 date: '2011-08-29 22:44:35 +0100'
 link:

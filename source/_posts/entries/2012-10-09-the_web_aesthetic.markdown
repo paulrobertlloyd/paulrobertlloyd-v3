@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Web Aesthetic
 date: '2012-10-09 02:50:00 +0100'
 location: Brighton, England

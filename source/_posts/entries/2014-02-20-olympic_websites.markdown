@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Landmark Olympic Websites, Where Art Thou?
 date: '2014-02-20 00:13:28 +0000'
 location: Brighton, England

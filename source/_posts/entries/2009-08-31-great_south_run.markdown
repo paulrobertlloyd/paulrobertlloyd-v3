@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Please Sponsor My Great South Run
 date: '2009-08-31 23:37:10 +0100'
 location: Littlehampton, England

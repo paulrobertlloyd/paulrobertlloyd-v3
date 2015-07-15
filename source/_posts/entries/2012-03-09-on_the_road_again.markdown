@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: On The Road Again
 date: '2012-03-09 23:53:40 +0000'
 location: Austin, USA

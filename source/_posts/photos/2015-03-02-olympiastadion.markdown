@@ -1,5 +1,4 @@
 ---
-layout: album
 title: Olympiastadion, Berlin
 series: Berlin, February 2015
 date: '2015-03-02 20:46:00 +0000'

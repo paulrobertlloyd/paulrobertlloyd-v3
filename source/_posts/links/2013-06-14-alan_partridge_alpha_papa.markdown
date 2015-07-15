@@ -1,5 +1,4 @@
 ---
-layout: link
 title: 'Alan Partridge: Alpha Papa'
 date: '2013-06-14 21:35:31 +0100'
 link:

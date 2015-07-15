@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'TTIP and the Near-stateless Global Giants'
 date: '2015-04-20 00:56:00 +0100'
 location: Brighton, England

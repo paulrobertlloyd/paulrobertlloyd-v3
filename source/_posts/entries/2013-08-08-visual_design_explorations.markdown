@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Visual Design Explorations
 date: '2013-08-08 17:05:03 +0100'
 location: Brighton, England

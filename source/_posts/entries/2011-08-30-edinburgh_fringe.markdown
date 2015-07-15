@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: My Weekend at the Fringe
 date: '2011-08-30 23:11:59 +0100'
 location: Brighton, England

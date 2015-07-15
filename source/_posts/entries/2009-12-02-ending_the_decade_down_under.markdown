@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Ending the Decade Down Under
 series: Australasia 2009
 date: '2009-12-02 02:02:02 +0000'

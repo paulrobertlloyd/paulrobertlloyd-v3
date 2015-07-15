@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Universal Playback
 date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites.

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'HTTPS + Compression Considered Harmful?'
 date: '2015-05-03 21:51:36 +0100'
 location: Brighton, England

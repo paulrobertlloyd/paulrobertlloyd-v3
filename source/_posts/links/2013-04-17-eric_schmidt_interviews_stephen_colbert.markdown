@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Eric Schmidt Interviews Stephen Colbert
 date: '2013-04-17 18:58:33 +0100'
 link:

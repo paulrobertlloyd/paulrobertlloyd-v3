@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Flatten up Those T's
 date: '2011-04-15 18:21:13 +0100'
 link:

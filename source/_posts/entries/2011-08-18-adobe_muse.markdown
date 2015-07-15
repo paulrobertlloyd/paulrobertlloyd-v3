@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Thoughts on Adobe Muse
 date: '2011-08-18 00:18:00 +0100'
 location: Brighton, England

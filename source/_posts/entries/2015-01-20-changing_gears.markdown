@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Changing Gears'
 date: '2015-01-20 00:06:42 +0000'
 location: Brighton, England

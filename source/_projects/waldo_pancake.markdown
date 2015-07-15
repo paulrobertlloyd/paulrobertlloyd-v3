@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Waldo Pancake
 date: '2011-02-09'
 excerpt: A new home for Jim Smith, purveyor of the funniest coffee cups.

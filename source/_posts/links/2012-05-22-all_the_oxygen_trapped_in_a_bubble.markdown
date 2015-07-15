@@ -1,5 +1,4 @@
 ---
-layout: link
 title: All the Oxygen Trapped in a Bubble
 date: '2012-05-22 01:49:24 +0100'
 link:

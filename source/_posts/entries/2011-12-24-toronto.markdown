@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A Taste of Toronto
 series: North America 2011
 date: '2011-12-24 19:25:00 +0000'

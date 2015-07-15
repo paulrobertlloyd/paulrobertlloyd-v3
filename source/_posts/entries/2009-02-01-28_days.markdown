@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 28 Days
 date: '2009-02-01 22:21:25 +0000'
 location: San Francisco, USA

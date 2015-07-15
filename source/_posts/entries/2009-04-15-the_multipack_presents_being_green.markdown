@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'The Multipack Presents: Being Green'
 date: '2009-04-15 01:34:34 +0100'
 location: Littlehampton, England

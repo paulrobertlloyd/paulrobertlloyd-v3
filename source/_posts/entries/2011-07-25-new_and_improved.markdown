@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: New & Improved
 date: '2011-07-25 00:40:33 +0100'
 location: Brighton, England

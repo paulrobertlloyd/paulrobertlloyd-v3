@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Detroit in Ruins
 date: '2011-01-03 18:21:14 +0000'
 link: 

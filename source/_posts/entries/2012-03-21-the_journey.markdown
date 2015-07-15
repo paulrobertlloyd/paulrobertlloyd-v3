@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Journey
 date: '2012-03-21 23:43:51 +0000'
 location: Brighton, England

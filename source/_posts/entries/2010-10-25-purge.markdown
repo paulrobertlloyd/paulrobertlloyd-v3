@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Purge
 date: '2010-10-25 19:50:59 +0100'
 location: Brighton, England

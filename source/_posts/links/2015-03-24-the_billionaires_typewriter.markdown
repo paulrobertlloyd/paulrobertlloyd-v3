@@ -1,5 +1,4 @@
 ---
-layout: link
 title: 'The Billionaire''s Typewriter'
 date: '2015-03-24 12:59:18 +0000'
 link:

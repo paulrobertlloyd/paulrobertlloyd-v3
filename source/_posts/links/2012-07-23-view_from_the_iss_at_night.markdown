@@ -1,5 +1,4 @@
 ---
-layout: link
 title: View From the ISS at Night
 date: '2012-07-23 01:34:09 +0100'
 link:

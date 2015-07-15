@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Day One
 date: '2009-01-03 22:44:47 +0000'
 location: Walsall, England

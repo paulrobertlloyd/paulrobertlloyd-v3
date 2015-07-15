@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A New Visual Design Language for BBC Online
 date: '2010-02-16 23:34:04 +0000'
 location: Littlehampton, England

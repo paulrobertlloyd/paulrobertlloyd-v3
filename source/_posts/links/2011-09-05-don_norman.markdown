@@ -1,5 +1,4 @@
 ---
-layout: link
 title: 'Don Norman: Google doesn''t get people, it sells them'
 date: '2011-09-05 23:14:22 +0100'
 link:

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Break'
 date: '2014-11-19 01:41:32 +0000'
 location: Brighton, England

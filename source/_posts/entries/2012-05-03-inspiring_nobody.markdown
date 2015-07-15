@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Inspiring Nobody
 date: '2012-05-03 11:49:26 +0100'
 location: Brighton, England

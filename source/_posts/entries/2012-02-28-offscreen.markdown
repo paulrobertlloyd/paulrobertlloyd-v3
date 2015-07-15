@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Offscreen Magazine
 date: '2012-02-28 22:54:21 +0000'
 location: Brighton, England

@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Streets of San Francisco
 date: '2011-03-18 18:21:14 +0000'
 link:

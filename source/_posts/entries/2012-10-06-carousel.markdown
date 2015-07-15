@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Carousel
 date: '2012-10-06 01:05:18 +0100'
 image:

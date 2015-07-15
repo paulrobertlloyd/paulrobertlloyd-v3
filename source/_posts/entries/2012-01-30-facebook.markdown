@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Facebook and the Future of the Web
 date: '2012-01-30 23:06:29 +0000'
 location: Brighton, England

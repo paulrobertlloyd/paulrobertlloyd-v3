@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Tailored for England
 date: '2009-03-29 02:06:27 +0100'
 location: Littlehampton, England

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: The Sky's the Limit
 date: '2011-07-29 10:58:45 +0100'
 location: Brighton, England

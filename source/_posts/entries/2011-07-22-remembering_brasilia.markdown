@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Remembering Brasília
 date: '2011-07-22 22:31:56 +0100'
 location: Brighton, England

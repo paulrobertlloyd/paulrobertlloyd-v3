@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Hello Clearleft
 date: '2009-06-21 17:30:00 +0100'
 location: Littlehampton, England

@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Force
 date: '2011-02-02 16:02:00 +0000'
 link:

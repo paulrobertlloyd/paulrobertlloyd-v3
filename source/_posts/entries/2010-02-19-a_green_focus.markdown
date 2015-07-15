@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A Green Focus
 date: '2010-02-19 16:47:08 +0000'
 location: Littlehampton, England

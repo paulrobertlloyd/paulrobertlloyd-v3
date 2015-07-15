@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: iWant
 date: '2010-11-08 23:35:26 +0000'
 location: Brighton, England

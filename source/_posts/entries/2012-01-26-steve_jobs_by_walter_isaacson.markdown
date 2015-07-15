@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Steve Jobs by Walter Isaacson
 date: '2012-01-26 21:56:34 +0000'
 location: Brighton, England

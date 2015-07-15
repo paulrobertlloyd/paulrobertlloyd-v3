@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Across the Salish Sea
 series: North America 2011
 date: '2011-12-26 15:05:26 +0000'

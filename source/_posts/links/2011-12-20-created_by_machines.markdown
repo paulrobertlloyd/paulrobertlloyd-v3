@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Created by Machines
 date: '2011-12-20 00:06:51 +0000'
 link:

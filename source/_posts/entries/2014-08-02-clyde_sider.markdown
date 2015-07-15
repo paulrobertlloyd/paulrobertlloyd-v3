@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Raising the Games: Volunteering at Glasgow 2014'
 date: '2014-08-09 17:51:10 +0000'
 location: Brighton, England

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: More Responsive Answers
 date: '2012-12-09 17:55:00 +0000'
 location: Brighton, England

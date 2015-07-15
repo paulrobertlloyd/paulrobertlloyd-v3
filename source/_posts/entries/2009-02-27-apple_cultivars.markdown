@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: An Apple by Any Other Name
 date: '2009-02-27 17:28:20 +0000'
 location: Walsall, England

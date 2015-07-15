@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: '100 Days'
 date: '2015-04-03 17:53:00 +0100'
 location: Brighton, England

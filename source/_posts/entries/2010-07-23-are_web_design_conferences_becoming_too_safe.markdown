@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Are Web Design Conferences Becoming Too Safe?
 date: '2010-07-23 01:42:20 +0100'
 location: Littlehampton, England

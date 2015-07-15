@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Social Media Icons: A Rationale'
 date: '2010-03-15 09:30:00 +0000'
 location: Littlehampton, England

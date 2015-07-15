@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A Field of Ponies
 date: '2012-12-11 15:49:24 +0000'
 location: Brighton, England

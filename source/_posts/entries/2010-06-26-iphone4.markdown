@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Enough
 date: '2010-06-26 21:39:20 +0100'
 location: Walsall, England

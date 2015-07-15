@@ -1,5 +1,4 @@
 ---
-layout: project
 title: The Week
 date: '2011-11-18'
 excerpt: Award-winning iPad app for weekly current affairs magazine.

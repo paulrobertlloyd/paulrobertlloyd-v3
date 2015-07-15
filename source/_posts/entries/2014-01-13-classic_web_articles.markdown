@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Classic Web Articles
 date: '2014-01-13 23:13:13 +0000'
 location: Brighton, England

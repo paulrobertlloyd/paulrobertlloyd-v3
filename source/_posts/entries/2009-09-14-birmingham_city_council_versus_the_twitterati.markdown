@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Birmingham City Council Versus the Twitterati
 date: '2009-09-14 23:53:36 +0100'
 location: Walsall, England

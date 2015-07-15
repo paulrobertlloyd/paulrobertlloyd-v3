@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Nothing Green About SXSW
 date: '2009-03-15 20:52:17 +0000'
 location: Walsall, England

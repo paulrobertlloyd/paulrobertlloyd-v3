@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Snowdonia
 date: '2011-07-31 18:48:28 +0100'
 image:

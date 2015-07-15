@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Star Wars iPad Briefing
 date: '2010-06-02 20:15:00 +0100'
 link:

@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Once In A Lifetime
 date: '2012-07-27 17:53:23 +0100'
 location: Brighton, England

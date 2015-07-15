@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Pixel Painter
 date: '2013-08-12 21:33:38 +0100'
 link:

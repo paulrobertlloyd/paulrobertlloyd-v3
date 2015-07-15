@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Do Something Funny for Money
 date: '2009-03-08 11:20:04 +0000'
 location: Littlehampton, England

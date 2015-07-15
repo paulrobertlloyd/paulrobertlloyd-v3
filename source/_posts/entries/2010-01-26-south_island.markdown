@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: A Small Taste of the South Island
 series: Australasia 2009
 date: '2010-01-26 00:07:49 +0000'

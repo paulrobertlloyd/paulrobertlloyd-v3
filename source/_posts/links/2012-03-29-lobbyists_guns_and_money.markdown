@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Lobbyists, Guns and Money
 data: '2012-03-29 23:15:23 +0000'
 link:

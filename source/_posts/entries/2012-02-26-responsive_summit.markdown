@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: How I Learned to Stop Worrying and Love Responsive Images
 date: '2012-02-26 23:21:55 +0000'
 location: Brighton, England

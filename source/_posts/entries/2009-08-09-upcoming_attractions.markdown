@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Upcoming Attractions
 date: '2009-08-09 18:33:56 +0100'
 location: Littlehampton, England

@@ -1,5 +1,4 @@
 ---
-layout: link
 title: See How Bad Your Site Looks
 date: '2012-07-07 22:51:50 +0100'
 link:

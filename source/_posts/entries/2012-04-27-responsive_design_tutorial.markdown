@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Build a Responsive Website in a Week
 date: '2012-04-27 00:04:26 +0100'
 location: Brighton, England

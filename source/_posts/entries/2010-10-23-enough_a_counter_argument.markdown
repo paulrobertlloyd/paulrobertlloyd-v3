@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Enough: A Counter Argument'
 date: '2010-10-23 14:53:30 +0100'
 location: Walsall, England

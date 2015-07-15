@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Thoughts on the BBC News Redesign
 date: '2010-09-10 15:17:49 +0100'
 location: Brighton, England

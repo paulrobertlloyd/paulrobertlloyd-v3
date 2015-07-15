@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: I Ran a Half-Marathon
 date: '2011-02-22 00:39:28 +0000'
 location: Brighton, England

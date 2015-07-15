@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Change the World
 date: '2011-08-16 00:45:20 +0100'
 location: Brighton, England

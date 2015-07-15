@@ -1,5 +1,4 @@
 ---
-layout: link
 title: The Crazy Ones
 date: '2011-10-06 20:32:05 +0100'
 link:

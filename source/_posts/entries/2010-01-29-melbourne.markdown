@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Magical Melbourne
 series: Australasia 2009
 date: '2010-01-29 23:42:47 +0000'

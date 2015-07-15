@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Ampersand & More
 date: '2011-05-13 23:37:48 +0100'
 location: Brighton, England

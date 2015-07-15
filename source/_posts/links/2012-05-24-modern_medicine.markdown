@@ -1,5 +1,4 @@
 ---
-layout: link
 title: Modern Medicine
 date: '2012-05-24 01:42:30 +0100'
 link:

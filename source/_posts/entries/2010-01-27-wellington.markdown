@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: Absolutely, Positively, Wellington
 series: Australasia 2009
 date: '2010-01-27 23:12:23 +0000'

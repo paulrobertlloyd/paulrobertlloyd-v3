@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: 'Caution: Revolution in Progress'
 date: '2012-06-28 23:49:51 +0100'
 image:

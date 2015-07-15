@@ -1,5 +1,4 @@
 ---
-layout: entry
 title: How Valuable Are CSS and HTML Skills Now Browsers Have Matured?
 date: '2014-03-09 20:19:08 +0000'
 location: Brighton, England
