@@ -36,10 +36,10 @@
 }
 
 .c-item__avatar {
+    @include background-placeholder;
     position: absolute;
     top: ($u__baseline / 2);
     left: 0;
-    background-color: $c__neutral--a;
     width: span(1 of 8);
     height: auto;
 
