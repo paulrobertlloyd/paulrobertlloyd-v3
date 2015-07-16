@@ -7,7 +7,7 @@ image:
   url: /2012/02/responsive_summit.jpg
   caption: Scene from Dr. Strangelove
 tags:
-  - Web design and development
+  - Web
   - Responsive design
   - Responsive Summit
 discussion: closed

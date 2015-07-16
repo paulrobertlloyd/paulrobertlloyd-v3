@@ -11,7 +11,7 @@ tags:
   - Design
   - Olympics
   - Sochi 2014
-  - Web design and development
+  - Web
   - Winter Olympics
 ---
 > When it comes to web design it's rare that all elements--functionality, clarity of information, and subjective beauty--come together to create a result that is widely admired, recognized or lauded in the same vein as anything resembling the likes of Saul Bass' AT&T logo, or Susan Kare's icons for the original Mac OS.
@@ -33,7 +33,7 @@ I believe that has proven to be the case. The logo for [Sochi 2014][10] was clea
 
 While much publicity is poured over these logos and emblems, they play a supporting role to that of the five interlocking rings; [Pierre de Coubertin's ingenious symbol][13] is still going strong 102 years later. In fact, it almost doesn't matter what logo an organising committee chooses as it'll often be reduced down to a horizontal wordmark anyway:
 
-{% figure c-figure--caption-right u-bleed "Uganda's Stephen Kiprotich crosses the finish line to win the men's marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not" %}
+{% figure c-figure--caption-right "Uganda's Stephen Kiprotich crosses the finish line to win the men's marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not" %}
 {% picture /2014/02/olympic_websites_stephen_kiprotich.jpg alt="" %}
 {% endfigure %}
 

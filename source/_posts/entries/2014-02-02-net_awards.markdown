@@ -5,7 +5,7 @@ location: Brighton, England
 excerpt: The net Awards return for their fifteenth year, and I'm more than a little surprised to be a nominated for Designer of the Year.
 tags:
   - Awards
-  - Web design and development
+  - Web
   - net Magazine
 ---
 [{% picture thumbnail /2014/02/net_awards_nominee.png alt="net Awards 2014 nominee" class="u-align-right" %}][1] return for their fifteenth year, and I'm more than a little surprised to find myself nominated for *Designer of the Year*. Beyond the other nominees, having worked alongside [James Bates][2] -- who has helped me solve a number of tricky design problems over the year -- to be included in this line-up feels slightly fraudulent.

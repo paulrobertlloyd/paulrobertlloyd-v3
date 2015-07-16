@@ -47,11 +47,11 @@
     letter-spacing: -0.015em;
 
     @media (min-width: $b__b) {
-        font-size: 2.5rem; // 40px
+        font-size: 3rem; // 48px
     }
 
     @media (min-width: $b__c) {
-        font-size: 3.5rem; // 56px
+        font-size: 4rem; // 64px
     }
 }
 
@@ -158,7 +158,7 @@
 
 // Background placeholder
 @mixin background-placeholder {
-    background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, #fff 3px, #fff 6px);
+    background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, rgba($c__neutral--4, 0.2) 4px, rgba($c__neutral--4, 0.2) 6px);
 }
 
 // Line rule

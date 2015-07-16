@@ -4,6 +4,7 @@ date: '2014-04-13 15:20:11 +0000'
 link:
   url: https://www.youtube.com/watch?v=SB_GDF-mKTE
   embed: video
+theme: dark
 tags:
   - Video
   - Ethics

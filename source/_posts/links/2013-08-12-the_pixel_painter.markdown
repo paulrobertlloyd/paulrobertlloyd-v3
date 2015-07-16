@@ -4,6 +4,7 @@ date: '2013-08-12 21:33:38 +0100'
 link:
   url: https://vimeo.com/70748579
   embed: video
+theme: dark
 tags:
   - Video
   - Art

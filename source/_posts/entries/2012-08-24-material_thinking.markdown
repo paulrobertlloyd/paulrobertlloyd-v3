@@ -10,7 +10,7 @@ tags:
   - Design
   - Heatherwick Studio
   - SXSW
-  - Web design and development
+  - Web
 ---
 Earlier this month, Team Clearleft headed up to London for a day of design related exhibitions: <cite>[Bauhaus: Art as Life][1]</cite> at the Barbican and (after a ride across the city on a 'Boris Bike') <cite>[British Design 1948-2012][2]</cite> and <cite>[Heatherwick Studio: Designing the Extraordinary][3]</cite> at the V&A. I spent a considerable amount of time taking in each word and every example of work. Inspiration was to be found in abundance; no doubt exaggerated by the euphoria of the Olympics and an opening ceremony that showed Britain at its creative best.
 

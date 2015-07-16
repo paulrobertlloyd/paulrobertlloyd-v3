@@ -5,9 +5,10 @@
 .c-tag {
     @include ff--sans-serif;
     display: inline-block;
-    margin-right: ($u__baseline / 2);
+    margin-right: 0.25em;
     text-transform: lowercase;
     white-space: nowrap;
+    word-spacing: -0.2em;
 
     &::before {
         opacity: 0.25;

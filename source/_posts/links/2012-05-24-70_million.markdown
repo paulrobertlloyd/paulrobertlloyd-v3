@@ -4,6 +4,7 @@ date: '2012-05-24 01:48:46 +0100'
 link:
   url: https://www.youtube.com/watch?v=erbd9cZpxps
   embed: video
+theme: dark
 tags:
   - Video
   - Music videos

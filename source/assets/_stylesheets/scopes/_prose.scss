@@ -46,8 +46,12 @@
         margin-bottom: ($u__baseline * 1.25);
     }
 
+    .highligher-rouge {
+        box-shadow: inset -4px 0 0 rgba($c__neutral, 0.2);
+    }
+
     > dl dd,
-    > li > p {
+    > * > li > p {
         margin-bottom: ($u__baseline / 2);
     }
 }
@@ -57,9 +61,10 @@
     @include fs--body;
 
     // Adjust font-size of san-serif emboldened text, so x-height matches serif
-    p > strong,
-    p > b,
-    dt:not([class]) {
+    > * strong,
+    > * b,
+    > blockquote strong,
+    > dt:not([class]) {
         font-size: 120%;
     }
 

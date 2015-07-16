@@ -4,6 +4,7 @@ date: '2012-07-04 17:38:48 +0100'
 link:
   url: https://www.youtube.com/watch?v=4ViLiXA0E70
   embed: video
+theme: dark
 tags:
   - Video
   - Advertising

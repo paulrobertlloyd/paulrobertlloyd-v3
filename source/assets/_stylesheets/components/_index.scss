@@ -27,12 +27,19 @@
     margin-bottom: ($u__baseline * 2);
 
     @media (min-width: $b__b) {
-        @include span(8 at 3);
+        @include span(9 last);
+    }
+
+    .c-item {
+        margin-right: span(1);
     }
 }
 
 .c-index__title {
     @include fs--heading-1;
     font-weight: 700;
-    word-break: break-all;
+
+    @media (min-width: $b__b) {
+        @include fs--heading-2;
+    }
 }

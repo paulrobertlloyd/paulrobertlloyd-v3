@@ -3,9 +3,6 @@ title: 'Lanyards. What Are They Good For?'
 date: '2015-07-06 20:46:36 +0100'
 location: Brighton, England
 excerpt: 'Lanyards -- the piece of fabric that allows you to hang a conference badge from your neck -- have a lifespan of just a few hours. How can we change that?'
-image:
-  url: /2015/07/lanyards.jpg
-  caption: 'Photograph: Modified from an original by [Simon Collison](https://www.flickr.com/photos/collylogic/8314870885/)'
 tags:
   - Conferences
   - Sustainability
@@ -19,6 +16,10 @@ Likewise, I often wonder what changes could be enacted to negate the need for st
 
 ## A Greener Conference Badge, Part Two
 A few years ago I advocated the use of [conference badges that didn't need plastic wallets][4]. While some conferences continue using them, many now use the '[book on a hook][5]' concept to great effect.
+
+{% figure c-figure--caption-right "Photograph: Modified from an original by [Simon Collison](https://www.flickr.com/photos/collylogic/8314870885/)" %}
+{% picture /2015/07/lanyards.jpg alt="" %}
+{% endfigure %}
 
 Yet this is only half the story. What about the lanyard, the piece of fabric that allows a badge to hang from your neck? For most conferences, these have a lifespan of only a few hours. I tend to keep conference badges as keep sakes, but would happily throw away the lanyards if I didn't feel so guilty about doing so.
 

@@ -6,7 +6,7 @@ excerpt: 'I''m attending my second Indie Web Camp this weekend, with the sole ai
 tags:
   - Indie Web
   - Site
-  - Web design and development
+  - Web
 ---
 I'm attending my second [Indie Web Camp][1] this weekend, with the sole aim of implementing [Webmentions][2]. This has meant prematurely launching my new [Jekyll][3]-based website. That this has been [in development since last February][4], many would say this moment is long overdue. I'll write in more detail about the various changes made (and Jekyll plugins written) in a later post, but for now it feels good to finally get the monkey off my back.
 

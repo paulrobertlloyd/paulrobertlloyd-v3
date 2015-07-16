@@ -8,7 +8,7 @@ image:
   caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart'
 tags:
   - Writing
-  - Web design and development
+  - Web
   - Responsive design
   - A List Apart
 ---

@@ -5,7 +5,7 @@ link:
   url: http://jackcheng.com/the-slow-web
 tags:
   - Ideas
-  - Web design and development
+  - Web
 ---
 Jack Cheng:
 

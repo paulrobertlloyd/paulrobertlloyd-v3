@@ -5,7 +5,7 @@ location: Brighton, England
 excerpt: Following on from last July's extensive redesign of this site, the last few weeks have seen me revisit the design and implementation. In light of today's Responsive Summit, and with a few people asking about the changes, I thought I should provide a little more detail.
 tags:
   - Site
-  - Web design and development
+  - Web
   - Responsive design
 ---
 Following on from [last July's extensive redesign][1] of this site, the last few weeks have seen me revisit the design and implementation. In light of today's [Responsive Summit][2], and with a few people asking about the changes, I thought I should provide a little more detail.

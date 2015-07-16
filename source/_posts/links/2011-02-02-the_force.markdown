@@ -4,6 +4,7 @@ date: '2011-02-02 16:02:00 +0000'
 link:
   url: https://www.youtube.com/watch?v=R55e-uHQna0
   embed: video
+theme: dark
 tags:
   - Advertising
   - Volkswagen

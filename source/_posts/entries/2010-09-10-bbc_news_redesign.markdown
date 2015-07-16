@@ -5,7 +5,7 @@ location: Brighton, England
 excerpt: There is often talk of there being no landmark design on the web, but I suggest it won't be long before BBC News is considered one of the greatest design icons online today.
 tags:
   - Design
-  - Web design and development
+  - Web
   - BBC
   - MSNBC
 discussion: closed

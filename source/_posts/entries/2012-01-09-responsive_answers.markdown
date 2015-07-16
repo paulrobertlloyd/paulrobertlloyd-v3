@@ -4,7 +4,7 @@ date: '2012-01-09 19:48:00 +0000'
 location: Brighton, England
 excerpt: Back in October, Ethan Marcotte asked me some questions about the design of my site. He was writing a round up of his twenty favourite responsive websites for .net Magazine and wanted quotes from each creator. In the spirit of blogging more I thought I'd share my answers here.
 tags:
-  - Web design and development
+  - Web
   - Responsive design
   - Interviews
   - net Magazine

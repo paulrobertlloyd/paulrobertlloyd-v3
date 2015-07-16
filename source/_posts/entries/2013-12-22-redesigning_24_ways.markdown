@@ -9,7 +9,7 @@ image:
 tags:
   - Design
   - Projects
-  - Web design and development
+  - Web
   - 24 ways
 ---
 The tail end of this year has been [rather hectic][1]. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning *[24 ways][2]*.

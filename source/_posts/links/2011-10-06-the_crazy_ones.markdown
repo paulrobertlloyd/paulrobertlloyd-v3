@@ -4,6 +4,7 @@ date: '2011-10-06 20:32:05 +0100'
 link:
   url: https://www.youtube.com/watch?v=8rwsuXHA7RA
   embed: video
+theme: dark
 tags:
   - Steve Jobs
   - Apple

@@ -8,7 +8,7 @@ image:
   caption: The Guardian's navigation on smaller displays prioritises page signposting, but all site sections can still be accessed with one tap.
 tags:
   - Responsive design
-  - Web design and development
+  - Web
   - net Magazine
 ---
 Each month [net Magazine][1] run a section called _Exchange_, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was asked to be the responsive expert in their March issue, which is on sale now.

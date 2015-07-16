@@ -1,28 +1,32 @@
 {% if page.discussion %}
     {% capture entry_id %}{{ page.path | remove:"_posts/entries/" | remove:"_posts/links/" | remove:".markdown" }}{% endcapture %}
     {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
-    <section class="c-page__section" aria-labelledby="discussion">
-        <h1 class="c-page__section-title" id="discussion">Discussion</h1>
-        <p>
-            {% case remark_count %}
-            {% when "0" %}
-                This entry has no remarks yet.
-            {% when "1" %}
-                This entry has only a single remark.
-            {% else %}
-                This entry has {{ remark_count }} remarks.
-            {% endcase %}
-            {% if page.discussion == "open" %}
-                <a href="mailto:remark+{{ page.id | remove_first: "/" | replace:"/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
-            {% else %}
-                The dicussion has now ended.
-            {% endif %}
-        </p>
+    <section class="c-page__section c-container c-container--discussion" aria-labelledby="discussion">
+        <header class="c-container__header">
+            <h1 class="c-container__title" id="discussion">Discussion</h1>
+            <p>
+                {% case remark_count %}
+                {% when "0" %}
+                    This entry has no remarks yet.
+                {% when "1" %}
+                    This entry has only a single remark.
+                {% else %}
+                    This entry has {{ remark_count }} remarks.
+                {% endcase %}
+                {% if page.discussion == "open" %}
+                    <a href="mailto:remark+{{ page.id | remove_first: "/" | replace:"/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
+                {% else %}
+                    The dicussion has now ended.
+                {% endif %}
+            </p>
+        </header>
 
-        {% if remark_count >= "1" %}
-            {% for item in site.data.remarks[entry_id] reversed %}
-                {% include item/remark.html %}
-            {% endfor %}
-        {% endif %}
+        <div class="c-container__main">
+            {% if remark_count >= "1" %}
+                {% for item in site.data.remarks[entry_id] reversed %}
+                    {% include item/remark.html %}
+                {% endfor %}
+            {% endif %}
+        </div>
     </section>
 {% endif %}

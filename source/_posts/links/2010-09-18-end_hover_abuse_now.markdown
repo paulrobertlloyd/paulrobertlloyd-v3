@@ -4,7 +4,7 @@ date: '2010-09-18 11:49:00 +0100'
 link:
   url: http://cennydd.co.uk/2010/end-hover-abuse-now/
 tags:
-  - Web design and development
+  - Web
 ---
 My esteemed colleague, Cennydd Bowles:
 

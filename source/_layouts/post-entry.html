@@ -20,13 +20,11 @@ layout: default
         {{ content | typogrify | namespace }}
     </div>
 
-    {% include page/footer.html %}
-
     {% include page/series.html %}
 
     {% include page/discussion.html %}
 
-    {% include page/tags.html %}
+    {% include page/footer.html %}
 
     {% include nav/paginate-posts.html %}
 </article>

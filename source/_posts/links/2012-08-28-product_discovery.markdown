@@ -4,7 +4,7 @@ date: '2012-08-28 14:38:10 +0100'
 link:
   url: http://alistapart.com/articles/usable-yet-useless-why-every-business-needs-product-discovery/
 tags:
-  - Web design and development
+  - Web
   - Design
 ---
 Rian van der Merwe for A List Apart:

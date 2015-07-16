@@ -6,7 +6,7 @@ link:
 tags:
   - Ethics
   - Silicon Valley
-  - Web design and development
+  - Web
 ---
 Matthew Butterick's scrutiny of Medium reveals it to be "a form of hu­man frack­ing":
 

@@ -68,7 +68,7 @@ defaults:
       path: '_posts/photos'
     values:
       layout: post-album
-      theme: inverted
+      theme: dark
   -
     scope:
       type: projects
@@ -133,7 +133,7 @@ picture:
         class: img img--feature
       source_large:
         width: 1280
-        height: 800
+        height: 720
         quality: 70
       source_medium:
         width: 768
