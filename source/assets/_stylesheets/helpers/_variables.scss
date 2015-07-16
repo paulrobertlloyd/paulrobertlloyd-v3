@@ -16,10 +16,10 @@ $c__neutral--4: lighten($c__neutral, 48%);
 $c__neutral--7: lighten($c__neutral, 64%);
 $c__neutral--9: lighten($c__neutral, 88%);
 
-$c__theme--journal: #a06cf6;
-$c__theme--projects: #6dc;
-$c__theme--articles: #4460f6;
-$c__theme--talks: #f66;
+$c__theme--journal: #a06cf6; // Purple
+$c__theme--projects: #6dc; // Green
+$c__theme--articles: #4460f6; // Blue
+$c__theme--talks: #f66; // Red
 
 $c__highlight: #fe9;
 $c__select: rgba($c__highlight, 0.5);
