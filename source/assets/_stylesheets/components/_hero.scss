@@ -54,7 +54,7 @@ $u__shadow-size: 4px;
     top: $u__shadow-size;
     right: 16%;
     z-index: 2;
-    background-image: url(asset_path('hero-tablet-portrait.png'));
+    background-image: url(asset_path('device-tablet-portrait.svg'));
     padding: 5.4% 2.1%;
     width: 36%;
 }
@@ -73,7 +73,7 @@ $u__shadow-size: 4px;
     bottom: ($u__baseline * -1.5);
     left: 16%;
     z-index: 2;
-    background-image: url(asset_path('hero-tablet-landscape.png'));
+    background-image: url(asset_path('device-tablet-landscape.svg'));
     padding: 2.1% 5.4%;
     width: (36% * 946/640); // Width/height of tablet image
 }
@@ -83,7 +83,7 @@ $u__shadow-size: 4px;
     top: ($u__baseline * 2);
     left: span(3 wide);
     z-index: 1;
-    background-image: url(asset_path('hero-phablet.png'));
+    background-image: url(asset_path('device-phablet.svg'));
     padding: 5% 2% 0;
     width: 24%;
 }
@@ -93,7 +93,7 @@ $u__shadow-size: 4px;
     top: ($u__baseline * 6);
     right: $u__baseline;
     z-index: 3;
-    background-image: url(asset_path('hero-phone.png'));
+    background-image: url(asset_path('device-phone.svg'));
     padding: 2.4% 0.8% 0;
     width: 16%;
 }

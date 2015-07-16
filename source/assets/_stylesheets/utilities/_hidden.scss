@@ -2,13 +2,12 @@
     Audible
     ========================================================================= */
 
-.u-audible {
-    position: absolute;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
+.u-hidden {
+    @include visually-hidden;
+}
+
+.u-hidden-on-mobile {
+    @media (max-width: $b__a) {
+        @include visually-hidden;
+    }
 }

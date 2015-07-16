@@ -1,23 +1,17 @@
 ---
 layout: default
 ---
-<section class="c-index{% if page.path contains "journal" or "projects" or "photos" or "contact" %} c-index--landing{% endif %}">
-    <header class="c-index__header">
-        <h1 class="c-index__title">{% include title.html %}</h1>
+<section class="c-page c-page--index{% if page.path contains "index.html" %} u-hidden-on-mobile{% endif %}">
+    <header class="c-page__header c-page__header--aside">
+        <h1 class="c-page__title">{% include title.html %}</h1>
     </header>
 
-    <div class="c-index__section">
-        {% if page.excerpt %}
-        <div class="c-index__excerpt s-prose s-prose--lede">
-            {{ page.excerpt | markdownify | typogrify | namespace }}
-        </div>
-        {% endif %}
-
+    <div class="c-page__section">
         {{ content }}
     </div>
 
     {% if page.path contains "journal" %}
-    <div class="c-index__section">
+    <div class="c-page__section">
         <ul class="o-list o-list--inline">
             <li class="o-list__item o-list__item--separate">
                 <strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>
