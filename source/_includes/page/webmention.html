@@ -3,16 +3,18 @@
 <section class="c-page__section c-container c-container--webmentions" aria-labelledby="webmentions">
     <header class="c-container__header">
         <h1 class="c-container__title" id="webmentions">Webmentions</h1>
-        <p>
-            {% case webmentions_count %}
-            {% when "0" %}
-                This entry has no webmentions yet.
-            {% when "1" %}
-                This entry has only a single webmention.
-            {% else %}
-                This entry has {{ webmentions_count }} webmentions.
-            {% endcase %}
-        </p>
+        <div class="s-prose">
+            <p>
+                {% case webmentions_count %}
+                {% when "0" %}
+                    This entry has no webmentions yet.
+                {% when "1" %}
+                    This entry has only a single webmention.
+                {% else %}
+                    This entry has {{ webmentions_count }} webmentions.
+                {% endcase %}
+            </p>
+        </div>
     </header>
 
     <div class="c-container__main">

@@ -8,7 +8,7 @@
 }
 
 .c-page__header {
-    margin-bottom: ($u__baseline * 2);
+    // margin-bottom: ($u__baseline * 2);
 
     @media (min-width: $b__b) {
         padding-top: 0;
@@ -32,6 +32,10 @@
     @media (min-width: $b__b) {
         padding-right: span(1 wide);
         padding-left: span(3 wide);
+    }
+
+    > *:last-of-type {
+        margin-bottom: 0;
     }
 }
 

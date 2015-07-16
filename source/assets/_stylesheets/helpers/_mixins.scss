@@ -56,12 +56,12 @@
 }
 
 @mixin fs--heading-2 {
-    line-height: (20/24);
-    font-size: 1.5rem; // 24px
+    line-height: (28/28);
+    font-size: 1.75rem; // 28px
     letter-spacing: -0.02em;
 
     @media (min-width: $b__b) {
-        line-height: (28/32);
+        line-height: (32/32);
         font-size: 2rem; // 32px
     }
 }
@@ -109,8 +109,13 @@
 }
 
 @mixin fs--body {
-    line-height: (28/16);
-    font-size: 1rem; // 16px
+    line-height: (24/14);
+    font-size: 0.875rem; // 14px
+
+    @media (min-width: $b__a) {
+        line-height: (28/16);
+        font-size: 1rem; // 16px
+    }
 
     @media (min-width: $b__b) {
         line-height: (30/18);
@@ -119,13 +124,13 @@
 }
 
 @mixin fs--caption {
-    line-height: (18/14);
-    font-size: 0.875rem; // 14px
+    //line-height: (18/14);
+    //font-size: 0.875rem; // 14px
 
-    @media (min-width: $b__b) {
-        line-height: (20/16);
-        font-size: 1rem; // 16px
-    }
+    //@media (min-width: $b__b) {
+        line-height: (20/15);
+        font-size: 0.9375rem; // 15px
+    //}
 }
 
 
