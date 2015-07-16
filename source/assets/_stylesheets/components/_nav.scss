@@ -16,7 +16,7 @@
 
     .c-nav__item__label {
         display: block;
-        padding-bottom: $u__baseline;
+        padding-bottom: ($u__baseline * 1.5);
         line-height: 1;
     } 
 }
@@ -24,6 +24,7 @@
 
 /* Page navigation */
 .c-nav--pagination {
+    @include fs--caption;
     overflow: hidden;
     margin-bottom: ($u__baseline * 2);
 
@@ -39,14 +40,19 @@
     .c-nav__item {
         float: left;
         margin-right: $u__baseline;
-        font-weight: 700;
     }
 
     .c-nav__item--prev::before {
         content: '\27E8\00A0';
+        font-family: sans-serif;
     }
 
     .c-nav__item--next::after {
         content: '\00A0\27E9';
+        font-family: sans-serif;
+    }
+
+    .c-nav__item__label {
+        font-weight: 700;
     }
 }
