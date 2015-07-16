@@ -3,9 +3,9 @@ layout: compress
 ---
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
-<html lang="en-gb" class="{% for theme in page.theme %}t-{{ theme | append:' ' }}{% endfor %}fonts-loaded">
+<html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %} fonts-loaded">
 <!--#else-->
-<html lang="en-gb" class="{% for theme in page.theme %}t-{{ theme | append:' ' }}{% endfor %}">
+<html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
 <head>
     <link rel="dns-prefetch" href="{{ site.picture.cdn_url }}"/>

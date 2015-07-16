@@ -1,17 +1,17 @@
 /*  =========================================================================
-    Theme: Projects
+    Theme: Light (default)
     ========================================================================= */
 
-.t-projects {
+.t-light {
     @media screen {
         a:active,
         a:hover {
-            color: $c__theme--projects;
+            color: $c__theme--journal;
         }
 
         .s-prose {
             a {
-                @include text-decoration-color($c__theme--projects);
+                @include text-decoration-color($c__theme--journal);
             }
         }
     }
