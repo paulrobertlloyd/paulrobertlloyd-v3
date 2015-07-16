@@ -29,18 +29,18 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 /* Align element right or left */
 .u-align-right {
     float: right;
-    width: (span(2) * $g__ratio);
     margin-top: 0;
     margin-bottom: ($u__baseline / 2);
     margin-left: $g__inner-gutter;
+    width: (span(2) * $g__ratio);
 }
 
 .u-align-left {
     float: left;
-    width: (span(2) * $g__ratio);
     margin-top: 0;
     margin-right: $g__inner-gutter;
     margin-bottom: ($u__baseline / 2);
+    width: (span(2) * $g__ratio);
 }
 
 
@@ -63,8 +63,8 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 .u-pull-right {
     @media (min-width: $b__a) {
         float: right;
-        width: (span(4) * $g__ratio);
         margin-left: $g__inner-gutter;
+        width: (span(4) * $g__ratio);
     }
 
     @media (min-width: $b__b) {
@@ -75,8 +75,8 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 .u-pull-left {
     @media (min-width: $b__a) {
         float: left;
-        width: (span(4) * $g__ratio);
         margin-right: $g__inner-gutter;
+        width: (span(4) * $g__ratio);
     }
 
     @media (min-width: $b__b) {
@@ -99,7 +99,8 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 
 /* On wider breakpoints, extend element outwards by an additional column */
 .u-bleed,
-.u-extend {
+.u-extend,
+%u-extend {
     @media (min-width: $b__b) {
         margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
         margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);

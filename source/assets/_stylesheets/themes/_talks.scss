@@ -1,0 +1,18 @@
+/*  =========================================================================
+    Theme: Talks
+    ========================================================================= */
+
+.t-talks {
+    @media screen {
+        a:active,
+        a:hover {
+            color: $c__theme--talks;
+        }
+
+        .s-prose {
+            a {
+                @include text-decoration-color($c__theme--talks);
+            }
+        }
+    }
+}

@@ -9,23 +9,21 @@
             color: $c__neutral--9;
         }
 
+        a {
+            color: $c__neutral--9;
+        }
+
+        a:active,
+        a:hover {
+            color: #fff;
+        }
+
         .c-banner__logo {
             fill: $c__neutral--9;
         }
 
         .c-navigation {
             background-color: rgba($c__neutral--1, 0.95);
-        }
-
-        .c-main {
-            a {
-                color: $c__neutral--9;
-            }
-
-            a:active,
-            a:hover {
-                color: #fff;
-            }
         }
     }
 }

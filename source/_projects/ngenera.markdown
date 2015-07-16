@@ -2,7 +2,7 @@
 title: nGenera
 date: '2008-04-25'
 excerpt: Rebrand for integrated platform of on demand enterprise technology.
-theme: ngenera
+featured: true
 hero:
   - projects/ngenera/desktop-1.png
   - projects/ngenera/desktop-2.png

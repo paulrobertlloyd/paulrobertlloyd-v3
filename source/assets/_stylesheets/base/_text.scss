@@ -28,11 +28,10 @@ dfn {
 }
 
 abbr[title] {
+/*  Address styling not present in IE 8/9, Safari 5, and Chrome */
     border-bottom: 0;
 
     &:hover {
-    /*  Address styling not present in IE 8/9, Safari 5, and Chrome */
-        @include text-highlight;
         cursor: help;
     }
 }

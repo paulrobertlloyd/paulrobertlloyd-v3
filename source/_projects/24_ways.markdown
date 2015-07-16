@@ -2,7 +2,7 @@
 title: 24 ways
 date: '2013-12-01'
 excerpt: Award-winning redesign for popular advent calendar for web geeks.
-theme: 24-ways
+featured: true
 hero:
   - projects/24_ways/desktop-1.png
   - projects/24_ways/desktop-2.png

@@ -2,7 +2,7 @@
 title: UNICEF UK
 date: '2013-07-01'
 excerpt: Mobile-first redesign for leading children's charity.
-theme: unicef-uk
+featured: true
 hero:
   - projects/unicef_uk/phone.png
   - projects/unicef_uk/phablet.png

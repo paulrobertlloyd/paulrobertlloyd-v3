@@ -6,13 +6,4 @@
     @media screen {
         padding-top: ($u__baseline * 4);
     }
-
-    a {
-        color: $c__identity--1;
-    }
-
-    a:active,
-    a:hover {
-        color: $c__identity--2;
-    }
 }

@@ -1,19 +1,23 @@
 {% capture this_url %}{{ site.author.url }}{{ page.url }}{% endcapture %}
 {% capture webmentions_count %}{% webmention_count this_url %}{% endcapture %}
-<section class="c-page__section" aria-labelledby="webmentions">
-    <h1 class="c-page__section-title" id="webmentions">Webmentions</h1>
-    <p>
-        {% case webmentions_count %}
-        {% when "0" %}
-            This entry has no webmentions yet.
-        {% when "1" %}
-            This entry has only a single webmention.
-        {% else %}
-            This entry has {{ webmentions_count }} webmentions.
-        {% endcase %}
-    </p>
+<section class="c-page__section c-container c-container--webmentions" aria-labelledby="webmentions">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="webmentions">Webmentions</h1>
+        <p>
+            {% case webmentions_count %}
+            {% when "0" %}
+                This entry has no webmentions yet.
+            {% when "1" %}
+                This entry has only a single webmention.
+            {% else %}
+                This entry has {{ webmentions_count }} webmentions.
+            {% endcase %}
+        </p>
+    </header>
 
-    {% webmentions this_url %}
+    <div class="c-container__main">
+        {% webmentions this_url %}
 
-    {% include form/webmention.html %}
+        {% include form/webmention.html %}
+    </div>
 </section>
