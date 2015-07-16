@@ -39,11 +39,11 @@
         }
 
         .s-prose {
-            a:not([.c-button]) {
+            a:not(.c-button):not(.c-nav__item__label) {
                 @include text-decoration-color($c__primary-purple);
             }
 
-            a:not([.c-button]):active {
+            a:not(.c-button):not(.c-nav__item__label):active {
                 @include text-decoration-color($c__primary-blue);
             }
         }
