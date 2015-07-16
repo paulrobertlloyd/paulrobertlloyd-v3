@@ -45,10 +45,9 @@ $susy: (
     gutters: 1/4,
     global-box-sizing: border-box,
     last-flow: to,
-//    debug: (
-//        image: show,
-//        color: $c__focus,
-//        output: background,
-//        toggle: bottom right,
-//    )
+    debug: (
+        image: show,
+        output: overlay,
+        toggle: bottom right,
+    )
 );

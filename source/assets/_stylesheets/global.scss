@@ -21,8 +21,8 @@
 @import 'scopes/prose';
 
 // Utilities
-@import 'utilities/audible';
 @import 'utilities/caps';
+@import 'utilities/hidden';
 @import 'utilities/icon';
 @import 'utilities/layout';
 
@@ -40,7 +40,6 @@
 @import 'components/figure';
 @import 'components/form';
 @import 'components/hero';
-@import 'components/index';
 @import 'components/item';
 @import 'components/main';
 @import 'components/meta';

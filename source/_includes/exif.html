@@ -1,29 +1,29 @@
 <div class="c-exif">
     <h3 class="c-exif__title">{{ include.url | exif: "title" }}</h3>
     <dl class="c-exif__values">
-        <dt class="c-exif__title u-audible">Date taken</dt>
+        <dt class="c-exif__title u-hidden">Date taken</dt>
         <dd class="c-exif__value c-exif__value--date-created" title="Date taken">
             <time datetime="{{ include.url | exif: "date_created" | replace:":","-" | date_to_xmlschema }}">
                 {{ include.url | exif: "date_created" | replace:":","-" | date:"%e %B %Y" }}
             </time>
         </dd>
-        <dt class="c-exif__title u-audible">Model</dt>
+        <dt class="c-exif__title u-hidden">Model</dt>
         <dd class="c-exif__value c-exif__value--model" title="Model">
             {{ include.url | exif: "model" }}
         </dd>
-        <dt class="c-exif__title u-audible">Aperture</dt>
+        <dt class="c-exif__title u-hidden">Aperture</dt>
         <dd class="c-exif__value c-exif__value--f-number" title="Aperture">
             <i>f</i>/{{ include.url | exif: "f_number.to_f" }}
         </dd>
-        <dt class="c-exif__title u-audible">Exposure</dt>
+        <dt class="c-exif__title u-hidden">Exposure</dt>
         <dd class="c-exif__value c-exif__value--exposure-time" title="Exposure">
             {{ include.url | exif: "exposure_time" }}
         </dd>
-        <dt class="c-exif__title u-audible">Film speed</dt>
+        <dt class="c-exif__title u-hidden">Film speed</dt>
         <dd class="c-exif__value c-exif__value--iso-speed-ratings" title="Film speed">
             <abbr title="International Organization for Standardization ">ISO</abbr>{{ include.url | exif: "iso" }}
         </dd>
-        <dt class="c-exif__title u-audible">Focal Length</dt>
+        <dt class="c-exif__title u-hidden">Focal Length</dt>
         <dd class="c-exif__value c-exif__value--focal-length" title="Focal Length">
             {{ include.url | exif: "focal_length.to_f" }}
         </dd>
