@@ -18,7 +18,7 @@
     h3 {
         @include ff--sans-serif(700);
         @include fs--heading-3;
-        margin-bottom: ($u__baseline / 4);
+        margin-bottom: ($u__baseline / 2);
     }
 
     h4 {
@@ -51,8 +51,12 @@
     }
 
     > dl dd,
-    > * > li > p {
+    > * li p {
         margin-bottom: ($u__baseline / 2);
+    }
+
+    abbr[title]:hover {
+        @include text-highlight;
     }
 }
 

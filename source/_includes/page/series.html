@@ -1,23 +1,27 @@
 {% if page.series %}
     {% assign series = site.posts | where:"series",page.series | sort:date %}
-    <aside class="c-page__section" aria-labelledby="series">
-        <h1 class="c-page__section-title" id="series">
-            <span class="c-container--series__label">Series:</span>
-            <span class="c-container--series__title">{{ page.series }}<span>
-        </h1>
+    <aside class="c-page__section c-container c-container--series" aria-labelledby="series">
+        <header class="c-container__header">
+            <h1 class="c-container__title" id="series">
+                <span class="c-container--series__label">Series:</span>
+                <span class="c-container--series__title">{{ page.series }}<span>
+            </h1>
+        </header>
 
-        {% for item in series %}
-            {% if item.url != page.url %}
-                <article class="c-item c-item--series h-entry">
-                    <h1 class="c-item__title p-name">
-                        <a class="c-item__link u-url" href="{{ item.url }}" rel="bookmark">{% if item.path contains "_posts/photos/" %}Photos: {% endif %}{{ item.title | smartify | typogrify }}</a>
-                    </h1>
+        <div class="c-container__main">
+            {% for item in series %}
+                {% if item.url != page.url %}
+                    <article class="c-item c-item--series h-entry">
+                        <h1 class="c-item__title p-name">
+                            <a class="c-item__link u-url" href="{{ item.url }}" rel="bookmark">{% if item.path contains "_posts/photos/" %}Photos: {% endif %}{{ item.title | smartify | typogrify }}</a>
+                        </h1>
 
-                    <p class="c-item__meta">
-                        <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
-                    </p>
-                </article>
-            {% endif %}
-        {% endfor %}
+                        <p class="c-item__meta">
+                            <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+                        </p>
+                    </article>
+                {% endif %}
+            {% endfor %}
+        </div>
     </aside>
 {% endif %}

@@ -2,11 +2,11 @@
 title: DACS
 date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artists' rights organisation.
-theme: dacs
+featured: true
 hero:
   - projects/dacs/desktop-1.png
   - projects/dacs/desktop-2.png
-  - projects/dacs/mobile.png
+  - projects/dacs/phone.png
 meta:
   year: 2012
   role: Design and front-end development

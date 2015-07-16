@@ -1,0 +1,18 @@
+/*  =========================================================================
+    Theme: Journal
+    ========================================================================= */
+
+.t-journal {
+    @media screen {
+        a:active,
+        a:hover {
+            color: $c__theme--journal;
+        }
+
+        .s-prose {
+            a {
+                @include text-decoration-color($c__theme--journal);
+            }
+        }
+    }
+}

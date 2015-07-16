@@ -50,7 +50,7 @@
 
 /* Caption positioning */
 .c-figure--caption-right {
-    @extend .u-bleed;
+    @extend %u-extend;
 
     .c-figure__main {
         @media (min-width: $b__c) {
@@ -60,7 +60,6 @@
 
     .c-figure__caption {
         @media (min-width: $b__c) {
-            //@include rule(before);
             @include span(4 last);
             margin-top: 0;
             padding-right: 0;

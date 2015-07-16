@@ -52,33 +52,42 @@ defaults:
       layout: content
   -
     scope:
+      path: '_content/articles'
+    values:
+      theme: articles
+  -
+    scope:
       type: posts
       path: '_posts/entries'
     values:
       layout: post-entry
+      theme: journal
   -
     scope:
       type: posts
       path: '_posts/links'
     values:
       layout: post-link
+      theme: journal
   -
     scope:
       type: posts
       path: '_posts/photos'
     values:
       layout: post-album
-      theme: dark
+      theme: [journal, dark]
   -
     scope:
       type: projects
     values:
       layout: project
+      theme: projects
   -
     scope:
       type: talks
     values:
       layout: talk
+      theme: talks
 
 # Assets
 assets:

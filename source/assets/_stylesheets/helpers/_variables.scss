@@ -10,28 +10,20 @@ $u__max-width: 60rem;
 
 
 // Colours
-$c__identity--1: #03c;
-$c__identity--2: #60c;
+$c__neutral: #1c1920;
+$c__neutral--1: lighten($c__neutral, 04%);
+$c__neutral--4: lighten($c__neutral, 48%);
+$c__neutral--7: lighten($c__neutral, 64%);
+$c__neutral--9: lighten($c__neutral, 88%);
 
-$c__neutral: #0b0c0c;
-$c__neutral--1: lighten($c__neutral, 10%);
-$c__neutral--4: lighten($c__neutral, 40%);
-$c__neutral--7: lighten($c__neutral, 70%);
-$c__neutral--9: lighten($c__neutral, 90%);
+$c__theme--journal: #a06cf6;
+$c__theme--projects: #6dc;
+$c__theme--articles: #4460f6;
+$c__theme--talks: #f66;
 
-$c__select: rgba($c__identity--2, 0.1);
-$c__focus: mix($c__identity--2, $c__neutral--9, 20%);
-$c__highlight: #ffc;
-
-$c__24-ways: #ff0040;
-$c__unicef-uk: #00afef;
-$c__bradshaws-guide: #fa5;
-$c__matter: #3f113f;
-$c__dacs: #560a5e;
-$c__the-week: #ed1c24;
-$c__fontdeck: #bccfdc;
-$c__ngenera: #838f96;
-$c__ning: #093;
+$c__highlight: #fe9;
+$c__select: rgba($c__highlight, 0.5);
+$c__focus: mix($c__highlight, $c__neutral--9, 20%);
 
 
 // Breakpoints

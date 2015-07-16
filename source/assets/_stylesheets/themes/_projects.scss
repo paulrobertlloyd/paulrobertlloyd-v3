@@ -1,0 +1,18 @@
+/*  =========================================================================
+    Theme: Projects
+    ========================================================================= */
+
+.t-projects {
+    @media screen {
+        a:active,
+        a:hover {
+            color: $c__theme--projects;
+        }
+
+        .s-prose {
+            a {
+                @include text-decoration-color($c__theme--projects);
+            }
+        }
+    }
+}

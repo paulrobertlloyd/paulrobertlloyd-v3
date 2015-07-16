@@ -51,7 +51,7 @@
     }
 
     @media (min-width: $b__c) {
-        font-size: 4rem; // 64px
+        font-size: 3.75rem; // 60px
     }
 }
 
@@ -148,7 +148,7 @@
 // Text underline colour
 @mixin text-decoration-color($color) {
     @if $color != 'none' {
-        background-image: linear-gradient(to bottom, transparent 95%, $color 0%);
+        background-image: linear-gradient(to bottom, transparent 93%, $color 93%);
         text-decoration: none;
     } @else {
         background-image: none;
