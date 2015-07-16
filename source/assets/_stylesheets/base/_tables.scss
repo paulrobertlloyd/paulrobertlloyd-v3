@@ -16,7 +16,6 @@ tbody {
 
 caption {
     @include fs--caption;
-    @include rule;
     margin-bottom: ($u__baseline / 2);
     text-align: left;
 }
@@ -33,7 +32,7 @@ th {
 }
 
 th {
-    border-top-color: $c__neutral--4;
+    border-top: 4px solid $c__neutral--4;
     padding-bottom: $u__baseline;
     font-weight: 700;
 }

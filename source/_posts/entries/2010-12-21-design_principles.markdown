@@ -6,7 +6,7 @@ excerpt: I've been thinking about redesigning this website for the last six mont
 tag:
   - Design
   - Design principles
-  - Web design and development
+  - Web
 ---
 Over the Christmas break I'm hoping to find some time to redesign this site; it's been two years since I last reviewed it in any great detail. I've been thinking about this project for the last six months, but hadn't nailed down a strategy for making these changes happen.
 

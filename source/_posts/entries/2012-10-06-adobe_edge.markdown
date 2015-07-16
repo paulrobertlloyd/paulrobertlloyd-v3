@@ -5,7 +5,7 @@ location: Brighton, England
 excerpt: Adobe recently announced a new suite a products and services for web developers, called Adobe Edge. .net Magazine asked me to provide some thoughts.
 tags:
   - Adobe
-  - Web design and development
+  - Web
   - net Magazine
 ---
 Adobe recently announced a new suite a products and services for web developers, called [Adobe Edge][1]. It includes the following components:

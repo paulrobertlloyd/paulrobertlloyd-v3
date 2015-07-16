@@ -4,7 +4,7 @@ date: '2009-02-07 22:29:57 +0000'
 location: Littlehampton, England
 excerpt: Every year the Multipack -- a community of web developers based in the Midlands -- seems  to undergo a renewal, finding confidence to try new things. This year is no different.
 tags:
-  - Web design and development
+  - Web
   - Community
 discussion: closed
 ---

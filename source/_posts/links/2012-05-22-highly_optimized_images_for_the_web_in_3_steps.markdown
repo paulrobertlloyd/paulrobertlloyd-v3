@@ -4,7 +4,7 @@ date: '2012-05-22 02:05:15 +0100'
 link:
   url: http://pasz.nl/blog/highly-optimized-images-for-the-web-in-three-steps/
 tags:
-  - Web design and development
+  - Web
   - Web performance
 ---
 Pascal Altena:

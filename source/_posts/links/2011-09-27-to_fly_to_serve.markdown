@@ -4,6 +4,7 @@ date: '2011-09-27 22:44:50 +0100'
 link:
   url: https://www.youtube.com/watch?v=a4JdQi60an0
   embed: video
+theme: dark
 tags:
   - Advertising
   - Video

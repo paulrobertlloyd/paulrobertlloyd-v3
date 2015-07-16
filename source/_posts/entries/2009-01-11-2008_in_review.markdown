@@ -13,7 +13,7 @@ I really loved San Francisco, but it never felt like home. Whilst this was mainl
 
 With this in mind, January saw me return to California to tie up loose ends and say my good-byes, as well as attend an [Edward Tufte][2] seminar and visit the Macworld Expo (where I was able to get my hands on the newly announced MacBook Air). I also took the time out to savour some favourites one last time -- the Smoked Turkey sandwich from [Atlas Cafe][3] in the Mission and a Latte at [Farley's Coffee][4] on Potrero Hill -- two dietary treats that still make my mouth water!
 
-{% figure c-figure--caption-right u-bleed "My new desk and office space in February" %}
+{% figure c-figure--caption-right "My new desk and office space in February" %}
 {% picture /2009/01/2008_in_review_new_office.jpg alt="" %}
 {% endfigure %}
 

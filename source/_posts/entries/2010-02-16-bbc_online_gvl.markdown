@@ -5,7 +5,7 @@ location: Littlehampton, England
 excerpt: I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
 tags:
   - Design
-  - Web design and development
+  - Web
   - Styleguides
   - BBC
   - User experience

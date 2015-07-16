@@ -4,7 +4,7 @@ date: '2011-04-15 18:21:13 +0100'
 link:
   url: http://markdotto.com/2011/04/15/fatten-up-those-ts/
 tags:
-  - Web design and development
+  - Web
 ---
 Invaluable advise from Twitter's Mark Otto:
 

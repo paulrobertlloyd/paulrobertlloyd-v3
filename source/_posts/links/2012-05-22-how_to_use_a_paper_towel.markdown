@@ -4,6 +4,7 @@ date: '2012-05-22 02:13:32 +0100'
 link:
   url: https://www.youtube.com/watch?v=2FMBSblpcrc
   embed: video
+theme: dark
 tags:
   - Video
   - TED

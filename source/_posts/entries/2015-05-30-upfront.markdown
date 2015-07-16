@@ -4,7 +4,7 @@ date: '2015-05-30 19:11:30 +0100'
 location: Brighton, England
 excerpt: 'Earlier this month I attended UpFront Conference, an event organised by Dan Donald and other members of Manchester''s digital community.'
 tags:
-  - Web design and development
+  - Web
   - Conferences
 ---
 Earlier this month I attended _[UpFront Conference][1]_, an event organised by [Dan Donald][2] and other members of Manchester's digital community that featured a range of talks of interest to developers and designers alike. Currently in the midst of preparing a talk of my own (the reason for this delayed review), the conference provided plenty of food for thought.

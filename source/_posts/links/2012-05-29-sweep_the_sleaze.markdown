@@ -5,7 +5,7 @@ link:
   url: http://informationarchitects.net/blog/sweep-the-sleaze/
 tags:
   - Social media
-  - Web design and development
+  - Web
 ---
 Oliver Reichenstein:
 

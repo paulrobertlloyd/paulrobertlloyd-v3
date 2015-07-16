@@ -17,10 +17,25 @@
     }
 }
 
+.c-page__section,
+.c-page__footer {
+    @include clearfix;
+    margin-bottom: ($u__baseline * 2);
+
+    @media (min-width: $b__b) {
+        padding-right: span(1 at 12 wide);
+        padding-left: span(3 wide);
+    }
+}
+
 .c-page__footer {
     @include ff--sans-serif;
     @include fs--caption;
     color: $c__neutral--4;
+
+    p {
+        margin: 0;
+    }
 }
 
 .c-page__title {
@@ -35,22 +50,4 @@
     @media (min-width: $b__b) {
         margin-bottom: ($u__baseline * 4);
     }
-}
-
-.c-page__section,
-.c-page__footer,
-.c-page__tags {
-    @include clearfix;
-    margin-bottom: ($u__baseline * 2);
-
-    @media (min-width: $b__b) {
-        //@include span(8 at 4);
-        padding-right: span(1 at 12 wide);
-        padding-left: span(3 wide);
-    }
-}
-
-.c-page__tags__title {
-    float: left;
-    margin-right: ($u__baseline / 2);
 }

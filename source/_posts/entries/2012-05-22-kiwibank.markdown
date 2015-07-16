@@ -7,7 +7,7 @@ image:
   url: /2012/05/kiwibank.jpg
   caption: The new Kiwibank homepage viewed on different devices
 tags:
-  - Web design and development
+  - Web
   - Responsive design
   - Interviews
   - Kiwibank

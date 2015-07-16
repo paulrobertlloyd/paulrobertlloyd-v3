@@ -4,6 +4,7 @@ date: '2012-01-24 19:47:07 +0000'
 link:
   url: https://vimeo.com/35396305
   embed: video
+theme: dark
 tags:
   - Video
   - Photography

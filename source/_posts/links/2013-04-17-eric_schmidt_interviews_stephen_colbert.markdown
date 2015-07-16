@@ -4,6 +4,7 @@ date: '2013-04-17 18:58:33 +0100'
 link:
   url: https://www.youtube.com/watch?v=-HpBHWUPa8Q
   embed: video
+theme: dark
 tags:
   - Video
   - Stephen Colbert

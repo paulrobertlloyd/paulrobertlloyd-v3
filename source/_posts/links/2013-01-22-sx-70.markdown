@@ -4,6 +4,7 @@ date: '2013-01-22 00:04:17 +0000'
 link:
   url: https://www.youtube.com/watch?v=Lo_1pyQ7xvc
   embed: video
+theme: dark
 tags:
   - Video
   - Polaroid

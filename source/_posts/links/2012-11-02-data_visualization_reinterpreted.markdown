@@ -4,6 +4,7 @@ date: '2012-11-02 01:10:58 +0000'
 link:
   url: https://vimeo.com/51365288
   embed: video
+theme: dark
 tags:
   - Video
   - Peter Saville

@@ -4,7 +4,7 @@ date: '2015-05-03 21:51:36 +0100'
 location: Brighton, England
 excerpt: 'I recently learnt about a security exploit that can occur when pages served over HTTPS use HTTP compression. Secure or fast, pick one?'
 tags:
-  - Web design and development
+  - Web
   - Web performance
   - HTTPS
 ---

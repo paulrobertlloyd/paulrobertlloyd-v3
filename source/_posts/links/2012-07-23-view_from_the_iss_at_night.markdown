@@ -4,6 +4,7 @@ date: '2012-07-23 01:34:09 +0100'
 link:
   url: https://vimeo.com/45878034
   embed: video
+theme: dark
 tags:
   - Video
   - Space

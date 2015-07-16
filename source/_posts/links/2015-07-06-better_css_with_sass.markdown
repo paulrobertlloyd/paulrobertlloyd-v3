@@ -5,7 +5,7 @@ link:
   url: http://www.fivesimplesteps.com/products/better-css-with-sass
 tags:
   - Books
-  - Web design and development
+  - Web
 ---
 For those looking for a quick and succinct introduction to Sass, the popular CSS pre-processor, my friend [Cole Henley][1] has written a pocket guide:
 

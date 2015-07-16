@@ -14,8 +14,6 @@
 .c-container__title {
     @include ff--sans-serif;
     @include fs--heading-2;
-    padding-bottom: ($u__baseline / 4);
-    font-weight: 700;
     word-break: break-word;
     hyphens: auto;
 }
@@ -25,13 +23,13 @@
 .c-container--index {
     .c-container__header {
         @media (min-width: $b__a) {
-            @include span(3 first);
+            @include span(2 of 9 first);
         }
     }
 
     .c-container__main {
         @media (min-width: $b__a) {
-            @include span(8 at 4 last);
+            @include span(7 of 9 last);
         }
     }
 }

@@ -6,7 +6,7 @@ excerpt: The humble URL has been on my mind a lot recently.
 tags:
   - Design
   - User experience
-  - Web design and development
+  - Web
 discussion: closed
 ---
 The humble URL has been on my mind a lot recently. Through a series of developments, this simple means of addressing the wonders of the web has been obfuscated and abused, to the point that it's now seen as difficult to use and an affront to users.

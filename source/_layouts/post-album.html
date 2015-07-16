@@ -9,7 +9,7 @@ layout: default
 
         {% capture album_path %}{{ page.path | replace:"_posts/photos/","assets/images/photos/" | remove:".markdown" }}{% endcapture %}
         {% directory path: album_path %}
-        <figure class="c-figure c-figure--photo c-figure--caption-right u-bleed">
+        <figure class="c-figure c-figure--photo c-figure--caption-right">
             <p class="c-figure__main">
                 {% picture {{ file.url | remove:"assets/images/" }} alt="" %}
             </p>
@@ -20,11 +20,9 @@ layout: default
         {% enddirectory %}
     </div>
 
-    {% include page/footer.html %}
-
     {% include page/series.html %}
 
-    {% include page/tags.html %}
+    {% include page/footer.html %}
 
     {% include nav/paginate-posts.html %}
 </article>

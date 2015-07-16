@@ -5,7 +5,7 @@ location: Brighton, England
 excerpt: Rather than showcase British interactive design talent, the biggest cultural event of our generation has been represented online by an uninspired mess that flies the flag for the status quo.
 tags:
   - Design
-  - Web design and development
+  - Web
   - Olympics
   - London 2012
 discussion: closed
