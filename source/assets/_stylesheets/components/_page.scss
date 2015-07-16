@@ -3,6 +3,7 @@
     ========================================================================= */
 
 .c-page {
+    @include clearfix;
     position: relative;
 }
 
@@ -16,9 +17,9 @@
 
     .c-page--index & {
         @media (min-width: $b__b) {
-            width: span(3 first);
             position: absolute;
             padding-left: 0;
+            width: span(3 first);
         }
     }
 }

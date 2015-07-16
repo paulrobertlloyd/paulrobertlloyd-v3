@@ -4,14 +4,47 @@
 
 .t-light {
     @media screen {
-        a:active,
-        a:hover {
-            color: $c__theme--journal;
+        body {
+            background-color: $c__neutral-9;
+            color: $c__neutral-1;
+        }
+
+        a,
+        .c-button {
+            color: $c__neutral-1;
+
+            &:hover {
+                color: $c__primary-purple;
+            }
+
+            &:active {
+                color: $c__primary-blue;
+            }
+        }
+
+        .c-banner__logo {
+            fill: $c__neutral-1;
+
+            &:hover {
+                fill: $c__primary-purple;
+            }
+
+            &:active {
+                fill: $c__primary-blue;
+            }
+        }
+
+        .c-navigation {
+            background-color: rgba($c__neutral-9, 0.95);
         }
 
         .s-prose {
-            a {
-                @include text-decoration-color($c__theme--journal);
+            a:not([.c-button]) {
+                @include text-decoration-color($c__primary-purple);
+            }
+
+            a:not([.c-button]):active {
+                @include text-decoration-color($c__primary-blue);
             }
         }
     }

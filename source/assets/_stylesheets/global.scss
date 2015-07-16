@@ -2,9 +2,10 @@
 @import 'susy';
 
 // Helpers
-@import 'helpers/webfonts';
+@import 'helpers/functions';
 @import 'helpers/variables';
 @import 'helpers/mixins';
+@import 'helpers/webfonts';
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2

@@ -14,6 +14,7 @@
 .c-container__title {
     @include ff--sans-serif;
     @include fs--heading-2;
+    font-weight: 700;
     word-break: break-word;
     hyphens: auto;
 }
@@ -73,8 +74,14 @@
 }
 
 
-/* Projects */
-.c-container--projects {
+/* Projects, Series */
+.c-container--projects,
+.c-container--series {
+    @media (min-width: $b__b) {
+        margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
+    }
+
+    .c-item,
     .c-nav__item {
         @include gallery(2 of 4);
 

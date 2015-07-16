@@ -31,6 +31,7 @@ input,
 optgroup,
 select,
 textarea {
+    background: none;
 /*  Address margins set differently in Firefox 4+, Safari and Chrome */
     margin: 0;
 /*  Correct color not being inherited.
@@ -105,9 +106,9 @@ textarea {
 
 /* Placeholder */
 ::placeholder {
-    color: $c__neutral--4;
+    color: $c__neutral-4;
 }
 
 :focus::placeholder {
-    color: $c__neutral--7;
+    color: $c__neutral-7;
 }

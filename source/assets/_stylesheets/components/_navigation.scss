@@ -8,7 +8,6 @@
     right: 0;
     left: 0;
     z-index: 1002;
-    background-color: rgba($c__neutral--9, 0.95);
 
     &.is-fixed {
         position: fixed;
@@ -28,6 +27,8 @@
 }
 
 .c-navigation__links {
+    white-space: nowrap;
+
     @media (min-width: $b__a) {
         @include span(8 at 2);
         margin-right: span(1);
@@ -38,18 +39,15 @@
 }
 
 .c-navigation__link {
-    @include span(1 of 5);
-    display: block;
+    display: inline-block;
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
+    width: percentage(1/4);
 
     @media (min-width: $b__a) {
         padding-top: ($u__baseline * 2);
         padding-bottom: $u__baseline;
-    }
-
-    &:last-child {
-        margin-right: 0;
+        width: percentage(1/5);
     }
 
     &.is-active {
