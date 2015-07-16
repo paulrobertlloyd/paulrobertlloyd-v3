@@ -58,7 +58,7 @@ The `.c-embed--slidedeck`{: .language-css} modifier is used when embedding prese
 {% embed https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web %}
 
 ## EXIF data
-The `.c-exif`{: .language-css} component class is used when display the EXIF data found within an image file.
+The `.c-exif`{: .language-css} component class is used to display the EXIF data found within an image file.
 
 {% include exif.html url='/assets/images/photos/2015-03-02-olympiastadion/02.jpg' %}
 

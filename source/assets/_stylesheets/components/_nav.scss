@@ -24,6 +24,7 @@
 
 /* Page navigation */
 .c-nav--pagination {
+    overflow: hidden;
     margin-bottom: ($u__baseline * 2);
 
     @media (min-width: $b__b) {

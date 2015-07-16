@@ -1,5 +1,5 @@
 <header class="c-page__header">
-    <h1 class="c-page__title p-name">{{ page.title | typogrify }}</h1>
+    <h1 class="c-page__title p-name">{{ page.title | smartify }}</h1>
     {% unless page.path contains "_posts" %}
         {% if page.excerpt %}
             <div class="c-page__excerpt s-prose s-prose--lede p-summary">
