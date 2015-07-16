@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<section class="c-page c-page--index{% if page.path contains "index.html" %} u-hidden-on-mobile{% endif %}">
-    <header class="c-page__header c-page__header--aside">
+<section class="c-page c-page--index">
+    <header class="c-page__header{% if page.path contains "index.html" %} u-hidden-on-mobile{% endif %}">
         <h1 class="c-page__title">{% include title.html %}</h1>
     </header>
 
@@ -12,14 +12,10 @@ layout: default
 
     {% if page.path contains "journal" %}
     <div class="c-page__section">
-        <ul class="o-list o-list--inline">
-            <li class="o-list__item o-list__item--separate">
-                <strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>
-            </li>
-            <li class="o-list__item">
-                Subscribe to the <a href="/styleguide"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> Feed</a>
-            </li>
-        </ul>
+        <p class="s-prose">
+            <span class="u-sepatate"><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</span>
+            Subscribe to the <a href="/styleguide"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> Feed</a>
+        </p>
     </div>
     {% endif %}
 

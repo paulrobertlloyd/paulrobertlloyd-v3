@@ -26,6 +26,21 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 }
 
 
+/* Vertically separate two strings with a slash */
+.u-separate {
+    &::after {
+        margin: 0 ($u__baseline / 4);
+        color: $c__neutral-4;
+        font-weight: normal;
+        content: '\00a0/';
+    }
+
+    &:nth-child(n+2):last-child::after {
+        content: none;
+    }
+}
+
+
 /* Align element right or left */
 .u-align-right {
     float: right;

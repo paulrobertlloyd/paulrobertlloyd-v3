@@ -16,6 +16,7 @@
 
     .c-nav__item__label {
         display: block;
+        background: none;
         padding-bottom: $u__baseline;
         line-height: 1;
     }
@@ -24,7 +25,6 @@
 
 /* Page navigation */
 .c-nav--pagination {
-    @include clearfix;
     margin-bottom: ($u__baseline * 2);
 
     @media (min-width: $b__b) {

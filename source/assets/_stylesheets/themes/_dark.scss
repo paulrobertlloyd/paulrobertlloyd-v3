@@ -5,25 +5,47 @@
 .t-dark {
     @media screen {
         body {
-            background-color: $c__neutral--1;
-            color: $c__neutral--9;
+            background-color: $c__neutral-1;
+            color: $c__neutral-9;
         }
 
-        a {
-            color: $c__neutral--9;
-        }
+        a,
+        .c-button {
+            color: $c__neutral-9;
 
-        a:active,
-        a:hover {
-            color: #fff;
+            &:hover {
+                color: $c__primary-purple;
+            }
+
+            &:active {
+                color: #fff;
+            }
         }
 
         .c-banner__logo {
-            fill: $c__neutral--9;
+            fill: $c__neutral-9;
+
+            &:hover {
+                fill: $c__primary-purple;
+            }
+
+            &:active {
+                fill: #fff;
+            }
         }
 
         .c-navigation {
-            background-color: rgba($c__neutral--1, 0.95);
+            background-color: rgba($c__neutral-1, 0.95);
+        }
+
+        .s-prose {
+            a:not([.c-button]) {
+                @include text-decoration-color($c__primary-purple);
+            }
+
+            a:not([.c-button]):active {
+                @include text-decoration-color(#fff);
+            }
         }
     }
 }

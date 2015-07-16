@@ -10,20 +10,20 @@ $u__max-width: 60rem;
 
 
 // Colours
-$c__neutral: #1c1920;
-$c__neutral--1: lighten($c__neutral, 04%);
-$c__neutral--4: lighten($c__neutral, 48%);
-$c__neutral--7: lighten($c__neutral, 64%);
-$c__neutral--9: lighten($c__neutral, 88%);
+$c__neutral: hsb(300, 20, 10);
+$c__neutral-1: lighten($c__neutral, 04%);
+$c__neutral-4: lighten($c__neutral, 48%);
+$c__neutral-7: lighten($c__neutral, 64%);
+$c__neutral-9: lighten($c__neutral, 88%);
 
-$c__theme--journal: #a06cf6; // Purple
-$c__theme--projects: #6dc; // Green
-$c__theme--articles: #4460f6; // Blue
-$c__theme--talks: #f66; // Red
+$c__primary-purple: hsb(300, 60, 80);
+$c__primary-blue: hsb(220, 60, 80);
+$c__primary-red: hsb(0, 60, 80);
+$c__primary-yellow: hsb(50, 40, 100);
 
-$c__highlight: #fe9;
+$c__highlight: $c__primary-yellow;
 $c__select: rgba($c__highlight, 0.5);
-$c__focus: mix($c__highlight, $c__neutral--9, 20%);
+$c__focus: $c__primary-yellow;
 
 
 // Breakpoints
@@ -45,9 +45,9 @@ $susy: (
     gutters: 1/4,
     global-box-sizing: border-box,
     last-flow: to,
-    debug: (
-        image: show,
-        output: overlay,
-        toggle: bottom right,
-    )
+//    debug: (
+//        image: show,
+//        output: overlay,
+//        toggle: bottom right,
+//    )
 );

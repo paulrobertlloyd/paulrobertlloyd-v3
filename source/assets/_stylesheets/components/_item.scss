@@ -28,11 +28,11 @@
 
 .c-item__meta {
     @include fs--caption;
-    color: $c__neutral--4;
+    color: $c__neutral-4;
 }
 
 .c-item__pubdate {
-    color: $c__neutral--4;
+    color: $c__neutral-4;
 }
 
 .c-item__avatar {
@@ -84,7 +84,7 @@
         &::before,
         &::after {
             position: absolute;
-            background: $c__neutral--7;
+            background: $c__neutral-7;
             height: 1px;
             content: '';
         }
@@ -105,23 +105,5 @@
     .c-item__cover-photo {
         width: ($u__baseline * 6);
         height: ($u__baseline * 6);
-    }
-}
-
-
-/* Project */
-.c-item--project {
-    @include gallery(2 of 4);
-
-    @media (min-width: $b__c) {
-        @include gallery(2 of 6);
-    }
-}
-
-
-/* Series */
-.c-item--series {
-    @media (min-width: $b__c) {
-        @include gallery(2 of 6);
     }
 }

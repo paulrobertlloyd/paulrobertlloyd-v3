@@ -3,7 +3,7 @@ layout: index
 title: Projects
 ---
 {% assign projects = site.projects | sort:"date" %}
-<div class="c-container c-container--case-studies">
+<div class="c-container c-container--projects">
     {% for item in projects reversed %}
         {% if item.featured %}
             {% include item/project.html %}
