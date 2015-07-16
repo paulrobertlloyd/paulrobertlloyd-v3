@@ -160,7 +160,7 @@ _TBD_
 ## Hero
 The `.c-hero`{: .language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
 
-{% assign hero = "/projects/bradshaws_guide/desktop.png|/projects/bradshaws_guide/tablet.png|/projects/bradshaws_guide/phone.png" | split: "|" %}
+{% assign hero = "projects/bradshaws_guide/desktop.png|projects/bradshaws_guide/tablet.png|projects/bradshaws_guide/phone.png" | split: "|" %}
 {% include hero.html imageset=hero %}
 
 ## Meta information
