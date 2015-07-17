@@ -146,10 +146,27 @@
 
 
 // Text underline colour
-@mixin text-decoration-color($color) {
+@mixin text-decoration-color($background-color, $color) {
     @if $color != 'none' {
-        background-image: linear-gradient(to bottom, transparent 93%, $color 93%);
+        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 94%, transparent 94%);
         text-decoration: none;
+        text-shadow:
+            0.03em 0 $background-color,
+            -0.03em 0 $background-color,
+            0 0.03em $background-color,
+            0 -0.03em $background-color,
+            0.06em 0 $background-color,
+            -0.06em 0 $background-color,
+            0.09em 0 $background-color,
+            -0.09em 0 $background-color,
+            0.12em 0 $background-color,
+            -0.12em 0 $background-color,
+            0.15em 0 $background-color,
+            -0.15em 0 $background-color;
+
+        &::selection {
+            text-shadow: none;
+        }
     } @else {
         background-image: none;
     }
