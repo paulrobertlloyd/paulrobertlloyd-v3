@@ -27,9 +27,9 @@ layout: index
                         </li>
     {% else %}
         {% case item.layout %}
-        {% when 'post-link' %}
+        {% when "post-link" %}
             {% include item/link.html %}
-        {% when 'post-album' %}
+        {% when "post-album" %}
             {% include item/album.html %}
         {% else %}
             {% include item/entry.html %}
