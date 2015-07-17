@@ -1,6 +1,6 @@
 # paulrobertlloyd.com
 
-Source files to build my personal website, currently in development.
+Source files to build my personal website.
 
 ## System requirements
 
