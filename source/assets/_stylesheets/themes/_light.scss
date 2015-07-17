@@ -42,11 +42,11 @@
 
         .s-prose {
             a:not(.c-button):not(.c-nav__item__label) {
-                @include text-decoration-color($c__primary-purple);
+                @include text-decoration-color($c__neutral-9, $c__primary-purple);
             }
 
             a:not(.c-button):not(.c-nav__item__label):active {
-                @include text-decoration-color($c__primary-blue);
+                @include text-decoration-color($c__neutral-9, $c__primary-blue);
             }
         }
 
