@@ -60,6 +60,15 @@
     }
 }
 
+.s-prose--lede {
+    @include fs--lede;
+}
+
+.s-prose--billboard {
+    @include fs--billboard;
+}
+
+
 .s-prose--body {
     @include ff--serif;
     @include fs--body;
@@ -72,31 +81,11 @@
         font-size: 120%;
     }
 
-    a:not([class]) {
-        text-decoration: underline;
-
-        &::after {
-            @media print {
-                @include ff--monospace;
-                font-size: 80%;
-                content: '[' attr(href) ']';
-            }
+    @media print {
+        a::after {
+            @include ff--monospace;
+            font-size: 80%;
+            content: '[' attr(href) ']';
         }
-    }
-}
-
-.s-prose--lede {
-    @include fs--lede;
-
-    a {
-        text-decoration: underline;
-    }
-}
-
-.s-prose--billboard {
-    @include fs--billboard;
-
-    a {
-        text-decoration: underline;
     }
 }

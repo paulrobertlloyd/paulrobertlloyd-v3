@@ -11,6 +11,12 @@
     margin-bottom: $u__baseline;
 }
 
+.c-container__main {
+    > *:last-child {
+        margin-bottom: 0;
+    }
+}
+
 .c-container__title {
     @include ff--sans-serif;
     @include fs--heading-2;
