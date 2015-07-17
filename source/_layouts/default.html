@@ -24,12 +24,16 @@ layout: compress
     {% if page.next != nil %}<link rel="next bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}"/>{% endif %}
 
 {% if page.path contains "_posts" %}
+    {% if page.image %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.picture.cdn_url }}/180w/80{{ page.image.url }}"/>
+    {% else %}
+    <meta name="twitter:card" content="summary"/>
+    {% endif %}
     <meta name="twitter:site" content="@paulrobertlloyd"/>
     <meta name="twitter:creator" content="@paulrobertlloyd"/>
-    <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
-    {% if page.image %}<meta name="twitter:image" content="{{ site.picture.cdn_url }}/180w/80{{ page.image.url }}"/>{% endif %}
 {% endif %}
 
     <meta charset="utf-8"/>
