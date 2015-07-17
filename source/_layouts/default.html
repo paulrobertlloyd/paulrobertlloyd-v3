@@ -12,6 +12,7 @@ layout: compress
     {% if page.discussion %}<link rel="dns-prefetch" href="https://gravatar.com"/>{% endif %}
 
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+    <link rel="mask-icon" sizes="any" href="{% asset_path icon.svg %}" color="{{ site.theme-color }}"/>
     <link rel="apple-touch-icon" type="image/png" href="{% asset_path icon--192x192.png %}"/>
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <link rel="manifest" href="/manifest.json"/>
@@ -35,7 +36,7 @@ layout: compress
     <meta name="author" content="{{ site.author.name }}"/>
     <meta name="referrer" content="origin"/>
     <meta name="robots" content="index, follow"/>
-    <meta name="theme-color" content="#1122cc">
+    <meta name="theme-color" content="{{ site.theme-color }}"/>
     <meta name="application-name" content="{{ site.title }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="fullcss"  content="{% asset_path global.css %}">
