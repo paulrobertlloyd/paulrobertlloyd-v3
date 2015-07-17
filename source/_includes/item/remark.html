@@ -10,13 +10,13 @@
         </h1>
     </header>
 
-    <div class="c-item__main s-prose s-prose--billboard">
-        {{ item.content | markdownify }}
-    </div>
-
     <footer class="c-item__footer">
         <p class="c-item__meta">
             <time class="c-item__pubdate" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
         </p>
     </footer>
+
+    <div class="c-item__main s-prose s-prose--billboard">
+        {{ item.content | markdownify }}
+    </div>
 </article>

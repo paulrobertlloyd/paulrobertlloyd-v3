@@ -8,14 +8,14 @@
 }
 
 .c-page__header {
-    @media (min-width: $b__b) {
+    @media screen and (min-width: $b__b) {
         margin-bottom: ($u__baseline * 2);
         padding-top: 0;
         padding-left: span(3 wide);
     }
 
     .c-page--index & {
-        @media (min-width: $b__b) {
+        @media screen and (min-width: $b__b) {
             position: absolute;
             padding-left: 0;
             width: span(3 first);
@@ -28,7 +28,7 @@
     @include clearfix;
     margin-bottom: ($u__baseline * 2);
 
-    @media (min-width: $b__b) {
+    @media screen and (min-width: $b__b) {
         padding-right: span(1 wide);
         padding-left: span(3 wide);
     }
@@ -63,6 +63,6 @@
     margin-bottom: ($u__baseline * 2);
 
     @media (min-width: $b__b) {
-        margin-bottom: ($u__baseline * 4);
+        margin-bottom: ($u__baseline * 3);
     }
 }

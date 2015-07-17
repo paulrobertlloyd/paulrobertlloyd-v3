@@ -19,7 +19,11 @@
         display: block;
         padding-bottom: ($u__baseline * 1.5);
         line-height: 1;
-    } 
+    }
+
+    @media print {
+        display: none;
+    }
 }
 
 

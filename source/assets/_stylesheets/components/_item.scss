@@ -3,23 +3,12 @@
     ========================================================================= */
 
 .c-item {
-    display: flex;
     position: relative;
-    margin-bottom: ($u__baseline * 2);
-    flex-direction: column;
-}
-
-.c-item__header {
-    order: 1;
+    margin-bottom: ($u__baseline * 3);
 }
 
 .c-item__footer {
     margin-bottom: ($u__baseline / 2);
-    order: 2;
-}
-
-.c-item__main {
-    order: 3;
 }
 
 .c-item__title {
@@ -28,10 +17,6 @@
 
 .c-item__meta {
     @include fs--caption;
-    color: $c__neutral-4;
-}
-
-.c-item__pubdate {
     color: $c__neutral-4;
 }
 
@@ -65,7 +50,7 @@
 .c-item--remark {
     padding-left: (span(1 of 8) + gutter());
 
-    @media (min-width: $b__b) {
+    @media screen and (min-width: $b__b) {
         padding-left: 0;
     }
 }
