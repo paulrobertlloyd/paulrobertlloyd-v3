@@ -17,7 +17,7 @@
 
         {% if page.tags %}
         <span class="c-page__tags">
-            and tagged: {% for tag in page.tags %}{% include tag.html tag=tag %}{% endfor %}
+            and tagged: {% for tag in page.tags %}{% include tag.html tag=tag %} {% endfor %}
         </span>
         {% endif %}
     </p>
