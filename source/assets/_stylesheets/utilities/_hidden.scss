@@ -9,5 +9,6 @@
 .u-hidden-on-mobile {
     @media (max-width: $b__a) {
         @include visually-hidden;
+        display: none;
     }
 }
