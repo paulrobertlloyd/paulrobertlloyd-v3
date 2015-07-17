@@ -1,4 +1,4 @@
-{% assign series = site.content | where:'series',page.series | sort:'date' %}
+{% assign series = site.content | where:"series",page.series | sort:"date" %}
 <nav class="c-container c-container--chapters {{ include.class }}" aria-labelledby="chapters">
     <header class="c-container__header">
         <h1 class="c-container__title audible" id="chapters">Chapters</h1>

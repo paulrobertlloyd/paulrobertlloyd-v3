@@ -26,8 +26,8 @@
 /* Page navigation */
 .c-nav--pagination {
     @include fs--caption;
-    overflow: hidden;
     margin-bottom: ($u__baseline * 2);
+    overflow: hidden;
 
     @media (min-width: $b__b) {
         position: absolute;
@@ -44,13 +44,13 @@
     }
 
     .c-nav__item--prev::before {
-        content: '\27E8\00A0';
         font-family: sans-serif;
+        content: '\27E8\00A0';
     }
 
     .c-nav__item--next::after {
-        content: '\00A0\27E9';
         font-family: sans-serif;
+        content: '\00A0\27E9';
     }
 
     .c-nav__item__label {
