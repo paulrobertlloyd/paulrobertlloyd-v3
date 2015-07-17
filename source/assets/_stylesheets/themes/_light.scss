@@ -15,10 +15,12 @@
 
             &:hover {
                 color: $c__primary-purple;
+                border-color: $c__primary-purple;
             }
 
             &:active {
                 color: $c__primary-blue;
+                border-color: $c__primary-blue;
             }
         }
 
@@ -46,6 +48,10 @@
             a:not(.c-button):not(.c-nav__item__label):active {
                 @include text-decoration-color($c__primary-blue);
             }
+        }
+
+        .u-block-link .s-prose {
+            color: $c__neutral-1;
         }
     }
 }

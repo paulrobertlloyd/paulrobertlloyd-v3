@@ -132,9 +132,13 @@ picture:
     feature:
       attr:
         class: img img--feature
-      source_large:
+      source_xlarge:
         width: 1280
         height: 720
+        quality: 70
+      source_large:
+        width: 1024
+        height: 576
         quality: 70
       source_medium:
         width: 768

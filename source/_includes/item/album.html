@@ -1,22 +1,22 @@
 <article class="c-item c-item--album h-entry">
-    <header class="c-item__header">
-        <h1 class="c-item__title p-name">
-            <a class="c-item__link u-url" href="{{ item.url }}" rel="bookmark">
+    <a class="c-item__link u-block-link u-url" href="{{ item.url }}" rel="bookmark">
+        <header class="c-item__header">
+            <h1 class="c-item__title p-name">
                 <span class="c-item__cover">
                     <img class="c-item__cover-photo" src="{{ site.picture.cdn_url }}/180x180/80{{ item.image.url }}" alt=""/>
                 </span>
                 {{ item.title | smartify }}
-            </a>
-        </h1>
-    </header>
+            </h1>
+        </header>
 
-    <div class="c-item__main s-prose s-prose--billboard p-summary">
-        {{ item.excerpt | markdownify | typogrify | namespace }}
-    </div>
+        <footer class="c-item__footer">
+            <p class="c-item__meta">
+                <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+            </p>
+        </footer>
 
-    <footer class="c-item__footer">
-        <p class="c-item__meta">
-            <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
-        </p>
-    </footer>
+        <div class="c-item__main s-prose s-prose--billboard p-summary">
+            {{ item.excerpt | markdownify | typogrify | namespace }}
+        </div>
+    </a>
 </article>

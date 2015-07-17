@@ -1,6 +1,7 @@
 /*  =========================================================================
     Figure
     ========================================================================= */
+
 .c-figure {
     @include clearfix;
     margin-bottom: $u__baseline;
@@ -33,7 +34,7 @@
             margin-left: ($u__baseline * 2);
         }
 
-        @media (min-width: $b__b) {
+        @media screen and (min-width: $b__b) {
             margin-right: 0;
             margin-left: 0;
             padding-left: span(3 wide);
@@ -41,7 +42,7 @@
     }
 
     .u-extend & {
-        @media (min-width: $b__b) {
+        @media screen and (min-width: $b__b) {
             padding-left: span(3 wide);
         }
     }
@@ -115,5 +116,37 @@
 .c-figure--image-quintet {
     img {
         @include gallery(2 of 10);
+    }
+}
+
+/* Tweet */
+.c-figure--tweet {
+    blockquote {
+        @include ff--sans-serif;
+        @include fs--lede;
+        position: relative;
+        background-color: rgba($c__neutral-1, 0.2);
+        padding: $u__baseline;
+
+        &::before {
+            border-left: 0;
+        }
+
+        &::after {
+            display: block;
+            position: absolute;
+            bottom: ($u__baseline * -1);
+            left: ($u__baseline * 1.5);
+            border-top: $u__baseline solid rgba($c__neutral-1, 0.2);
+            border-right: $u__baseline solid transparent;
+            border-left: $u__baseline solid transparent;
+            width: 0;
+            height: 0;
+            content: '';
+        }
+
+        :last-child {
+            margin-bottom: 0;
+        }
     }
 }

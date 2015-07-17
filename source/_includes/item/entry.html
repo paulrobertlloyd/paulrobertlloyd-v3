@@ -1,23 +1,25 @@
 <article class="c-item c-item--entry h-entry">
-    <header class="c-item__header">
-        <h1 class="c-item__title p-name">
-            <a class="c-item__link u-url" href="{{ item.url }}" rel="bookmark">{{ item.title | smartify | typogrify }}</a>
-        </h1>
-    </header>
+    <a class="c-item__link u-block-link u-url" href="{{ item.url }}" rel="bookmark">
+        <header class="c-item__header">
+            <h1 class="c-item__title p-name">
+                {{ item.title | smartify | typogrify }}
+            </h1>
+        </header>
 
-    <div class="c-item__main s-prose s-prose--body p-summary">
-        {% if item.tags contains "Photography" %}
-            {% figure u-bleed %}
+        <footer class="c-item__footer">
+            <p class="c-item__meta">
+                <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+            </p>
+        </footer>
+
+        <div class="c-item__main s-prose s-prose--body p-summary">
+            {% if item.image %}
+                {% figure u-bleed %}
 {% picture feature {{ item.image.url }} alt="{{ item.title }}" %}
-            {% endfigure %}
-        {% endif %}
+                {% endfigure %}
+            {% endif %}
 
-        {{ item.excerpt | markdownify | typogrify | namespace }}
-    </div>
-
-    <footer class="c-item__footer">
-        <p class="c-item__meta">
-            <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
-        </p>
-    </footer>
+            {{ item.excerpt | markdownify | typogrify | namespace }}
+        </div>
+    </a>
 </article>

@@ -1,7 +1,12 @@
 <article class="c-item c-item--article">
-    <h1 class="c-item__title">
-        <a class="c-item__link" href="{{ item.url }}">{{ item.title | smartify }}</a>
-    </h1>
+    <a class="c-item__link u-block-link u-url" href="{{ item.url }}" rel="bookmark">
+        <h1 class="c-item__title p-name">
+            {{ item.title | smartify }}
+        </h1>
 
-    <p class="c-item__meta"><strong class="u-separate">{{ item.publication }}</strong> <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" }}</time></p>
+        <p class="c-item__meta">
+            <strong class="u-separate">{{ item.publication }}</strong>
+            <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" }}</time>
+        </p>
+    </a>
 </article>
