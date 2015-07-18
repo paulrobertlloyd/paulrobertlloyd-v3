@@ -43,8 +43,8 @@ body {
     font-smoothing: antialiased;
 
     @media print {
+        margin: 0 1cm;
         color: $c__neutral !important;
-        margin: 0 2cm;
     }
 }
 

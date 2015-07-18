@@ -14,13 +14,13 @@
             color: inherit;
 
             &:hover {
-                color: $c__primary-purple;
                 border-color: $c__primary-purple;
+                color: $c__primary-purple;
             }
 
             &:active {
-                color: #fff;
                 border-color: #fff;
+                color: #fff;
             }
         }
 

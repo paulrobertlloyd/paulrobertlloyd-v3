@@ -80,12 +80,4 @@
     > dl dt:not([class]) {
         font-size: 120%;
     }
-
-    @media print {
-        a::after {
-            @include ff--monospace;
-            font-size: 80%;
-            content: '[' attr(href) ']';
-        }
-    }
 }
