@@ -5,7 +5,6 @@ url: https://paulrobertlloyd.com
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
-  endings: all
 
 # Assets
 assets:

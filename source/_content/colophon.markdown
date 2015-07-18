@@ -8,7 +8,7 @@ This site is published using [Jekyll][7] with a number of supporting plugins:
 
   * [jekyll-archives][8] by Alfred Xing
   * [jekyll-assets][9] by Aleksey V Zapparov
-  * [jekyll-paginate][10] by Parker Moore
+  * [jekyll-compress-html][10] by Anatol Broder
   * [jekyll-sitemap][11] by GitHub, Inc.
   * [jekyll-smartify][12] by Pat Hawks
   * [Simple Jekyll Search][13] by Christian Fei
@@ -34,7 +34,7 @@ I always try to adhere to [web standards][21] and best practices. Pages are sema
 [7]: http://jekyllrb.com/
 [8]: https://rubygems.org/gems/jekyll-archives
 [9]: https://rubygems.org/gems/jekyll-assets
-[10]: https://rubygems.org/gems/jekyll-paginate
+[10]: https://github.com/penibelst/jekyll-compress-html
 [11]: https://rubygems.org/gems/jekyll-sitemap
 [12]: https://rubygems.org/gems/jekyll-smartify
 [13]: https://github.com/christian-fei/Simple-Jekyll-Search
