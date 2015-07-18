@@ -6,6 +6,7 @@
     @include ff--sans-serif;
     @include fs--caption;
     overflow: hidden;
+    margin-bottom: $u__baseline;
 }
 
 .c-meta__title {
