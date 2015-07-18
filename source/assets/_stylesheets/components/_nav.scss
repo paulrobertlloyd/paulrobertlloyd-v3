@@ -9,14 +9,20 @@
 }
 
 
-/* Series navigation */
-.c-nav--series {
+/* Chapter navigation */
+.c-nav--chapters {
     @include ff--sans-serif;
     @include fs--caption;
+    margin-bottom: $u__baseline;
+
+    .c-nav__title {
+        @include fs--lede;
+        margin-bottom: $u__baseline;
+    }
 
     .c-nav__item__label {
         display: block;
-        padding-bottom: ($u__baseline * 1.5);
+        padding-bottom: ($u__baseline * 1.25);
         line-height: 1;
     }
 

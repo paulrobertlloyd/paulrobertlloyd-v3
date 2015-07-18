@@ -49,7 +49,7 @@
 
 .c-page__title {
     @include fs--heading-1;
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 3/4);
     font-weight: 700;
 
     .c-page--index & {

@@ -1,10 +1,8 @@
 {% assign series = site.content | where:"series",page.series | sort:"date" %}
-<nav class="c-container c-container--chapters {{ include.class }}" aria-labelledby="chapters">
-    <header class="c-container__header">
-        <h1 class="c-container__title audible" id="chapters">Chapters</h1>
-    </header>
+<nav class="c-nav c-nav--chapters {{ include.class }}" aria-labelledby="chapters">
+    <h1 class="c-nav__title" id="chapters">Chapters</h1>
 
-    <ol class="c-nav c-nav--series o-list">
+    <ol class="o-list">
         <li class="c-nav__item o-list__item{% if page.url == series[0].url %} is-active{% endif %}">
             <a class="c-nav__item__label" href="{{ series[0].url }}">Introduction</a>
         </li>
