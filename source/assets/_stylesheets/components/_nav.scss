@@ -13,7 +13,6 @@
 .c-nav--series {
     @include ff--sans-serif;
     @include fs--caption;
-    margin-bottom: ($u__baseline * 2);
 
     .c-nav__item__label {
         display: block;
