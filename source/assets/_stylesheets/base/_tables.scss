@@ -5,7 +5,6 @@
 
 table {
     @include ff--sans-serif;
-    border-collapse: collapse;
     border-spacing: 0;
     font-size: 1rem;
 }
@@ -22,7 +21,7 @@ caption {
 
 td,
 th {
-    border-top: 1px solid $c__neutral-7;
+    border-top: 1px solid rgba($c__neutral-1, 0.2);
     padding-right: $u__baseline;
     padding-bottom: ($u__baseline / 2);
     vertical-align: top;
@@ -32,7 +31,7 @@ th {
 }
 
 th {
-    border-top: 2px solid $c__neutral-4;
+    border-top: 2px solid rgba($c__neutral-1, 0.5);
     padding-bottom: $u__baseline;
     font-weight: 700;
 }
