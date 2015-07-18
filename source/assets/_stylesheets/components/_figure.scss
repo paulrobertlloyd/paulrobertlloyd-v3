@@ -125,23 +125,22 @@
         @include ff--sans-serif;
         @include fs--lede;
         position: relative;
-        background-color: rgba($c__neutral-1, 0.2);
+        border: 1px solid rgba($c__neutral-1, 0.2);
         padding: $u__baseline;
 
-        &::before {
-            border-left: 0;
-        }
-
-        &::after {
+        &::before { // Double colon not supported in IE8 so can use a transform
             display: block;
             position: absolute;
-            bottom: ($u__baseline * -1);
+            top: auto;
+            bottom: -0.85rem;
             left: ($u__baseline * 1.5);
-            border-top: $u__baseline solid rgba($c__neutral-1, 0.2);
-            border-right: $u__baseline solid transparent;
-            border-left: $u__baseline solid transparent;
-            width: 0;
-            height: 0;
+            transform: rotate(-45deg);
+            opacity: 1;
+            border-bottom: 1px solid rgba($c__neutral-1, 0.2);
+            border-left: 1px solid rgba($c__neutral-1, 0.2);
+            background-color: $c__neutral-9;
+            width: 1.5rem;
+            height: 1.5rem;
             content: '';
         }
 
