@@ -90,7 +90,7 @@ $u__shadow-size: 4px;
 
 /* Phone screen */
 .c-hero__screen--phone {
-    top: ($u__baseline * 6);
+    top: 24%;
     right: $u__baseline;
     z-index: 3;
     background-image: url(asset_path('device-phone.svg'));
