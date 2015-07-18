@@ -42,8 +42,8 @@
 
 // Font sizes
 @mixin fs--heading-1 {
-    line-height: (28/32);
-    font-size: 2rem; // 32px
+    line-height: (32/36);
+    font-size: 2.25rem; // 36px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__b) {
