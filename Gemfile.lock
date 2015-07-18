@@ -8,6 +8,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.8)
     autoprefixer-rails (5.2.1.1)
       execjs
       json
@@ -22,6 +23,8 @@ GEM
     execjs (2.5.2)
     exiftool (0.6.0)
       json
+    fastimage (1.7.0)
+      addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.10)
     formatador (0.2.5)
     guard (2.12.8)
@@ -62,8 +65,10 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-assets (0.9.2)
-      jekyll (>= 1.0.0, < 3.0.0)
+    jekyll-assets (1.0.0)
+      fastimage (~> 1.6)
+      jekyll (>= 2)
+      mini_magick (~> 4.1)
       sass (~> 3.2)
       sprockets (~> 2.10)
       sprockets-helpers
@@ -88,6 +93,7 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
+    mini_magick (4.2.7)
     multi_json (1.11.2)
     nenv (0.2.0)
     notiffany (0.0.6)
