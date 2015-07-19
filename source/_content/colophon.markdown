@@ -11,7 +11,7 @@ This site is published using [Jekyll][7] with a number of supporting plugins:
   * [jekyll-sitemap][10] by GitHub, Inc.
   * [jekyll-smartify][11] by Pat Hawks
   * [Simple Jekyll Search][12] by Christian Fei
-  * and a number of [octopress plugins][13] by Brandon Mathis
+  * and a number of [Octopress plugins][13] by Brandon Mathis
 
 Other notable tools and services used to build this site include:
 
