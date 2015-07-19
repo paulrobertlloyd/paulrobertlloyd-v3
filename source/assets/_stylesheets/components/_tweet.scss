@@ -1,0 +1,32 @@
+/*  =========================================================================
+    Tweet
+    ========================================================================= */
+
+.c-tweet {
+    @include ff--sans-serif;
+    @include fs--lede;
+    position: relative;
+    border: 1px solid rgba($c__neutral-1, 0.2);
+    padding: $u__baseline;
+    margin-bottom: ($u__baseline * 1.5);
+
+    &::before { // Double colon not supported in IE8 so can use a transform
+        display: block;
+        position: absolute;
+        top: auto;
+        bottom: -0.825rem;
+        left: ($u__baseline * 1.5);
+        transform: rotate(-45deg);
+        opacity: 1;
+        border-bottom: 1px solid rgba($c__neutral-1, 0.2);
+        border-left: 1px solid rgba($c__neutral-1, 0.2);
+        background-color: $c__neutral-9;
+        width: 1.5rem;
+        height: 1.5rem;
+        content: '';
+    }
+
+    :last-child {
+        margin-bottom: 0;
+    }
+}

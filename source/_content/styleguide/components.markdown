@@ -63,10 +63,7 @@ The `.c-exif`{: .language-css} component class is used to display the EXIF data 
 {% include exif.html url='/assets/images/photos/2015-03-02-olympiastadion/02.jpg' %}
 
 ## Figures
-The `.c-figure`{: .language-css} component class is used when annotating illustrations, diagrams, photos, code listings, etc.
-
-### Citations
-The `.c-figure`{: .language-css} component class is particually suited when you wish to provide a citation for a piece of content. The following examples show a section of preformatted text and a quotation from Winston Churchill:
+The `.c-figure`{: .language-css} component class is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation and a tweet (`.c-tweet`{: .language-css}):
 
 {% figure "<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
 <pre>
@@ -81,11 +78,9 @@ And the mome raths outgrabe.
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {% endfigure %}
 
-### Tweet
-The `.c-figure--tweet`{: .language-css} modifier is used to display the content of a tweet:
-
-{% figure c-figure--tweet "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
+{% figure "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
 > How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
+{: .c-tweet}
 {% endfigure %}
 
 ### Images

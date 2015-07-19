@@ -8,6 +8,7 @@
 
 .c-exif__values {
     overflow: hidden;
+    margin-bottom: $u__baseline;
 
     .c-figure--photo & {
         @media (min-width: $b__c) {
