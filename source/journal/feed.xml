@@ -47,7 +47,7 @@
 {% endif %}
 
 {% if post.layout == "post-album" %}
-    <p><a class="c-button" href="{{ post.link.url }}">View photo gallery</a></p>
+    <p><a class="c-button" href="{{ post.link.url }}">View these photos</a></p>
 {% endif %}
 ]]>
         </content>
