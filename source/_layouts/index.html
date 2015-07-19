@@ -23,8 +23,8 @@ layout: default
         </p>
     </div>
     {% endif %}
-
-    {% if paginator.next_page or paginator.previous_page %}
-        {% include nav/paginate-indices.html %}
-    {% endif %}
 </section>
+
+{% if paginator.next_page or paginator.previous_page %}
+    {% include nav/paginate-indices.html %}
+{% endif %}

@@ -3,6 +3,8 @@
     ========================================================================= */
 
 .c-main {
+    position: relative;
+
     @media screen {
         padding-top: ($u__baseline * 4);
     }
