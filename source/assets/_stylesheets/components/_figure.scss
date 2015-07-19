@@ -4,8 +4,8 @@
 
 .c-figure {
     @include clearfix;
-    margin-bottom: $u__baseline;
     position: relative;
+    margin-bottom: $u__baseline;
 
     + .c-figure {
         margin-top: ($u__baseline * 2);
@@ -13,14 +13,14 @@
 }
 
 .c-figure__main {
-    overflow: hidden;
     margin-bottom: ($u__baseline / 2);
+    overflow: hidden;
 
     img {
         @include background-placeholder;
         display: block;
-        max-width: 100%;
         margin-bottom: ($u__baseline / 2);
+        max-width: 100%;
     }
 
     img:nth-last-of-type(2):first-child,

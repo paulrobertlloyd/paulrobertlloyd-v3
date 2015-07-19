@@ -5,8 +5,8 @@
 .c-meta {
     @include ff--sans-serif;
     @include fs--caption;
-    overflow: hidden;
     margin-bottom: $u__baseline;
+    overflow: hidden;
 }
 
 .c-meta__title {
