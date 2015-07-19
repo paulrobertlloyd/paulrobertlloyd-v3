@@ -25,7 +25,7 @@ permalink: /:year/:month/:title
 
 # Pagination
 paginate: 12
-paginate_path: /journal/:num/
+paginate_path: /journal/:num
 
 # Writing
 # See: https://github.com/jekyll/jekyll/issues/3371

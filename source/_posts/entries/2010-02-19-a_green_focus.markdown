@@ -94,7 +94,7 @@ Hopefully this is the first in a series of events and initiatives in support of 
 
 [1]: /2010/01/2009_in_review/
 [2]: http://www.volvocars.com/uk/all-cars/volvo-c30/
-[3]: http://twitter.com/davidlwarner/status/7432026527/
+[3]: https://twitter.com/davidlwarner/status/7432026527/
 [4]: http://dopplr.com/
 [5]: /2010/01/lax/
 [6]: http://www.1010uk.org/

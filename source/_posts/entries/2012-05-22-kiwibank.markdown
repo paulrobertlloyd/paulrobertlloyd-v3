@@ -61,7 +61,7 @@ Bron Thomson, Springload's founder and Managing Director told me how they create
 [9]: http://klim.co.nz/
 [10]: http://www.responsinator.com/
 [11]: http://www.springload.co.nz/love-the-web/
-[12]: http://twitter.com/springloadnz
+[12]: https://twitter.com/springloadnz
 [13]: http://2012.dconstruct.org/
 [14]: http://zurb.com/
 [15]: http://www.netmagazine.com/shop/magazines/july-2012-229

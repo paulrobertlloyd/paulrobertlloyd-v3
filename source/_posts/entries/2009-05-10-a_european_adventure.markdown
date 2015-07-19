@@ -41,4 +41,4 @@ If you want to get a more immediate taste of my experience travelling across Eur
 
 [1]: /2008/09/california_zephyr/
 [2]: http://www.railselect.com/
-[3]: http://twitter.com/paulrobertlloyd
+[3]: https://twitter.com/paulrobertlloyd
