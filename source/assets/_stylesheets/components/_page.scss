@@ -2,11 +2,6 @@
     Page
     ========================================================================= */
 
-.c-page {
-    @include clearfix;
-    position: relative;
-}
-
 .c-page__header {
     @media screen and (min-width: $b__b) {
         margin-bottom: ($u__baseline * 2);

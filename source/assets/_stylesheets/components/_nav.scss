@@ -35,7 +35,6 @@
 /* Page navigation */
 .c-nav--pagination {
     @include fs--caption;
-    margin-bottom: ($u__baseline * 2);
     overflow: hidden;
 
     @media (min-width: $b__b) {
