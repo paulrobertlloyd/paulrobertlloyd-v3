@@ -47,16 +47,6 @@
 }
 
 
-/* Remark */
-.c-item--remark {
-    padding-left: (span(1 of 8) + gutter());
-
-    @media screen and (min-width: $b__b) {
-        padding-left: 0;
-    }
-}
-
-
 /* Album */
 .c-item--album {
     padding-left: ($u__baseline * 7);
@@ -91,5 +81,15 @@
     .c-item__cover-photo {
         width: ($u__baseline * 6);
         height: ($u__baseline * 6);
+    }
+}
+
+
+/* Remark */
+.c-item--remark {
+    padding-left: (span(1 of 8) + gutter());
+
+    @media screen and (min-width: $b__b) {
+        padding-left: 0;
     }
 }
