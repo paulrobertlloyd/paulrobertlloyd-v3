@@ -17,10 +17,8 @@
     overflow: hidden;
 
     img {
-        @include background-placeholder;
         display: block;
         margin-bottom: ($u__baseline / 2);
-        max-width: 100%;
     }
 
     img:nth-last-of-type(2):first-child,
