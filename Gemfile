@@ -3,7 +3,6 @@ source "https://rubygems.org"
 # Guard (automates development tasks)
 group :development do
   gem 'guard'
-  gem 'guard-jekyll'
   gem 'guard-jekyll-plus'
   gem 'guard-livereload'
   gem 'guard-scss-lint'
@@ -18,13 +17,12 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-smartify'
 
+  gem 'octopress-autoprefixer'
   gem 'octopress-minify-html'
 
-  gem 'autoprefixer-rails'
   gem 'exiftool'
   gem 'oembed'
   gem 'susy'
-  gem 'therubyracer' # Autoprefixer requires a JS runtime
   gem 'typogruby'
   gem 'uglifier'
 end

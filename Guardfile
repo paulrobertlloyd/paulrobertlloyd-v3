@@ -14,14 +14,6 @@ guard :jekyll_plus, :config => ['config/jekyll.yml', 'config/jekyll/development.
 end
 
 
-# Jekyll https://github.com/guard/guard-jekyll
-# guard :jekyll, :config => ['config/jekyll.yml', 'config/jekyll/development.yml'] do
-#   watch(%r{^source/.+})
-#   watch('config/jekyll.yml')
-#   watch('config/jekyll/development.yml')
-# end
-
-
 # LiveReload https://github.com/guard/guard-livereload
 guard :livereload, grace_period: 0.5 do
   watch(%r{^public/.+})
