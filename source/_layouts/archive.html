@@ -3,28 +3,31 @@ layout: index
 ---
 {% for item in page.posts %}
     {% if page.type == "year" %}
-        {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
-        {% capture this_month %}{{ item.date | date:"%m" }}{% endcapture %}
-        {% capture this_month-name %}{{ item.date | date:"%B" }}{% endcapture %}
+        {% assign this_year = item.date | date:"%Y" %}
+        {% assign this_month = item.date | date:"%m" %}
+        {% assign this_month_name = item.date | date:"%B" %}
+
         {% if this_month != month %}
-            {% capture month %}{{ this_month }}{% endcapture %}
             {% unless forloop.first %}
-                    </ol>
-                </div>
-            </section>
+        </ol>
+    </div>
+</section>
             {% endunless %}
 
-            <section class="c-container c-container--index" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-                <header class="c-container__header">
-                    <h1 class="c-container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month-name }}</a></h1>
-                </header>
+<section class="c-container c-container--index" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
+    </header>
 
-                <div class="c-container__main">
-                    <ol class="o-list o-list--inline" reversed>
+    <div class="c-container__main">
+        <ol class="o-list o-list--inline" reversed>
+            {% assign month = this_month %}
         {% endif %}
-                        <li class="o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
-                            <a href="{{ item.url }}">{{ item.title }}</a>
-                        </li>
+
+            <li class="o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+
     {% else %}
         {% case item.layout %}
         {% when "post-link" %}
@@ -34,5 +37,11 @@ layout: index
         {% else %}
             {% include item/entry.html %}
         {% endcase %}
+    {% endif %}
+
+    {% if forloop.last %}
+        </ol>
+    </div>
+</section>
     {% endif %}
 {% endfor %}
