@@ -19,7 +19,7 @@
     {% for post in site.posts limit:25 %}
     <entry>
         <id>{{ site.url }}{{ post.id }}</id>
-        <title>{{ post.title | xml_escape }}</title>
+        <title>{% if post.layout == "post-album" %}Photos: {% endif %}{{ post.title | xml_escape }}</title>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <link href="{{ site.url }}{{ post.url }}"/>
         <content type="html">
@@ -42,8 +42,12 @@
 
 {{ post.content }}
 
-{% if post.link %}
+{% if post.layout == "post-link" %}
     <p><a class="c-button" href="{{ post.link.url }}">Visit this link</a></p>
+{% endif %}
+
+{% if post.layout == "post-album" %}
+    <p><a class="c-button" href="{{ post.link.url }}">View photo gallery</a></p>
 {% endif %}
 ]]>
         </content>
