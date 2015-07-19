@@ -29,12 +29,10 @@ The first reworking of the idents, designed in-house and by Static 2358, played 
 {% picture thumbnail /articles/dissertation/figure-20b.png alt="Still from Channel 4 'Red' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20c.png alt="Still from Channel 4 'Red' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20d.png alt="Still from Channel 4 'Red' ident, 2001" %}
-
 {% picture thumbnail /articles/dissertation/figure-20e.png alt="Still from Channel 4 'Purple' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20f.png alt="Still from Channel 4 'Purple' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20g.png alt="Still from Channel 4 'Purple' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20h.png alt="Still from Channel 4 'Purple' ident, 2001" %}
-
 {% picture thumbnail /articles/dissertation/figure-20i.png alt="Still from Channel 4 'Green' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20j.png alt="Still from Channel 4 'Green' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20k.png alt="Still from Channel 4 'Green' ident, 2001" %}
@@ -147,12 +145,10 @@ Only nine of the 14 regions used these idents. Ulster Television (UTV) had by no
 {% picture thumbnail /articles/dissertation/figure-30b.png alt="Still from Carlton ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30c.png alt="Still from Carlton ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30d.png alt="Still from Carlton ident, 1999" %}
-
 {% picture thumbnail /articles/dissertation/figure-30e.png alt="Still from Grampian Television ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30f.png alt="Still from Grampian Television ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30g.png alt="Still from Grampian Television ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30h.png alt="Still from Grampian Television ident, 1999" %}
-
 {% picture thumbnail /articles/dissertation/figure-30i.png alt="Still from UTV ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30j.png alt="Still from UTV ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30k.png alt="Still from UTV ident, 1999" %}

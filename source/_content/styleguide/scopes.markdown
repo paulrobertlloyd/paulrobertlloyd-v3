@@ -44,7 +44,9 @@ The `pre` element represents a block of pre-formatted text, in which structure i
 ### Blockquotes
 The `blockquote` element represents a section that is being quoted from another source.
 
-> You must be the change you wish to see in the world.
+> Big Yellow Taxi there by Joni Mitchell, a song in which she complains that they 'paved paradise to put up a parking lot' -- a measure which actually would have alleviated traffic congestion on the outskirts of paradise. Something which Joni singularly fails to point out, perhaps because it doesn't quite fit in with her blinkered view of the world.
+> 
+> Nevertheless, nice song.
 
 If you wish to add a citation, you will need to use the [`figure` element](components#figure).
 
