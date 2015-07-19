@@ -15,12 +15,9 @@ layout: default
         {{ content }}
     </div>
 
-    {% if page.path contains "journal" %}
+    {% if page.path contains "journal/index.html" %}
     <div class="c-page__section s-prose">
-        <p>
-            <span class="u-sepatate"><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</span>
-            Subscribe to the <a href="/styleguide"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> feed</a>
-        </p>
+        <p><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</p>
     </div>
     {% endif %}
 </section>
