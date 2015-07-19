@@ -90,25 +90,25 @@ Images are the most typical use for the `.c-figure`{: .language-css} component c
 {% picture /styleguide/pattern_1.jpg alt="Image 1" %}
 {% endfigure %}
 
-{% figure c-figure--image-duo "The `.c-figure--image-duo`{: .language-css} modifier is used to display two images side-by-side" %}
+{% figure "The `.c-figure--image-duo`{: .language-css} modifier is used to display two images side-by-side" %}
 {% picture supporting /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture supporting /styleguide/pattern_2.jpg alt="Image 2" %}
 {% endfigure %}
 
-{% figure c-figure--image-trio "The `.c-figure--image-trio`{: .language-css} modifier is used to display three images side-by-side" %}
+{% figure "The `.c-figure--image-trio`{: .language-css} modifier is used to display three images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "The `.c-figure--image-quartet`{: .language-css} modifier is used to display four images side-by-side" %}
+{% figure "The `.c-figure--image-quartet`{: .language-css} modifier is used to display four images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
 {% endfigure %}
 
-{% figure c-figure--image-quintet "The `.c-figure--image-quintet`{: .language-css} modifier is used to display five images side-by-side" %}
+{% figure "The `.c-figure--image-quintet`{: .language-css} modifier is used to display five images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
@@ -123,25 +123,25 @@ The `.c-figure--caption-right`{: .language-css} modifier moves the caption to th
 {% picture /styleguide/pattern_1.jpg alt="Image 1" %}
 {% endfigure %}
 
-{% figure c-figure--image-duo c-figure--caption-right "The `.c-figure--image-duo`{: .language-css} modifier is used to display two images side-by-side" %}
+{% figure c-figure--caption-right "The `.c-figure--image-duo`{: .language-css} modifier is used to display two images side-by-side" %}
 {% picture supporting /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture supporting /styleguide/pattern_2.jpg alt="Image 2" %}
 {% endfigure %}
 
-{% figure c-figure--image-trio c-figure--caption-right "The `.c-figure--image-trio`{: .language-css} modifier is used to display three images side-by-side" %}
+{% figure c-figure--caption-right "The `.c-figure--image-trio`{: .language-css} modifier is used to display three images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet c-figure--caption-right "The `.c-figure--image-quartet`{: .language-css} modifier is used to display four images side-by-side" %}
+{% figure c-figure--caption-right "The `.c-figure--image-quartet`{: .language-css} modifier is used to display four images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
 {% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
 {% endfigure %}
 
-{% figure c-figure--image-quintet c-figure--caption-right "The `.c-figure--image-quintet`{: .language-css} modifier is used to display five images side-by-side" %}
+{% figure c-figure--caption-right "The `.c-figure--image-quintet`{: .language-css} modifier is used to display five images side-by-side" %}
 {% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
 {% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
 {% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}

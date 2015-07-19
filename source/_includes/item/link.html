@@ -13,9 +13,9 @@
 
     <div class="c-item__main s-prose s-prose--billboard p-summary">
         {% if item.link.embed == "photo" or item.link.embed == "video" %}
-            {% figure u-bleed %}
-{% embed {{ item.link.url }} %}
-            {% endfigure %}
+        <div class="c-item__media u-bleed">
+            {% embed {{ item.link.url }} %}
+        </div>
         {% endif %}
 
         {{ item.content | markdownify | typogrify | namespace }}

@@ -31,7 +31,7 @@ The quality of television broadcasts and receivers was crude to say the least. I
 
 This meant graphics produced for television had a huge number of restrictions put on them. Lettering had to be large and bold with strong tonal contrast and illustrations had to use fairly heavy lines and lack detail ('Op' and 'Pop' art themes were common used during the end of the fifties). Designers also had to work from the center of the screen outwards, so as to ensure their work would be seen.
 
-{% figure c-figure--image-quintet "Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)" %}
+{% figure "Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1c.png alt="Still from ident" %}
@@ -39,7 +39,7 @@ This meant graphics produced for television had a huge number of restrictions pu
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1e.png alt="Still from ident" %}
 {% endfigure %}
 
-{% figure c-figure--image-quintet "Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)" %}
+{% figure "Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-2a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-2b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-2c.png alt="Still from ident" %}
@@ -69,7 +69,7 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-{% figure c-figure--image-trio "Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967)" %}
+{% figure "Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967)" %}
 {% embed https://www.youtube.com/watch?v=eGnpJ_KdqZE %}
 {% endfigure %}
 
