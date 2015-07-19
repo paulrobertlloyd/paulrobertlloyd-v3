@@ -70,7 +70,7 @@ Should the film have given a detailed yet undramatic history lesson, or entertai
 I can only hope that Phyllida Lloyd's upcoming biopic of Margaret Thatcher, <cite>[The Iron Lady][14]</cite>, will attract similar critical retrospection and debate.
 
 [1]: http://www.kingsspeech.com/
-[2]: http://twitter.com/paulrobertlloyd/statuses/28400458319
+[2]: https://twitter.com/paulrobertlloyd/status/28400458319
 [3]: http://www.bbc.co.uk/programmes/b00x2yj7
 [4]: http://en.wikipedia.org/wiki/Upstairs,_Downstairs
 [5]: http://www.imdb.com/name/nm0769083/

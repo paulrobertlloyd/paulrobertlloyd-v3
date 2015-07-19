@@ -40,7 +40,7 @@ The more I mature as a designer, the more I've come to enjoy simple, clean and u
 [3]: http://www.adaptivepath.com/aboutus/kate.php
 [4]: http://www.adaptivepath.com/ideas/essays/archives/001123.php
 [5]: http://staff.tumblr.com/post/2127872280/downtime
-[6]: /2010/12/styleguides_for_the_web
+[6]: /talks/multipack_presents_november_2010
 
 *[BBC]: British Broadcasting Corporation
 *[CSS]: Cascading Style Sheets

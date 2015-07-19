@@ -23,5 +23,5 @@ After talking to some of the officers on the scene, it turns out they had been t
 
 All in all, a pretty exciting start to the weekend!
 
-[1]: http://twitter.com/
-[2]: http://twitter.com/JamesBullock/statuses/1208109114
+[1]: https://twitter.com/
+[2]: https://twitter.com/JamesBullock/status/1208109114

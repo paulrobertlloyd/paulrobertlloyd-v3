@@ -78,7 +78,7 @@ And the mome raths outgrabe.
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {% endfigure %}
 
-{% figure "[@paulrobertlloyd, 3 September 2013](http://twitter.com/paulrobertlloyd/statuses/374836201972584448)" %}
+{% figure "[@paulrobertlloyd, 3 September 2013](https://twitter.com/paulrobertlloyd/status/374836201972584448)" %}
 > How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
 {: .c-tweet}
 {% endfigure %}
