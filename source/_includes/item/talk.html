@@ -1,6 +1,6 @@
 <article class="c-item c-item--talk">
-    <a class="c-item__link u-block-link" href="{{ item.url }}">
-        <h1 class="c-item__title p-name">{{ item.meta.event | smartify }}</h1>
+    <a class="c-item__link u-block-link" href="{% if item.upcoming %}{{ item.link.url }}{% else %}{{ item.url }}{% endif %}">
+        <h1 class="c-item__title p-name">{% if item.upcoming %}<mark>Upcoming:</mark> {% endif %}{{ item.meta.event | smartify }}</h1>
 
         <p class="c-item__meta">
             <strong class="u-separate">{{ item.title }}</strong> {{ item.meta.location }} · 
