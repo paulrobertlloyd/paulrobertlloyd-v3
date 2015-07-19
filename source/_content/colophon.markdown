@@ -8,10 +8,10 @@ This site is published using [Jekyll][7] with a number of supporting plugins:
 
   * [jekyll-archives][8] by Alfred Xing
   * [jekyll-assets][9] by Aleksey V Zapparov
-  * [octopress-minify-html][10] by Brandon Mathis
-  * [jekyll-sitemap][11] by GitHub, Inc.
-  * [jekyll-smartify][12] by Pat Hawks
-  * [Simple Jekyll Search][13] by Christian Fei
+  * [jekyll-sitemap][10] by GitHub, Inc.
+  * [jekyll-smartify][11] by Pat Hawks
+  * [Simple Jekyll Search][12] by Christian Fei
+  * and a number of [octopress plugins][13] by Brandon Mathis
 
 Other notable tools and services used to build this site include:
 
@@ -34,10 +34,10 @@ I always try to adhere to [web standards][21] and best practices. Pages are sema
 [7]: http://jekyllrb.com/
 [8]: https://rubygems.org/gems/jekyll-archives
 [9]: https://rubygems.org/gems/jekyll-assets
-[10]: https://github.com/octopress/minify-html
-[11]: https://rubygems.org/gems/jekyll-sitemap
-[12]: https://rubygems.org/gems/jekyll-smartify
-[13]: https://github.com/christian-fei/Simple-Jekyll-Search
+[10]: https://rubygems.org/gems/jekyll-sitemap
+[11]: https://rubygems.org/gems/jekyll-smartify
+[12]: https://github.com/christian-fei/Simple-Jekyll-Search
+[13]: https://github.com/octopress/
 [14]: https://github.com/berlinonline/converjon
 [15]: https://rubygems.org/gems/exiftool
 [16]: https://npmjs.com/package/fontfaceobserver
