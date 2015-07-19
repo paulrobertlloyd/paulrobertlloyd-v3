@@ -183,7 +183,7 @@
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: $display;
-            border-top: $height solid $c__neutral-7;
+            border-top: $height solid rgba($c__neutral-1, 0.2);
             width: ($u__baseline * 2);
             content: '';
             @if $el == 'before' {
