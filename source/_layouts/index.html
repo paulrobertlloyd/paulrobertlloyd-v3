@@ -15,7 +15,7 @@ layout: default
         {{ content }}
     </div>
 
-    {% if page.path contains "journal/index.html" %}
+    {% if page.path contains "journal" and page.path != "journal/archive.html" %}
     <div class="c-page__section s-prose">
         <p><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</p>
     </div>
