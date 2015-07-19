@@ -6,9 +6,7 @@ layout: default
 
     <div class="c-page__section s-prose s-prose--body e-content">
         {% if page.hero %}
-            {% figure u-extend %}
-{% include hero.html imageset=page.hero %}
-            {% endfigure %}
+            {% include hero.html imageset=page.hero class="u-extend" %}
         {% endif %}
 
         {% if page.meta %}
