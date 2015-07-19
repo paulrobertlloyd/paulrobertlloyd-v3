@@ -18,6 +18,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-smartify'
 
+  gem 'octopress-minify-html'
+
   gem 'autoprefixer-rails'
   gem 'exiftool'
   gem 'oembed'
