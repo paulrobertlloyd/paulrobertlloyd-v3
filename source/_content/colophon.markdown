@@ -49,3 +49,7 @@ I always try to adhere to [web standards][21] and best practices. Pages are sema
 [22]: http://w3.org/TR/html5/
 [23]: http://w3.org/Style/CSS/
 [24]: http://atomenabled.org/
+
+*[CSS]: Cascading Style Sheets
+*[HTML]: HyperText Markup Language
+*[RSS]: Really Simple Syndication
