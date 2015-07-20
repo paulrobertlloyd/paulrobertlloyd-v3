@@ -42,7 +42,7 @@ My last day in San Francisco was also the last of this trip. With my flight depa
 [8]: http://foundationcapital.com/people/partners/steve_vassallo.php
 [9]: http://gravitywinebar.com/
 [10]: /2011/10/stay_hungry_stay_foolish/
-[11]: http://twitter.com/tomdzk
+[11]: https://twitter.com/tomdzk
 [12]: http://universalcafe.net/
 [13]: http://sfheritage.org/haas-lilienthal-house/
 [14]: http://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco,_California

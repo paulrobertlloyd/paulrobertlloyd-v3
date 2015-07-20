@@ -1,5 +1,5 @@
 <nav class="c-nav c-nav--pagination" aria-labelledby="indices">
-    <h1 class="u-hidden" id="indices">Browse {{ page.title }}</h1>
+    <h1 class="c-nav__title u-hidden" id="indices">Browse {{ page.title }}</h1>
 
     {% if paginator.next_page %}
     <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">

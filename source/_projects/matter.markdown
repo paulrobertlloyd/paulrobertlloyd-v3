@@ -30,7 +30,7 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 Much of my work for MATTER focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that MATTER aims for.
 
 ## Typography
-{% figure c-figure--image-quartet "Type samples/experimentation" %}
+{% figure "Type samples/experimentation" %}
 {% picture thumbnail /projects/matter/type_calluna.png alt="Calluna type specimen" %}
 {% picture thumbnail /projects/matter/type_centro.png alt="Centro type specimen" %}
 {% picture thumbnail /projects/matter/type_enigma.png alt="Enigma type specimen" %}

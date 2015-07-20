@@ -11,14 +11,14 @@ This new identity consisted of four circles presented in various static formatio
 
 The circles theme extended to programme captions, where again one circle contained the four logo; one contained an analogue clock showing start time, and two further circles of varying size contained programme related imagery. All titles were set in a sans serif typeface, with larger programme titles bolder and italicised, although the placement of all these elements was quite random. However for a channel once vibrant and full of movement, it was now drained of its multiple colours and also became a little static.
 
-{% figure c-figure--image-quartet "Figure 13: Channel 4's 'Connections' identity. This particular example featured the comedian Harry Hill from <cite>'The Harry Hill Show'</cite> -- a popular show on the channel at the time" %}
+{% figure "Figure 13: Channel 4's 'Connections' identity. This particular example featured the comedian Harry Hill from <cite>'The Harry Hill Show'</cite> -- a popular show on the channel at the time" %}
 {% picture thumbnail /articles/dissertation/figure-13a.png alt="Still from Channel 4 'Connections' ident, 1996" %}
 {% picture thumbnail /articles/dissertation/figure-13b.png alt="Still from Channel 4 'Connections' ident, 1996" %}
 {% picture thumbnail /articles/dissertation/figure-13c.png alt="Still from Channel 4 'Connections' ident, 1996" %}
 {% picture thumbnail /articles/dissertation/figure-13d.png alt="Still from Channel 4 'Connections' ident, 1996" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 14: The 'Connections' theme was extended across all on-screen promotion" %}
+{% figure "Figure 14: The 'Connections' theme was extended across all on-screen promotion" %}
 {% picture thumbnail /articles/dissertation/figure-14a.png alt="Still from Channel 4 'Connections' ident, 1996" %}
 {% picture thumbnail /articles/dissertation/figure-14b.png alt="Still from Channel 4 'Connections' ident, 1996" %}
 {% picture thumbnail /articles/dissertation/figure-14c.png alt="Still from Channel 4 'Connections' promotional caption for 'ER', 1996" %}
@@ -35,14 +35,14 @@ The company responsible for building this awareness was Wollf Olins, the company
 
 As it turned out, the success of the retuning campaign led to Channel 5 using the same identity on screen, with only a minor modification to the logo, simplifying it to one slightly thicker circle for better clarity on screen. However, Channel 5's first selection of idents was a mixed bag and didn't seem to match the vivid pre-launch campaign. Many consisted of manipulations of the 5 logo and the word five, as well as involving images of flowers, drops of water and clouds -- somewhat American in flavour.
 
-{% figure c-figure--image-quartet "Figure 15: A sequence from one of the first idents for Channel 5" %}
+{% figure "Figure 15: A sequence from one of the first idents for Channel 5" %}
 {% picture thumbnail /articles/dissertation/figure-15a.png alt="Still from original Channel 5 ident set, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-15b.png alt="Still from original Channel 5 ident set, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-15c.png alt="Still from original Channel 5 ident set, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-15d.png alt="Still from original Channel 5 ident set, 1997" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 16: Four separate stills from other idents from the set" %}
+{% figure "Figure 16: Four separate stills from other idents from the set" %}
 {% picture thumbnail /articles/dissertation/figure-16a.png alt="Still from original Channel 5 ident set, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-16b.png alt="Still from original Channel 5 ident set, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-16c.png alt="Still from original Channel 5 ident set, 1997" %}
@@ -62,7 +62,7 @@ The original set of idents lasted for two years before being replaced with argua
 {% endfigure %}
 
 
-{% figure c-figure--image-quartet "Figure 18: Later revisions of the channels identity were more consistent with its off-air brand" %}
+{% figure "Figure 18: Later revisions of the channels identity were more consistent with its off-air brand" %}
 {% picture thumbnail /articles/dissertation/figure-18a.png alt="Still from Channel 5 'Neil Fox' ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-18b.png alt="Still from Channel 5 'Neil Fox' ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-18c.png alt="Still from Channel 5 'Neil Fox' ident, 1999" %}

@@ -13,10 +13,16 @@
 .c-nav--series {
     @include ff--sans-serif;
     @include fs--caption;
+    margin-bottom: $u__baseline;
+
+    .c-nav__title {
+        @include fs--lede;
+        margin-bottom: $u__baseline;
+    }
 
     .c-nav__item__label {
         display: block;
-        padding-bottom: ($u__baseline * 1.5);
+        padding-bottom: ($u__baseline * 1.25);
         line-height: 1;
     }
 
@@ -29,12 +35,13 @@
 /* Page navigation */
 .c-nav--pagination {
     @include fs--caption;
-    margin-bottom: ($u__baseline * 2);
+    margin-bottom: $u__baseline;
     overflow: hidden;
 
     @media (min-width: $b__b) {
         position: absolute;
         bottom: 0;
+        margin-bottom: 0;
     }
 
     @media print {
@@ -48,12 +55,12 @@
 
     .c-nav__item--prev::before {
         font-family: sans-serif;
-        content: '\27E8\00A0';
+        content: '\27E8\2009';
     }
 
     .c-nav__item--next::after {
         font-family: sans-serif;
-        content: '\00A0\27E9';
+        content: '\2009\27E9';
     }
 
     .c-nav__item__label {

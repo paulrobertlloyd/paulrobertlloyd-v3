@@ -8,6 +8,10 @@
     @include rule;
     margin-top: ($u__baseline * 2);
 
+    ol {
+        margin-top: $u__baseline;
+    }
+
     li {
         margin-bottom: $u__baseline;
     }

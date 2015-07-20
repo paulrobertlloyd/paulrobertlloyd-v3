@@ -26,7 +26,6 @@ pre {
 
 blockquote {
     position: relative;
-    opacity: 0.8;
     padding-right: $u__baseline;
     padding-left: $u__baseline;
 
@@ -35,6 +34,7 @@ blockquote {
     }
 
     > * {
+        opacity: 0.8;
         margin-bottom: ($u__baseline / 2);
     }
 

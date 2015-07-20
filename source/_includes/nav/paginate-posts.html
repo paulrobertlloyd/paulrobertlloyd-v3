@@ -1,15 +1,15 @@
 <nav class="c-nav c-nav--pagination" aria-labelledby="browse">
-    <h1 class="u-hidden" id="browse">Browse Journal</h1>
+    <h1 class="c-nav__title u-hidden" id="browse">Browse Journal</h1>
 
     {% if page.previous != nil %}
     <a class="c-nav__item c-nav__item--prev" rel="next bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
-        <span class="c-nav__item__label">Older</span>
+        <span class="c-nav__item__label">Previous</span>
     </a>
     {% endif %}
 
     {% if page.next != nil %}
     <a class="c-nav__item c-nav__item--next" rel="prev bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}">
-        <span class="c-nav__item__label">Newer</span>
+        <span class="c-nav__item__label">Next</span>
     </a>
     {% endif %}
 </nav>

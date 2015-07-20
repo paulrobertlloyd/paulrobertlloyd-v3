@@ -2,23 +2,55 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Journal - {{ site.title }}</title>
-    <link href="{{ site.url }}/journal/feed" rel="self"/>
-    <link href="{{ site.url }}/journal/"/>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}/</id>
+    <title>{{ site.title }} / Journal</title>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
     <author>
         <name>{{ site.author.name }}</name>
         <email>{{ site.author.email }}</email>
+        <uri>{{ site.author.url }}</uri>
     </author>
+    <link href="{{ site.url }}/journal/feed" rel="self"/>
+    <link href="{{ site.url }}/journal/"/>
+    <generator uri="http://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
+    <icon>{{ site.url }}{% asset_path icon--192x192.png %}</icon>
+    <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content {{ site.license.type }} licensed unless otherwise stated.</rights>
 
     {% for post in site.posts limit:25 %}
     <entry>
-        <title>{{ post.title | xml_escape }}</title>
-        <link href="{{ site.url }}{{ post.url }}"/>
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>{{ site.url }}{{ post.id }}</id>
-        <content type="html">{{ post.content | xml_escape }}</content>
+        <title>{% if post.layout == "post-album" %}Photos: {% endif %}{{ post.title | xml_escape }}</title>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <link href="{{ site.url }}{{ post.url }}"/>
+        <content type="html">
+<![CDATA[
+{% if post.image %}
+    {% figure "{{ post.image.caption }}" %}
+{% picture feature {{ post.image.url }} alt="" %}
+    {% endfigure %}
+{% endif %}
+
+{% if post.embed %}
+    {% figure "{{ post.embed.caption }}" %}
+{% embed {{ post.embed.url }} %}
+    {% endfigure %}
+{% endif %}
+
+{% if post.link.embed %}
+    {% embed {{ post.link.url }} %}
+{% endif %}
+
+{{ post.content }}
+
+{% if post.layout == "post-link" %}
+    <p><a class="c-button" href="{{ post.link.url }}">Visit this link</a></p>
+{% endif %}
+
+{% if post.layout == "post-album" %}
+    <p><a class="c-button" href="{{ post.link.url }}">View these photos</a></p>
+{% endif %}
+]]>
+        </content>
     </entry>
     {% endfor %}
 </feed>

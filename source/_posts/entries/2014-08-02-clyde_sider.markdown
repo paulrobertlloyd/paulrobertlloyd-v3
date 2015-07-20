@@ -13,7 +13,7 @@ tags:
 ---
 Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
 
-Any conversation regarding these Games often involves comparisons to the Olympic Games held in London two years ago; a tough act to follow given their prestige and success. Organisers in Glasgow were keen to point out that their games offered a different spectacle -- a 11 day festival of sport and culture designed to promote goodwill between the 71 nations and territories that make up the Commonwealth -- and should be judged on that basis alone. But with a number of popular athletes unable (or unwilling) to compete, questions were raised about the validity of this multi-sport event, which [many consider an anachronism][1].
+Any conversation regarding these Games often involves comparisons to the Olympic Games held in London two years ago; a tough act to follow given their prestige and success. Organisers in Glasgow were keen to point out that their games offered a different spectacle -- an 11 day festival of sport and culture designed to promote goodwill between the 71 nations and territories that make up the Commonwealth -- and should be judged on that basis alone. But with a number of popular athletes unable (or unwilling) to compete, questions were raised about the validity of this multi-sport event, which [many consider an anachronism][1].
 
 Still, a competition not featuring athletes from America, Russia and China has its upsides: it allows smaller nations a chance to shine and can showcase a new generation of athletes. It's also an opportunity for British athletes to compete for their home nations, a fact made more interesting given the upcoming referendum on Scottish independence.
 

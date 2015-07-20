@@ -80,7 +80,7 @@ Although I've got the site into a much healthier state, I'm sure further changes
 [18]: http://www.webpagetest.org/result/120222_QC_3B11V/1/performance_optimization/
 [19]: /projects/
 [20]: /projects/the_week/
-[21]: /projects/dconstruct_2011/
+[21]: /projects/dconstruct/
 
 *[CDN]: content delivery network
 *[CSS]: Cascading Style Sheets

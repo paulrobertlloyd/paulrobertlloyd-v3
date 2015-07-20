@@ -51,8 +51,8 @@ Having experienced this ability to engage directly with such an organisation, it
 [6]: http://www.walsall.gov.uk/
 [7]: http://www.walsall.gov.uk/news/walsall_council_soars_on_twitter-2.htm
 [8]: /2009/02/simply_walsall/
-[9]: http://twitter.com/WalsallCouncil
-[10]: http://twitter.com/paulrobertlloyd/status/2169631461
+[9]: https://twitter.com/WalsallCouncil
+[10]: https://twitter.com/paulrobertlloyd/status/2169631461
 [11]: /2009/02/simply_walsall#remark-4
 [12]: https://twitter.com/search?q=%23PicoftheDay%20from%3AWalsallCouncil
 

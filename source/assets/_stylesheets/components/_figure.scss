@@ -4,20 +4,51 @@
 
 .c-figure {
     @include clearfix;
+    position: relative;
     margin-bottom: $u__baseline;
+
+    + .c-figure {
+        margin-top: ($u__baseline * 2);
+    }
 }
 
 .c-figure__main {
+    margin-bottom: ($u__baseline / 2);
+    overflow: hidden;
+
     img {
         display: block;
-        max-width: 100%;
+        margin-bottom: ($u__baseline / 2);
+    }
+
+    img:nth-last-of-type(2):first-child,
+    img:nth-last-of-type(2):first-child ~ img {
+        @include gallery(4 of 8);
+    }
+
+    img:nth-last-of-type(3):first-child,
+    img:nth-last-of-type(3):first-child ~ img {
+        @include gallery(3 of 9);
+    }
+
+    img:nth-last-of-type(4):first-child,
+    img:nth-last-of-type(4):first-child ~ img,
+    img:nth-last-of-type(8):first-child,
+    img:nth-last-of-type(8):first-child ~ img,
+    img:nth-last-of-type(12):first-child,
+    img:nth-last-of-type(12):first-child ~ img {
+        @include gallery(2 of 8);
+    }
+
+    img:nth-last-of-type(5):first-child,
+    img:nth-last-of-type(5):first-child ~ img {
+        @include gallery(2 of 10);
     }
 }
 
 .c-figure__caption {
     @include ff--sans-serif;
     @include fs--caption;
-    margin-top: $u__baseline;
     margin-bottom: $u__baseline;
 
     p {
@@ -65,87 +96,6 @@
             margin-top: 0;
             padding-right: 0;
             padding-left: 0;
-        }
-    }
-}
-
-
-/* Photo */
-.c-figure--photo {
-    position: relative;
-    margin-bottom: ($u__baseline * 3);
-    min-height: ($u__baseline * 10);
-
-    .c-figure__main {
-        @include background-placeholder;
-    }
-}
-
-
-/* Image groups */
-[class*="figure--image"] {
-    .c-figure__main {
-        @include clearfix;
-        margin-top: ($u__baseline * -1.5);
-    }
-
-    img {
-        @include gutters($u__baseline);
-        margin-top: ($u__baseline * 1.5);
-    }
-}
-
-.c-figure--image-duo {
-    img {
-        @include gallery(4 of 8);
-    }
-}
-
-.c-figure--image-trio {
-    img {
-        @include gallery(3 of 9);
-    }
-}
-
-.c-figure--image-quartet {
-    img {
-        @include gallery(2 of 8);
-    }
-}
-
-.c-figure--image-quintet {
-    img {
-        @include gallery(2 of 10);
-    }
-}
-
-/* Tweet */
-.c-figure--tweet {
-    blockquote {
-        @include ff--sans-serif;
-        @include fs--lede;
-        position: relative;
-        border: 1px solid rgba($c__neutral-1, 0.2);
-        padding: $u__baseline;
-
-        &::before { // Double colon not supported in IE8 so can use a transform
-            display: block;
-            position: absolute;
-            top: auto;
-            bottom: -0.825rem;
-            left: ($u__baseline * 1.5);
-            transform: rotate(-45deg);
-            opacity: 1;
-            border-bottom: 1px solid rgba($c__neutral-1, 0.2);
-            border-left: 1px solid rgba($c__neutral-1, 0.2);
-            background-color: $c__neutral-9;
-            width: 1.5rem;
-            height: 1.5rem;
-            content: '';
-        }
-
-        :last-child {
-            margin-bottom: 0;
         }
     }
 }

@@ -133,15 +133,15 @@ I ended the year at the Village Hotel in Walsall. Whilst not as glamourous compa
 [2]: /2010/01/sydney
 [3]: /2010/01/melbourne
 [4]: http://philmccluskey.com/
-[5]: http://twitter.com/paulrobertlloyd/status/7766336039
+[5]: https://twitter.com/paulrobertlloyd/status/7766336039
 [6]: http://bbc.co.uk/programmes/b00pykgg
 [7]: http://agreenfocus.paulrobertlloyd.com/post/371323289
 [8]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157623536806088/
 [9]: http://natbat.net/2010/Mar/5/new-adventures/
-[10]: http://twitter.com/paulrobertlloyd/statuses/10431095158
+[10]: https://twitter.com/paulrobertlloyd/status/10431095158
 [11]: http://www.bbc.co.uk/ashestoashes/
 [12]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157623815110397/
-[13]: http://twitter.com/paulrobertlloyd/statuses/13018900833
+[13]: https://twitter.com/paulrobertlloyd/status/13018900833
 [14]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157624166312994/
 [15]: /2010/05/learning_to_sketch
 [16]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157624093942495/
@@ -159,7 +159,7 @@ I ended the year at the Village Hotel in Walsall. Whilst not as glamourous compa
 [28]: http://andybudd.com/
 [29]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157625468764910/
 [30]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157625487407156/
-[31]: /2010/12/styleguides_for_the_web
+[31]: /talks/multipack_presents_november_2010
 [32]: http://fontdeck.com/
 [33]: http://ning.com/
 [34]: http://lloydyweb.paulrobertlloyd.com/blog/2007/03/finally_a_ning_to_be_proud_of.php

@@ -8,6 +8,7 @@ image:
   caption: Olympic Cauldron design by Heatherwick Studio
 tags:
   - Design
+  - Exhibitions
   - Heatherwick Studio
   - SXSW
   - Web

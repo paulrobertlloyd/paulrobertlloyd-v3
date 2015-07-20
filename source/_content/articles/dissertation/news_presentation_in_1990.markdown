@@ -9,21 +9,21 @@ By the early nineties comedy shows such as <cite>The Day Today</cite> made light
 
 The BBC's Breakfast News had titles involving a globe at the centre of a clock face which turned back on itself before the 'C' in BBC spun out and around the globe, all to the music of horns and chimes. Similar themes were expressed later its One O'clock news programme. Later bulletins at six and nine had much heavier music, but still carried images of globes and maps of the world.
 
-{% figure c-figure--image-quartet "Figure 34: <cite>BBC Breakfast News</cite> titles, 1989" %}
+{% figure "Figure 34: <cite>BBC Breakfast News</cite> titles, 1989" %}
 {% picture thumbnail /articles/dissertation/figure-34a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-34b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-34c.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-34d.png alt="Still from titles" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 35: <cite>BBC One O'Clock News</cite> titles, 1986" %}
+{% figure "Figure 35: <cite>BBC One O'Clock News</cite> titles, 1986" %}
 {% picture thumbnail /articles/dissertation/figure-35a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-35b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-35c.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-35d.png alt="Still from titles" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 36: <cite>BBC Six O'Clock News</cite> titles, 1984" %}
+{% figure "Figure 36: <cite>BBC Six O'Clock News</cite> titles, 1984" %}
 {% picture thumbnail /articles/dissertation/figure-36a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-36b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-36c.png alt="Still from titles" %}
@@ -32,14 +32,14 @@ The BBC's Breakfast News had titles involving a globe at the centre of a clock f
 
 As for ITN, these images were used much less, preferring to use purely computer animated sequences involving the programme titles or in the case of News at Ten, a computer rendered London skyline before closing in on the familiar clock face of Big Ben.
 
-{% figure c-figure--image-quartet "Figure 37: <cite>ITN News at 12:30,</cite> titles 1989" %}
+{% figure "Figure 37: <cite>ITN News at 12:30,</cite> titles 1989" %}
 {% picture thumbnail /articles/dissertation/figure-37a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-37b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-37c.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-37d.png alt="Still from titles" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 38: <cite>ITN News at Ten</cite> titles, 1988" %}
+{% figure "Figure 38: <cite>ITN News at Ten</cite> titles, 1988" %}
 {% picture thumbnail /articles/dissertation/figure-38a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-38b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-38c.png alt="Still from titles" %}
@@ -54,7 +54,7 @@ The first real change to come to this clichéd and computer orientated world was
 > Conceptually, we attempted to communicate an idea of how a news programme actually functions: disparate information comes in, is collected, ordered then broadcast.
 {% endfigure %}
 
-{% figure c-figure--image-quintet "Figure 39: The look of the <cite>BBC Nine O'Clock News</cite> was unlike anything seen before" %}
+{% figure "Figure 39: The look of the <cite>BBC Nine O'Clock News</cite> was unlike anything seen before" %}
 {% picture thumbnail /articles/dissertation/figure-39a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-39b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-39c.png alt="Still from titles" %}

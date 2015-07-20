@@ -117,9 +117,9 @@ Want to be part of it? Write about the problems you're facing. If you see a sepa
 
 [1]: http://responsivesummit.com/
 [2]: http://en.wikipedia.org/wiki/Dr._Strangelove
-[3]: http://twitter.com/armstrong
-[4]: http://twitter.com/jbrewer
-[5]: http://twitter.com/aexmo
+[3]: https://twitter.com/armstrong
+[4]: https://twitter.com/jbrewer
+[5]: https://twitter.com/aexmo
 [6]: http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/
 [7]: /2012/02/niptuck/
 [8]: http://en.wikipedia.org/wiki/JPEG_2000

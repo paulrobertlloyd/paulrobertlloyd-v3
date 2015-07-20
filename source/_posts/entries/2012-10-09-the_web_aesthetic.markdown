@@ -47,7 +47,7 @@ The advent of responsive design has forced us to reassess many long held assumpt
 [2]: http://adactio.com/journal/5439/
 [3]: http://maban.co.uk/
 [4]: http://alistapart.com/articles/the-web-aesthetic/
-[5]: http://twitter.com/r_weisburd
+[5]: https://twitter.com/r_weisburd
 [6]: http://sarawb.com/
 [7]: http://zeldman.com/
 [8]: http://clearleft.com/

@@ -15,7 +15,7 @@ The original set of idents featured straight vertical bands of colour -- sometim
 
 The idents proved extremely versatile with variations for children's programming and its teenage stand T4 continuing the theme -- slanting the bands slightly to the right and using bright and vibrant consistent colours such as blue, yellow and orange. All promotional material also maintained the square logo's position as seen on screen.
 
-{% figure c-figure--image-quartet "Figure 19: The use of celebrities within Channel 4's new idents tried to foster an emotional link with their audience" %}
+{% figure "Figure 19: The use of celebrities within Channel 4's new idents tried to foster an emotional link with their audience" %}
 {% picture thumbnail /articles/dissertation/figure-19a.png alt="Still from Channel 4 'Richard Whitely' ident, 2002" %}
 {% picture thumbnail /articles/dissertation/figure-19b.png alt="Still from Channel 4 'Richard Whitely' ident, 2002" %}
 {% picture thumbnail /articles/dissertation/figure-19c.png alt="Still from Channel 4 'Richard Whitely' ident, 2002" %}
@@ -24,17 +24,15 @@ The idents proved extremely versatile with variations for children's programming
 
 The first reworking of the idents, designed in-house and by Static 2358, played about more with the logo, moving it horizontally across the screen whilst flipping it about, spinning it around, blurring or distorting it before returning it to its standard position -- reminiscent of the launch idents of 1982.
 
-{% figure c-figure--image-quartet "Figure 20: Later revisions of the channels identity involved more movement of the logo" %}
+{% figure "Figure 20: Later revisions of the channels identity involved more movement of the logo" %}
 {% picture thumbnail /articles/dissertation/figure-20a.png alt="Still from Channel 4 'Red' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20b.png alt="Still from Channel 4 'Red' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20c.png alt="Still from Channel 4 'Red' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20d.png alt="Still from Channel 4 'Red' ident, 2001" %}
-
 {% picture thumbnail /articles/dissertation/figure-20e.png alt="Still from Channel 4 'Purple' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20f.png alt="Still from Channel 4 'Purple' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20g.png alt="Still from Channel 4 'Purple' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20h.png alt="Still from Channel 4 'Purple' ident, 2001" %}
-
 {% picture thumbnail /articles/dissertation/figure-20i.png alt="Still from Channel 4 'Green' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20j.png alt="Still from Channel 4 'Green' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-20k.png alt="Still from Channel 4 'Green' ident, 2001" %}
@@ -43,7 +41,7 @@ The first reworking of the idents, designed in-house and by Static 2358, played 
 
 New captions for programme start times were introduced, where four squares were centred on screen, the first three containing an image relating to the programme, whilst the last contained the 4 in its square. It was also around this time that idents for use during daytime were introduced, and saw the square coloured to complement its background (an orange square on blue, and red on green).
 
-{% figure c-figure--image-quartet "Figure 21: All presentation carried the logo in the same position on screen" %}
+{% figure "Figure 21: All presentation carried the logo in the same position on screen" %}
 {% picture thumbnail /articles/dissertation/figure-21a.png alt="Still from Channel 4 'Lines' next-up caption, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-21b.png alt="Still from Channel 4 'Lines' holding caption, 2000" %}
 {% picture thumbnail /articles/dissertation/figure-21c.png alt="Still from Channel 4 'Lines' information caption, 2000" %}
@@ -52,14 +50,14 @@ New captions for programme start times were introduced, where four squares were 
 
 The latest update saw some narrative elements added, with the vertical lines being created by vapour trails, the movement of water, the beating of a heart, coloured lights and sound waves. Again the logo became more involved within the ident, and whilst still remaining in the same position on screen, it mimicked the action taking place behind it.
 
-{% figure c-figure--image-quartet "Figure 22: In this ident, the vertical lines are created by water ripples, and so the logo ripples also" %}
+{% figure "Figure 22: In this ident, the vertical lines are created by water ripples, and so the logo ripples also" %}
 {% picture thumbnail /articles/dissertation/figure-22a.png alt="Still from Channel 4 'Ripples' ident, 2002" %}
 {% picture thumbnail /articles/dissertation/figure-22b.png alt="Still from Channel 4 'Ripples' ident, 2002" %}
 {% picture thumbnail /articles/dissertation/figure-22c.png alt="Still from Channel 4 'Ripples' ident, 2002" %}
 {% picture thumbnail /articles/dissertation/figure-22d.png alt="Still from Channel 4 'Ripples' ident, 2002" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 23: The latest update to Channel 4's on screen image shows the versatility of the original 'lines' concept" %}
+{% figure "Figure 23: The latest update to Channel 4's on screen image shows the versatility of the original 'lines' concept" %}
 {% picture thumbnail /articles/dissertation/figure-23a.png alt="Still from Channel 4 'Waveforms' ident, 2002" %}
 {% picture thumbnail /articles/dissertation/figure-23b.png alt="Still from Channel 4 'Slots' ident, 2002" %}
 {% picture thumbnail /articles/dissertation/figure-23c.png alt="Still from Channel 4 'Vapour Trails' ident, 2002" %}
@@ -80,21 +78,21 @@ It followed that with a new corporate identity, most elements of the corporation
 
 BBC1 retained the globe, however it was given a new twist by using an orange air balloon styled as a globe, and floating it above different landmarks and regions across Britain, Lambie-Nairn again aiming to reposition the channel. The use of bright orange for the balloon was in strong contrast to the earthy browns, greens and yellows as well as the blues within the sky.
 
-{% figure c-figure--image-quartet "Figure 24: BBC1's image was given a new twist with an identity featuring an orange balloon flown over Britain. Later additions to the ident set showed images of people skateboarding, bungee jumping, in carnivals and at a market" %}
+{% figure "Figure 24: BBC1's image was given a new twist with an identity featuring an orange balloon flown over Britain. Later additions to the ident set showed images of people skateboarding, bungee jumping, in carnivals and at a market" %}
 {% picture thumbnail /articles/dissertation/figure-24a.png alt="Still from BBC One 'English 11' ident, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-24b.png alt="Still from BBC One 'Scotish 6' ident, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-24c.png alt="Still from BBC One 'Carnival' ident, 2000" %}
 {% picture thumbnail /articles/dissertation/figure-24d.png alt="Still from BBC One 'Skateboarders' ident, 2000" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 25: BBC2's idents were left pretty much untouched. A new addition to the collection at this time showed the strength of the identity. This featured a simple paint-pot that mimicked one of the first idents <cite>Paint</cite>. However with more and more idents being added to the collection -- some no longer featuring the viridian colour -- such as <cite>Kebab</cite> shown above, the brand was becoming increasingly weakened" %}
+{% figure "Figure 25: BBC2's idents were left pretty much untouched. A new addition to the collection at this time showed the strength of the identity. This featured a simple paint-pot that mimicked one of the first idents <cite>Paint</cite>. However with more and more idents being added to the collection -- some no longer featuring the viridian colour -- such as <cite>Kebab</cite> shown above, the brand was becoming increasingly weakened" %}
 {% picture thumbnail /articles/dissertation/figure-25a.png alt="Still from BBC Two 'Paint' ident, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-25b.png alt="Still from BBC Two 'Paint Pot' ident, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-25c.png alt="Still from BBC Two 'Arial' ident, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-25d.png alt="Still from BBC Two 'Kebab' ident, 2000" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 26: All of the BBC's children's output was given a new look, using just the colours yellow and black and a distinct use of simple animation" %}
+{% figure "Figure 26: All of the BBC's children's output was given a new look, using just the colours yellow and black and a distinct use of simple animation" %}
 {% picture thumbnail /articles/dissertation/figure-26a.png alt="Still from CBBC 'Mouse' ident, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-26b.png alt="Still from CBBC 'Mouse' ident, 1997" %}
 {% picture thumbnail /articles/dissertation/figure-26c.png alt="Still from CBBC 'Mouse' ident, 1997" %}
@@ -117,14 +115,14 @@ However this only lasted two years, before the inevitable happened and all three
 
 Yet again, the ITV network was divided and segregated. Almost ten years after English and Pockett designed its first identity, ITV now wanted an identity that "better reflected the channels mass appeal and unique position in British TV as the channel closest to peoples heart" and one that "moved away from a distant, corporate image to a more consumer friendly brand" (Futurebrand.com, 2002). English and Pockett was again the company responsible for this new image, and saw a new logo with yellow lowercase ITV initials set inside a blue rectangle. These colours were chosen to reflect the networks heritage and took colours predominating in the logos of most regional companies. A year later, its onscreen implementation was introduced, and again a dual branding system was devised for nine of the 14 regional companies. 16 different street level sequences were created showing activities of ordinary people in Britain -- such as moving house, hanging out the washing, painting a floor -- that revealed the heart motive at the end of the sequence.
 
-{% figure c-figure--image-quartet "Figure 27: In this ident, a group of architects are seen working around a table, before the heat motif is revealed, followed by a regions name and logo" %}
+{% figure "Figure 27: In this ident, a group of architects are seen working around a table, before the heat motif is revealed, followed by a regions name and logo" %}
 {% picture thumbnail /articles/dissertation/figure-27a.png alt="Still from Anglia ITV hearts ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-27b.png alt="Still from Anglia ITV hearts ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-27c.png alt="Still from Anglia ITV hearts ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-27d.png alt="Still from Anglia ITV hearts ident, 1999" %}
 {% endfigure %}
 
-{% figure c-figure--image-quartet "Figure 28: 16 heart sequences were created in total. Here four are shown -- searching in woods, at a funfair, watering a football pitch and at a beach" %}
+{% figure "Figure 28: 16 heart sequences were created in total. Here four are shown -- searching in woods, at a funfair, watering a football pitch and at a beach" %}
 {% picture thumbnail /articles/dissertation/figure-28a.png alt="Still from 'Search Lights' hearts sequence" %}
 {% picture thumbnail /articles/dissertation/figure-28b.png alt="Still from 'Funfair' hearts sequence" %}
 {% picture thumbnail /articles/dissertation/figure-28c.png alt="Still from 'Football Pitch' hearts sequence" %}
@@ -133,7 +131,7 @@ Yet again, the ITV network was divided and segregated. Almost ten years after En
 
 That is not to say that the hearts identity was universally appropriate, as was proven in the LWT region. With a long-standing reputation as the region for producing the majority of the networks weekend entertainment, and in London exclusively seen as an identity for the weekend, the hearts theme in its original format just didn't fit. A more appropriate version was devised in which a camera panned across a video wall showing clips from the pervious hearts idents as well as LWT branding. The music was also changed to be far more upbeat.
 
-{% figure c-figure--image-quartet "Figure 29: The heart sequences weren't appropriate for the LWT region, where it was given a more livelier treatment" %}
+{% figure "Figure 29: The heart sequences weren't appropriate for the LWT region, where it was given a more livelier treatment" %}
 {% picture thumbnail /articles/dissertation/figure-29a.png alt="Still from LWT 'Videowall' ident, 2000" %}
 {% picture thumbnail /articles/dissertation/figure-29b.png alt="Still from LWT 'Videowall' ident, 2000" %}
 {% picture thumbnail /articles/dissertation/figure-29c.png alt="Still from LWT 'Videowall' ident, 2000" %}
@@ -142,17 +140,15 @@ That is not to say that the hearts identity was universally appropriate, as was 
 
 Only nine of the 14 regions used these idents. Ulster Television (UTV) had by now developed a completely separate identity to that of ITV, and the Scottish regions (Scottish and Grampian) now both owned by Scottish Media Group opted out and had a separate identity created involving a blue square and images of Scots of all ages in daily activities. Also, the three Carlton Communication owned regions (Central, Westcountry and Carlton) since renamed Carlton used an alternative -- though still based on the hearts theme. The Lambie-Nairn produced idents indicated that Carlton was the star of the ITV network and was reflected on-screen with animations of various hearts that have a star in the corner before ending with a standardised Carlton title. In effect, ITV was now seemingly four different regions: UTV, and those owned by Carlton, Scottish and Granada media groups.
 
-{% figure c-figure--image-quartet "Figure 30: Carlton, Scottish and UTV regions didn't use the hearts sequence, with the later two no longer referring to the ITV name either" %}
+{% figure "Figure 30: Carlton, Scottish and UTV regions didn't use the hearts sequence, with the later two no longer referring to the ITV name either" %}
 {% picture thumbnail /articles/dissertation/figure-30a.png alt="Still from Carlton ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30b.png alt="Still from Carlton ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30c.png alt="Still from Carlton ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30d.png alt="Still from Carlton ident, 1999" %}
-
 {% picture thumbnail /articles/dissertation/figure-30e.png alt="Still from Grampian Television ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30f.png alt="Still from Grampian Television ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30g.png alt="Still from Grampian Television ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30h.png alt="Still from Grampian Television ident, 1999" %}
-
 {% picture thumbnail /articles/dissertation/figure-30i.png alt="Still from UTV ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30j.png alt="Still from UTV ident, 1999" %}
 {% picture thumbnail /articles/dissertation/figure-30k.png alt="Still from UTV ident, 1999" %}
