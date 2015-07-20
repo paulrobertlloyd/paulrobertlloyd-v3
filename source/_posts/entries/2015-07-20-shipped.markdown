@@ -79,7 +79,7 @@ Those are the headline features, but there are a number of other notable changes
 
 * Using a cookie-less domain for YouTube embeds.
 
-* Credits and attribution links added to photos, where relevant.
+* Credits and attribution links added to photos, where relevant and possible.
 
 * Ability to link related posts together as a series ([particularly useful for travelogues][38]).
 
