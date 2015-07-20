@@ -6,9 +6,11 @@
     @include ff--sans-serif;
     @include fs--lede;
     position: relative;
-    margin-bottom: ($u__baseline * 1.5);
+    margin-bottom: $u__baseline;
     border: 1px solid rgba($c__neutral-1, 0.2);
+    background-color: $c__neutral-9;
     padding: $u__baseline;
+    color: $c__neutral-1;
 
     &::before { // Double colon not supported in IE8 so can use a transform
         display: block;
