@@ -2,7 +2,7 @@
 title: 'Shipped!'
 date: '2015-07-20 16:05:00 +0100'
 location: Brighton, England
-excerpt: 'Given the obsessive compulsive behaviour I exhibit when it comes to redesigning this website, I''ve started to question whether or not I have an addictive personality.'
+excerpt: 'Given the obsessive compulsive behaviour I exhibit when it comes to designing this website, I''ve started to question whether I have an addictive personality or not.'
 image:
   url: /2015/07/shipped.jpg
   caption: 'The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships'
@@ -11,82 +11,88 @@ tags:
   - Web
 discussion: open
 ---
-Given the obsessive compulsive behaviour I exhibit when it comes to redesigning this website, I've started to question whether or not I have an addictive personality. In what has become a familiar pattern, having decided to embark on a rebuild last February, I've gone on to spend nearly 18 months [iterating and iterating][1] over a design. During this period, [other projects][2] fell by the wayside, distracted by whatever feature, performance improvement or design detail I was pre-occupied with.
+Given the obsessive compulsive behaviour I exhibit when it comes to designing this website, I've started to question whether I have an addictive personality or not. In what has become a familiar pattern, having decided to embark on a redesign last February, I spent the following 18 months [iterating and iterating][1]. During this period, [other projects][2] have fallen by the wayside as I'm distracted by yet another feature addition, performance improvement or design detail.
 
-This year's Indie Web Camp in Brighton was the latest in a long line of deadlines I'd set myself for launching the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this proved to be the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I spent last week revising and polishing to the point that I can say: "okay, you can look now".
+This year's Indie Web Camp in Brighton was the latest in a long line of deadlines I'd set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this proved to be the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I've since spent the last week revising and polishing to the point that I can say: "okay, you can look at it now".
 
 ## Moving on from Movable Type
-The previous version of this site [launched in July 2011][5], and while it'd seen many improvements over that time (not least in terms of [performance][6]), the publishing platform I was using -- [Movable Type][7] -- had becoming burdensome: publishing a post meant rebuilding three different sections of the site, for example. I've used this CMS for almost a decade, but over that time it has lost community support, [become a paid-for product][8] and is no longer aimed at personal publishing.
+The previous version of this site [launched in July 2011][5], and while it'd seen many improvements over that time (not least in terms of [performance][6]), the publishing platform I was using -- [Movable Type][7] -- was burdensome: just publishing a new post meant rebuilding three different sections of the site. I've used this CMS for almost a decade but over that time the community has diminished and has [become a paid-for product][8] no longer aimed at personal publishers.
 
-One of the reasons I liked Movable Type was that it allowed you to generate static pages. People used to laugh at this feature, and yet today [static site generators][9] are in vogue. After researching the _many_ different options, I decided to move my content over to [Jekyll][10]. Not only is this software [under active development][11], but I found it to be incredible configurable and -- once I got the hang of [Ruby][12] -- infinitely hackable. This configurability proved to be both a blessing and a curse; how I organise content, templates and assets has continually changed.
+One of the reasons I liked Movable Type was that it allowed you to generate static pages. People used to laugh at this feature, and yet today static site generators are in vogue. After researching the [_many_ different options][9], I decided to move my content over to [Jekyll][10]. Not only is this software being [actively developed][11], but I found it to be incredible configurable and -- once I got the hang of [Ruby][12] -- infinitely hackable.
 
-Since I made that choice, Jekyll has matured considerably, and the team is not far from launching the next major version, [Jekyll 3.0][13]. All that's missing is the ability to paginate between any given collection of documents (be they posts, pages or collections), and faster rebuild times; even with the new incremental generation feature, rebuilds can still sometimes take around 180 seconds.
+Since I made this choice, Jekyll has matured considerably, and the team is not far from launching the next major version, [Jekyll 3.0][13]. All that's missing is the ability to paginate between any given collection of documents (be they posts, pages or collections), and faster rebuild times; even with the new incremental generation feature, rebuilds can still sometimes take around 180 seconds.
 
 {% assign hero = "2015/07/shipped/tablet-1.png|2015/07/shipped/tablet-2.png|2015/07/shipped/phone.png" | split: "|" %}
 {% include hero.html imageset=hero class="u-extend" %}
 
-## A European Flavour (via New Zealand)
+## A European Flavour
 While I briefly considered maintaining the previous design and just updating the CMS, a long list of accumulated grievances meant a new design was always the preferred option.
 
-A friend once remarked that she preferred the design at smaller breakpoints, where the right-hand column disappeared from view, with less interface debris to distract the reader. That, plus overly delicate body copy, meant there was plenty of opportunity to improve the legibility of content.
+I've radically simplified what I had before, and placed particular emphasis on typography. A long time admirer of [Kris Sowersby][14]'s work, I treated myself to a selection of his fonts, rather than rely on freely available alternatives. For long passages of text I'm using _[Tiempos Text][15]_, paired with _[Calibre][16]_ for headings. His foundry doesn't provide WOFF 2.0 webfonts yet (a format that produces files ~30% smaller than WOFF 1.0), but hopefully this'll change once the format gains wider adoption. Surprisingly, including both fonts in the same passage of text requires adjusting their relative sizes, leading to some [pretty irksome CSS][17].
 
-I've radically simplified what I had before with a particular emphasis on typography. As a long time admirer of [Kris Sowersby's typefaces][14], I treated myself to a selection of his fonts, rather than rely on freely available alternatives. For long passages of text I'm using _[Tiempos Text][15]_, paired with _[Calibre][16]_ for headings. His foundry doesn't provide WOFF 2.0 webfonts yet (a format with files typically ~30% smaller than WOFF 1.0), but hopefully this'll change once the newer format has gained wider adoption. Surprisingly, including both fonts in the same passage of text requires adjusting their relative sizes, leading to some [pretty irksome CSS][17].
+Ignoring for a moment their antipodean origin, these fonts hopefully engender a more European aesthetic, one inspired by the many leaflets and brochures I've picked up on my travels across the continent. I'm relying on whitespace rather than horizontal rules to separate content, with contrast in the type scale to indicate page hierarchy. Colour is more restrained but no less subdued; purples and pinks suitably hipster enough to satisfy current trends. Oh, and I have a new logo... which I'm mildly ambivalent about, if I'm honest.
 
-Ignoring for a moment their antipodean origin, these fonts hopefully embody a more European aesthetic, one inspired by the many leaflets and brochures I've picked up on my travels across the continent. I'm relying on whitespace rather than horizontal rules to separate content, and using greater contrast in the type scale to indicate page hierarchy. Colour is more restrained but no less subdued; purples and pinks have become my go-to colours of choice, suitably hipster enough to satisfy current trends. Oh, and I have a new logo… which I'm mildly ambivalent about, if I'm honest.
+## Content First
+Content has been a big focus of this redesign. With the help of [Owen Gregory][18], project case studies have been completely rewritten. While they currently lack enough supporting artefacts, their revised copy better describes the underlying design process.
 
-## Words
-Content has been a big focus of this redesign. With the help of [Owen Gregory][18], project case studies have been completely rewritten. While they currently lack accompanying visual artefacts, copy should better describe the underlying design process. Since I've become a regular speaker, alongside a [collection of articles][19] I've had published, there is now an archive of [previous talks][20], too.
+Since I've become a regular speaker, alongside a [collection of articles][19] I've had published, there is now an archive of [previous talks][20], too.
 
-A combination of Jekyll plugins and [Kramdown][21] means greater automation when writing. Code examples are now syntax highlighted (yes, I use to do this manually!) while I can now choose from a number of different layouts for page photography.
+A combination of Jekyll plugins and [Kramdown][21] has enabled greater automation when writing. Code examples are now syntax highlighted, a number of different layouts are available to lay out page photography and I no longer need to manually markup footnotes.
 
-There's also support for [photo galleries][22]. Originally intended to form part of a dedicated photos section, for now I'm showing galleries under the journal. Should I decide to move away from Flickr, this functionality may support the transfer of more photos away from that service, but for now, such posts will feature a selection of photos from a particular trip or event.
+I've also added support for [photo galleries][22]. Originally intended to form part of a dedicated photos section, for now galleries are listed alongside journal entries. Should I decide to move away from Flickr, this functionality may support the transfer of more photos away from that service, but for now, these posts will feature a selection of photos from a particular trip or event.
 
 ## Comments
-In the course of rebuilding this site, I read countless articles that went something along the line of "I moved from WordPress to Jekyll, but this doesn't support comments, so now I'm using Disqus". While [Disqus][23] is a quick and easy means of adding comments to a site, having a third-party host parts of my site wasn't acceptable to me, nor was the JavaScript dependancy.
+In the course of rebuilding this site, I have read numerous articles that went something along the lines of: "I moved from WordPress but Jekyll doesn't support comments, so I'm now using Disqus". While [Disqus][23] is a quick and easy means of adding comments to a site, having a third-party host parts of my site wasn't acceptable to me, nor was the JavaScript dependancy.
 
-In what was a convoluted and time-consuming process, I exported my comments from Movable Type and saved them as YAML files inside Jekyll's `_data` folder. New comments can be accepted on a per post basis, but this involves little more than providing readers with a dedicated e-mail address. Publishing a comment requires adding and/or updating a YAML file, again, per post. This process could be automated, but seeing as I rarely accepts comments anymore, it seemed like wasted effort. Besides, [webmentions][24] (once I've added support for them) should fill the gap.
+In what was a convoluted and time-consuming process, I exported my comments from Movable Type and saved them as YAML files inside Jekyll's `_data` folder. New comments can be accepted on a per post basis, but this involves little more than providing readers with a dedicated e-mail address. Publishing a comment requires adding and/or updating a YAML file. This process could be automated, but seeing as I rarely accept comments anymore, it seemed like wasted effort. Besides, [webmentions][24] (once I've added support for them) should plug the gap.
 
 ## Site Archives
-As part of the transfer of content from Movable Type to Jekyll, I undertook an audit of URLs, in particular the location of archived versions of this site. For a long time I considered moving every piece of content that appeared on my previous site ('LloydyWeb', _cringe_) over to this domain, but in doing so, found myself rewriting content, rewriting history, almost.
+As part of the transfer of content from Movable Type to Jekyll, I undertook an audit of URLs, in particular the location of archived versions of this site. For a long time I considered moving every piece of content that appeared on my previous site ('LloydyWeb', _cringe_) over to this domain, but in doing so, found myself rewriting content -- rewriting history, almost.
 
-In the end I decided that [the archive][25] for `paulrobertlloyd.com` should extend back to when I moved to this domain (and not include earlier entries as I did previously), while content originally published on LloydyWeb should remain available at `lloydyweb.paulrobertlloyd.com`. For those interested, the following URLs are now used:
+In the end I decided that [the archive][25] for `paulrobertlloyd.com` should extend back to when I moved to this domain (and not include earlier entries as had been done previously), while content originally published on LloydyWeb should be available at `lloydyweb.paulrobertlloyd.com`. For those interested, these URLs cover the following periods:
 
-* <https://paulrobertlloyd.com> -- _September 2008-present_
-* <http://v2.paulrobertlloyd.com> -- _July 2004-July 2015_
-* <http://v1.paulrobertlloyd.com> -- _July 2004-June 2011_
-* <http://lloydyweb.paulrobertlloyd.com> -- _July 1999-December 2007_
+* <https://paulrobertlloyd.com> -- _September 2008 - present_
+* <http://v2.paulrobertlloyd.com> -- _July 2004 - July 2015_
+* <http://v1.paulrobertlloyd.com> -- _July 2004 - June 2011_
+* <http://lloydyweb.paulrobertlloyd.com> -- _July 1999 - December 2007_
 
 ## Everything else
-Those are the headline features, but there are a number of other notable changes:
+Those are the headline features, but there are a number of other notable changes as well:
 
-* Pages are now served over a secure HTTPS connection. [I wrote about this][26], and the possible downsides, earlier this year.
+* Pages are now served over a secure HTTPS connection. [I wrote about this and the possible downsides][26], earlier this year.
 
-* Given that I'm serving static pages, I decided to give [nginx][27] a whirl. Goodbye `.htaccess`!
+* Since I'm serving static pages, I decided to give [nginx][27] a whirl. Goodbye `.htaccess`!
 
-* The code for this site is versioned, and better still, [available to view publicly][28] on GitHub. If you spot any issues, please [let me know][29].
+* The code for this site is now versioned, and better still, [publicly available][28] on GitHub. If you spot any issues, please [let me know][29].
 
 * Following on from the [excellent article][30] by the folks over at Filament Group, I'm now loading web fonts asynchronously using [FontFaceObserver][31]. Hopefully this means no blank pages while webfonts are downloading.
 
-* Following current best practice for pages served over HTTP/1, critical CSS is inlined on first page load.
+* Following current best practice for pages served over HTTP/1, critical CSS is inlined on initial page load.
 
-* Responsive images are used throughout the site, thanks to the new [`srcset`][32] syntax, the [Picturefill][33] polypill and a heavily customised version of the [jekyll-picture-tag][34] plugin. I hope to contribute my changes back to that project at some point. High resolution images are stored alongside other site assets, and resized on the server using [Converjon][35]. Better still, the next time I redesign this site, I won't need to manually resize all my images again (a task I've performed far too many times).
+* Responsive images are used throughout the site, thanks to the new [`srcset`][32] syntax, the [Picturefill][33] polyfill and a heavily customised version of the [jekyll-picture-tag][34] plugin (and I hope to contribute my changes to at some point).
+
+* Related to the previous point, high resolution images are stored alongside other site assets, and can be converted and scaled server-side using [Converjon][35].
 
 * Microformats are back with a vengeance, as I make my website more [indie web friendly][36].
 
 * Support for [Twitter cards][37].
 
-* Credits and attribution links on photos, where relevant. 
+* Using a cookie-less domain for YouTube embeds.
 
-* The site features a [more extensive style guide][38] detailing many of the component and utility styles I'm using to build various pages.
+* Credits and attribution links added to photos, where relevant.
 
-There's still much more I wish to do, but for the sack of my own sanity, it's probably best I take some time out before embarking on adding new features. Top of the list is including more visual examples on case study pages, providing full support for webmentions, and adding subtle animated transitions. All in good time.
+* Ability to link related posts together as a series ([particularly useful for travelogues][38]).
+
+* [A more extensive style guide][39] that details many of the component and utility styles I'm using to build various pages.
+
+There's much more I wish to do, but for my own sanity, it's probably best I take some time out before embarking on adding new features. Top of the list is including more visual examples to case study pages, providing full support for webmentions, and adding some smart animated transitions. All in good time.
 
 ## Thanks
-I should mention those who have helped and inspired me on this long, long journey. [Owen Gregory][39] deserves credit for supplying his editing chops, not least for ensuring I avoided using phrases like '[the final solution][40]'. Sites built by [Dan Eden][41], [Jason Garber][42], [Mark Trapp][43] (who also built [an early archive plugin][44] for Jekyll) provided numerous ideas for how I could use Jekyll to its fullest. [Alfred Xing][45] also answered my request for an [official archive plugin][46], and how!
+I should mention those who have helped and inspired me on this long journey. [Owen Gregory][40] deserves credit for supplying his editing chops, not least for ensuring I avoided using phrases like '[the final solution][41]'. Sites built by [Dan Eden][42], [Jason Garber][43], [Mark Trapp][44] (who also built [an early archive plugin][45] for Jekyll) provided numerous ideas for how I could use Jekyll to its fullest. [Alfred Xing][46] also answered my request for an [official archive plugin][47], and how!
 
-[Matthias Vogelgesang][47] research on [how to use Kramdown with Pygments][48] (a long standing issue with Jekyll) proved immensely helpful. This lead to me releasing [my first Ruby Gem][49]… made almost instantly redundant once the issue was resolved.
+[Matthias Vogelgesang][48] did some excellent research on [how to use Kramdown with Pygments][49] (a long standing issue with Jekyll) which lead to me releasing [my first Ruby Gem][50]... which was made instantly redundant once the issue was resolved.
 
-And finally, to the team working tirelessly on Jekyll, led by [Parker Moore][50]. Here's to just as much shipping of Jekyll as there is me hacking upon it.
+Finally, a huge thank-you to the team working tirelessly on Jekyll, led by [Parker Moore][51]. Here's to just as much shipping of Jekyll as there is me hacking upon it.
 
 :ship: :smiley:
 
@@ -127,19 +133,20 @@ And finally, to the team working tirelessly on Jekyll, led by [Parker Moore][50]
 [35]: https://github.com/berlinonline/converjon
 [36]: http://indiewebify.me
 [37]: https://dev.twitter.com/cards/overview
-[38]: /styleguide/
-[39]: http://www.fullcreammilk.co.uk
-[40]: https://en.wikipedia.org/wiki/Final_Solution
-[41]: http://daneden.me
-[42]: http://sixtwothree.org
-[43]: https://marktrapp.com
-[44]: https://marktrapp.com/projects/jekyll-archive/
-[45]: https://alfredxing.com
-[46]: https://github.com/jekyll/jekyll-archives
-[47]: http://bloerg.net
-[48]: http://bloerg.net/2013/03/07/using-kramdown-instead-of-maruku.html
-[49]: https://github.com/paulrobertlloyd/jekyll-pypedown
-[50]: https://byparker.com
+[38]: /2009/12/ending_the_decade_down_under
+[39]: /styleguide/
+[40]: http://www.fullcreammilk.co.uk
+[41]: https://en.wikipedia.org/wiki/Final_Solution
+[42]: http://daneden.me
+[43]: http://sixtwothree.org
+[44]: https://marktrapp.com
+[45]: https://marktrapp.com/projects/jekyll-archive/
+[46]: https://alfredxing.com
+[47]: https://github.com/jekyll/jekyll-archives
+[48]: http://bloerg.net
+[49]: http://bloerg.net/2013/03/07/using-kramdown-instead-of-maruku.html
+[50]: https://github.com/paulrobertlloyd/jekyll-pypedown
+[51]: https://byparker.com
 
 *[CSS]: Cascading Style Sheets
 *[CMS]: content management system
