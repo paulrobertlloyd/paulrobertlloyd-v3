@@ -102,7 +102,7 @@ $r__span4-wide: ($r__span4 + $r__gutter);
 }
 
 
-/* On wider breakpoints, extend element outwards by an additional column */
+/* Extend element to full width of .u-container */
 .u-extend,
 %u-extend {
     @media screen and (min-width: $b__b) {
@@ -112,7 +112,7 @@ $r__span4-wide: ($r__span4 + $r__gutter);
 }
 
 
-/* On wider breakpoints, bleed element to edges of the main container */
+/* On narrow breakpoints, bleed element to full width of viewport */
 .u-bleed {
     margin-right: (-$margin__a);
     margin-left: (-$margin__a);
