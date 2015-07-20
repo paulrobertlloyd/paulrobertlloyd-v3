@@ -66,7 +66,7 @@ $r__span4-wide: ($r__span4 + $r__gutter);
     @media screen and (min-width: $b__b) {
         float: left;
         margin-right: $r__gutter;
-        margin-left: ($r__span3-wide * -1);
+        margin-left: (-$r__span3-wide);
         width: $r__span3;
     }
 
@@ -85,7 +85,7 @@ $r__span4-wide: ($r__span4 + $r__gutter);
     }
 
     @media screen and (min-width: $b__b) {
-        margin-right: ($r__span1-wide * -1);
+        margin-right: (-$r__span1-wide);
     }
 }
 
@@ -97,7 +97,7 @@ $r__span4-wide: ($r__span4 + $r__gutter);
     }
 
     @media screen and (min-width: $b__b) {
-        margin-left: ($r__span3-wide * -1);
+        margin-left: (-$r__span3-wide);
     }
 }
 
@@ -106,32 +106,32 @@ $r__span4-wide: ($r__span4 + $r__gutter);
 .u-extend,
 %u-extend {
     @media screen and (min-width: $b__b) {
-        margin-right: ($r__span1-wide * -1);
-        margin-left: ($r__span3-wide * -1);
+        margin-right: (-$r__span1-wide);
+        margin-left: (-$r__span3-wide);
     }
 }
 
 
 /* On wider breakpoints, bleed element to edges of the main container */
 .u-bleed {
-    margin-right: ($margin__a * -1);
-    margin-left: ($margin__a * -1);
+    margin-right: (-$margin__a);
+    margin-left: (-$margin__a);
 
     @media (min-width: $b__a) {
-        margin-right: ($margin__b * -1);
-        margin-left: ($margin__b * -1);
+        margin-right: (-$margin__b);
+        margin-left: (-$margin__b);
     }
 
     @media screen and (min-width: $b__b) {
-        margin-right: ($r__span1-wide * -1);
-        margin-right: calc(#{($r__span1-wide * -1)} + #{($margin__b * -1)});
-        margin-left: ($r__span3-wide * -1);
-        margin-left: calc(#{($r__span3-wide * -1)} + #{($margin__b * -1)});
+        margin-right: (-$r__span1-wide);
+        margin-right: calc(#{(-$r__span1-wide)} + #{(-$margin__b)});
+        margin-left: (-$r__span3-wide);
+        margin-left: calc(#{(-$r__span3-wide)} + #{(-$margin__b)});
     }
 
     @media screen and (min-width: $b__c) {
-        margin-right: ($r__span1-wide * -1);
-        margin-left: ($r__span3-wide * -1);
+        margin-right: (-$r__span1-wide);
+        margin-left: (-$r__span3-wide);
     }
 }
 
