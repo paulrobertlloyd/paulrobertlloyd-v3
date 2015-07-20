@@ -18,19 +18,20 @@
     h3 {
         @include ff--sans-serif(700);
         @include fs--heading-3;
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: ($u__baseline / 4);
     }
 
     h4 {
         @include ff--sans-serif;
         @include fs--heading-4;
         margin-bottom: ($u__baseline / 2);
+        color: $c__neutral-4;
     }
 
     * + h3,
     * + h4,
     p + figure {
-        margin-top: ($u__baseline * 1.5);
+        margin-top: ($u__baseline * 2);
     }
 
     > p,
