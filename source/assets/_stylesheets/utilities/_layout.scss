@@ -2,38 +2,17 @@
     Layout
     ========================================================================= */
 
-// Page margin
-$margin__a: $u__baseline;
-$margin__b: ($u__baseline * 2);
-
-// Nested grid constructs
-$r: (12/8); // Ratio: outer columns/inner columns
-$r__gutter: (gutter() * $r);
-
-$r__span1: (span(1) * $r);
-$r__span1-wide: ($r__span1 + $r__gutter);
-
-$r__span2: (span(2) * $r);
-$r__span2-wide: ($r__span2 + $r__gutter);
-
-$r__span3: (span(3) * $r);
-$r__span3-wide: ($r__span3 + $r__gutter);
-
-$r__span4: (span(4) * $r);
-$r__span4-wide: ($r__span4 + $r__gutter);
-
-
 /* Container */
 .u-container {
     @include container($u__max-width);
     margin-right: auto;
     margin-left: auto;
-    padding-right: $margin__a;
-    padding-left: $margin__a;
+    padding-right: $u__baseline;
+    padding-left: $u__baseline;
 
     @media (min-width: $b__a) {
-        padding-right: $margin__b;
-        padding-left: $margin__b;
+        padding-right: ($u__baseline * 2);
+        padding-left: ($u__baseline * 2);
     }
 
     @media (min-width: $b__c) {
@@ -48,16 +27,16 @@ $r__span4-wide: ($r__span4 + $r__gutter);
     float: right;
     margin-top: 0;
     margin-bottom: ($u__baseline / 2);
-    margin-left: $r__gutter;
-    width: $r__span2;
+    margin-left: $gn__gutter;
+    width: $gn__span2;
 }
 
 .u-align-left {
     float: left;
     margin-top: 0;
-    margin-right: $r__gutter;
+    margin-right: $gn__gutter;
     margin-bottom: ($u__baseline / 2);
-    width: $r__span2;
+    width: $gn__span2;
 }
 
 
@@ -65,9 +44,9 @@ $r__span4-wide: ($r__span4 + $r__gutter);
 .u-aside {
     @media screen and (min-width: $b__b) {
         float: left;
-        margin-right: $r__gutter;
-        margin-left: (-$r__span3-wide);
-        width: $r__span3;
+        margin-right: $gn__gutter;
+        margin-left: (-$gn__span3-wide);
+        width: $gn__span3;
     }
 
     + * {
@@ -80,24 +59,24 @@ $r__span4-wide: ($r__span4 + $r__gutter);
 .u-pull-right {
     @media (min-width: $b__a) {
         float: right;
-        margin-left: $r__gutter;
-        width: $r__span4;
+        margin-left: $gn__gutter;
+        width: $gn__span4;
     }
 
     @media screen and (min-width: $b__b) {
-        margin-right: (-$r__span1-wide);
+        margin-right: (-$gn__span1-wide);
     }
 }
 
 .u-pull-left {
     @media (min-width: $b__a) {
         float: left;
-        margin-right: $r__gutter;
-        width: $r__span4;
+        margin-right: $gn__gutter;
+        width: $gn__span4;
     }
 
     @media screen and (min-width: $b__b) {
-        margin-left: (-$r__span3-wide);
+        margin-left: (-$gn__span3-wide);
     }
 }
 
@@ -106,32 +85,32 @@ $r__span4-wide: ($r__span4 + $r__gutter);
 .u-extend,
 %u-extend {
     @media screen and (min-width: $b__b) {
-        margin-right: (-$r__span1-wide);
-        margin-left: (-$r__span3-wide);
+        margin-right: (-$gn__span1-wide);
+        margin-left: (-$gn__span3-wide);
     }
 }
 
 
 /* On narrow breakpoints, bleed element to full width of viewport */
 .u-bleed {
-    margin-right: (-$margin__a);
-    margin-left: (-$margin__a);
+    margin-right: (-$u__baseline);
+    margin-left: (-$u__baseline);
 
     @media (min-width: $b__a) {
-        margin-right: (-$margin__b);
-        margin-left: (-$margin__b);
+        margin-right: ($u__baseline * -2);
+        margin-left: ($u__baseline * -2);
     }
 
     @media screen and (min-width: $b__b) {
-        margin-right: (-$r__span1-wide);
-        margin-right: calc(#{(-$r__span1-wide)} + #{(-$margin__b)});
-        margin-left: (-$r__span3-wide);
-        margin-left: calc(#{(-$r__span3-wide)} + #{(-$margin__b)});
+        margin-right: (-$gn__span1-wide);
+        margin-right: calc(#{(-$gn__span1-wide)} + #{($u__baseline * -2)});
+        margin-left: (-$gn__span3-wide);
+        margin-left: calc(#{(-$gn__span3-wide)} + #{($u__baseline * -2)});
     }
 
     @media screen and (min-width: $b__c) {
-        margin-right: (-$r__span1-wide);
-        margin-left: (-$r__span3-wide);
+        margin-right: (-$gn__span1-wide);
+        margin-left: (-$gn__span3-wide);
     }
 }
 
