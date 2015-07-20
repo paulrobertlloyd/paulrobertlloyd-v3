@@ -92,7 +92,7 @@
 .c-container--projects,
 .c-container--series {
     @media (min-width: $b__b) {
-        margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
+        margin-right: ($r__span1-wide * -1);
     }
 
     .c-item,

@@ -69,6 +69,11 @@
             margin-right: 0;
             margin-left: 0;
             padding-left: span(3 wide);
+            padding-left: calc(#{span(3 wide)} + #{$u__baseline});
+        }
+
+        @media screen and (min-width: $b__c) {
+            padding-left: span(3 wide);
         }
     }
 
