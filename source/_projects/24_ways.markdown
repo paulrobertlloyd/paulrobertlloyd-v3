@@ -56,16 +56,19 @@ Where the previous design used a rigid template across all sections of the site,
 Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads. This improved the performance on the site, especially on mobile devices where bandwidth can be more constrained.
 
 ## What people said
-{% figure c-figure--tweet "[@susanjrobertson](https://twitter.com/susanjrobertson/status/407673287729111040)" %}
+{% figure "[@susanjrobertson](https://twitter.com/susanjrobertson/status/407673287729111040)" %}
 > Really loving [@paulrobertlloyd](https://twitter.com/paulrobertlloyd)’s design for [@24ways](https://twitter.com/24ways). The more I read and poke around the more I discover that is awesome :)
+{: .c-tweet}
 {% endfigure %}
 
-{% figure c-figure--tweet "[@davidlwarner](https://twitter.com/davidlwarner/status/407191676801662976)" %}
+{% figure "[@davidlwarner](https://twitter.com/davidlwarner/status/407191676801662976)" %}
 > Nice work on [@24ways](https://twitter.com/24ways)! Readable, usable, beautiful. Love the mobile nav menu.
+{: .c-tweet}
 {% endfigure %}
 
-{% figure c-figure--tweet "[@laurakalbag](https://twitter.com/laurakalbag/status/407438919123611648)" %}
+{% figure "[@laurakalbag](https://twitter.com/laurakalbag/status/407438919123611648)" %}
 > The new [@24ways](https://twitter.com/24ways) design is lovely. Nice one [@paulrobertlloyd](https://twitter.com/paulrobertlloyd). (He likes his hamburgers with triple beef...)
+{: .c-tweet}
 {% endfigure %}
 
 *[CSS3]: Cascading Style Sheets (Level 3)

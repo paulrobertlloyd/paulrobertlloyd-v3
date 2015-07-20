@@ -105,7 +105,7 @@ Having a broader skillset has always been beneficial on the web, but as we build
 [4]: http://gmailblog.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html
 [5]: http://www.markboulton.co.uk/journal/comments/a-richer-canvas
 [6]: http://www.alistapart.com/articles/responsive-web-design/
-[7]: http://twitter.com/#!/wilto/statuses/63284673723375616
+[7]: https://twitter.com/wilto/status/63284673723375616
 [8]: http://www.markdotto.com/2011/04/15/fatten-up-those-ts/
 
 *[CSS]: Cascading Style Sheets

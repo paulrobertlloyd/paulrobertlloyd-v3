@@ -17,4 +17,4 @@ Luckily, [Joe Butcher][2] has created this brilliant animated accompaniment, whi
 
 [1]: http://www.imdb.com/name/nm0000288/
 [2]: http://www.purplegerbil.com/
-[3]: http://twitter.com/cyberdees/status/1186703704
+[3]: https://twitter.com/cyberdees/status/1186703704

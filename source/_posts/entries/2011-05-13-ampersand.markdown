@@ -39,8 +39,8 @@ So, there we have it. Lots to look forward to, and still much to plan, yet I sus
 [2]: http://newadventuresconf.com/
 [3]: http://2011.uxlondon.com/
 [4]: http://www.multipack.co.uk/presents/mobile-development/
-[5]: /2010/12/styleguides_for_the_web/
-[6]: /2011/03/web_native/
+[5]: /talks/multipack_presents_november_2010/
+[6]: /talks/apa_digital_breakfast_march_2011/
 [7]: http://www.apa.co.uk/news/digital-breakfast-web-design-trends-tues-08-march/
 [8]: http://oxford.geeknights.net/2011/apr-13th/
 [9]: http://adactio.com/journal/4557/
@@ -55,8 +55,8 @@ So, there we have it. Lots to look forward to, and still much to plan, yet I sus
 [18]: http://2011.dconstruct.org/
 [19]: http://brightondigitalfestival.co.uk/
 [20]: http://aneventapart.com/2011/dc/
-[21]: http://twitter.com/dpc47
-[22]: http://twitter.com/lizes
+[21]: https://twitter.com/dpc47
+[22]: https://twitter.com/lizes
 [23]: http://en.wikipedia.org/wiki/Canadian_(train)
 [24]: http://lanyrd.com/people/paulrobertlloyd/
 

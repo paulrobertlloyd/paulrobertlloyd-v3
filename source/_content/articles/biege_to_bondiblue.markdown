@@ -59,13 +59,13 @@ The iMac launched with a two tone case comprising a teal-blue colour (labeled 'B
 
 Translucency was a key feature of the design, chosen to reflect the fact that, as translucent colours vary under different lighting conditions, so does a computers purpose -- from modern-day typewriter to home cinema, painting canvas to record player.
 
-Whilst mots aspects of the design featured translucency (even the plug and the cables were translucent), the translucent plastic on the front was backed by opaque plastic which was given a subtle striped effect.
+Whilst most aspects of the design featured translucency (even the plug and the cables were translucent), the translucent plastic on the front was backed by opaque plastic which was given a subtle striped effect.
 
 Design cues of the CPU were also mirrored in the keyboard, which shared the same subtle stripe effect and retained a similar adjustable foot to change the angle of the keyboard. The mouse was translucent too, allowing you to view the two-tone mouse ball spinning round inside. The size and shape of the mouse was decided on by Ive after foraging on a beach looking at various pebbles for inspiration.
 
 Later the Bondi-Blue colour was replaced with Blueberry (a lighter bluer colour), and four other colours were introduced. For the first time the consumer could decide the colour of their computer -- something they were able to do with their cars decades ago. With the second major revision, a new graphite (grey) colour was introduced which was more transparent than the five other colours and was aimed at a more conservative user.
 
-{% figure u-bleed %}
+{% figure u-extend %}
 {% picture showcase /articles/beige_to_bondiblue/apple_imac_flowershot.png alt="iMac Flowershot" %}
 {% endfigure %}
 

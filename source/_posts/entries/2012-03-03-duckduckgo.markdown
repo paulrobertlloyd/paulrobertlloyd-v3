@@ -102,7 +102,7 @@ As it stands, I only have one remaining Google service I rely on; Google Reader.
 [8]: http://hackemist.com/SafariOmnibar/
 [9]: http://help.duckduckgo.com/customer/portal/articles/215615-images
 [10]: http://duckduckgo.com/bang.html
-[11]: http://twitter.com/reederapp/status/164761840201641985
+[11]: https://twitter.com/reederapp/status/164761840201641985
 [12]: http://feedafever.com/
 
 *[URL]: Uniform Resouce Locator

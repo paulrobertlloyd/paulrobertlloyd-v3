@@ -42,8 +42,8 @@
 
 // Font sizes
 @mixin fs--heading-1 {
-    line-height: (28/32);
-    font-size: 2rem; // 32px
+    line-height: (32/36);
+    font-size: 2.25rem; // 36px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__b) {
@@ -148,7 +148,7 @@
 // Text underline colour
 @mixin text-decoration-color($background-color, $color) {
     @if $color != 'none' {
-        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 94%, transparent 94%);
+        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 93%, transparent 93%);
         text-decoration: none;
         text-shadow: 0.03em 0 $background-color,
                      -0.03em 0 $background-color,
@@ -183,7 +183,7 @@
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: $display;
-            border-top: $height solid $c__neutral-4;
+            border-top: $height solid rgba($c__neutral-1, 0.2);
             width: ($u__baseline * 2);
             content: '';
             @if $el == 'before' {

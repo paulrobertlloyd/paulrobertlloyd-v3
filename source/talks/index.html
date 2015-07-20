@@ -2,41 +2,29 @@
 layout: index
 title: Talks
 ---
-<section class="c-container c-container--index" aria-labelledby="appearances">
-    <header class="c-container__header">
-        <h1 class="c-container__title" id="appearances">Next…</h1>
-    </header>
-
-    <div class="c-container__main">
-        {% for item in site.data.appearances %}
-            {% include item/talk.html %}
-        {% endfor %}
-    </div>
-</section>
-
 {% assign talks = site.talks | sort:"date" %}
 {% for item in talks reversed %}
     {% assign this_year = item.date | date:"%Y" %}
 
     {% if this_year != year %}
         {% unless forloop.first %}
-            </div>
-        </section>
+    </div>
+</section>
         {% endunless %}
 
-        <section class="c-container c-container--index" aria-labelledby="year-{{ this_year }}">
-            <header class="c-container__header">
-                <h1 class="c-container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
-            </header>
+<section class="c-container c-container--index" aria-labelledby="year-{{ this_year }}">
+    <header class="c-container__header">
+        <h1 class="c-container__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+    </header>
 
-            <div class="c-container__main">
+    <div class="c-container__main">
         {% assign year = this_year %}
     {% endif %}
 
-    {% include item/talk.html %}
+        {% include item/talk.html %}
 
     {% if forloop.last %}
-            </div>
-        </section>
+    </div>
+</section>
     {% endif %}
 {% endfor %}

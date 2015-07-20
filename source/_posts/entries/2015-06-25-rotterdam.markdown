@@ -20,7 +20,7 @@ The near-complete destruction of Rotterdam after the Nazi bombing raid of 14 May
 
 Skyscrapers are a familiar sight in Rotterdam. This is especially true of the newly regenerated Kop van Zuid district, which has some similarities with London's Docklands. Although much smaller, this district is already home to the work of architects like Renzo Piano, Sir Norman Foster and Rem Koolhaas.
 
-{% figure c-figure--image-duo "Details of KPN Tower and De Rotterdam buildings in the Kop van Zuid district" %}
+{% figure "Details of KPN Tower and De Rotterdam buildings in the Kop van Zuid district" %}
 {% picture /2015/06/rotterdam_kpn_tower.jpg alt="KPN Tower" %}
 {% picture /2015/06/rotterdam_de_rotterdam.jpg alt="De Rotterdam" %}
 {% endfigure %}

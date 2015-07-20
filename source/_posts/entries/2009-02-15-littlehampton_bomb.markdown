@@ -12,7 +12,7 @@ On Friday evening I got a call from Jon on his way back to the house after a nig
 
 With some excitement, yet still fearing I might be being led up the garden path, I set foot outside the house and walked towards the end of the road. Everything seemed quiet and orderly, nothing suggesting I was in the immediate vicinity of a suspected bomb.
 
-{% figure c-figure--image-duo "Bomb scene in Littlehampton" %}
+{% figure "Bomb scene in Littlehampton" %}
 {% picture /2009/02/littlehampton_bomb_1.jpg alt="Bomb disposal team outside Littlehampton railway staion" %}
 {% picture /2009/02/littlehampton_bomb_2.jpg alt="Police presence outside Littlehampton railway staion" %}
 {% endfigure %}
@@ -23,5 +23,5 @@ After talking to some of the officers on the scene, it turns out they had been t
 
 All in all, a pretty exciting start to the weekend!
 
-[1]: http://twitter.com/
-[2]: http://twitter.com/JamesBullock/statuses/1208109114
+[1]: https://twitter.com/
+[2]: https://twitter.com/JamesBullock/status/1208109114

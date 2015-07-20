@@ -6,9 +6,16 @@ $u__shadow-size: 4px;
 
 .c-hero {
     position: relative;
+    margin-bottom: $u__baseline;
     border-bottom: 1px solid rgba($c__neutral, 0.2);
     padding-bottom: 40%;
     overflow: hidden;
+
+    @media screen and (min-width: $b__b) {
+        &.u-extend {
+            padding-bottom: 60%;
+        }
+    }
 }
 
 .c-hero__screen {
@@ -90,7 +97,7 @@ $u__shadow-size: 4px;
 
 /* Phone screen */
 .c-hero__screen--phone {
-    top: ($u__baseline * 6);
+    top: 24%;
     right: $u__baseline;
     z-index: 3;
     background-image: url(asset_path('device-phone.svg'));

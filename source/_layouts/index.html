@@ -12,19 +12,21 @@ layout: default
             {{ page.excerpt | markdownify | typogrify | namespace }}
         </div>
         {% endif %}
+        <!--BEGIN content-->
         {{ content }}
+        <!--END content-->
     </div>
 
-    {% if page.path contains "journal" %}
-    <div class="c-page__section">
-        <p class="s-prose">
-            <span class="u-sepatate"><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</span>
-            Subscribe to the <a href="/styleguide"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> feed</a>
+    {% if page.path contains "journal" or page.type != empty %}
+    <div class="c-page__section s-prose">
+        <p>
+            {% if page.path != "journal/archive.html" %}<span class="u-sepatate"><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</span>{% endif %}
+            Subscribe to the <a href="/journal/feed" rel="alternate"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> feed</a>.
         </p>
     </div>
     {% endif %}
-
-    {% if paginator.next_page or paginator.previous_page %}
-        {% include nav/paginate-indices.html %}
-    {% endif %}
 </section>
+
+{% if paginator.next_page or paginator.previous_page %}
+    {% include nav/paginate-indices.html %}
+{% endif %}
