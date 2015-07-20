@@ -69,6 +69,10 @@
     @media (min-width: $b__b) {
         @include span(7);
     }
+
+    .c-container__title {
+        @include fs--heading-3;
+    }
 }
 
 
@@ -76,6 +80,10 @@
 .c-container--extra {
     @media (min-width: $b__b) {
         @include span(5 at 8);
+    }
+
+    .c-container__title {
+        @include fs--heading-3;
     }
 }
 
