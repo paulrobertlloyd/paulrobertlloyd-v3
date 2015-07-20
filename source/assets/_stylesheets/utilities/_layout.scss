@@ -118,7 +118,13 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 .u-extend,
 %u-extend {
     @media screen and (min-width: $b__b) {
-        margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
-        margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
+        $margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
+        $margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
+        $gutter: ($u__baseline * 2);
+
+        margin-right: $margin-right;
+        margin-right: calc(#{$margin-right} - #{$gutter});
+        margin-left: $margin-left;
+        margin-left: calc(#{$margin-left} - #{$gutter});
     }
 }
