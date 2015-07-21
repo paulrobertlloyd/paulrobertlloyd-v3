@@ -2,7 +2,7 @@
 title: Mozilla Add-ons
 date: '2009-05-29'
 excerpt: Introducing browser add-ons to a mainstream audience.
-hero:
+screenshots:
   - projects/mozilla_addons/desktop-1.png
   - projects/mozilla_addons/desktop-2.png
 meta:

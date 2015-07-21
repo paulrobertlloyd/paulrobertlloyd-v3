@@ -2,7 +2,7 @@
 title: Apture
 date: '2009-05-22'
 excerpt: Designing a powerful publishing tool for the web's content creators.
-hero:
+screenshots:
   - projects/apture/desktop-1.png
   - projects/apture/desktop-2.png
 meta:

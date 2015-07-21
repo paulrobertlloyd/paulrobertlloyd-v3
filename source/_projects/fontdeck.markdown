@@ -3,7 +3,7 @@ title: Fontdeck
 date: '2010-11-30'
 excerpt: Defining a distinctive look for the purveyor of the finest web fonts.
 featured: true
-hero:
+screenshots:
   - projects/fontdeck/desktop-1.png
   - projects/fontdeck/desktop-2.png
 meta:
@@ -22,7 +22,7 @@ With limited time and budget, I was part of a small team that convened over one 
 
 The key values of the product were distilled into a compelling proposition: 'purveyors of the finest web fonts, Fontdeck is the professional web font solution; easy to use yet flexible enough to meet the real needs of designers'. This became a lightening rod for the design direction that followed.
 
-{% figure u-pull-left "<cite>Richard Rutter, co-founder and CEO</cite>" %}
+{% figure u-pull-right "<cite>Richard Rutter, co-founder and CEO</cite>" %}
 > Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.
 {% endfigure %}
 

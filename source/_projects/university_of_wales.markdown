@@ -2,7 +2,7 @@
 title: University of Wales
 date: '2009-10-29'
 excerpt: An extensible design language for international university.
-hero:
+screenshots:
   - projects/university_of_wales/desktop-1.png
   - projects/university_of_wales/desktop-2.png
 meta:

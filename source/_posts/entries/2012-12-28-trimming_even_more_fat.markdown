@@ -60,15 +60,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="c-chart__label">First byte</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:12.25%;">1.225 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:12.25%;">1,225 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Document Complete</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:67.22%;">6.722 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:67.22%;">6,722 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Fully Loaded</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:67.98%;">6.798 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:67.98%;">6,798 ms</span></td>
         </tr>
     </tbody>
     <tbody>
@@ -77,15 +77,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="c-chart__label">First Byte</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:1.89%;">0.189 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:1.89%;">189 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Document Complete</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:29.88%;">2.988 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:29.88%;">2,988 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Fully Loaded</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:30.64%;">3.064 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:30.64%;">3,064 ms</span></td>
         </tr>
     </tbody>
 </table>
@@ -99,15 +99,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="c-chart__label">First Byte</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:11.88%;">1.188 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:11.88%;">1,188 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Document Complete</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:19.61%;">1.961 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:19.61%;">1,961 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Fully Loaded</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:34.45%;">3.445 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:34.45%;">3,445 ms</span></td>
         </tr>
     </tbody>
     <tbody>
@@ -116,15 +116,15 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
         </tr>
         <tr>
             <td class="c-chart__label">First Byte</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.87%;">0.387 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.87%;">387 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Document Complete</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:7.43%;">0.743 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:7.43%;">743 ms</span></td>
         </tr>
         <tr>
             <td class="c-chart__label">Fully Loaded</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:7.43%;">0.743 s</span></td>
+            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:7.43%;">743 ms</span></td>
         </tr>
     </tbody>
 </table>
@@ -151,7 +151,7 @@ I dare say further improvements could be made, and I wouldn't be surprised if I'
 *[kB]: Kilobyte
 *[PHP]: PHP: Hypertext Preprocessor
 *[PNG]: Portable Network Graphic
-*[s]: seconds
+*[ms]: milliseconds
 *[SQL]: Search and Query Language
 *[SVG]: Scalable Vector Graphics
 *[URI]: Uniform Resouce Indicator

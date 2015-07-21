@@ -4,17 +4,16 @@
 
 // Units
 $u__font-size: (16/16)*100%;
-$u__baseline-unitless: 16/(16*($u__font-size/100%));
-$u__baseline: $u__baseline-unitless * 1rem;
+$u__baseline: 1rem;
 $u__max-width: 60rem;
 
 
 // Colours
-$c__neutral: hsb(300, 20, 10);
-$c__neutral-1: lighten($c__neutral, 04%);
-$c__neutral-4: lighten($c__neutral, 40%);
-$c__neutral-7: lighten($c__neutral, 64%);
-$c__neutral-9: lighten($c__neutral, 88%);
+$c__neutral-0: hsb(300, 20, 10);
+$c__neutral-1: lighten($c__neutral-0, 04%);
+$c__neutral-4: lighten($c__neutral-0, 40%);
+$c__neutral-7: lighten($c__neutral-0, 64%);
+$c__neutral-9: lighten($c__neutral-0, 88%);
 
 $c__primary-purple: hsb(300, 60, 80);
 $c__primary-blue: hsb(220, 60, 80);
@@ -51,3 +50,20 @@ $susy: (
 //        toggle: bottom right,
 //    )
 );
+
+
+// Nested grid constructs
+$gn__ratio: (12/8); // Ratio: outer columns/inner columns
+$gn__gutter: (gutter() * $gn__ratio);
+
+$gn__span1: (span(1) * $gn__ratio);
+$gn__span1-wide: ($gn__span1 + $gn__gutter);
+
+$gn__span2: (span(2) * $gn__ratio);
+$gn__span2-wide: ($gn__span2 + $gn__gutter);
+
+$gn__span3: (span(3) * $gn__ratio);
+$gn__span3-wide: ($gn__span3 + $gn__gutter);
+
+$gn__span4: (span(4) * $gn__ratio);
+$gn__span4-wide: ($gn__span4 + $gn__gutter);
