@@ -2,7 +2,7 @@
 title: Nuts.com
 date: '2011-05-27'
 excerpt: Incremental redesign for family run, customer-focused food retailer.
-hero:
+screenshots:
   - projects/nuts/desktop-1.png
   - projects/nuts/desktop-2.png
 meta:

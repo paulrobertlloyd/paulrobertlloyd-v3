@@ -4,11 +4,8 @@ series: Style guide
 date: '2015-07-12 00:00:03 +0000'
 excerpt: Finite, discrete, implementation-specific parts of our UI.
 meta:
-  Simple: Simple texual content
-  HTML: |
-    Values can also include HTML
-    * Such a list
-    * Like this one
+  Born: 17 August 1980
+  Lives: Brighton, England
 ---
 ## Buttons
 Buttons are normally used to submit form data, although on occasion it may be desired to have a link appear like a button too. In both cases, the `.c-button`{: .language-css} component class is used. Example:
@@ -149,14 +146,11 @@ The `.c-figure--caption-right`{: .language-css} modifier moves the caption to th
 {% picture thumbnail /styleguide/pattern_5.jpg alt="Image 5" %}
 {% endfigure %}
 
-## Forms
-_TBD_
+## Screenshots
+The `.c-screenshots`{: .language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
 
-## Hero
-The `.c-hero`{: .language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
-
-{% assign hero = "projects/bradshaws_guide/desktop.png|projects/bradshaws_guide/tablet.png|projects/bradshaws_guide/phone.png" | split: "|" %}
-{% include hero.html imageset=hero %}
+{% assign screenshots = "projects/bradshaws_guide/desktop.png|projects/bradshaws_guide/tablet.png|projects/bradshaws_guide/phone.png" | split: "|" %}
+{% include screenshots.html imageset=screenshots %}
 
 ## Meta information
 {% include meta.html %}
@@ -170,3 +164,6 @@ The `.c-hero`{: .language-css} component class is used to display a combintion o
 
 ## Tags
 {% include tag.html tag="tag name" %}
+
+## Forms
+_TBD_

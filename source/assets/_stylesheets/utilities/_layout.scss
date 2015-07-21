@@ -2,11 +2,6 @@
     Layout
     ========================================================================= */
 
-$g__ratio: (12/8); // Outer column count/inner column count
-$g__inner-gutter: (gutter() * $g__ratio);
-$g__inner-pull-left: (span(3) * $g__ratio);
-$g__inner-pull-right: (span(1) * $g__ratio);
-
 /* Container */
 .u-container {
     @include container($u__max-width);
@@ -27,6 +22,105 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 }
 
 
+/* Align element right or left */
+.u-align-right {
+    float: right;
+    margin-top: 0 !important;
+    margin-bottom: ($u__baseline / 2);
+    margin-left: $gn__gutter;
+    width: $gn__span2;
+}
+
+.u-align-left {
+    float: left;
+    margin-top: 0 !important;
+    margin-right: $gn__gutter;
+    margin-bottom: ($u__baseline / 2);
+    width: $gn__span2;
+}
+
+
+/* Pull element aside */
+.u-aside {
+    margin-top: 0 !important;
+
+    @media screen and (min-width: $b__b) {
+        float: left;
+        margin-right: $gn__gutter;
+        margin-left: (-$gn__span3-wide);
+        width: $gn__span3;
+    }
+
+    + * {
+        margin-top: 0 !important;
+    }
+}
+
+
+/* Pull element right or left */
+.u-pull-right {
+    margin-top: 0 !important;
+
+    @media (min-width: $b__a) {
+        float: right;
+        margin-left: $gn__gutter;
+        width: $gn__span4;
+    }
+
+    @media screen and (min-width: $b__b) {
+        margin-right: (-$gn__span1-wide);
+    }
+}
+
+.u-pull-left {
+    margin-top: 0 !important;
+
+    @media (min-width: $b__a) {
+        float: left;
+        margin-right: $gn__gutter;
+        width: $gn__span4;
+    }
+
+    @media screen and (min-width: $b__b) {
+        margin-left: (-$gn__span3-wide);
+    }
+}
+
+
+/* Extend element to full width of .u-container */
+.u-extend,
+%u-extend {
+    @media screen and (min-width: $b__b) {
+        margin-right: (-$gn__span1-wide);
+        margin-left: (-$gn__span3-wide);
+    }
+}
+
+
+/* On narrow breakpoints, bleed element to full width of viewport */
+.u-bleed {
+    margin-right: (-$u__baseline);
+    margin-left: (-$u__baseline);
+
+    @media (min-width: $b__a) {
+        margin-right: ($u__baseline * -2);
+        margin-left: ($u__baseline * -2);
+    }
+
+    @media screen and (min-width: $b__b) {
+        margin-right: (-$gn__span1-wide);
+        margin-right: calc(#{(-$gn__span1-wide)} + #{($u__baseline * -2)});
+        margin-left: (-$gn__span3-wide);
+        margin-left: calc(#{(-$gn__span3-wide)} + #{($u__baseline * -2)});
+    }
+
+    @media screen and (min-width: $b__c) {
+        margin-right: (-$gn__span1-wide);
+        margin-left: (-$gn__span3-wide);
+    }
+}
+
+
 /* Vertically separate two strings with a slash */
 .u-separate {
     &::after {
@@ -38,87 +132,5 @@ $g__inner-pull-right: (span(1) * $g__ratio);
 
     &:nth-child(n+2):last-child::after {
         content: none;
-    }
-}
-
-
-/* Align element right or left */
-.u-align-right {
-    float: right;
-    margin-top: 0;
-    margin-bottom: ($u__baseline / 2);
-    margin-left: $g__inner-gutter;
-    width: (span(2) * $g__ratio);
-}
-
-.u-align-left {
-    float: left;
-    margin-top: 0;
-    margin-right: $g__inner-gutter;
-    margin-bottom: ($u__baseline / 2);
-    width: (span(2) * $g__ratio);
-}
-
-
-/* Pull element aside */
-.u-aside {
-    @media screen and (min-width: $b__b) {
-        float: left;
-        margin-right: $g__inner-gutter;
-        margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
-        width: $g__inner-pull-left;
-    }
-
-    + * {
-        margin-top: 0 !important;
-    }
-}
-
-
-/* Pull element right or left */
-.u-pull-right {
-    @media (min-width: $b__a) {
-        float: right;
-        margin-left: $g__inner-gutter;
-        width: (span(4) * $g__ratio);
-    }
-
-    @media screen and (min-width: $b__b) {
-        margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
-    }
-}
-
-.u-pull-left {
-    @media (min-width: $b__a) {
-        float: left;
-        margin-right: $g__inner-gutter;
-        width: (span(4) * $g__ratio);
-    }
-
-    @media screen and (min-width: $b__b) {
-        margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
-    }
-}
-
-
-/* On wider breakpoints, bleed element to edges of the main container */
-.u-bleed {
-    margin-right: ($u__baseline * -1);
-    margin-left: ($u__baseline * -1);
-
-    @media (min-width: $b__a) {
-        margin-right: ($u__baseline * -2);
-        margin-left: ($u__baseline * -2);
-    }
-}
-
-
-/* On wider breakpoints, extend element outwards by an additional column */
-.u-bleed,
-.u-extend,
-%u-extend {
-    @media screen and (min-width: $b__b) {
-        margin-right: (($g__inner-pull-right + $g__inner-gutter) * -1);
-        margin-left: (($g__inner-pull-left + $g__inner-gutter) * -1);
     }
 }

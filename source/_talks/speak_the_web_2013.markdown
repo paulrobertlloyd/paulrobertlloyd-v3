@@ -6,7 +6,7 @@ link:
   url: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web
   embed: slidedeck
 meta:
-  event: 'Speak the Web'
+  event: 'Speak the Web 2013'
   location: 'Sheffield, England'
   resources: '[Notes](http://paulrobertlloyd.com/downloads/2013/07/this_is_for_everyone.pdf)'
 ---
