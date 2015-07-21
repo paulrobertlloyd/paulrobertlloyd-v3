@@ -25,7 +25,7 @@
 /* Align element right or left */
 .u-align-right {
     float: right;
-    margin-top: 0;
+    margin-top: 0 !important;
     margin-bottom: ($u__baseline / 2);
     margin-left: $gn__gutter;
     width: $gn__span2;
@@ -33,7 +33,7 @@
 
 .u-align-left {
     float: left;
-    margin-top: 0;
+    margin-top: 0 !important;
     margin-right: $gn__gutter;
     margin-bottom: ($u__baseline / 2);
     width: $gn__span2;
@@ -42,6 +42,8 @@
 
 /* Pull element aside */
 .u-aside {
+    margin-top: 0 !important;
+
     @media screen and (min-width: $b__b) {
         float: left;
         margin-right: $gn__gutter;
@@ -57,6 +59,8 @@
 
 /* Pull element right or left */
 .u-pull-right {
+    margin-top: 0 !important;
+
     @media (min-width: $b__a) {
         float: right;
         margin-left: $gn__gutter;
@@ -69,6 +73,8 @@
 }
 
 .u-pull-left {
+    margin-top: 0 !important;
+
     @media (min-width: $b__a) {
         float: left;
         margin-right: $gn__gutter;
