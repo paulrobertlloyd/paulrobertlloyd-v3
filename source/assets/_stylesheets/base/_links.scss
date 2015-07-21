@@ -4,23 +4,14 @@
     ========================================================================= */
 
 a {
+/*  Remove gray background color from active links in IE 10 */
+    background-color: transparent;
     text-decoration: none;
 
     &:active,
     &:hover {
     /*  Improve readability when focused and mouse hovered in all browsers */
         outline: 0;
-    }
-
-    &:focus {
-        outline: 1px solid $c__focus;
-        background-color: $c__focus;
-    }
-
-    &:active {
-        outline: 0;
-    /*  Remove gray background color from active links in IE 10 */
-        background-color: transparent;
     }
 }
 

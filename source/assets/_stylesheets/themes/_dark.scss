@@ -2,56 +2,76 @@
     Theme: Inverted
     ========================================================================= */
 
+// Theme variables
+$c__t-dark--background: $c__neutral-1;
+$c__t-dark--text: $c__neutral-9;
+$c__t-dark--hover: $c__primary-purple;
+$c__t-dark--active: #fff;
+
 .t-dark {
     @media screen {
         body {
-            background-color: $c__neutral-1;
-            color: $c__neutral-9;
+            background-color: $c__t-dark--background;
+            color: $c__t-dark--text;
         }
 
         a,
         .c-button {
             color: inherit;
 
+            &:focus {
+                outline: 2px solid $c__focus;
+                background-color: $c__focus;
+                color: $c__t-dark--background;
+            }
+
             &:hover {
-                border-color: $c__primary-purple;
-                color: $c__primary-purple;
+                border-color: $c__t-dark--hover;
+                color: $c__t-dark--hover;
             }
 
             &:active {
-                border-color: #fff;
-                color: #fff;
+                outline: 0;
+                border-color: $c__t-dark--active;
+                background-color: transparent;
+                color: $c__t-dark--active;
             }
         }
 
-        .c-banner__logo {
-            fill: $c__neutral-9;
-
-            &:hover {
-                fill: $c__primary-purple;
+        .c-banner__home {
+            .c-banner__logo {
+                fill: $c__t-dark--text;
             }
 
-            &:active {
-                fill: #fff;
+            &:focus .c-banner__logo {
+                fill: $c__t-dark--background;
+            }
+
+            &:hover .c-banner__logo {
+                fill: $c__t-dark--hover;
+            }
+
+            &:active .c-banner__logo {
+                fill: $c__t-dark--active;
             }
         }
 
         .c-navigation {
-            background-color: rgba($c__neutral-1, 0.95);
+            background-color: rgba($c__t-dark--background, 0.95);
         }
 
         .s-prose {
             a:not(.c-button):not(.c-nav__item__label) {
-                @include text-decoration-color($c__neutral-1, $c__primary-purple);
+                @include text-decoration-color($c__t-dark--background, $c__t-dark--hover);
             }
 
             a:not(.c-button):not(.c-nav__item__label):active {
-                @include text-decoration-color($c__neutral-1, #fff);
+                @include text-decoration-color($c__t-dark--background, $c__t-dark--active);
             }
         }
 
         .u-block-link .s-prose {
-            color: $c__neutral-9;
+            color: $c__t-dark--text;
         }
     }
 }
