@@ -46,7 +46,7 @@ Each shift began inside the stadium with everyone taking part in a [haka][7] (mi
 {% picture /2014/08/clyde_sider_papercut.png alt="" %}
 {% endfigure %}
 
-The organisers went to great lengths to ensure Clyde-siders were looked after and appreciated. Between ingress and egress, volunteers were able to sit in the stadium and watch the action. The sandwiches available during lunch breaks were a particular highlight, with hot items available during evening shifts. Volunteers were also given limited edition gifts, including a beautiful commemorative print celebrating the journey Clyde-siders had been on and shown above. The uniform, while less distinctive (read: less embarrassing) than those worn in London was more rugged, and clearly designed with Glasgow's weather in mind.
+The organisers went to great lengths to ensure Clyde-siders were looked after and appreciated. Between ingress and egress, volunteers were able to sit in the stadium and watch the action. The sandwiches available during lunch breaks were a particular highlight, with hot items available during evening shifts. Volunteers were also given limited edition gifts, including a beautiful commemorative print celebrating the journey Clyde-siders had been on (shown above). The uniform, while less distinctive (read: less embarrassing) than those worn in London was more rugged, and clearly designed with Glasgow's weather in mind.
 
 ## A Reminder
 The best feature of the uniform was that it gave people a reason to start a conversion. I spoke with a number of Glaswegians who were immensely proud of their city, slightly embarrassed by the opening ceremony, and thankful for those who offered to volunteer.
