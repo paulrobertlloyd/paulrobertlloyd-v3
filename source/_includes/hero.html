@@ -1,5 +1,0 @@
-<div class="c-hero {{ include.class }}">
-{% for image in include.imageset %}
-    <img class="c-hero__screen c-hero__screen--{{ image | split:"/" | last | remove:".png" }}" src="{{ site.picture.cdn_url }}/640w/90/{{ image }}" alt=""/>
-{% endfor %}
-</div>

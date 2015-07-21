@@ -22,8 +22,8 @@ One of the reasons I liked Movable Type was that it allowed you to generate stat
 
 Since I made this choice, Jekyll has matured considerably, and the team is not far from launching the next major version, [Jekyll 3.0][13]. All that's missing is the ability to paginate between any given collection of documents (be they posts, pages or collections), and faster rebuild times; even with the new incremental generation feature, rebuilds can still sometimes take around 180 seconds.
 
-{% assign hero = "2015/07/shipped/tablet-1.png|2015/07/shipped/tablet-2.png|2015/07/shipped/phone.png" | split: "|" %}
-{% include hero.html imageset=hero class="u-extend" %}
+{% assign screenshots = "2015/07/shipped/tablet-1.png|2015/07/shipped/tablet-2.png|2015/07/shipped/phone.png" | split: "|" %}
+{% include screenshots.html imageset=screenshots class="u-extend" %}
 
 ## A European Flavour
 While I briefly considered maintaining the previous design and just updating the CMS, a long list of accumulated grievances meant a new design was always the preferred option.

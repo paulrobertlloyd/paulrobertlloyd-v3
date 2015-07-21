@@ -149,14 +149,11 @@ The `.c-figure--caption-right`{: .language-css} modifier moves the caption to th
 {% picture thumbnail /styleguide/pattern_5.jpg alt="Image 5" %}
 {% endfigure %}
 
-## Forms
-_TBD_
+## Screenshots
+The `.c-screenshots`{: .language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
 
-## Hero
-The `.c-hero`{: .language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
-
-{% assign hero = "projects/bradshaws_guide/desktop.png|projects/bradshaws_guide/tablet.png|projects/bradshaws_guide/phone.png" | split: "|" %}
-{% include hero.html imageset=hero %}
+{% assign screenshots = "projects/bradshaws_guide/desktop.png|projects/bradshaws_guide/tablet.png|projects/bradshaws_guide/phone.png" | split: "|" %}
+{% include screenshots.html imageset=screenshots %}
 
 ## Meta information
 {% include meta.html %}
@@ -170,3 +167,6 @@ The `.c-hero`{: .language-css} component class is used to display a combintion o
 
 ## Tags
 {% include tag.html tag="tag name" %}
+
+## Forms
+_TBD_

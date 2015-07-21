@@ -3,7 +3,7 @@ title: Fontdeck
 date: '2010-11-30'
 excerpt: Defining a distinctive look for the purveyor of the finest web fonts.
 featured: true
-hero:
+screenshots:
   - projects/fontdeck/desktop-1.png
   - projects/fontdeck/desktop-2.png
 meta:

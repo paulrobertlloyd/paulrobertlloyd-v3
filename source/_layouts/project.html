@@ -5,8 +5,8 @@ layout: default
     {% include page/header.html %}
 
     <div class="c-page__section s-prose s-prose--body e-content">
-        {% if page.hero %}
-            {% include hero.html imageset=page.hero class="u-extend" %}
+        {% if page.screenshots %}
+            {% include screenshots.html imageset=page.screenshots class="u-extend" %}
         {% endif %}
 
         {% if page.meta %}
