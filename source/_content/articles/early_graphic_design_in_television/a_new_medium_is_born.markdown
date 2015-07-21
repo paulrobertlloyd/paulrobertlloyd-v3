@@ -54,7 +54,7 @@ After his career was interrupted by World War II, he returned to CBS and produce
 However his greatest creation was his corporate identity for CBS Television the well-known CBS 'eye' (see below) first aired on the 6th November 1951. He died at the age of 49, only a few months after being awarded art director of the year by the New York Art Directors Club in 1959.
 
 {% figure c-figure--caption-right "Figure 3: Corporate logo for CBS Television (CBS 1951-Present Day). Graphic Designer: William Golden (right)" %}
-{% picture supporting /articles/early_graphic_design_in_television/figure-3.png alt="The CBS Eye and its designer, William Golden" %}
+{% picture /articles/early_graphic_design_in_television/figure-3.png alt="The CBS Eye and its designer, William Golden" %}
 {% endfigure %}
 
 It was Saul Bass though, who was to have the most influence on designers in the profession even though he had closer links with film than television. Saul Bass was also born in New York in 1920 where he studied at the Art Students League and Brooklyn College and worked for a number of years. In 1946 he moved to Los Angeles, were he began to produce graphics for advertising.
