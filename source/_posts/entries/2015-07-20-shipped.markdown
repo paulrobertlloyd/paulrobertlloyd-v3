@@ -11,7 +11,7 @@ tags:
   - Web
 discussion: open
 ---
-Given the obsessive compulsive behaviour I exhibit when it comes to tinkering with this website, I've started to question whether I have an addictive personality or not. In what has become a familiar pattern, having decided to embark on a redesign last February, I spent the following 18 months [iterating and iterating][1]. During this period, [other projects][2] have fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
+Given the obsessive compulsive behaviour I exhibit when it comes to tinkering with this website, I've started to question whether I have an addictive personality or not. In what has become a familiar pattern, having decided to embark on a redesign last February, I've spent the following 18 months [iterating and iterating][1]. During this period, [other projects][2] have fallen by the wayside, as I get distracted by yet another feature addition, performance improvement or design detail.
 
 This year's Indie Web Camp in Brighton was the latest in a long line of deadlines I'd set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this was the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I spent last week revising and polishing to the point that I can finally say: "okay, you can look at it now".
 
