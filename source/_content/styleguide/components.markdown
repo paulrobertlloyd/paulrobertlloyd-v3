@@ -4,11 +4,8 @@ series: Style guide
 date: '2015-07-12 00:00:03 +0000'
 excerpt: Finite, discrete, implementation-specific parts of our UI.
 meta:
-  Simple: Simple texual content
-  HTML: |
-    Values can also include HTML
-    * Such a list
-    * Like this one
+  Born: 17 August 1980
+  Lives: Brighton, England
 ---
 ## Buttons
 Buttons are normally used to submit form data, although on occasion it may be desired to have a link appear like a button too. In both cases, the `.c-button`{: .language-css} component class is used. Example:
