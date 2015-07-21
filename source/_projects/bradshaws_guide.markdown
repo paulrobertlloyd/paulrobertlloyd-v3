@@ -3,7 +3,7 @@ title: Bradshaw's Guide
 date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 featured: true
-hero:
+screenshots:
   - projects/bradshaws_guide/desktop.png,
   - projects/bradshaws_guide/tablet.png
   - projects/bradshaws_guide/phone.png

@@ -3,7 +3,7 @@ title: Ning
 date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
 featured: true
-hero:
+screenshots:
   - projects/ning/desktop-1.png
   - projects/ning/desktop-2.png
 meta:
