@@ -13,6 +13,19 @@
     margin-bottom: ($u__baseline / 2);
 }
 
+.c-form__field--search {
+    position: relative;
+
+    .c-form__field--search-icon {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: ($u__baseline * 2/3);
+        fill: $c__neutral-1;
+    }
+}
+
 .c-form__label {
     .c-form__field--combined & {
         position: absolute;
@@ -46,10 +59,14 @@
     border-radius: 0;
     background-color: $c__neutral-9;
     padding: ($u__baseline / 2);
+    width: 100%;
+
+    &:focus {
+        box-shadow: inset 0 0 0 2px $c__highlight;
+    }
 
     .c-form__field--combined & {
         padding-top: ($u__baseline * 3);
-        width: 100%;
 
         @media (min-width: $b__a) {
             padding-top: ($u__baseline / 2);
@@ -58,17 +75,12 @@
     }
 
     .c-form__field--with-submit & {
-        flex: 4;
+        flex: 1 1 auto;
     }
 
-    &:focus {
-        box-shadow: inset 0 0 0 2px $c__highlight;
+    .c-form__field--search & {
+        padding-left: ($u__baseline * 2);
     }
-}
-
-.c-form__input--search {
-    padding: ($u__baseline / 2);
-    text-align: center;
 }
 
 .c-form__input--textarea {
@@ -80,6 +92,6 @@
 
     .c-form__field--with-submit & {
         margin-left: -1px;
-        flex: 1;
+        flex: 0 0 auto;
     }
 }

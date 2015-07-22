@@ -1,13 +1,13 @@
 <form class="c-form c-form--search" action="https://duckduckgo.com/html/" method="get" role="search" id="search">
     <fieldset class="c-form__fieldset">
-        <label class="c-form__field">
-            <span class="u-hidden">Search keywords</span>
-            <input class="c-form__input c-form__input--search" name="q" type="text" placeholder="e.g. Brasilia, Design, Olympics…"/>
+        <label class="c-form__field c-form__field--search c-form__field--with-submit">
+            {% asset c-form__field--search-icon.svg %}
+            <input class="c-form__input" name="q" type="text" placeholder="e.g. Brasilia, Design, Olympics…"/>
+            <input class="c-form__submit c-button" type="submit" value="Search with DuckDuckGo"/>
+            <input class="c-form__hidden" name="sites" type="hidden" value="{{ site.url }}"/>
+            <input class="c-form__hidden" name="kl" type="hidden" value="uk-en"/>
         </label>
     </fieldset>
-    <input class="c-form__hidden" name="sites" type="hidden" value="{{ site.url }}"/>
-    <input class="c-form__hidden" name="kl" type="hidden" value="uk-en"/>
-    <input class="c-form__submit c-button" type="submit" value="Search site with DuckDuckGo"/>
     <script>
         {% asset search.js %}
     </script>
