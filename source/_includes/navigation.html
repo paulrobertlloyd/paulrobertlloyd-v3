@@ -2,7 +2,7 @@
     <h1 class="c-navigation__title u-hidden" id="menu">Menu</h1>
 
     <p class="c-navigation__links">
-        <a class="c-navigation__link{% if page.path contains "journal" or page.path contains "_posts" or page.type == "year" or page.type == "month" %} is-active{% endif %}" href="/journal/" tabindex="2">
+        <a class="c-navigation__link{% if page.path contains "journal" or page.path contains "_posts" or page.type == "year" or page.type == "month" or page.type == "tag" %} is-active{% endif %}" href="/journal/" tabindex="2">
             <span class="c-navigation__label">Journal</span>
         </a>
         <a class="c-navigation__link{% if page.path contains "projects" %} is-active{% endif %}" href="/projects/" tabindex="3">
