@@ -4,7 +4,7 @@
 
         <p class="c-item__meta">
             <strong class="u-separate">{{ item.publication }}</strong>
-            <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" }}</time>
+            <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" | typogrify }}</time>
         </p>
     </a>
 </article>
