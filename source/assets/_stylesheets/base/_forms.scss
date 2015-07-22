@@ -85,6 +85,10 @@ button,
     -webkit-appearance: none;
 }
 
+[hidden] {
+    display: none;
+}
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
 /*  Remove inner padding and border in Firefox 4+ */
