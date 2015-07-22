@@ -12,9 +12,8 @@ layout: default
             {{ page.excerpt | markdownify | typogrify | namespace }}
         </div>
         {% endif %}
-        <!--BEGIN content-->
+
         {{ content }}
-        <!--END content-->
     </div>
 
     {% if page.path contains "journal" or page.type == "year" or page.type == "month" %}
