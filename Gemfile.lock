@@ -37,7 +37,7 @@ GEM
     ffi (1.9.10)
     formatador (0.2.5)
     gemoji (2.1.0)
-    guard (2.12.8)
+    guard (2.12.9)
       formatador (>= 0.2.4)
       listen (>= 2.7, <= 4.0)
       lumberjack (~> 1.0)
