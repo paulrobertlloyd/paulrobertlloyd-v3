@@ -166,4 +166,14 @@ The `.c-screenshots`{: .language-css} component class is used to display a combi
 {% include tag.html tag="tag name" %}
 
 ## Forms
-_TBD_
+
+The `.c-form` component class and child component classes, are used to display various forms used across the site.
+
+### Contact form
+{% include form/contact.html %}
+
+### Search form
+{% include form/search.html %}
+
+### Webmetions form
+{% include form/webmention.html %}

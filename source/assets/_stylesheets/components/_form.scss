@@ -43,6 +43,7 @@
         border: dashed rgba($c__neutral-0, 0.2);
         border-width: 0 0 1px;
         padding: ($u__baseline / 2);
+        line-height: 1.5;
         font-weight: 700;
 
         @media (min-width: $b__a) {
