@@ -9,7 +9,7 @@
 (function (win, doc) {
     'use strict';
 
-    var breakpoint = win.getComputedStyle(doc.documentElement, ':after').getPropertyValue('content');
+    // var breakpoint = win.getComputedStyle(doc.documentElement, ':after').getPropertyValue('content');
     var p          = doc.getElementsByTagName('p'); // Embed.rb generates a <p> element, so look for those first
 
     for (var i = 0; i < p.length; i = i + 1) {

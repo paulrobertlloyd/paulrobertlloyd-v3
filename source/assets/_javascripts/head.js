@@ -40,7 +40,7 @@
                 callback();
             } else {
                 setTimeout (function () {
-                    link.onloadcssdefined (callback);
+                    link.onloadcssdefined(callback);
                 });
             }
         };

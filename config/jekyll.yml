@@ -90,6 +90,11 @@ assets:
     - assets/_stylesheets
     - assets/_vectors
   css_compressor: sass
+  js_compressor: uglifier
+
+# HTML Compression
+compress_html:
+  clippings: all
 
 # Pictures
 picture:

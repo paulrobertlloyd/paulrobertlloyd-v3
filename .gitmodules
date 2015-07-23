@@ -1,6 +1,3 @@
-[submodule "source/assets/_javascripts/vendor/promis"]
-	path = source/assets/_javascripts/vendor/promis
-	url = https://github.com/bramstein/promis.git
 [submodule "source/assets/_javascripts/vendor/fontfaceobserver"]
 	path = source/assets/_javascripts/vendor/fontfaceobserver
 	url = https://github.com/bramstein/fontfaceobserver.git
