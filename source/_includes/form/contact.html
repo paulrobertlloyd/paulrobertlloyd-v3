@@ -1,20 +1,26 @@
 <form class="form form--contact" action="https://formspree.io/contact@public.paulrobertlloyd.com" method="post">
     <fieldset class="c-form__fieldset">
-        <label class="c-form__field c-form__field--combined">
-            <span class="c-form__label">Your name</span>
-            <input class="c-form__input c-form__input--text" name="name" type="text"/>
+        <p class="c-form__field">
+            <span class="c-form__label-inline">
+                <label class="c-form__label" for="name">Your name</label>
+                <input class="c-form__input c-form__input--text" name="name" id="name" type="text" required/>
+            </span>
             <input class="c-form__input c-form__input--text" name="_gotcha" type="text" hidden aria-hidden="true" tabindex="-1"/>
-        </label>
-        <label class="c-form__field c-form__field--combined">
-            <span class="c-form__label" for="_replyto">Your email</span>
-            <input class="c-form__input c-form__input--text" name="_replyto" type="email"/>
-        </label>
-        <label class="c-form__field c-form__field--combined">
-            <span class="c-form__label" for="message">Message</span>
-            <textarea class="c-form__input c-form__input--textarea" name="message" row="20" cols="40"></textarea>
-        </label>
+        </p>
+        <p class="c-form__field">
+            <span class="c-form__label-inline">
+                <label class="c-form__label" for="replyto" for="replyto">Your email</label>
+                <input class="c-form__input c-form__input--text" name="_replyto" id="replyto" type="email" required/>
+            </span>
+        </p>
+        <p class="c-form__field">
+            <span class="c-form__label-inline">
+                <label class="c-form__label" for="message" for="message">Message</label>
+                <textarea class="c-form__input c-form__input--textarea" name="message" id="message" required row="20" cols="40"></textarea>
+            </span>
+        </p>
+        <input class="c-form__hidden" name="_next" type="hidden" value="{{ site.url }}/contact/thanks"/>
+        <input class="c-form__hidden" name="_subject" type="hidden" value="[{{ site.title }}] New message"/>
     </fieldset>
-    <input class="c-form__hidden" name="_next" type="hidden" value="{{ site.url }}/contact/thanks"/>
-    <input class="c-form__hidden" name="_subject" type="hidden" value="[{{ site.title }}] New message"/>
     <input class="c-form__submit c-button" type="submit" value="Send"/>
 </form>
