@@ -70,18 +70,13 @@
 }
 
 @mixin fs--heading-3 {
-    line-height: (24/20);
+    line-height: (22/20);
     font-size: 1.25rem; // 20px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__b) {
         line-height: (28/24);
         font-size: 1.5rem; // 24px
-    }
-
-    @media (min-width: $b__c) {
-        line-height: (32/28);
-        font-size: 1.75rem; // 28px
     }
 }
 
@@ -132,8 +127,8 @@
 }
 
 @mixin fs--caption {
-    line-height: (20/15);
-    font-size: 0.9375rem; // 15px
+    line-height: (20/16);
+    font-size: 1rem; // 16px
 }
 
 
@@ -170,6 +165,11 @@
                      -0.12em 0 $background-color,
                      0.15em 0 $background-color,
                      -0.15em 0 $background-color;
+
+        &:focus {
+            background-image: linear-gradient(to bottom, transparent 89%, $c__neutral-1 89%, $c__neutral-1 93%, transparent 93%);
+            text-shadow: none;
+        }
 
         &::selection {
             text-shadow: none;

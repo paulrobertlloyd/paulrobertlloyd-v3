@@ -1,6 +1,6 @@
 // Load webfonts
-// = require vendor/promis/promise
 // = require vendor/fontfaceobserver/fontfaceobserver
+
 (function (win, doc) {
     'use strict';
 
@@ -33,11 +33,9 @@
         style: 'normal'
     });
 
-    win.Promise
-        .all([tiemposRegular.check, tiemposItalic.check, calibreRegular.check, calibreItalic.check, calibreSemibold.check])
-        .then(function () {
-            doc.documentElement.className += ' fonts-loaded';
-            win.enhance.cookie('fonts-loaded', !0, 7);
-        });
+    win.Promise.all([tiemposRegular.check, tiemposItalic.check, calibreRegular.check, calibreItalic.check, calibreSemibold.check]).then(function () {
+        doc.documentElement.className += ' fonts-loaded';
+        win.enhance.cookie('fonts-loaded', !0, 7);
+    });
 
 }(this, this.document));

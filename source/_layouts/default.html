@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
 <html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %} fonts-loaded">
@@ -43,7 +46,6 @@
     <meta name="fullcss"  content="{% asset_path global.css %}">
     <meta name="fulljs" content="{% asset_path global.js %}">
 
-    <noscript><link rel="stylesheet" href="{% asset_path global.css %}"></noscript>
 <!--#if expr="$HTTP_COOKIE=/fullcss\=true/"-->
     <link rel="stylesheet" href="{% asset_path global.css %}"/>
 <!--#else-->
@@ -61,6 +63,9 @@
     <script>
         {% asset head.js %}
     </script>
+    <noscript>
+        <link rel="stylesheet" href="{% asset_path global.css %}">
+    </noscript>
 
     <title>{% if page.title %}{% include title.html %} / {% endif %}{{ site.title }}</title>
 </head>

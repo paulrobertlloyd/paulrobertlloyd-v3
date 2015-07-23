@@ -8,7 +8,7 @@
 }
 
 .c-container__header {
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 0.75);
 }
 
 .c-container__main {

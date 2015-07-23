@@ -7,6 +7,10 @@
 }
 
 .o-list--inline {
+    @media (max-width: $b__a) {
+        line-height: 2;
+    }
+
     .o-list__item {
         display: inline;
     }
