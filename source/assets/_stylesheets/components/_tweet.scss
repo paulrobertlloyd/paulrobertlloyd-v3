@@ -16,7 +16,7 @@
         display: block;
         position: absolute;
         top: auto;
-        bottom: -0.825rem;
+        bottom: -1.5rem;
         left: ($u__baseline * 1.5);
         transform: rotate(-45deg);
         opacity: 1;
@@ -26,6 +26,7 @@
         width: 1.5rem;
         height: 1.5rem;
         content: '';
+        transform-origin: 0 0;
     }
 
     :last-child {
