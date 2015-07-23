@@ -11,8 +11,8 @@ author:
 
 # License
 license:
-  type: Creative Commons
-  title: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  type: Creative Commons (BY-NC-SA)
+  title: 'You can republish content without asking permission, but you must credit me (Paul Robert Lloyd) as the author and provide a link back to the original. You may not use any content for commercial purposes. If you make any changes, you must distribute these under the same license as the original.'
   url: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Source code management
@@ -90,6 +90,11 @@ assets:
     - assets/_stylesheets
     - assets/_vectors
   css_compressor: sass
+  js_compressor: uglifier
+
+# HTML Compression
+compress_html:
+  clippings: all
 
 # Pictures
 picture:

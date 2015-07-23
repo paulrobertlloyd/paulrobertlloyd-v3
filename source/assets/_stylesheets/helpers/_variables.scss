@@ -11,7 +11,7 @@ $u__max-width: 60rem;
 // Colours
 $c__neutral-0: hsb(300, 20, 10);
 $c__neutral-1: lighten($c__neutral-0, 04%);
-$c__neutral-4: lighten($c__neutral-0, 40%);
+$c__neutral-4: lighten($c__neutral-0, 36%);
 $c__neutral-7: lighten($c__neutral-0, 64%);
 $c__neutral-9: lighten($c__neutral-0, 88%);
 
@@ -19,10 +19,13 @@ $c__primary-purple: hsb(300, 60, 80);
 $c__primary-blue: hsb(220, 60, 80);
 $c__primary-red: hsb(0, 60, 80);
 $c__primary-yellow: hsb(50, 40, 100);
+$c__primary-green: hsb(170, 60, 80);
 
+$c__focus: $c__primary-yellow;
 $c__highlight: $c__primary-yellow;
 $c__select: rgba($c__highlight, 0.5);
-$c__focus: $c__primary-yellow;
+$c__valid: rgba($c__primary-green, 0.5);
+$c__invalid: rgba($c__primary-red, 0.5);
 
 
 // Breakpoints

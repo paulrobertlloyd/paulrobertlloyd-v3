@@ -4,26 +4,27 @@ excerpt: This site is built using a variety of third-party tools and services.
 ---
 This website is produced on an [Apple Mac][1], using [Sketch][2] to realise early design concepts before being coded in [TextMate][3]. I use and recommend [WebFaction][4] for web hosting. Type is set in [Tiempos Text][5] and [Calibre][6], both designed by Kris Sowersby.
 
-This site is published using [Jekyll][7] with a number of supporting plugins:
+This site is published using [Jekyll][7] and these supporting plugins:
 
   * [jekyll-archives][8] by Alfred Xing
   * [jekyll-assets][9] by Aleksey V Zapparov
   * [jekyll-sitemap][10] by GitHub, Inc.
   * [jekyll-smartify][11] by Pat Hawks
-  * [Simple Jekyll Search][12] by Christian Fei
-  * and a number of [Octopress plugins][13] by Brandon Mathis
+  * [jekyll-compress-html][12] by Anatol Broder
+  * [Simple Jekyll Search][13] by Christian Fei
+  * [Octopress plugins][14] by Brandon Mathis
 
 Other notable tools and services used to build this site include:
 
-  * [converjon][14] by Leon Weidauer
-  * [exiftool][15] by Matthew McEachen and Phil Harvey
-  * [fontfaceobserver][16] by Bram Stein
-  * [Picturefill][17] by Filament Group, Inc.
-  * [Susy][18] by Eric M. Suzanne
-  * [typogruby][19] by Arjan van der Gaag
-  * [MapBox][20] by Mapbox Inc.
+  * [converjon][15] by Leon Weidauer
+  * [exiftool][16] by Matthew McEachen and Phil Harvey
+  * [fontfaceobserver][17] by Bram Stein
+  * [Picturefill][18] by Filament Group, Inc.
+  * [Susy][19] by Eric M. Suzanne
+  * [typogruby][20] by Arjan van der Gaag
+  * [MapBox][21] by Mapbox Inc.
 
-I always try to adhere to [web standards][21] and best practices. Pages are semantically structured using valid [HTML5][22] with presentational design provided by [CSS][23]. Syndicated feeds are available using [Atom][24]-flavoured RSS.
+Pages are semantically structured using valid [HTML5][23] with presentational design provided by [CSS][24]. Syndicated feeds use [Atom][25]-flavoured RSS.
 
 [1]: http://apple.com/macbook-pro/
 [2]: http://bohemiancoding.com/sketch/
@@ -36,16 +37,16 @@ I always try to adhere to [web standards][21] and best practices. Pages are sema
 [9]: https://rubygems.org/gems/jekyll-assets
 [10]: https://rubygems.org/gems/jekyll-sitemap
 [11]: https://rubygems.org/gems/jekyll-smartify
-[12]: https://github.com/christian-fei/Simple-Jekyll-Search
-[13]: https://github.com/octopress/
-[14]: https://github.com/berlinonline/converjon
-[15]: https://rubygems.org/gems/exiftool
-[16]: https://npmjs.com/package/fontfaceobserver
-[17]: https://scottjehl.github.io/picturefill/
-[18]: http://susy.oddbird.net
-[19]: https://rubygems.org/gems/typogruby
-[20]: http://mapbox.com/
-[21]: http://webstandards.org/
+[12]: https://github.com/penibelst/jekyll-compress-html
+[13]: https://github.com/christian-fei/Simple-Jekyll-Search
+[14]: https://github.com/octopress/
+[15]: https://github.com/berlinonline/converjon
+[16]: https://rubygems.org/gems/exiftool
+[17]: https://npmjs.com/package/fontfaceobserver
+[18]: https://scottjehl.github.io/picturefill/
+[19]: http://susy.oddbird.net
+[20]: https://rubygems.org/gems/typogruby
+[21]: http://mapbox.com/
 [22]: http://w3.org/TR/html5/
 [23]: http://w3.org/Style/CSS/
 [24]: http://atomenabled.org/

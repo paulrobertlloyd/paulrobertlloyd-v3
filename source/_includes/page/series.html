@@ -1,16 +1,18 @@
 {% if page.series %}
     {% assign series = site.posts | where:"series",page.series | sort:date %}
-    <aside class="c-page__section c-container c-container--series" aria-labelledby="series">
-        <header class="c-container__header">
-            <h1 class="c-container__title" id="series">More From This Series</h1>
-        </header>
+    <aside class="c-page__section" role="complementary" aria-labelledby="series">
+        <div class="c-container c-container--series">
+            <header class="c-container__header">
+                <h1 class="c-container__title" id="series">More From This Series</h1>
+            </header>
 
-        <div class="c-container__main">
-            {% for item in series %}
-                {% if item.url != page.url %}
-                    {% include item/series.html %}
-                {% endif %}
-            {% endfor %}
+            <div class="c-container__main">
+                {% for item in series %}
+                    {% if item.url != page.url %}
+                        {% include item/series.html %}
+                    {% endif %}
+                {% endfor %}
+            </div>
         </div>
     </aside>
 {% endif %}

@@ -6,7 +6,6 @@ assets:
   gzip: false
   cache: ../.jekyll-assets-cache
   cachebust: hard
-  js_compressor: uglifier
 
 # Picture
 picture:
