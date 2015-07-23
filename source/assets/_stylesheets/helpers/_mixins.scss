@@ -78,11 +78,6 @@
         line-height: (28/24);
         font-size: 1.5rem; // 24px
     }
-
-    @media (min-width: $b__c) {
-        line-height: (32/28);
-        font-size: 1.75rem; // 28px
-    }
 }
 
 @mixin fs--heading-4 {
