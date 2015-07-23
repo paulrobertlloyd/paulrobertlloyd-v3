@@ -18,7 +18,6 @@ group :jekyll_plugins do
   gem 'jekyll-smartify'
 
   gem 'octopress-autoprefixer'
-  gem 'octopress-minify-html'
 
   gem 'jemoji'
   gem 'exiftool'
