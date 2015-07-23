@@ -70,7 +70,7 @@
 }
 
 @mixin fs--heading-3 {
-    line-height: (24/20);
+    line-height: (22/20);
     font-size: 1.25rem; // 20px
     letter-spacing: -0.015em;
 
@@ -132,8 +132,8 @@
 }
 
 @mixin fs--caption {
-    line-height: (20/15);
-    font-size: 0.9375rem; // 15px
+    line-height: (20/16);
+    font-size: 1rem; // 16px
 }
 
 
