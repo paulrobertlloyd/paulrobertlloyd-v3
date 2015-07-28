@@ -2,18 +2,18 @@
 title: 'Shipped!'
 date: '2015-07-20 16:05:00 +0100'
 location: Brighton, England
-excerpt: 'Given the obsessive compulsive behaviour I exhibit when it comes to tinkering with this website, I''ve started to question whether I have an addictive personality or not.'
-image:
-  url: /2015/07/shipped.jpg
-  caption: 'The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships'
+excerpt: 'In what has become a familiar pattern, having decided to embark on a redesign last February, I then spent the following 18 months iterating and iterating. Now, after many missed deadlines, I have finally launched my new site.'
 tags:
   - Site
   - Web
-discussion: open
 ---
 Given the obsessive compulsive behaviour I exhibit when it comes to tinkering with this website, I've started to question whether I have an addictive personality or not. In what has become a familiar pattern, having decided to embark on a redesign last February, I then spent the following 18 months [iterating and iterating][1]. During this period, [other projects][2] fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
 
 This year's Indie Web Camp in Brighton was the latest deadline I'd set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this was the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I spent last week revising and polishing to the point that I can finally say: "okay, you can look now".
+
+{% figure u-bleed "The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships" %}
+{% picture /2015/07/shipped.jpg alt="" %}
+{% endfigure %}
 
 ## Moving on from Movable Type
 The previous version of this site [launched in July 2011][5], and while it'd seen many improvements over that time (not least in terms of [performance][6]), the publishing platform I was using -- [Movable Type][7] -- was burdensome: just publishing a new post meant rebuilding three different sections of the site. I've used Movable Type for almost a decade, but in that time the community has diminished and the product is [no longer open source][8] or designed for personal publishers.
@@ -21,11 +21,6 @@ The previous version of this site [launched in July 2011][5], and while it'd see
 One of the reasons I liked this platform however, was that it generated static pages. People used to laugh at this feature, but today static site generators are in vogue. After researching the [_many_ different options available][9], I decided to use [Jekyll][10]. Not only is this software [actively developed][11], but I found it to be incredibly configurable and -- once I got the hang of [Ruby][12] -- infinitely hackable.
 
 Since making this choice, Jekyll has matured considerably, and the team is not far from launching the next major version, [Jekyll 3.0][13]. All that's missing is smarter pagination options and faster rebuild times; even with the new incremental generation feature, rebuilds can still sometimes take around 180 seconds.
-
-<div class="u-extend" markdown="1">
-{% assign screenshots = "2015/07/shipped/tablet-1.png|2015/07/shipped/tablet-2.png|2015/07/shipped/phone.png" | split: "|" %}
-{% include screenshots.html imageset=screenshots %}
-</div>
 
 ## A European Flavour
 While I briefly considered maintaining the previous design and just updating the CMS, a long list of accumulated grievances meant a new design was always the preferred option.
@@ -35,6 +30,11 @@ I've radically simplified what I had before, placing particular emphasis on typo
 Ignoring for a moment their antipodean origin, these fonts hopefully give the design a more European flavour, one partly inspired by the many leaflets and brochures I've picked up on my travels across the continent.
 
 I was keen to try using whitespace rather than horizontal rules to separate content, and have greater contrast in the type scale to indicate page hierarchy. Colour is restrained but no less subdued; purples and pinks being suitably hipster enough to satisfy current trends. Oh, and I have a new logo... which I'm mildly ambivalent about, if I'm honest.
+
+<div class="u-extend" markdown="1">
+{% assign screenshots = "2015/07/shipped/tablet-1.png|2015/07/shipped/tablet-2.png|2015/07/shipped/phone.png" | split: "|" %}
+{% include screenshots.html imageset=screenshots %}
+</div>
 
 ## Content First
 Content has been a big focus of this redesign. With the help of [Owen Gregory][18], project case studies have been completely rewritten. While they currently lack enough supporting artefacts, their revised copy better describes the underlying design process.
