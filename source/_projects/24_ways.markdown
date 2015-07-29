@@ -11,8 +11,9 @@ meta:
   year: 2013
   role: Design and front-end development
   notes: 'Awarded best collaborative project at the net Awards 2014'
+  website: '[24ways.org](https://24ways.org)'
 ---
-Each December, Drew McLellan and his small team publish _24 ways_, a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
+Each December, Drew McLellan and his small team publish _[24 ways][1]_, a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
 
 The previous website was designed by Tim Van Damme in 2007. His innovative design pushed the limits of the medium, but six years later, and with an accumulated archive of hundreds of articles, it was fraying at the edges. Furthermore, the site failed to reflect the best practices its authors advocated, such as advanced web typography, colour contrast and CSS3 techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to the broadening range of devices accessing the site.
 
@@ -70,6 +71,8 @@ Beyond the responsive development, I was keen to employ other best practices. Th
 > The new [@24ways](https://twitter.com/24ways) design is lovely. Nice one [@paulrobertlloyd](https://twitter.com/paulrobertlloyd). (He likes his hamburgers with triple beef...)
 {: .c-tweet}
 {% endfigure %}
+
+[1]: https://24ways.org
 
 *[CSS3]: Cascading Style Sheets (Level 3)
 *[BEM]: Block, Element, Modifier

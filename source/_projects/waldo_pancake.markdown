@@ -8,6 +8,7 @@ screenshots:
 meta:
   year: 2011
   role: Front-end development
+  website: '[waldopancake.com](http://waldopancake.com/)'
 ---
 Jim Smith (aka <cite>[Waldo Pancake][1]</cite>) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every Puccino's coffee shop.
 
