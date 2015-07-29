@@ -7,7 +7,7 @@ tags:
   - Web
   - Conferences
 ---
-Earlier this month I attended _[UpFront Conference][1]_, an event organised by [Dan Donald][2] and other members of Manchester's digital community that featured a range of talks of interest to developers and designers alike. Currently in the midst of preparing a talk of my own (the reason for this delayed review), the conference provided plenty of food for thought.
+Earlier this month I attended _[UpFront Conference][1]_, an event organised by [Dan Donald][2] and other members of Manchester's digital community, that featured a range of talks of interest to developers and designers alike. Currently in the midst of preparing a talk of my own (the reason for this delayed review), the conference provided plenty of food for thought.
 
 [Brad Frost][3] kicked off proceedings with an entertaining talk about an [atomic approach][4] to responsive design. [Alicia Sedlock][5] followed, with a rare overview of the different tools available for unit, integration and visual regression testing. Modular design and test-driven development are common in other fields of software engineering; that such presentations featured so prominently, hints at a growing professionalism within the field of front-end development.
 
