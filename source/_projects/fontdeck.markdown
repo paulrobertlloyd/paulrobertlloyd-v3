@@ -7,10 +7,11 @@ screenshots:
   - projects/fontdeck/desktop-1.png
   - projects/fontdeck/desktop-2.png
 meta:
-  year: 2010 - 2013
+  years: 2010 - 2013
   role: Lead design
+  website: '[fontdeck.com](http://fontdeck.com/)'
 ---
-_Fontdeck_ is a professional web font service that allows designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
+_[Fontdeck][1]_ is a professional web font service that allows designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
 
 A unique concept when founders Richard Rutter and Jon Tan conceived the idea in 2009, by the time the service launched a year later, a number of competing services had entered the market. The site needed to rapidly evolve, better explain its purpose and how the service differed from others.
 
@@ -63,5 +64,7 @@ The single text-heavy about page was replaced by an expanded about section. This
 {% endfigure %}
 
 Type designer and foundry pages previously consisted of alphabetical indices of names, but I saw this as an opportunity to make those responsible for our font library the heroes of the service. Individual foundry and designer pages now featured a photo or logo and short bio alongside a list of the fonts they had created.
+
+[1]: http://fontdeck.com/
 
 *[CSS]: Cascading Style Sheets

@@ -10,10 +10,11 @@ screenshots:
 meta:
   year: 2012
   role: Design and front-end development
+  website: '[dacs.org.uk](http://www.dacs.org.uk/)'
 ---
-_DACS_ (the Design and Artists Copyright Society) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
+_DACS_ (the [Design and Artists Copyright Society][1]) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
 
-The previous website was packed with legalese: language written by solicitors with an intimidating level of detail. DACS realised it needed to replace this with a site that could deliver this content in a more inspiring and persuasive way. [I worked with Harry Brignull and Richard Rutter at Clearleft][1] to produce a website that would achieve these goals.
+The previous website was packed with legalese: language written by solicitors with an intimidating level of detail. DACS realised it needed to replace this with a site that could deliver this content in a more inspiring and persuasive way. [I worked with Harry Brignull and Richard Rutter at Clearleft][2] to produce a website that would achieve these goals.
 
 After a period of analysis and prototyping, we realised the website needed different areas for each user type that could quickly triage users into the correct places. Once in the right place, users could then be shown content with an appropriate perspective, tone of voice and calls to action that matched their needs.
 
@@ -35,7 +36,7 @@ I drew on DACS's photographic library of artists to give a human face to the org
 {% figure "Pattern portfolio" %}
 {% endfigure %}
 
-Responsive design was used to deliver the same content to different devices, regardless of the display size or capabilities. I created a pattern portfolio to ease handover to the development agency [Cognite][2]. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.
+Responsive design was used to deliver the same content to different devices, regardless of the display size or capabilities. I created a pattern portfolio to ease handover to the development agency [Cognite][3]. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.
 
 ## Result
 {% figure "Screenshots of finished product" %}
@@ -45,8 +46,9 @@ Responsive design was used to deliver the same content to different devices, reg
 > It looks beautiful! The feedback so far has been great -- and it's just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!
 {% endfigure %}
 
-[1]: http://clearleft.com/made/dacs
-[2]: http://www.cognite.co.uk/
+[1]: http://www.dacs.org.uk
+[2]: http://clearleft.com/made/dacs
+[3]: http://www.cognite.co.uk/
 
 *[DACS]: Design and Artists Copyright Society
 *[CMS]: content management system

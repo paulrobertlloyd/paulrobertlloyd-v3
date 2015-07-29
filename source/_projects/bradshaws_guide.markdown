@@ -10,8 +10,9 @@ screenshots:
 meta:
   year: Ongoing
   role: Design and front-end development
+  website: '[bradshawsguide.org](http://bradshawsguide.org)'
 ---
-Largely inspired by the popular BBC television series <cite>Great British Railway Journeys</cite>, _Bradshaw's Guide_ is a modern revival of George Bradshaw's 1866 handbook for tourists exploring Britain's railways.
+Largely inspired by the popular BBC television series <cite>Great British Railway Journeys</cite>, _[Bradshaw's Guide][1]_ is a modern revival of George Bradshaw's 1866 handbook for tourists exploring Britain's railways.
 
 In his TV travelogue, Michael Portillo explores Britain's railway network and, guided by Bradshaw's guidebook, looks at how the destinations have changed between Victorian and modern times. While you can buy reproductions of Bradshaw's handbook, it's over an inch thick -- pocket-sized by Victorian standards, but not in today's world of mobile phones. By making Bradshaw's work more widely accessible, tourists might feel encouraged to spend more time on the railways and commuters may discover the hidden gems they pass every day.
 
@@ -40,8 +41,9 @@ Producing the guide involved correcting copy originating from an automated OCR p
 {% figure "A tweeted excerpt from George Bradshaw, with Twitter card integration" %}
 {% endfigure %}
 
-When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][1] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
+When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][2] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
 
-[1]: https://twitter.com/bradshawsguide
+[1]: http://bradshawsguide.org
+[2]: https://twitter.com/bradshawsguide
 
 *[BBC]: British Broadcasting Corporation

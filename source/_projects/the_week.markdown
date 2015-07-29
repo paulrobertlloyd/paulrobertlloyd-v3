@@ -12,10 +12,11 @@ meta:
   notes: |
     * Named Digital Edition of the Year at the PPA Awards 2011
     * Average rating of four stars in the App Store
+  app: '[Download on the App Store](https://itunes.apple.com/gb/app/id468108781)'
 ---
-_The Week_ condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UKs most popular weekly subscription magazine.
+_[The Week][1]_ condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UKs most popular weekly subscription magazine.
 
-Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. [Working with Harry Brignull at Clearleft][1], we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
+Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. [Working with Harry Brignull at Clearleft][2], we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
 
 ## Prototyping
 {% figure "Image of early prototype/design" %}
@@ -43,7 +44,7 @@ A challenging aspect of this project was conveying the familiarity of the magazi
 A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. These were retained, appearing alongside larger articles and linked from section fronts.
 
 ## Collaborative development
-Working closely with the development team at [Kaldor][2], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][3] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience. 
+Working closely with the development team at [Kaldor][3], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][4] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience. 
 
 ## Result
 {% figure "Screenshots of finished product" %}
@@ -55,9 +56,10 @@ The app was far more successful than anticipated, spending a number of weeks in 
 > This was the most technically complex software project we've ever attempted, yet in its first year it's been a real success. We've found new readers, increased revenue from existing readers and gained the title lots of exposure.
 {% endfigure %}
 
-[1]: http://clearleft.com/made/the-week
-[2]: http://kaldorgroup.com/
-[3]: http://pugpig.com/
+[1]: http://www.theweek.co.uk
+[2]: http://clearleft.com/made/the-week
+[3]: http://kaldorgroup.com
+[4]: http://pugpig.com
 
 *[UK]: United Kingdom
 *[IA]: information architecture
