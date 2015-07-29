@@ -13,4 +13,4 @@ This site has long featured a style guide (or more precisely, pattern library), 
 : Reusable classes with a single purpose and specific role.
 
 [Components](components)
-: Finite, discrete, implementation-specific parts of our UI.
+: Finite, discrete, implementation-specific parts of the interface.
