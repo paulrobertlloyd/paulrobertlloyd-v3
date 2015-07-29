@@ -79,6 +79,7 @@
     > * b,
     > blockquote strong,
     > dl dt:not([class]) {
+        line-height: (100/120);
         font-size: 120%;
     }
 }

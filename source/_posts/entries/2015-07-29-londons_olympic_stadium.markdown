@@ -21,7 +21,7 @@ Atlanta, host city of the [centenary games of 1996][7], is considered one of the
 
 Other hosts have not been so thoughtful. So complex was the design of Montreal's _[Stade olympique][10]_, that it was left unfinished during the 1976 games, and completed nearly a decade later. In fact, it became one of the most expensive stadiums ever built, its retractable roof failing to account for the city's brutal winters and needing constant repair. Publicly financed to the tune of CAD$ 1.47 billion, the total cost was finally repaid in 2006. No wonder residents call it _The Big Owe_.
 
-{% figure u-bleed "The distinctive shape of the Olympic Stadium in Montreal, its observation tower a constant reminder to residents how much it cost to build it. Photograph: [Maciek Lulko](https://www.flickr.com/photos/lulek/16231814362)" %}
+{% figure u-bleed "The distinctive shape of the Olympic Stadium in Montreal, its observation tower a constant reminder to residents how much it cost to build. Photograph: [Maciek Lulko](https://www.flickr.com/photos/lulek/16231814362)" %}
 {% picture showcase /2015/07/montreal_stade_olympique.jpg alt="" %}
 {% endfigure %}
 
@@ -51,12 +51,12 @@ Football stadiums grow ever larger, as wealthy club chairman look to increase ti
 
 Funding for athletics is primarily sourced from government and lottery grants. Meets take place during the summer, attract fewer spectators, and the nine lane 400 meter oval running tracks positions spectators away from the infield.
 
-Put simply, football stadiums (or those for rugby, baseball or other pitch-based sports) have vastly different requirements than those designed for athletics. That is why football teams avoid playing in multi-purpose stadiums: having terraces set so far back from the pitch can result in poor sightlines and a diminished atmosphere. In 2005, Bayern Munich left the [Olympiastadion][21] and moved into the purpose built Allianz Arena, while in 2006 Juventus demolished the  [Stadio delle Alpi][22] and replaced it with a stadium of their own design.
+Put simply, football stadiums (or those for rugby, baseball or other pitch-based sports) have vastly different requirements than those designed for athletics. That is why football teams avoid playing in multi-purpose stadiums: having terraces set so far back from the pitch can result in poor sightlines and a diminished atmosphere. In 2005, Bayern Munich left the [Olympiastadion][21] and moved into the purpose built Allianz Arena, while in 2006 Juventus demolished the [Stadio delle Alpi][22] and replaced it with a stadium of their own design.
 
 Yet the centrepiece of the world's largest multi-sport event asks that organisers solve this conundrum: build a vast stadium that can host athletics for two weeks, yet have it remain useful for many years afterwards. Build and forget, or build and convert?
 
 ## So Good They Built It Twice
-With previous legacy plans discarded, the Mayor's London Legacy Development Corporation decided to covert the stadium so it could host football, and selected West Ham United as its permanent tenant. To ensure the stadium was more suited to pitch-based sports, architects made a number of changes, including designing a roof that could cover retractable seating on the lower tier. Extended, these seats would place fans closer to the action and protected from the rain.
+With previous legacy plans discarded, the Mayor's London Legacy Development Corporation decided to convert the stadium so it could host football, and selected West Ham United as its permanent tenant. To ensure the stadium was more suited to pitch-based sports, architects made a number of changes, including designing a roof that could cover retractable seating on the lower tier. Extended, these seats would place fans closer to the action and protected from the rain.
 
 {% figure u-bleed "An imposing new roof hangs above the seating bowl that was meant to be temporary. Photograph: [Andy Hall](http://www.theguardian.com/sport/gallery/2015/jul/18/exclusive-pictures-inside-west-hams-new-home)" %}
 {% picture showcase /2015/07/london_olympic_stadium_2015.jpg alt="" %}
@@ -74,14 +74,14 @@ The few other remaining elements of the original stadium will soon disappear as 
 {% picture /2015/07/london_white_city_stadium_1908.jpg alt="Postcard showing an illustration of London's White City Stadium in 1908" %}
 {% endfigure %}
 
-Wanting to see the redeveloped stadium close-up, I attended last weekend's London Grand Prix (or 'Anniversary Games'). While the new roof is impressive, it's somewhat undermined by the structure it sits on. As the roof raises slightly as it approaches the central ring, and without the upper seating bowl being hidden from view by the outer decorative wrap, from a distance it looks as though a UFO has landed and is being held down within scaffolding.
+Wanting to see the redeveloped stadium close-up, I attended last weekend's London Grand Prix (or 'Anniversary Games'). While the new roof is impressive, it's somewhat undermined by the structure it sits on. As it rises slightly as it approaches the central tension ring, and without the upper seating bowl being hidden from view by the outer decorative wrap, from a distance it looks as though a UFO has landed and is being held down with scaffolding.
 
 Visiting the stadium in athletics mode, it's hard to judge what it will feel like when playing host to football matches. Given the shallow pitch of the seating, the large gap between the top and bottom tiers, and the space set aside for large screens, I doubt the venue will provide the fortress-like atmosphere West Ham fans are hoping for. The first test of this configuration will come during the Rugby World Cup matches being held later this year.
 
-While a future for the venue has been secured, it has come at a considerable cost -- and with much obfuscation of the fact that tax payers have effectively paid for two stadiums. If I were to make a prediction about it's medium-term future, I'm not sure it would involve West Ham United, even if they have effectively been gifted a publicly subsidised ground. Still, at least London now has a semi-permanent athletics venue, and one that is capable of holding the World Championships in Athletics in 2017.
+While a future for the venue has been secured, it has come at a considerable cost -- and with much obfuscation of the fact that tax payers have effectively paid for two stadiums. If I were to make a prediction about its medium-term future, I'm not sure it would involve West Ham United, even if they have effectively been gifted a publicly subsidised ground. Still, at least London now has a semi-permanent athletics venue, and one capable of holding the World Championships in Athletics in 2017.
 
 ## Lessons Ignored
-All this takes place within a broader context, one in which similar mistakes continue to be made around the world. Only this month, the Japanese government scrapped plans to build [Zaha Hadid's controversial Olympic stadium][25] in Tokyo. Organisers may have been tempted to revert back to earlier plans which involved upgrading the [stadium used during the 1964 games][26]... except this has been demolished to make way for the new one. You couldn't make this stuff up.
+All this takes place within a broader context, one in which similar mistakes continue to be made around the world. Only this month, the Japanese government scrapped plans to build [Zaha Hadid's controversial Olympic stadium][25] in Tokyo. Organisers might have been tempted to revert back to earlier plans which involved upgrading the [stadium used during the 1964 games][26]... except this has been demolished to make way for the new one. You couldn't make this stuff up.
 
 {% figure u-bleed "Zaha Hadid's controversial design for Tokyo's new Olympic Stadium. Render: © [Zaha Hadid Architects](http://www.zaha-hadid.com/architecture/new-national-stadium/)" %}
 {% picture showcase /2015/07/tokyo_olympic_stadium_proposal.jpg alt="" %}
