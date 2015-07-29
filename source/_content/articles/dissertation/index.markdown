@@ -3,6 +3,7 @@ title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channe
 series: Dissertation
 date: '2002-06-01 00:00:00 +0000'
 excerpt: Graphic design on television during the nineties was influenced by the launch of hundreds of new channels. The growth of multi-channel television had most effect on terrestrial broadcasters, who for years had very little competition, but now faced having to re-invent themselves. Graphic design played a key role with the creation of visual devices that would maintain channel audiences, and a key strategy was branding.
+permalink: /articles/dissertation/
 ---
 The last ten years or so have seen rapid growth and fundamental change in the television landscape. Once a medium limited to transmitting only five channels to the majority of the UK, the 1990's saw significant advances in broadcasting. This was a decade that started with the launch of satellite and cable television offering scores of channels, and ended with the development of digital television achieving hundreds of channels via satellite and meaning even the standard rooftop aerial could receive around 50. Digital television also brought with it a far more graphical form of Teletext, and interactivity within programmes -- thus blurring the boundaries between television and the Internet.
 
