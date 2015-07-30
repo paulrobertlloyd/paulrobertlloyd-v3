@@ -62,7 +62,7 @@ With previous legacy plans discarded, the Mayor's London Legacy Development Corp
 {% picture showcase /2015/07/london_olympic_stadium_2015.jpg alt="" %}
 {% endfigure %}
 
-Attending [a seminar at the Institution of Structural Engineers][23], I learnt about the design of this new roof in _great_ detail. The original installation -- intended not to shelter spectators, but to ensure records set on the track remained legal and not wind assisted -- could conceivably have been doubled in size to cover seats in lower bowl. However, to cover the retractable seats, the roof neded to reach much much further. To achive this, they constructed the largest spanning tensile roof in the world. Weighing almost 6000 tonnes, existing supports needed to be strengthened and replaced to carry this additional load.
+Attending [a seminar at the Institution of Structural Engineers][23], I learnt about the design of this new roof in _great_ detail. The original installation -- intended not to shelter spectators, but to ensure records set on the track remained legal and not wind assisted -- could conceivably have been doubled in size to cover seats in lower bowl. However, to cover the retractable seats, the roof neded to reach much, much further. To achive this, they constructed the largest spanning tensile roof in the world. Weighing almost 6000 tonnes, existing supports needed to be strengthened and replaced to carry this additional load.
 
 It wasn't until I read [Owen Gibson's article in the Guardian][24], that I recognised the delicious irony at the heart of this redevelopment (emphasis added):
 
