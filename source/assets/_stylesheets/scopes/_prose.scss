@@ -11,8 +11,11 @@
         margin-bottom: ($u__baseline / 2);
     }
 
-    * + h2 {
-        margin-top: ($u__baseline * 3);
+    * + h2,
+    * + h3,
+    * + h4,
+    p + figure {
+        margin-top: ($u__baseline * 2.5);
     }
 
     h3 {
@@ -26,12 +29,6 @@
         @include fs--heading-4;
         margin-bottom: ($u__baseline / 2);
         color: $c__neutral-4;
-    }
-
-    * + h3,
-    * + h4,
-    p + figure {
-        margin-top: ($u__baseline * 2);
     }
 
     > p,

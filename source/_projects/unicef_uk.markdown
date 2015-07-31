@@ -9,6 +9,7 @@ screenshots:
   - projects/unicef_uk/tablet.png
 meta:
   year: 2013
+  agency: Clearleft
   role: Design and front-end development
 ---
 _[UNICEF UK][1]_ raises funds to protect children and the defend their rights worldwide. With mobile devices accounting for 20% of site visits and growing, a limited mobile version of its website had been produced, yet much of the information about their vital work remained on a desktop-orientated site.
@@ -25,22 +26,20 @@ We asked key stakeholders on the project to dissect the homepage and a key inter
 {% endfigure %}
 
 ## Translating UNICEF's brand guidelines to the web
-{% figure "Roboto type specimen" %}
+We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity.
+
+{% figure u-extend %}
+{% picture /projects/unicef_uk/palette.svg alt="Palette and fonts" %}
 {% endfigure %}
 
-{% figure "UNICEF colour palette" %}
-{% endfigure %}
-
-We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity. These guidelines suggested using Univers on the web, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
+The brand guidelines suggested using Verdana for digital applications, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
 
 ## Navigation
-{% figure "Slide out menu on mobile" %}
+{% figure u-pull-right "Navigation appears in a slide-out menu" %}
+<object height="100%" width="100%"  data="{{ site.url }}/assets/images/projects/unicef_uk/mobile_menu.svg" type="image/svg+xml"></object>
 {% endfigure %}
 
-{% figure "Section menu on desktop" %}
-{% endfigure %}
-
-We experimented with different ways of simplifying wayfinding around the site. By removing layers of navigation and advocating the inclusion of more links within body copy, we were able to reduce unnecessary interactions and invoke fewer taps. Moving breadcrumb navigation to a slide-out menu meant users could orientate themselves within the site.
+We experimented with different ways of simplifying wayfinding around the site. By removing layers of navigation and advocating the inclusion of more links within body copy, we were able to reduce unnecessary interactions and invoke fewer taps. Moving the breadcrumb navigation to a slide-out menu meant users could orientate themselves within the site.
 
 ## Mobile-first design
 The underlying design language encompassed a variety of content types and clearly delineated between areas of navigation and content. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site -- even on larger screens. In time, it is hoped this responsive mobile design will form the foundation of a fully responsive site, accessible from all devices, large or small.
