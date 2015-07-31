@@ -119,9 +119,9 @@ picture:
     supporting:
       attr:
         class: img img--supporting
-        sizes: '(min-width: 32em) 40vw, 100vw'
+        sizes: '50vw'
       source_medium:
-        width: 768
+        width: 640
       source_default:
         width: 480
     showcase:
