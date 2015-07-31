@@ -23,8 +23,8 @@ With an intriguing -- if not immediately obvious -- name, the logo needed to ref
 
 This distinctive mark could work at many sizes, with flat and rendered versions created to suit different applications. To encompass a range of operating devisions, a brand architecture was created. This also meant future acquisitions could easily be integrated into the overall business.
 
-{% figure "Associated brand collateral, including presentation folders, report covers, letterheads and business cards" %}
-{% picture /projects/ngenera/Collateral.png alt="" %}
+{% figure u-extend "Associated brand collateral, including presentation folders, report covers, letterheads and business cards" %}
+{% picture showcase /projects/ngenera/collateral.png alt="" %}
 {% endfigure %}
 
 While other in-house and third-party teams were responsible for implementing the brand, I provided overall guidance and created example collateral pieces such as reports, signage and business cards.

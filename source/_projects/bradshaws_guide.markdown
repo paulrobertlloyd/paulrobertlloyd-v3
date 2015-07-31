@@ -4,7 +4,7 @@ date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 featured: true
 screenshots:
-  - projects/bradshaws_guide/desktop.png,
+  - projects/bradshaws_guide/desktop.png
   - projects/bradshaws_guide/tablet.png
   - projects/bradshaws_guide/phone.png
 meta:
@@ -32,18 +32,16 @@ The design of the site adapts to the size of the display. Within smaller viewpor
 {% figure "Github pull request" %}
 {% endfigure %}
 
-Producing the guide involved correcting copy originating from an automated OCR process. Because the handbook exists in the public domain, I was keen to make its content available to as many people as possible, and allow others to build on the work I had done. The source code for the site is available on GitHub, meaning other developers can make improvements to the website or even create their own version of the guide.
+Producing the guide involved correcting copy originating from an automated OCR process. Because the handbook exists in the public domain, I was keen to make its content available to as many people as possible, and allow others to build on the work I had done. The [source code for the site][2] is available on GitHub, meaning others can make improvements to the website or even create their own version of the guide.
 
 ## Integration with social networks
 {% figure "A Foursquare tip from George Bradshaw" %}
 {% endfigure %}
 
-{% figure "A tweeted excerpt from George Bradshaw, with Twitter card integration" %}
-{% endfigure %}
-
-When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][2] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
+When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][3] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
 
 [1]: http://bradshawsguide.org
-[2]: https://twitter.com/bradshawsguide
+[2]: https://github.com/paulrobertlloyd/bradshawsguide
+[3]: https://twitter.com/bradshawsguide
 
 *[BBC]: British Broadcasting Corporation
