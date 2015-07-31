@@ -51,9 +51,6 @@ Given the overuse of circles in popular web design, I was determined to use some
 Where the previous design used a rigid template across all sections of the site, which often dominated the content, I created a series of templates each suited the task in hand. On article pages, the interface deliberately receded allowing readers to focus on the content. Index and collection pages took a different approach, showcasing twenty-four articles in a grid which evoked the feel of a calendar.
 
 ## Modern development practices
-{% figure "Mark-up pattern using BEM-like naming convention" %}
-{% endfigure %}
-
 Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads. This improved the performance on the site, especially on mobile devices where bandwidth can be more constrained.
 
 ## What people said

@@ -59,10 +59,13 @@
 
 /* Pull element right or left */
 .u-pull-right {
-    float: right;
     margin-top: 0 !important;
-    margin-left: $gn__gutter;
-    width: $gn__span4;
+
+    @media (min-width: $b__a) {
+        float: right;
+        margin-left: $gn__gutter;
+        width: $gn__span4;
+    }
 
     @media screen and (min-width: $b__b) {
         margin-right: (-$gn__span1-wide);
