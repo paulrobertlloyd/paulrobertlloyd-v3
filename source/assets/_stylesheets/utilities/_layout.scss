@@ -26,16 +26,16 @@
 .u-align-right {
     float: right;
     margin-top: 0 !important;
-    margin-bottom: ($u__baseline / 2);
-    margin-left: $gn__gutter;
+    margin-bottom: ($u__baseline / 2) !important;
+    margin-left: $gn__gutter !important;
     width: $gn__span2;
 }
 
 .u-align-left {
     float: left;
     margin-top: 0 !important;
-    margin-right: $gn__gutter;
-    margin-bottom: ($u__baseline / 2);
+    margin-right: $gn__gutter !important;
+    margin-bottom: ($u__baseline / 2) !important;
     width: $gn__span2;
 }
 
@@ -43,11 +43,12 @@
 /* Pull element aside */
 .u-aside {
     margin-top: 0 !important;
+    margin-bottom: $u__baseline !important;
 
     @media screen and (min-width: $b__b) {
         float: left;
-        margin-right: $gn__gutter;
-        margin-left: (-$gn__span3-wide);
+        margin-right: $gn__gutter !important;
+        margin-left: (-$gn__span3-wide) !important;
         width: $gn__span3;
     }
 
@@ -60,10 +61,11 @@
 /* Pull element right or left */
 .u-pull-right {
     margin-top: 0 !important;
+    margin-bottom: $u__baseline !important;
 
     @media (min-width: $b__a) {
         float: right;
-        margin-left: $gn__gutter;
+        margin-left: $gn__gutter !important;
         width: $gn__span4;
     }
 
@@ -74,10 +76,11 @@
 
 .u-pull-left {
     margin-top: 0 !important;
+    margin-bottom: $u__baseline !important;
 
     @media (min-width: $b__a) {
         float: left;
-        margin-right: $gn__gutter;
+        margin-right: $gn__gutter !important;
         width: $gn__span4;
     }
 

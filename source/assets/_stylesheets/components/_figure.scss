@@ -5,10 +5,10 @@
 .c-figure {
     @include clearfix;
     position: relative;
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 2.5);
 
     + .c-figure {
-        margin-top: ($u__baseline * 2);
+        margin-top: ($u__baseline * 2.5);
     }
 }
 
@@ -49,7 +49,6 @@
 .c-figure__caption {
     @include ff--sans-serif;
     @include fs--caption;
-    margin-bottom: $u__baseline;
 
     p {
         margin-bottom: $u__baseline;
@@ -88,6 +87,7 @@
 /* Caption positioning */
 .c-figure--caption-right {
     @extend %u-extend;
+    margin-bottom: ($u__baseline * 1.5);
 
     .c-figure__main {
         @media (min-width: $b__c) {
