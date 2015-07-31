@@ -43,7 +43,7 @@ The original brand font was FF Info, but as this wasn't in our catalogue it didn
 ## Holistic Design
 Page layout was more considered, making heavy use of the underlying grid, line rules and a clear typographic hierarchy. The number of rounded corners used in the design was reduced, while the playing card device was limited to account and project pages, where users managed their font 'decks'.
 
-{% figure c-figure--caption-right u-extend "Exposing different means of discovery made it easier for users to browse Fontdeck's catalouge" %}
+{% figure c-figure--caption-right u-extend "Exposing different means of discovery made it easier for users to browse Fontdeck's catalogue" %}
 {% picture /projects/fontdeck/page_browse_typeface.png alt="Browse library page" class="u-framed" %}
 {% endfigure %}
 
@@ -67,5 +67,5 @@ Type designer and foundry pages previously consisted of alphabetical indices of 
 [4]: http://fontdeck.com/foundries
 [5]: http://fontdeck.com/designers
 
-*[CSS]: Chief executive officer
+*[CEO]: Chief executive officer
 *[CSS]: Cascading Style Sheets
