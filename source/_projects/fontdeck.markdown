@@ -59,7 +59,7 @@ The previous text-heavy about page was replaced by an [expanded about section][2
 {% picture supporting /projects/fontdeck/page_foundries.png alt="Foundries page" class="u-framed" %}
 {% endfigure %}
 
-Type designer and foundry pages previously consisted of alphabetical indices of names, but I saw this as an opportunity to make those responsible for our font library the heroes of the service. Individual [foundry][4] and [designer][5] pages now featured a photo or logo and short bio alongside a list of the fonts they had created.
+Type designer and foundry pages previously consisted of alphabetical indices of names, but I saw this as an opportunity to make those responsible for the font library the heroes of the service. Individual [foundry][4] and [designer][5] pages now featured a photo or logo and short bio alongside a list of the fonts they had created.
 
 [1]: http://fontdeck.com/
 [2]: http://fontdeck.com/about
