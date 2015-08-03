@@ -9,8 +9,8 @@
 
     router.route(':year/:month/:slug', function () {
         new Webmentions({
-            container: document.querySelector('#responses'),
-            endpoint: 'https://webmention.io/api/mentions',
+            container: document.querySelector('#webmentions'),
+            endpoint: 'https://webmention.paulrobertlloyd.com',
             params: {
                 'target': location.href.replace(location.hash, '')
             }
