@@ -18,8 +18,7 @@ layout: compress
     <link rel="apple-touch-icon" type="image/png" href="{% asset_path icon--192x192.png %}"/>
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <link rel="manifest" href="/manifest.json"/>
-    <link rel="pingback" href="https://webmention.io/paulrobertlloyd.com/xmlrpc"/>
-    <link rel="webmention" href="https://webmention.io/paulrobertlloyd.com/webmention"/>
+    <link rel="webmention" href="https://webmention.paulrobertlloyd.com"/>
 
     {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
     {% if page.previous != nil %}<link rel="prev bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}"/>{% endif %}
