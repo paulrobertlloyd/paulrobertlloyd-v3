@@ -44,8 +44,8 @@
         margin-bottom: ($u__baseline * 1.25);
     }
 
-    .highligher-rouge {
-        box-shadow: inset -4px 0 0 rgba($c__neutral-0, 0.2);
+    pre {
+        font-size: 90%;
     }
 
     > dl dd,
@@ -58,15 +58,20 @@
     }
 }
 
+
+/* Lede */
 .s-prose--lede {
     @include fs--lede;
 }
 
+
+/* Billboard */
 .s-prose--billboard {
     @include fs--billboard;
 }
 
 
+/* Body */
 .s-prose--body {
     @include ff--serif;
     @include fs--body;
