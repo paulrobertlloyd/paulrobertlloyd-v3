@@ -48,7 +48,7 @@ module Jekyll
 
       if @host.to_s.include? 'youtube.com'
         youtube_id = CGI::parse(@query.to_s)["v"][0]
-        return embedCode("video", "//www.youtube-nocookie.com/embed/#{youtube_id}?controls=0&#38showinfo=0&#38?rel=0&#38?modestbranding=1", "Watch video on YouTube")
+        return embedCode("video", "//www.youtube-nocookie.com/embed/#{youtube_id}?showinfo=0&#38?rel=0&#38?modestbranding=1", "Watch video on YouTube")
 
       elsif @host.to_s.include? 'vimeo.com'
         vimeo_id = @path.split('/').last
