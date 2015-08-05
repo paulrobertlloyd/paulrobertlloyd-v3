@@ -1,9 +1,9 @@
 {% if page.discussion %}
     {% capture entry_id %}{{ page.path | remove:"_posts/entries/" | remove:"_posts/links/" | remove:".markdown" }}{% endcapture %}
     {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
-    <section class="c-page__section c-container c-container--discussion" aria-labelledby="discussion">
+    <section class="c-page__section c-container" aria-labelledby="remarks">
         <header class="c-container__header">
-            <h1 class="c-container__title" id="discussion">Discussion</h1>
+            <h1 class="c-container__title" id="remarks">Remarks</h1>
             <div class="s-prose s-prose--billboard">
                 <p>
                     {% case remark_count %}
@@ -33,20 +33,18 @@
     </section>
 {% endif %}
 
-    <section class="c-page__section c-container c-container--discussion" aria-labelledby="responses">
-        <header class="c-container__header">
-            <h1 class="c-container__title" id="responses">Responses</h1>
-        </header>
+<section class="c-page__section c-container">
+    <div class="c-container__main">
+        {% include form/webmention.html %}
+    </div>
+</section>
 
-        <div class="c-container__main" id="webmentions">
-            {% include form/webmention.html %}
-        </div>
-    </section>
+<div id="webmentions">
+    {% include templates/responses.html %}
+    {% include templates/reposts.html %}
+    {% include templates/likes.html %}
 
-{% include templates/responses.html %}
-{% include templates/reposts.html %}
-{% include templates/likes.html %}
-
-{% include templates/avatar.html %}
-{% include templates/reference.html %}
-{% include templates/reply.html %}
+    {% include templates/avatar.html %}
+    {% include templates/reference.html %}
+    {% include templates/reply.html %}
+</div>

@@ -30,14 +30,14 @@
             var entry = response.entry.properties;
             var template = document.importNode(type === 'reply' ? this.replyTemplate : this.referenceTemplate, true);
             var author = this._normalizeAuthor(response);
-            var avatar = template.querySelector('.avatar');
+            var avatar = template.querySelector('.u-photo');
             var url = this._normalizeUrl(response);
             var published = new DateFormatter(this._normalizePublishedDate(response));
-            var pubdate = template.querySelector('.pubdate');
+            var pubdate = template.querySelector('.dt-published');
 
-            template.querySelector('.response').setAttribute('id', 'comment-' + response.id);
-            template.querySelector('.author').setAttribute('href', author.url);
-            template.querySelector('.name').textContent = author.name;
+            template.querySelector('.p-comment').setAttribute('id', 'comment-' + response.id);
+            template.querySelector('.p-author').setAttribute('href', author.url);
+            template.querySelector('.p-name').textContent = author.name;
 
             if (author.photo) {
                 avatar.setAttribute('src', author.photo);
@@ -49,10 +49,10 @@
             pubdate.innerHTML = published.toFormattedString();
 
             if (type === 'reply') {
-                template.querySelector('.response-content').innerHTML = entry.content[0].replace(/<p class="u-mention">.*<\/p>/g, '').replace(/^\s+|\s+$/g, '').replace(/(?:\n\n)+/g, '<br/><br/>');
-                template.querySelector('.permalink').setAttribute('href', url);
+                template.querySelector('.e-content').innerHTML = entry.content[0].replace(/<p class="u-mention">.*<\/p>/g, '').replace(/^\s+|\s+$/g, '').replace(/(?:\n\n)+/g, '<br/><br/>');
+                template.querySelector('.u-url').setAttribute('href', url);
             } else {
-                var title = template.querySelector('.title');
+                var title = template.querySelector('.u-url');
 
                 title.setAttribute('href', url);
                 title.textContent = entry.name[0];

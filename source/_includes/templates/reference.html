@@ -1,13 +1,11 @@
 <template id="template--reference">
-    <article class="response  p-comment h-cite">
-        <div class="response-content  e-content">
-            <p><cite><a class="title  p-name u-url"></a></cite> references this post.</p>
+    <article class="c-item c-item--comment  p-comment h-cite">
+        <div class="c-item__main s-prose s-prose--billboard  e-content">
+            <p><cite><a class="p-name u-url"></a></cite> references this post.</p>
         </div>
 
-        <footer class="response-footer">
-            <p>
-                <a class="author  p-author h-card"><img class="avatar  u-photo"> <span class="name  p-name"></span></a> published this on <time class="pubdate  dt-published"></time>.
-            </p>
-        </footer>
+        <p class="c-item__meta">
+            <a class="p-author h-card"><img class="c-item__avatar  u-photo"><span class="p-name"></span></a> published this on <time class="c-item__pubdate  dt-published"></time>.
+        </p>
     </article>
 </template>

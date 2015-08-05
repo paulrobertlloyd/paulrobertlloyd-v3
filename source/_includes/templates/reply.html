@@ -1,14 +1,10 @@
 <template id="template--reply">
-    <article class="response  p-comment h-cite">
-        <div class="response-content  e-content"></div>
+    <article class="c-item c-item--comment  p-comment h-cite">
+        <div class="c-item__main s-prose s-prose--billboard  e-content"></div>
 
-        <footer class="response-footer">
-            <p>
-                <a class="author  p-author h-card"><img class="avatar  u-photo"><span class="name  p-name"></span></a> responded on
-                <a class="permalink  u-url">
-                    <time class="pubdate  dt-published"></time>
-                </a>.
-            </p>
-        </footer>
+        <p class="c-item__meta">
+            <a class="p-author h-card"><img class="c-item__avatar  u-photo"><span class="p-name"></span></a> responded on
+            <a class="u-url"><time class="c-item__pubdate  dt-published"></time></a>.
+        </p>
     </article>
 </template>
