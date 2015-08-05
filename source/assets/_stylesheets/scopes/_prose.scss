@@ -25,10 +25,9 @@
     }
 
     h4 {
-        @include ff--sans-serif;
+        @include ff--sans-serif(700);
         @include fs--heading-4;
         margin-bottom: ($u__baseline / 2);
-        color: $c__neutral-4;
     }
 
     > p,

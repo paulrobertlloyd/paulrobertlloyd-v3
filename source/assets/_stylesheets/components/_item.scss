@@ -35,19 +35,24 @@
 }
 
 
-/* Entry */
+/* Journal entries */
 .c-item--album,
-.c-item--entry,
-.c-item--project {
+.c-item--entry {
     .c-item__title {
-        @include fs--heading-2;
+        @include fs--heading-1;
         padding-bottom: ($u__baseline / 4);
         font-weight: 700;
     }
 }
 
+.c-item--album,
+.c-item--entry,
+.c-item--link {
+    @media (min-width: $b__b) {
+        margin-bottom: ($u__baseline * 4);
+    }
+}
 
-/* Album */
 .c-item--album {
     padding-left: ($u__baseline * 7);
     min-height: ($u__baseline * 7);

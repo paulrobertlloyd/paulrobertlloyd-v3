@@ -24,8 +24,8 @@ $c__primary-green: hsb(170, 60, 80);
 $c__focus: $c__primary-yellow;
 $c__highlight: $c__primary-yellow;
 $c__select: rgba($c__highlight, 0.5);
-$c__valid: rgba($c__primary-green, 0.5);
-$c__invalid: rgba($c__primary-red, 0.5);
+$c__valid: $c__primary-green;
+$c__invalid: $c__primary-red;
 
 
 // Breakpoints

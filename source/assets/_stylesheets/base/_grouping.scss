@@ -44,8 +44,7 @@ blockquote {
         top: ((1/3) + em);
         bottom: 0;
         left: 0;
-        opacity: 0.2;
-        border-left: 4px solid;
+        border-left: 4px solid $c__neutral-4;
         content: '';
     }
 }

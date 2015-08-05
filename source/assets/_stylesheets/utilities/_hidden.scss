@@ -7,7 +7,7 @@
 }
 
 .u-hidden-on-mobile {
-    @media (max-width: $b__a) {
+    @media (max-width: $b__b) {
         @include visually-hidden;
         display: none !important;
     }

@@ -110,9 +110,9 @@ textarea {
 
 /* Placeholder */
 ::placeholder {
-    color: rgba($c__neutral-0, 0.5);
+    color: $c__neutral-4;
 }
 
 :focus::placeholder {
-    color: rgba($c__neutral-0, 0.2);
+    opacity: 0.5;
 }

@@ -41,9 +41,9 @@
 
 
 // Font sizes
-@mixin fs--heading-1 {
-    line-height: (32/36);
-    font-size: 2.25rem; // 36px
+@mixin fs--title {
+    line-height: (28/32);
+    font-size: 2rem; // 32px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__b) {
@@ -55,13 +55,23 @@
     }
 }
 
-@mixin fs--heading-2 {
-    line-height: (28/28);
-    font-size: 1.75rem; // 28px
+@mixin fs--heading-1 {
+    line-height: (28/32);
+    font-size: 2rem; // 32px
     letter-spacing: -0.02em;
 
     @media (min-width: $b__b) {
-        font-size: 2rem; // 32px
+        font-size: 2.5rem; // 40px
+    }
+}
+
+@mixin fs--heading-2 {
+    line-height: (24/24);
+    font-size: 1.5rem; // 24px
+    letter-spacing: -0.02em;
+
+    @media (min-width: $b__b) {
+        font-size: 1.75rem; // 28px
     }
 }
 
@@ -82,7 +92,7 @@
     letter-spacing: -0.01em;
 
     @media (min-width: $b__b) {
-        font-size: 1.5rem; // 24px
+        font-size: 1.25rem; // 20px
     }
 }
 
