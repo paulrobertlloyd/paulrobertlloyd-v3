@@ -1,7 +1,7 @@
-<article class="c-item c-item--album h-entry">
-    <a class="c-item__link u-block-link u-url" href="{{ item.url }}" rel="bookmark">
+<article class="c-item c-item--album  h-entry">
+    <a class="c-item__link u-block-link  u-url" href="{{ item.url }}" rel="bookmark">
         <header class="c-item__header">
-            <h1 class="c-item__title p-name">
+            <h1 class="c-item__title  p-name">
                 <span class="c-item__cover">
                     <img class="c-item__cover-photo" src="{{ site.picture.cdn_url }}/180x180/80{{ item.image.url }}" alt=""/>
                 </span>
@@ -11,11 +11,11 @@
 
         <footer class="c-item__footer">
             <p class="c-item__meta">
-                <time class="c-item__pubdate dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+                <time class="c-item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
             </p>
         </footer>
 
-        <div class="c-item__main s-prose s-prose--billboard p-summary">
+        <div class="c-item__main s-prose s-prose--billboard  p-summary">
             {{ item.excerpt | markdownify | typogrify | namespace }}
         </div>
     </a>
