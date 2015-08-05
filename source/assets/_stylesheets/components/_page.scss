@@ -43,13 +43,13 @@
 }
 
 .c-page__title {
-    @include fs--heading-1;
+    @include fs--title;
     margin-bottom: ($u__baseline * 3/4);
     font-weight: 700;
 
     .c-page--index & {
         @media (min-width: $b__b) {
-            @include fs--heading-2;
+            @include fs--heading-1;
         }
     }
 }

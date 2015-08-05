@@ -55,7 +55,7 @@
     }
 
     .c-container__title {
-        @include fs--heading-1;
+        @include fs--title;
 
         &::after {
             content: ',';

@@ -56,6 +56,15 @@ $c__t-dark--active: #fff;
             }
         }
 
+        .c-button,
+        .c-form__input:not(:focus) {
+            border-color: $c__neutral-9;
+        }
+
+        .c-form__label-inline .c-form__label {
+            border-color: rgba($c__neutral-9, 0.2);
+        }
+
         .c-navigation {
             background-color: rgba($c__t-dark--background, 0.95);
         }
