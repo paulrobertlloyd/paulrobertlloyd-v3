@@ -91,7 +91,8 @@
 
 
 /* Remark */
-.c-item--remark {
+.c-item--remark,
+.c-item--comment {
     padding-left: (span(1 of 8) + gutter());
 
     @media screen and (min-width: $b__b) {
