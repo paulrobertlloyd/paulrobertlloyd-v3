@@ -56,17 +56,17 @@ Beyond the responsive development, I was keen to employ other best practices. Th
 ## What people said
 {% figure "[@susanjrobertson](https://twitter.com/susanjrobertson/status/407673287729111040)" %}
 > Really loving [@paulrobertlloyd](https://twitter.com/paulrobertlloyd)’s design for [@24ways](https://twitter.com/24ways). The more I read and poke around the more I discover that is awesome :)
-{: .c-tweet}
+{:.c-tweet}
 {% endfigure %}
 
 {% figure "[@davidlwarner](https://twitter.com/davidlwarner/status/407191676801662976)" %}
 > Nice work on [@24ways](https://twitter.com/24ways)! Readable, usable, beautiful. Love the mobile nav menu.
-{: .c-tweet}
+{:.c-tweet}
 {% endfigure %}
 
 {% figure "[@laurakalbag](https://twitter.com/laurakalbag/status/407438919123611648)" %}
 > The new [@24ways](https://twitter.com/24ways) design is lovely. Nice one [@paulrobertlloyd](https://twitter.com/paulrobertlloyd). (He likes his hamburgers with triple beef...)
-{: .c-tweet}
+{:.c-tweet}
 {% endfigure %}
 
 [1]: https://24ways.org
