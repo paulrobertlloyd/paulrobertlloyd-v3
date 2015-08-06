@@ -33,12 +33,6 @@
     </section>
 {% endif %}
 
-<section class="c-page__section c-container">
-    <div class="c-container__main">
-        {% include form/webmention.html %}
-    </div>
-</section>
-
 <div id="webmentions">
     {% include templates/responses.html %}
     {% include templates/reposts.html %}
@@ -48,3 +42,9 @@
     {% include templates/reference.html %}
     {% include templates/reply.html %}
 </div>
+
+<section class="c-page__section c-container">
+    <div class="c-container__main">
+        {% include form/webmention.html %}
+    </div>
+</section>

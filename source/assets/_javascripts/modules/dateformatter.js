@@ -12,28 +12,6 @@
     };
 
     DateFormatter.prototype = {
-        getOrdinal: function () {
-            var ordinal = 'th';
-
-            switch (this.dateObj.getDate()) {
-                case 1:
-                case 21:
-                case 31:
-                    ordinal = 'st';
-                    break;
-                case 2:
-                case 22:
-                    ordinal = 'nd';
-                    break;
-                case 3:
-                case 23:
-                    ordinal = 'rd';
-                    break;
-            }
-
-            return ordinal;
-        },
-
         normalizeDateString: function () {
             return this.date.replace(/[+|-]\d{2}:\d{2}$/, '').replace(/-/g, '/').replace('T', ' ').replace(/\.\d{3}Z$/, '');
         },
@@ -49,10 +27,10 @@
             hours = hours % 12;
             hours = hours ? hours : 12;
 
+            strtime += dateObj.getDate() + ' ';
             strtime += months[dateObj.getMonth()] + ' ';
-            strtime += dateObj.getDate() + '<sup>' + this.getOrdinal() + '</sup>, ';
             strtime += dateObj.getFullYear() + ' at ';
-            strtime += hours + ':' + (minutes < 10 ? '0' + minutes : minutes) + ' ' + meridian + ' UTC';
+            strtime += hours + ':' + (minutes < 10 ? '0' + minutes : minutes) + ' ' + meridian + ' <abbr title="Coordinated Universal Time">UTC</abbr>';
 
             return strtime;
         },
