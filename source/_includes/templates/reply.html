@@ -1,10 +1,22 @@
 <template id="template--reply">
     <article class="c-item c-item--comment  p-comment h-cite">
-        <div class="c-item__main s-prose s-prose--billboard  e-content"></div>
+        <header class="c-item__header">
+            <h1 class="c-item__title  h-card">
+                <a class="c-item__author-url   u-url">
+                    <span class="c-item__author  p-author p-name"></span>
+                    <img class="c-item__avatar  u-photo"/>
+                </a>
+            </h1>
+        </header>
 
-        <p class="c-item__meta">
-            <a class="p-author h-card"><img class="c-item__avatar  u-photo"><span class="p-name"></span></a> responded on
-            <a class="u-url"><time class="c-item__pubdate  dt-published"></time></a>.
-        </p>
+        <footer class="c-item__footer">
+            <p class="c-item__meta">
+                <a class="c-item__permalink  u-url">
+                    <time class="c-item__pubdate  dt-published"></time>
+                </a>
+            </p>
+        </footer>
+
+        <div class="c-item__main s-prose s-prose--billboard  e-content"></div>
     </article>
 </template>

@@ -30,14 +30,17 @@
             var entry = response.entry.properties;
             var template = document.importNode(type === 'reply' ? this.replyTemplate : this.referenceTemplate, true);
             var author = this._normalizeAuthor(response);
-            var avatar = template.querySelector('.u-photo');
+            var avatar = template.querySelector('.c-item__avatar');
             var url = this._normalizeUrl(response);
             var published = new DateFormatter(this._normalizePublishedDate(response));
-            var pubdate = template.querySelector('.dt-published');
+            var pubdate = template.querySelector('.c-item__pubdate');
 
-            template.querySelector('.p-comment').setAttribute('id', 'comment-' + response.id);
-            template.querySelector('.p-author').setAttribute('href', author.url);
-            template.querySelector('.p-name').textContent = author.name;
+            template.querySelector('.c-item--comment').setAttribute('id', 'response-' + response.id);
+            template.querySelector('.c-item__author-url').setAttribute('href', author.url);
+            template.querySelector('.c-item__author').textContent = author.name;
+
+            pubdate.setAttribute('datetime', published.toIso8601());
+            pubdate.innerHTML = published.toFormattedString();
 
             if (author.photo) {
                 avatar.setAttribute('src', author.photo);
@@ -45,17 +48,12 @@
                 avatar.parentNode.removeChild(avatar);
             }
 
-            pubdate.setAttribute('datetime', published.toIso8601());
-            pubdate.innerHTML = published.toFormattedString();
-
             if (type === 'reply') {
-                template.querySelector('.e-content').innerHTML = entry.content[0].replace(/<p class="u-mention">.*<\/p>/g, '').replace(/^\s+|\s+$/g, '').replace(/(?:\n\n)+/g, '<br/><br/>');
-                template.querySelector('.u-url').setAttribute('href', url);
+                template.querySelector('.c-item__main').innerHTML = entry.content[0].replace(/<p class="u-mention">.*<\/p>/g, '').replace(/^\s+|\s+$/g, '').replace(/(?:\n\n)+/g, '<br/><br/>');
+                template.querySelector('.c-item__permalink').setAttribute('href', url);
             } else {
-                var title = template.querySelector('.u-url');
-
-                title.setAttribute('href', url);
-                title.textContent = entry.name[0];
+                template.querySelector('.c-item__link').setAttribute('href', url);
+                template.querySelector('.c-item__title').textContent = entry.name[0];
             }
 
             this.list.appendChild(template);

@@ -1,22 +1,16 @@
-<article class="c-item c-item--remark{% if item.gravatar == "15091a37bacfa4bdd011282627eaca2b" %} c-item--remark-author{% endif %}" id="remark-{{ forloop.rindex }}  p-comment h-entry">
-    <header class="c-item__header  p-author h-card">
-        <h1 class="c-item__title">
-        {% capture item_author %}{{ item.author }}<img class="c-item__avatar  u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=120&amp;d={{ site.url | uri_escape }}%2Fassets%2Fimages%2Fgravatar.png" width="80" height="80" alt=""/>{% endcapture %}
-        {% if item.url %}
-            <a class="c-item__link  p-name u-url" href="{{ item.url }}">
-                {{ item_author }}
-            </a>
-        {% else %}
-            <span class="c-item__link  p-name">
-                {{ item_author }}
-            </span>
-        {% endif %}
+<article class="c-item c-item--comment{% if item.gravatar == "15091a37bacfa4bdd011282627eaca2b" %} c-item--comment-author{% endif %}" id="remark-{{ forloop.rindex }}  p-comment h-entry">
+    <header class="c-item__header">
+        <h1 class="c-item__title  h-card">
+            {% if item.url %}<a class="c-item__author-url  u-url" href="{{ item.url }}">{% endif %}
+            <span class="c-item__author  p-author p-name">{{ item.author }}</span>
+            <img class="c-item__avatar  u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=120&amp;d={{ site.url | uri_escape }}%2Fassets%2Fimages%2Fgravatar.png" width="80" height="80" alt=""/>
+            {% if item.url %}</a>{% endif %}
         </h1>
     </header>
 
     <footer class="c-item__footer">
         <p class="c-item__meta">
-            <a class="u-url" href="#remark-{{ forloop.rindex }}">
+            <a class="c-item__permalink u-url" href="#remark-{{ forloop.rindex }}">
                 <time class="c-item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
             </a>
         </p>
