@@ -1,0 +1,15 @@
+{% if page.tags %}
+<section class="c-page__section c-container" aria-labelledby="tags">
+    <header class="c-container__header u-hidden">
+        <h1 class="c-container__title" id="tags">Tags</h1>
+    </header>
+
+    <div class="c-container__main">
+        <ol class="o-list o-list--inline">
+        {% for tag in page.tags %}
+            <li class="o-list__item">{% include tag.html tag=tag %}</li>
+        {% endfor %}
+        </ol>
+    </div>
+</section>
+{% endif %}

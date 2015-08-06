@@ -5,13 +5,13 @@
 .c-tag {
     @include ff--sans-serif;
     display: inline-block;
-    margin-right: 0.25em;
+    margin-right: 0.5em;
     text-transform: lowercase;
     word-spacing: -0.2em;
     white-space: nowrap;
 
     &::before {
-        opacity: 0.2;
+        opacity: 0.5;
         content: '#\2009';
     }
 }

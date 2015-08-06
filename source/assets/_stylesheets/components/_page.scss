@@ -4,7 +4,7 @@
 
 .c-page__header {
     @media screen and (min-width: $b__b) {
-        margin-bottom: ($u__baseline * 2);
+        margin-bottom: $u__baseline;
         padding-top: 0;
         padding-left: span(3 wide);
     }
@@ -35,7 +35,8 @@
 
 .c-page__footer {
     @include ff--sans-serif;
-    @include fs--caption;
+    @include fs--billboard;
+    color: $c__neutral-4;
 
     p {
         margin: 0;
