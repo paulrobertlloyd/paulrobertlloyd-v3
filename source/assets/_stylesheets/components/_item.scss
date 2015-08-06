@@ -40,7 +40,7 @@
 .c-item--entry {
     .c-item__title {
         @include fs--heading-1;
-        padding-bottom: ($u__baseline / 4);
+        padding-bottom: ($u__baseline / 2);
         font-weight: 700;
     }
 }

@@ -4,6 +4,8 @@ layout: default
 <article class="c-page c-page--link  h-entry">
     {% include page/header.html %}
 
+    {% include page/footer.html %}
+
     <div class="c-page__section s-prose s-prose--body  e-content">
         {% if page.link.embed %}
             {% figure u-bleed %}
@@ -16,9 +18,9 @@ layout: default
         <p><a class="c-button" href="{{ page.link.url }}">Visit this link</a></p>
     </div>
 
-    {% include page/discussion.html %}
+    {% include page/tags.html %}
 
-    {% include page/footer.html %}
+    {% include page/discussion.html %}
 </article>
 
 {% include nav/paginate-posts.html %}

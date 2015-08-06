@@ -9,16 +9,22 @@
 
 .c-form__field {
     position: relative;
-    margin-bottom: ($u__baseline / 2);
+
+    &:not(:last-of-type) {
+        margin-bottom: ($u__baseline / 2);
+    }
 }
 
 .c-form__note {
     @include fs--caption;
     display: block;
     margin-top: ($u__baseline / 2);
-    margin-bottom: $u__baseline;
     color: $c__neutral-4;
     font-style: normal;
+
+    &:not(:last-of-type) {
+        margin-bottom: $u__baseline;
+    }
 }
 
 .c-form__icon {

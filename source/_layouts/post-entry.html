@@ -4,6 +4,8 @@ layout: default
 <article class="c-page c-page--entry  h-entry">
     {% include page/header.html %}
 
+    {% include page/footer.html %}
+
     <div class="c-page__section s-prose s-prose--body  e-content">
         {% if page.image %}
             {% figure u-bleed "{{ page.image.caption }}" %}
@@ -20,11 +22,11 @@ layout: default
         {{ content | typogrify | namespace }}
     </div>
 
+    {% include page/tags.html %}
+
     {% include page/series.html %}
 
     {% include page/discussion.html %}
-
-    {% include page/footer.html %}
 </article>
 
 {% include nav/paginate-posts.html %}
