@@ -15,7 +15,7 @@
             this.containerTemplate = document.querySelector('#template--responses').content;
             this.referenceTemplate = document.querySelector('#template--reference').content;
             this.replyTemplate = document.querySelector('#template--reply').content;
-            this.list = this.containerTemplate.querySelector('.responses-list');
+            this.list = this.containerTemplate.querySelector('.c-page__section--responses .c-page__section__main');
         },
 
         render: function () {

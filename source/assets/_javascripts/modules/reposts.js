@@ -14,7 +14,7 @@
         init: function () {
             this.containerTemplate = document.querySelector('#template--reposts').content;
             this.repostTemplate = document.querySelector('#template--avatar').content;
-            this.list = this.containerTemplate.querySelector('.avatars-list');
+            this.list = this.containerTemplate.querySelector('.c-page__section--reposts .c-list');
         },
 
         render: function () {

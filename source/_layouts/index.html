@@ -6,26 +6,18 @@ layout: default
         <h1 class="c-page__title">{% include title.html %}</h1>
     </header>
 
-    <div class="c-page__section">
-        {% if page.excerpt %}
-        <div class="c-page__excerpt s-prose s-prose--lede">
-            {{ page.excerpt | markdownify | typogrify | namespace }}
-        </div>
-        {% endif %}
-
-        {{ content }}
-    </div>
+    {{ content }}
 
     {% if page.path contains "journal" or page.type == "year" or page.type == "month" or page.type == "tag" %}
-    <div class="c-page__section s-prose">
-        <p>
-            {% if page.path != "journal/archive.html" %}<span class="u-sepatate"><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</span>{% endif %}
-            Subscribe to the <a href="/journal/feed" rel="alternate"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> feed</a>.
-        </p>
+    <div class="c-section">
+        <div class="s-prose">
+            <p>
+                {% if page.path != "journal/archive.html" %}<span class="u-sepatate"><strong>Looking for older posts?</strong> Browse <a href="/archive/">the archive</a>.</span>{% endif %}
+                Subscribe to the <a href="/journal/feed" rel="alternate"><abbr class=".u-caps" title="Really Simple Syndication">RSS</abbr> feed</a>.
+            </p>
+        </div>
     </div>
     {% endif %}
 </section>
 
-{% if paginator.next_page or paginator.previous_page %}
-    {% include nav/paginate-indices.html %}
-{% endif %}
+{% include nav/paginate-indices.html %}

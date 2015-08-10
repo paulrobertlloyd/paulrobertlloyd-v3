@@ -1,20 +1,26 @@
 ---
 layout: default
 ---
-<article class="c-page c-page--project  h-entry">
+<article class="c-page  h-entry">
     {% include page/header.html %}
 
-    <div class="c-page__section s-prose s-prose--body  e-content">
-        {% if page.screenshots %}
-        <div class="u-extend">
-            {% include screenshots.html imageset=page.screenshots %}
+    <div class="c-section c-section--body">
+        {% if page.excerpt %}
+        <div class="s-prose s-prose--lede  p-summary">
+            {{ page.excerpt | markdownify | typogrify | namespace }}
         </div>
         {% endif %}
 
-        {% if page.meta %}
-            {% include meta.html class="u-aside" %}
-        {% endif %}
+        <div class="s-prose s-prose--body  e-content">
+            {% if page.screenshots %}
+            <div class="u-extend">
+                {% include screenshots.html imageset=page.screenshots %}
+            </div>
+            {% endif %}
 
-        {{ content | typogrify | namespace }}
+            {% include meta.html class="u-aside" %}
+
+            {{ content | typogrify | namespace }}
+        </div>
     </div>
 </article>

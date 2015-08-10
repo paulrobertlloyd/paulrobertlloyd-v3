@@ -1,3 +1,4 @@
+{% if page.meta %}
 <aside class="c-meta {{ include.class }}" role="complementary">
     <h2 class="c-meta__title u-hidden">Information about {{ page.title }}</h2>
     <dl class="c-meta__values">
@@ -12,3 +13,4 @@
     {% endfor %}
     </dl>
 </aside>
+{% endif %}

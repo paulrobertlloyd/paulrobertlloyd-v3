@@ -25,6 +25,7 @@ $u__shadow-size: 4px;
     background-size: 100%;
 }
 
+
 /* Desktop screens */
 .c-screenshot--desktop,
 .c-screenshot--desktop-1,
@@ -53,6 +54,7 @@ $u__shadow-size: 4px;
         right: ($u__baseline * 2);
     }
 }
+
 
 /* Tablet screen */
 .c-screenshot--tablet,
@@ -84,6 +86,7 @@ $u__shadow-size: 4px;
     width: (36% * 946/640); // Width/height of tablet image
 }
 
+
 /* Phablet screen */
 .c-screenshot--phablet {
     top: ($u__baseline * 2);
@@ -93,6 +96,7 @@ $u__shadow-size: 4px;
     padding: 4.8% 1.6% 0;
     width: 24%;
 }
+
 
 /* Phone screen */
 .c-screenshot--phone {

@@ -1,18 +1,24 @@
 ---
 layout: default
 ---
-<article class="c-page c-page--talk  h-entry">
+<article class="c-page  h-entry">
     {% include page/header.html %}
 
-    <div class="c-page__section s-prose s-prose--body  e-content">
-        {% if page.meta %}
+    <div class="c-section c-section--body">
+        {% if page.excerpt %}
+        <div class="s-prose s-prose--lede  p-summary">
+            {{ page.excerpt | markdownify | typogrify | namespace }}
+        </div>
+        {% endif %}
+
+        <div class="s-prose s-prose--body  e-content">
             {% include meta.html class="u-aside" %}
-        {% endif %}
 
-        {% if page.link.embed %}
-            {% embed {{ page.link.url }} %}
-        {% endif %}
+            {% if page.link.embed %}
+                {% embed {{ page.link.url }} %}
+            {% endif %}
 
-        {{ content | typogrify | namespace }}
+            {{ content | typogrify | namespace }}
+        </div>
     </div>
 </article>

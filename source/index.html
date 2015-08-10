@@ -2,15 +2,17 @@
 layout: default
 theme: dark
 ---
-<div class="h-card">
+<div class="c-page  h-card">
 {% for container in site.data.homepage %}
-    <section class="c-container c-container--{{ container.class }}">
-        <header class="c-container__header">
-            <h1 class="c-container__title">{{ container.title | smartify }}</h1>
+    <section class="c-section c-section--{{ container.class }}">
+        <header class="c-section__header">
+            <h1 class="c-section__title">{{ container.title | smartify }}</h1>
         </header>
 
-        <div class="c-container__main s-prose {% if container.class == "intro" %}s-prose--lede{% else %}s-prose--billboard{% endif %}">
-            {{ container.text | markdownify | typogrify | namespace }}
+        <div class="c-section__main">
+            <div class="s-prose s-prose--{% if container.class == "about" %}lede{% else %}billboard{% endif %}">
+                {{ container.text | markdownify | typogrify | namespace }}
+            </div>
         </div>
     </section>
 {% endfor %}

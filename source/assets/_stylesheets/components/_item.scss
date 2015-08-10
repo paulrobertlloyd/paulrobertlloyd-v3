@@ -4,7 +4,7 @@
 
 .c-item {
     position: relative;
-    margin-bottom: ($u__baseline * 3);
+    margin-bottom: ($u__baseline * 2.5);
 }
 
 .c-item__media,
@@ -90,7 +90,7 @@
 }
 
 
-/* Remark */
+/* Comment (submitted remark or webmention response) */
 .c-item--comment {
     padding-left: (span(1 of 8) + gutter());
 

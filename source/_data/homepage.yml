@@ -1,4 +1,4 @@
-- class: intro
+- class: about
   title: Hello
   text: |
     I'm **Paul Robert Lloyd**{: .p-name}, a [designer][2], [writer][3] and [speaker][4] based in beautiful <span class="p-locality">Brighton</span>, <span class="p-country-name">England</span>.
@@ -31,7 +31,7 @@
     
     [1]: /contact/
 
-- class: extra
+- class: other
   title: Elsewhere
   text: |
     I write about a variety of [topics][1], but less considered thoughts can be found on [Twitter][2]{: .u-url rel="me"}. Works in progress can be found on [Dribbble][3]{: .u-url rel="me"} and [GitHub][4]{: .u-url rel="me"}, and I post photos to [Flickr][5]{: .u-url rel="me"}.
