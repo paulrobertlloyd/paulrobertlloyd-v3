@@ -4,17 +4,25 @@ layout: default
 <article class="c-page  h-entry">
     {% include page/header.html %}
 
-    <div class="c-page__section s-prose s-prose--body  e-content">
-        {% if page.image %}
-            {% figure u-bleed "{{ page.image.caption }}" %}
-{% picture feature {{ page.image.url }} alt="" %}
-            {% endfigure %}
+    <div class="c-section c-section--body">
+        {% if page.excerpt %}
+        <div class="s-prose s-prose--lede  p-summary">
+            {{ page.excerpt | markdownify | typogrify | namespace }}
+        </div>
         {% endif %}
 
-        {% if page.series %}
-            {% include nav/series.html class="u-aside" %}
-        {% endif %}
+        <div class="s-prose s-prose--body  e-content">
+            {% if page.image %}
+                {% figure u-bleed "{{ page.image.caption }}" %}
+    {% picture feature {{ page.image.url }} alt="" %}
+                {% endfigure %}
+            {% endif %}
 
-        {{ content | typogrify | namespace }}
+            {% if page.series %}
+                {% include nav/series.html class="u-aside" %}
+            {% endif %}
+
+            {{ content | typogrify | namespace }}
+        </div>
     </div>
 </article>

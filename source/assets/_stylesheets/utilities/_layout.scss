@@ -22,6 +22,19 @@
 }
 
 
+/* Show two items abreast, three on wider breakpoints */
+.u-triad {
+    .c-item,
+    .c-nav__item {
+        @include gallery(2 of 4);
+
+        @media (min-width: $b__b) {
+            @include gallery(2 of 6);
+        }
+    }
+}
+
+
 /* Align element right or left */
 .u-align-right {
     float: right;

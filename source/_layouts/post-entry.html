@@ -1,32 +1,36 @@
 ---
 layout: default
 ---
-<article class="c-page c-page--entry  h-entry">
+<article class="c-page  h-entry">
     {% include page/header.html %}
 
     {% include page/footer.html %}
 
-    <div class="c-page__section s-prose s-prose--body  e-content">
-        {% if page.image %}
-            {% figure u-bleed "{{ page.image.caption }}" %}
+    <div class="c-section c-section--body">
+        <div class="s-prose s-prose--body  e-content">
+            {% if page.image %}
+                {% figure u-bleed "{{ page.image.caption }}" %}
 {% picture feature {{ page.image.url }} alt="" %}
-            {% endfigure %}
-        {% endif %}
+                {% endfigure %}
+            {% endif %}
 
-        {% if page.embed %}
-            {% figure u-bleed "{{ page.embed.caption }}" %}
+            {% if page.embed %}
+                {% figure u-bleed "{{ page.embed.caption }}" %}
 {% embed {{ page.embed.url }} %}
-            {% endfigure %}
-        {% endif %}
+                {% endfigure %}
+            {% endif %}
 
-        {{ content | typogrify | namespace }}
+            {{ content | typogrify | namespace }}
+        </div>
     </div>
 
-    {% include page/tags.html %}
+    {% include page/section--tags.html %}
 
-    {% include page/series.html %}
+    {% include page/section--series.html %}
 
-    {% include page/discussion.html %}
+    {% include page/section--remarks.html %}
+
+    {% include page/section--webmentions.html %}
 </article>
 
 {% include nav/paginate-posts.html %}

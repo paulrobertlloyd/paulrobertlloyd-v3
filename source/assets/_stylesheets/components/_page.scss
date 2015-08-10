@@ -2,13 +2,15 @@
     Page
     ========================================================================= */
 
-.c-page__header {
+.c-page__header,
+.c-page__footer {
     @media screen and (min-width: $b__b) {
         margin-bottom: $u__baseline;
-        padding-top: 0;
         padding-left: span(3 wide);
     }
+}
 
+.c-page__header {
     .c-page--index & {
         @media screen and (min-width: $b__b) {
             position: absolute;
@@ -18,47 +20,20 @@
     }
 }
 
-.c-page__section,
 .c-page__footer {
-    @include clearfix;
-    margin-bottom: ($u__baseline * 2);
-
-    @media screen and (min-width: $b__b) {
-        padding-right: span(1 wide);
-        padding-left: span(3 wide);
-    }
-
-    > *:last-child {
-        margin-bottom: 0;
-    }
-}
-
-.c-page__footer {
-    @include ff--sans-serif;
-    @include fs--billboard;
+    margin-bottom: ($u__baseline * 2.5);
     color: $c__neutral-4;
-
-    p {
-        margin: 0;
-    }
 }
 
 .c-page__title {
     @include fs--title;
-    margin-bottom: ($u__baseline * 3/4);
     font-weight: 700;
 
     .c-page--index & {
+        font-weight: normal;
+
         @media (min-width: $b__b) {
             @include fs--heading-1;
         }
-    }
-}
-
-.c-page__excerpt {
-    margin-bottom: ($u__baseline * 2);
-
-    @media (min-width: $b__b) {
-        margin-bottom: ($u__baseline * 3);
     }
 }

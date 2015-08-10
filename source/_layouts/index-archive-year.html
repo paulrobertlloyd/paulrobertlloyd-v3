@@ -14,17 +14,17 @@ layout: index
 </section>
             {% endunless %}
 
-<section class="c-container c-container--index" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-    <header class="c-container__header">
-        <h1 class="c-container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
+<section class="c-section c-section--archive" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+    <header class="c-section__header">
+        <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
     </header>
 
-    <div class="c-container__main">
-        <ol class="o-list o-list--inline" reversed>
+    <div class="c-section__main">
+        <ol class="c-list c-list--inline" reversed>
             {% assign month = this_month %}
         {% endif %}
 
-            <li class="o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
+            <li class="c-list__item u-separate" value="{{ item.date | date:"%-d" }}">
                 <a href="{{ item.url }}">{{ item.title }}</a>
             </li>
 

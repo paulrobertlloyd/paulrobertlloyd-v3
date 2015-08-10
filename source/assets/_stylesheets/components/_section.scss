@@ -1,0 +1,88 @@
+/*  =========================================================================
+    Section
+    ========================================================================= */
+
+.c-section {
+    @include clearfix;
+    margin-bottom: ($u__baseline * 2.5);
+
+    @media screen and (min-width: $b__b) {
+        padding-right: span(1 wide);
+        padding-left: span(3 wide);
+    }
+}
+
+.c-section__title {
+    @include ff--sans-serif;
+    @include fs--heading-2;
+    margin-bottom: $u__baseline;
+    font-weight: 700;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+
+/* About the author */
+.c-section--about {
+    @media (min-width: $b__b) {
+        padding-right: 0;
+        padding-left: 0;
+
+        .c-section__header {
+            @include span(3 first);
+        }
+
+        .c-section__main {
+            @include span(9 at 3 last);
+        }
+    }
+
+    .c-section__title {
+        @include fs--title;
+        font-weight: 700;
+
+        &::after {
+            content: ',';
+        }
+    }
+}
+
+
+/* Archive */
+.c-section--archive {
+    @media (min-width: $b__a) {
+        .c-section__header {
+            @include span(2 of 9 first);
+        }
+
+        .c-section__main {
+            @include span(7 of 9 last);
+        }
+    }
+}
+
+
+/* Other places on the internet */
+.c-section--other {
+    @media (min-width: $b__b) {
+        @include span(5 at 8);
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+/* Pitch for new projects */
+.c-section--pitch {
+    @media (min-width: $b__b) {
+        @include span(7);
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+/* Tags */
+.c-section--tags {
+    margin-top: -($u__baseline * 2.5);
+}

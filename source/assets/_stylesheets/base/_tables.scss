@@ -5,8 +5,8 @@
 
 table {
     @include ff--sans-serif;
+    @include fs--billboard;
     border-spacing: 0;
-    font-size: 1rem;
 }
 
 tbody {

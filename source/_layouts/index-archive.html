@@ -1,9 +1,8 @@
 ---
 layout: index
-title: Journal
 ---
 <div class="c-section">
-{% for item in paginator.posts %}
+{% for item in page.posts %}
     {% case item.layout %}
     {% when "post-link" %}
         {% include item/link.html %}

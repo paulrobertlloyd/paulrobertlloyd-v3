@@ -9,22 +9,15 @@
 
 .c-form__field {
     position: relative;
-
-    &:not(:last-of-type) {
-        margin-bottom: ($u__baseline / 2);
-    }
+    margin-bottom: $u__baseline;
 }
 
 .c-form__note {
-    @include fs--caption;
     display: block;
     margin-top: ($u__baseline / 2);
     color: $c__neutral-4;
+    font-size: 1rem; // 16px
     font-style: normal;
-
-    &:not(:last-of-type) {
-        margin-bottom: $u__baseline;
-    }
 }
 
 .c-form__icon {
@@ -81,11 +74,11 @@
     width: 100%;
 
     &:focus {
-        border-color: $c__primary-purple;
+        box-shadow: inset 0 0 0 2px $c__highlight;
     }
 
     &[required]:valid {
-        border-color: $c__valid;
+        box-shadow: inset 0 0 0 2px $c__valid;
     }
 
     .c-form__label-inline & {

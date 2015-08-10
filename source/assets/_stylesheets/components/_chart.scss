@@ -18,11 +18,10 @@
     }
 
     .c-chart__value--percent {
-        @include fs--caption;
         display: block;
         margin-bottom: 0;
         background-color: $c__neutral-7;
-        padding: ($u__baseline / 4);
+        padding: 0 ($u__baseline / 4);
         white-space: nowrap;
     }
 }

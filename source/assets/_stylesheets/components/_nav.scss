@@ -12,7 +12,6 @@
 /* Series navigation */
 .c-nav--series {
     @include ff--sans-serif;
-    @include fs--caption;
     margin-bottom: $u__baseline;
 
     .c-nav__title {
@@ -21,6 +20,7 @@
     }
 
     .c-nav__item__label {
+        @include fs--caption;
         display: block;
         padding-bottom: ($u__baseline * 1.25);
         line-height: 1;
@@ -34,14 +34,12 @@
 
 /* Page navigation */
 .c-nav--pagination {
-    @include fs--caption;
     margin-bottom: $u__baseline;
     overflow: hidden;
 
     @media (min-width: $b__b) {
         position: absolute;
         bottom: 0;
-        margin-bottom: 0;
     }
 
     @media print {

@@ -14,7 +14,7 @@
         init: function () {
             this.containerTemplate = document.querySelector('#template--likes').content;
             this.likeTemplate = document.querySelector('#template--avatar').content;
-            this.list = this.containerTemplate.querySelector('.avatars-list');
+            this.list = this.containerTemplate.querySelector('.c-page__section--likes .c-list');
         },
 
         render: function () {

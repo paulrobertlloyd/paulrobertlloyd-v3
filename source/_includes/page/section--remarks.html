@@ -1,9 +1,9 @@
 {% if page.discussion %}
 {% capture entry_id %}{{ page.path | remove:"_posts/entries/" | remove:"_posts/links/" | remove:".markdown" }}{% endcapture %}
 {% capture remark_count %}{{ site.data.remarks[entry_id] | size }}{% endcapture %}
-<section class="c-page__section c-container" aria-labelledby="remarks">
-    <header class="c-container__header">
-        <h1 class="c-container__title" id="remarks">Remarks</h1>
+<section class="c-section c-section--remarks" aria-labelledby="remarks">
+    <header class="c-section__header">
+        <h1 class="c-section__title" id="remarks">Remarks</h1>
         <div class="s-prose s-prose--billboard">
             <p>
                 {% case remark_count %}
@@ -23,7 +23,7 @@
         </div>
     </header>
 
-    <div class="c-container__main">
+    <div class="c-section__main">
         {% if remark_count >= "1" %}
             {% for item in site.data.remarks[entry_id] reversed %}
                 {% include item/remark.html %}
@@ -32,19 +32,3 @@
     </div>
 </section>
 {% endif %}
-
-<div id="webmentions">
-    {% include templates/responses.html %}
-    {% include templates/reposts.html %}
-    {% include templates/likes.html %}
-
-    {% include templates/avatar.html %}
-    {% include templates/reference.html %}
-    {% include templates/reply.html %}
-</div>
-
-<div class="c-page__section c-container">
-    <div class="c-container__main">
-        {% include form/webmention.html %}
-    </div>
-</div>

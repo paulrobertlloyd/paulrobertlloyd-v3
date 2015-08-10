@@ -3,25 +3,25 @@ layout: index
 title: Archive
 permalink: /archive/
 ---
-<section class="c-container c-container--index" aria-labelledby="search">
-    <header class="c-container__header">
-        <h1 class="c-container__title" id="search">Search</h1>
+<section class="c-section c-section--archive" aria-labelledby="search">
+    <header class="c-section__header">
+        <h1 class="c-section__title" id="search">Search</h1>
     </header>
 
-    <div class="c-container__main">
+    <div class="c-section__main">
         {% include form/search.html %}
     </div>
 </section>
 
-<section class="c-container c-container--index" aria-labelledby="tags">
-    <header class="c-container__header">
-        <h1 class="c-container__title" id="tags">
+<section class="c-section c-section--archive" aria-labelledby="tags">
+    <header class="c-section__header">
+        <h1 class="c-section__title" id="tags">
             <a href="/tags/">Tags</a>
         </h1>
     </header>
 
-    <div class="c-container__main">
-        <ol class="o-list o-list--inline">
+    <div class="c-section__main">
+        <ol class="c-list c-list--inline">
         {% capture site_tags %}
             {% for tag in site.tags %}
                 {{ tag[1].size | plus:1000 }}#{{ tag[0] | replace:" ","_" }}
@@ -31,7 +31,7 @@ permalink: /archive/
         {% for popular_tag in popular_tags limit:25 %}
             {% assign tag_array = popular_tag | split:"#" %}
             {% capture tag %}{{ tag_array[1] | replace:"_"," " }}{% endcapture %}
-            <li class="o-list__item">{% include tag.html tag=tag %}</li>
+            <li class="c-list__item">{% include tag.html tag=tag %}</li>
         {% endfor %}
         </ol>
     </div>
@@ -52,16 +52,16 @@ permalink: /archive/
         </section>
         {% endunless %}
 
-        <section class="c-container c-container--index" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-            <header class="c-container__header">
-                <h1 class="c-container__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
+        <section class="c-section c-section--archive" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+            <header class="c-section__header">
+                <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
             </header>
 
-            <div class="c-container__main">
-                <ol class="o-list o-list--inline" reversed>
+            <div class="c-section__main">
+                <ol class="c-list c-list--inline" reversed>
     {% endif %}
 
-                    <li class="o-list__item u-separate" value="{{ item.date | date:"%-d" }}">
+                    <li class="c-list__item u-separate" value="{{ item.date | date:"%-d" }}">
                         <a href="{{ item.url }}">{{ item.title }}</a>
                     </li>
 
@@ -72,14 +72,16 @@ permalink: /archive/
     {% endif %}
 {% endfor %}
 
-<section class="c-container c-container--index" aria-labelledby="lloydyweb">
-    <header class="c-container__header">
-        <h1 class="c-container__title" id="lloydyweb">
+<section class="c-section c-section--archive" aria-labelledby="lloydyweb">
+    <header class="c-section__header">
+        <h1 class="c-section__title" id="lloydyweb">
             <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
         </h1>
     </header>
 
-    <div class="c-container__main s-prose">
-        <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous website</a>.</p>
+    <div class="c-section__main">
+        <div class="s-prose">
+            <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous website</a>.</p>
+        </div>
     </div>
 </section>

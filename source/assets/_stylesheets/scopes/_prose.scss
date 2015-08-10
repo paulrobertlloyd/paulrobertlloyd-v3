@@ -5,17 +5,25 @@
 .s-prose {
     font-feature-settings: 'liga', 'dlig', 'onum';
 
+    > * {
+        margin-bottom: $u__baseline;
+    }
+}
+
+
+/* Body */
+.s-prose--body {
+    @include ff--serif;
+    @include fs--body;
+
+    > * {
+        margin-bottom: ($u__baseline * 1.25);
+    }
+
     h2 {
         @include ff--sans-serif(700);
         @include fs--heading-2;
         margin-bottom: ($u__baseline / 2);
-    }
-
-    * + h2,
-    * + h3,
-    * + h4,
-    p + figure {
-        margin-top: ($u__baseline * 2);
     }
 
     h3 {
@@ -30,24 +38,18 @@
         margin-bottom: ($u__baseline / 2);
     }
 
-    > p,
-    > ul,
-    > ol,
-    > dl,
-    > pre,
-    > blockquote,
-    > table,
-    > fieldset,
-    > .c-embed,
-    .highlighter-rouge {
-        margin-bottom: ($u__baseline * 1.25);
+    * + h2,
+    * + h3,
+    * + h4,
+    p + figure {
+        margin-top: ($u__baseline * 2);
     }
 
     pre {
         font-size: 90%;
     }
 
-    > dl dd,
+    > dl > *,
     > * li p {
         margin-bottom: ($u__baseline / 2);
     }
@@ -55,25 +57,6 @@
     abbr[title]:hover {
         @include text-highlight;
     }
-}
-
-
-/* Lede */
-.s-prose--lede {
-    @include fs--lede;
-}
-
-
-/* Billboard */
-.s-prose--billboard {
-    @include fs--billboard;
-}
-
-
-/* Body */
-.s-prose--body {
-    @include ff--serif;
-    @include fs--body;
 
     // Adjust font-size of san-serif emboldened text, so x-height matches serif
     > * strong,
@@ -83,4 +66,21 @@
         line-height: (100/120);
         font-size: 120%;
     }
+
+    // Separate lede from body
+    .s-prose--lede + & {
+        margin-top: ($u__baseline * 2.5);
+    }
+}
+
+
+/* Billboard */
+.s-prose--billboard {
+    @include fs--billboard;
+}
+
+
+/* Lede */
+.s-prose--lede {
+    @include fs--lede;
 }
