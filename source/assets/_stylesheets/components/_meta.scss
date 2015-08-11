@@ -18,8 +18,8 @@
 }
 
 .c-meta__value {
-    margin-left: 0;
     margin-bottom: $u__baseline;
+    margin-left: 0;
 
     @media (max-width: $b__b) {
         @include span(9 last);

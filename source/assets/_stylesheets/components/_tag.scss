@@ -11,7 +11,7 @@
     white-space: nowrap;
 
     &::before {
-        opacity: 0.5;
+        color: rgba($c__neutral-4, 0.5);
         content: '#\2009';
     }
 }

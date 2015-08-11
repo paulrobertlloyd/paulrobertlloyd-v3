@@ -18,6 +18,7 @@ a {
     &:focus {
         outline: 2px solid $c__focus;
         background-color: $c__focus;
+        color: $c__neutral-1;
     }
 }
 
@@ -25,6 +26,7 @@ a {
 [data-whatinput="touch"] a:focus {
     outline: 0;
     background-color: transparent;
+    color: inherit;
 }
 
 @media print {

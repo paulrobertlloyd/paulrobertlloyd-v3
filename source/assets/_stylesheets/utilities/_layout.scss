@@ -141,7 +141,7 @@
 .u-separate {
     &::after {
         margin: 0 ($u__baseline / 4);
-        color: $c__primary-purple;
+        color: rgba($c__neutral-4, 0.5);
         font-weight: normal;
         content: '\00a0/';
     }

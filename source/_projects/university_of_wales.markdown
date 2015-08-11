@@ -1,7 +1,7 @@
 ---
 title: University of Wales
 date: '2009-10-29'
-excerpt: An extensible design language for international university.
+excerpt: An extensible design language for international university
 screenshots:
   - projects/university_of_wales/desktop-a.png
   - projects/university_of_wales/desktop-b.png
@@ -9,7 +9,7 @@ meta:
   year: 2009
   role: Design
 ---
-The _University of Wales_ is a confederal university responsible for accrediting degrees for institutions in Wales and for courses provided overseas.
+The University of Wales is a confederal university responsible for accrediting degrees for institutions in Wales and for courses provided overseas.
 
 Working with [James Box][1] at Clearleft, I created an extensible design language that could be applied across the website, microsites and the myWales social e-learning network.
 
