@@ -93,3 +93,9 @@
 .c-section--body + .c-section--tags {
     margin-top: -($u__baseline * 2.5);
 }
+
+.c-section--tags {
+    .c-section__main {
+        margin-bottom: $u__baseline;
+    }
+}
