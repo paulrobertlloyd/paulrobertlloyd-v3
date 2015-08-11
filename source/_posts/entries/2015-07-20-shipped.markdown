@@ -98,8 +98,6 @@ I should mention those who have helped and inspired me on this long journey. [Ow
 
 Finally, a huge thank-you to the team working tirelessly on Jekyll, led by [Parker Moore][51]. Here's to just as much shipping of Jekyll as there is me hacking upon it.
 
-:ship: :smiley:
-
 [1]: https://github.com/paulrobertlloyd/paulrobertlloyd.com/commits/master
 [2]: http://bradshawsguide.org
 [3]: https://adactio.com

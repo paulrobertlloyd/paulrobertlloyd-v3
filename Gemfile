@@ -19,7 +19,6 @@ group :jekyll_plugins do
 
   gem 'octopress-autoprefixer'
 
-  gem 'jemoji'
   gem 'exiftool'
   gem 'oembed'
   gem 'susy'

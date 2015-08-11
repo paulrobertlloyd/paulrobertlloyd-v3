@@ -8,12 +8,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.3)
-      i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
-      minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
-      tzinfo (~> 1.1)
     addressable (2.3.8)
     autoprefixer-rails (2.2.0.20140804)
       execjs
@@ -32,7 +26,6 @@ GEM
       addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.10)
     formatador (0.2.5)
-    gemoji (2.1.0)
     guard (2.13.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, <= 4.0)
@@ -56,11 +49,7 @@ GEM
       scss-lint (~> 0.30.0)
     hike (1.2.3)
     hitimes (1.2.2)
-    html-pipeline (1.11.0)
-      activesupport (>= 2)
-      nokogiri (~> 1.4)
     http_parser.rb (0.6.0)
-    i18n (0.7.0)
     jekyll (3.0.0.pre.beta8)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -87,10 +76,6 @@ GEM
       redcarpet (~> 3.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    jemoji (0.5.0)
-      gemoji (~> 2.0)
-      html-pipeline (~> 1.9)
-      jekyll (>= 2.0)
     json (1.8.3)
     kramdown (1.8.0)
     liquid (3.0.6)
@@ -102,12 +87,8 @@ GEM
     mercenary (0.3.5)
     method_source (0.8.2)
     mini_magick (4.2.10)
-    mini_portile (0.6.2)
-    minitest (5.8.0)
     multi_json (1.11.2)
     nenv (0.2.0)
-    nokogiri (1.6.6.2)
-      mini_portile (~> 0.6.0)
     notiffany (0.0.7)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -151,14 +132,11 @@ GEM
     susy (2.2.5)
       sass (>= 3.3.0, < 3.5)
     thor (0.19.1)
-    thread_safe (0.3.5)
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
     typogruby (1.0.18)
       rubypants
-    tzinfo (1.2.2)
-      thread_safe (~> 0.1)
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -178,7 +156,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   jekyll-smartify
-  jemoji
   octopress-autoprefixer
   oembed
   rake
