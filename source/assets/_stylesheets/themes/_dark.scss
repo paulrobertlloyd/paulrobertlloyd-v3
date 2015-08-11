@@ -35,6 +35,10 @@ $c__t-dark--active: #fff;
                 fill: $c__t-dark--text;
             }
 
+            &:focus .c-banner__logo {
+                fill: $c__neutral-1;
+            }
+
             &:hover .c-banner__logo {
                 fill: $c__t-dark--hover;
             }
