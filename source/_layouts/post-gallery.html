@@ -10,8 +10,8 @@ layout: default
         <div class="s-prose s-prose--body  e-content">
             {{ content | typogrify | namespace }}
 
-            {% capture album_path %}{{ page.path | replace:"_posts/photos/","assets/images/photos/" | remove:".markdown" }}{% endcapture %}
-            {% directory path: album_path %}
+            {% capture gallery_path %}{{ page.path | replace:"_posts/photos/","assets/images/galleries/" | remove:".markdown" }}{% endcapture %}
+            {% directory path: gallery_path %}
             <figure class="c-figure c-figure--caption-right">
                 <p class="c-figure__main">
                     {% picture {{ file.url | remove:"assets/images/" }} alt="" %}

@@ -66,9 +66,9 @@ defaults:
   -
     scope:
       type: posts
-      path: '_posts/photos'
+      path: '_posts/galleries'
     values:
-      layout: post-album
+      layout: post-gallery
       theme: dark
   -
     scope:

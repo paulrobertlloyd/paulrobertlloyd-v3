@@ -19,10 +19,6 @@ $c__t-dark--active: #fff;
         .c-button {
             border-color: $c__t-dark--text;
 
-//            &:focus {
-//                color: $c__t-dark--text;
-//            }
-
             &:hover {
                 border-color: $c__t-dark--hover;
                 color: $c__t-dark--hover;
@@ -37,10 +33,6 @@ $c__t-dark--active: #fff;
         .c-banner__home {
             .c-banner__logo {
                 fill: $c__t-dark--text;
-            }
-
-            &:focus .c-banner__logo {
-                fill: $c__t-dark--background;
             }
 
             &:hover .c-banner__logo {
@@ -58,6 +50,20 @@ $c__t-dark--active: #fff;
 
         .c-form__label-inline .c-form__label {
             border-color: rgba($c__t-dark--text, 0.2);
+        }
+
+        .c-item--project {
+            .c-item__logo {
+                fill: $c__t-dark--text;
+            }
+
+            &:hover .c-item__logo {
+                fill: $c__t-dark--hover;
+            }
+
+            &:active .c-item__logo {
+                fill: $c__t-dark--active;
+            }
         }
 
         .c-navigation {
