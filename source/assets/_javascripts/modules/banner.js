@@ -1,4 +1,5 @@
 // Add .is-fixed to .c-navigation after certain page offset
+
 (function (win, doc) {
     'use strict';
 
