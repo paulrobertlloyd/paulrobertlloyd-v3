@@ -12,7 +12,7 @@
         searchForm.setAttribute('action', '#search');
         searchForm.removeAttribute('method');
         searchInput.removeAttribute('name');
-        searchResults.setAttribute('class', 'o-list o-list--inline');
+        searchResults.setAttribute('class', 'c-list c-list--inline');
 
         [].forEach.call(doc.querySelectorAll('.c-form--search .c-form__submit, .c-form--search .c-form__hidden'),
         function (e) {
@@ -21,9 +21,9 @@
 
         SimpleJekyllSearch ({
             searchInput: doc.querySelector('.c-form--search .c-form__input'),
-            resultsContainer: doc.querySelector('.o-list'),
-            searchResultTemplate: '<li class="o-list__item u-separate"><a href="{url}">{title}</a></li>',
-            noResultsText: '<li class="o-list__item">Nothing matched your query</li>',
+            resultsContainer: doc.querySelector('.c-list'),
+            searchResultTemplate: '<li class="c-list__item u-separate"><a href="{url}">{title}</a></li>',
+            noResultsText: '<li class="c-list__item">Nothing matched your query</li>',
             json: '/journal/search.json',
             limit: 10,
         });
