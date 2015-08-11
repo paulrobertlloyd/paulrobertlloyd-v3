@@ -1,3 +1,5 @@
+// Webmentions - responses
+
 (function (root, factory) {
     'use strict';
 
@@ -15,7 +17,7 @@
             this.containerTemplate = document.querySelector('#template--responses').content;
             this.referenceTemplate = document.querySelector('#template--reference').content;
             this.replyTemplate = document.querySelector('#template--reply').content;
-            this.list = this.containerTemplate.querySelector('.c-page__section--responses .c-page__section__main');
+            this.list = this.containerTemplate.querySelector('.c-section--responses .c-section__main');
         },
 
         render: function () {
@@ -53,7 +55,7 @@
                 template.querySelector('.c-item__permalink').setAttribute('href', url);
             } else {
                 template.querySelector('.c-item__link').setAttribute('href', url);
-                template.querySelector('.c-item__title').textContent = entry.name[0];
+                template.querySelector('.c-item__link').textContent = entry.name[0];
             }
 
             this.list.appendChild(template);

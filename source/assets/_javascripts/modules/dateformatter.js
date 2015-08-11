@@ -1,3 +1,5 @@
+// Date formatting
+
 (function (root, factory) {
     'use strict';
 
@@ -30,7 +32,7 @@
             strtime += dateObj.getDate() + ' ';
             strtime += months[dateObj.getMonth()] + ' ';
             strtime += dateObj.getFullYear() + ' at ';
-            strtime += hours + ':' + (minutes < 10 ? '0' + minutes : minutes) + ' ' + meridian + ' <abbr title="Coordinated Universal Time">UTC</abbr>';
+            strtime += hours + ':' + (minutes < 10 ? '0' + minutes : minutes);
 
             return strtime;
         },

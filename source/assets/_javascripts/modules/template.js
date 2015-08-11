@@ -1,4 +1,6 @@
+// Polyfill <template>
 // Derived from http://jsfiddle.net/brianblakely/h3EmY/
+
 (function (document) {
     'use strict';
 

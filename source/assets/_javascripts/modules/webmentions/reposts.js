@@ -1,3 +1,5 @@
+// Webmentions - reposts (shares)
+
 (function (root, factory) {
     'use strict';
 
@@ -14,7 +16,7 @@
         init: function () {
             this.containerTemplate = document.querySelector('#template--reposts').content;
             this.repostTemplate = document.querySelector('#template--avatar').content;
-            this.list = this.containerTemplate.querySelector('.c-page__section--reposts .c-list');
+            this.list = this.containerTemplate.querySelector('.c-section--reposts .c-list');
         },
 
         render: function () {
