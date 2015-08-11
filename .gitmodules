@@ -10,3 +10,6 @@
 [submodule "source/assets/_javascripts/vendor/RouterRouter"]
 	path = source/assets/_javascripts/vendor/RouterRouter
 	url = https://github.com/jgarber623/RouterRouter
+[submodule "source/assets/_javascripts/vendor/what-input"]
+	path = source/assets/_javascripts/vendor/what-input
+	url = git@github.com:ten1seven/what-input.git

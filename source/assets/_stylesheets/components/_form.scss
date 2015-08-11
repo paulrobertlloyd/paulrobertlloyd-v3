@@ -74,7 +74,7 @@
     width: 100%;
 
     &:focus {
-        box-shadow: inset 0 0 0 2px $c__highlight;
+        box-shadow: inset 0 0 0 2px $c__focus;
     }
 
     &[required]:valid {

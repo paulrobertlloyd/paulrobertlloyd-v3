@@ -17,11 +17,7 @@ $c__t-light--active: $c__primary-blue;
 
         a,
         .c-button {
-            color: inherit;
-
             &:focus {
-                outline: 2px solid $c__focus;
-                background-color: $c__focus;
                 color: $c__t-light--text;
             }
 
@@ -31,9 +27,7 @@ $c__t-light--active: $c__primary-blue;
             }
 
             &:active {
-                outline: 0;
                 border-color: $c__t-light--active;
-                background-color: transparent;
                 color: $c__t-light--active;
             }
         }
