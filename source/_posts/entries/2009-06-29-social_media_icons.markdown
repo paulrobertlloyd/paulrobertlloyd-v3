@@ -7,10 +7,10 @@ tags:
   - Social media icons
 discussion: closed
 style: |
-  .o-list--icons {
+  .c-list--icons {
       overflow: hidden;
   }
-  .o-list--icons .o-list__item {
+  .c-list--icons .c-list__item {
       font-size: 0.75em; /  * 12px */
       line-height: 1.3333; /  * 16px */
       margin: 0;
@@ -19,11 +19,11 @@ style: |
       float: left;
   }
   @media screen and (min-width:37.5em) {
-      .o-list--icons .o-list__item {
+      .c-list--icons .c-list__item {
           width: 33%;
       }
   }
-  .o-list--icons .c-icon {
+  .c-list--icons .c-icon {
       padding: 0 8px 0 22px;
       display: block;
   }
@@ -107,75 +107,75 @@ With that in mind, and taking inspiration from the gorgeous icons used by [Tim v
 <small>Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][4]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.</small>
 
 ## Included Icons
-<ul class="o-list o-list--icons">
-    <li class="o-list__item"><span class="c-icon c-icon--500px">500px</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--aim">AIM</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--amazon">Amazon</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--adn">App.net</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--behance">Behance</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--bbcid">BBC iD</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--creativecommons">Creative Commons</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--delicious">Delicious</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--digg">Digg</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--dribbble">Dribbble</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--dopplr">Dopplr</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--email">Email</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--etsy">Etsy</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--facebook">Facebook</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--feed">Feed</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--ffffound">Ffffound</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--flickr">Flickr</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--forrst">Forrst</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--foursquare">Foursquare</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--getsatisfaction">Get Satisfaction</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--geotag">Geotag</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--github">Github</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--goodreads">Goodreads</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--google">Google</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--google-plus">Google+</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--huffduffer">Huffduffer</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--identica">Identi.ca</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--imdb">IMDb</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--instagram">Instagram</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--lanyrd">Lanyrd</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--lastfm">Last.fm</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--linkedin">LinkedIn</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--meetup">Meetup</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--microsoft">Microsoft</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--myspace">MySpace</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--newsvine">Newsvine</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--nikeplus">Nike+</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--orkut">Orkut</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--pinboard">Pinboard</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--pintrest">Pintrest</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--posterous">Posterous</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--rdio">Rdio</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--readability">Readability</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--readernaut">Readernaut</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--reddit">Reddit</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--sharethis">Share This</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--skype">Skype</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--slideshare">SlideShare</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--speakerdeck">Speaker Deck</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--soundcloud">Soundcloud</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--spotify">Spotify</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--stackoverflow">Stack Overflow</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--stumbleupon">StumbleUpon</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--thisismyjam">This Is My Jam</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--tumblr">Tumblr</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--twitter">Twitter</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--twitter-retweet">Twitter Retweet</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--vcard">vCard</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--vimeo">Vimeo</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--website">Website</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--wikipedia">Wikipedia</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--xbox">Xbox Live</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--xing">Xing</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--yahoo">Yahoo!</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--yelp">Yelp</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--youtube">YouTube</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--zerply">Zerply</span></li>
-    <li class="o-list__item"><span class="c-icon c-icon--zootool">Zootool</span></li>
+<ul class="c-list c-list--icons">
+    <li class="c-list__item"><span class="c-icon c-icon--500px">500px</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--aim">AIM</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--amazon">Amazon</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--adn">App.net</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--behance">Behance</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--bbcid">BBC iD</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--creativecommons">Creative Commons</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--delicious">Delicious</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--digg">Digg</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--dribbble">Dribbble</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--dopplr">Dopplr</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--email">Email</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--etsy">Etsy</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--facebook">Facebook</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--feed">Feed</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--ffffound">Ffffound</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--flickr">Flickr</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--forrst">Forrst</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--foursquare">Foursquare</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--getsatisfaction">Get Satisfaction</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--geotag">Geotag</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--github">Github</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--goodreads">Goodreads</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--google">Google</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--google-plus">Google+</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--huffduffer">Huffduffer</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--identica">Identi.ca</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--imdb">IMDb</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--instagram">Instagram</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--lanyrd">Lanyrd</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--lastfm">Last.fm</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--linkedin">LinkedIn</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--meetup">Meetup</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--microsoft">Microsoft</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--myspace">MySpace</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--newsvine">Newsvine</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--nikeplus">Nike+</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--orkut">Orkut</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--pinboard">Pinboard</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--pintrest">Pintrest</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--posterous">Posterous</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--rdio">Rdio</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--readability">Readability</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--readernaut">Readernaut</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--reddit">Reddit</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--sharethis">Share This</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--skype">Skype</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--slideshare">SlideShare</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--speakerdeck">Speaker Deck</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--soundcloud">Soundcloud</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--spotify">Spotify</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--stackoverflow">Stack Overflow</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--stumbleupon">StumbleUpon</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--thisismyjam">This Is My Jam</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--tumblr">Tumblr</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--twitter">Twitter</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--twitter-retweet">Twitter Retweet</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--vcard">vCard</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--vimeo">Vimeo</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--website">Website</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--wikipedia">Wikipedia</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--xbox">Xbox Live</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--xing">Xing</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--yahoo">Yahoo!</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--yelp">Yelp</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--youtube">YouTube</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--zerply">Zerply</span></li>
+    <li class="c-list__item"><span class="c-icon c-icon--zootool">Zootool</span></li>
 </ul>
 
 ## Support
