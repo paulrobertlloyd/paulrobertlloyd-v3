@@ -35,9 +35,9 @@
 }
 
 
-/* Journal entries */
-.c-item--album,
-.c-item--entry {
+/* Entry, link and gallery items */
+.c-item--entry,
+.c-item--gallery {
     .c-item__title {
         @include fs--heading-1;
         padding-bottom: ($u__baseline / 2);
@@ -45,15 +45,17 @@
     }
 }
 
-.c-item--album,
 .c-item--entry,
+.c-item--gallery,
 .c-item--link {
     @media (min-width: $b__b) {
         margin-bottom: ($u__baseline * 4);
     }
 }
 
-.c-item--album {
+
+/* Gallery item */
+.c-item--gallery {
     padding-left: ($u__baseline * 7);
     min-height: ($u__baseline * 7);
 

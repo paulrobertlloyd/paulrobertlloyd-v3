@@ -5,10 +5,10 @@ title: Journal
 <div class="c-section">
 {% for item in paginator.posts %}
     {% case item.layout %}
+    {% when "post-gallery" %}
+        {% include item/gallery.html %}
     {% when "post-link" %}
         {% include item/link.html %}
-    {% when "post-album" %}
-        {% include item/album.html %}
     {% else %}
         {% include item/entry.html %}
     {% endcase %}

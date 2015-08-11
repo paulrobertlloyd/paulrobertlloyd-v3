@@ -19,10 +19,6 @@ $c__t-light--active: $c__primary-blue;
         .c-button {
             border-color: $c__t-light--text;
 
-//            &:focus {
-//                color: $c__t-light--text;
-//            }
-
             &:hover {
                 border-color: $c__t-light--hover;
                 color: $c__t-light--hover;
@@ -54,6 +50,20 @@ $c__t-light--active: $c__primary-blue;
 
         .c-form__label-inline .c-form__label {
             border-color: rgba($c__t-light--text, 0.2);
+        }
+
+        .c-item--project {
+            .c-item__logo {
+                fill: $c__t-light--text;
+            }
+
+            &:hover .c-item__logo {
+                fill: $c__t-light--hover;
+            }
+
+            &:active .c-item__logo {
+                fill: $c__t-light--active;
+            }
         }
 
         .c-navigation {
