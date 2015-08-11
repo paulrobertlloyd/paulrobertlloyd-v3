@@ -155,7 +155,7 @@
 
 
 // Text underline colour
-@mixin text-decoration-color($background-color, $color) {
+@mixin text-decoration-color($color, $background-color: transparent) {
     @if $color != 'none' {
         background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 93%, transparent 93%);
         text-decoration: none;
@@ -172,16 +172,12 @@
                      0.15em 0 $background-color,
                      -0.15em 0 $background-color;
 
-        &:focus {
-            background-image: linear-gradient(to bottom, transparent 89%, $c__neutral-1 89%, $c__neutral-1 93%, transparent 93%);
-            text-shadow: none;
-        }
-
         &::selection {
             text-shadow: none;
         }
     } @else {
         background-image: none;
+        text-shadow: none;
     }
 }
 

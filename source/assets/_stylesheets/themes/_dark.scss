@@ -1,5 +1,5 @@
 /*  =========================================================================
-    Theme: Inverted
+    Theme: Dark
     ========================================================================= */
 
 // Theme variables
@@ -17,9 +17,11 @@ $c__t-dark--active: #fff;
 
         a,
         .c-button {
-            &:focus {
-                color: $c__t-dark--background;
-            }
+            border-color: $c__t-dark--text;
+
+//            &:focus {
+//                color: $c__t-dark--text;
+//            }
 
             &:hover {
                 border-color: $c__t-dark--hover;
@@ -50,13 +52,12 @@ $c__t-dark--active: #fff;
             }
         }
 
-        .c-button,
-        .c-form__input:not(:focus) {
-            border-color: $c__neutral-9;
+        .c-form__input {
+            border-color: $c__t-dark--text;
         }
 
         .c-form__label-inline .c-form__label {
-            border-color: rgba($c__neutral-9, 0.2);
+            border-color: rgba($c__t-dark--text, 0.2);
         }
 
         .c-navigation {
@@ -65,11 +66,15 @@ $c__t-dark--active: #fff;
 
         .s-prose {
             a:not(.c-button):not(.c-nav__item__label) {
-                @include text-decoration-color($c__t-dark--background, $c__t-dark--hover);
+                @include text-decoration-color($c__t-dark--hover, $c__t-dark--background);
+            }
+
+            a:not(.c-button):not(.c-nav__item__label):focus {
+                @include text-decoration-color('none');
             }
 
             a:not(.c-button):not(.c-nav__item__label):active {
-                @include text-decoration-color($c__t-dark--background, $c__t-dark--active);
+                @include text-decoration-color($c__t-dark--active, $c__t-dark--background);
             }
         }
 
