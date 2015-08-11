@@ -1,7 +1,7 @@
 ---
 title: UNICEF UK
 date: '2013-07-01'
-excerpt: Mobile-first redesign for leading children's charity.
+excerpt: Mobile-first redesign for leading children's charity
 featured: true
 screenshots:
   - projects/unicef_uk/phone.png
@@ -12,7 +12,7 @@ meta:
   agency: Clearleft
   role: Design and front-end development
 ---
-_[UNICEF UK][1]_ raises funds to protect children and the defend their rights worldwide. With mobile devices accounting for 20% of site visits and growing, a limited mobile version of its website had been produced, yet much of the information about their vital work remained on a desktop-orientated site.
+[UNICEF UK][1] raises funds to protect children and the defend their rights worldwide. With mobile devices accounting for 20% of site visits and growing, a limited mobile version of its website had been produced, yet much of the information about their vital work remained on a desktop-orientated site.
 
 Given a constrained budget, the software that managed content on the desktop was to be retained, meaning the mobile site would have to replicate the same pages and information architecture. [Working alongside Ben Sauer at Clearleft][2], my primary task was to ensure this content and architecture could be understood by users on smaller screens. The site also needed to degrade gracefully on older mobile devices, and take into account the often imperfect nature of cellular connectivity. Put simply, we needed to employ mobile-first design principles with desktop-first content, rationalising and simplifying where possible.
 

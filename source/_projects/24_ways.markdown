@@ -1,7 +1,7 @@
 ---
 title: 24 ways
 date: '2013-12-01'
-excerpt: Award-winning redesign for popular advent calendar for web geeks.
+excerpt: Award-winning redesign for popular web geek advent calendar
 featured: true
 screenshots:
   - projects/24_ways/desktop-a.png
@@ -13,7 +13,7 @@ meta:
   notes: 'Awarded best collaborative project at the net Awards 2014'
   website: '[24ways.org](https://24ways.org)'
 ---
-Each December, Drew McLellan and his small team publish _[24 ways][1]_, a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
+Each December, Drew McLellan and his small team publish [24 ways][1], a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
 
 The previous website was designed by Tim Van Damme in 2007. His innovative design pushed the limits of the medium, but six years later, and with an accumulated archive of hundreds of articles, it was fraying at the edges. Furthermore, the site failed to reflect the best practices its authors advocated, such as advanced web typography, colour contrast and CSS3 techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to the broadening range of devices accessing the site.
 

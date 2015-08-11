@@ -1,7 +1,7 @@
 ---
 title: nGenera
 date: '2008-04-25'
-excerpt: Rebrand for integrated platform of on demand enterprise technology.
+excerpt: Brand identity for on demand enterprise technology platform
 featured: true
 screenshots:
   - projects/ngenera/desktop-a.png
@@ -10,7 +10,7 @@ meta:
   year: 2008
   role: UX, branding, design and front-end development
 ---
-_nGenera Corporation_ (now [Moxie Software][1]) helps companies and governments transform themselves into forward thinking enterprises: organisations that enable employees to communicate via real-time social software platforms and tools.
+nGenera Corporation (now [Moxie Software][1]) helps companies and governments transform themselves into forward thinking enterprises: organisations that enable employees to communicate via real-time social software platforms and tools.
 
 Steve Douty (president of platforms, applications and marketing) asked me to take the new nGenera name (the company was formerly BSG Alliance) and build a brand that could encompass its growing suite of software products and consultation services.
 

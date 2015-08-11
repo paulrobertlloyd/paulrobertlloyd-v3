@@ -1,7 +1,7 @@
 ---
 title: dConstruct
 date: '2013-05-02'
-excerpt: Collaborative design for grassroots digital conference.
+excerpt: Collaborative design for grassroots digital conference
 screenshots:
   - projects/dconstruct/2010/desktop-a.png
   - projects/dconstruct/2010/desktop-b.png
@@ -18,7 +18,7 @@ meta:
   role: Design
   website: '[2010](http://2010.dconstruct.org/), [2011](http://2011.dconstruct.org/), [2013](http://2013.dconstruct.org/)'
 ---
-On the first Friday of September, Brighton plays host to an annual one-day conference called _dConstruct_. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
+On the first Friday of September, Brighton plays host to an annual one-day conference called dConstruct. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 
 To reflect the changing theme, the site is redesigned each year. I was responsible for the design over three years: 2010, 2011 and 2013.
 

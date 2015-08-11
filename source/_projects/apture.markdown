@@ -1,7 +1,7 @@
 ---
 title: Apture
 date: '2009-05-22'
-excerpt: Designing a powerful publishing tool for the web's content creators.
+excerpt: Designing a powerful publishing tool for the web's content creators
 screenshots:
   - projects/apture/desktop-a.png
   - projects/apture/desktop-b.png
@@ -10,7 +10,7 @@ meta:
   role: UX, design and front-end development
   notes: Company acquired by Google in November 2011
 ---
-_Apture_ was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their webpages.
+Apture was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their webpages.
 
 Working alongside Apture's CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.
 

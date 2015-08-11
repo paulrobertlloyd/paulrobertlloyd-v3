@@ -1,7 +1,7 @@
 ---
 title: Channel 4 News
 date: '2010-09-30'
-excerpt: Reinventing Channel 4's news presence on the iPad.
+excerpt: Reinventing Channel 4's news presence on the iPad
 featured: true
 screenshots:
   - projects/channel4_news/tablet-portrait.png
@@ -10,7 +10,7 @@ meta:
   year: 2010
   role: Design
 ---
-Broadcast weeknights at 7pm, _Channel 4 News_ is noted for its award-winning coverage of international news and extensive current affairs reporting.
+Broadcast weeknights at 7pm, Channel 4 News is noted for its award-winning coverage of international news and extensive current affairs reporting.
 
 After redesigning their website, Channel 4 wished to reimagine the Channel 4 News service for tablet and smartphone users. While it would have been easy to repurpose the website, research showed that tablet users demonstrated a more leisurely approach that pointed towards a visually rich, linear solution.
 

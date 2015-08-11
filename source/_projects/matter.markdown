@@ -1,7 +1,7 @@
 ---
 title: Matter
 date: '2012-11-14'
-excerpt: A beautiful reading experience for publisher of unmissable journalism.
+excerpt: Beautiful reading experience for publisher of unmissable journalism
 featured: true
 screenshots:
   - projects/matter/phone.png
@@ -12,7 +12,7 @@ meta:
   role: UX, branding and graphic design
   note: 'Company acquired by Medium in April 2013'
 ---
-The brainchild of journalists Bobbie Johnson and Jim Giles, _MATTER_ is home to in-depth journalism about the ideas shaping our future. Stories cover everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them.
+The brainchild of journalists Bobbie Johnson and Jim Giles, MATTER is home to in-depth journalism about the ideas shaping our future. Stories cover everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them.
 
 After an enormously successful [Kickstarter campaign][1] proved there was a real desire for high-quality, focused, long-form writing, Bobbie and Jim [asked Clearleft][2] to envisage the user experience and visual design. I worked [alongside Jeremy Keith][3] who did the front-end development, and [Phil Gyford][4] who handled the Django-based back-end.
 
