@@ -39,7 +39,7 @@
         top: 0;
         right: 0;
         left: 0;
-        border: dashed rgba($c__neutral-0, 0.2);
+        border: dashed;
         border-width: 0 0 1px;
         padding: ($u__baseline / 2);
         line-height: 1.5;
@@ -68,7 +68,7 @@
 
 .c-form__input {
     outline: 0;
-    border: 1px solid $c__neutral-0;
+    border: 1px solid;
     border-radius: 0;
     padding: ($u__baseline / 2);
     width: 100%;

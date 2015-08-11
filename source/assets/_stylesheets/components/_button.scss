@@ -5,7 +5,7 @@
 .c-button {
     @include ff--sans-serif(700);
     display: inline-block;
-    border: 1px solid $c__neutral-1;
+    border: 1px solid;
     padding: ($u__baseline / 2) $u__baseline;
     text-decoration: none;
     line-height: 1;
