@@ -49,9 +49,9 @@
         font-size: 90%;
     }
 
-    > dl > *,
-    > * li p {
-        margin-bottom: ($u__baseline / 2);
+    dl dd,
+    li p {
+        margin-bottom: $u__baseline;
     }
 
     abbr[title]:hover {
