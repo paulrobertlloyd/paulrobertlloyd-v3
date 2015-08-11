@@ -26,7 +26,7 @@
     }
 }
 
-.c-navigation__links {
+.c-navigation__items {
     white-space: nowrap;
 
     @media (min-width: $b__a) {
@@ -38,7 +38,7 @@
     }
 }
 
-.c-navigation__link {
+.c-navigation__item {
     display: inline-block;
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
@@ -59,7 +59,7 @@
     }
 }
 
-.c-navigation__link:hover {
+.c-navigation__item:hover {
     .is-fixed & {
         box-shadow: inset 0 2px 0 0;
     }

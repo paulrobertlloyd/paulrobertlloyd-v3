@@ -9,7 +9,10 @@
 
 .c-form__field {
     position: relative;
-    margin-bottom: $u__baseline;
+
+    &:not(:last-child) {
+        margin-bottom: $u__baseline;
+    }
 }
 
 .c-form__note {

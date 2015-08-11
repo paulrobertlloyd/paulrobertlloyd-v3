@@ -15,14 +15,20 @@ layout: default
             {% endif %}
 
             {{ content | typogrify | namespace }}
-            
-            <p><a class="c-button" href="{{ page.link.url }}">Visit this link</a></p>
         </div>
+    </div>
+
+    <div class="c-section c-section--link">
+        <a href="{{ page.link.url }}">
+            Visit this link <span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>
+        </a>
     </div>
 
     {% include page/section--tags.html %}
 
     {% include page/section--remarks.html %}
+
+    {% include page/section--webmentions.html %}
 </article>
 
 {% include nav/paginate-posts.html %}

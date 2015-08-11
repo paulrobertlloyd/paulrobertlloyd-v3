@@ -10,13 +10,15 @@
 
     <footer class="c-item__footer">
         <p class="c-item__meta">
-            <a class="c-item__permalink u-url" href="#remark-{{ forloop.rindex }}">
-                <time class="c-item__pubdate  dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+            <a class="u-url" href="#remark-{{ forloop.rindex }}">
+                <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
             </a>
         </p>
     </footer>
 
-    <div class="c-item__main s-prose s-prose--billboard  e-content">
-        {{ item.content | markdownify }}
+    <div class="c-item__main">
+        <div class="s-prose s-prose--billboard  e-content">
+            {{ item.content | markdownify }}
+        </div>
     </div>
 </article>

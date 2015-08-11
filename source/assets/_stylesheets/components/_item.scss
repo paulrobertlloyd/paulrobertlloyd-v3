@@ -10,6 +10,7 @@
 .c-item__media,
 .c-item__footer {
     margin-bottom: ($u__baseline / 2);
+    display: block;
 }
 
 .c-item__title {
@@ -88,6 +89,14 @@
     .c-item__cover-photo {
         width: ($u__baseline * 6);
         height: ($u__baseline * 6);
+    }
+}
+
+
+/* Project */
+.c-item--project {
+    .c-item__link {
+        display: block;
     }
 }
 

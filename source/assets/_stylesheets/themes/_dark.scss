@@ -56,7 +56,7 @@ $c__t-dark--active: #fff;
             border-color: rgba($c__t-dark--text, 0.2);
         }
 
-        .c-item--project {
+        .c-item__link {
             .c-item__logo {
                 fill: $c__t-dark--text;
             }
@@ -75,21 +75,17 @@ $c__t-dark--active: #fff;
         }
 
         .s-prose {
-            a:not(.c-button):not(.c-nav__item__label) {
+            a {
                 @include text-decoration-color($c__t-dark--hover, $c__t-dark--background);
             }
 
-            a:not(.c-button):not(.c-nav__item__label):focus {
+            a:focus {
                 @include text-decoration-color('none');
             }
 
-            a:not(.c-button):not(.c-nav__item__label):active {
+            a:active {
                 @include text-decoration-color($c__t-dark--active, $c__t-dark--background);
             }
-        }
-
-        .u-block-link .s-prose {
-            color: $c__t-dark--text;
         }
     }
 }
