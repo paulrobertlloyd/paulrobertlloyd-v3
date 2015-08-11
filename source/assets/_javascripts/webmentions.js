@@ -1,4 +1,12 @@
+// Display sumbitted webmentions
 // = require vendor/RouterRouter/dist/routerrouter
+// = require modules/dateformatter
+// = require modules/template
+
+// = require modules/webmentions
+// = require modules/likes
+// = require modules/reposts
+// = require modules/responses
 
 (function () {
     'use strict';
