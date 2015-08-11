@@ -15,7 +15,7 @@
 .c-section__title {
     @include ff--sans-serif;
     @include fs--heading-2;
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline / 2);
     font-weight: 700;
     word-break: break-word;
     hyphens: auto;
