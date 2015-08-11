@@ -150,7 +150,7 @@ The `.c-figure--caption-right`{:.language-css} modifier moves the caption to the
 ## Screenshots
 The `.c-screenshots`{:.language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
 
-{% assign screenshots = "projects/bradshaws_guide/desktop.png|projects/bradshaws_guide/tablet.png|projects/bradshaws_guide/phone.png" | split: "|" %}
+{% assign screenshots = "projects/bradshaws_guide/desktop-a.png|projects/bradshaws_guide/tablet-portrait.png|projects/bradshaws_guide/phone.png" | split: "|" %}
 {% include screenshots.html imageset=screenshots %}
 
 ## Meta information

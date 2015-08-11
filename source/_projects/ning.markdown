@@ -3,8 +3,8 @@ title: Ning
 date: '2007-03-21'
 excerpt: Lead design for customisable social media platform.
 screenshots:
-  - projects/ning/desktop-1.png
-  - projects/ning/desktop-2.png
+  - projects/ning/desktop-a.png
+  - projects/ning/desktop-b.png
 meta:
   year: 2005–2007
   role: Lead design, branding and front-end development

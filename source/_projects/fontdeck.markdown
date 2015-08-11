@@ -4,8 +4,8 @@ date: '2010-11-30'
 excerpt: Defining a distinctive look for the purveyor of the finest web fonts.
 featured: true
 screenshots:
-  - projects/fontdeck/desktop-1.png
-  - projects/fontdeck/desktop-2.png
+  - projects/fontdeck/desktop-a.png
+  - projects/fontdeck/desktop-b.png
 meta:
   years: 2010 - 2013
   client: Clearleft/OmniTI

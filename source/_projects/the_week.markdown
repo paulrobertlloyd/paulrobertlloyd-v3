@@ -4,8 +4,8 @@ date: '2011-11-18'
 excerpt: Award-winning iPad app for weekly current affairs magazine.
 featured: true
 screenshots:
-  - projects/the_week/tablet-1.png
-  - projects/the_week/tablet-2.png
+  - projects/the_week/tablet-portrait.png
+  - projects/the_week/tablet-landscape.png
 meta:
   year: 2011
   role: Design

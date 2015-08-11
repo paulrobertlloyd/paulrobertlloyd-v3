@@ -6,7 +6,7 @@ featured: true
 screenshots:
   - projects/unicef_uk/phone.png
   - projects/unicef_uk/phablet.png
-  - projects/unicef_uk/tablet.png
+  - projects/unicef_uk/tablet-portrait.png
 meta:
   year: 2013
   agency: Clearleft

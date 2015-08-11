@@ -3,15 +3,15 @@ title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference.
 screenshots:
-  - projects/dconstruct/2010/desktop-1.png
-  - projects/dconstruct/2010/desktop-2.png
+  - projects/dconstruct/2010/desktop-a.png
+  - projects/dconstruct/2010/desktop-b.png
 screenshots-2011:
-  - projects/dconstruct/2011/desktop-1.png
-  - projects/dconstruct/2011/desktop-2.png
+  - projects/dconstruct/2011/desktop-a.png
+  - projects/dconstruct/2011/desktop-b.png
   - projects/dconstruct/2011/phone.png
 screenshots-2013:
-  - projects/dconstruct/2013/desktop-1.png
-  - projects/dconstruct/2013/desktop-2.png
+  - projects/dconstruct/2013/desktop-a.png
+  - projects/dconstruct/2013/desktop-b.png
   - projects/dconstruct/2013/phone.png
 meta:
   years: 2010 - 2013
@@ -35,14 +35,14 @@ Prior to this event, Clearleft used plastic wallets to hold the combined confere
 After extensive prototyping, and with help from Gareth Jones at Jack Design, this event featured [a greener, paper-only conference badge][2] directly attached to the lanyard by loop staples. This design served as a model for successive conferences run by Clearleft and other conference producers.
 
 ## 2011: Designing Digital Products
-{% figure "Home page, speaker page on mobile device" %}
+{% figure u-extend "Home page, speaker page on mobile device" %}
 {% include screenshots.html imageset=page.screenshots-2011 %}
 {% endfigure %}
 
 Like the previous year's design, the [homepage featured prominent images of the speakers][3]. The design process involved close collaboration with Andy Hume, which was needed for us to build a highly responsive website that would work well across devices. With this in mind, the main navigation was simplified to just four items (Conference, Workshops, Location and Register) with an alternative navigation method shown when browsing speaker pages on smaller screens.
 
 ## 2013: Communicating with Machines
-{% figure "Home page, speaker page on mobile device" %}
+{% figure u-extend "Home page, speaker page on mobile device" %}
 {% include screenshots.html imageset=page.screenshots-2013 %}
 {% endfigure %}
 
