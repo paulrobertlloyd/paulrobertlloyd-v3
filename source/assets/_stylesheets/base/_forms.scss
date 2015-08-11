@@ -49,6 +49,14 @@ input {
     line-height: normal;
 }
 
+[data-whatinput="mouse"] button:focus,
+[data-whatinput="touch"] button:focus,
+[data-whatinput="mouse"] input:focus,
+[data-whatinput="touch"] input:focus {
+    outline: 0;
+    background-color: transparent;
+}
+
 button,
 select {
 /*  Address inconsistent `text-transform` inheritance for `button` and `select` */

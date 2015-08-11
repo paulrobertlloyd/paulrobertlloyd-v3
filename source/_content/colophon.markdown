@@ -20,9 +20,10 @@ Other notable tools and services used to build this site include:
   * [exiftool][16] by Matthew McEachen and Phil Harvey
   * [fontfaceobserver][17] by Bram Stein
   * [Picturefill][18] by Filament Group, Inc.
-  * [Susy][19] by Eric M. Suzanne
-  * [typogruby][20] by Arjan van der Gaag
-  * [MapBox][21] by Mapbox Inc.
+  * [What Input?][19] by Jeremy Fields
+  * [Susy][20] by Eric M. Suzanne
+  * [typogruby][21] by Arjan van der Gaag
+  * [MapBox][22] by Mapbox Inc.
 
 Pages are semantically structured using valid [HTML5][23] with presentational design provided by [CSS][24]. Syndicated feeds use [Atom][25]-flavoured RSS.
 
@@ -43,13 +44,14 @@ Pages are semantically structured using valid [HTML5][23] with presentational de
 [15]: https://github.com/berlinonline/converjon
 [16]: https://rubygems.org/gems/exiftool
 [17]: https://npmjs.com/package/fontfaceobserver
-[18]: https://scottjehl.github.io/picturefill/
-[19]: http://susy.oddbird.net
-[20]: https://rubygems.org/gems/typogruby
-[21]: http://mapbox.com/
-[22]: http://w3.org/TR/html5/
-[23]: http://w3.org/Style/CSS/
-[24]: http://atomenabled.org/
+[18]: https://github.com/scottjehl/picturefill
+[19]: https://github.com/ten1seven/what-input
+[20]: http://susy.oddbird.net
+[21]: https://rubygems.org/gems/typogruby
+[22]: http://mapbox.com/
+[23]: http://w3.org/TR/html5/
+[24]: http://w3.org/Style/CSS/
+[25]: http://atomenabled.org/
 
 *[CSS]: Cascading Style Sheets
 *[HTML]: HyperText Markup Language

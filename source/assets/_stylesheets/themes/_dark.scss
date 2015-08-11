@@ -17,11 +17,7 @@ $c__t-dark--active: #fff;
 
         a,
         .c-button {
-            color: inherit;
-
             &:focus {
-                outline: 2px solid $c__focus;
-                background-color: $c__focus;
                 color: $c__t-dark--background;
             }
 
@@ -31,9 +27,7 @@ $c__t-dark--active: #fff;
             }
 
             &:active {
-                outline: 0;
                 border-color: $c__t-dark--active;
-                background-color: transparent;
                 color: $c__t-dark--active;
             }
         }
