@@ -27,28 +27,24 @@ $u__shadow-size: 4px;
 
 
 /* Desktop screens */
-.c-screenshot--desktop,
-.c-screenshot--desktop-1,
-.c-screenshot--desktop-2 {
-    box-shadow: 0 0 0 1px rgba($c__neutral-0, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-0, 0.2);
-    width: 56%;
-}
-
-.c-screenshot--desktop,
-.c-screenshot--desktop-1 {
+.c-screenshot--desktop-a {
     top: ($u__baseline * 2);
     left: $u__shadow-size;
     z-index: 1;
+    box-shadow: 0 0 0 1px rgba($c__neutral-0, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-0, 0.2);
+    width: 56%;
 
     @media (min-width: $b__b) {
         left: ($u__baseline * 2);
     }
 }
 
-.c-screenshot--desktop-2 {
+.c-screenshot--desktop-b {
     top: $u__shadow-size;
     right: $u__shadow-size;
     z-index: 2;
+    box-shadow: 0 0 0 1px rgba($c__neutral-0, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-0, 0.2);
+    width: 56%;
 
     @media (min-width: $b__b) {
         right: ($u__baseline * 2);
@@ -57,41 +53,31 @@ $u__shadow-size: 4px;
 
 
 /* Tablet screen */
-.c-screenshot--tablet,
-.c-screenshot--tablet-1 {
-    top: $u__shadow-size;
-    right: 16%;
-    z-index: 2;
-    background-image: url(asset_path('device-tablet-portrait.svg'));
-    padding: 5.4% 2.1%;
-    width: 36%;
-}
-
-.c-screenshot--tablet-1 {
-    right: $u__shadow-size;
-    z-index: 3;
-
-    @media (min-width: $b__b) {
-        right: ($u__baseline * 2);
-    }
-}
-
-.c-screenshot--tablet-2 {
+.c-screenshot--tablet-landscape {
     top: auto;
     bottom: ($u__baseline * -1.5);
-    left: 16%;
-    z-index: 2;
+    left: 14%;
+    z-index: 3;
     background-image: url(asset_path('device-tablet-landscape.svg'));
     padding: 2.1% 5.4%;
     width: (36% * 946/640); // Width/height of tablet image
+}
+
+.c-screenshot--tablet-portrait {
+    top: $u__shadow-size;
+    right: 14%;
+    z-index: 4;
+    background-image: url(asset_path('device-tablet-portrait.svg'));
+    padding: 5.4% 2.1%;
+    width: 36%;
 }
 
 
 /* Phablet screen */
 .c-screenshot--phablet {
     top: ($u__baseline * 2);
-    left: span(3 wide);
-    z-index: 1;
+    left: 28%;
+    z-index: 2;
     background-image: url(asset_path('device-phablet.svg'));
     padding: 4.8% 1.6% 0;
     width: 24%;
@@ -102,7 +88,7 @@ $u__shadow-size: 4px;
 .c-screenshot--phone {
     top: 24%;
     right: $u__baseline;
-    z-index: 3;
+    z-index: 5;
     background-image: url(asset_path('device-phone.svg'));
     padding: 2.4% 0.8% 0;
     width: 16%;

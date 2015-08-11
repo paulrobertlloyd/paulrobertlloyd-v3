@@ -4,8 +4,8 @@ date: '2013-04-16'
 excerpt: Bringing George Bradshaw's Victorian railway guide to a new generation.
 featured: true
 screenshots:
-  - projects/bradshaws_guide/desktop.png
-  - projects/bradshaws_guide/tablet.png
+  - projects/bradshaws_guide/desktop-a.png
+  - projects/bradshaws_guide/tablet-portrait.png
   - projects/bradshaws_guide/phone.png
 meta:
   year: Ongoing

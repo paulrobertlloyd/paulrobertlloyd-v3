@@ -3,8 +3,8 @@ title: Universal Networks
 date: '2010-05-03'
 excerpt: Design for NBCUniversal's international channel portfolio.
 screenshots:
-  - projects/universal_networks/desktop-1.png
-  - projects/universal_networks/desktop-2.png
+  - projects/universal_networks/desktop-a.png
+  - projects/universal_networks/desktop-b.png
 meta:
   year: 2010
   role: Design

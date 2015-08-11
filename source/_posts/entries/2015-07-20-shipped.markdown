@@ -31,10 +31,10 @@ Ignoring for a moment their antipodean origin, these fonts hopefully give the de
 
 I was keen to try using whitespace rather than horizontal rules to separate content, and have greater contrast in the type scale to indicate page hierarchy. Colour is restrained but no less subdued; purples and pinks being suitably hipster enough to satisfy current trends. Oh, and I have a new logo... which I'm mildly ambivalent about, if I'm honest.
 
-<div class="u-extend" markdown="1">
-{% assign screenshots = "2015/07/shipped/tablet-1.png|2015/07/shipped/tablet-2.png|2015/07/shipped/phone.png" | split: "|" %}
+{% figure u-extend "Design viewed on tablet and phone" %}
+{% assign screenshots = "2015/07/shipped/tablet-portrait.png|2015/07/shipped/tablet-landscape.png|2015/07/shipped/phone.png" | split: "|" %}
 {% include screenshots.html imageset=screenshots %}
-</div>
+{% endfigure %}
 
 ## Content First
 Content has been a big focus of this redesign. With the help of [Owen Gregory][18], project case studies have been completely rewritten. While they currently lack enough supporting artefacts, their revised copy better describes the underlying design process.

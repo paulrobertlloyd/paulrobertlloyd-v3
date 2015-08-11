@@ -3,8 +3,8 @@ title: Groopix
 date: '2008-08-22'
 excerpt: A tool for curating and printing group-based photo albums.
 screenshots:
-  - projects/groopix/desktop-1.png
-  - projects/groopix/desktop-2.png
+  - projects/groopix/desktop-a.png
+  - projects/groopix/desktop-b.png
 meta:
   year: 2008
   role: UX, design and front-end development
