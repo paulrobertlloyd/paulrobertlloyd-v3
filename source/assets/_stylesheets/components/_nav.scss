@@ -32,8 +32,8 @@
 
 /* Page navigation */
 .c-nav--pagination {
-    overflow: hidden;
     margin-bottom: $u__baseline;
+    overflow: hidden;
 
     @media (min-width: $b__b) {
         position: absolute;
