@@ -90,10 +90,6 @@ This is a term.
 Here is another term.
 : And it gets a definition too, which is this line.
 
-Here is term that shares a definition with the term below.
-Here is a defined term.
-: `dt` terms may stand on their own without an accompanying `dd`, but in that case they _share_ descriptions with the next available `dt`. You may not have a `dd` without a parent `dt`.
-
 ## Text-level Semantics
 There are a number of inline HTML elements you may use anywhere within other elements.
 

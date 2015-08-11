@@ -13,13 +13,13 @@
     @media (max-width: $b__b) {
         @include span(3 first);
         clear: left;
-        padding-bottom: $u__baseline;
+        margin-bottom: $u__baseline;
     }
 }
 
 .c-meta__value {
     margin-left: 0;
-    padding-bottom: $u__baseline;
+    margin-bottom: $u__baseline;
 
     @media (max-width: $b__b) {
         @include span(9 last);

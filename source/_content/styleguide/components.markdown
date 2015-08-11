@@ -166,7 +166,7 @@ The `.c-rating`{:.language-css} component is used to display a score between 0 a
 ## Tags
 The `.c-tag`{:.language-css} component is used to link related posts that cover similar topics.
 
-{% include tag.html tag="tag name" %}
+{% include tag.html tag="travel" %}
 
 ## Forms
 The `.c-form`{:.language-css} component class and child component classes, are used to display various forms used across the site.
