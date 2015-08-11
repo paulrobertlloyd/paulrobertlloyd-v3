@@ -52,7 +52,7 @@ $c__t-light--active: $c__primary-blue;
             border-color: rgba($c__t-light--text, 0.2);
         }
 
-        .c-item--project {
+        .c-item__link {
             .c-item__logo {
                 fill: $c__t-light--text;
             }
@@ -71,21 +71,17 @@ $c__t-light--active: $c__primary-blue;
         }
 
         .s-prose {
-            a:not(.c-button):not(.c-nav__item__label) {
+            a {
                 @include text-decoration-color($c__t-light--hover, $c__t-light--background);
             }
 
-            a:not(.c-button):not(.c-nav__item__label):focus {
+            a:focus {
                 @include text-decoration-color('none');
             }
 
-            a:not(.c-button):not(.c-nav__item__label):active {
+            a:active {
                 @include text-decoration-color($c__t-light--active, $c__t-light--background);
             }
-        }
-
-        .u-block-link .s-prose {
-            color: $c__t-light--text;
         }
     }
 }

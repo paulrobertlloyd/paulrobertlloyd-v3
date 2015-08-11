@@ -9,9 +9,9 @@ meta:
   website: '[bradshawsguide.org](http://bradshawsguide.org)'
 ---
 ## Buttons
-Buttons are normally used to submit form data, although on occasion it may be desired to have a link appear like a button too. In both cases, the `.c-button`{:.language-css} component class is used.
+The `.c-button`{:.language-css} component class is used for buttons, which are typically used to submit form data.
 
-<button class="c-button">Button</button> <input class="c-button" type="button" value="Input button"/> <a class="c-button" href="#">Link button</a>
+<button class="c-button">Button</button> <input class="c-button" type="button" value="Input button"/> <input class="c-button" type="submit" value="Submit button"/>
 
 ## Charts
 The `.c-chart`{:.language-css} component class is used for tabular content that has been visually formatted to appear in the form of a chart. Currently, only horizontal bar charts are supported (`.c-chart--hbar`{:.language-css}).

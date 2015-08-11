@@ -1,10 +1,12 @@
 <article class="c-item c-item--talk  h-event">
-    <a class="c-item__link u-block-link  u-url" href="{% if item.upcoming %}{{ item.link.url }}{% else %}{{ item.url }}{% endif %}" rel="bookmark">
-        <h1 class="c-item__title">{% if item.upcoming %}<mark>Upcoming:</mark> {% endif %}<span class="p-name">{{ item.meta.event | smartify }}</span></h1>
+    <h1 class="c-item__title">
+        <a class="c-item__link  u-url" href="{% if item.upcoming %}{{ item.link.url }}{% else %}{{ item.url }}{% endif %}" rel="bookmark">
+            {% if item.upcoming %}<mark>Upcoming:</mark> {% endif %}<span class="p-name">{{ item.meta.event | smartify }}</span>
+        </a>
+    </h1>
 
-        <p class="c-item__meta">
-            <strong class="u-separate  p-description">{{ item.title }}</strong> <span class="p-location">{{ item.meta.location }}</span> · 
-            <time class="c-item__pubdate  dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" | typogrify }}</time>
-        </p>
-    </a>
+    <p class="c-item__meta">
+        <strong class="u-separate  p-description">{{ item.title }}</strong> <span class="p-location">{{ item.meta.location }}</span> · 
+        <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" | typogrify }}</time>
+    </p>
 </article>

@@ -12,17 +12,15 @@
 /* Series navigation */
 .c-nav--series {
     @include ff--sans-serif;
-    margin-bottom: $u__baseline;
 
     .c-nav__title {
         @include fs--lede;
-        margin-bottom: $u__baseline;
+        margin-bottom: ($u__baseline * 0.75);
     }
 
-    .c-nav__item__label {
+    .c-nav__item {
         @include fs--caption;
-        display: block;
-        padding-bottom: ($u__baseline * 1.25);
+        margin-bottom: $u__baseline;
         line-height: 1;
     }
 
@@ -34,12 +32,13 @@
 
 /* Page navigation */
 .c-nav--pagination {
-    margin-bottom: $u__baseline;
     overflow: hidden;
+    margin-bottom: $u__baseline;
 
     @media (min-width: $b__b) {
         position: absolute;
         bottom: 0;
+        margin-bottom: 0;
     }
 
     @media print {
@@ -49,19 +48,6 @@
     .c-nav__item {
         float: left;
         margin-right: $u__baseline;
-    }
-
-    .c-nav__item--prev::before {
-        font-family: sans-serif;
-        content: '\27E8\2009';
-    }
-
-    .c-nav__item--next::after {
-        font-family: sans-serif;
-        content: '\2009\27E9';
-    }
-
-    .c-nav__item__label {
         font-weight: 700;
     }
 }

@@ -27,7 +27,7 @@ title: Projects
         {% for item in projects reversed %}
             {% if item.featured != true %}
                 <li class="c-nav__item c-list__item" value="{{ post.date | date:"%-d" }}">
-                    <a class="c-nav__item__label" href="{{ item.url }}">{{ item.title }}</a>
+                    <a class="c-nav__label" href="{{ item.url }}">{{ item.title }}</a>
                 </li>
             {% endif %}
         {% endfor %}

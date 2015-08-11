@@ -5,7 +5,7 @@
 .s-prose {
     font-feature-settings: 'liga', 'dlig', 'onum';
 
-    > * {
+    > *:not(:last-child) {
         margin-bottom: $u__baseline;
     }
 }
@@ -16,7 +16,7 @@
     @include ff--serif;
     @include fs--body;
 
-    > * {
+    > *:not(:last-child) {
         margin-bottom: ($u__baseline * 1.25);
     }
 

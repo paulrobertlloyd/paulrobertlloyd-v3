@@ -1,9 +1,11 @@
 <article class="c-item c-item--project  h-entry">
-    <a class="c-item__link u-block-link  u-url" href="{{ item.url }}" rel="bookmark">
-        <h1 class="c-item__title">{% svg c-item__logo--{{ item.title | slugify | replace:"_","-" }} %}</h1>
+    <h1 class="c-item__title">
+        <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
+            {% svg c-item__logo--{{ item.title | slugify | replace:"_","-" }} %}
+        </a>
+    </h1>
 
-        <p class="c-item__meta  p-summary">
-            <strong class="u-separate  p-name">{{ item.title | smartify }}</strong> {{ item.excerpt | typogrify | namespace }}
-        </p>
-    </a>
+    <p class="c-item__meta  p-summary">
+        <strong class="u-separate  p-name">{{ item.title | smartify }}</strong> {{ item.excerpt | typogrify | namespace }}
+    </p>
 </article>

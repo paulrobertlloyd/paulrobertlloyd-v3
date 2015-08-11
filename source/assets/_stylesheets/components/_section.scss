@@ -62,6 +62,13 @@
 }
 
 
+/* External link */
+.c-section--link {
+    @include ff--sans-serif(700);
+    @include fs--body;
+}
+
+
 /* Other places on the internet */
 .c-section--other {
     @media (min-width: $b__b) {
@@ -83,6 +90,6 @@
 
 
 /* Tags */
-.c-section--tags {
-    margin-top: -($u__baseline * 2.5);
+.c-section--body + .c-section--tags {
+    margin-top: -($u__baseline * 1.5);
 }
