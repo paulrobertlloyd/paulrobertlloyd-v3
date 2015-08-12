@@ -4,17 +4,26 @@
 
 .c-item {
     position: relative;
-    margin-bottom: ($u__baseline * 2.5);
+    margin-bottom: ($u__baseline * 2);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .c-item__media,
 .c-item__footer {
-    display: block;
     margin-bottom: ($u__baseline / 2);
 }
 
 .c-item__title {
     @include fs--heading-3;
+}
+
+.c-item__title--promote {
+    @include fs--heading-1;
+    padding-bottom: ($u__baseline / 2);
+    font-weight: 700;
 }
 
 .c-item__meta {
@@ -24,33 +33,29 @@
 
 .c-item__avatar {
     @include background-placeholder;
-    position: absolute;
-    top: ($u__baseline / 4);
-    left: 0;
     width: span(1 of 8);
     height: auto;
 
-    @media (min-width: $b__b) {
-        left: ((span(1 of 8) + gutter()) * -1);
+    .c-item--comment & {
+        position: absolute;
+        top: ($u__baseline / 4);
+        left: 0;
+
+        @media (min-width: $b__b) {
+            left: ((span(1 of 8) + gutter()) * -1);
+        }
     }
 }
 
 
 /* Entry, link and gallery items */
 .c-item--entry,
-.c-item--gallery {
-    .c-item__title {
-        @include fs--heading-1;
-        padding-bottom: ($u__baseline / 2);
-        font-weight: 700;
-    }
-}
-
-.c-item--entry,
 .c-item--gallery,
 .c-item--link {
+    margin-bottom: ($u__baseline * 3);
+
     @media (min-width: $b__b) {
-        margin-bottom: ($u__baseline * 4);
+        margin-bottom: ($u__baseline * 5);
     }
 }
 
