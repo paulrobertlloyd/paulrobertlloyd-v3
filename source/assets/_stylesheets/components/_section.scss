@@ -4,9 +4,10 @@
 
 .c-section {
     @include clearfix;
-    margin-bottom: ($u__baseline * 2.5);
+    margin-bottom: ($u__baseline * 1.25);
 
     @media screen and (min-width: $b__b) {
+        margin-bottom: ($u__baseline * 2.5);
         padding-right: span(1 wide);
         padding-left: span(3 wide);
     }
@@ -91,7 +92,11 @@
 
 /* Tags */
 .c-section--body + .c-section--tags {
-    margin-top: -($u__baseline * 2.5);
+    margin-bottom: -($u__baseline * 1.25);
+
+    @media screen and (min-width: $b__b) {
+        margin-top: -($u__baseline * 2.5);
+    }
 }
 
 .c-section--tags {
