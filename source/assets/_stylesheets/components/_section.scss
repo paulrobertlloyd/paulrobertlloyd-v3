@@ -92,7 +92,7 @@
 
 /* Tags */
 .c-section--body + .c-section--tags {
-    margin-bottom: -($u__baseline * 1.25);
+    margin-top: -($u__baseline * 1.25);
 
     @media screen and (min-width: $b__b) {
         margin-top: -($u__baseline * 2.5);
