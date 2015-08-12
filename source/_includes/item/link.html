@@ -2,7 +2,7 @@
     <header class="c-item__header">
         <h1 class="c-item__title  p-name">
             <a class="c-item__link  u-url" href="{{ item.link.url }}">
-                {{ item.title | smartify | typogrify }} <span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>
+                {{ item.title | smartify | typogrify }}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>
             </a>
         </h1>
     </header>
@@ -16,14 +16,14 @@
         </p>
     </footer>
 
+    {% if item.link.embed == "photo" or item.link.embed == "video" %}
+    <div class="c-item__media u-bleed">
+        {% embed {{ item.link.url }} %}
+    </div>
+    {% endif %}
+
     <div class="c-item__main">
         <div class="s-prose s-prose--billboard  p-summary">
-            {% if item.link.embed == "photo" or item.link.embed == "video" %}
-            <div class="c-item__media u-bleed">
-                {% embed {{ item.link.url }} %}
-            </div>
-            {% endif %}
-
             {{ item.content | markdownify | typogrify | namespace }}
         </div>
     </div>

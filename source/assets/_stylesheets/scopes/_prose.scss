@@ -2,15 +2,6 @@
     Prose
     ========================================================================= */
 
-.s-prose {
-    font-feature-settings: 'liga', 'dlig', 'onum';
-
-    > * {
-        margin-bottom: $u__baseline;
-    }
-}
-
-
 /* Body */
 .s-prose--body {
     @include ff--serif;
@@ -75,12 +66,21 @@
 
 
 /* Billboard */
+/* TODO: Think of a better name for this class */
 .s-prose--billboard {
     @include fs--billboard;
+
+    > * {
+        margin-bottom: ($u__baseline * 0.75);
+    }
 }
 
 
 /* Lede */
 .s-prose--lede {
     @include fs--lede;
+
+    > * {
+        margin-bottom: ($u__baseline * 1.25);
+    }
 }

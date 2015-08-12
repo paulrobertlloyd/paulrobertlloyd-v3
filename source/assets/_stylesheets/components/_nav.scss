@@ -32,7 +32,7 @@
 
 /* Page navigation */
 .c-nav--pagination {
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 0.75);
     overflow: hidden;
 
     @media (min-width: $b__b) {

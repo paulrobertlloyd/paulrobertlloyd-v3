@@ -101,6 +101,6 @@
 
 .c-section--tags {
     .c-section__main {
-        margin-bottom: $u__baseline;
+        margin-bottom: ($u__baseline * 0.75);
     }
 }

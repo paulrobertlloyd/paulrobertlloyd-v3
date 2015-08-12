@@ -9,7 +9,7 @@
 
 .c-form__field {
     position: relative;
-    margin-bottom: $u__baseline;
+    margin-bottom: ($u__baseline * 0.75);
 }
 
 .c-form__note {
