@@ -100,7 +100,7 @@ compress_html:
 picture:
   markup: img
   source: /assets/images
-  output: /images/
+  output: /images
   presets:
     default:
       attr:
