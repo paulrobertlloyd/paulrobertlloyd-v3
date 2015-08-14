@@ -6,7 +6,3 @@ assets:
   gzip: false
   cache: ../.jekyll-assets-cache
   cachebust: hard
-
-# Picture
-picture:
-  cdn_url: https://images.paulrobertlloyd.com

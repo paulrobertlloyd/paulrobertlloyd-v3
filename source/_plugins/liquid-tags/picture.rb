@@ -161,14 +161,14 @@ module Jekyll
       img_quality = instance[:quality]
 
       if img_ext == ".svg"
-        path = "#{@settings['local_path']}/"
+        path = "#{@settings['source']}/"
         # => /[PATH/TO/IMAGE]/
       else
         if img_height
-          path = "#{@settings['cdn_url']}/#{img_width}x#{img_height}/#{img_quality}q/"
+          path = "#{@settings['output']}/#{img_width}x#{img_height}/#{img_quality}q/"
           # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/[PATH/TO/IMAGE]/
         else
-          path = "#{@settings['cdn_url']}/#{img_width}w/#{img_quality}q/"
+          path = "#{@settings['output']}/#{img_width}w/#{img_quality}q/"
           # => https://cdn.tld/[WIDTH]w/[QUALITY]q/[PATH/TO/IMAGE]/
         end
       end
