@@ -154,25 +154,26 @@ module Jekyll
 
 
     def generate_path(instance)
-      img_src = instance[:src]
+      img = instance[:src]
       img_ext = File.extname(instance[:src])
       img_width = instance[:width]
       img_height = instance[:height]
       img_quality = instance[:quality]
 
       if img_ext == ".svg"
-        path = @settings['local_path']
-        file = "#{img_src}"
+        path = "#{@settings['local_path']}/"
+        # => /[PATH/TO/IMAGE]/
       else
-        path = @settings['cdn_url']
         if img_height
-          file = "#{img_width}x#{img_height}/#{img_quality}#{img_src}"
+          path = "#{@settings['cdn_url']}/#{img_width}x#{img_height}/#{img_quality}q/"
+          # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/[PATH/TO/IMAGE]/
         else
-          file = "#{img_width}w/#{img_quality}#{img_src}"
+          path = "#{@settings['cdn_url']}/#{img_width}w/#{img_quality}q/"
+          # => https://cdn.tld/[WIDTH]w/[QUALITY]q/[PATH/TO/IMAGE]/
         end
       end
 
-      Pathname.new(File.join(path, file))
+      Pathname.new(File.join(path, img))
     end
 
 
