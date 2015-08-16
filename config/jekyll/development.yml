@@ -6,3 +6,8 @@ assets:
   gzip: false
   cache: ../.jekyll-assets-cache
   cachebust: none
+
+# Picture
+picture:
+  converter: converjon
+  cdn: http://images.paulrobertlloyd.dev
