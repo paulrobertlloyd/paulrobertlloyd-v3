@@ -24,7 +24,7 @@ layout: compress
 {% if page.path contains "_posts" %}
     {% if page.image %}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.picture.output }}/640x360/100{{ page.image.url }}"/>
+    <meta name="twitter:image" content="{{ site.picture.output }}/640x360/100q{{ page.image.url }}"/>
     {% else %}
     <meta name="twitter:card" content="summary"/>
     {% endif %}
