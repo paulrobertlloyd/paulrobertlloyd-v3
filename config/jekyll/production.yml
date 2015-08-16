@@ -6,3 +6,9 @@ assets:
   gzip: false
   cache: ../.jekyll-assets-cache
   cachebust: hard
+
+# Picture
+picture:
+  converter: thumbor
+  key: '441922692530'
+  cdn: https://analytics.paulrobertlloyd.com

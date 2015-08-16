@@ -18,6 +18,7 @@
 
 require 'fileutils'
 require 'pathname'
+require 'ruby-thumbor'
 
 module Jekyll
   class PictureTag < Liquid::Tag
@@ -33,8 +34,8 @@ module Jekyll
       render_markup = Liquid::Template.parse(@markup).render(context).gsub(/\\\{\\\{|\\\{\\%/, '\{\{' => '{{', '\{\%' => '{%')
 
       # Gather settings
-      site = context.registers[:site]
-      @settings = site.config['picture']
+      @site = context.registers[:site]
+      @settings = @site.config['picture']
       markup = /^(?:(?<preset>[^\s.:\/]+)\s+)?(?<image_src>[^\s]+\.[a-zA-Z0-9]{3,4}?[^\s:\/]*)\s*(?<source_src>(?:(source_[^\s.:\/]+:\s+[^\s]+\.[a-zA-Z0-9]{3,4}?[^\s:\/]*)\s*)+)?(?<html_attr>[\s\S]+)?$/.match(render_markup)
       preset = @settings['presets'][markup[:preset]] || @settings['presets']['default']
 
@@ -50,7 +51,7 @@ module Jekyll
         @settings['generate']['output'] ||= 'generated'
 
         # Prevent Jekyll from erasing our generated files
-        site.config['keep_files'] << @settings['generate']['output'] unless site.config['keep_files'].include?(@settings['generate']['output'])
+        @site.config['keep_files'] << @settings['generate']['output'] unless @site.config['keep_files'].include?(@settings['generate']['output'])
       end
 
       # Deep copy preset for single instance manipulation
@@ -117,7 +118,7 @@ module Jekyll
       # Generate path to resized image
       instance.each { |key, source|
         if !@settings['generate'].nil?
-          instance[key][:generated_src] = generate_image(source, site.source, site.dest, @settings['generate']['source'], @settings['generate']['output'], site.config['baseurl'])
+          instance[key][:generated_src] = generate_image(source, @site.source, @site.dest, @settings['generate']['source'], @settings['generate']['output'], @site.config['baseurl'])
         else
           instance[key][:generated_src] = generate_path(source)
         end
@@ -159,16 +160,39 @@ module Jekyll
       img_width = instance[:width]
       img_height = instance[:height]
       img_quality = instance[:quality]
+      img_crypto = Thumbor::CryptoURL.new @settings['key']
 
       if img_ext == ".svg"
         path = "#{@settings['source']}/"
-        # => /[PATH/TO/IMAGE]/
-      else
-        path = "#{@settings['output']}/#{img_width}x#{img_height}/#{img_quality}q/"
-        # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/[PATH/TO/IMAGE]/
-      end
 
-      Pathname.new(File.join(path, img))
+        Pathname.new(File.join(path, img))
+        # => /path/to/image.jpg
+      else
+        if @settings['key']
+          img_file_path = @site.config['url'] + @settings['source'] + img
+          img_crypto_path = img_crypto.generate :width => img_width, :height => img_height, :smart => true, :filters => ["quality(#{img_quality})"], :image => img_file_path
+          # => /[hmap]/[width]x[height]/smart/[filter]/path/to/image.jpg
+
+          path = "#{@settings['cdn']}"
+
+          Pathname.new(File.join(path, img_crypto_path))
+          # => https://cdn.tld/[hmac]/[width]x[height]/[quality]/[PATH/TO/IMAGE]/
+        else
+          if @settings['converter'] == "thumbor"
+            path = "#{@settings['cdn']}/#{img_width}x#{img_height}/smart/filters:quality(#{img_quality})/"
+            # direct path to image server
+
+            Pathname.new(File.join(path, img))
+            # => https://cdn.tld/unsafe/[WIDTH]x[HEIGHT]/filters:quality([QUALITY])/path/to/image.jpg
+          else
+            path = "#{@settings['cdn']}/#{img_width}x#{img_height}/#{img_quality}q/"
+            # path to be rewitten by nginx
+
+            Pathname.new(File.join(path, img))
+            # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/path/to/image.jpg
+          end
+        end
+      end
     end
 
 

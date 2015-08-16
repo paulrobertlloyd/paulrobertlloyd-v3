@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem 'susy'
   gem 'typogruby'
   gem 'uglifier'
+  gem 'ruby-thumbor'
 end
 
 # Rake (manages build tasks)
