@@ -164,13 +164,8 @@ module Jekyll
         path = "#{@settings['source']}/"
         # => /[PATH/TO/IMAGE]/
       else
-        if img_height
-          path = "#{@settings['output']}/#{img_width}x#{img_height}/#{img_quality}q/"
-          # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/[PATH/TO/IMAGE]/
-        else
-          path = "#{@settings['output']}/#{img_width}w/#{img_quality}q/"
-          # => https://cdn.tld/[WIDTH]w/[QUALITY]q/[PATH/TO/IMAGE]/
-        end
+        path = "#{@settings['output']}/#{img_width}x#{img_height}/#{img_quality}q/"
+        # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/[PATH/TO/IMAGE]/
       end
 
       Pathname.new(File.join(path, img))
