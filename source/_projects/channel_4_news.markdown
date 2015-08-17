@@ -4,8 +4,8 @@ date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence on the iPad
 featured: true
 screenshots:
-  - projects/channel4_news/tablet-portrait.png
-  - projects/channel4_news/tablet-landscape.png
+  - projects/channel_4_news/tablet-portrait.png
+  - projects/channel_4_news/tablet-landscape.png
 meta:
   year: 2010
   role: Design
@@ -17,9 +17,9 @@ After redesigning their website, Channel 4 wished to reimagine the Channel 4 New
 With this insight, and working alongside [James Bates][1] and [James Box][2] at Clearleft, I created an engaging browsing mechanism driven by story headlines and high quality imagery. This made it easy for users to casually flip through stories, homing in on anything that caught the eye.
 
 {% figure u-extend "Category, special report and catch-up sections within the app." %}
-{% picture supporting /projects/channel4_news/category.png alt="Category screen" %}
-{% picture supporting /projects/channel4_news/special_report.png alt="Special Report screen" %}
-{% picture supporting /projects/channel4_news/catch_up.png alt="Catch-up screen" %}
+{% picture supporting /projects/channel_4_news/category.png alt="Category screen" %}
+{% picture supporting /projects/channel_4_news/special_report.png alt="Special Report screen" %}
+{% picture supporting /projects/channel_4_news/catch_up.png alt="Catch-up screen" %}
 {% endfigure %}
 
 Shortly after its launch Apple featured the app as App of the Week. In a few short weeks the application received over one hundred positive reviews, with an average rating of 4.5 stars.
