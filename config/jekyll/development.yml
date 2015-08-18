@@ -9,5 +9,4 @@ assets:
 
 # Picture
 picture:
-  converter: converjon
   cdn: http://images.paulrobertlloyd.dev

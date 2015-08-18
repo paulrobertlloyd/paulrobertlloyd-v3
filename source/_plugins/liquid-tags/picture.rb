@@ -178,19 +178,11 @@ module Jekyll
           Pathname.new(File.join(path, img_crypto_path))
           # => https://cdn.tld/[hmac]/[width]x[height]/[quality]/[PATH/TO/IMAGE]/
         else
-          if @settings['converter'] == "thumbor"
-            path = "#{@settings['cdn']}/#{img_width}x#{img_height}/smart/filters:quality(#{img_quality})/"
-            # direct path to image server
+          path = "#{@settings['cdn']}/#{img_width}x#{img_height}/#{img_quality}q/"
+          # path to be rewitten by nginx
 
-            Pathname.new(File.join(path, img))
-            # => https://cdn.tld/unsafe/[WIDTH]x[HEIGHT]/filters:quality([QUALITY])/path/to/image.jpg
-          else
-            path = "#{@settings['cdn']}/#{img_width}x#{img_height}/#{img_quality}q/"
-            # path to be rewitten by nginx
-
-            Pathname.new(File.join(path, img))
-            # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/path/to/image.jpg
-          end
+          Pathname.new(File.join(path, img))
+          # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/path/to/image.jpg
         end
       end
     end
