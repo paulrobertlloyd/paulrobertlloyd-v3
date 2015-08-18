@@ -4,25 +4,25 @@
 
 .c-item {
     position: relative;
-    margin-bottom: ($u__baseline * 2);
 
-    &:last-child {
-        margin-bottom: 0;
+    &:not(:last-child) {
+        margin-bottom: ($u__baseline * 2.5);
     }
 }
 
 .c-item__media,
 .c-item__footer {
-    margin-bottom: ($u__baseline / 2);
+    margin-bottom: $u__baseline;
 }
 
 .c-item__title {
-    @include fs--heading-3;
+    @include fs--heading-2;
+    margin-bottom: ($u__baseline / 4);
 }
 
 .c-item__title--promote {
     @include fs--heading-1;
-    padding-bottom: ($u__baseline / 2);
+    margin-bottom: ($u__baseline / 2);
     font-weight: 700;
 }
 
@@ -100,6 +100,10 @@
 
 /* Project */
 .c-item--project {
+    .c-item__title {
+        @include fs--heading-4;
+    }
+
     .c-item__link {
         display: block;
     }
