@@ -4,6 +4,7 @@
 
 .c-section {
     @include clearfix;
+    margin-bottom: ($u__baseline * 2.5);
 
     @media screen and (min-width: $b__b) {
         padding-right: span(1 wide);
