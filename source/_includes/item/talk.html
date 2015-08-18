@@ -1,7 +1,7 @@
 <article class="c-item c-item--talk  h-event">
     <h1 class="c-item__title">
         <a class="c-item__link  u-url" href="{% if item.upcoming %}{{ item.link.url }}{% else %}{{ item.url }}{% endif %}" rel="bookmark">
-            {% if item.upcoming %}<mark>Upcoming:</mark> {% endif %}<span class="p-name">{{ item.meta.event | smartify }}</span>
+            {% if item.upcoming %}<mark>Upcoming:</mark> {% endif %}<span class="p-name">{{ item.meta.event | smartify }}</span>{% if item.upcoming %}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>{% endif %}
         </a>
     </h1>
 
