@@ -45,7 +45,7 @@
             pubdate.innerHTML = published.toFormattedString();
 
             if (author.photo) {
-                avatar.setAttribute('src', author.photo);
+                avatar.setAttribute('src', avatar.src + author.photo);
             } else {
                 avatar.parentNode.removeChild(avatar);
             }

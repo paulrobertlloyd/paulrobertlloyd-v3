@@ -34,7 +34,7 @@
 
             anchor.setAttribute('href', author.url[0]);
             avatar.setAttribute('alt', author.name[0]);
-            avatar.setAttribute('src', author.photo[0]);
+            avatar.setAttribute('src', avatar.src + author.photo[0]);
             avatar.setAttribute('title', author.name[0] + ' shared this.');
 
             this.list.appendChild(template);
