@@ -9,6 +9,5 @@ assets:
 
 # Picture
 picture:
-  converter: thumbor
-  key: '441922692530'
+# key: '441922692530'
   cdn: https://analytics.paulrobertlloyd.com
