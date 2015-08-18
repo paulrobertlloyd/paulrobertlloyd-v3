@@ -9,10 +9,6 @@
         padding-right: span(1 wide);
         padding-left: span(3 wide);
     }
-
-    &:not(:last-child) {
-        margin-bottom: ($u__baseline * 2.5);
-    }
 }
 
 .c-section__title {
