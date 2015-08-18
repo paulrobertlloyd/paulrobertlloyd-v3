@@ -30,9 +30,13 @@ $c__invalid: $c__primary-red;
 
 // Breakpoints
 $b__a: 32rem; // 512px
+$b__ax: 31.9375rem; // 511px
 $b__b: 45rem; // 720px
-$b__c: $u__max-width + ($u__baseline * 2);
+$b__bx: 44.9375rem; // 719px
+$b__c: ($u__max-width + ($u__baseline * 2));
+$b__cx: ($u__max-width + ($u__baseline * 2) - 0.0625rem);
 $b__d: 65rem; // 1040px
+$b__dx: 64.9375rem; // 1039px
 
 
 // Grid (Susy)
@@ -49,8 +53,7 @@ $susy: (
     last-flow: to,
 //    debug: (
 //        image: show,
-//        output: overlay,
-//        toggle: bottom right,
+//        output: background,
 //    )
 );
 

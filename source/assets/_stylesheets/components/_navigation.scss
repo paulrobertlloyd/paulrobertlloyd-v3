@@ -31,7 +31,6 @@
 
     @media (min-width: $b__a) {
         @include span(8 at 2);
-        margin-right: span(1);
         margin-left: span(3 wide);
         line-height: (20/18);
         font-size: 1.125rem; // 18px

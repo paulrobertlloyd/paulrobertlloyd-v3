@@ -4,12 +4,14 @@
 
 .c-section {
     @include clearfix;
-    margin-bottom: ($u__baseline * 1.25);
 
     @media screen and (min-width: $b__b) {
-        margin-bottom: ($u__baseline * 2.5);
         padding-right: span(1 wide);
         padding-left: span(3 wide);
+    }
+
+    &:not(:last-child) {
+        margin-bottom: ($u__baseline * 2.5);
     }
 }
 
@@ -53,11 +55,11 @@
 .c-section--archive {
     @media (min-width: $b__a) {
         .c-section__header {
-            @include span(2 of 9 first);
+            @include span(3 of 12 first);
         }
 
         .c-section__main {
-            @include span(7 of 9 last);
+            @include span(9 of 12 last);
         }
     }
 }
