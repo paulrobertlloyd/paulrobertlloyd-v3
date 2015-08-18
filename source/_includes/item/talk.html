@@ -7,6 +7,6 @@
 
     <p class="c-item__meta">
         <strong class="u-separate  p-description">{{ item.title }}</strong> <span class="p-location">{{ item.meta.location }}</span> · 
-        <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%B %Y" | typogrify }}</time>
+        <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" | typogrify }}</time>
     </p>
 </article>
