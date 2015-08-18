@@ -52,10 +52,10 @@
 .c-item--entry,
 .c-item--gallery,
 .c-item--link {
-    margin-bottom: ($u__baseline * 3);
-
     @media (min-width: $b__b) {
-        margin-bottom: ($u__baseline * 5);
+        &:not(:last-child) {
+            margin-bottom: ($u__baseline * 5);
+        }
     }
 }
 
