@@ -125,8 +125,8 @@ If it wasn't obvious, I'm absolutely bowled over by what the BBC User Experience
 [9]: http://www.bbc.co.uk/blogs/bbcinternet/2008/04/home_page_two_months_on.html
 [10]: http://www.bbc.co.uk/blogs/bbcinternet/2009/03/bbc_music_website_relaunch.html
 [11]: http://news.bbc.co.uk/
-[12]: /assets/images/2010/02/bbc_news_redesign_home.png
-[13]: /assets/images/2010/02/bbc_news_redesign_story.png
+[12]: /images/2010/02/bbc_news_redesign_home.png
+[13]: /images/2010/02/bbc_news_redesign_story.png
 [14]: http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html
 [15]: http://en.wikipedia.org/wiki/Neville_Brody
 [16]: http://www.researchstudios.com/

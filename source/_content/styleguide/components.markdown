@@ -58,7 +58,7 @@ The `.c-embed--slidedeck`{:.language-css} modifier is used when embedding presen
 ## EXIF data
 The `.c-exif`{:.language-css} component class is used to display the EXIF data found within an image file.
 
-{% include exif.html url='/assets/images/galleries/2015-03-02-olympiastadion/02.jpg' %}
+{% include exif.html url='/images/galleries/2015-03-02-olympiastadion/02.jpg' %}
 
 ## Figures
 The `.c-figure`{:.language-css} component class is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation and a tweet (`.c-tweet`{:.language-css}).
