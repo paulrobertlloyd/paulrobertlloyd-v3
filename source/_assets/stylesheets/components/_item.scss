@@ -123,9 +123,9 @@
 /* Profile (likes and shares) */
 .c-item--profile {
     float: left;
-    width: span(1 of 8);
     margin-right: ($u__baseline / 4);
     margin-bottom: ($u__baseline / 4);
+    width: span(1 of 8);
 
     @media (min-width: $b__a) {
         width: span(1 of 12);

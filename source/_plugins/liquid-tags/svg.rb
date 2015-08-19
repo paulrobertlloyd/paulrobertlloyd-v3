@@ -9,7 +9,7 @@ module Jekyll
       path = Liquid::Template.parse(@path).render context
       source_dir = context.registers[:site].source
 
-      "#{File.read(source_dir + '/assets/_vectors/' + path.strip + '.svg')}"
+      "#{File.read(source_dir + '/_assets/vectors/' + path.strip + '.svg')}"
     end
   end
 end
