@@ -3,9 +3,9 @@
 (function (win, doc) {
     'use strict';
 
-    var breakpoint   = win.getComputedStyle(doc.documentElement, ':after').getPropertyValue('content');
+    var breakpoint   = win.getComputedStyle(doc.documentElement, '::after').getPropertyValue('content');
     var banner       = doc.querySelector('.c-banner');
-    var bannerHeight = getComputedStyle(banner).height.split('px')[0];
+    var bannerHeight = win.getComputedStyle(banner).height.split('px')[0];
     var navigation   = doc.querySelector('.c-navigation');
     var fixClass     = 'is-fixed';
 
