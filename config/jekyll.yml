@@ -86,7 +86,7 @@ assets:
   sources:
     - _assets/fonts
     - _assets/icons
-    - assets/_javascripts
+    - _assets/javascripts
     - _assets/stylesheets
     - _assets/vectors
   css_compressor: sass
