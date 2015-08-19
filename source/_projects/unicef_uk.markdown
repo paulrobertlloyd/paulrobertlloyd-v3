@@ -36,7 +36,7 @@ The brand guidelines suggested using Verdana for digital applications, but I opt
 
 ## Navigation
 {% figure u-pull-right "Navigation appears in a slide-out menu" %}
-<object height="100%" width="100%"  data="{{ site.url }}/assets/images/projects/unicef_uk/mobile_menu.svg" type="image/svg+xml"></object>
+<object height="100%" width="100%"  data="{{ site.url }}/images/projects/unicef_uk/mobile_menu.svg" type="image/svg+xml"></object>
 {% endfigure %}
 
 We experimented with different ways of simplifying wayfinding around the site. By removing layers of navigation and advocating the inclusion of more links within body copy, we were able to reduce unnecessary interactions and invoke fewer taps. Moving the breadcrumb navigation to a slide-out menu meant users could orientate themselves within the site.

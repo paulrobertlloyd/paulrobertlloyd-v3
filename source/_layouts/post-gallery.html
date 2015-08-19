@@ -10,11 +10,11 @@ layout: default
         <div class="s-prose s-prose--body  e-content">
             {{ content | typogrify | namespace }}
 
-            {% capture gallery_path %}{{ page.path | replace:"_posts/galleries/","assets/images/galleries/" | remove:".markdown" }}{% endcapture %}
+            {% capture gallery_path %}{{ page.path | replace:"_posts/galleries/","images/galleries/" | remove:".markdown" }}{% endcapture %}
             {% directory path: gallery_path %}
             <figure class="c-figure c-figure--caption-right">
                 <p class="c-figure__main">
-                    {% picture {{ file.url | remove:"assets/images/" }} alt="" %}
+                    {% picture {{ file.url | remove:"images/" }} alt="" %}
                 </p>
                 <figcaption class="c-figure__caption">
                     {% include exif.html url=file.url %}

@@ -140,8 +140,8 @@ Whilst much of this talk has focused on the styleguide as a deliverable, I hope 
 [10]: http://fontdeck.com
 [11]: http://typekit.com
 [12]: http://www.channel4.com/about_c4/styleguide/
-[13]: /assets/images/2010/11/styleguide_universal_playback.png
-[14]: /assets/images/2010/11/styleguide_nuts_online.png
+[13]: /images/2010/11/styleguide_universal_playback.png
+[14]: /images/2010/11/styleguide_nuts_online.png
 [15]: http://weblog.muledesign.com/2010/08/why_we_dont_deliver_photoshop_files.php
 [16]: http://natbat.net/
 [17]: http://adactio.com/
