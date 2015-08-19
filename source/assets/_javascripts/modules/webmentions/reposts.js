@@ -15,7 +15,7 @@
     Reposts.prototype = {
         init: function () {
             this.containerTemplate = document.querySelector('#template--reposts').content;
-            this.repostTemplate = document.querySelector('#template--avatar').content;
+            this.repostTemplate = document.querySelector('#template--profile').content;
             this.list = this.containerTemplate.querySelector('.c-section--reposts .c-list');
         },
 
@@ -35,7 +35,7 @@
             anchor.setAttribute('href', author.url[0]);
             avatar.setAttribute('alt', author.name[0]);
             avatar.setAttribute('src', 'https://images.paulrobertlloyd.com/unsafe/120x120/' + author.photo[0]);
-            avatar.setAttribute('title', author.name[0] + ' shared this.');
+            avatar.setAttribute('title', author.name[0] + ' shared this');
 
             this.list.appendChild(template);
         },
