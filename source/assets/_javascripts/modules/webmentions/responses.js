@@ -45,7 +45,7 @@
             pubdate.innerHTML = published.toFormattedString();
 
             if (author.photo) {
-                avatar.setAttribute('src', avatar.src + author.photo);
+                avatar.setAttribute('src', author.photo);
             } else {
                 avatar.parentNode.removeChild(avatar);
             }
@@ -87,7 +87,7 @@
                 }
 
                 if (typeof photo !== 'undefined') {
-                    data.photo = this._relativeToAbsoluteUrl(photo[0], obj.source);
+                    data.photo = 'https://images.paulrobertlloyd.com/unsafe/120x120/' + this._relativeToAbsoluteUrl(photo[0], obj.source);
                 }
             }
 
