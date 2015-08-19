@@ -15,7 +15,7 @@
     Likes.prototype = {
         init: function () {
             this.containerTemplate = document.querySelector('#template--likes').content;
-            this.likeTemplate = document.querySelector('#template--avatar').content;
+            this.likeTemplate = document.querySelector('#template--profile').content;
             this.list = this.containerTemplate.querySelector('.c-section--likes .c-list');
         },
 
@@ -35,7 +35,7 @@
             anchor.setAttribute('href', author.url[0]);
             avatar.setAttribute('alt', author.name[0]);
             avatar.setAttribute('src', 'https://images.paulrobertlloyd.com/unsafe/120x120/' + author.photo[0]);
-            avatar.setAttribute('title', author.name[0] + ' likes this.');
+            avatar.setAttribute('title', author.name[0] + ' likes this');
 
             this.list.appendChild(template);
         },
