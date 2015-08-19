@@ -14,6 +14,6 @@
     "safeContextKeyword": "_this",
 
     "excludeFiles": [
-        "source/assets/_javascripts/vendor/**"
+        "source/_assets/javascripts/vendor/**"
     ]
 }

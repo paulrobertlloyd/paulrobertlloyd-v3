@@ -84,11 +84,11 @@ defaults:
 # Assets
 assets:
   sources:
-    - assets/_fonts
-    - assets/_icons
+    - _assets/fonts
+    - _assets/icons
     - assets/_javascripts
-    - assets/_stylesheets
-    - assets/_vectors
+    - _assets/stylesheets
+    - _assets/vectors
   css_compressor: sass
   js_compressor: uglifier
 
