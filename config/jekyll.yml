@@ -105,14 +105,14 @@ picture:
   presets:
     default:
       attr:
-        data-preset: default
+        class: c-picture c-picture--default
       source_medium:
         width: 800
       source_default:
         width: 480
     thumbnail:
       attr:
-        data-preset: thumbnail
+        class: c-picture c-picture--thumbnail
         sizes: '33vw'
       source_medium:
         width: 320
@@ -120,7 +120,7 @@ picture:
         width: 240
     supporting:
       attr:
-        data-preset: supporting
+        class: c-picture c-picture--supporting
         sizes: '50vw'
       source_medium:
         width: 640
@@ -128,25 +128,25 @@ picture:
         width: 480
     showcase:
       attr:
-        data-preset: showcase
+        class: c-picture c-picture--showcase
       source_large:
         width: 1024
-        quality: 70
+        quality: 80
       source_medium:
         width: 768
       source_default:
         width: 480
     feature:
       attr:
-        data-preset: feature
+        class: c-picture c-picture--feature
       source_xlarge:
         width: 1280
         height: 720
-        quality: 70
+        quality: 90
       source_large:
         width: 1024
         height: 576
-        quality: 70
+        quality: 90
       source_medium:
         width: 768
         height: 480
