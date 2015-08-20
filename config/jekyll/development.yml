@@ -3,10 +3,9 @@ url: http://paulrobertlloyd.dev
 
 # Assets
 assets:
-  gzip: false
-  cache: ../.jekyll-assets-cache
   cachebust: none
 
 # Picture
 picture:
+# key: '441922692530'
   cdn: http://images.paulrobertlloyd.dev
