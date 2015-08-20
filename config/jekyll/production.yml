@@ -3,8 +3,6 @@ url: https://paulrobertlloyd.com
 
 # Assets
 assets:
-  gzip: false
-  cache: ../.jekyll-assets-cache
   cachebust: hard
 
 # Picture

@@ -91,6 +91,8 @@ assets:
     - _assets/vectors
   css_compressor: sass
   js_compressor: uglifier
+  gzip: false
+  cache: ../.jekyll-assets-cache
 
 # HTML Compression
 compress_html:
