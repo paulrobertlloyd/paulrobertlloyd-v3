@@ -3,7 +3,7 @@
         <h1 class="c-item__title  h-card">
             {% if item.url %}<a class="c-item__author-url  u-url" href="{{ item.url }}">{% endif %}
             <span class="c-item__author  p-author p-name">{{ item.author }}</span>
-            <img class="c-item__avatar  u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=120&amp;d={{ site.url | uri_escape }}%2Fassets%2Fimages%2Fgravatar.png" width="80" height="80" alt=""/>
+            <img class="c-item__avatar  u-photo" src="https://images.paulrobertlloyd.com/unsafe/96x96/https://gravatar.com/avatar/{{ item.gravatar }}?d={{ site.url | uri_escape }}%2Fimages%2Fgravatar.png" alt=""/>
             {% if item.url %}</a>{% endif %}
         </h1>
     </header>

@@ -8,15 +8,16 @@ layout: compress
 <html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
 <head>
+    <link rel="dns-prefetch" href="https://analytics.paulrobertlloyd.com"/>
     {% if site.picture.cdn %}<link rel="dns-prefetch" href="{{ site.picture.cdn }}"/>{% endif %}
-    {% if page.discussion %}<link rel="dns-prefetch" href="https://gravatar.com"/>{% endif %}
+    {% if page.path contains "_posts" %}<link rel="dns-prefetch" href="https://webmention.paulrobertlloyd.com"/>{% endif %}
 
-    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
-    <link rel="apple-touch-icon" type="image/png" href="{% asset_path icon--192x192.png %}"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
+    <link rel="apple-touch-icon" href="{% asset_path icon--192x192.png %}" type="image/png"/>
     <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme-color }}"/>
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <link rel="manifest" href="/manifest.json"/>
-    <link rel="webmention" href="http://webmention.paulrobertlloyd.com"/>
+    <link rel="webmention" href="https://webmention.paulrobertlloyd.com"/>
 
     {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
     {% if page.previous != nil %}<link rel="prev bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}"/>{% endif %}

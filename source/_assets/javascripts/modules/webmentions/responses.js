@@ -87,7 +87,7 @@
                 }
 
                 if (typeof photo !== 'undefined') {
-                    data.photo = 'https://images.paulrobertlloyd.com/unsafe/120x120/' + this._relativeToAbsoluteUrl(photo[0], obj.source);
+                    data.photo = 'https://images.paulrobertlloyd.com/unsafe/96x96/' + this._relativeToAbsoluteUrl(photo[0], obj.source);
                 }
             }
 
