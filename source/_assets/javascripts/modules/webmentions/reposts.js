@@ -34,7 +34,7 @@
 
             anchor.setAttribute('href', author.url[0]);
             avatar.setAttribute('alt', author.name[0]);
-            avatar.setAttribute('src', 'https://images.paulrobertlloyd.com/unsafe/120x120/' + author.photo[0]);
+            avatar.setAttribute('src', 'https://images.paulrobertlloyd.com/unsafe/96x96/' + author.photo[0]);
             avatar.setAttribute('title', author.name[0] + ' shared this');
 
             this.list.appendChild(template);
