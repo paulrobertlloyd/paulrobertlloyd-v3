@@ -23,13 +23,13 @@ Wanting to evoke the feel of the handbook's chaotic Victorian typography, I look
 {% picture /projects/bradshaws_guide/palette.svg alt="Palette and fonts" %}
 {% endfigure %}
 
-## Open source
+## Open Source
 {% figure "Github pull request" %}
 {% endfigure %}
 
 Producing the guide involved correcting copy originating from an automated OCR process. Because the handbook exists in the public domain, I was keen to make its content available to as many people as possible, and allow others to build on the work I had done. The [source code for the site][2] is available on GitHub, meaning others can make improvements to the website or even create their own version of the guide.
 
-## Integration with social networks
+## Integration With Social Networks
 {% figure "A Foursquare tip from George Bradshaw" %}
 {% endfigure %}
 

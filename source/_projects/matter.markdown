@@ -39,7 +39,7 @@ Much of my work for MATTER focused on its visual identity. I thought a lot about
 
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
-## Painless payments
+## Painless Payments
 {% figure "Payment page" %}
 {% endfigure %}
 

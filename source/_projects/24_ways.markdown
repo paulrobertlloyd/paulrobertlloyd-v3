@@ -41,7 +41,7 @@ Keen to exploit the very idea of 24 ways -- different articles, written by diffe
 
 Given the overuse of circles in popular web design, I was determined to use something a little more distinctive. The diamond shape not only subtly evoked the shape of a star, or even a stylised Christmas tree, but also helped create a visual tension on the page, framing author photos in an interesting and unique way.
 
-## Responsive app-like interface
+## Responsive App-Like Interface
 {% figure "Homepage with open menu (tablet)" %}
 {% endfigure %}
 
@@ -50,10 +50,10 @@ Given the overuse of circles in popular web design, I was determined to use some
 
 Where the previous design used a rigid template across all sections of the site, which often dominated the content, I created a series of templates each suited the task in hand. On article pages, the interface deliberately receded allowing readers to focus on the content. Index and collection pages took a different approach, showcasing twenty-four articles in a grid which evoked the feel of a calendar.
 
-## Modern development practices
+## Modern Development Practices
 Beyond the responsive development, I was keen to employ other best practices. This included the use of BEM-like class names, modular components and conditional loading of non-essential page assets, such as comment threads. This improved the performance on the site, especially on mobile devices where bandwidth can be more constrained.
 
-## What people said
+## What People Said
 {% figure "[@susanjrobertson](https://twitter.com/susanjrobertson/status/407673287729111040)" %}
 > Really loving [@paulrobertlloyd](https://twitter.com/paulrobertlloyd)’s design for [@24ways](https://twitter.com/24ways). The more I read and poke around the more I discover that is awesome :)
 {:.c-tweet}
