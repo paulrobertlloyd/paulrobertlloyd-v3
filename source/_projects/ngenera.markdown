@@ -14,7 +14,7 @@ nGenera Corporation (now [Moxie Software][1]) helps companies and governments tr
 
 Steve Douty (president of platforms, applications and marketing) asked me to take the new nGenera name (the company was formerly BSG Alliance) and build a brand that could encompass its growing suite of software products and consultation services.
 
-## Brand identity
+## Brand Identity
 With an intriguing -- if not immediately obvious -- name, the logo needed to reflect the organisation's broad ambition and signify a break with any past notions of enterprise. Combining an 'n' and 'G' in a subtle and intriguing manner, allowed me to create a symbol that felt similar to those commonly associated with networking and connectivity.
 
 {% figure "nGenera symbol and wordmark" %}

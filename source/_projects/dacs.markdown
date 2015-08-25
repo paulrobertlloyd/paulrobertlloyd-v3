@@ -18,7 +18,7 @@ The previous website was packed with legalese: language written by solicitors wi
 
 After a period of analysis and prototyping, we realised the website needed different areas for each user type that could quickly triage users into the correct places. Once in the right place, users could then be shown content with an appropriate perspective, tone of voice and calls to action that matched their needs.
 
-## Translation of print-orientated brand to web
+## Translation of Print-Orientated Brand to Web
 {% figure "Offline versus online brand guidelines" %}
 {% endfigure %}
 
@@ -32,7 +32,7 @@ DACS had already undergone an extensive rebranding exercise for print but it nee
 
 I drew on DACS's photographic library of artists to give a human face to the organisation. These were combined with a restrained typographic pallet to ensure legibility and visual consistency. Finally, I introduced a selection of monochromatic patterns that could be used to differentiate sections of the site.
 
-## Responsive design
+## Responsive Design
 {% figure "Pattern portfolio" %}
 {% endfigure %}
 
