@@ -17,16 +17,11 @@ Largely inspired by the popular BBC television series <cite>Great British Railwa
 In his TV travelogue, Michael Portillo explores Britain's railway network and, guided by Bradshaw's guidebook, looks at how the destinations have changed between Victorian and modern times. While you can buy reproductions of Bradshaw's handbook, it's over an inch thick -- pocket-sized by Victorian standards, but not in today's world of mobile phones. By making Bradshaw's work more widely accessible, tourists might feel encouraged to spend more time on the railways and commuters may discover the hidden gems they pass every day.
 
 ## Typography
-{% figure "Typographic hierarchy derived from that used in book" %}
-{% endfigure %}
-
 Wanting to evoke the feel of the handbook's chaotic Victorian typography, I looked at how a range of typefaces were used to distinguish between different sections and place names. I distilled these down to two typefaces: Kameron for headings, a chunky slab serif that contrasted strongly with Linux Libertine, a delicate serif which I used for body copy.
 
-## Responsive design
-{% figure "Article shown on mobile and tablet" %}
+{% figure u-extend %}
+{% picture /projects/bradshaws_guide/palette.svg alt="Palette and fonts" %}
 {% endfigure %}
-
-The design of the site adapts to the size of the display. Within smaller viewports the guide takes on the appearance of a mobile app; on tablet and desktop displays, a magazine-like layout is used.
 
 ## Open source
 {% figure "Github pull request" %}
@@ -38,10 +33,11 @@ Producing the guide involved correcting copy originating from an automated OCR p
 {% figure "A Foursquare tip from George Bradshaw" %}
 {% endfigure %}
 
-When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. On Foursquare, checking into a station could display a short excerpt, while [@bradshawsguide][3] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
+When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. [On Foursquare][3], checking into a station could display a short excerpt, while [@bradshawsguide][4] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
 
 [1]: http://bradshawsguide.org
 [2]: https://github.com/paulrobertlloyd/bradshawsguide
-[3]: https://twitter.com/bradshawsguide
+[3]: https://foursquare.com/bradshawsguide
+[4]: https://twitter.com/bradshawsguide
 
 *[BBC]: British Broadcasting Corporation
