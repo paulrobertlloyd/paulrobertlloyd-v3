@@ -1,0 +1,38 @@
+---
+title: 'The Slow Web'
+date: '2015-08-25 12:48:00 +0100'
+link:
+  url: http://cole007.net/blog/152/the-slow-web
+tags:
+  - Web Design
+  - History
+  - Social Media
+---
+Reflecting on [Hossein Derakhshan's recent article][1] about how the web has changed since he was incarcerated in an Iranian jail six years ago, Cole Henley draws comparisons with the work of Fernand Braudel:
+
+> Despite the seeming irrelevance of a mid-twentieth century scholar's study on late medieval Europe, I have lately started to see a lot of parallels with Braudel's views on the study of history; the evolution of the web and this evolution as part of a broader history of publication.
+
+While the rise of blogging in the early 2000s can be seen as enabling true democratisation of publishing, the emergence of social media -- within whose walled gardens such content is curtailed and controlled -- seeks to undermine it. Cole goes on to suggest a further problem with these new communication platforms:
+
+> Micro-blogging emphasises short-form over long-form, rapid fire over deliberated. Which brings about the ultimate problem of this ephemeral rhythm of publication: accountability. With everything moving so fast there becomes less and less time to digest and respond. Communication has become of the moment, robbing us of time to collect our thoughts and weigh up our responses.
+
+Taking onboard Cole's advice to <q>comment deliberately and thoughtfully</q>, and within a <q>space we own</q>, it seems only right that I share a few thoughts about his piece here.
+
+His article reminded me of a few things, not least Stewart Brand's [shearing layers][2] as described in his book [<cite>How Buildings Learn</cite>][3]. It also reminded me of [Jack Cheng's essay][4] which shares the same title, but instead describes the ideas behind the _Slow Web Movement_. This is a set of ideas that value timeliness over real-time, priortise reliable rhythms over unpredictable randomness, and encourage moderation over excess.
+
+That it asks companies to build for effectiveness rather than outright growth, is probably why there are still so few examples. Page views and advertising impressions currently dictate business models on the web, but [their days seem numbered][5]. It's encouraging to know that alternative ideas are, perhaps appropriately, simmering away in the background, waiting for their moment to come.
+
+On a more personal level, I have long tried to curtail this overflow of information. I use few social networks (mainly due to their impropriety) and limit most of my activity to Twitter. I aim to keep the number of people I follow below 75 ([Dunbar][6] divided by two), and follow a stream composed mainly of friends and former colleagues. I find it surprising (and somewhat annoying) that given this number, 'hot drama' still manages to surface. The more I read about our growing reliance on social media, the more I'm given to thinking, that like most things, it's best enjoyed in moderation.
+
+Cole concludes:
+
+> ...let us write more enduring things. Let us appreciate the history of our situation; and rather than dismissing fading technologies seeing these in terms of how they have contributed to our present.
+
+I'm certainly trying to achieve this in my own writing, and I'm very glad Cole appears to be doing the same, too.
+
+[1]: https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426
+[2]: https://en.wikipedia.org/wiki/Shearing_layers
+[3]: https://en.wikipedia.org/wiki/How_Buildings_Learn
+[4]: http://jackcheng.com/the-slow-web
+[5]: http://daringfireball.net/2015/07/safari_content_blocker_imore
+[6]: https://en.wikipedia.org/wiki/Dunbar%27s_number
