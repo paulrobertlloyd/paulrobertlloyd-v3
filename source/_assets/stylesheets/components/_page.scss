@@ -4,8 +4,9 @@
 
 .c-page__header,
 .c-page__footer {
+    margin-bottom: ($u__baseline / 2);
+
     @media screen and (min-width: $b__b) {
-        margin-bottom: ($u__baseline * 0.75);
         padding-left: span(3 wide);
     }
 }
