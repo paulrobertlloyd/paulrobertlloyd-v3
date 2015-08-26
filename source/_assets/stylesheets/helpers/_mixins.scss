@@ -17,7 +17,6 @@
 @mixin ff--serif($font-weight: normal) {
     font-family: 'Georgia', serif;
     font-weight: $font-weight;
-    font-feature-settings: 'liga', 'dlig', 'onum';
 
     .fonts-loaded & {
         font-family: 'Tiempos', 'Georgia', serif;
