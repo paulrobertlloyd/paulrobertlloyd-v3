@@ -146,7 +146,7 @@ picture:
       source_large:
         width: 1024
         height: 576
-        quality: 90
+        quality: 88
       source_medium:
         width: 768
         height: 480
