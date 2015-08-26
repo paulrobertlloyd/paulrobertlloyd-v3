@@ -40,10 +40,10 @@
 .c-figure__caption {
     @include ff--sans-serif;
     @include fs--caption;
+    color: $c__neutral-4;
 
-    p {
+    p:not(:last-child) {
         margin-bottom: $u__baseline;
-        color: $c__neutral-4;
     }
 
     .u-bleed & {
