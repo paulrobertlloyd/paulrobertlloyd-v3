@@ -2,6 +2,11 @@
     Prose
     ========================================================================= */
 
+.s-prose {
+    font-feature-settings: 'liga', 'dlig', 'onum';
+    hyphens: auto;
+}
+
 /* Body */
 .s-prose--body {
     @include ff--serif;

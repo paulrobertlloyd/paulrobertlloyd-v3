@@ -114,7 +114,7 @@ GEM
     ruby-thumbor (2.0.0)
     rubypants (0.2.0)
     safe_yaml (1.0.4)
-    sass (3.4.17)
+    sass (3.4.18)
     scss-lint (0.30.0)
       rainbow (~> 2.0)
       sass (~> 3.4.0)
