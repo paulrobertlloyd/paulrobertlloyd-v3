@@ -142,7 +142,7 @@ picture:
       source_xlarge:
         width: 1280
         height: 720
-        quality: 90
+        quality: 88
       source_large:
         width: 1024
         height: 576
