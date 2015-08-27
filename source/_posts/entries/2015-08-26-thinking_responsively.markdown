@@ -30,7 +30,7 @@ Having presented my talk, I was left with an outline that looked like the beginn
 
 They were, and [Lisa Maria Martin][8] was assigned as my editor. Lisa helped me sharpen my core message, which increasingly focused on people and process, over technology and tools. At each stage of the editing process, she questioned and encouraged in equal measure. That the original outline was whittled down from 4,500 words to almost 2,400, should give you an idea how much review and revision took place. I'm presenting <cite>Responsive Principles</cite> again at [Web Expo in Prague][9] next month; it will be a better talk thanks to Lisa's help.
 
-This article is intended to be a coma, not a full stop. If you haven't already, please read the article and provide feedback. Do you see these principles reflected in your own work already, or can you see them doing so in the future? [I would love to hear your thoughts][10].
+This article is intended to be a comma, not a full stop. If you haven't already, please read the article and provide feedback. Do you see these principles reflected in your own work already, or can you see them doing so in the future? [I would love to hear your thoughts][10].
 
 [1]: http://alistapart.com/article/the-web-aesthetic
 [2]: http://alistapart.com/article/thinking-responsively-a-framework-for-future-learning/
