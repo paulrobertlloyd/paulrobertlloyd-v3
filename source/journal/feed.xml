@@ -20,14 +20,14 @@
     <entry>
         {% case post.layout %}
         {% when "post-gallery" %}
-            {% assign title-prefix = "Gallery: " %}
+            {% assign title_prefix = "Gallery: " %}
         {% when "post-link" %}
-            {% assign title-prefix = "Link: " %}
+            {% assign title_prefix = "Link: " %}
         {% when "post-entry" %}
-            {% assign title-prefix = "★ " %}
+            {% assign title_prefix = "★ " %}
         {% endcase %}
         <id>{{ site.url }}{{ post.id }}</id>
-        <title>{{ title-prefix }}{{ post.title | markdownify | strip_html | xml_escape }}</title>
+        <title>{{ title_prefix }}{{ post.title | markdownify | strip_html | xml_escape }}</title>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <link href="{{ site.url }}{{ post.url }}"/>
         <content type="html">
