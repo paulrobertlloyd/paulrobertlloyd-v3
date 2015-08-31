@@ -13,14 +13,21 @@ Back in October, [Ethan Marcotte][1] asked me some questions about the design of
 
 * * *
 
-### Why did you choose a responsive approach?
-My personal site has always been a place to try out new technology and techniques. As a site that is largely text based, I was also keen to take a content first approach.
+<span class="u-caps">Ethan Marcotte</span>: _Why did you choose a responsive approach?_
 
-### Was there one especially tricky challenge that came out of adopting a responsive approach? If so, how did you solve it?
-I think navigation is often a sticky point in responsive designs, and although my website is small, I was surprised that this still presented a challenge. The breakthrough came when I decided which sections of my site were less important. It turned out that I was already linking to these in the footer, meaning I could exclude them from the main navigation and only show them when there was enough room.
+<span class="u-caps">Paul Lloyd</span>: My personal site has always been a place to try out new technology and techniques. As a site that is largely text based, I was also keen to take a content first approach.
 
-### Did you learn anything from the site's design you'd apply to future responsive projects?
-In taking on a responsive project I quickly realised that resizing the browser window doesn't give you a true feel for how a site will perform in the real world; input methods and bandwidth availability alter the experience as much as any viewport dimension. As I developed the site I 'field tested' it when out and about; reading pages on the train or borrowing other peoples devices. This way I got to see how the site would appear in environments I don't use myself.
+* * *
+
+EM: _Was there one especially tricky challenge that came out of adopting a responsive approach? If so, how did you solve it?_
+
+PL: I think navigation is often a sticky point in responsive designs, and although my website is small, I was surprised that this still presented a challenge. The breakthrough came when I decided which sections of my site were less important. It turned out that I was already linking to these in the footer, meaning I could exclude them from the main navigation and only show them when there was enough room.
+
+* * *
+
+EM: _Did you learn anything from the site's design you'd apply to future responsive projects?_
+
+PL: In taking on a responsive project I quickly realised that resizing the browser window doesn't give you a true feel for how a site will perform in the real world; input methods and bandwidth availability alter the experience as much as any viewport dimension. As I developed the site I 'field tested' it when out and about; reading pages on the train or borrowing other peoples devices. This way I got to see how the site would appear in environments I don't use myself.
 
 Whilst I tried to take a purely content driven approach, where the layout would adapt based on the constraints provided by the content, pragmatism took hold, and my breakpoints were soon adjusted. I found that I needed to strike a balance between what worked best for the content, and what worked best for different devices. I imagine my breakpoints will evolve as I continue to experience the site on different devices.
 
@@ -29,3 +36,6 @@ I should also fess up; I started with a mostly desktop orientated design! Yet wh
 [1]: http://ethanmarcotte.com/
 [2]: http://www.netmagazine.com/features/ethan-marcottes-20-favourite-responsive-sites
 [3]: /2012/01/goals_for_2012/
+
+*[EM]: Ethan Marcotte
+*[PL]: Paul Lloyd
