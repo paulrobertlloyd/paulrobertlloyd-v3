@@ -144,7 +144,7 @@ module Jekyll
             source_tags += "#{instance[source][:generated_src]} #{instance[source][:width]}w,"
           }
 
-          picture_tag = "<img srcset=\"#{source_tags}\" #{html_attr_string}/>"
+          picture_tag = "<img src=\"#{instance['source_default'][:generated_src]}\" srcset=\"#{source_tags}\" #{html_attr_string}/>"
         else
           picture_tag = "<img src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}/>"
         end

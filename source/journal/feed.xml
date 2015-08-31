@@ -18,15 +18,23 @@
 
     {% for post in site.posts limit:25 %}
     <entry>
+        {% case post.layout %}
+        {% when "post-gallery" %}
+            {% assign title-prefix = "Gallery: " %}
+        {% when "post-link" %}
+            {% assign title-prefix = "Link: " %}
+        {% when "post-entry" %}
+            {% assign title-prefix = "★ " %}
+        {% endcase %}
         <id>{{ site.url }}{{ post.id }}</id>
-        <title>{% if post.layout == "post-album" %}Photos: {% endif %}{{ post.title | xml_escape }}</title>
+        <title>{{ title-prefix }}{{ post.title | markdownify | strip_html | xml_escape }}</title>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <link href="{{ site.url }}{{ post.url }}"/>
         <content type="html">
 <![CDATA[
 {% if post.image %}
     {% figure "{{ post.image.caption }}" %}
-{% picture feature {{ post.image.url }} alt="" %}
+{% picture {{ post.image.url }} alt="" %}
     {% endfigure %}
 {% endif %}
 
@@ -40,15 +48,13 @@
     {% embed {{ post.link.url }} %}
 {% endif %}
 
-{{ post.content }}
-
-{% if post.layout == "post-link" %}
-    <p><a class="c-button" href="{{ post.link.url }}">Visit this link</a></p>
-{% endif %}
-
-{% if post.layout == "post-album" %}
-    <p><a class="c-button" href="{{ post.link.url }}">View these photos</a></p>
-{% endif %}
+{{ post.content | markdownify }}
+{% case post.layout %}
+{% when "post-gallery" %}
+    <p><a href="{{ post.url }}">View this gallery &#10217;</a></p>
+{% when "post-link" %}
+    <p><a href="{{ post.link.url }}">Visit this link &#10217;</a></p>
+{% endcase %}
 ]]>
         </content>
     </entry>
