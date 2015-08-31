@@ -159,10 +159,12 @@
     @if $color != 'none' {
         background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 93%, transparent 93%);
         text-decoration: none;
-        text-shadow: 0.03em 0 $background-color,
-                     -0.03em 0 $background-color,
-                     0 0.03em $background-color,
+        text-shadow: 0 0.03em $background-color,
                      0 -0.03em $background-color,
+                     0.06em 0 $background-color,
+                     0 -0.06em $background-color,
+                     0.03em 0 $background-color,
+                     -0.03em 0 $background-color,
                      0.06em 0 $background-color,
                      -0.06em 0 $background-color,
                      0.09em 0 $background-color,
