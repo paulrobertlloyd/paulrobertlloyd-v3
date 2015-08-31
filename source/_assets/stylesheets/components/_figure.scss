@@ -5,12 +5,16 @@
 .c-figure {
     @include clearfix;
     position: relative;
-    margin-bottom: ($u__baseline * 2);
+    margin-bottom: $u__baseline;
 }
 
 .c-figure__main {
-    margin-bottom: ($u__baseline / 2);
     overflow: hidden;
+
+    > *,
+    p img {
+        margin-bottom: ($u__baseline / 2);
+    }
 
     p img:nth-last-of-type(2):first-child,
     p img:nth-last-of-type(2):first-child ~ img {
@@ -40,11 +44,8 @@
 .c-figure__caption {
     @include ff--sans-serif;
     @include fs--caption;
+    margin-bottom: $u__baseline;
     color: $c__neutral-4;
-
-    p:not(:last-child) {
-        margin-bottom: $u__baseline;
-    }
 
     .u-bleed & {
         margin-right: $u__baseline;
