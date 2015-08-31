@@ -139,8 +139,8 @@
 
 
 // Caps
-@mixin smcp { font-feature-settings: 'smcp' 1; }
-@mixin c2sc { font-feature-settings: 'c2sc' 1; }
+@mixin smcp { font-feature-settings: 'smcp', 'onum'; }
+@mixin c2sc { font-feature-settings: 'c2sc', 'onum'; }
 
 
 // Text highlight
