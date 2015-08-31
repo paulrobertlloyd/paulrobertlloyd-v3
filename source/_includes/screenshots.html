@@ -1,5 +1,5 @@
 <div class="c-screenshots">
 {% for image in include.imageset %}
-    <img class="c-screenshot c-screenshot--{{ image | split:"/" | last | remove:".png" }}" src="{{ site.picture.cdn }}/640x/90q/{{ image }}" alt=""/>
+{% picture supporting {{ image }} class="c-screenshot c-screenshot--{{ image | split:"/" | last | remove:".png" }}" alt="" %}
 {% endfor %}
 </div>
