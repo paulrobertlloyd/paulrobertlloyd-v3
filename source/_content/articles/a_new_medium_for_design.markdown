@@ -92,13 +92,13 @@ So as a site then, it's pretty useless, but as a means of promoting the band's i
 From the areas of discussion above, it would seem there are two main issues. The first is a lack of standardisation in the medium, with designers spending large portions of their time and effort just getting their sites to work on a variety of browsers. The second is that, although Flash can solve many of these problems, some designers need to be careful that they don't let the many abilities of such software influence their design. Also by using Flash their work will sit outside the traditional hypertext navigation, so great attention has to be paid to maintaining the same level of usability. If you have a good idea for a site, it will work no matter what technology is used. It also worth remembering that the web was primarily designed as a source of information, where 'content is king'. If your site has interesting content, it navigates well and everyone can read it, you have won half the battle.
 
 ## References
-  * **Boer, L, Strengholt, G and Velthoven, W** (1997). <cite>Website Graphics: the best of global site design</cite>. New York: Thames and Hudson Inc.
-  * **Burgoyne, P and Faber, L** (1999). <cite>Reload: Browser 2.0: The Internet Design Project</cite>. London: Laurance King
-  * **Dredge, S** (2000, September). Interview with Jakob Nielsen. <cite>Cre@teOnline</cite>, 26-29
-  * **Drew, K** (2000, August). Remote Control -- Diary of a Launch: MTV2. <cite>Cre@teOnline</cite>, 36-40
-  * **Franklin, D and Patton, B** (2000). <cite>Flash 4! Creative Web Animation</cite>. San Francisco: Macromedia Press
-  * **Nielsen, J** (2000, October 29). [Flash: 99% Bad](http://www.useit.com/alertbox/20001029.html). <cite>Useit.com</cite>
-  * **Ward, M** (2000, May 18). [From Boo.com to Boo.gone](http://news.bbc.co.uk/hi/english/business/newsid_753000/753782.stm). <cite>BBC News Online</cite>
+  * Boer, L, Strengholt, G and Velthoven, W (1997). <cite>Website Graphics: the best of global site design</cite>. New York: Thames and Hudson Inc.
+  * Burgoyne, P and Faber, L (1999). <cite>Reload: Browser 2.0: The Internet Design Project</cite>. London: Laurance King
+  * Dredge, S (2000, September). Interview with Jakob Nielsen. <cite>Cre@teOnline</cite>, 26-29
+  * Drew, K (2000, August). Remote Control -- Diary of a Launch: MTV2. <cite>Cre@teOnline</cite>, 36-40
+  * Franklin, D and Patton, B (2000). <cite>Flash 4! Creative Web Animation</cite>. San Francisco: Macromedia Press
+  * Nielsen, J (2000, October 29). [Flash: 99% Bad](http://www.useit.com/alertbox/20001029.html). <cite>Useit.com</cite>
+  * Ward, M (2000, May 18). [From Boo.com to Boo.gone](http://news.bbc.co.uk/hi/english/business/newsid_753000/753782.stm). <cite>BBC News Online</cite>
 
 [1]: http://news.bbc.co.uk/
 [2]: http://useit.com/

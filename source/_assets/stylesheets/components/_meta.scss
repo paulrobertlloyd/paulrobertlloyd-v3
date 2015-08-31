@@ -11,10 +11,10 @@
 
 .c-meta__title {
     @media (max-width: ($b__bx)) {
-        width: span(3);
         float: left;
         margin-bottom: $u__baseline;
         padding-right: ($u__baseline / 2);
+        width: span(3);
     }
 }
 
