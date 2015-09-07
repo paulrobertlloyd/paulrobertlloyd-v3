@@ -11,10 +11,10 @@ module Jekyll
 
     def namespace(html)
       # Add utility namespace to typogruby generated classes
-      html = html.gsub(/class=\s*"([caps|amp|dquo]+)"/, "class=\"u-\\1\"")
+      html = html.gsub(/class="(\bamp\b|\bcaps\b|\bdquo\b)"/, "class=\"u-\\1\"")
 
       # Add scoped namespace to kramdown generated classes
-      html = html.gsub(/class=\s*"([footnotes]+)"/, "class=\"s-\\1\"")
+      html = html.gsub(/class="(\bfootnotes\b)"/, "class=\"s-\\1\"")
 
       # Return transformed output
       return html

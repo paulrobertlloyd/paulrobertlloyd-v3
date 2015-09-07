@@ -145,12 +145,11 @@
 
 // Text highlight
 @mixin text-highlight($color: $c__highlight) {
-    border: solid $color;
-    border-width: 0 4px 2px;
     border-radius: 2px;
     background-color: $color;
-    margin-right: -4px;
-    margin-left: -4px;
+    margin-right: -2px;
+    margin-left: -2px;
+    padding: 2px;
 }
 
 

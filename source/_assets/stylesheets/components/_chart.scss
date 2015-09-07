@@ -20,7 +20,7 @@
     .c-chart__value--percent {
         display: block;
         margin-bottom: 0;
-        background-color: $c__neutral-7;
+        background-color: rgba($c__neutral-1, 0.2);
         padding: 0 ($u__baseline / 4);
         white-space: nowrap;
     }
