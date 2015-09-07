@@ -31,8 +31,6 @@ paginate_path: /journal/:num
 # See: https://github.com/jekyll/jekyll/issues/3371
 kramdown:
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    inline_theme: github
 
 # Collections
 collections:
