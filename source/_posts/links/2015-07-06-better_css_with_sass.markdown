@@ -15,3 +15,5 @@ This guide only takes 30 to 45 minutes to read, but on turning the last page you
 
 [1]: http://cole007.net
 [2]: http://www.fivesimplesteps.com/products/better-css-with-sass
+
+*[CSS]: Cascading Style Sheets
