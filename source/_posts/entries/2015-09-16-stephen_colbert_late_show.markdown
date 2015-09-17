@@ -24,7 +24,7 @@ On any other show, an interview with Uber's CEO [Travis Kalanick][5] would have 
 
 With Colbert no longer playing the character of a "[well-intentioned, poorly informed, high-status idiot][6]", and with the exaggerated conceit of political punditry stripped away, it appears we may still get the same satire and humour, but with a more open, honest and [warmer][7] host. I think it works.
 
-Which begs the question: will episodes be broadcast in the UK?
+Which begs the question: when can we expect episodes to be broadcast in the UK?
 
 [1]: https://en.wikipedia.org/wiki/The_Colbert_Report
 [2]: https://www.youtube.com/watch?v=rFtam2eAkfo
