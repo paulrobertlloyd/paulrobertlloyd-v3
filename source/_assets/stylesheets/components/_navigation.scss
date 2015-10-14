@@ -27,6 +27,7 @@
 }
 
 .c-navigation__items {
+    display: flex;
     white-space: nowrap;
 
     @media (min-width: $b__a) {
@@ -38,10 +39,9 @@
 }
 
 .c-navigation__item {
-    display: inline-block;
     padding-top: ($u__baseline * 0.5);
     padding-bottom: ($u__baseline * 0.5);
-    width: percentage(1/5);
+    flex: 1 1 auto;
 
     @media (min-width: $b__a) {
         padding-top: ($u__baseline * 2);

@@ -14,7 +14,7 @@ I've worked for design agencies, start-ups and more established companies in the
 {% include button.html url="#contact" text="Contact me about your project" %}
 
 * * *
-{: .u-bleed}
+{: .u-extend}
 
 ## Digital Design & Development
 {: .u-aside}
@@ -39,7 +39,7 @@ Living in Brighton means I'm within commuting distance of London. I'm also happy
 {% include button.html url="#contact" text="Contact me about your project" %}
 
 * * *
-{: .u-bleed}
+{: .u-extend}
 
 ## Public Speaking
 {: .u-aside}
@@ -53,7 +53,7 @@ I believe conferences and meet-ups should offer a safe space for speakers and at
 {% include button.html url="#contact" text="Invite me to speak at your event" %}
 
 * * *
-{: .u-bleed}
+{: .u-extend}
 
 ## Contact
 {: .u-aside}

@@ -2,14 +2,6 @@
     Banner
     ========================================================================= */
 
-.c-banner {
-    text-align: center;
-
-    @media (min-width: $b__a) {
-        text-align: left;
-    }
-}
-
 .c-banner__title {
     line-height: 0;
 }

@@ -13,6 +13,10 @@
     border-top: ($u__rule-height / 2) solid rgba($c__neutral-4, 0.5);
     padding: $u__baseline 0;
 
+    @media screen and (min-width: $b__a) {
+        display: flex;
+    }
+
     @media screen and (min-width: $b__b) {
         margin-left: span(3 wide);
     }
@@ -21,19 +25,14 @@
 .c-contentinfo__license {
     margin-bottom: ($u__baseline / 2);
 
-    @media screen and (min-width: $b__b) {
-        @include span(7 of 9 first);
-    }
-
-    @media print {
-        display: none;
+    @media screen and (min-width: $b__a) {
+        flex: 1 1 auto;
     }
 }
 
 .c-contentinfo__social {
-    @media screen and (min-width: $b__b) {
-        @include span(2 of 9 last);
-        text-align: right;
+    @media screen and (min-width: $b__a) {
+        flex: 0 0 auto;
     }
 
     @media print {
