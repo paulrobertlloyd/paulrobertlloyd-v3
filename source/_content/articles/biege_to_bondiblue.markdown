@@ -46,10 +46,6 @@ Apple's acquisition of NeXT in 1996 brought Steve Jobs back to the company and b
 The result was the iMac, and the man responsible for its design was London-born Jonathan Ive -- Apple's Vice President of Industrial Design.
 
 {% figure u-bleed "The iMac" %}
-{% picture showcase /articles/beige_to_bondiblue/apple_imac.jpg alt="" %}
-{% endfigure %}
-
-{% figure u-bleed "The iMac" %}
 {% picture showcase /articles/beige_to_bondiblue/apple_imac.png alt="" %}
 {% endfigure %}
 
