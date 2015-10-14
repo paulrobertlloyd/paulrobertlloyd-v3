@@ -8,7 +8,7 @@ $u__shadow-size: 4px;
     position: relative;
     margin-top: $u__baseline;
     margin-bottom: $u__baseline;
-    border-bottom: 1px solid rgba($c__neutral-0, 0.2);
+    border-bottom: 1px solid rgba($c__neutral-darkest, 0.2);
     padding-bottom: 40%;
     overflow: hidden;
 
@@ -31,7 +31,7 @@ $u__shadow-size: 4px;
     top: ($u__baseline * 2);
     left: $u__shadow-size;
     z-index: 1;
-    box-shadow: 0 0 0 1px rgba($c__neutral-0, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-0, 0.2);
+    box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
     width: 56%;
 
     @media (min-width: $b__b) {
@@ -43,7 +43,7 @@ $u__shadow-size: 4px;
     top: $u__shadow-size;
     right: $u__shadow-size;
     z-index: 2;
-    box-shadow: 0 0 0 1px rgba($c__neutral-0, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-0, 0.2);
+    box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
     width: 56%;
 
     @media (min-width: $b__b) {

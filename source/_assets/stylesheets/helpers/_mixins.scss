@@ -186,7 +186,7 @@
 
 // Background placeholder
 @mixin background-placeholder {
-    background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, rgba($c__neutral-4, 0.2) 4px, rgba($c__neutral-4, 0.2) 6px);
+    background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, rgba($c__neutral-mid, 0.2) 4px, rgba($c__neutral-mid, 0.2) 6px);
 }
 
 

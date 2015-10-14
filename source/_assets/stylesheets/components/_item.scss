@@ -30,7 +30,7 @@
 
 .c-item__meta {
     @include fs--caption;
-    color: $c__neutral-4;
+    color: $c__neutral-mid;
 }
 
 .c-item__avatar {
@@ -65,7 +65,7 @@
         &::before,
         &::after {
             position: absolute;
-            background: $c__neutral-7;
+            background: $c__neutral-light;
             height: 1px;
             content: '';
         }

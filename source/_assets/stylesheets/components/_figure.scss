@@ -44,7 +44,7 @@
 .c-figure__caption {
     @include fs--caption;
     margin-bottom: $u__baseline;
-    color: $c__neutral-4;
+    color: $c__neutral-mid;
 
     .u-bleed & {
         margin-right: $u__baseline;
