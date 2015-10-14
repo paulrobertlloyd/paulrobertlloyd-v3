@@ -11,8 +11,6 @@
 
 /* Series navigation */
 .c-nav--series {
-    @include ff--sans-serif;
-
     .c-nav__title {
         @include fs--lede;
     }

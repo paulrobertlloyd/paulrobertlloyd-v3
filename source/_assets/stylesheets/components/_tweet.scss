@@ -3,7 +3,6 @@
     ========================================================================= */
 
 .c-tweet {
-    @include ff--sans-serif;
     @include fs--lede;
     position: relative;
     margin-bottom: $u__baseline;

@@ -3,7 +3,6 @@
     ========================================================================= */
 
 .c-meta {
-    @include ff--sans-serif;
     @include fs--caption;
     margin-bottom: $u__baseline;
     overflow: hidden;
