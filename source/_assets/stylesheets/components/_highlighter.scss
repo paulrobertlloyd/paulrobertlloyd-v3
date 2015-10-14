@@ -3,7 +3,7 @@
     ========================================================================= */
 
 .highlighter-rouge {
-    @include text-highlight(rgba($c__neutral-0, 0.05));
+    @include text-highlight(rgba($c__neutral-darkest, 0.05));
 
     .hll { background-color: #ffc; }
 

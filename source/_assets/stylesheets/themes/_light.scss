@@ -3,10 +3,10 @@
     ========================================================================= */
 
 // Theme variables
-$c__t-light--background: $c__neutral-9;
-$c__t-light--text: $c__neutral-1;
+$c__t-light--background: $c__neutral-lightest;
+$c__t-light--text: $c__neutral-dark;
 $c__t-light--hover: $c__primary-purple;
-$c__t-light--active: $c__neutral-0;
+$c__t-light--active: $c__neutral-darkest;
 
 .t-light {
     @media screen {
