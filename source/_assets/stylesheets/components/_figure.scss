@@ -42,7 +42,6 @@
 }
 
 .c-figure__caption {
-    @include ff--sans-serif;
     @include fs--caption;
     margin-bottom: $u__baseline;
     color: $c__neutral-4;

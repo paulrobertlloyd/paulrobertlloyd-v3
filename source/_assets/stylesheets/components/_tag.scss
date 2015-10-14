@@ -3,7 +3,6 @@
     ========================================================================= */
 
 .c-tag {
-    @include ff--sans-serif;
     display: inline-block;
     margin-right: ($u__baseline / 2);
     text-transform: lowercase;
