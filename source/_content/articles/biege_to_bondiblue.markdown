@@ -49,6 +49,10 @@ The result was the iMac, and the man responsible for its design was London-born 
 {% picture showcase /articles/beige_to_bondiblue/apple_imac.jpg alt="" %}
 {% endfigure %}
 
+{% figure u-bleed "The iMac" %}
+{% picture showcase /articles/beige_to_bondiblue/apple_imac.png alt="" %}
+{% endfigure %}
+
 Key to the iMac's design was the idea of simplicity and understanding of the emotional value of objects. Steve Jobs was looking for a design that looked futuristic yet (given that newness can often site uncomfortably with consumers) a design that was vaguely familiar which would conjure up memories of something you you may have seen before but were not quite sure. The design team was looking for a design that wasn't like a computer, but also one that didn't end up looking like a television. The final result was a curvy bubble like appliance that immediately caught the world's attention.
 
 Its main features were the bringing together of the monitor and the computers circuitry and devices into one casing, with a matching keyboard and uniquely round mouse. One of the first things the designers did was to move the connectors from the back to the right-hand side -- not only allowing the back to be as elegantly styled as the rest of the machine, but to make it simpler for the user to attach and remove cables also.
