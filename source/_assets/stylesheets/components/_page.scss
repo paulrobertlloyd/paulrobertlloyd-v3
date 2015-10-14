@@ -11,13 +11,11 @@
     }
 }
 
-.c-page__header {
-    .c-page--index & {
-        @media screen and (min-width: $b__b) {
-            position: absolute;
-            padding-left: 0;
-            width: span(3 first);
-        }
+.c-page__header--aside {
+    @media screen and (min-width: $b__b) {
+        position: absolute;
+        padding-left: 0;
+        width: span(3 first);
     }
 }
 

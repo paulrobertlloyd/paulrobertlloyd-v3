@@ -6,23 +6,25 @@
     position: relative;
 
     &:not(:last-child) {
-        margin-bottom: ($u__baseline * 2.5);
+        margin-bottom: ($u__baseline * 2);
     }
 }
 
 .c-item__media,
 .c-item__footer {
-    margin-bottom: $u__baseline;
+    margin-bottom: 0.75rem;
 }
 
 .c-item__title {
     @include fs--heading-2;
     margin-bottom: ($u__baseline / 4);
+    padding-top: ($u__baseline / 2);
 }
 
 .c-item__title--promote {
     @include fs--heading-1;
     margin-bottom: ($u__baseline / 2);
+    padding-top: 0;
     font-weight: 700;
 }
 

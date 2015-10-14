@@ -18,9 +18,10 @@
                 <label class="c-form__label" for="message" for="message">Message</label>
                 <textarea class="c-form__input c-form__input--textarea" name="message" id="message" required row="20" cols="40"></textarea>
             </span>
+            <em class="c-form__note" id="source-note">Please provide as much detail as possible (budget, requirements, timelines) so I can respond to your enquiry more quickly.</em>
         </p>
         <input class="c-form__hidden" type="hidden" name="_next" value="{{ site.url }}/contact/thanks"/>
         <input class="c-form__hidden" type="hidden" name="_subject" value="[{{ site.title }}] New message"/>
     </fieldset>
-    <input class="c-form__submit c-button" type="submit" value="Send"/>
+    <input class="c-form__submit c-button" type="submit" value="Send Message"/>
 </form>

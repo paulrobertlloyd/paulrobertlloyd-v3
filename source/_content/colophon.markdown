@@ -2,7 +2,7 @@
 title: Colophon
 excerpt: This site is built using a variety of third-party tools and services.
 ---
-This website is produced on an [Apple Mac][1], using [Sketch][2] to realise early design concepts before being coded in [TextMate][3]. I use and recommend [WebFaction][4] for web hosting. Type is set in [Tiempos Text][5] and [Calibre][6], both designed by Kris Sowersby.
+This website is produced on an [Apple Mac][1], using [Sketch][2] to realise early design concepts before being coded in [TextMate][3]. I use and recommend [WebFaction][4] for web hosting. Type is set in [Calibre][6] which is designed by Kris Sowersby.
 
 This site is published using [Jekyll][7] and these supporting plugins:
 
@@ -31,7 +31,6 @@ Pages are semantically structured using valid [HTML5][23] with presentational de
 [2]: http://bohemiancoding.com/sketch/
 [3]: http://macromates.com/
 [4]: https://webfaction.com/?aid=42929
-[5]: https://klim.co.nz/retail-fonts/tiempos-text/
 [6]: https://klim.co.nz/retail-fonts/calibre/
 [7]: http://jekyllrb.com/
 [8]: https://rubygems.org/gems/jekyll-archives

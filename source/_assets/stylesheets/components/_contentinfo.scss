@@ -3,14 +3,15 @@
     ========================================================================= */
 
 .c-contentinfo {
+    @include fs--caption;
+    margin-top: ($u__baseline * 2);
     margin-bottom: ($u__baseline * 2);
+    color: $c__neutral-4;
 }
 
 .c-contentinfo__main {
-    border-top: 1px solid rgba($c__neutral-4, 0.5);
-    padding: ($u__baseline / 2) 0;
-    line-height: (16 / 14);
-    font-size: 0.875rem; // 14px
+    border-top: ($u__rule-height / 2) solid rgba($c__neutral-4, 0.5);
+    padding: $u__baseline 0;
 
     @media screen and (min-width: $b__b) {
         margin-left: span(3 wide);
@@ -19,10 +20,33 @@
 
 .c-contentinfo__license {
     margin-bottom: ($u__baseline / 2);
-}
 
-.c-contentinfo__links {
+    @media screen and (min-width: $b__b) {
+        @include span(7 of 9 first);
+    }
+
     @media print {
         display: none;
+    }
+}
+
+.c-contentinfo__social {
+    @media screen and (min-width: $b__b) {
+        @include span(2 of 9 last);
+        text-align: right;
+    }
+
+    @media print {
+        display: none;
+    }
+}
+
+.c-social {
+    display: inline-block;
+    opacity: 0.5;
+    padding: 0.25rem;
+
+    &:hover {
+        opacity: 1;
     }
 }

@@ -8,16 +8,6 @@
         return;
     }
 
-    var tiemposRegular = new win.FontFaceObserver('Tiempos', {
-        weight: 'normal',
-        style: 'normal'
-    });
-
-    var tiemposItalic = new win.FontFaceObserver('Tiempos', {
-        weight: 'normal',
-        style: 'italic'
-    });
-
     var calibreRegular = new win.FontFaceObserver('Calibre', {
         weight: 'normal',
         style: 'normal'
@@ -33,7 +23,7 @@
         style: 'normal'
     });
 
-    win.Promise.all([tiemposRegular.check, tiemposItalic.check, calibreRegular.check, calibreItalic.check, calibreSemibold.check]).then(function () {
+    win.Promise.all([calibreRegular.check, calibreItalic.check, calibreSemibold.check]).then(function () {
         doc.documentElement.className += ' fonts-loaded';
         win.enhance.cookie('fonts-loaded', !0, 7);
     });

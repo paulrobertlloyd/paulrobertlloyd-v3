@@ -1,23 +1,28 @@
 <footer class="c-contentinfo u-container" role="contentinfo">
     <div class="c-contentinfo__main">
-        <p class="c-contentinfo__license">
-            <small>© <time datetime="{{ site.time | date:"%Y" }}" title="{{ site.time | date:"%Y" }}">{{ site.time | date:"%Y" | roman }}</time> <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a>. Content available under <a rel="license" href="{{ site.license.url }}" title="{{ site.license.title }}">{{ site.license.type }}</a> unless otherwise&nbsp;noted.</small>
-        </p>
-
-        <ul class="c-contentinfo__links c-list c-list--inline">
-            <li class="c-list__item u-separate">
-                <a href="/contact/">Contact</a>
-            </li>
-            <li class="c-list__item u-separate">
-                <a href="/colophon">Colophon</a>
-            </li>
-            <li class="c-list__item u-separate">
-                <a href="/styleguide">Styleguide</a>
-            </li>
-            <li class="c-list__item u-separate">
+        <div class="c-contentinfo__license">
+            <p><small>© <time datetime="{{ site.time | date:"%Y" }}" title="{{ site.time | date:"%Y" }}">{{ site.time | date:"%Y" | roman }}</time> <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a></small></p>
+            <p>
+                <a href="/contact/">Contact</a><span class="u-separate"></span>
+                <a href="/colophon">Colophon</a><span class="u-separate"></span>
+                <a href="/styleguide">Styleguide</a><span class="u-separate"></span>
                 <a href="{{ site.scm.url }}">Source</a>
-            </li>
-        </ul>
+            </p>
+        </div>
+
+        <div class="c-contentinfo__social">
+            <a class="c-social c-social--twitter" rel="me" href="https://twitter.com/paulrobertlloyd">
+                {% asset c-social__logo--twitter.svg %}
+            </a>
+            <a class="c-social c-social--dribbble" rel="me" href="https://dribbble.com/paulrobertlloyd">
+                {% asset c-social__logo--dribbble.svg %}
+            </a>
+            <a class="c-social c-social--github" rel="me" href="https://github.com/paulrobertlloyd">
+                {% asset c-social__logo--github.svg %}
+            </a>
+            <a class="c-social c-social--flickr" rel="me" href="https://flickr.com/people/paulrobertlloyd">
+                {% asset c-social__logo--flickr.svg %}
+            </a>
+        </div>
     </div>
-    <noscript><img class="u-hidden" src="https://analytics.paulrobertlloyd.com/piwik.php?idsite=1" alt=""/></noscript>
 </footer>

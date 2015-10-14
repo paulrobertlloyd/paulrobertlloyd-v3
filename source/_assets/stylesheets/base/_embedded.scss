@@ -13,4 +13,5 @@ img {
 svg:not(:root) {
 /*  Correct overflow displayed oddly in IE 9 */
     overflow: hidden;
+    fill: currentColor;
 }
