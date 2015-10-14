@@ -15,36 +15,10 @@
 .c-section__title {
     @include ff--sans-serif;
     @include fs--heading-2;
-    margin-bottom: ($u__baseline / 2);
+    padding-top: ($u__baseline / 2);
     font-weight: 700;
     word-break: break-word;
     hyphens: auto;
-}
-
-
-/* About the author */
-.c-section--about {
-    @media (min-width: $b__b) {
-        padding-right: 0;
-        padding-left: 0;
-
-        .c-section__header {
-            @include span(3 first);
-        }
-
-        .c-section__main {
-            @include span(9 at 3 last);
-        }
-    }
-
-    .c-section__title {
-        @include fs--title;
-        font-weight: 700;
-
-        &::after {
-            content: ',';
-        }
-    }
 }
 
 
@@ -66,40 +40,4 @@
 .c-section--link {
     @include ff--sans-serif(700);
     @include fs--body;
-}
-
-
-/* Other places on the internet */
-.c-section--other {
-    @media (min-width: $b__b) {
-        @include span(5 at 8);
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-
-/* Pitch for new projects */
-.c-section--pitch {
-    @media (min-width: $b__b) {
-        @include span(7);
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-
-/* Tags */
-.c-section--body + .c-section--tags {
-    margin-top: -($u__baseline * 1.25);
-
-    @media screen and (min-width: $b__b) {
-        margin-top: -($u__baseline * 2.5);
-    }
-}
-
-.c-section--tags {
-    .c-section__main {
-        margin-bottom: ($u__baseline * 0.75);
-    }
 }

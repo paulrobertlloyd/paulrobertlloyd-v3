@@ -6,14 +6,15 @@
 $u__font-size: (16/16)*100%;
 $u__baseline: 1rem;
 $u__max-width: 60rem;
+$u__rule-height: 0.1875rem;
 
 
 // Colours
-$c__neutral-0: hsb(300, 12, 4);
-$c__neutral-1: lighten($c__neutral-0, 05%);
-$c__neutral-4: lighten($c__neutral-0, 45%);
-$c__neutral-7: lighten($c__neutral-0, 65%);
-$c__neutral-9: lighten($c__neutral-0, 95%);
+$c__neutral-0: hsb(300, 12, 10);
+$c__neutral-1: hsb(300, 9, 30);
+$c__neutral-4: hsb(300, 6, 45);
+$c__neutral-7: hsb(300, 3, 70);
+$c__neutral-9: hsb(300, 0, 98);
 
 $c__primary-purple: hsb(300, 60, 80);
 $c__primary-blue: hsb(220, 60, 80);
@@ -48,7 +49,7 @@ $susy: (
     container: auto,
     container-position: center,
     columns: 12,
-    gutters: 1/4,
+    gutters: 1/3,
     global-box-sizing: border-box,
     last-flow: to,
 //    debug: (

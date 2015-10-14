@@ -1,3 +1,3 @@
-<header class="c-page__header">
+<header class="c-page__header{% if page.header %} c-page__header--{{ page.header }}{% endif %}">
     <h1 class="c-page__title  p-name">{{ page.title | smartify | typogrify }}</h1>
 </header>

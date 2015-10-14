@@ -6,7 +6,7 @@
 $c__t-light--background: $c__neutral-9;
 $c__t-light--text: $c__neutral-1;
 $c__t-light--hover: $c__primary-purple;
-$c__t-light--active: $c__primary-blue;
+$c__t-light--active: $c__neutral-0;
 
 .t-light {
     @media screen {
@@ -17,53 +17,24 @@ $c__t-light--active: $c__primary-blue;
 
         a,
         .c-button {
-            border-color: $c__t-light--text;
-
             &:hover {
-                border-color: $c__t-light--hover;
                 color: $c__t-light--hover;
             }
 
             &:active {
-                border-color: $c__t-light--active;
                 color: $c__t-light--active;
             }
         }
 
-        .c-banner__home {
-            .c-banner__logo {
-                fill: $c__t-light--text;
-            }
-
-            &:hover .c-banner__logo {
-                fill: $c__t-light--hover;
-            }
-
-            &:active .c-banner__logo {
-                fill: $c__t-light--active;
-            }
-        }
-
-        .c-form__input {
-            border-color: $c__t-light--text;
+        .c-page__title,
+        .c-section__title,
+        .c-item__title,
+        .is-active {
+            color: $c__t-light--active;
         }
 
         .c-form__label-inline .c-form__label {
             border-color: rgba($c__t-light--text, 0.2);
-        }
-
-        .c-item__link {
-            .c-item__logo {
-                fill: $c__t-light--text;
-            }
-
-            &:hover .c-item__logo {
-                fill: $c__t-light--hover;
-            }
-
-            &:active .c-item__logo {
-                fill: $c__t-light--active;
-            }
         }
 
         .c-navigation {
@@ -71,15 +42,15 @@ $c__t-light--active: $c__primary-blue;
         }
 
         .s-prose {
-            a {
+            a:not(.c-button) {
                 @include text-decoration-color($c__t-light--hover, $c__t-light--background);
             }
 
-            a:focus {
+            a:not(.c-button):focus {
                 @include text-decoration-color('none');
             }
 
-            a:active {
+            a:not(.c-button):active {
                 @include text-decoration-color($c__t-light--active, $c__t-light--background);
             }
         }

@@ -3,7 +3,7 @@
     ========================================================================= */
 
 // Theme variables
-$c__t-dark--background: $c__neutral-1;
+$c__t-dark--background: $c__neutral-0;
 $c__t-dark--text: $c__neutral-9;
 $c__t-dark--hover: $c__primary-purple;
 $c__t-dark--active: #fff;
@@ -17,57 +17,24 @@ $c__t-dark--active: #fff;
 
         a,
         .c-button {
-            border-color: $c__t-dark--text;
-
             &:hover {
-                border-color: $c__t-dark--hover;
                 color: $c__t-dark--hover;
             }
 
             &:active {
-                border-color: $c__t-dark--active;
                 color: $c__t-dark--active;
             }
         }
 
-        .c-banner__home {
-            .c-banner__logo {
-                fill: $c__t-dark--text;
-            }
-
-            &:focus .c-banner__logo {
-                fill: $c__neutral-1;
-            }
-
-            &:hover .c-banner__logo {
-                fill: $c__t-dark--hover;
-            }
-
-            &:active .c-banner__logo {
-                fill: $c__t-dark--active;
-            }
-        }
-
-        .c-form__input {
-            border-color: $c__t-dark--text;
+        .c-page__title,
+        .c-section__title,
+        .c-item__title,
+        .is-active {
+            color: $c__t-dark--active;
         }
 
         .c-form__label-inline .c-form__label {
             border-color: rgba($c__t-dark--text, 0.2);
-        }
-
-        .c-item__link {
-            .c-item__logo {
-                fill: $c__t-dark--text;
-            }
-
-            &:hover .c-item__logo {
-                fill: $c__t-dark--hover;
-            }
-
-            &:active .c-item__logo {
-                fill: $c__t-dark--active;
-            }
         }
 
         .c-navigation {
@@ -75,15 +42,15 @@ $c__t-dark--active: #fff;
         }
 
         .s-prose {
-            a {
+            a:not(.c-button) {
                 @include text-decoration-color($c__t-dark--hover, $c__t-dark--background);
             }
 
-            a:focus {
+            a:not(.c-button):focus {
                 @include text-decoration-color('none');
             }
 
-            a:active {
+            a:not(.c-button):active {
                 @include text-decoration-color($c__t-dark--active, $c__t-dark--background);
             }
         }

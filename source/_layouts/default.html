@@ -67,7 +67,7 @@ layout: compress
         <link rel="stylesheet" href="{% asset_path global.css %}">
     </noscript>
 
-    <title>{% if page.title %}{% include title.html %} / {% endif %}{{ site.title }}</title>
+    <title>{% unless page.path == "_content/index.markdown" %}{% include title.html %} / {% endunless %}{{ site.title }}</title>
 </head>
 
 <body id="top">

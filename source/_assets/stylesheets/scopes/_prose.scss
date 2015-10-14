@@ -4,34 +4,32 @@
 
 .s-prose {
     font-feature-settings: 'liga', 'dlig', 'onum';
-    hyphens: auto;
 }
 
 /* Body */
 .s-prose--body {
-    @include ff--serif;
     @include fs--body;
 
     > * {
-        margin-bottom: ($u__baseline * 1.25);
+        margin-bottom: $u__baseline;
     }
 
     h2 {
-        @include ff--sans-serif(700);
         @include fs--heading-2;
         margin-bottom: ($u__baseline / 2);
+        font-weight: 700;
     }
 
     h3 {
-        @include ff--sans-serif;
         @include fs--heading-3;
         margin-bottom: ($u__baseline / 4);
+        color: $c__neutral-4;
     }
 
     h4 {
-        @include ff--sans-serif(700);
         @include fs--heading-4;
         margin-bottom: ($u__baseline / 2);
+        font-weight: 700;
     }
 
     * + h2,
@@ -54,15 +52,6 @@
         @include text-highlight;
     }
 
-    // Adjust font-size of san-serif emboldened text, so x-height matches serif
-    > * strong,
-    > * b,
-    > blockquote strong,
-    > dl dt:not([class]) {
-        line-height: (100/120);
-        font-size: 120%;
-    }
-
     // Separate lede from body
     .s-prose--lede + & {
         margin-top: ($u__baseline * 2.5);
@@ -75,8 +64,8 @@
 .s-prose--billboard {
     @include fs--billboard;
 
-    > * {
-        margin-bottom: ($u__baseline * 0.75);
+    > *:not(:last-of-type) {
+        margin-bottom: 0.75rem;
     }
 }
 

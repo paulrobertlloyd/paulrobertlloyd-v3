@@ -97,13 +97,13 @@
 }
 
 @mixin fs--lede {
-    line-height: (24/20);
-    font-size: 1.25rem; // 20px
+    line-height: (24/21);
+    font-size: 1.3125rem; // 21px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__b) {
-        line-height: (28/24);
-        font-size: 1.5rem; // 24px
+        line-height: (30/25);
+        font-size: 1.5265rem; // 25px
     }
 }
 
@@ -123,17 +123,18 @@
 }
 
 @mixin fs--body {
-    line-height: (24/14);
-    font-size: 0.875rem; // 14px
+    line-height: (24/16);
+    font-size: 1rem; // 16px
+    letter-spacing: -0.015em;
 
     @media (min-width: $b__a) {
-        line-height: (28/16);
-        font-size: 1rem; // 16px
+        line-height: (25/18);
+        font-size: 1.125rem; // 16px
     }
 
     @media (min-width: $b__c) {
-        line-height: (30/18);
-        font-size: 1.125rem; // 18px
+        line-height: (28/21);
+        font-size: 1.3125rem; // 21px
     }
 }
 
@@ -190,12 +191,12 @@
 
 
 // Line rule
-@mixin rule($el: 'before', $display: block, $height: ($u__baseline / 4)) {
+@mixin rule($el: 'before', $display: block) {
     @if $el == 'before' or $el == 'after' {
         &:#{$el} {
             display: $display;
-            border-top: $height solid rgba($c__neutral-1, 0.2);
-            width: ($u__baseline * 2);
+            border-top: $u__rule-height solid;
+            width: 100%;
             content: '';
             @if $el == 'before' {
                 margin-bottom: ($u__baseline / 4);
