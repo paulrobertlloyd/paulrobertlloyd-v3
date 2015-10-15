@@ -26,8 +26,8 @@ pre {
 
 blockquote {
     position: relative;
-    padding-right: $u__baseline;
-    padding-left: ($u__baseline * 1.5);
+    padding-right: 1rem;
+    padding-left: 1.5rem;
 
     @media print {
         page-break-inside: avoid;
@@ -35,7 +35,7 @@ blockquote {
 
     > * {
         opacity: 0.8;
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: 2rem;
     }
 
     &:before {
@@ -45,7 +45,7 @@ blockquote {
         bottom: 0;
         left: 0;
         opacity: 0.25;
-        border-left: ($u__baseline / 2) solid;
+        border-left: 0.5rem solid;
         content: '';
     }
 }
@@ -84,5 +84,5 @@ dt {
 
 li li,
 dd {
-    margin-left: ($u__baseline * 2);
+    margin-left: 2rem;
 }

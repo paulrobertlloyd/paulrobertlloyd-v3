@@ -17,7 +17,7 @@
 
     .c-nav__item {
         @include fs--caption;
-        padding-top: $u__baseline;
+        padding-top: 1rem;
         line-height: 1;
     }
 }
@@ -38,7 +38,7 @@
 
     .c-nav__item {
         float: left;
-        margin-right: $u__baseline;
+        margin-right: 1rem;
         font-weight: 700;
     }
 }

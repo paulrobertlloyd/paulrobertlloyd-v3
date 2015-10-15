@@ -78,7 +78,7 @@ h6 {
 
 hr {
     @include rule;
-    margin: ($u__baseline * 4) auto 0.75rem;
+    margin: 4rem auto 0.75rem;
     border: 0;
     height: 0;
     line-height: 0;

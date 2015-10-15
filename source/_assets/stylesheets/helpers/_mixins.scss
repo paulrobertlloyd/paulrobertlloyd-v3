@@ -199,10 +199,10 @@
             width: 100%;
             content: '';
             @if $el == 'before' {
-                margin-bottom: ($u__baseline / 4);
+                margin-bottom: 0.25rem;
             }
             @if $el == 'after' {
-                margin-top: ($u__baseline / 4);
+                margin-top: 0.25rem;
             }
         }
     } @else {

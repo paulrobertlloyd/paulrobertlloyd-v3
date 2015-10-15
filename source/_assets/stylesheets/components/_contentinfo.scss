@@ -4,14 +4,14 @@
 
 .c-contentinfo {
     @include fs--caption;
-    margin-top: ($u__baseline * 2);
-    margin-bottom: ($u__baseline * 2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     color: $c__neutral-mid;
 }
 
 .c-contentinfo__main {
     border-top: ($u__rule-height / 2) solid rgba($c__neutral-mid, 0.5);
-    padding: $u__baseline 0;
+    padding: 1rem 0;
 
     @media screen and (min-width: $b__a) {
         display: flex;
@@ -23,7 +23,7 @@
 }
 
 .c-contentinfo__license {
-    margin-bottom: ($u__baseline / 2);
+    margin-bottom: 0.5rem;
 
     @media screen and (min-width: $b__a) {
         flex: 1 1 auto;

@@ -4,17 +4,17 @@
 
 .c-form__title {
     @include fs--heading-3;
-    padding-bottom: $u__baseline;
+    padding-bottom: 1rem;
 }
 
 .c-form__field {
     position: relative;
-    margin-bottom: ($u__baseline * 3/4);
+    margin-bottom: 0.75rem;
 }
 
 .c-form__note {
     display: block;
-    margin-top: ($u__baseline / 2);
+    margin-top: 0.5rem;
     color: $c__neutral-mid;
     font-size: 1rem; // 16px
     font-style: normal;
@@ -26,7 +26,7 @@
     transform: translate(50%, -50%);
 
     + .c-form__input {
-        padding-left: ($u__baseline * 2.5);
+        padding-left: 2.5rem;
     }
 }
 
@@ -38,7 +38,7 @@
         left: 0;
         border: dashed;
         border-width: 0 0 1px;
-        padding: ($u__baseline * 3/4);
+        padding: 0.75rem;
         line-height: 1.5;
         font-weight: 700;
 
@@ -67,7 +67,7 @@
     outline: 0;
     border: $u__rule-height solid;
     border-radius: 0;
-    padding: ($u__baseline * 3/4);
+    padding: 0.75rem;
     width: 100%;
 
     &:focus {
@@ -79,10 +79,10 @@
     }
 
     .c-form__label-inline & {
-        padding-top: ($u__baseline * 3);
+        padding-top: 3rem;
 
         @media (min-width: $b__a) {
-            padding-top: ($u__baseline * 3/4);
+            padding-top: 0.75rem;
             padding-left: span(3 wide);
         }
     }
@@ -96,7 +96,7 @@
     font-weight: 700;
 
     .c-form__input-submit & {
-        margin-left: ($u__baseline * 3/4);
+        margin-left: 0.75rem;
         flex: 0 0 auto;
     }
 }
@@ -106,5 +106,5 @@
 }
 
 .c-form__input--textarea {
-    height: ($u__baseline * 12);
+    height: 12rem;
 }

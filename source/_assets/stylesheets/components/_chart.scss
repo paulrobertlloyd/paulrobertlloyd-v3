@@ -13,7 +13,7 @@
     }
 
     .c-chart__value {
-        padding-top: ($u__baseline / 8);
+        padding-top: 0.125rem;
         padding-right: 0;
     }
 
@@ -21,7 +21,7 @@
         display: block;
         margin-bottom: 0;
         background-color: rgba($c__neutral-dark, 0.2);
-        padding: 0 ($u__baseline / 4);
+        padding: 0 0.25rem;
         white-space: nowrap;
     }
 }

@@ -11,24 +11,24 @@
     @include fs--body;
 
     > * {
-        margin-bottom: $u__baseline;
+        margin-bottom: 1rem;
     }
 
     h2 {
         @include fs--heading-2;
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: 0.5rem;
         font-weight: 700;
     }
 
     h3 {
         @include fs--heading-3;
-        margin-bottom: ($u__baseline / 4);
+        margin-bottom: 0.25rem;
         color: $c__neutral-mid;
     }
 
     h4 {
         @include fs--heading-4;
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: 0.5rem;
         font-weight: 700;
     }
 
@@ -36,7 +36,7 @@
     * + h3,
     * + h4,
     p + figure {
-        margin-top: ($u__baseline * 2);
+        margin-top: 2rem;
     }
 
     pre {
@@ -45,7 +45,7 @@
 
     dl dd:not([class]),
     li p {
-        margin-bottom: $u__baseline;
+        margin-bottom: 1rem;
     }
 
     abbr[title]:hover {
@@ -54,7 +54,7 @@
 
     // Separate lede from body
     .s-prose--lede + & {
-        margin-top: ($u__baseline * 2.5);
+        margin-top: 2.5rem;
     }
 }
 
@@ -75,6 +75,6 @@
     @include fs--lede;
 
     > * {
-        margin-bottom: ($u__baseline * 1.25);
+        margin-bottom: 1.25rem;
     }
 }

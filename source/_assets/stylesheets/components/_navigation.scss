@@ -4,7 +4,7 @@
 
 .c-navigation {
     position: absolute;
-    top: ($u__baseline * 3);
+    top: 3rem;
     right: 0;
     left: 0;
     z-index: 1002;
@@ -39,13 +39,13 @@
 }
 
 .c-navigation__item {
-    padding-top: ($u__baseline * 0.5);
-    padding-bottom: ($u__baseline * 0.5);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     flex: 1 1 auto;
 
     @media (min-width: $b__a) {
-        padding-top: ($u__baseline * 2);
-        padding-bottom: $u__baseline;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
     }
 
     &.is-active {
