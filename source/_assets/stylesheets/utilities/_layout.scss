@@ -106,6 +106,8 @@
 /* Extend element to full width of .u-container */
 .u-extend,
 %u-extend {
+    clear: both;
+
     @media screen and (min-width: $b__b) {
         margin-right: (-$gn__span1-wide);
         margin-left: (-$gn__span3-wide);
@@ -115,6 +117,7 @@
 
 /* On narrow breakpoints, bleed element to full width of viewport */
 .u-bleed {
+    clear: both;
     margin-right: (-$u__baseline);
     margin-left: (-$u__baseline);
 

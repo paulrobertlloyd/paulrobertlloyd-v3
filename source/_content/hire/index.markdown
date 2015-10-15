@@ -25,9 +25,7 @@ With a background in graphic design, my work is focused on interface design for 
 > Paul is an excellent designer and front-end developer. He has a lot of experience working with UX designers and researchers, and is comfortable collaborating in that tricky zone where a project is a tangle and needs careful unpicking before being put back together again.
 {% endfigure %}
 
-Realising early in my career that you can't truly appreciate an interactive and fluid medium like the web inside Photoshop, I expanded my skill set to encompass front-end web development.
-
-I employ pragmatic front-end architecture practices that progressively enhance semantic HTML with modular CSS and unobtrusive JavaScript.
+Realising early in my career that you can't truly appreciate an interactive and fluid medium like the web inside Photoshop, I expanded my skill set to encompass web development. I employ pragmatic front-end architecture practices that progressively enhance semantic HTML with modular CSS and unobtrusive JavaScript.
 
 I'm familiar with CSS preprocessors (Sass, Less), task runners (Grunt, Gulp), content management systems (Jekyll, Kirby, Perch) version control (Git) and project planning software (Jira, Trello). I typically produce documentation such as style guides and pattern portfolios to ensure the code I develop is maintainable and extensible by internal teams once it's been handed over.
 
@@ -41,11 +39,11 @@ Living in Brighton means I'm within commuting distance of London. I'm also happy
 ## Public Speaking
 {: .u-aside}
 
-An accomplished speaker, I’ve been [featured at events around the UK and Europe][8]. Working at the intersection of graphic design and web development means my talks typically advocate collaborative practice, design systems and embracing the universal nature of the web.
+An accomplished speaker, I’ve been [featured at events around the UK and Europe][8]. Working at the intersection of graphic design and web development means my talks (and [articles][9]) typically advocate collaborative practice, design systems and embracing the universal nature of the web.
 
-I’m currently speaking about [the principles underlying responsive web design][9], but can develop a talk more attuned your particular event or audience.
+I’m currently speaking about [the principles underlying responsive web design][10], but can develop a talk more attuned your particular event or audience.
 
-I believe conferences and meet-ups should offer a safe space for speakers and attendees, so I only accept invitations to speak at events that publish and uphold a [code of conduct][10].
+I believe conferences and meet-ups should offer a safe space for speakers and attendees, so I only accept invitations to speak at events that publish and uphold a [code of conduct][11].
 
 {% include button.html url="#contact" text="Invite me to speak at your event" %}
 
@@ -57,7 +55,7 @@ I believe conferences and meet-ups should offer a safe space for speakers and at
 
 If you want to work with me, or would like me to speak at your event, please contact me using the form below.
 
-{% include form/contact.html %}
+{% include form/contact.html note="Please provide as much detail as possible (budget, requirements, timelines) so I can respond to your enquiry more quickly." %}
 
 [1]: /projects/channel_4_news
 [2]: /projects/mozilla_addons
@@ -67,8 +65,9 @@ If you want to work with me, or would like me to speak at your event, please con
 [6]: /projects/nuts
 [7]: /principles/good_design
 [8]: /talks/
-[9]: /2015/08/thinking_responsively
-[10]: http://alistapart.com/article/tweaking-the-moral-ui
+[9]: /articles/
+[10]: /2015/08/thinking_responsively
+[11]: http://alistapart.com/article/tweaking-the-moral-ui
 
 *[CSS]: Cascading Style Sheets
 *[HTML]: HyperText Markup Language
