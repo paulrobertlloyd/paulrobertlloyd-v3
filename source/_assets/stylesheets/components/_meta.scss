@@ -4,21 +4,21 @@
 
 .c-meta {
     @include fs--caption;
-    margin-bottom: $u__baseline;
+    margin-bottom: 1rem;
     overflow: hidden;
 }
 
 .c-meta__title {
     @media (max-width: ($b__bx)) {
         float: left;
-        margin-bottom: $u__baseline;
-        padding-right: ($u__baseline / 2);
+        margin-bottom: 1rem;
+        padding-right: 0.5rem;
         width: span(3);
     }
 }
 
 .c-meta__value {
-    margin-bottom: $u__baseline;
+    margin-bottom: 1rem;
     margin-left: 0;
 
     @media (max-width: ($b__bx)) {

@@ -5,10 +5,10 @@
 .c-tweet {
     @include fs--lede;
     position: relative;
-    margin-bottom: $u__baseline;
+    margin-bottom: 1rem;
     border: 1px solid rgba($c__neutral-dark, 0.2);
     background-color: $c__neutral-lightest;
-    padding: $u__baseline;
+    padding: 1rem;
     color: $c__neutral-dark;
 
     &::before { // Double colon not supported in IE8 so can use a transform
@@ -16,7 +16,7 @@
         position: absolute;
         top: auto;
         bottom: -1.5rem;
-        left: $u__baseline;
+        left: 1rem;
         transform: rotate(-45deg);
         opacity: 1;
         border-bottom: 1px solid rgba($c__neutral-dark, 0.2);

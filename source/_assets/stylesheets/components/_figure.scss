@@ -5,7 +5,7 @@
 .c-figure {
     @include clearfix;
     position: relative;
-    margin-bottom: $u__baseline;
+    margin-bottom: 1rem;
 }
 
 .c-figure__main {
@@ -13,7 +13,7 @@
 
     > *,
     p img {
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: 0.5rem;
     }
 
     p img:nth-last-of-type(2):first-child,
@@ -43,23 +43,23 @@
 
 .c-figure__caption {
     @include fs--caption;
-    margin-bottom: $u__baseline;
+    margin-bottom: 1rem;
     color: $c__neutral-mid;
 
     .u-bleed & {
-        margin-right: $u__baseline;
-        margin-left: $u__baseline;
+        margin-right: 1rem;
+        margin-left: 1rem;
 
         @media (min-width: $b__a) {
-            margin-right: ($u__baseline * 2);
-            margin-left: ($u__baseline * 2);
+            margin-right: 2rem;
+            margin-left: 2rem;
         }
 
         @media screen and (min-width: $b__b) {
             margin-right: 0;
             margin-left: 0;
             padding-left: span(3 wide);
-            padding-left: calc(#{span(3 wide)} + #{$u__baseline});
+            padding-left: calc(#{span(3 wide)} + 1rem);
         }
 
         @media screen and (min-width: $b__c) {
@@ -78,7 +78,7 @@
 /* Caption positioning */
 .c-figure--caption-right {
     @extend %u-extend;
-    margin-bottom: $u__baseline;
+    margin-bottom: 1rem;
 
     .c-figure__main {
         @media (min-width: $b__c) {

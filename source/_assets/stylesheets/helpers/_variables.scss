@@ -4,7 +4,6 @@
 
 // Units
 $u__font-size: (16/16)*100%;
-$u__baseline: 1rem;
 $u__max-width: 60rem;
 $u__rule-height: 0.1875rem;
 
@@ -34,8 +33,8 @@ $b__a: 32rem; // 512px
 $b__ax: 31.9375rem; // 511px
 $b__b: 45rem; // 720px
 $b__bx: 44.9375rem; // 719px
-$b__c: ($u__max-width + ($u__baseline * 2));
-$b__cx: ($u__max-width + ($u__baseline * 2) - 0.0625rem);
+$b__c: ($u__max-width + 2rem);
+$b__cx: ($u__max-width + 2rem - 0.0625rem);
 $b__d: 65rem; // 1040px
 $b__dx: 64.9375rem; // 1039px
 

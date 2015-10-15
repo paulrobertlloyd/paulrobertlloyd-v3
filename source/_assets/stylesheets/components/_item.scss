@@ -6,7 +6,7 @@
     position: relative;
 
     &:not(:last-child) {
-        margin-bottom: ($u__baseline * 2);
+        margin-bottom: 2rem;
     }
 }
 
@@ -17,13 +17,13 @@
 
 .c-item__title {
     @include fs--heading-2;
-    margin-bottom: ($u__baseline / 4);
-    padding-top: ($u__baseline / 2);
+    margin-bottom: 0.25rem;
+    padding-top: 0.5rem;
 }
 
 .c-item__title--promote {
     @include fs--heading-1;
-    margin-bottom: ($u__baseline / 2);
+    margin-bottom: 0.5rem;
     padding-top: 0;
     font-weight: 700;
 }
@@ -46,7 +46,7 @@
 .c-item--link {
     @media (min-width: $b__b) {
         &:not(:last-child) {
-            margin-bottom: ($u__baseline * 5);
+            margin-bottom: 5rem;
         }
     }
 }
@@ -54,8 +54,8 @@
 
 /* Gallery item */
 .c-item--gallery {
-    padding-left: ($u__baseline * 7);
-    min-height: ($u__baseline * 7);
+    padding-left: 7rem;
+    min-height: 7rem;
 
     .c-item__cover {
         position: absolute;
@@ -84,8 +84,8 @@
     }
 
     .c-item__cover-photo {
-        width: ($u__baseline * 6);
-        height: ($u__baseline * 6);
+        width: 6rem;
+        height: 6rem;
     }
 }
 
@@ -112,7 +112,7 @@
 
     .c-item__avatar {
         position: absolute;
-        top: ($u__baseline / 4);
+        top: 0.25rem;
         left: 0;
 
         @media (min-width: $b__b) {
@@ -125,8 +125,8 @@
 /* Profile (likes and shares) */
 .c-item--profile {
     float: left;
-    margin-right: ($u__baseline / 4);
-    margin-bottom: ($u__baseline / 4);
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
     width: span(1 of 8);
 
     @media (min-width: $b__a) {

@@ -10,20 +10,20 @@ table {
 }
 
 tbody {
-    margin-bottom: $u__baseline;
+    margin-bottom: 1rem;
 }
 
 caption {
     @include fs--caption;
-    margin-top: ($u__baseline / 2);
+    margin-top: 0.5rem;
     text-align: left;
 }
 
 td,
 th {
     border-top: 1px solid;
-    padding-right: $u__baseline;
-    padding-bottom: ($u__baseline / 2);
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
     vertical-align: top;
     text-align: left;
     white-space: nowrap;
@@ -36,7 +36,7 @@ td {
 
 th {
     border-top: $u__rule-height solid;
-    padding-bottom: $u__baseline;
+    padding-bottom: 1rem;
     font-weight: 700;
 }
 

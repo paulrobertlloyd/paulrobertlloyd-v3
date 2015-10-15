@@ -6,14 +6,14 @@ $u__shadow-size: 4px;
 
 .c-screenshots {
     position: relative;
-    margin-top: $u__baseline;
-    margin-bottom: $u__baseline;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-bottom: 1px solid rgba($c__neutral-darkest, 0.2);
     padding-bottom: 40%;
     overflow: hidden;
 
     .c-figure & {
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -28,14 +28,14 @@ $u__shadow-size: 4px;
 
 /* Desktop screens */
 .c-screenshot--desktop-a {
-    top: ($u__baseline * 2);
+    top: 2rem;
     left: $u__shadow-size;
     z-index: 1;
     box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
     width: 56%;
 
     @media (min-width: $b__b) {
-        left: ($u__baseline * 2);
+        left: 2rem;
     }
 }
 
@@ -47,7 +47,7 @@ $u__shadow-size: 4px;
     width: 56%;
 
     @media (min-width: $b__b) {
-        right: ($u__baseline * 2);
+        right: 2rem;
     }
 }
 
@@ -55,7 +55,7 @@ $u__shadow-size: 4px;
 /* Tablet screen */
 .c-screenshot--tablet-landscape {
     top: auto;
-    bottom: ($u__baseline * -1.5);
+    bottom: -1.5rem;
     left: 14%;
     z-index: 3;
     background-image: url(asset_path('device-tablet-landscape.svg'));
@@ -75,7 +75,7 @@ $u__shadow-size: 4px;
 
 /* Phablet screen */
 .c-screenshot--phablet {
-    top: ($u__baseline * 2);
+    top: 2rem;
     left: 28%;
     z-index: 2;
     background-image: url(asset_path('device-phablet.svg'));
@@ -87,7 +87,7 @@ $u__shadow-size: 4px;
 /* Phone screen */
 .c-screenshot--phone {
     top: 24%;
-    right: $u__baseline;
+    right: 1rem;
     z-index: 5;
     background-image: url(asset_path('device-phone.svg'));
     padding: 2.4% 0.8% 0;

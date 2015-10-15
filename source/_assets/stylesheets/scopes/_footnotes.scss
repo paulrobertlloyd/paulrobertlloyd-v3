@@ -5,14 +5,14 @@
 .s-footnotes {
     @include fs--caption;
     @include rule;
-    margin-top: ($u__baseline * 2);
+    margin-top: 2rem;
     color: $c__neutral-mid;
 
     ol {
-        margin-top: $u__baseline;
+        margin-top: 1rem;
     }
 
     li p {
-        margin-bottom: ($u__baseline / 2);
+        margin-bottom: 0.5rem;
     }
 }
