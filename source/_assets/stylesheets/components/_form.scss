@@ -22,10 +22,8 @@
 
 .c-form__icon {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: ($u__baseline * 2/3);
+    top: 50%;
+    transform: translate(50%, -50%);
 
     + .c-form__input {
         padding-left: ($u__baseline * 2.5);
@@ -98,7 +96,7 @@
     font-weight: 700;
 
     .c-form__input-submit & {
-        margin-left: -1px;
+        margin-left: ($u__baseline * 3/4);
         flex: 0 0 auto;
     }
 }
