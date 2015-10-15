@@ -25,6 +25,7 @@ paginate_path: /journal/:num
 # See: https://github.com/jekyll/jekyll/issues/3371
 kramdown:
   syntax_highlighter: rouge
+  auto_id_stripping: true
 
 # Collections
 collections:

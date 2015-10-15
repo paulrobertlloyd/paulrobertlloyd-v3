@@ -4,7 +4,7 @@
 
 .c-page__header,
 .c-page__footer {
-    margin-bottom: ($u__baseline / 2);
+    margin-bottom: $u__baseline;
 
     @media screen and (min-width: $b__b) {
         padding-left: span(3 wide);
@@ -17,6 +17,14 @@
         padding-left: 0;
         width: span(3 first);
     }
+
+    .c-page__title {
+        font-weight: normal;
+
+        @media (min-width: $b__b) {
+            @include fs--heading-1;
+        }
+    }
 }
 
 .c-page__footer {
@@ -27,12 +35,4 @@
 .c-page__title {
     @include fs--title;
     font-weight: 700;
-
-    .c-page--index & {
-        font-weight: normal;
-
-        @media (min-width: $b__b) {
-            @include fs--heading-1;
-        }
-    }
 }
