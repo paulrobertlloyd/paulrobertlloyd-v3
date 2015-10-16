@@ -28,6 +28,11 @@
         transform-origin: 0 0;
     }
 
+    a {
+        @include text-decoration-color('none');
+        color: $c__neutral-darkest;
+    }
+
     :last-child {
         margin-bottom: 0;
     }

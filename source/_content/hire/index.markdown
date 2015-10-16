@@ -3,15 +3,15 @@ title: Hire Me
 excerpt: 'An experienced freelance digital designer and web developer, I help responsible organisations around the world create purposeful digital products.'
 header: aside
 ---
-{% figure u-pull-right %}
+{% figure u-align-right %}
 {% picture supporting /hire/me.jpg alt="A photo of me, Paul Robert Lloyd" %}
 {% endfigure %}
 
 I've worked for design agencies, start-ups and established brands in the fields of journalism ([Channel 4 News][1], *the Guardian*), technology ([Mozilla][2], [Ning][3]), non-profits ([UNICEF][4], [DACS][5]) and retail (John Lewis, [Nuts.com][6]).
 
-**Availability from November 2015**
-
 {% include button.html url="#contact" text="Contact me about your project" %}
+
+<small>Availability from November 2015</small>
 
 * * *
 {: .u-extend}
@@ -27,7 +27,7 @@ With a background in graphic design, my work is focused on interface design for 
 
 Realising early in my career that you can't truly appreciate an interactive and fluid medium like the web inside Photoshop, I expanded my skill set to encompass web development. I employ pragmatic front-end architecture practices that progressively enhance semantic HTML with modular CSS and unobtrusive JavaScript.
 
-I'm familiar with CSS preprocessors (Sass, Less), task runners (Grunt, Gulp), content management systems (Jekyll, Kirby, Perch) version control (Git) and project planning software (Jira, Trello). I typically produce documentation such as style guides and pattern portfolios to ensure the code I develop is maintainable and extensible by internal teams once it's been handed over.
+I'm familiar with CSS preprocessors (Sass, Less), task runners (Grunt, Gulp), content management systems (Jekyll, Kirby, Perch) version control (Git) and project planning software (Jira, Trello). I typically produce documentation like style guides and pattern portfolios to ensure the code I hand over is maintainable and extensible by internal teams.
 
 Living in Brighton means I'm within commuting distance of London. I'm also happy to work with companies located further afield, on-site or remotely (but ideally a mixture of the two). Where possible, I advocate working alongside other designers, developers and researchers within your organisation.
 

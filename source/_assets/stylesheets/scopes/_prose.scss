@@ -53,13 +53,14 @@
         font-size: 90%;
     }
 
-    abbr[title]:hover {
-        @include text-highlight;
+    small {
+        @include fs--caption;
+        display: inline-block;
+        color: $c__neutral-mid;
     }
 
-    // Separate lede from body
-    .s-prose--lede + & {
-        margin-top: 2.5rem;
+    abbr[title]:hover {
+        @include text-highlight;
     }
 }
 
@@ -70,5 +71,9 @@
 
     > *:not(:last-child) {
         margin-bottom: 1rem;
+    }
+
+    > :last-child {
+        margin-bottom: 2rem;
     }
 }

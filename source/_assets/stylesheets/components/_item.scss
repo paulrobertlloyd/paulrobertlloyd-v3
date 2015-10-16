@@ -4,10 +4,7 @@
 
 .c-item {
     position: relative;
-
-    &:not(:last-child) {
-        margin-bottom: 2rem;
-    }
+    margin-bottom: 2rem;
 }
 
 .c-item__media,
@@ -16,6 +13,7 @@
 }
 
 .c-item__media {
+    @include text-decoration-color('none');
     display: block;
 }
 
@@ -49,9 +47,7 @@
 .c-item--gallery,
 .c-item--link {
     @media (min-width: $b__b) {
-        &:not(:last-child) {
-            margin-bottom: 5rem;
-        }
+        margin-bottom: 5rem;
     }
 }
 
