@@ -1,8 +1,8 @@
 /*  =========================================================================
-    Block link
+    Conjunction
     ========================================================================= */
 
-.u-block-link {
-    @include text-decoration-color('none');
-    display: block;
+.u-conjunction {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }

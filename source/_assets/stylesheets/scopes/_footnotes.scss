@@ -4,8 +4,8 @@
 
 .s-footnotes {
     @include fs--caption;
-    @include rule($width: 50%);
-    margin-top: 2rem;
+    @include rule($width: 20%);
+    margin-top: 4rem;
     color: $c__neutral-mid;
 
     ol {

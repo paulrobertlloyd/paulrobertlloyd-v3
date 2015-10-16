@@ -19,7 +19,7 @@ I've worked for design agencies, start-ups and established brands in the fields 
 ## Digital Design and Web Development
 {: .u-aside}
 
-With a background in graphic design, my work is focused on interface design for native applications and the web. I value cohesiveness, attention to detail, and creating products that can be used by everyone. In short, I aim to bring Dieter Rams' [10 principles of good design][7] to the digital realm.
+With a background in graphic design, my work is focused on interface design for native applications and the web. I value cohesiveness, attention to detail, and creating products that can be used by everyone.
 
 {% figure u-pull-right "<cite>Harry Brignull, Independent UX Consultant</cite>" %}
 > Paul is an excellent designer and front-end developer. He has a lot of experience working with UX designers and researchers, and is comfortable collaborating in that tricky zone where a project is a tangle and needs careful unpicking before being put back together again.
@@ -31,7 +31,7 @@ I'm familiar with CSS preprocessors (Sass, Less), task runners (Grunt, Gulp), co
 
 Living in Brighton means I'm within commuting distance of London. I'm also happy to work with companies located further afield, on-site or remotely (but ideally a mixture of the two). Where possible, I advocate working alongside other designers, developers and researchers within your organisation.
 
-{% include button.html url="#contact" text="Contact me about your project" %}
+{% include button.html url="#contact" text="Contact me about your project" %} <span class="u-conj">or</span> [see examples of my work][7]
 
 * * *
 {: .u-extend}
@@ -45,7 +45,7 @@ I’m currently speaking about [the principles underlying responsive web design]
 
 I believe conferences and meet-ups should offer a safe space for speakers and attendees, so I only accept invitations to speak at events that publish and uphold a [code of conduct][11].
 
-{% include button.html url="#contact" text="Invite me to speak at your event" %}
+{% include button.html url="#contact" text="Invite me to speak at your event" %} <span class="u-conj">or</span> [see my previous talks][8]
 
 * * *
 {: .u-extend}
@@ -63,7 +63,7 @@ If you want to work with me, or would like me to speak at your event, please con
 [4]: /projects/unicef_uk
 [5]: /projects/dacs
 [6]: /projects/nuts
-[7]: /principles/good_design
+[7]: /projects/
 [8]: /talks/
 [9]: /articles/
 [10]: /2015/08/thinking_responsively
