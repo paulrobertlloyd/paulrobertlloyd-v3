@@ -1,14 +1,12 @@
 <footer class="c-contentinfo u-container" role="contentinfo">
     <div class="c-contentinfo__main">
-        <div class="c-contentinfo__license">
-            <p><small>© <time datetime="{{ site.time | date:"%Y" }}" title="{{ site.time | date:"%Y" }}">{{ site.time | date:"%Y" | roman }}</time> <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a></small></p>
-            <p>
-                <a href="/contact/">Contact</a><span class="u-separate"></span>
-                <a href="/colophon">Colophon</a><span class="u-separate"></span>
-                <a href="/styleguide">Styleguide</a><span class="u-separate"></span>
-                <a href="{{ site.scm.url }}">Source</a>
-            </p>
-        </div>
+        <p class="c-contentinfo__license">
+            <small>© <time datetime="{{ site.time | date:"%Y" }}" title="{{ site.time | date:"%Y" }}">{{ site.time | date:"%Y" | roman }}</time> <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a></small><br/>
+            <a href="/contact/">Contact</a><span class="u-separate"></span>
+            <a href="/colophon">Colophon</a><span class="u-separate"></span>
+            <a href="/styleguide">Styleguide</a><span class="u-separate"></span>
+            <a href="{{ site.scm.url }}">Source</a>
+        </p>
 
         <div class="c-contentinfo__social">
             <a class="c-social c-social--twitter" rel="me" href="https://twitter.com/paulrobertlloyd">

@@ -10,7 +10,7 @@
 }
 
 .c-contentinfo__main {
-    border-top: ($u__rule-height / 2) solid rgba($c__neutral-mid, 0.5);
+    border-top: 0.09375rem solid rgba($c__neutral-mid, 0.5); // 1.5px
     padding: 1rem 0;
 
     @media screen and (min-width: $b__a) {
@@ -23,7 +23,7 @@
 }
 
 .c-contentinfo__license {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 
     @media screen and (min-width: $b__a) {
         flex: 1 1 auto;

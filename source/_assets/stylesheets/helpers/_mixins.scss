@@ -56,7 +56,7 @@
 }
 
 @mixin fs--heading-1 {
-    line-height: (28/32);
+    line-height: 0.875;
     font-size: 2rem; // 32px
     letter-spacing: -0.025em;
 
@@ -66,7 +66,7 @@
 }
 
 @mixin fs--heading-2 {
-    line-height: (24/24);
+    line-height: 1;
     font-size: 1.5rem; // 24px
     letter-spacing: -0.02em;
 
@@ -76,18 +76,17 @@
 }
 
 @mixin fs--heading-3 {
-    line-height: (22/20);
+    line-height: 1.125;
     font-size: 1.25rem; // 20px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__b) {
-        line-height: (28/24);
         font-size: 1.5rem; // 24px
     }
 }
 
 @mixin fs--heading-4 {
-    line-height: (20/16);
+    line-height: 1.25;
     font-size: 1rem; // 16px
     letter-spacing: -0.01em;
 
@@ -97,45 +96,32 @@
 }
 
 @mixin fs--lede {
-    line-height: (24/21);
+    line-height: 1.125;
     font-size: 1.3125rem; // 21px
     letter-spacing: -0.015em;
 
-    @media (min-width: $b__b) {
-        line-height: (30/25);
-        font-size: 1.5265rem; // 25px
+    @media (min-width: $b__c) {
+        font-size: 1.6875rem; // 27px
     }
-}
-
-@mixin fs--billboard {
-    line-height: (20/16);
-    font-size: 1rem; // 16px
-
-    @media (min-width: $b__b) {
-        line-height: (24/18);
-        font-size: 1.125rem; // 18px
-    }
-}
-
-@mixin fs--caption {
-    line-height: (20/16);
-    font-size: 1rem; // 16px
 }
 
 @mixin fs--body {
-    line-height: (24/16);
+    line-height: 1.3334;
     font-size: 1rem; // 16px
     letter-spacing: -0.015em;
 
     @media (min-width: $b__a) {
-        line-height: (25/18);
-        font-size: 1.125rem; // 16px
+        font-size: 1.125rem; // 18px
     }
 
     @media (min-width: $b__c) {
-        line-height: (28/21);
         font-size: 1.3125rem; // 21px
     }
+}
+
+@mixin fs--caption {
+    line-height: 1.25;
+    font-size: 1rem; // 16px
 }
 
 
@@ -191,22 +177,12 @@
 
 
 // Line rule
-@mixin rule($el: 'before', $display: block) {
-    @if $el == 'before' or $el == 'after' {
-        &:#{$el} {
-            display: $display;
-            border-top: $u__rule-height solid;
-            width: 100%;
-            content: '';
-            @if $el == 'before' {
-                margin-bottom: 0.25rem;
-            }
-            @if $el == 'after' {
-                margin-top: 0.25rem;
-            }
-        }
-    } @else {
-        @error "`#{$el}` is not a valid pseudo-element.";
+@mixin rule($height: $u__rule-height, $width: 100%) {
+    &:before {
+        display: block;
+        border-top: $u__rule-height solid rgba($c__neutral-mid, 0.5);
+        width: $width;
+        content: '';
     }
 }
 

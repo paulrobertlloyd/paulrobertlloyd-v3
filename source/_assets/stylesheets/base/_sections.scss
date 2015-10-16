@@ -3,10 +3,6 @@
     http://developers.whatwg.org/sections.html
     ========================================================================= */
 
-::selection {
-    background: $c__select;
-}
-
 html {
     box-sizing: border-box;
 
@@ -38,9 +34,12 @@ body {
     @include ff--sans-serif;
     margin: 0 auto;
     text-rendering: geometricPrecision;
-    line-height: 1.5;
-    font-size: $u__font-size;
+    font-size: 100%;
     font-smoothing: antialiased;
+
+    @media (min-width: $b__c) {
+        font-size: 112.5%;
+    }
 
     @media print {
         margin: 0 1cm;
