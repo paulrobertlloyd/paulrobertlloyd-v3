@@ -31,8 +31,8 @@
     white-space: nowrap;
 
     @media (min-width: $b__a) {
-        @include span(8 at 2);
         margin-left: span(3 wide);
+        width: span(9 at 2 last);
         line-height: (20/18);
         font-size: 1.125rem; // 18px
     }

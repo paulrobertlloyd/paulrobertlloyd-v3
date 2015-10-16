@@ -3,15 +3,21 @@
     ========================================================================= */
 
 .s-prose {
+    line-height: (24/18);
     font-feature-settings: 'liga', 'dlig', 'onum';
+
+    > *:not(:last-child) {
+        margin-bottom: 1rem;
+    }
 }
+
 
 /* Body */
 .s-prose--body {
     @include fs--body;
 
-    > * {
-        margin-bottom: 1rem;
+    > *:not(:last-child) {
+        margin-bottom: 1.25rem;
     }
 
     h2 {
@@ -35,17 +41,13 @@
     *:not(hr) + h2,
     * + h3,
     * + h4,
-    p + figure {
+    p + figure,
+    p + table {
         margin-top: 2rem;
     }
 
     pre {
         font-size: 90%;
-    }
-
-    dl dd:not([class]),
-    li p {
-        margin-bottom: 1rem;
     }
 
     abbr[title]:hover {
@@ -59,22 +61,11 @@
 }
 
 
-/* Billboard */
-/* TODO: Think of a better name for this class */
-.s-prose--billboard {
-    @include fs--billboard;
-
-    > *:not(:last-of-type) {
-        margin-bottom: 0.75rem;
-    }
-}
-
-
 /* Lede */
 .s-prose--lede {
     @include fs--lede;
 
-    > * {
-        margin-bottom: 1.25rem;
+    > *:not(:last-child) {
+        margin-bottom: 1rem;
     }
 }

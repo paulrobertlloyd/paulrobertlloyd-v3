@@ -5,8 +5,9 @@
 // Theme variables
 $c__t-light--background: $c__neutral-lightest;
 $c__t-light--text: $c__neutral-dark;
-$c__t-light--hover: $c__primary-purple;
-$c__t-light--active: $c__neutral-darkest;
+$c__t-light--text-alt: $c__neutral-darkest;
+$c__t-light--hover: $c__primary;
+$c__t-light--active: $c__secondary;
 
 .t-light {
     @media screen {
@@ -27,10 +28,9 @@ $c__t-light--active: $c__neutral-darkest;
         }
 
         .c-page__title,
-        .c-section__title,
         .c-item__title,
         .is-active {
-            color: $c__t-light--active;
+            color: $c__t-light--text-alt;
         }
 
         .c-form__label-inline .c-form__label {
@@ -41,9 +41,11 @@ $c__t-light--active: $c__neutral-darkest;
             background-color: rgba($c__t-light--background, 0.95);
         }
 
-        .s-prose {
+        .s-prose,
+        .s-ui {
             a:not(.c-button) {
                 @include text-decoration-color($c__t-light--hover, $c__t-light--background);
+                transition: all 2s ease-out;
             }
 
             a:not(.c-button):focus {

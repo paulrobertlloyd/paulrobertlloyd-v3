@@ -3,29 +3,24 @@
 //  ============================================================================
 
 // Units
-$u__font-size: (16/16)*100%;
 $u__max-width: 60rem;
-$u__rule-height: 0.1875rem;
+$u__rule-height: 0.125rem;
 
 
 // Colours
-$c__neutral-darkest: hsb(300, 12, 10);
+$c__neutral-darkest: hsb(300, 12, 8);
 $c__neutral-dark: hsb(300, 9, 28);
-$c__neutral-mid: hsb(300, 6, 45);
-$c__neutral-light: hsb(300, 3, 68);
-$c__neutral-lightest: hsb(300, 0, 98);
+$c__neutral-mid: hsb(300, 6, 48);
+$c__neutral-light: hsb(300, 3, 78);
+$c__neutral-lightest: hsb(300, 0, 96);
 
-$c__primary-purple: hsb(300, 60, 80);
-$c__primary-blue: hsb(220, 60, 80);
-$c__primary-red: hsb(0, 60, 80);
-$c__primary-yellow: hsb(50, 40, 100);
-$c__primary-green: hsb(170, 60, 80);
+$c__primary: hsb(300, 60, 80);
+$c__secondary: hsb(248, 60, 80);
 
-$c__focus: $c__primary-yellow;
-$c__highlight: $c__primary-yellow;
-$c__select: rgba($c__highlight, 0.5);
-$c__valid: $c__primary-green;
-$c__invalid: $c__primary-red;
+$c__invalid: hsb(0, 60, 80);
+$c__valid: hsb(170, 60, 80);
+$c__highlight: hsb(50, 40, 100);
+$c__focus: $c__highlight;
 
 
 // Breakpoints
