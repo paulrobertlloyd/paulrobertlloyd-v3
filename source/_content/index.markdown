@@ -8,4 +8,4 @@ excerpt: |
 ## Available for hire
 I work with brands like **John Lewis**, **the Guardian**, **UNICEF** and **Mozilla**, as well as start-ups and small businesses.
 
-{% include button.html url="/hire/#contact" text="Get in touch" %} <span class="u-conj">or</span> [learn more about my services](/hire/)
+{% include button.html url="/hire/#contact" text="Get in touch" %} <span class="u-conj">or</span> [learn about my services](/hire/)
