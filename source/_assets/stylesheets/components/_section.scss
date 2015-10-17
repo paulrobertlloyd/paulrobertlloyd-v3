@@ -4,7 +4,7 @@
 
 .c-section {
     @include clearfix;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 
     @media screen and (min-width: $b__b) {
         padding-right: span(1 wide);
@@ -14,7 +14,6 @@
 
 .c-section__title {
     @include fs--heading-2;
-    padding-top: 0.5rem;
     font-weight: 700;
     word-break: break-word;
     hyphens: auto;
@@ -26,10 +25,35 @@
     @media (min-width: $b__a) {
         .c-section__header {
             @include span(3 of 12 first);
+            padding-top: 0.5rem;
         }
 
         .c-section__main {
             @include span(9 of 12 last);
         }
+    }
+}
+
+
+/* Complementary */
+.c-section--complementary {
+    .c-section__header {
+        @include rule($height: 0.09375rem, $position: 'after');
+        display: flex;
+        align-items: center;
+    }
+
+    &::after {
+        flex: 1 1 auto;
+    }
+
+    .c-section__title {
+        @include fs--caption;
+        padding-right: 0.25rem;
+        text-transform: uppercase;
+        letter-spacing: 0.075rem;
+        color: $c__neutral-mid;
+        font-weight: normal;
+        flex: 0 0 auto;
     }
 }

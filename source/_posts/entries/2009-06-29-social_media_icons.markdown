@@ -175,8 +175,7 @@ With that in mind, and taking inspiration from the gorgeous icons used by [Tim v
     <li class="c-list__item"><span class="c-icon c-icon--zerply"></span>Zerply</li>
 </ul>
 
-## Support
-Please provide any feedback or suggestions by [submitting a new issue on GitHub][4].
+For feedback and suggestions, please [submit an issue on GitHub][4].
 
 [1]: http://timvandamme.com/
 [2]: http://www.komodomedia.com/blog/2008/12/social-media-mini-iconpack/

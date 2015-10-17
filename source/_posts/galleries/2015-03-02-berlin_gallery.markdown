@@ -6,6 +6,8 @@ excerpt: Scenes from central Berlin, during my brief visit in February 2015.
 image:
   url: /galleries/2015-03-02-berlin_gallery/01.jpg
 tags:
-  - Germany
   - Berlin
+  - Germany
+  - Europe
+  - Travel
 ---
