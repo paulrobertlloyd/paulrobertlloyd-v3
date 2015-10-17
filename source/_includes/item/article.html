@@ -7,6 +7,6 @@
 
     <p class="c-item__meta">
         <strong class="u-separate">{{ item.publication }}</strong>
-        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" | typogrify }}</time>
+        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{% if item.url contains "http://" or item.url contains "https://" %}{{ item.date | date:"%e %B %Y" | typogrify }}{% else %}{{ item.date | date:"%B %Y" | typogrify }}{% endif %}</time>
     </p>
 </article>
