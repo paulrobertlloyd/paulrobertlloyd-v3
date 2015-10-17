@@ -47,7 +47,7 @@ GEM
       scss-lint (~> 0.30.0)
     hike (1.2.3)
     http_parser.rb (0.6.0)
-    jekyll (3.0.0.pre.beta9)
+    jekyll (3.0.0.pre.beta10)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)

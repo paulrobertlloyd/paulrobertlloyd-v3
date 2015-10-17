@@ -41,11 +41,13 @@
 .c-navigation__item {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    letter-spacing: -0.025rem;
     flex: 1 1 auto;
 
     @media (min-width: $b__a) {
         padding-top: 2rem;
         padding-bottom: 1rem;
+        letter-spacing: 0;
     }
 
     &.is-active {

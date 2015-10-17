@@ -2,6 +2,7 @@
 title: Hire Me
 excerpt: 'An experienced freelance digital designer and web developer, I help responsible organisations around the world create purposeful digital products.'
 header: aside
+landing: true
 ---
 {% figure u-align-right %}
 {% picture supporting /hire/me.jpg alt="A photo of me, Paul Robert Lloyd" %}
@@ -31,7 +32,7 @@ I'm familiar with CSS preprocessors (Sass, Less), task runners (Grunt, Gulp), co
 
 Living in Brighton means I'm within commuting distance of London. I'm also happy to work with companies located further afield, on-site or remotely (but ideally a mixture of the two). Where possible, I advocate working alongside other designers, developers and researchers within your organisation.
 
-{% include button.html url="#contact" text="Contact me about your project" %} <span class="u-conj">or</span> [see examples of my work][7]
+{% include button.html url="#contact" text="Contact me" %} <span class="u-conj">or</span> [see examples of work][7]
 
 * * *
 {: .u-extend}
@@ -45,7 +46,7 @@ I’m currently speaking about [the principles underlying responsive web design]
 
 I believe conferences and meet-ups should offer a safe space for speakers and attendees, so I only accept invitations to speak at events that publish and uphold a [code of conduct][11].
 
-{% include button.html url="#contact" text="Invite me to speak at your event" %} <span class="u-conj">or</span> [see my previous talks][8]
+{% include button.html url="#contact" text="Invite me to speak" %} <span class="u-conj">or</span> [see previous talks][8]
 
 * * *
 {: .u-extend}

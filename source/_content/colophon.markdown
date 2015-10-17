@@ -1,6 +1,7 @@
 ---
 title: Colophon
 excerpt: This site is built using a variety of third-party tools and services.
+header: aside
 ---
 This website is produced on an [Apple Mac][1], using [Sketch][2] to realise early design concepts before being coded in [TextMate][3]. I use and recommend [WebFaction][4] for web hosting. Type is set in [Calibre][6] which is designed by Kris Sowersby.
 

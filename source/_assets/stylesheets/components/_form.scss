@@ -36,15 +36,15 @@
         top: 0;
         right: 0;
         left: 0;
-        border: dashed;
-        border-width: 0 0 1px;
+        border: dotted;
+        border-width: 0 0 $u__rule-height;
         padding: 0.75rem;
         line-height: 1.5;
         font-weight: 700;
 
         @media (min-width: $b__a) {
             bottom: 0;
-            border-width: 0 1px 0 0;
+            border-width: 0 $u__rule-height 0 0;
             width: span(3);
         }
 
@@ -79,7 +79,7 @@
     }
 
     .c-form__label-inline & {
-        padding-top: 3rem;
+        padding-top: 3.75rem;
 
         @media (min-width: $b__a) {
             padding-top: 0.75rem;

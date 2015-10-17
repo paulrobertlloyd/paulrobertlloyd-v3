@@ -3,6 +3,7 @@ title: Scopes
 series: Style guide
 date: '2015-07-12 00:00:01 +0000'
 excerpt: Areas of user-generated content, with HTML that has come from a CMS.
+header: aside
 ---
 The introductory paragraph above uses the `.s-prose--lede`{:.language-css} class to scope that content. The rest of the content on this page lies within the `.s-prose--body`{:.language-css} scope[^1].
 
@@ -217,7 +218,6 @@ If you use these elements, you must use every element. They should appear in thi
 | Brandy                         | 1 &frac12; cups | 3 cups    |
 | Vanilla                        | 1 tbsp          | 2 tbsp    |
 | Light Cream                    | 1 quart         | 2 quart   |
-| Freshly grated nutmeg to taste                               |
 
 *[ASCII]: American Standard Code for Information Interchange
 *[HTML]: HyperText Markup Language
