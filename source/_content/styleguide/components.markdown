@@ -3,7 +3,6 @@ title: Components
 series: Style guide
 date: '2015-07-12 00:00:03 +0000'
 excerpt: Finite, discrete, implementation-specific parts of the interface.
-header: aside
 meta:
   year: Ongoing
   role: Design and front-end development

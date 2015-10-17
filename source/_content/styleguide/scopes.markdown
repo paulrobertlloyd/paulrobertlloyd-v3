@@ -3,7 +3,6 @@ title: Scopes
 series: Style guide
 date: '2015-07-12 00:00:01 +0000'
 excerpt: Areas of user-generated content, with HTML that has come from a CMS.
-header: aside
 ---
 The introductory paragraph above uses the `.s-prose--lede`{:.language-css} class to scope that content. The rest of the content on this page lies within the `.s-prose--body`{:.language-css} scope[^1].
 
