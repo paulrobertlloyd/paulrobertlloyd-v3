@@ -17,6 +17,15 @@
     display: block;
 }
 
+.c-item__main {
+    @media (min-width: $b__a) {
+        .c-item--link &,
+        .c-item--comment & {
+            padding-right: span(1 of 8);
+        }
+    }
+}
+
 .c-item__title {
     @include fs--heading-2;
     margin-bottom: 0.25rem;

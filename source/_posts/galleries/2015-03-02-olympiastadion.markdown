@@ -6,7 +6,8 @@ excerpt: A common aspect of my travels is visiting former Olympic stadiums, and 
 image:
   url: /galleries/2015-03-02-olympiastadion/02.jpg
 tags:
-  - Germany
   - Berlin
+  - Germany
+  - Europe
   - Architecture
 ---

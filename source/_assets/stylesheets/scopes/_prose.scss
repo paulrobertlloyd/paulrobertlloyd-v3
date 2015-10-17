@@ -6,7 +6,7 @@
     line-height: (24/18);
     font-feature-settings: 'liga', 'dlig', 'onum';
 
-    > *:not(:last-child) {
+    > * {
         margin-bottom: 1rem;
     }
 }
@@ -16,7 +16,7 @@
 .s-prose--body {
     @include fs--body;
 
-    > *:not(:last-child) {
+    > * {
         margin-bottom: 1.25rem;
     }
 
@@ -69,7 +69,7 @@
 .s-prose--lede {
     @include fs--lede;
 
-    > *:not(:last-child) {
+    > * {
         margin-bottom: 1rem;
     }
 

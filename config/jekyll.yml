@@ -36,16 +36,17 @@ collections:
     output: true
   talks:
     output: true
+  discussions:
+    output: true
 
 # Defaults
 defaults:
-  -
-    scope:
+  - scope:
       type: content
     values:
       layout: content
-  -
-    scope:
+
+  - scope:
       type: posts
       path: '_posts/entries'
     values:
@@ -55,29 +56,34 @@ defaults:
         terms: BY-NC-SA
         description: 'You can republish this content without asking permission, but you must credit me (Paul Robert Lloyd) as the author and provide a link back to the original. You may not use any content for commercial purposes. If you make any changes, you must distribute these under the same license as the original.'
         url: http://creativecommons.org/licenses/by-nc-sa/4.0/
-  -
-    scope:
+
+  - scope:
       type: posts
       path: '_posts/links'
     values:
       layout: post-link
-  -
-    scope:
+
+  - scope:
       type: posts
       path: '_posts/galleries'
     values:
       layout: post-gallery
       theme: dark
-  -
-    scope:
+
+  - scope:
       type: projects
     values:
       layout: project
-  -
-    scope:
+
+  - scope:
       type: talks
     values:
       layout: talk
+
+  - scope:
+      type: discussions
+    values:
+      layout: discussion
 
 # Assets
 assets:

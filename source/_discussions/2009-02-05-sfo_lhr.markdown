@@ -1,0 +1,24 @@
+---
+permalink: /2009/02/sfo_lhr/discussion
+remarks:
+  - author: Mark Otto
+    gravatar: bc4ab438f7a4ce1c406aadc688427f2c
+    date: '2009-02-06 15:21:22 +0000'
+    url: http://www.zurb.com
+    content: |
+      How long of a plane trip is that? I can hardly stand going back to from California to Wisconsin (4 hrs direct, 6 hrs with layover).
+
+  - author: Paul Robert Lloyd
+    gravatar: 15091a37bacfa4bdd011282627eaca2b
+    date: '2009-02-06 15:40:27 +0000'
+    url: http://paulrobertlloyd.com/
+    content: |
+      Usually somewhere between 10 and a half to 11 hours (depending on tail winds etc.) for direct flights. I'm always a bit shocked by this figure, given I usually get it confused with the time difference, which is 8 hours!
+
+  - author: Mark Otto
+    gravatar: bc4ab438f7a4ce1c406aadc688427f2c
+    date: '2009-02-06 16:41:54 +0000'
+    url: http://www.zurb.com
+    content: |
+      Damn! That's just crazy.
+---
