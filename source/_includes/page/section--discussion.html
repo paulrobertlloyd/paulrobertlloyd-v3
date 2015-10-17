@@ -20,7 +20,7 @@
                 {% when "1" %}
                     <a href="{{ page.url }}/discussion">This entry has a single remark.</a>
                 {% else %}
-                    <a href="{{ page.url }}/discussion">This entry has {{ remark_count }} remarks.</a>
+                    <a href="{{ page.url }}/discussion">This entry has {{ discussion_count }} remarks.</a>
                 {% endcase %}
 
                 {% if page.discussion == "open" %}
