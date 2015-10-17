@@ -3,6 +3,7 @@ title: Utilities
 series: Style guide
 date: '2015-07-12 00:00:02 +0000'
 excerpt: Reusable classes with a single purpose and specific role.
+header: aside
 style: |
     .example--block {
         display: block;

@@ -171,7 +171,7 @@ Of course, there is a trade-off here. Services like Fontdeck provide an extensiv
 <table class="c-chart c-chart--hbar">
     <tbody>
         <tr>
-            <th colspan="2">Bytes downloaded for 4 WOFF webfonts (requests)</th>
+            <th colspan="2">Webfonts: Bytes downloaded (requests)</th>
         </tr>
         <tr>
             <td class="c-chart__label"><span markdown="1">Before[^1]</span></td>
