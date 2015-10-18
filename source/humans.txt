@@ -9,5 +9,5 @@
   Last update: {{ site.time }}
   Language: English
   Doctype: HTML5
-  CMS: Jekyll
+  CMS: Jekyll {{ jekyll.version }}
   IDE: TextMate
