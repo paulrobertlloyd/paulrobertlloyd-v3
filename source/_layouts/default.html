@@ -48,7 +48,7 @@ layout: compress
     <link rel="stylesheet" href="{% asset_path global.css %}"/>
 <!--#else-->
     <style>
-        {% asset critical.css %}
+        {% asset_source critical.css %}
     </style>
 <!--#endif-->
 
@@ -59,7 +59,7 @@ layout: compress
 {% endif %}
 
     <script>
-        {% asset head.js %}
+        {% asset_source head.js %}
     </script>
     <noscript>
         <link rel="stylesheet" href="{% asset_path global.css %}">

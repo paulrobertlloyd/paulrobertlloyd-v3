@@ -7,25 +7,23 @@ This website is produced on an [Apple Mac][1], using [Sketch][2] to realise earl
 This site is published using [Jekyll][7] and these supporting plugins:
 
   * [jekyll-archives][8] by Alfred Xing
-  * [jekyll-assets][9] by Aleksey V Zapparov
+  * [jekyll-assets][9] by Jordon Bedwell
   * [jekyll-sitemap][10] by GitHub, Inc.
   * [jekyll-smartify][11] by Pat Hawks
   * [jekyll-compress-html][12] by Anatol Broder
   * [Simple Jekyll Search][13] by Christian Fei
-  * [Octopress plugins][14] by Brandon Mathis
 
 Other notable tools and services used to build this site include:
 
-  * [converjon][15] by Leon Weidauer
-  * [exiftool][16] by Matthew McEachen and Phil Harvey
-  * [fontfaceobserver][17] by Bram Stein
-  * [Picturefill][18] by Filament Group, Inc.
-  * [What Input?][19] by Jeremy Fields
-  * [Susy][20] by Eric M. Suzanne
-  * [typogruby][21] by Arjan van der Gaag
-  * [MapBox][22] by Mapbox Inc.
+  * [exiftool][14] by Matthew McEachen and Phil Harvey
+  * [fontfaceobserver][15] by Bram Stein
+  * [Picturefill][16] by Filament Group, Inc.
+  * [What Input?][17] by Jeremy Fields
+  * [Susy][18] by Eric M. Suzanne
+  * [typogruby][19] by Arjan van der Gaag
+  * [MapBox][20] by Mapbox Inc.
 
-Pages are semantically structured using valid [HTML5][23] with presentational design provided by [CSS][24]. Syndicated feeds use [Atom][25]-flavoured RSS.
+Pages are semantically structured using valid [HTML5][21] with presentational design provided by [CSS][22]. Syndicated feeds use [Atom][23]-flavoured RSS.
 
 [1]: http://apple.com/macbook-pro/
 [2]: http://bohemiancoding.com/sketch/
@@ -39,19 +37,18 @@ Pages are semantically structured using valid [HTML5][23] with presentational de
 [11]: https://rubygems.org/gems/jekyll-smartify
 [12]: https://github.com/penibelst/jekyll-compress-html
 [13]: https://github.com/christian-fei/Simple-Jekyll-Search
-[14]: https://github.com/octopress/
-[15]: https://github.com/berlinonline/converjon
-[16]: https://rubygems.org/gems/exiftool
-[17]: https://npmjs.com/package/fontfaceobserver
-[18]: https://github.com/scottjehl/picturefill
-[19]: https://github.com/ten1seven/what-input
-[20]: http://susy.oddbird.net
-[21]: https://rubygems.org/gems/typogruby
-[22]: http://mapbox.com/
-[23]: http://w3.org/TR/html5/
-[24]: http://w3.org/Style/CSS/
-[25]: http://atomenabled.org/
+[14]: https://rubygems.org/gems/exiftool
+[15]: https://npmjs.com/package/fontfaceobserver
+[16]: https://github.com/scottjehl/picturefill
+[17]: https://github.com/ten1seven/what-input
+[18]: http://susy.oddbird.net
+[19]: https://rubygems.org/gems/typogruby
+[20]: http://mapbox.com/
+[21]: http://w3.org/TR/html5/
+[22]: http://w3.org/Style/CSS/
+[23]: http://atomenabled.org/
 
 *[CSS]: Cascading Style Sheets
 *[HTML]: HyperText Markup Language
 *[RSS]: Really Simple Syndication
+*[Inc.]: Incorporated

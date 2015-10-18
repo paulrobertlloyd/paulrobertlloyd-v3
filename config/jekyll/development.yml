@@ -1,9 +1,4 @@
-env: development
 url: http://paulrobertlloyd.dev
-
-# Assets
-assets:
-  cachebust: none
 
 # Picture
 picture:

@@ -12,13 +12,14 @@ end
 gem 'jekyll', '~> 3.0.0.pre.beta'
 group :jekyll_plugins do
   gem 'jekyll-archives', github: 'jekyll/jekyll-archives'
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', github: 'jekyll/jekyll-assets'
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
   gem 'jekyll-smartify'
 
-  gem 'octopress-autoprefixer'
+  # gem 'octopress-autoprefixer'
 
+  gem 'autoprefixer-rails'
   gem 'exiftool'
   gem 'oembed'
   gem 'susy'
