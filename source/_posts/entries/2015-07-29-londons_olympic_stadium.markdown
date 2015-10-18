@@ -38,9 +38,9 @@ They decided to build a venue with a modest legacy: that of a small 25,000 seate
 
 Two events conspired against this vision.
 
-4 May 2008. With designs finalised and construction under way, Boris Johnson succeeded Ken Livingston as Mayor of London. Unlike his predecessor, he wanted to retain a venue with a high capacity after the games, which meant securing a Premier League football club as a permanent tenant.
+*4 May 2008*. With designs finalised and construction under way, Boris Johnson succeeded Ken Livingston as Mayor of London. Unlike his predecessor, he wanted to retain a venue with a high capacity after the games, which meant securing a Premier League football club as a permanent tenant.
 
-4 August 2012. Day 8 of London 2012, and Great Britain's most successful day at an Olympic Games since 1908. Soon dubbed '[Super Saturday][19]', it culminated within the space of 46 minutes with Jessica Ennis, Greg Rutherford and Mo Farah each winning gold medals at the stadium that evening. These achievements, days after the country had been emotionally cajoled by Danny Boyle's [heartwarming opening ceremony][20], meant the stadium was seared into the country's consciousness. Dismantling what had become an iconic venue, seemed unthinkable.
+*4 August 2012*. Day 8 of London 2012, and Great Britain's most successful day at an Olympic Games since 1908. Soon dubbed '[Super Saturday][19]', it culminated within the space of 46 minutes with Jessica Ennis, Greg Rutherford and Mo Farah each winning gold medals at the stadium that evening. These achievements, days after the country had been emotionally cajoled by Danny Boyle's [heartwarming opening ceremony][20], meant the stadium was seared into the country's consciousness. Dismantling what had become an iconic venue, seemed unthinkable.
 
 {% figure u-bleed "Jessica Ennis celebrates winning the women's heptathlon during 'Super Saturday'. Photograph: [Al King](https://www.flickr.com/photos/kinglomo/7716826098)" %}
 {% picture showcase /2015/07/jessica_ennis_super_saturday_2012.jpg alt="" %}
@@ -81,7 +81,7 @@ Visiting the stadium in athletics mode, it's hard to judge what it will feel lik
 While a future for the venue has been secured, it has come at a considerable cost -- and with much obfuscation of the fact that tax payers have effectively paid for two stadiums. If I were to make a prediction about its medium-term future, I'm not sure it would involve West Ham United, even if they have effectively been gifted a publicly subsidised ground. Still, at least London now has a semi-permanent athletics venue, and one capable of holding the World Championships in Athletics in 2017.
 
 ## Lessons Ignored
-All this takes place within a broader context, one in which similar mistakes continue to be made around the world. Only this month, the Japanese government scrapped plans to build [Zaha Hadid's controversial Olympic stadium][25] in Tokyo. Organisers might have been tempted to revert back to earlier plans which involved upgrading the [stadium used during the 1964 games][26]... except this has been demolished to make way for the new one. You couldn't make this stuff up.
+This takes place within a broader context, one in which similar mistakes continue to be made around the world. Only this month, the Japanese government scrapped plans to build [Zaha Hadid's controversial Olympic stadium][25] in Tokyo. Organisers might have been tempted to revert back to earlier plans which involved upgrading the [stadium used during the 1964 games][26]... except this has been demolished to make way for the new one. You couldn't make this stuff up.
 
 {% figure u-bleed "Zaha Hadid's controversial design for Tokyo's new Olympic Stadium. Render: © [Zaha Hadid Architects](http://www.zaha-hadid.com/architecture/new-national-stadium/)" %}
 {% picture showcase /2015/07/tokyo_olympic_stadium_proposal.jpg alt="" %}
