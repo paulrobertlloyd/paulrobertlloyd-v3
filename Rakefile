@@ -11,26 +11,20 @@ source = "source"
 config = "config"
 
 
-desc "Clean up prepared and built files"
-task :clean do |t|
-  rm_rf [destination]
+desc "Regenerate the website files and place them into destination"
+task :'watch' do
+  sh "bundle exec jekyll build --watch --config config/jekyll.yml,config/jekyll/development.yml --profile"
 end
 
 
 desc "Regenerate the website files and place them into destination"
-task :'dev-build' do
-  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --profile"
+task :'build-dev' do
+  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --full-rebuild"
 end
 
 
 desc "Regenerate the website files and place them into destination"
-task :'dev-rebuild' => :clean do
-  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --full-rebuild"
-end
-
-
-desc "Regenerate the website files and place them into destination"
-task :build => :clean do
+task :build do
   sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml --full-rebuild"
 end
 
@@ -44,8 +38,6 @@ task :deploy => :build do
   sh "rsync -hvrt --delete-after #{destination} #{user}@#{server}:#{path}"
   sh "rsync -hvrt --delete-after #{config} #{user}@#{server}:#{path}"
   puts "Your website is now published!"
-  # sh "nginx -s reload"
-  # puts "Server restarted"
 end
 
 
