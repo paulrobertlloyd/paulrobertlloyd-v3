@@ -42,7 +42,7 @@ Living in Brighton means I'm within commuting distance of London. I'm also happy
 
 An accomplished speaker, I’ve been [featured at events around the UK and Europe][8]. Working at the intersection of graphic design and web development means my talks (and [articles][9]) typically advocate collaborative practice, design systems and embracing the universal nature of the web.
 
-I’m currently speaking about [the principles underlying responsive web design][10], but can develop a talk more attuned your particular event or audience.
+I’m currently speaking about [the principles underlying responsive web design][10], but can develop a talk more attuned to your particular event or audience.
 
 I believe conferences and meet-ups should offer a safe space for speakers and attendees, so I only accept invitations to speak at events that publish and uphold a [code of conduct][11].
 
