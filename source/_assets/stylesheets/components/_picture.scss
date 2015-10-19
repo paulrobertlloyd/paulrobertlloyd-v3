@@ -2,6 +2,7 @@
     Picture
     ========================================================================= */
 
-.c-picture {
+.c-picture,
+.c-item .u-photo { // Shouldn't style this µf class, but it replaces .c-picture
     width: 100%; // Ensure low resolution images fill space of full size image
 }

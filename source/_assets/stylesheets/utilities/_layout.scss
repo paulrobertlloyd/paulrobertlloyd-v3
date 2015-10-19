@@ -38,7 +38,7 @@
 /* Align element right or left */
 .u-align-right {
     float: right;
-    margin-top: 0 !important;
+    margin-top: 0.25rem !important;
     margin-bottom: 0.5rem !important;
     margin-left: $gn__gutter !important;
     width: $gn__span2;
@@ -46,7 +46,7 @@
 
 .u-align-left {
     float: left;
-    margin-top: 0 !important;
+    margin-top: 0.25rem !important;
     margin-right: $gn__gutter !important;
     margin-bottom: 0.5rem !important;
     width: $gn__span2;
@@ -72,7 +72,7 @@
 
 /* Pull element right or left */
 .u-pull-right {
-    margin-top: 0 !important;
+    margin-top: 0.25rem !important;
     margin-bottom: 1rem !important;
 
     @media (min-width: $b__a) {
@@ -87,7 +87,7 @@
 }
 
 .u-pull-left {
-    margin-top: 0 !important;
+    margin-top: 0.25rem !important;
     margin-bottom: 1rem !important;
 
     @media (min-width: $b__a) {
@@ -142,7 +142,7 @@
 /* Vertically separate two strings with a slash */
 .u-separate {
     &::after {
-        margin: 0 0.25rem;
+        margin: 0 0.15rem;
         color: rgba($c__neutral-mid, 0.5);
         font-weight: normal;
         content: '\00a0/';

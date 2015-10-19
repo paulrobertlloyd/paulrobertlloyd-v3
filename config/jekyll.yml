@@ -94,7 +94,7 @@ defaults:
 
 # Assets
 assets:
-  cache: .jekyll-assets-cache
+  cache: false
   sources:
     - _assets/fonts
     - _assets/icons
