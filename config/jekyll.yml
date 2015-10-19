@@ -110,6 +110,7 @@ compress_html:
 
 # Pictures
 picture:
+# key: '441922692530'
   markup: img
   source: /images
   presets:
