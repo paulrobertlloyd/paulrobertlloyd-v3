@@ -11,6 +11,12 @@ source = "source"
 config = "config"
 
 
+desc "Clean up prepared and built files"
+task :clean do |t|
+  rm_rf [destination]
+end
+
+
 desc "Regenerate the website files and place them into destination"
 task :'watch' do
   sh "bundle exec jekyll build --watch --config config/jekyll.yml,config/jekyll/development.yml --profile"
@@ -18,13 +24,13 @@ end
 
 
 desc "Regenerate the website files and place them into destination"
-task :'build-dev' do
-  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --full-rebuild"
+task :'build-dev' => :clean do
+  sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --full-rebuild"
 end
 
 
 desc "Regenerate the website files and place them into destination"
-task :build do
+task :build => :clean do
   sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml --full-rebuild"
 end
 

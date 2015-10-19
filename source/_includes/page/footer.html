@@ -4,17 +4,15 @@
         <a class="c-page__author u-hidden  p-author h-card" href="{{ site.author.url }}" rel="author">{{ site.author.name }}</a>
 
         <span class="u-hidden">on</span>
-        <a class="c-page__permalink  u-url" href="{{ page.url }}" rel="bookmark"><time class="c-page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time></a>
+        <a class="c-page__permalink u-separate  u-url" href="{{ page.url }}" rel="bookmark"><time class="c-page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time></a>
 
         {% if page.location %}
         {% assign page_location = page.location | split:", " %}
-        <span class="u-separate"></span>
         <span class="u-hidden">in</span>
-        <span class="c-page__location  p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
+        <span class="c-page__location u-separate  p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
         {% endif %}
 
         {% if page.license %}
-        <span class="u-separate"></span>
         <span class="u-hidden">and available under a {{ page.license.type }}</span>
         <a class="c-page__license" rel="license" href="{{ page.license.url }}" title="{{ page.license.description }}">{{ page.license.terms }}</a>
         <span class="u-hidden">license</span>
