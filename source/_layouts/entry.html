@@ -15,8 +15,8 @@ layout: default
             {% endif %}
 
             {% if page.embed %}
-                {% figure u-bleed "{{ page.embed.caption }}" %}
-{% embed {{ page.embed.url }} %}
+                {% figure u-bleed %}
+{% include embed.html url=page.embed.url %}
                 {% endfigure %}
             {% endif %}
 

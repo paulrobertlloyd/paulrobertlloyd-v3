@@ -1,8 +1,7 @@
 ---
 title: Bruce Lawson's Thoughts on Adobe Edge
 date: '2012-10-08 19:38:45 +0100'
-link:
-  url: http://brucelawson.co.uk/2012/thoughts-on-adobe-edge/
+link: http://brucelawson.co.uk/2012/thoughts-on-adobe-edge/
 tags:
   - Adobe
 ---

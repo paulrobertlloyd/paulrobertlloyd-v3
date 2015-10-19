@@ -1,8 +1,7 @@
 ---
 title: 'The Ethics of Digital Design'
 date: '2015-07-14 23:12:00 +0100'
-link:
-  url: http://www.designcouncil.org.uk/news-opinion/ethics-digital-design
+link: http://www.designcouncil.org.uk/news-opinion/ethics-digital-design
 tags:
   - Design
   - Ethics

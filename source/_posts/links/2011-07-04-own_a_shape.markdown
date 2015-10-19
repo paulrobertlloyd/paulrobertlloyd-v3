@@ -1,8 +1,7 @@
 ---
 title: Own a Shape
 date: '2011-07-04 23:44:18 +0100'
-link:
-  url: http://interuserface.net/2011/06/own-a-shape/
+link: http://interuserface.net/2011/06/own-a-shape/
 tags:
   - Design
   - User interface

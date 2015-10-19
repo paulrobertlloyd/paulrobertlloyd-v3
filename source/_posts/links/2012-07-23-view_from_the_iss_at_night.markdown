@@ -1,9 +1,8 @@
 ---
 title: View From the ISS at Night
 date: '2012-07-23 01:34:09 +0100'
-link:
-  url: https://vimeo.com/45878034
-  embed: video
+link: https://vimeo.com/45878034
+embed: true
 theme: dark
 tags:
   - Video

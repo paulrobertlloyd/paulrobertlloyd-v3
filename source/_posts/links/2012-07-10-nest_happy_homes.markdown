@@ -1,8 +1,7 @@
 ---
 title: Nest Happy Homes
 date: '2012-07-10 18:54:55 +0100'
-link:
-  url: https://nest.com/blog/2012/07/10/nest-happy-homes-video/
+link: https://nest.com/blog/2012/07/10/nest-happy-homes-video/
 tags:
   - Video
   - Advertising

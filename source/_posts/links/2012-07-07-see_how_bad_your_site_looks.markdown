@@ -1,8 +1,7 @@
 ---
 title: See How Bad Your Site Looks
 date: '2012-07-07 22:51:50 +0100'
-link:
-  url: https://twitter.com/anna_debenham/status/221277339517067265
+link: https://twitter.com/anna_debenham/status/221277339517067265
 tags:
   - Web
 ---

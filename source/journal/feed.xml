@@ -18,12 +18,12 @@
 
     {% for post in site.posts limit:25 %}
     <entry>
-        {% case post.layout %}
-        {% when "post-gallery" %}
+        {% case post.type %}
+        {% when "gallery" %}
             {% assign title_prefix = "Gallery: " %}
-        {% when "post-link" %}
+        {% when "link" %}
             {% assign title_prefix = "Link: " %}
-        {% when "post-entry" %}
+        {% when "entry" %}
             {% assign title_prefix = "★ " %}
         {% endcase %}
         <id>{{ site.url }}{{ post.id }}</id>
@@ -39,20 +39,16 @@
 {% endif %}
 
 {% if post.embed %}
-    {% figure "{{ post.embed.caption }}" %}
-{% embed {{ post.embed.url }} %}
+    {% figure %}
+{% include embed.html url=post.link %}
     {% endfigure %}
 {% endif %}
 
-{% if post.link.embed %}
-    {% embed {{ post.link.url }} %}
-{% endif %}
-
 {{ post.content | markdownify }}
-{% case post.layout %}
-{% when "post-gallery" %}
+{% case post.type %}
+{% when "gallery" %}
     <p><a href="{{ post.url }}">View this gallery &#10217;</a></p>
-{% when "post-link" %}
+{% when "link" %}
     <p><a href="{{ post.link.url }}">Visit this link &#10217;</a></p>
 {% endcase %}
 ]]>

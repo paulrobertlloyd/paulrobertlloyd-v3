@@ -1,8 +1,7 @@
 ---
 title: Not Excited by the Olympics? Then Thank God for the Sponsors
 date: '2012-05-03 22:22:59 +0100'
-link:
-  url: http://www.theguardian.com/commentisfree/2012/apr/22/olympics-thank-god-for-sponsors
+link: http://www.theguardian.com/commentisfree/2012/apr/22/olympics-thank-god-for-sponsors
 tags:
   - Olympics
 ---

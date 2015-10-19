@@ -16,9 +16,9 @@
         </p>
     </footer>
 
-    {% if item.link.embed == "photo" or item.link.embed == "video" %}
+    {% if item.link.embed %}
     <div class="c-item__media u-bleed">
-        {% embed {{ item.link.url }} %}
+        {% include embed.html url=item.link.url %}
     </div>
     {% endif %}
 

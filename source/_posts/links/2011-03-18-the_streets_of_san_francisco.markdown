@@ -1,8 +1,7 @@
 ---
 title: The Streets of San Francisco
 date: '2011-03-18 18:21:14 +0000'
-link:
-  url: https://twitter.com/paulrobertlloyd/status/48554999638278144
+link: https://twitter.com/paulrobertlloyd/status/48554999638278144
 tag:
   - Travel
   - San Francisco

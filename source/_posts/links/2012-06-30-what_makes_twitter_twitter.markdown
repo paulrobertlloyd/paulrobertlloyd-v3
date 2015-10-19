@@ -1,8 +1,7 @@
 ---
 title: What makes Twitter Twitter?
 date: '2012-06-30 23:14:02 +0100'
-link:
-  url: http://adrianshort.org/2012/06/29/what-makes-twitter-twitter/
+link: http://adrianshort.org/2012/06/29/what-makes-twitter-twitter/
 tags:
   - Twitter
 ---

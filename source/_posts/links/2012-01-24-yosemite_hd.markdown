@@ -1,9 +1,8 @@
 ---
 title: Yosemite HD
 date: '2012-01-24 19:47:07 +0000'
-link:
-  url: https://vimeo.com/35396305
-  embed: video
+link: https://vimeo.com/35396305
+embed: true
 theme: dark
 tags:
   - Video

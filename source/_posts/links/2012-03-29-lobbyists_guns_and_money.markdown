@@ -1,8 +1,7 @@
 ---
 title: Lobbyists, Guns and Money
 data: '2012-03-29 23:15:23 +0000'
-link:
-  url: http://www.nytimes.com/2012/03/26/opinion/krugman-lobbyists-guns-and-money.html
+link: http://www.nytimes.com/2012/03/26/opinion/krugman-lobbyists-guns-and-money.html
 tags:
   - Politics
   - Gun control

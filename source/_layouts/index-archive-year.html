@@ -29,10 +29,10 @@ layout: index
             </li>
 
     {% else %}
-        {% case item.layout %}
-        {% when "post-gallery" %}
+        {% case item.type %}
+        {% when "gallery" %}
             {% include item/gallery.html %}
-        {% when "post-link" %}
+        {% when "link" %}
             {% include item/link.html %}
         {% else %}
             {% include item/entry.html %}
