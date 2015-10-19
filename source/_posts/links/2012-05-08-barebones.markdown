@@ -1,8 +1,7 @@
 ---
 title: Barebones
 date: '2012-05-08 12:20:24 +0100'
-link:
-  url: http://barebones.paulrobertlloyd.com/
+link: http://barebones.paulrobertlloyd.com/
 tags:
   - Projects
   - Web

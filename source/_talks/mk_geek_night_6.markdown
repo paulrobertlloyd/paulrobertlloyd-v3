@@ -2,9 +2,9 @@
 title: Fear, Uncertainty and Doubt
 date: '2013-09-19 20:30:00 +0100'
 excerpt: 'This is a talk about the world we live in. One which sees us becoming increasingly reliant upon a small number of web services and the companies that operate them, most of which emanate from a small centre of innovation: Silicon Valley.'
-link:
-  url: https://speakerdeck.com/paulrobertlloyd/fear-uncertainty-and-doubt
-  embed: slidedeck
+link: https://speakerdeck.com/paulrobertlloyd/fear-uncertainty-and-doubt
+embed:
+  id: bddf0700041d0131954356f7ac4f018a
 meta:
   event: 'MK Geek Night #6'
   location: 'Milton Keynes, England'

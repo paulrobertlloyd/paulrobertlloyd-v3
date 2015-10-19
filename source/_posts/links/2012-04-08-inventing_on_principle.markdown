@@ -1,9 +1,8 @@
 ---
 title: Inventing on Principle
 date: '2012-04-08 00:41:13 +0100'
-link:
-  url: https://vimeo.com/36579366
-  embed: video
+link: https://vimeo.com/36579366
+embed: true
 theme: dark
 tags:
   - Design

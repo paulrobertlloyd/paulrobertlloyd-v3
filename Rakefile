@@ -19,7 +19,7 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :'dev-build' do
-  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml"
+  sh "bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --profile"
 end
 
 

@@ -45,12 +45,14 @@ defaults:
       type: content
     values:
       layout: content
+      type: content
 
   - scope:
       type: posts
       path: '_posts/entries'
     values:
-      layout: post-entry
+      layout: entry
+      type: entry
       license:
         type: Creative Commons
         terms: BY-NC-SA
@@ -61,29 +63,34 @@ defaults:
       type: posts
       path: '_posts/links'
     values:
-      layout: post-link
+      layout: entry
+      type: link
 
   - scope:
       type: posts
       path: '_posts/galleries'
     values:
-      layout: post-gallery
+      layout: gallery
+      type: gallery
       theme: dark
 
   - scope:
       type: projects
     values:
       layout: project
+      type: project
 
   - scope:
       type: talks
     values:
       layout: talk
+      type: talk
 
   - scope:
       type: discussions
     values:
       layout: discussion
+      type: discussion
 
 # Assets
 assets:
@@ -98,6 +105,8 @@ assets:
 # HTML Compression
 compress_html:
   clippings: all
+  ignore:
+    envs: development
 
 # Pictures
 picture:

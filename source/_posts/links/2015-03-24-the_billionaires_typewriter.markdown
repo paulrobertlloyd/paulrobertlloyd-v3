@@ -1,8 +1,7 @@
 ---
 title: 'The Billionaire''s Typewriter'
 date: '2015-03-24 12:59:18 +0000'
-link:
-  url: http://practicaltypography.com/billionaires-typewriter.html
+link: http://practicaltypography.com/billionaires-typewriter.html
 tags:
   - Ethics
   - Silicon Valley

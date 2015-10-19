@@ -1,8 +1,7 @@
 ---
 title: 'Tomorrow''s Technology, Yesterday''s Insights'
 date: '2015-07-28 01:19:00 +0100'
-link:
-  url: https://medium.com/@jonas_blind_hen/tomorrow-s-technology-yesterday-s-insights-273704613c03
+link: https://medium.com/@jonas_blind_hen/tomorrow-s-technology-yesterday-s-insights-273704613c03
 tags:
   - America
   - Google

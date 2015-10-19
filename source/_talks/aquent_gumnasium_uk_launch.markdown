@@ -2,9 +2,9 @@
 title: Keep Up!
 date: '2013-07-31 16:00:00 +0100'
 excerpt: 'Aquent Gymnasium is an online learning platform that offers free courses for designers looking to improve their web development skills. This is the talk I gave at their UK Launch event.'
-link:
-  url: https://speakerdeck.com/paulrobertlloyd/keep-up
-  embed: slidedeck
+link: https://speakerdeck.com/paulrobertlloyd/keep-up
+embed:
+  id: e4744a70dcc8013041507e23ed634b90
 meta:
   event: 'Aquent Gymnasium UK Launch'
   location: 'London, England'

@@ -1,8 +1,7 @@
 ---
 title: No Longer Loving Google
 date: '2012-02-02 20:05:11 +0000'
-link:
-  url: http://somebits.com/weblog/tech/no-longer-loving-google.html
+link: http://somebits.com/weblog/tech/no-longer-loving-google.html
 tags:
   - Google
   - DuckDuckGo

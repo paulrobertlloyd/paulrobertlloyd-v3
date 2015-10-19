@@ -1,8 +1,7 @@
 ---
 title: 'Naming Things'
 date: '2014-12-22 12:35:26 +0000'
-link:
-  url: http://24ways.org/2014/naming-things/
+link: http://24ways.org/2014/naming-things/
 tags:
   - Writing
   - 24 ways

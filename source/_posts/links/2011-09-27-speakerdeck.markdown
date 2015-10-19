@@ -1,8 +1,7 @@
 ---
 title: Speaker Deck
 date: '2011-09-27 00:17:32 +0100'
-link:
-  url: http://speakerdeck.com/
+link: http://speakerdeck.com/
 tags:
   - SlideShare
   - Speaker Deck

@@ -2,9 +2,10 @@
 title: 'Responsive Principles: A Framework for Future Learning'
 date: '2015-09-19 00:00:00 +0200'
 excerpt: 'Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.'
-link:
-  url: https://speakerdeck.com/paulrobertlloyd/responsive-principles-webexpo
-  embed: slidedeck
+link: https://speakerdeck.com/paulrobertlloyd/responsive-principles-webexpo
+embed:
+  id: 48fb3eb6d06f4b2d84036db47cdc35a6
+  ratio: 16/9
 meta:
   event: 'WebExpo 2015'
   location: 'Prague, Czech Republic'

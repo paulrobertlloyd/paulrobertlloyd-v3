@@ -1,9 +1,8 @@
 ---
 title: Filmography 2010
 date: '2010-12-31 01:41:00 +0000'
-link:
-  url: https://www.youtube.com/watch?v=I4dEWOB6THE
-  embed: video
+link: https://www.youtube.com/watch?v=I4dEWOB6THE
+embed: true
 theme: dark
 tags:
   - Video

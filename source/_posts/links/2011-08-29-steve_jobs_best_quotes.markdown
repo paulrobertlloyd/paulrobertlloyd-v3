@@ -1,8 +1,7 @@
 ---
 title: Steve Jobs' Best Quotes
 date: '2011-08-29 22:14:18 +0100'
-link:
-  url: http://blogs.wsj.com/digits/2011/08/24/steve-jobss-best-quotes/
+link: http://blogs.wsj.com/digits/2011/08/24/steve-jobss-best-quotes/
 tags:
   - Steve Jobs
 ---

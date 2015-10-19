@@ -1,8 +1,7 @@
 ---
 title: Hacked Off
 date: '2011-07-29 14:16:02 +0100'
-link:
-  url: https://twitter.com/sniffpetrol/status/96848013997260801
+link: https://twitter.com/sniffpetrol/status/96848013997260801
 tags:
   - BSkyB
   - Red Bull Racing

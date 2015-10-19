@@ -2,9 +2,9 @@
 title: This is for Everyone
 date: '2013-05-10 20:30:00 +0100'
 excerpt: 'Constantly viewed through the lens of other media, design on the web has remained constrained by the rituals of print and latterly a desire to mimic native applications. With the help of Doctor Who and the Avengers, I’ll show you how the web’s underlying principles can inform our designs and help us deliver experiences that are true to the nature of the web.'
-link:
-  url: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-port-80
-  embed: slidedeck
+link: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-port-80
+embed:
+  id: 61e41fc09d7901308e941a9333edbc11
 meta:
   event: 'Port80 2013'
   location: 'Newport, Wales'

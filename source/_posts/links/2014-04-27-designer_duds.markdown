@@ -1,8 +1,7 @@
 ---
 title: 'Designer Duds: Losing Our Seat at the Table'
 date: '2014-04-27 20:27:24 +0000'
-link:
-  url: https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table
+link: https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table
 tags:
   - Design
   - Silicon Valley

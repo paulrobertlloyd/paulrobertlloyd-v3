@@ -1,9 +1,8 @@
 ---
 title: Hooray For Earth - True Loves
 date: '2011-09-07 23:04:34 +0100'
-link:
-  url: https://www.youtube.com/watch?v=Mf6JCpJjdiY
-  embed: video
+link: https://www.youtube.com/watch?v=Mf6JCpJjdiY
+embed: true
 theme: dark
 tags:
   - Video

@@ -1,8 +1,7 @@
 ---
 title: 'Andy Higgs: Journey into Africa'
 date: '2013-06-22 02:09:48 +0100'
-link:
-  url: http://justbeyondthebridge.co.uk/blog/category/travel/
+link: http://justbeyondthebridge.co.uk/blog/category/travel/
 tags:
   - Travel
   - Africa

@@ -14,8 +14,8 @@ layout: default
         <div class="s-prose s-prose--body  e-content">
             {% include meta.html class="u-aside" %}
 
-            {% if page.link.embed %}
-                {% embed {{ page.link.url }} %}
+            {% if page.embed %}
+                {% include embed.html url=page.link id=page.embed.id ratio=page.embed.ratio %}
             {% endif %}
 
             {{ content | typogrify | namespace }}
