@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # Guard (automates development tasks)
 group :development do
   gem 'guard'
-  gem 'guard-jekyll-plus'
+  gem 'guard-jekyll-plus', github: 'guard/guard-jekyll-plus', branch: 'fix_loading_issue'
   gem 'guard-livereload'
   gem 'guard-scss-lint'
 end
@@ -12,12 +12,10 @@ end
 gem 'jekyll', '~> 3.0.0.pre.beta'
 group :jekyll_plugins do
   gem 'jekyll-archives', github: 'jekyll/jekyll-archives'
-  gem 'jekyll-assets', github: 'jekyll/jekyll-assets'
+  gem 'jekyll-assets', '~> 2.0.0.beta'
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
   gem 'jekyll-smartify'
-
-  # gem 'octopress-autoprefixer'
 
   gem 'autoprefixer-rails'
   gem 'exiftool'
