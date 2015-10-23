@@ -12,7 +12,7 @@
     {% assign embed_type = "slidedeck" %}
     {% assign embed_action = "View presentation on Speaker Deck" %}
 {% elsif include.url contains "vimeo" %}
-    {% assign embed_src = include.url | replace:"vimeo.com","player.vimeo.com" %}
+    {% assign embed_src = include.url | replace:"vimeo.com","player.vimeo.com/video" %}
     {% assign embed_type = "video" %}
     {% assign embed_action = "Watch video on Vimeo" %}
 {% elsif include.url contains "youtube" %}
