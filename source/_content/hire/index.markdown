@@ -54,7 +54,7 @@ I believe conferences and meet-ups should offer a safe space for speakers and at
 ## Contact
 {: .u-aside}
 
-If you want to work with me, or would like me to speak at your event, please contact me using the form below.
+If you want to work with me, or would like me to speak at your event, please get in touch using the form below.
 
 {% include form/contact.html note="Please provide as much detail as possible (budget, requirements, timelines) so I can respond to your enquiry more quickly." %}
 
