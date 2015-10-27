@@ -16,13 +16,15 @@ layout: default
 
             {% if page.embed %}
                 {% figure u-bleed %}
-{% include embed.html url=page.embed.url %}
+{% include embed.html url=page.link %}
                 {% endfigure %}
             {% endif %}
 
             {{ content | typogrify | namespace }}
         </div>
     </div>
+
+    {% include page/section--link.html %}
 
     {% include page/section--discussion.html %}
 

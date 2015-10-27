@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll-archives.git
-  revision: c9eac2c729bb3f8e3821bbaf529bd53cb5e7da66
+  revision: 659f024086ca68b4cd99e553c0970db9ee578140
   specs:
-    jekyll-archives (2.0.0)
+    jekyll-archives (2.1.0)
       jekyll (>= 2.4)
 
 GEM
@@ -42,7 +42,7 @@ GEM
       shellany (~> 0.0)
       thor (>= 0.18.1)
     guard-compat (1.2.1)
-    guard-livereload (2.5.0)
+    guard-livereload (2.5.1)
       em-websocket (~> 0.5)
       guard (~> 2.8)
       guard-compat (~> 1.0)
@@ -60,7 +60,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-assets (2.0.0.pre.beta2)
+    jekyll-assets (2.0.0.pre.beta3)
       jekyll (~> 3.0.0.pre.beta9)
       sprockets (~> 3.3)
       sprockets-helpers (~> 1.2)
@@ -132,7 +132,7 @@ DEPENDENCIES
   guard-jekyll-plus!
   guard-livereload
   guard-scss-lint
-  jekyll (~> 3.0.0.pre.beta)
+  jekyll (= 3.0.0.pre.beta10)
   jekyll-archives!
   jekyll-assets (~> 2.0.0.beta)
   jekyll-paginate
