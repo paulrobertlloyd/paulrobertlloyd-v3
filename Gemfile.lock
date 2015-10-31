@@ -1,21 +1,3 @@
-GIT
-  remote: git://github.com/guard/guard-jekyll-plus.git
-  revision: 7f8ff6dac91880470d260b4489ccf93bb03927ba
-  branch: fix_loading_issue
-  specs:
-    guard-jekyll-plus (2.0.2)
-      guard (~> 2.10, >= 2.10.3)
-      guard-compat (~> 1.1)
-      jekyll (>= 1.0.0)
-
-GIT
-  remote: git://github.com/jekyll/jekyll-archives.git
-  revision: c9eac2c729bb3f8e3821bbaf529bd53cb5e7da66
-  ref: c9eac2c
-  specs:
-    jekyll-archives (2.0.0)
-      jekyll (>= 2.4)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -43,6 +25,10 @@ GEM
       shellany (~> 0.0)
       thor (>= 0.18.1)
     guard-compat (1.2.1)
+    guard-jekyll-plus (2.0.2)
+      guard (~> 2.10, >= 2.10.3)
+      guard-compat (~> 1.1)
+      jekyll (>= 1.0.0)
     guard-livereload (2.5.1)
       em-websocket (~> 0.5)
       guard (~> 2.8)
@@ -52,7 +38,7 @@ GEM
       guard (~> 2.0)
       scss-lint (~> 0.30.0)
     http_parser.rb (0.6.0)
-    jekyll (3.0.0.pre.beta10)
+    jekyll (3.0.0)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -61,8 +47,10 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-assets (2.0.0.pre.beta3)
-      jekyll (~> 3.0.0.pre.beta9)
+    jekyll-archives (2.1.0)
+      jekyll (>= 2.4)
+    jekyll-assets (2.0.0.pre.beta4)
+      jekyll (~> 3.0.0)
       sprockets (~> 3.3)
       sprockets-helpers (~> 1.2)
     jekyll-paginate (1.1.0)
@@ -130,11 +118,11 @@ DEPENDENCIES
   autoprefixer-rails
   exiftool
   guard
-  guard-jekyll-plus!
+  guard-jekyll-plus
   guard-livereload
   guard-scss-lint
-  jekyll (= 3.0.0.pre.beta10)
-  jekyll-archives!
+  jekyll
+  jekyll-archives
   jekyll-assets (~> 2.0.0.beta)
   jekyll-paginate
   jekyll-sitemap
