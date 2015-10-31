@@ -24,7 +24,7 @@ Following up on the first interesting lead, I thought writing a proposal would b
 ## Birth of a salesman
 It seems working for yourself leaves little room for maintaining any dignity. Selling myself is not something that comes naturally, nor does asking for help. The thought of tweeting about my availability, or asking friends and peers for referrals fills me with absolute dread. Doing so feels like an admission of failure, but in fact the opposite is true; I suspect having not done so is precisely why finding work has been difficult.
 
-The good news is, having recognised these character traits, I can now start to adjust them. If finding work means gaining confidence _and_ humility, clarifying my ambitions and being more positive and outgoing, not only will I become a successful freelancer, but a more capable person too.
+The good news is, having recognised these character traits, I can now start to adjust them. If finding work means gaining confidence *and* humility, clarifying my ambitions and being more positive and outgoing, not only will I become a successful freelancer, but a more capable person too.
 
 _This entry originally appeared on [The Pastry Box Project][2]{:.u-syndication rel="syndication"}_
 

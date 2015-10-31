@@ -54,7 +54,7 @@ This location was also referenced using a historic county, with Sussex displayed
 ### Wood Green, London
 {% picture /2009/06/historic_counties_and_psychoville_wood_green.jpg alt="Psychoville onscreen title for Wood Green, London" %}
 
-Formally Wood Green was a municipal borough within the county of Middlesex, but is now part of the London Borough of Haringey, one of 32 London boroughs within Greater London. This is a bit of an anomaly, as Greater London is formerly classed as an 'administrative area' and 'local government region', but _not_ a county.
+Formally Wood Green was a municipal borough within the county of Middlesex, but is now part of the London Borough of Haringey, one of 32 London boroughs within Greater London. This is a bit of an anomaly, as Greater London is formerly classed as an 'administrative area' and 'local government region', but *not* a county.
 
 Whilst Greater London assumed parts of neighbouring counties and lead to Middlesex being abolished entirely, this historic county still exists in the public consciousness. A tin of Heinz Baked Beans will show the company address as Hayes, Middlesex, whilst a can of Coke may list an address of Uxbridge, Middlesex.
 Using historic Counties for addresses in London can be confusing, so the recommended form is to use the County followed by the Post Town, for example:

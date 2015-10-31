@@ -5,7 +5,7 @@ date: '2008-12-01 02:02:21 +0000'
 excerpt: I briefly encountered Chicago in March, relaxing there for two nights after three long days aboard the California Zephyr. At that time it was a snow covered, cold and blustery city, but I saw enough to want to come back.
 image:
   url: /2008/12/chicago.jpg
-  caption: _Cloud Gate_ by Anish Kapoor
+  caption: '*Cloud Gate* by Anish Kapoor'
 tags:
   - Architecture
   - Travel
@@ -22,7 +22,7 @@ Having spent the previous week in the smaller cities of [Seattle][2] and San Fra
 
 I was more surprised by how layered in nature Chicago is. Streets above streets, bridges across rivers and subways that tunnel underground as well as elevate themselves along the central section known as the ['Loop'][3]. It might have been easy to forget this multi-layering of transportation modes if it wasn't for the way roads flexed and bounced when heavy traffic passed over them, or how the elevated stations swayed slightly in the wind.
 
-More noticeable was unpleasant smell that followed you around (perhaps unsurprising given the name Chicago can actually be translated to mean 'striped skunk'). Much of this smell can be attributed to the [Chicago River][4], which was reversed so that sewage would flow down stream rather than out to Lake Michigan (from where the city's drinking water is sourced). Whilst the river has a beautiful blue tint, it is actually classed as _polluted_ by the EPA -- only upgraded from a _toxic_ classification a few years ago.
+More noticeable was unpleasant smell that followed you around (perhaps unsurprising given the name Chicago can actually be translated to mean 'striped skunk'). Much of this smell can be attributed to the [Chicago River][4], which was reversed so that sewage would flow down stream rather than out to Lake Michigan (from where the city's drinking water is sourced). Whilst the river has a beautiful blue tint, it is actually classed as *polluted* by the EPA -- only upgraded from a *toxic* classification a few years ago.
 
 The highlight of my time, was taking an Architecture Boat Tour, given by the [Chicago Architecture Foundation][5]. I noticed the strong architectural style of the city when I was here in March, but I must admit until this 90 minute tour along the river, I was a little naive as to the many celebrated architects and companies that worked on the buildings, as well as the shear breadth of styles used. From Art Deco warehouses of former mail order companies, to modernist skyscrapers of large American corporations (particularly those of Mies van der Rohe and his contemporaries), each building had it's own unique charm, and I would be hard pressed to pick a favourite.
 

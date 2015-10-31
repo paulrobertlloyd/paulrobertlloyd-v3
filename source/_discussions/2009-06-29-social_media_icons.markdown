@@ -197,7 +197,7 @@ remarks:
       
       Rogie is obviously a far more talented illustrator than I am, and I love that each of his icons reflect his own unique style. Yet at the same time this is precisely why I wanted to create my own icons -- I wanted icons with a more generic feel, simply customised so that they felt like they belonged to the same family.
       
-      Now these icons may not be _that_ different to Rogie's, but how could they be? After all both sets of icons are built upon the same foundations -- that of the logos and colours of the respective social networking services. However each and every pixel of these icons has been crafted by my own fair hands, and many hours have been spent working on them.
+      Now these icons may not be *that* different to Rogie's, but how could they be? After all both sets of icons are built upon the same foundations -- that of the logos and colours of the respective social networking services. However each and every pixel of these icons has been crafted by my own fair hands, and many hours have been spent working on them.
       
       I apologise for the lengthy reply, but it may not surprise you that I'm a little annoyed by your comments, both here and on Twitter (with its [rather flimsy retraction](http://twitter.com/mike9r/status/2740676784)). If you don't like my icons, then of course that's your own personal opinion, but please don't insult me by claiming I am some sort of rip-off artist. I find such comments unhelpful.
   
@@ -931,7 +931,7 @@ remarks:
       * Spotify
       * BBC iD
       
-      Given the current number of icons in this package, I'd be very interested to hear your thoughts on which icons should now be _removed_.
+      Given the current number of icons in this package, I'd be very interested to hear your thoughts on which icons should now be *removed*.
       With regards to icons for WordPress and Blogger, I encourage you to read my most recent blog post on the matter: [Social Media Icons: A Rationale](http://paulrobertlloyd.com/2010/03/social_media_icons_rationale).
       The short answer is that I don't plan on adding icons for every type publishing platform -- especially when the 'Website' icon fulfils this role. Nor do I anticipate updating the YouTube icon to match the current favicon, because frankly, it's ugly.
       I am thinking about ways in which I can provide a template file with this package though, which would allow you to create your own icons in a similar style. If you have suggestions as to which format(s) this should be  available in, please let me know!

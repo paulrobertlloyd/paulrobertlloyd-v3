@@ -11,7 +11,7 @@ tags:
   - Web
   - net Magazine
 ---
-Each month [net Magazine][1] run a section called _Exchange_, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was asked to be the responsive expert in their March issue, which is on sale now.
+Each month [net Magazine][1] run a section called *Exchange*, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was asked to be the responsive expert in their March issue, which is on sale now.
 
 In the spirit of [previous][2] [articles][3], I'm sharing my unedited answers here as well.
 

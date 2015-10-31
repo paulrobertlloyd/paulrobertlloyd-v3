@@ -18,13 +18,13 @@ Bron Thomson, Springload's founder and Managing Director told me how they create
 
 * * *
 
-<span class="u-caps">Paul Lloyd</span>: _Why did you take the responsive approach?_
+<span class="u-caps">Paul Lloyd</span>: *Why did you take the responsive approach?*
 
 <span class="u-caps">Bron Thomson</span>: Kiwibank has this fantastic ambition to be a digital leader among New Zealand companies -- not just banks. There's a roadmap of digital initiatives that are pretty revolutionary, and with mobile traffic pushing past 10% of Kiwibank's total traffic (and set to overtake desktop traffic in the coming years), the decision was made to go device agnostic. The fixed-width desktop paradigm has run its useful course -- last year, we noticed that 20 people tried to join Kiwibank from their Playstation 3.
 
 * * *
 
-PL: _Only the home page is responsive currently. What challenges did this create, and how are you managing users expectations during the transition?_
+PL: *Only the home page is responsive currently. What challenges did this create, and how are you managing users expectations during the transition?*
 
 BT: Working on a content-rich site of this scale is kind of like painting a boat -- you're never really finished. With that in mind, Kiwibank's social media team have been really open with customers about the changes we're making (and why). We started going responsive last year on some key inside pages -- the [Join][4] page, [First Home Buyers Guide][5], and the [Ways to Bank][6] section.
 
@@ -34,7 +34,7 @@ There's always an understandable reaction when you change one of New Zealand's m
 
 * * *
 
-PL: _Is this the first responsive site Springload have worked on?_
+PL: *Is this the first responsive site Springload have worked on?*
 
 BT: We've tested a range of approaches over the last couple of years: Specific m-dot sites in jQuery mobile ([festival.co.nz][7]), PhoneGap wrapped web apps (the [Kiwibank mobile banking app][8] and some internal tools), and we're delving into native iOS as well. These are all valid, but quickly get quite complex. You end up with two or three different sets of device-specific logic, which is a maintenance nightmare. We're pretty convinced that a responsive approach gives the widest number of people a great web experience regardless of how they access it, and simplifies content management for the site owner.
 
@@ -42,7 +42,7 @@ Another responsive project we've finished recently is [klim.co.nz][9] for type g
 
 * * *
 
-PL: _Was there anything you learnt whilst designing/building this site?_
+PL: *Was there anything you learnt whilst designing/building this site?*
 
 BT: Content is really, really important. We've banned Lorem Ipsum in the office, and we try not to have a typical client/agency relationship -- the Kiwibank copywriting team come and work at Springload HQ a couple of days a week. They also enjoy our beer.
 
@@ -52,7 +52,7 @@ It's worth noting that there are no real magic bullets. We use a combination of 
 
 * * *
 
-PL: _How has the design process changed to encompass a responsive workflow?_
+PL: *How has the design process changed to encompass a responsive workflow?*
 
 BT: One of the key changes has been to start the whole team (designers, developers, front-end devs) on the project at once. Even before the designs were finished, we needed a slick front-end framework, and the back end guys had to wrestle the IIS/ASP classic server into submission too. Having the whole team locked-down on the project made the decision making process much snappier and enabled us to solve problems without calling too many meetings.
 

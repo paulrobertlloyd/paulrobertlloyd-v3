@@ -10,7 +10,7 @@ tags:
 ---
 My interest in Formula One was reignited in 2009. Back on the BBC after 12 Schumacher-dominated, ad-interrupted years on ITV, this was the season that saw Brawn GP emerge from the ashes of the old Honda factory team, with their brilliant white car delivering Jenson Button his first world championship.
 
-Six years later and I'm still watching. Formula One isn't an easy sport to follow, not least because of politicising behind the scenes. On track, success is largely determined by the design of the car rather than the skill of a driver _cf._ four-time world champion Sebastian Vettel needs to win a championship with another team to be considered one of the sport's greats. A select few (Senna, Hamilton, Alonso) could be given a tractor and still win races, yet most drivers, like Button, require the right combination of car, setup and team -- and a dash of good fortune -- to be successful.
+Six years later and I'm still watching. Formula One isn't an easy sport to follow, not least because of politicising behind the scenes. On track, success is largely determined by the design of the car rather than the skill of a driver *cf.* four-time world champion Sebastian Vettel needs to win a championship with another team to be considered one of the sport's greats. A select few (Senna, Hamilton, Alonso) could be given a tractor and still win races, yet most drivers, like Button, require the right combination of car, setup and team -- and a dash of good fortune -- to be successful.
 
 * * *
 
@@ -20,7 +20,7 @@ Yet by the end of 2013, [I felt drained by familiar conversations and routines][
 
 The last 14 months have been truly fascinating.
 
-* I saw the diligence required to develop software at scale, with the biggest challenges often not technical, but organisational. With many people contributing to a code base, clear goals, sensible conventions and peer review are essential. Even though I was hired as a designer, I was able to get _really_ close to the product, shipping changes seen by millions.
+* I saw the diligence required to develop software at scale, with the biggest challenges often not technical, but organisational. With many people contributing to a code base, clear goals, sensible conventions and peer review are essential. Even though I was hired as a designer, I was able to get *really* close to the product, shipping changes seen by millions.
 
 * I learnt about the [conviction and patience][3] needed to deliver a coherent design language across the organisation's many facets. Keen observers will have noticed a significant improvement in how the Guardian presents itself, both on and offline, over the last year.
 

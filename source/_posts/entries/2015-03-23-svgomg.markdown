@@ -18,7 +18,7 @@ Having spent many hours simplifying, optimising and minifying SVGs, typically us
 
 * * *
 
-<span class="u-caps">Paul Lloyd</span>: _SVGOMG has a truly native app feel. What obstacles did you overcome (if any) to make it work seamlessly on the web?_
+<span class="u-caps">Paul Lloyd</span>: *SVGOMG has a truly native app feel. What obstacles did you overcome (if any) to make it work seamlessly on the web?*
 
 <span class="u-caps">Jake Archibald</span>: It was easier than I expected, but I think I was expecting it to be impossible. I was surprised at how much I used [flexbox][6], and how stable it is across modern browsers. Pretty much all of the layout is flexbox driven.
 
@@ -30,7 +30,7 @@ I was shocked how much hacking Safari needed to get basic features working. Smoo
 
 * * *
 
-PL: _One of the most pleasing features of the app is how it adapts to different screen sizes. Did you make any adaptions to your initial design/concept to achieve this?_
+PL: *One of the most pleasing features of the app is how it adapts to different screen sizes. Did you make any adaptions to your initial design/concept to achieve this?*
 
 JA: I'm terrible at design. I don't know what I'm doing. I really don't. [Google's]  [Material Design][11] helped me a lot by telling me what to do. In the cases where Material Design didn't have rules, I spent a long time sketching and throwing stuff out.
 
@@ -38,7 +38,7 @@ Unlike a lot of apps, the settings need to be visible alongside the output. It's
 
 * * *
 
-PL: _What progressive enhancement techniques and approaches did you use to ensure the widest possible usage for the app?_
+PL: *What progressive enhancement techniques and approaches did you use to ensure the widest possible usage for the app?*
 
 JA: In terms of features, there are a couple of polyfills that are brought in dynamically for the browsers that need them. IE needs a [Promise polyfill][12], Safari needs Fastclick.
 
@@ -48,7 +48,7 @@ I thought about making the site work without JS by doing the SVG work on the ser
 
 * * *
 
-PL: _You are a big proponent of web performance. What steps did you take to make the app feel speedy?_
+PL: *You are a big proponent of web performance. What steps did you take to make the app feel speedy?*
 
 JA: Although I have no intention of making the site work without JS, I still render before JS is available. In fact, it gets to first render with only 5k of HTML with some inlined CSS and SVG, the main scripts and CSS are all loaded in the background. This means the site appears to load in 1.5s even on 3G with an empty cache, and most of that is DNS and SSL.
 

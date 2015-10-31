@@ -51,14 +51,14 @@ In the course of rebuilding this site, I read numerous articles that went someth
 In what was a convoluted and time consuming process, I exported my comments from Movable Type and saved them as YAML files inside Jekyll's `_data` folder. New comments can be accepted on a per post basis, but this involves little more than providing readers with a dedicated e-mail address, while publishing a comment requires adding and/or updating a YAML file. This process could be automated, but seeing as I rarely accept comments anymore, it seemed like wasted effort. Besides, [webmentions][24] (once I've added support for them) should plug the gap.
 
 ## Site Archives
-As part of the transfer of content from Movable Type to Jekyll, I undertook an audit of URLs, in particular the location of archived versions of this site. For a long time I considered moving every piece of content that appeared on my previous site ('LloydyWeb', _cringe_) over to this domain, but in doing so, found myself rewriting content -- rewriting history, almost.
+As part of the transfer of content from Movable Type to Jekyll, I undertook an audit of URLs, in particular the location of archived versions of this site. For a long time I considered moving every piece of content that appeared on my previous site ('LloydyWeb', *cringe*) over to this domain, but in doing so, found myself rewriting content -- rewriting history, almost.
 
 In the end I decided that [the archive][25] for `paulrobertlloyd.com` should extend back to when I moved to this domain (and not include earlier entries as had been done previously), while content originally published on LloydyWeb should be available at `lloydyweb.paulrobertlloyd.com`. For those interested, these URLs cover the following periods:
 
-* <https://paulrobertlloyd.com> -- _September 2008 - present_
-* <http://v2.paulrobertlloyd.com> -- _July 2004 - July 2015_
-* <http://v1.paulrobertlloyd.com> -- _July 2004 - June 2011_
-* <http://lloydyweb.paulrobertlloyd.com> -- _July 1999 - December 2007_
+* <https://paulrobertlloyd.com> -- September 2008 - present
+* <http://v2.paulrobertlloyd.com> -- July 2004 - July 2015
+* <http://v1.paulrobertlloyd.com> -- July 2004 - June 2011
+* <http://lloydyweb.paulrobertlloyd.com> -- July 1999 - December 2007
 
 ## Everything else
 Those are the headline features, but there are a number of other notable changes as well:

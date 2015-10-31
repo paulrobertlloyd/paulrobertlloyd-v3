@@ -25,7 +25,7 @@ The `hr` element represents a paragraph-level thematic break, e.g. a scene chang
 
 Dudley was ninety-two, in his second life, and fast approaching time for another rejuvenation. Despite his body having the physical age of a standard fifty-year-old, the prospect of a long degrading campaign within academia was one he regarded with dread. For a supposedly advanced civilization, the Intersolar Commonwealth could be appallingly backward at times, not to mention cruel.
 
-_Maybe it won't be that bad_, he told himself. The lie was comforting enough to get him through the rest of the night's shift.
+*Maybe it won't be that bad*, he told himself. The lie was comforting enough to get him through the rest of the night's shift.
 
 * * *
 
@@ -101,7 +101,7 @@ The `a` element is used to hyperlink text, be that to another page, a named frag
 ### Stressed emphasis
 The `em` element is used to denote text with stressed emphasis, i.e., something you'd pronounce differently. Where italicising is required for stylistic differentiation, the `i` element may be preferable. Example:
 
-You simply _must_ try the negitoro maki!
+You simply *must* try the negitoro maki!
 
 ### Strong importance
 The `strong` element is used to denote text with strong importance. Where bolding is used for stylistic differentiation, the `b` element may be preferable. Example:
@@ -160,7 +160,7 @@ The following exampes shows the `code` element used in conjunction with the `pre
 ### Variable
 The `var` element is used to denote a variable in a mathematical expression or programming context, but can also be used to indicate a placeholder where the contents should be replaced with your own value. Example:
 
-If there are <var>n</var> pipes leading to the ice cream factory then I expect at _least_ <var>n</var> flavours of ice cream to be available for purchase!
+If there are <var>n</var> pipes leading to the ice cream factory then I expect at *least* <var>n</var> flavours of ice cream to be available for purchase!
 
 ### Sample output
 The `samp` element is used to represent (sample) output from a program or computing system. Useful for technology-oriented sites, not so useful otherwise. Example:

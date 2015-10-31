@@ -36,7 +36,7 @@ Responsive web design has encouraged the development of modular code bases and m
 
 But what aspects of HTML and CSS, as currently defined, make polylitihic design more difficult? Right now it's difficult to build truly adaptive components when we can only query values that exist at the viewport level. **Dan Donald** [made the case for 'element queries'][9] ([by no means a new idea][10]) a technology that would allow us to design components that are truly independent from the page. By quickly spiking a concept using JavaScript and PHP, Dan was able to explore the opportunities such a feature would enable. It also allowed him to think about use cases, something that's desperately needed if browser vendors are to ever implement them.
 
-We should also look at those technologies that _are_ being introduced, and ask how they address the first principle. [Web Components][11] look promising, but we should ensure their use doesn't come at the cost of accessibility and security, something we often take for granted with native browser components.
+We should also look at those technologies that *are* being introduced, and ask how they address the first principle. [Web Components][11] look promising, but we should ensure their use doesn't come at the cost of accessibility and security, something we often take for granted with native browser components.
 
 It's not just implementations that need to be less monolithic either; we require more agile tools that do one thing well but can easily be combined with others.
 
