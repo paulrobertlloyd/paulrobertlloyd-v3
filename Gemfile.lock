@@ -10,9 +10,10 @@ GIT
 
 GIT
   remote: git://github.com/jekyll/jekyll-archives.git
-  revision: 659f024086ca68b4cd99e553c0970db9ee578140
+  revision: c9eac2c729bb3f8e3821bbaf529bd53cb5e7da66
+  ref: c9eac2c
   specs:
-    jekyll-archives (2.1.0)
+    jekyll-archives (2.0.0)
       jekyll (>= 2.4)
 
 GEM
