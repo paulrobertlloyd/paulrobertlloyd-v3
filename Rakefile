@@ -25,13 +25,13 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :'build-dev' => :clean do
-  sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --full-rebuild"
+  sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --profile"
 end
 
 
 desc "Regenerate the website files and place them into destination"
 task :build => :clean do
-  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml --full-rebuild"
+  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
 end
 
 
