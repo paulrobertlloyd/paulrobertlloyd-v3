@@ -32,7 +32,7 @@
 
     h3 {
         @include fs--heading-3;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.5rem;
         color: $c__neutral-mid;
     }
 
@@ -50,6 +50,10 @@
 
     hr {
         margin-top: 3rem;
+        margin-bottom: 0.75rem;
+    }
+
+    li p {
         margin-bottom: 0.75rem;
     }
 
