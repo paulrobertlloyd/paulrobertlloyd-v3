@@ -39,11 +39,14 @@ collections:
   content:
     output: true
     permalink: :path
+  discussions:
+    output: true
+  galleries:
+    output: true
+    permalink: /:year/:month/:title
   projects:
     output: true
   talks:
-    output: true
-  discussions:
     output: true
 
 # Defaults
@@ -52,47 +55,32 @@ defaults:
       type: content
     values:
       layout: content
-      type: content
-
-  - scope:
-      type: posts
-      path: '_posts/entries'
-    values:
-      layout: entry
-      type: entry
-
-  - scope:
-      type: posts
-      path: '_posts/links'
-    values:
-      layout: entry
-      type: link
-
-  - scope:
-      type: posts
-      path: '_posts/galleries'
-    values:
-      layout: gallery
-      type: gallery
-      theme: dark
-
-  - scope:
-      type: projects
-    values:
-      layout: project
-      type: project
-
-  - scope:
-      type: talks
-    values:
-      layout: talk
-      type: talk
 
   - scope:
       type: discussions
     values:
       layout: discussion
-      type: discussion
+
+  - scope:
+      type: galleries
+    values:
+      layout: gallery
+      theme: dark
+
+  - scope:
+      type: posts
+    values:
+      layout: entry
+
+  - scope:
+      type: projects
+    values:
+      layout: project
+
+  - scope:
+      type: talks
+    values:
+      layout: talk
 
 # Assets
 assets:

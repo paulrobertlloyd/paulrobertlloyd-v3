@@ -6,6 +6,6 @@
     </h1>
 
     <p class="c-item__meta">
-        {% if item.type == "gallery" %}<strong class="u-separate  p-category">Gallery</strong> {% endif %}<time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+        {% if item.layout == "gallery" %}<strong class="u-separate  p-category">Gallery</strong> {% endif %}<time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
     </p>
 </article>

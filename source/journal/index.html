@@ -5,13 +5,10 @@ landing: true
 ---
 <div class="c-section">
 {% for item in paginator.posts %}
-    {% case item.type %}
-    {% when "gallery" %}
-        {% include item/gallery.html %}
-    {% when "link" %}
-        {% include item/link.html %}
+    {% if item.link %}
+        {% include item/entry-link.html %}
     {% else %}
         {% include item/entry.html %}
-    {% endcase %}
+    {% endif %}
 {% endfor %}
 </div>
