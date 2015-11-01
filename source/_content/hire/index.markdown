@@ -12,7 +12,7 @@ I've worked for design agencies, start-ups and established brands in the fields 
 
 {% include button.html url="#contact" text="Contact me about your project" %}
 
-<small>Availability from November 2015</small>
+<!--small>Availability from November 2015</small-->
 
 * * *
 {: .u-extend}
