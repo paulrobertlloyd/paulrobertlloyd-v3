@@ -29,9 +29,8 @@ paginate: 12
 paginate_path: /journal/:num
 
 # Writing
-# See: https://github.com/jekyll/jekyll/issues/3371
 kramdown:
-  syntax_highlighter: rouge
+# The auto_id_stripping option will be removed in kramdown 2.0 and become the default behaviour
   auto_id_stripping: true
 
 # Collections

@@ -9,7 +9,7 @@ group :development do
 end
 
 # Jekyll (generates static files)
-gem 'jekyll'
+gem 'jekyll', github: 'jekyll/jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-assets', '~> 2.0.0.beta'
@@ -19,11 +19,10 @@ group :jekyll_plugins do
 
   gem 'autoprefixer-rails'
   gem 'exiftool'
-  gem 'oembed'
   gem 'susy'
   gem 'typogruby'
   gem 'uglifier'
-  gem 'ruby-thumbor'
+# gem 'ruby-thumbor'
 end
 
 # Rake (manages build tasks)
