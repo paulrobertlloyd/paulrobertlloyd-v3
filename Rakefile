@@ -1,9 +1,9 @@
 #
 # Build script for paulrobertlloyd.com
 #
-# Author:: Paul Robert Lloyd
+# Author: Paul Robert Lloyd
 # Copyright: Copyright (c) 2014 Paul Robert Lloyd
-# License:: MIT
+# License: MIT
 #
 
 destination = "public"
