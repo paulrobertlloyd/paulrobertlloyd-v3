@@ -10,7 +10,7 @@
     </h1>
 
     <p class="c-item__meta  p-summary">
-        {% if item.featured %}<strong class="u-separate  p-name">{{ item.title | smartify }}</strong>{% endif %}
-        {{ item.excerpt | typogrify | namespace }}
+        {% if item.featured %}<strong class="u-separate  p-name">{{ item.title | smartypants }}</strong>{% endif %}
+        {{ item.excerpt | improve | namespace }}
     </p>
 </article>

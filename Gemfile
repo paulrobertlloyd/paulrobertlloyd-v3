@@ -16,12 +16,11 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-roman'
   gem 'jekyll-sitemap'
-  gem 'jekyll-smartify'
+  gem 'jekyll-typogrify'
 
   gem 'autoprefixer-rails'
   gem 'exiftool'
   gem 'susy'
-  gem 'typogruby'
   gem 'uglifier'
   gem 'ruby-thumbor'
 end

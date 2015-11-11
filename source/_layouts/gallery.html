@@ -8,7 +8,7 @@ layout: default
 
     <div class="c-section c-section--body">
         <div class="s-prose s-prose--body  e-content">
-            {{ content | typogrify | namespace }}
+            {{ content | improve | namespace }}
 
             {% capture gallery_path %}{{ page.path | replace:"_galleries/","images/galleries/" | remove:".markdown" }}{% endcapture %}
             {% directory path: gallery_path %}
