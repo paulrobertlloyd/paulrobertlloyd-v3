@@ -7,7 +7,7 @@ layout: default
     <div class="c-section c-section--body">
         {% if page.excerpt %}
         <div class="s-prose s-prose--lede  p-summary">
-            {{ page.excerpt | markdownify | typogrify | namespace }}
+            {{ page.excerpt | markdownify | improve | namespace }}
         </div>
         {% endif %}
 
@@ -20,7 +20,7 @@ layout: default
 
             {% include meta.html class="u-aside" %}
 
-            {{ content | typogrify | namespace }}
+            {{ content | improve | namespace }}
         </div>
     </div>
 </article>

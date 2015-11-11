@@ -9,7 +9,7 @@
     {% for item in page.meta %}
         {% capture meta__value %}{{ item[1] }}{% endcapture %}
         <dt class="c-meta__title">{{ item[0] | capitalize }}</dt>
-        <dd class="c-meta__value">{{ meta__value | smartify | markdownify }}</dd>
+        <dd class="c-meta__value">{{ meta__value | markdownify | improve }}</dd>
     {% endfor %}
     </dl>
 </aside>

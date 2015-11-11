@@ -2,7 +2,7 @@
     <header class="c-item__header">
         <h1 class="c-item__title  p-name">
             <a class="c-item__link  u-url" href="{{ item.link.url }}">
-                {{ item.title | smartify | typogrify }}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>
+                {{ item.title | smartypants }}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>
             </a>
         </h1>
     </header>
@@ -25,7 +25,7 @@
                 {% include embed.html url=item.link %}
             </div>
             {% endif %}
-            {{ item.content | markdownify | typogrify | namespace }}
+            {{ item.content | markdownify | improve | namespace }}
         </div>
     </div>
 </article>

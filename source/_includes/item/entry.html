@@ -2,7 +2,7 @@
     <header class="c-item__header">
         <h1 class="c-item__title c-item__title--promote  p-name">
             <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
-                {{ item.title | smartify | typogrify }}
+                {{ item.title | smartypants }}
             </a>
         </h1>
     </header>
@@ -22,7 +22,7 @@
                 {% picture feature {{ item.image.url }} alt="{{ item.title }}" class="u-photo" %}
             </a>
             {% endif %}
-            {{ item.excerpt | markdownify | typogrify | namespace }}
+            {{ item.excerpt | markdownify | improve | namespace }}
         </div>
     </div>
 </article>

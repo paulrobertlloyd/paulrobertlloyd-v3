@@ -5,7 +5,7 @@
                 <span class="c-item__cover">
                     <img class="c-item__cover-photo" src="{{ site.picture.cdn }}/180x180/80q{{ item.image.url }}" alt=""/>
                 </span>
-                {{ item.title | smartify | typogrify }}
+                {{ item.title | smartypants }}
             </a>
         </h1>
     </header>
@@ -21,7 +21,7 @@
 
     <div class="c-item__main">
         <div class="s-prose  p-summary">
-            {{ item.excerpt | markdownify | typogrify | namespace }}
+            {{ item.excerpt | markdownify | improve | namespace }}
         </div>
     </div>
 </article>
