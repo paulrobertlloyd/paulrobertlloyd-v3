@@ -165,7 +165,7 @@
 // Line rule
 @mixin rule($height: $u__rule-height, $width: 100%, $position: 'before') {
     &::#{$position} {
-        display: block;
+        display: inline-block;
         border-top: $height solid rgba($c__neutral-mid, 0.5);
         width: $width;
         content: '';
