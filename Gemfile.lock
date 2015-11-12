@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jekyll/jekyll.git
-  revision: 59f80ac3716e3dc53e28ff400ac9a90d3d7061df
+  revision: 1b3cb4515aed4cb4514a8a49f0e9fdf3adb991e8
   specs:
     jekyll (3.0.0)
       colorator (~> 0.1)
@@ -63,6 +63,7 @@ GEM
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-sitemap (0.9.0)
+    jekyll-slugify_underscore (0.0.2)
     jekyll-typogrify (0.1.1)
       typogruby
     jekyll-watch (1.3.0)
@@ -130,6 +131,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-roman
   jekyll-sitemap
+  jekyll-slugify_underscore
   jekyll-typogrify
   rake
   ruby-thumbor

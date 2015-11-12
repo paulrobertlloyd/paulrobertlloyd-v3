@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-roman'
   gem 'jekyll-sitemap'
+  gem 'jekyll-slugify_underscore'
   gem 'jekyll-typogrify'
 
   gem 'autoprefixer-rails'
