@@ -80,14 +80,6 @@
         @include rule($width: 20%);
         margin-top: 4rem;
         color: $c__neutral-mid;
-
-        ol {
-            margin-top: 1rem;
-        }
-
-        li p {
-            margin-bottom: 0.5rem;
-        }
     }
 }
 
