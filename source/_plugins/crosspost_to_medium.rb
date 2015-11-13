@@ -23,20 +23,20 @@ require 'uri'
 
 module Jekyll
   class MediumCrossPostGenerator < Generator
-
     safe true
     priority :low
 
-
     def generate(site)
-      @medium_cache_dir = site.config['jekyll-crosspost_to_medium']['cache'] || site.config['source'] + '/.jekyll-crosspost_to_medium'
+      @settings = site.config['jekyll-crosspost_to_medium']
+
+      @medium_cache_dir = @settings['cache'] || site.config['source'] + '/.jekyll-crosspost_to_medium'
       FileUtils.mkdir_p(@medium_cache_dir)
 
       # Should we allow this to run?
       globally_enabled = true
 
       if site.config.has_key? 'jekyll-crosspost_to_medium'
-        globally_enabled = site.config['jekyll-crosspost_to_medium']['enabled']
+        globally_enabled = @settings['enabled']
       end
 
       if globally_enabled
@@ -66,15 +66,18 @@ module Jekyll
             # Only cross-post if content has not already been cross-posted
             if url and ! crossposted.include? url
               payload = {
-                'title'     => post.title,
+                'title'         => title,
                 'contentFormat' => "html",
-                'content'   => content,
-                'tags'      => post.data['categories'],
+                'content'       => content,
+                'tags'          => post.data['tags'],
+                'publishStatus' => @settings['status'] || "publish",
+                'license'       => @settings['license'] || "all-rights-reserved",
                 'canonicalUrl'  => url
               }
 
-              # Both Facebook & LinkedIn
-              crosspost_to_medium( payload )
+              puts payload
+
+              crosspost_to_medium(payload)
               crossposted << url
             end
           end
@@ -120,11 +123,9 @@ module Jekyll
 
           # Save it back
           File.open(crossposted_file, 'w') { |f| YAML.dump(crossposted, f) }
-
         end
       end
     end
-
 
     def crosspost_to_medium( payload )
       puts "Cross-posting “#{payload['title']}” to Medium"
