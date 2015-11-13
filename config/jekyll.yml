@@ -129,30 +129,24 @@ picture:
     showcase:
       attr:
         class: c-picture c-picture--showcase
-      source_large:
-        width: 1024
-        quality: 80
       source_medium:
-        width: 768
+        width: 1024
       source_default:
-        width: 480
+        width: 768
     feature:
       attr:
         class: c-picture c-picture--feature
-      source_xlarge:
+      source_large:
         width: 1280
         height: 720
         quality: 88
-      source_large:
+      source_medium:
         width: 1024
         height: 576
         quality: 88
-      source_medium:
+      source_default:
         width: 768
         height: 480
-      source_default:
-        width: 480
-        height: 300
 
 # Publishing
 source: ./source
