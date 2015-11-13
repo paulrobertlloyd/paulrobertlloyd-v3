@@ -3,6 +3,7 @@ title: 'London''s Olympic Stadium: A Legacy Lost'
 date: '2015-07-29 00:20:12 +0100'
 location: Brighton, England
 excerpt: 'Having undergone a £272m conversion programme, London''s Olympic Stadium is ready to host Premier League football as well as world-class athletics. Its future now secured, what hopes remain for its legacy?'
+crosspost_to_medium: true
 image:
   url: /2015/07/london_olympic_stadium_2012.jpg
   caption: 'The Olympic Stadium nearing its completion in 2012'

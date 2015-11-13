@@ -3,3 +3,7 @@ url: https://paulrobertlloyd.com
 # Picture
 picture:
   cdn: https://images.paulrobertlloyd.com
+
+# Crossposting
+jekyll-crosspost_to_medium:
+  enabled: true

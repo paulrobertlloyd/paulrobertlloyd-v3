@@ -3,3 +3,7 @@ url: http://paulrobertlloyd.dev
 # Picture
 picture:
   cdn: http://images.paulrobertlloyd.dev
+
+# Crossposting
+jekyll-crosspost_to_medium:
+  enabled: false
