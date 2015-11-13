@@ -160,6 +160,10 @@ destination: ./public
 exclude:
   - '**.scss'
 
+# Crossposting
+jekyll-crosspost_to_medium:
+  cache: ./source/data
+
 # Archives
 jekyll-archives:
   enabled:
