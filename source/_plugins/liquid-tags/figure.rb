@@ -28,9 +28,8 @@ module Jekyll
       # Used to escape markdown parsing rendering
       markdown_escape = "\ "
 
-      # All figures have content…
-      # Previously used regex: .sub(/<([\w]+).*?(?:class="([\s\S]+)")?>/, "<\\1 class=\"c-figure__main \\2\">")
-      figure_main = converter.convert(super(context))
+      # All figures have content… if images, strip the surrounding paragraph
+      figure_main = converter.convert(super(context)).gsub(/^<p>\s*((<img[^<]+?)+)\s*<\/p>(.*)/, '\\1')
 
       # …but some figures may have extra attributes
       unless markup.nil?
@@ -41,7 +40,7 @@ module Jekyll
         end
 
         # Optional caption
-        caption = converter.convert(markup[:caption].to_s)
+        caption = converter.convert(markup[:caption].to_s).gsub(/<\/?p[^>]*>/, '')
         figure_caption = if markup[:caption]
           "<figcaption class=\"c-figure__caption\">#{caption}</figcaption>\n"
         end
@@ -55,7 +54,7 @@ module Jekyll
 
       # Render <figure>
       figure_tag =  "<figure class=\"c-figure#{figure_classes}\"#{figure_html_attr}>\n"
-      figure_tag +=  "#{markdown_escape * 2}<div class=\"c-figure__main\">\n"
+      figure_tag += "#{markdown_escape * 2}<div class=\"c-figure__main\">\n"
       figure_tag += "#{markdown_escape * 4}#{figure_main}\n"
       figure_tag += "#{markdown_escape * 2}</div>\n"
       figure_tag += "#{markdown_escape * 2}#{figure_caption}"

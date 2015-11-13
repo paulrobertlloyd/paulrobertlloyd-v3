@@ -58,30 +58,6 @@ module Jekyll
             crossposted = []
           end
 
-          def crosspost_payload(crossposted, post, content, title, url)
-            # Prepend the title and add a link back to the originating site
-            content.prepend("<h1>#{title}</h1>")
-            content << "<p><i>This was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
-
-            # Only cross-post if content has not already been cross-posted
-            if url and ! crossposted.include? url
-              payload = {
-                'title'         => title,
-                'contentFormat' => "html",
-                'content'       => content,
-                'tags'          => post.data['tags'],
-                'publishStatus' => @settings['status'] || "publish",
-                'license'       => @settings['license'] || "all-rights-reserved",
-                'canonicalUrl'  => url
-              }
-
-              puts payload
-
-              crosspost_to_medium(payload)
-              crossposted << url
-            end
-          end
-
           # If Jekyll 3.0, use hooks (which does a lot of the work for us)
           if (Jekyll.const_defined? :Hooks)
 
@@ -124,6 +100,30 @@ module Jekyll
           # Save it back
           File.open(crossposted_file, 'w') { |f| YAML.dump(crossposted, f) }
         end
+      end
+    end
+
+    def crosspost_payload(crossposted, post, content, title, url)
+      # Prepend the title and add a link back to the originating site
+      content.prepend("<h1>#{title}</h1>")
+      content << "<p><i>This was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
+
+      # Only cross-post if content has not already been cross-posted
+      if url and ! crossposted.include? url
+        payload = {
+          'title'         => title,
+          'contentFormat' => "html",
+          'content'       => content,
+          'tags'          => post.data['tags'],
+          'publishStatus' => @settings['status'] || "publish",
+          'license'       => @settings['license'] || "all-rights-reserved",
+          'canonicalUrl'  => url
+        }
+
+        puts payload
+
+        crosspost_to_medium(payload)
+        crossposted << url
       end
     end
 
