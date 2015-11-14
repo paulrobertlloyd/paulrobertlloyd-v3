@@ -33,7 +33,7 @@
         <content type="html">
 <![CDATA[
 {% if post.image %}
-    {% figure "{{ post.image.caption }}" %}
+    {% figure caption:"{{ post.image.caption }}" %}
 {% picture {{ post.image.url }} alt="" %}
     {% endfigure %}
 {% endif %}

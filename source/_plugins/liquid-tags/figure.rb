@@ -1,9 +1,8 @@
 #
 # Creates a <figure> element with optional class(es) and caption.
-# TODO: Make this a (configurable) plugin
 #
 # USAGE
-# {% figure [class(es)] ["Caption"] [attr="value"] %}
+# {% figure [caption:"Caption"] [class:"class1 class2"] %}
 # Figure content
 # {% endfigure %}
 #
@@ -17,46 +16,44 @@ module Jekyll
     end
 
     def render(context)
-      # Render any liquid variables in tag arguments and unescape template code
-      render_markup = Liquid::Template.parse(@markup).render(context).gsub(/\\\{\\\{|\\\{\\%/, '\{\{' => '{{', '\{\%' => '{%')
-
       # Gather settings
       site = context.registers[:site]
       converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
-      markup = /^(?:(?<classes>[^".:\/]+)\s+)?(?:"(?<caption>[^"|\\"]+)"\s+)?(?<html_attr>[\s\S]+)?$/.match(render_markup)
+
+      # Render any liquid variables
+      markup = Liquid::Template.parse(@markup).render(context)
+
+      # Extract tag attributes
+      attributes = {}
+      markup.scan(Liquid::TagAttributes) do |key, value|
+        attributes[key] = value
+      end
+
+      @caption = attributes['caption']
+      @class = attributes['class']
+
+      # Caption: convert markdown and remove paragraphs
+      unless @caption.nil?
+        figure_caption = @caption.gsub!(/\A"|"\Z/, '')
+        figure_caption = converter.convert(figure_caption).gsub(/<\/?p[^>]*>/, '')
+        figure_caption = "<figcaption>#{figure_caption}</figcaption>\n"
+      end
+
+      # Class name(s)
+      unless @class.nil?
+        figure_class = @class.gsub!(/\A"|"\Z/, '')
+        figure_class = "class\=\"#{figure_class}\""
+      end
+
+      # Content: convert markdown and remove paragraphs containing images
+      figure_main = converter.convert(super(context)).gsub(/^<p>\s*((<img[^<]+?)+)\s*<\/p>(.*)/, '\\1')
 
       # Used to escape markdown parsing rendering
       markdown_escape = "\ "
 
-      # All figures have content… if images, strip the surrounding paragraph
-      figure_main = converter.convert(super(context)).gsub(/^<p>\s*((<img[^<]+?)+)\s*<\/p>(.*)/, '\\1')
-
-      # …but some figures may have extra attributes
-      unless markup.nil?
-        # Optional class name
-        classes = markup[:classes].to_s
-        figure_classes = if markup[:classes]
-          " #{classes}"
-        end
-
-        # Optional caption
-        caption = converter.convert(markup[:caption].to_s).gsub(/<\/?p[^>]*>/, '')
-        figure_caption = if markup[:caption]
-          "<figcaption class=\"c-figure__caption\">#{caption}</figcaption>\n"
-        end
-
-        # Optional HTML attributes
-        html_attr = markup[:html_attr].to_s
-        figure_html_attr = if markup[:html_attr]
-          " #{html_attr}"
-        end
-      end
-
       # Render <figure>
-      figure_tag =  "<figure class=\"c-figure#{figure_classes}\"#{figure_html_attr}>\n"
-      figure_tag += "#{markdown_escape * 2}<div class=\"c-figure__main\">\n"
+      figure_tag =  "<figure #{figure_class}>\n"
       figure_tag += "#{markdown_escape * 4}#{figure_main}\n"
-      figure_tag += "#{markdown_escape * 2}</div>\n"
       figure_tag += "#{markdown_escape * 2}#{figure_caption}"
       figure_tag += "</figure>\n"
     end

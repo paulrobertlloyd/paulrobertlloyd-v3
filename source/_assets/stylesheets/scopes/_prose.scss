@@ -57,12 +57,102 @@
         margin-bottom: 0.75rem;
     }
 
+    pre {
+        font-size: 90%;
+    }
+
     li p {
         margin-bottom: 0.75rem;
     }
 
-    pre {
-        font-size: 90%;
+    figure {
+        display: flex;
+        flex-wrap: wrap;
+
+        > * {
+            margin-bottom: 0.75rem;
+        }
+
+        img {
+            margin-right: 2%;
+            flex: 1 1 auto;
+        }
+
+        img:last-of-type {
+            margin-right: 0;
+        }
+
+        img:nth-last-of-type(2):first-child,
+        img:nth-last-of-type(2):first-child ~ img {
+            width: percentage(0.96/2);
+        }
+
+        img:nth-last-of-type(3):first-child,
+        img:nth-last-of-type(3):first-child ~ img {
+            width: percentage(0.94/3);
+        }
+
+        img:nth-last-of-type(4):first-child,
+        img:nth-last-of-type(4):first-child ~ img,
+        img:nth-last-of-type(8):first-child,
+        img:nth-last-of-type(8):first-child ~ img,
+        img:nth-last-of-type(12):first-child,
+        img:nth-last-of-type(12):first-child ~ img {
+            width: percentage(0.92/4);
+        }
+
+        img:nth-last-of-type(5):first-child,
+        img:nth-last-of-type(5):first-child ~ img {
+            width: percentage(0.90/5);
+        }
+
+        &.u-extend {
+            @media (min-width: $b__c) {
+                position: relative;
+                padding-right: $gn__span4-wide;
+                min-height: 6rem;
+            }
+
+            figcaption {
+                @media screen and (min-width: $b__b) {
+                    padding-left: span(3 wide);
+                }
+
+                @media (min-width: $b__c) {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding-left: 0;
+                    width: span(4);
+                }
+            }
+        }
+
+        &.u-bleed {
+            figcaption {
+                padding-right: 1rem;
+                padding-left: 1rem;
+
+                @media (min-width: $b__a) {
+                    padding-right: 2rem;
+                    padding-left: 2rem;
+                }
+
+                @media screen and (min-width: $b__b) {
+                    padding-left: span(3 wide);
+                    padding-left: calc(#{span(3 wide)} + 1rem);
+                }
+
+                @media screen and (min-width: $b__c) {
+                    padding-left: span(3 wide);
+                }
+            }
+        }
+    }
+
+    figcaption {
+        @include fs--caption;
+        color: $c__neutral-mid;
     }
 
     small {

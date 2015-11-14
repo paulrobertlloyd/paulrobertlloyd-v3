@@ -19,18 +19,18 @@ In his TV travelogue, Michael Portillo explores Britain's railway network and, g
 ## Typography
 Wanting to evoke the feel of the handbook's chaotic Victorian typography, I looked at how a range of typefaces were used to distinguish between different sections and place names. I distilled these down to two typefaces: Kameron for headings, a chunky slab serif that contrasted strongly with Linux Libertine, a delicate serif which I used for body copy.
 
-{% figure u-extend %}
+{% figure class:"u-bleed" %}
 {% picture /projects/bradshaws_guide/palette.svg alt="Palette and fonts" %}
 {% endfigure %}
 
 ## Open Source
-{% figure "Github pull request" %}
+{% figure caption:"Github pull request" %}
 {% endfigure %}
 
 Producing the guide involved correcting copy originating from an automated OCR process. Because the handbook exists in the public domain, I was keen to make its content available to as many people as possible, and allow others to build on the work I had done. The [source code for the site][2] is available on GitHub, meaning others can make improvements to the website or even create their own version of the guide.
 
 ## Integration With Social Networks
-{% figure "A Foursquare tip from George Bradshaw" %}
+{% figure caption:"A Foursquare tip from George Bradshaw" %}
 {% endfigure %}
 
 When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. [On Foursquare][3], checking into a station could display a short excerpt, while [@bradshawsguide][4] on Twitter could share short thoughts about a place, with a link to the longer description on the site.

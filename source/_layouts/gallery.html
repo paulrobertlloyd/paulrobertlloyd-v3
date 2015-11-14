@@ -12,11 +12,9 @@ layout: default
 
             {% capture gallery_path %}{{ page.path | replace:"_galleries/","images/galleries/" | remove:".markdown" }}{% endcapture %}
             {% directory path: gallery_path %}
-            <figure class="c-figure c-figure--caption-right">
-                <p class="c-figure__main">
-                    {% picture {{ file.url | remove:"images/" }} alt="" %}
-                </p>
-                <figcaption class="c-figure__caption">
+            <figure class="u-extend">
+                {% picture {{ file.url | remove:"images/" }} alt="" %}
+                <figcaption>
                     {% include exif.html url=file.url %}
                 </figcaption>
             </figure>

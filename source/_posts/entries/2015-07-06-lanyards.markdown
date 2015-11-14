@@ -17,7 +17,7 @@ Likewise, I often wonder what changes could be enacted to negate the need for st
 ## A Greener Conference Badge, Part Two
 A few years ago I advocated the use of [conference badges that didn't need plastic wallets][4]. While some conferences continue using them, many now use the '[book on a hook][5]' concept to great effect.
 
-{% figure c-figure--caption-right "Photograph: Modified from an original by [Simon Collison](https://www.flickr.com/photos/collylogic/8314870885/)" %}
+{% figure caption:"Photograph: Modified from an original by [Simon Collison](https://www.flickr.com/photos/collylogic/8314870885/)" class:"u-extend" %}
 {% picture /2015/07/lanyards.jpg alt="" %}
 {% endfigure %}
 

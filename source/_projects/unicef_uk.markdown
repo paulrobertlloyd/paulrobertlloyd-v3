@@ -19,7 +19,7 @@ Given a constrained budget, the software that managed content on the desktop was
 ## Searching for Patterns
 We asked key stakeholders on the project to dissect the homepage and a key internal page, placing component parts in order of importance. Working with UNICEF's content editor, we pulled out common patterns, noting those which were essential and those that were superfluous. The relevant patterns were then sketched on a whiteboard where we imagined how they would adapt on smaller screens. These were then used as the basis for the front-end build. This pattern-based approach allowed us to simplify what was already there, rather than start again from scratch.
 
-{% figure u-extend "Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site" %}
+{% figure caption:"Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site" class:"u-extend" %}
 {% picture supporting /projects/unicef_uk/homepage_prioritisation.jpg alt="Homepage prioritisation" class="u-framed" %}
 {% picture supporting /projects/unicef_uk/pattern_identification.jpg alt="Pattern identification" class="u-framed" %}
 {% picture supporting /projects/unicef_uk/pattern_definition.jpg alt="Pattern definition" class="u-framed" %}
@@ -28,14 +28,14 @@ We asked key stakeholders on the project to dissect the homepage and a key inter
 ## Translating UNICEF's Brand Guidelines to the Web
 We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity.
 
-{% figure u-extend %}
+{% figure class:"u-bleed" %}
 {% picture /projects/unicef_uk/palette.svg alt="Palette and fonts" %}
 {% endfigure %}
 
 The brand guidelines suggested using Verdana for digital applications, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
 
 ## Navigation
-{% figure u-pull-right "Navigation appears in a slide-out menu" %}
+{% figure caption:"Navigation appears in a slide-out menu" class:"u-pull-right" %}
 <object height="100%" width="100%"  data="{{ site.url }}/images/projects/unicef_uk/mobile_menu.svg" type="image/svg+xml"></object>
 {% endfigure %}
 

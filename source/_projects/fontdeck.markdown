@@ -19,7 +19,7 @@ A unique concept when founders Richard Rutter and Jon Tan conceived the idea in 
 ## Hack Day
 I was part of a small team that convened over one weekend to devise a strategy for improving the site. A series of quick wins were identified, but it was agreed that the homepage needed a thorough overhaul. The existing, text-heavy page failed to communicate the benefits of the product, or explain how it was different to the other services on the market.
 
-{% figure u-pull-right "<cite>Richard Rutter, co-founder and CEO</cite>" %}
+{% figure caption:"<cite>Richard Rutter, co-founder and CEO</cite>" class:"u-pull-right" %}
 > Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.
 {% endfigure %}
 
@@ -34,7 +34,7 @@ Improving the product in discreet stages sounded appealing, but beyond a few tec
 ## Brand Refresh
 The design used during private and public beta phases of the product roll-out no longer aligned with this redefined proposition, so a new approach was needed. Elements of the previous design were retained, and formed the basis of what followed.
 
-{% figure u-extend %}
+{% figure class:"u-bleed" %}
 {% picture /projects/fontdeck/palette.svg alt="Palette and fonts" %}
 {% endfigure %}
 
@@ -43,18 +43,18 @@ The original brand font was FF Info, but as this wasn't in our catalogue it didn
 ## Holistic Design
 Page layout was more considered, making heavy use of the underlying grid, line rules and a clear typographic hierarchy. The number of rounded corners used in the design was reduced, while the playing card device was limited to account and project pages, where users managed their font 'decks'.
 
-{% figure c-figure--caption-right u-extend "Exposing different means of discovery made it easier for users to browse Fontdeck's catalogue" %}
+{% figure caption:"Exposing different means of discovery made it easier for users to browse Fontdeck's catalogue" class:"u-extend" %}
 {% picture /projects/fontdeck/page_browse_typeface.png alt="Browse library page" class="u-framed" %}
 {% endfigure %}
 
-{% figure c-figure--caption-right u-extend "Information about an individual typeface was available on one page, with consistent presentation of meta data in the sidebar" %}
+{% figure caption:"Information about an individual typeface was available on one page, with consistent presentation of meta data in the sidebar" class:"u-extend" %}
 {% picture /projects/fontdeck/page_browse_specimen.png alt="Type specimen page" class="u-framed" %}
 {% endfigure %}
 
 ## Selling the Service
 The previous text-heavy about page was replaced by an [expanded about section][2]. This included a video narrated by Richard, the story of the product's development, and introduced members of the team working behind the scenes. A dedicated [pricing page][3] was linked to from the main navigation which concisely explained how the various pricing tiers worked.
 
-{% figure u-extend "About page and foundry directory" %}
+{% figure caption:"About page and foundry directory" class:"u-extend" %}
 {% picture supporting /projects/fontdeck/page_about.png alt="About page" class="u-framed" %}
 {% picture supporting /projects/fontdeck/page_foundries.png alt="Foundries page" class="u-framed" %}
 {% endfigure %}

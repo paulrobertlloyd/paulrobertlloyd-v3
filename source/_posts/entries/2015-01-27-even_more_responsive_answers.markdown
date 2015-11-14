@@ -17,12 +17,12 @@ In the spirit of [previous][2] [articles][3], I'm sharing my unedited answers he
 
 ## Navigation
 
-{% figure "[@Jordan_Simpson, 4 December 2014](https://twitter.com/jordan_simpson/status/540520320374157312)" %}
+{% figure caption:"[@Jordan_Simpson, 4 December 2014](https://twitter.com/jordan_simpson/status/540520320374157312)" %}
 > What is your recommended method of handling dropdown menus when viewed on tablet and smartphone devices?
 {:.c-tweet}
 {% endfigure %}
 
-{% figure "[@LeeCraigStewart, 4 December 2014](https://twitter.com/leecraigstewart/status/540514957159583744)" %}
+{% figure caption:"[@LeeCraigStewart, 4 December 2014](https://twitter.com/leecraigstewart/status/540514957159583744)" %}
 > What are the best ways or resources out there you can use to convert a desktop menu into a mobile one?
 {:.c-tweet}
 {% endfigure %}
@@ -35,7 +35,7 @@ A great resource for responsive patterns (including those dealing with navigatio
 
 ## Tables
 
-{% figure "[@joewattsdesign, 4 December 2014](https://twitter.com/joewattsdesign/status/540530144616910848)" %}
+{% figure caption:"[@joewattsdesign, 4 December 2014](https://twitter.com/joewattsdesign/status/540530144616910848)" %}
 > I deal a lot with dashboards and still can't find a good way of handling tables... please help!
 {:.c-tweet}
 {% endfigure %}
@@ -44,7 +44,7 @@ As no two tables are the same, there's no definitive solution. Simpler tables co
 
 ## Advertising
 
-{% figure "[@andybudd, 4 December 2014](https://twitter.com/andybudd/status/540515016823549953)" %}
+{% figure caption:"[@andybudd, 4 December 2014](https://twitter.com/andybudd/status/540515016823549953)" %}
 > How do you deal with fixed width banner ads in a responsive site?
 {:.c-tweet}
 {% endfigure %}

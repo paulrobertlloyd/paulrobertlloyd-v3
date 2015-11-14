@@ -10,7 +10,7 @@ tags:
 ---
 Banks aren't the most likeable organisations, but I'm developing a soft spot for [Kiwibank][1], a New Zealand-based bank competing against larger Australian-based rivals. Their [latest advertising campaign][2] suggests they're willing to stand up for something new "and even a bit crazy", and in the world of banking, a responsive website is just that. With mobile traffic pushing past 10%, they asked [Springload][3] to help them become device agnostic.
 
-{% figure c-figure--caption-right "The new Kiwibank homepage viewed on different devices" %}
+{% figure caption:"The new Kiwibank homepage viewed on different devices" class:"u-extend" %}
 {% picture /2012/05/kiwibank.jpg alt="" %}
 {% endfigure %}
 

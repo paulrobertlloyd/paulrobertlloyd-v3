@@ -22,7 +22,7 @@ I always imagined the [Brandenburg Gate][3] as freestanding, separate from other
 
 Much of my first evening was spent trying to figure out how the metro system (S-Bahn and U-Bahn) worked. Routes are plentiful but share similar colours, and require knowing their final destination to ensure you board the right train. I was reminded of the adrenaline rush experienced by travelling in unfamiliar lands; a couple offering me their unused tickets served only to briefly confuse matters.
 
-{% figure "A U-Bahn train arrives at Alexanderplatz station" %}
+{% figure caption:"A U-Bahn train arrives at Alexanderplatz station" %}
 {% picture /2015/03/berlin_ubahn.jpg alt="" %}
 {% endfigure %}
 
@@ -33,13 +33,13 @@ Other cities make much of their waterways, but the River Spree that runs though 
 ## Olympiastadion
 A common aspect of my travels is visiting [former Olympic stadiums][7], and this trip was no different. Germany has an unfortunate history relating to the Olympics; I had previously visited [the site of the 1972 massacre in Munich][8], and here I was visiting the centrepiece of Hitler's orchestrated event of 1936. Tourism can sometimes feel like a very crass activity.
 
-{% figure u-bleed "The imposing gates to Berlin's Olympic Stadium" %}
+{% figure caption:"The imposing gates to Berlin's Olympic Stadium" class:"u-bleed" %}
 {% picture showcase /2015/03/berlin_olympiastadion.jpg alt="" %}
 {% endfigure %}
 
 [This amphitheatre][9] modelled on the Roman Colosseum, was designed as a platform for Nazi propaganda, a means of drawing a line between Aryan superiority and Greek antiquity. The six columns surrounding the stadium represented the nationalistic ideology of the time in which Germans came from one of six clans: Bavarians, Prussians, Saxons, Frisians, Swabians and Franconians. On the east side of the stadium part of the arena is cut away. This is the Marathon Gate where the olympic cauldron is situated. This also provides a view towards the Maifeld parade ground and a bell tower which sits upon the Langemarckhalle, a memorial to young German soldiers who lost their lives during the First World War.
 
-{% figure "Much of the stadium appears as it did during the 1936 Olympic Games" %}
+{% figure caption:"Much of the stadium appears as it did during the 1936 Olympic Games" %}
 {% picture /2015/03/berlin_olympiastadion_corridor.jpg alt="" %}
 {% endfigure %}
 
@@ -48,7 +48,7 @@ Phoney symbolism aside, the design of the seating bowl is actually quite smart, 
 ## Berlin Wall
 The Olympiastadion is just one aspect of Berlin's dark past. Many parts of the [Berlin Wall][10] remain, and opposite the [documentation and memorial centre][11], one section has been restored to its original state. A further length of wall includes audio/visual presentations that describe the events that took place and show what the surrounding area previously looked like. Markings on the ground outline the location of buildings demolished to make way for the wall, while round metal plates indicate the points at which those attempting to cross the border were killed.
 
-{% figure "A short section of restored Berlin Wall, complete with watch tower" %}
+{% figure caption:"A short section of restored Berlin Wall, complete with watch tower" %}
 {% picture /2015/03/berlin_wall.jpg alt="" %}
 {% endfigure %}
 

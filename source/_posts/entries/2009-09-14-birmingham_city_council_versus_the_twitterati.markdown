@@ -14,7 +14,7 @@ tags:
 ---
 Last week Birmingham City Council launched its new £2.8m website. Delayed, over budget and woefully inadequate, it rightly faced a storm of criticism on Twitter and from the local press.
 
-{% figure "The new Birmingham City Council Website" %}
+{% figure caption:"The new Birmingham City Council Website" %}
 {% picture /2009/09/birmingham_city_council_versus_the_twitterati_website.png alt="" %}
 {% endfigure %}
 
@@ -35,7 +35,7 @@ Yet the relationship between a council and it's residents online needn't be so s
 
 Let me give an example. Earlier this year [I wrote about their logo][8], and asked for information about who was responsible for its design, yet this yielded no response. However, on discovering the [@WalsallCouncil][9] account, [I asked the same question][10], and not only did I get an answer, but members of their Print and Design Unit and Press Office [commented on my post][11], giving me more information than I ever could have hoped for.
 
-{% figure "Walsall Council replying to a question from me on Twitter" %}
+{% figure caption:"Walsall Council replying to a question from me on Twitter" %}
 {% picture /2009/09/birmingham_city_council_versus_the_twitterati_tweet.png alt="" %}
 {% endfigure %}
 

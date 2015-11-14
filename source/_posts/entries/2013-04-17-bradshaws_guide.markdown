@@ -25,7 +25,7 @@ Bradshaw's work is well suited to hypertext, with stations categorised by locati
 
 Besides the historical, technical and artistic aspects, making Bradshaw's work more widely available might also encourage people to spend more time on the railways and holiday at home, rather than fly overseas (readers should ignore the author's current location).
 
-{% figure "Bradshaw's Guide viewed on an iPad" %}
+{% figure caption:"Bradshaw's Guide viewed on an iPad" %}
 {% picture /2013/04/bradshaws_guide_ipad.png alt="" %}
 {% endfigure %}
 

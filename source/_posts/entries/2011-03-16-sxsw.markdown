@@ -24,7 +24,7 @@ Yet amongst the salesforce, there were still a number of good sessions to be fou
 Much of this years programme catered towards topics the marketing and sales guys (commonly referred to as Douchebags) would enjoy, and many presentations were victims of exaggerated titles created to encourage votes during the panel selection stage. Topics seemed to focus on the Latest Internet Trends, even if by the time they arrived in Austin they felt tired and passing ('gamification', I'm looking at you). Those sessions that were of value, certainly to a designer/developer like myself, were pitted against each other, making it impossible to see the few that guaranteed valuable content.
 
 ## For The People
-{% figure "The Great British Booze-up at Shakespeare's Pub" %}
+{% figure caption:"The Great British Booze-up at Shakespeare's Pub" %}
 {% picture /2011/03/sxsw_great_british_booze_up.jpg alt="" %}
 {% endfigure %}
 
