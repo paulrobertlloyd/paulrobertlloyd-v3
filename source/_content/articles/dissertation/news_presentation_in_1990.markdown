@@ -9,21 +9,21 @@ By the early nineties comedy shows such as <cite>The Day Today</cite> made light
 
 The BBC's Breakfast News had titles involving a globe at the centre of a clock face which turned back on itself before the 'C' in BBC spun out and around the globe, all to the music of horns and chimes. Similar themes were expressed later its One O'clock news programme. Later bulletins at six and nine had much heavier music, but still carried images of globes and maps of the world.
 
-{% figure "Figure 34: <cite>BBC Breakfast News</cite> titles, 1989" %}
+{% figure caption:"Figure 34: <cite>BBC Breakfast News</cite> titles, 1989" %}
 {% picture thumbnail /articles/dissertation/figure-34a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-34b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-34c.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-34d.png alt="Still from titles" %}
 {% endfigure %}
 
-{% figure "Figure 35: <cite>BBC One O'Clock News</cite> titles, 1986" %}
+{% figure caption:"Figure 35: <cite>BBC One O'Clock News</cite> titles, 1986" %}
 {% picture thumbnail /articles/dissertation/figure-35a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-35b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-35c.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-35d.png alt="Still from titles" %}
 {% endfigure %}
 
-{% figure "Figure 36: <cite>BBC Six O'Clock News</cite> titles, 1984" %}
+{% figure caption:"Figure 36: <cite>BBC Six O'Clock News</cite> titles, 1984" %}
 {% picture thumbnail /articles/dissertation/figure-36a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-36b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-36c.png alt="Still from titles" %}
@@ -32,14 +32,14 @@ The BBC's Breakfast News had titles involving a globe at the centre of a clock f
 
 As for ITN, these images were used much less, preferring to use purely computer animated sequences involving the programme titles or in the case of News at Ten, a computer rendered London skyline before closing in on the familiar clock face of Big Ben.
 
-{% figure "Figure 37: <cite>ITN News at 12:30,</cite> titles 1989" %}
+{% figure caption:"Figure 37: <cite>ITN News at 12:30,</cite> titles 1989" %}
 {% picture thumbnail /articles/dissertation/figure-37a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-37b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-37c.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-37d.png alt="Still from titles" %}
 {% endfigure %}
 
-{% figure "Figure 38: <cite>ITN News at Ten</cite> titles, 1988" %}
+{% figure caption:"Figure 38: <cite>ITN News at Ten</cite> titles, 1988" %}
 {% picture thumbnail /articles/dissertation/figure-38a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-38b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-38c.png alt="Still from titles" %}
@@ -50,11 +50,11 @@ However both the BBC and ITN started their bulletins in exactly the same manor -
 
 The first real change to come to this clichéd and computer orientated world was again in the habitual shape of Martin Lambie-Nairn, who produced new titles for the BBC's Nine O'clock News in 1988. These were based on a range of graphical elements with long-standing BBC associations such as the figure Jupiter from its coat of arms.
 
-{% figure "<cite>Lambie-Nairn, 1997, p119</cite>" %}
+{% figure caption:"<cite>Lambie-Nairn, 1997, p119</cite>" %}
 > Conceptually, we attempted to communicate an idea of how a news programme actually functions: disparate information comes in, is collected, ordered then broadcast.
 {% endfigure %}
 
-{% figure "Figure 39: The look of the <cite>BBC Nine O'Clock News</cite> was unlike anything seen before" %}
+{% figure caption:"Figure 39: The look of the <cite>BBC Nine O'Clock News</cite> was unlike anything seen before" %}
 {% picture thumbnail /articles/dissertation/figure-39a.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-39b.png alt="Still from titles" %}
 {% picture thumbnail /articles/dissertation/figure-39c.png alt="Still from titles" %}

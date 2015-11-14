@@ -90,6 +90,66 @@ This is a term.
 Here is another term.
 : And it gets a definition too, which is this line.
 
+### Figures
+The `.c-figure`{:.language-css} component class is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation and a tweet (`.c-tweet`{:.language-css}).
+
+{% figure caption:"<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
+<pre>
+'Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
+And the mome raths outgrabe.
+</pre>
+{% endfigure %}
+
+{% figure caption:"Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
+> Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
+{% endfigure %}
+
+{% figure caption:"[@paulrobertlloyd, 3 September 2013](https://twitter.com/paulrobertlloyd/status/374836201972584448)" %}
+> How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
+{:.c-tweet}
+{% endfigure %}
+
+For figures using the `.u-extend`{:.language-css} modifier, the caption moves to the right at the largest breakpoint.
+
+{% figure caption:"Single image, with supporting caption to the right" class:"u-extend" %}
+{% picture /styleguide/pattern_1.jpg alt="Image 1" %}
+{% endfigure %}
+
+#### Images
+Images are the most typical use for the `.c-figure`{:.language-css} component class. By using [Quantity Queries](http://alistapart.com/article/quantity-queries-for-css), images resize themselves based on the number of siblings they sit beside.
+
+{% figure caption:"Single image, with supporting caption" %}
+{% picture /styleguide/pattern_1.jpg alt="Image 1" %}
+{% endfigure %}
+
+{% figure caption:"Two images placed side-by-side, with supporting caption" %}
+{% picture supporting /styleguide/pattern_1.jpg alt="Image 1" %}
+{% picture supporting /styleguide/pattern_2.jpg alt="Image 2" %}
+{% endfigure %}
+
+{% figure caption:"Three images placed side-by-side, with supporting caption" %}
+{% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
+{% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
+{% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
+{% endfigure %}
+
+{% figure caption:"Four images placed side-by-side, with supporting caption" %}
+{% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
+{% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
+{% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
+{% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
+{% endfigure %}
+
+{% figure caption:"Five images placed side-by-side, with supporting caption" %}
+{% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
+{% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
+{% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
+{% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
+{% picture thumbnail /styleguide/pattern_5.jpg alt="Image 5" %}
+{% endfigure %}
+
 ## Text-level Semantics
 There are a number of inline HTML elements you may use anywhere within other elements.
 

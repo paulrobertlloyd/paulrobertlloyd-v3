@@ -18,7 +18,7 @@ With the Czech Republic located in Central Europe, formerly a constituent of the
 
 Seeing streets populated with multinational companies is a common experience, and while Prague has no shortage of McDonald's and Starbucks, the city was not as saturated with American chains as you might expect. However, established British brands like Debenhams, Tesco, Marks & Spencer and Costa Coffee were ever present, and only served to increase my general sense of displacement; I would love to know why so many British companies choose to operate in the Czech Republic.
 
-{% figure u-pull-right "Construction workers laying a new pavement" %}
+{% figure caption:"Construction workers laying a new pavement" class:"u-pull-right" %}
 {% picture supporting /2015/09/prague_pavement_construction.jpg alt="" %}
 {% endfigure %}
 

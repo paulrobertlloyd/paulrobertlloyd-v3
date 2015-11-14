@@ -17,7 +17,7 @@ I'm finding these review sessions immensely rewarding; it's a great way of gaini
 As a number of new projects have kicked-off recently, and with my own thoughts turning to the design of [this year's dConstruct website][6], much of today's discussion was about our initial design explorations. In turn, we looked at tools and techniques that can help us do this, weighing up the pros and cons of each.
 
 ## Mood boards
-{% figure c-figure--caption-right "Mood board for Family Nest" %}
+{% figure caption:"Mood board for Family Nest" class:"u-extend" %}
 {% picture /2013/08/visual_design_explorations_mood_board.png alt="" %}
 {% endfigure %}
 
@@ -26,7 +26,7 @@ A tool typically used by interior designers, mood boards can be a great way of e
 We tend to use mood boards when there's not a sense of any brand positioning or identity. However, they can feel quite removed from the web; when clients are eager to see something more relevant to the final outcome, presenting these becomes tricky.
 
 ## Style tiles
-{% figure c-figure--caption-right "Style tiles for Channel 4 Scrapbook" %}
+{% figure caption:"Style tiles for Channel 4 Scrapbook" class:"u-extend" %}
 {% picture /2013/08/visual_design_explorations_style_tiles.png alt="" %}
 {% endfigure %}
 
@@ -41,7 +41,7 @@ We've found aligning visual design with words that evoke emotions relevant to a 
 Although unintentional, style tiles have started to feel a little too prescriptive (maybe even 'productised'), raising interesting questions about how processes are best shared within the community. That said, the [style tiles][8] website is a great resource for anyone looking to instigate a more collaborative process with their clients.
 
 ## Element collages
-{% figure c-figure--caption-right "Element collage for a current project" %}
+{% figure caption:"Element collage for a current project" class:"u-extend" %}
 {% picture /2013/08/visual_design_explorations_element_collage.png alt="" %}
 {% endfigure %}
 

@@ -13,7 +13,7 @@ layout: default
 
         <div class="s-prose s-prose--body  e-content">
             {% if page.image %}
-                {% figure u-bleed "{{ page.image.caption }}" %}
+                {% figure caption:"{{ page.image.caption }}" class:"u-bleed" %}
 {% picture feature {{ page.image.url }} alt="" %}
                 {% endfigure %}
             {% endif %}

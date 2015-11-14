@@ -12,7 +12,7 @@ Last year was notable for a [running theme on sustainability][1]; both in the to
 ## January
 2010 began [watching Sydney's famed firework display][2] from a crowded viewpoint near Mrs. Macquarie's Chair. Large crowds and the absence of friends meant it was somewhat anti-climatic, but I'm still glad to have experienced the event first-hand.
 
-{% figure u-bleed "Reflection of Melbourne's CBD in a window at Albert Park" %}
+{% figure caption:"Reflection of Melbourne's CBD in a window at Albert Park" class:"u-bleed" %}
 {% picture showcase /2011/01/2010_in_review_melbourne.jpg alt="" %}
 {% endfigure %}
 
@@ -25,7 +25,7 @@ On television, I was enthralled by a new BBC Two series, Michael Portillo's [Gre
 ## February
 When Clearleft won a project with BBC Radio 4, I jumped at the chance to be involved, and February began with a kick-off meeting at their offices within sight of Broadcasting House. A small project with many constraints, I still found it a fascinating -- if at times frustrating -- insight into how the organisation works.
 
-{% figure "Everyone hard at work at Hack the Planet" %}
+{% figure caption:"Everyone hard at work at Hack the Planet" %}
 {% picture /2011/01/2010_in_review_hack_the_planet.jpg alt="" %}
 {% endfigure %}
 
@@ -43,7 +43,7 @@ Gripped by the previous year's Formula One season, it was with much anticipation
 > I'm going to stick my neck out and put my money on Vettel winning this years F1 World Championship -- certainly a deserving winner if he does.
 
 ## April
-{% figure u-pull-right "Gene Hunt and Jim Keats from the final series of Ashes to Ashes" %}
+{% figure caption:"Gene Hunt and Jim Keats from the final series of Ashes to Ashes" class:"u-pull-right" %}
 {% picture supporting /2011/01/2010_in_review_ashes_to_ashes.jpg alt="" %}
 {% endfigure %}
 
@@ -61,7 +61,7 @@ Much of May was spent in London, be it meetings at Channel 4's offices in Westmi
 With Dave Gray, one of UX London's speakers staying in the UK after the conference, Clearleft asked if he would give us a [two day intensive sketching workshop][15]. Starting with basic drawing techniques and finishing up with fun collaborative exercises, meant I came away with lots of useful tips, and a renewed desire to sketch more often.
 
 ## June
-{% figure u-bleed "My favourite photo taken during Lomo Workshop" %}
+{% figure caption:"My favourite photo taken during Lomo Workshop" class:"u-bleed" %}
 {% picture showcase /2011/01/2010_in_review_lomo_workshop.jpg alt="" %}
 {% endfigure %}
 
@@ -72,7 +72,7 @@ Later in the month Clearleft had another creative day out, this time learning th
 After 6 months spent looking for a flat in Brighton, I finally found one I could see myself living in; located near Preston Park, it would mean a 30 minute walk in to work everyday, so also had added health benefits! It wouldn't be available until August, but I saw this as a good thing as it gave me plenty of time to prepare.
 
 ## July
-{% figure "Around the campfire on Jon's Gower stag weekend" %}
+{% figure caption:"Around the campfire on Jon's Gower stag weekend" %}
 {% picture /2011/01/2010_in_review_gower.jpg alt="" %}
 {% endfigure %}
 
@@ -85,7 +85,7 @@ I started this month not knowing whether I was coming or going. Moving into my n
 
 The [annual weekend in Wales][21] felt a bit strange this year as we could no longer use the same field in Dollgeau we had camped on for the last seven years. Marred by bad weather and the new surroundings, I have mixed feelings as to whether the tradition should continue, but I'm prepared to give it another go this year just to be sure.
 
-{% figure u-bleed "Quiraing, Isle of Skye" %}
+{% figure caption:"Quiraing, Isle of Skye" class:"u-bleed" %}
 {% picture showcase /2011/01/2010_in_review_isle_of_skye.jpg alt="" %}
 {% endfigure %}
 
@@ -98,7 +98,7 @@ As ever, September kicked off with dConstruct, and this was widely regarded as [
 
 Thanks to Clearleft's work on the Radio 4 site earlier in the year, me and [Andy][28] were invited to a night at the Proms -- a first for me, although it may have been more enjoyable had I remembered my glasses!
 
-{% figure u-pull-right "Maria" %}
+{% figure caption:"Maria" class:"u-pull-right" %}
 {% picture supporting /2011/01/2010_in_review_maria.jpg alt="" %}
 {% endfigure %}
 
@@ -112,7 +112,7 @@ I also went to see Jimmy Carr, whose show was hilarious to start with, but becam
 ## November
 November saw me attend my niece's Christening, a bittersweet affair knowing my brother's family would be leaving for a new life in Brazil soon after.
 
-{% figure u-bleed "Belfast City Hall" %}
+{% figure caption:"Belfast City Hall" class:"u-bleed" %}
 {% picture showcase /2011/01/2010_in_review_belfast_city_hall.jpg alt="" %}
 {% endfigure %}
 

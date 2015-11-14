@@ -8,7 +8,7 @@ The history of graphic design in television has been relatively short yet it has
 ## Bernard Lodge
 After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It was here that he got the opportunity to design the title sequence for a new children's series <cite>Doctor Who</cite> in 1963. By exploiting the effect that occurs when a television camera is pointed towards a monitor, he was able to convey the idea of time travel and space fiction and created what became the famous title sequence. When he reworked the sequence in 1973, he again used techniques that were new to the profession, by using a computer controlled rostrum camera. Lodge produced many more memorable title sequences before leaving the BBC in 1977 to form his own company which later became Lodge-Cheeseman when his former colleague, Colin Cheesman (who had become Head of Graphic Design at the BBC), joined him.
 
-{% figure "Figure 9: Title sequence from <cite>Doctor Who</cite> (BBC 1963. Designed by Bernard Lodge). [Watch on YouTube](https://www.youtube.com/watch?v=Oz7e9kQ2-Uk)" %}
+{% figure caption:"Figure 9: Title sequence from <cite>Doctor Who</cite> (BBC 1963. Designed by Bernard Lodge). [Watch on YouTube](https://www.youtube.com/watch?v=Oz7e9kQ2-Uk)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-9a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-9b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-9c.png alt="Still from ident" %}
@@ -16,7 +16,7 @@ After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-9e.png alt="Still from ident" %}
 {% endfigure %}
 
-{% figure "Figure 10: Title sequence from <cite>Doctor Who</cite> (BBC 1973. Designed by Bernard Lodge). [Watch on YouTube](https://www.youtube.com/watch?v=bKg9tuSbXmk)" %}
+{% figure caption:"Figure 10: Title sequence from <cite>Doctor Who</cite> (BBC 1973. Designed by Bernard Lodge). [Watch on YouTube](https://www.youtube.com/watch?v=bKg9tuSbXmk)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-10a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-10b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-10c.png alt="Still from ident" %}
@@ -33,7 +33,7 @@ In 1967, he left the BBC to join Associated Rediffusion however, when Rediffusio
 
 Here he worked on the on-screen graphics for the Apollo space missions including the near-disastrous Apollo 13 mission. An opportunity came up in 1970 with an open-brief for the design of a new company logo and title sequence for ITN's flagship programme <cite>News at Ten</cite>. However, the senior designer, Malcolm Beatson, had cornered the brief, but Lambie-Nairn had been asked to have ago at the brief himself by ITN's Editor in Chief. When his ideas were chosen over Beatson's, he was seen to be undermining him and resulted with the whole design department refusing to speak to him for a while. It was because of this, that he left ITN and joined LWT.
 
-{% figure u-align-left "Figure 11: Typical still used up until the late 1970's to illustrate current affairs or news items. If the item were to complicated to convey in a single still, it would be animated" %}
+{% figure caption:"Figure 11: Typical still used up until the late 1970's to illustrate current affairs or news items. If the item were to complicated to convey in a single still, it would be animated" class:"u-align-left" %}
 {% picture supporting /articles/early_graphic_design_in_television/figure-11.png alt="" %}
 {% endfigure %}
 
@@ -41,7 +41,7 @@ It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend Wo
 
 This was traditionally based on newspaper cartoons -- for example, if there was a story about the pound being weak, a cartoon drawing of a pound sign wearing bandages and using crutches was shown. Realising that this was at odds with communicating a serious news item, Lambie-Nairn developed a new method of presenting this sort of information in a more appropriate graphical manner. It was with this new approach that <cite>Weekend World</cite> became more successful, and this meant more work for Robinson Lambie-Nairn who found themselves "leaders in a field of one" (Lambie-Nairn, 1997).
 
-{% figure "Figure 12: Title sequence from <cite>Weekend World</cite> (LWT 1982. Creative Director/Designer: Martin Lambie-Nairn)" %}
+{% figure caption:"Figure 12: Title sequence from <cite>Weekend World</cite> (LWT 1982. Creative Director/Designer: Martin Lambie-Nairn)" %}
 {% include embed.html url="https://www.youtube.com/watch?v=Nsf6zIxlOd8?t=10s" %}
 {% endfigure %}
 
@@ -51,7 +51,7 @@ He created a series of animations that were all based on the coming together of 
 
 Channel Four also had consistent on-screen branding, with programme menus, weather charts, on-screen promotions etc. all having the same look and feel often with the Channel Four logo used like a postage stamp in the top right hand corner of the screen. However prior to launch, it wasn't liked by some of the channels executives, one of which wanted the logo to be rendered with a chrome effect and have the appearance of a turned off television. This showed that graphic design in television still wasn't fully understood even by 1982. The Channel's identity was so far ahead of its time, that it remained largely unchanged for 14 years, unheard of in todays rapidly changing industry.
 
-{% figure "Figure 13: Channel Four ident <cite>Round and Back</cite> (Channel Four 1982. Creative Director/Designer: Martin Lambie-Nairn)" %}
+{% figure caption:"Figure 13: Channel Four ident <cite>Round and Back</cite> (Channel Four 1982. Creative Director/Designer: Martin Lambie-Nairn)" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-13a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-13b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-13c.png alt="Still from ident" %}

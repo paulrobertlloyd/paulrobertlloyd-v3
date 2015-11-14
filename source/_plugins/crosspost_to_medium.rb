@@ -74,7 +74,7 @@ module Jekyll
               url = "#{site.config['url']}#{post.url}"
               content = post.content
 
-              crosspost_payload(crossposted, post, content, post.data['title'], url)
+              #crosspost_payload(crossposted, post, content, post.data['title'], url)
             end
 
           else
@@ -93,7 +93,7 @@ module Jekyll
               content = post.content
               content = Kramdown::Document.new(content).to_html
 
-              crosspost_payload(crossposted, post, content, post.title, url)
+              #crosspost_payload(crossposted, post, content, post.title, url)
             end # @posts.each
           end # :Hooks?
 

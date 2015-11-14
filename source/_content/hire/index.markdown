@@ -4,7 +4,7 @@ excerpt: 'An experienced freelance digital designer and web developer, I help re
 header: aside
 landing: true
 ---
-{% figure u-align-right %}
+{% figure class:"u-align-right" %}
 {% picture supporting /hire/me.jpg alt="A photo of me, Paul Robert Lloyd" %}
 {% endfigure %}
 
@@ -22,7 +22,7 @@ I've worked for design agencies, start-ups and established brands in the fields 
 
 With a background in graphic design, my work is focused on interface design for native applications and the web. I value cohesiveness, attention to detail, and creating products that can be used by everyone.
 
-{% figure u-pull-right "<cite>Harry Brignull, Independent UX Consultant</cite>" %}
+{% figure caption:"<cite>Harry Brignull, Independent UX Consultant</cite>" class:"u-pull-right" %}
 > Paul is an excellent designer and front-end developer. He has a lot of experience working with UX designers and researchers, and is comfortable collaborating in that tricky zone where a project is a tangle and needs careful unpicking before being put back together again.
 {% endfigure %}
 

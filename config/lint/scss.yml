@@ -17,7 +17,7 @@ linters:
 
   NameFormat:
     enabled: false
-    convention: BEM # TODO: Lint for BEM-like names
+    convention: BEM
 
   PropertySortOrder:
     enabled: true
@@ -30,11 +30,13 @@ linters:
 
   SelectorDepth:
     enabled: true
+    exclude:
+      - '../../source/_assets/stylesheets/scopes/**'
     max_depth: 3
 
   SelectorFormat:
     enabled: false
-    convention: BEM # TODO: Lint for BEM-like selectors
+    convention: BEM
 
   SpaceBeforeBrace:
     enabled: true

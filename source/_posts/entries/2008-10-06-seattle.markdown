@@ -25,7 +25,7 @@ With this structure dominating the northern suburbs where I was staying, peaking
 Linking the Seattle Center with downtown Seattle, is a monorail also built for the fair. Given the exposition was focused on an exciting scientific future I found it a little ironic that the monorail now terminates at a shopping mall -- consumerism, not science surely the dominating force in the 21st Century.
 
 ## Downtown and Pioneer Square
-{% figure c-figure--caption-right "Pike Place market" %}
+{% figure caption:"Pike Place market" class:"u-extend" %}
 {% picture /2008/10/seattle_pike_place.jpg alt="" %}
 {% endfigure %}
 
@@ -35,7 +35,7 @@ However, I didn't explore these areas as much as I would have liked, mainly due 
 
 Here a daring steel and glass design wraps itself around public reading and research spaces, lounges and an innovative 'book spiral'. This continuous spiral allows visitors to browse the library's entire non-fiction collection without breaking up the Dewey Decimal classification system onto different floors.
 
-{% figure c-figure--caption-right "Inside Seattle Central Library" %}
+{% figure caption:"Inside Seattle Central Library" class:"u-extend" %}
 {% picture /2008/10/seattle_central_library.jpg alt="" %}
 {% endfigure %}
 

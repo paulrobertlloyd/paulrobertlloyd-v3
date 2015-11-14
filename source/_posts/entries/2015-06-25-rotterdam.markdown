@@ -20,14 +20,14 @@ The near-complete destruction of Rotterdam after the Nazi bombing raid of 14 May
 
 Skyscrapers are a familiar sight in Rotterdam. This is especially true of the newly regenerated Kop van Zuid district, which has some similarities with London's Docklands. Although much smaller, this district is already home to the work of architects like Renzo Piano, Sir Norman Foster and Rem Koolhaas.
 
-{% figure "Details of KPN Tower and De Rotterdam buildings in the Kop van Zuid district" %}
+{% figure caption:"Details of KPN Tower and De Rotterdam buildings in the Kop van Zuid district" %}
 {% picture /2015/06/rotterdam_kpn_tower.jpg alt="KPN Tower" %}
 {% picture /2015/06/rotterdam_de_rotterdam.jpg alt="De Rotterdam" %}
 {% endfigure %}
 
 Buildings here include [Maastoren][4], the tallest building in the Benelux region, and [De Rotterdam][5], whose four substantial towers, each offset half way up, combine to form the most densely built part of the Netherlands. The area is joined to the city by the [Erasmusbrug][6], a landmark nicknamed 'the Swan' due the design of its asymmetric white pylon.
 
-{% figure u-bleed "Erasmusbrug or 'The Swan'" %}
+{% figure caption:"Erasmusbrug or 'The Swan'" class:"u-bleed" %}
 {% picture showcase /2015/06/rotterdam_erasmusbrug.jpg alt="" %}
 {% endfigure %}
 
@@ -38,7 +38,7 @@ At the [Museum Boijmans Van Beuningen][8] the work of celebrated Dutch and inter
 
 Their controversial history is told in [a multimedia presentation][9] that projects images onto the floor and onto the piece itself. The work Serra conceived as a reaction to the space it occupied was intended to direct viewers around the space in a specific way. When Wim Crouwel became director of the museum two years after it was installed, this space was enlarged and suddenly Serra's work had the fortuitous effect of directing people into the museum shop. At one point, it even became part of the entrance foyer, much to the chagrin of its creator. This presentation tells the story of the space, and considers the way works of art can change over time, both as a result of the artist and the whims of those who commission them.
 
-{% figure "Museum Boijmans Van Beuningen" %}
+{% figure caption:"Museum Boijmans Van Beuningen" %}
 {% picture /2015/06/rotterdam_boijmans.jpg alt="" %}
 {% endfigure %}
 
@@ -50,13 +50,13 @@ While not as tall or as beautiful as other tall towers, it is more frightening t
 ## Cube Houses
 Another series of distinctive buildings can be found around Blaak railway station, the newest of which is the Markthal, a large arch-like structure enclosed with glass walls at each end and featuring ceiling art displaying enlarged fruits and vegetables. The strangest of Rotterdam's buildings however must be the [Cube Houses][12], designed by [Piet Blom][13].
 
-{% figure u-bleed "Piet Blom's Cube Houses" %}
+{% figure caption:"Piet Blom's Cube Houses" class:"u-bleed" %}
 {% picture showcase /2015/06/rotterdam_cube_houses.jpg alt="" %}
 {% endfigure %}
 
 Envisaged as an urban forest, this series of 40 cubes, each tilted at an angle of 45 degrees and perched upon hexagonal concrete trunks, allows residents to feel connected both to the street below, and the sky above. A show cube is open to the public, so I couldn't resist peeking inside. As suspected, these homes are demonstrative of form over function; dangerously steep stairs lead up to a space divided into three floors, with small rooms constrained by steeply slopping ceilings.
 
-{% figure "Wide thoroughfares though the city reminded me a little of Brasilia, although here they are straddled by segregated cycle lanes and footpaths." %}
+{% figure caption:"Wide thoroughfares though the city reminded me a little of Brasilia, although here they are straddled by segregated cycle lanes and footpaths." %}
 {% picture /2015/06/rotterdam_road.jpg alt="" %}
 {% endfigure %}
 
