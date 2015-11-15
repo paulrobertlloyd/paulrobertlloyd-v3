@@ -95,7 +95,7 @@ module Jekyll
     def crosspost_payload(crossposted, post, content, title, url)
       # Prepend the title and add a link back to originating site
       content.prepend("<h1>#{title}</h1>")
-      content << "<p><i>This was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
+      content << "<p><i>This article was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
 
       # Only cross-post if content has not already been cross-posted
       if url and ! crossposted.include? url
@@ -104,7 +104,7 @@ module Jekyll
           'contentFormat' => "html",
           'content'       => content,
           'tags'          => post.data['tags'],
-          'publishStatus' => @settings['status'] || "publish",
+          'publishStatus' => @settings['status'] || "public",
           'license'       => @settings['license'] || "all-rights-reserved",
           'canonicalUrl'  => url
         }

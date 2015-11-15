@@ -3,7 +3,6 @@ title: 'Stephen Colbert''s Late Show'
 date: '2015-09-16 20:49:00 +0100'
 location: Brighton, England
 excerpt: 'A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.'
-crosspost_to_medium: true
 image:
   url: /2015/09/stephen_colbert_late_show.jpg
   caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS'
