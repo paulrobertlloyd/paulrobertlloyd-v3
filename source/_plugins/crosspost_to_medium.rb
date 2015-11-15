@@ -29,15 +29,9 @@ module Jekyll
     def generate(site)
       @settings = site.config['jekyll-crosspost_to_medium']
 
-      @medium_cache_dir = @settings['cache'] || site.config['source'] + '/.jekyll-crosspost_to_medium'
-      FileUtils.mkdir_p(@medium_cache_dir)
-
-      # Should we allow this to run?
-      globally_enabled = true
-
-      if site.config.has_key? 'jekyll-crosspost_to_medium'
-        globally_enabled = @settings['enabled']
-      end
+      globally_enabled = @settings['enabled'] || true
+      cache_dir = @settings['cache'] || site.config['source'] + '/.jekyll-crosspost_to_medium'
+      @crossposted_file = File.join(cache_dir, "medium_crossposted.yml")
 
       if globally_enabled
         user_id = ENV['MEDIUM_USER_ID'] or false
@@ -48,19 +42,17 @@ module Jekyll
           return
         end
 
-        if defined?(@medium_cache_dir)
+        if defined?(cache_dir)
+          FileUtils.mkdir_p(cache_dir)
 
-          crossposted_file = File.join(@medium_cache_dir, "medium_crossposted.yml")
-
-          if File.exists?(crossposted_file)
-            crossposted = open(crossposted_file) { |f| YAML.load(f) }
+          if File.exists?(@crossposted_file)
+            crossposted = open(@crossposted_file) { |f| YAML.load(f) }
           else
             crossposted = []
           end
 
           # If Jekyll 3.0, use hooks (which does a lot of the work for us)
           if (Jekyll.const_defined? :Hooks)
-
             Jekyll::Hooks.register :posts, :post_render do |post|
               if ! post.published?
                 next
@@ -71,14 +63,13 @@ module Jekyll
                 next
               end
 
-              url = "#{site.config['url']}#{post.url}"
               content = post.content
+              url = "#{site.config['url']}#{post.url}"
+              title = post.data['title']
 
-              #crosspost_payload(crossposted, post, content, post.data['title'], url)
+              crosspost_payload(crossposted, post, content, title, url)
             end
-
           else
-
             site.posts do |post|
               if ! post.published?
                 next
@@ -89,22 +80,20 @@ module Jekyll
                 next
               end
 
+              content = Kramdown::Document.new(post.content).to_html
               url = "#{site.config['url']}#{post.url}"
-              content = post.content
-              content = Kramdown::Document.new(content).to_html
+              title = post.title
 
-              #crosspost_payload(crossposted, post, content, post.title, url)
-            end # @posts.each
-          end # :Hooks?
-
-          # Save it back
-          File.open(crossposted_file, 'w') { |f| YAML.dump(crossposted, f) }
+              crosspost_payload(crossposted, post, content, title, url)
+            end
+          end
         end
       end
     end
 
+
     def crosspost_payload(crossposted, post, content, title, url)
-      # Prepend the title and add a link back to the originating site
+      # Prepend the title and add a link back to originating site
       content.prepend("<h1>#{title}</h1>")
       content << "<p><i>This was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
 
@@ -120,14 +109,16 @@ module Jekyll
           'canonicalUrl'  => url
         }
 
-        puts payload
-
         crosspost_to_medium(payload)
         crossposted << url
+
+        # Update cache
+        File.open(@crossposted_file, 'w') { |f| YAML.dump(crossposted, f) }
       end
     end
 
-    def crosspost_to_medium( payload )
+
+    def crosspost_to_medium(payload)
       puts "Cross-posting “#{payload['title']}” to Medium"
 
       user_id = ENV['MEDIUM_USER_ID'] or false
