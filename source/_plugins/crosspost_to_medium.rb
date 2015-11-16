@@ -27,10 +27,11 @@ module Jekyll
     priority :low
 
     def generate(site)
-      @settings = site.config['jekyll-crosspost_to_medium']
+      @config = site.config
+      @settings = @config['jekyll-crosspost_to_medium']
 
       globally_enabled = @settings['enabled'] || true
-      cache_dir = @settings['cache'] || site.config['source'] + '/.jekyll-crosspost_to_medium'
+      cache_dir = @settings['cache'] || @config['source'] + '/.jekyll-crosspost_to_medium'
       @crossposted_file = File.join(cache_dir, "medium_crossposted.yml")
 
       if globally_enabled
@@ -64,7 +65,7 @@ module Jekyll
               end
 
               content = post.content
-              url = "#{site.config['url']}#{post.url}"
+              url = "#{@config['url']}#{post.url}"
               title = post.data['title']
 
               crosspost_payload(crossposted, post, content, title, url)
@@ -81,7 +82,7 @@ module Jekyll
               end
 
               content = Kramdown::Document.new(post.content).to_html
-              url = "#{site.config['url']}#{post.url}"
+              url = "#{@config['url']}#{post.url}"
               title = post.title
 
               crosspost_payload(crossposted, post, content, title, url)
@@ -96,6 +97,11 @@ module Jekyll
       # Prepend the title and add a link back to originating site
       content.prepend("<h1>#{title}</h1>")
       content << "<p><i>This article was originally posted <a href=\"#{url}\" rel=\"canonical\">on my own site</a>.</i></p>"
+
+      # If a base URL is configured, strip it from the URL we check against
+      if @config['url']
+        url = url.sub(/^#{@config['url']}?/,'')
+      end
 
       # Only cross-post if content has not already been cross-posted
       if url and ! crossposted.include? url
