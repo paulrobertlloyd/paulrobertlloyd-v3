@@ -5,4 +5,5 @@
 .c-picture,
 .c-item--entry .u-photo { // Shouldn't style this µf class, but it replaces .c-picture
     width: 100%; // Ensure low resolution images fill space of full size image
+    height: 100%; // Ensure image maintains aspect ratio (https://twitter.com/aperfect/status/666233230618714112)
 }
