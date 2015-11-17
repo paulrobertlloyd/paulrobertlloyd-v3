@@ -12,7 +12,7 @@ end
 gem 'jekyll', github: 'jekyll/jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
-  gem 'jekyll-assets', '~> 2.0.0.beta'
+  gem 'jekyll-assets', github: 'jekyll/jekyll-assets'
   gem 'jekyll-figure'
   gem 'jekyll-paginate'
   gem 'jekyll-roman'
