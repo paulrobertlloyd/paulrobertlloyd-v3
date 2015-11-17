@@ -10,6 +10,11 @@
     list-style: none;
 }
 
+.c-list__item--promote {
+    font-weight: 700;
+    letter-spacing: -0.015rem;
+}
+
 .c-list--inline {
     line-height: 1.5;
 
