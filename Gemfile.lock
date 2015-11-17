@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/jekyll/jekyll-assets.git
+  revision: 8c2d7e91decca57f709fbb7f6640ccdcd25a39c4
+  specs:
+    jekyll-assets (2.0.0.pre.beta4)
+      fastimage (~> 1.8)
+      jekyll (~> 3.0)
+      sprockets (~> 3.3)
+      sprockets-helpers (~> 1.2)
+
+GIT
   remote: git://github.com/jekyll/jekyll.git
   revision: 03d3eb7191a6c5d5b6d5fc8a3f96ef0b8f9ccc92
   specs:
@@ -15,6 +25,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.8)
     autoprefixer-rails (6.1.0.1)
       execjs
       json
@@ -27,6 +38,8 @@ GEM
     execjs (2.6.0)
     exiftool (0.7.0)
       json
+    fastimage (1.8.0)
+      addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.10)
     formatador (0.2.5)
     guard (2.13.0)
@@ -54,10 +67,6 @@ GEM
     http_parser.rb (0.6.0)
     jekyll-archives (2.1.0)
       jekyll (>= 2.4)
-    jekyll-assets (2.0.0.pre.beta4)
-      jekyll (~> 3.0.0)
-      sprockets (~> 3.3)
-      sprockets-helpers (~> 1.2)
     jekyll-figure (0.0.2)
     jekyll-paginate (1.1.0)
     jekyll-roman (0.0.2)
@@ -128,7 +137,7 @@ DEPENDENCIES
   guard-scss-lint
   jekyll!
   jekyll-archives
-  jekyll-assets (~> 2.0.0.beta)
+  jekyll-assets!
   jekyll-figure
   jekyll-paginate
   jekyll-roman

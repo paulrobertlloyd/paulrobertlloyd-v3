@@ -2,7 +2,7 @@
     <h1 class="c-item__title">
         <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
             {% if item.featured %}
-                {% svg c-item__logo--{{ item.title | slugify | replace:"_","-" }} %}
+                {% asset_source "c-item__logo--{{ item.title | slugify }}.svg" %}
             {% else %}
                 {{ item.title }}
             {% endif %}
