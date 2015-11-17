@@ -24,7 +24,7 @@ layout: index
             {% assign month = this_month %}
         {% endif %}
 
-            <li class="c-list__item u-separate" value="{{ item.date | date:"%-d" }}">
+            <li class="c-list__item{% unless item.link %} c-list__item--promote{% endunless %} u-separate" value="{{ item.date | date:"%-d" }}">
                 <a href="{{ item.url }}">{{ item.title }}</a>
             </li>
 
