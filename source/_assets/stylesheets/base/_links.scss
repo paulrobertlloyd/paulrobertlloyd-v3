@@ -17,15 +17,14 @@ a {
     }
 
     &:focus {
-        outline: 2px solid $c__focus;
+        outline: 0;
         background-color: $c__focus;
-        color: $c__neutral-dark;
+        text-shadow: none;
     }
 }
 
 [data-whatinput="mouse"] a:focus,
 [data-whatinput="touch"] a:focus {
-    outline: 0;
     background-color: transparent;
     color: inherit;
 }
