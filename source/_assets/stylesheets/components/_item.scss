@@ -15,6 +15,7 @@
 .c-item__media {
     @include text-decoration-color('none');
     display: block;
+    background-image: none !important; // Override @mixin text-decoration-color
 }
 
 .c-item__main {

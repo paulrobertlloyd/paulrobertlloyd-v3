@@ -17,10 +17,11 @@ $c__neutral-lightest: hsb(300, 0, 96);
 $c__primary: hsb(300, 60, 80);
 $c__secondary: hsb(248, 60, 80);
 
+$c__focus: rgba(hsb(248, 15, 90), 0.4);
+$c__select: $c__focus;
 $c__invalid: hsb(0, 60, 80);
 $c__valid: hsb(170, 60, 80);
 $c__highlight: hsb(50, 40, 100);
-$c__focus: $c__highlight;
 
 
 // Breakpoints

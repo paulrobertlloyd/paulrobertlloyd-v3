@@ -145,12 +145,7 @@
                      -0.12em 0 $background-color,
                      0.15em 0 $background-color,
                      -0.15em 0 $background-color;
-
-        &::selection {
-            text-shadow: none;
-        }
     } @else {
-        background-image: none !important;
         text-shadow: none !important;
     }
 }
