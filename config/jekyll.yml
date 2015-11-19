@@ -1,6 +1,8 @@
 title: Paul Robert Lloyd
 encoding: UTF-8
-theme-color: '#cc55cc'
+theme:
+  color: '#cc52cc'
+  background-color: '#141214'
 
 # Meta
 author:

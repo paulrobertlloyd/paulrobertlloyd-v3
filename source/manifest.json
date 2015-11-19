@@ -1,11 +1,14 @@
 ---
 ---
 {
+    "lang": "en-gb",
     "name": "{{ site.title }}",
     "icons": [{
         "src": "{% asset_path icon--192x192.png %}",
-        "sizes": "192x192"
+        "sizes": "192x192",
+        "type": "image/png"
     }],
-    "display": "standalone",
+    "background_color": "{{ site.theme.background-color }}",
+    "display": "browser",
     "start_url": "./"
 }
