@@ -9,7 +9,7 @@ group :development do
 end
 
 # Jekyll (generates static files)
-gem 'jekyll', github: 'jekyll/jekyll'
+gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-assets', github: 'jekyll/jekyll-assets'
