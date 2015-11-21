@@ -26,7 +26,7 @@ Working for yourself leaves little room for maintaining any dignity. Selling mys
 
 The good news is, having recognised these character traits, I can now start to adjust them. If finding work means gaining confidence *and* humility, clarifying my ambitions and being more positive and outgoing, not only will I become a successful freelancer, but a more capable person too.
 
-_This entry originally appeared on [The Pastry Box Project][2]{:.u-syndication rel="syndication"}_
+_This entry originally appeared on [The Pastry Box Project][2]{: .u-syndication rel="syndication"}_
 
 [1]: http://alistapart.com/article/thinking-responsively-a-framework-for-future-learning
 [2]: https://the-pastry-box-project.net/paul-lloyd/2015-october-29

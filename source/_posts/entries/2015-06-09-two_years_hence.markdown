@@ -21,6 +21,6 @@ I repeated the same trick in 2012 when I applied to be a volunteer at the Glasgo
 
 Clearly this little hack is working. So, what do I sign up for next?
 
-_This entry originally appeared on [The Pastry Box Project][1]{:.u-syndication rel="syndication"}_
+_This entry originally appeared on [The Pastry Box Project][1]{: .u-syndication rel="syndication"}_
 
 [1]: https://the-pastry-box-project.net/paul-lloyd/2015-may-12
