@@ -7,9 +7,9 @@ tags:
   - Site
   - Web
 ---
-Given the obsessive compulsive behaviour I exhibit when it comes to tinkering with this website, I've started to question whether I have an addictive personality or not. In what has become a familiar pattern, having decided to embark on a redesign last February, I then spent the following 18 months [iterating and iterating][1]. During this period, [other projects][2] fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
+Given the obsessive compulsive behaviour I exhibit when it comes to tinkering with this website, I've started to question whether I have an addictive personality. In what has become a familiar pattern, having decided to embark on a redesign last February, I then spent the following 18 months [iterating and iterating][1]. During this period, [other projects][2] fell by the wayside as I got distracted by yet another feature addition, performance improvement or design detail.
 
-This year's Indie Web Camp in Brighton was the latest deadline I'd set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this was the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I spent last week revising and polishing to the point that I can finally say: "okay, you can look now".
+This year's Indie Web Camp in Brighton was the latest deadline I'd set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this was the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I've spent last week revising and polishing to the point that I can finally say: "okay, you can look now".
 
 {% figure caption:"The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships" class:"u-bleed" %}
 {% picture /2015/07/shipped.jpg alt="" %}
@@ -23,13 +23,13 @@ One of the reasons I liked this platform however, was that it generated static p
 Since making this choice, Jekyll has matured considerably, and the team is not far from launching the next major version, [Jekyll 3.0][13]. All that's missing is smarter pagination options and faster rebuild times; even with the new incremental generation feature, rebuilds can still sometimes take around 180 seconds.
 
 ## A European Flavour
-While I briefly considered maintaining the previous design and just updating the CMS, a long list of accumulated grievances meant a new design was always the preferred option.
+While I briefly considered maintaining the previous design and just updating the CMS, a long list of accumulated grievances meant a new design became my preferred option.
 
-I've radically simplified what I had before, placing particular emphasis on typography. A long time admirer of [Kris Sowersby][14]'s work, I've treated myself to a selection of his fonts, rather than rely on freely available alternatives; [Tiempos Text][15] is used for body copy and paired with [Calibre][16] for headings and titles. His foundry doesn't provide WOFF 2.0 webfonts yet (a format that produces files ~30% smaller than WOFF 1.0), but hopefully that'll change once this format gains wider adoption. Surprisingly, including both fonts in the same passage of text requires adjusting their relative sizes, leading to some [pretty irksome CSS][17].
+I've radically simplified what I had before, placing particular emphasis on typography. A long time admirer of [Kris Sowersby][14]'s work, I've treated myself to a selection of his fonts: [Tiempos Text][15] is used for body copy and paired with [Calibre][16] for headings and titles. His foundry doesn't provide WOFF 2.0 webfonts yet (a format that produces files ~30% smaller than WOFF 1.0), but hopefully that'll change once this format gains wider adoption. Surprisingly, including both fonts in the same passage of text requires adjusting their relative sizes, leading to some [pretty irksome CSS][17].
 
 Ignoring for a moment their antipodean origin, these fonts hopefully give the design a more European flavour, one partly inspired by the many leaflets and brochures I've picked up on my travels across the continent.
 
-I was keen to try using whitespace rather than horizontal rules to separate content, and have greater contrast in the type scale to indicate page hierarchy. Colour is restrained but no less subdued; purples and pinks being suitably hipster enough to satisfy current trends. Oh, and I have a new logo... which I'm mildly ambivalent about, if I'm honest.
+I was keen to try using whitespace rather than horizontal rules to separate content, and have greater contrast in the type scale to indicate page hierarchy. Colour is restrained but no less subdued; purples and pinks being suitably hipster enough to satisfy current design trends. Oh, and I have a new logo... which I'm mildly ambivalent about, if I'm honest.
 
 {% figure caption:"Design viewed on tablet and phone" class:"u-bleed" %}
 {% assign screenshots = "2015/07/shipped/tablet-portrait.png|2015/07/shipped/tablet-landscape.png|2015/07/shipped/phone.png" | split: "|" %}
@@ -39,9 +39,9 @@ I was keen to try using whitespace rather than horizontal rules to separate cont
 ## Content First
 Content has been a big focus of this redesign. With the help of [Owen Gregory][18], project case studies have been completely rewritten. While they currently lack enough supporting artefacts, their revised copy better describes the underlying design process.
 
-Since I've become a regular speaker, alongside a [collection of published articles][19] there is an archive of [previous talks][20], too.
+Since I've become a regular speaker, alongside a [collection of published articles][19] there's now an archive of [previous talks][20], too.
 
-A combination of Jekyll plugins and [Kramdown][21] has enabled greater automation when writing. Code examples are now syntax highlighted, a number of different layouts are available to lay out page photography and I no longer need to manually markup footnotes.
+A combination of Jekyll plugins and [Kramdown][21] has enabled greater automation when writing: code examples are now syntax highlighted, different layouts are readily available for laying out photographs and I no longer need to manually markup footnotes.
 
 I've also added support for [photo galleries][22]. Originally intended to form part of a dedicated photos section, for now these are listed alongside journal entries. Should I decide to move away from Flickr, this functionality may support the transfer of more photos away from that service, but for now, such posts will feature a selection of photos from a particular trip or event.
 
@@ -77,7 +77,7 @@ Those are the headline features, but there are a number of other notable changes
 
 * Related to the previous point, high resolution images are stored alongside other site assets, and can be converted and scaled server-side using [Converjon][35].
 
-* Microformats are back with a vengeance, as I make my website more [indie web friendly][36].
+* Microformats have returned, as I make my website more [indie web friendly][36].
 
 * Support for [Twitter cards][37].
 
