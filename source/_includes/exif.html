@@ -1,31 +1,31 @@
 <div class="c-exif">
-    <h2 class="c-exif__title">{{ include.url | exif: "title" }}</h2>
+    <h2 class="c-exif__title">{{ photo.title }}</h2>
     <dl class="c-exif__values">
         <dt class="c-exif__title u-hidden">Date taken</dt>
         <dd class="c-exif__value c-exif__value--date-created" title="Date taken">
-            <time datetime="{{ include.url | exif: "date_created" | replace:":","-" | date_to_xmlschema }}">
-                {{ include.url | exif: "date_created" | replace:":","-" | date:"%e %B %Y" }}
+            <time datetime="{{ photo.date_created | date_to_xmlschema }}">
+                {{ photo.date_created | date:"%e %B %Y" }}
             </time>
         </dd>
         <dt class="c-exif__title u-hidden">Model</dt>
         <dd class="c-exif__value c-exif__value--model" title="Model">
-            {{ include.url | exif: "model" }}
+            {{ photo.model }}
         </dd>
         <dt class="c-exif__title u-hidden">Aperture</dt>
         <dd class="c-exif__value c-exif__value--f-number" title="Aperture">
-            <i>f</i>/{{ include.url | exif: "f_number.to_f" }}
+            <i>f</i>/{{ photo.f_number }}
         </dd>
         <dt class="c-exif__title u-hidden">Exposure</dt>
         <dd class="c-exif__value c-exif__value--exposure-time" title="Exposure">
-            {{ include.url | exif: "exposure_time" }}
+            {{ photo.exposure_time }}
         </dd>
         <dt class="c-exif__title u-hidden">Film speed</dt>
         <dd class="c-exif__value c-exif__value--iso-speed-ratings" title="Film speed">
-            <abbr title="International Organization for Standardization ">ISO</abbr>{{ include.url | exif: "iso" }}
+            <abbr title="International Organization for Standardization ">ISO</abbr>{{ photo.iso }}
         </dd>
         <dt class="c-exif__title u-hidden">Focal Length</dt>
         <dd class="c-exif__value c-exif__value--focal-length" title="Focal Length">
-            {{ include.url | exif: "focal_length.to_f" }}
+            {{ photo.focal_length }}
         </dd>
     </dl>
 </div>

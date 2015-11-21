@@ -10,15 +10,15 @@ layout: default
         <div class="s-prose s-prose--body  e-content">
             {{ content | improve | namespace }}
 
-            {% capture gallery_path %}{{ page.path | replace:"_galleries/","images/galleries/" | remove:".markdown" }}{% endcapture %}
-            {% directory path: gallery_path %}
+            {% for photo in page.photos %}
             <figure class="u-extend">
-                {% picture {{ file.url | remove:"images/" }} alt="" %}
+                {% capture photo_path %}{{ page.path | replace:"_galleries/","galleries/" | remove:".markdown" }}/{{ photo.id }}.jpg{% endcapture %}
+                {% picture {{ photo_path }} alt="" %}
                 <figcaption>
-                    {% include exif.html url=file.url %}
+                    {% include exif.html %}
                 </figcaption>
             </figure>
-            {% enddirectory %}
+            {% endfor %}
         </div>
     </div>
 

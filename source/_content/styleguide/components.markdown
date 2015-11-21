@@ -7,6 +7,15 @@ meta:
   year: Ongoing
   role: Design and front-end development
   website: '[bradshawsguide.org](http://bradshawsguide.org)'
+photos:
+  - id: 1
+    title: Quadriga atop the Brandenburg Gate
+    date_created: '2015-02-23 18:09:21'
+    model: Canon EOS 450D
+    f_number: 5.0
+    exposure_time: 1/50
+    iso: 800
+    focal_length: 41.0 mm
 ---
 ## Buttons
 The `.c-button`{:.language-css} component class is used for buttons, which are typically used to submit form data.
@@ -58,7 +67,9 @@ The `.c-embed--slidedeck`{:.language-css} modifier is used when embedding presen
 ## EXIF data
 The `.c-exif`{:.language-css} component class is used to display the EXIF data found within an image file.
 
-{% include exif.html url='/images/galleries/2015-03-02-olympiastadion/02.jpg' %}
+{% for photo in page.photos %}
+{% include exif.html %}
+{% endfor %}
 
 ## Screenshots
 The `.c-screenshots`{:.language-css} component class is used to display a combintion of desktop, tablet and mobile phone screenshots.
