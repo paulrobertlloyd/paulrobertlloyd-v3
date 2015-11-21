@@ -118,11 +118,11 @@
 
 // Text highlight
 @mixin text-highlight($color: $c__highlight) {
-    border-radius: 2px;
+    border-radius: 0.125rem;
     background-color: $color;
-    margin-right: -2px;
-    margin-left: -2px;
-    padding: 2px;
+    margin-right: -0.125rem;
+    margin-left: -0.125rem;
+    padding: 0.125rem;
 }
 
 

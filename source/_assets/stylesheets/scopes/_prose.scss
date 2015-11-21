@@ -166,6 +166,12 @@
         @include text-highlight;
     }
 
+    > .highlighter-rouge {
+        margin-right: -0.5rem;
+        margin-left: -0.5rem;
+        padding: 0.5rem;
+    }
+
     .footnotes {
         @include fs--caption;
         @include rule($width: 20%);
