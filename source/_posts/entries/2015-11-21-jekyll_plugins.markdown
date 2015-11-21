@@ -60,7 +60,7 @@ Now, these are pretty simple plugins, but hopefully they are a prelude to more c
 
 At a later date, I may release [the plugin I'm using to generate responsive image mark-up][13], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display photos I've posted to Flickr on this site as well.
 
-Yet if there's one thing I've learnt while making this tentitive journey into the world of programing, it's that it is often sensible to take one step at a time.
+Yet if there's one thing I've learnt while making this tentitive journey into the world of programing, it's that taking one step at a time is often the most sensible approach.
 
 [1]: /2015/07/shipped
 [2]: http://jekyllrb.com
