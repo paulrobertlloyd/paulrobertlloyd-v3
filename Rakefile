@@ -9,11 +9,18 @@
 destination = "public"
 source = "source"
 config = "config"
+stylesheets = "_assets/stylesheets/**/*.scss"
 
 
 desc "Clean up prepared and built files"
 task :clean do |t|
   rm_rf [destination]
+end
+
+
+desc "Lint SCSS"
+task :'lint-scss' do
+  sh "bundle exec scss-lint #{source}/#{stylesheets} --config config/lint/scss.yml" 
 end
 
 
@@ -24,13 +31,13 @@ end
 
 
 desc "Regenerate the website files and place them into destination"
-task :'build-dev' => :clean do
+task :'build-dev' => [:clean, :'lint-scss'] do
   sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --trace --profile"
 end
 
 
 desc "Regenerate the website files and place them into destination"
-task :build => :clean do
+task :build => [:clean, :'lint-scss'] do
   sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
 end
 

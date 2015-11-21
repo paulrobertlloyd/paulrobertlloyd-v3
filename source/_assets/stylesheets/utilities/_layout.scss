@@ -137,18 +137,3 @@
         margin-left: (-$gn__span3-wide);
     }
 }
-
-
-/* Vertically separate two strings with a slash */
-.u-separate {
-    &::after {
-        margin: 0 0.15rem;
-        color: rgba($c__neutral-mid, 0.5);
-        font-weight: normal;
-        content: '\00a0/';
-    }
-
-    &:last-child::after {
-        content: none;
-    }
-}

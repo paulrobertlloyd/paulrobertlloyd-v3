@@ -11,8 +11,9 @@
     line-height: 1;
 
     &:focus {
-        outline: 2px solid $c__focus;
+        outline: 0;
         background-color: $c__focus;
+        color: $c__neutral-darkest;
     }
 
     &:active {

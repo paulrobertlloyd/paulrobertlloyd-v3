@@ -3,8 +3,16 @@ exclude:
   - '../../source/_assets/javascripts/vendor/**'
 
 linters:
+  ColorVariable:
+    enabled: false
+
   Comment:
     enabled: false
+
+  ImportantRule:
+    enabled: true
+    exclude:
+      - '../../source/_assets/stylesheets/utilities/*.scss'
 
   Indentation:
     enabled: true
@@ -15,9 +23,20 @@ linters:
     enabled: true
     style: include_zero
 
+  MergeableSelector:
+    enabled: true
+    force_nesting: false
+
   NameFormat:
     enabled: false
     convention: BEM
+
+  NestingDepth:
+    enabled: true
+    max_depth: 2
+    exclude:
+      - '../../source/_assets/stylesheets/scopes/*.scss'
+      - '../../source/_assets/stylesheets/themes/*.scss'
 
   PropertySortOrder:
     enabled: true
@@ -30,9 +49,10 @@ linters:
 
   SelectorDepth:
     enabled: true
+    max_depth: 2
     exclude:
-      - '../../source/_assets/stylesheets/scopes/**'
-    max_depth: 3
+      - '../../source/_assets/stylesheets/scopes/*.scss'
+      - '../../source/_assets/stylesheets/themes/*.scss'
 
   SelectorFormat:
     enabled: false

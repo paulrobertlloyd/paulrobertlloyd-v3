@@ -5,7 +5,6 @@ group :development do
   gem 'guard'
   gem 'guard-jekyll-plus'
   gem 'guard-livereload'
-  gem 'guard-scss-lint'
 end
 
 # Jekyll (generates static files)
@@ -28,3 +27,4 @@ end
 
 # Rake (manages build tasks)
 gem 'rake'
+gem 'scss-lint', require: false

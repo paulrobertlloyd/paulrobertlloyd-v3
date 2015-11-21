@@ -49,13 +49,13 @@
         padding-bottom: 1rem;
         letter-spacing: 0;
     }
+}
 
-    &.is-active {
-        font-weight: 700;
+.c-navigation__item.is-active {
+    font-weight: 700;
 
-        .is-fixed & {
-            box-shadow: inset 0 2px 0 0;
-        }
+    .is-fixed & {
+        box-shadow: inset 0 2px 0 0;
     }
 }
 
