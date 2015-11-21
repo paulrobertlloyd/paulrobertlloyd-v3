@@ -15,6 +15,6 @@ Guessing that his spiel was conceived over breakfast, I looked forward to hearin
 
 This incident happened fifteen years ago. Annoyingly, that I still remember his concept, only serves to prove its effectiveness. There's probably a lesson here, but I'm not sure I want to learn it.
 
-_This entry originally appeared on [The Pastry Box Project][1]{:.u-syndication rel="syndication"}_
+_This entry originally appeared on [The Pastry Box Project][1]{: .u-syndication rel="syndication"}_
 
 [1]: https://the-pastry-box-project.net/paul-lloyd/2015-july-12

@@ -23,6 +23,6 @@ Too often I think about how I can make the world a better place: socially equal,
 
 I can only achieve so much on my own, but I can inspire, influence and lead by example. Leaving things in a better condition than I found them, seems like a good place to start.
 
-_This entry originally appeared on [The Pastry Box Project][1]{:.u-syndication rel="syndication"}_
+_This entry originally appeared on [The Pastry Box Project][1]{: .u-syndication rel="syndication"}_
 
 [1]: https://the-pastry-box-project.net/paul-lloyd/2015-march-12

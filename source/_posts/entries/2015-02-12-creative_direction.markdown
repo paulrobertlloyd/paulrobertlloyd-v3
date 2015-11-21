@@ -22,6 +22,6 @@ I've come to believe that good design is ultimately about a consistency of execu
 
 My year at the Guardian has taught me many things, but foremost is having the confidence to make braver choices. This year, should I find myself awkwardly positioning elements within a composition, I will try living with that decision for a few days rather than a few seconds.
 
-_This entry originally appeared on [The Pastry Box Project][1]{:.u-syndication rel="syndication"}_
+_This entry originally appeared on [The Pastry Box Project][1]{: .u-syndication rel="syndication"}_
 
 [1]: https://the-pastry-box-project.net/paul-lloyd/2015-january-12
