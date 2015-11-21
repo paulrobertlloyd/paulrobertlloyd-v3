@@ -1,0 +1,80 @@
+---
+title: 'Little Gems'
+date: '2015-11-21 16:57:00 +0000'
+location: Brighton, England
+excerpt: ''
+tags:
+  - Jekyll
+  - Ruby
+  - Programming
+---
+Writing about [the redesign of this site][1] in July, I mentioned why I decided to build it using [Jekyll][2]:
+
+> Not only is this software actively developed, but I find it to be incredibly configurable and -- once I get the hang of Ruby -- infinitely hackable.
+
+This hackability, provided by its [plugin architecture][3], has brought about an unexpected consequence: I'm starting to learn [Ruby][4]. Its natural language syntax means it's fairly easy to write simple functions -- or at least understand how those copy and pasted from the Internet work! Furthermore, I'm noticing how programming concepts in this language translate to others such as JavaScript (whose syntax, conventions and error messages serve only to intimidate me).
+
+While I'm still very much an amateur Ruby-ist, I now feel confident enough to release two Gems that bring additional functionality to Jekyll.
+
+## jekyll-roman
+This plugin provides a Liquid filter that accepts any given whole number and converts it into roman numerals. For example, if you wish to display the year in a copyright statement using roman numerals (as typically seen on [BBC][5] closing credits), you can write the following:
+
+~~~ liquid
+<footer>&copy; {% raw %}{{ site.time | date:"%Y" | roman }}{% endraw %}</footer>
+~~~
+
+Assuming the year is 2015, this will generate the following HTML:
+
+~~~ html
+<footer>&copy; MMXV</footer>
+~~~
+
+[Download][6]{: .c-button download="jekyll-roman.zip"} <span class="u-conj">or</span> [learn more on Github][7]
+
+## jekyll-figure
+This plugin provides a Liquid tag that generates `<figure>` elements. It takes optional parameters to add an associated `<figcaption>` and `class` attribute(s) if desired. For example, using the following code:
+
+~~~ liquid
+{% raw %}{% figure caption:"Being situated in Linton is the genius of this hotel’s 
+location, being equidistant between London and Norwich" class:"align-left" %}
+![Linton Travel Tavern](/images/linton.jpg)
+{% endfigure %}{% endraw %}
+~~~
+
+will generate the following HTML:
+
+~~~ html
+<figure class="align-left">
+    <img src="/images/linton.jpg" alt="Linton Travel Tavern"/>
+    <figcaption>
+        Being situated in Linton is the genius of this hotel’s location,
+        being equidistant between London and Norwich
+    <figcaption>
+</figure>
+~~~
+
+[Download][8]{: .c-button download="jekyll-figure.zip"} <span class="u-conj">or</span> [learn more on Github][9]
+
+## Next steps
+Now, these are pretty simple plugins, but hopefully they are a prelude to more complex offerings. I've already [contributed changes][10] to Aaron Gustafson's plugin [jekyll-crosspost_to_medium][11], and I'm currently trying to [update the slugify utility inside Jekyll's core][12] so that it can take more options.
+
+At a later date, I may release [the plugin I'm using to generate responsive image mark-up][13], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display all the photos I've added to Flickr on this site.
+
+Yet if there's one thing I've learnt while making this tentitive journey into the world of programing, it's that it is often sensible to take one step at a time.
+
+[1]: /2015/07/shipped
+[2]: http://jekyllrb.com
+[3]: http://jekyllrb.com/docs/plugins/
+[4]: https://www.ruby-lang.org/en/
+[5]: http://www.bbc.co.uk/commissioning/tv/production/articles/credits-branding-trademarks
+[6]: https://github.com/paulrobertlloyd/jekyll-roman/archive/master.zip
+[7]: https://github.com/paulrobertlloyd/jekyll-roman
+[8]: https://github.com/paulrobertlloyd/jekyll-figure/archive/master.zip
+[9]: https://github.com/paulrobertlloyd/jekyll-figure
+[10]: https://github.com/aarongustafson/jekyll-crosspost_to_medium/pull/3
+[11]: https://github.com/aarongustafson/jekyll-crosspost_to_medium
+[12]: https://talk.jekyllrb.com/t/is-there-a-desirability-for-configurable-slugify-character-in-core/1558/6
+[13]: https://github.com/paulrobertlloyd/paulrobertlloyd.com/blob/2c9a499/source/_plugins/picture.rb
+
+*[BBC]: British Broadcasting Corporation
+*[HTML]: Hypertext Markup Language
