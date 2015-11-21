@@ -80,6 +80,7 @@
 
     .c-form__label-inline & {
         padding-top: 3.75rem;
+        display: block;
 
         @media (min-width: $b__a) {
             padding-top: 0.75rem;
