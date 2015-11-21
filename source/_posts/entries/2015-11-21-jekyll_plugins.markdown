@@ -58,7 +58,7 @@ will generate the following HTML:
 ## Next steps
 Now, these are pretty simple plugins, but hopefully they are a prelude to more complex offerings. I've already [contributed changes][10] to Aaron Gustafson's plugin [jekyll-crosspost_to_medium][11], and I'm currently trying to [update the slugify utility inside Jekyll's core][12] so that it can take more options.
 
-At a later date, I may release [the plugin I'm using to generate responsive image mark-up][13], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display all the photos I've added to Flickr on this site.
+At a later date, I may release [the plugin I'm using to generate responsive image mark-up][13], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display photos I've posted to Flickr on this site as well.
 
 Yet if there's one thing I've learnt while making this tentitive journey into the world of programing, it's that it is often sensible to take one step at a time.
 
