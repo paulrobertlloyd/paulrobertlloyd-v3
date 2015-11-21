@@ -18,7 +18,7 @@
     <div class="c-item__main">
         <div class="s-prose s-prose--body  p-summary">
             {% if item.image %}
-            <a class="c-item__media u-bleed" href="{{ item.url }}">
+            <a class="c-item__media u-bleed u-block-link" href="{{ item.url }}">
                 {% picture feature {{ item.image.url }} alt="{{ item.title }}" class="u-photo" %}
             </a>
             {% endif %}

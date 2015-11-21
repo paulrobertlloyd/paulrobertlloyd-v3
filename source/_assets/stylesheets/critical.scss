@@ -20,11 +20,13 @@
 @import 'scopes/prose';
 
 // Utilities
+@import 'utilities/block-link';
 @import 'utilities/conj';
 @import 'utilities/framed';
 @import 'utilities/hidden';
 @import 'utilities/icon';
 @import 'utilities/layout';
+@import 'utilities/separate';
 
 // Components
 @import 'components/banner';

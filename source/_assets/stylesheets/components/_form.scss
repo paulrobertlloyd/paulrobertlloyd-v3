@@ -47,14 +47,14 @@
             border-width: 0 $u__rule-height 0 0;
             width: span(3);
         }
+    }
+}
 
-        &::after {
-            content: ':';
+.c-form__label::after {
+    content: ':';
 
-            @media (min-width: $b__a) {
-                content: '';
-            }
-        }
+    @media (min-width: $b__a) {
+        content: '';
     }
 }
 
@@ -79,8 +79,8 @@
     }
 
     .c-form__label-inline & {
-        padding-top: 3.75rem;
         display: block;
+        padding-top: 3.75rem;
 
         @media (min-width: $b__a) {
             padding-top: 0.75rem;

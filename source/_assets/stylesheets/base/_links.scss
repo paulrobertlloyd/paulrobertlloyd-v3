@@ -5,7 +5,7 @@
 
 a {
     transition: color 0.1s ease-out, background-image 0.1s ease-out;
-    /*  Remove gray background color from active links in IE 10 */
+/*  Remove gray background color from active links in IE 10 */
     background-color: transparent;
     text-decoration: none;
     color: inherit;
@@ -19,19 +19,18 @@ a {
     &:focus {
         outline: 0;
         background-color: $c__focus;
-        text-shadow: none;
+        color: $c__neutral-darkest;
     }
 }
 
 [data-whatinput="mouse"] a:focus,
 [data-whatinput="touch"] a:focus {
     background-color: transparent;
-    color: inherit;
 }
 
 @media print {
     a,
     a:visited {
-        color: #000 !important;
+        color: $c__neutral-black;
     }
 }

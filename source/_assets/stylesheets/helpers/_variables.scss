@@ -8,20 +8,21 @@ $u__rule-height: 0.125rem;
 
 
 // Colours
+$c__neutral-black: #000;
 $c__neutral-darkest: hsb(300, 12, 8);
 $c__neutral-dark: hsb(300, 9, 28);
 $c__neutral-mid: hsb(300, 6, 40);
 $c__neutral-light: hsb(300, 3, 76);
 $c__neutral-lightest: hsb(300, 0, 96);
+$c__neutral-white: #fff;
 
 $c__primary: hsb(300, 60, 80);
 $c__secondary: hsb(248, 60, 80);
 
-$c__focus: rgba(hsb(248, 15, 90), 0.4);
-$c__select: $c__focus;
 $c__invalid: hsb(0, 60, 80);
 $c__valid: hsb(170, 60, 80);
-$c__highlight: $c__select;
+$c__focus: scale-color($c__secondary, $lightness: 60%);
+$c__select: rgba($c__focus, 0.5);
 
 
 // Breakpoints
