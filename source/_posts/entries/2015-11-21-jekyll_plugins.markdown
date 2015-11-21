@@ -2,7 +2,7 @@
 title: 'Little Gems'
 date: '2015-11-21 16:57:00 +0000'
 location: Brighton, England
-excerpt: ''
+excerpt: 'The hackability provided by Jekyll''s plugin architecture, has brought about an unexpected consequence: I''m starting to learn Ruby.'
 tags:
   - Jekyll
   - Ruby
