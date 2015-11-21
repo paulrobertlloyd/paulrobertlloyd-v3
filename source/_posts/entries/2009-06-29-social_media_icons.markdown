@@ -103,9 +103,9 @@ With that in mind, and taking inspiration from the gorgeous icons used by [Tim v
 
 For feedback and suggestions, please [submit an issue on GitHub][3].
 
-{% include button.html url="https://github.com/paulrobertlloyd/socialmediaicons/archive/1.11.0.zip" text="Download Social Media Icons" %} -- Version 1.11, 3.8Mb
+[Download Social Media Icons][4]{: .c-button download="socialmediaicons-1.11.0.zip"} -- Version 1.11, 3.8Mb
 
-<small>Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][4]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.</small>
+<small>Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][5]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.</small>
 
 ## Included Icons
 <ul class="c-list c-list--icons">
@@ -180,7 +180,8 @@ For feedback and suggestions, please [submit an issue on GitHub][3].
 [1]: http://timvandamme.com/
 [2]: http://www.komodomedia.com/blog/2008/12/social-media-mini-iconpack/
 [3]: https://github.com/paulrobertlloyd/socialmediaicons/issues
-[4]: http://creativecommons.org/licenses/by-sa/3.0/
+[4]: https://github.com/paulrobertlloyd/socialmediaicons/archive/1.11.0.zip
+[5]: http://creativecommons.org/licenses/by-sa/3.0/
 
 *[AIM]: AOL Instant Messnger
 *[BBC]: British Broadcasting Corporation
