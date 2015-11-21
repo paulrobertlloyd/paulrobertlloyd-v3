@@ -148,7 +148,7 @@
         content: '\00a0/';
     }
 
-    &:nth-child(n+2):last-child::after {
+    &:last-child::after {
         content: none;
     }
 }
