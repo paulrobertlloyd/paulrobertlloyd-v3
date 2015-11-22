@@ -1,19 +1,19 @@
-/*  =========================================================================
-    Forms
-    http://developers.whatwg.org/forms.html
-    ========================================================================= */
+//  ===========================================================================
+//  Forms
+//  http://developers.whatwg.org/forms.html
+//  ===========================================================================
 
 fieldset {
-/*  Define consistent border, margin, and padding */
+//  Define consistent border, margin, and padding
     margin: 0;
     border: 0;
     padding: 0;
 }
 
 legend {
-/*  Correct `color` not being inherited in IE 8/9 */
+//  Correct `color` not being inherited in IE 8/9
     border: 0;
-/*  Remove padding so people aren't caught out if they zero out fieldsets */
+//  Remove padding so people aren't caught out if they zero out fieldsets
     padding: 0;
 }
 
@@ -26,21 +26,21 @@ input,
 optgroup,
 select,
 textarea {
-/*  Address margins set differently in Firefox 4+, Safari and Chrome */
+//  Address margins set differently in Firefox 4+, Safari and Chrome
     margin: 0;
-/*  Correct color not being inherited.
-    Known issue: affects color of disabled elements. */
+//  Correct color not being inherited
+//  Known issue: affects color of disabled elements
     background: none;
     color: inherit;
-/*  Correct font properties not being inherited */
+//  Correct font properties not being inherited
     font: inherit;
-/*  Remove default styling on iOS */
+//  Remove default styling on iOS
     -webkit-appearance: none;
 }
 
 button,
 input {
-/*  Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet */
+//  Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet
     line-height: normal;
 }
 
@@ -53,7 +53,7 @@ input {
 
 button,
 select {
-/*  Address inconsistent `text-transform` inheritance for `button` and `select` */
+//  Address inconsistent `text-transform` inheritance for `button` and `select`
     text-transform: none;
 }
 
@@ -62,28 +62,28 @@ button,
 [type="reset"],
 [type="submit"] {
     border-radius: 0;
-/*  Improve usability and consistency of cursor style between image-type `input` and others */
+//  Improve usability and consistency of cursor style between image-type `input` and others
     cursor: pointer;
-/*  Address `overflow` set to `hidden` in IE 8/9/10/11 */
+//  Address `overflow` set to `hidden` in IE 8/9/10/11
     overflow: visible;
 }
 
 [type="checkbox"],
 [type="radio"] {
-/*  Remove excess padding in IE 8/9 */
+//  Remove excess padding in IE 8/9
     padding: 0;
 }
 
 [type="search"] {
-/*  Address `appearance` set to `searchfield` in Safari and Chrome */
+//  Address `appearance` set to `searchfield` in Safari and Chrome
     -webkit-appearance: textfield;
-/*  Address `box-sizing` set to `border-box` in Safari and Chrome (include `-moz` to future-proof) */
+//  Address `box-sizing` set to `border-box` in Safari and Chrome
     box-sizing: content-box;
 }
 
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-/*  Remove inner padding and search cancel button in Safari and Chrome on OS X */
+//  Remove inner padding and search cancel button in Safari and Chrome on OS X
     -webkit-appearance: none;
 }
 
@@ -93,18 +93,18 @@ button,
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-/*  Remove inner padding and border in Firefox 4+ */
+//  Remove inner padding and border in Firefox 4+
     border: 0;
     padding: 0;
 }
 
 input {
-/*  Address Firefox 4+ setting `line-height` on `input` */
+//  Address Firefox 4+ setting `line-height` on `input`
     line-height: normal;
 }
 
 textarea {
-/*  Remove default vertical scrollbar in IE 8/9 */
+//  Remove default vertical scrollbar in IE 8/9
     overflow: auto;
 }
 

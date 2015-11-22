@@ -1,8 +1,8 @@
-/*  =========================================================================
-    Layout
-    ========================================================================= */
+//  ===========================================================================
+//  Layout
+//  ===========================================================================
 
-/* Container */
+// Container
 .u-container {
     @include container($u__max-width);
     margin-right: auto;
@@ -22,7 +22,7 @@
 }
 
 
-/* Show two items abreast, three on wider breakpoints */
+// Show two items abreast, three on wider breakpoints
 .u-triad {
     .c-item,
     .c-nav__item {
@@ -35,7 +35,7 @@
 }
 
 
-/* Align element right or left */
+// Align element right or left
 .u-align-right {
     float: right;
     margin-top: 0.25rem !important;
@@ -53,7 +53,7 @@
 }
 
 
-/* Pull element aside */
+// Pull element aside
 .u-aside {
     margin-top: 0 !important;
 
@@ -70,7 +70,7 @@
 }
 
 
-/* Pull element right or left */
+// Pull element right or left
 .u-pull-right {
     margin-top: 0.25rem !important;
     margin-bottom: 1rem !important;
@@ -102,7 +102,7 @@
 }
 
 
-/* Extend element to full width of .u-container */
+// Extend element to full width of .u-container
 .u-extend,
 %u-extend {
     clear: both;
@@ -114,7 +114,7 @@
 }
 
 
-/* On narrow breakpoints, bleed element to full width of viewport */
+// On narrow breakpoints, bleed element to full width of viewport
 .u-bleed {
     clear: both;
     margin-right: -1rem;
