@@ -12,6 +12,7 @@ linters:
   ImportantRule:
     enabled: true
     exclude:
+      - '../../source/_assets/stylesheets/helpers/*.scss'
       - '../../source/_assets/stylesheets/utilities/*.scss'
 
   Indentation:

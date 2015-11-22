@@ -146,7 +146,7 @@
                      0.15em 0 $background-color,
                      -0.15em 0 $background-color;
     } @else {
-        text-shadow: none;
+        text-shadow: none !important;
     }
 }
 
