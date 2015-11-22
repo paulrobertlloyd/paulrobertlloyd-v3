@@ -6,8 +6,7 @@ excerpt: 'I''ve returned to 68 Middle Street just in time for the start of *100 
 tags:
   - Clearleft
   - Drawing
-  - Freelance
-  - 100 days
+  - Freelancing
 ---
 Although Clearleft was first on the list of companies I'd like to freelance for, I was hesitant about having them be my first client, as it might throw into question [why I left in the first place][1]. Thankfully doing so has actually validated my decision to spend [14 months at the Guardian][2]; I've been surprised by just how often that experience has enabled me to contribute more meaningfully to our work with [John Lewis][3].
 

@@ -5,7 +5,7 @@ location: Littlehampton, England
 excerpt: Every year the Multipack -- a community of web developers based in the Midlands -- seems  to undergo a renewal, finding confidence to try new things. This year is no different.
 tags:
   - Web
-  - Community
+  - Multipack
 discussion: closed
 ---
 This time last year the [Multipack][1] faced declining participation and confusion over dates and locations, yet our little community -- having brought together a diverse group of talented web-developers and designers -- was far too valuable to have disappear.

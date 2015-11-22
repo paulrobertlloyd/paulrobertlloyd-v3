@@ -7,8 +7,8 @@ image:
   url: /2015/06/william_kentridge.jpg
   caption: 'Still image from <cite>Other Faces</cite>'
 tags:
+  - Art
   - Exhibitions
-  - William Kentridge
 ---
 Amsterdam is a strikingly beautiful city, every street a picture postcard. This beauty is somewhat undermined by the city's famed seedy underbelly, which could be ignored were it not for the type of tourist it attracts.
 

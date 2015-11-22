@@ -9,7 +9,7 @@ image:
 tags:
   - Design
   - Football
-  - England
+  - England football team
 discussion: closed
 ---
 From humble beginnings where teams wore different strips only to tell themselves apart, today football kits have become a huge revenue opportunity for clubs and sportswear manufactures.

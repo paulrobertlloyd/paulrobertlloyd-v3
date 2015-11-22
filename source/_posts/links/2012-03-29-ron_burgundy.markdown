@@ -7,7 +7,6 @@ theme: dark
 tags:
   - Video
   - Film
-  - Film trailer
   - Comedy
 ---
 Best news I've heard all year.

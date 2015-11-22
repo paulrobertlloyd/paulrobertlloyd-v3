@@ -10,7 +10,6 @@ tags:
   - Architecture
   - Le Corbusier
   - Exhibitions
-  - Barbican Centre
 ---
 Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
 

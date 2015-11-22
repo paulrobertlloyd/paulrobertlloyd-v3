@@ -5,10 +5,9 @@ location: Brighton, England
 excerpt: October has been a crazy month, and I'm not even done with it yet!
 tags:
   - Demetri Martin
-  - Design Museum
+  - Exhibitions
   - Littlehampton
   - London
-  - Mock The Week
   - Television
   - Travel
   - Personal

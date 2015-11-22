@@ -5,7 +5,6 @@ location: Brighton, England
 excerpt: For this month's net magazine, Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.
 tags:
   - Web
-  - Web standards
 ---
 For this month's [net magazine][1], Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.
 

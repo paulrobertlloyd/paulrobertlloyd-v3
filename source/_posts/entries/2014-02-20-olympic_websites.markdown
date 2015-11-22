@@ -12,7 +12,6 @@ tags:
   - Olympics
   - Sochi 2014
   - Web
-  - Winter Olympics
 ---
 > When it comes to web design it's rare that all elements--functionality, clarity of information, and subjective beauty--come together to create a result that is widely admired, recognized or lauded in the same vein as anything resembling the likes of Saul Bass' AT&T logo, or Susan Kare's icons for the original Mac OS.
 

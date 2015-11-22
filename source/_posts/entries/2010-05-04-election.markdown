@@ -5,11 +5,6 @@ location: Littlehampton, England
 excerpt: As an era of Labour government led by Gordon Brown surely comes to an end, I reflect on my changing political attitudes and the decision I'll be making at the ballot box this coming Thursday.
 tags:
   - Politics
-  - Elections
-  - General Election 2010
-  - Conservative Party
-  - Labour Party
-  - Liberal Democrats
 discussion: closed
 ---
 General elections, coming as infrequently as they do, allow for a moment to pause and think about your own political instincts, allegiances, and how they have changed over time.

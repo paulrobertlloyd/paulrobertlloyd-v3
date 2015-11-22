@@ -5,7 +5,6 @@ location: Littlehampton, England
 excerpt: I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it.
 tags:
   - Television
-  - Counties
   - Government
   - England
 discussion: closed

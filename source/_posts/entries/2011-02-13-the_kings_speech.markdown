@@ -7,12 +7,9 @@ image:
   caption: Colin Firth in The King's Speech
 tag:
   - Film
-  - Film review
-  - Edward VII
-  - George VI
+  - Review
   - History
-  - Royalty
-  - Winston Churchill
+  - Politics
 ---
 However you wish to measure it, [The King's Speech][1] is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn't imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
 

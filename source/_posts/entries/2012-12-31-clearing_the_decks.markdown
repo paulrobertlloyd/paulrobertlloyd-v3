@@ -6,8 +6,6 @@ excerpt: As the page turns on another year, just enough time to close the book o
 tags:
   - Projects
   - Social media icons
-  - GELLED
-  - agreenfocus
   - net Magazine
 ---
 As the page turns on another year, just enough time to close the book on a few personal projects and responsibilities. In doing so, I hope to free up some time (and mind space) for new projects to be unveiled in the new year.

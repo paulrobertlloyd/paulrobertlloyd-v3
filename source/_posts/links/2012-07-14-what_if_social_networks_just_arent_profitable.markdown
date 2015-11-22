@@ -4,7 +4,6 @@ date: '2012-07-14 01:17:50 +0100'
 link: http://powazek.com/posts/3024
 tags:
   - Social media
-  - Derek Powazek
 ---
 Derek Powazek:
 
