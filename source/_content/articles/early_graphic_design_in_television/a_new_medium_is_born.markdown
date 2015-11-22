@@ -31,7 +31,7 @@ The quality of television broadcasts and receivers was crude to say the least. I
 
 This meant graphics produced for television had a huge number of restrictions put on them. Lettering had to be large and bold with strong tonal contrast and illustrations had to use fairly heavy lines and lack detail ('Op' and 'Pop' art themes were common used during the end of the fifties). Designers also had to work from the center of the screen outwards, so as to ensure their work would be seen.
 
-{% figure caption:"Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)" %}
+{% figure caption:"Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)" class:"u-abreast" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1c.png alt="Still from ident" %}
@@ -39,7 +39,7 @@ This meant graphics produced for television had a huge number of restrictions pu
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-1e.png alt="Still from ident" %}
 {% endfigure %}
 
-{% figure caption:"Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)" %}
+{% figure caption:"Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)" class:"u-abreast" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-2a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-2b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-2c.png alt="Still from ident" %}

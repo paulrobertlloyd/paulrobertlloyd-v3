@@ -36,7 +36,7 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 ## Typography
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
-{% figure caption:"Type samples/experimentation" %}
+{% figure caption:"Type samples/experimentation" class:"u-abreast" %}
 {% picture thumbnail /projects/matter/type_calluna.png alt="Calluna type specimen" class="u-framed" %}
 {% picture thumbnail /projects/matter/type_centro.png alt="Centro type specimen" class="u-framed" %}
 {% picture thumbnail /projects/matter/type_enigma.png alt="Enigma type specimen" class="u-framed" %}

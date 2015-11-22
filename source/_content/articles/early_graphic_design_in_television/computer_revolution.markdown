@@ -25,7 +25,7 @@ In 1958, the BBC adapted the film rostrum camera so that it was able to record s
 
 As for lettering this became easier and less time consuming than the original hand drawn methods, first of with the Masseeley hot press printing machine in 1955, and then with 'Letraset' four years later, before character generators began to take over in 1969. Television graphics have reached a point now in which the vast majority in all aspects of graphic design is created on computer, and is becoming increasingly more integrated.
 
-{% figure caption:"Figure 15: Yorkshire Television ident <cite>Liquid Gold</cite> (Yorkshire Television 1986. Designed by Jeff Parr)" %}
+{% figure caption:"Figure 15: Yorkshire Television ident <cite>Liquid Gold</cite> (Yorkshire Television 1986. Designed by Jeff Parr)" class:"u-abreast" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-15a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-15b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-15c.png alt="Still from ident" %}
@@ -35,7 +35,7 @@ As for lettering this became easier and less time consuming than the original ha
 
 However it was the eighties in which the computers use was more obvious to the viewer due to the fact that it had reached a stage in which it could be successfully used to create title-sequences or station indents and present graphical information. Green monitor output and wireframe graphics were fashionable at the start of the decade for use in station or programme promotions. As the technology improved, and greater effects could be achieved, so the fashion changed, meaning that during the mid to late eighties 3D animated computer graphics (usually with metallic or chrome rendering) were more commonly used.
 
-{% figure caption:"Figure 16: Title sequence from <cite>Ghosts in the Machine II</cite> (Channel Four 1988. Designed by Richard Markell)" %}
+{% figure caption:"Figure 16: Title sequence from <cite>Ghosts in the Machine II</cite> (Channel Four 1988. Designed by Richard Markell)" class:"u-abreast" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-16a.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-16b.png alt="Still from ident" %}
 {% picture thumbnail /articles/early_graphic_design_in_television/figure-16c.png alt="Still from ident" %}

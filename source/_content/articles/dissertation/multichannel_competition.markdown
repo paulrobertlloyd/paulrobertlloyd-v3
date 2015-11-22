@@ -9,19 +9,19 @@ This saw idents, end credits and other programme junctions being increasingly us
 
 This information in the past tended to be shown at the end of a programme. In addition, late 2001 saw channels start to use programme junctions and their associated idents to not only display information about what channel you were watching, but also contained menus (before only seen in separate promotions, or when there had been schedule changes), detailing up-coming programmes. 
 
-{% figure caption:"Figure 31: 'End Credit Promotions' (ECPs) became a new trend in keeping viewers tuned to a particular channel" %}
+{% figure caption:"Figure 31: 'End Credit Promotions' (ECPs) became a new trend in keeping viewers tuned to a particular channel" class:"u-abreast" %}
 {% picture supporting /articles/dissertation/figure-31a.png alt="Still from ITV end credit promotion" %}
 {% picture supporting /articles/dissertation/figure-31b.png alt="Still from Channel 4 end credit promotion" %}
 {% endfigure %}
 
-{% figure caption:"Figure 32: Menus shown prior to programmes" %}
+{% figure caption:"Figure 32: Menus shown prior to programmes" class:"u-abreast" %}
 {% picture supporting /articles/dissertation/figure-32a.png alt="Still from Channel 4 programme menu" %}
 {% picture supporting /articles/dissertation/figure-32b.png alt="Still from BBC2 programme menu" %}
 {% endfigure %}
 
 In November 2001, BBC2 updated its ten-year-old idents, for which such menus were an integral part. Although the original and subsequent sets of idents contained the viridian colour branding, it was not compulsory, and later idents started not to feature the colour -- for those that did the colour appeared in different places. The new idents involved giving the channel consistent co-ordinated colours -- a white 2 on a deep yellow backdrop, as well as a single four note jingle that could be subtly adapted. Also nation specific idents have been designed -- currently in Northern Ireland only, were part of the evening schedule is changed from the rest of the UK's to suit its local audience. The channel insignia was changed also to a purple rectangle positioned in the bottom right of the screen.
 
-{% figure caption:"Figure 33: The BBC2 identity was radically changed after 10 years, using a standard and unaltered set of colour ways" %}
+{% figure caption:"Figure 33: The BBC2 identity was radically changed after 10 years, using a standard and unaltered set of colour ways" class:"u-abreast" %}
 {% picture thumbnail /articles/dissertation/figure-33a.png alt="Still from BBC Two 'Fire' ident, 2003" %}
 {% picture thumbnail /articles/dissertation/figure-33b.png alt="Still from BBC Two 'Bounce' ident, 2001" %}
 {% picture thumbnail /articles/dissertation/figure-33c.png alt="Still from BBC Two 'Domino' ident, 2001" %}

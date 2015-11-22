@@ -22,7 +22,7 @@ I haven't spent nearly enough time in this 'Area of Outstanding Natural Beauty',
 {% picture showcase /2009/01/day_one_cannock_chase_2.jpg alt="Frosty Cannock Chase" %}
 {% endfigure %}
 
-{% figure caption:"Frost over Cannock Chase" class:"u-bleed" %}
+{% figure caption:"Frost over Cannock Chase" class:"u-bleed u-abreast" %}
 {% picture /2009/01/day_one_cannock_chase_3.jpg alt="Frosty Cannock Chase" %}
 {% picture /2009/01/day_one_cannock_chase_4.jpg alt="Frosty Cannock Chase" %}
 {% endfigure %}
