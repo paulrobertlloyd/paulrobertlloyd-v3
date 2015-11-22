@@ -22,7 +22,7 @@
                 {% picture feature {{ item.image.url }} alt="{{ item.title }}" class="u-photo" %}
             </a>
             {% endif %}
-            {{ item.excerpt | markdownify | improve | namespace }}
+            {{ item.excerpt | markdownify | improve }}
         </div>
     </div>
 </article>
