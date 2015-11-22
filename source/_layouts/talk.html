@@ -7,7 +7,7 @@ layout: default
     <div class="c-section c-section--body">
         {% if page.excerpt %}
         <div class="s-prose s-prose--lede  p-summary">
-            {{ page.excerpt | markdownify | improve | namespace }}
+            {{ page.excerpt | markdownify | improve }}
         </div>
         {% endif %}
 
@@ -18,7 +18,7 @@ layout: default
                 {% include embed.html url=page.link id=page.embed.id ratio=page.embed.ratio %}
             {% endif %}
 
-            {{ content | improve | namespace }}
+            {{ content | improve }}
         </div>
     </div>
 </article>

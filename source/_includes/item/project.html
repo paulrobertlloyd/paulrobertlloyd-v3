@@ -11,6 +11,6 @@
 
     <p class="c-item__meta  p-summary">
         {% if item.featured %}<strong class="u-separate  p-name">{{ item.title | smartypants }}</strong>{% endif %}
-        {{ item.excerpt | improve | namespace }}
+        {{ item.excerpt | improve }}
     </p>
 </article>
