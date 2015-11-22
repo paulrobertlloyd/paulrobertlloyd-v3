@@ -1,6 +1,6 @@
-/*  =========================================================================
-    Section
-    ========================================================================= */
+//  ===========================================================================
+//  Section
+//  ===========================================================================
 
 .c-section {
     @include clearfix;
@@ -21,7 +21,7 @@
 }
 
 
-/* Archive */
+// Archive
 .c-section--archive {
     .c-section__header {
         @media (min-width: $b__a) {
@@ -37,7 +37,7 @@
 }
 
 
-/* Complementary */
+// Complementary
 .c-section--complementary {
     .c-section__header {
         @include rule($height: 0.09375rem, $position: 'after');

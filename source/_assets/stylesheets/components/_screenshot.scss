@@ -1,20 +1,16 @@
-/*  =========================================================================
-    Screenshots
-    ========================================================================= */
+//  ===========================================================================
+//  Screenshots
+//  ===========================================================================
 
 $u__shadow-size: 4px;
 
 .c-screenshots {
     position: relative;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     border-bottom: 1px solid rgba($c__neutral-darkest, 0.2);
     padding-bottom: 40%;
     overflow: hidden;
-
-    .c-figure & {
-        margin-bottom: 0.5rem;
-    }
 }
 
 .c-screenshot {
@@ -26,7 +22,7 @@ $u__shadow-size: 4px;
 }
 
 
-/* Desktop screens */
+// Desktop screens
 .c-screenshot--desktop-a {
     top: 2rem;
     left: $u__shadow-size;
@@ -52,7 +48,7 @@ $u__shadow-size: 4px;
 }
 
 
-/* Tablet screen */
+// Tablet screen
 .c-screenshot--tablet-landscape {
     top: auto;
     bottom: -1.5rem;

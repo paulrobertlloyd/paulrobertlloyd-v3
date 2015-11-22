@@ -1,6 +1,6 @@
-/*  =========================================================================
-    Items
-    ========================================================================= */
+//  ===========================================================================
+//  Items
+//  ===========================================================================
 
 .c-item {
     position: relative;
@@ -50,7 +50,7 @@
 }
 
 
-/* Entry, link and gallery items */
+// Entry, link and gallery items
 .c-item--entry,
 .c-item--gallery,
 .c-item--link {
@@ -60,7 +60,7 @@
 }
 
 
-/* Gallery item */
+// Gallery item
 .c-item--gallery {
     padding-left: 7rem;
     min-height: 7rem;
@@ -98,7 +98,7 @@
 }
 
 
-/* Project */
+// Project
 .c-item--project {
     .c-item__link {
         display: block;
@@ -106,7 +106,7 @@
 }
 
 
-/* Comment (submitted remark or webmention response) */
+// Comment (submitted remark or webmention response)
 .c-item--comment {
     padding-left: (span(1 of 8) + gutter());
 
@@ -130,7 +130,7 @@
 }
 
 
-/* Profile (likes and shares) */
+// Profile (likes and shares)
 .c-item--profile {
     float: left;
     margin-right: 0.25rem;

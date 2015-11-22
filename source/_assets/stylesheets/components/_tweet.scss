@@ -1,6 +1,6 @@
-/*  =========================================================================
-    Tweet
-    ========================================================================= */
+//  ===========================================================================
+//  Tweet
+//  ===========================================================================
 
 .c-tweet {
     @include fs--lede;
@@ -11,7 +11,8 @@
     padding: 1rem;
     color: $c__neutral-dark;
 
-    &::before { // Double colon not supported in IE8 so can use a transform
+//  Double colon not supported in IE8 so can use a transform
+    &::before {
         display: block;
         position: absolute;
         top: auto;
