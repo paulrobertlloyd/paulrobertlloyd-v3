@@ -6,10 +6,8 @@ excerpt: I'm a huge supporter of the BBC, yet for many years I was unimpressed w
 tags:
   - Design
   - Web
-  - Styleguides
   - BBC
   - User experience
-  - Design principles
 discussion: closed
 ---
 I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of its online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.

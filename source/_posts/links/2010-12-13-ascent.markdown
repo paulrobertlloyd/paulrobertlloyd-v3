@@ -6,7 +6,6 @@ embed: true
 theme: dark
 tags:
   - Video
-  - NASA
   - Space
 ---
 A truly amazing video from NASA:

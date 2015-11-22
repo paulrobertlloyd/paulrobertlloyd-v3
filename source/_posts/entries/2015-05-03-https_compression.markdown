@@ -6,7 +6,6 @@ excerpt: 'I recently learnt about a security exploit that can occur when pages s
 tags:
   - Web
   - Web performance
-  - HTTPS
 ---
 As I get closer to launching my redesigned website (this side of Christmas would be nice), I wanted to ensure pages were served over HTTPS. This reflects a broader community effort to make the web more secure and trustworthy, a move [encouraged by the W3C][1].
 

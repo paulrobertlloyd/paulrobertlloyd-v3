@@ -8,7 +8,6 @@ image:
   caption: Daniel Craig in Skyfall
 tags:
   - Film
-  - Film trailer
   - Review
   - James Bond
 ---

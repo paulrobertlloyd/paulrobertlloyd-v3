@@ -5,9 +5,6 @@ link: http://dailymotion.com/video/xfgk3r_star-wars-i-pad-briefing_fun
 tags:
   - Video
   - Comedy
-  - Adam Buxton
-  - Star Wars
-  - Steve Jobs
   - Apple
 ---
 Another Adam Buxton YouTube classic:

@@ -7,7 +7,6 @@ theme: dark
 tags:
   - Video
   - Film
-  - Film trailer
   - Alan Partridge
   - Comedy
 ---

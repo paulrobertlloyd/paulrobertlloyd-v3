@@ -8,7 +8,6 @@ tags:
   - Google
   - Politics
   - Silicon Valley
-  - TTIP
 ---
 Last week, the Guardian's James Ball [wrote about the EU's recently reopened anti-trust battle with Google][1]. Although relatively narrow (the investigation is looking at whether Google's search results favour its own shopping service over rivals), Ball argues that should Google win, other regulators will hesitate to investigate the activities of internet behemoths.
 

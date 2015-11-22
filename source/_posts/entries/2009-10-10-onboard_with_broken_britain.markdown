@@ -6,7 +6,6 @@ excerpt: I've been living in Littlehampton for almost a year now, yet working 25
 tags:
   - Britain
   - Politics
-  - Racism
 discussion: closed
 ---
 I've been living in Littlehampton for almost a year now, yet working 25 miles away from Brighton has meant enduring the somewhat tedious chore that is commuting. This is often a more eventful affair when the journey is taken later in the evening, and tonight was no different.

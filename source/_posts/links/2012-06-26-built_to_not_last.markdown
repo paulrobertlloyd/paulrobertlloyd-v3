@@ -5,6 +5,7 @@ link: http://subtraction.com/2012/06/19/built-to-not-last
 tags:
   - Apple
   - Sustainability
+  - Product Design
 ---
 Khoi Vinh:
 

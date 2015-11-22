@@ -5,8 +5,7 @@ link: https://www.youtube.com/watch?v=R55e-uHQna0
 embed: true
 theme: dark
 tags:
+  - Video
   - Advertising
-  - Volkswagen
-  - Star Wars
 ---
 Volkswagen again giving in a lesson in how advertising is really done.
