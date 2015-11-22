@@ -27,7 +27,7 @@ Besides showcasing some recent photography -- something I'd like to do more ofte
 {% picture /2012/12/causeway_coast_2.jpg alt="" %}
 {% endfigure %}
 
-{% figure caption:"**Interlocking basalt columns:** 55% quality, 63 kB / 58% quality, 35 kB" class:"u-extend" %}
+{% figure caption:"**Interlocking basalt columns:** 55% quality, 63 kB / 58% quality, 35 kB" class:"u-extend u-abreast" %}
 {% picture supporting /2012/12/causeway_coast_3.jpg alt="" %}
 {% picture supporting /2012/12/causeway_coast_4.jpg alt="" %}
 {% endfigure %}

@@ -91,7 +91,7 @@ Here is another term.
 : And it gets a definition too, which is this line.
 
 ### Figures
-The `.c-figure`{: .language-css} component class is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation and a tweet (`.c-tweet`{: .language-css}).
+The `figure` element is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation, a tweet (`.c-tweet`{: .language-css}) and an image:
 
 {% figure caption:"<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
 <pre>
@@ -111,43 +111,14 @@ And the mome raths outgrabe.
 {: .c-tweet}
 {% endfigure %}
 
-For figures using the `.u-extend`{: .language-css} modifier, the caption moves to the right at the largest breakpoint.
-
-{% figure caption:"Single image, with supporting caption to the right" class:"u-extend" %}
-{% picture /styleguide/pattern_1.jpg alt="Image 1" %}
-{% endfigure %}
-
-#### Images
-Images are the most typical use for the `.c-figure`{: .language-css} component class. By using [Quantity Queries](http://alistapart.com/article/quantity-queries-for-css), images resize themselves based on the number of siblings they sit beside.
-
 {% figure caption:"Single image, with supporting caption" %}
 {% picture /styleguide/pattern_1.jpg alt="Image 1" %}
 {% endfigure %}
 
-{% figure caption:"Two images placed side-by-side, with supporting caption" %}
-{% picture supporting /styleguide/pattern_1.jpg alt="Image 1" %}
-{% picture supporting /styleguide/pattern_2.jpg alt="Image 2" %}
-{% endfigure %}
+For figures using the `.u-extend`{: .language-css} utility, the caption moves to the right at the largest breakpoint.
 
-{% figure caption:"Three images placed side-by-side, with supporting caption" %}
-{% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
-{% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
-{% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
-{% endfigure %}
-
-{% figure caption:"Four images placed side-by-side, with supporting caption" %}
-{% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
-{% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
-{% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
-{% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
-{% endfigure %}
-
-{% figure caption:"Five images placed side-by-side, with supporting caption" %}
-{% picture thumbnail /styleguide/pattern_1.jpg alt="Image 1" %}
-{% picture thumbnail /styleguide/pattern_2.jpg alt="Image 2" %}
-{% picture thumbnail /styleguide/pattern_3.jpg alt="Image 3" %}
-{% picture thumbnail /styleguide/pattern_4.jpg alt="Image 4" %}
-{% picture thumbnail /styleguide/pattern_5.jpg alt="Image 5" %}
+{% figure caption:"Single image, with supporting caption to the right" class:"u-extend" %}
+{% picture /styleguide/pattern_1.jpg alt="Image 1" %}
 {% endfigure %}
 
 ## Text-level Semantics

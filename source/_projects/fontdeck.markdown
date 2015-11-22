@@ -54,7 +54,7 @@ Page layout was more considered, making heavy use of the underlying grid, line r
 ## Selling the Service
 The previous text-heavy about page was replaced by an [expanded about section][2]. This included a video narrated by Richard, the story of the product's development, and introduced members of the team working behind the scenes. A dedicated [pricing page][3] was linked to from the main navigation which concisely explained how the various pricing tiers worked.
 
-{% figure caption:"About page and foundry directory" class:"u-extend" %}
+{% figure caption:"About page and foundry directory" class:"u-extend u-abreast" %}
 {% picture supporting /projects/fontdeck/page_about.png alt="About page" class="u-framed" %}
 {% picture supporting /projects/fontdeck/page_foundries.png alt="Foundries page" class="u-framed" %}
 {% endfigure %}
