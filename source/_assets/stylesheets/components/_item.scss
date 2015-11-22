@@ -12,11 +12,6 @@
     margin-bottom: 0.75rem;
 }
 
-.c-item__media {
-    @include text-decoration-color('none');
-    display: block;
-}
-
 .c-item__main {
     @media (min-width: $b__a) {
         .c-item--link &,
@@ -98,14 +93,6 @@
 }
 
 
-// Project
-.c-item--project {
-    .c-item__link {
-        display: block;
-    }
-}
-
-
 // Comment (submitted remark or webmention response)
 .c-item--comment {
     padding-left: (span(1 of 8) + gutter());
@@ -126,26 +113,5 @@
         @media (min-width: $b__b) {
             left: ((span(1 of 8) + gutter()) * -1);
         }
-    }
-}
-
-
-// Profile (likes and shares)
-.c-item--profile {
-    float: left;
-    margin-right: 0.25rem;
-    margin-bottom: 0.25rem;
-    width: span(1 of 8);
-
-    @media (min-width: $b__a) {
-        width: span(1 of 12);
-    }
-
-    @media (min-width: $b__d) {
-        width: span(1 of 16);
-    }
-
-    .c-item__avatar {
-        width: 100%;
     }
 }

@@ -4,8 +4,6 @@
 
 .c-page__header,
 .c-page__footer {
-    margin-bottom: 1rem;
-
     @media screen and (min-width: $b__b) {
         padding-left: span(3 wide);
     }
@@ -34,5 +32,6 @@
 
 .c-page__title {
     @include fs--title;
+    margin-bottom: 1rem;
     font-weight: 700;
 }
