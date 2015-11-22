@@ -14,6 +14,7 @@
 
 .c-section__title {
     @include fs--heading-2;
+    margin-bottom: 0.5rem;
     font-weight: 700;
     word-break: break-word;
     hyphens: auto;
@@ -23,11 +24,8 @@
 /* Archive */
 .c-section--archive {
     .c-section__header {
-        padding-bottom: 0.5rem;
-
         @media (min-width: $b__a) {
             @include span(3 of 12 first);
-            padding-top: 0.5rem;
         }
     }
 
