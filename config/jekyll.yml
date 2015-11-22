@@ -28,7 +28,7 @@ scm:
 permalink: /:year/:month/:title
 
 # Pagination
-paginate: 12
+paginate: 15
 paginate_path: /journal/:num
 
 # Writing
