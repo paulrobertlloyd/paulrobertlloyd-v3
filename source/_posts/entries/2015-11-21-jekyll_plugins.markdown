@@ -29,7 +29,7 @@ Assuming the year is 2015, this will generate the following HTML:
 <footer>&copy; MMXV</footer>
 ~~~
 
-[Download][6]{: .c-button download="jekyll-roman.zip"} <span class="u-conj">or</span> [learn more on Github][7]
+[Learn more on Github][6]{: .c-button}
 
 ## jekyll-figure
 This plugin provides a Liquid tag that generates `<figure>` elements. It takes optional parameters to add an associated `<figcaption>` and `class` attribute(s) if desired. For example, using the following code:
@@ -53,12 +53,12 @@ will generate the following HTML:
 </figure>
 ~~~
 
-[Download][8]{: .c-button download="jekyll-figure.zip"} <span class="u-conj">or</span> [learn more on Github][9]
+[Learn more on Github][7]{: .c-button}
 
 ## Next steps
-Now, these are pretty simple plugins, but hopefully they are a prelude to more complex offerings. I've already [contributed changes][10] to Aaron Gustafson's plugin [jekyll-crosspost_to_medium][11], and I'm currently trying to [update the slugify utility inside Jekyll's core][12] so that it can take more options.
+Now, these are pretty simple plugins, but hopefully they are a prelude to more complex offerings. I've already [contributed changes][8] to Aaron Gustafson's plugin [jekyll-crosspost_to_medium][9], and I'm currently trying to [update the slugify utility inside Jekyll's core][10] so that it can take more options.
 
-At a later date, I may release [the plugin I'm using to generate responsive image mark-up][13], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display photos I've posted to Flickr on this site as well.
+At a later date, I may release [the plugin I'm using to generate responsive image mark-up][11], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display photos I've posted to Flickr on this site as well.
 
 Yet if there's one thing I've learnt while making this tentitive journey into the world of programing, it's that taking one step at a time is often the most sensible approach.
 
@@ -67,14 +67,12 @@ Yet if there's one thing I've learnt while making this tentitive journey into th
 [3]: http://jekyllrb.com/docs/plugins/
 [4]: https://www.ruby-lang.org/en/
 [5]: http://www.bbc.co.uk/commissioning/tv/production/articles/credits-branding-trademarks
-[6]: https://github.com/paulrobertlloyd/jekyll-roman/archive/master.zip
-[7]: https://github.com/paulrobertlloyd/jekyll-roman
-[8]: https://github.com/paulrobertlloyd/jekyll-figure/archive/master.zip
-[9]: https://github.com/paulrobertlloyd/jekyll-figure
-[10]: https://github.com/aarongustafson/jekyll-crosspost_to_medium/pull/3
-[11]: https://github.com/aarongustafson/jekyll-crosspost_to_medium
-[12]: https://talk.jekyllrb.com/t/is-there-a-desirability-for-configurable-slugify-character-in-core/1558/6
-[13]: https://github.com/paulrobertlloyd/paulrobertlloyd.com/blob/2c9a499/source/_plugins/picture.rb
+[6]: https://github.com/paulrobertlloyd/jekyll-roman
+[7]: https://github.com/paulrobertlloyd/jekyll-figure
+[8]: https://github.com/aarongustafson/jekyll-crosspost_to_medium/pull/3
+[9]: https://github.com/aarongustafson/jekyll-crosspost_to_medium
+[10]: https://talk.jekyllrb.com/t/is-there-a-desirability-for-configurable-slugify-character-in-core/1558/6
+[11]: https://github.com/paulrobertlloyd/paulrobertlloyd.com/blob/2c9a499/source/_plugins/picture.rb
 
 *[BBC]: British Broadcasting Corporation
 *[HTML]: Hypertext Markup Language
