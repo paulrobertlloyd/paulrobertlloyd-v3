@@ -53,8 +53,7 @@ Our use and understanding of glass has improved to the point where it is often f
 {% picture /2011/03/brasilia_palace_hotel_rural_willys.jpg alt="" %}
 {% endfigure %}
 
-## Conclusion
-Its secluded lakeside location means it can't offer the central location provided by other hotels in the city, but reaching the main attractions by taxi remains reasonably priced -- around R$15 at the time of writing. Of course, only here can you consider the country's president your neighbour -- for a short while at least.
+Its secluded lakeside location means it can't offer the central location provided by other hotels in the city. However, reaching the main attractions by taxi remains reasonably priced -- around R$15 at the time of writing (March 2011) -- and only here can you consider the country's president your neighbour, for a short while at least.
 
 OSCAR, the hotel restaurant, is a little pricey but, going by the meal I ate, worth every centavo. I read some reviews that suggested the customer service wouldn't match the grandeur of the setting, but I found this not to be the case, with staff all too willing to help -- even if that meant dealing with my non-existent Portuguese language skills!
 

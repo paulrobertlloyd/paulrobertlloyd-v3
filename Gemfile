@@ -12,7 +12,7 @@ gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-assets', '2.0.0'
-  gem 'jekyll-crosspost-to-medium'
+  gem 'jekyll-crosspost-to-medium', path: '~/Sites/jekyll-crosspost_to_medium'
   gem 'jekyll-figure'
   gem 'jekyll-paginate'
   gem 'jekyll-roman'
