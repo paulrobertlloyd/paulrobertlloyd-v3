@@ -32,7 +32,7 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :'build-dev' => [:clean, :'lint-scss'] do
-  sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --trace --profile"
+  sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --future --trace --profile"
 end
 
 
