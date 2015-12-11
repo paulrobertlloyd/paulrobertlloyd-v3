@@ -1,5 +1,5 @@
 ---
-title: 'Peacful Reflection'
+title: 'Peaceful Reflection'
 date: '2015-12-12 12:00:00 +0000'
 location: Brighton, England
 excerpt: 'Ten years ago today, excited yet somewhat anxious, I boarded United Airlines flight 955 from London Heathrow to San Francisco.'
