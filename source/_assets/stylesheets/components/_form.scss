@@ -37,14 +37,14 @@
         right: 0;
         left: 0;
         border: dotted;
-        border-width: 0 0 $u__rule-height;
+        border-width: 0 0 ($u__rule-height * 2);
         padding: 0.75rem;
         line-height: 1.5;
         font-weight: 700;
 
         @media (min-width: $b__a) {
             bottom: 0;
-            border-width: 0 $u__rule-height 0 0;
+            border-width: 0 ($u__rule-height * 2) 0 0;
             width: span(3);
         }
     }
@@ -65,7 +65,7 @@
 
 .c-form__input {
     outline: 0;
-    border: $u__rule-height solid;
+    border: ($u__rule-height * 2) solid;
     border-radius: 0;
     padding: 0.75rem;
     width: 100%;

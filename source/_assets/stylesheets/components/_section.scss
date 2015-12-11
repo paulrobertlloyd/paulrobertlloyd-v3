@@ -40,7 +40,7 @@
 // Complementary
 .c-section--complementary {
     .c-section__header {
-        @include rule($height: 0.09375rem, $position: 'after');
+        @include rule($height: $u__rule-height, $position: 'after');
         display: flex;
         align-items: center;
     }

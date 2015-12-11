@@ -10,7 +10,7 @@
 }
 
 .c-contentinfo__main {
-    border-top: 0.09375rem solid rgba($c__neutral-mid, 0.5); // 1.5px
+    border-top: $u__rule-height solid rgba($c__neutral-mid, 0.5); // 1.5px
     padding: 1rem 0;
 
     @media screen and (min-width: $b__a) {
