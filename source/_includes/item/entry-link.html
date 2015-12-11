@@ -16,13 +16,14 @@
         </p>
     </footer>
 
+    {% if item.embed %}
+    <div class="c-item__media u-bleed">
+        {% include embed.html url=item.link %}
+    </div>
+    {% endif %}
+
     <div class="c-item__main">
         <div class="s-prose  p-summary">
-            {% if item.embed %}
-            <div class="c-item__media u-bleed">
-                {% include embed.html url=item.link %}
-            </div>
-            {% endif %}
             {{ item.content | markdownify | improve }}
         </div>
     </div>
