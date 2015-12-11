@@ -1,17 +1,10 @@
 source "https://rubygems.org"
 
-# Guard (automates development tasks)
-group :development do
-  gem 'guard'
-  gem 'guard-jekyll-plus'
-  gem 'guard-livereload'
-end
-
 # Jekyll (generates static files)
 gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', :git => 'https://github.com/jekyll/jekyll-assets.git', :ref => 'd498a0e7f0382'
   gem 'jekyll-crosspost-to-medium'
   gem 'jekyll-figure'
   gem 'jekyll-paginate'
