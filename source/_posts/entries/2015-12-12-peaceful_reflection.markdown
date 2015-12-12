@@ -2,7 +2,7 @@
 title: 'Peaceful Reflection'
 date: '2015-12-12 12:00:00 +0000'
 location: Brighton, England
-excerpt: 'Ten years ago today, excited yet somewhat anxious, I boarded United Airlines flight 955 from London Heathrow to San Francisco.'
+excerpt: 'Ten years ago today, I boarded United Airlines flight 955 from London Heathrow to San Francisco. Here''s what happened next.'
 tags:
   - Ning
   - The Pastry Box Project
