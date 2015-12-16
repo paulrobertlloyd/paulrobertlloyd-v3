@@ -1,15 +1,3 @@
-GIT
-  remote: https://github.com/jekyll/jekyll-assets.git
-  revision: d498a0e7f0382c3682ce557314fae90b1877aab2
-  ref: d498a0e7f0382
-  specs:
-    jekyll-assets (2.1.0.pre.alpha1)
-      fastimage (~> 1.8)
-      jekyll (~> 3.0)
-      sprockets (~> 3.3)
-      sprockets-helpers (~> 1.2)
-      tilt (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -34,6 +22,12 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-archives (2.1.0)
       jekyll (>= 2.4)
+    jekyll-assets (2.1.2)
+      fastimage (~> 1.8)
+      jekyll (~> 3.0)
+      sprockets (~> 3.3)
+      sprockets-helpers (~> 1.2)
+      tilt (~> 2.0)
     jekyll-crosspost-to-medium (0.1.2)
     jekyll-figure (0.0.2)
     jekyll-paginate (1.1.0)
@@ -88,7 +82,7 @@ DEPENDENCIES
   autoprefixer-rails
   jekyll
   jekyll-archives
-  jekyll-assets!
+  jekyll-assets
   jekyll-crosspost-to-medium
   jekyll-figure
   jekyll-paginate
