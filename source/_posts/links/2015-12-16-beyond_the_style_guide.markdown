@@ -1,6 +1,6 @@
 ---
 title: 'Beyond the Style Guide'
-date: '2015-12-17 19:30:00 +0000'
+date: '2015-12-17 23:30:00 +0000'
 link: https://24ways.org/2015/beyond-the-style-guide/
 tags:
   - Writing
