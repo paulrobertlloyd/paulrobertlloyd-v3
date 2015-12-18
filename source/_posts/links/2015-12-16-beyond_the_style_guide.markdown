@@ -12,7 +12,7 @@ With [Drew][1] kind enough to let me write for [24 ways][2] again, this year's c
 
 I also wanted to write about the role CSS preprocessors can play in this context, one that ensures their use is more considered and focused. Such is the power of preprocessors like Sass, that without exercising restraint, we can find ourselves creating endless abstractions, with even the most fundamental aspects of CSS being [drawn into the mixin][4]. Much like jQuery (and frameworks like Bootstrap and Foundation), we can find ourselves growing dependant on such tools, to the extent that simpler, more effective alternatives get ignored.
 
-Thinking of Sass an an intermediary between CSS and a visual language is one way I try to keep my reliance in check: if you see a mixin or variable in my CSS, it should relate to an attribute in my design system.
+Thinking of Sass an an intermediary between CSS and a visual language, is one way I try to keep my reliance in check: if you see a mixin or variable in my CSS, it should relate to an attribute in my design system.
 
 * * *
 
