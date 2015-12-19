@@ -17,9 +17,9 @@ Having spent many hours simplifying, optimising and minifying SVGs, typically us
 
 * * *
 
-<span class="u-caps">Paul Lloyd</span>: *SVGOMG has a truly native app feel. What obstacles did you overcome (if any) to make it work seamlessly on the web?*
+**Paul Lloyd:** SVGOMG has a truly native app feel. What obstacles did you overcome (if any) to make it work seamlessly on the web?
 
-<span class="u-caps">Jake Archibald</span>: It was easier than I expected, but I think I was expecting it to be impossible. I was surprised at how much I used [flexbox][6], and how stable it is across modern browsers. Pretty much all of the layout is flexbox driven.
+**Jake Archibald:** It was easier than I expected, but I think I was expecting it to be impossible. I was surprised at how much I used [flexbox][6], and how stable it is across modern browsers. Pretty much all of the layout is flexbox driven.
 
 All the heavy lifting, such as SVG parsing and minification, happens in [web workers][7], so the UI stays responsive. But the rule for runtime performance is still "if you paint, you lose", so I had to spend time ensuring everything that moved had its own GPU layer and used simple transforms. There's one downside to this, if you zoom the SVG preview in Chrome/Safari you start to see pixels. Still looking for a way to fix this that doesn't kill performance.
 
@@ -29,17 +29,17 @@ I was shocked how much hacking Safari needed to get basic features working. Smoo
 
 * * *
 
-PL: *One of the most pleasing features of the app is how it adapts to different screen sizes. Did you make any adaptions to your initial design/concept to achieve this?*
+**PL:** One of the most pleasing features of the app is how it adapts to different screen sizes. Did you make any adaptions to your initial design/concept to achieve this?
 
-JA: I'm terrible at design. I don't know what I'm doing. I really don't. [Google's]  [Material Design][11] helped me a lot by telling me what to do. In the cases where Material Design didn't have rules, I spent a long time sketching and throwing stuff out.
+**JA:** I'm terrible at design. I don't know what I'm doing. I really don't. [Google's]  [Material Design][11] helped me a lot by telling me what to do. In the cases where Material Design didn't have rules, I spent a long time sketching and throwing stuff out.
 
 Unlike a lot of apps, the settings need to be visible alongside the output. It's kinda tough to fit it all in on mobile, but I decided to split the output almost 50/50. The settings go at the bottom of the screen so you don't cover the output with your hand while interacting.
 
 * * *
 
-PL: *What progressive enhancement techniques and approaches did you use to ensure the widest possible usage for the app?*
+**PL:** What progressive enhancement techniques and approaches did you use to ensure the widest possible usage for the app?
 
-JA: In terms of features, there are a couple of polyfills that are brought in dynamically for the browsers that need them. IE needs a [Promise polyfill][12], Safari needs Fastclick.
+**JA:** In terms of features, there are a couple of polyfills that are brought in dynamically for the browsers that need them. IE needs a [Promise polyfill][12], Safari needs Fastclick.
 
 I stuck to enhancing existing browser features rather than reinventing anything. The switches are all checkboxes underneath, styled using `<label>`s. I couldn't style `<input type="range">` how I wanted, so it's just a series of divs, but there's a real range input overlaid at `opacity: 0`, so you interact (with keyboard, mouse or touch) with the real thing, but the `<div>`s listen to events and provide the visual output.
 
@@ -47,9 +47,9 @@ I thought about making the site work without JS by doing the SVG work on the ser
 
 * * *
 
-PL: *You are a big proponent of web performance. What steps did you take to make the app feel speedy?*
+**PL:** You are a big proponent of web performance. What steps did you take to make the app feel speedy?
 
-JA: Although I have no intention of making the site work without JS, I still render before JS is available. In fact, it gets to first render with only 5k of HTML with some inlined CSS and SVG, the main scripts and CSS are all loaded in the background. This means the site appears to load in 1.5s even on 3G with an empty cache, and most of that is DNS and SSL.
+**JA:** Although I have no intention of making the site work without JS, I still render before JS is available. In fact, it gets to first render with only 5k of HTML with some inlined CSS and SVG, the main scripts and CSS are all loaded in the background. This means the site appears to load in 1.5s even on 3G with an empty cache, and most of that is DNS and SSL.
 
 The opening screen is really simple, so doing that in 5k wasn't a challenge. It really bothers me that so many sites wait on JS for their first render, some even require their JS to make further requests before rendering. This pushes 3G render time towards 10s -- as a mobile user I know I wouldn't put up with that.
 
