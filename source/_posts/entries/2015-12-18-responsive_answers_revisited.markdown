@@ -2,13 +2,13 @@
 title: Responsive Answers Revisitied
 date: '2015-12-18 23:30:00 +0000'
 location: Brighton, England
-excerpt: Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four questions as part of his December Interview Series. Here are my answers.
+excerpt: Justin Avery, who curates Responsive Design Weekly, asked me to revisit the four questions I answered as part of an interview series in 2013. Here are my answers.
 tags:
   - Responsive design
   - Web
   - Interviews
 ---
-Justin Avery, who curates the [Responsive Design Weekly newsletter][1], asked me to revisit the four questions I answered as part of his interview series in 2013. My answers are below.
+Justin Avery, who curates [Responsive Design Weekly][1], asked me to revisit the four questions I answered as part of an interview series in 2013. My answers are below.
 
 * * *
 
