@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
-    autoprefixer-rails (6.2.0)
+    autoprefixer-rails (6.2.1)
       execjs
       json
     colorator (0.1)
