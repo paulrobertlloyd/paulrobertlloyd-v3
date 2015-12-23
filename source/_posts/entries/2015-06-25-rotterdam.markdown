@@ -2,7 +2,7 @@
 title: 'Rotterdam Reflections'
 date: '2015-06-25 22:55:52 +0100'
 location: Brighton, England
-excerpt: 'Some thoughts after spending a few days in the Netherlands second city.'
+excerpt: 'Some thoughts after spending a few days in the Netherlands' second city.'
 image:
   url: /2015/06/rotterdam_centraal.jpg
   caption: 'Rotterdam Centraal Station'
