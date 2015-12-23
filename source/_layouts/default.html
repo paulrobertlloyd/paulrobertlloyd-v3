@@ -3,7 +3,7 @@ layout: compress
 ---
 <!DOCTYPE html>
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
-<html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %} fonts-loaded">
+<html lang="en-gb" prefix="og: http://ogp.me/ns#" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %} fonts-loaded">
 <!--#else-->
 <html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
@@ -22,16 +22,19 @@ layout: compress
     {% if page.next != nil %}<link rel="next bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}"/>{% endif %}
 
 {% if page.path contains "_posts" %}
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
+    <meta property="og:locale" content="en_GB"/>
     {% if page.image %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.picture.cdn }}/640x360/100q{{ page.image.url }}"/>
+    <meta property="og:image" content="{{ site.picture.cdn }}/640x360/100q{{ page.image.url }}"/>
+    <meta name="twitter:card" content="summary_large_image"/>
     {% else %}
+    <meta property="og:image" content="{% asset_path icon--192x192.png %}"/>
     <meta name="twitter:card" content="summary"/>
     {% endif %}
     <meta name="twitter:site" content="@paulrobertlloyd"/>
-    <meta name="twitter:creator" content="@paulrobertlloyd"/>
-    <meta name="twitter:title" content="{{ page.title }}"/>
-    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
 {% endif %}
 
     <meta charset="utf-8"/>
