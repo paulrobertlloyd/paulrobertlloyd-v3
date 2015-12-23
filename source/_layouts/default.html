@@ -21,17 +21,19 @@ layout: compress
     {% if page.previous != nil %}<link rel="prev bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}"/>{% endif %}
     {% if page.next != nil %}<link rel="next bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}"/>{% endif %}
 
-    <meta name="twitter:title" property="og:title" content="{{ page.title }}"/>
-    <meta name="twitter:url" property="og:url" content="{{ site.url }}{{ page.url }}"/>
-    <meta name="twitter:description" property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}"/>
-{% if page.image %}
+{% if page.path contains ".markdown" %}
+    <meta name="twitter:title" property="og:title" content="{% unless page.home %}{{ page.title }}{% else %}{{ site.title }}{% endunless %}"/>
+    <meta name="twitter:description" property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
+    <meta name="twitter:url" property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
+    {% if page.image %}
     <meta name="twitter:image" property="og:image" content="{{ site.picture.cdn }}/640x360/100q{{ page.image.url }}"/>
     <meta name="twitter:card" content="summary_large_image"/>
-{% else %}
+    {% else %}
     <meta name="twitter:image" property="og:image" content="{% asset_path icon--192x192.png %}"/>
     <meta name="twitter:card" content="summary"/>
-{% endif %}
+    {% endif %}
     <meta name="twitter:site" content="@paulrobertlloyd"/>
+{% endif %}
 
     <meta charset="utf-8"/>
     <meta name="author" content="{{ site.author.name }}"/>
