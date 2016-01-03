@@ -21,7 +21,7 @@ As usual, I attended a number of conferences (though few saw me venture outside 
 
 I also made a concerted effort to attend events beyond the realm of web design. I heard talks about the history of [my local railway station][16], the [design of the Olympic Stadium's new roof][17], and [collecting graphic art][18]. Cultural highlights included my first West End play ([King Charles III][19]), briefly sharing a stage with comedian [Tony Law][20], and perusing the work of [William Kentridge][21] and [Ai Weiwei][22]. I also crossed a few local attractions off my to-do list, visiting [Brooklands Museum][23], [Crystal Palace][24] and [Hampton Court][25]. Of the little live sport I saw, both the FIA Formula E ePrix in Battersea Park and the Sainsbury's Anniversary Games were pretty disappointing.
 
-Between all this, I could be found hunched over my laptop in various coffee shops, writing articles for net Magazine, [A List Apart][26], [24 ways][27] and [the Pastry Box Project][28], or preparing the talk I gave at [Front-end London][29], [CSS Day][30], and [Web Expo][31].
+Between all this, I could be found hunched over my laptop in various coffee shops, writing articles for net Magazine, [A List Apart][26], [24 ways][27] and [the Pastry Box Project][28], or preparing for a talk that I gave at [Front-end London][29], [CSS Day][30], and [Web Expo][31].
 
 Oh, and [I launched my redesigned website][32]. Finally
 
@@ -38,7 +38,7 @@ So onwards, and on to 2016. Work wise, I've identified two improvements that nee
 
 Last year I started working with a personal trainer. While this has seen an improvement in my strength and overall fitness, these gains were offset by a poor diet. I now need to focus on making small but sustainable changes (drinking more water, eating more fruit and veg, planning meals in advance) to fully realise the benefits.
 
-Finally, I'm determined to spend less time in 2016 hunched over my aforementioned laptop writing long form articles or preparing talks, instead writing shorter posts, more often. Hopefully this should mean I can spend more time reviving [Bradshaw's Guide][33] (my somewhat neglected side-project) and pursuing exhibitions and events that take me away from the screen, and satisfy my other interests.
+Finally, I'm determined to spend less time in 2016 hunched over my aforementioned laptop writing long form articles or preparing talks, instead writing shorter posts, more often. Hopefully this should mean I can spend more time reviving [Bradshaw's Guide][33] (my somewhat neglected side-project) and pursuing exhibitions and events that take me away from the screen.
 
 {% figure caption:"Boats sat on still Atlantic waters, just off the coast of Ubatuba, Brazil." class:"u-bleed" %}
 {% picture showcase /2016/01/2015_ubatuba.jpg alt="" %}
