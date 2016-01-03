@@ -103,7 +103,7 @@ Thanks to Clearleft's work on the Radio 4 site earlier in the year, me and [Andy
 {% picture supporting /2011/01/2010_in_review_maria.jpg alt="" %}
 {% endfigure %}
 
-However September will forever be marked for another reason, as I became an Uncle for the first time. My brother and wife had their first child, Maria; it's going to be fascinating watching her grow over the coming years, and it's certainly given me a new perspective on the world.
+However September will forever be marked for another reason, as I became an uncle for the first time. My brother and wife had their first child, Maria; it's going to be fascinating watching her grow over the coming years, and it's certainly given me a new perspective on the world.
 
 ## October
 October was a fairly quite month. Had I not seen many of the shows in Edinburgh, I would have made more of the Brighton Comedy Festival. A company night out took in the 'Best of the Fest', which was a mixed bag of comedians I'd already seen, wouldn't want to see again, and one who was excruciatingly bad that it was fun to watch anyway.
@@ -119,7 +119,7 @@ November saw me attend my niece's Christening, a bittersweet affair knowing my b
 
 I also attended Build Conference, an event that has quickly earned a reputation for both its speakers and the surrounding fringe events. I left with plenty of ideas on how Clearleft can improve our own conferences, yet also mindful that Build could take lessons from our own events too. I was surprised by just how much [I enjoyed Belfast][29], and was glad I could grab lunch with an old friend form Uni whilst I was there too. Given that it was a 17 hour long train ride to Northern Ireland, I wanted to make sure I spent [a few days in Dublin][30] on the way back. I was pre-warned that the city was neither interesting or that representative of Ireland, and I think that was proven.
 
-The only Multipack Presents event 2010, saw me give a presentation for the first time about [styleguides, GEL and the design process][31]. Whilst it was well received, I know I have a long way to go before I can be considered an accomplished speaker. There's lots to learn, yet it seems I have a sudden urge to do just that.
+The only Multipack Presents event 2010, saw me give a presentation for the first time about [style guides, GEL and the design process][31]. Whilst it was well received, I know I have a long way to go before I can be considered an accomplished speaker. There's lots to learn, yet it seems I have a sudden urge to do just that.
 
 November also saw the launch of [a redesigned Fontdeck][32], something I'd been increasingly involved with as part of a small sub-team within Clearleft. I'm not sure I ever want to move exclusively to product design ([been there][33], [done that][34]), but I love having the opportunity to do so alongside traditional agency work.
 
