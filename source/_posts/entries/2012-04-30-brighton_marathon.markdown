@@ -27,7 +27,7 @@ Getting to 18 miles would be unknown territory, although I should have reached t
 
 I needed to enact a few mind games to continue, and spent much of my time in Hove cheerfully looking forward to the section of the course around Shoreham Power Station. Not only is this industrial area unattractive, but it sees fewer spectators and much of course runs opposite to the finish line. It's called 'the road to hell' for good reason.
 
-On reaching this point, my legs had grown stiff and I anticipated hitting the dreaded wall. I'm not sure it ever came. There was a point where I thought I would keel over and be sick, however. Having run so much of the course, it was harder to give up; why go through all that pain to stop now!? Soon enough, I was back on the seafront and heading towards the finish line. Still, there were a few more miles left to run. It was a real slog, but the thought of finishing kept me going.
+On reaching this point, my legs had grown stiff and I anticipated hitting the dreaded wall. I'm not sure it ever came. There was a point where I thought I would keel over and be sick, however. Having run so much of the course, it was harder to give up; why go through all that pain to stop now?! Soon enough, I was back on the seafront and heading towards the finish line. Still, there were a few more miles left to run. It was a real slog, but the thought of finishing kept me going.
 
 Eventually I made it. I was euphoric.
 
