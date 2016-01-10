@@ -38,10 +38,10 @@ blockquote {
         margin-bottom: 0.75rem;
     }
 
-    &:before {
+    &::before {
         display: block;
         position: absolute;
-        top: ((1/3) + em);
+        top: ((1 / 3) + em);
         bottom: 0;
         left: 0;
         opacity: 0.25;
