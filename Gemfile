@@ -21,4 +21,4 @@ end
 
 # Rake (manages build tasks)
 gem 'rake'
-gem 'scss-lint', require: false
+gem 'scss_lint', require: false
