@@ -3,7 +3,7 @@
 //  ===========================================================================
 
 .u-icon {
-    &:before {
+    &::before {
         font-family: sans-serif;
         content: attr(data-icon);
         speak: none;

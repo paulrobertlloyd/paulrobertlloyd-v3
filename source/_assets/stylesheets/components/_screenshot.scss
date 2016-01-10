@@ -55,7 +55,7 @@ $u__shadow-size: 4px;
     z-index: 3;
     background-image: url(asset_path('device-tablet-landscape.svg'));
     padding: 2.1% 5.4%;
-    width: (36% * 946/640); // Width/height of tablet image
+    width: (36% * 946 / 640); // Width/height of tablet image
 }
 
 .c-screenshot--tablet-portrait {
