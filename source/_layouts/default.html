@@ -8,18 +8,26 @@ layout: compress
 <html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
 <head>
-    {% if site.picture.cdn %}<link rel="dns-prefetch" href="{{ site.picture.cdn }}"/>{% endif %}
-
+    <link rel="dns-prefetch" href="{{ site.picture.cdn }}"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
     <link rel="apple-touch-icon" href="{% asset_path icon--192x192.png %}" type="image/png"/>
     <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme.color }}"/>
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <link rel="manifest" href="/manifest.json"/>
     <link rel="webmention" href="https://webmention.paulrobertlloyd.com"/>
-
     {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
     {% if page.previous != nil %}<link rel="prev bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}"/>{% endif %}
     {% if page.next != nil %}<link rel="next bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}"/>{% endif %}
+
+    <meta charset="utf-8"/>
+    <meta name="author" content="{{ site.author.name }}"/>
+    <meta name="referrer" content="origin"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="theme-color" content="{{ site.theme.color }}"/>
+    <meta name="application-name" content="{{ site.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="fullcss"  content="{% asset_path global.css %}">
+    <meta name="fulljs" content="{% asset_path global.js %}">
 
 {% if page.path contains ".markdown" %}
     <meta property="og:title" content="{% unless page.home %}{{ page.title }}{% else %}{{ site.title }}{% endunless %}"/>
@@ -34,16 +42,6 @@ layout: compress
     {% endif %}
     <meta name="twitter:site" content="@paulrobertlloyd"/>
 {% endif %}
-
-    <meta charset="utf-8"/>
-    <meta name="author" content="{{ site.author.name }}"/>
-    <meta name="referrer" content="origin"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="theme-color" content="{{ site.theme.color }}"/>
-    <meta name="application-name" content="{{ site.title }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="fullcss"  content="{% asset_path global.css %}">
-    <meta name="fulljs" content="{% asset_path global.js %}">
 
 <!--#if expr="$HTTP_COOKIE=/fullcss\=true/"-->
     <link rel="stylesheet" href="{% asset_path global.css %}"/>
@@ -62,9 +60,7 @@ layout: compress
     <script>
         {% asset_source head.js %}
     </script>
-    <noscript>
-        <link rel="stylesheet" href="{% asset_path global.css %}">
-    </noscript>
+    <noscript><link rel="stylesheet" href="{% asset_path global.css %}"></noscript>
 
     <title>{% if page.title %}{% include title.html %} / {% endif %}{{ site.title }}</title>
 </head>
