@@ -12,9 +12,9 @@
         <span class="c-page__location u-separate  p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
         {% endif %}
 
-        {% if page.layout == "entry" %}
-        <span class="u-hidden">and available under a {{ site.license.type }}</span>
-        <a class="c-page__license" rel="license" href="{{ site.license.url }}" title="{{ site.license.description }}">{{ site.license.terms }}</a>
+        {% if page.license %}
+        <span class="u-hidden">and available under a {{ page.license.type }}</span>
+        <a class="c-page__license" rel="license" href="{{ page.license.url }}" title="{{ page.license.description }}">{{ page.license.terms }}</a>
         <span class="u-hidden">license</span>
         {% endif %}
     </p>

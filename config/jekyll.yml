@@ -13,13 +13,6 @@ author:
   email: noreply@paulrobertlloyd.com
   photo: https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b?s=256
 
-# License (journal entries only)
-license:
-  type: Creative Commons
-  terms: BY-NC-SA
-  description: 'You can republish this content without asking permission, but you must credit me (Paul Robert Lloyd) as the author and provide a link back to the original. You may not use any content for commercial purposes. If you make any changes, you must distribute these under the same license as the original.'
-  url: http://creativecommons.org/licenses/by-nc-sa/4.0/
-
 # Source code management
 scm:
   title: GitHub
@@ -74,6 +67,15 @@ defaults:
       type: posts
     values:
       layout: entry
+
+  - scope:
+      path: '_posts/entries'
+    values:
+      license:
+        type: Creative Commons
+        terms: BY-NC-SA
+        description: 'You can republish this content without asking permission, but you must credit me (Paul Robert Lloyd) as the author and provide a link back to the original. You may not use any content for commercial purposes. If you make any changes, you must distribute these under the same license as the original.'
+        url: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
   - scope:
       type: projects
