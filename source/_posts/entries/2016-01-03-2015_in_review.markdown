@@ -23,7 +23,7 @@ I also made a concerted effort to attend events beyond the realm of web design. 
 
 Between all this, I could be found hunched over my laptop in various coffee shops, writing articles for net Magazine, [A List Apart][26], [24 ways][27] and [the Pastry Box Project][28], or preparing for a talk that I gave at [Front-end London][29], [CSS Day][30], and [Web Expo][31].
 
-Oh, and [I launched my redesigned website][32]. Finally
+Oh, and [I launched my redesigned website][32]. Finally.
 
 {% figure caption:"Several trips around Europe allowed me to indulge in my love of architecture. Top: A canal bridge in Bruges. Bottom: The Fernsehturm in Berlin, A'DAM (previously Toren Overhoeks) in Amsterdam and the Cube Houses in Rotterdam." class:"u-bleed" %}
 {% picture showcase /2016/01/2015_bruges.jpg alt="Bruges" %}
