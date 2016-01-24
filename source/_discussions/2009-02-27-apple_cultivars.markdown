@@ -1,5 +1,4 @@
 ---
-permalink: /2009/02/apple_cultivars/discussion
 remarks:
   - author: Mark Otto
     gravatar: 7ff6ba0b742c6066f7094de212e9efad
@@ -7,14 +6,14 @@ remarks:
     url: http://zurb.com
     content: |
       I've got a similar setup, naming all my Apple gear... except mine are named after elderly women.
-      
+
       * MBP: Blanche
       * 30" Cinema Display: Estelle
       * iPhone: Maude
       * iPod: Edith
       * External HD1: Rosemary
       * External HD2: Agnes
-      
+
       Helps me make my workspace my own... everyone knows their names around the office, too :).
 
   - author: Sam Hardacre
@@ -30,7 +29,7 @@ remarks:
     url: http://andydev.co.uk
     content: |
       Never named any Apple stuff anything different from the normal "Andrew Yates' X". Sounds a pretty cool idea, I like the HMS Discovery idea alot.
-      
+
       I wondered what I could use to name all of my Apple gear.
 
   - author: Stuart Maynard-Keene

@@ -1,5 +1,4 @@
 ---
-permalink: /2008/09/california_zephyr/discussion
 remarks:
   - author: G. Poirier
     gravatar: 01e26e4fde3c6fd1ceaa7ffb2dfa3ffc

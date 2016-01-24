@@ -1,5 +1,4 @@
 ---
-permalink: /2009/01/2008_in_review/discussion
 remarks:
   - author: Jonathan Aquino
     gravatar: 6b5ab75ce823bc4a31dcf1f04427a582

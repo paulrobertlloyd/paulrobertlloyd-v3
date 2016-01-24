@@ -1,13 +1,12 @@
 ---
-permalink: /2009/09/a_cohesive_and_unified_identity_for_british_government/discussion
 remarks:
   - author: Richard Rutter
     date: '2009-09-28 09:19:46 +0100'
     content: |
       Great article Paul -- nicely researched. I heartily agree there should be more consistency across the UK Government 'brand'. Partly because some of the ministries' identities are terrible vis. Department for Transport, but also because we the public should be able to tell at a glance when we're dealing with a Government department.
-      
+
       On that basis I'm also agreed that a new typeface should be designed. Gill Sans would probably be appropriate but its distribution, and use by the BBC, is too prevalent. That said I also think that the German and Dutch governments have taken their branding too far -- I do believe that the various ministries should have different visual identies, even if it's just differing colour schemes as in Northern Ireland.
-      
+
       As alternative to the complicated coat of arms, another device used by the UK Government has been the crowned portcullis, although I think that may refer specifically to the House of Commons.
 
   - author: Paul Annett
@@ -23,13 +22,13 @@ remarks:
     url: http://justbeyondthebridge.co.uk
     content: |
       So it will come as no surprise to you that I like this stuff -- and it's fascinating you've pulled this all together as I've never really thought to compare national government identities like this.
-      
+
       I also agree with Richard and Paul about having a greater degree of separation -- it becomes really noticeable as a foreigner looking at the German branding that it's hard to tell one from another -- though I'm not exactly their key audience!
-      
+
       Perhaps like IKEA they might want to try Verdana... (before you kill me, I am joking) -- I too think Gill Sans is a little too loaded as it is, and it would be better to go for something new. Johnston of course is considered an archetypal British font, and demonstrates that with a bit of care you can produce a good variation -- perhaps a new one for C21st?
-      
+
       Simplified coats of arms are a winner for me too. I think what you have there is a little fussy, but I'd agree a degree of consistency as you propose wouldn't go amiss. That said, anything that drew the glut of disparate identities together would be an improvement.
-      
+
       Re: the portcullis -- I think this not only represents the Commons, but Parliament as a whole. It also used to be used for Customs & Excise before that was abolished. Not sure of it's origins or which portcullis it actually represents (if any).
 
   - author: Paul Randall
@@ -38,7 +37,7 @@ remarks:
     url: http://prandall.com
     content: |
       I think it would be a big improvement if the UK logos were to simplify the colour scheme to create a more coherent look firstly.
-      
+
       One thing I would say in favour of the diversified UK logos however is that they add a bit of character, whereas the monochromatic style looks a little too clinical.
 
   - author: Mark Otto
@@ -47,9 +46,9 @@ remarks:
     url: http://zurb.com
     content: |
       Awesome collection of logos here, Paul. Clearly well researched.
-      
+
       I also agree with Richard's point -- there should be more distinction between each departments' logos. I'd argue that one could create a suite of brandmarks with slight variation while maintaining a cohesive presentation.
-      
+
       This would (hopefully) improve recognizability and quick interpretation of what each logo represents.
 
   - author: Jonny Haynes
@@ -58,9 +57,9 @@ remarks:
     url: http://www.jonnyhaynes.com
     content: |
       A great article and a very nice collection of logos.
-      
+
       I think a unified approach is the way forward, if it works for the NHS, why can't it work for the whole governement?
-      
+
       We're taught as fledgling designers to provide clarity and cohesion, one single crisp wordmark/logo would provide this.
 
   - author: Vincent Roman

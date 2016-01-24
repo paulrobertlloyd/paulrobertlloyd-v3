@@ -1,5 +1,4 @@
 ---
-permalink: /2015/07/lanyards/discussion
 remarks:
   - author: Richard Rutter
     gravatar: 4dc4891f8146f79ced911d665f2dedef
@@ -7,6 +6,6 @@ remarks:
     url: http://clagnut.com/
     content: |
       I certainly like the idea of collecting lanyards at the end. Something we should definitely do at Clearleft's conferences, especially as the lanyards are usually branded 'Clearleft' (although sponsorship is available :-)
-      
+
       As for name badges, I think they enhance the experience, at least if they are designed so that you can read people's names without getting accidentally intimate. I like to remember who I’m talking to -- I don't have the best memory when it comes to matching names to faces.
 ---

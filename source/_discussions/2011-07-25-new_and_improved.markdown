@@ -1,13 +1,12 @@
 ---
-permalink: /2011/07/new_and_improved/discussion
 remarks:
   - author: Francis
     gravatar: b000a1e9ccfe91acdd9ce2d3aa077c5d
     date: '2011-07-26 15:12:33 +0100'
     ip: 71.214.82.153
     content: |
-      This is a great redesign, really like it a lot. One problem I've found is with the embedded maps on an iPhone. The map is so too wide to be able to scroll past it. I ended up only being able to scroll the map continually  downwards so couldn't get to the rest of the article. 
-      
+      This is a great redesign, really like it a lot. One problem I've found is with the embedded maps on an iPhone. The map is so too wide to be able to scroll past it. I ended up only being able to scroll the map continually  downwards so couldn't get to the rest of the article.
+
       Other than that, it's excellent.
 
   - author: Simon Edwards
@@ -17,7 +16,7 @@ remarks:
     url: http://www.riseofthemonkeys.co.uk
     content: |
       The newly designed site is looking beautiful Paul, but then I really shouldn't expect anything less should I? Clear, concise and easy to navigate. I could go on but I know you wouldn't like that.
-      
+
       Well done on a great job.
 
   - author: James King
@@ -42,11 +41,11 @@ remarks:
     url: http://www.twitter.com/iliasjohri
     content: |
       Great work.
-      
+
       Is there a specific reason the grid "snaps" when going from +1400px to -1400px? I think @beep called it "switchy". Also no visual hoverstates on the main nav?
-      
+
       Just curious about the why :)
-      
+
       Oh and the manually having to enter "http://" on the website field in the comment form. The devil's in the details ;)
 
   - author: Paul Lloyd
@@ -54,13 +53,13 @@ remarks:
     date: '2011-07-29 00:44:58 +0100'
     content: |
       Thanks for the feedback everybody, especially those who suggested improvements:
-      
+
       [@Francis](#remark-1): I've added a gutter to the right of maps on narrower displays that should make it easier to scroll past.
-      
+
       [@Ilias](#remark-5): I'm glad you mentioned the >1400px layout. The design is fully flexible at widths below ~1024px, but I didn't feel comfortable going flexible above this value, partly for fear of overly long line lengths, and partly for a desire to retain one 'true layout'. I'm inclined to think there's a point where responsive designs can stop, that they needn't be infinite.
-      
+
       However, the larger >1400px view was designed with a full-screen display in mind, where a users may want a 'lean-back' experience. The snap is a little jarring, but hopefully that is countered by the extreme width at which this appears. To be honest, this is all subject to review, and I may well change it in the future. What do you think of this type of responsiveness?
-      
+
       Thanks for the heads-up about hover states in the navigation. I've fixed those now.
 
   - author: James Young
@@ -69,7 +68,7 @@ remarks:
     url: http://welcomebrand.co.uk
     content: |
       Nice work Paul, really like the font choices and the apparent simplicity of the design and feel to the site.
-      
+
       J.
 
   - author: Stijn

@@ -1,5 +1,4 @@
 ---
-permalink: /2009/12/ending_the_decade_down_under/discussion
 remarks:
   - author: Jon Roobottom
     gravatar: e3c764941478ad667ec52f1b9e700be5
@@ -14,11 +13,11 @@ remarks:
     url: http://www.andydev.co.uk/
     content: |
       Enjoy your holiday. Sounds like it will be fantastic.
-      
+
       I really want to get further away from the UK than Spain, so far I am yet to manage it. Hoping that the saving that I have been doing means by this time next year I would of made it past that barrier I haven't crossed yet.
-      
+
       Have a great time.
-      
+
       Andy.
 
   - author: Jonathan Aquino
@@ -33,6 +32,6 @@ remarks:
     date: '2009-12-15 16:16:27 +0000'
     content: |
       Dont forget to get me some photos of Glebe Village.
-      
+
       Oh and have a great time mate!
 ---

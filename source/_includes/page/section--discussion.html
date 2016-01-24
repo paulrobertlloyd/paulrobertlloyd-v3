@@ -22,13 +22,15 @@
                 {% else %}
                     <a href="{{ page.url }}/discussion">This entry has {{ discussion_count }} remarks.</a>
                 {% endcase %}
-
                 {% if page.discussion == "open" %}
-                    <a href="mailto:remark+{{ page.id | remove_first: "/" | replace:"/", "-" }}@public.paulrobertlloyd.com?subject=[paulrobertlloyd.com] {{ page.title }}">Comments are open on this article</a>
+                    Add yours!
                 {% else %}
                     The discussion has now ended.
                 {% endif %}
             </p>
+            {% if page.discussion == "open" %}
+                {% include form/remark.html %}
+            {% endif %}
         </div>
     </div>
 </section>

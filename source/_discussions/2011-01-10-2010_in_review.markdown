@@ -1,5 +1,4 @@
 ---
-permalink: /2011/01/2010_in_review/discussion
 remarks:
   - author: Andy
     gravatar: 3282170b113297711ac2a2d41bffb70d
@@ -14,6 +13,6 @@ remarks:
     url: http://roodesign.co.uk
     content: |
       Very nice review mate.
-      
+
       Oh, and I don't know about getting away relatively unscathed, maybe you've blocked out the tying up and de-bagging around the bonfire.
 ---

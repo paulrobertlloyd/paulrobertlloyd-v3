@@ -1,5 +1,4 @@
 ---
-permalink: /2009/02/christian_bale_rant/discussion
 remarks:
   - author: Fabricio Zuardi
     gravatar: 9c617d84d045dc1bf419bae569532f05
@@ -28,6 +27,6 @@ remarks:
     url: http://paulrobertlloyd.com/
     content: |
       I think everybody is being a little too hard on Bale -- especially when you take into account the DP walking around and distracting Bale while he was filming his scene. Bale has since stated he was half 'in character' when he flipped so that may have had some effect too (whether you choose to believe that or not is up to you).
-      
+
       Personally, I'm trying to learn all I can from Bale. He is obviously highly skilled in ranting, so I'm looking to see how I can use his style in my own material ;-)
 ---

@@ -1,5 +1,4 @@
 ---
-permalink: /2009/03/british_triumph_coming_shortly/discussion
 remarks:
   - author: Jon Roobottom
     gravatar: 3efcc4aba5ec7f70f583459d7df26a3a
@@ -14,7 +13,7 @@ remarks:
     url: http://zurb.com
     content: |
       Damn, this is kind of... encouraging :). I'm plenty out of shape, but I am quite competitive :D. I might have to get on board with this Nike+ thing finally. I had the shoes about a year ago, but never took the ~$200 plunge to getting a Nano and Nike+ sensor.
-      
+
       Kind of a big entry barrier, no?
 
   - author: Jonathan Aquino

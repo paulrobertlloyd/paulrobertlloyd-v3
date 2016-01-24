@@ -1,5 +1,4 @@
 ---
-permalink: /2009/06/clearleft/discussion
 remarks:
   - author: Chris Colhoun
     gravatar: dc44180463fd03188a06b9e648f031c9
@@ -27,7 +26,7 @@ remarks:
     date: '2009-07-08 19:26:23 +0100'
     content: |
       Great Paul! Good luck working with Clearleft. I like Clearleft site a lot and since past few months have been following it a bit, I think they are experts.
-   
+
       (P.S.: i applied for a job but i guess am not suitable so did not get a reply, but thats ok :)
 
   - author: Richard Johnston-Nott

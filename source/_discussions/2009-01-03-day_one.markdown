@@ -1,5 +1,4 @@
 ---
-permalink: /2009/01/day_one/discussion
 remarks:
   - author: Jonathan Aquino
     gravatar: 6b5ab75ce823bc4a31dcf1f04427a582
@@ -27,7 +26,7 @@ remarks:
     url: http://www.zenbullets.com
     content: |
       Beautiful photos.
-      
+
       The last time I did the big night out for NYE was the millennium, the new year has seemed of relatively little consequence since then. It was also the night I met my wife.
 
   - author: trovster

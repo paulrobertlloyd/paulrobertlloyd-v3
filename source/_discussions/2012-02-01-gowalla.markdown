@@ -1,5 +1,4 @@
 ---
-permalink: /2012/02/gowalla/discussion
 remarks:
   - author: Jon Roobottom
     gravatar: e3c764941478ad667ec52f1b9e700be5
@@ -7,13 +6,13 @@ remarks:
     url: http://roodesign.co.uk
     content: |
       Again, another great article Mr Lloyd. I think your policy of "just post it" is really working out for you.
-      
+
       Never having used Gowalla or Foursquare, I'm firmly in the camp of those who don't get why anyone would bother -- but, as their success shows -- people obviously do.
-      
+
       I am, however, defiantly in the camp of those worried about the cancer-like growth of Facebook and it's underhand methods of buying up everyone in sight and their use of tracking cookies on every site they can get their grubby little hands on.
-      
+
       Unlike you I can't hold the moral high ground on this one -- still being a Facebook user myself. One day, I hope to cut out that particular nasty little habit. But that doesn't mean I don't support your ideals.
-      
+
       My point is this: keep writing (ranting). You've 87.35% convinced me that I should delete my facebook account.
 
   - author: Dave
