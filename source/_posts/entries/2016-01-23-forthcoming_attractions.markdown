@@ -15,12 +15,12 @@ The first is to blog more often, being less precious about what I choose to post
 Hopefully these two resolutions will play into each other. I've already [written about the Lumiere festival][2], and here I wish to share a few events I've recently bought tickets for. Who knows, you might be interested in them too.
 
 ## [Unit Live!][3]
-*Thursday, 10 March 2016*
+*10 March 2016*
 
 A highlight from last year was attending a discussion about collecting graphic art, hosted by Unit Editions at their offices in Kenington. *Unit Live!* takes place at a much larger venue and will feature a series of talks, including a presentation by [Lance Wyman][4] on his life and work.
 
 ## [Motion Design Essentials][5]
-*Friday, 11 March 2016*
+*11 March 2016*
 
 It seems we have now reached a point where animation on the web is not only possible, but expected. I want to incorporate appropriate transitions and motion into my work, yet with little knowledge of the subject, I'm hoping my friend and former colleague [Cennydd Bowles][6] can put me on the right track with his one day workshop. Fortuitously, it takes place the day after Unit Live!, so it looks like I'll be spending the night in London, too.
 
