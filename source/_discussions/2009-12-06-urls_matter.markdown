@@ -1,5 +1,4 @@
 ---
-permalink: /2009/12/urls_matter/discussion
 remarks:
   - author: Tim Print
     gravatar: 10422b15b0082b87e737022e1fac298d
@@ -7,11 +6,11 @@ remarks:
     url: http://www.shooma.co.uk
     content: |
       Interesting piece Paul.
-      
-      I agree that urls can be important for users as a navigation aid or 'escape route' as you put it. I think the best way to help users with urls is to let them reflect the navigation. If the navigation element says 'work' and from there the sub-navigation says 'project 1', then let the url be /work/project-1/. 
-      
+
+      I agree that urls can be important for users as a navigation aid or 'escape route' as you put it. I think the best way to help users with urls is to let them reflect the navigation. If the navigation element says 'work' and from there the sub-navigation says 'project 1', then let the url be /work/project-1/.
+
       I think this approach makes it much easier for users to edit the urls usefully or use them as signposts as there is a direct corelation with what is on the page.
-      
+
       Sentenced urls like the ones on Clearleft look cool and exude confidence and maybe that's enough to justify their use but I'm not sure they add any other value.
 
   - author: Paul Randall
@@ -20,9 +19,9 @@ remarks:
     url: http://prandall.com
     content: |
       Some good points made here. I fear that URL shorteners are really just a quick fix for Twitter, and if a service such as bit.ly or is.gd is removed, or has a problem, all the links are rendered useless. However URLs like flic.kr feel more reliable -- and crucially tells me where the link is taking me. There will come a time when we trust URL shortening services to the point where we blindly click on links, making us vulnerable to dodgy sites etc.
-      
+
       An aside is that I love looking at a book in Amazon, and only have to change the .co.uk to a .com to be redirected to the same book page -- very useful for reading reviews.
-      
+
       My mind hasn't been fully made up on what I want to call 'cute' URLs -- ones which make up a sentence. However nice they may be I don't know if it adds anything. If anything they are less intuitive, as so many sites have /about and /contact  by default. (interesting Clearleft redirect /about to /is for people like me!)
 
   - author: Fabricio C Zuardi
@@ -31,9 +30,9 @@ remarks:
     url: http://fabricio.org
     content: |
       URLs matters? I think they do, but that's personal.
-      
+
       Working URLs matters? Definitely! If you break permalinks like changing clothes, there will be nothing a 2-D barcode scanner can do for you. You will still be redirected to a 404 or "we are taking a short break" web page, and that's a sad pattern I've seen on Ning more than once.
-      
+
       See <http://bugtracker.ning.com/forum/topics/forum-topic-urls-should> or <http://www.houseofkyle.com/post/267799457/four-years> (follow the link on the post and count how many of the 4 y/o links on the original entry are still up).
 
   - author: Allie
@@ -55,14 +54,14 @@ remarks:
     date: '2009-12-08 18:38:21 +0000'
     url: http://graphiceyedea.co.uk
     content: |
-      Paul 
-      
+      Paul
+
       Thanks for a great post ;-)
-      
+
       I agree with you full heartedly. When I first spotted the sentenced URL on the Clearleft website -- I saw it as a stroke of genius :) Love it...
-      
+
       It is those seemingly small details which make great designs and sites stand out from the rest. Though I can understand the point of many people being unaware of the specifics of a URL -- not everyone will ever notice or appreciate all the thoughts and details which have gone into a website -- I do think it is exactly those details which will make all the difference.
-      
+
       And as Allie said -- it is part of our job as people working with the web to share what we learn with our clients as well as colleagues. The part of educating my client in some small way about aspects of the internet is one of my favourite parts of the job. The smiles and excitement of people who discover for the first time what I take for granted is wonderful :) Like, for example, introducing my webstudents to the clearleft site and pointing out the URL :) Smiles all around :)
 
   - author: Kirk Paterson

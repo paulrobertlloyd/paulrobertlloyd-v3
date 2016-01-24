@@ -1,5 +1,4 @@
 ---
-permalink: /2009/02/littlehampton_bomb/discussion
 remarks:
   - author: mously
     gravatar: 7df3c0eb330bbf5e8419424822cc4fa9

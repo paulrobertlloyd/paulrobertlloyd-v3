@@ -37,6 +37,7 @@ collections:
     permalink: :path
   discussions:
     output: true
+    permalink: /:year/:month/:title/discussion
   galleries:
     output: true
     permalink: /:year/:month/:title

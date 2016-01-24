@@ -1,5 +1,4 @@
 ---
-permalink: /2009/02/mt_archives_grouped_by_month/discussion
 remarks:
   - author: Ben
     gravatar: ca29319179a322eda04bc36386e2bdcd

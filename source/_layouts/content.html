@@ -2,7 +2,9 @@
 layout: default
 ---
 <article class="c-page  h-entry">
-    {% include page/header.html %}
+    {% unless page.home %}
+        {% include page/header.html %}
+    {% endunless %}
 
     <div class="c-section c-section--body">
         {% if page.excerpt %}

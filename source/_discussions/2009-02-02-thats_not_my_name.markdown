@@ -1,5 +1,4 @@
 ---
-permalink: /2009/02/thats_not_my_name/discussion
 remarks:
   - author: Jon Roobottom
     gravatar: 10a75628c5ee0c218ae5225b42d37f42
@@ -21,7 +20,7 @@ remarks:
     url: http://www.uvshock.co.uk
     content: |
       Haha, I don't know whether my name would be very obstructive over there. I've had someone think I was "Gus" (for two years) before...
-      
+
       Oh and obligatory YT link: <http://uk.youtube.com/watch?v=6UX0p7uAW2s>
 
   - author: Kris

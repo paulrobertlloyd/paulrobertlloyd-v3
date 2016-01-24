@@ -1,5 +1,4 @@
 ---
-permalink: /2009/02/sfo_lhr/discussion
 remarks:
   - author: Mark Otto
     gravatar: bc4ab438f7a4ce1c406aadc688427f2c

@@ -1,5 +1,4 @@
 ---
-permalink: /2010/08/dconstruct_conference_badge/discussion
 remarks:
   - author: Simon Edwards
     gravatar: 09e26f43c811e8e6dec064bbaf0e30b8
@@ -14,7 +13,7 @@ remarks:
     url: http://allinthehead.com/
     content: |
       The design looks great, although it does omit one useful feature of the plastic wallet - the ability to store various business cards/stickers/wotnot that you inevitably pick up through the course of the day.
-      
+
       Looking forward to seeing how it works in practice!
 
   - author: Ian Wootten
@@ -23,7 +22,7 @@ remarks:
     url: http://www.ianwootten.co.uk
     content: |
       Lovely to see dConstruct's attempts to minimise the impact that such an event has on the environment. Does banning swag bags mean banning all swag at the event too?
-      
+
       [@Drew](#remark-2): Too many items for pockets or traditional wallets?
 
   - author: Paul Robert Lloyd

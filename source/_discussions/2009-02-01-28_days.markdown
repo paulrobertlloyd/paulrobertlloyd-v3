@@ -1,5 +1,4 @@
 ---
-permalink: /2009/02/28_days/discussion
 remarks:
   - author: Jon Roobottom
     gravatar: 10a75628c5ee0c218ae5225b42d37f42
@@ -7,7 +6,7 @@ remarks:
     url: http://roobottom.com
     content: |
       Good luck.
-      
+
       Oh, and I hope your 28th Feb post won't be called '28 Days Later'... or have I just spoiled that for you?
 
   - author: Paul Robert Lloyd

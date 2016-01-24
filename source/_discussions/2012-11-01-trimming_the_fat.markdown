@@ -1,5 +1,4 @@
 ---
-permalink: /2012/11/trimming_the_fat/discussion
 remarks:
   - author: Marc Falk
     gravatar: 2045fe63c54f4b981b76489e0eb2b961

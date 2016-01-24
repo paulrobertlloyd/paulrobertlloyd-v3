@@ -1,5 +1,4 @@
 ---
-permalink: /2013/10/moving_in_moving_on/discussion
 remarks:
   - author: Yannik
     gravatar: bec1fd0169f98c21fa159c5eb3cd3e34

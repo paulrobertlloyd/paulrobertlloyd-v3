@@ -1,5 +1,4 @@
 ---
-permalink: /2010/03/social_media_icons_rationale/discussion
 remarks:
   - author: Jon Roobottom
     gravatar: e3c764941478ad667ec52f1b9e700be5
@@ -27,9 +26,9 @@ remarks:
     url: http://parkerhiggins.net
     content: |
       This icon set is great, and I totally understand your rationale. Thank you for putting this out there, I really appreciate it.
-      
+
       I wonder if MeetUp and/or SoundCloud might meet your criteria for inclusion now? I'm also a libre.fm user, but I'm aware that there are not too many of us.
-      
+
       Anyway, thanks again!
 
   - author: kaishin

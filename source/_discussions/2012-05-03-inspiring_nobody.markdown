@@ -1,5 +1,4 @@
 ---
-permalink: /2012/05/inspiring_nobody/discussion
 remarks:
   - author: Jonathon Blok
     gravatar: 7d117e926f1547bf6a8722b4e9a8811e
