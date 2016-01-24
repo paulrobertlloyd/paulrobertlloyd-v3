@@ -2,7 +2,7 @@
 title: 'Forthcoming Attractions'
 date: '2016-01-23 23:20:00 +0000'
 location: York, England
-excerpt: TBD.
+excerpt: With a New Year resolutions to get out more, I share a few events I've recently bought tickets for. Who knows, you might be interested in them too.
 discussion: open
 tags:
   - Conferences
@@ -12,7 +12,7 @@ While it's probably too late to be talking about New Year resolutions, it's wort
 
 The first is to blog more often, being less precious about what I choose to post, and ignoring any concerns about appropriate post length. The second is to attend more talks, events and workshops; or put more simply, get out more. Indeed, I'm writing this during a short trip in York to see the [Destination Stations][1] exhibition at the National Railway Museum.
 
-Hopefully these two resolutions will play into each other. I've already [written about the Lumiere festival][2], and here I wish to share a few events I've recently bought tickets for. Who knows, maybe you'll be interested in them too.
+Hopefully these two resolutions will play into each other. I've already [written about the Lumiere festival][2], and here I wish to share a few events I've recently bought tickets for. Who knows, you might be interested in them too.
 
 ## [Unit Live!][3]
 *Thursday, 10 March 2016*
