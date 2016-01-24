@@ -41,11 +41,11 @@ Being the first speaker at last year's CSS Day meant I could enjoy the others pr
 ## [Brand Nieuwe Conference][11]
 *20 & 21 June 2016*
 
-I don't do much brand identity work, but I find this specialism endlessly fascinating, and [Brand New][12] is one of my favourite blogs covering the subject. I've long wanted to attend the corresponding conference, but until now this has been located in various cities in the US, with either cost or distance preventing me from going. This year, the event is coming to Europe, and in another scheduling coincidence, it's being held in Amsterdam a few days after CSS Day. So after filling my one side of my brain with code, I can balance the other with design. Perfect.
+I don't do much brand identity work, but I find this specialism endlessly fascinating, and [Brand New][12] is one of my favourite blogs covering the subject. I've long wanted to attend the corresponding conference, but by taking place in various cities in the US, either cost or distance prevented me from going. This year, the event is coming to Europe, and in another scheduling coincidence, it's being held in Amsterdam a few days after CSS Day. So after filling my one side of my brain with code, I can balance the other with design. Perfect.
 
 * * *
 
-So that's what I have lined up so far, while I remain on the look out for other events worth attending. I'm particularly interested in smaller (cheap!) conferences and talks, especially those that speak to my interests outside web design and development. Anything else I should see? Let me know below, or on [Twitter][13].
+This is what I have lined up so far, and I remain on the look out for more events. I'm particularly interested in small (cheap!) conferences and talks, especially those that speak to my interests outside web design and development. Is there anything else I should see? Let me know below, or on [Twitter][13].
 
 [1]: http://www.nrm.org.uk/PlanaVisit/Events/destination-stations.aspx
 [2]: /2016/01/lumiere
