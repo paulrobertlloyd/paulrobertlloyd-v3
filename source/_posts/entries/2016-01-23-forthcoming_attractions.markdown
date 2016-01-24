@@ -45,7 +45,7 @@ I don't do much brand identity work, but I find this specialism endlessly fascin
 
 * * *
 
-This is what I have lined up so far, and I remain on the look out for more events. I'm particularly interested in small (cheap!) conferences and talks, especially those that speak to my interests outside web design and development. Is there anything else I should see? Let me know below, or on [Twitter][13].
+This is what I have lined up so far, and I remain on the look out for more events. I'm particularly interested in small (cheap!) conferences and talks, especially those that speak to my interests outside web design and development. Is there anything else I should see? Let me know below, or contact me on [Twitter][13].
 
 [1]: http://www.nrm.org.uk/PlanaVisit/Events/destination-stations.aspx
 [2]: /2016/01/lumiere
