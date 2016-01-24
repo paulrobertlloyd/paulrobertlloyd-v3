@@ -22,7 +22,7 @@ A highlight from last year was attending a discussion about collecting graphic a
 ## [Motion Design Essentials][5]
 *Friday, 11 March 2016*
 
-It seems we have now reached a point where animation on the web is not only possible, but expected. I want to incorporate appropriate transitions and motion in my work, yet with little knowledge of the subject, I'm hoping my friend and former colleague [Cennydd Bowles][6] can put me on the right track with this one day workshop. Fortuitously, it takes place the day after Unit Live!, so it looks like I'll be spending the night in London, too.
+It seems we have now reached a point where animation on the web is not only possible, but expected. I want to incorporate appropriate transitions and motion into my work, yet with little knowledge of the subject, I'm hoping my friend and former colleague [Cennydd Bowles][6] can put me on the right track with his one day workshop. Fortuitously, it takes place the day after Unit Live!, so it looks like I'll be spending the night in London, too.
 
 ## [Edward Johnston Talk Series][7]
 *February - June 2016*
