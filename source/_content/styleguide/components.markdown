@@ -47,22 +47,22 @@ The `.c-embed`{: .language-css} component class is used for embedded content.
 ### Videos
 The `.c-embed--video`{: .language-css} modifier is used when embedding video content, typcially sourced from either Vimeo or YouTube.
 
-{% include embed.html url="https://www.youtube.com/watch?v=4ViLiXA0E70" %}
+{% include embed.html url="https://www.youtube.com/watch?v=4ViLiXA0E70" title="Example video" %}
 
 ### Photos
 The `.c-embed--photo`{: .language-css} modifier is used when embedding photographic content, typically sourced from Flickr.
 
-{% include embed.html url="https://www.flickr.com/photos/paulrobertlloyd/6913342093/" %}
+{% include embed.html url="https://www.flickr.com/photos/paulrobertlloyd/6913342093/" title="Example slideshow" %}
 
 ### Maps
 The `.c-embed--map`{: .language-css} modifier is used when embedding photographic content, typically sourced from MapBox.
 
-{% include embed.html url="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-tw61ntxz/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/40.5/-105.5" %}
+{% include embed.html url="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-tw61ntxz/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/40.5/-105.5" title="Example map" %}
 
 ### Slide decks
 The `.c-embed--slidedeck`{: .language-css} modifier is used when embedding presentations, typically sourced from SpeakerDeck.
 
-{% include embed.html url="https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web" id="314b1150d165013048455eac219e74d9" %}
+{% include embed.html url="https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web" id="314b1150d165013048455eac219e74d9" title="Example presentation" %}
 
 ## EXIF data
 The `.c-exif`{: .language-css} component class is used to display the EXIF data found within an image file.

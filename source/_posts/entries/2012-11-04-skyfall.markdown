@@ -12,7 +12,7 @@ tags:
   - James Bond
 ---
 Fifty years after the release of <cite>[Dr. No][1]</cite>, James Bond returns in <cite>[Skyfall][2]</cite>, the twenty-third instalment of the longest continually-running film series in history.
- 
+
 With so many films in the canon, it's surprising that this is the first directed by an Oscar-winning director. Sam Mendes has assembled a cast most movie goers will recognise: Ralph Fiennes, Javier Bardem and Albert Finney play key characters in the movie.
 
 This is Daniel Craig's third outing as James Bond, although the narrative arc breaks away from that followed in the previous two films. Judi Dench, another series regular, returns as M with a role more pivotal to the story. From the official synopsis:
@@ -48,7 +48,7 @@ There is also a sense that <cite>Skyfall</cite> offers a tiny course correction 
 One thing hasn't returned to the old way of doing things though: the gun barrel sequence is again seen at the end of the movie, prior to the credits. For shame!
 
 {% figure caption:"Official trailer" %}
-{% include embed.html url="https://www.youtube.com/watch?v=6kw1UVovByw" %}
+{% include embed.html url="https://www.youtube.com/watch?v=6kw1UVovByw" title="Skyfall - Official trailer" %}
 {% endfigure %}
 
 Rebooted in 2006, and with its foundations now strengthened, I can't wait for 007's next assignment. Mendes has demonstrated that Bond can not only survive the stewardship of an established director, but be better for it. I'd love to see other British directors involved -- where might Danny Boyle take Bond for example?

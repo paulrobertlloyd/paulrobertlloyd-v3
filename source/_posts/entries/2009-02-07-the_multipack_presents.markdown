@@ -22,7 +22,7 @@ This year began with a lot of discussion surrounding [HTML5][4], with a number o
 Both Bruce and [Matt Machell][9] will be discussing these two technologies alongside [Stuart Langridge][10] who'll be joining us also. [One Black Bear][11] are hosting the event in their swanky new offices, whilst [Campaign Monitor][12] are kindly providing the food!
 
 {% figure caption:"Venue locations" %}
-{% include embed.html url="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-g4zirx0s/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#15/52.475/-1.885" %}
+{% include embed.html url="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-g4zirx0s/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#15/52.475/-1.885" title="Venue locations" %}
 {% endfigure %}
 
 You can find [further details about the event on upcoming][13]. It's sure to be a great event, but even greater if you come too!
