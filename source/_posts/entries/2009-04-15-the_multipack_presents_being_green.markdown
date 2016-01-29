@@ -17,7 +17,7 @@ I will also be announcing a new green focused web-based initiative I've been wor
 The event kicks of *this Saturday* at The Old Crown Pub at 2pm, before moving to the offices of One Black Bear at 4pm. Of course it would be wrong to hold such an event without considering it's own impact on the environment, so we'll be sourcing locally produced food and beverages, once again kindly paid for by those lovely folks at [Campaign Monitor][5].
 
 {% figure caption:"Venue locations" %}
-{% include embed.html url="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-g4zirx0s/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#15/52.475/-1.885" %}
+{% include embed.html url="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-g4zirx0s/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#15/52.475/-1.885" title="Venue locations" %}
 {% endfigure %}
 
 You can find [further details about the event on upcoming][6]. This promises to be a really interesting event, so I look forward to seeing you there!

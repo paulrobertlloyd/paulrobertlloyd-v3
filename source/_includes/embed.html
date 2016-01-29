@@ -8,7 +8,6 @@
     {% assign embed_action = "View map on Mapbox" %}
 {% elsif include.url contains "speakerdeck" %}
     {% assign embed_src = include.id | prepend:"https://speakerdeck.com/player/" %}
-    {% assign embed_ratio = include.ratio %}
     {% assign embed_type = "slidedeck" %}
     {% assign embed_action = "View presentation on Speaker Deck" %}
 {% elsif include.url contains "vimeo" %}
@@ -21,6 +20,6 @@
     {% assign embed_action = "Watch video on YouTube" %}
 {% else %}
 {% endif %}
-<div class="c-embed" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-ratio="{{ embed_ratio }}">
+<div class="c-embed" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-title="Embedded media: {{ include.title }}"{% if include.ratio %} data-embed-ratio="{{ include.ratio }}"{% endif %}>
     <p><a href="{{ include.url }}">{{ embed_action }}</a></p>
 </div>

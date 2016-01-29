@@ -42,7 +42,7 @@ It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend Wo
 This was traditionally based on newspaper cartoons -- for example, if there was a story about the pound being weak, a cartoon drawing of a pound sign wearing bandages and using crutches was shown. Realising that this was at odds with communicating a serious news item, Lambie-Nairn developed a new method of presenting this sort of information in a more appropriate graphical manner. It was with this new approach that <cite>Weekend World</cite> became more successful, and this meant more work for Robinson Lambie-Nairn who found themselves "leaders in a field of one" (Lambie-Nairn, 1997).
 
 {% figure caption:"Figure 12: Title sequence from <cite>Weekend World</cite> (LWT 1982. Creative Director/Designer: Martin Lambie-Nairn)" %}
-{% include embed.html url="https://www.youtube.com/watch?v=Nsf6zIxlOd8?t=10s" %}
+{% include embed.html url="https://www.youtube.com/watch?v=Nsf6zIxlOd8?t=10s" title="Weekend World Opening Titles 1985, 1986" %}
 {% endfigure %}
 
 It was with the launch of Channel Four though were Martin Lambie-Nairn was to create waves in the television industry. Taking the idea that this new channel didn't make its own programmes, but commissioned them from independent programme makers, Lambie-Nairn designed the innovative 'coloured building blocks' that came together to form the channel's figure 4 logo. This had to be produced in the United States, whose computer animation technology was far more advanced than in Britain. Lambie-Nairn also introduced many new concepts that were new in 1982, but common place in television nowadays.

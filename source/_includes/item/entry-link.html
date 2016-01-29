@@ -18,7 +18,7 @@
 
     {% if item.embed %}
     <div class="c-item__media u-bleed">
-        {% include embed.html url=item.link %}
+        {% include embed.html url=item.link title=item.title %}
     </div>
     {% endif %}
 

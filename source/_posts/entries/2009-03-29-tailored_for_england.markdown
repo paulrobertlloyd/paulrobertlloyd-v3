@@ -29,8 +29,8 @@ The star representing England's solitary 1966 Word Cup win remains, but now shar
 
 Finally, the crest is based on that used on the 1953 shirt (meaning it no longer shares the FA's corporate logo), and players shirts will be embroidered with game insignias in the same way they were then:
 
-{% figure caption:"The new England Kit sports a new crest, designed by Aitor Thrope. Video: [Umbro](https://www.youtube.com/watch?v=J60s_ftlerU)" %}
-{% include embed.html url="https://www.youtube.com/watch?v=J60s_ftlerU" %}
+{% figure caption:"The new England Kit sports a new crest, designed by Aitor Thrope" %}
+{% include embed.html url="https://www.youtube.com/watch?v=J60s_ftlerU" title="The New England Kit: The New Crest" %}
 {% endfigure %}
 
 I really admire the braveness of this new design, one which is clearly revolutionary rather than evolutionary.

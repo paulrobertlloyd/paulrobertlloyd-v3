@@ -16,7 +16,7 @@ With that in mind, I took the short ferry trip over to the quieter bank of the I
 
 The work of Kentridge is often created as a response to the social injustices he has seen in his native south Africa, and politics is a theme that resonates throughout his work. The centrepiece of this particular exhibition is <cite>More Sweetly Play the Dance</cite>, a 45-meter-long illuminated frieze. This depicts a parade of silhouetted figures marching in a procession, some carrying personal affects, others holding up the faces of Chinese revolutionaries, miners and ancient Romans, and takes place against the sound of brass, accordions and African song.
 
-{% include embed.html url="https://www.youtube.com/watch?v=rkpaMYQdlSE" %}
+{% include embed.html url="https://www.youtube.com/watch?v=rkpaMYQdlSE" title="Promo for William Kentridge - If We Ever Get To Heaven" %}
 
 A second room contains eight screens for <cite>I Am Not Me, the Horse Is Not Mine</cite> (2008), an installation based on <cite>The Nose</cite>, a short story by the Russian writer Nikolai Gogol from 1836. However, it was <cite>Other Faces</cite> (2011), the tenth and most recent piece from his series <cite>Drawings for Projection</cite> (1989-2011) that I found truly exceptional. During this nine-minute long film, Kentridge films his own charcoal drawings, erasing and redrawing them -- history constantly being overwritten -- with each frame a work of art in its own right.
 

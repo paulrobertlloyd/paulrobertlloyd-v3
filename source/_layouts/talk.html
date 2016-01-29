@@ -15,7 +15,7 @@ layout: default
             {% include meta.html class="u-aside" %}
 
             {% if page.embed %}
-                {% include embed.html url=page.link id=page.embed.id ratio=page.embed.ratio %}
+                {% include embed.html url=page.link id=page.embed.id ratio=page.embed.ratio title=page.title %}
             {% endif %}
 
             {{ content | improve }}
