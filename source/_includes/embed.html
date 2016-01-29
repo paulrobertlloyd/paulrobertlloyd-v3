@@ -21,6 +21,6 @@
     {% assign embed_action = "Watch video on YouTube" %}
 {% else %}
 {% endif %}
-<p class="c-embed" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-ratio="{{ embed_ratio }}">
-    <a href="{{ include.url }}">{{ embed_action }}</a>
-</p>
+<div class="c-embed" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-ratio="{{ embed_ratio }}">
+    <p><a href="{{ include.url }}">{{ embed_action }}</a></p>
+</div>
