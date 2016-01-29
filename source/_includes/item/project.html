@@ -4,7 +4,7 @@
             {% if item.featured %}
                 {% asset_source "c-item__logo--{{ item.title | slugify }}.svg" %}
             {% else %}
-                {{ item.title }}
+                {{ item.title | xml_escape }}
             {% endif %}
         </a>
     </h1>

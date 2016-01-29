@@ -16,8 +16,8 @@ layout: compress
     <link rel="manifest" href="/manifest.json"/>
     <link rel="webmention" href="https://webmention.paulrobertlloyd.com"/>
     {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
-    {% if page.previous != nil %}<link rel="prev bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}"/>{% endif %}
-    {% if page.next != nil %}<link rel="next bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}"/>{% endif %}
+    {% if page.previous != nil %}<link rel="prev bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title | xml_escape }}"/>{% endif %}
+    {% if page.next != nil %}<link rel="next bookmark" href="{{ page.next.url }}" title="{{ page.next.title | xml_escape }}"/>{% endif %}
 
     <meta charset="utf-8"/>
     <meta name="author" content="{{ site.author.name }}"/>
@@ -30,7 +30,7 @@ layout: compress
     <meta name="fulljs" content="{% asset_path global.js %}">
 
 {% if page.path contains ".markdown" %}
-    <meta property="og:title" content="{% unless page.home %}{{ page.title }}{% else %}{{ site.title }}{% endunless %}"/>
+    <meta property="og:title" content="{% unless page.home %}{{ page.title | xml_escape }}{% else %}{{ site.title }}{% endunless %}"/>
     <meta property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
     <meta property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
     {% if page.image %}

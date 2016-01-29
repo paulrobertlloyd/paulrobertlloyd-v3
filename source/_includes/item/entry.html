@@ -2,7 +2,7 @@
     <header class="c-item__header">
         <h1 class="c-item__title c-item__title--promote  p-name">
             <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
-                {{ item.title | smartypants }}
+                {{ item.title | smartypants | xml_escape }}
             </a>
         </h1>
     </header>

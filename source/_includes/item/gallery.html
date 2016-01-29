@@ -5,7 +5,7 @@
                 <span class="c-item__cover">
                     <img class="c-item__cover-photo" src="{{ site.picture.cdn }}/180x180/80q{{ item.image.url }}" alt=""/>
                 </span>
-                {{ item.title | smartypants }}
+                {{ item.title | smartypants | xml_escape }}
             </a>
         </h1>
     </header>
