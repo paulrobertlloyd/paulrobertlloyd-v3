@@ -125,7 +125,7 @@
 // Text underline colour
 @mixin text-decoration-color($color, $background-color: transparent) {
     @if $color != "none" {
-        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 93%, transparent 93%);
+        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 92.5%, transparent 92.5%);
         text-decoration: none;
         text-shadow:
             0 0.03em $background-color,
