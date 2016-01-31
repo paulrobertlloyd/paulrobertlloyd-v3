@@ -6,7 +6,6 @@
 $u__max-width: 60rem;
 $u__rule-height: 0.0625rem;
 
-
 // Colours
 $c__neutral-black: #000;
 $c__neutral-darkest: hsb(300, 12, 8);
@@ -24,7 +23,6 @@ $c__valid: hsb(170, 60, 80);
 $c__focus: scale-color($c__secondary, $lightness: 60%);
 $c__select: rgba($c__focus, 0.5);
 
-
 // Breakpoints
 $b__a: 32rem; // 512px
 $b__ax: 31.9375rem; // 511px
@@ -35,25 +33,20 @@ $b__cx: ($u__max-width + 2rem - 0.0625rem);
 $b__d: 65rem; // 1040px
 $b__dx: 64.9375rem; // 1039px
 
-
 // Grid (Susy)
-$susy: (
-    flow: ltr,
-    math: fluid,
-    output: float,
-    gutter-position: after,
-    container: auto,
-    container-position: center,
-    columns: 12,
-    gutters: 1 / 3,
-    global-box-sizing: border-box,
-    last-flow: to,
-//    debug: (
-//        image: show,
-//        output: background,
-//    )
-);
-
+$susy:
+    (
+        flow: ltr,
+        math: fluid,
+        output: float,
+        gutter-position: after,
+        container: auto,
+        container-position: center,
+        columns: 12,
+        gutters: 1 / 3,
+        global-box-sizing: border-box,
+        last-flow: to
+    );
 
 // Nested grid constructs
 $gn__ratio: (12 / 8); // Ratio: outer columns/inner columns

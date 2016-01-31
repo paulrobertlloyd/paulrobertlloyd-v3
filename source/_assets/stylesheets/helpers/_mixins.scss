@@ -8,37 +8,35 @@
     &::after {
         display: table;
         clear: both;
-        content: '';
+        content: "";
     }
 }
 
-
 // Font families
 @mixin ff--serif($font-weight: normal) {
-    font-family: 'Georgia', serif;
+    font-family: "Georgia", serif;
     font-weight: $font-weight;
 
     .fonts-loaded & {
-        font-family: 'Tiempos', 'Georgia', serif;
+        font-family: "Tiempos", "Georgia", serif;
         // TODO: font-size-adjust: 0.481;
     }
 }
 
 @mixin ff--sans-serif($font-weight: normal) {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-weight: $font-weight;
 
     .fonts-loaded & {
-        font-family: 'Calibre', 'Helvetica Neue', sans-serif;
+        font-family: "Calibre", "Helvetica Neue", sans-serif;
         // TODO: font-size-adjust: 0.523;
     }
 }
 
 @mixin ff--monospace($font-weight: normal) {
-    font-family: 'Menlo', monospace;
+    font-family: "Menlo", monospace;
     font-weight: $font-weight;
 }
-
 
 // Font sizes
 @mixin fs--title {
@@ -110,11 +108,10 @@
     font-size: 1rem; // 16px
 }
 
-
 // Caps
-@mixin smcp { font-feature-settings: 'smcp', 'onum'; }
-@mixin c2sc { font-feature-settings: 'c2sc', 'onum'; }
+@mixin smcp { font-feature-settings: "smcp", "onum"; }
 
+@mixin c2sc { font-feature-settings: "c2sc", "onum"; }
 
 // Text highlight
 @mixin text-highlight($color: $c__select) {
@@ -125,48 +122,47 @@
     padding: 0.125rem;
 }
 
-
 // Text underline colour
 @mixin text-decoration-color($color, $background-color: transparent) {
-    @if $color != 'none' {
+    @if $color != "none" {
         background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 93%, transparent 93%);
         text-decoration: none;
-        text-shadow: 0 0.03em $background-color,
-                     0 -0.03em $background-color,
-                     0.06em 0 $background-color,
-                     0 -0.06em $background-color,
-                     0.03em 0 $background-color,
-                     -0.03em 0 $background-color,
-                     0.06em 0 $background-color,
-                     -0.06em 0 $background-color,
-                     0.09em 0 $background-color,
-                     -0.09em 0 $background-color,
-                     0.12em 0 $background-color,
-                     -0.12em 0 $background-color,
-                     0.15em 0 $background-color,
-                     -0.15em 0 $background-color;
-    } @else {
+        text-shadow:
+            0 0.03em $background-color,
+            0 -0.03em $background-color,
+            0.06em 0 $background-color,
+            0 -0.06em $background-color,
+            0.03em 0 $background-color,
+            -0.03em 0 $background-color,
+            0.06em 0 $background-color,
+            -0.06em 0 $background-color,
+            0.09em 0 $background-color,
+            -0.09em 0 $background-color,
+            0.12em 0 $background-color,
+            -0.12em 0 $background-color,
+            0.15em 0 $background-color,
+            -0.15em 0 $background-color;
+    }
+
+    @else {
         text-shadow: none !important;
     }
 }
-
 
 // Background placeholder
 @mixin background-placeholder {
     background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, rgba($c__neutral-mid, 0.2) 4px, rgba($c__neutral-mid, 0.2) 6px);
 }
 
-
 // Line rule
-@mixin rule($height: $u__rule-height, $width: 100%, $position: 'before') {
+@mixin rule($height: $u__rule-height, $width: 100%, $position: "before") {
     &::#{$position} {
         display: inline-block;
         border-top: $height solid rgba($c__neutral-mid, 0.5);
         width: $width;
-        content: '';
+        content: "";
     }
 }
-
 
 // Visually hide content
 @mixin visually-hidden {

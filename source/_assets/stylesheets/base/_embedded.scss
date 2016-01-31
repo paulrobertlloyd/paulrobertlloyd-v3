@@ -4,14 +4,14 @@
 //  ===========================================================================
 
 img {
-//  Remove border when inside `a` element in IE 8/9
+    // Remove border when inside `a` element in IE 8/9
     display: block;
     border: 0;
     max-width: 100%;
 }
 
 svg:not(:root) {
-//  Correct overflow displayed oddly in IE 9
+    // Correct overflow displayed oddly in IE 9
     overflow: hidden;
     fill: currentColor;
 }

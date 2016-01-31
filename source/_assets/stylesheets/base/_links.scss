@@ -5,14 +5,14 @@
 
 a {
     transition: color 0.1s ease-out, background-image 0.1s ease-out;
-//  Remove gray background color from active links in IE 10
+    // Remove gray background color from active links in IE 10
     background-color: transparent;
     text-decoration: none;
     color: inherit;
 
     &:active,
     &:hover {
-    //  Improve readability when focused and mouse hovered in all browsers
+        // Improve readability when focused and mouse hovered in all browsers
         outline: 0;
     }
 

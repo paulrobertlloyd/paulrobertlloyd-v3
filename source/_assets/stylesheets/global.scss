@@ -1,59 +1,61 @@
 // Frameworks
-@import 'susy';
+@import "susy";
 
 // Helpers
-@import 'helpers/functions';
-@import 'helpers/variables';
-@import 'helpers/mixins';
-@import 'helpers/webfonts';
+@import "helpers/functions";
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/webfonts";
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
-@import 'base/sections';
-@import 'base/grouping';
-@import 'base/text';
-@import 'base/embedded';
-@import 'base/links';
-@import 'base/tables';
-@import 'base/forms';
+@import "base/sections";
+@import "base/grouping";
+@import "base/text";
+@import "base/embedded";
+@import "base/links";
+@import "base/tables";
+@import "base/forms";
 
 // Scoped contexts
-@import 'scopes/prose';
+@import "scopes/prose";
 
 // Utilities
-@import 'utilities/abreast';
-@import 'utilities/block-link';
-@import 'utilities/conj';
-@import 'utilities/framed';
-@import 'utilities/hidden';
-@import 'utilities/icon';
-@import 'utilities/layout';
-@import 'utilities/separate';
+@import "utilities/abreast";
+@import "utilities/block-link";
+@import "utilities/conj";
+@import "utilities/framed";
+@import "utilities/hidden";
+@import "utilities/icon";
+@import "utilities/layout";
+@import "utilities/separate";
+
+// Vendor
+@import "vendor/rouge";
 
 // Components
-@import 'components/banner';
-@import 'components/button';
-@import 'components/chart';
-@import 'components/contentinfo';
-@import 'components/embed';
-@import 'components/exif';
-@import 'components/form';
-@import 'components/highlighter';
-@import 'components/item';
-@import 'components/list';
-@import 'components/main';
-@import 'components/meta';
-@import 'components/nav';
-@import 'components/navigation';
-@import 'components/page';
-@import 'components/picture';
-@import 'components/rating';
-@import 'components/screenshot';
-@import 'components/section';
-@import 'components/social';
-@import 'components/tag';
-@import 'components/tweet';
+@import "components/banner";
+@import "components/button";
+@import "components/chart";
+@import "components/contentinfo";
+@import "components/embed";
+@import "components/exif";
+@import "components/form";
+@import "components/item";
+@import "components/list";
+@import "components/main";
+@import "components/meta";
+@import "components/nav";
+@import "components/navigation";
+@import "components/page";
+@import "components/picture";
+@import "components/rating";
+@import "components/screenshot";
+@import "components/section";
+@import "components/social";
+@import "components/tag";
+@import "components/tweet";
 
 // Themes
-@import 'themes/dark';
-@import 'themes/light';
+@import "themes/dark";
+@import "themes/light";

@@ -9,8 +9,8 @@
 
     > img {
         margin-right: 2%;
-    //  Ensure image maintains aspect ratio
-    //  (https://twitter.com/aperfect/status/666233230618714112)
+        // Ensure image maintains aspect ratio
+        // (https://twitter.com/aperfect/status/666233230618714112)
         width: 100%;
         height: 100%;
         flex: 1 1 auto;
@@ -49,6 +49,6 @@
 
     > img:nth-last-of-type(5):first-child,
     > img:nth-last-of-type(5):first-child ~ img {
-        width: percentage(0.90 / 5);
+        width: percentage(0.9 / 5);
     }
 }
