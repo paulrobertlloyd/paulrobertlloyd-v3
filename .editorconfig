@@ -10,10 +10,5 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.rb]
-indent_style = space
-indent_size = 2
-
-[*.yml]
-indent_style = space
+[*.{rb,yml}]
 indent_size = 2
