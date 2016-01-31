@@ -9,13 +9,13 @@
         </p>
         <p class="c-form__field">
             <span class="c-form__label-inline">
-                <label class="c-form__label" for="replyto" for="replyto">Your email</label>
+                <label class="c-form__label" for="replyto">Your email</label>
                 <input class="c-form__input c-form__input--text" type="email" name="_replyto" id="replyto" required/>
             </span>
         </p>
         <p class="c-form__field">
             <span class="c-form__label-inline">
-                <label class="c-form__label" for="message" for="message">Message</label>
+                <label class="c-form__label" for="message">Message</label>
                 <textarea class="c-form__input c-form__input--textarea" name="message" id="message" required row="20" cols="40"{% if include.note %} aria-describedby="message-note"{% endif %}></textarea>
             </span>
             {% if include.note %}<em class="c-form__note" id="message-note">{{ include.note }}</em>{% endif %}

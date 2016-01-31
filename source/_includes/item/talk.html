@@ -6,7 +6,7 @@
     </h1>
 
     <p class="c-item__meta">
-        <strong class="u-separate  p-description">{{ item.title | xml_escape }}</strong> <span class="p-location">{{ item.meta.location }}</span> · 
+        <strong class="u-separate  p-description">{{ item.title | xml_escape }}</strong> <span class="p-location">{{ item.meta.location }}</span> ·
         <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
     </p>
 </article>

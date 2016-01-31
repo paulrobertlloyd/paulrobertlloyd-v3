@@ -24,10 +24,10 @@ layout: compress
     <meta name="referrer" content="origin"/>
     <meta name="robots" content="index, follow"/>
     <meta name="theme-color" content="{{ site.theme.color }}"/>
-    <meta name="application-name" content="{{ site.title }}">
+    <meta name="application-name" content="{{ site.title }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="fullcss"  content="{% asset_path global.css %}">
-    <meta name="fulljs" content="{% asset_path global.js %}">
+    <meta name="fullcss"  content="{% asset_path global.css %}"/>
+    <meta name="fulljs" content="{% asset_path global.js %}"/>
 
 {% if page.path contains ".markdown" %}
     <meta property="og:title" content="{% unless page.home %}{{ page.title | xml_escape }}{% else %}{{ site.title }}{% endunless %}"/>
@@ -60,7 +60,7 @@ layout: compress
     <script>
         {% asset_source head.js %}
     </script>
-    <noscript><link rel="stylesheet" href="{% asset_path global.css %}"></noscript>
+    <noscript><link rel="stylesheet" href="{% asset_path global.css %}"/></noscript>
 
     <title>{% unless page.home %}{% include title.html %} / {% endunless %}{{ site.title }}</title>
 </head>
