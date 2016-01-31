@@ -11,7 +11,7 @@
     padding: 1rem;
     color: $c__neutral-dark;
 
-//  Double colon not supported in IE8 so can use a transform
+    // Double colon not supported in IE8 so can use a transform
     &::before {
         display: block;
         position: absolute;
@@ -25,12 +25,12 @@
         background-color: $c__neutral-white;
         width: 1rem;
         height: 1rem;
-        content: '';
+        content: "";
         transform-origin: 0 0;
     }
 
     a {
-        @include text-decoration-color('none');
+        @include text-decoration-color("none");
         color: $c__neutral-darkest;
     }
 

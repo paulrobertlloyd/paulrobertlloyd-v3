@@ -20,7 +20,6 @@
     hyphens: auto;
 }
 
-
 // Archive
 .c-section--archive {
     .c-section__header {
@@ -36,11 +35,10 @@
     }
 }
 
-
 // Complementary
 .c-section--complementary {
     .c-section__header {
-        @include rule($height: $u__rule-height, $position: 'after');
+        @include rule($height: $u__rule-height, $position: "after");
         display: flex;
         align-items: center;
     }

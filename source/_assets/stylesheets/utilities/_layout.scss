@@ -19,7 +19,6 @@
     }
 }
 
-
 // Show two items abreast, three on wider breakpoints
 .u-triad {
     .c-item,
@@ -31,7 +30,6 @@
         }
     }
 }
-
 
 // Align element right or left
 .u-align-right {
@@ -50,7 +48,6 @@
     width: $gn__span2;
 }
 
-
 // Pull element aside
 .u-aside {
     margin-top: 0 !important;
@@ -66,7 +63,6 @@
         margin-top: 0 !important;
     }
 }
-
 
 // Pull element right or left
 .u-pull-right {
@@ -99,7 +95,6 @@
     }
 }
 
-
 // Extend element to full width of .u-container
 .u-extend,
 %u-extend {
@@ -110,7 +105,6 @@
         margin-left: (-$gn__span3-wide);
     }
 }
-
 
 // On narrow breakpoints, bleed element to full width of viewport
 .u-bleed {

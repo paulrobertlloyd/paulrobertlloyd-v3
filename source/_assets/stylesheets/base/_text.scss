@@ -5,29 +5,29 @@
 
 b,
 strong {
-//  Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome
+    // Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome
     @include ff--sans-serif(700);
 }
 
 small {
-//  Address inconsistent and variable font size in all browsers
+    // Address inconsistent and variable font size in all browsers
     letter-spacing: 0;
     font-size: 100%;
     font-weight: normal;
 }
 
 :lang(en-gb) > q {
-//  Set consistent quote types
-    quotes: '\2018' '\2019' '\201c' '\201d';
+    // Set consistent quote types
+    quotes: "\2018" "\2019" "\201c" "\201d";
 }
 
 dfn {
-//  Address styling not present in Safari 5 and Chrome
+    // Address styling not present in Safari 5 and Chrome
     font-style: italic;
 }
 
 abbr[title] {
-//  Address styling not present in IE 8/9, Safari 5, and Chrome
+    // Address styling not present in IE 8/9, Safari 5, and Chrome
     border-bottom: 0;
 
     &:hover {
@@ -41,7 +41,7 @@ kbd,
 samp {
     @include ff--monospace;
     font-size: 75%;
-    font-feature-settings: 'liga' 0;
+    font-feature-settings: "liga" 0;
 }
 
 kbd {
@@ -58,7 +58,7 @@ sub,
 sup {
     position: relative;
     vertical-align: baseline;
-//  Prevent `sub` and `sup` affecting `line-height` in all browsers
+    // Prevent `sub` and `sup` affecting `line-height` in all browsers
     line-height: 0;
     font-size: 75%;
 }

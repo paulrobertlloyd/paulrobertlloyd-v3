@@ -44,7 +44,6 @@
     height: auto;
 }
 
-
 // Entry, link and gallery items
 .c-item--entry,
 .c-item--gallery,
@@ -53,7 +52,6 @@
         margin-bottom: 5rem;
     }
 }
-
 
 // Gallery item
 .c-item--gallery {
@@ -71,7 +69,7 @@
         position: absolute;
         background: $c__neutral-light;
         height: 1px;
-        content: '';
+        content: "";
     }
 
     &::before {
@@ -91,7 +89,6 @@
     width: 6rem;
     height: 6rem;
 }
-
 
 // Comment (submitted remark or webmention response)
 .c-item--comment {

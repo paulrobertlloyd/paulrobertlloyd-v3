@@ -5,23 +5,6 @@
 
 html {
     box-sizing: border-box;
-
-    &::after {
-        display: none;
-        content: 's';
-
-        @media screen and (min-width: $b__a) {
-            content: 'm';
-        }
-
-        @media screen and (min-width: $b__b) {
-            content: 'l';
-        }
-
-        @media screen and (min-width: $b__c) {
-            content: 'xl';
-        }
-    }
 }
 
 *,
@@ -57,8 +40,8 @@ header,
 main,
 nav,
 section {
-//  Correct `block` display for section elements in IE 8/9
-//  Correct `block` display for `main` in IE 11
+    // Correct `block` display for section elements in IE 8/9
+    // Correct `block` display for `main` in IE 11
     display: block;
 }
 

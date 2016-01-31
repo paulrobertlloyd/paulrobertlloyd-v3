@@ -46,13 +46,13 @@ blockquote {
         left: 0;
         opacity: 0.25;
         border-left: 0.5rem solid;
-        content: '';
+        content: "";
     }
 }
 
 figure,
 figcaption {
-//  Correct `block` display for `figure` and `figcaption` elements in IE 8/9
+    // Correct `block` display for `figure` and `figcaption` elements in IE 8/9
     display: block;
 }
 

@@ -3,7 +3,7 @@
 //  ===========================================================================
 
 .u-block-link {
-    @include text-decoration-color('none');
+    @include text-decoration-color("none");
     display: block;
     background-image: none !important;
 }

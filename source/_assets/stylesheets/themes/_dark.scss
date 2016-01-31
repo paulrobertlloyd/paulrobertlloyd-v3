@@ -47,7 +47,7 @@ $c__t-dark--active: $c__secondary;
             }
 
             a:not(.c-button):focus {
-                @include text-decoration-color('none');
+                @include text-decoration-color("none");
             }
 
             a:not(.c-button):active {
