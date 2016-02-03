@@ -10,4 +10,4 @@
   Language: English
   Doctype: HTML5
   CMS: Jekyll {{ jekyll.version }}
-  IDE: TextMate
+  IDE: Atom
