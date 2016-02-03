@@ -1,7 +1,6 @@
 title: Paul Robert Lloyd
 description: Paul Robert Lloyd is an independent designer, writer and speaker based in Brighton, England.
 url: https://paulrobertlloyd.com
-encoding: UTF-8
 theme:
   color: '#cc52cc'
   background-color: '#141214'
@@ -17,9 +16,6 @@ author:
 scm:
   title: GitHub
   url: https://github.com/paulrobertlloyd/paulrobertlloyd.com
-
-# Permalinks
-permalink: /:year/:month/:title
 
 # Pagination
 paginate: 15
@@ -68,6 +64,7 @@ defaults:
       type: posts
     values:
       layout: entry
+      permalink: /:year/:month/:title
 
   - scope:
       path: '_posts/entries'
@@ -158,8 +155,6 @@ picture:
 # Publishing
 source: ./source
 destination: ./public
-exclude:
-  - '**.scss'
 
 # Crossposting
 jekyll-crosspost_to_medium:
