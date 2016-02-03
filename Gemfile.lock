@@ -28,7 +28,7 @@ GEM
       sprockets (~> 3.3)
       sprockets-helpers (~> 1.2)
       tilt (~> 2.0)
-    jekyll-crosspost-to-medium (0.1.4)
+    jekyll-crosspost-to-medium (0.1.6)
     jekyll-figure (0.0.2)
     jekyll-paginate (1.1.0)
     jekyll-roman (0.0.2)
@@ -81,7 +81,7 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   jekyll-assets
-  jekyll-crosspost-to-medium (= 0.1.4)
+  jekyll-crosspost-to-medium
   jekyll-figure
   jekyll-paginate
   jekyll-roman
