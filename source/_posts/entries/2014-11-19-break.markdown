@@ -14,7 +14,7 @@ Having long wanted to attend a conference featuring such a breadth of discipline
 ## The importance of language
 Design, often considered a practice largely concerned with aesthetics, must also consider its relationship with language. This topic was always likely to feature given the day's first speaker, **Sarah Richards**, formally Head of Content Design at the UK's Government Digital Service (GDS).
 
-Learning about the government's policy on Afghanistan used to require visiting six different websites, a situation more problematic should your livelihood depend on understanding certain legislation. Sarah's team audited 75,000 pages of content on Direct.gov, Business Link and 24 ministerial departments, before transferring the meaningful parts (around 3000 pages) to a single domain: gov.uk. All content published by government must now adhere to a strict [styleguide][2]; devoid of any jargon or waffle and written in plain English.
+Learning about the government's policy on Afghanistan previously meant visiting six different websites, a situation more problematic should your livelihood depend on understanding certain legislation. Sarah's team audited 75,000 pages of content on Direct.gov, Business Link and 24 ministerial departments, before transferring the meaningful parts (around 3000 pages) to a single domain: gov.uk. All content published by government must now adhere to a strict [styleguide][2]; devoid of any jargon or waffle and written in plain English.
 
 Not only has this exercise saved money (it's cheaper to serve a webpage than answer a phone call), but people are more likely to find the information they need, read it and take action. "Good design keeps people out of jail".
 
@@ -78,7 +78,7 @@ Comparing the empathic work of Jane and Alex with the glossy predictions perpetr
 
 * * *
 
-Beyond the personal stories of triumph over adversity and insights into the speakers work, I thoroughly enjoyed some of the more indulgent aspects of the day. Be that Hamish displaying his colourful work in black and white for reasons of colour reproduction, or Adrian devoting a portion of his talk to the work of [FHK Henrion][12], who he regarded the best British graphic designer of the 20th century. As a somewhat disenchanted graphic designer considering a future tied to the command line, my love of the profession was thankfully rekindled.
+Beyond the personal stories of triumph over adversity and insights into the speakers' work, I thoroughly enjoyed some of the more indulgent aspects of the day. Be that Hamish displaying his colourful work in black and white for reasons of colour reproduction, or Adrian devoting a portion of his talk to the work of [FHK Henrion][12], who he regarded the best British graphic designer of the 20th century. As a somewhat disenchanted graphic designer considering a future tied to the command line, my love of the profession was thankfully rekindled.
 
 With Break, Christopher was able to create something wonderful. While I'm not sure it needs to be a yearly event, I'd welcome the opportunity to revisit Belfast and some of these themes again in the not too distant future.
 
