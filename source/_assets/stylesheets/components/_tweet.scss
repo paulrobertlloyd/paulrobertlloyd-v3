@@ -3,12 +3,10 @@
 //  ===========================================================================
 
 .c-tweet {
-    @include fs--lede;
     position: relative;
-    margin-bottom: 1rem;
     border: 1px solid rgba($c__neutral-dark, 0.2);
     background-color: $c__neutral-white;
-    padding: 1rem;
+    padding: 0.75rem;
     color: $c__neutral-dark;
 
     // Double colon not supported in IE8 so can use a transform

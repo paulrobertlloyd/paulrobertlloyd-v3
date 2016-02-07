@@ -5,7 +5,6 @@
 @import "helpers/functions";
 @import "helpers/variables";
 @import "helpers/mixins";
-@import "helpers/webfonts";
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
@@ -59,3 +58,31 @@
 // Themes
 @import "themes/dark";
 @import "themes/light";
+
+// Webfonts
+@font-face {
+    font-family: "Calibre";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url(asset_path("calibre-regular.woff2")) format("woff2"),
+        url(asset_path("calibre-regular.woff")) format("woff");
+}
+
+@font-face {
+    font-family: "Calibre";
+    font-weight: normal;
+    font-style: italic;
+    src:
+        url(asset_path("calibre-italic.woff2")) format("woff2"),
+        url(asset_path("calibre-italic.woff")) format("woff");
+}
+
+@font-face {
+    font-family: "Calibre";
+    font-weight: 700;
+    font-style: normal;
+    src:
+        url(asset_path("calibre-semibold.woff2")) format("woff2"),
+        url(asset_path("calibre-semibold.woff")) format("woff");
+}
