@@ -21,11 +21,6 @@ html {
 body {
     @include ff--sans-serif;
     margin: 0 auto;
-    font-size: 100%;
-
-    @media (min-width: $b__c) {
-        font-size: 112.5%;
-    }
 
     @media print {
         margin: 0 1cm;
