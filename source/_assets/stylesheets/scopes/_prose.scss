@@ -3,7 +3,7 @@
 //  ===========================================================================
 
 .s-prose {
-    line-height: (24 / 18);
+    line-height: (24 / 16);
     font-feature-settings: "liga", "dlig", "onum";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -20,10 +20,6 @@
 // Body
 .s-prose--body {
     @include fs--body;
-
-    > * {
-        margin-bottom: 1.25rem;
-    }
 
     h2 {
         @include fs--heading-2;
