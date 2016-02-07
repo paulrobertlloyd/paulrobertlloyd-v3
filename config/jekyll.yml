@@ -103,7 +103,6 @@ compress_html:
 
 # Pictures
 picture:
-# key: '441922692530'
   markup: img
   source: /images
   presets:
@@ -158,6 +157,7 @@ destination: ./public
 
 # Crossposting
 jekyll-crosspost_to_medium:
+  cache: ./source/_data/
   status: draft
   license: cc-40-by-nc-sa
 
