@@ -51,10 +51,10 @@
 }
 
 .c-form__label::after {
-    content: ':';
+    content: ":";
 
     @media (min-width: $b__a) {
-        content: '';
+        content: "";
     }
 }
 
