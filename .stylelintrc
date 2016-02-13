@@ -1,6 +1,7 @@
 {
     "extends": "/Volumes/Macintosh/Users/paulrobertlloyd/.atom/packages/linter-stylelint/node_modules/stylelint-config-standard",
     "ignoreFiles": [
+        "source/_assets/javascripts/vendor/*.scss",
         "source/_assets/stylesheets/vendor/*.scss"
     ],
     "rules": {
