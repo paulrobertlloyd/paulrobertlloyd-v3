@@ -21,6 +21,9 @@ html {
 body {
     @include ff--sans-serif;
     margin: 0 auto;
+    line-height: 1.5;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 
     @media print {
         margin: 0 1cm;

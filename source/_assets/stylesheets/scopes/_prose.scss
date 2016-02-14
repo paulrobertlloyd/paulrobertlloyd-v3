@@ -5,11 +5,13 @@
 .s-prose {
     line-height: (24 / 16);
     font-feature-settings: "liga", "dlig", "onum";
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
 
     > * {
         margin-bottom: 1rem;
+    }
+
+    > *:last-child {
+        margin-bottom: 0;
     }
 
     .caps {

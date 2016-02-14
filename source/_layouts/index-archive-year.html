@@ -25,7 +25,7 @@ layout: index
         {% endif %}
 
             <li class="c-list__item{% unless item.link %} c-list__item--promote{% endunless %} u-separate" value="{{ item.date | date:"%-d" }}">
-                <a href="{{ item.url }}">{{ item.title }}</a>
+                <a href="{{ item.url }}">{{ item.title | smartypants }}</a>
             </li>
 
     {% else %}
