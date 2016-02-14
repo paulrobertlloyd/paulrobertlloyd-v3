@@ -28,3 +28,7 @@ layout: default
         </div>
     </div>
 </article>
+
+{% if page.series %}
+    {% include nav/paginate-series.html %}
+{% endif %}
