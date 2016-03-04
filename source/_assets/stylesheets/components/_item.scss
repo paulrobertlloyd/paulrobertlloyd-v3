@@ -24,6 +24,7 @@
 .c-item__title {
     @include fs--heading-2;
     margin-bottom: 0.25rem;
+    hanging-punctuation: first;
 }
 
 .c-item__title--promote {

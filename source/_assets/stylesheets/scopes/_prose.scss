@@ -5,6 +5,7 @@
 .s-prose {
     line-height: (24 / 16);
     font-feature-settings: "liga", "dlig", "onum";
+    hanging-punctuation: first;
 
     > * {
         margin-bottom: 1rem;
