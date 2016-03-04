@@ -34,7 +34,7 @@ The Carlton AllLander drove Dudley home just after dawn. Like the astronomer, th
 ### Pre-formatted text
 The `pre` element represents a block of pre-formatted text, in which structure is represented by typographic conventions rather than by elements. Such examples are an e-mail (with paragraphs indicated by blank lines, lists indicated by lines prefixed with a bullet), fragments of computer code (with structure indicated according to the conventions of that language) or displaying ASCII art. Here's an example showing the printable characters of ASCII:
 
-    ! " # $ % & ' ( ) * + , - . /
+      ! " # $ % & ' ( ) * + , - . /
     0 1 2 3 4 5 6 7 8 9 : ; < = > ?
     @ A B C D E F G H I J K L M N O
     P Q R S T U V W X Y Z [ \ ] ^ _
@@ -45,7 +45,7 @@ The `pre` element represents a block of pre-formatted text, in which structure i
 The `blockquote` element represents a section that is being quoted from another source.
 
 > Big Yellow Taxi there by Joni Mitchell, a song in which she complains that they 'paved paradise to put up a parking lot' -- a measure which actually would have alleviated traffic congestion on the outskirts of paradise. Something which Joni singularly fails to point out, perhaps because it doesn't quite fit in with her blinkered view of the world.
-> 
+>
 > Nevertheless, nice song.
 
 If you wish to add a citation, you will need to use the [`figure` element](components#figure).

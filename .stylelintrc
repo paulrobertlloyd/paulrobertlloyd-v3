@@ -1,13 +1,17 @@
 {
-    "extends": "/Volumes/Macintosh/Users/paulrobertlloyd/.atom/packages/linter-stylelint/node_modules/stylelint-config-standard",
     "ignoreFiles": [
         "source/_assets/javascripts/vendor/*.scss",
         "source/_assets/stylesheets/vendor/*.scss"
     ],
     "rules": {
-        "at-rule-empty-line-before": [ "always", {
-            "except": ["blockless-group", "first-nested"]
-        } ],
+        "at-rule-empty-line-before": [
+            "always", {
+                "except": [
+                    "blockless-group",
+                    "first-nested"
+                ]
+            }
+        ],
         "declaration-colon-newline-after": "always-multi-line",
         "function-url-quotes": "none",
         "indentation": 4
