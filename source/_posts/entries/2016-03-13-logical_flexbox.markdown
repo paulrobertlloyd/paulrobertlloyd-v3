@@ -1,5 +1,5 @@
 ---
-title: 'Css Flexbox Is Entirely Logical (Almost)'
+title: 'CSS Flexbox Is Entirely Logical (Almost)'
 date: '2016-03-13 00:55:00 +0000'
 location: Brighton, England
 excerpt: 'Given a maturing specification, and related concerns regarding browser support and compatibility, I had largely been ignoring Flexbox. Yet with support for this module currently hovering around 96%, here''s little excuse for developers like myself not to start using it.'
