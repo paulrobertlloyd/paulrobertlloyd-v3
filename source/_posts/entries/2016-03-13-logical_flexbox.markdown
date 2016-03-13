@@ -92,7 +92,7 @@ By giving the containing `<header>` the rule `display: flex`, its children will 
 {% picture showcase /2016/03/header-rtl-margin-left.svg alt="" class="u-framed" %}
 {% endfigure %}
 
-Because the left margin value hasn't changed, the navigation will still be pushed as far to the right as it can go. Clearly this is not what we want.
+Because the left margin value hasn't changed, the navigation will still be pushed as far to the right as it can go, but we now want it pushed to the left.
 
 On the cross axis, we can align individual items in a different direction to that of its siblings. So, if a container has `align-items: flex-start` (the default value), we can add the rule `align-self: flex-end` to a child item. With a corresponding property on the main axis (perhaps `justify-self`), we could do the same, and therefore avoid declaring a physical value. Unfortunately [such a rule doesn't exist][12], so we need to write the following instead:
 
