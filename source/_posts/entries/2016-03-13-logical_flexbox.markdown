@@ -17,16 +17,16 @@ Like getting to grips with any new tool, only by using it for real can its vario
 ## Left is not right
 Flexbox introduces a number of new concepts, be they the main and cross axes, or the various justification and alignment properties. [Mozilla has a good overview][6], but I've found [the guide on CSS Tricks][7] to be the most helpful. I suggest reading up on these terms if you're unfamiliar, before continuing with the rest of this article.
 
-I want to draw your attention to two particular values used by Flexbox: `flex-start` and `flex-end`, terms that to me appeared fairly abstract. That was until I needed to create a layout that could support both left-to-right and right-to-left languages. As it turns out, browsers do a lot of the heavy lifting here, be it via the [`dir`][8] attribute, or the [`<bdi>`][9] and [`<bdo>`][10] elements. However, this native functionality is easily undermined with a few carelessly applied CSS rules: add `text-align: left` to a passage of text, and it will appear left aligned, no matter what the document's text direction has been set to.
+Here, I want to draw your attention to two particular values used by Flexbox: `flex-start` and `flex-end`, terms that appeared fairly abstract until I needed to create a layout that would support both left-to-right and right-to-left languages. It turns out, browsers do a lot of the heavy lifting here, be it via the [`dir`][8] attribute, or the [`<bdi>`][9] and [`<bdo>`][10] elements. However, this native functionality is easily undermined with a few carelessly applied CSS rules: add `text-align: left` to a passage of text, and it will appear left aligned, no matter what the document's text direction has been set to.
 
-Having briefly immersed myself in the world of internationalisation, much like seeing a width defined in pixels, I no longer see physical positioning keywords like `left` or `right` without knowing a series of assumptions have been made. Thankfully, because Flexbox uses the logical values `flex-start` and `flex-end`, any layouts created with it will automatically align according to a document's text direction.
+Having briefly immersed myself in the world of internationalisation, much like seeing a width defined in pixels, I no longer see physical positioning keywords like `left` or `right` without knowing a series of assumptions have been made. Thankfully, because Flexbox uses the logical values `flex-start` and `flex-end`, any layouts created with it will automatically align according to the document's text direction.
 
 Well, almost.
 
 ## Illogical justification
 Flexbox is most effective when creating micro layouts within parts of a page, positioning items in one dimension. Like for example, a page header:
 
-{% figure caption:"Our header, with the site's name on the left, and navigation items on the right." class:"u-bleed" %}
+{% figure caption:"Our header, with the site's name on the left, and navigation items to the right." class:"u-bleed" %}
 {% picture showcase /2016/03/header-ltr.svg alt="" class="u-framed" %}
 {% endfigure %}
 
@@ -85,15 +85,15 @@ nav a {
 }
 ```
 
-By giving the containing `<header>` the rule `display: flex`, its children will appear alongside each other in the same row (`flex-direction: row` is the default value for a flexbox). To move the navigation to the right, we can then use [Flexbox's best kept secret][11]: applying `margin-left: auto` to the `<nav>` element will ensure its left-hand margin takes up the remaining space, thus pushing it all the way to the right.
+By giving the containing `<header>` the rule `display: flex`, its children will appear alongside each other in the same row (`flex-direction: row` is the default value for a flexbox). To move the navigation to the right, we can then use [Flexbox's best kept secret][11]: by applying `margin-left: auto` to the `<nav>` element will ensure its left-hand margin takes up the remaining space, thus pushing it all the way to the right.
 
-*Whoa*{: title="That’s English for stop a horse!"}, ring the assumption alarm bell! By adding this value, we're assuming the navigation will always appear on the right, but that's not true if we need to support right-to-left languages. Indeed, switch the document's text direction, and we see the following result:
+*Whoa*{: title="That’s English for stop a horse!"}, ring the assumption alarm! By adding this value, we're assuming the navigation will always appear on the right, but that's not true if we need to support right-to-left languages. Indeed, switch the document’s text direction will produce the following result:
 
 {% figure caption:"Our header as it appears when text direction is set right-to-left." class:"u-bleed" %}
 {% picture showcase /2016/03/header-rtl-margin-left.svg alt="" class="u-framed" %}
 {% endfigure %}
 
-Because the left margin value hasn't changed, the navigation will still be pushed as far to the right as it can go. What we actually want however, is for it pushed as far to the left, so that the header's layout is flipped.
+Because the left margin value hasn't changed, the navigation will still be pushed as far to the right as it can go. What we actually want however, is for it pushed as far to the left, so that the header's layout is now flipped.
 
 On the cross axis, we can align individual items in a different direction to that of its siblings. So, if a container has `align-items: flex-start` (the default value), we can add the rule `align-self: flex-end` to a child item. With a corresponding property on the main axis (perhaps `justify-self`), we could do the same, thus avoiding any physical value declarations. Unfortunately [such a rule doesn't exist][12], meaning we need to write the following instead:
 
