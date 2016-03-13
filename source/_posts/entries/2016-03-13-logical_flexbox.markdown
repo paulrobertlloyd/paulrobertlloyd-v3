@@ -22,7 +22,7 @@ Having briefly immersed myself in the world of internationalisation, much like s
 
 Well, almost.
 
-## Illogical Justification
+## Illogical justification
 Flexbox is most effective when creating micro layouts within parts of a page, positioning items in one dimension. Like for example, a page header:
 
 {% figure caption:"Our header, with the site's name on the left, and navigation items on the right." class:"u-bleed" %}
