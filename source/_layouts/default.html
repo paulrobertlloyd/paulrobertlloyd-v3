@@ -8,13 +8,11 @@ layout: compress
 <html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
 <head>
-    <link rel="dns-prefetch" href="{{ site.picture.cdn }}"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
     <link rel="apple-touch-icon" href="{% asset_path icon--192x192.png %}" type="image/png"/>
     <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme.color }}"/>
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
     <link rel="manifest" href="/manifest.json"/>
-    <link rel="webmention" href="https://webmention.paulrobertlloyd.com"/>
     {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
 
     <meta charset="utf-8"/>
@@ -32,7 +30,7 @@ layout: compress
     <meta property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
     <meta property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
     {% if page.image %}
-    <meta property="og:image" content="{{ site.picture.cdn }}/640x360/100q{{ page.image.url }}"/>
+    <meta property="og:image" content="/image/640x360/100q{{ page.image.url }}"/>
     <meta name="twitter:card" content="summary_large_image"/>
     {% else %}
     <meta property="og:image" content="{{ site.url }}{% asset_path icon--192x192.png %}"/>
