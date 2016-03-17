@@ -154,6 +154,10 @@ Currently, [logical properties][16] are only fully supported by Firefox (41.0+),
 
 Until support improves, I'll just cringe a little whenever I see the words `left` or `right` in a CSS file, and add physical positioning to my growing list of things we can't take for granted when building a website.
 
+* * *
+
+<ins datetime="2016-03-17">**Update:** Many thanks to [Jonathan Garner][19] for pointing out that in my header example, [you can push the logo and navigation apart by adding `justify-content: space-apart`][20] to `<header>`, thus avoiding the need for any positional values, be they physical or logical. As is so often the case, there can be many ways to achieve the same objective, but Jonathan's solution is certainly more sensible. Still, with auto margins a key aspect of flexbox layout along the main axis, the issue I describe doesn't go away entirely.</ins>
+
 [1]: https://www.w3.org/TR/css-flexbox-1/
 [2]: http://caniuse.com/flexbox
 [3]: https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/
@@ -172,6 +176,8 @@ Until support improves, I'll just cringe a little whenever I see the words `left
 [16]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties
 [17]: https://github.com/postcss/autoprefixer
 [18]: https://dev.windows.com/en-us/microsoft-edge/platform/status/csslogicalpropertieslevel1
+[19]: http://www.jonathangarner.co.uk
+[20]: https://twitter.com/jgarner_co_uk/status/709483346510872576
 
 *[aka]: also known as
 *[CSS]: Cascading Style Sheets

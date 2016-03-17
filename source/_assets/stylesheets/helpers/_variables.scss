@@ -21,7 +21,7 @@ $c__secondary: hsb(248, 60, 80);
 $c__invalid: hsb(0, 60, 80);
 $c__valid: hsb(170, 60, 80);
 $c__focus: scale-color($c__secondary, $lightness: 60%);
-$c__select: rgba($c__focus, 0.5);
+$c__select: rgba($c__focus, 0.33);
 
 // Breakpoints
 $b__a: 32rem; // 512px
