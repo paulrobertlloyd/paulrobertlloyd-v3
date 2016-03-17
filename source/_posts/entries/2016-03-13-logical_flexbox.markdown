@@ -87,7 +87,7 @@ nav a {
 
 By giving the containing `<header>` the rule `display: flex`, its children will appear alongside each other in the same row (`flex-direction: row` is the default value for a flexbox). To move the navigation to the right, we can use [Flexbox's best kept secret][11]: by applying `margin-left: auto` to the `<nav>` element, its left-hand margin will take up the remaining space, thus pushing it all the way to the right.
 
-*Whoa*{: title="That’s English for stop a horse!"}, ring the assumption alarm! By adding this value, we’re making the assuming that the navigation will always appear on the right, but that’s not true if we need to support right-to-left text. Indeed, switching the document’s text direction will produce the following result:
+*Whoa*{: title="That’s English for stop a horse!"}, ring the assumption alarm! By adding this value, we’re making the assumption that the navigation will always appear on the right, but that’s not true if we need to support right-to-left text. Indeed, switching the document’s text direction will produce the following result:
 
 {% figure caption:"Our header as it appears when text direction is set right-to-left." class:"u-bleed" %}
 {% picture showcase /2016/03/header-rtl-margin-left.svg alt="" class="u-framed" %}
@@ -152,11 +152,12 @@ nav a {
 
 Currently, [logical properties][16] are only fully supported by Firefox (41.0+), while support in other browsers is either patchy or non-existent. That said, [Autoprefixer][17] will add the relevant `-moz-` and `-webkit-` prefixes for the corresponding proprietary margin and padding properties in those browsers, while Microsoft considers implementing these properties [a high priority][18].
 
-Until support improves, I'll just cringe a little whenever I see the words `left` or `right` in a CSS file, and add physical positioning to my growing list of things we can't take for granted when building a website.
+Until support improves, I'll just cringe a little whenever I see the words `left` or `right` in a CSS file, and add physical positioning to my growing list of things I won't take for granted when building a website.
 
 * * *
 
-<ins datetime="2016-03-17">**Update:** Many thanks to [Jonathan Garner][19] for pointing out that in my header example, [you can push the logo and navigation apart by adding `justify-content: space-apart`][20] to `<header>`, thus avoiding the need for any positional values, be they physical or logical. As is so often the case, there can be many ways to achieve the same objective, but Jonathan's solution is certainly more sensible. Still, with auto margins a key aspect of flexbox layout along the main axis, the issue I describe doesn't go away entirely.</ins>
+<ins datetime="2016-03-17">**Update:** Many thanks to [Jonathan Garner][19] for pointing out that [I can push the site name and navigation apart by adding `justify-content: space-between`][20] to the flex container, thus avoiding the need for any positional values, physical or logical. As is so often the case, there can be many means of achieving the same objective, but Jonathan's solution is certainly the most sensible. Still, with auto margins a key component of flexbox layouts, the issue doesn't go away entirely.</ins>
+{: #update-1}
 
 [1]: https://www.w3.org/TR/css-flexbox-1/
 [2]: http://caniuse.com/flexbox
