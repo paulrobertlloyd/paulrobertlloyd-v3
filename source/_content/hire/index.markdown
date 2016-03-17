@@ -5,14 +5,12 @@ header: aside
 landing: true
 ---
 {% figure class:"u-align-right" %}
-{% picture supporting /hire/me.jpg alt="A photo of me, Paul Robert Lloyd" %}
+{% picture thumbnail /hire/me.jpg alt="A photo of me, Paul Robert Lloyd" %}
 {% endfigure %}
 
-I've worked for design agencies, start-ups and established brands in the fields of journalism ([Channel 4 News][1], *the Guardian*), technology ([Mozilla][2], [Ning][3]), non-profits ([UNICEF][4], [DACS][5]) and retail (John Lewis, [Nuts.com][6]).
+I've worked for design agencies, start-ups and established brands in the fields of journalism ([Channel 4 News][1], the Guardian), technology ([Mozilla][2], [Ning][3]), non-profits ([UNICEF][4], [DACS][5]) and retail (John Lewis, [Nuts.com][6]).
 
 {% include button.html url="#contact" text="Contact me about your project" %}
-
-<!--small>Availability from November 2015</small-->
 
 * * *
 {: .u-extend}
@@ -22,7 +20,7 @@ I've worked for design agencies, start-ups and established brands in the fields 
 
 With a background in graphic design, my work is focused on interface design for native applications and the web. I value cohesiveness, attention to detail, and creating products that can be used by everyone.
 
-{% figure caption:"<cite>Harry Brignull, Independent UX Consultant</cite>" class:"u-pull-right" %}
+{% figure caption:"Harry Brignull, Independent UX Consultant" class:"u-pull-right" %}
 > Paul is an excellent designer and front-end developer. He has a lot of experience working with UX designers and researchers, and is comfortable collaborating in that tricky zone where a project is a tangle and needs careful unpicking before being put back together again.
 {% endfigure %}
 
