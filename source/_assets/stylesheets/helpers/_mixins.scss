@@ -18,12 +18,12 @@
     font-weight: $font-weight;
 
     .fonts-loaded & {
-        font-family: "Calibre", "Helvetica Neue", sans-serif;
+        font-family: Calibre, "Helvetica Neue", sans-serif;
     }
 }
 
 @mixin ff--monospace($font-weight: normal) {
-    font-family: "Menlo", monospace;
+    font-family: Menlo, monospace;
     font-weight: $font-weight;
 }
 
@@ -108,6 +108,7 @@
     margin-right: -0.125rem;
     margin-left: -0.125rem;
     padding: 0.125rem;
+    text-shadow: 0 0 $color;
 }
 
 // Text underline colour
