@@ -103,6 +103,7 @@ compress_html:
 
 # Pictures
 picture:
+  cdn: /image
   markup: img
   source: /images
   presets:
