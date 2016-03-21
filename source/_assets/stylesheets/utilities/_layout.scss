@@ -21,12 +21,19 @@
 
 // Show two items abreast, three on wider breakpoints
 .u-triad {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+
     .c-item,
     .c-nav__item {
-        @include gallery(2 of 4);
+        flex: 1 0 percentage(1/2);
+        padding: 0 0.75rem;
 
         @media (min-width: $b__b) {
-            @include gallery(2 of 6);
+            flex: 1 0 percentage(1/3);
         }
     }
 }

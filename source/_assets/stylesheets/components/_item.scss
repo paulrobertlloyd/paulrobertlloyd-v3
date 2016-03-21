@@ -16,7 +16,7 @@
     @media (min-width: $b__a) {
         .c-item--link &,
         .c-item--comment & {
-            padding-right: span(1 of 8);
+            padding-right: percentage(1/8);
         }
     }
 }
@@ -41,7 +41,7 @@
 
 .c-item__avatar {
     @include background-placeholder;
-    width: span(1 of 8);
+    width: percentage(1/8);
     height: auto;
 }
 
@@ -93,7 +93,7 @@
 
 // Comment (submitted remark or webmention response)
 .c-item--comment {
-    padding-left: (span(1 of 8) + gutter());
+    padding-left: (percentage(1/8) + gutter());
 
     @media screen and (min-width: $b__b) {
         padding-left: 0;
@@ -109,7 +109,7 @@
         left: 0;
 
         @media (min-width: $b__b) {
-            left: ((span(1 of 8) + gutter()) * -1);
+            left: ((percentage(1/8) + gutter()) * -1);
         }
     }
 }

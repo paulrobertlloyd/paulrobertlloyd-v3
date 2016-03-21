@@ -79,7 +79,7 @@
 
             figcaption {
                 @media screen and (min-width: $b__b) {
-                    padding-left: span(3 wide);
+                    padding-left: percentage(3/12);
                 }
 
                 @media (min-width: $b__c) {
@@ -87,7 +87,7 @@
                     top: 0;
                     right: 0;
                     padding-left: 0;
-                    width: span(4);
+                    width: percentage(4/12);
                 }
             }
         }
@@ -103,12 +103,12 @@
                 }
 
                 @media screen and (min-width: $b__b) {
-                    padding-left: span(3 wide);
-                    padding-left: calc(#{span(3 wide)} + 1rem);
+                    padding-left: percentage(3/12);
+                    padding-left: calc(#{percentage(3/12)} + 1rem);
                 }
 
                 @media screen and (min-width: $b__c) {
-                    padding-left: span(3 wide);
+                    padding-left: percentage(3/12);
                 }
             }
         }

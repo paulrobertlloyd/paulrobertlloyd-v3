@@ -13,7 +13,7 @@
         float: left;
         margin-bottom: 1rem;
         padding-right: 0.5rem;
-        width: span(3);
+        width: percentage(3/12);
     }
 }
 
@@ -22,7 +22,7 @@
     margin-left: 0;
 
     @media (max-width: ($b__bx)) {
-        padding-left: span(3);
+        padding-left: percentage(3/12);
     }
 
     p {

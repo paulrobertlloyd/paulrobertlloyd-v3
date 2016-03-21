@@ -18,13 +18,11 @@
     }
 
     @media screen and (min-width: $b__b) {
-        margin-left: span(3 wide);
+        margin-left: percentage(3/12);
     }
 }
 
 .c-contentinfo__license {
-    margin-bottom: 1rem;
-
     @media screen and (min-width: $b__a) {
         flex: 1 1 auto;
     }
