@@ -5,7 +5,7 @@
 .c-page__header,
 .c-page__footer {
     @media screen and (min-width: $b__b) {
-        padding-left: span(3 wide);
+        padding-left: percentage(3/12);
     }
 }
 
@@ -13,7 +13,7 @@
     @media screen and (min-width: $b__b) {
         position: absolute;
         padding-left: 0;
-        width: span(3 first);
+        width: percentage(3/12);
     }
 
     .c-page__title {
