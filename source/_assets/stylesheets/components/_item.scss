@@ -93,7 +93,7 @@
 
 // Comment (submitted remark or webmention response)
 .c-item--comment {
-    padding-left: (percentage(1/8) + gutter());
+    padding-left: calc(#{percentage(1/8)} + #{$u__gutter});
 
     @media screen and (min-width: $b__b) {
         padding-left: 0;
@@ -109,7 +109,7 @@
         left: 0;
 
         @media (min-width: $b__b) {
-            left: ((percentage(1/8) + gutter()) * -1);
+            left: calc((#{percentage(1/8)} + #{$u__gutter}) * -1);
         }
     }
 }
