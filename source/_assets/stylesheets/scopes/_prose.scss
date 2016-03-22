@@ -24,6 +24,10 @@
 .s-prose--body {
     @include fs--body;
 
+    > * {
+        margin-bottom: 1.5rem;
+    }
+
     h2 {
         @include fs--heading-2;
         margin-bottom: 0.5rem;
@@ -73,7 +77,7 @@
         &.u-extend {
             @media (min-width: $b__c) {
                 position: relative;
-                padding-right: $gn__span4-wide;
+                padding-right: calc(#{$gn__span4} + #{$u__gutter});
                 min-height: 6rem;
             }
 
@@ -103,8 +107,7 @@
                 }
 
                 @media screen and (min-width: $b__b) {
-                    padding-left: percentage(3/12);
-                    padding-left: calc(#{percentage(3/12)} + 1rem);
+                    padding-left: calc(#{percentage(3/12)} + #{$u__gutter});
                 }
 
                 @media screen and (min-width: $b__c) {
