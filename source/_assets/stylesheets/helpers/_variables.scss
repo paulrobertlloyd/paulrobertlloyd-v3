@@ -5,6 +5,13 @@
 // Units
 $u__max-width: 60rem;
 $u__rule-height: 0.0625rem;
+
+// Units > Grids
+$nested-ratio: (12 / 8);
+$u__colspan1: (percentage(1/12) * $nested-ratio);
+$u__colspan2: (percentage(2/12) * $nested-ratio);
+$u__colspan3: (percentage(3/12) * $nested-ratio);
+$u__colspan4: (percentage(4/12) * $nested-ratio);
 $u__gutter: 1rem;
 
 // Colours
@@ -33,10 +40,3 @@ $b__c: ($u__max-width + 2rem);
 $b__cx: ($u__max-width + 2rem - 0.0625rem);
 $b__d: 65rem; // 1040px
 $b__dx: 64.9375rem; // 1039px
-
-// Nested grid constructs
-$gn__ratio: (12 / 8); // Ratio: outer columns/inner columns
-$gn__span1: (percentage(1/12) * $gn__ratio);
-$gn__span2: (percentage(2/12) * $gn__ratio);
-$gn__span3: (percentage(3/12) * $gn__ratio);
-$gn__span4: (percentage(4/12) * $gn__ratio);

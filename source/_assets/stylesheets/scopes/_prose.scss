@@ -77,7 +77,7 @@
         &.u-extend {
             @media (min-width: $b__c) {
                 position: relative;
-                padding-right: calc(#{$gn__span4} + #{$u__gutter});
+                padding-right: calc(#{$u__colspan4} + #{$u__gutter});
                 min-height: 6rem;
             }
 

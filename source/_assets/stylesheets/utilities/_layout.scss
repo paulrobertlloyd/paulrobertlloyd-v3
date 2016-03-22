@@ -46,7 +46,7 @@
     margin-top: 0 !important;
     margin-bottom: 0.5rem !important;
     margin-left: $u__gutter !important;
-    width: $gn__span2;
+    width: $u__colspan2;
 }
 
 .u-align-left {
@@ -54,7 +54,7 @@
     margin-top: 0 !important;
     margin-right: $u__gutter !important;
     margin-bottom: 0.5rem !important;
-    width: $gn__span2;
+    width: $u__colspan2;
 }
 
 // Pull element aside
@@ -63,8 +63,8 @@
 
     @media screen and (min-width: $b__b) {
         float: left;
-        margin-left: ($gn__span3 * -1) !important;
-        width: calc(#{$gn__span3} - #{$u__gutter});
+        margin-left: ($u__colspan3 * -1) !important;
+        width: calc(#{$u__colspan3} - #{$u__gutter});
     }
 
     + * {
@@ -80,11 +80,11 @@
     @media (min-width: $b__a) {
         float: right;
         margin-left: $u__gutter !important;
-        width: $gn__span4;
+        width: $u__colspan4;
     }
 
     @media screen and (min-width: $b__b) {
-        margin-right: ($gn__span1 * -1);
+        margin-right: ($u__colspan1 * -1);
     }
 }
 
@@ -95,11 +95,11 @@
     @media (min-width: $b__a) {
         float: left;
         margin-right: $u__gutter !important;
-        width: $gn__span4;
+        width: $u__colspan4;
     }
 
     @media screen and (min-width: $b__b) {
-        margin-left: ($gn__span3 * -1);
+        margin-left: ($u__colspan3 * -1);
     }
 }
 
@@ -109,8 +109,8 @@
     clear: both;
 
     @media screen and (min-width: $b__b) {
-        margin-right: ($gn__span1 * -1);
-        margin-left: ($gn__span3 * -1);
+        margin-right: ($u__colspan1 * -1);
+        margin-left: ($u__colspan3 * -1);
     }
 }
 
@@ -126,12 +126,12 @@
     }
 
     @media screen and (min-width: $b__b) {
-        margin-right: calc((#{$gn__span1} * -1) - 2rem);
-        margin-left: calc((#{$gn__span3} * -1) - 2rem);
+        margin-right: calc((#{$u__colspan1} * -1) - 2rem);
+        margin-left: calc((#{$u__colspan3} * -1) - 2rem);
     }
 
     @media screen and (min-width: $b__c) {
-        margin-right: ($gn__span1 * -1);
-        margin-left: ($gn__span3 * -1);
+        margin-right: ($u__colspan1 * -1);
+        margin-left: ($u__colspan3 * -1);
     }
 }
