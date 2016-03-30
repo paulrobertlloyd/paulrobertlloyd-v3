@@ -156,8 +156,11 @@ Until support improves, I'll just cringe a little whenever I see the words `left
 
 * * *
 
-<ins datetime="2016-03-17">**Update:** Many thanks to [Jonathan Garner][19] for pointing out that [I can push the site name and navigation apart by adding `justify-content: space-between`][20] to the flex container, thus avoiding the need for any positional values, physical or logical. As is so often the case, there can be many means of achieving the same objective, but Jonathan's solution is certainly the most sensible. Still, with auto margins a key component of flexbox layouts, the issue doesn't go away entirely.</ins>
+<ins datetime="2016-03-17">**Update 1:** Many thanks to [Jonathan Garner][19] for pointing out that [I can push the site name and navigation apart by adding `justify-content: space-between`][20] to the flex container, thus avoiding the need for any positional values, physical or logical. As is so often the case, there can be many means of achieving the same objective, but Jonathan's solution is certainly the most sensible. Still, with auto margins a key component of flexbox layouts, the issue doesn't go away entirely.</ins>
 {: #update-1}
+
+<ins datetime="2016-03-30">**Update 2:** [Chris Minnick][21] at [Webucator][22] has recorded [a video tutorial][23] based on this article.</ins>
+{: #update-2}
 
 [1]: https://www.w3.org/TR/css-flexbox-1/
 [2]: http://caniuse.com/flexbox
@@ -179,6 +182,9 @@ Until support improves, I'll just cringe a little whenever I see the words `left
 [18]: https://dev.windows.com/en-us/microsoft-edge/platform/status/csslogicalpropertieslevel1
 [19]: http://www.jonathangarner.co.uk
 [20]: https://twitter.com/jgarner_co_uk/status/709483346510872576
+[21]: https://about.me/chrisminnick
+[22]: https://www.webucator.com
+[23]: https://www.youtube.com/watch?v=Q_0tP52RBh4
 
 *[aka]: also known as
 *[CSS]: Cascading Style Sheets
