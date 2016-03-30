@@ -30,6 +30,14 @@ html {
     box-sizing: inherit;
 }
 
+*:target {
+    @include text-highlight();
+
+    * {
+        @include text-decoration-color("none");
+    }
+}
+
 ::selection {
     background-color: $c__select;
     text-shadow: 0 0 $c__select;
