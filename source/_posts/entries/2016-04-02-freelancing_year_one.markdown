@@ -60,7 +60,7 @@ Over the last month I've started to get a better sense of which interests I want
 
 * Urban planning, architecture and the built environment, as well as transport (railways!) and other infrastructure projects.
 * Environment and sustainability issues. I'm particularly intrigued by projects that aim to make a big difference by enacting small behavioural changes.
-* History and the humanities, particularly those relating to the last 150 years, and cultural events such as the Olympics and other international festivals.
+* History and the humanities, especially those relating to the last 150 years, and cultural events such as the Olympics and other international festivals.
 
 In addition to these topics, I'd relish the chance to work alongside a branding agency. I don't design many identities myself, but I have a keen interest in this area of design, and many of my design heroes have operated in this space. I also *really* want to work with an organisation based somewhere in Northern Europe, especially on a project that involves spending considerable time on the continent.
 
