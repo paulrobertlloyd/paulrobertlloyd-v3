@@ -41,21 +41,21 @@ Two projects come to mind in particular. The first involved taking on more of a 
 ### Learning
 Every project provides an opportunity for learning -- even if it's how not to run a business! Yet working alone also highlights the limits of my expertise. On occasion, I have found myself knowing that a certain course of action was incorrect, yet unable to suggest alternatives. Having colleagues who can take up this slack, or even be on hand to bounce ideas off or get a second opinion from, is a major benefit of working in a team. So too is strength in numbers; it's hard to make the case for something when it's one versus many.
 
-In terms of more practical lessons, working to a deadline, and without this support network, meant I was forced to investigate new aspects of front-end development more rapidly. The intricacies of [internationalisation and flexible box layout][3] was a highlight; scroll-based animations, not so much. **6/10**
+In terms of more practical lessons, working to a deadline, and without this support network, meant I was forced to investigate new aspects of front-end development more rapidly. The intricacies of [internationalisation and flexible box layout][3] was a highlight; scroll-based animation, not so much. **6/10**
 
 ### Enjoyment
-Many of the questions I'm asking here are quite selfish and none more so than this last one: did I enjoy myself? On this I find myself split. The immense buzz I got when things were going well ("I'm doing this all by myself!") could be undermined by those times I felt more isolated. The projects I enjoyed most were those where I worked as part of a team; working *for* myself, not *by* myself. **7/10**
+Many of the questions I'm asking here are quite selfish and none more so than this last one: did I enjoy myself? On this I find myself split. The immense buzz I got when things were going well could be undermined by those times I felt more isolated. The projects I enjoyed most were those where I worked as part of a team; working *for* myself, but not *by* myself. **7/10**
 
 ## Onwards
-Overall, I think can close the book on this first year having learnt some valuable lessons and with a firm foundation to build upon. As such, here are the areas which I wish to focus on over the coming year:
+Overall, I can close the book on this first year having learnt some valuable lessons and with a firm foundation to build upon. As such, here are the areas which I wish to focus on over the coming year:
 
-### 1. Manage my calendar
+### Manage my calendar
 To divide a year equally between working on my own projects, working with Clearleft, and working with new organisations is a great way to get the best of all worlds. Looking back, that's exactly how I spent last year, though more by luck than by judgement. I need to be more strategic in deciding which projects to work on, and when. Given that last summer saw a slump in work, I'm going to block out that period this year to concentrate on my own projects -- and prepare for my talk at Smashing Conference later in September.
 
-### 2. Find new partnerships
+### Find new partnerships
 That I had the most fun working as part of larger teams, I'll seek projects that allow me to do this. So far, the only agency I've worked with is Clearleft, yet one of the reasons for leaving my permanent role there was to work with other agencies. I've already spoken to some potential collaborators, so this should be more than achievable.
 
-### 3. Seek ideal projects
+### Seek ideal projects
 Over the last month I've started to get a better sense of which interests I want to get more involved in. These include:
 
 * Urban planning, architecture and the built environment, as well as transport (railways!) and other infrastructure projects.
@@ -66,11 +66,11 @@ In addition to these topics, I'd relish the chance to work alongside a branding 
 
 Wishful thinking? Maybe, but publicly acknowledging these desires is a good first step on the road to fulfilment, I reckon.
 
-### 4. Grow my network
+### Grow my network
 In order to achieve these aims, I'll need to diversify my network. One of the things I've found quite surprising is how closely this maps to people who have passed through Clearleft. That's no bad thing -- many of my interests and values align with theirs. Given my often introverted and reserved nature, I find meeting new people at events quite difficult, but this is something I'll need to overcome.
 
-### 5. Share the proceeds
-As I mentioned earlier, I remain in a very fortunate position: I get to do what I enjoy, and I get paid to do it. With a better understanding of my financial situation, from this year on, I'll be sharing some of the proceeds of my good fortune by giving a portion of my income to charities. I'm planning on splitting this up so that I give a share to a local charity focused on homelessness, and another share to a global concern, climate change. I  hope to write more about this in the coming months.
+### Share the proceeds
+As I mentioned earlier, I remain in a very fortunate position: I get to do what I enjoy, and I get paid to do it. With a better understanding of my financial situation, I'll now share some of the proceeds of this good fortune. Donating a portion of my income to charities, I plan on splitting this up so that a portion goes to a local charity focused on homelessness, and another fighting a more global concern, climate change. I  hope to write more about this in the coming months.
 
 [1]: https://paulrobertlloyd.com/2015/01/changing_gears
 [2]: https://paulrobertlloyd.com/2015/10/taking_the_plunge
