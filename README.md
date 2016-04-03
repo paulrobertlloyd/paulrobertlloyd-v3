@@ -3,13 +3,11 @@
 Source files to build my personal website.
 
 ## System requirements
-
 * Ruby 2.0.0 or higher
 * nginx (`brew install nginx`)
-* [ngx_small_light][1] for image resizing
+* [ngx_http_image_filter_module][1]
 
 ## Installation
-
 1. Ensure you have a working Ruby 2.0.0 (or higher) environment.
 2. Install [Bundler][2]: `gem install bundler`. This is used to manage Ruby gems and their dependencies.
 3. Clone this repository: `git clone --recursive git@github.com:/paulrobertlloyd/paulrobertlloyd.com`.
@@ -23,11 +21,10 @@ The generated site will be contained in the `public` directory.
 This project makes use of third-party libraries, included as git submodules. To update these, run `git submodule foreach git pull origin master`.
 
 ## Deploying
-
 1. Ensure the destination server meets the system requirements.
 2. Run `bundle exec rake deploy`.
 
-[1]: https://github.com/cubicdaiya/ngx_small_light
+[1]: http://nginx.org/en/docs/http/ngx_http_image_filter_module.html
 [2]: http://bundler.io
-[3]: https://jekyllrb.com
+[3]: http://jekyllrb.com
 [4]: http://rake.rubyforge.org
