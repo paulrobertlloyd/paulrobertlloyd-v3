@@ -9,7 +9,6 @@
 destination = "public"
 source = "source"
 config = "config"
-stylesheets = "_assets/stylesheets/**/*.scss"
 
 
 desc "Clean up prepared and built files"
@@ -20,19 +19,19 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :'watch' do
-  sh "bundle exec jekyll build --watch --config config/jekyll.yml,config/jekyll/development.yml --profile"
+  sh "bundle exec jekyll build --watch --profile"
 end
 
 
 desc "Regenerate the website files and place them into destination"
 task :'build-dev' => [:clean] do
-  sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml,config/jekyll/development.yml --future --trace --profile"
+  sh "JEKYLL_ENV=development bundle exec jekyll build --future --trace --profile"
 end
 
 
 desc "Regenerate the website files and place them into destination"
 task :build => [:clean] do
-  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml,config/jekyll/production.yml"
+  sh "JEKYLL_ENV=production bundle exec jekyll build"
 end
 
 
