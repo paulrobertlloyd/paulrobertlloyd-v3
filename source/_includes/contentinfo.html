@@ -1,14 +1,17 @@
 <footer class="c-contentinfo u-container" role="contentinfo">
     <div class="c-contentinfo__main">
-        <p class="c-contentinfo__license">
-            <small>© <time datetime="{{ site.time | date:"%Y" }}" title="{{ site.time | date:"%Y" }}">{{ site.time | date:"%Y" | roman }}</time> <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a></small><br/>
+        <p class="c-contentinfo__copyright">
+            <small>© <time>{{ site.time | date:"%Y" }}</time> <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a></small>
+        </p>
+
+        <p class="c-contentinfo__links">
             <a href="/contact/">Contact</a><span class="u-separate"></span>
             <a href="/colophon">Colophon</a><span class="u-separate"></span>
             <a href="/styleguide">Style guide</a><span class="u-separate"></span>
             <a href="{{ site.scm.url }}">Source</a>
         </p>
 
-        <div class="c-contentinfo__social">
+        <p class="c-contentinfo__social">
             <a class="c-social c-social--twitter" rel="me" href="https://twitter.com/paulrobertlloyd">
                 <svg class="c-social--twitter__logo" version="1.1" width="24" height="24" role="img" aria-labelledby="title">
                     <title>Twitter</title>
@@ -33,6 +36,6 @@
                     <use xlink:href="#c-logo__flickr"/>
                 </svg>
             </a>
-        </div>
+        </p>
     </div>
 </footer>

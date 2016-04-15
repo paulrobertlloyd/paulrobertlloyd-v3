@@ -1,7 +1,7 @@
-//  ===========================================================================
-//  Embedded content
-//  https://w3c.github.io/html/semantics-embedded-content.html
-//  ===========================================================================
+// ========================================================
+// Embedded content
+// https://w3c.github.io/html/semantics-embedded-content.html
+// ========================================================
 
 img {
     // Remove border when inside `a` element in IE 8/9
@@ -38,5 +38,6 @@ img {
 svg:not(:root) {
     // Correct overflow displayed oddly in IE 9
     overflow: hidden;
+    vertical-align: middle;
     fill: currentColor;
 }

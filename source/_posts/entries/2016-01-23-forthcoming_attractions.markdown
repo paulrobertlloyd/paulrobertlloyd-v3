@@ -3,7 +3,6 @@ title: 'Forthcoming Attractions'
 date: '2016-01-23 23:20:00 +0000'
 location: York, England
 excerpt: With a New Year resolution to get out more, I share a few events I've recently bought tickets for. Who knows, you might be interested in them too.
-discussion: open
 tags:
   - Conferences
   - Events

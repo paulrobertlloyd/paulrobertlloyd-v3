@@ -1,6 +1,6 @@
-//  ===========================================================================
-//  Mixins
-//  ===========================================================================
+// ========================================================
+// Mixins
+// ========================================================
 
 // Clearfix
 @mixin clearfix {
@@ -93,8 +93,9 @@
 }
 
 @mixin fs--caption {
-    line-height: (20 / 14);
+    line-height: (20.01 / 14);
     font-size: 0.875rem; // 14px
+    letter-spacing: -0.025em;
 }
 
 // Caps
@@ -114,7 +115,7 @@
 // Text underline colour
 @mixin text-decoration-color($color, $background-color: transparent) {
     @if $color != "none" {
-        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 92.5%, transparent 92.5%);
+        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 95%, transparent 95%);
         text-decoration: none;
         text-shadow:
             0 0.03em $background-color,
