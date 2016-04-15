@@ -1,11 +1,12 @@
-//  ===========================================================================
-//  Tablular data
-//  https://w3c.github.io/html/tabular-data.html
-//  ===========================================================================
+// ========================================================
+// Tablular data
+// https://w3c.github.io/html/tabular-data.html
+// ========================================================
 
 table {
     caption-side: bottom;
     border-spacing: 0;
+    font-variant: tabular-nums;
 }
 
 tbody {

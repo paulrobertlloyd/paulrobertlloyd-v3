@@ -14,8 +14,9 @@
 
         {% if page.license %}
         <span class="u-hidden">and available under a {{ page.license.type }}</span>
-        <a class="c-page__license" rel="license" href="{{ page.license.url }}" title="{{ page.license.description }}">{{ page.license.terms }}</a>
-        <span class="u-hidden">license</span>
+        <a class="c-page__license" rel="license" href="{{ page.license.url }}" title="{{ page.license.description }}">
+            {% asset_source c-page__icon--license.svg %}
+        </a>
         {% endif %}
     </p>
 </footer>

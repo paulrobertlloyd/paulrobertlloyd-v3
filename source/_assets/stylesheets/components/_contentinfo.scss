@@ -1,36 +1,57 @@
-//  ===========================================================================
-//  Content Info
-//  ===========================================================================
+// ========================================================
+// Content Info
+// ========================================================
 
 .c-contentinfo {
     @include fs--caption;
-    margin-top: 4rem;
     margin-bottom: 2rem;
     color: $c__neutral-mid;
 }
 
 .c-contentinfo__main {
-    border-top: $u__rule-height solid rgba($c__neutral-mid, 0.5); // 1.5px
-    padding: 1rem 0;
-
-    @media screen and (min-width: $b__a) {
-        display: flex;
-    }
+    position: relative;
 
     @media screen and (min-width: $b__b) {
-        margin-left: percentage(3/12);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
-.c-contentinfo__license {
-    @media screen and (min-width: $b__a) {
-        flex: 1 1 auto;
+.c-contentinfo__copyright {
+    @media screen and (min-width: $b__b) {
+        flex: 0 1 auto;
+        width: percentage(3/12);
+    }
+}
+
+.c-contentinfo__links {
+    @media screen and (min-width: $b__b) {
+        flex: 0 1 auto;
+    }
+
+    @media print {
+        display: none;
     }
 }
 
 .c-contentinfo__social {
-    @media screen and (min-width: $b__a) {
+    display: flex;
+
+    @media screen and (max-width: $b__ax) {
+        margin-top: 1rem;
+    }
+
+    @media screen and (min-width: $b__a) and (max-width: $b__bx) {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    @media screen and (min-width: $b__b) {
         flex: 0 0 auto;
+        margin-right: percentage(1/12);
+        margin-left: auto;
     }
 
     @media print {
