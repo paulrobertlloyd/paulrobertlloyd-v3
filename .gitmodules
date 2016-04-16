@@ -7,9 +7,6 @@
 [submodule "source/_assets/javascripts/vendor/Simple-Jekyll-Search"]
 	path = source/_assets/javascripts/vendor/Simple-Jekyll-Search
 	url = https://github.com/christian-fei/Simple-Jekyll-Search.git
-[submodule "source/_assets/javascripts/vendor/RouterRouter"]
-	path = source/_assets/javascripts/vendor/RouterRouter
-	url = https://github.com/jgarber623/RouterRouter
 [submodule "source/_assets/javascripts/vendor/what-input"]
 	path = source/_assets/javascripts/vendor/what-input
 	url = git@github.com:ten1seven/what-input.git
