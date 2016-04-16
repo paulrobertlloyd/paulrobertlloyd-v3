@@ -12,7 +12,7 @@ tags:
 ---
 Having lived in my current flat for just over two years, I'm determined for this to be the year that I finally make it feel like a home.
 
-With three rooms redecorated, only the kitchen and bathroom remain. Yet with both in need of substantial refurbishment, I shifted my focus to the lounge. Here, with my television perched upon a small table and a large L-shaped desk occupying one corner, it was time to look for more reasonably sized replacements. In the rush to furnish a room, I typically end up buying items made of veneered chipboard, only to immediately regret my purchase, my short ownership predictably ending with a guilt-ridden trip to the dump. I wasn't going to make the same mistake again.
+With three rooms redecorated, only the kitchen and bathroom remain. Yet with both in need of substantial refurbishment, I shifted my focus to the lounge. Here, with my television perched upon a small table and a large L-shaped desk occupying one corner, it was time to look for more reasonably sized replacements.
 
 I initially thought that the recesses on each side of the chimney breast would be wide enough (100-115cm) to accommodate the type of furniture I was after, yet as I began to look around, I realised that most desks and tables aren't much narrower than 150cm. The high street trampled, charity shops trawled, only a tireless search on the web was left. This brought me to [Etsy][1], where I was quickly drawn to [Habitables][2], a producer of high-quality indie furniture:
 
