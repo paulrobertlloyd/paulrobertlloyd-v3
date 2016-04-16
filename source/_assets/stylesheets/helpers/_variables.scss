@@ -16,13 +16,11 @@ $u__colspan4: (percentage(4/12) * $nested-ratio);
 $u__gutter: 1rem;
 
 // Colours
-$c__neutral-black: #000;
 $c__neutral-darkest: hsb(300, 12, 8);
 $c__neutral-dark: hsb(300, 9, 28);
 $c__neutral-mid: hsb(300, 6, 40);
 $c__neutral-light: hsb(300, 3, 76);
 $c__neutral-lightest: hsb(300, 0, 96);
-$c__neutral-white: #fff;
 
 $c__primary: hsb(300, 60, 80);
 $c__secondary: hsb(248, 60, 80);

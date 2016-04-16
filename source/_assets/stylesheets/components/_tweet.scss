@@ -4,10 +4,9 @@
 
 .c-tweet {
     position: relative;
-    border: 1px solid rgba($c__neutral-dark, 0.2);
-    background-color: $c__neutral-white;
+    background-color: $c__neutral-dark;
     padding: 0.75rem;
-    color: $c__neutral-dark;
+    color: white;
 
     // Double colon not supported in IE8 so can use a transform
     &::before {
@@ -18,10 +17,7 @@
         left: 1rem;
         transform: rotate(-45deg);
         transform-origin: 0 0;
-        opacity: 1;
-        border-bottom: 1px solid rgba($c__neutral-dark, 0.2);
-        border-left: 1px solid rgba($c__neutral-dark, 0.2);
-        background-color: $c__neutral-white;
+        background-color: $c__neutral-dark;
         width: 1rem;
         height: 1rem;
         content: "";
@@ -29,10 +25,5 @@
 
     a {
         @include text-decoration-color("none");
-        color: $c__neutral-darkest;
-    }
-
-    :last-child {
-        margin-bottom: 0;
     }
 }
