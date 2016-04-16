@@ -8,22 +8,22 @@
         return;
     }
 
-    var calibreRegular = new win.FontFaceObserver('Calibre', {
+    var regular = new FontFaceObserver('Calibre', {
         weight: 'normal',
         style: 'normal'
     });
 
-    var calibreItalic = new win.FontFaceObserver('Calibre', {
+    var italic = new FontFaceObserver('Calibre', {
         weight: 'normal',
         style: 'italic'
     });
 
-    var calibreSemibold = new win.FontFaceObserver('Calibre', {
+    var semibold = new FontFaceObserver('Calibre', {
         weight: 700,
         style: 'normal'
     });
 
-    win.Promise.all([calibreRegular.check, calibreItalic.check, calibreSemibold.check]).then(function () {
+    Promise.all([regular.load(), italic.load(), semibold.load()]).then(function () {
         doc.documentElement.className += ' fonts-loaded';
         win.enhance.cookie('fonts-loaded', !0, 7);
     });
