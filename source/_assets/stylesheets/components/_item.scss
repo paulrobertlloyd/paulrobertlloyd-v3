@@ -4,7 +4,18 @@
 
 .c-item {
     position: relative;
-    margin-bottom: 2.5rem;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
+
+.c-item--entry {
+    &:not(:last-child) {
+        @media (min-width: $b__b) {
+            margin-bottom: 5rem;
+        }
+    }
 }
 
 .c-item__media,
@@ -23,15 +34,12 @@
 
 .c-item__title {
     @include fs--heading-2;
-    margin-bottom: 0.25rem;
     hanging-punctuation: first;
-}
 
-.c-item__title--promote {
-    @include fs--heading-1;
-    margin-bottom: 0.5rem;
-    padding-top: 0;
-    font-weight: 700;
+    .c-item--entry & {
+        @include fs--heading-1;
+        font-weight: 700;
+    }
 }
 
 .c-item__meta {
@@ -45,13 +53,9 @@
     height: auto;
 }
 
-// Entry, link and gallery items
-.c-item--entry,
-.c-item--gallery,
-.c-item--link {
-    @media (min-width: $b__b) {
-        margin-bottom: 5rem;
-    }
+// Series items
+.c-item--series:nth-child(n) {
+    margin-bottom: 0;
 }
 
 // Gallery item

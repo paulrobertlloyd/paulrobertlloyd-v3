@@ -4,7 +4,10 @@
 
 .c-section {
     @include clearfix;
-    margin-bottom: 2rem;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
 
     @media screen and (min-width: $b__b) {
         padding-right: percentage(1/12);
