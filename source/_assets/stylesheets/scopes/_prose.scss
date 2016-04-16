@@ -11,10 +11,6 @@
         margin-bottom: units(1);
     }
 
-    > *:last-child {
-        margin-bottom: 0;
-    }
-
     blockquote:not([class]) {
         position: relative;
         padding-right: 1rem;
@@ -185,9 +181,5 @@
 
     > * {
         margin-bottom: units(2);
-    }
-
-    > :last-child {
-        margin-bottom: units(3);
     }
 }

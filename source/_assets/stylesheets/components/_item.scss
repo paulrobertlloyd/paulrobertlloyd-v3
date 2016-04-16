@@ -3,16 +3,14 @@
 // ========================================================
 
 .c-item {
-    margin-bottom: units(3);
-}
-
-.c-item--series {
-    margin-bottom: 0;
+    margin-bottom: units(2);
 }
 
 .c-item--link,
 .c-item--entry {
     &:not(:last-child) {
+        margin-bottom: units(4);
+
         @media (min-width: $b__b) {
             margin-bottom: units(6);
         }
