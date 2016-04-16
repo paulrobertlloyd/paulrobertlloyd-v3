@@ -4,7 +4,7 @@
 
 .c-banner {
     @media screen {
-        margin-bottom: 5rem;
+        margin-bottom: units(6);
     }
 }
 
@@ -17,11 +17,11 @@
 }
 
 .c-banner__logo {
-    width: 3rem;
-    height: 3rem;
+    width: units(4);
+    height: units(4);
 
     @media (min-width: $b__a) {
-        width: 4rem;
-        height: 4rem;
+        width: units(6);
+        height: units(6);
     }
 }

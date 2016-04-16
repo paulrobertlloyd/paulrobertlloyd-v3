@@ -15,3 +15,8 @@
         @return hsla($h-hsb, $s-hsl, $l-hsl, $a);
     }
 }
+
+// Output units as a measurable value
+@function units($count) {
+    @return ($u__unit-height * $count);
+}

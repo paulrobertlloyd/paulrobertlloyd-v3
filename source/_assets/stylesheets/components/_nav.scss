@@ -16,7 +16,7 @@
 
     .c-nav__item {
         @include fs--caption;
-        margin-top: 0.75rem;
+        margin-top: units(1);
         margin-bottom: 0;
     }
 }

@@ -6,21 +6,21 @@
     position: relative;
 
     &:not(:last-child) {
-        margin-bottom: 3rem;
+        margin-bottom: units(4);
     }
 }
 
 .c-item--entry {
     &:not(:last-child) {
         @media (min-width: $b__b) {
-            margin-bottom: 5rem;
+            margin-bottom: units(6);
         }
     }
 }
 
 .c-item__media,
 .c-item__footer {
-    margin-bottom: 0.75rem;
+    margin-bottom: units(1);
 }
 
 .c-item__main {
