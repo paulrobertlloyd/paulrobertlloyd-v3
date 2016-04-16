@@ -61,7 +61,7 @@ permalink: /archive/
                 <ol class="c-list c-list--inline" reversed>
     {% endif %}
 
-                    <li class="c-list__item{% unless item.link %} c-list__item--promote{% endunless %} u-separate" value="{{ item.date | date:"%-d" }}">
+                    <li class="c-list__item{% unless item.link %} c-list__item--promoted{% endunless %} u-separate" value="{{ item.date | date:"%-d" }}">
                         <a href="{{ item.url }}">{{ item.title | smartypants }}</a>
                     </li>
 
