@@ -58,44 +58,7 @@
     margin-bottom: 0;
 }
 
-// Gallery item
-.c-item--gallery {
-    padding-left: 7rem;
-    min-height: 7rem;
-}
-
-.c-item__cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    &::before,
-    &::after {
-        position: absolute;
-        background: $c__neutral-light;
-        height: 1px;
-        content: "";
-    }
-
-    &::before {
-        top: -4px;
-        right: 8px;
-        left: 8px;
-    }
-
-    &::after {
-        top: -2px;
-        right: 4px;
-        left: 4px;
-    }
-}
-
-.c-item__cover-photo {
-    width: 6rem;
-    height: 6rem;
-}
-
-// Comment (submitted remark or webmention response)
+// Comment
 .c-item--comment {
     padding-left: calc(#{percentage(1/8)} + #{$u__gutter});
 

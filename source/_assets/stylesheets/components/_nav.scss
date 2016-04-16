@@ -16,8 +16,8 @@
 
     .c-nav__item {
         @include fs--caption;
-        padding-top: 1rem;
-        line-height: 1;
+        margin-top: 0.75rem;
+        margin-bottom: 0;
     }
 }
 
