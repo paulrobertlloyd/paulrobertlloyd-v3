@@ -40,7 +40,7 @@ kbd,
 samp {
     @include ff--monospace;
     font-size: 90%;
-    font-feature-settings: "liga" 0;
+    font-variant-ligatures: none;
 }
 
 kbd {
