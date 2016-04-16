@@ -27,7 +27,7 @@ I immediately fell in love with designer by Manuel Barrera's distinctive mid-cen
 </div>
 {% endfigure %}
 
-My furniture arrived last week. Appropriately packaged for its long trip from Madrid, opening and assembling these new pieces felt like Christmas Day all over again! Not so much a purchase but long-term investment, I'm left with two unique pieces of furniture that I will treasure for many years to come.
+My order arrived last week. Appropriately packaged for its long trip from Madrid, opening and assembling these new pieces felt like Christmas Day all over again! Not so much a purchase but long-term investment, I'm left with two unique pieces of furniture that I will treasure for many years to come.
 
 [1]: https://www.etsy.com/c/home-and-living/furniture
 [2]: https://www.etsy.com/shop/Habitables
