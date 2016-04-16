@@ -25,16 +25,14 @@
 
 // Archive
 .c-section--archive {
-    display: flex;
+    @media (min-width: $b__a) {
+        display: flex;
 
-    .c-section__header {
-        @media (min-width: $b__a) {
+        .c-section__header {
             width: percentage(3/12);
         }
-    }
 
-    .c-section__main {
-        @media (min-width: $b__a) {
+        .c-section__main {
             width: percentage(9/12);
         }
     }
