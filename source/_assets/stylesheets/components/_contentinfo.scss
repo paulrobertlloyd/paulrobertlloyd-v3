@@ -4,7 +4,7 @@
 
 .c-contentinfo {
     @include fs--caption;
-    margin-bottom: 2.5rem;
+    margin-bottom: units(3);
     color: $c__neutral-mid;
 }
 
@@ -18,14 +18,23 @@
     }
 }
 
-.c-contentinfo__copyright {
+.c-contentinfo__social {
+    display: flex;
+    margin-bottom: units(1);
+
     @media screen and (min-width: $b__b) {
-        flex: 0 1 auto;
+        flex: 0 0 auto;
         width: percentage(3/12);
+    }
+
+    @media print {
+        display: none;
     }
 }
 
 .c-contentinfo__links {
+    margin-bottom: units(1);
+
     @media screen and (min-width: $b__b) {
         flex: 0 1 auto;
     }
@@ -35,26 +44,12 @@
     }
 }
 
-.c-contentinfo__social {
-    display: flex;
-
-    @media screen and (max-width: $b__ax) {
-        margin-top: 1rem;
-    }
-
-    @media screen and (min-width: $b__a) and (max-width: $b__bx) {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
+.c-contentinfo__copyright {
+    margin-bottom: units(1);
 
     @media screen and (min-width: $b__b) {
         flex: 0 0 auto;
         margin-right: percentage(1/12);
         margin-left: auto;
-    }
-
-    @media print {
-        display: none;
     }
 }

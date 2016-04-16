@@ -26,12 +26,18 @@
 }
 
 .c-page__footer {
-    margin-bottom: 2rem;
+    margin-bottom: units(4);
     color: $c__neutral-mid;
 }
 
 .c-page__title {
     @include fs--title;
-    margin-bottom: 0.75rem;
+    margin-bottom: units(2);
     font-weight: 700;
+}
+
+.c-page__license {
+    position: relative;
+    top: -1px;
+    margin-left: 0.25rem;
 }

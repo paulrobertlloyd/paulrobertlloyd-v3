@@ -4,7 +4,7 @@
 
 .c-navigation {
     position: absolute;
-    top: 3rem;
+    top: units(4);
     right: 0;
     left: 0;
     z-index: 1002;
@@ -51,8 +51,7 @@
     flex: 0 0 auto;
 
     @media (min-width: $b__a) {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
+        padding-top: 2.5rem;
     }
 }
 

@@ -6,7 +6,7 @@
     @include clearfix;
 
     &:not(:last-child) {
-        margin-bottom: 3rem;
+        margin-bottom: units(3);
     }
 
     @media screen and (min-width: $b__b) {
