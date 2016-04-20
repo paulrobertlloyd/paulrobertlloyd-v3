@@ -11,7 +11,7 @@
     {% assign embed_type = "slidedeck" %}
     {% assign embed_action = "View presentation on Speaker Deck" %}
 {% elsif include.url contains "vimeo" %}
-    {% assign embed_src = include.url | replace:"vimeo.com","player.vimeo.com/video" | append:"?color=cc52cc&#38;title=0&#38;byline=0&#38;badge=0" %}
+    {% assign embed_src = include.url | replace:"vimeo.com","player.vimeo.com/video" | append:"?color=cc52cc&#38;title=0&#38;byline=0&#38;badge=0&#38;portrait=0" %}
     {% assign embed_type = "video" %}
     {% assign embed_action = "Watch video on Vimeo" %}
 {% elsif include.url contains "youtube" %}
