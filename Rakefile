@@ -25,7 +25,7 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :build => [:clean] do
-  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml"
+  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml --future"
 end
 
 
