@@ -41,6 +41,7 @@ collections:
     output: true
   talks:
     output: true
+    permalink: /talks/:title
 
 # Defaults
 defaults:
