@@ -7,7 +7,7 @@ tags:
   - Corruption
   - Conservative Party
 ---
-If the Conservative Party wasn't already rigging the system in its favour, be it by [redrawing consistency boundaries][1] ([Gerrymandering][2] by any other name) or [reforming party funding][3], it turns out they may have broken campaign spending rules as well.
+If the Conservative Party wasn't already rigging the system in its favour, be that by [redrawing consistency boundaries][1] ([Gerrymandering][2] by any other name) or [reforming party funding][3], it turns out they may have broken campaign spending rules as well.
 
 A Channel 4 News investigation has uncovered evidence suggesting large-scale and systematic abuse of spending limits, both at last year's general election, and during three key by-elections in 2014:
 
@@ -21,7 +21,7 @@ This is nothing short of a scandal, yet one helpfully suppressed given the curre
 
 * * *
 
-Beyond the depressing particulars of this story, as someone who worked on an earlier design of the Channel 4 News website, I found the presentation of this story to be really compelling, not least because of its uncluttered layout, digestible content and accessible data visualisations. As a news team renowned for its in-depth reporting and investigations, I hope this article is a sign that we can expect more of its online coverage to meet those same high standards.
+Beyond the depressing particulars of this story, as someone who worked on an earlier design of the Channel 4 News website, I found the presentation of this story to be encouraging, not least because of its uncluttered layout, digestible content and accessible data visualisations. As a news team renowned for its in-depth reporting and investigations, I hope this article is a sign that we can expect more of its online coverage to meet those same high standards.
 
 [1]: http://www.theguardian.com/commentisfree/2016/feb/12/the-guardian-view-on-changing-constituency-boundaries-unfair-and-undemocratic
 [2]: https://en.wikipedia.org/wiki/Gerrymandering
