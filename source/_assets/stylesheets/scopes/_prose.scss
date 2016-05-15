@@ -33,6 +33,11 @@
         }
     }
 
+    hr {
+        margin-top: units(1);
+        margin-bottom: units(2);
+    }
+
     .caps {
         @include c2sc;
     }
@@ -77,8 +82,8 @@
     }
 
     hr {
-        margin-top: units(4);
-        margin-bottom: units(2);
+        margin-top: units(3);
+        margin-bottom: units(3);
     }
 
     pre {
