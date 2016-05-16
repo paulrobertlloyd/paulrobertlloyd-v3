@@ -17,7 +17,7 @@ A Channel 4 News investigation has uncovered evidence suggesting large-scale and
 >
 > None of these hotel receipts seem to have been declared by the party.
 
-This is nothing short of a scandal, yet one helpfully suppressed given the current EU Referendum campaign. All this, revealed on the same week David Cameron hosted the international [Anti-Corruption Summit][4]; maybe we need to focus on the corruption taking place a little closer to home, first.
+This is nothing short of a scandal, yet one helpfully suppressed by the current EU Referendum campaign. All this, revealed on the same week David Cameron hosted the international [Anti-Corruption Summit][4]; maybe we need to focus on the corruption taking place a little closer to home, first.
 
 * * *
 
