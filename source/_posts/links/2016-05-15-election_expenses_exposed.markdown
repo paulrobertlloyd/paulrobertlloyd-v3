@@ -7,7 +7,7 @@ tags:
   - Corruption
   - Conservative Party
 ---
-If the Conservative Party wasn't already rigging the system in its favour, be that by [redrawing consistency boundaries][1] ([Gerrymandering][2] by any other name) or [reforming party funding][3], it turns out they may have broken campaign spending rules as well.
+If the Conservative Party wasn't already rigging the system in its favour, be that by [redrawing consistency boundaries][1] ([gerrymandering][2] by any other name) or [reforming party funding][3], it turns out they may have broken campaign spending rules as well.
 
 A Channel 4 News investigation has uncovered evidence suggesting large-scale and systematic abuse of spending limits, both at last year's general election, and during three key by-elections in 2014:
 
