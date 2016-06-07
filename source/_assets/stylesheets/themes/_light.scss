@@ -34,6 +34,10 @@ $c__t-light--active: $c__secondary;
             background-color: rgba($c__t-light--background, 0.95);
         }
 
+        .c-contentinfo {
+            color: rgba($c__t-light--text, 0.6);
+        }
+
         .s-prose,
         .s-ui {
             a:not(.c-button) {
