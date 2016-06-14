@@ -17,9 +17,9 @@
 
     <div class="c-item__main">
         <div class="s-prose s-prose--body  p-summary">
-            {% if item.image %}
+            {% if item.image.url %}
             <a class="c-item__media u-bleed u-block-link" href="{{ item.url }}">
-                {% picture feature {{ item.image.url }} alt="{{ item.title }}" class="u-photo" %}
+                {% picture {{ item.image.preset }} {{ item.image.url }} alt="{{ item.title }}" class="u-photo" %}
             </a>
             {% endif %}
             {{ item.excerpt | markdownify | improve }}

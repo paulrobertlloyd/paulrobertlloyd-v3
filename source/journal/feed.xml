@@ -32,7 +32,7 @@
         <link href="{{ site.url }}{{ post.url }}"/>
         <content type="html">
 <![CDATA[
-{% if post.image %}
+{% if post.image.url %}
     {% figure caption:"{{ post.image.caption }}" %}
 {% picture {{ post.image.url }} alt="" %}
     {% endfigure %}

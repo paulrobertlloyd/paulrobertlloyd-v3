@@ -76,6 +76,8 @@ defaults:
         terms: BY-NC-SA
         description: 'You can republish this content without asking permission, but you must credit me (Paul Robert Lloyd) as the author and provide a link back to the original. You may not use any content for commercial purposes. If you make any changes, you must distribute these under the same license as the original.'
         url: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      image:
+        preset: wide
 
   - scope:
       type: projects
@@ -105,7 +107,8 @@ compress_html:
 
 # Pictures
 picture:
-  cdn: https://paulrobertlloyd.com/image
+# cdn: https://paulrobertlloyd.com/image
+  cdn: http://paulrobertlloyd.dev/image
   markup: img
   source: /images
   presets:
@@ -139,20 +142,34 @@ picture:
         width: 1024
       source_default:
         width: 768
-    feature:
+    wide:
       attr:
-        class: c-picture c-picture--feature
+        class: c-picture c-picture--wide
       source_large:
         width: 1280
-        height: 720
+        height: 675
         quality: 88
       source_medium:
         width: 1024
         height: 576
         quality: 88
       source_default:
-        width: 768
-        height: 480
+        width: 800
+        height: 450
+    anamorphic:
+      attr:
+        class: c-picture c-picture--anamorphic
+      source_large:
+        width: 1200
+        height: 500
+        quality: 88
+      source_medium:
+        width: 1020
+        height: 425
+        quality: 88
+      source_default:
+        width: 720
+        height: 300
 
 # Publishing
 source: ./source
