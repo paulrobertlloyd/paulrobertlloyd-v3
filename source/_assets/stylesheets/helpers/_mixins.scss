@@ -92,6 +92,10 @@
     @media (min-width: $b__c) {
         font-size: 1.125rem; // 18px
     }
+
+    @media (min-width: $b__d) {
+        font-size: 1.25rem; // 20px
+    }
 }
 
 @mixin fs--caption {

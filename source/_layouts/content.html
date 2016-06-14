@@ -14,9 +14,9 @@ layout: default
         {% endif %}
 
         <div class="s-prose s-prose--body  e-content">
-            {% if page.image %}
+            {% if page.image.url %}
                 {% figure caption:"{{ page.image.caption }}" class:"u-bleed" %}
-{% picture feature {{ page.image.url }} alt="" %}
+{% picture {{ page.image.preset }} {{ page.image.url }} alt="" %}
                 {% endfigure %}
             {% endif %}
 
