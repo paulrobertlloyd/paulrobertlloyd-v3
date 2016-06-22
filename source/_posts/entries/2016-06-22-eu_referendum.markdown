@@ -2,7 +2,7 @@
 title: 'Breaking Point: Why I''ll be voting to Remain in the EU Referendum'
 date: '2016-06-22 02:25:00 +0100'
 location: Amsterdam, The Netherlands
-excerpt: 'Tomorrow is the referendum on Britain''s membership of the European Union. I''ve wanted to write about it for some time, yet I''ve delayed and delayed in the hope I could offer a tidy summary and succinct reasoning behind my decision to remain. The tragic events of last week abruptly put pay to such hopes.'
+excerpt: 'Tomorrow is the referendum on Britain''s membership of the European Union. I''ve wanted to write about it for some time, yet I''ve delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain.'
 image:
   url: /2016/06/eu_referendum.jpg
   caption: 'Pastiche of Michelangelo''s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'
@@ -50,7 +50,7 @@ What could we achieve inside Europe if instead of complaining, obstructing and a
 {% endfigure %}
 
 ## Brexit and break things
-The week that I'm being asked to decide on Britain's future relationship with Europe, I find myself visiting the Netherlands. As I've walked around Amsterdam and Utrecht, I've seen people like me, bathing in the sunshine or dodging the frequent and heavy rain showers, enjoying a peaceful lifestyle we've grown accustomed too, one we increasingly take for granted. As we commemorate the centenary of the first world war and the second 70 years behind us, we see peace as the default setting. Yet Europe has been ravished by war in every century except this one; what will it take to change that? Could Brexit be the catalyst?
+The week that I'm being asked to decide on Britain's future relationship with Europe, I find myself visiting the Netherlands. As I've walked around Amsterdam and Utrecht, I've seen people like me, bathing in the sunshine or dodging the frequent and heavy rain showers, enjoying a peaceful lifestyle we've grown accustomed too, one we increasingly take for granted. As we commemorate the centenary of the first world war and the second 70 years behind us, we see peace as the default setting. Yet Europe has been ravished by war in every century bar this one; what would it take to change that? Could Brexit be the catalyst?
 
 History doesn't repeat itself, but it does rhyme. In the aftermath of a deep economic depression, right-wing extremists are again gaining political influence within Europe and the United States. Meanwhile, Russia waits on the sidelines, encouraging instability and devision by [whatever means necessary][8]. Forget breaking point, this year looks more like a tipping point.
 
@@ -58,11 +58,9 @@ Given this situation, why are we making a decision with such seismic consequence
 
 Should we vote to remain, we still have the option in the future to leave, yet if we vote to leave, it is an irreversible decision.
 
-Members of my family will undoubtedly vote to leave. They have their reasons, not least having originally voted for a trade-based partnership, yet we have undoubtedly benefited from our casual membership of the EU, one for which we have successfully opted out of the its political aspects.
+At first it felt like I would be voting for [the least worst option][9]. Yet over the last few weeks, as I've watched the complex dynamics within the Leave campaign play out, and seeing [who might emerge as the most powerful and influential figures if the event of Brexit][10], I've come to see this vote as a choice between selfishness or solidarity; isolation or co-operation; ideology or pragmatism, xenophobia or internationalism.
 
-At first it felt like I would be voting for [the least worst option][9]. Yet over the last few weeks, as I've watched the complex dynamics within the Leave campaign play out, and seeing [who might emerge as the most powerful and influential figures][10], I've come to accept that this vote is now a choice between selfishness or solidarity; isolation or co-operation; ideology or pragmatism, xenophobia or internationalism.
-
-There is so much at stake. And there is still so much I wish to say, but the reasons for staying in Europe are clear.
+There is so much at stake. And there is still so much I wish to say. But the reasons for staying in Europe are crystal clear.
 
 [1]: http://blogs.spectator.co.uk/2016/06/a-day-of-infamy/
 [2]: https://en.wikipedia.org/wiki/The_Creation_of_Adam
@@ -75,5 +73,6 @@ There is so much at stake. And there is still so much I wish to say, but the rea
 [9]: https://www.theguardian.com/commentisfree/2016/jun/15/european-union-eu-britain-sovereignty
 [10]: https://nathanieltapley.com/2016/06/17/a-left-eurosceptic-voting-to-remain/
 
+*[GCSE]: General Certificate of Secondary Education
 *[EU]: European Union
 *[TTIP]: Transatlantic Trade and Investment Partnership
