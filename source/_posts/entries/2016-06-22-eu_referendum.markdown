@@ -1,8 +1,8 @@
 ---
-title: 'Breaking Point: Why I''ll be voting to Remain in the EU Referendum'
+title: 'Breaking Point: Why I''m voting to Remain in the EU Referendum'
 date: '2016-06-22 02:25:00 +0100'
 location: Amsterdam, The Netherlands
-excerpt: 'Tomorrow is the referendum on Britain''s membership of the European Union. I''ve wanted to write about it for some time, yet I''ve delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain.'
+excerpt: 'Tomorrow is the referendum on Britain''s membership of the European Union. I''ve wanted to write about this for some time now, but I''ve delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain.'
 image:
   url: /2016/06/eu_referendum.jpg
   caption: 'Pastiche of Michelangelo''s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'
@@ -16,7 +16,7 @@ Tomorrow is the referendum on Britain's membership of the European Union. I've w
 
 An issue in which the facts are muddied shades of grey, the vote demands a simple black or white answer. How could I ever hope to navigate a complex subject which has been distorted by years of inaccurate and biased reporting? How should I approach a subject that can too easily arose emotive reactions, as evidenced by the [tragic murder of Jo Cox MP][1] last week.
 
-Writing anything about the referendum feels contentious, so I feel an immense pressure to write something this is both balanced yet convincing. I have so much I want to say, yet little time left to say it. Where do I even start? Maybe I should start at the beginning.
+Writing anything about the referendum feels contentious, so there's an immense pressure to write something this is balanced yet also convincing. I have so much I want to say, yet little time left to say it. Where do I even start? Maybe I should start at the beginning.
 
 ## My political journey
 Born 35 years ago to a middle-income family (dad a telecom engineer, mum a dinner lady), I grew up on a new housing estate in suburban Surrey. Idyllic maybe, but distinctly average. It became slightly less average when aged 13, my family moved to the West Midlands to run a boarding kennel business. Quite a contrast, and the first of many relocations that would offer a new perspective.
@@ -39,7 +39,7 @@ As the debate wore on, my opinion started to solidify, particularly as Vote Leav
 
 With leave campaigners [growing increasingly xenophobic][6] and Remain continuing with its strategy of fear mongering, examination of the organisation whose membership we were being asked to vote on was missing. Step away from the argument for five minutes and look at the detail, you'd realise that many of our complaints about Europe are either self-inflicted or [entirely made up][7].
 
-Is Europe perfect? Far from it. The pursuit of the EU's free-trade agreement with the United States (TTIP) is deeply concerning, yet surely better to negotiate such a deal as part of a trading block of 500 million consumers, than be steamrollered into a worse one done on the basis of a 'special relationship' -- we know which direction that typically operates.
+Is Europe perfect? Far from it. The EU's pursuit of a free-trade agreement with the United States (TTIP) is deeply concerning, yet supported by the Conservative Party. Surely better to negotiate such a deal as part of a trading block of 500 million consumers, than be steamrollered into a worse one done on the basis of a 'special relationship' -- we know which direction that typically operates.
 
 What could we achieve inside Europe if instead of complaining, obstructing and abstaining, we took a more proactive role?
 
@@ -48,20 +48,21 @@ What could we achieve inside Europe if instead of complaining, obstructing and a
 {% endfigure %}
 
 ## Brexit and break things
-The week that I'm asked to decide on Britain's future relationship with Europe, I find myself visiting a small part of it. As I've walked around Amsterdam and Utrecht, I've seen people like me, bathing in the sunshine or dodging the frequent and heavy rain showers, and enjoying the peaceful lifestyle we've grown accustomed too. It's also one we take for granted. In commemorating the centenary of the first world war and with the cessation of the second 70 years behind us, we should remind ourselves that peace is not the default setting. Europe has been ravished by war in every century bar this one; what would it take to change that? Could Brexit be the catalyst?
+The week that I'm asked to decide on Britain's future relationship with Europe, I find myself visiting a small part of it. As I've walked around Amsterdam and Utrecht, I've seen others like me, bathing in the sunshine or dodging the frequent and heavy rain showers, generally enjoying the peaceful lifestyle we've grown accustomed too. It's also one we take for granted. In commemorating the centenary of the first world war and with the cessation of the second 70 years behind us, we should remind ourselves that peace is not the default setting. Europe has been ravished by war in every century bar this one; what would it take to change that? Could Brexit be the catalyst?
 
-History doesn't repeat itself, but it does rhyme. In the aftermath of a deep economic depression, right-wing extremism is again creating a foothold within Europe and the United States. Meanwhile, Russia waits on the sidelines, encouraging instability and devision by [whatever means necessary][8]. Forget breaking point, this year looks more like a tipping point.
+History doesn't repeat itself, but it does rhyme. In the aftermath of a deep economic depression, right-wing extremism is again creating a foothold within Europe and the United States. Meanwhile, Russia waits on the sidelines, encouraging instability and devision by [whatever means necessary][8]. Forget breaking point, this year looks more like the tipping point.
 
-## Why now?
 Given this situation, why make a decision that could have seismic consequences? Why spend the next ten years negotiating trade deals and our relationship with Europe, when instead we could be combating climate change, encouraging stability in Syria and Middle East and improving relations with Russia. And so much more.
 
-Should we vote to remain, we still have the option in the future to leave, yet if we vote to leave, the decision is irreversible.
+Should we vote to remain, we still have the option in the future to leave, yet if a vote to leave is both irreversible and damaging.
 
-I thought I would be voting for [the least worst option][9]. Yet over the last few weeks, as I've watched the dynamics within the leave campaign play out, I see that allowing deceptive and careless voices to [emerge as the most powerful and influential][10] is too dangerous a gamble.
+* * *
+
+I thought I would be voting for [the least worst option][9]. Yet over the last few weeks, as I've watched the dynamics within the leave campaign play out and see that allowing deceptive and careless voices to [emerge as the most powerful and influential][10] is far worse than opting for the status quo.
 
 I thought this referendum would come down to a choice between my head and my heart. I now see it as a choice between selfishness or solidarity; isolation or co-operation; ideology or pragmatism, xenophobia or internationalism.
 
-There is so much at stake. And there is still so much I wish to say. But the reasons for voting to remain in Europe are now crystal clear.
+There is so much at stake. And there is still so much more I wish to say. But the reasons for voting to remain in Europe have become crystal clear.
 
 [1]: http://blogs.spectator.co.uk/2016/06/a-day-of-infamy/
 [2]: https://en.wikipedia.org/wiki/The_Creation_of_Adam
@@ -74,6 +75,7 @@ There is so much at stake. And there is still so much I wish to say. But the rea
 [9]: https://www.theguardian.com/commentisfree/2016/jun/15/european-union-eu-britain-sovereignty
 [10]: https://nathanieltapley.com/2016/06/17/a-left-eurosceptic-voting-to-remain/
 
+*[MP]: Member of Parliament
 *[GCSE]: General Certificate of Secondary Education
 *[EU]: European Union
 *[TTIP]: Transatlantic Trade and Investment Partnership
