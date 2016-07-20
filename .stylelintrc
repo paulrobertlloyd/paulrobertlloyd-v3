@@ -1,15 +1,15 @@
 {
-    "ignoreFiles": [
-        "source/_assets/javascripts/vendor/*.scss",
-        "source/_assets/stylesheets/vendor/*.scss"
-    ],
-    "rules": {
-        "at-rule-empty-line-before": ["always", {
-            "except": ["blockless-group", "first-nested"],
-            "ignore": ["after-comment"]
-        }],
-        "declaration-colon-newline-after": "always-multi-line",
-        "function-url-quotes": "double",
-        "indentation": 4
-    }
+  "ignoreFiles": [
+    "source/_assets/javascripts/vendor/*.scss",
+    "source/_assets/stylesheets/vendor/*.scss"
+  ],
+  "rules": {
+    "at-rule-empty-line-before": ["always", {
+      "except": ["blockless-group", "first-nested"],
+      "ignore": ["after-comment"]
+    }],
+    "declaration-colon-newline-after": "always-multi-line",
+    "function-url-quotes": "double",
+    "indentation": 4
+  }
 }

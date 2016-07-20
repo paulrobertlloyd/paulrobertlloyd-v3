@@ -27,47 +27,47 @@ Prior to my move to California in 2006, I had flown only once, on a long haul re
 However, thanks to [Dopplr][4]'s ability to track the carbon generated from all these trips I've taken, you can see that since returning from America in 2007, there has been a year-on-year reduction of my footprint:
 
 <table class="c-chart c-chart--hbar">
-    <caption>My carbon footprint since 2003 as measured by Dopplr</caption>
-    <thead>
-        <tr>
-            <th>Year</th>
-            <th>Kg CO<sub>2</sub></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="c-chart__label">2003</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:46.60%;">4660</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">2004</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:10.21%;">1021</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">2005</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:31.22%;">3122</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">2006</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:57.18%;">5718</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">2007</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:94.32%;">9432</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">2008</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:76.45%;">7645</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">2009</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:57.67%;">5767</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">2010</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:28.40%;">2840</span></td>
-        </tr>
-    </tbody>
+  <caption>My carbon footprint since 2003 as measured by Dopplr</caption>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Kg CO<sub>2</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="c-chart__label">2003</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:46.60%;">4660</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">2004</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:10.21%;">1021</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">2005</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:31.22%;">3122</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">2006</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:57.18%;">5718</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">2007</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:94.32%;">9432</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">2008</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:76.45%;">7645</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">2009</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:57.67%;">5767</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">2010</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:28.40%;">2840</span></td>
+    </tr>
+  </tbody>
 </table>
 
 Still, my friends are right; flying so often undermines my ability to advocate a greener lifestyle. It also dawned on me just how unpleasant the entire experience is anyway. Endless queuing, administration and [frustration][5], just to travel in pretty appalling conditions -- I can't think of any other situation in which waking up two strangers and crawling across a row of seats, just to visit the toilet would be tolerated, but it is here.

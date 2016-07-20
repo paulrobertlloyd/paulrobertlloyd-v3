@@ -26,19 +26,19 @@ The `.c-button`{: .language-css} component class is used for buttons, which are 
 The `.c-chart`{: .language-css} component class is used for tabular content that has been visually formatted to appear in the form of a chart. Currently, only horizontal bar charts are supported (`.c-chart--hbar`{: .language-css}).
 
 <table class="c-chart c-chart--hbar">
-    <tbody>
-        <tr>
-            <th colspan="2">Javascript: Bytes downloaded (requests)</th>
-        </tr>
-        <tr>
-            <td class="c-chart__label">Before</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">35.00 kB (2)</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">After</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.66%;">1.28 kB (1)</span></td>
-        </tr>
-    </tbody>
+  <tbody>
+    <tr>
+      <th colspan="2">Javascript: Bytes downloaded (requests)</th>
+    </tr>
+    <tr>
+      <td class="c-chart__label">Before</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">35.00 kB (2)</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">After</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.66%;">1.28 kB (1)</span></td>
+    </tr>
+  </tbody>
 </table>
 
 ## Embeds

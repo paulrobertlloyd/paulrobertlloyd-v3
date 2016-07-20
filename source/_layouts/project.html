@@ -2,25 +2,25 @@
 layout: default
 ---
 <article class="c-page  h-entry">
-    {% include page/header.html %}
+  {% include page/header.html %}
 
-    <div class="c-section c-section--body">
-        {% if page.excerpt %}
-        <div class="s-prose s-prose--lede  p-summary">
-            {{ page.excerpt | markdownify | improve }}
-        </div>
-        {% endif %}
-
-        <div class="s-prose s-prose--body  e-content">
-            {% if page.screenshots %}
-            <div class="u-extend">
-                {% include screenshots.html imageset=page.screenshots %}
-            </div>
-            {% endif %}
-
-            {% include meta.html class="u-aside" %}
-
-            {{ content | improve }}
-        </div>
+  <div class="c-section c-section--body">
+    {% if page.excerpt %}
+    <div class="s-prose s-prose--lede  p-summary">
+      {{ page.excerpt | markdownify | improve }}
     </div>
+    {% endif %}
+
+    <div class="s-prose s-prose--body  e-content">
+      {% if page.screenshots %}
+      <div class="u-extend">
+        {% include screenshots.html imageset=page.screenshots %}
+      </div>
+      {% endif %}
+
+      {% include meta.html class="u-aside" %}
+
+      {{ content | improve }}
+    </div>
+  </div>
 </article>

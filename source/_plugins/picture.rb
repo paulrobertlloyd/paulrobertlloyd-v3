@@ -129,12 +129,12 @@ module Jekyll
         source_tags = ''
         source_keys.each { |source|
           media = " media=\"#{instance[source]['media']}\"" unless source == 'source_default'
-          source_tags += "#{markdown_escape * 4}<source srcset=\"#{instance[source][:generated_src]}\"#{media}>\n"
+          source_tags += "#{markdown_escape * 2}<source srcset=\"#{instance[source][:generated_src]}\"#{media}>\n"
         }
 
         picture_tag = "<picture>\n"\
-                      "#{markdown_escape * 4}#{source_tags}"\
-                      "#{markdown_escape * 4}<img src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
+                      "#{markdown_escape * 2}#{source_tags}"\
+                      "#{markdown_escape * 2}<img src=\"#{instance['source_default'][:generated_src]}\" #{html_attr_string}>\n"\
                       "</picture>\n"
 
       elsif @settings['markup'] == 'img'

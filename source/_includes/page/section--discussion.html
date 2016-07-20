@@ -1,37 +1,37 @@
 {% if page.discussion %}
 {% capture entry_id %}{{ page.path | remove:"_posts/entries/" | remove:"_posts/links/" | remove:".markdown" }}{% endcapture %}
 {% for discussion in site.discussions %}
-    {% capture discussion_id %}{{ discussion.path | remove:"_discussions/" | remove:".markdown" }}{% endcapture %}
-    {% if discussion_id == entry_id %}
-        {% capture discussion_count %}{{ discussion.remarks | size }}{% endcapture %}
-    {% endif %}
+  {% capture discussion_id %}{{ discussion.path | remove:"_discussions/" | remove:".markdown" }}{% endcapture %}
+  {% if discussion_id == entry_id %}
+    {% capture discussion_count %}{{ discussion.remarks | size }}{% endcapture %}
+  {% endif %}
 {% endfor %}
 <section class="c-section c-section--complementary" aria-labelledby="discussion">
-    <header class="c-section__header">
-        <h1 class="c-section__title" id="discussion">Discussion</h1>
-    </header>
+  <header class="c-section__header">
+    <h1 class="c-section__title" id="discussion">Discussion</h1>
+  </header>
 
-    <div class="c-section__main">
-        <div class="s-prose s-prose--body">
-            <p>
-                {% case discussion_count %}
-                {% when "0" %}
-                    This entry has no remarks yet.
-                {% when "1" %}
-                    <a href="{{ page.url }}/discussion">This entry has a single remark</a>.
-                {% else %}
-                    <a href="{{ page.url }}/discussion">This entry has {{ discussion_count }} remarks</a>.
-                {% endcase %}
-                {% if page.discussion == "open" %}
-                    Add yours!
-                {% else %}
-                    The discussion has now ended.
-                {% endif %}
-            </p>
-            {% if page.discussion == "open" %}
-                {% include form/remark.html %}
-            {% endif %}
-        </div>
+  <div class="c-section__main">
+    <div class="s-prose s-prose--body">
+      <p>
+        {% case discussion_count %}
+        {% when "0" %}
+          This entry has no remarks yet.
+        {% when "1" %}
+          <a href="{{ page.url }}/discussion">This entry has a single remark</a>.
+        {% else %}
+          <a href="{{ page.url }}/discussion">This entry has {{ discussion_count }} remarks</a>.
+        {% endcase %}
+        {% if page.discussion == "open" %}
+          Add yours!
+        {% else %}
+          The discussion has now ended.
+        {% endif %}
+      </p>
+      {% if page.discussion == "open" %}
+        {% include form/remark.html %}
+      {% endif %}
     </div>
+  </div>
 </section>
 {% endif %}

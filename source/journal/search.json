@@ -2,12 +2,12 @@
 ---
 [
 {% for post in site.posts %}
-    {
-        "title": "{{ post.title | escape | smartify }}",
-        "type": "{{ post.layout }}",
-        "tags": "{{ post.tags | array_to_sentence_string }}",
-        "url": "{{ post.url | remove:'.html' }}",
-        "date": "{{ post.date }}"
-    } {% if forloop.last %}{% else %},{% endif %}
+  {
+    "title": "{{ post.title | escape | smartify }}",
+    "type": "{{ post.layout }}",
+    "tags": "{{ post.tags | array_to_sentence_string }}",
+    "url": "{{ post.url | remove:'.html' }}",
+    "date": "{{ post.date }}"
+  } {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 ]

@@ -1,15 +1,15 @@
 {% assign series = site.documents | where:"series",page.series | sort:"date" %}
 <nav class="c-nav c-nav--series {{ include.class }}" aria-labelledby="chapters">
-    <h1 class="c-nav__title" id="chapters">Chapters</h1>
+  <h1 class="c-nav__title" id="chapters">Chapters</h1>
 
-    <ol class="c-list">
-        <li class="c-nav__item c-list__item{% if page.url == series[0].url %} is-active{% endif %}">
-            <a class="c-nav__label" href="{{ series[0].url }}">Introduction</a>
-        </li>
-        {% for item in series offset:1 %}
-        <li class="c-nav__item c-list__item{% if page.url == item.url %} is-active{% endif %}">
-            <a class="c-nav__label" href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-    </ol>
+  <ol class="c-list">
+    <li class="c-nav__item c-list__item{% if page.url == series[0].url %} is-active{% endif %}">
+      <a class="c-nav__label" href="{{ series[0].url }}">Introduction</a>
+    </li>
+    {% for item in series offset:1 %}
+    <li class="c-nav__item c-list__item{% if page.url == item.url %} is-active{% endif %}">
+      <a class="c-nav__label" href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+    {% endfor %}
+  </ol>
 </nav>

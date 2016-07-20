@@ -4,11 +4,11 @@ title: Tags
 permalink: /tags/
 ---
 <div class="c-section">
-    <ol class="c-list c-list--inline">
-    {% assign tags = site.tags | sort %}
-    {% for tag_array in tags %}
-        {% capture tag %}{{ tag_array[0] }}{% endcapture %}
-        <li class="c-list__item">{% include tag.html tag=tag %}</li>
-    {% endfor %}
-    </ol>
+  <ol class="c-list c-list--inline">
+  {% assign tags = site.tags | sort %}
+  {% for tag_array in tags %}
+    {% capture tag %}{{ tag_array[0] }}{% endcapture %}
+    <li class="c-list__item">{% include tag.html tag=tag %}</li>
+  {% endfor %}
+  </ol>
 </div>

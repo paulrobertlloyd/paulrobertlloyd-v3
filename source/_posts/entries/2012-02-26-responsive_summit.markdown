@@ -40,10 +40,10 @@ Yet Chris's suggestion isn't a million miles away from a [proposal to handle ima
 
 ~~~ html
 <picture>
-    <source src="high-res.jpg" media="min-width: 50em"/>
-    <source src="low-res.jpg"/>
-    <!-- Fallback content: -->
-    <img src="low-res.jpg"/>
+  <source src="high-res.jpg" media="min-width: 50em"/>
+  <source src="low-res.jpg"/>
+  <!-- Fallback content: -->
+  <img src="low-res.jpg"/>
 </picture>
 ~~~
 

@@ -2,57 +2,57 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>{{ site.url }}/</id>
-    <title>{{ site.title }} / Journal</title>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <author>
-        <name>{{ site.author.name }}</name>
-        <email>{{ site.author.email }}</email>
-        <uri>{{ site.author.url }}</uri>
-    </author>
-    <link href="{{ site.url }}/journal/feed" rel="self"/>
-    <link href="{{ site.url }}/journal/"/>
-    <generator uri="http://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
-    <icon>{{ site.url }}{% asset_path icon--192x192.png %}</icon>
-    <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
+  <id>{{ site.url }}/</id>
+  <title>{{ site.title }} / Journal</title>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+    <uri>{{ site.author.url }}</uri>
+  </author>
+  <link href="{{ site.url }}/journal/feed" rel="self"/>
+  <link href="{{ site.url }}/journal/"/>
+  <generator uri="http://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
+  <icon>{{ site.url }}{% asset_path icon--192x192.png %}</icon>
+  <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 
-    {% for post in site.posts limit:25 %}
-    <entry>
-        {% case post.type %}
-        {% when "gallery" %}
-            {% assign title_prefix = "Gallery: " %}
-        {% when "link" %}
-            {% assign title_prefix = "Link: " %}
-        {% when "entry" %}
-            {% assign title_prefix = "★ " %}
-        {% endcase %}
-        <id>{{ site.url }}{{ post.id }}</id>
-        <title>{{ title_prefix }}{{ post.title | markdownify | strip_html | xml_escape }}</title>
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <link href="{{ site.url }}{{ post.url }}"/>
-        <content type="html">
+  {% for post in site.posts limit:25 %}
+  <entry>
+    {% case post.type %}
+    {% when "gallery" %}
+      {% assign title_prefix = "Gallery: " %}
+    {% when "link" %}
+      {% assign title_prefix = "Link: " %}
+    {% when "entry" %}
+      {% assign title_prefix = "★ " %}
+    {% endcase %}
+    <id>{{ site.url }}{{ post.id }}</id>
+    <title>{{ title_prefix }}{{ post.title | markdownify | strip_html | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <content type="html">
 <![CDATA[
 {% if post.image.url %}
-    {% figure caption:"{{ post.image.caption }}" %}
+  {% figure caption:"{{ post.image.caption }}" %}
 {% picture {{ post.image.url }} alt="" %}
-    {% endfigure %}
+  {% endfigure %}
 {% endif %}
 
 {% if post.embed %}
-    {% figure %}
+  {% figure %}
 {% include embed.html url=post.link %}
-    {% endfigure %}
+  {% endfigure %}
 {% endif %}
 
 {{ post.content | markdownify }}
 {% case post.type %}
 {% when "gallery" %}
-    <p><a href="{{ post.url }}">View this gallery &#10217;</a></p>
+  <p><a href="{{ post.url }}">View this gallery &#10217;</a></p>
 {% when "link" %}
-    <p><a href="{{ post.link.url }}">Visit this link &#10217;</a></p>
+  <p><a href="{{ post.link.url }}">Visit this link &#10217;</a></p>
 {% endcase %}
 ]]>
-        </content>
-    </entry>
-    {% endfor %}
+    </content>
+  </entry>
+  {% endfor %}
 </feed>

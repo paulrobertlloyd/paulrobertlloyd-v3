@@ -1,27 +1,27 @@
 <form class="form form--contact" action="https://formspree.io/contact@public.paulrobertlloyd.com" method="post">
-    <fieldset class="c-form__fieldset">
-        <p class="c-form__field">
-            <span class="c-form__label-inline">
-                <label class="c-form__label" for="name">Your name</label>
-                <input class="c-form__input c-form__input--text" type="text" name="name" id="name" required/>
-            </span>
-            <input class="c-form__input c-form__input--text" type="text" name="_gotcha" hidden aria-hidden="true" tabindex="-1"/>
-        </p>
-        <p class="c-form__field">
-            <span class="c-form__label-inline">
-                <label class="c-form__label" for="replyto">Your email</label>
-                <input class="c-form__input c-form__input--text" type="email" name="_replyto" id="replyto" required/>
-            </span>
-        </p>
-        <p class="c-form__field">
-            <span class="c-form__label-inline">
-                <label class="c-form__label" for="message">Message</label>
-                <textarea class="c-form__input c-form__input--textarea" name="message" id="message" required row="20" cols="40"{% if include.note %} aria-describedby="message-note"{% endif %}></textarea>
-            </span>
-            {% if include.note %}<em class="c-form__note" id="message-note">{{ include.note }}</em>{% endif %}
-        </p>
-        <input class="c-form__hidden" type="hidden" name="_next" value="/contact/thanks"/>
-        <input class="c-form__hidden" type="hidden" name="_subject" value="[{{ site.title }}] New message"/>
-    </fieldset>
-    <input class="c-form__submit c-button" type="submit" value="Send Message"/>
+  <fieldset class="c-form__fieldset">
+    <p class="c-form__field">
+      <span class="c-form__label-inline">
+        <label class="c-form__label" for="name">Your name</label>
+        <input class="c-form__input c-form__input--text" type="text" name="name" id="name" required/>
+      </span>
+      <input class="c-form__input c-form__input--text" type="text" name="_gotcha" hidden aria-hidden="true" tabindex="-1"/>
+    </p>
+    <p class="c-form__field">
+      <span class="c-form__label-inline">
+        <label class="c-form__label" for="replyto">Your email</label>
+        <input class="c-form__input c-form__input--text" type="email" name="_replyto" id="replyto" required/>
+      </span>
+    </p>
+    <p class="c-form__field">
+      <span class="c-form__label-inline">
+        <label class="c-form__label" for="message">Message</label>
+        <textarea class="c-form__input c-form__input--textarea" name="message" id="message" required row="20" cols="40"{% if include.note %} aria-describedby="message-note"{% endif %}></textarea>
+      </span>
+      {% if include.note %}<em class="c-form__note" id="message-note">{{ include.note }}</em>{% endif %}
+    </p>
+    <input class="c-form__hidden" type="hidden" name="_next" value="/contact/thanks"/>
+    <input class="c-form__hidden" type="hidden" name="_subject" value="[{{ site.title }}] New message"/>
+  </fieldset>
+  <input class="c-form__submit c-button" type="submit" value="Send Message"/>
 </form>

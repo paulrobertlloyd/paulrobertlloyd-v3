@@ -28,19 +28,19 @@ Uncomfortable with having 30kB of jQuery as a dependancy, JavaScript was my firs
 With this code removed, the only behavioural enhancement required was for the responsive navigation. I'd like to thank [Anthony Williams][7] for helping me rewrite this using pure JavaScript. However, I'm still calling jQuery on pages displaying slideshows, so actively looking for an alternative that will allow me to shed this dependancy entirely.
 
 <table class="c-chart c-chart--hbar">
-    <tbody>
-        <tr>
-            <th colspan="2">Javascript: Bytes downloaded (requests)</th>
-        </tr>
-        <tr>
-            <td class="c-chart__label">Before</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">35.00 kB (2)</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">After</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.66%;">1.28 kB (1)</span></td>
-        </tr>
-    </tbody>
+  <tbody>
+    <tr>
+      <th colspan="2">Javascript: Bytes downloaded (requests)</th>
+    </tr>
+    <tr>
+      <td class="c-chart__label">Before</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">35.00 kB (2)</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">After</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:3.66%;">1.28 kB (1)</span></td>
+    </tr>
+  </tbody>
 </table>
 
 ## CSS
@@ -49,19 +49,19 @@ While helping out on a recent project at Clearleft, [Mark][8] introduced me to [
 By removing unused style rules and refactoring others, my raw stylesheet shrunk by 19kB. Yet you'll note that the compressed CSS file is still larger that it was before. That's because the small background [noise texture][11] shown on larger viewports has been embedded as a base64 string, removing a further request.
 
 <table class="c-chart c-chart--hbar">
+  <tr>
+    <th colspan="2">CSS: Bytes downloaded</th>
+  </tr>
+  <tbody>
     <tr>
-        <th colspan="2">CSS: Bytes downloaded</th>
+      <td class="c-chart__label">Before</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:91.46%;">8.25 kB</span></td>
     </tr>
-    <tbody>
-        <tr>
-            <td class="c-chart__label">Before</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:91.46%;">8.25 kB</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">After</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">9.02 kB</span></td>
-        </tr>
-    </tbody>
+    <tr>
+      <td class="c-chart__label">After</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">9.02 kB</span></td>
+    </tr>
+  </tbody>
 </table>
 
 ## SVG
@@ -142,23 +142,23 @@ Note how the square shape, the feed icon and the circles used within the Flickr 
 It's easy to assume that gzip will take care of reducing file sizes, but manual optimisation beforehand can result in even larger reductions. For example, I was able to reduce my original SVG sprite (9.48kB, 3.36kB gzipped) to 7.34kB, which compressed down to just 2.84kB -- comparable in size to the PNG sprite. 500 bytes seems like a small reduction, but using this technique on larger SVG images will have an even greater impact.
 
 <table class="c-chart c-chart--hbar">
+  <tr>
+    <th colspan="2">Image sprite: Bytes downloaded</th>
+  </tr>
+  <tbody>
     <tr>
-        <th colspan="2">Image sprite: Bytes downloaded</th>
+      <td class="c-chart__label">PNG</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:79.41%;">3.42 kB</span></td>
     </tr>
-    <tbody>
-        <tr>
-            <td class="c-chart__label">PNG</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:79.41%;">3.42 kB</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">SVG Before</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">4.31 kB</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">SVG After</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:87.23%;">3.80 kB</span></td>
-        </tr>
-    </tbody>
+    <tr>
+      <td class="c-chart__label">SVG Before</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">4.31 kB</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">SVG After</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:87.23%;">3.80 kB</span></td>
+    </tr>
+  </tbody>
 </table>
 
 ## Fonts
@@ -169,19 +169,19 @@ A free service without limitations or account management, Adobe's new service is
 Of course, there is a trade-off here. Services like Fontdeck provide an extensive library of premium webfonts while free services like Adobe's only offer a small selection of open source fonts. Yet with simpler set-up and greater performance, they're an attractive option.
 
 <table class="c-chart c-chart--hbar">
-    <tbody>
-        <tr>
-            <th colspan="2">Webfonts: Bytes downloaded (requests)</th>
-        </tr>
-        <tr>
-            <td class="c-chart__label"><span markdown="1">Before[^1]</span></td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">325.9 kB (6)</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label"><span markdown="1">After[^2]</span></td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:25.22%;">82.2 kB (3)</span></td>
-        </tr>
-    </tbody>
+  <tbody>
+    <tr>
+      <th colspan="2">Webfonts: Bytes downloaded (requests)</th>
+    </tr>
+    <tr>
+      <td class="c-chart__label"><span markdown="1">Before[^1]</span></td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">325.9 kB (6)</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label"><span markdown="1">After[^2]</span></td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:25.22%;">82.2 kB (3)</span></td>
+    </tr>
+  </tbody>
 </table>
 
 ## Other Optimisations
@@ -196,46 +196,46 @@ There have been a few design related tweaks too. I simplified the IA by moving l
 In February, I concluded the results of my performance optimisation by including results from Google Page Speed, YSlow and webpagetest.org. This means I can measure the effectiveness of these latest changes. Both Google Page Speed and YSlow scores have increased by two points, to 96 and 98 respectively. Comparing results saved from webpagetest.org, the following improvements on the homepage can be recorded also:
 
 <table class="c-chart c-chart--hbar">
-    <caption markdown="1">Homepage comparison: [22 February 2012](http://webpagetest.org/result/120222_QC_3B11V/1/details/) v [30 October 2012](http://webpagetest.org/result/121030_06_GZC/1/details/)</caption>
-    <tbody>
-        <tr>
-            <th colspan="2">Requests</th>
-        </tr>
-        <tr>
-            <td class="c-chart__label">Before</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">23</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">After</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:65.22%;">15</span></td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
-            <th colspan="2">Bytes downloaded</th>
-        </tr>
-        <tr>
-            <td class="c-chart__label">Before</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">500 kB</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">After</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:33.8%;">169 kB</span></td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
-            <th colspan="2">Time to fully load document</th>
-        </tr>
-        <tr>
-            <td class="c-chart__label">Before</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">4.684 seconds</span></td>
-        </tr>
-        <tr>
-            <td class="c-chart__label">After</td>
-            <td class="c-chart__value"><span class="c-chart__value--percent" style="width:73.68%;">3.304 seconds</span></td>
-        </tr>
-    </tbody>
+  <caption markdown="1">Homepage comparison: [22 February 2012](http://webpagetest.org/result/120222_QC_3B11V/1/details/) v [30 October 2012](http://webpagetest.org/result/121030_06_GZC/1/details/)</caption>
+  <tbody>
+    <tr>
+      <th colspan="2">Requests</th>
+    </tr>
+    <tr>
+      <td class="c-chart__label">Before</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">23</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">After</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:65.22%;">15</span></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th colspan="2">Bytes downloaded</th>
+    </tr>
+    <tr>
+      <td class="c-chart__label">Before</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">500 kB</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">After</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:33.8%;">169 kB</span></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th colspan="2">Time to fully load document</th>
+    </tr>
+    <tr>
+      <td class="c-chart__label">Before</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:100%;">4.684 seconds</span></td>
+    </tr>
+    <tr>
+      <td class="c-chart__label">After</td>
+      <td class="c-chart__value"><span class="c-chart__value--percent" style="width:73.68%;">3.304 seconds</span></td>
+    </tr>
+  </tbody>
 </table>
 
 ## If I Had More Time, I Would Make the Website Quicker

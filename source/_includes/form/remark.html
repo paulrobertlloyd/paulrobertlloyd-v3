@@ -1,26 +1,26 @@
 <form class="form form--remark" action="https://formspree.io/remark+{{ page.id | remove_first: "/" | replace:"/", "-" }}@public.paulrobertlloyd.com" method="post">
-    <fieldset class="c-form__fieldset">
-        <p class="c-form__field">
-            <span class="c-form__label-inline">
-                <label class="c-form__label" for="name">Your name</label>
-                <input class="c-form__input c-form__input--text" type="text" name="name" id="name" required/>
-            </span>
-            <input class="c-form__input c-form__input--text" type="text" name="_gotcha" hidden aria-hidden="true" tabindex="-1"/>
-        </p>
-        <p class="c-form__field">
-            <span class="c-form__label-inline">
-                <label class="c-form__label" for="replyto">Your email</label>
-                <input class="c-form__input c-form__input--text" type="email" name="_replyto" id="replyto" required/>
-            </span>
-        </p>
-        <p class="c-form__field">
-            <span class="c-form__label-inline">
-                <label class="c-form__label" for="remark">Remark</label>
-                <textarea class="c-form__input c-form__input--textarea" name="remark" id="remark" required row="20" cols="40"></textarea>
-            </span>
-        </p>
-        <input class="c-form__hidden" type="hidden" name="_next" value="{{ page.url }}"/>
-        <input class="c-form__hidden" type="hidden" name="_subject" value="[{{ site.title }}] New remark on {{ page.title }}"/>
-    </fieldset>
-    <input class="c-form__submit c-button" type="submit" value="Submit Remark"/>
+  <fieldset class="c-form__fieldset">
+    <p class="c-form__field">
+      <span class="c-form__label-inline">
+        <label class="c-form__label" for="name">Your name</label>
+        <input class="c-form__input c-form__input--text" type="text" name="name" id="name" required/>
+      </span>
+      <input class="c-form__input c-form__input--text" type="text" name="_gotcha" hidden aria-hidden="true" tabindex="-1"/>
+    </p>
+    <p class="c-form__field">
+      <span class="c-form__label-inline">
+        <label class="c-form__label" for="replyto">Your email</label>
+        <input class="c-form__input c-form__input--text" type="email" name="_replyto" id="replyto" required/>
+      </span>
+    </p>
+    <p class="c-form__field">
+      <span class="c-form__label-inline">
+        <label class="c-form__label" for="remark">Remark</label>
+        <textarea class="c-form__input c-form__input--textarea" name="remark" id="remark" required row="20" cols="40"></textarea>
+      </span>
+    </p>
+    <input class="c-form__hidden" type="hidden" name="_next" value="{{ page.url }}"/>
+    <input class="c-form__hidden" type="hidden" name="_subject" value="[{{ site.title }}] New remark on {{ page.title }}"/>
+  </fieldset>
+  <input class="c-form__submit c-button" type="submit" value="Submit Remark"/>
 </form>

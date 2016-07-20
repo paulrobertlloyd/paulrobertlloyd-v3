@@ -35,7 +35,7 @@ Assuming the year is 2015, this will generate the following HTML:
 This plugin provides a Liquid tag that generates `<figure>` elements. It takes optional parameters to add an associated `<figcaption>` and `class` attribute(s) if desired. For example, using the following code:
 
 ~~~ liquid
-{% raw %}{% figure caption:"Being situated in Linton is the genius of this hotel’s 
+{% raw %}{% figure caption:"Being situated in Linton is the genius of this hotel’s
 location, being equidistant between London and Norwich" class:"align-left" %}
 ![Linton Travel Tavern](/images/linton.jpg)
 {% endfigure %}{% endraw %}
@@ -45,11 +45,11 @@ will generate the following HTML:
 
 ~~~ html
 <figure class="align-left">
-    <img src="/images/linton.jpg" alt="Linton Travel Tavern"/>
-    <figcaption>
-        Being situated in Linton is the genius of this hotel’s location,
-        being equidistant between London and Norwich
-    <figcaption>
+  <img src="/images/linton.jpg" alt="Linton Travel Tavern"/>
+  <figcaption>
+    Being situated in Linton is the genius of this hotel’s location,
+    being equidistant between London and Norwich
+  <figcaption>
 </figure>
 ~~~
 

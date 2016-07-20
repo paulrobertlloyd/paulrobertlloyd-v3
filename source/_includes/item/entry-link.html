@@ -1,30 +1,30 @@
 <article class="c-item c-item--link  h-entry">
-    <header class="c-item__header">
-        <h1 class="c-item__title  p-name">
-            <a class="c-item__link  u-url" href="{{ item.link }}">
-                {{ item.title | smartypants }}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>
-            </a>
-        </h1>
-    </header>
+  <header class="c-item__header">
+    <h1 class="c-item__title  p-name">
+      <a class="c-item__link  u-url" href="{{ item.link }}">
+        {{ item.title | smartypants }}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>
+      </a>
+    </h1>
+  </header>
 
-    <footer class="c-item__footer">
-        <p class="c-item__meta">
-            <strong class="u-separate  p-category">Link</strong>
-            <a href="{{ item.url }}" rel="bookmark">
-                <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
-            </a>
-        </p>
-    </footer>
+  <footer class="c-item__footer">
+    <p class="c-item__meta">
+      <strong class="u-separate  p-category">Link</strong>
+      <a href="{{ item.url }}" rel="bookmark">
+        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+      </a>
+    </p>
+  </footer>
 
-    {% if item.embed %}
-    <div class="c-item__media u-bleed">
-        {% include embed.html url=item.link title=item.title %}
+  {% if item.embed %}
+  <div class="c-item__media u-bleed">
+    {% include embed.html url=item.link title=item.title %}
+  </div>
+  {% endif %}
+
+  <div class="c-item__main">
+    <div class="s-prose  p-summary">
+      {{ item.content | markdownify | improve }}
     </div>
-    {% endif %}
-
-    <div class="c-item__main">
-        <div class="s-prose  p-summary">
-            {{ item.content | markdownify | improve }}
-        </div>
-    </div>
+  </div>
 </article>

@@ -1,11 +1,11 @@
 <article class="c-item c-item--series  h-entry">
-    <h1 class="c-item__title  p-name">
-        <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
-            {{ item.title | smartypants }}
-        </a>
-    </h1>
+  <h1 class="c-item__title  p-name">
+    <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
+      {{ item.title | smartypants }}
+    </a>
+  </h1>
 
-    <p class="c-item__meta">
-        {% if item.layout == "gallery" %}<strong class="u-separate  p-category">Gallery</strong> {% endif %}<time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
-    </p>
+  <p class="c-item__meta">
+    {% if item.layout == "gallery" %}<strong class="u-separate  p-category">Gallery</strong> {% endif %}<time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+  </p>
 </article>

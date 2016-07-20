@@ -1,16 +1,16 @@
 <article class="c-item c-item--project  h-entry">
-    <h1 class="c-item__title">
-        <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
-            {% if item.featured %}
-                {% asset_source "c-item__logo--{{ item.title | slugify }}.svg" %}
-            {% else %}
-                {{ item.title }}
-            {% endif %}
-        </a>
-    </h1>
+  <h1 class="c-item__title">
+    <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
+      {% if item.featured %}
+        {% asset_source "c-item__logo--{{ item.title | slugify }}.svg" %}
+      {% else %}
+        {{ item.title }}
+      {% endif %}
+    </a>
+  </h1>
 
-    <p class="c-item__meta  p-summary">
-        {% if item.featured %}<strong class="u-separate  p-name">{{ item.title | smartypants }}</strong>{% endif %}
-        {{ item.excerpt | improve }}
-    </p>
+  <p class="c-item__meta  p-summary">
+    {% if item.featured %}<strong class="u-separate  p-name">{{ item.title | smartypants }}</strong>{% endif %}
+    {{ item.excerpt | improve }}
+  </p>
 </article>

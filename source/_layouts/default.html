@@ -8,63 +8,63 @@ layout: compress
 <html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
 <head>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
-    <link rel="apple-touch-icon" href="{% asset_path icon--192x192.png %}" type="image/png"/>
-    <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme.color }}"/>
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
-    <link rel="manifest" href="/manifest.json"/>
-    {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
+  <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
+  <link rel="apple-touch-icon" href="{% asset_path icon--192x192.png %}" type="image/png"/>
+  <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme.color }}"/>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+  <link rel="manifest" href="/manifest.json"/>
+  {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
 
-    <meta charset="utf-8"/>
-    <meta name="author" content="{{ site.author.name }}"/>
-    <meta name="referrer" content="origin"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="theme-color" content="{{ site.theme.color }}"/>
-    <meta name="application-name" content="{{ site.title }}"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="fullcss"  content="{% asset_path global.css %}"/>
-    <meta name="fulljs" content="{% asset_path global.js %}"/>
+  <meta charset="utf-8"/>
+  <meta name="author" content="{{ site.author.name }}"/>
+  <meta name="referrer" content="origin"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="theme-color" content="{{ site.theme.color }}"/>
+  <meta name="application-name" content="{{ site.title }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="fullcss"  content="{% asset_path global.css %}"/>
+  <meta name="fulljs" content="{% asset_path global.js %}"/>
 
 {% if page.path contains ".markdown" %}
-    <meta property="og:title" content="{% unless page.home %}{{ page.title | xml_escape }}{% else %}{{ site.title }}{% endunless %}"/>
-    <meta property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
-    <meta property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
-    {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}/image/640x360/100q{{ page.image.url }}"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    {% else %}
-    <meta property="og:image" content="{{ site.url }}{% asset_path icon--192x192.png %}"/>
-    <meta name="twitter:card" content="summary"/>
-    {% endif %}
-    <meta name="twitter:site" content="@paulrobertlloyd"/>
+  <meta property="og:title" content="{% unless page.home %}{{ page.title | xml_escape }}{% else %}{{ site.title }}{% endunless %}"/>
+  <meta property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
+  <meta property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
+  {% if page.image %}
+  <meta property="og:image" content="{{ site.url }}/image/640x360/100q{{ page.image.url }}"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  {% else %}
+  <meta property="og:image" content="{{ site.url }}{% asset_path icon--192x192.png %}"/>
+  <meta name="twitter:card" content="summary"/>
+  {% endif %}
+  <meta name="twitter:site" content="@paulrobertlloyd"/>
 {% endif %}
 
 <!--#if expr="$HTTP_COOKIE=/fullcss\=true/"-->
-    <link rel="stylesheet" href="{% asset_path global.css %}"/>
+  <link rel="stylesheet" href="{% asset_path global.css %}"/>
 <!--#else-->
-    <style>
-        {% asset_source critical.css %}
-    </style>
+  <style>
+    {% asset_source critical.css %}
+  </style>
 <!--#endif-->
 
 {% if page.style %}
-    <style>
-        {{ page.style }}
-    </style>
+  <style>
+    {{ page.style }}
+  </style>
 {% endif %}
 
-    <script>
-        {% asset_source head.js %}
-    </script>
-    <noscript><link rel="stylesheet" href="{% asset_path global.css %}"/></noscript>
+  <script>
+    {% asset_source head.js %}
+  </script>
+  <noscript><link rel="stylesheet" href="{% asset_path global.css %}"/></noscript>
 
-    <title>{% unless page.home %}{% include title.html %} / {% endunless %}{{ site.title }}</title>
+  <title>{% unless page.home %}{% include title.html %} / {% endunless %}{{ site.title }}</title>
 </head>
 
 <body id="top">
-    {% include banner.html %}
-    {% include navigation.html %}
-    {% include main.html %}
-    {% include contentinfo.html %}
+  {% include banner.html %}
+  {% include navigation.html %}
+  {% include main.html %}
+  {% include contentinfo.html %}
 </body>
 </html>

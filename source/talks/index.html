@@ -5,27 +5,27 @@ landing: true
 ---
 {% assign talks = site.talks | sort:"date" %}
 {% for item in talks reversed %}
-    {% assign this_year = item.date | date:"%Y" %}
+  {% assign this_year = item.date | date:"%Y" %}
 
-    {% if this_year != year %}
-        {% unless forloop.first %}
-    </div>
+  {% if this_year != year %}
+    {% unless forloop.first %}
+  </div>
 </section>
-        {% endunless %}
+    {% endunless %}
 
 <section class="c-section c-section--archive" aria-labelledby="year-{{ this_year }}">
-    <header class="c-section__header">
-        <h1 class="c-section__title" id="year-{{ this_year }}">{{ this_year }}</h1>
-    </header>
+  <header class="c-section__header">
+    <h1 class="c-section__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+  </header>
 
-    <div class="c-section__main">
-        {% assign year = this_year %}
-    {% endif %}
+  <div class="c-section__main">
+    {% assign year = this_year %}
+  {% endif %}
 
-        {% include item/talk.html %}
+    {% include item/talk.html %}
 
-    {% if forloop.last %}
-    </div>
+  {% if forloop.last %}
+  </div>
 </section>
-    {% endif %}
+  {% endif %}
 {% endfor %}

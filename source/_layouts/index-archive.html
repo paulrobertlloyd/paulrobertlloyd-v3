@@ -3,10 +3,10 @@ layout: index
 ---
 <div class="c-section">
 {% for item in page.posts %}
-    {% if item.link %}
-        {% include item/entry-link.html %}
-    {% else %}
-        {% include item/entry.html %}
-    {% endif %}
+  {% if item.link %}
+    {% include item/entry-link.html %}
+  {% else %}
+    {% include item/entry.html %}
+  {% endif %}
 {% endfor %}
 </div>

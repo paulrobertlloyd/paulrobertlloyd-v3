@@ -1,15 +1,15 @@
 {% if page.tags %}
 <section class="c-section c-section--complementary" role="complementary" aria-labelledby="tags">
-    <header class="c-section__header u-hidden">
-        <h1 class="c-section__title" id="tags">Tags</h1>
-    </header>
+  <header class="c-section__header u-hidden">
+    <h1 class="c-section__title" id="tags">Tags</h1>
+  </header>
 
-    <div class="c-section__main">
-        <ol class="c-list c-list--inline">
-        {% for tag in page.tags %}
-            <li class="c-list__item">{% include tag.html tag=tag %}</li>
-        {% endfor %}
-        </ol>
-    </div>
+  <div class="c-section__main">
+    <ol class="c-list c-list--inline">
+    {% for tag in page.tags %}
+      <li class="c-list__item">{% include tag.html tag=tag %}</li>
+    {% endfor %}
+    </ol>
+  </div>
 </section>
 {% endif %}

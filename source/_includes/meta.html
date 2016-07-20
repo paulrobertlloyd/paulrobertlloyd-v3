@@ -1,16 +1,16 @@
 {% if page.meta %}
 <aside class="c-meta {{ include.class }}" role="complementary">
-    <h2 class="c-meta__title u-hidden">Information about {{ page.title }}</h2>
-    <dl class="c-meta__values">
-    {% if page.path contains "_talks" %}
-        <dt class="c-meta__title">Presented</dt>
-        <dd class="c-meta__value"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time></dd>
-    {% endif %}
-    {% for item in page.meta %}
-        {% capture meta__value %}{{ item[1] }}{% endcapture %}
-        <dt class="c-meta__title">{{ item[0] | capitalize }}</dt>
-        <dd class="c-meta__value">{{ meta__value | markdownify | improve }}</dd>
-    {% endfor %}
-    </dl>
+  <h2 class="c-meta__title u-hidden">Information about {{ page.title }}</h2>
+  <dl class="c-meta__values">
+  {% if page.path contains "_talks" %}
+    <dt class="c-meta__title">Presented</dt>
+    <dd class="c-meta__value"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time></dd>
+  {% endif %}
+  {% for item in page.meta %}
+    {% capture meta__value %}{{ item[1] }}{% endcapture %}
+    <dt class="c-meta__title">{{ item[0] | capitalize }}</dt>
+    <dd class="c-meta__value">{{ meta__value | markdownify | improve }}</dd>
+  {% endfor %}
+  </dl>
 </aside>
 {% endif %}

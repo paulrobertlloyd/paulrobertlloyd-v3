@@ -1,17 +1,17 @@
 {% if paginator.next_page or paginator.previous_page %}
 <nav class="c-nav c-nav--pagination" aria-labelledby="browse">
-    <h1 class="c-nav__title u-hidden" id="browse">Browse {{ page.title }}</h1>
+  <h1 class="c-nav__title u-hidden" id="browse">Browse {{ page.title }}</h1>
 
-    {% if paginator.next_page %}
-    <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
-        <span class="c-nav__label"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Older</span>
-    </a>
-    {% endif %}
+  {% if paginator.next_page %}
+  <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path }}">
+    <span class="c-nav__label"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Older</span>
+  </a>
+  {% endif %}
 
-    {% if paginator.previous_page %}
-    <a class="c-nav__item c-nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
-        <span class="c-nav__label">Newer <span class="u-icon" data-icon="&#10217;" aria-hidden="true"></span></span>
-    </a>
-    {% endif %}
+  {% if paginator.previous_page %}
+  <a class="c-nav__item c-nav__item--next" rel="next" href="{{ paginator.previous_page_path }}">
+    <span class="c-nav__label">Newer <span class="u-icon" data-icon="&#10217;" aria-hidden="true"></span></span>
+  </a>
+  {% endif %}
 </nav>
 {% endif %}
