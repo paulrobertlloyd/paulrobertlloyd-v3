@@ -1,18 +1,11 @@
 ---
 layout: default
 ---
-{% capture discussion_id %}{{ page.path | remove:"_discussions/" | remove:".markdown" }}{% endcapture %}
-{% for entry in site.posts %}
-  {% capture entry_id %}{{ entry.path | remove:"_posts/entries/" | remove:"_posts/links/" | remove:".markdown" }}{% endcapture %}
-  {% if entry_id == discussion_id %}
-    {% capture entry_url %}{{ entry.url }}{% endcapture %}
-  {% endif %}
-{% endfor %}
 <article class="c-page  h-entry">
   {% include page/header.html %}
 
   <footer class="c-page__footer">
-    <p><a href="{{ entry_url }}"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Return to entry</a></p>
+    <p><a href="{{ page.url | remove: "/discussion" }}"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Return to entry</a></p>
   </footer>
 
   <section class="c-section c-section--remarks" aria-labelledby="remarks">
