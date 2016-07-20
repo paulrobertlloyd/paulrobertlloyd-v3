@@ -4,33 +4,33 @@
 // ========================================================
 
 a {
-    transition: color 0.1s ease-out, background-image 0.1s ease-out;
-    // Remove gray background color from active links in IE 10
-    background-color: transparent;
-    text-decoration: none;
-    color: inherit;
+  transition: color 0.1s ease-out, background-image 0.1s ease-out;
+  // Remove gray background color from active links in IE 10
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
 
-    &:active,
-    &:hover {
-        // Improve readability when focused and mouse hovered in all browsers
-        outline: 0;
-    }
+  &:active,
+  &:hover {
+    // Improve readability when focused and mouse hovered in all browsers
+    outline: 0;
+  }
 
-    &:focus {
-        outline: 0;
-        background-color: $c__focus;
-        color: $c__neutral-darkest;
-    }
+  &:focus {
+    outline: 0;
+    background-color: $c__focus;
+    color: $c__neutral-darkest;
+  }
 }
 
 [data-whatinput="mouse"] a:focus,
 [data-whatinput="touch"] a:focus {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 @media print {
-    a,
-    a:visited {
-        color: black;
-    }
+  a,
+  a:visited {
+    color: black;
+  }
 }

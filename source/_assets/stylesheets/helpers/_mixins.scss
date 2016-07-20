@@ -4,180 +4,180 @@
 
 // Clearfix
 @mixin clearfix {
-    &::before,
-    &::after {
-        display: table;
-        clear: both;
-        content: "";
-    }
+  &::before,
+  &::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
 }
 
 // Font families
 @mixin ff--sans-serif($font-weight: normal) {
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: $font-weight;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: $font-weight;
 
-    .fonts-loaded & {
-        font-family: Calibre, "Helvetica Neue", sans-serif;
-    }
+  .fonts-loaded & {
+    font-family: Calibre, "Helvetica Neue", sans-serif;
+  }
 }
 
 @mixin ff--monospace($font-weight: normal) {
-    font-family: Menlo, monospace;
-    font-weight: $font-weight;
+  font-family: Menlo, monospace;
+  font-weight: $font-weight;
 }
 
 // Font sizes
 @mixin fs--title {
-    line-height: (32 / 32);
-    font-size: 2rem; // 32px
-    letter-spacing: -0.025em;
+  line-height: (32 / 32);
+  font-size: 2rem; // 32px
+  letter-spacing: -0.025em;
 
-    @media (min-width: $b__b) {
-        font-size: 2.75rem; // 44px
-    }
+  @media (min-width: $b__b) {
+    font-size: 2.75rem; // 44px
+  }
 
-    @media (min-width: $b__c) {
-        font-size: 3.5rem; // 56px
-    }
+  @media (min-width: $b__c) {
+    font-size: 3.5rem; // 56px
+  }
 }
 
 @mixin fs--heading-1 {
-    line-height: (32 / 28);
-    font-size: 1.75rem; // 28px
-    letter-spacing: -0.025em;
+  line-height: (32 / 28);
+  font-size: 1.75rem; // 28px
+  letter-spacing: -0.025em;
 
-    @media (min-width: $b__b) {
-        line-height: (40.01 / 36);
-        font-size: 2.25rem; // 36px
-    }
+  @media (min-width: $b__b) {
+    line-height: (40.01 / 36);
+    font-size: 2.25rem; // 36px
+  }
 }
 
 @mixin fs--heading-2 {
-    line-height: (24 / 21);
-    font-size: 1.3125rem; // 21px
-    letter-spacing: -0.025em;
+  line-height: (24 / 21);
+  font-size: 1.3125rem; // 21px
+  letter-spacing: -0.025em;
 
-    @media (min-width: $b__b) {
-        line-height: (28 / 24);
-        font-size: 1.5rem; // 24px
-    }
+  @media (min-width: $b__b) {
+    line-height: (28 / 24);
+    font-size: 1.5rem; // 24px
+  }
 }
 
 @mixin fs--heading-3 {
-    line-height: (20 / 18);
-    font-size: 1.125rem; // 18px
-    letter-spacing: -0.025em;
+  line-height: (20 / 18);
+  font-size: 1.125rem; // 18px
+  letter-spacing: -0.025em;
 
-    @media (min-width: $b__c) {
-        font-size: 1.3125rem; // 21px
-    }
+  @media (min-width: $b__c) {
+    font-size: 1.3125rem; // 21px
+  }
 }
 
 @mixin fs--lede {
-    line-height: (28 / 21);
-    font-size: 1.3125rem; // 21px
-    letter-spacing: -0.025em;
+  line-height: (28 / 21);
+  font-size: 1.3125rem; // 21px
+  letter-spacing: -0.025em;
 
-    @media (min-width: $b__c) {
-        font-size: 1.5rem; // 24px
-    }
+  @media (min-width: $b__c) {
+    font-size: 1.5rem; // 24px
+  }
 }
 
 @mixin fs--body {
-    line-height: (24 / 16);
-    font-size: 1rem; // 16px
-    letter-spacing: -0.015em;
+  line-height: (24 / 16);
+  font-size: 1rem; // 16px
+  letter-spacing: -0.015em;
 
-    @media (min-width: $b__c) {
-        font-size: 1.125rem; // 18px
-    }
+  @media (min-width: $b__c) {
+    font-size: 1.125rem; // 18px
+  }
 
-    @media (min-width: $b__d) {
-        font-size: 1.25rem; // 20px
-    }
+  @media (min-width: $b__d) {
+    font-size: 1.25rem; // 20px
+  }
 }
 
 @mixin fs--caption {
-    line-height: (20.01 / 14);
-    font-size: 0.875rem; // 14px
-    letter-spacing: -0.025em;
+  line-height: (20.01 / 14);
+  font-size: 0.875rem; // 14px
+  letter-spacing: -0.025em;
 }
 
 // Caps
 @mixin smcp {
-    // font-variant: small-caps;
-    // font-size: 125%;
-    // letter-spacing: 0.025em;
-    // line-height: 0.1;
+  // font-variant: small-caps;
+  // font-size: 125%;
+  // letter-spacing: 0.025em;
+  // line-height: 0.1;
 }
 
 @mixin c2sc {
-    // font-variant: all-small-caps;
-    // font-size: 125%;
-    // letter-spacing: 0.025em;
-    // line-height: 0.1;
+  // font-variant: all-small-caps;
+  // font-size: 125%;
+  // letter-spacing: 0.025em;
+  // line-height: 0.1;
 }
 
 // Text highlight
 @mixin text-highlight($color: $c__select) {
-    background-color: $color;
-    margin-right: -0.125rem;
-    margin-left: -0.125rem;
-    padding: 0.125rem;
-    text-shadow: 0 0 $color;
+  background-color: $color;
+  margin-right: -0.125rem;
+  margin-left: -0.125rem;
+  padding: 0.125rem;
+  text-shadow: 0 0 $color;
 }
 
 // Text underline colour
 @mixin text-decoration-color($color, $background-color: transparent) {
-    @if $color != "none" {
-        background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 95%, transparent 95%);
-        text-decoration: none;
-        text-shadow:
-            0 0.03em $background-color,
-            0 -0.03em $background-color,
-            0.06em 0 $background-color,
-            0 -0.06em $background-color,
-            0.03em 0 $background-color,
-            -0.03em 0 $background-color,
-            0.06em 0 $background-color,
-            -0.06em 0 $background-color,
-            0.09em 0 $background-color,
-            -0.09em 0 $background-color,
-            0.12em 0 $background-color,
-            -0.12em 0 $background-color,
-            0.15em 0 $background-color,
-            -0.15em 0 $background-color;
-    }
+  @if $color != "none" {
+    background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 95%, transparent 95%);
+    text-decoration: none;
+    text-shadow:
+      0 0.03em $background-color,
+      0 -0.03em $background-color,
+      0.06em 0 $background-color,
+      0 -0.06em $background-color,
+      0.03em 0 $background-color,
+      -0.03em 0 $background-color,
+      0.06em 0 $background-color,
+      -0.06em 0 $background-color,
+      0.09em 0 $background-color,
+      -0.09em 0 $background-color,
+      0.12em 0 $background-color,
+      -0.12em 0 $background-color,
+      0.15em 0 $background-color,
+      -0.15em 0 $background-color;
+  }
 
-    @else {
-        text-shadow: none !important;
-    }
+  @else {
+    text-shadow: none !important;
+  }
 }
 
 // Background placeholder
 @mixin background-placeholder {
-    background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, rgba($c__neutral-mid, 0.2) 4px, rgba($c__neutral-mid, 0.2) 6px);
+  background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, rgba($c__neutral-mid, 0.2) 4px, rgba($c__neutral-mid, 0.2) 6px);
 }
 
 // Line rule
 @mixin rule($height: $u__rule-height, $width: 100%, $position: "before") {
-    &::#{$position} {
-        display: inline-block;
-        border-top: $height solid rgba($c__neutral-mid, 0.5);
-        width: $width;
-        content: "";
-    }
+  &::#{$position} {
+    display: inline-block;
+    border-top: $height solid rgba($c__neutral-mid, 0.5);
+    width: $width;
+    content: "";
+  }
 }
 
 // Visually hide content
 @mixin visually-hidden {
-    position: absolute;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
+  position: absolute;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }

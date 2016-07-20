@@ -3,28 +3,28 @@
 // ========================================================
 
 [class*="c-embed--"] {
-    @include background-placeholder;
-    position: relative;
-    padding-bottom: percentage(2 / 3);
-    height: 0;
+  @include background-placeholder;
+  position: relative;
+  padding-bottom: percentage(2 / 3);
+  height: 0;
 }
 
 .c-embed--slidedeck {
-    padding-top: 63px; // Speaker Deck player header and footer height
-    padding-bottom: percentage(3 / 4);
+  padding-top: 63px; // Speaker Deck player header and footer height
+  padding-bottom: percentage(3 / 4);
 }
 
 .c-embed--video,
 .c-embed[data-embed-ratio="16/9"] {
-    padding-bottom: percentage(9 / 16); // Ideally we could use calc() + attr() here, but no such luck: https://developer.mozilla.org/en-US/docs/Web/CSS/attr
+  padding-bottom: percentage(9 / 16); // Ideally we could use calc() + attr() here, but no such luck: https://developer.mozilla.org/en-US/docs/Web/CSS/attr
 }
 
 .c-embed__iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

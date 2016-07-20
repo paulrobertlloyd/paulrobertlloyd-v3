@@ -3,35 +3,35 @@
 // ========================================================
 
 .c-exif__values {
-    margin-bottom: units(1);
-    overflow: hidden;
+  margin-bottom: units(1);
+  overflow: hidden;
 
-    .c-figure--photo & {
-        @media (min-width: $b__c) {
-            position: absolute;
-            bottom: 0;
-        }
+  .c-figure--photo & {
+    @media (min-width: $b__c) {
+      position: absolute;
+      bottom: 0;
     }
+  }
 }
 
 .c-exif__value {
-    float: left;
-    margin-left: 0;
-    width: 25%;
-    color: $c__neutral-mid;
+  float: left;
+  margin-left: 0;
+  width: 25%;
+  color: $c__neutral-mid;
 
-    &:nth-child(2n+2) {
-        @media (min-width: $b__c) {
-            width: 50%;
-        }
+  &:nth-child(2n+2) {
+    @media (min-width: $b__c) {
+      width: 50%;
     }
+  }
 }
 
 .c-exif__value--date-created,
 .c-exif__value--model {
-    width: 50%;
+  width: 50%;
 
-    @media (min-width: $b__c) {
-        width: 100%;
-    }
+  @media (min-width: $b__c) {
+    width: 100%;
+  }
 }

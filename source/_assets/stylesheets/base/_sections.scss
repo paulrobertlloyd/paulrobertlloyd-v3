@@ -4,56 +4,56 @@
 // ========================================================
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    &::after {
-        display: none;
-        content: "s";
+  &::after {
+    display: none;
+    content: "s";
 
-        @media screen and (min-width: $b__a) {
-            content: "m";
-        }
-
-        @media screen and (min-width: $b__b) {
-            content: "l";
-        }
-
-        @media screen and (min-width: $b__c) {
-            content: "xl";
-        }
+    @media screen and (min-width: $b__a) {
+      content: "m";
     }
+
+    @media screen and (min-width: $b__b) {
+      content: "l";
+    }
+
+    @media screen and (min-width: $b__c) {
+      content: "xl";
+    }
+  }
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 *:target {
-    @include text-highlight();
+  @include text-highlight();
 
-    * {
-        @include text-decoration-color("none");
-    }
+  * {
+    @include text-decoration-color("none");
+  }
 }
 
 ::selection {
-    background-color: $c__select;
-    text-shadow: 0 0 $c__select;
+  background-color: $c__select;
+  text-shadow: 0 0 $c__select;
 }
 
 body {
-    @include ff--sans-serif;
-    margin: 0 auto;
-    line-height: 1.5;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+  @include ff--sans-serif;
+  margin: 0 auto;
+  line-height: 1.5;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 
-    @media print {
-        margin: 0 1cm;
-        color: black;
-    }
+  @media print {
+    margin: 0 1cm;
+    color: black;
+  }
 }
 
 article,
@@ -63,9 +63,9 @@ header,
 main,
 nav,
 section {
-    // Correct `block` display for section elements in IE 8/9
-    // Correct `block` display for `main` in IE 11
-    display: block;
+  // Correct `block` display for section elements in IE 8/9
+  // Correct `block` display for `main` in IE 11
+  display: block;
 }
 
 h1,
@@ -74,20 +74,20 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
-    text-rendering: optimizeLegibility;
-    font-size: 1em;
-    font-weight: inherit;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-size: 1em;
+  font-weight: inherit;
 
-    @media print {
-        page-break-after: avoid;
-    }
+  @media print {
+    page-break-after: avoid;
+  }
 }
 
 hr {
-    @include rule;
-    margin: 0 auto;
-    border: 0;
-    height: 0;
-    line-height: 0;
+  @include rule;
+  margin: 0 auto;
+  border: 0;
+  height: 0;
+  line-height: 0;
 }

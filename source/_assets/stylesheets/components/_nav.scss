@@ -3,40 +3,40 @@
 // ========================================================
 
 .c-nav__item {
-    &.is-active {
-        font-weight: 700;
-    }
+  &.is-active {
+    font-weight: 700;
+  }
 }
 
 // Series navigation
 .c-nav--series {
-    .c-nav__title {
-        @include fs--lede;
-    }
+  .c-nav__title {
+    @include fs--lede;
+  }
 
-    .c-nav__item {
-        @include fs--caption;
-        margin-top: units(1);
-        margin-bottom: 0;
-    }
+  .c-nav__item {
+    @include fs--caption;
+    margin-top: units(1);
+    margin-bottom: 0;
+  }
 }
 
 // Page navigation
 .c-nav--pagination {
-    overflow: hidden;
+  overflow: hidden;
 
-    @media (min-width: $b__b) {
-        position: absolute;
-        bottom: 0;
-    }
+  @media (min-width: $b__b) {
+    position: absolute;
+    bottom: 0;
+  }
 
-    @media print {
-        display: none;
-    }
+  @media print {
+    display: none;
+  }
 
-    .c-nav__item {
-        float: left;
-        margin-right: 1rem;
-        font-weight: 700;
-    }
+  .c-nav__item {
+    float: left;
+    margin-right: 1rem;
+    font-weight: 700;
+  }
 }

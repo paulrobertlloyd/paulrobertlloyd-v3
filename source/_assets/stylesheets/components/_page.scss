@@ -4,40 +4,40 @@
 
 .c-page__header,
 .c-page__footer {
-    @media screen and (min-width: $b__b) {
-        padding-left: percentage(3/12);
-    }
+  @media screen and (min-width: $b__b) {
+    padding-left: percentage(3/12);
+  }
 }
 
 .c-page__header--aside {
-    @media screen and (min-width: $b__b) {
-        position: absolute;
-        padding-left: 0;
-        width: percentage(3/12);
-    }
+  @media screen and (min-width: $b__b) {
+    position: absolute;
+    padding-left: 0;
+    width: percentage(3/12);
+  }
 
-    .c-page__title {
-        font-weight: normal;
+  .c-page__title {
+    font-weight: normal;
 
-        @media (min-width: $b__b) {
-            @include fs--heading-1;
-        }
+    @media (min-width: $b__b) {
+      @include fs--heading-1;
     }
+  }
 }
 
 .c-page__footer {
-    margin-bottom: units(4);
-    color: $c__neutral-mid;
+  margin-bottom: units(4);
+  color: $c__neutral-mid;
 }
 
 .c-page__title {
-    @include fs--title;
-    margin-bottom: units(2);
-    font-weight: 700;
+  @include fs--title;
+  margin-bottom: units(2);
+  font-weight: 700;
 }
 
 .c-page__license {
-    position: relative;
-    top: -1px;
-    margin-left: 0.25rem;
+  position: relative;
+  top: -1px;
+  margin-left: 0.25rem;
 }

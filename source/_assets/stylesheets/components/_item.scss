@@ -3,76 +3,76 @@
 // ========================================================
 
 .c-item {
-    margin-bottom: units(2);
+  margin-bottom: units(2);
 }
 
 .c-item--link,
 .c-item--entry {
-    &:not(:last-child) {
-        margin-bottom: units(4);
+  &:not(:last-child) {
+    margin-bottom: units(4);
 
-        @media (min-width: $b__b) {
-            margin-bottom: units(6);
-        }
+    @media (min-width: $b__b) {
+      margin-bottom: units(6);
     }
+  }
 }
 
 .c-item__media,
 .c-item__footer {
-    margin-bottom: units(1);
+  margin-bottom: units(1);
 }
 
 .c-item__main {
-    @media (min-width: $b__a) {
-        .c-item--link &,
-        .c-item--comment & {
-            padding-right: percentage(1/8);
-        }
+  @media (min-width: $b__a) {
+    .c-item--link &,
+    .c-item--comment & {
+      padding-right: percentage(1/8);
     }
+  }
 }
 
 .c-item__title {
-    @include fs--heading-2;
-    margin-bottom: units(1 / 3);
-    hanging-punctuation: first;
+  @include fs--heading-2;
+  margin-bottom: units(1 / 3);
+  hanging-punctuation: first;
 
-    .c-item--entry & {
-        @include fs--heading-1;
-        font-weight: 700;
-    }
+  .c-item--entry & {
+    @include fs--heading-1;
+    font-weight: 700;
+  }
 }
 
 .c-item__meta {
-    @include fs--caption;
-    color: $c__neutral-mid;
+  @include fs--caption;
+  color: $c__neutral-mid;
 }
 
 .c-item__avatar {
-    @include background-placeholder;
-    width: percentage(1/8);
-    height: auto;
+  @include background-placeholder;
+  width: percentage(1/8);
+  height: auto;
 }
 
 // Comment
 .c-item--comment {
-    position: relative;
-    padding-left: calc(#{percentage(1/8)} + #{$u__gutter});
+  position: relative;
+  padding-left: calc(#{percentage(1/8)} + #{$u__gutter});
 
-    @media screen and (min-width: $b__b) {
-        padding-left: 0;
+  @media screen and (min-width: $b__b) {
+    padding-left: 0;
+  }
+
+  .c-item__title {
+    @include fs--heading-3;
+  }
+
+  .c-item__avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @media (min-width: $b__b) {
+      left: calc((#{percentage(1/8)} + #{$u__gutter}) * -1);
     }
-
-    .c-item__title {
-        @include fs--heading-3;
-    }
-
-    .c-item__avatar {
-        position: absolute;
-        top: 0;
-        left: 0;
-
-        @media (min-width: $b__b) {
-            left: calc((#{percentage(1/8)} + #{$u__gutter}) * -1);
-        }
-    }
+  }
 }

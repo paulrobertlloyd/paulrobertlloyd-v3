@@ -3,19 +3,19 @@
 // ========================================================
 
 .u-hidden {
-    @include visually-hidden;
+  @include visually-hidden;
 }
 
 .u-hidden\@a {
-    @media (max-width: ($b__ax)) {
-        @include visually-hidden;
-        display: none !important;
-    }
+  @media (max-width: ($b__ax)) {
+    @include visually-hidden;
+    display: none !important;
+  }
 }
 
 .u-hidden\@b {
-    @media (max-width: ($b__bx)) {
-        @include visually-hidden;
-        display: none !important;
-    }
+  @media (max-width: ($b__bx)) {
+    @include visually-hidden;
+    display: none !important;
+  }
 }
