@@ -184,7 +184,7 @@ The following exampes shows the `code` element used in conjunction with the `pre
 
 ~~~ php
 <?php
-    echo 'Hello World!';
+  echo 'Hello World!';
 ?>
 ~~~
 

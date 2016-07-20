@@ -1,15 +1,15 @@
 <nav class="c-nav c-nav--pagination" aria-labelledby="browse">
-    <h1 class="c-nav__title u-hidden" id="browse">Browse Chapters</h1>
+  <h1 class="c-nav__title u-hidden" id="browse">Browse Chapters</h1>
 
-    {% if page.previous.series == page.series %}
-    <a class="c-nav__item c-nav__item--prev" rel="next bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
-        <span class="c-nav__label"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Previous</span>
-    </a>
-    {% endif %}
+  {% if page.previous.series == page.series %}
+  <a class="c-nav__item c-nav__item--prev" rel="next bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+    <span class="c-nav__label"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Previous</span>
+  </a>
+  {% endif %}
 
-    {% if page.next.series == page.series %}
-    <a class="c-nav__item c-nav__item--next" rel="prev bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}">
-        <span class="c-nav__label">Next <span class="u-icon" data-icon="&#10217;" aria-hidden="true"></span></span>
-    </a>
-    {% endif %}
+  {% if page.next.series == page.series %}
+  <a class="c-nav__item c-nav__item--next" rel="prev bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}">
+    <span class="c-nav__label">Next <span class="u-icon" data-icon="&#10217;" aria-hidden="true"></span></span>
+  </a>
+  {% endif %}
 </nav>

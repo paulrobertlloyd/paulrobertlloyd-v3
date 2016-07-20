@@ -1,16 +1,16 @@
 <footer class="c-page__footer">
-    <p>
-        Published on <a class="c-page__permalink  u-url" href="{{ page.url }}" rel="bookmark"><time class="c-page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time></a>
+  <p>
+    Published on <a class="c-page__permalink  u-url" href="{{ page.url }}" rel="bookmark"><time class="c-page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time></a>
 
-        {% if page.location %}
-        {% assign page_location = page.location | split:", " %}
-        in <span class="c-page__location  p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
-        {% endif %}
+    {% if page.location %}
+    {% assign page_location = page.location | split:", " %}
+    in <span class="c-page__location  p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
+    {% endif %}
 
-        {% if page.license %}
-        <span class="u-hidden">and available under a {{ page.license.type }}</span> <a class="c-page__license" rel="license" href="{{ page.license.url }}" title="{{ page.license.description }}">
-            {% asset_source c-page__icon--license.svg %}
-        </a><span class="u-hidden"> license</span>
-        {% endif %}
-    </p>
+    {% if page.license %}
+    <span class="u-hidden">and available under a {{ page.license.type }}</span> <a class="c-page__license" rel="license" href="{{ page.license.url }}" title="{{ page.license.description }}">
+      {% asset_source c-page__icon--license.svg %}
+    </a><span class="u-hidden"> license</span>
+    {% endif %}
+  </p>
 </footer>

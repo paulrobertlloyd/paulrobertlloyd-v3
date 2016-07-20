@@ -1,12 +1,12 @@
 <article class="c-item c-item--article  h-entry">
-    <h1 class="c-item__title  p-name">
-        <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
-            {{ item.title | smartypants }}{% if item.url contains "http://" or item.url contains "https://" %}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>{% endif %}
-        </a>
-    </h1>
+  <h1 class="c-item__title  p-name">
+    <a class="c-item__link  u-url" href="{{ item.url }}" rel="bookmark">
+      {{ item.title | smartypants }}{% if item.url contains "http://" or item.url contains "https://" %}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>{% endif %}
+    </a>
+  </h1>
 
-    <p class="c-item__meta">
-        <strong class="u-separate">{{ item.publication }}</strong>
-        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{% if item.url contains "http://" or item.url contains "https://" %}{{ item.date | date:"%e %B %Y" | improve }}{% else %}{{ item.date | date:"%B %Y" | improve }}{% endif %}</time>
-    </p>
+  <p class="c-item__meta">
+    <strong class="u-separate">{{ item.publication }}</strong>
+    <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{% if item.url contains "http://" or item.url contains "https://" %}{{ item.date | date:"%e %B %Y" | improve }}{% else %}{{ item.date | date:"%B %Y" | improve }}{% endif %}</time>
+  </p>
 </article>

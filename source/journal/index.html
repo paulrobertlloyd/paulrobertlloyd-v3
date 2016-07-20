@@ -5,10 +5,10 @@ landing: true
 ---
 <div class="c-section">
 {% for item in paginator.posts %}
-    {% if item.link %}
-        {% include item/entry-link.html %}
-    {% else %}
-        {% include item/entry.html %}
-    {% endif %}
+  {% if item.link %}
+    {% include item/entry-link.html %}
+  {% else %}
+    {% include item/entry.html %}
+  {% endif %}
 {% endfor %}
 </div>

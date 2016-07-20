@@ -1,15 +1,15 @@
 <nav class="c-nav c-nav--pagination" aria-labelledby="browse">
-    <h1 class="c-nav__title u-hidden" id="browse">Browse Journal</h1>
+  <h1 class="c-nav__title u-hidden" id="browse">Browse Journal</h1>
 
-    {% if page.previous != nil %}
-    <a class="c-nav__item c-nav__item--prev" rel="next bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
-        <span class="c-nav__label"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Previous</span>
-    </a>
-    {% endif %}
+  {% if page.previous != nil %}
+  <a class="c-nav__item c-nav__item--prev" rel="next bookmark" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+    <span class="c-nav__label"><span class="u-icon" data-icon="&#10216;" aria-hidden="true"></span> Previous</span>
+  </a>
+  {% endif %}
 
-    {% if page.next != nil %}
-    <a class="c-nav__item c-nav__item--next" rel="prev bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}">
-        <span class="c-nav__label">Next <span class="u-icon" data-icon="&#10217;" aria-hidden="true"></span></span>
-    </a>
-    {% endif %}
+  {% if page.next != nil %}
+  <a class="c-nav__item c-nav__item--next" rel="prev bookmark" href="{{ page.next.url }}" title="{{ page.next.title }}">
+    <span class="c-nav__label">Next <span class="u-icon" data-icon="&#10217;" aria-hidden="true"></span></span>
+  </a>
+  {% endif %}
 </nav>

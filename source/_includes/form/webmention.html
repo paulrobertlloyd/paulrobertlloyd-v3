@@ -1,14 +1,14 @@
 <form class="form form--webmention" action="https://webmention.paulrobertlloyd.com/" method="post">
-    <fieldset class="c-form__fieldset">
-        <p class="c-form__field">
-            <label class="c-form__label u-hidden" for="source">Article <abbr title="Uniform Resource Locator">URL</abbr>:</label>
-            <span class="c-form__input-submit">
-                <input class="c-form__input c-form__input--text" type="url" id="source" name="source" placeholder="http://…" required aria-describedby="source-note"/>
-                <input class="c-form__submit c-button" type="submit" value="Ping!"/>
-            </span>
-            <input class="c-form__hidden" type="hidden" name="referer" value="{{ site.url }}"/>
-            <input class="c-form__hidden" type="hidden" name="target" value="{{ site.url }}{{ page.url }}"/>
-            <em class="c-form__note" id="source-note">If you've written a response to this post, please let me know the <abbr title="Uniform Resource Locator">URL</abbr>.</em>
-        </p>
-    </fieldset>
+  <fieldset class="c-form__fieldset">
+    <p class="c-form__field">
+      <label class="c-form__label u-hidden" for="source">Article <abbr title="Uniform Resource Locator">URL</abbr>:</label>
+      <span class="c-form__input-submit">
+        <input class="c-form__input c-form__input--text" type="url" id="source" name="source" placeholder="http://…" required aria-describedby="source-note"/>
+        <input class="c-form__submit c-button" type="submit" value="Ping!"/>
+      </span>
+      <input class="c-form__hidden" type="hidden" name="referer" value="{{ site.url }}"/>
+      <input class="c-form__hidden" type="hidden" name="target" value="{{ site.url }}{{ page.url }}"/>
+      <em class="c-form__note" id="source-note">If you've written a response to this post, please let me know the <abbr title="Uniform Resource Locator">URL</abbr>.</em>
+    </p>
+  </fieldset>
 </form>
