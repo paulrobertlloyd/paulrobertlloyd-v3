@@ -3,188 +3,188 @@
 // ========================================================
 
 .s-prose {
-    line-height: (24 / 16);
-    font-variant: common-ligatures oldstyle-nums;
-    hanging-punctuation: first;
+  line-height: (24 / 16);
+  font-variant: common-ligatures oldstyle-nums;
+  hanging-punctuation: first;
+
+  > * {
+    margin-bottom: units(1);
+  }
+
+  blockquote:not([class]) {
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
 
     > * {
-        margin-bottom: units(1);
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
     }
 
-    blockquote:not([class]) {
-        position: relative;
-        padding-right: 1rem;
-        padding-left: 1.5rem;
-
-        > * {
-            opacity: 0.8;
-            margin-bottom: 0.75rem;
-        }
-
-        &::before {
-            display: block;
-            position: absolute;
-            top: ((1 / 3) + em);
-            bottom: 0;
-            left: 0;
-            opacity: 0.25;
-            border-left: 0.5rem solid;
-            content: "";
-        }
+    &::before {
+      display: block;
+      position: absolute;
+      top: ((1 / 3) + em);
+      bottom: 0;
+      left: 0;
+      opacity: 0.25;
+      border-left: 0.5rem solid;
+      content: "";
     }
+  }
 
-    hr {
-        margin-top: units(1);
-        margin-bottom: units(2);
-    }
+  hr {
+    margin-top: units(1);
+    margin-bottom: units(2);
+  }
 
-    .caps {
-        @include c2sc;
-    }
+  .caps {
+    @include c2sc;
+  }
 }
 
 // Body
 .s-prose--body {
-    @include fs--body;
+  @include fs--body;
+
+  > * {
+    margin-bottom: units(2);
+  }
+
+  h2 {
+    @include fs--heading-2;
+    margin-bottom: units(1);
+    font-weight: 700;
+  }
+
+  *:not(hr) + h2 {
+    margin-top: units(4);
+  }
+
+  h3 {
+    @include fs--heading-3;
+    margin-bottom: units(1 / 3);
+    font-weight: 700;
+  }
+
+  *:not(hr) + h3 {
+    margin-top: units(3);
+  }
+
+  h4 {
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  * + table,
+  * + figure {
+    margin-top: units(1);
+  }
+
+  hr {
+    margin-top: units(3);
+    margin-bottom: units(3);
+  }
+
+  pre {
+    font-size: 90%;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  figure {
+    margin-bottom: units(3);
 
     > * {
-        margin-bottom: units(2);
+      margin-bottom: units(1);
     }
 
-    h2 {
-        @include fs--heading-2;
-        margin-bottom: units(1);
-        font-weight: 700;
-    }
+    &.u-extend {
+      @media (min-width: $b__c) {
+        position: relative;
+        padding-right: calc(#{$u__colspan4} + #{$u__gutter});
+        min-height: 6rem;
+      }
 
-    *:not(hr) + h2 {
-        margin-top: units(4);
-    }
-
-    h3 {
-        @include fs--heading-3;
-        margin-bottom: units(1 / 3);
-        font-weight: 700;
-    }
-
-    *:not(hr) + h3 {
-        margin-top: units(3);
-    }
-
-    h4 {
-        margin-bottom: 0;
-        font-weight: 700;
-    }
-
-    * + table,
-    * + figure {
-        margin-top: units(1);
-    }
-
-    hr {
-        margin-top: units(3);
-        margin-bottom: units(3);
-    }
-
-    pre {
-        font-size: 90%;
-    }
-
-    li {
-        margin-bottom: 0.25rem;
-    }
-
-    figure {
-        margin-bottom: units(3);
-
-        > * {
-            margin-bottom: units(1);
+      figcaption {
+        @media screen and (min-width: $b__b) {
+          padding-left: percentage(3/12);
         }
 
-        &.u-extend {
-            @media (min-width: $b__c) {
-                position: relative;
-                padding-right: calc(#{$u__colspan4} + #{$u__gutter});
-                min-height: 6rem;
-            }
+        @media (min-width: $b__c) {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding-left: 0;
+          width: percentage(4/12);
+        }
+      }
+    }
 
-            figcaption {
-                @media screen and (min-width: $b__b) {
-                    padding-left: percentage(3/12);
-                }
+    &.u-bleed {
+      figcaption {
+        padding-right: 1rem;
+        padding-left: 1rem;
 
-                @media (min-width: $b__c) {
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    padding-left: 0;
-                    width: percentage(4/12);
-                }
-            }
+        @media (min-width: $b__a) {
+          padding-right: 2rem;
+          padding-left: 2rem;
         }
 
-        &.u-bleed {
-            figcaption {
-                padding-right: 1rem;
-                padding-left: 1rem;
-
-                @media (min-width: $b__a) {
-                    padding-right: 2rem;
-                    padding-left: 2rem;
-                }
-
-                @media screen and (min-width: $b__b) {
-                    padding-left: calc(#{percentage(3/12)} + #{$u__gutter});
-                }
-
-                @media screen and (min-width: $b__c) {
-                    padding-left: percentage(3/12);
-                }
-            }
-        }
-    }
-
-    figcaption {
-        @include fs--caption;
-        color: $c__neutral-mid;
-    }
-
-    small {
-        @include fs--caption;
-        display: inline-block;
-        color: $c__neutral-mid;
-    }
-
-    abbr[title]:hover {
-        @include text-highlight;
-    }
-
-    > .highlighter-rouge {
-        margin-right: -0.5rem;
-        margin-left: -0.5rem;
-        padding: 0.5rem;
-    }
-
-    .footnotes {
-        @include fs--caption;
-        @include rule($width: 20%);
-        color: $c__neutral-mid;
-
-        &:not(:last-child) {
-            margin-bottom: units(4);
+        @media screen and (min-width: $b__b) {
+          padding-left: calc(#{percentage(3/12)} + #{$u__gutter});
         }
 
-        ol {
-            margin-top: units(1);
+        @media screen and (min-width: $b__c) {
+          padding-left: percentage(3/12);
         }
+      }
     }
+  }
+
+  figcaption {
+    @include fs--caption;
+    color: $c__neutral-mid;
+  }
+
+  small {
+    @include fs--caption;
+    display: inline-block;
+    color: $c__neutral-mid;
+  }
+
+  abbr[title]:hover {
+    @include text-highlight;
+  }
+
+  > .highlighter-rouge {
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    padding: 0.5rem;
+  }
+
+  .footnotes {
+    @include fs--caption;
+    @include rule($width: 20%);
+    color: $c__neutral-mid;
+
+    &:not(:last-child) {
+      margin-bottom: units(4);
+    }
+
+    ol {
+      margin-top: units(1);
+    }
+  }
 }
 
 // Lede
 .s-prose--lede {
-    @include fs--lede;
+  @include fs--lede;
 
-    > * {
-        margin-bottom: units(2);
-    }
+  > * {
+    margin-bottom: units(2);
+  }
 }

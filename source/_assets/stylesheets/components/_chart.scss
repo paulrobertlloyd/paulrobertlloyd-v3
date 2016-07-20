@@ -4,24 +4,24 @@
 
 //  Horizontal bar chart
 .c-chart--hbar {
-    width: 100%;
-    vertical-align: middle;
+  width: 100%;
+  vertical-align: middle;
 
-    .c-chart__label {
-        width: 15%;
-        white-space: nowrap;
-    }
+  .c-chart__label {
+    width: 15%;
+    white-space: nowrap;
+  }
 
-    .c-chart__value {
-        padding-top: 0.125rem;
-        padding-right: 0;
-    }
+  .c-chart__value {
+    padding-top: 0.125rem;
+    padding-right: 0;
+  }
 
-    .c-chart__value--percent {
-        display: block;
-        margin-bottom: 0;
-        background-color: rgba($c__neutral-dark, 0.2);
-        padding: 0 0.25rem;
-        white-space: nowrap;
-    }
+  .c-chart__value--percent {
+    display: block;
+    margin-bottom: 0;
+    background-color: rgba($c__neutral-dark, 0.2);
+    padding: 0 0.25rem;
+    white-space: nowrap;
+  }
 }

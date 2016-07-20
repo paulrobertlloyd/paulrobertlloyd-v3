@@ -4,49 +4,49 @@
 // ========================================================
 
 table {
-    caption-side: bottom;
-    border-spacing: 0;
-    font-variant: tabular-nums;
+  caption-side: bottom;
+  border-spacing: 0;
+  font-variant: tabular-nums;
 }
 
 tbody {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 caption {
-    @include fs--caption;
-    margin-top: 0.5rem;
-    text-align: left;
+  @include fs--caption;
+  margin-top: 0.5rem;
+  text-align: left;
 }
 
 td,
 th {
-    border-top: 1px solid;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    vertical-align: top;
-    text-align: left;
-    white-space: nowrap;
-    overflow-wrap: break-word;
+  border-top: 1px solid;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  vertical-align: top;
+  text-align: left;
+  white-space: nowrap;
+  overflow-wrap: break-word;
 }
 
 td {
-    border-color: rgba($c__neutral-mid, 0.5);
+  border-color: rgba($c__neutral-mid, 0.5);
 }
 
 th {
-    border-top: $u__rule-height solid;
-    padding-bottom: 1rem;
-    font-weight: 700;
+  border-top: $u__rule-height solid;
+  padding-bottom: 1rem;
+  font-weight: 700;
 }
 
 @media print {
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 }

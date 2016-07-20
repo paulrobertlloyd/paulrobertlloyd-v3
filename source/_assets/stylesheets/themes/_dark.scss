@@ -9,48 +9,48 @@ $c__t-dark--hover: $c__primary;
 $c__t-dark--active: $c__secondary;
 
 .t-dark {
-    @media screen {
-        body {
-            background-color: $c__t-dark--background;
-            color: $c__t-dark--text;
-        }
-
-        a,
-        .c-button {
-            &:hover {
-                color: $c__t-dark--hover;
-            }
-
-            &:active {
-                color: $c__t-dark--active;
-            }
-        }
-
-        .c-form__label-inline .c-form__label {
-            border-color: rgba($c__t-dark--text, 0.2);
-        }
-
-        .c-navigation {
-            background-color: rgba($c__t-dark--background, 0.95);
-        }
-
-        .c-contentinfo {
-            color: rgba($c__t-dark--text, 0.6);
-        }
-
-        .s-prose,
-        .s-ui {
-            a:not(.c-button) {
-                @include text-decoration-color($c__t-dark--hover, $c__t-dark--background);
-            }
-
-            a:not(.c-button):focus {
-                @include text-decoration-color("none");
-            }
-
-            a:not(.c-button):active {
-                @include text-decoration-color($c__t-dark--active, $c__t-dark--background);
-            }
-        }
+  @media screen {
+    body {
+      background-color: $c__t-dark--background;
+      color: $c__t-dark--text;
     }
+
+    a,
+    .c-button {
+      &:hover {
+        color: $c__t-dark--hover;
+      }
+
+      &:active {
+        color: $c__t-dark--active;
+      }
+    }
+
+    .c-form__label-inline .c-form__label {
+      border-color: rgba($c__t-dark--text, 0.2);
+    }
+
+    .c-navigation {
+      background-color: rgba($c__t-dark--background, 0.95);
+    }
+
+    .c-contentinfo {
+      color: rgba($c__t-dark--text, 0.6);
+    }
+
+    .s-prose,
+    .s-ui {
+      a:not(.c-button) {
+        @include text-decoration-color($c__t-dark--hover, $c__t-dark--background);
+      }
+
+      a:not(.c-button):focus {
+        @include text-decoration-color("none");
+      }
+
+      a:not(.c-button):active {
+        @include text-decoration-color($c__t-dark--active, $c__t-dark--background);
+      }
+    }
+  }
 }

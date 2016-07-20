@@ -3,25 +3,25 @@
 // ========================================================
 
 .c-banner {
-    @media screen {
-        margin-bottom: units(6);
-    }
+  @media screen {
+    margin-bottom: units(6);
+  }
 }
 
 .c-banner__title {
-    line-height: 0;
+  line-height: 0;
 }
 
 .c-banner__home {
-    display: inline-block;
+  display: inline-block;
 }
 
 .c-banner__logo {
-    width: units(4);
-    height: units(4);
+  width: units(4);
+  height: units(4);
 
-    @media (min-width: $b__a) {
-        width: units(6);
-        height: units(6);
-    }
+  @media (min-width: $b__a) {
+    width: units(6);
+    height: units(6);
+  }
 }

@@ -5,71 +5,71 @@
 
 b,
 strong {
-    // Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome
-    @include ff--sans-serif(700);
+  // Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome
+  @include ff--sans-serif(700);
 }
 
 small {
-    // Address inconsistent and variable font size in all browsers
-    font-size: 100%;
-    font-weight: normal;
+  // Address inconsistent and variable font size in all browsers
+  font-size: 100%;
+  font-weight: normal;
 }
 
 :lang(en-gb) > q {
-    // Set consistent quote types
-    quotes: "\2018" "\2019" "\201c" "\201d";
+  // Set consistent quote types
+  quotes: "\2018" "\2019" "\201c" "\201d";
 }
 
 dfn {
-    // Address styling not present in Safari 5 and Chrome
-    font-style: italic;
+  // Address styling not present in Safari 5 and Chrome
+  font-style: italic;
 }
 
 abbr[title] {
-    // Address styling not present in IE 8/9, Safari 5, and Chrome
-    border-bottom: 0;
+  // Address styling not present in IE 8/9, Safari 5, and Chrome
+  border-bottom: 0;
 
-    &:hover {
-        cursor: help;
-        text-shadow: none;
-    }
+  &:hover {
+    cursor: help;
+    text-shadow: none;
+  }
 }
 
 code,
 kbd,
 samp {
-    @include ff--monospace;
-    font-size: 90%;
-    font-variant-ligatures: none;
+  @include ff--monospace;
+  font-size: 90%;
+  font-variant-ligatures: none;
 }
 
 kbd {
-    margin: 0 0.2rem;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 0.2rem;
-    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
-    background-color: white;
-    padding: 0.2rem 0.5rem;
-    line-height: 1;
+  margin: 0 0.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.2rem;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 0.2rem 0.5rem;
+  line-height: 1;
 }
 
 sub,
 sup {
-    position: relative;
-    vertical-align: baseline;
-    // Prevent `sub` and `sup` affecting `line-height` in all browsers
-    line-height: 0;
-    font-size: 75%;
+  position: relative;
+  vertical-align: baseline;
+  // Prevent `sub` and `sup` affecting `line-height` in all browsers
+  line-height: 0;
+  font-size: 75%;
 }
 
 sub {
-    bottom: -0.2rem;
+  bottom: -0.2rem;
 }
 
 sup {
-    top: -0.5rem;
+  top: -0.5rem;
 }
 
 mark {
-    @include text-highlight;
+  @include text-highlight;
 }

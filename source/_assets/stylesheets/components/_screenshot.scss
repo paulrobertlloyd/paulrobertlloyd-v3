@@ -5,82 +5,82 @@
 $u__shadow-size: 4px;
 
 .c-screenshots {
-    position: relative;
-    margin-bottom: units(1);
-    border-bottom: 1px solid rgba($c__neutral-darkest, 0.2);
-    padding-bottom: 40%;
-    overflow: hidden;
+  position: relative;
+  margin-bottom: units(1);
+  border-bottom: 1px solid rgba($c__neutral-darkest, 0.2);
+  padding-bottom: 40%;
+  overflow: hidden;
 }
 
 .c-screenshot {
-    display: block;
-    position: absolute;
-    top: $u__shadow-size;
-    background-repeat: no-repeat;
-    background-size: 100%;
+  display: block;
+  position: absolute;
+  top: $u__shadow-size;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 // Desktop screens
 .c-screenshot--desktop-a {
-    top: 2rem;
-    left: $u__shadow-size;
-    z-index: 1;
-    box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
-    width: 56%;
+  top: 2rem;
+  left: $u__shadow-size;
+  z-index: 1;
+  box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
+  width: 56%;
 
-    @media (min-width: $b__b) {
-        left: 2rem;
-    }
+  @media (min-width: $b__b) {
+    left: 2rem;
+  }
 }
 
 .c-screenshot--desktop-b {
-    top: $u__shadow-size;
-    right: $u__shadow-size;
-    z-index: 2;
-    box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
-    width: 56%;
+  top: $u__shadow-size;
+  right: $u__shadow-size;
+  z-index: 2;
+  box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
+  width: 56%;
 
-    @media (min-width: $b__b) {
-        right: 2rem;
-    }
+  @media (min-width: $b__b) {
+    right: 2rem;
+  }
 }
 
 // Tablet screen
 .c-screenshot--tablet-landscape {
-    top: auto;
-    bottom: -1.5rem;
-    left: 14%;
-    z-index: 3;
-    background-image: url("#{asset_path("device-tablet-landscape.svg")}");
-    padding: 2.1% 5.4%;
-    width: (36% * 946 / 640); // Width/height of tablet image
+  top: auto;
+  bottom: -1.5rem;
+  left: 14%;
+  z-index: 3;
+  background-image: url("#{asset_path("device-tablet-landscape.svg")}");
+  padding: 2.1% 5.4%;
+  width: (36% * 946 / 640); // Width/height of tablet image
 }
 
 .c-screenshot--tablet-portrait {
-    top: $u__shadow-size;
-    right: 14%;
-    z-index: 4;
-    background-image: url("#{asset_path("device-tablet-portrait.svg")}");
-    padding: 5.4% 2.1%;
-    width: 36%;
+  top: $u__shadow-size;
+  right: 14%;
+  z-index: 4;
+  background-image: url("#{asset_path("device-tablet-portrait.svg")}");
+  padding: 5.4% 2.1%;
+  width: 36%;
 }
 
 // Phablet screen
 .c-screenshot--phablet {
-    top: 2rem;
-    left: 28%;
-    z-index: 2;
-    background-image: url("#{asset_path("device-phablet.svg")}");
-    padding: 4.8% 1.6% 0;
-    width: 24%;
+  top: 2rem;
+  left: 28%;
+  z-index: 2;
+  background-image: url("#{asset_path("device-phablet.svg")}");
+  padding: 4.8% 1.6% 0;
+  width: 24%;
 }
 
 // Phone screen
 .c-screenshot--phone {
-    top: 24%;
-    right: 1rem;
-    z-index: 5;
-    background-image: url("#{asset_path("device-phone.svg")}");
-    padding: 2.4% 0.8% 0;
-    width: 16%;
+  top: 24%;
+  right: 1rem;
+  z-index: 5;
+  background-image: url("#{asset_path("device-phone.svg")}");
+  padding: 2.4% 0.8% 0;
+  width: 16%;
 }

@@ -4,19 +4,19 @@
 
 // Convert hsb(a) colour to hsl(a)
 @function hsb($h-hsb, $s-hsb, $b-hsb, $a: 1) {
-    @if $b-hsb == 0 {
-        @return hsla(0, 0, 0, $a);
-    }
+  @if $b-hsb == 0 {
+    @return hsla(0, 0, 0, $a);
+  }
 
-    @else {
-        $l-hsl: ($b-hsb / 2) * (2 - ($s-hsb / 100));
-        $s-hsl: ($b-hsb * $s-hsb) / if($l-hsl < 50, $l-hsl * 2, 200 - $l-hsl * 2);
+  @else {
+    $l-hsl: ($b-hsb / 2) * (2 - ($s-hsb / 100));
+    $s-hsl: ($b-hsb * $s-hsb) / if($l-hsl < 50, $l-hsl * 2, 200 - $l-hsl * 2);
 
-        @return hsla($h-hsb, $s-hsl, $l-hsl, $a);
-    }
+    @return hsla($h-hsb, $s-hsl, $l-hsl, $a);
+  }
 }
 
 // Output units as a measurable value
 @function units($count) {
-    @return ($u__unit-height * $count);
+  @return ($u__unit-height * $count);
 }

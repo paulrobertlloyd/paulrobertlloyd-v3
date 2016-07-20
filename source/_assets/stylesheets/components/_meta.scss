@@ -3,33 +3,33 @@
 // ========================================================
 
 .c-meta {
-    @include fs--caption;
-    margin-bottom: units(1);
-    overflow: hidden;
+  @include fs--caption;
+  margin-bottom: units(1);
+  overflow: hidden;
 }
 
 .c-meta__title {
-    @media (max-width: ($b__bx)) {
-        float: left;
-        margin-bottom: units(1);
-        padding-right: 0.5rem;
-        width: percentage(3/12);
-    }
+  @media (max-width: ($b__bx)) {
+    float: left;
+    margin-bottom: units(1);
+    padding-right: 0.5rem;
+    width: percentage(3/12);
+  }
 }
 
 .c-meta__value {
-    margin-bottom: units(1);
-    margin-left: 0;
+  margin-bottom: units(1);
+  margin-left: 0;
 
-    @media (max-width: ($b__bx)) {
-        padding-left: percentage(3/12);
-    }
+  @media (max-width: ($b__bx)) {
+    padding-left: percentage(3/12);
+  }
 
-    p {
-        margin: 0;
-    }
+  p {
+    margin: 0;
+  }
 
-    li {
-        list-style-position: inside;
-    }
+  li {
+    list-style-position: inside;
+  }
 }

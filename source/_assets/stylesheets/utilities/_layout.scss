@@ -4,134 +4,134 @@
 
 // Container
 .u-container {
-    max-width: $u__max-width;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
+  max-width: $u__max-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 
-    @media (min-width: $b__a) {
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
+  @media (min-width: $b__a) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 
-    @media (min-width: $b__c) {
-        padding-right: 0;
-        padding-left: 0;
-    }
+  @media (min-width: $b__c) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 // Show two items abreast, three on wider breakpoints
 .u-triad {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-right: -0.75rem;
-    margin-left: -0.75rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
 
-    .c-item,
-    .c-nav__item {
-        flex: 1 0 percentage(1/2);
-        padding: 0 0.75rem;
+  .c-item,
+  .c-nav__item {
+    flex: 1 0 percentage(1/2);
+    padding: 0 0.75rem;
 
-        @media (min-width: $b__b) {
-            flex: 1 0 percentage(1/3);
-        }
+    @media (min-width: $b__b) {
+      flex: 1 0 percentage(1/3);
     }
+  }
 }
 
 // Align element right or left
 .u-align-right {
-    float: right;
-    margin-top: 0 !important;
-    margin-bottom: 0.5rem !important;
-    margin-left: $u__gutter !important;
-    width: $u__colspan2;
+  float: right;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+  margin-left: $u__gutter !important;
+  width: $u__colspan2;
 }
 
 .u-align-left {
-    float: left;
-    margin-top: 0 !important;
-    margin-right: $u__gutter !important;
-    margin-bottom: 0.5rem !important;
-    width: $u__colspan2;
+  float: left;
+  margin-top: 0 !important;
+  margin-right: $u__gutter !important;
+  margin-bottom: 0.5rem !important;
+  width: $u__colspan2;
 }
 
 // Pull element aside
 .u-aside {
+  margin-top: 0 !important;
+
+  @media screen and (min-width: $b__b) {
+    float: left;
+    margin-left: ($u__colspan3 * -1) !important;
+    width: calc(#{$u__colspan3} - #{$u__gutter});
+  }
+
+  + * {
     margin-top: 0 !important;
-
-    @media screen and (min-width: $b__b) {
-        float: left;
-        margin-left: ($u__colspan3 * -1) !important;
-        width: calc(#{$u__colspan3} - #{$u__gutter});
-    }
-
-    + * {
-        margin-top: 0 !important;
-    }
+  }
 }
 
 // Pull element right or left
 .u-pull-right {
-    margin-top: 0 !important;
-    margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
 
-    @media (min-width: $b__a) {
-        float: right;
-        margin-left: $u__gutter !important;
-        width: $u__colspan4;
-    }
+  @media (min-width: $b__a) {
+    float: right;
+    margin-left: $u__gutter !important;
+    width: $u__colspan4;
+  }
 
-    @media screen and (min-width: $b__b) {
-        margin-right: ($u__colspan1 * -1);
-    }
+  @media screen and (min-width: $b__b) {
+    margin-right: ($u__colspan1 * -1);
+  }
 }
 
 .u-pull-left {
-    margin-top: 0 !important;
-    margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
 
-    @media (min-width: $b__a) {
-        float: left;
-        margin-right: $u__gutter !important;
-        width: $u__colspan4;
-    }
+  @media (min-width: $b__a) {
+    float: left;
+    margin-right: $u__gutter !important;
+    width: $u__colspan4;
+  }
 
-    @media screen and (min-width: $b__b) {
-        margin-left: ($u__colspan3 * -1);
-    }
+  @media screen and (min-width: $b__b) {
+    margin-left: ($u__colspan3 * -1);
+  }
 }
 
 // Extend element to full width of .u-container
 .u-extend,
 %u-extend {
-    clear: both;
+  clear: both;
 
-    @media screen and (min-width: $b__b) {
-        margin-right: ($u__colspan1 * -1);
-        margin-left: ($u__colspan3 * -1);
-    }
+  @media screen and (min-width: $b__b) {
+    margin-right: ($u__colspan1 * -1);
+    margin-left: ($u__colspan3 * -1);
+  }
 }
 
 // On narrow breakpoints, bleed element to full width of viewport
 .u-bleed {
-    clear: both;
-    margin-right: -1rem;
-    margin-left: -1rem;
+  clear: both;
+  margin-right: -1rem;
+  margin-left: -1rem;
 
-    @media (min-width: $b__a) {
-        margin-right: -2rem;
-        margin-left: -2rem;
-    }
+  @media (min-width: $b__a) {
+    margin-right: -2rem;
+    margin-left: -2rem;
+  }
 
-    @media screen and (min-width: $b__b) {
-        margin-right: calc((#{$u__colspan1} * -1) - 2rem);
-        margin-left: calc((#{$u__colspan3} * -1) - 2rem);
-    }
+  @media screen and (min-width: $b__b) {
+    margin-right: calc((#{$u__colspan1} * -1) - 2rem);
+    margin-left: calc((#{$u__colspan3} * -1) - 2rem);
+  }
 
-    @media screen and (min-width: $b__c) {
-        margin-right: ($u__colspan1 * -1);
-        margin-left: ($u__colspan3 * -1);
-    }
+  @media screen and (min-width: $b__c) {
+    margin-right: ($u__colspan1 * -1);
+    margin-left: ($u__colspan3 * -1);
+  }
 }

@@ -12,57 +12,57 @@ dl,
 figure,
 table,
 fieldset {
-    margin: 0;
-    orphans: 3;
-    widows: 3;
+  margin: 0;
+  orphans: 3;
+  widows: 3;
 }
 
 pre {
-    overflow: auto;
-    white-space: pre;
-    hyphens: none;
-    tab-size: 4;
+  overflow: auto;
+  white-space: pre;
+  hyphens: none;
+  tab-size: 4;
 }
 
 blockquote {
-    @media print {
-        page-break-inside: avoid;
-    }
+  @media print {
+    page-break-inside: avoid;
+  }
 }
 
 figure,
 figcaption {
-    // Correct display for `figure` and `figcaption` elements in IE 8/9
-    display: block;
+  // Correct display for `figure` and `figcaption` elements in IE 8/9
+  display: block;
 }
 
 ol,
 ul {
-    padding: 0;
+  padding: 0;
+  list-style-position: inside;
+
+  @media (min-width: $b__a) {
+    list-style-position: outside;
+  }
+
+  blockquote & {
     list-style-position: inside;
-
-    @media (min-width: $b__a) {
-        list-style-position: outside;
-    }
-
-    blockquote & {
-        list-style-position: inside;
-    }
+  }
 }
 
 ol {
-    list-style-type: decimal;
+  list-style-type: decimal;
 }
 
 ul {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 dt {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 li li,
 dd {
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
 }

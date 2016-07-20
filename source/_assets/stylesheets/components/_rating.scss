@@ -3,8 +3,8 @@
 // ========================================================
 
 .c-rating .u-icon {
-    opacity: 0.5;
-    margin-left: -0.2rem;
+  opacity: 0.5;
+  margin-left: -0.2rem;
 }
 
 .c-rating--score-1 .u-icon:nth-child(-n+1),
@@ -12,5 +12,5 @@
 .c-rating--score-3 .u-icon:nth-child(-n+3),
 .c-rating--score-4 .u-icon:nth-child(-n+4),
 .c-rating--score-5 .u-icon:nth-child(-n+5) {
-    opacity: 1;
+  opacity: 1;
 }

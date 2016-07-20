@@ -10,6 +10,6 @@
     }],
     "declaration-colon-newline-after": "always-multi-line",
     "function-url-quotes": "double",
-    "indentation": 4
+    "indentation": 2
   }
 }

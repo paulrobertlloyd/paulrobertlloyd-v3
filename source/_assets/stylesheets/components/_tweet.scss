@@ -3,27 +3,27 @@
 // ========================================================
 
 .c-tweet {
-    position: relative;
+  position: relative;
+  background-color: $c__neutral-dark;
+  padding: 0.75rem;
+  color: white;
+
+  // Double colon not supported in IE8 so can use a transform
+  &::before {
+    display: block;
+    position: absolute;
+    top: auto;
+    bottom: -1rem;
+    left: 1rem;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
     background-color: $c__neutral-dark;
-    padding: 0.75rem;
-    color: white;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+  }
 
-    // Double colon not supported in IE8 so can use a transform
-    &::before {
-        display: block;
-        position: absolute;
-        top: auto;
-        bottom: -1rem;
-        left: 1rem;
-        transform: rotate(-45deg);
-        transform-origin: 0 0;
-        background-color: $c__neutral-dark;
-        width: 1rem;
-        height: 1rem;
-        content: "";
-    }
-
-    a {
-        @include text-decoration-color("none");
-    }
+  a {
+    @include text-decoration-color("none");
+  }
 }

@@ -9,48 +9,48 @@ $c__t-light--hover: $c__primary;
 $c__t-light--active: $c__secondary;
 
 .t-light {
-    @media screen {
-        body {
-            background-color: $c__t-light--background;
-            color: $c__t-light--text;
-        }
-
-        a,
-        .c-button {
-            &:hover {
-                color: $c__t-light--hover;
-            }
-
-            &:active {
-                color: $c__t-light--active;
-            }
-        }
-
-        .c-form__label-inline .c-form__label {
-            border-color: rgba($c__t-light--text, 0.2);
-        }
-
-        .c-navigation {
-            background-color: rgba($c__t-light--background, 0.95);
-        }
-
-        .c-contentinfo {
-            color: rgba($c__t-light--text, 0.6);
-        }
-
-        .s-prose,
-        .s-ui {
-            a:not(.c-button) {
-                @include text-decoration-color($c__t-light--hover, $c__t-light--background);
-            }
-
-            a:not(.c-button):focus {
-                @include text-decoration-color("none");
-            }
-
-            a:not(.c-button):active {
-                @include text-decoration-color($c__t-light--active, $c__t-light--background);
-            }
-        }
+  @media screen {
+    body {
+      background-color: $c__t-light--background;
+      color: $c__t-light--text;
     }
+
+    a,
+    .c-button {
+      &:hover {
+        color: $c__t-light--hover;
+      }
+
+      &:active {
+        color: $c__t-light--active;
+      }
+    }
+
+    .c-form__label-inline .c-form__label {
+      border-color: rgba($c__t-light--text, 0.2);
+    }
+
+    .c-navigation {
+      background-color: rgba($c__t-light--background, 0.95);
+    }
+
+    .c-contentinfo {
+      color: rgba($c__t-light--text, 0.6);
+    }
+
+    .s-prose,
+    .s-ui {
+      a:not(.c-button) {
+        @include text-decoration-color($c__t-light--hover, $c__t-light--background);
+      }
+
+      a:not(.c-button):focus {
+        @include text-decoration-color("none");
+      }
+
+      a:not(.c-button):active {
+        @include text-decoration-color($c__t-light--active, $c__t-light--background);
+      }
+    }
+  }
 }

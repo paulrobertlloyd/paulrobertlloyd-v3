@@ -3,24 +3,24 @@
 // ========================================================
 
 .c-list {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .c-list__item {
-    list-style: none;
+  list-style: none;
 }
 
 .c-list__item--promoted {
-    letter-spacing: -0.015rem;
-    font-weight: 700;
+  letter-spacing: -0.015rem;
+  font-weight: 700;
 }
 
 .c-list--inline {
-    @media (max-width: ($b__ax)) {
-        line-height: 2;
-    }
+  @media (max-width: ($b__ax)) {
+    line-height: 2;
+  }
 
-    .c-list__item {
-        display: inline;
-    }
+  .c-list__item {
+    display: inline;
+  }
 }
