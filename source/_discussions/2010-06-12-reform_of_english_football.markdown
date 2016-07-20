@@ -1,4 +1,5 @@
 ---
+title: Winning the World Cup Would Be the Worst Thing to Happen to English Football
 remarks:
   - author: Cole Henley
     gravatar: 0112d423655aac265caae4e73f587e81

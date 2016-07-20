@@ -1,4 +1,5 @@
 ---
+title: 'Washington DC: A Monumental City'
 remarks:
   - author: Jonathan Aquino
     gravatar: 6b5ab75ce823bc4a31dcf1f04427a582

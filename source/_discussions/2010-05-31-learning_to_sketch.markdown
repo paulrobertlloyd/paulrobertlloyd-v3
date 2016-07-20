@@ -1,4 +1,5 @@
 ---
+title: Learning to Sketch
 remarks:
   - author: Ken
     gravatar: 539a351d5e60062693df414e9bbb3465

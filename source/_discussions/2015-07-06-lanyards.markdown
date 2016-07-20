@@ -1,4 +1,5 @@
 ---
+title: 'Lanyards. What Are They Good For?'
 remarks:
   - author: Richard Rutter
     gravatar: 4dc4891f8146f79ced911d665f2dedef

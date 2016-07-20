@@ -1,4 +1,5 @@
 ---
+title: Are Web Design Conferences Becoming Too Safe?
 remarks:
   - author: Cennydd
     gravatar: a962b4d3a7d6405455b39a7b336ab133

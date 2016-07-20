@@ -1,4 +1,5 @@
 ---
+title: Riding the California Zephyr
 remarks:
   - author: G. Poirier
     gravatar: 01e26e4fde3c6fd1ceaa7ffb2dfa3ffc

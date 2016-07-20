@@ -1,4 +1,5 @@
 ---
+title: A Greener Conference Badge for dConstruct
 remarks:
   - author: Simon Edwards
     gravatar: 09e26f43c811e8e6dec064bbaf0e30b8

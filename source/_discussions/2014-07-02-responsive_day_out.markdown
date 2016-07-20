@@ -1,4 +1,5 @@
 ---
+title: 'The Pursuit of Laziness: Thoughts from Responsive Day Out'
 remarks:
   - author: Ida Aalen
     gravatar: a04e289cecf111d5ddb45ff71f5f5252

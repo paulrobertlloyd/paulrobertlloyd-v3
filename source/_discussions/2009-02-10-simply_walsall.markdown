@@ -1,4 +1,5 @@
 ---
+title: Simply Walsall
 remarks:
   - author: Kris
     gravatar: c792ab0e2c783f557ea28d7141a0ee83
