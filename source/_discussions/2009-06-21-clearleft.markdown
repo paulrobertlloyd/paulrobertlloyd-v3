@@ -1,4 +1,5 @@
 ---
+title: Hello Clearleft
 remarks:
   - author: Chris Colhoun
     gravatar: dc44180463fd03188a06b9e648f031c9

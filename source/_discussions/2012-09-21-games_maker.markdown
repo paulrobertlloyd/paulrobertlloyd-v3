@@ -1,4 +1,5 @@
 ---
+title: My Life as a Games Maker
 remarks:
   - author: Simon R Jones
     gravatar: 95d20a657d78be416865364ffdb0490a

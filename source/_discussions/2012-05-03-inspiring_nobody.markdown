@@ -1,4 +1,5 @@
 ---
+title: Inspiring Nobody
 remarks:
   - author: Jonathon Blok
     gravatar: 7d117e926f1547bf6a8722b4e9a8811e

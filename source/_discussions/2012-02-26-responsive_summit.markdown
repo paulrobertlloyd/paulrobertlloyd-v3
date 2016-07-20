@@ -1,4 +1,5 @@
 ---
+title: How I Learned to Stop Worrying and Love Responsive Images
 remarks:
   - author: karl
     gravatar: 39814c0daf5f82f744e8c017c00429f9

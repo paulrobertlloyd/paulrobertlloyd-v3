@@ -1,4 +1,5 @@
 ---
+title: Day One
 remarks:
   - author: Jonathan Aquino
     gravatar: 6b5ab75ce823bc4a31dcf1f04427a582
@@ -11,7 +12,7 @@ remarks:
     gravatar: 247cfeb6483b584d5eaa7863959d988b
     date: '2009-01-04 10:40:52 +0000'
     content: |
-      Nice one Lloydy and exellent photos, I should have done a similar thing really. On New Years Eve I fell asleep at 11:30 so i missed out on the whole midnight celebration lol.
+      Nice one Lloydy and excellent photos, I should have done a similar thing really. On New Years Eve I fell asleep at 11:30 so i missed out on the whole midnight celebration lol.
 
   - author: Andy Higgs
     gravatar: 3282170b113297711ac2a2d41bffb70d

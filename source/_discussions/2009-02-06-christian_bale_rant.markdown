@@ -1,4 +1,5 @@
 ---
+title: 'Christian Bale Rant: Batman Edition'
 remarks:
   - author: Fabricio Zuardi
     gravatar: 9c617d84d045dc1bf419bae569532f05

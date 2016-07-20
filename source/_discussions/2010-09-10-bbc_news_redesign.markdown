@@ -1,4 +1,5 @@
 ---
+title: Thoughts on the BBC News Redesign
 remarks:
   - author: Tim Print
     gravatar: 10422b15b0082b87e737022e1fac298d

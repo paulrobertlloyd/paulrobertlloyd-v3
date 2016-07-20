@@ -1,4 +1,5 @@
 ---
+title: Trimming the Fat
 remarks:
   - author: Marc Falk
     gravatar: 2045fe63c54f4b981b76489e0eb2b961

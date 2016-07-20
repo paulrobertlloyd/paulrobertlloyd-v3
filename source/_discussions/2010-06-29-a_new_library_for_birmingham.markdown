@@ -1,4 +1,5 @@
 ---
+title: A New Library for Birmingham
 remarks:
   - author: Andy
     gravatar: 3282170b113297711ac2a2d41bffb70d

@@ -1,4 +1,5 @@
 ---
+title: A New Visual Design Language for BBC Online
 remarks:
   - author: Paul Annett
     gravatar: d83f6a73ee515fa9d7e4e0e8e9eabac8

@@ -1,4 +1,5 @@
 ---
+title: (Re)introducing Bradshaw's Guide
 remarks:
   - author: Nick Harewood
     gravatar: f57e57be6ed12e51d3c9e9f6c030b522

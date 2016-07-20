@@ -1,4 +1,5 @@
 ---
+title: An Opportunity For Change
 remarks:
   - author: Cole
     gravatar: 0112d423655aac265caae4e73f587e81

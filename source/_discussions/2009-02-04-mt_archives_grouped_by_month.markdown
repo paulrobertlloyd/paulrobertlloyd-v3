@@ -1,4 +1,5 @@
 ---
+title: Entry Archives, Grouped by Month in Movable Type
 remarks:
   - author: Ben
     gravatar: ca29319179a322eda04bc36386e2bdcd
