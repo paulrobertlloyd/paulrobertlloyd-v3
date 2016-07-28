@@ -1,10 +1,21 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-assets.git
+  revision: da00c80bdbdd8e96b16123777bd38c422c94ac20
+  specs:
+    jekyll-assets (2.2.7)
+      extras (~> 0.1)
+      fastimage (~> 2.0, >= 1.8)
+      jekyll (~> 3.1, >= 3.0)
+      pathutil (>= 0.8)
+      sprockets (~> 3.3, < 3.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
     autoprefixer-rails (6.3.7)
       execjs
-    colorator (0.1)
+    colorator (1.1.0)
     concurrent-ruby (1.0.2)
     execjs (2.7.0)
     extras (0.1.0)
@@ -13,23 +24,18 @@ GEM
       addressable (~> 2)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
-    jekyll (3.1.6)
-      colorator (~> 0.1)
+    jekyll (3.2.0)
+      colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
       kramdown (~> 1.3)
       liquid (~> 3.0)
       mercenary (~> 0.3.3)
+      pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
     jekyll-archives (2.1.0)
       jekyll (>= 2.4)
-    jekyll-assets (2.2.7)
-      extras (~> 0.1)
-      fastimage (~> 2.0, >= 1.8)
-      jekyll (~> 3.1, >= 3.0)
-      pathutil (>= 0.8)
-      sprockets (~> 3.3)
     jekyll-crosspost-to-medium (0.1.14)
     jekyll-figure (0.0.2)
     jekyll-paginate (1.1.0)
@@ -68,7 +74,7 @@ GEM
     titlecase (0.1.1)
     typogruby (1.0.18)
       rubypants
-    uglifier (3.0.0)
+    uglifier (3.0.1)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
@@ -78,7 +84,7 @@ DEPENDENCIES
   autoprefixer-rails
   jekyll
   jekyll-archives
-  jekyll-assets
+  jekyll-assets!
   jekyll-crosspost-to-medium
   jekyll-figure
   jekyll-paginate

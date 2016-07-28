@@ -2,9 +2,8 @@ title: Paul Robert Lloyd
 short_title: PRL
 description: Paul Robert Lloyd is an independent designer, writer and speaker based in Brighton, England.
 url: https://paulrobertlloyd.com
-theme:
-  color: '#cc52cc'
-  background-color: '#141214'
+theme_color: '#cc52cc'
+background_color: '#141214'
 
 # Meta
 author:

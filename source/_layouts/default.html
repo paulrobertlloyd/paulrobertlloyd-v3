@@ -10,7 +10,7 @@ layout: compress
 <head>
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
   <link rel="apple-touch-icon" href="{% asset_path icon--192x192.png %}" type="image/png"/>
-  <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme.color }}"/>
+  <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme_color }}"/>
   <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
   <link rel="manifest" href="/manifest.json"/>
   {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}
@@ -19,7 +19,7 @@ layout: compress
   <meta name="author" content="{{ site.author.name }}"/>
   <meta name="referrer" content="origin"/>
   <meta name="robots" content="index, follow"/>
-  <meta name="theme-color" content="{{ site.theme.color }}"/>
+  <meta name="theme-color" content="{{ site.theme_color }}"/>
   <meta name="application-name" content="{{ site.title }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="fullcss"  content="{% asset_path global.css %}"/>
