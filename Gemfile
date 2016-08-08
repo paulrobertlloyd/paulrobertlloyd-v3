@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
-  gem 'jekyll-assets', :git => 'https://github.com/jekyll/jekyll-assets.git'
+  gem 'jekyll-assets'
   gem 'jekyll-crosspost-to-medium'
   gem 'jekyll-figure'
   gem 'jekyll-paginate'
