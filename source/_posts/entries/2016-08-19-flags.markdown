@@ -2,7 +2,7 @@
 title: 'Flags'
 date: '2016-08-19 01:50:00 +0100'
 location: Royal Leamington Spa, England
-excerpt: 'Flags. There''s lots of them around. Here are some more.'
+excerpt: 'There''s a lot of them around. Here are some more.'
 image:
   url: /2016/08/flags.jpg
   caption: 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)'
@@ -40,7 +40,7 @@ Another proposal, this time for the city of Milwaukee. Robert Lenz's design has 
 > The sun rising over Lake Michigan symbolizes a new day. The light blue bars in its reflection represent the city's three rivers and founding towns. Gold symbolizes our brewing history and white represents the city united.
 
 {% figure caption:"Milwaukee's Peoples Flag" class:"u-bleed" %}
-{% picture showcase /2016/08/milwaukee_peoples_flag.png alt="" %}
+{% picture showcase /2016/08/milwaukee_peoples_flag.jpg alt="" %}
 {% endfigure %}
 
 The [People's Flag of Milwaukee][10] also has an impressive website, with plenty of photos showing the new flag in situ.
