@@ -14,22 +14,20 @@ tags:
 ---
 With British success at the Olympics in Rio, so the procedural photos of medalling athletes holding aloft the Union Flag. But, with the growing likelihood of a second independence referendum in Scotland post-Brexit, this could be the last games contested under the Team GB banner.
 
-Whether a diminished United Kingdom would need a new flag is [open to debate][1]. Given the current design represents the union of England, Scotland and Ireland and makes no reference to Wales, you could argue it's already an anachronism.
+Whether a diminished United Kingdom would need a new flag is [open to debate][1]. Given the current design represents the union of England, Scotland and Ireland--and makes no reference to Wales--you could argue it's already an anachronism.
 
 ## Golden Wattle Flag
 While the Union Flag may see its life extended at home, as former colonies seek to develop their own identities, the defaced flags that have represented them since the days of empire are reaching their nadir.
 
 That said, the people of New Zealand recently [voted to keep their current Blue Ensign][2] (arguably because the alternatives weren't much better). Australia has yet to put the same question to a public vote, though not due to a shortage of [proposed replacements][3].
 
-Designing a flag to represent typically diverse and divided post-colonial country like Australia is a tall order, but not impossible. The flags of [Canada][4] and [South Africa][5] are notable examples, and to my ignorant eyes, the Golden Wattle flag follows in their footsteps. Unique and distinctive while avoiding overt symbolism, look closely and you’ll spot the familiar seven-pointed [Commonwealth Star][6]:
+Designing a flag to represent typically diverse and divided post-colonial countries like Australia is a tall order, but not impossible. The flags of [Canada][4] and [South Africa][5] are notable examples, and to my ignorant eyes, the Golden Wattle flag follows in their footsteps. Unique and distinctive while avoiding overt symbolism, look closely and you’ll spot the familiar seven-pointed [Commonwealth Star][6]:
 
 {% figure caption:"The Golden Wattle Flag" class:"u-bleed" %}
 {% picture showcase /2016/08/golden_wattle_flag.jpg alt="" %}
 {% endfigure %}
 
-> The Golden Wattle Flag is a symbol of our nation's diversity and aspirations of unity. It represents all the people of Australia, without distinction of race, language, belief or opinion, united *equally* as one.
-
-With a well considered and attractive design, inspiration was primarily drawn from the official floral emblem of Australia:
+With a considered and attractive design, inspiration was primarily drawn from the official floral emblem of Australia:
 
 > Wattle as a symbol also holds meaning for Indigenous Australians because it is native to this place, rather than being a memorial of our ties with Great Britain. As a symbol of nature, it represents the depth of feeling and connection Aboriginal people have with their land.
 
@@ -51,13 +49,11 @@ Another feature of the Rio Olympics has been [a team of ten refugees][11]. Compe
 
 > Black and orange (colors of the life vests) is a symbol of solidarity for all those who crossed the sea in search of a new country. I myself wore one, which is why I so identify with these colors--and these people.
 
+[The Refugee Nation][12] initiative has also seen the creation of an anthem, and an image filter you can apply to your social media avatar.
+
 {% figure caption:"Flag for the Refugee Nation" class:"u-bleed" %}
 {% picture showcase /2016/08/refugee_nation_flag.jpg alt="" %}
 {% endfigure %}
-
-Learn more about the [The Refugee Nation][12].
-
-* * *
 
 ## Jà! (Now), a project from Thonik
 Countries, cities or refugees, flags can represent any group of people. But perhaps they can represent individuals too. One of the more engaging talks at [Brand Niewue Conference][13], which I attended earlier this year, was that by Nikki Gonnissen from [Thonik][14].
@@ -75,11 +71,9 @@ Gonnissen:
 
 > As graphic designers we always use clear images and colours and bring back chaotic information into a clear symbol which is a starting point. From there we communicate through diverse media. In this instance the flag is the medium.
 
-You can read more about this project over at [Dezeen magazine][15].
+You can read more about this project over at [Dezeen magazine][15]. Looking for more flags? [Flag Stories][16] has you covered.
 
-* * *
-
-Want more flags? [Flag Stories][16] has you covered. Flags.
+Flags.
 
 [1]: http://www.bbc.co.uk/news/magazine-25205017
 [2]: https://www.theguardian.com/world/2016/mar/24/new-zealand-votes-to-keep-its-flag-in-referendum
