@@ -1,12 +1,12 @@
 [submodule "source/_assets/javascripts/vendor/fontfaceobserver"]
-	path = source/_assets/javascripts/vendor/fontfaceobserver
+	path = src/_assets/javascripts/vendor/fontfaceobserver
 	url = git@github.com:bramstein/fontfaceobserver.git
 [submodule "source/_assets/javascripts/vendor/picturefill"]
-	path = source/_assets/javascripts/vendor/picturefill
+	path = src/_assets/javascripts/vendor/picturefill
 	url = git@github.com:scottjehl/picturefill.git
 [submodule "source/_assets/javascripts/vendor/Simple-Jekyll-Search"]
-	path = source/_assets/javascripts/vendor/Simple-Jekyll-Search
+	path = src/_assets/javascripts/vendor/Simple-Jekyll-Search
 	url = git@github.com:christian-fei/Simple-Jekyll-Search.git
 [submodule "source/_assets/javascripts/vendor/what-input"]
-	path = source/_assets/javascripts/vendor/what-input
+	path = src/_assets/javascripts/vendor/what-input
 	url = git@github.com:ten1seven/what-input.git

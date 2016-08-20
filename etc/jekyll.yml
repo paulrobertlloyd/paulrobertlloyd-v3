@@ -170,12 +170,12 @@ picture:
         height: 300
 
 # Publishing
-source: ./source
-destination: ./public
+source: ./src
+destination: ./www
 
 # Crossposting
 jekyll-crosspost_to_medium:
-  cache: ./source/_data/
+  cache: ./src/_data/
   status: draft
   license: cc-40-by-nc-sa
 
