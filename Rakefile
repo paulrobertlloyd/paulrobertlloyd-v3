@@ -6,9 +6,9 @@
 # License: MIT
 #
 
-destination = "public"
-source = "source"
-config = "config"
+destination = "www"
+source = "src"
+config = "etc"
 
 
 desc "Clean up prepared and built files"
