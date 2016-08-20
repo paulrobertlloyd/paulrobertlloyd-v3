@@ -2,15 +2,16 @@
 title: 'Flags'
 date: '2016-08-19 01:50:00 +0100'
 location: Royal Leamington Spa, England
-excerpt: 'Flags. There are lots of them around. Here are some more.'
+excerpt: 'Flags. There''s lots of them around. Here are some more.'
 image:
   url: /2016/08/flags.jpg
   caption: 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)'
   preset: anamorphic
-#crosspost_to_medium: true
+crosspost_to_medium: true
 tags:
   - Design
   - Identity
+  - Olympics
 ---
 With British success at the Olympics in Rio, so the procedural photos of medalling athletes holding aloft the Union Flag. But, with the growing likelihood of a second independence referendum in Scotland post-Brexit, this could be the last games contested under the Team GB banner.
 
@@ -49,16 +50,18 @@ Another feature of the Rio Olympics has been [a team of ten refugees][11]. Compe
 
 > Black and orange (colors of the life vests) is a symbol of solidarity for all those who crossed the sea in search of a new country. I myself wore one, which is why I so identify with these colors--and these people.
 
-[The Refugee Nation][12] initiative has also seen the creation of an anthem, and an image filter you can apply to your social media avatar.
+[The Refugee Nation][12] initiative also involved the creation of an anthem, and an image filter you can apply to your social media avatar, if that's your thing.
 
 {% figure caption:"Flag for the Refugee Nation" class:"u-bleed" %}
 {% picture showcase /2016/08/refugee_nation_flag.jpg alt="" %}
 {% endfigure %}
 
 ## Jà! (Now), a project from Thonik
-Countries, cities or refugees, flags can represent any group of people. But perhaps they can represent individuals too. One of the more engaging talks at [Brand Niewue Conference][13], which I attended earlier this year, was that by Nikki Gonnissen from [Thonik][14].
+Countries, cities or refugees, flags can represent any group of people. But they can represent individuals too. One of the more engaging talks at [Brand Niewue Conference][13], which I attended earlier this year, was that by Nikki Gonnissen from [Thonik][14].
 
-During her talk about graphic empowerment, she spoke about collaborating with artist Pieke Bergmans to create a site-specific project for the 2015 Bienal Brasileira de Design in Florianópolis. Here, they designed a flag for 28 of the towns vibrantly coloured houses, hoping to empower residents and give them a voice: "one man, one house, one vote!".
+During her talk about graphic empowerment, she spoke about collaborating with artist Pieke Bergmans to create a site-specific project for the 2015 Bienal Brasileira de Design in Florianópolis. Here, they designed a flag for 28 of the towns vibrantly coloured houses, hoping to empower residents and give them a voice: *one man, one house, one vote!* Gonnissen:
+
+> As graphic designers we always use clear images and colours and bring back chaotic information into a clear symbol which is a starting point. From there we communicate through diverse media. In this instance the flag is the medium.
 
 {% figure caption:"Residents photographed holding flags outside their respective buildings." class:"u-abreast" %}
 {% picture thumbnail /2016/08/florianopolis_flag_1.jpg alt="Blue flag" %}
@@ -66,10 +69,6 @@ During her talk about graphic empowerment, she spoke about collaborating with ar
 {% picture thumbnail /2016/08/florianopolis_flag_3.jpg alt="Pink flag" %}
 {% picture thumbnail /2016/08/florianopolis_flag_4.jpg alt="Orange flag" %}
 {% endfigure %}
-
-Gonnissen:
-
-> As graphic designers we always use clear images and colours and bring back chaotic information into a clear symbol which is a starting point. From there we communicate through diverse media. In this instance the flag is the medium.
 
 You can read more about this project over at [Dezeen magazine][15]. Looking for more flags? [Flag Stories][16] has you covered. Flags.
 
