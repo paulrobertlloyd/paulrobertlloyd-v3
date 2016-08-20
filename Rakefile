@@ -18,14 +18,14 @@ end
 
 
 desc "Regenerate the website files and place them into destination"
-task :'build-dev' => [:clean] do
-  sh "JEKYLL_ENV=development bundle exec jekyll build --config config/jekyll.yml --future --trace --profile"
+task :"build-dev" => [:clean] do
+  sh "JEKYLL_ENV=development bundle exec jekyll build --config #{config}/jekyll.yml --future --trace --profile"
 end
 
 
 desc "Regenerate the website files and place them into destination"
 task :build => [:clean] do
-  sh "JEKYLL_ENV=production bundle exec jekyll build --config config/jekyll.yml --future"
+  sh "JEKYLL_ENV=production bundle exec jekyll build --config #{config}/jekyll.yml --future"
 end
 
 
@@ -41,10 +41,10 @@ task :deploy => :build do
 end
 
 
-desc "Replace 'lazy' Markdown references with proper versions"
+desc "Replace ‘lazy’ Markdown references with proper versions"
 task :refs do |t|
-  FileList.new('source/**/*.markdown').each do |path|
-    File.open(path, 'r+:utf-8') do |file|
+  FileList.new("#{source}/**/*.markdown").each do |path|
+    File.open(path, "r+:utf-8") do |file|
       contents = file.read
 
       # Search file contents for Markdown references containing asterisks
@@ -56,7 +56,7 @@ task :refs do |t|
       while contents =~ /(\[[^\]]+\]\s*\[)\*(\].*?^\[)\*\]\:/m
         contents.sub!(/(\[[^\]]+\]\s*\[)\*(\].*?^\[)\*\]\:/m) do
           counter += 1
-          Regexp.last_match[1] + counter.to_s + Regexp.last_match[2] + counter.to_s + ']:'
+          Regexp.last_match[1] + counter.to_s + Regexp.last_match[2] + counter.to_s + "]:"
         end
       end
 
@@ -70,13 +70,13 @@ end
 
 desc "Replace email addresses in remarks with md5 hashed strings"
 task :hash do |t|
-  FileList.new('source/_data/remarks/*.yml').each do |path|
-    File.open(path, 'r+:utf-8') do |file_name|
+  FileList.new("#{source}/_data/remarks/*.yml").each do |path|
+    File.open(path, "r+:utf-8") do |file_name|
 
-      require 'digest/md5'
+      require "digest/md5"
       private :hash
       def hash(email)
-        email_address = email ? email.downcase.strip : ''
+        email_address = email ? email.downcase.strip : ""
         Digest::MD5.hexdigest(email_address)
       end
 

@@ -20,4 +20,4 @@
 *.jekyll-metadata
 
 # Folders to ignore
-public
+www
