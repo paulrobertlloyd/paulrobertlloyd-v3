@@ -1,0 +1,95 @@
+---
+title: 'Flags'
+date: '2016-08-18 01:50:00 +0100'
+location: Royal Leamington Spa, England
+excerpt: 'Flags. There are lots of them around. Here are some more.'
+image:
+  url: /2016/08/flags.jpg
+  caption: 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)'
+#crosspost_to_medium: true
+tags:
+  - Design
+  - Identity
+---
+With British success at the Olympics in Rio, so the procedural photos of medalling athletes holding aloft the Union Flag.
+
+With the growing likelihood of a second independence referendum in Scotland post-Brexit, this could be the last games contested under the Team GB banner. Whether a diminished United Kingdom would need a new flag is [open to debate][1]. Given the current design represents the union of England, Scotland and Ireland, and makes no reference to Wales, you could also argue it's long been anachronism, failing to reflect reality for much of its lifespan.
+
+## Golden Wattle Flag
+While the Union Flag may see its life extended at home, as former colonies seek to develop their own identities, the defaced flags that have represented them since the days of empire are reaching their nadir. That said, the people of New Zealand recently [voted to keep their current Blue Ensign][2], arguably because the alternatives weren't much better.
+
+Australia has yet to put the same question to a public vote, but there's no shortage of [proposals for a replacement][3].
+
+Designing a flag to represent a diverse and divided post-colonial country is a tall order, but not impossible, with the flags of [Canada][4] and [South Africa][5] both notable examples. To my ignorant eyes, the Golden Wattle flag looks to follow in their footsteps.
+
+{% figure caption:"The Golden Wattle Flag" class:"u-bleed" %}
+{% picture supporting /2016/08/golden_wattle_flag.jpg alt="" %}
+{% endfigure %}
+
+With a well considered and attractive design, this flag draws its inspiration from the official floral emblem of Australia:
+
+> The Golden Wattle Flag is a symbol of our nation's diversity and aspirations of unity. It represents all the people of Australia, without distinction of race, language, belief or opinion, united *equally* as one.
+
+You can read more about this proposal on its [impressively detailed website][6].
+
+## Milwaukee's Peoples Flag
+Another proposal, this time for the city of Milwaukee. Robert Lenz's design has already been adopted as its ‘Peoples Flag', with [a campaign to have it made official][7]. Looking at [the incumbent][8], this would be no bad thing. Like the Golden Wattle, its apparent simplicity reveals more on closer inspection:
+
+> The sun rising over Lake Michigan symbolizes a new day. The light blue bars in its reflection represent the city's three rivers and founding towns. Gold symbolizes our brewing history and white represents the city united.
+
+{% figure caption:"Milwaukee's Peoples Flag" class:"u-bleed" %}
+{% picture supporting /2016/08/milwaukee_peoples_flag.jpg alt="" %}
+{% endfigure %}
+
+You can read more about the [People's Flag of Milwaukee][9],
+
+## Flag for the Refugee Nation
+Another feature of the Rio Olympics has been [a team of ten refugees][10]. Competing under the Olympic flag, an initiative supported by Amnesty International sought to create their own. Designer Yara Said, an artist and Syrian refugee now living in Amsterdam, produced a flag inspired by the colours of a lifejacket:
+
+> Black and orange (colors of the life vests) is a symbol of solidarity for all those who crossed the sea in search of a new country. I myself wore one, which is why I so identify with these colors—and these people.
+
+{% figure caption:"Flag for the Refugee Nation" class:"u-bleed" %}
+{% picture supporting /2016/08/refugee_nation_flag.jpg alt="" %}
+{% endfigure %}
+
+Learn more about the [The Refugee Nation][11].
+
+* * *
+
+## Jà! (Now), a project from Thonik
+From countries to cities to refugees, flags can represent any group of people. But perhaps they can represent individuals too. One of the most interesting talks at [Brand Niewue Conference][12], which I attended earlier this year, was that by Nikki Gonnissen from [Thonik][13].
+
+During her talk about graphic empowerment, she spoke about collaborating with artist Pieke Bergmans to create a site-specific project for the 2015 Bienal Brasileira de Design in Florianópolis. By designing a flag for 28 of the towns vibrantly coloured houses, they hoped to empower their residents and give them a voice: "one man, one house, one vote!".
+
+{% figure caption:"Residents photographed holding flags outside their respective buildings." class:"u-abreast" %}
+{% picture thumbnail /2016/08/florionapolis_flag_1.jpg alt="Blue flag" %}
+{% picture thumbnail /2016/08/florionapolis_flag_2.jpg alt="Green flag" %}
+{% picture thumbnail /2016/08/florionapolis_flag_3.jpg alt="Pink flag" %}
+{% picture thumbnail /2016/08/florionapolis_flag_4.jpg alt="Orange flag" %}
+{% endfigure %}
+
+Gonnissen:
+
+> As graphic designers we always use clear images and colours and bring back chaotic information into a clear symbol which is a starting point. From there we communicate through diverse media. In this instance the flag is the medium.
+
+You can read more about this project over at [Dezeen magazine][14].
+
+* * *
+
+So, flags. Want more? [Flag Stories][15] has you covered. Flags.
+
+[1]: http://www.bbc.co.uk/news/magazine-25205017
+[2]: https://www.theguardian.com/world/2016/mar/24/new-zealand-votes-to-keep-its-flag-in-referendum
+[3]: https://en.wikipedia.org/wiki/List_of_proposed_Australian_flags
+[4]: https://en.wikipedia.org/wiki/Flag_of_Canada
+[5]: https://en.wikipedia.org/wiki/Flag_of_South_Africa
+[6]: http://www.goldenwattleflag.com
+[7]: http://milwaukeeflag.com/support
+[8]: https://en.wikipedia.org/wiki/Flag_of_Milwaukee
+[9]: http://milwaukeeflag.com
+[10]: https://en.wikipedia.org/wiki/Refugee_Olympic_Team_at_the_2016_Summer_Olympics
+[11]: http://www.therefugeenation.org
+[12]: https://underconsideration.com/brandnieuweconference/
+[13]: http://www.thonik.nl
+[14]: http://www.dezeen.com/2015/09/03/thonik-creates-flags-based-brazilian-architecture-brazil-design-biennial-florianopolis
+[15]: http://flagstories.co
