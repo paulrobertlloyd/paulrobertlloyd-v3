@@ -12,24 +12,26 @@ tags:
   - Design
   - Identity
 ---
-With British success at the Olympics in Rio, so the procedural photos of medalling athletes holding aloft the Union Flag.
+With British success at the Olympics in Rio, so the procedural photos of medalling athletes holding aloft the Union Flag. But, with the growing likelihood of a second independence referendum in Scotland post-Brexit, this could be the last games contested under the Team GB banner.
 
-With the growing likelihood of a second independence referendum in Scotland post-Brexit, this could be the last games contested under the Team GB banner. Whether a diminished United Kingdom would need a new flag is [open to debate][1]. Given the current design represents the union of England, Scotland and Ireland and makes no reference to Wales, you could also argue it has long been an anachronism, failing to reflect reality for much of its lifespan.
+Whether a diminished United Kingdom would need a new flag is [open to debate][1]. Given the current design represents the union of England, Scotland and Ireland and makes no reference to Wales, you could argue it's already an anachronism.
 
 ## Golden Wattle Flag
 While the Union Flag may see its life extended at home, as former colonies seek to develop their own identities, the defaced flags that have represented them since the days of empire are reaching their nadir.
 
-That said, the people of New Zealand recently [voted to keep their current Blue Ensign][2] (arguably because the alternatives weren't much better). Australia has yet to put the same question to a public vote, but not because there's a shortage of [proposed replacements][3].
+That said, the people of New Zealand recently [voted to keep their current Blue Ensign][2] (arguably because the alternatives weren't much better). Australia has yet to put the same question to a public vote, though not due to a shortage of [proposed replacements][3].
 
-Designing a flag to represent typically diverse and divided post-colonial countries is a tall order, but not impossible, the flags of [Canada][4] and [South Africa][5] both notable examples. To my ignorant eyes, the Golden Wattle flag looks to follow in their footsteps. Unique, distinctive and avoiding overt symbolism, look closely and you’ll spot the familiar seven-pointed [Commonwealth Star][6]:
+Designing a flag to represent typically diverse and divided post-colonial country like Australia is a tall order, but not impossible. The flags of [Canada][4] and [South Africa][5] are notable examples, and to my ignorant eyes, the Golden Wattle flag follows in their footsteps. Unique and distinctive while avoiding overt symbolism, look closely and you’ll spot the familiar seven-pointed [Commonwealth Star][6]:
 
 {% figure caption:"The Golden Wattle Flag" class:"u-bleed" %}
 {% picture showcase /2016/08/golden_wattle_flag.jpg alt="" %}
 {% endfigure %}
 
-With a well considered and attractive design, this flag draws its inspiration from the official floral emblem of Australia:
-
 > The Golden Wattle Flag is a symbol of our nation's diversity and aspirations of unity. It represents all the people of Australia, without distinction of race, language, belief or opinion, united *equally* as one.
+
+With a well considered and attractive design, inspiration was primarily drawn from the official floral emblem of Australia:
+
+> Wattle as a symbol also holds meaning for Indigenous Australians because it is native to this place, rather than being a memorial of our ties with Great Britain. As a symbol of nature, it represents the depth of feeling and connection Aboriginal people have with their land.
 
 You can read more about this proposal on its [impressively detailed website][7].
 
@@ -42,12 +44,12 @@ Another proposal, this time for the city of Milwaukee. Robert Lenz's design has 
 {% picture showcase /2016/08/milwaukee_peoples_flag.png alt="" %}
 {% endfigure %}
 
-Read more about the [People's Flag of Milwaukee][10].
+The [People's Flag of Milwaukee][10] also has an impressive website, with plenty of photos showing the new flag in situ.
 
 ## Flag for the Refugee Nation
 Another feature of the Rio Olympics has been [a team of ten refugees][11]. Competing under the Olympic flag, an initiative supported by Amnesty International sought to create their own. Designer Yara Said, an artist and Syrian refugee now living in Amsterdam, produced a flag inspired by the colours of a lifejacket:
 
-> Black and orange (colors of the life vests) is a symbol of solidarity for all those who crossed the sea in search of a new country. I myself wore one, which is why I so identify with these colors—and these people.
+> Black and orange (colors of the life vests) is a symbol of solidarity for all those who crossed the sea in search of a new country. I myself wore one, which is why I so identify with these colors--and these people.
 
 {% figure caption:"Flag for the Refugee Nation" class:"u-bleed" %}
 {% picture showcase /2016/08/refugee_nation_flag.jpg alt="" %}
@@ -58,9 +60,9 @@ Learn more about the [The Refugee Nation][12].
 * * *
 
 ## Jà! (Now), a project from Thonik
-From countries to cities to refugees, flags can represent any group of people. But perhaps they can represent individuals too. One of the most interesting talks at [Brand Niewue Conference][13], which I attended earlier this year, was that by Nikki Gonnissen from [Thonik][14].
+Countries, cities or refugees, flags can represent any group of people. But perhaps they can represent individuals too. One of the more engaging talks at [Brand Niewue Conference][13], which I attended earlier this year, was that by Nikki Gonnissen from [Thonik][14].
 
-During her talk about graphic empowerment, she spoke about collaborating with artist Pieke Bergmans to create a site-specific project for the 2015 Bienal Brasileira de Design in Florianópolis. By designing a flag for 28 of the towns vibrantly coloured houses, they hoped to empower their residents and give them a voice: "one man, one house, one vote!".
+During her talk about graphic empowerment, she spoke about collaborating with artist Pieke Bergmans to create a site-specific project for the 2015 Bienal Brasileira de Design in Florianópolis. Here, they designed a flag for 28 of the towns vibrantly coloured houses, hoping to empower residents and give them a voice: "one man, one house, one vote!".
 
 {% figure caption:"Residents photographed holding flags outside their respective buildings." class:"u-abreast" %}
 {% picture thumbnail /2016/08/florianopolis_flag_1.jpg alt="Blue flag" %}
@@ -77,7 +79,7 @@ You can read more about this project over at [Dezeen magazine][15].
 
 * * *
 
-So, flags. Want more? [Flag Stories][16] has you covered. Flags.
+Want more flags? [Flag Stories][16] has you covered. Flags.
 
 [1]: http://www.bbc.co.uk/news/magazine-25205017
 [2]: https://www.theguardian.com/world/2016/mar/24/new-zealand-votes-to-keep-its-flag-in-referendum
