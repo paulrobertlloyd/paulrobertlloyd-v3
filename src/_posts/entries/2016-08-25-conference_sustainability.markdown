@@ -1,6 +1,6 @@
 ---
 title: 'Conferences Shouldn''t Cost the Earth'
-date: '2016-08-25 01:50:00 +0100'
+date: '2016-08-25 14:30:00 +0100'
 location: Brighton, England
 excerpt: 'Given the worsening ecological situation, can showering conference attendees with gifts still be seen as an act of thoughtfulness?'
 crosspost_to_medium: true
