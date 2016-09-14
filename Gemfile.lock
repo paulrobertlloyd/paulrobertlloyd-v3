@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
-    autoprefixer-rails (6.4.0.3)
+    autoprefixer-rails (6.4.1.1)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.2)
@@ -35,7 +35,6 @@ GEM
     jekyll-crosspost-to-medium (0.1.14)
     jekyll-figure (0.0.2)
     jekyll-paginate (1.1.0)
-    jekyll-roman (0.0.2)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-sitemap (0.11.0)
@@ -84,7 +83,6 @@ DEPENDENCIES
   jekyll-crosspost-to-medium
   jekyll-figure
   jekyll-paginate
-  jekyll-roman
   jekyll-sitemap
   jekyll-slugify_underscore
   jekyll-typogrify
