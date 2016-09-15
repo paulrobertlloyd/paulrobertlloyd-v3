@@ -14,6 +14,7 @@ meta:
 ---
 ## References
 
+  * Hall, P. (1990, March 4). [Brasilia and the Burial of Utopia](http://articles.latimes.com/1990-03-04/books/bk-2454_1_james-holston). <cite>Los Angeles Times</cite>
   * Hughes, R. (1980). <cite>[The Shock of the New: Trouble in Utopia](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>.
   * Green, O. (2014). <cite>[Frank Pick's London: Art Design and the Modern City](http://www.ltmuseumshop.co.uk/gifts-and-souvenirs/books/underground/product/frank-picks-london-art-design-and-the-modern-city.html)</cite>. London: V&A Publishing
   * Rutter, K. (2009, December 1). [Making Design Principles Stick](http://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php). <cite>Adaptive Path</cite>. Archived from [the original](http://www.adaptivepath.com/ideas/essays/archives/001123.php)
