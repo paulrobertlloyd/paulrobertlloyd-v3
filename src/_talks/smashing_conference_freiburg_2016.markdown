@@ -15,7 +15,7 @@ meta:
 ## References
 
   * Hughes, R. (1980). <cite>[The Shock of the New: Trouble in Utopia](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>.
-  * Green, O. (2014). <cite>Frank Pick's London: Art Design and the Modern City</cite>. London: V&A Publishing
+  * Green, O. (2014). <cite>[Frank Pick's London: Art Design and the Modern City](http://www.ltmuseumshop.co.uk/gifts-and-souvenirs/books/underground/product/frank-picks-london-art-design-and-the-modern-city.html)</cite>. London: V&A Publishing
   * Rutter, K. (2009, December 1). [Making Design Principles Stick](http://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php). <cite>Adaptive Path</cite>. Archived from [the original](http://www.adaptivepath.com/ideas/essays/archives/001123.php)
   * Jackson, C. (2015, November 3). [From Pages to Patterns: An Exercise for Everyone](http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone). <cite>A List Apart</cite>
   * Boulton, M. (2016, May 17). [Design systems and Postel's law](http://markboulton.co.uk/journal/design-systems-and-postels-law). <cite>The Personal Disquiet of Mark Boulton</cite>
