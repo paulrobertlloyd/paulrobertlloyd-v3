@@ -9,4 +9,21 @@ embed:
 meta:
   event: 'Smashing Conference'
   location: 'Freiburg, Germany'
+  resources: |
+    * [Notes](/downloads/2016/09/designing_systems.pdf)
 ---
+## References
+
+  * Hughes, R. (1980). <cite>[The Shock of the New: Trouble in Utopia](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>.
+  * Green, O. (2014). <cite>Frank Pick's London: Art Design and the Modern City</cite>. London: V&A Publishing
+  * Rutter, K. (2009, December 1). [Making Design Principles Stick](http://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php). <cite>Adaptive Path</cite>. Archived from [the original](http://www.adaptivepath.com/ideas/essays/archives/001123.php)
+  * Jackson, C. (2015, November 3). [From Pages to Patterns: An Exercise for Everyone](http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone). <cite>A List Apart</cite>
+  * Boulton, M. (2016, May 17). [Design systems and Postel's law](http://markboulton.co.uk/journal/design-systems-and-postels-law). <cite>The Personal Disquiet of Mark Boulton</cite>
+  * Marcotte, E. (2015, December 10). [Putting My Patterns through Their Paces](https://24ways.org/2015/putting-my-patterns-through-their-paces/). <cite>24 ways</cite>
+  * Haley, N. (2014, June 6). [The container model and blended content – a new approach to how we present content on the Guardian](https://24ways.org/2015/putting-my-patterns-through-their-paces/). <cite>The Guardian: Next</cite>
+  * Frederick, M. (2007). <cite>[101 Things I Learned in Architecture School](http://101thingsilearned.com/Architecture/101TILArchitecture.html/)</cite>. Cambridge, MA: MIT Press
+  * Transport for London (2015). <cite>[London Underground Station Design Idiom](http://content.tfl.gov.uk/station-design-idiom-2.pdf)</cite>. London: Transport for London
+  * Crossman, J. (2016, May 25). [GE's Predix Design System](https://medium.com/ge-design/8236d47b0891). <cite>Medium</cite>
+  * Brand, S. (1994). <cite>How Buildings Learn: What Happens After They're Built</cite>. New York: Viking Press
+
+*[MA]:  Massachusetts
