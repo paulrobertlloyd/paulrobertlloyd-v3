@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
-    autoprefixer-rails (6.4.1.1)
+    autoprefixer-rails (6.5.0.1)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.2)
@@ -54,7 +54,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     rack (1.6.4)
-    rake (11.2.2)
+    rake (11.3.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
