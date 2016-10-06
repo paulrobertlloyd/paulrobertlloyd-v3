@@ -2,7 +2,7 @@
 title: 'Admiring the Abstract in Basel''s Kunstmuseum'
 date: '2016-10-05 21:50:00 +0100'
 location: Brighton, England
-excerpt: 'During a recent trip to Basel, I found plenty to inspire me in the city''s recently extended art museum. As I explored the exhibits, I jotted down the artists whose work caught my attention. Upon reviewing this list some weeks later, I thought I''d share my findings.'
+excerpt: 'During a recent trip to Basel, I found plenty to inspire in the city''s recently extended art museum. As I explored the exhibits, I jotted down the artists whose work caught my attention. Reviewing this list some weeks later, I thought I''d share my findings.'
 image:
   url: /2016/10/kunstmuseum_basel.jpg
   caption: 'The new building of the Kunstmuseum Basel. Photograph: [Julian Salinas](https://kmb.picturepark.com/Go/JLVo8XZu)'
@@ -14,7 +14,7 @@ After speaking at [Smashing Conference in Freiburg][1] last month, I spent the f
 
 One of my reasons for visiting Basel was to see [the extension to its art gallery][3], and thankfully, this didn't disappoint. You might think the abundance of grey throughout this new building would make for a tedious space, but the variety of materials -- pristine steel, polished marble, textured plaster, offset by oak parquet flooring in the gallery spaces -- made for a remarkably warm and uplifting atmosphere. The transition between the new and old buildings was thoughtfully considered also.
 
-As I explored the exhibits, I jotted down the artists whose work caught my attention. Upon reviewing this list some weeks later, I thought I'd share my findings.
+As I explored the exhibits, I jotted down the artists whose work caught my attention. Reviewing this list some weeks later, I thought I'd share my findings.
 
 {% figure caption:"Edward Ruscha, <cite>Twentysix Gasoline Stations</cite>, 1963" class:"u-bleed" %}
 {% picture showcase /2016/10/kunstmuseum_ruscha.png alt="" %}
