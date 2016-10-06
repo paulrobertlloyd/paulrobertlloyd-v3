@@ -106,7 +106,7 @@ compress_html:
 
 # Pictures
 picture:
-  cdn: https://paulrobertlloyd.dev/image
+  cdn: https://paulrobertlloyd.com/image
   markup: img
   source: /images
   presets:
