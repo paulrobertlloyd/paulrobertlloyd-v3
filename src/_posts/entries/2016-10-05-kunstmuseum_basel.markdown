@@ -38,27 +38,27 @@ Within the underground foyer that links the old and new buildings, I found more 
 {% picture /2016/10/kunstmuseum_lewitt.jpg alt="" %}
 {% endfigure %}
 
-Along the far wall, a recreation of **[Sol LeWitt][9]**'s arrangement of geometric shapes had been recreated. Not only was this striking, but I thought it worked well as an artistic representation of a pattern library.
+Along the far wall, a recreation of **[Sol LeWitt][9]**'s arrangement of geometric shapes had been recreated. Not only was this striking, but I thought it worked well as an artistic representation of a front-end component library.
 
 {% figure caption:"Josef Albers, <cite>Fugue</cite>, 1925" class:"u-extend" %}
 {% picture showcase /2016/10/kunstmuseum_albers.jpg alt="" %}
 {% endfigure %}
 
-The final piece in this foyer that caught my eye was this piece by **[Josef Albers][10]**. I'm fairly certain I've seen Albers work before, but on reviewing [the combined collection of items created by both Josef and wife Anni][11], these are two artists whose work I need to spend more time with.
+The final piece in this foyer that caught my eye was that by **[Josef Albers][10]**. I'm fairly certain I've seen Albers work before, but on reviewing [the combined collection of items created by both Josef and wife Anni][11], these are two artists whose work I need to spend more time with.
 
-Moving on to the original building, art of the classical periods was abundant, with a large selection of work from well known artists evident also. Walking round the galleries, it was clear that my A-level in Art History hadn't gone to waste, correctly guessing many of the artists before checking the labels next to their work.
+Moving on to the original building, art of the classical periods was abundant, with a large selection of work from well known artists evident also. Walking round the galleries, it was clear that my A-level in art history hadn't gone entirely to waste, as I correctly guessed many of the artists before checking the labels next to their work.
 
 {% figure caption:"Ernst Ludwig Kirchner, <cite>Davos In Snow</cite>" %}
 {% picture /2016/10/kunstmuseum_kirchner.jpg alt="" %}
 {% endfigure %}
 
-New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky and colourful expressionist style was used to describe the appearance of a snow covered Davos. This was one of his many paintings of Davos, a place that [rekindled his love of art][12] having suffered a much darker existence in his native Berlin.
+New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky and colourful expressionist style was used to describe the appearance of a snow covered Davos. This was one of his many paintings of this Swiss municipality, it being the place that [rekindled his love of art][12] having suffered a much darker existence in his native Berlin.
 
 {% figure caption:"Ferdinand Hodler, <cite>The Dents Blanches In Champéry At The Morning Sun</cite>, 1916" class:"u-bleed" %}
 {% picture showcase /2016/10/kunstmuseum_hodler.jpg alt="" %}
 {% endfigure %}
 
-Finally, I was drawn to this painting by **[Ferdinand Hodler][14]**. Again, the expressionist style is appealing, not least the vivid palette and contrasting highlights along the mountainside. I'd experiment with this style myself, if I painted. Hmmm, maybe I should start?
+Finally, I was drawn to this painting by **[Ferdinand Hodler][14]**. Again, the expressionist style appealed to me, not least its vivid palette and the contrasting highlights along the mountainside. I'd experiment with this style myself, if I painted. Hmmm, maybe I should start?
 
 [1]: http://smashingconf.com/freiburg-2016/
 [2]: https://www.vitra.com/en-us/campus
