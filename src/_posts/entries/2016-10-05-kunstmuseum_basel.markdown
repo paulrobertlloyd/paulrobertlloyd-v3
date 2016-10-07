@@ -20,7 +20,7 @@ As I explored the exhibits, I jotted down the artists whose work caught my atten
 {% picture showcase /2016/10/kunstmuseum_ruscha.png alt="" %}
 {% endfigure %}
 
-Two of the rooms in the new building were devoted to photography, the first featuring the work of **[Edward Ruscha][4]**. On display was his series [<cite>Twentysix Gasoline Stations</cite>][5], a selection of which can be seen above. Another series, [<cite>Thirtyfour parking lots in Los Angeles</cite>][6] was possibly more captivating, not least because his aerial photographs took on a more abstract and alien tone.
+Two of the rooms in the new building were devoted to photography, the first featuring the work of **[Edward Ruscha][4]**. On display was his series [<cite>Twentysix Gasoline Stations</cite>][5], a selection of which can be seen above. Another series, [<cite>Thirtyfour Parking Lots in Los Angeles</cite>][6] was possibly more captivating, not least because his aerial photographs took on a more abstract and alien tone.
 
 {% figure caption:"Hilla and Bernd Becher, <cite>Gas Tanks</cite>, 1983-92" %}
 {% picture showcase /2016/10/kunstmuseum_becher.png alt="" %}
@@ -38,7 +38,7 @@ Within the underground foyer that links the old and new buildings, I found more 
 {% picture /2016/10/kunstmuseum_lewitt.jpg alt="" %}
 {% endfigure %}
 
-Along the far wall, a recreation of **[Sol LeWitt][9]**'s arrangement of geometric shapes had been recreated. Not only was this striking, but I thought it worked well as an artistic representation of a front-end component library.
+Along the far wall, **[Sol LeWitt][9]**'s arrangement of geometric shapes had been recreated. Not only was this striking, but I thought it worked well as an artistic representation of a front-end component library.
 
 {% figure caption:"Josef Albers, <cite>Fugue</cite>, 1925" class:"u-extend" %}
 {% picture showcase /2016/10/kunstmuseum_albers.jpg alt="" %}
@@ -52,7 +52,7 @@ Moving on to the original building, art of the classical periods was abundant, w
 {% picture /2016/10/kunstmuseum_kirchner.jpg alt="" %}
 {% endfigure %}
 
-New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky and colourful expressionist style was used to describe the appearance of a snow covered Davos. This was one of his many paintings of this Swiss municipality, it being the place that [rekindled his love of art][12] having suffered a much darker existence in his native Berlin.
+New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky and colourful expressionist style was used to describe the appearance of a snow covered Davos. This was one of his many paintings of the Swiss municipality, this being the place that [rekindled his love of art][12], having suffered a much darker existence in his native Berlin.
 
 {% figure caption:"Ferdinand Hodler, <cite>The Dents Blanches In Champéry At The Morning Sun</cite>, 1916" class:"u-bleed" %}
 {% picture showcase /2016/10/kunstmuseum_hodler.jpg alt="" %}

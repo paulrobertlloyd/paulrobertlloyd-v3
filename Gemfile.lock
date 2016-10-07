@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/jekyll/jekyll-archives.git
+  revision: af9e9cc8184768da44c423426b5cdf43b9df6356
+  branch: master
+  specs:
+    jekyll-archives (2.1.0)
+      jekyll (>= 2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -13,7 +21,8 @@ GEM
       addressable (~> 2)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
-    jekyll (3.2.1)
+    jekyll (3.3.0)
+      addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -23,8 +32,6 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-archives (2.1.0)
-      jekyll (>= 2.4)
     jekyll-assets (2.2.8)
       extras (~> 0.1)
       fastimage (~> 2.0, >= 1.8)
@@ -37,8 +44,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
-    jekyll-sitemap (0.11.0)
-      addressable (~> 2.4.0)
+    jekyll-sitemap (0.12.0)
+      jekyll (~> 3.3)
     jekyll-slugify_underscore (0.0.4)
     jekyll-typogrify (0.3.1)
       titlecase
@@ -78,7 +85,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   jekyll
-  jekyll-archives
+  jekyll-archives!
   jekyll-assets
   jekyll-crosspost-to-medium
   jekyll-figure
