@@ -26,6 +26,7 @@ To run with HTTPS locally on macOS, you should follow the setup [as described he
 1. Open Terminal.app
 2. Change into the correct directory: `cd Sites/paulrobertlloyd/etc/ssl`
 3. Configure SSL:
+
     ```
     cat > openssl.cnf <<-EOF
       [req]
@@ -43,7 +44,9 @@ To run with HTTPS locally on macOS, you should follow the setup [as described he
       DNS.2 = paulrobertlloyd.dev
     EOF
     ```
+
 4. Create the certificate files:
+
     ```
     openssl req \
       -new \
@@ -56,6 +59,7 @@ To run with HTTPS locally on macOS, you should follow the setup [as described he
       -out ssl.crt \
       -config openssl.cnf
     ```
+
 5. Delete the configuration file: `rm openssl.cnf`
 
 ## Deploying
