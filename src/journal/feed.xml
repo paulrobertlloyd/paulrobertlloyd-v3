@@ -13,7 +13,7 @@
   <link href="{{ site.url }}/journal/feed" rel="self"/>
   <link href="{{ site.url }}/journal/"/>
   <generator uri="http://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
-  <icon>{{ site.url }}{% asset_path icon--192x192.png %}</icon>
+  <icon>{{ site.url }}{% asset_path icon.png %}</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 
   {% for post in site.posts limit:25 %}
