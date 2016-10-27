@@ -9,7 +9,7 @@ layout: compress
 <!--#endif-->
 <head>
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
-  <link rel="apple-touch-icon" href="{% asset_path icon--192x192.png %}" type="image/png"/>
+  <link rel="apple-touch-icon" href="{% asset_path icon.png %}" type="image/png"/>
   <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme_color }}"/>
   <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
   <link rel="manifest" href="/manifest.json"/>
@@ -33,7 +33,7 @@ layout: compress
   <meta property="og:image" content="{{ site.url }}/image/640x360/100q{{ page.image.url }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
   {% else %}
-  <meta property="og:image" content="{{ site.url }}{% asset_path icon--192x192.png %}"/>
+  <meta property="og:image" content="{{ site.url }}{% asset_path icon.png %}"/>
   <meta name="twitter:card" content="summary"/>
   {% endif %}
   <meta name="twitter:site" content="@paulrobertlloyd"/>
