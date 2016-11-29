@@ -5,7 +5,7 @@ layout: compress
 <!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/"-->
 <html lang="en-gb" prefix="og: http://ogp.me/ns#" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %} fonts-loaded">
 <!--#else-->
-<html lang="en-gb" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
+<html lang="en-gb" prefix="og: http://ogp.me/ns#" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
 <head>
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
