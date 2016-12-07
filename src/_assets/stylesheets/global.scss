@@ -63,8 +63,8 @@
   font-weight: normal;
   font-style: normal;
   src:
-    url(#{asset_path("calibre-regular.woff2")}) format("woff2"),
-    url(#{asset_path("calibre-regular.woff")}) format("woff");
+    url(asset_path("calibre-regular.woff2")) format("woff2"),
+    url(asset_path("calibre-regular.woff")) format("woff");
 }
 
 @font-face {
@@ -72,8 +72,8 @@
   font-weight: normal;
   font-style: italic;
   src:
-    url(#{asset_path("calibre-italic.woff2")}) format("woff2"),
-    url(#{asset_path("calibre-italic.woff")}) format("woff");
+    url(asset_path("calibre-italic.woff2")) format("woff2"),
+    url(asset_path("calibre-italic.woff")) format("woff");
 }
 
 @font-face {
@@ -81,6 +81,6 @@
   font-weight: 700;
   font-style: normal;
   src:
-    url(#{asset_path("calibre-semibold.woff2")}) format("woff2"),
-    url(#{asset_path("calibre-semibold.woff")}) format("woff");
+    url(asset_path("calibre-semibold.woff2")) format("woff2"),
+    url(asset_path("calibre-semibold.woff")) format("woff");
 }
