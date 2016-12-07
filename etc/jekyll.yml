@@ -39,6 +39,7 @@ collections:
     permalink: /:year/:month/:title
   projects:
     output: true
+    permalink: /projects/:title
   talks:
     output: true
     permalink: /talks/:title
@@ -90,7 +91,6 @@ defaults:
 
 # Assets
 assets:
-  cache: false
   sources:
     - _assets/fonts
     - _assets/icons

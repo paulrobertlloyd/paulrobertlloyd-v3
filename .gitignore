@@ -11,14 +11,12 @@
 *.map
 *~
 
-# OS or Editor folders
+# Files to ignore
 .DS_Store
 ._*
-
-# Files to ignore
-*.jekyll-assets-cache
 *.jekyll-metadata
 
 # Folders to ignore
-www
 etc/ssl
+src/.asset-cache
+www
