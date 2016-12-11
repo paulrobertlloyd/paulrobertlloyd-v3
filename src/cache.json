@@ -1,0 +1,22 @@
+---
+---
+[
+  "{% asset_path global.css %}",
+  "{% asset_path global.js %}",
+  "{% asset_path calibre-regular.woff2 %}",
+  "{% asset_path calibre-regular.woff %}",
+  "{% asset_path calibre-italic.woff2 %}",
+  "{% asset_path calibre-italic.woff %}",
+  "{% asset_path calibre-semibold.woff2 %}",
+  "{% asset_path calibre-semibold.woff %}",
+  "{% asset_path icon.svg %}",
+  "{% asset_path icon.png %}",
+  "{% asset_path device-phablet.svg %}",
+  "{% asset_path device-phone.svg %}",
+  "{% asset_path device-tablet-landscape.svg %}",
+  "{% asset_path device-tablet-portrait.svg %}",
+  "/images/offline.svg",
+  "/error/offline",
+  "/hire/",
+  "/"
+]

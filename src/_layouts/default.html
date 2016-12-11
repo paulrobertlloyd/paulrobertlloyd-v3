@@ -8,6 +8,7 @@ layout: compress
 <html lang="en-gb" prefix="og: http://ogp.me/ns#" class="{% if page.theme %}t-{{ page.theme }}{% else %}t-light{% endif %}">
 <!--#endif-->
 <head>
+  <link rel="serviceworker" href="/serviceworker.js"/>
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
   <link rel="apple-touch-icon" href="{% asset_path icon.png %}" type="image/png"/>
   <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme_color }}"/>
@@ -45,6 +46,7 @@ layout: compress
   <style>
     {% asset_source critical.css %}
   </style>
+  <link rel="preload" href="{% asset_path global.css %}" as="style" onload="this.rel='stylesheet'">
 <!--#endif-->
 
 {% if page.style %}
