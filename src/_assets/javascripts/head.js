@@ -21,34 +21,65 @@
   // https://github.com/filamentgroup/loadCSS/
   function loadCSS(href, before, media) {
     var link = doc.createElement('link');
-    var ref = before || doc.getElementsByTagName('script')[0];
-    var sheets = window.document.styleSheets;
+    var sheets = doc.styleSheets;
+    var ref;
+    if (before) {
+      ref = before;
+    } else {
+      var refs = ( doc.body || doc.getElementsByTagName('head')[0] ).childNodes;
+      ref = refs[refs.length - 1];
+    }
+
     link.rel = 'stylesheet';
     link.href = href;
     link.media = 'only x';
 
-    ref.parentNode.insertBefore(link, ref);
+    // Wait until body is defined before injecting link.
+    // This ensures a non-blocking load in IE11.
+    function ready(cb) {
+      if (doc.body) {
+        return cb();
+      }
+      setTimeout (function () {
+        ready(cb);
+      });
+    }
 
-    link.onloadcssdefined = function (callback) {
-      var defined;
-      for (var i = 0; i < sheets.length; i = i + 1) {
-        if (sheets[ i ].href && sheets[i].href.indexOf(href) > -1) {
-          defined = true;
+    // Inject link
+    ready(function () {
+      ref.parentNode.insertBefore(link, (before ? ref : ref.nextSibling));
+    });
+
+    // A method (exposed on return object for external use) that mimics onload by polling until document.styleSheets until it includes the new sheet.
+    var onloadcssdefined = function (cb) {
+      var resolvedHref = link.href;
+      var i = sheets.length;
+      while (i--) {
+        if (sheets[i].href === resolvedHref) {
+          return cb();
         }
       }
-      if (defined) {
-        callback();
-      } else {
-        setTimeout (function () {
-          link.onloadcssdefined(callback);
-        });
-      }
+      setTimeout(function () {
+        onloadcssdefined(cb);
+      });
     };
-    link.onloadcssdefined(function () {
+
+    function loadCB () {
+      if (link.addEventListener) {
+        link.removeEventListener('load', loadCB);
+      }
       link.media = media || 'all';
-    });
+    }
+
+    // Once loaded, set link's media back to `all` so that stylesheet applies once loaded
+    if (link.addEventListener) {
+      link.addEventListener("load", loadCB);
+    }
+
+    link.onloadcssdefined = onloadcssdefined;
+    onloadcssdefined(loadCB);
     return link;
-  }
+  };
   enhance.loadCSS = loadCSS;
 
   // getMeta function: get a meta tag by name
