@@ -17,9 +17,14 @@
   }
 }
 
+.c-item--project {
+  @include fs--caption;
+}
+
 .c-item__media,
 .c-item__footer {
-  margin-bottom: units(1);
+  display: block;
+  margin-bottom: units(2 / 3);
 }
 
 .c-item__main {
@@ -40,11 +45,25 @@
     @include fs--heading-1;
     font-weight: 700;
   }
+
+  .c-item--project & {
+    display: inline;
+    font-size: 1em;
+    font-weight: 700;
+  }
 }
 
 .c-item__meta {
   @include fs--caption;
   color: $c__neutral-mid;
+
+  .c-item--project & {
+    display: inline;
+  }
+}
+
+.c-item__link {
+  display: block;
 }
 
 .c-item__avatar {
