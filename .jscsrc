@@ -1,11 +1,10 @@
 {
-  "preset": "yandex",
   "fileExtensions": [ ".js", "jscs" ],
 
   "requireParenthesesAroundIIFE": true,
   "maximumLineLength": 120,
   "validateLineBreaks": "LF",
-  "validateIndentation": 4,
+  "validateIndentation": 2,
 
   "disallowKeywords": ["with"],
   "disallowSpacesInsideObjectBrackets": null,

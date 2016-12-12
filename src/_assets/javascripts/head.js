@@ -50,7 +50,9 @@
       ref.parentNode.insertBefore(link, (before ? ref : ref.nextSibling));
     });
 
-    // A method (exposed on return object for external use) that mimics onload by polling until document.styleSheets until it includes the new sheet.
+    // A method (exposed on return object for external use)
+    // that mimics onload by polling until document.styleSheets
+    // until it includes the new sheet.
     var onloadcssdefined = function (cb) {
       var resolvedHref = link.href;
       var i = sheets.length;
@@ -73,13 +75,13 @@
 
     // Once loaded, set link's media back to `all` so that stylesheet applies once loaded
     if (link.addEventListener) {
-      link.addEventListener("load", loadCB);
+      link.addEventListener('load', loadCB);
     }
 
     link.onloadcssdefined = onloadcssdefined;
     onloadcssdefined(loadCB);
     return link;
-  };
+  }
   enhance.loadCSS = loadCSS;
 
   // getMeta function: get a meta tag by name
