@@ -11,6 +11,6 @@
   }],
   "theme_color": "{{ site.theme_color }}",
   "background_color": "{{ site.background_color }}",
-  "display": "browser",
+  "display": "minimal-ui",
   "start_url": "./"
 }
