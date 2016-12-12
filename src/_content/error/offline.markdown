@@ -1,5 +1,5 @@
 ---
 title: 'Offline'
 header: aside
-excerpt: 'It looks like your network connection isn''t working right now.'
+excerpt: 'You appear to be offline at the moment. Check your network connection and [try again]().'
 ---

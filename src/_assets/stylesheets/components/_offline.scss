@@ -1,0 +1,31 @@
+.c-offline {
+  @include fs--caption;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba($c__primary, 0.9);
+  backdrop-filter: blur(4px);
+  color: $c__neutral-darkest;
+}
+
+.c-offline__message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: units(1/3) 0;
+
+  a:hover {
+    color: white !important;
+  }
+}
+
+.c-offline__dismiss {
+  border: 0;
+  padding: units(1/3);
+
+  &:hover {
+    color: white;
+  }
+}

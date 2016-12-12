@@ -24,7 +24,6 @@
           // Once the contents are loaded, convert the raw text to a JavaScript object
           return response.json();
         }).then(function (files) {
-          console.log('[install] Adding files from JSON file: ', files);
           return cache.addAll(files);
         });
       });
@@ -67,25 +66,16 @@
   };
 
   self.addEventListener('install', function (event) {
-    console.log('[install] Kicking off service worker registration');
-
     event.waitUntil(updateStaticCache()
       .then(function () {
-        console.log(
-          '[install] All required resources have been cached;',
-          'the Service Worker was successfully installed!'
-        );
         return self.skipWaiting();
       })
     );
   });
 
   self.addEventListener('activate', function (event) {
-    console.log('[activate] Activating service worker');
-
     event.waitUntil(clearOldCaches()
       .then(function () {
-        console.log('[activate] Claiming this service worker');
         return self.clients.claim();
       })
     );
@@ -101,6 +91,8 @@
   self.addEventListener('fetch', function (event) {
     var request = event.request;
     var url = new URL(request.url);
+
+    console.log(request.initiator);
 
     // Only deal with requests to my own server
     if (url.origin !== location.origin) {
@@ -162,10 +154,7 @@
               // NETWORK
               // If request is for an image, stash a copy of this image in the images cache
               if (request.headers.get('Accept').indexOf('image') !== -1) {
-                console.log(request);
-                console.log('Request is image');
                 var copy = response.clone();
-                console.log(copy);
                 stashInCache(imagesCacheName, request, copy);
               }
               return response;

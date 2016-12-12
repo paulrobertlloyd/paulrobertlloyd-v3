@@ -14,7 +14,6 @@ group :jekyll_plugins do
 
   gem 'autoprefixer-rails'
   gem 'uglifier'
-  gem 'ruby-thumbor'
 end
 
 # Rake (manages build tasks)

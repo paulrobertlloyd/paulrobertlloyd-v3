@@ -1,6 +1,7 @@
 ---
 ---
 [
+  "manifest.json",
   "{% asset_path global.css %}",
   "{% asset_path global.js %}",
   "{% asset_path calibre-regular.woff2 %}",
