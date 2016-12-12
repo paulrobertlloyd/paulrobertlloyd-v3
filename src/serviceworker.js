@@ -92,8 +92,6 @@
     var request = event.request;
     var url = new URL(request.url);
 
-    console.log(request.initiator);
-
     // Only deal with requests to my own server
     if (url.origin !== location.origin) {
       return;
