@@ -3,9 +3,9 @@
 // Licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 // http://creativecommons.org/publicdomain/zero/1.0/
 
-'use strict';
-
 (function () {
+
+  'use strict';
 
   // Update 'version' if you need to refresh the caches
   var version = 'v::1::';
@@ -82,7 +82,7 @@
   });
 
   self.addEventListener('message', function (event) {
-    if (event.data.command == 'trimCaches') {
+    if (event.data.command === 'trimCaches') {
       trimCache(pagesCacheName, 20);
       trimCache(imagesCacheName, 30);
     }
@@ -111,7 +111,7 @@
     // For HTML requests, try the network first, fall back to the cache, finally the offline page
     if (request.headers.get('Accept').indexOf('text/html') !== -1) {
       // Fix for Chrome bug: https://code.google.com/p/chromium/issues/detail?id=573937
-      if (request.mode != 'navigate') {
+      if (request.mode !== 'navigate') {
         request = new Request(request.url, {
           method: 'GET',
           headers: request.headers,
