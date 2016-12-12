@@ -62,7 +62,6 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)
-    ruby-thumbor (2.0.1)
     rubypants (0.6.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
@@ -90,7 +89,6 @@ DEPENDENCIES
   jekyll-slugify_underscore
   jekyll-typogrify
   rake
-  ruby-thumbor
   uglifier
 
 BUNDLED WITH

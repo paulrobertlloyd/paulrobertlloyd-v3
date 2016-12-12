@@ -18,7 +18,6 @@
 
 require 'fileutils'
 require 'pathname'
-require 'ruby-thumbor'
 
 module Jekyll
   class PictureTag < Liquid::Tag
@@ -27,7 +26,6 @@ module Jekyll
       @markup = markup
       super
     end
-
 
     def render(context)
       # Render any liquid variables in tag arguments and unescape template code
@@ -94,7 +92,7 @@ module Jekyll
         raise "Preset #{key} is missing a width or a height" if !source['width'] and !source['height']
         instance[key][:width] = instance[key].delete('width') if source['width']
         instance[key][:height] = instance[key].delete('height') if source['height']
-        instance[key][:quality] =  source['quality'] || @settings['quality']
+        instance[key][:quality] = source['quality'] || @settings['quality']
       }
 
       # Store keys in an array for ordering the instance sources
@@ -141,8 +139,11 @@ module Jekyll
         unless source_ext == ".svg"
           source_tags = ''
           source_keys.each { |source|
-            source_tags += "#{instance[source][:generated_src]} #{instance[source][:width]}w,"
+            source_tags += "#{instance[source][:generated_src]} #{instance[source][:width]}w, "
           }
+
+          # Remove trailing `, `
+          source_tags = source_tags.chop.chop
 
           picture_tag = "<img src=\"#{instance['source_default'][:generated_src]}\" srcset=\"#{source_tags}\" #{html_attr_string}/>"
         else
@@ -160,7 +161,6 @@ module Jekyll
       img_width = instance[:width]
       img_height = instance[:height]
       img_quality = instance[:quality]
-      img_crypto = Thumbor::CryptoURL.new @settings['key']
 
       if img_ext == ".svg"
         path = "#{@settings['source']}/"
@@ -168,32 +168,18 @@ module Jekyll
         Pathname.new(File.join(path, img))
         # => /path/to/image.jpg
       else
-        if @settings['key']
-          img_file_path = @site.config['url'] + @settings['source'] + img
-          img_crypto_path = img_crypto.generate :width => img_width, :height => img_height, :smart => true, :filters => ["quality(#{img_quality})"], :image => img_file_path
-          # => /[hmap]/[width]x[height]/smart/[filter]/path/to/image.jpg
+        path = "#{@settings['cdn']}/#{img_width}x#{img_height}/#{img_quality}q/"
+        # path to be rewitten by nginx
 
-          path = "#{@settings['cdn']}"
-
-          Pathname.new(File.join(path, img_crypto_path))
-          # => https://cdn.tld/[hmac]/[width]x[height]/[quality]/[PATH/TO/IMAGE]/
-        else
-          path = "#{@settings['cdn']}/#{img_width}x#{img_height}/#{img_quality}q/"
-          # path to be rewitten by nginx
-
-          Pathname.new(File.join(path, img))
-          # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/path/to/image.jpg
-        end
+        Pathname.new(File.join(path, img))
+        # => https://cdn.tld/[WIDTH]x[HEIGHT]/[QUALITY]q/path/to/image.jpg
       end
     end
 
 
     def generate_image(instance, site_source, site_dest, image_source, image_dest, baseurl)
-      require 'digest/md5'
       require 'mini_magick'
       require 'fastimage'
-
-      digest = Digest::MD5.hexdigest(File.read(File.join(site_source, image_source, instance[:src]))).slice!(0..5)
 
       img_dir = File.dirname(instance[:src])
       img_ext = File.extname(instance[:src])
@@ -222,19 +208,19 @@ module Jekyll
           orig_height
         end
 
-        gen_ratio = gen_width/gen_height
+        gen_ratio = gen_width / gen_height
 
         # Don't allow upscaling. If the image is smaller than the requested dimensions, recalculate.
         if orig_width < gen_width || orig_height < gen_height
           undersize = true
           gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
-          gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
+          gen_height = if orig_ratio > gen_ratio then orig_height else orig_width / gen_ratio end
         end
 
-        gen_name = "#{img_basename}--#{gen_width.round}x#{gen_height.round}--#{digest}#{img_ext}"
+        gen_name = "#{img_basename}--#{gen_width.round}x#{gen_height.round}--#{img_ext}"
       else
 
-        gen_name = "#{img_basename}--#{digest}#{img_ext}"
+        gen_name = "#{img_basename}--#{img_ext}"
       end
 
       gen_dest_dir = File.join(site_dest, image_dest, img_dir)
