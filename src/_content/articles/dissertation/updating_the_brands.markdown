@@ -1,6 +1,6 @@
 ---
 title: 'Updating the Brands'
-series: Dissertation
+series: dissertation
 date: '2002-06-01 00:00:06 +0000'
 ---
 ## Channel 4

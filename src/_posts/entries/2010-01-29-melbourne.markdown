@@ -1,6 +1,6 @@
 ---
 title: Magical Melbourne
-series: Australasia 2009
+series: australasia_2009
 date: '2010-01-29 23:42:47 +0000'
 excerpt: After two and a half weeks exploring various cities, it was finally on to Melbourne, and the final stop on my short tour of Australasia.
 image:
@@ -29,7 +29,7 @@ As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many
 
 The same is true of the MCG. Whilst one part of the huge oval is still named in honour of the Olympics, the oldest part of the complex is actually the light towers that were erected in 1985. The rest of the was stadium completely rebuilt in sections between 1992 and 2005. Part of this refurbishment included the creation of the [National Sports Museum][9], which includes a special section devoted entirely to the Olympics.
 
-As you can imagine, this got my full attention. I was immersed in all its collected memorabilia -- everything from a laurel wreath presented to a winning athlete at the inaugural 1896 games, to a ticket stub from the most recent games in Beijing. One of the most interesting displays was the (almost) complete collection of Olympic relay torches from 1936 to 2008. 
+As you can imagine, this got my full attention. I was immersed in all its collected memorabilia -- everything from a laurel wreath presented to a winning athlete at the inaugural 1896 games, to a ticket stub from the most recent games in Beijing. One of the most interesting displays was the (almost) complete collection of Olympic relay torches from 1936 to 2008.
 
 The centrepiece of this display was the original Olympic cauldron from the Melbourne games -- although its flimsy, thin metal construction had me believe it was a replica until I read the supporting text.
 

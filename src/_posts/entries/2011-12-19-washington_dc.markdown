@@ -1,6 +1,6 @@
 ---
 title: Back in the District
-series: North America 2011
+series: north_america_2011
 date: '2011-12-19 22:00:28 +0000'
 excerpt: My North American adventure started in Washington DC; ostensibly so I could attend an edition of this year's An Event Apart conference. Yet it was also a good excuse to catch up with Shannon, who graciously planned a tour of the city for me and Andy.
 image:

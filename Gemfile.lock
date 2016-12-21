@@ -3,10 +3,10 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (6.5.3.1)
+    autoprefixer-rails (6.5.4)
       execjs
     colorator (1.1.0)
-    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.0.3)
     execjs (2.7.0)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
@@ -64,7 +64,7 @@ GEM
     rouge (1.11.1)
     rubypants (0.6.0)
     safe_yaml (1.0.4)
-    sass (3.4.22)
+    sass (3.4.23)
     sprockets (3.6.3)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)

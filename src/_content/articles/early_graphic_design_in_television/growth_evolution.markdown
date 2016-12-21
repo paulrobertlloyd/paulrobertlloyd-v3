@@ -1,6 +1,6 @@
 ---
 title: Growth & Evolution
-series: Early Graphic Design in Television
+series: early_graphic_design_in_television
 date: '1999-03-01 00:00:02 +0000'
 ---
 The 22nd of September 1955 at 7:15pm saw the launch of Independent 'commercial' Television (ITV) in Britain, destroying the BBC's 20-year-old monopoly in television. Initially, as with the BBC's first broadcasts, Independent Television was limited to the London area for which the Independent Television Authority (ITA) awarding its first franchise to Associated Rediffusion Ltd.

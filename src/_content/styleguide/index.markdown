@@ -1,6 +1,6 @@
 ---
 title: Style guide
-series: Style guide
+series: styleguide
 date: '2015-07-12 00:00:00 +0000'
 excerpt: A guide to the mark-up styles and patterns used throughout the site.
 permalink: /styleguide/
@@ -13,5 +13,5 @@ This site has long featured a style guide (or more precisely, pattern library), 
 [Utilities](utilities)
 : Reusable classes with a single purpose and specific role.
 
-[Components](components)
+[Components](/styleguide/components)
 : Finite, discrete, implementation-specific parts of the interface.

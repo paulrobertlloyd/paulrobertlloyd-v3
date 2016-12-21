@@ -1,6 +1,6 @@
 ---
 title: Scopes
-series: Style guide
+series: styleguide
 date: '2015-07-12 00:00:01 +0000'
 excerpt: Areas of user-generated content, with HTML that has come from a CMS.
 ---
@@ -147,7 +147,7 @@ The `small` element is used to represent disclaimers, caveats, legal restriction
 ### Strikethrough
 The `s` element is used to represent content that is no longer accurate or relevant. When indicating document edits i.e., marking a span of text as having been removed from a document, use the `del` element instead. Example:
 
-<s>Recommended retail price: £3.99 per bottle</s>  
+<s>Recommended retail price: £3.99 per bottle</s>
 **Now selling for just £2.99 a bottle!**
 
 ### Citations
