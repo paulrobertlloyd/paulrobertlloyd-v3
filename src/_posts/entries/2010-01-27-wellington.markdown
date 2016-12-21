@@ -1,6 +1,6 @@
 ---
 title: Absolutely, Positively, Wellington
-series: Australasia 2009
+series: australasia_2009
 date: '2010-01-27 23:12:23 +0000'
 excerpt: From Nelson I reluctantly headed back to Wellington, cursing myself for not having an itinerary that continued south. However, Wellington will remain the most memorable city of this trip, although perhaps not entirely for the right reasons.
 image:

@@ -1,15 +1,15 @@
 ---
 title: Utilities
-series: Style guide
+series: styleguide
 date: '2015-07-12 00:00:02 +0000'
 excerpt: Reusable classes with a single purpose and specific role.
 style: |
-    .example--block {
-        display: block;
-        background-color: rgba(0, 0, 0, 0.2);
-        height: 3.5rem;
-        font-weight: normal;
-    }
+  .example--block {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 3.5rem;
+    font-weight: normal;
+  }
 ---
 ## Content
 

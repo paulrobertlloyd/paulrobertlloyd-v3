@@ -1,6 +1,6 @@
 ---
 title: Ending the Decade Down Under
-series: Australasia 2009
+series: australasia_2009
 date: '2009-12-02 02:02:02 +0000'
 location: Littlehampton, England
 excerpt: 'I''ve long held two ambitions. The first: to return to Australia before this decade is out. The second: to welcome in a New Year on Sydney Harbour before I turn 30.'

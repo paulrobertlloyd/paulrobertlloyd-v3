@@ -1,6 +1,6 @@
 ---
 title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channel Growth
-series: Dissertation
+series: dissertation
 date: '2002-06-01 00:00:00 +0000'
 excerpt: Graphic design on television during the nineties was influenced by the launch of hundreds of new channels. The growth of multi-channel television had most effect on terrestrial broadcasters, who for years had very little competition, but now faced having to re-invent themselves. Graphic design played a key role with the creation of visual devices that would maintain channel audiences, and a key strategy was branding.
 permalink: /articles/dissertation/

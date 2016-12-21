@@ -1,6 +1,6 @@
 ---
 title: Conclusion
-series: Dissertation
+series: dissertation
 date: '2002-06-01 00:00:10 +0000'
 ---
 The introduction of multi-channel television at the beginning of the nineties saw a distinct visual change from that of individualism and variation across channels and networks, to conformity and consistency through the use of branding. Although Channel 4 had realised the power of a brand as means of creating effective competition, it wasn't until the launch of both satellite and cable television services that both the BBC and ITV saw the benefits that recognisable brands could bring.
@@ -34,7 +34,7 @@ One thing's for sure; broadcastering brands will need to be as strong as ever.
   * Mistry, B. (1996). Has Channel 4 made the right connection? <cite>Design Week, 11</cite>(32), 7.
 
 ### Online
-  * Gibson, J. (1999, October 23). [Face of five set for ITV perch](http://media.guardian.co.uk/mediaguardian/story/0,7558,362192,00.html). <cite>MediaGuardian</cite> 
+  * Gibson, J. (1999, October 23). [Face of five set for ITV perch](http://media.guardian.co.uk/mediaguardian/story/0,7558,362192,00.html). <cite>MediaGuardian</cite>
   * Lambie-Nairn.com (2002). [BBC ONE](http://web.archive.org/web/20020215191943/http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725), <cite>Lambie-Nairn.com</cite>. Archived from [the original](http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725) on <time datetime="2002-02-15">15 February 2002</time>
   * McGonagle, M. (2002). [Channel 5 Idents 1999](http://www.thetvroom.com/p-ch5-1999-a.html). <cite>TheTVRoom.com</cite>
   * Wilkes, N. (2001). [BBC Two gets new on-screen look](http://www.digitalspy.co.uk/displayarticle.php?id=4234). <cite>DigitalSpy.co.uk</cite>

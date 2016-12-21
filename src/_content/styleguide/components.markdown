@@ -1,6 +1,6 @@
 ---
 title: Components
-series: Style guide
+series: styleguide
 date: '2015-07-12 00:00:03 +0000'
 excerpt: Finite, discrete, implementation-specific parts of the interface.
 meta:

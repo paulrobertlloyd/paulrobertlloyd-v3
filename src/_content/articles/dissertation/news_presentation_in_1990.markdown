@@ -1,6 +1,6 @@
 ---
 title: News Presentation in 1990
-series: Dissertation
+series: dissertation
 date: '2002-06-01 00:00:08 +0000'
 ---
 The computer techniques introduced during the eighties also made a strong impact on the graphics used within televised news.

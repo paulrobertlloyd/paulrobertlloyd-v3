@@ -1,6 +1,6 @@
 ---
 title: Pioneers
-series: Early Graphic Design in Television
+series: early_graphic_design_in_television
 date: '1999-03-01 00:00:03 +0000'
 ---
 The history of graphic design in television has been relatively short yet it has seen so many changes that everyone in the profession can feel they are 'pioneers'. However, there are two people that stand out from the rest; Bernard Lodge and Martin Lambie-Nairn, both of whom regard Saul Bass as a major influence on their work.

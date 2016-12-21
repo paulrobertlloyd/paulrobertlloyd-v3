@@ -1,6 +1,6 @@
 ---
 title: A New Medium is Born
-series: Early Graphic Design in Television
+series: early_graphic_design_in_television
 date: '1999-03-01 00:00:01 +0000'
 ---
 On the 27th January 1926 in Soho, London, John Logie Baird was making history by successfully demonstrating his primitive television system to a public audience. Almost eleven years later, the British Broadcasting Corporation (BBC) began broadcasting the world's first regular high-definition television service, on the 2nd of November 1936.
