@@ -7,10 +7,10 @@ permalink: /styleguide/
 ---
 This site has long featured a style guide (or more precisely, pattern library), though it has rarely documented the full extent of the patterns utilised. This guide documents the vast majority of patterns used, grouped by their method of implementation:
 
-[Scopes](scopes)
+[Scopes](/styleguide/scopes)
 : Areas of user-generated or third-party content.
 
-[Utilities](utilities)
+[Utilities](/styleguide/utilities)
 : Reusable classes with a single purpose and specific role.
 
 [Components](/styleguide/components)
