@@ -17,7 +17,7 @@ My generosity extended into Christmas — as you'd hope it would! Alongside a ba
 
 > I remain in a very fortunate position: I get to do what I enjoy, and I get paid to do it. Now, with a better understanding of my financial situation, I intend to share in the proceeds of this good fortune. Donating a portion of my revenue to charities, I plan to divide this up between a local charity focused on homelessness, and another fighting a global concern, climate change.
 
-Speaking to my accountant some weeks later, he suggested giving in a personal capacity. Besides reducing my taxable income, individual donations are eligible for Gift Aid, a scheme which allows charities to claim an additional 25% on top of the original amount. It's taken me a while to put this into action, but today I chose the two charities I'll be supporting during this second year of self-employment by donating 1% of my revenue.
+Speaking to my accountant some weeks later, he suggested giving in a personal capacity. Besides reducing my taxable income, individual donations are eligible for Gift Aid, a scheme which allows charities to claim an additional 25% on top of the original amount. It's taken me a while to put this into action, but today I chose the two charities I'll be supporting during this second year of self-employment, donating 1% of my revenue.
 
 The first charity I've chosen is [Sussex Nightstop][6], via their [Make Change Count][7] campaign:
 
