@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (6.6.0)
+    autoprefixer-rails (6.6.1)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.4)
@@ -39,7 +39,7 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-sitemap (0.12.0)
+    jekyll-sitemap (0.13.0)
       jekyll (~> 3.3)
     jekyll-slugify_underscore (0.0.4)
     jekyll-typogrify (0.3.2)

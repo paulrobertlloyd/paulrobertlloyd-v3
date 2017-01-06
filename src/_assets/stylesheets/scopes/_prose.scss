@@ -134,7 +134,7 @@
         }
 
         @media screen and (min-width: $b__b) {
-          padding-left: calc(#{percentage(3/12)} + #{$u__gutter});
+          padding-left: calc(#{percentage(3/12)} + 1rem);
         }
 
         @media screen and (min-width: $b__c) {
