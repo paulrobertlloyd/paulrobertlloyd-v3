@@ -3,9 +3,6 @@ title: 'Cold Feet''s Unevenly Distributed Future'
 date: '2016-11-16 22:50:00 +0000'
 location: Brighton, England
 excerpt: 'Observations made while watching the first five series of <cite>Cold Feet</cite>. When it was originally broadcast, mobile phones were just becoming mainstream, and the Internet was still a novelty. Simpler times.'
-image:
-  url: /2016/11/cold_feet.jpg
-  caption: 'Pete logs onto the Internet.'
 tags:
   - Television
   - Technology
@@ -27,6 +24,10 @@ Having arrived back in Manchester, Pete spots her in the supermarket with a baby
 
 ## Introducing the Internet
 Few storylines date the second series more than that which sees Adam take out an advertisement in the local newspaper's lonely hearts column. At one point we see Adam discuss this with Pete, who is browsing CDs at the local Virgin Megastore.
+
+{% figure caption:"Pete logs onto the Internet." class:"u-extend" %}
+{% picture showcase /2016/11/cold_feet.jpg alt="" %}
+{% endfigure %}
 
 I was just getting used to this technological dissonance, when a conversation at the start of the third series -- the first to be broadcast this century -- sounded oddly familiar. At a dinner party, a recently separated Jenny meets Felix, an investor who operates a technology incubator, and Robert, a dot-com entrepreneur who develops "communication systems that utilise Internet technology, but via the telephone interface as opposed to the outmoded qwerty keyboard".
 
