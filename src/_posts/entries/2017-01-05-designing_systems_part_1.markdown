@@ -3,7 +3,7 @@ title: 'Designing Systems: Theory, Practice, and the Unfortunate In-between'
 # series: designing_systems
 date: '2017-01-06 12:00:00 +0000'
 location: Bexhill-on-Sea, England
-excerpt: 'Part one of a 3-part essay based on the talk I gave at last year''s Smashing Conference. Before thinking about how we might approach the creation of a design system, I review two approaches to the design of something as equally complex: a city.'
+excerpt: 'Part one of a three-part essay based on the talk I gave at Smashing Conference. Before thinking about how we might approach the creation of a design system, I review two approaches to the design of something as equally complex: a city.'
 image:
   url: /2017/01/brasilia_satellite.jpg
   caption: 'Brasília, seen from above, looks like a bird or a plane. Image: [NASA Earth Observatory](http://earthobservatory.nasa.gov/IOTD/view.php?id=43743)'
@@ -13,7 +13,7 @@ tags:
   - Design
   - Design Systems
 ---
-_The first part of a 3-part essay, based on the talk I gave at [Smashing Conference][1]._
+_Part one of a three-part essay based on the talk I gave at [Smashing Conference][1]._
 
 Imagine you were asked to design a city. How might you layout its roads and major features? What shape might it take? Few designers get this opportunity, but these questions faced the designers of Brasília, which was to become Brazil's new capital in 1960.
 
@@ -41,7 +41,7 @@ Reflecting on their plans, the art critic Robert Hughes said[^1]:
 
 > Nothing dates faster than people's fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It's what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may reverently hope, is the last experiment of its kind. The utopian buck, stops here.
 
-{% figure caption:"Christopher Wren's plan for the rebuilding the City of London after the Great Fire of 1666." class:"u-bleed" %}
+{% figure caption:"Sir Christopher Wren's plan for the rebuilding the City of London after the Great Fire of 1666." class:"u-bleed" %}
 {% picture wide /2017/01/wrens_london_plan.png alt="" class="u-framed" %}
 {% endfigure %}
 
@@ -93,7 +93,7 @@ Every piece of work he commissioned, be it posters, typefaces, buildings and mor
 
 Much like London, the web -- perhaps the ultimate expression of human creativity in digital form -- is also a chaotic and unruly place; Douglas Crockford once called the browser <q>the most hostile software development environment ever imagined</q>.
 
-Facing complex environments like this, its tempting to focus on the rules and patterns, yet a system will only be deemed successful if consideration has been given to those who will inhabit the spaces these define.
+Facing complex environments like this, its tempting to focus on rules and patterns, yet a system will only be deemed successful if consideration has been given to those who'll inhabit the spaces these define.
 
 When designing for others, be they the residents of a city, passengers on a transport network, or customers using a website, we shouldn't ignore chaos, but embrace its underlying complexity. For complexity is the only thing that can ground our decisions to reality, the unfortunate space that lies between theory and practice.
 
