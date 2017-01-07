@@ -7,7 +7,7 @@ group :jekyll_plugins do
   gem 'jekyll-assets'
   gem 'jekyll-crosspost-to-medium'
   gem 'jekyll-figure'
-  gem 'jekyll-paginate'
+  gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
   gem 'jekyll-slugify_underscore'
   gem 'jekyll-typogrify'

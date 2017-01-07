@@ -18,8 +18,12 @@ scm:
   url: https://github.com/paulrobertlloyd/paulrobertlloyd.com
 
 # Pagination
-paginate: 15
-paginate_path: /journal/:num
+pagination:
+  enabled: true
+  title: ':title / :num'
+  permalink: '/:num/'
+  sort_reverse: true
+  per_page: 15
 
 # Writing
 kramdown:
