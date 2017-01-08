@@ -48,8 +48,8 @@
   letter-spacing: -0.025em;
 
   @media (min-width: $b__b) {
-    line-height: (40.01 / 36);
-    font-size: 2.25rem; // 36px
+    line-height: 1;
+    font-size: 2.5rem; // 40px
   }
 }
 
@@ -164,7 +164,7 @@
 @mixin rule($height: $u__rule-height, $width: 100%, $position: "before") {
   &::#{$position} {
     display: inline-block;
-    border-top: $height solid rgba($c__neutral-mid, 0.5);
+    border-top: $height solid rgba($c__neutral-mid, 0.25);
     width: $width;
     content: "";
   }

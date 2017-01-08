@@ -23,7 +23,7 @@ The first charity I've chosen is [Sussex Nightstop][6], via their [Make Change C
 
 > Make Change Count is an alternative giving campaign organised by local charities in Brighton and Hove to help rough sleepers move away from street living. If you are able to give money then by giving to local support services you can be sure that your donation will be used to help people get off the streets rather than someone using it to help them stay on the streets.
 
-I'll also be supporting [Friends of the Earth][8], the UK’s largest grassroots environmental campaigning network. They've been campaigning around a number of causes I care about, in particular a [ban on fracking][9]. I was tempted to donate to [my local group][10], but I didn't see a means of recording any Gift Aid. Still, reading about [the groups's most recent achievement][11] gives me hope for the future.
+I'll also be supporting [Friends of the Earth][8], the UK’s largest grassroots environmental campaigning network. They've been campaigning around a number of causes I care about, in particular a [ban on fracking][9]. I was tempted to donate to [my local group][10], but I didn't see a means of recording any Gift Aid. Still, reading about [the group's most recent achievement][11] gives me hope for the future.
 
 [1]: https://www.battersea.org.uk
 [2]: https://www.montezumas.co.uk
