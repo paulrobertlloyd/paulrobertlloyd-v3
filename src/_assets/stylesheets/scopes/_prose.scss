@@ -17,7 +17,7 @@
     padding-left: 1.5rem;
 
     > * {
-      opacity: 0.8;
+      opacity: 0.9;
       margin-bottom: 0.75rem;
     }
 
@@ -27,8 +27,7 @@
       top: ((1 / 3) + em);
       bottom: 0;
       left: 0;
-      opacity: 0.25;
-      border-left: 0.5rem solid;
+      border-left: 0.5rem solid $c__primary;
       content: "";
     }
   }
@@ -144,14 +143,9 @@
     }
   }
 
-  figcaption {
-    @include fs--caption;
-    color: $c__neutral-mid;
-  }
-
+  figcaption,
   small {
     @include fs--caption;
-    display: inline-block;
     color: $c__neutral-mid;
   }
 
