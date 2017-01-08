@@ -37,7 +37,13 @@ collections:
   discussions:
     output: true
     permalink: /:year/:month/:title/discussion
+  links:
+    output: true
+    permalink: /:year/:month/:title
   galleries:
+    output: true
+    permalink: /:year/:month/:title
+  posts:
     output: true
     permalink: /:year/:month/:title
   projects:
@@ -60,6 +66,11 @@ defaults:
       layout: discussion
 
   - scope:
+      type: links
+    values:
+      layout: entry
+
+  - scope:
       type: galleries
     values:
       layout: gallery
@@ -69,11 +80,6 @@ defaults:
       type: posts
     values:
       layout: entry
-      permalink: /:year/:month/:title
-
-  - scope:
-      path: '_posts/entries'
-    values:
       license:
         type: Creative Commons
         terms: BY-NC-SA

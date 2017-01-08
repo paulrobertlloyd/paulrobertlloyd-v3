@@ -31,7 +31,9 @@ permalink: /archive/
     {% for popular_tag in popular_tags limit:25 %}
       {% assign tag_array = popular_tag | split:"#" %}
       {% capture tag %}{{ tag_array[1] | replace:"_"," " }}{% endcapture %}
-      <li class="c-list__item">{% include tag.html tag=tag %}</li>
+      <li class="c-list__item">
+        <a class="c-tag" rel="tag" href="/tags/{{ tag | slugify }}">{{ tag | smartypants }}</a>
+      </li>
     {% endfor %}
     </ol>
   </div>

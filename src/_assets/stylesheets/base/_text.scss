@@ -3,6 +3,51 @@
 // https://w3c.github.io/html/textlevel-semantics.html
 // ========================================================
 
+a {
+  transition: color 0.1s ease-out, background-image 0.1s ease-out;
+  // Remove gray background color from active links in IE 10
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+
+  &:active,
+  &:hover {
+    // Improve readability when focused and mouse hovered in all browsers
+    outline: 0;
+  }
+
+  &:focus {
+    outline: 0;
+    background-color: $c__focus;
+    color: $c__neutral-darkest;
+
+    [data-whatinput="mouse"] &,
+    [data-whatinput="touch"] & {
+      background-color: transparent;
+    }
+  }
+
+  &[rel=tag] {
+    display: inline-block;
+    margin-right: 0.75rem;
+    text-transform: lowercase;
+    word-spacing: -0.2em;
+    white-space: nowrap;
+
+    &::before {
+      opacity: 0.5;
+      content: "#\2009";
+    }
+  }
+}
+
+@media print {
+  a,
+  a:visited {
+    color: black;
+  }
+}
+
 b,
 strong {
   // Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome
