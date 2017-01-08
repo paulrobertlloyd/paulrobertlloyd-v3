@@ -9,6 +9,7 @@
       "ignore": ["after-comment"]
     }],
     "declaration-colon-newline-after": "always-multi-line",
+    "declaration-empty-line-before": "never",
     "function-url-quotes": "double",
     "indentation": 2
   }
