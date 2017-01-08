@@ -4,7 +4,6 @@
 // http://creativecommons.org/publicdomain/zero/1.0/
 
 (function () {
-
   'use strict';
 
   // Update 'version' if you need to refresh the caches
