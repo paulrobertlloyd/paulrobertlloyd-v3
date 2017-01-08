@@ -4,7 +4,7 @@ date: '2014-07-02 13:44:54 +0000'
 location: Brighton, England
 excerpt: Last Friday I attended Responsive Day Out 2. The format was the same as last year, but the tenor was a little different. Gone were the theoretical presentations, talk of trying to sell responsive web design to clients and fears of embarking on responsive projects. Instead presentations focused on the actual doing; getting into the nitty-gritty.
 image:
-  url: /2014/07/responsive_day_out.jpg
+  url: 2014/07/responsive_day_out.jpg
   caption: 'Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/)'
 tags:
   - Web

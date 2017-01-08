@@ -1,0 +1,6 @@
+{% if include.preset %}
+  {% assign preset = site.images[include.preset] %}
+{% else %}
+  {% assign preset = site.images.default %}
+{% endif %}
+<img src="/image/{{ preset.sources[0].width }}x{{ preset.sources[0].height }}/{{ preset.sources[0].quality }}q/{{ include.path }}" srcset="{% for source in preset.sources %}/image/{{ source.width }}x{{ source.height }}/{{ source.quality }}q/{{ include.path }} {{ source.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"{% if preset.sizes %} sizes="{{ preset.sizes }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>

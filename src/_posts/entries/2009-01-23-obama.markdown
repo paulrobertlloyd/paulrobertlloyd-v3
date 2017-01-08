@@ -4,7 +4,7 @@ date: '2009-01-23 16:19:06 +0000'
 location: Littlehampton, England
 excerpt: Growing up, my brother was always the one in our family more interested in American culture. Whilst he followed the NBA and listened to Public Enemy, Wu-Tang Clan and Eminem, I stood to the National Anthem and worried about Britain's growing closeness to Europe. America was of little importance to me.
 image:
-  url: /2009/01/obama.jpg
+  url: 2009/01/obama.jpg
   caption: 'Barack Obama at a campaign rally in Pueblo, Colorado. Photograph: [Criz Stoddard](https://www.flickr.com/photos/zyrc/2993189541/)'
 tags:
   - Barack Obama
@@ -23,7 +23,7 @@ I was amazed by the level of political awareness and activism that existed, perh
 Whilst I was now quite immersed in (some sort of) American way of life, I'm not sure when Obama first came to my attention. I do distinctly remember watching his announcement from Springfield, IL, in which he confirmed he was running for President, and already knew that he was the candidate I'd be supporting. Over time, his non-combative style, grace under pressure and call for change cemented that decision, whilst the way in which he embraced design, technology and the internet was encouraging given my interest in those areas.
 
 {% figure caption:"Barack Obama <cite>Hope</cite> poster by Shepard Fairey" class:"u-pull-right" %}
-{% picture supporting /2009/01/obama_hope_poster.png alt="" %}
+{% include image.html preset="supporting" path="2009/01/obama_hope_poster.png" %}
 {% endfigure %}
 
 By the time of the [Iowa Caucuses][2], and [New Hampshire primaries][4] I had decided that I would be returning to the UK, yet I continued to watch the election with a keen interest, watching every debate, every concession speech, every victory rally.

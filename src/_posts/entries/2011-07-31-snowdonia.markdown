@@ -2,7 +2,7 @@
 title: Snowdonia
 date: '2011-07-31 18:48:28 +0100'
 image:
-  url: /2011/07/snowdonia.jpg
+  url: 2011/07/snowdonia.jpg
 tags:
   - Photography
   - Snowdonia

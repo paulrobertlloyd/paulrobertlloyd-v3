@@ -4,7 +4,7 @@ series: north_america_2011
 date: '2011-12-19 22:00:28 +0000'
 excerpt: My North American adventure started in Washington DC; ostensibly so I could attend an edition of this year's An Event Apart conference. Yet it was also a good excuse to catch up with Shannon, who graciously planned a tour of the city for me and Andy.
 image:
-  url: /2011/12/washington_dc.jpg
+  url: 2011/12/washington_dc.jpg
   caption: Shannon looking towards the Lincoln Memorial
 tags:
   - Travel
@@ -26,7 +26,7 @@ In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for
 
 ## Apple Picking in Virginia
 {% figure caption:"The Apple Pickers" %}
-{% picture /2011/12/washington_dc_apple_pickers.jpg alt="" %}
+{% include image.html path="2011/12/washington_dc_apple_pickers.jpg" %}
 {% endfigure %}
 
 The fun continued on Sunday when I went Apple picking with Shannon and some of her friends at the [Stribling Orchard][18] in rural Virginia. Having visited Washington before, I jumped at the chance to get out of the city and try something new. It wasn't long before I was trying out the accent and batting apples across the orchard, baseball style. It's a sight I'm sure [Kyle][19] would have paid good money to see; I'd gone native!

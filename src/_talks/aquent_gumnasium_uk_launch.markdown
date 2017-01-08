@@ -47,7 +47,7 @@ Understanding these basic components will not only make you a smarter developer,
 The move to web standards seemed like such an upheaval at the time, but it pales in comparison to the challenges we're facing today. Back then, we had to support just a handful of browsers. Now our products need to work across a range of devices, each with different features and capabilities.
 
 {% figure caption:"A collection of Internet connected devices. Photograph: [Brad Frost](https://www.flickr.com/photos/brad_frost/7387823392/)" %}
-{% picture /2013/08/keep_up_devices.jpg alt="" %}
+{% include image.html path="2013/08/keep_up_devices.jpg" %}
 {% endfigure %}
 
 The above image shows just a subset of the devices we need to cater for. It doesn't show a television, or any game consoles -- who knows if we'll soon be talking about web-enabled iWatches! Such is the range and diversity of connected devices, it's senseless targeting a particular subset, particularly as user habits continue to change. Terms such as 'mobile', 'tablet' or 'desktop' have become almost meaningless.
@@ -68,7 +68,7 @@ There are always those that fail to understand the web. They can be seen trying 
 Others have come to recognise the unique characteristics of the web, and in doing so, are attempting to solve problems nobody has encountered before. I mean, how on earth do you design something that can be infinitely adaptable? It often feels like we are entering a period of enlightenment, a renaissance even!
 
 {% figure caption:"Given the constraints of early television, an identifiable aesthetic emerged" %}
-{% picture /2013/08/keep_up_aesthetic.png alt="" %}
+{% include image.html path="2013/08/keep_up_aesthetic.png" %}
 {% endfigure %}
 
 Although there a challenges specific to web design, there is much we can learn from other industries. For example, the issues we face are similar to those television graphic designers experienced during the mid-sixties. At that time, television was a crude medium; low-definition, black and white. Using high contrast illustrations and bold type, and influenced in part by optical and pop art fashion of the time, its designers arrived at an aesthetic suited to these limitations. We need to be thinking about the web in a similar way; [what aesthetic approach is appropriate to the web][11]?

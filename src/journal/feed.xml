@@ -34,13 +34,13 @@
 <![CDATA[
 {% if post.image.url %}
   {% figure caption:"{{ post.image.caption }}" %}
-{% picture {{ post.image.url }} alt="" %}
+    {% include image.html path=post.image.url %}
   {% endfigure %}
 {% endif %}
 
 {% if post.embed %}
   {% figure %}
-{% include embed.html url=post.link %}
+    {% include embed.html url=post.link %}
   {% endfigure %}
 {% endif %}
 

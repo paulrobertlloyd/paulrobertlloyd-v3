@@ -4,7 +4,7 @@ date: '2016-01-18 22:00:00 +0000'
 location: Brighton, England
 excerpt: Last Friday I jumped on the train to London to see Lumiere, a four-day festival of illuminated art.
 image:
-  url: /2016/01/lumiere_centre_point_lights.jpg
+  url: 2016/01/lumiere_centre_point_lights.jpg
   caption: '<cite>Centre Point Lights</cite>, temporarily positioned in front of the National Gallery in Trafalgar Square'
 tags:
   - London
@@ -15,8 +15,8 @@ Whenever I'm working for a client based in or near London, I try to find things 
 Of course, this being London, many of the pieces were undermined by the shear number of people attracted to them like moths to a flame -- the sculptures situated in Grosvenor Square proving particularly difficult to appreciate. The most effective were those that took account of the need to address a large audience without being obstructed by it; Janet Echelman's [<cite>1.8 London</cite>][2], a large illuminated net floating above Oxford Circus like an alien Jellyfish, was possibly the best example of this. So too was Patrice Warrener's [<cite>The Light of The Spirit</cite>][3], a gorgeous projection onto the facade of Westminster Abbey.
 
 {% figure caption:"<cite>1.8 London</cite> by Janet Echelman floating above Oxford Circus, and Patrice Warrener's <cite>The Light of The Spirit</cite>, projected on the facade above the Great West Doors of Westminster Abbey" class:"u-bleed u-abreast" %}
-{% picture /2016/01/lumiere_1_8_london.jpg alt="1.8 London" %}
-{% picture /2016/01/lumiere_light_of_the_spirit.jpg alt="The Light of The Spirit" %}
+{% include image.html path="2016/01/lumiere_1_8_london.jpg" alt="1.8 London" %}
+{% include image.html path="2016/01/lumiere_light_of_the_spirit.jpg" alt="The Light of The Spirit" %}
 {% endfigure %}
 
 A festival clearly designed for the Instagram generation, there was no shortage of eye candy, yet I headed home feeling somewhat dejected, unable to capture any photos of significant value. With iPhone 6S in hand, I was surprised to find that even this supposedly capable camera had failed to capture the finer details present in some pieces, the image quality of anything I zoomed in on revealing itself to be poor when viewed on a larger screen. It was also blimin' cold, so whereas I should have been more patient, and taken the time to consider compositions, instead I fell into my old habit of [pointing and shooting at things][4].

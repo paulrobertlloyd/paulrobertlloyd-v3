@@ -11,7 +11,7 @@ tags:
 As Summer hurtles towards it's conclusion (and let's assume for a second that it actually started) so the anticipation for two very special geeky events can begin.
 
 ## Geek in the Park
-{% picture supporting /2009/08/upcoming_attractions_geek_in_the_park.png class="u-pull-right" alt="Geek in the Park" %}A free family-friendly gathering for web designers and developers, Geek in the Park is a day long event held every year in Royal Leamington Spa. The day starts with a picnic in Jephson Gardens, before heading indoors for an evening of illuminating talks by respected industry leaders.
+{% include image.html preset="supporting" path="2009/08/upcoming_attractions_geek_in_the_park.png" class="u-pull-right" alt="Geek in the Park" %}A free family-friendly gathering for web designers and developers, Geek in the Park is a day long event held every year in Royal Leamington Spa. The day starts with a picnic in Jephson Gardens, before heading indoors for an evening of illuminating talks by respected industry leaders.
 
 This years event takes place on the 15th August (that's next weekend!), with the picnic beginning at 12 noon and the evening talks starting at 7pm, held in the rather impressive Royal Pump Rooms.
 
@@ -24,7 +24,7 @@ Remy will be talking about 'HTML5 & Friends'. This emerging specification (and a
 For more details visit [this years event site][8], and let us know if you can make it on the [Upcoming page][9].
 
 ## dConstruct
-{% picture supporting /2009/08/upcoming_attractions_dconstruct.png class="u-pull-right" alt="dConstruct 2009" %}Of the many paid for conferences available each year, I've always maintained that [dConstruct][10] and [An Event Apart][11] are the two not to missed. Both have an unrivaled focus on quality, both in terms of the overall conference experience, as well as the content provided by the featured speakers.
+{% include image.html preset="supporting" path="2009/08/upcoming_attractions_dconstruct.png" class="u-pull-right" alt="dConstruct 2009" %}Of the many paid for conferences available each year, I've always maintained that [dConstruct][10] and [An Event Apart][11] are the two not to missed. Both have an unrivaled focus on quality, both in terms of the overall conference experience, as well as the content provided by the featured speakers.
 
 Unfortunately I won't be able to attend An Event Apart this year, but being a fully paid up member of the [Elf Cartel][12], means I can once again revel in the unbounded geek-fest that is dConstruct.
 

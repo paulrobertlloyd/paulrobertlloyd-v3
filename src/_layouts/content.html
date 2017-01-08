@@ -16,7 +16,7 @@ layout: default
     <div class="s-prose s-prose--body  e-content">
       {% if page.image.url %}
         {% figure caption:"{{ page.image.caption }}" class:"u-bleed" %}
-{% picture {{ page.image.preset }} {{ page.image.url }} alt="" %}
+          {% include image.html preset=page.image.preset path=page.image.url %}
         {% endfigure %}
       {% endif %}
 
