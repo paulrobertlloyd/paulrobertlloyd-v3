@@ -66,7 +66,7 @@
       });
     };
 
-    function loadCB () {
+    function loadCB() {
       if (link.addEventListener) {
         link.removeEventListener('load', loadCB);
       }

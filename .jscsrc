@@ -8,6 +8,9 @@
 
   "disallowKeywords": ["with"],
   "disallowSpacesInsideObjectBrackets": null,
+  "disallowSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true
+  },
   "disallowImplicitTypeConversion": ["string"],
 
   "safeContextKeyword": "_this",
