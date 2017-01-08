@@ -39,7 +39,7 @@
   }
 
   .caps {
-    @include c2sc;
+    font-variant-caps: small-caps;
   }
 }
 

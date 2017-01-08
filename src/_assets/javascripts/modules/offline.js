@@ -13,12 +13,7 @@
 
   win.addEventListener('offline', handleOffline);
   win.addEventListener('online', handleOnline);
-
-  // TODO: Rewrite arrow function as ES5
-  // Also, message sometimes appears when online
-  // win.addEventListener('load', event => {
-  //   if (!navigator.onLine) {
-  //     handleOffline();
-  //   }
-  // });
+  win.addEventListener('load', function(event) {
+    navigator.onLine || handleOffline();
+  });
 }(this, this.document));

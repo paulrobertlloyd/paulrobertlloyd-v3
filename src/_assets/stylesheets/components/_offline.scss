@@ -14,7 +14,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: units(1/3) 0;
+  padding-top: units(1/3);
+  padding-bottom: units(1/3);
 
   a:hover {
     color: white !important;
@@ -23,6 +24,7 @@
 
 .c-offline__dismiss {
   border: 0;
+  margin-right: units(-1);
   padding: units(1/3);
 
   &:hover {
