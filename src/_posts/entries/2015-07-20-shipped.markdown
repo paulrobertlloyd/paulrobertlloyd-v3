@@ -12,7 +12,7 @@ Given the obsessive compulsive behaviour I exhibit when it comes to tinkering wi
 This year's Indie Web Camp in Brighton was the latest deadline I'd set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this was the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I've spent last week revising and polishing to the point that I can finally say: "okay, you can look now".
 
 {% figure caption:"The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships" class:"u-bleed" %}
-{% picture /2015/07/shipped.jpg alt="" %}
+{% include image.html path="2015/07/shipped.jpg" %}
 {% endfigure %}
 
 ## Moving on from Movable Type

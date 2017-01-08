@@ -27,8 +27,7 @@ pagination:
 
 # Writing
 kramdown:
-# The auto_id_stripping option will be removed in kramdown 2.0 and become the default behaviour
-  auto_id_stripping: true
+  auto_id_stripping: true # This will become the default behaviour in kramdown 2.0
 
 # Collections
 collections:
@@ -102,76 +101,62 @@ assets:
     - _assets/stylesheets
     - _assets/vectors
 
+# Images
+images:
+  default:
+    sources:
+      - width: 480
+        quality: 80
+      - width: 800
+        quality: 80
+  thumbnail:
+    sizes: '33vw'
+    sources:
+      - width: 240
+        quality: 80
+      - width: 320
+        quality: 80
+  supporting:
+    sizes: '50vw'
+    sources:
+      - width: 480
+        quality: 80
+      - width: 640
+        quality: 80
+  showcase:
+    sources:
+      - width: 768
+        quality: 80
+      - width: 1024
+        quality: 80
+  wide:
+    sources:
+      - width: 800
+        height: 450
+        quality: 80
+      - width: 1024
+        height: 576
+        quality: 88
+      - width: 1280
+        height: 675
+        quality: 88
+  anamorphic:
+    sources:
+      - width: 1020
+        height: 425
+        quality: 88
+      - width: 720
+        height: 300
+        quality: 80
+      - width: 1200
+        height: 500
+        quality: 88
+
 # HTML Compression
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Pictures
-picture:
-  cdn: https://paulrobertlloyd.com/image
-  markup: img
-  source: /images
-  presets:
-    default:
-      attr:
-        class: c-picture c-picture--default
-      source_medium:
-        width: 800
-      source_default:
-        width: 480
-    thumbnail:
-      attr:
-        class: c-picture c-picture--thumbnail
-        sizes: '33vw'
-      source_medium:
-        width: 320
-      source_default:
-        width: 240
-    supporting:
-      attr:
-        class: c-picture c-picture--supporting
-        sizes: '50vw'
-      source_medium:
-        width: 640
-      source_default:
-        width: 480
-    showcase:
-      attr:
-        class: c-picture c-picture--showcase
-      source_medium:
-        width: 1024
-      source_default:
-        width: 768
-    wide:
-      attr:
-        class: c-picture c-picture--wide
-      source_large:
-        width: 1280
-        height: 675
-        quality: 88
-      source_medium:
-        width: 1024
-        height: 576
-        quality: 88
-      source_default:
-        width: 800
-        height: 450
-    anamorphic:
-      attr:
-        class: c-picture c-picture--anamorphic
-      source_large:
-        width: 1200
-        height: 500
-        quality: 88
-      source_medium:
-        width: 1020
-        height: 425
-        quality: 88
-      source_default:
-        width: 720
-        height: 300
 
 # Publishing
 source: ./src
@@ -196,4 +181,4 @@ jekyll-archives:
   permalinks:
     year: /:year/
     month: /:year/:month/
-    tag: /tags/:name.html
+    tag: /tags/:name/

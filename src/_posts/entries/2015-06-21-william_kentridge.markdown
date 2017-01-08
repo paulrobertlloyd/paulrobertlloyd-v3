@@ -4,7 +4,7 @@ date: '2015-06-21 13:54:51 +0100'
 location: Brighton, England
 excerpt: 'The work of celebrated illustrator and artist William Kentridge is showcased at the EYE Film Institute in Amsterdam.'
 image:
-  url: /2015/06/william_kentridge.jpg
+  url: 2015/06/william_kentridge.jpg
   caption: 'Still image from <cite>Other Faces</cite>'
 tags:
   - Art

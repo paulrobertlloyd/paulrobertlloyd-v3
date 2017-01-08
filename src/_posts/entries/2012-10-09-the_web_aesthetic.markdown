@@ -4,7 +4,7 @@ date: '2012-10-09 02:50:00 +0100'
 location: Brighton, England
 excerpt: At the beginning of this year I was struck by a realisation, prompted in part by the discussions around responsive images but also the artistic ingenuity of the image optimisation techniques being used by Jeremy. How might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 image: 
-  url: /2012/10/the_web_aesthetic.png
+  url: 2012/10/the_web_aesthetic.png
   caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart'
 tags:
   - Writing

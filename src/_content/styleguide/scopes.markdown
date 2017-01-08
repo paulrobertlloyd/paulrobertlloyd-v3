@@ -112,13 +112,13 @@ And the mome raths outgrabe.
 {% endfigure %}
 
 {% figure caption:"Single image, with supporting caption" %}
-{% picture /styleguide/pattern_1.jpg alt="Image 1" %}
+{% include image.html path="styleguide/pattern_1.jpg" alt="Image 1" %}
 {% endfigure %}
 
 For figures using the `.u-extend`{: .language-css} utility, the caption moves to the right at the largest breakpoint.
 
 {% figure caption:"Single image, with supporting caption to the right" class:"u-extend" %}
-{% picture /styleguide/pattern_1.jpg alt="Image 1" %}
+{% include image.html path="styleguide/pattern_1.jpg" alt="Image 1" %}
 {% endfigure %}
 
 ## Text-level Semantics

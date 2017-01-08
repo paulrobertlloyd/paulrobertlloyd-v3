@@ -12,32 +12,32 @@ Taking into account that Channel 4 was to commission its programmes from indepen
 Although it was expensive to implement, it was radically different to its competitors, all of which returned to a single on-screen ident, be it BBC1's revolving globe, Anglia's revolving knight or Thames' London skyline.
 
 {% figure caption:"Figure 6: The four original launch idents for Channel 4" class:"u-abreast" %}
-{% picture thumbnail /articles/dissertation/figure-6a.png alt="Still from ident 1" %}
-{% picture thumbnail /articles/dissertation/figure-6b.png alt="Still from ident 1" %}
-{% picture thumbnail /articles/dissertation/figure-6c.png alt="Still from ident 1" %}
-{% picture thumbnail /articles/dissertation/figure-6d.png alt="Still from ident 1" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6a.png" alt="Still from ident 1" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6b.png" alt="Still from ident 1" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6c.png" alt="Still from ident 1" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6d.png" alt="Still from ident 1" %}
 
-{% picture thumbnail /articles/dissertation/figure-6e.png alt="Still from ident 2" %}
-{% picture thumbnail /articles/dissertation/figure-6f.png alt="Still from ident 2" %}
-{% picture thumbnail /articles/dissertation/figure-6g.png alt="Still from ident 2" %}
-{% picture thumbnail /articles/dissertation/figure-6d.png alt="Still from ident 2" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6e.png" alt="Still from ident 2" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6f.png" alt="Still from ident 2" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6g.png" alt="Still from ident 2" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6d.png" alt="Still from ident 2" %}
 
-{% picture thumbnail /articles/dissertation/figure-6h.png alt="Still from ident 3" %}
-{% picture thumbnail /articles/dissertation/figure-6i.png alt="Still from ident 3" %}
-{% picture thumbnail /articles/dissertation/figure-6j.png alt="Still from ident 3" %}
-{% picture thumbnail /articles/dissertation/figure-6d.png alt="Still from ident 3" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6h.png" alt="Still from ident 3" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6i.png" alt="Still from ident 3" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6j.png" alt="Still from ident 3" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6d.png" alt="Still from ident 3" %}
 
-{% picture thumbnail /articles/dissertation/figure-6d.png alt="Still from ident 4" %}
-{% picture thumbnail /articles/dissertation/figure-6k.png alt="Still from ident 4" %}
-{% picture thumbnail /articles/dissertation/figure-6l.png alt="Still from ident 4" %}
-{% picture thumbnail /articles/dissertation/figure-6d.png alt="Still from ident 4" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6d.png" alt="Still from ident 4" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6k.png" alt="Still from ident 4" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6l.png" alt="Still from ident 4" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-6d.png" alt="Still from ident 4" %}
 {% endfigure %}
 
 {% figure caption:"Figure 7: The idents were part of a consistent presentation style across the channel" class:"u-abreast" %}
-{% picture thumbnail /articles/dissertation/figure-7a.png alt="Channel 4 clock" %}
-{% picture thumbnail /articles/dissertation/figure-7b.png alt="Channel 4 programme menu" %}
-{% picture thumbnail /articles/dissertation/figure-7c.png alt="Channel 4 promotion slide" %}
-{% picture thumbnail /articles/dissertation/figure-7d.png alt="Channel 4 promotion slide" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-7a.png" alt="Channel 4 clock" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-7b.png" alt="Channel 4 programme menu" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-7c.png" alt="Channel 4 promotion slide" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-7d.png" alt="Channel 4 promotion slide" %}
 {% endfigure %}
 
 These idents were paired with a strong four-note signature tune composed by David Dundas that, like the figure four, could be adapted to suit a particular mood or theme. Compared to its rivals, Channel 4 used bright colour, movement, ground breaking technology and had a consistent image both on and off screen. In turn, Channel 4 became the first channel to have 'a brand', a visual property to hang on to -- something very important to a channel that was going to find it hard competing against three well established channels and a lot of bad press initially.
@@ -51,9 +51,9 @@ Robinson Lambie-Nairn encouraged the channel's presentation department to follow
 The success of the Channel 4 identity caused immediate resentment from various ITV regions, which considered the new channel to be its 'poor relation' (Lambie-Nairn, 1997, p85), yet it had an identity that was a talking point amongst both industry and public. They concluded that it was successful due to the fact that its idents were computer animated (apposed to its consistent and well applied design) and ordered their graphic designers to computerise their logos.
 
 {% figure caption:"Figure 8: The face of television across all channels became increasingly similar. Here are shown idents for BBC1, BBC2 and Thames (an ITV region serving London during weekdays)" class:"u-abreast" %}
-{% picture thumbnail /articles/dissertation/figure-8a.png alt="BBC One ident, 1985" %}
-{% picture thumbnail /articles/dissertation/figure-8b.png alt="BBC Two ident, 1986" %}
-{% picture thumbnail /articles/dissertation/figure-8c.png alt="Thames Television ident" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-8a.png" alt="BBC One ident, 1985" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-8b.png" alt="BBC Two ident, 1986" %}
+{% include image.html preset="thumbnail" path="articles/dissertation/figure-8c.png" alt="Thames Television ident" %}
 {% endfigure %}
 
 The viewer was suddenly confronted with an array of flying logos. Thames for example took its familiar London skyline image and turned it into a metallic looking slab and flew around the screen. Of course this had no effect on viewing figures or the popularity of the channels, as the identities bore no relationship to the values of the channels (if anything it made them all look the same). It was just a fascination with a technique.

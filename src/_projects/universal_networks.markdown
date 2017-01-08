@@ -14,10 +14,10 @@ Universal Networks encompasses NBCUniversal's portfolio of over seventy internat
 NBCUniversal wanted to create a holistic online user experience across each brand and territory. Working with [James Box][1] at Clearleft, I devised the underlying user experience and design language, expressed as a common library of localisable design patterns. These were customisable, allowing each brand to exhibit its own individuality and brand personality.
 
 {% figure caption:"A library of design patterns could be customised to support different channel brands. I provided styling for four of these, while [Aegir Hallmundur](http://aegir.org) designed the theme for Diva." class:"u-extend u-abreast" %}
-{% picture thumbnail /projects/universal_networks/diva.png alt="Diva skin" class="u-framed" %}
-{% picture thumbnail /projects/universal_networks/13th_street.png alt="13th Street skin" class="u-framed" %}
-{% picture thumbnail /projects/universal_networks/studio.png alt="Studio Universal skin" class="u-framed" %}
-{% picture thumbnail /projects/universal_networks/universal_channel.png alt="Universal Channel skin" class="u-framed" %}
+{% include image.html preset="thumbnail" path="projects/universal_networks/diva.png" alt="Diva skin" class="u-framed" %}
+{% include image.html preset="thumbnail" path="projects/universal_networks/13th_street.png" alt="13th Street skin" class="u-framed" %}
+{% include image.html preset="thumbnail" path="projects/universal_networks/studio.png" alt="Studio Universal skin" class="u-framed" %}
+{% include image.html preset="thumbnail" path="projects/universal_networks/universal_channel.png" alt="Universal Channel skin" class="u-framed" %}
 {% endfigure %}
 
 [1]: http://clearleft.com/is/james-box/

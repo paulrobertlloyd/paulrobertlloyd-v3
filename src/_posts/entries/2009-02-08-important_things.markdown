@@ -8,7 +8,7 @@ tags:
   - Demetri Martin
 ---
 {% figure %}
-{% picture /2009/02/important_things.jpg alt="Promotion for Important Things" %}
+{% include image.html path="2009/02/important_things.jpg" alt="Promotion for Important Things" %}
 {% endfigure %}
 
 One of my favourite comedians stars in a new show starting on Comedy Central this week.

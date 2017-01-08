@@ -4,7 +4,7 @@ date: '2015-09-16 20:49:00 +0100'
 location: Brighton, England
 excerpt: 'A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.'
 image:
-  url: /2015/09/stephen_colbert_late_show.jpg
+  url: 2015/09/stephen_colbert_late_show.jpg
   caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS'
 tags:
   - Stephen Colbert

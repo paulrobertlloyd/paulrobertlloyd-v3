@@ -4,7 +4,7 @@ date: '2010-06-26 21:39:20 +0100'
 location: Walsall, England
 excerpt: I can wait another year before upgrading my iPhone.
 image:
-  url: /2010/06/iphone4.jpg
+  url: 2010/06/iphone4.jpg
   caption: The iPhone 4
 tags:
   - Apple

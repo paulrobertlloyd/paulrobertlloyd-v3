@@ -4,7 +4,7 @@ date: '2012-02-26 23:21:55 +0000'
 location: Brighton, England
 excerpt: Last week I was invited to Responsive Summit, a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the Dr. Strangelove reference either.
 image:
-  url: /2012/02/responsive_summit.jpg
+  url: 2012/02/responsive_summit.jpg
   caption: Scene from Dr. Strangelove
 tags:
   - Web
@@ -32,7 +32,7 @@ On many topics we found agreement, yet thankfully, there were areas of disagreem
 Chris asked if we needed media query like behaviour in HTML. For example, a list of links might be better represented as a select menu in certain instances. I questioned whether such an approach would be a regression, taking us back to the 'bad old days' of mixing together presentation, behaviour and content. I still believe that structuring documents semantically, with CSS and JavaScript manipulating that information, is the right approach. Progressive enhancement is forever revealed as a guiding principle when crafting web experiences. I'd hate to see that change.
 
 {% figure caption:"Josh Brewer facilitated the discussion. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6924116705/in/set-72157629074652364/)" %}
-{% picture /2012/02/responsive_summit_josh.jpg alt="" %}
+{% include image.html path="2012/02/responsive_summit_josh.jpg" %}
 {% endfigure %}
 
 ## The Picture Element
@@ -89,7 +89,7 @@ Perhaps what we're really after is the image equivalent of variable bit-rate, as
 And with that, I've sufficiently demonstrated my naivety regarding image formats.
 
 {% figure caption:"Me, in deep pondering mode. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6778001526/in/set-72157629074652364/)" %}
-{% picture /2012/02/responsive_summit_paul.jpg alt="" %}
+{% include image.html path="2012/02/responsive_summit_paul.jpg" %}
 {% endfigure %}
 
 ## Immediate Solutions

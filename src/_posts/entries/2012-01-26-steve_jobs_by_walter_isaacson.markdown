@@ -4,7 +4,7 @@ date: '2012-01-26 21:56:34 +0000'
 location: Brighton, England
 excerpt: After enough subtle hints, I was happy to unwrap a copy of the Steve Jobs biography at Christmas. I don't read many books, and those I do, I rarely finish, but I couldn't put this one down. When I intended to read half an hour before bed, I'd usually end up reading for two.
 image:
-  url: /2012/01/steve_jobs_by_walter_isaacson.jpg
+  url: 2012/01/steve_jobs_by_walter_isaacson.jpg
   caption: Steve Jobs by Walter Isaacson
 tags:
   - Books

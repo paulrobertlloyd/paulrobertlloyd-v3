@@ -4,7 +4,7 @@ date: '2012-09-21 21:02:44 +0100'
 location: São Paulo, Brazil
 excerpt: They say change is as good as a rest. With early morning commutes, a 'distinctive' uniform and interaction with the general public, volunteering at the London 2012 Paralympic Games couldn't have been further removed from the desk-bound job I'd become weary of.
 image:
-  url: /2012/09/games_maker_olympic_park.jpg
+  url: 2012/09/games_maker_olympic_park.jpg
   caption: Me and my fellow Games Makers in the Olympic Park
 tags:
   - Personal
@@ -41,7 +41,7 @@ Surrounded by colleagues of all ages, professions and backgrounds, I was using l
 A two-year journey had come to an abrupt end, the nervy expectation of two weeks prior replaced with an uneasy emptiness. Before our first shift, we were told to enjoy ourselves as it would be over before we knew it. And so it was proven.
 
 {% figure caption:"A photo from the final Games Maker shift" %}
-{% picture /2012/09/games_maker_last_night.jpg alt="" %}
+{% include image.html path="2012/09/games_maker_last_night.jpg" %}
 {% endfigure %}
 
 ## A Genuine Act

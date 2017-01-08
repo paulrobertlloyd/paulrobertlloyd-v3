@@ -19,7 +19,7 @@
     <div class="s-prose s-prose--body  p-summary">
       {% if item.image.url %}
       <a class="c-item__media u-bleed u-block-link" href="{{ item.url }}">
-        {% picture {{ item.image.preset }} {{ item.image.url }} alt="{{ item.title }}" class="u-photo" %}
+        {% include image.html preset=item.image.preset path=item.image.url class="u-photo" alt=item.title %}
       </a>
       {% endif %}
       {{ item.excerpt | markdownify | improve }}
