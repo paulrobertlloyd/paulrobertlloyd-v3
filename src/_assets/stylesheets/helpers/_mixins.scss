@@ -104,21 +104,6 @@
   letter-spacing: -0.025em;
 }
 
-// Caps
-@mixin smcp {
-  // font-variant: small-caps;
-  // font-size: 125%;
-  // letter-spacing: 0.025em;
-  // line-height: 0.1;
-}
-
-@mixin c2sc {
-  // font-variant: all-small-caps;
-  // font-size: 125%;
-  // letter-spacing: 0.025em;
-  // line-height: 0.1;
-}
-
 // Text highlight
 @mixin text-highlight($color: $c__select) {
   background-color: $color;
