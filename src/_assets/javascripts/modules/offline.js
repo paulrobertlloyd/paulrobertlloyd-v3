@@ -13,7 +13,12 @@
 
   win.addEventListener('offline', handleOffline);
   win.addEventListener('online', handleOnline);
-  win.addEventListener('load', function(event) {
-    navigator.onLine || handleOffline();
+
+  win.addEventListener('load', function(e) {
+    if (navigator.onLine) {
+      handleOnline;
+    } else {
+      handleOffline;
+    }
   });
 }(this, this.document));
