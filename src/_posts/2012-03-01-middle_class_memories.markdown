@@ -11,6 +11,6 @@ Had the estate not cruelly encroached upon London's vanishing green belt, it may
 
 All this begged to be explored by me, on my brilliant new blue and yellow BMX bike. Within the captivity of uniformity I now had the freedom to roam. From my bedroom window I'd spotted a short trail leading into an area of woodland: this could be my first expedition! I enthusiastically took to the path, one sheltered by tall pine trees and partly hidden under nettles eager to snatch at my legs. As I rode onwards, the sky slowly reappeared before a pristine lake was revealed. Here, an oasis of tranquility surround by an unexpected adventure park, was waiting to be occupied -- for the next few hours at least.
 
-* * *
+---
 
 *This was my response to a short assignment given on the creative writing course I'm undertaking. I was asked to use a 'clustering' technique to recall a childhood memory.*

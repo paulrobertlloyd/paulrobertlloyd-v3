@@ -9,7 +9,7 @@ Influenced by the launch identity of Britain's first new television station in a
 
 The growth of multi-channel television impacted the traditional terrestrial broadcasters, who for years had little competition, but now needed to re-invent themselves. Branding played a key role, with the creation of visual devices designed to retain their audiences.
 
-* * *
+---
 
 The last ten years or so have seen rapid growth and fundamental change in the television landscape. Once a medium limited to transmitting only five channels to the majority of the UK, the 1990's saw significant advances in broadcasting. This was a decade that started with the launch of satellite and cable television offering scores of channels, and ended with the development of digital television achieving hundreds of channels via satellite and meaning even the standard rooftop aerial could receive around 50. Digital television also brought with it a far more graphical form of Teletext, and interactivity within programmes -- thus blurring the boundaries between television and the Internet.
 

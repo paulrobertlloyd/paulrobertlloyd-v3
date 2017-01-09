@@ -56,7 +56,7 @@ Given this situation, why make a decision that could have seismic consequences? 
 
 A vote to remain means we still have the option to leave in the future, and future European treaties require a referendum before Britain can them anyway. A vote to leave is irreversible and potentially damaging.
 
-* * *
+---
 
 I thought I would be voting for [the least worst option][9]. Yet over the last few weeks, watching the dynamics within the various leave campaigns play out, I've seen that allowing deceptive and careless voices [emerge as the most powerful and influential][10] is far worse than opting for the status quo.
 

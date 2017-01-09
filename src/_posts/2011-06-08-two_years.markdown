@@ -94,7 +94,7 @@ Whilst some designers are deciding to jump aboard the iOS bandwagon, I find myse
 
 Whilst we may have got a lot wrong, one thing our industry has always got right is the community, one that is willing to share ideas and exchange knowledge. We need to rely on this more than ever as we transition from old habits to new ways of working. I look forward to being part of that ride.
 
-* * *
+---
 
 I'll be speaking more about this topic at this year's [Geek in the Park][21]. Join me, [Relly Annett-Baker][22], [Andrew Disley][23] and [James Willock][24] for a relaxing day in the park and an evening of illuminating talks. It takes place in Leamington Spa on the 13th August. You can find out [more information about the event here][25].
 

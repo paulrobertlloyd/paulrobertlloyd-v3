@@ -27,7 +27,7 @@ Dudley was ninety-two, in his second life, and fast approaching time for another
 
 *Maybe it won't be that bad*, he told himself. The lie was comforting enough to get him through the rest of the night's shift.
 
-* * *
+---
 
 The Carlton AllLander drove Dudley home just after dawn. Like the astronomer, the vehicle was old and worn, but perfectly capable of doing its job. It had a cheap diesel engine, common enough on a semi-frontier world like Gralmond, although its drive array was a thoroughly modern photoneural processor. With its high suspension and deep-tread tyres it could plough along the dirt track to the observatory in all weather and seasons, including the metre-deep snow of Gralmond's winters.
 

@@ -154,7 +154,7 @@ Currently, [logical properties][16] are only fully supported by Firefox (41.0+),
 
 Until support improves, I'll just cringe a little whenever I see the words `left` or `right` in a CSS file, and add physical positioning to my growing list of things I won't take for granted when building a website.
 
-* * *
+---
 
 <ins datetime="2016-03-17">**Update 1:** Many thanks to [Jonathan Garner][19] for pointing out that [I can push the site name and navigation apart by adding `justify-content: space-between`][20] to the flex container, thus avoiding the need for any positional values, physical or logical. As is so often the case, there can be many means of achieving the same objective, but Jonathan's solution is certainly the most sensible. Still, with auto margins a key component of flexbox layouts, the issue doesn't go away entirely.</ins>
 {: #update-1}

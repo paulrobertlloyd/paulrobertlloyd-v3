@@ -118,7 +118,7 @@ The future looks likely to see history repeating itself, but this time on a Euro
 
 The thought of a Europe wide league is not looked forward to by the fans, with increased ticket prices, less home games (away games being abroad) and the loss of local rivalries. But it would also see the Premiership become second division, and the football league even less attractive to television revenue. It could be quite likely that at the next round of television deals, Rupert Murdoch -- the only bidder likely to be available, will be pushing for the European breakaway, with the usual bribe of more money for the G14 clubs.
 
-* * *
+---
 
 ## The business of football
 The first football clubs were formed by friends, workmates or existing sporting associations, and were simply a way to enjoy playing the game and competing. With the onset of professionalism and larger crowds, the first football grounds began to be built. Larger clubs became limited companies so as to protect their members from the liabilities of wages and ground development. However they remained clubs in spirit, and fast became the focus of local communities.
@@ -207,7 +207,7 @@ This belief extends to the clubs merchandise. Its store was crafted by its merch
 
 > Every professional football club has a fund of loyalty in its town. If the club produces merchandise which is well designed and good value, people will be glad to be associated with it... these really are not difficult ideas. They're absolutely basic to any good businessman.
 
-* * *
+---
 
 ## Conclusion
 Football has essentially reached half-time, and now has to decide whether it is to continue as a sport, with the many benefits to the communities it supports and to society in general, or as a business with benefits only to a few of its players -- be them on the pitch and in the boardroom.

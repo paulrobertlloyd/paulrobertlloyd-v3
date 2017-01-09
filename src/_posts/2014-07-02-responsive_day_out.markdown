@@ -81,7 +81,7 @@ We also need to be more open-minded in how we approach platforms like iOS and An
 
 would tell a browser to handle this navigation list by using controls native to the platform: on a TV this might be a large menu, in a car this might be steering wheel controls. This is purely theoretical, but we can apply this thinking today when we look at forms. Styling a form is never easy; maybe we should let browsers deal with their style and behaviour however its sees fit. In short, shouldn't we be more lazy?
 
-* * *
+---
 
 Defining the core principles that support the work we do is an aspect of (responsive) web design I'd like to explore further. Indeed, I've been thinking about what to write and talk about next, and the above points -- their suitability and accurateness -- seem like an area worth thinking about more.
 

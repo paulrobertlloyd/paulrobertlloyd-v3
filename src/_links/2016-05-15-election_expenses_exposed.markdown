@@ -19,7 +19,7 @@ A Channel 4 News investigation has uncovered evidence suggesting large-scale and
 
 This is nothing short of a scandal, yet one helpfully suppressed by the current EU Referendum campaign. All this, revealed on the same week David Cameron hosted the international [Anti-Corruption Summit][4]; maybe we need to focus on the corruption taking place a little closer to home, first.
 
-* * *
+---
 
 Beyond the depressing particulars of this story, as someone who worked on an earlier design of the Channel 4 News website, I found the presentation of this story to be encouraging, not least because of its uncluttered layout, digestible content and accessible data visualisations. As a news team renowned for its in-depth reporting and investigations, I hope this article is a sign that we can expect more of its online coverage to meet those same high standards.
 

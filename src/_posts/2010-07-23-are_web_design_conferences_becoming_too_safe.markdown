@@ -49,7 +49,7 @@ Returning to New Adventures, where [the schedule][13] is still in progress, the 
 
 With the 5-star lineup, this careful curation could very well mean New Adventures In Web Design is the must see conference for 2011, and I'm intrigued to see what presentations will feature. However it will be these rather than the speakers, that will determine whether I purchase a ticket or not.
 
-* * *
+---
 
 **Update:** Since this article was published, [Simon has posted][14] some background information about the New Adventures conference, and also discusses the motives surrounding its creation. Certainly worth reading in the context of this article.
 
