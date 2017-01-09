@@ -20,7 +20,7 @@ In his TV travelogue, Michael Portillo explores Britain's railway network and, g
 Wanting to evoke the feel of the handbook's chaotic Victorian typography, I looked at how a range of typefaces were used to distinguish between different sections and place names. I distilled these down to two typefaces: Kameron for headings, a chunky slab serif that contrasted strongly with Linux Libertine, a delicate serif which I used for body copy.
 
 {% figure class:"u-bleed" %}
-{% include image.html path="projects/bradshaws_guide/palette.svg" alt="Palette and fonts" %}
+![Palette and fonts](/images/projects/bradshaws_guide/palette.svg)
 {% endfigure %}
 
 ## Open Source

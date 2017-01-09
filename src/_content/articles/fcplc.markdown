@@ -3,15 +3,15 @@ title: FC/plc
 date: '2002-05-01 00:00:00 +0000'
 excerpt: This was written during the research stage of my final major degree project. It's not intended to be authoritative, yet I feel it is still informative, and highlights a few issues and historical facts I never knew about football and the business it's become.
 ---
-## Football Becomes Big Business
+## Football becomes big business
 Football is often regarded as the people's game but it was in public schools and universities that the modern game was developed. A game that can trace its roots as far back to the fourteenth century where opposing villages and towns battled over an inflated bladder, fighting and maiming each other as players raged through the streets. The nineteenth century saw games with rudimentary sets of rules regarding taking and attacking opposing villages territory -- these being the 'goal'. The industrial revolution, the formation of a police force and the shift of people into the cities saw the end to these games.
 
-{% include image.html path="articles/fcplc/football_association_logo.svg" class="u-align-right" alt="The Football Association logo" %}They remained in the privileged and cocooned world of the public school system however, and with the reforms brought in by headmasters the game became toned down and regulated. Football was seen as a method of encouraging sportsmanship and teamwork. It was here that The Football Association (The FA) was formed in 1863 as a means of creating a standard set of rules. It was a firmly amateur organisation that believed in the game being played for the competition and the sport alone.
+![The Football Association logo](/images/articles/fcplc/football_association_logo.svg){: .u-align-right} They remained in the privileged and cocooned world of the public school system however, and with the reforms brought in by headmasters the game became toned down and regulated. Football was seen as a method of encouraging sportsmanship and teamwork. It was here that The Football Association (The FA) was formed in 1863 as a means of creating a standard set of rules. It was a firmly amateur organisation that believed in the game being played for the competition and the sport alone.
 
 ### Professionalism
 Graduates from the universities, as well as churches and schools promoted the sport, as it would encourage physical health and moral values. The game caught on massively with clubs sprouting up across the country -- especially in the North and Midlands. As the game popularised and competition increased between clubs, illegal payments started to be made to players. In 1885, and against its beliefs, the FA was forced by threat of a breakaway to legalise professionalism, but in doing so it continued to regulate the excesses and protect the game from the effects of commercialism.
 
-{% include image.html path="articles/fcplc/football_league_logo.svg" class="u-align-right" alt="The Football League logo" %}Now that clubs were able to pay players, they needed regular fixtures in order provide an income. It was with this in mind that William McGregor of Aston Villa formed the Football League in 1888, starting with 12 clubs. From the start, the league thought it important to maintain equity between the clubs that played in it. Gate receipts were shared between clubs that meant the bigger clubs couldn't dominate just because they could make more money through the gates. Later a four percent levy of overall gate money was collected into a central pot and shared equally between the clubs. Another action that maintained equity between clubs was that of a maximum wage. However this is now seen today as a restriction by the upper class FA on the working class players, and was eventually scraped in 1961.
+![The Football League logo](/images/articles/fcplc/football_league_logo.svg){: .u-align-right} Now that clubs were able to pay players, they needed regular fixtures in order provide an income. It was with this in mind that William McGregor of Aston Villa formed the Football League in 1888, starting with 12 clubs. From the start, the league thought it important to maintain equity between the clubs that played in it. Gate receipts were shared between clubs that meant the bigger clubs couldn't dominate just because they could make more money through the gates. Later a four percent levy of overall gate money was collected into a central pot and shared equally between the clubs. Another action that maintained equity between clubs was that of a maximum wage. However this is now seen today as a restriction by the upper class FA on the working class players, and was eventually scraped in 1961.
 
 Professional football continued to thrive, and by 1921 the Football League had four divisions. Clubs did make money, but in an amateurish way. The majority of a clubs income was from that of admission charges and that made by in-ground catering. Clubs outgoings were spent on player's wages (which were capped) and so little money was spent on grounds, which remained basic.
 
@@ -26,7 +26,7 @@ The re-distributive nature of the Football League (matched by the maximum wage) 
 
 In 1965, the BBC paid £5,000 for its <cite>Match of the Day</cite> highlights and each club received little more than £50 as a result. As money grew with the success of the game, resentment came from bigger clubs, most headed with a new breed of chairman not keen on having to share the wealth with the smaller clubs. The first threats to the structure of the league came during the 80's. Threats from 'the big five': Manchester United, Liverpool, Tottenham Hotspur, Everton and Arsenal to form a breakaway 'Super League' lead to concessions being given by the smaller clubs with more money and voting rights given to bigger clubs. The gate levy was also reduced to 3% with home clubs allowed to keep gate receipts. 1988 saw a private deal made between the big five and ITV to get themselves shown almost exclusively on television. However there remained an element of redistribution: Division One received 50%, Division Two received 25%, with the remainder shared between the Third and Fourth Divisions.
 
-### The Hillsborough Disaster
+### The Hillsborough disaster
 The 15th April 1989 and a semi-final FA Cup clash between Liverpool and Nottingham at Hillsborough was an unfortunate turning point in the history of English league football which saw 96 Liverpool supporters crushed to death.
 
 The ensuing Taylor enquiry was to find in its interim report that their was an appalling record of safety management at Sheffield Wednesday, failure by the local council in its safety regulatory duties and mismanagement of the crowd on day by South Yorkshire Police. However there was no change of staff at Hillsborough, and no memorial erected until 10 years after the disaster. The chairman who presided over this policy later became the chairman of The FA Premier League. Lord Taylor's final report:
@@ -45,7 +45,7 @@ The ensuing Taylor enquiry was to find in its interim report that their was an a
 
 The government however only enacted on the all-seater requirement and the giving of public money in the form grants to fund the rebuilding of grounds. Grants of up to £2 million per stand were given to the very directors criticised in report who went against the reports recommendations, and systematically increased their ticket prices. These new stadiums lost their atmosphere, and became notably bland and faceless. Clubs tended to insist on supporters staying seated though this was not a requirement by law. These new grant funded stands were also used as an opportunity to install corporate boxes, as well as banqueting and conference facilities. As for the families affected by the disaster, they received no financial support and out of the whole horrible episode undoubtedly finished the worst off, achieving no justice for their loved ones.
 
-### Premier League Formation
+### Premier League formation
 As its response to the disaster and answering Lord Taylor's call for a full reassessment of the game, and anticipating the forthcoming TV deal, the Football League published <cite>One game, One Team, One Voice</cite>. It recommended:
 
   * FA and League should bury the differences that had grown between them, and become a single authority,
@@ -68,7 +68,7 @@ The Football Association at this time was preparing its own response to Hillsbor
 
   * backed Super League proposal in the form of an 18-member Premier League tied to a system to promote excellence, that would ultimately lead to success for the England team.
 
-{% include image.html path="articles/fcplc/premier_league_logo.svg" class="u-align-right" alt="The FA Premier League logo" %}So 1992 saw the first games being played in The FA Carling Premiership. However, with all the former Division One clubs realising the benefits of Premiership membership, all 22 First Division clubs resigned from Football League. This was against the FA's proposals as a greater number of teams meant more games -- detrimental to the national team and promotion of excellence. It could of forced the membership of only 18 clubs, but decided not to bother. However, the number of clubs was later reduced to 20.
+![The FA Premier League logo](/images/articles/fcplc/premier_league_logo.svg){: .u-align-right} So 1992 saw the first games being played in The FA Carling Premiership. However, with all the former Division One clubs realising the benefits of Premiership membership, all 22 First Division clubs resigned from Football League. This was against the FA's proposals as a greater number of teams meant more games -- detrimental to the national team and promotion of excellence. It could of forced the membership of only 18 clubs, but decided not to bother. However, the number of clubs was later reduced to 20.
 
 They shared the £305 million bid by Sky (which outbid Greg Dyke and ITV) between them, with the only concessions to the Football League being £3 million in compensation and allowing clubs to be promoted to and relegated from the Premiership. Clubs that were relegated would receive 'parachute payments'. The rights deal that followed in 1997 saw £607 million paid, and last deal in 2001 saw a massive £1.6 billion paid out.
 
@@ -77,12 +77,12 @@ Just as enough money was coming in to fund a reform of the whole of football, fr
 
 As for the grassroots of the game, where tomorrows players are to be found, there was considerable neglect. Playing fields became victim to local authority cuts -- either finding themselves in states of disrepair used for housing and industrial developments. These cuts also affected school leagues, and even when they produced Premiership footballers, the money didn't filter down -- Manchester United paying only £100 to Manchester Schools FA when Nicky Butt was signed to them.
 
-### Government Reform
+### Government reform
 1997 saw the country elect a new Labour government who recognised that commercialism was damaging football. It set-up a task force to enquire into various issues affecting the game formed by supporters, governing bodies, public figures and informed academics. This mix sometimes meant it was hard to achieve consensus, especially with members of the Premier League. The task force produced four reports:
 
  1. #### <cite>Eliminating Racism from Football</cite>
     Published on March 30th 1998, this report lead to racist chanting being made criminal offence.
- 
+
  2. #### <cite>Improving facilities for Disabled Supporters</cite>
     Published on July 29th 1998, this report ensured disabled facilities were now compulsory at all grant-aided ground developments.
 
@@ -97,7 +97,7 @@ As for the grassroots of the game, where tomorrows players are to be found, ther
     This area of enquiry reported back on December 22nd 1999, but with little agreement between various parties lead to two separate reports being produced. The majority report favouring an audit commission and ombudsman but football's governing bodies unsurprisingly preferred a system of self-regulation. The government facing pressure from the Premier League supported this report which led to the creation of the Independent Football Commission. This body would oversee the running of football in commercial areas such as ticket prices and merchandising, but only with the power to 'name and shame' bad practice.
 
 ### Football Foundation
-{% include image.html path="articles/fcplc/football_foundation_logo.svg" class="u-align-right" alt="Football Foundation logo" %}The Football Foundation was formed in 2000 by the Government, replaced The Football Trust. It has a 53m investment programme with money sourced from The FA Premier League, The FA, Sport England and the Department of Culture, Media and Sport. The foundation -- the UK's biggest sporting charity -- is based at FA Headquarters in London. It aims to deliver:
+![Football Foundation logo](/images/articles/fcplc/football_foundation_logo.svg){: .u-align-right} The Football Foundation was formed in 2000 by the Government, replaced The Football Trust. It has a 53m investment programme with money sourced from The FA Premier League, The FA, Sport England and the Department of Culture, Media and Sport. The foundation -- the UK's biggest sporting charity -- is based at FA Headquarters in London. It aims to deliver:
 
   * a new generation of modern facilities in parks, local leagues and schools throughout the country,
 
@@ -120,10 +120,10 @@ The thought of a Europe wide league is not looked forward to by the fans, with i
 
 * * *
 
-## The Business of Football
+## The business of football
 The first football clubs were formed by friends, workmates or existing sporting associations, and were simply a way to enjoy playing the game and competing. With the onset of professionalism and larger crowds, the first football grounds began to be built. Larger clubs became limited companies so as to protect their members from the liabilities of wages and ground development. However they remained clubs in spirit, and fast became the focus of local communities.
 
-### Companies in Football
+### Companies in football
 Inevitably the popularity of the professional game attracted entrepreneurs who were interested in the game as a commercial profit-making exercise, and clubs such as Liverpool, Chelsea and Portsmouth were formed in this manner.
 
 Businessmen who tended to own clubs at this time presented their activities as a form of public service. Their task was to keep the clubs in good health, rather than to make money. Indeed The FA had safeguards to protect the game from commercialism. Its Rule 34 stated:
@@ -145,10 +145,10 @@ These were the first tentative steps towards turning football from a sport into 
 
 Rule 34 was still in existence, and yet even though it was fully aware that clubs had found a loophole, The FA's allowed this practice to continue, believing 'market forces' should be allowed to do their work. The FA had by now abandoned its role of protecting football from the forces of commercialism -- indeed it practically encouraged it in its blueprint. With the floatations, the 90's saw massive growth in the game, new and improved stadiums, imported foreign players and a game that appealed to a wider (more affluent) audience. It also saw inflated players wages and transfer fees, increasing ticket prices and abandonment of the game at grassroots. Those who made the greatest gain were of course the chairman, making massive personal fortunes from the sale of their shares.
 
-### Supporter Involvement
+### Supporter involvement
 Ten years ago Northampton Town Football Club was faced with extinction after continual financial mismanagement. Supporters of the club decided that enough was enough, and with the future of the football club that they loved and supported resting on a knife-edge, decided it was time that ordinary supporters did something to help save professional football in the town. They succeeded in raising £60,000 with the help of local businessmen and the clubs administrators, and in return set up a trust owning 18,000 shares (8% of the club), and can elect a director to the board.
 
-{% include image.html path="articles/fcplc/supporters_direct_logo.svg" class="u-pull-right" alt="Supporters Direct logo" %}Successes have included moving the club to Sixfields Stadium in 1994, a ground that was built and owned by the council and rented by the club. This saved the club from the major expenses of its upkeep and made the club less venerable to potential asset-stripping businessmen interested in the ground. The trust has remained vital to the health of the club, especially this year when the club has gone up for sale, by ensuring any potential owner of the club has its best interests at heart.
+![Supporters Direct logo](/images/articles/fcplc/supporters_direct_logo.svg){: .u-align-right} Successes have included moving the club to Sixfields Stadium in 1994, a ground that was built and owned by the council and rented by the club. This saved the club from the major expenses of its upkeep and made the club less venerable to potential asset-stripping businessmen interested in the ground. The trust has remained vital to the health of the club, especially this year when the club has gone up for sale, by ensuring any potential owner of the club has its best interests at heart.
 
 Looking at a means to increase fan participation within the sport, the government's football task force looked at the success at Northampton Town and used it to form the basis of Supporters Direct, a publicly funded initiative based at Birkbeck, University of London (home of the Football Governance Research Centre).
 
@@ -168,14 +168,14 @@ Supporters Direct aims to give support, advice and information for those wishing
 
 However such trusts tend to only be successful when clubs are in danger. Some supporters now question the validity of the trusts objectives at Northampton Town, and newly founded trusts such as those at Walsall and at Premiership clubs such as Aston Villa, tend to attract only a small proportion of club's total fan base. This needs to change -- especially at smaller clubs in lower divisions which are more likely to head towards financial ruin. At such clubs long-term objectives can be to see the club owned by the fans (as has happened at Chesterfield) whose loyalty is likely to last far longer than some 'white-knight' new chairman. But these trusts are equally important at larger clubs whose owners are becoming ever more powerful.
 
-### Unbalanced Books
+### Unbalanced books
 Football clubs have now become to rely on television revenue as their main source of income, and expected successive deals to be larger and bring greater wealth. This was the case in 2001 when the last round of deals were made, but were no doubt the last time football was to attract such large amounts of money -- £1.6 billion being paid by BSkyB and ITV for Premier League matches and highlights respectively. The Football League had also managed to secure a lucrative contract of £315 million pounds from ITV Digital -- the digital terrestrial platform backed by media giants Granada and Carlton. These deals were done at a time of the 'dot com bubble', where media companies believed large payments for such events would come good in the end.
 
 Of course in terms of the Premier League, that is probably true, but the match up of both the lowly subscribed ITV Digital and less attractive Football League was a flawed proposition from the start. ITV Digital was in a similar position to that of Sky in the early 90's. Where as Sky gambled its fortunes on the Premier League -- whose teams attract supporters from across the country, ITV Digital secured rights to all three Football League divisions, whose supporters are more locally based and more likely to go the grounds than watch the games on the telly. ITV Digital was also flawed as a platform, weak signals and a coverage that didn't cover the country meant that those who did decide to watch their local team probably couldn't receive its ITV Sport Channel anyway. The situation wasn't helped by not being able to secure carriage of the channel on Sky -- whose platform attracted around 6 million subscribers.
 
 It was with this in mind, that Carlton and Granada, making a loss of £1 million a day from ITV Digital, tried to renegotiate its contract with the Football League to who it still owed £178.5 million over two years. Unsuccessful in its attempts, it pulled the plug on ITV Digital, leaving 72 football clubs without important television revenue, and perhaps 30 in serious financial trouble -- some of who were already in administration.
 
-### Increasing Players Wages
+### Increasing players wages
 Many fans saw the ITV digital crisis and immediately blamed the TV companies. But the crisis only really brought forward problems regarding deals that would have emerged next year, and these problems are likely to affect even the Premiership.
 
 The problem lies with players inflating wages, and chairman's increasing willingness to spend big on players transfer fees and more importantly wages, regardless to whether the funds actually exist to pay them. The top players such as Michael Owen and David Beckham can expect to attract between £70-100,000 a week. Lesser players also expect similar rates of pay, whether they're actually worth it or not. When the Premier League has become the only league that matters, chairman have no option but to gamble their clubs futures on securing membership, and paying the wages to attract the otherwise unattainable players.
@@ -188,7 +188,7 @@ This has been possible in the past because television companies were expected to
 
 Players wages have led to fans believing the players are no longer motivated because they get paid whatever the outcome of the games and is leading to a detriment of game in general. Suggestions of reintroducing maximum wages per player or divisional wage caps are means of clubs needing to save themselves from themselves.
 
-### Responsible Business Management
+### Responsible business management
 The situation with players wages has only arisen because clubs forgetting football is a sport not a business. As a football club, you don't need to make profits just avoid sustained losses. But as chairman of football businesses, they tend to have their feet firmly in the City, believing in its philosophies such as "the market will regulate itself naturally" quoted from Southampton chairman, Rupert Lowe.
 
 {% figure caption:"Preston North End's ground is also home to the National Football Museum" class:"u-bleed" %}

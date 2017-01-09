@@ -35,7 +35,7 @@ Improving the product in discreet stages sounded appealing, but beyond a few tec
 The design used during private and public beta phases of the product roll-out no longer aligned with this redefined proposition, so a new approach was needed. Elements of the previous design were retained, and formed the basis of what followed.
 
 {% figure class:"u-bleed" %}
-{% include image.html path="projects/fontdeck/palette.svg" alt="Palette and fonts" %}
+![Palette and fonts](/images/projects/fontdeck/palette.svg)
 {% endfigure %}
 
 The original brand font was FF Info, but as this wasn't in our catalogue it didn't make sense to use it. In its place, I paired Adelle (lots of character at different sizes) with PT Sans (legible at small sizes). Where web-safe alternatives were required (e.g. HTML newsletters), Georgia and Lucida Grande were chosen as fallbacks. The colour palette required only subtle changes; the signature dark blue colour was made slightly dustier, the saturated font category colours more muted.

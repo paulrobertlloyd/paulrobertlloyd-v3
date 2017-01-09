@@ -6,6 +6,7 @@ excerpt: 'Three years after the Web Aesthetic, comes my second article for A Lis
 image:
   url: 2015/08/map_and_territory.png
   caption: 'Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart'
+  preset: anamorphic
 tags:
   - Writing
   - Web

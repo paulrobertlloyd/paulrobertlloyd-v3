@@ -29,14 +29,14 @@ We asked key stakeholders on the project to dissect the homepage and a key inter
 We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity.
 
 {% figure class:"u-bleed" %}
-{% include image.html path="projects/unicef_uk/palette.svg" alt="Palette and fonts" %}
+![Palette and fonts](/images/projects/unicef_uk/palette.svg)
 {% endfigure %}
 
 The brand guidelines suggested using Verdana for digital applications, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
 
 ## Navigation
 {% figure caption:"Navigation appears in a slide-out menu" class:"u-pull-right" %}
-<object height="100%" width="100%"  data="{{ site.url }}/images/projects/unicef_uk/mobile_menu.svg" type="image/svg+xml"></object>
+<object height="100%" width="100%" data="/images/projects/unicef_uk/mobile_menu.svg" type="image/svg+xml"></object>
 {% endfigure %}
 
 We experimented with different ways of simplifying wayfinding around the site. By removing layers of navigation and advocating the inclusion of more links within body copy, we were able to reduce unnecessary interactions and invoke fewer taps. Moving the breadcrumb navigation to a slide-out menu meant users could orientate themselves within the site.

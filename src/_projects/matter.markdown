@@ -30,7 +30,7 @@ Much of my work for Matter focused on its visual identity. I thought a lot about
 As well as being able to purchase individual articles as ebooks via Amazon and iTunes, subscribers could get access to all the stories on the website. Crucial to making this work was creating a frictionless payment flow. A guided two-step flow kept form fields to a minimum, and made subscribing a painless experience.
 
 {% figure caption:"Payment flow" %}
-{% include image.html path="projects/matter/payment_flow.svg" %}
+![](/images/projects/matter/payment_flow.svg)
 {% endfigure %}
 
 ## Typography

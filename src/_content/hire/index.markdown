@@ -15,7 +15,7 @@ I've worked for design agencies, start-ups and established brands in the fields 
 * * *
 {: .u-extend}
 
-## Digital Design and Web Development
+## Digital Design & Development
 {: .u-aside}
 
 With a background in graphic design, my work is focused on interface design for native applications and the web. I value cohesiveness, attention to detail, and creating products that can be used by everyone.

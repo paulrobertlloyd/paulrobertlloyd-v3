@@ -5,7 +5,7 @@
 .c-page__header,
 .c-page__footer {
   @media screen and (min-width: $b__b) {
-    padding-left: percentage(3/12);
+    padding-left: percentage(2/9);
   }
 }
 
@@ -13,14 +13,12 @@
   @media screen and (min-width: $b__b) {
     position: absolute;
     padding-left: 0;
-    width: percentage(3/12);
+    width: percentage(2/9);
   }
 
   .c-page__title {
-    font-weight: normal;
-
     @media (min-width: $b__b) {
-      @include fs--heading-1;
+      @include fs--heading-2;
     }
   }
 }
@@ -28,6 +26,10 @@
 .c-page__footer {
   margin-bottom: units(4);
   color: $c__neutral-mid;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .c-page__title {

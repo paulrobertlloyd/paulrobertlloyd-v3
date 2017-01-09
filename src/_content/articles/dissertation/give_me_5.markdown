@@ -2,6 +2,7 @@
 title: Give Me 5
 series: dissertation
 date: '2002-06-01 00:00:05 +0000'
+excerpt: ''
 ---
 The general presentation and look of television remained largely unchanged until the arrival of Channel 5 -- the UK's fifth and final terrestrial television channel -- created with the sole purpose of stimulating competition and increasing airtime available to advertisers.
 

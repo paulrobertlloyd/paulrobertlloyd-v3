@@ -1,12 +1,10 @@
 <article class="c-item c-item--talk  h-event">
-  <a class="c-item__link  u-url" href="{% if item.upcoming %}{{ item.link }}{% else %}{{ item.url }}{% endif %}" rel="bookmark">
-    <h1 class="c-item__title">
-      {% if item.upcoming %}<mark>Upcoming:</mark> {% endif %}<span class="p-name">{{ item.meta.event | smartypants }}</span>{% if item.upcoming %}&nbsp;<span class="u-icon" data-icon="&#10217;" aria-hidden="true"/>{% endif %}
-    </h1>
+  <h1 class="c-item__title  p-name">
+    <a class="u-url" href="{% if item.upcoming %}{{ item.link }}{% else %}{{ item.url }}{% endif %}" rel="bookmark">{{ item.meta.event | smartypants }}</a>
+  </h1>
 
-    <p class="c-item__meta">
-      <strong class="u-separate  p-description">{{ item.title }}</strong> <span class="p-location">{{ item.meta.location }}</span> ·
-      <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
-    </p>
-  </a>
+  <footer class="c-item__footer">
+    <span class="u-separate  p-location">{{ item.meta.location }}</span>
+    <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+  </footer>
 </article>
