@@ -35,7 +35,7 @@ The advent of responsive design has forced us to revisit existing assumptions, t
 
 We're at a turning point in the development of our profession. Just as the true nature of the web is being reaffirmed, so too is the desire to focus on the latest technology and trends. Yet now is the time to re-engage with the medium; to understand its strengths and weaknesses; where it might break if pushed too far. To think about its natural attributes and how we might take advantage of them.
 
-* * *
+---
 
 With this in mind, I'm proposing a talk for next year's SXSW Interactive conference called <cite>Web Native Design</cite>.
 

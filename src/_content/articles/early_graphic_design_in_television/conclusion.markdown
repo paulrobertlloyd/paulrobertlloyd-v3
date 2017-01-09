@@ -14,12 +14,12 @@ Television is also is also a rapidly changing medium that is constantly benefiti
 
 Computerised control of the rostrum camera was an advantage as it did help to cut out a lot of time consuming and repetitive work that was seen when manual control was the only method. However the increasing power and subsequent multi-purpose use of the computer again hindered the graphic designer who felt obliged (sometimes even ordered) to use the computer and/or the newest effects it could create. However as computer graphics went out of fashion when audiences became used to them, we see graphic designers using computers as they should be intended as another tool to get the required creative effect.
 
-* * *
+---
 
 ## Notes
   * Graphic Design was considered an experimental section: Gradually, over the next two years, what the <cite>Television Annual</cite> of 1957 described as "a new and largely experimental section", was built up. <small>(Crook 1986: 34)</small>
 
-* * *
+---
 
 ## References
   * Craig, J. and Barton, B. (1987). <cite>Thirty Centuries of Graphic Design: An Illustrated Survey</cite>

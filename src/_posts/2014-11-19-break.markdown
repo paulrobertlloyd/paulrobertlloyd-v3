@@ -62,7 +62,7 @@ Alex described the four "everywhere principles" needed for a product to achieve 
 
 **Adrian Shaughnessy** spoke about how the web helped him to find an audience for [his graphic design books][11] even though conventional wisdom suggests Amazon and Google's image search has killed the market for publishers of such books. Only by launching the product online was Jane able to build her business, with social media allowing her to speak directly to customers. A timely reminder that we should not take the open nature of the web for granted.
 
-* * *
+---
 
 Ever the critic, and concerned that I was enjoying the conference too much, during the lunch break I wondered out loud whether the consistent themes were indicative of an echo chamber. Would any of these ideas be challenged?
 
@@ -76,7 +76,7 @@ Dan's earlier talk was still resonating, so when an earlier piece of elaborate s
 
 Comparing the empathic work of Jane and Alex with the glossy predictions perpetrated by technology giants, I left Belfast hoping for a future realised by designers seeking creative solutions to actual problems, rather than the ones imagined by corporations engaged in fantastical research and development. After all, their products ultimately exist to solve one problem: how to generate value for shareholders.
 
-* * *
+---
 
 Beyond the personal stories of triumph over adversity and insights into the speakers' work, I thoroughly enjoyed some of the more indulgent aspects of the day. Be that Hamish displaying his colourful work in black and white for reasons of colour reproduction, or Adrian devoting a portion of his talk to the work of [FHK Henrion][12], who he regarded the best British graphic designer of the 20th century. As a somewhat disenchanted graphic designer considering a future tied to the command line, my love of the profession was thankfully rekindled.
 

@@ -10,7 +10,7 @@ tags:
 ---
 Justin Avery, who curates [Responsive Design Weekly][1], asked me to revisit the four questions I answered as part of an interview series in 2013. My answers are below.
 
-* * *
+---
 
 **Justin Avery:** What was the best new implementation of responsive web design you saw in 2015, and was there a redesign that took your eye?
 
@@ -18,7 +18,7 @@ Justin Avery, who curates [Responsive Design Weekly][1], asked me to revisit the
 
 Having been involved in the responsive redesign of the [Guardian website][6], I have nothing but the highest respect for teams, like those at the BBC and the Guardian, who are able to shepherd responsive projects through large organisations and get them in front of users. We can pick over particular implementations and talk about design trends, but we should also remember that much of the hard work doesn't take place in a code editor or graphics application, it happens during conversations with other members of our team and in meetings with stakeholders. That's where the most interesting and enduring lessons lie.
 
-* * *
+---
 
 **JA:** What are two responsive frameworks/plugins/shims/patterns that you always seem to go to?
 
@@ -28,13 +28,13 @@ Having been involved in the responsive redesign of the [Guardian website][6], I 
 
 The technology that's had the biggest impact on my work has been the BEM methodology (in particular the flavour [described by Harry Roberts][9]), as has the associated discussion around using modular, object-orientated approaches for CSS. What I like best about BEM is that it's simply a set of conventions, with no dependancies on any particular technology or software. More of this sort of thinking, please!
 
-* * *
+---
 
 **JA:** What is the one thing with sites you would like to see improved/developed in 2016?
 
 **PL:** I tried using `display: flex` on a `<fieldset>` the other day, and apparently [you can't do that][10] as it's a [replaced element][11]: "an element whose representation is outside the scope of CSS". Now, there are plenty of interesting and exciting specifications on the horizon (including Web Components, which may help us get round such issues), but some days I think: can we not just get the simple stuff fixed first?
 
-* * *
+---
 
 **JA:** If you could offer one piece of advice around building responsively what would it be?
 

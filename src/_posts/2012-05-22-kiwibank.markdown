@@ -16,13 +16,13 @@ Banks aren't the most likeable organisations, but I'm developing a soft spot for
 
 Bron Thomson, Springload's founder and Managing Director told me how they created Kiwibank's new responsive website.
 
-* * *
+---
 
 **Paul Lloyd:** Why did you take the responsive approach?
 
 **Bron Thomson:** Kiwibank has this fantastic ambition to be a digital leader among New Zealand companies -- not just banks. There's a roadmap of digital initiatives that are pretty revolutionary, and with mobile traffic pushing past 10% of Kiwibank's total traffic (and set to overtake desktop traffic in the coming years), the decision was made to go device agnostic. The fixed-width desktop paradigm has run its useful course -- last year, we noticed that 20 people tried to join Kiwibank from their Playstation 3.
 
-* * *
+---
 
 **PL:** Only the home page is responsive currently. What challenges did this create, and how are you managing users expectations during the transition?
 
@@ -32,7 +32,7 @@ In the past we've run beta versions of the Kiwibank homepage to showcase new ide
 
 There's always an understandable reaction when you change one of New Zealand's most loved brands, we're listening to user feedback and continually working on making the experience better. Kiwibank's challenger-brand ethos puts us in good stead to keep pushing the web experience further.
 
-* * *
+---
 
 **PL:** Is this the first responsive site Springload have worked on?
 
@@ -40,7 +40,7 @@ There's always an understandable reaction when you change one of New Zealand's m
 
 Another responsive project we've finished recently is [klim.co.nz][9] for type guru Kris Sowersby.
 
-* * *
+---
 
 **PL:** Was there anything you learnt whilst designing/building this site?
 
@@ -50,7 +50,7 @@ We built a number of our own tools to make going responsive easier for ourselves
 
 It's worth noting that there are no real magic bullets. We use a combination of server-side device detection, media queries and JS capability detection to decide what gets rendered to the page. We try and avoid polyfilling (preferring progressive enhancement where possible) and we're using CSS transitions rather than jQuery to handle animation.
 
-* * *
+---
 
 **PL:** How has the design process changed to encompass a responsive workflow?
 
@@ -60,7 +60,7 @@ Photoshop is getting opened a little less -- we mock up key navigation assets an
 
 We have to test more devices, more often. For instance, the stylesheet that's rendering 3D, hardware-accelerated transitions on an iPhone also has to fix the box model in IE7. We made the move to Sass to help our front-end developers organise some of this complexity, and it's working a treat.
 
-* * *
+---
 
 *I review Kiwibank's new responsive design alongside [dConstruct 2012][13] and [Zurb][14] in the July issue of [.net Magazine][15].*
 

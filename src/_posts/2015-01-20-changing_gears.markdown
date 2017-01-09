@@ -12,7 +12,7 @@ My interest in Formula One was reignited in 2009. Back on the BBC after 12 Schum
 
 Six years later and I'm still watching. Formula One isn't an easy sport to follow, not least because of politicising behind the scenes. On track, success is largely determined by the design of the car rather than the skill of a driver *cf.* four-time world champion Sebastian Vettel needs to win a championship with another team to be considered one of the sport's greats. A select few (Senna, Hamilton, Alonso) could be given a tractor and still win races, yet most drivers, like Button, require the right combination of car, setup and team -- and a dash of good fortune -- to be successful.
 
-* * *
+---
 
 I spent nearly five years at [Clearleft][1], which is the longest I've worked for any single employer. Their small, supportive environment provided the right conditions in which I could flourish. I had the opportunity to work on interesting and varied products, and was given a platform from which I could write and speak about the profession I love.
 
@@ -32,7 +32,7 @@ The large open-plan office, devoid of any useable wall space, seemed designed to
 
 My last day is January 30th.
 
-* * *
+---
 
 So, what's next? Firstly, I'll be heading to Brazil to visit family. In the two years since I last visited, my brother has had another daughter, while the eldest is now at an age where we can have a conversation. I'll be returning via Berlin, a city that's long been on my to-visit list. I can't wait!
 

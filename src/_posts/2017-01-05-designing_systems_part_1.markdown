@@ -89,7 +89,7 @@ Every piece of work he commissioned, be it posters, typefaces, buildings and mor
 
 75 years after his death, this ethos remains central to the design of London's transport infrastructure. Pick's legacy can be seen in the design of its newest additions, be it the city's river taxis or its [rechristened 'Overground' railway network][3].
 
-* * *
+---
 
 Much like London, the web -- perhaps the ultimate expression of human creativity in digital form -- is also a chaotic and unruly place; Douglas Crockford once called the browser <q>the most hostile software development environment ever imagined</q>.
 

@@ -29,7 +29,7 @@ An unamplified performance in a small intimate cellar bar gave the show a degree
 
 This show reminded me that I should broaden my selection when looking for things to see at the Fringe -- and that sometimes the best stuff is completely free.
 
-* * *
+---
 
 ### Sammy J and Randy: Ricketts Lane
 {% include rating.html score="4" %}
@@ -40,7 +40,7 @@ Sammy J was just as funny as I remembered him, whilst Heath McIvor was astoundin
 
 I still preferred Sammy J's performance, but saw enough to buy a ticket for Randy's own show that was also playing at Underbelly.
 
-* * *
+---
 
 ### Richard Herring: What is Love, Anyway?
 {% include rating.html score="5" %}
@@ -51,7 +51,7 @@ Herring's fast paced delivery means you get more laughs for your money. This sho
 
 Herring sets out to destroy love, but by the end of the show he has probably reinforced it, yet with an audience reflecting on a subject often taken for granted. Funny, touching and entertaining, I think I need to see this all over again.
 
-* * *
+---
 
 ### BUG Hosted by Adam Buxton
 {% include rating.html score="5" %}
@@ -75,7 +75,7 @@ This type of live comedy was all new to me, but I felt happier having seen somet
 
 It was also where I enjoyed perhaps the funniest moment of my festival. When an old man left the room to go to the toilet, he was spotted by one of the performers, but quickly shouted back 'don't make a joke about my bladder!' Needless to say, the very same then happened. Brilliant!
 
-* * *
+---
 
 ### Dave Gorman's Powerpoint Presentation
 {% include rating.html score="5" %}
@@ -84,7 +84,7 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 
 When these two things come together, stupid things can happen, opening themselves up to mischievous acts from Gorman. I don't want to give too much of the show away (many parts of it would be ruined if they were to be widely spread) but I'm hoping I can persuade my colleagues to see it when it arrives in Brighton in October. I'm sure they'll appreciate it just as much as I did.
 
-* * *
+---
 
 ### Randy is Sober
 {% include rating.html score="4" %}
@@ -93,7 +93,7 @@ When these two things come together, stupid things can happen, opening themselve
 
 Afterwards I wondered if I would have enjoyed the performance had there been no puppet. I suspect so, but not as much without the visual aspect the puppetry provides. Alongside Sammy J, I've firmly become a fan of this Antipodean pair.
 
-* * *
+---
 
 ### Best of the Fest
 {% include rating.html score="2" %}

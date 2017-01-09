@@ -42,7 +42,7 @@ One of Niemeyer favourite tricks is show to his buildings suspended off the grou
 
 The most notable feature of his buildings is how you enter. This is often accomplished with long winding ramps, or more direct approaches like that seen at the National Museum of the Republic. Whilst a number of buildings have their ramps on the outside, a few have internal ramps instead. The best example of this can be seen at the Cathedral, where the decent down a long slope into darkness is rewarded by the arrival under a beautiful stained glass roof, with light flooding into the building.
 
-* * *
+---
 
 No city can compare itself against Brasília's unique landscape, the result of three men with a strong vision. Built to announce Brazil's arrival on the world stage, Niemeyer's buildings gave the country an unmistakable voice with which to do it.
 

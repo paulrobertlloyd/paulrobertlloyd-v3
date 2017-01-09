@@ -14,7 +14,7 @@ I also wanted to write about the role CSS preprocessors can play in this context
 
 Thinking of Sass an an intermediary between CSS and a visual language, is one way I try to keep my reliance in check: if you see a mixin or variable in my CSS, it should relate to an attribute in my design system.
 
-* * *
+---
 
 So, I end this year much [like I did the last][5], with one final article on a topic of interest. Unlike last year, I'm looking towards a new year that sees me write less long-form pieces like this. Instead, I wish to spend more time making things (my list of [abandoned][6]/[neglected][7]/potential side projects can only grow so long), and perhaps embracing a means of writing that's a little more [fast and loose][8].
 

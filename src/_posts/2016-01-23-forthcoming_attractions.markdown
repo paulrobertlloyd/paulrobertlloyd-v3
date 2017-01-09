@@ -42,7 +42,7 @@ Being the first speaker at last year's CSS Day meant I could enjoy the other pre
 
 I don't do much brand identity work, but I find this specialism endlessly fascinating, with [Brand New][12] is one of my favourite blogs covering the subject. I've long wanted to attend the corresponding conference, yet by taking place in various cities in the US, either cost or distance has prevented me from going. This year, the event is coming to Europe, and in another scheduling coincidence, it's being held in Amsterdam, just a few days after CSS Day. So after filling one side of my brain with code, I can fill the other with design. Perfect.
 
-* * *
+---
 
 This is what I have lined up so far, and I remain on the look out for more events. I'm particularly interested in small (cheap!) conferences and talks, especially those that speak to my interests outside web design and development. Is there anything else I should see? Let me know below, or contact me on [Twitter][13].
 

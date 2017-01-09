@@ -191,7 +191,7 @@ Calling a single PHP include from each page allows me to [specify the character 
 
 There have been a few design related tweaks too. I simplified the IA by moving links to my articles and academic essays to within the Portfolio section. I've also increased the base font size on content pages from 16px to 18px.
 
-* * *
+---
 
 In February, I concluded the results of my performance optimisation by including results from Google Page Speed, YSlow and webpagetest.org. This means I can measure the effectiveness of these latest changes. Both Google Page Speed and YSlow scores have increased by two points, to 96 and 98 respectively. Comparing results saved from webpagetest.org, the following improvements on the homepage can be recorded also:
 

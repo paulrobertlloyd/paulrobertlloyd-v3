@@ -75,7 +75,7 @@ Although there a challenges specific to web design, there is much we can learn f
 
 As we move away from trying to replicate print, I believe we are starting to see a shift towards interfaces influenced by native applications and other digital software. While our work is no longer constrained by the dimensions of the page, it remains constrained by the capabilities of the network; porous and unreliable as it often is. Websites need to be responsive both in terms of appearance *and* speed.
 
-* * *
+---
 
 I was asked to speak to you tonight as someone working at the bleeding edge of the industry, but with only 15 minutes available, I can only scratch surface. It's difficult to explain the myriad challenges and complexities we face as an industry in such a short space of time. I will be around for the rest of this evening, so if you would like to chat to me, please come and say hello. Before I finish, there is one thing you should know...
 

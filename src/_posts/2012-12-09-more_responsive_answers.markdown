@@ -10,7 +10,7 @@ tags:
 ---
 Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four questions as part of his [December Interview Series][1]. My answers are below. You can see how other designs and developers answered the same questions by [subscribing to the newsletter][2].
 
-* * *
+---
 
 **Justin Avery:** What was the best implementation of responsive web design you saw in 2012?
 
@@ -18,19 +18,19 @@ Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four
 
 Right now, the BBC Mobile site is designed for mobile and tablet devices, but the intention is for it to replace the desktop version in time. With its mobile first, progressively enhanced underpinnings, I think it could become a shining example of responsive design.
 
-* * *
+---
 
 **JA:** What are two responsive frameworks/plug-ins/shims/etc. that you recommend?
 
 **PL:** I'm not a big proponent of frameworks, but they can be useful when prototyping. I do like to study their features and implementation details though. I learnt a great deal from studying [HTML5 Boilerplate][4] for example, especially with its tips around performance and optimisation. Yet I would never use it as a starting point for my own projects. The same is true for [Twitter Bootstrap][5]. I'm a huge fan of the modular approach taken with its CSS class names, but in terms of its responsive features, I think its device-centric, pixel-based breakpoints and JS-dependant navigation patterns are problematic to say the least.
 
-* * *
+---
 
 **JA:** *hat is the one thing with responsive web design you would like to see improved or developed in 2013?
 
 **PL:** I touched on this a little bit in my [recent article for A List Apart][6], but I'd like to see less focus on technical implementations, and more focus on design. We're still following print design conventions, just shrinking designs to fit. Device proliferation, and the emergence of responsive web design, has provided us with a fantastic opportunity to rethink how websites should look. One way we can do this is by embracing concepts more accepted within development circles; for example, progressive enhancement should feature throughout the creative process, not just at the end of it. This invariably touches on process of course, and the need for closer collaboration between designer and developer (and everyone else involved in a project). That's no bad thing.
 
-* * *
+---
 
 **JA:** If you could offer one piece of advice around responsive design, what would it be?
 
