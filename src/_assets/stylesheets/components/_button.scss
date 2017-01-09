@@ -10,13 +10,18 @@
   text-decoration: none;
   line-height: 1;
 
+  &:hover {
+    color: $c__primary;
+  }
+
+  &:active {
+    color: $c__secondary;
+    border-color: currentColor;
+  }
+
   &:focus {
     outline: 0;
     background-color: $c__focus;
     color: $c__neutral-darkest;
-  }
-
-  &:active {
-    border-color: $c__secondary;
   }
 }

@@ -59,8 +59,8 @@
   letter-spacing: -0.025em;
 
   @media (min-width: $b__b) {
-    line-height: (28 / 24);
-    font-size: 1.5rem; // 24px
+    line-height: (32 / 28);
+    font-size: 1.75rem; // 28px
   }
 }
 
@@ -99,7 +99,7 @@
 }
 
 @mixin fs--caption {
-  line-height: (18 / 14);
+  line-height: (20.01 / 14);
   font-size: 0.875rem; // 14px
   letter-spacing: -0.025em;
 }
@@ -113,36 +113,21 @@
   text-shadow: 0 0 $color;
 }
 
-// Text underline colour
-@mixin text-decoration-color($color, $background-color: transparent) {
-  @if $color != "none" {
-    background-image: linear-gradient(to bottom, transparent 89%, $color 89%, $color 95%, transparent 95%);
-    text-decoration: none;
-    text-shadow:
-      0 0.03em $background-color,
-      0 -0.03em $background-color,
-      0.06em 0 $background-color,
-      0 -0.06em $background-color,
-      0.03em 0 $background-color,
-      -0.03em 0 $background-color,
-      0.06em 0 $background-color,
-      -0.06em 0 $background-color,
-      0.09em 0 $background-color,
-      -0.09em 0 $background-color,
-      0.12em 0 $background-color,
-      -0.12em 0 $background-color,
-      0.15em 0 $background-color,
-      -0.15em 0 $background-color;
+// Link
+@mixin link {
+  text-decoration: underline;
+  text-decoration-color: rgba($c__primary, 0.75);
+  text-decoration-skip: ink;
+  color: inherit;
+
+  &:hover {
+    color: $c__primary;
   }
 
-  @else {
-    text-shadow: none !important;
+  &:active {
+    text-decoration-color: currentColor;
+    color: $c__secondary;
   }
-}
-
-// Background placeholder
-@mixin background-placeholder {
-  background-image: repeating-linear-gradient(-58deg, transparent, transparent 3px, rgba($c__neutral-mid, 0.2) 4px, rgba($c__neutral-mid, 0.2) 6px);
 }
 
 // Line rule

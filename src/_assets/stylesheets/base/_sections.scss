@@ -32,10 +32,6 @@ html {
 
 *:target {
   @include text-highlight();
-
-  * {
-    @include text-decoration-color("none");
-  }
 }
 
 ::selection {

@@ -2,6 +2,7 @@
 title: The Visuality of Television
 series: dissertation
 date: '2002-06-01 00:00:01 +0000'
+excerpt: ''
 ---
 Graphic design is used in a range of situations throughout television: titles and end credits for programmes, programme content (stills, captions, animated sequences etc.), on-screen promotion, channel identities as well as all graphic 'props' for programmes such as dramas or sitcoms, designing signs, newspapers, product packaging etc.
 

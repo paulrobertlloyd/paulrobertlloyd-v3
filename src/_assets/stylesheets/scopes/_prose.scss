@@ -110,7 +110,7 @@
 
       figcaption {
         @media screen and (min-width: $b__b) {
-          padding-left: percentage(3/12);
+          padding-left: percentage(2/9);
         }
 
         @media (min-width: $b__c) {
@@ -134,11 +134,11 @@
         }
 
         @media screen and (min-width: $b__b) {
-          padding-left: calc(#{percentage(3/12)} + 1rem);
+          padding-left: calc(#{percentage(2/9)} + 1rem);
         }
 
         @media screen and (min-width: $b__c) {
-          padding-left: percentage(3/12);
+          padding-left: percentage(2/9);
         }
       }
     }

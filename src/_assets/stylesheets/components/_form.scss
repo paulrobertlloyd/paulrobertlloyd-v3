@@ -44,7 +44,7 @@
     @media (min-width: $b__a) {
       bottom: 0;
       border-width: 0 ($u__rule-height * 2) 0 0;
-      width: percentage(3/12);
+      width: percentage(2/9);
     }
   }
 }
@@ -83,7 +83,7 @@
 
     @media (min-width: $b__a) {
       padding-top: 0.75rem;
-      padding-left: calc(#{percentage(3/12)} + 0.75rem);
+      padding-left: calc(#{percentage(2/9)} + 0.75rem);
     }
   }
 

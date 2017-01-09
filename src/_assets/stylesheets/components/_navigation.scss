@@ -34,14 +34,14 @@
   white-space: nowrap;
 
   @media (min-width: $b__a) {
-    margin-left: percentage(3/12);
-    width: percentage(9/12);
+    margin-left: percentage(2/9);
+    width: percentage(7/9);
     line-height: (20 / 16);
     font-size: 1rem; // 16px
   }
 
   @media (min-width: $b__b) {
-    padding-right: percentage(1/12);
+    padding-right: percentage(1/9);
   }
 }
 
@@ -49,6 +49,7 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   flex: 0 0 auto;
+  text-decoration: none;
 
   @media (min-width: $b__a) {
     padding-top: 2.5rem;

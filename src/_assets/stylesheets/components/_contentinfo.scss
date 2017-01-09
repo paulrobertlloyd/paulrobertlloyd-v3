@@ -5,6 +5,10 @@
 .c-contentinfo {
   @include fs--caption;
   margin-bottom: units(3);
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .c-contentinfo__main {
@@ -23,7 +27,7 @@
 
   @media screen and (min-width: $b__b) {
     flex: 0 0 auto;
-    width: percentage(3/12);
+    width: percentage(2/9);
   }
 
   @media print {
@@ -48,7 +52,7 @@
 
   @media screen and (min-width: $b__b) {
     flex: 0 0 auto;
-    margin-right: percentage(1/12);
+    margin-right: percentage(1/9);
     margin-left: auto;
   }
 }

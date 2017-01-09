@@ -14,7 +14,7 @@ Ning is an online platform that allows people to create, customise and share the
 In addition to interaction design and front-end development on the company's initial suite of applications, I was also responsible for the company's branding and product marketing. Later, I worked alongside [David Warner][1] on the development of what became the company's primary product: "Your Own Social Network".
 
 {% figure caption:"Ning's distinctive green Clarendon logo stood out amoung a sea of glossy, rounded sans serif logos prevalent at the time." %}
-{% include image.html path="projects/ning/logo.svg" alt="The Ning logo" %}
+![The Ning logo](/images/projects/ning/logo.svg)
 {% endfigure %}
 
 {% figure caption:"<cite>Steve Vasallo, VP Product</cite>" %}

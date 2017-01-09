@@ -3,60 +3,34 @@
 // ========================================================
 
 .c-section {
-  @include clearfix;
-
   &:not(:last-child) {
-    margin-bottom: units(3);
+    margin-bottom: units(4);
   }
 
   @media screen and (min-width: $b__b) {
-    padding-right: percentage(1/12);
-    padding-left: percentage(3/12);
+    padding-right: percentage(1/9);
+    padding-left: percentage(2/9);
   }
+}
+
+.c-section__header {
+  @include rule($height: $u__rule-height, $position: "after");
+  display: flex;
+  align-items: center;
 }
 
 .c-section__title {
-  @include fs--heading-2;
+  @include fs--caption;
+  flex: 0 0 auto;
   margin-bottom: 0.5rem;
-  font-weight: 700;
+  padding-right: 0.25rem;
   word-break: break-word;
   hyphens: auto;
-}
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+  color: $c__neutral-mid;
 
-// Archive
-.c-section--archive {
-  @media (min-width: $b__a) {
-    display: flex;
-
-    .c-section__header {
-      width: percentage(3/12);
-    }
-
-    .c-section__main {
-      width: percentage(9/12);
-    }
-  }
-}
-
-// Complementary
-.c-section--complementary {
-  .c-section__header {
-    @include rule($height: $u__rule-height, $position: "after");
-    display: flex;
-    align-items: center;
-  }
-
-  &::after {
-    flex: 1 1 auto;
-  }
-
-  .c-section__title {
-    @include fs--caption;
-    padding-right: 0.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.075rem;
-    color: $c__neutral-mid;
-    font-weight: normal;
-    flex: 0 0 auto;
+  a {
+    text-decoration: none;
   }
 }

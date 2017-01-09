@@ -22,8 +22,4 @@
     height: 1rem;
     content: "";
   }
-
-  a {
-    @include text-decoration-color("none");
-  }
 }

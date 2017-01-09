@@ -2,6 +2,7 @@
 title: Computer Revolution
 series: early_graphic_design_in_television
 date: '1999-03-01 00:00:04 +0000'
+excerpt: ''
 ---
 The success of the Channel Four identity, caused immediate resentment from the various ITV companies, which considered the new channel to be its poor relation, yet its identity had become a talking point amongst the industry and public. They concluded that it was successful due to the fact that it was computer animated, and so ordered its graphic designers to computerise their logos.
 

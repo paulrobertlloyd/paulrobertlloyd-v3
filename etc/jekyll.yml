@@ -20,7 +20,7 @@ scm:
 # Pagination
 pagination:
   enabled: true
-  title: ':title / :num'
+  title: ':title'
   permalink: '/:num/'
   sort_reverse: true
   per_page: 15

@@ -9,9 +9,9 @@ $u__unit-height: 0.75rem;
 
 // Units > Grids
 $nested-ratio: (12 / 8);
-$u__colspan1: (percentage(1/12) * $nested-ratio);
+$u__colspan1: (percentage(1/9) * $nested-ratio);
 $u__colspan2: (percentage(2/12) * $nested-ratio);
-$u__colspan3: (percentage(3/12) * $nested-ratio);
+$u__colspan3: (percentage(2/9) * $nested-ratio);
 $u__colspan4: (percentage(4/12) * $nested-ratio);
 $u__gutter: 1.5rem;
 

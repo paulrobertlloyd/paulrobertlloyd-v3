@@ -3,6 +3,8 @@
 // ========================================================
 
 .c-nav__item {
+  text-decoration: none;
+
   &.is-active {
     font-weight: 700;
   }
