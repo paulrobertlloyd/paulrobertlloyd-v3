@@ -134,7 +134,7 @@ images:
       - width: 768
         quality: 80
       - width: 1024
-        quality: 80
+        quality: 88
   wide:
     sources:
       - width: 800
