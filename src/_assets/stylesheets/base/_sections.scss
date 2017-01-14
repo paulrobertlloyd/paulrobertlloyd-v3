@@ -30,10 +30,6 @@ html {
   box-sizing: inherit;
 }
 
-*:target {
-  @include text-highlight();
-}
-
 ::selection {
   background-color: $c__select;
   text-shadow: 0 0 $c__select;
@@ -78,12 +74,4 @@ h6 {
   @media print {
     page-break-after: avoid;
   }
-}
-
-hr {
-  @include rule;
-  margin: 0 auto;
-  border: 0;
-  height: 0;
-  line-height: 0;
 }

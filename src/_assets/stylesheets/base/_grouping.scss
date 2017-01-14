@@ -3,6 +3,18 @@
 // https://w3c.github.io/html/grouping-content.html
 // ========================================================
 
+hr {
+  @include rule;
+  // Add the correct box sizing in Firefox.
+  box-sizing: content-box;
+  // Show the overflow in Edge and IE.
+  overflow: visible;
+  margin: 0 auto;
+  border: 0;
+  height: 0;
+  line-height: 0;
+}
+
 p,
 pre,
 blockquote,
@@ -56,10 +68,6 @@ ol {
 
 ul {
   list-style-type: square;
-}
-
-dt {
-  font-weight: 700;
 }
 
 li li,
