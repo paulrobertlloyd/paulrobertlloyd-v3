@@ -8,15 +8,13 @@ layout: default
 
   {{ content }}
 
-  {% unless page.path == "journal/archive.html" %}
-  {% if page.path contains "journal" or page.type == "year" or page.type == "month" or page.type == "tag" %}
+  {% if layout.archive-prompt or page.archive-prompt %}
   <div class="c-section">
     <div class="s-ui">
       <p><strong>Looking for older posts?</strong> <a href="/journal/archive/">Browse the archive</a></p>
     </div>
   </div>
   {% endif %}
-  {% endunless %}
 </section>
 
 {% include nav/paginate-indices.html %}

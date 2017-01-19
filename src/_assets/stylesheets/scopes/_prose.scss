@@ -51,6 +51,10 @@
     margin-bottom: units(2);
   }
 
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
   h2 {
     @include fs--heading-2;
     margin-bottom: units(1);
@@ -78,12 +82,12 @@
 
   * + table,
   * + figure {
-    margin-top: units(1);
+    margin-top: units(2);
   }
 
   hr {
     margin-top: units(3);
-    margin-bottom: units(3);
+    margin-bottom: units(4);
   }
 
   pre {
@@ -164,6 +168,7 @@
   .footnotes {
     @include fs--caption;
     @include rule($width: 20%);
+    margin-bottom: units(3);
     color: $c__neutral-mid;
 
     &:not(:last-child) {
