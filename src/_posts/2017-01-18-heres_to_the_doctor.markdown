@@ -2,7 +2,7 @@
 title: 'Here''s to the Doctor'
 date: '2017-01-18 23:30:00 +0000'
 location: Bexhill-on-Sea, England
-excerpt: 'James Paul Dicks, 1980-2017'
+excerpt: 'Dr. James Paul Dicks, 1980-2017'
 tags:
   - Personal
   - Friends
