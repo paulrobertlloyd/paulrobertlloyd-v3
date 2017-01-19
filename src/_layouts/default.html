@@ -27,10 +27,10 @@ layout: compress
   <meta name="fulljs" content="{% asset_path global.js %}"/>
 
 {% if page.path contains ".markdown" %}
-  <meta property="og:title" content="{% unless page.home %}{{ page.title | xml_escape }}{% else %}{{ site.title }}{% endunless %}"/>
+  <meta property="og:title" content="{% unless page.home %}{{ page.title | xml_escape | smartypants }}{% else %}{{ site.title }}{% endunless %}"/>
   <meta property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
   <meta property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
-  {% if page.image %}
+  {% if page.image.url %}
   <meta property="og:image" content="{{ site.url }}/image/640x360/100q{{ page.image.url }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
   {% else %}
