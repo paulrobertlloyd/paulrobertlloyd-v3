@@ -10,7 +10,7 @@ tags:
 ---
 Aged 13, and having recently moved to the West Midlands from Surrey, I was the new kid at school with a funny sounding accent and below average height. If adolescence wasn't enough to be getting on with, this confounding and unsettling situation had to be dealt with as well.
 
-{% include image.html preset="supporting" path="2017/01/dr_james_p_dicks.jpg" class="u-pull-right" alt="James at his wedding in 2009" %} Thankfully, help was at hand. Placed in form group 9H, I was sat next to a boy called James Dicks. James was clearly a well-known character within the school, largely thanks to some of his strange ideas. For example, convinced that workbooks from previous school years should always be at hand, he carried his around in his bag -- and it weighed a ton!!
+{% include image.html preset="supporting" path="2017/01/dr_james_p_dicks.jpg" class="u-pull-right" alt="James at his wedding in 2009" %} Thankfully, help was at hand. Placed in form group 9H, I was sat next to a boy called James Dicks. James was a well-known character, largely thanks to some of his strange ideas. For example, convinced that workbooks from previous school years should be at hand, he carried all his around in his heavily packed bag -- it weighed a ton!!
 
 Yet from day one, James looked out for me. Nobody asked him to, he was just that sort of person: selfless, generous, and fair to a fault.
 
@@ -18,6 +18,6 @@ He had my back on numerous occasions. If a teacher gave me an undeserved detenti
 
 Back in Walsall after completing my degree, separate strands of my life began to intersect, with old school friends meeting those I'd made working at McDonald's. Everyone *loved* James! Sure, he could be a little eccentric, but only because he enjoyed sharing his various passions with others, be they the wonders of chemistry -- he was rightly proud of his doctorate -- magic tricks, flying or Doctor Who.
 
-Unfortunately, as I returned south, and James [got married](https://www.flickr.com/photos/paulrobertlloyd/albums/72157622839452169) and started a family, we spoke less often, though he was always on hand to offer advice and support if needed -- conversations with James were always full of positivity. I think the last time we talked in any great detail was not long after he received his cancer diagnosis, but even then it seemed as if this particular type could be managed and controlled. Ultimately, it could not, and the world is now a little unkinder as a result.
+Unfortunately, as I returned south, and James [got married](https://www.flickr.com/photos/paulrobertlloyd/albums/72157622839452169) and started a family, we spoke less often, though he was always on hand to offer advice and support if needed. Conversations with James were always full of positivity. I think the last time we talked in any great detail was not long after he received his cancer diagnosis, but even then it seemed as if this particular type could be managed and controlled. Ultimately, it could not, and so the world is now a little unkinder as a result.
 
 Rest in peace James, and *thank-you*. You’ll be sorely missed, and fondly remembered.
