@@ -2,8 +2,15 @@
 // Page
 // ========================================================
 
+.c-page {
+  display: flex;
+  flex-direction: column;
+}
+
 .c-page__header,
 .c-page__footer {
+  order: -1;
+
   @media screen and (min-width: $b__b) {
     padding-left: percentage(2/9);
   }
@@ -34,7 +41,7 @@
 
 .c-page__title {
   @include fs--title;
-  margin-bottom: units(2);
+  margin-bottom: units(1);
   font-weight: 700;
 }
 
