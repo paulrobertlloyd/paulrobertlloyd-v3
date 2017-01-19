@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/jekyll/jekyll-archives.git
+  revision: 112c508031acf3cf1d9024b005f99b2752133769
+  specs:
+    jekyll-archives (2.1.0)
+      jekyll (>= 2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -25,8 +32,6 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-archives (2.1.1)
-      jekyll (>= 2.4)
     jekyll-assets (2.2.8)
       extras (~> 0.1)
       fastimage (~> 2.0, >= 1.8)
@@ -89,7 +94,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   jekyll
-  jekyll-archives
+  jekyll-archives!
   jekyll-assets
   jekyll-crosspost-to-medium
   jekyll-figure
