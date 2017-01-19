@@ -29,7 +29,7 @@
 
   @media (min-width: $b__b) {
     position: absolute;
-    bottom: 0;
+    bottom: units(3);
   }
 
   @media print {
