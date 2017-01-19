@@ -31,7 +31,7 @@ layout: compress
   <meta property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
   <meta property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
   {% if page.image.url %}
-  <meta property="og:image" content="{{ site.url }}/image/640x360/100q{{ page.image.url }}"/>
+  <meta property="og:image" content="{{ site.url }}/image/640x360/100q/{{ page.image.url }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
   {% else %}
   <meta property="og:image" content="{{ site.url }}{% asset_path icon.png %}"/>
