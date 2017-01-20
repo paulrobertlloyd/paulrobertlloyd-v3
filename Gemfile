@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # Jekyll (generates static files)
 gem 'jekyll'
 group :jekyll_plugins do
-  gem 'jekyll-archives', :github => 'jekyll/jekyll-archives'
+  gem 'jekyll-archives', :git => 'https://github.com/paulrobertlloyd/jekyll-archives', :branch => "support-collections"
   gem 'jekyll-assets'
   gem 'jekyll-crosspost-to-medium'
   gem 'jekyll-figure'

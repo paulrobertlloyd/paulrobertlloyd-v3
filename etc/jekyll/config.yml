@@ -39,12 +39,15 @@ collections:
     permalink: /:year/:month/:title/discussion
   links:
     output: true
+    archive: true
     permalink: /:year/:month/:title
   galleries:
     output: true
+    archive: true
     permalink: /:year/:month/:title
   posts:
     output: true
+    archive: true
     permalink: /:year/:month/:title
   projects:
     output: true

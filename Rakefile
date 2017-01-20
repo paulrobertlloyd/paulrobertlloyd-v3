@@ -19,7 +19,7 @@ end
 
 desc "Regenerate the website files and place them into destination"
 task :dev do
-  sh "JEKYLL_ENV=development bundle exec jekyll build --config #{config}/jekyll/config.yml,#{config}/jekyll/development.yml"
+  sh "JEKYLL_ENV=development bundle exec jekyll build --config #{config}/jekyll/config.yml,#{config}/jekyll/development.yml --trace"
 end
 
 
