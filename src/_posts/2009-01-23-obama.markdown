@@ -26,7 +26,7 @@ Whilst I was now quite immersed in (some sort of) American way of life, I'm not 
 {% include image.html preset="supporting" path="2009/01/obama_hope_poster.png" %}
 {% endfigure %}
 
-By the time of the [Iowa Caucuses][2], and [New Hampshire primaries][4] I had decided that I would be returning to the UK, yet I continued to watch the election with a keen interest, watching every debate, every concession speech, every victory rally.
+By the time of the [Iowa Caucuses][3], and [New Hampshire primaries][4] I had decided that I would be returning to the UK, yet I continued to watch the election with a keen interest, watching every debate, every concession speech, every victory rally.
 
 After he clinched the Democratic nomination, not a day went by without reading the latest news and digesting the latest statistics from the [New York Times][5]. I stayed up until the early hours of the morning come election night, as I had done (almost by accident) in 2000. With that horribly contested result in the back of my mind, I crossed my fingers, and hoped the predictions of an Obama-Biden victory would be proved right.
 
