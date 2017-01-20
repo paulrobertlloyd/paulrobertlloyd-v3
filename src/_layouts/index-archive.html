@@ -4,8 +4,10 @@ archive-prompt: true
 ---
 <div class="c-section">
 {% for item in page.posts %}
-  {% if item.link %}
-    {% include item/entry-link.html %}
+  {% if item.collection == "links" %}
+    {% include item/link.html %}
+  {% elsif item.collection == "galleries" %}
+    {% include item/gallery.html %}
   {% else %}
     {% include item/entry.html %}
   {% endif %}
