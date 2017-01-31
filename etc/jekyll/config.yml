@@ -133,6 +133,8 @@ images:
         quality: 80
       - width: 1024
         quality: 88
+      - width: 1280
+        quality: 88
   wide:
     sources:
       - width: 800
