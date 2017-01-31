@@ -14,8 +14,14 @@
       stroke-width: 4;
       stroke-dasharray: 4;
     }
+    .background {
+      stroke: #cc53cc;
+      stroke-width: 120;
+      opacity: 0.5;
+    }
   </style>
   <g id="r4">
+    <circle class="background" cx="460" cy="460" r="400"/>
     <circle class="border" cx="460" cy="460" r="458"/>
     <text x="402" y="72">Products</text>
   </g>

@@ -1,5 +1,5 @@
 ---
-title: 'Designing Systems: Theory, Practice, and the Unfortunate In-between'
+title: 'Designing Systems, Part 1: Theory, Practice, and the Unfortunate In-between'
 series: designing_systems
 date: '2017-01-06 12:00:00 +0000'
 location: Bexhill-on-Sea, England
