@@ -150,7 +150,7 @@ Duffy summarised this view:
 
 We can view a design system in a similar way. At its core, a set of guiding **principles** provide the foundations upon which everything else follows. If conceived with care, while open to periodic amendment, these should remain largely unchanged. The next layer makes these principles applicable, offering **guidance** to different practitioners. Given the time and cost involved in their development, these are likely to have a decent shelf life. The penultimate layer concerns **tooling**, and its here that fashion and current practice will inform outcomes. At the surface, **products** borne of this system will change frequently as they are adapted (tweaked, edited, hacked) to meet the everyday needs of customers.
 
-Returning to the original question -- what is a design system -- maybe there is no such thing, just layers of longevity surrounding a collection of agreed conventions and tooling.
+Returning to the original question -- what is a design system -- maybe there is no such thing, just layers of longevity comprised of agreed conventions and tooling.
 
 [1]: /talks/smashing_conference_freiburg_2016
 [2]: https://medium.com/eightshapes-llc/74dcfffef935
