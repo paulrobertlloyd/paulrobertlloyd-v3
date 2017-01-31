@@ -52,10 +52,10 @@ In her article <cite>[From Pages to Patterns][11]</cite>, Charlotte Jackson desc
 
 If multiple people suggest the same name for a component, this will likely be a good name for it. If not, the discussion that follows should prove just as fruitful.
 
-Once you've decided what things are called, make sure these decisions are recorded. When I joined the [Guardian][12], my colleagues would talked about *pixies* and *super-pixies*, *bentos* and *mini-bentos,* and other odd names which gave no hint to their meaning (it turns out these were container types used on the homepage). While arriving at esoteric names like this can be fun and build camaraderie within a team, they inadvertently exclude those who joined after they were coined. It's for this reason that I recommend [deferring to obvious and descriptive terms][13] whenever possible.
+Once you've decided what things are called, make sure these decisions are recorded. When I joined the [Guardian][12], my colleagues would talked about *pixies* and *super-pixies*, *bentos* and *mini-bentos,* and other odd names which gave no hint to their meaning (it turns out these were container types used on the homepage). While arriving at esoteric names like this can be fun and build camaraderie within a team, they inadvertently exclude those who joined after they were coined. It's for this reason that I recommend [using obvious and descriptive terms][13] whenever possible.
 
 ### Building systems through collaboration
-The idea of working together to build a shared understanding brings to mind Mark Boulton's observation that the best [design systems will adopt Postel's Law][14], such that:
+The idea of working together to build a shared understanding brings to mind Mark Boulton's observation that [effective design systems adopt Postel's Law][14], such that by:
 
 > being liberal in accepting things into the system, and being liberal about how you go about that, ensures you don't police the system. You collaborate on it.
 
@@ -113,7 +113,7 @@ In <cite>[101 Things I learned in Architecture School][16]</cite>, Mark Frederic
 This perfectly encapsulates the process we went though at the Guardian, and one I've experience many times since. Only by working with the different pieces long enough, experimenting with different combinations, can you devise a system (or _systems_) and model the underhand complexity.
 
 ## Products
-![](/images/2017/01/design_system_onion_r4.svg){: .u-aside} As demonstrated in [the first part of this essay][1], systems need to survive contact with the real world. Writing about the GE's design system, Predix [Jeff Crossman noted that][17]:
+![](/images/2017/01/design_system_onion_r4.svg){: .u-aside} As demonstrated in [the first part of this essay][3], systems need to survive contact with the real world. Writing about the GE's design system, Predix [Jeff Crossman noted that][17]:
 
 > A design system should not simply be a collection of user interface components along with some design theory. It should demonstrate how design patterns have been applied in real products and document how other teams have extended patterns for specific use cases.
 
