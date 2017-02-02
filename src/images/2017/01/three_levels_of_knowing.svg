@@ -11,13 +11,13 @@
     }
   </style>
   <g>
-    <rect x="8" y="104" rx="12" width="272" height="176" stroke-width="16"/>
-    <rect x="304" y="100" rx="12" width="140" height="312" stroke-width="8"/>
-    <rect x="2" y="302" rx="12" width="284" height="208" stroke-width="4"/>
-    <rect x="10" y="310" rx="6" width="268" height="192" stroke-width="4"/>
-    <text x="135" y="200">1</text>
-    <text x="365" y="268">2</text>
-    <text x="135" y="420">3</text>
+    <rect x="13" y="104" rx="12" width="272" height="176" stroke-width="16"/>
+    <rect x="309" y="100" rx="12" width="140" height="312" stroke-width="8"/>
+    <rect x="7" y="302" rx="12" width="284" height="208" stroke-width="4"/>
+    <rect x="15" y="310" rx="6" width="268" height="192" stroke-width="4"/>
+    <text x="140" y="200">1</text>
+    <text x="370" y="268">2</text>
+    <text x="140" y="420">3</text>
   </g>
   <g>
     <rect x="745" y="254" rx="12" width="100" height="144" stroke-width="16"/>
@@ -47,21 +47,21 @@
     <text x="920" y="505">12</text>
   </g>
   <g>
-    <rect x="1476" y="232" rx="12" width="320" height="208" stroke-width="16"/>
-    <rect x="1536" y="164" rx="12" width="184" height="376" stroke-width="8"/>
-    <rect x="1630" y="98" rx="12" width="284" height="252" stroke-width="4"/>
-    <rect x="1638" y="106" rx="6" width="268" height="236" stroke-width="4"/>
-    <text x="1502" y="300">1</text>
-    <text x="1582" y="300">2</text>
-    <text x="1622" y="405">3</text>
-    <text x="1622" y="505">4</text>
-    <text x="1582" y="205">5</text>
-    <text x="1668" y="205">6</text>
-    <text x="1668" y="300">7</text>
-    <text x="1750" y="300">8</text>
-    <text x="1668" y="145">9</text>
-    <text x="1838" y="280">10</text>
-    <text x="1838" y="185">11</text>
-    <text x="1742" y="405">12</text>
+    <rect x="1471" y="232" rx="12" width="320" height="208" stroke-width="16"/>
+    <rect x="1531" y="164" rx="12" width="184" height="376" stroke-width="8"/>
+    <rect x="1625" y="98" rx="12" width="284" height="252" stroke-width="4"/>
+    <rect x="1633" y="106" rx="6" width="268" height="236" stroke-width="4"/>
+    <text x="1493" y="300">1</text>
+    <text x="1577" y="300">2</text>
+    <text x="1617" y="405">3</text>
+    <text x="1617" y="505">4</text>
+    <text x="1577" y="205">5</text>
+    <text x="1663" y="205">6</text>
+    <text x="1663" y="300">7</text>
+    <text x="1745" y="300">8</text>
+    <text x="1663" y="145">9</text>
+    <text x="1833" y="280">10</text>
+    <text x="1833" y="185">11</text>
+    <text x="1739" y="405">12</text>
   </g>
 </svg>

@@ -48,11 +48,11 @@ In her article <cite>[From Pages to Patterns][11]</cite>, Charlotte Jackson desc
 
 1. First, cut up an interface into its component parts, and group together those that appear visually similar.
 2. Have every member of the team come up with a name for each component, individually and in secret.
-3. Once everyone has thought of a name, revealed these to the group.
+3. Once everyone has thought of a name, reveal these to the group.
 
-If multiple people suggest the same name for a component, this will likely be a good name for it. If not, the discussion that follows should prove just as fruitful.
+If multiple people suggest the same name for a component, this will likely be a good candidate. If not, the discussion that follows should prove just as fruitful.
 
-Once you've decided what things are called, make sure these decisions are recorded. When I joined the [Guardian][12], my colleagues would talked about *pixies* and *super-pixies*, *bentos* and *mini-bentos,* and other odd names which gave no hint to their meaning (it turns out these were container types used on the homepage). While arriving at esoteric names like this can be fun and build camaraderie within a team, they inadvertently exclude those who joined after they were coined. It's for this reason that I recommend [using obvious and descriptive terms][13] whenever possible.
+Once you've decided what things are called, make sure these decisions are recorded. When I joined the [Guardian][12], my colleagues would talk about *pixies* and *super-pixies*, *bentos* and *mini-bentos,* and other odd names which gave no hint to their meaning (it turns out these were container types used on the homepage). While arriving at esoteric names like this can be fun and build camaraderie within a team, they inadvertently exclude those who joined after they were coined. It's for this reason that I recommend [using obvious and descriptive terms][13] whenever possible.
 
 ### Building systems through collaboration
 The idea of working together to build a shared understanding brings to mind Mark Boulton's observation that [effective design systems adopt Postel's Law][14], such that by:
@@ -113,20 +113,20 @@ In <cite>[101 Things I learned in Architecture School][16]</cite>, Mark Frederic
 This perfectly encapsulates the process we went though at the Guardian, and one I've experience many times since. Only by working with the different pieces long enough, experimenting with different combinations, can you devise a system (or _systems_) and model the underhand complexity.
 
 ## Products
-![](/images/2017/01/design_system_onion_r4.svg){: .u-aside} As demonstrated in [the first part of this essay][3], systems need to survive contact with the real world. Writing about the GE's design system, Predix [Jeff Crossman noted that][17]:
+![](/images/2017/01/design_system_onion_r4.svg){: .u-aside} As demonstrated in [the first part of this essay][3], systems need to survive contact with the real world. Writing about GE's design system, Predix [Jeff Crossman noted that][17]:
 
 > A design system should not simply be a collection of user interface components along with some design theory. It should demonstrate how design patterns have been applied in real products and document how other teams have extended patterns for specific use cases.
 
 Jeff makes an important point; the products of a design system will be the ultimate arbiters of its usefulness. Beyond the immediate success (or failure) of these products, and as they evolve to meet the changing needs of our customers, so the systems supporting them will need to change also. The products that emanate from a design system are at the same time a constituent, living on its surface and feeding back to the layers below.
 
 ### Accounting for change
-Frank Pick departed London Transport in 1941. His success in managing the design of London's transport was thanks to the support he received from the Underground's chairman, Lord Ashfield. Yet in the decades following the departure of both Pick and Ashfield, and with growing private car ownership and declining passenger numbers, cost was prioritised over quality, and a period of neglect followed.
+Frank Pick departed London Transport in 1941. His success was possible due to the support he received from the Underground's chairman, Lord Ashfield. Following the departure of both Pick and Ashfield, as growing private car ownership led to declining passenger numbers, cost was prioritised over quality, and a period of neglect followed.
 
 {% figure caption:"The Underground in 1997 -- very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg)" class:"u-pull-right" %}
 {% include image.html preset="supporting" path="2017/01/underground_1997.jpg" %}
 {% endfigure %}
 
-Thankfully, the last 15 years have seen these factors reverse, and the network is again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following what they term the [Station Design Idiom][18], a set of nine principles that will underpin design across the Underground network over the coming years. These are referred to on every project, be they a small-scale repair, a major refurbishment or a brand new station.
+The last 15 years have seen these factors reverse, and the network is again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following what they term the [Station Design Idiom][18], a set of nine principles that will underpin design across the Underground network over the coming years. These are referred to on every project, be they a small-scale repair, a major refurbishment or a brand new station.
 
 Included in the idiom is a new map that gives contractors a station-by-station guide to the different architectural styles used throughout the network. Paint colours and decorative materials should now match the architectural style of each building, rather than adhere to any overarching corporate look. By deliberately maintaining a diversity of styles, Transport for London have chosen to make the network's design history an integral part of their design system. To me, this seems like a pragmatic approach.
 
