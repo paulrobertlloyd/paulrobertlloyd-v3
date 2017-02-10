@@ -10,7 +10,7 @@ tags:
 ---
 Aged 13, and having recently moved to the West Midlands from Surrey, I was the new kid at school with a funny sounding accent and below average height. If adolescence wasn't enough to be getting on with, this confounding and unsettling situation had to be dealt with as well.
 
-{% include image.html preset="supporting" path="2017/01/dr_james_p_dicks.jpg" class="u-pull-right" alt="James at his wedding in 2009" %} Thankfully, help was at hand. Placed in form group 9H, I was sat next to a boy called James Dicks. James was already a well-known character in the school, largely thanks to some of his strange ideas. For example, convinced that we should have workbooks from previous school years to hand, he carried all his around in a heavily packed bag -- and it weighed a ton!!
+{% include image.html preset="supporting" path="2017/01/dr_james_p_dicks.jpg" class="u-pull-right" alt="James at his wedding in 2009" %} Thankfully, help was at hand. Placed in form group 9H, I was sat next to a boy called James Dicks. James was already a well-known character in the school, largely thanks to some of his strange ideas. For example, convinced that we should have workbooks from previous school years to hand, he carried all his around in a tightly packed bag -- and it weighed a ton!!
 
 Yet from day one, James looked out for me. Nobody asked him to, he was just that sort of person: selfless, generous, and fair to a fault.
 
