@@ -136,7 +136,7 @@ Whilst much of this talk has focused on the styleguide as a deliverable, I hope 
 [6]: http://www.alistapart.com/articles/dao/
 [7]: http://www.alistapart.com/articles/responsive-web-design/
 [8]: http://adactio.com/journal/1700/
-[9]: http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
+[9]: http://web.archive.org/web/20101030144803/http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
 [10]: http://fontdeck.com
 [11]: http://typekit.com
 [12]: http://www.channel4.com/about_c4/styleguide/
