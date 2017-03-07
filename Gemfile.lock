@@ -19,7 +19,7 @@ GEM
     extras (0.1.0)
       forwardable-extended (~> 2.5)
     fastimage (2.1.0)
-    ffi (1.9.17)
+    ffi (1.9.18)
     forwardable-extended (2.6.0)
     jekyll (3.4.1)
       addressable (~> 2.4)
@@ -41,7 +41,7 @@ GEM
       sprockets (~> 3.3, < 3.7)
     jekyll-crosspost-to-medium (0.1.14)
     jekyll-figure (0.0.2)
-    jekyll-paginate-v2 (1.7.3)
+    jekyll-paginate-v2 (1.7.4)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
@@ -85,7 +85,7 @@ GEM
     titlecase (0.1.1)
     typogruby (1.0.18)
       rubypants
-    uglifier (3.1.2)
+    uglifier (3.1.4)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
