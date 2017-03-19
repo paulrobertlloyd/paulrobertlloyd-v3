@@ -11,7 +11,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (6.7.6)
+    autoprefixer-rails (6.7.7)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
@@ -21,7 +21,7 @@ GEM
     fastimage (2.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.4.1)
+    jekyll (3.4.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -85,7 +85,7 @@ GEM
     titlecase (0.1.1)
     typogruby (1.0.18)
       rubypants
-    uglifier (3.1.4)
+    uglifier (3.1.9)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
