@@ -16,6 +16,8 @@ tags:
 ---
 _Part one of a three-part essay based on the talk I gave at [Smashing Conference][1]._
 
+---
+
 Imagine you were asked to design a city. How might you layout its roads and major features? What shape might it take? Few people get the opportunity to address such questions, but the designers of Brasília certainly did.
 
 Their modernist creation was to replace the Brazil's previous capital, Rio de Janeiro. Its coastal location meant it was vulnerable to attack, and the country's constitution had long stated that the capital should be located closer to the country's hinterland. It wasn't until Juscelino Kubitschek was elected President in 1956 that this aim would be realised. He had campaigned on a promise of "fifty years of prosperity in five", and the creation of Brasilìa was a key pledge.
