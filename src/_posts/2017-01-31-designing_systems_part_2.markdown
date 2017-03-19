@@ -11,6 +11,8 @@ tags:
 ---
 _The second part of a three-part essay based on the talk I gave at [Smashing Conference][1]._
 
+---
+
 As consumers grow ever reliant on digital products and services, designers are being asked to create experiences that work seamlessly across a multitude of platforms, all without slowing delivery or impeding their maintainability. Design systems address this need.
 
 _But what is a design system?_
