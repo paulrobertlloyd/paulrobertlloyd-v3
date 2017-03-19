@@ -26,7 +26,7 @@ I imagine a complete system consisting of four layers, each concerned with a par
  * [Principles](#priciples): A set of core values from which can inform subsequent design decisions.
  * [Guidance](#guidance): Artifacts of a design process that document how these principles should be enacted.
  * [Tools](#tools): Models and frameworks that help practitioners implement guidance in a meaningful way and interact with any complex systems these define.
- * [Products](#products)
+ * [Products](#products): The resulting output of the system, whose use will feed back into the make up of the layers below.
 
 ## Principles
 [In part 1][3], we saw how the artifacts commissioned by Frank Pick needed to satisfy his test of *fitness for use*, a principle that informed every aspect of London Transport's corporate identity. We can use a similar model when crafting design systems. Experience designer Kate Rutter [describes design principles][4] as:
@@ -146,12 +146,12 @@ Included in the idiom is a new map that gives contractors a station-by-station g
 ### Shearing layers
 ![](/images/2017/01/shearing_layers.svg){: .u-align-right} In <cite>[How Buildings Learn][19]</cite>, Stewart Brand expands upon Frank Duffy's idea that different timescales can be seen to effect a building. Called shearing layers, he describes these as follows:
 
-* **Site:** the geographical setting and legally defined location, whose boundaries and context will outlast generations of ephemeral buildings.
-* **Structure:** the foundation and load-bearing elements. Perilous and expensive to change, they remain in place for decades, if not centuries.
-* **Skin:** the exterior surfaces that change every twenty years or so, either to keep up with fashion, technology or because they are in need of repair.
-* **Services:** the wiring, plumbing, fire sprinkler systems and moving parts like elevators and escalators.
-* **Space Plan:** the interior layout, composed of walls, ceilings, floors and doors that will be adapted to meet the needs of the current tenant.
-* **Stuff:** Chairs, desks, phones, pictures; appliances, lamps, hairbrushes, basically all the things that frequently get moved around.
+* **Site**: the geographical setting and legally defined location, whose boundaries and context will outlast generations of ephemeral buildings.
+* **Structure**: the foundation and load-bearing elements. Perilous and expensive to change, they remain in place for decades, if not centuries.
+* **Skin**: the exterior surfaces that change every twenty years or so, either to keep up with fashion, technology or because they are in need of repair.
+* **Services**: the wiring, plumbing, fire sprinkler systems and moving parts like elevators and escalators.
+* **Space Plan**: the interior layout, composed of walls, ceilings, floors and doors that will be adapted to meet the needs of the current tenant.
+* **Stuff**: Chairs, desks, phones, pictures; appliances, lamps, hairbrushes, basically all the things that frequently get moved around.
 
 Duffy summarised this view:
 
