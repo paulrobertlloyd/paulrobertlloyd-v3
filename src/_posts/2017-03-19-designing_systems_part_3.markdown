@@ -42,7 +42,7 @@ Reduce any webpage to its barest essentials, and you are left with text. Even th
 
 ~~~
 ## Movie rating
-The average rating is 4 out of 5 stars, from a total of [12 reviews](/reviews).
+The average rating is 4 out of 5 stars, from a total  of [12 reviews](/reviews).
 
 ### Add your score
 Your name: [           ]
