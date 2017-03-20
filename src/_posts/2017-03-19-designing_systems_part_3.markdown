@@ -95,7 +95,7 @@ On the topic of naming, I also like to use naming meta patterns. These are repea
 
 I typically reference HTML element names in my class names as their usage in relation to a component is similar.
 
-Leban Hyde refers to this as [the workhorse with no name][5], while Dave Rupert calls a similar approach the [every module ever scaffold][6]. Oatterns like this can make our code more predictable and easier to understand.
+Leban Hyde refers to this as [the workhorse with no name][5], while Dave Rupert calls a similar approach the [every module ever scaffold][6]. Patterns like this can make our code more predictable and easier to understand.
 
 ### Presentation
 Once I reach the presentation layer I begin to translate the visual design language into code. I will start by abstracting common design values into a set of variables:
