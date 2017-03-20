@@ -4,6 +4,7 @@ series: designing_systems
 date: '2017-01-31 23:00:00 +0000'
 location: Bexhill-on-Sea, England
 excerpt: 'In the second part of my three-part essay based on the talk I gave at Smashing Conference, I propose a model for thinking about design systems.'
+crosspost_to_medium: true
 tags:
   - Web
   - Design
@@ -25,7 +26,7 @@ I consider a design system in a similarly broad terms, namely that of an holisti
 
 I imagine a complete system consisting of four layers, each concerned with a particular role and purpose:
 
- * [Principles](#priciples): A set of core values from which can inform subsequent design decisions.
+ * [Principles](#principles): A set of core values from which can inform subsequent design decisions.
  * [Guidance](#guidance): Artifacts of a design process that document how these principles should be enacted.
  * [Tools](#tools): Models and frameworks that help practitioners implement guidance in a meaningful way and interact with any complex systems these define.
  * [Products](#products): The resulting output of the system, whose use will feed back into the make up of the layers below.

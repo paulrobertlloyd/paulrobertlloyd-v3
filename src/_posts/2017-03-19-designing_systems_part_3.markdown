@@ -6,7 +6,8 @@ location: Brighton, England
 excerpt: In the final part of my three-part essay based on the talk I gave at Smashing Conference, I look at how we create components and consider their wider composition.
 image:
   url: 2017/03/brasilia_motifs.jpg
-  caption: Common architectural motifs can be seen across many of Brasília's civic buildings.
+  caption: Common architectural motifs can be seen across many of Brasília's civic buildings
+crosspost_to_medium: true
 tags:
   - Web
   - Design
@@ -238,7 +239,7 @@ This leads me to ask: what are the equivalent concepts within the realm of front
 
 ---
 
-I hope you have enjoyed this three-part series, borne from the talk I gave at Smashing Conference last year. The ideas I've outlined are of course subject to re-evaluation, so if you have any feedback, please do get it touch, either [via e-mail][14] or via [Twitter][15]. Thanks for reading!
+I hope you have enjoyed this three-part series, borne from the talk I gave at Smashing Conference last year. The ideas I've outlined are of course subject to re-evaluation, so if you have any feedback, please do get it touch, either [via e-mail][14] or [Twitter][15]. Thanks for reading!
 
 [1]: https://paulrobertlloyd.com/talks/smashing_conference_freiburg_2016
 [2]: /2011/07/the_architecture_of_brasilia
