@@ -3,7 +3,7 @@ title: 'Designing Systems, Part 3: Components and Composition'
 series: designing_systems
 date: '2017-03-19 18:00:00 +0000'
 location: Brighton, England
-excerpt: In the final part of my three-part essay based on the talk I gave at Smashing Conference, I look at how we create components and consider their wider composition.
+excerpt: In the final part of my three-part essay based on the talk I gave at Smashing Conference, I look at how we might build components and consider their wider composition.
 image:
   url: 2017/03/brasilia_motifs.jpg
   caption: Common architectural motifs can be seen across many of Brasília's civic buildings
@@ -206,7 +206,7 @@ An abiding memory of [my visit to Brasília in 2011][12] was walking along its m
 
 > Always design a thing by considering it in its next larger context -- a chair in a room, a room in a house, a house in an environment, an environment in a city plan.
 
-In our discussion of components, we tend to talk a lot about chairs, yet neglect the rooms they sit in.
+In our discussion about components, we tend to talk a lot about chairs, yet neglect the rooms they sit in.
 
 ### Object analogies
 Actually, we don't talk about chairs, but we do talk a lot about Lego. This modular toy system has proven to be a useful analogy for describing object-orientated programming: separate blocks that can be pieced together in a number of combinations. However, look closely, and you'll find shortcomings in this comparison when talking about front-end components.
@@ -225,13 +225,13 @@ A front-end component is...
 * **leaky**: the first initial of CSS describes the complete opposite approach to encapsulation, with rules able to cascade throughout a document,
 * **difficult to reason with**, especially if code is in separate files, with little or no documentation.
 
-In the quest to build modular systems with a predictability like Lego, libraries and tools have sought to address these differences. Approaches to CSS deliberately undermine the cascade while [React][13] components combine HTML and JavaScript into a single JSX file. These approaches are understandable, and not necessarily wrong, but it does feel like we're working against the grain of the of the web.
+In our quest to build modular systems with a predictability like Lego, libraries and tools have sought to address these differences. Approaches to CSS deliberately undermine the cascade while [React][13] components combine HTML and JavaScript into a single JSX file. These approaches are understandable, and not necessarily wrong, but it does feel like we're working against the grain of the of the web.
 
 {% figure caption:"A section of the original Lego patent" class:"u-bleed" %}
 {% include image.html preset="showcase" path="2017/03/lego_patent.png" class="u-framed" %}
 {% endfigure %}
 
-Perhaps Lego is the right example, we've just been looking at the wrong aspect of it. The most important aspect of Lego is not so much the bricks, but the system of tubes and stubs that holds them to together. New bricks have been added to the system over the years, yet a brick manufactured today will still connect with one of the first produced in 1958.
+Perhaps Lego is the right example, we've just been looking at the wrong aspect of it. The most important aspect of Lego is not so much the bricks themselves, but the system of tubes and stubs that holds them to together. New bricks have been added to the system over the years, yet a brick manufactured today will still connect with one of the first produced in 1958.
 
 This leads me to ask: what are the equivalent concepts within the realm of front-end development? What methodologies might we uncover if we were to focus more on the relationships between components, rather than the components themselves? Who knows, maybe the cascade could become a powerful ally, rather than a pernicious foe.
 
