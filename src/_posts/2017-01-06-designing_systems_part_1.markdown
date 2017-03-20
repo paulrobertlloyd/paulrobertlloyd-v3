@@ -7,6 +7,7 @@ excerpt: 'Part one of a three-part essay based on the talk I gave at Smashing Co
 image:
   url: 2017/01/brasilia_satellite.jpg
   caption: 'Brasília, seen from above, looks like a bird or a plane. Image: [NASA Earth Observatory](http://earthobservatory.nasa.gov/IOTD/view.php?id=43743)'
+crosspost_to_medium: true
 tags:
   - Architecture
   - Brasilia
@@ -20,13 +21,13 @@ _Part one of a three-part essay based on the talk I gave at [Smashing Conference
 
 Imagine you were asked to design a city. How might you layout its roads and major features? What shape might it take? Few people get the opportunity to address such questions, but the designers of Brasília certainly did.
 
-Their modernist creation was to replace the Brazil's previous capital, Rio de Janeiro. Its coastal location meant it was vulnerable to attack, and the country's constitution had long stated that the capital should be located closer to the country's hinterland. It wasn't until Juscelino Kubitschek was elected President in 1956 that this aim would be realised. He had campaigned on a promise of "fifty years of prosperity in five", and the creation of Brasilìa was a key pledge.
+Their modernist creation was to replace the Brazil's previous capital, Rio de Janeiro. Its coastal location meant it was vulnerable to attack, and the country's constitution had long stated that the capital should be located closer to the country's hinterland. It wasn't until Juscelino Kubitschek was elected President in 1956 that this aim would be finally realised. He had campaigned on a promise of "fifty years of prosperity in five", and the creation of Brasilìa was a key pledge.
 
 {% figure caption:"Oscar Niemeyer and Lucio Costa pictured in 1957." class:"u-aside" %}
 {% include image.html preset="supporting" path="2017/01/costa_niemeyer.jpg" %}
 {% endfigure %}
 
-Kubitschek invited the architect Oscar Niemeyer to design the city's civic buildings -- the Presidential Palace, National Congress, Supreme Court and its Cathedral -- and it was Niemeyer's friend Lúcio Costa who would win the contest to arrange its urban plan.
+Kubitschek invited the architect Oscar Niemeyer to design the city's civic buildings -- the Presidential Palace, National Congress, Supreme Court and its Cathedral -- and Niemeyer’s friend Lúcio Costa won the contest to arrange its urban plan.
 
 Niemeyer and Costa had worked together on a number of projects already, and both were admirers of Le Corbusier, the Swiss-French architect and pioneer of modern urbanism. Le Corbusier believed good architecture produced good societies, and advocated ideas like organising cities around rigid zones within which different activities could take place. With Brazil's vast and unpopulated interior as their canvas, Costa and Niemeyer used these ideas as the basis for their new city.
 
@@ -58,13 +59,13 @@ Pick was employed by one of these, the Underground Electric Railways of London (
 
 You might describe the prevailing aesthetic as eclectic, if you were being generous. The image above, published in the sartorial magazine Punch in 1890, will give you an idea of how people perceived visual communication around this period. London's transport wasn't immune. On underground platforms, signage and advertising was intermixed, with a variety of typefaces arranged in a hotchpotch manner. This not only made the network difficult to navigate, but it hardly inspired confidence in this new mode of transport either.
 
-Given this uninviting landscape, Pick's first initiative was to improve the appearance of stations. He standardised the different poster sizes, limited their number, and arranged them on a grid. To ensure station names would stand out he placed large red circles behind name boards, a layout that would inform the design of the now familiar underground logo, the Roundel.
+Pick's first initiative was to improve the appearance of stations. He standardised the different poster sizes, limited their number, and arranged them on a grid. To ensure station names would stand out he placed large red circles behind name boards, a layout that would inform the design of the now familiar underground logo, the Roundel.
 
 {% figure caption:"Dover Street (now Green Park) station in 1923. Photograph: [Transport for London](https://www.flickr.com/photos/tflpress/22122745593)"  class:"u-pull-right" %}
 {% include image.html preset="supporting" path="2017/01/dover_street.jpg" %}
 {% endfigure %}
 
-Pick then commissioned artists to design beautiful posters. Rather than nag passengers, these would inspire, suggesting places in London people could visit and attractions they might attend. These posters helped humanise the network and before long, people referred to the tube as the longest art gallery in London. Pick later said <q>art has to come down off its pedestal and earn its living</q>.
+Pick then commissioned artists to design beautiful posters. Rather than nag passengers, these would inspire, suggesting places in London people could visit and attractions they might attend. Pick thought art needed to come down from its pedestal and earn a living. These posters humanised the network, with people referring to the tube as London’s longest art gallery.
 
 His next initiative was to commission a proprietary typeface the company could use to distinguish its publicity and announcements from that of other advertisers. In his brief to Edward Johnston, Pick stated that this new typeface should <q>have the bold simplicity of the authentic lettering of the finest periods</q> and belong <q>unmistakably to the twentieth century</q>.
 
@@ -102,7 +103,7 @@ When designing for others, be they the residents of a city, passengers on a tran
 [2]: https://www.creativereview.co.uk/tfl-celebrates-centenary-of-the-johnston-typeface-with-new-poster-campaign/
 [3]: http://www.londonreconnections.com/2011/the-future-of-the-overground-part-3-oranges-are-not-the-only-fruit/
 
-[^1]: <cite>[The Shock of the New: Trouble in Utopia ](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>, BBC2, 12 October 1980.
+[^1]: <cite>[The Shock of the New: Trouble in Utopia](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>, BBC2, 12 October 1980.
 
 *[UNESCO]: United Nations Educational, Scientific and Cultural Organization
 *[UERL]: Underground Electric Railways of London
