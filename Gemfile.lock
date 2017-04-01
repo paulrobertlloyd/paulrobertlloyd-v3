@@ -9,7 +9,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
+    addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     autoprefixer-rails (6.7.7.1)
       execjs
@@ -85,7 +85,7 @@ GEM
     titlecase (0.1.1)
     typogruby (1.0.18)
       rubypants
-    uglifier (3.1.9)
+    uglifier (3.1.12)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
