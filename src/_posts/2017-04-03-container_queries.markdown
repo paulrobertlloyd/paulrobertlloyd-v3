@@ -32,7 +32,7 @@ In the almost three decade history of the web, a vast array of hacks -- tables, 
 
 Without needing hacks, frameworks that abstract away their complexity will become redundant. The ability to define layouts independent of source order will mean we can discard our 16-column comfort blankets. I share [the concerns of Jen][11] and [Rachel][12], who fear web developers will port their existing thinking over to these new layout methods. To do so would be sorry waste of a set of impressively well-considered specifications.
 
-I've written previously about how [support for logical properties][13] is built right into the Flexbox (and [Box Alignment][14]) specifications. No more having to replace every occurrence of `float: left` with `float: right` to support right-to-left languages: just change the value of a `dir` attribute, and you're good to go.
+I've written previously about how [support for logical properties][13] is built right into Flexbox (and [Box Alignment][14]) specifications. No more having to replace every occurrence of `float: left` with `float: right` to support right-to-left languages: just change the value of a `dir` attribute, and you're good to go.
 
 Grid builds further on this less assumptive approach. It allows us to query the nature of a grid container's content, with functions like [`fit-content()`][15] and values like [`min-content` and `max-content`][16]. It feels like we've barely scratched the surface of what's possible.
 
@@ -68,7 +68,7 @@ The layout of this component is therefore entirely dependent on how much space i
 
 [Grid is all about the container][18], yet the containers we're manipulating aren't defined by any markup; they exist solely within our CSS. It's a very different approach to anything that has come before, and has [the potential to become even more powerful][19] as future revisions to the specification are developed.
 
-In the past I have suggested we [embrace the medium's unpredictable nature][20] and use this constraint to guide how we design for it. With Flexbox and Grid, those constraints are loosening.
+In the past I have suggested we [embrace the medium's unpredictable nature][20] and use its constraints to guide how we design for it. With Flexbox and Grid, those constraints are loosening.
 
 ## And now for something completely different
 The final reason I question the need for container queries is that a change in layout sometimes requires a change in behaviour, too. If accomplishing this involves restructuring the DOM, we're essentially swapping one component for another.
@@ -91,7 +91,7 @@ So to recap, here are three reasons why I'm not sold on the need for container q
   2. New CSS layout primitives give us tremendous power to make component-level layout adjustments already. We should build on existing specifications and concepts rather than define new ones.
   3. Often, when components are resized, they need to change their behaviour as well as their presentation; container queries would not help us in that respect, so perhaps other tools are better suited to this job.
 
-This may be a minority opinion, and it's one I'm happy to be challenged on. After all, many [wiser][21] [minds][22] [have][23] [advocated][24] for container queries. This is not the first time I have [found myself at odds with perceived wisdom][25]; maybe I'm missing a use case for which they would provide the most suitable solution.
+This may be a minority opinion, and it's one I'm happy to be challenged on. After all, [wiser][21] [minds][22] [have][23] [advocated][24] for container queries. This is not the first time I have [found myself at odds with perceived wisdom][25]; maybe I'm missing a use case for which they would provide the most suitable solution.
 
 In my mind, container queries appear to be yesterday's answer to today's problems. I'd much rather we use the great new tools we have, and embrace a future that's finally here.
 
@@ -124,3 +124,4 @@ In my mind, container queries appear to be yesterday's answer to today's problem
 [25]: https://24ways.org/2012/responsive-images-what-we-thought-we-needed/
 
 *[CSS]: Cascading Style Sheets
+*[DOM]: Document object module
