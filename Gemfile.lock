@@ -85,7 +85,7 @@ GEM
     titlecase (0.1.1)
     typogruby (1.0.18)
       rubypants
-    uglifier (3.1.12)
+    uglifier (3.1.13)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
