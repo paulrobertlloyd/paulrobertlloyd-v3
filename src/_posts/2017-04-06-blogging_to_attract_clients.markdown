@@ -34,7 +34,7 @@ I can't tell you how many emails I receive that have a similar tone to the examp
 
 Frankly, I'm tired of those who view the web solely through the prism of page views and social engagement. It only ever leads to approaches like those described, and often results in soulless, non-sensical and keyword-stuffed content that serves little purpose beyond attracting clicks. And besides, the Googlebot will show you little longterm loyalty; it frequently changes its mind about what's relevant (and not SEO-gamed).
 
-Want my advice? Write about what you love! And the stuff you don't, but probably less of that[^3]. Hopefully this will include topics relevant to your peers, but if you're a well rounded individual, you will have plenty of other things you'll want to talk about too. [Jeremy][5] often remarks that he considers his audience to be somebody just like him. I think this is a useful mindset, and certainly one that will encourage you to write using a more genuine tone.
+Want my advice? Write about what you love! And the stuff you don't, but probably less of that[^3]. Hopefully this will include topics relevant to your peers, but if you're a well rounded individual, you will have plenty of other things you'll want to talk about too. [Jeremy][4] often remarks that he considers his audience to be somebody just like him. I think this is a useful mindset, and certainly one that will encourage you to write using a more genuine tone.
 
 And so with that, I begrudgingly acknowledge that I've accepted Dmitry's closing challenge, to write one article in the next three weeks. Was this the sort of thing you were expecting Dmitry? 😉
 
