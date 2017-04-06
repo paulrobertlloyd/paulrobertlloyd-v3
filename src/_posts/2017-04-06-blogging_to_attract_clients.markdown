@@ -2,7 +2,7 @@
 title: Using Your Blog to Attract New Clients
 date: '2017-04-06 02:00:00 +0100'
 location: Brighton, England
-excerpt: Blogging is a great way to raise your profile and showcase your knowledge and expertise. But can you achieve this without being hollow and vaguely manipulative?
+excerpt: Blogging is a great way to showcase your knowledge and expertise. But can you achieve this without being hollow and vaguely manipulative?
 # crosspost_to_medium: true
 tags:
   - Writing
@@ -30,16 +30,16 @@ However, as the article continues, for me, things start to get murkier. Some of 
 
 By the end of the article, the advice all starts to feel, as Dmitry says in his opening introduction, "hollow and vaguely manipulative".
 
-I can't tell you how many emails I receive that have a similar tone to the examples shown. While it may seem like a clever strategy, its blindingly obvious when somebody has contacted me simply because they want a link added to an article on their own site -- typically from a post that is ranked highly on Google[^2].
+I can't tell you how many emails I receive that have a similar tone to the examples shown. While it might seem like a clever strategy, its blindingly obvious when somebody has contacted me simply because they want me to add a link to an article on their website -- typically from a post that is ranked highly on Google[^2].
 
-Frankly, I'm tired of those who view the web solely through the prism of page views and social engagement. It only ever leads to approaches like those described here, resulting in soulless, non-sensical and keyword-stuffed content that serves little purpose beyond attracting clicks. And besides, the Googlebot will show you little longterm loyalty as it frequently changes its mind about what's relevant (and not SEO-gamed).
+Frankly, I'm tired of those who view the web solely through the prism of page views and social engagement. It only ever leads to approaches like those described, and often resulting in soulless, non-sensical and keyword-stuffed content that serves little purpose beyond attracting clicks. And besides, the Googlebot will show you little longterm loyalty as it frequently changes its mind about what's relevant (and not SEO-gamed).
 
-What would my advice be? Write about what you love! And the stuff you don't, but probably less of that[^3]. Hopefully this will include topics that are relevant to your peers, but if you're a well rounded individual, you will have plenty of other things you'll want to talk about too. [Jeremy][5] will often remark that he considers his audience to be somebody just like him. I think this is a useful mindset to have, and one that will likely encourage you to write using a friendly, genuine tone.
+What would my advice be? Write about what you love! And the stuff you don't, but probably less of that[^3]. Hopefully this will include topics that are relevant to your peers, but if you're a well rounded individual, you will have plenty of other things you'll want to talk about too. [Jeremy][5] will often remark that he considers his audience to be somebody just like him. I think this is a useful mindset, and certainly one that will encourage you to write using a more genuine tone.
 
 And so with that, I begrudgingly acknowledge that I've accepted Dmitry's closing challenge, to write one article in the next three weeks. Was this the sort of thing you were expecting Dmitry? 😉
 
 [^1]: [Ben Terret][5] is another blogger whose (loose and conversational) writing style I admire.
-[^2]: I assume these posts have good ranking, but as I don't include analytics or tracking on my site, I can't be certain.
+[^2]: I assume these posts rank highly, but as I don't use analytics or tracking on my site, I can't be certain.
 [^3]: Note to self.
 
 [1]: https://alistapart.com/article/widen-out-using-your-blog-to-attract-new-clients
