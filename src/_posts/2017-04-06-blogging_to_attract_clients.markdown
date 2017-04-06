@@ -12,13 +12,13 @@ tags:
 
 > A weblog's ability to attract client work is one of its most overlooked benefits. JustReachOut's Dmitry Dragilev shares some simple ideas on how to create content that generates real interest in our work.
 
-I'm a big advocate of blogging -- though I tend to spend more time redesigning my blog than I do publishing to it! I'm making a concerted effort to change this, inspired in part by [Susan][2][^1], who recently [put her energy into blogging over tweeting][3]. Given the dumpster fire that Twitter has slowly evolved into, perhaps blogging is a good habit to start cultivating.
+I'm a big advocate of blogging -- though I tend to spend more time redesigning my blog than I do publishing to it! I'm making a concerted effort to change this, inspired in part by [Susan][2][^1], who recently [put her energy into blogging over tweeting][3]. Given the dumpster fire that Twitter has slowly evolved into, perhaps blogging is a good habit to cultivate.
 
 Anyway, I digress. At a high level I agree with Dmitry: people working on the web *should* use their websites, not only to showcase their work, but also to share their ideas, and contribute to the many ongoing discussions within our industry. While I don't necessarily agree that you should tailor your content to what ranks well on Google, I can see the merits of being strategic in choosing what to write about, especially if you're looking to raise awareness about your particular skills and expertise.
 
 I also like the idea of interviewing interesting people and publishing their responses. In fact, only last week I thought about contacting a particular design agency I'd like to learn (and write) more about. And sure, go ahead and add a call to action below your blog posts; hustlers gotta hustle!
 
-However, as the article continues, for me, things start to get a bit murkier. Some of Dmitry's advice includes:
+However, as the article continues, things start to get a bit murkier. Some of Dmitry's advice includes:
 
 * Finding similar articles on a topic that you intend to write about, and using these as inspiration to 'create a better version', perhaps by including points that were missed, or for which you have a different opinion or experience. I suspect people's interpretation of 'inspiration' will differ wildly!
 
@@ -30,11 +30,11 @@ However, as the article continues, for me, things start to get a bit murkier. So
 
 By the end of the article, the advice all starts to feel, as Dmitry says in his opening introduction, "hollow and vaguely manipulative".
 
-I can't tell you how many emails I receive that have a similar tone to the examples shown. While it might seem like a clever strategy, its blindingly obvious when somebody has contacted me simply because they want me to link to an article on their website -- typically from a post that is ranked highly on Google[^2].
+I can't tell you how many emails I receive that have a similar tone to the examples shown. While it might seem like a clever strategy, its blindingly obvious when somebody has contacted me simply to get a link to an article on their website -- typically from a post that is ranked highly on Google[^2].
 
-Frankly, I'm tired of those who view the web solely through the prism of page views and social engagement. It only ever leads to approaches like those described, and often results in soulless, non-sensical and keyword-stuffed content that serves little purpose beyond attracting clicks. And besides, the Googlebot will show you little longterm loyalty as it frequently changes its mind about what's relevant (and not SEO-gamed).
+Frankly, I'm tired of those who view the web solely through the prism of page views and social engagement. It only ever leads to approaches like those described, and often results in soulless, non-sensical and keyword-stuffed content that serves little purpose beyond attracting clicks. And besides, the Googlebot will show you little longterm loyalty; it frequently changes its mind about what's relevant (and not SEO-gamed).
 
-What would my advice be? Write about what you love! And the stuff you don't, but probably less of that[^3]. Hopefully this will include topics that are relevant to your peers, but if you're a well rounded individual, you will have plenty of other things you'll want to talk about too. [Jeremy][5] often remarks that he considers his audience to be somebody just like him. I think this is a useful mindset, and certainly one that will encourage you to write using a more genuine tone.
+Want my advice? Write about what you love! And the stuff you don't, but probably less of that[^3]. Hopefully this will include topics relevant to your peers, but if you're a well rounded individual, you will have plenty of other things you'll want to talk about too. [Jeremy][5] often remarks that he considers his audience to be somebody just like him. I think this is a useful mindset, and certainly one that will encourage you to write using a more genuine tone.
 
 And so with that, I begrudgingly acknowledge that I've accepted Dmitry's closing challenge, to write one article in the next three weeks. Was this the sort of thing you were expecting Dmitry? 😉
 
