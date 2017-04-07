@@ -1,5 +1,5 @@
 ---
-title: Using Your Blog to Attract New Clients
+title: 'Using Your Blog to Attract New Clients'
 date: '2017-04-06 02:00:00 +0100'
 location: Brighton, England
 excerpt: Blogging is a great way to showcase your expertise and raise your profile. But can you achieve this without drawing on manipulative methods of generating traffic?
@@ -7,6 +7,7 @@ crosspost_to_medium: true
 tags:
   - Writing
   - Web
+discussion: open
 ---
 [This week's article][1] on <cite>A List Apart</cite> caught my attention:
 
