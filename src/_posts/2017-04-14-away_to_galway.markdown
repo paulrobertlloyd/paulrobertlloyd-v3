@@ -20,7 +20,7 @@ Anyway, with a week to myself -- and in much need of a break -- I headed to Galw
 {% include image.html preset="showcase" path="2017/05/dublin_custom_house.jpg" %}
 {% endfigure %}
 
-## Back in Dublin
+## Stopover in Dublin
 Whenever I visit Dublin, I feel the city rub against me a little. I wonder if there might be an underlying burden of guilt, as every opportunity is taken to celebrate Ireland's fight for independence from my oppressive forefathers. On this occasion I booked into a guesthouse in the Temple Bar area. This was a far more hip and hospitable location than where I stayed before, yet I couldn't shake the feeling that, while Dublin has all the features of a European capital, it has none of the charm.
 
 {% figure caption:"Ha'penny Bridge, Dublin" class:"u-bleed" %}
