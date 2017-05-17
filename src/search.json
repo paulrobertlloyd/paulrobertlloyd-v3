@@ -1,13 +1,11 @@
 ---
 ---
-[
-{% for post in site.posts %}
+[{%- for post in site.posts %}
   {
-    "title": "{{ post.title | escape | smartify }}",
-    "type": "{{ post.layout }}",
+    "title": {{ post.title | smartify | jsonify }},
+    "type": {{ post.layout | jsonify }},
     "tags": "{{ post.tags | array_to_sentence_string }}",
-    "url": "{{ post.url | remove:'.html' }}",
-    "date": "{{ post.date }}"
-  } {% if forloop.last %}{% else %},{% endif %}
-{% endfor %}
-]
+    "url": {{ post.url | remove:".html" | jsonify }},
+    "date": {{ post.date | jsonify }}
+  }{% if forloop.last %}{% else %},{% endif -%}
+{% endfor -%}]
