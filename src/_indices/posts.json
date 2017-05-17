@@ -5,7 +5,7 @@ permalink: /journal/feed.json
   "version": "https://jsonfeed.org/version/1",
   "title": {{ site.title | append:" / Journal" | jsonify }},
   "description": {{ site.description | jsonify }},
-  "home_page_url": {{ site.url | jsonify }},
+  "home_page_url": {{ site.url | append:"/journal/" | jsonify }},
   "feed_url": {{ site.url | append:"/journal/feed.json" | jsonify }},
   "icon": "{% asset_path icon.png %}",
   "favicon": "/favicon.ico",
