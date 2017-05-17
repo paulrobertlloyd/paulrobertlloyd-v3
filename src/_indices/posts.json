@@ -21,7 +21,7 @@ permalink: /journal/feed.json
       {%- if post.type == "link" -%}"external_url": {{ post.link | jsonify }},{%- endif %}
       "title": {{ post.title | smartify | jsonify }},
       "summary": {{ post.excerpt | jsonify }},
-      "image": {{ post.image.url | prepend:site.url | jsonify }},
+      {%- if post.image.url -%}"image": {{ post.image.url | prepend:site.url | jsonify }},{%- endif %}
       "content_html": {{ post.content | markdownify | jsonify }},
       "date_published": {{ post.date | date_to_xmlschema | jsonify }},
       {% if post.tags -%}"tags": {{ post.tags | jsonify }}{%- endif %}
