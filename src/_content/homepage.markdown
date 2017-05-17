@@ -1,5 +1,6 @@
 ---
 home: true
+permalink: /
 theme: dark
 excerpt: |
     Hi! I'm **Paul Robert Lloyd**{: .p-name}, an independent [designer](/projects/), [writer](/articles/) and [speaker](/talks/) based in <span class="p-locality">Brighton</span>, <span class="p-country-name">England</span>. I help responsible organisations create purposeful digital products.

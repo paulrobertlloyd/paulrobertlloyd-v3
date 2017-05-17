@@ -3,6 +3,7 @@ title: Hire Me
 excerpt: 'An experienced freelance digital designer and web developer, I help responsible organisations around the world create purposeful digital products.'
 header: aside
 landing: true
+permalink: /hire/
 ---
 {% figure class:"u-align-right" %}
 {% include image.html preset="thumbnail" path="hire/me.jpg" alt="A photo of me, Paul Robert Lloyd" %}

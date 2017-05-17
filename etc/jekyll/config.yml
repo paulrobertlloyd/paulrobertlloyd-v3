@@ -17,17 +17,14 @@ scm:
   title: GitHub
   url: https://github.com/paulrobertlloyd/paulrobertlloyd.com
 
-# Pagination
-pagination:
-  enabled: true
-  title: ':title'
-  permalink: '/:num/'
-  sort_reverse: true
-  per_page: 15
-
 # Writing
 kramdown:
   auto_id_stripping: true # This will become the default behaviour in kramdown 2.0
+
+# Publishing
+source: ./src
+destination: ./www
+include: [_indices]
 
 # Collections
 collections:
@@ -96,15 +93,6 @@ defaults:
     values:
       layout: talk
 
-# Assets
-assets:
-  sources:
-    - _assets/fonts
-    - _assets/icons
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/vectors
-
 # Images
 images:
   default:
@@ -164,17 +152,24 @@ compress_html:
   ignore:
     envs: development
 
-# Publishing
-source: ./src
-destination: ./www
+# Plugin: jekyll-assets
+assets:
+  sources:
+    - _assets/fonts
+    - _assets/icons
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/vectors
 
-# Crossposting
-jekyll-crosspost_to_medium:
-  cache: ./src/_data/
-  status: draft
-  license: cc-40-by-nc-sa
+# Plugin: jekyll-paginate-v2
+pagination:
+  enabled: true
+  title: ':title'
+  permalink: '/:num'
+  sort_reverse: true
+  per_page: 15
 
-# Archives
+# Plugin: jekyll-archives
 jekyll-archives:
   enabled:
     - year
@@ -187,4 +182,10 @@ jekyll-archives:
   permalinks:
     year: /:year/
     month: /:year/:month/
-    tag: /tags/:name/
+    tag: /tags/:name.html
+
+# Plugin: jekyll-crosspost-to-medium
+jekyll-crosspost_to_medium:
+  cache: ./src/_data/
+  status: draft
+  license: cc-40-by-nc-sa

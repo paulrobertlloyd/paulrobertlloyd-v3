@@ -12,7 +12,7 @@ layout: compress
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
   <link rel="apple-touch-icon" href="{% asset_path icon.png %}" type="image/png"/>
   <link rel="mask-icon" href="{% asset_path icon.svg %}" color="{{ site.theme_color }}"/>
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: "index.html" | remove: ".html" }}"/>
   <link rel="manifest" href="/manifest.json"/>
   <link rel="me" href="https://micro.blog/paulrobertlloyd"/>
   {% if page.path contains "_posts" or page.path contains "journal" %}<link rel="alternate" href="/journal/feed" type="application/atom+xml" title="Journal feed"/>{% endif %}

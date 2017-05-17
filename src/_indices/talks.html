@@ -1,9 +1,11 @@
 ---
 layout: index
-title: Articles
+title: Talks
 landing: true
+permalink: /talks/
 ---
-{% for item in site.data.articles_published %}
+{% assign talks = site.talks | sort:"date" %}
+{% for item in talks reversed %}
   {% assign this_year = item.date | date:"%Y" %}
 
   {% if this_year != year %}
@@ -21,7 +23,7 @@ landing: true
     {% assign year = this_year %}
   {% endif %}
 
-    {% include item/article.html %}
+    {% include item/talk.html %}
 
   {% if forloop.last %}
   </div>
