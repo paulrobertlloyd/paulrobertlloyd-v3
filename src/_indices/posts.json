@@ -14,17 +14,18 @@ permalink: /journal/feed.json
     "url": {{ site.author.url | jsonify }},
     "avatar": {{ site.author.avatar | jsonify }}
   },
-  "items": [{%- for post in site.posts limit:25 %}
+  {% assign journal = site.documents | where:"journal",true | sort:"date" | reverse %}
+  "items": [{%- for post in journal limit:25 %}
     {
       "id": {{ post.id | jsonify }},
       "url": {{ post.url | prepend:site.url | jsonify }},
-      {%- if post.type == "link" -%}"external_url": {{ post.link | jsonify }},{%- endif %}
+      {% if post.link %}"external_url": {{ post.link | jsonify }},{% endif %}
       "title": {{ post.title | smartify | jsonify }},
       "summary": {{ post.excerpt | jsonify }},
-      {%- if post.image.url -%}"image": {{ post.image.url | prepend:site.url | jsonify }},{%- endif %}
+      {% if post.image.url %}"image": {{ post.image.url | prepend:site.url | jsonify }},{% endif %}
       "content_html": {{ post.content | markdownify | jsonify }},
       "date_published": {{ post.date | date_to_xmlschema | jsonify }},
-      {% if post.tags -%}"tags": {{ post.tags | jsonify }}{%- endif %}
-    }{% if forloop.last %}{% else %},{% endif -%}
-  {% endfor -%}]
+      {% if post.tags %}"tags": {{ post.tags | jsonify }}{% endif %}
+    }{% if forloop.last %}{% else %},{%- endif %}
+  {%- endfor %}]
 }

@@ -36,15 +36,12 @@ collections:
     permalink: /:year/:month/:title/discussion
   links:
     output: true
-    archive: true
     permalink: /:year/:month/:title
   galleries:
     output: true
-    archive: true
     permalink: /:year/:month/:title
   posts:
     output: true
-    archive: true
     permalink: /:year/:month/:title
   projects:
     output: true
@@ -69,17 +66,20 @@ defaults:
       type: links
     values:
       layout: entry
+      journal: true
 
   - scope:
       type: galleries
     values:
       layout: gallery
+      journal: true
       theme: dark
 
   - scope:
       type: posts
     values:
       layout: entry
+      journal: true
       image:
         preset: wide
 
