@@ -7,5 +7,5 @@
     "tags": "{{ post.tags | array_to_sentence_string }}",
     "url": {{ post.url | remove:".html" | jsonify }},
     "date": {{ post.date | jsonify }}
-  }{% if forloop.last %}{% else %},{% endif -%}
-{% endfor -%}]
+  }{% if forloop.last %}{% else %},{%- endif %}
+{%- endfor %}]
