@@ -3,3 +3,6 @@ show_drafts: true
 future: true
 incremental: true
 profile: true
+
+jekyll-crosspost_to_medium:
+  enable: false
