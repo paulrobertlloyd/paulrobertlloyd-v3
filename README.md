@@ -22,9 +22,8 @@ This project makes use of third-party libraries, included as git submodules. To 
 ## Running locally with HTTPS
 To run with HTTPS locally on macOS, you should follow the setup [as described here][4]. To create the required SSL certificates, follow these steps:
 
-1. Open Terminal.app
-2. Change into the correct directory: `cd Sites/paulrobertlloyd.com/etc/ssl`
-3. Configure SSL:
+1. Change into the correct directory: `cd Sites/paulrobertlloyd.com/etc/ssl`
+2. Configure SSL:
 
   ```
   cat > openssl.cnf <<-EOF
@@ -44,7 +43,7 @@ To run with HTTPS locally on macOS, you should follow the setup [as described he
   EOF
   ```
 
-4. Create the certificate files:
+3. Create the certificate files:
 
   ```
   openssl req \
@@ -59,7 +58,7 @@ To run with HTTPS locally on macOS, you should follow the setup [as described he
     -config openssl.cnf
   ```
 
-5. Delete the configuration file: `rm openssl.cnf`
+4. Delete the configuration file: `rm openssl.cnf`
 
 ## Deploying
 1. Ensure the destination server meets the system requirements
