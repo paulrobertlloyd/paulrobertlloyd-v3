@@ -1,0 +1,14 @@
+---
+layout: index
+title: Photos
+landing: true
+permalink: /photos/
+pagination:
+  enabled: true
+  collection: galleries
+---
+<div class="c-section">
+{% for item in paginator.posts %}
+  {% include item/gallery.html %}
+{% endfor %}
+</div>
