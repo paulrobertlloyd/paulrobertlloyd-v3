@@ -1,0 +1,14 @@
+---
+layout: index
+title: Links
+landing: true
+permalink: /links/
+pagination:
+  enabled: true
+  collection: links
+---
+<div class="c-section">
+{% for item in paginator.posts %}
+  {% include item/link.html %}
+{% endfor %}
+</div>

@@ -30,47 +30,44 @@ include: [_indices]
 collections:
   content:
     output: true
-    permalink: :path
   discussions:
     output: true
-    permalink: /:year/:month/:title/discussion
   links:
     output: true
-    permalink: /:year/:month/:title
   galleries:
     output: true
-    permalink: /:year/:month/:title
   posts:
     output: true
-    permalink: /:year/:month/:title
   projects:
     output: true
-    permalink: /projects/:title
   talks:
     output: true
-    permalink: /talks/:title
 
 # Defaults
 defaults:
   - scope:
       type: content
     values:
+      permalink: :path
       layout: content
 
   - scope:
       type: discussions
     values:
+      permalink: /:year/:month/:title/discussion
       layout: discussion
 
   - scope:
       type: links
     values:
+      permalink: /:year/:month/:title
       layout: entry
       journal: true
 
   - scope:
       type: galleries
     values:
+      permalink: /photos/:year/:month/:title
       layout: gallery
       journal: true
       theme: dark
@@ -78,6 +75,7 @@ defaults:
   - scope:
       type: posts
     values:
+      permalink: /:year/:month/:title
       layout: entry
       journal: true
       image:
@@ -86,11 +84,13 @@ defaults:
   - scope:
       type: projects
     values:
+      permalink: /projects/:title
       layout: project
 
   - scope:
       type: talks
     values:
+      permalink: /talks/:year/:month/:title
       layout: talk
 
 # Images
