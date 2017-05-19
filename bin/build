@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+bin/cleanup
+
+echo "Generating website files and saving them to destination"
+JEKYLL_ENV=production bundle exec jekyll build --config etc/jekyll/config.yml

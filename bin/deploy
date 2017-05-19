@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+bin/build
+
+echo "Publishing website…"
+for SOURCE in www etc
+do
+  /usr/bin/rsync \
+    -e /usr/bin/ssh \
+    -hvrt \
+    --keep-dirlinks \
+    --delete-after \
+    --exclude '.DS*' \
+    --exclude 'etc/jekyll' \
+    --exclude 'etc/ssl' \
+    $SOURCE $PAULROBERTLLOYD_DEPLOY_DEST
+done
+echo "Website published!"
