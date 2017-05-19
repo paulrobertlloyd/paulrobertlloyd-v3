@@ -16,6 +16,3 @@ group :jekyll_plugins do
   gem 'autoprefixer-rails'
   gem 'uglifier'
 end
-
-# Rake (manages build tasks)
-gem 'rake'
