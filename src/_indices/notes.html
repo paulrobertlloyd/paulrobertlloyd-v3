@@ -1,0 +1,14 @@
+---
+layout: index
+title: Notes
+landing: true
+permalink: /notes/
+pagination:
+  enabled: true
+  collection: notes
+---
+<div class="c-section">
+{% for item in paginator.posts %}
+  {% include item/entry.html %}
+{% endfor %}
+</div>

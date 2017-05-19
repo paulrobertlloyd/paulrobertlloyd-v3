@@ -8,6 +8,8 @@ archive-prompt: true
     {% include item/link.html %}
   {% elsif item.collection == "galleries" %}
     {% include item/gallery.html %}
+  {% elsif item.collection == "notes" %}
+    {% include item/entry.html %}
   {% else %}
     {% include item/entry.html %}
   {% endif %}

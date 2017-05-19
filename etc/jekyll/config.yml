@@ -34,12 +34,18 @@ collections:
     output: true
   links:
     output: true
+    archive: true
   galleries:
     output: true
+    archive: true
   posts:
     output: true
+    archive: true
   projects:
     output: true
+  notes:
+    output: true
+    archive: true
   talks:
     output: true
 
@@ -86,6 +92,12 @@ defaults:
     values:
       permalink: /projects/:title
       layout: project
+
+  - scope:
+      type: notes
+    values:
+      permalink: /notes/:year/:month/:title
+      layout: entry
 
   - scope:
       type: talks
