@@ -4,9 +4,6 @@
 [submodule "src/_assets/javascripts/vendor/picturefill"]
 	path = src/_assets/javascripts/vendor/picturefill
 	url = git@github.com:scottjehl/picturefill.git
-[submodule "src/_assets/javascripts/vendor/Simple-Jekyll-Search"]
-	path = src/_assets/javascripts/vendor/Simple-Jekyll-Search
-	url = git@github.com:christian-fei/Simple-Jekyll-Search.git
 [submodule "src/_assets/javascripts/vendor/what-input"]
 	path = src/_assets/javascripts/vendor/what-input
 	url = git@github.com:ten1seven/what-input.git

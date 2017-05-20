@@ -1,11 +1,14 @@
 ---
+sitemap: false
 ---
-[{%- for post in site.posts %}
-  {
-    "title": {{ post.title | smartify | jsonify }},
-    "type": {{ post.layout | jsonify }},
-    "tags": "{{ post.tags | array_to_sentence_string }}",
-    "url": {{ post.url | remove:".html" | jsonify }},
-    "date": {{ post.date | jsonify }}
-  }{% if forloop.last %}{% else %},{%- endif %}
-{%- endfor %}]
+{%- assign collections = site.collections | where_exp:'collection','collection.output != false' -%}
+[{% for collection in collections %}
+  {%- assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' -%}
+  {% for doc in docs %}{
+    "title": {{ doc.title | smartify | jsonify }},
+    "type": {{ doc.layout | jsonify }},
+    {% if doc.excerpt %}"excerpt": {{ doc.excerpt | markdownify | strip_html | jsonify }},{% endif %}
+    {% if doc.content %}"content": {{ doc.content | markdownify | strip_html | jsonify | replace:'\n',' ' | replace:'   ',' ' | replace:'  ',' ' }},{% endif %}
+    "url": {{ doc.url | jsonify }}
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+{% unless forloop.last %},{% endunless %}{% endfor %}]
