@@ -1,32 +1,53 @@
-// Search posts and pages
-// = require vendor/Simple-Jekyll-Search/dest/simple-jekyll-search.min.js
 (function (win, doc) {
   'use strict';
 
-  if (doc.querySelector('.c-form--search')) {
-    var searchForm = doc.querySelector('.c-form--search');
-    var searchInput = doc.querySelector('.c-form--search .c-form__input');
-    var searchResults = doc.createElement('ol');
+  const endpoint = '{{ "search.json" | relative_url }}';
+  const pages = [];
 
-    searchForm.appendChild(searchResults);
-    searchForm.setAttribute('action', '#search');
-    searchForm.removeAttribute('method');
-    searchInput.removeAttribute('name');
-    searchResults.setAttribute('class', 'c-list c-list--inline');
+  fetch(endpoint)
+    .then(blob => blob.json())
+    .then(data => pages.push(...data))
 
-    [].forEach.call(doc.querySelectorAll('.c-form--search .c-form__submit, .c-form--search .c-form__hidden'),
-    function (e) {
-      e.parentNode.removeChild(e);
-    });
-
-    new SimpleJekyllSearch ({
-      searchInput: doc.querySelector('.c-form--search .c-form__input'),
-      resultsContainer: doc.querySelector('.c-list'),
-      searchResultTemplate: '<li class="c-list__item u-separate"><a href="{url}">{title}</a></li>',
-      noResultsText: '<li class="c-list__item">Nothing matched your query</li>',
-      json: '/search.json',
-      limit: 10,
+  function findResults(termToMatch, pages) {
+    return pages.filter(item => {
+      const regex = new RegExp(termToMatch, 'gi');
+      return item.title.match(regex) || item.content.match(regex);
     });
   }
+
+  function displayResults() {
+    const resultsArray = findResults(this.value, pages);
+    const html = resultsArray.map(item => {
+      return `
+        <li class="c-list"><a href="${item.url}">${item.title}</a></li>`;
+    }).join('');
+    if ((resultsArray.length == 0) || (this.value == '')) {
+      searchResults.innerHTML = `<p>Sorry, nothing was found</p>`;
+    } else {
+      searchResults.innerHTML = html;
+    }
+  }
+
+  const searchForm = doc.querySelector('.c-form--search');
+  const searchInput = doc.querySelector('.c-form--search .c-form__input');
+  const searchResults = doc.createElement('ol');
+
+  searchForm.appendChild(searchResults);
+  searchForm.setAttribute('action', '#search');
+  searchForm.removeAttribute('method');
+  searchInput.removeAttribute('name');
+  searchResults.setAttribute('class', 'c-list c-list--inline c-list--search');
+
+  [].forEach.call(doc.querySelectorAll('.c-form--search .c-form__submit, .c-form--search .c-form__hidden'),
+  function (e) {
+    e.parentNode.removeChild(e);
+  });
+
+  searchInput.addEventListener('keyup', displayResults);
+  searchInput.addEventListener('keypress', function(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+    }
+  });
 
 }(this, this.document));
