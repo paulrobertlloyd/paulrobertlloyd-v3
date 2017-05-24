@@ -6,5 +6,5 @@ etc/ssl
 src/.asset-cache
 www/*
 !www/favicon.ico
-!www/images/*
-!www/downloads/*
+!www/images/
+!www/downloads/
