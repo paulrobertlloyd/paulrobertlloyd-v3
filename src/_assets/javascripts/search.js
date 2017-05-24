@@ -1,5 +1,5 @@
 // Search posts and pages
-// = require vendor/Simple-Jekyll-Search/dest/simple-jekyll-search.min.js
+// = require vendor/Simple-Jekyll-Search/dest/jekyll-search
 (function (win, doc) {
   'use strict';
 
