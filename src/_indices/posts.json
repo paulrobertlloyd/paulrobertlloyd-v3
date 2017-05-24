@@ -15,7 +15,7 @@ permalink: /journal/feed.json
     "avatar": {{ site.author.avatar | jsonify }}
   },
   {% assign journal = site.documents | where:"journal",true | sort:"date" | reverse %}
-  "items": [{%- for post in journal limit:25 %}
+  "items": [{% for post in journal limit:25 %}
     {
       "id": {{ post.id | jsonify }},
       "url": {{ post.url | prepend:site.url | jsonify }},
@@ -26,6 +26,6 @@ permalink: /journal/feed.json
       "content_html": {{ post.content | markdownify | jsonify }},
       "date_published": {{ post.date | date_to_xmlschema | jsonify }},
       {% if post.tags %}"tags": {{ post.tags | jsonify }}{% endif %}
-    }{% if forloop.last %}{% else %},{%- endif %}
-  {%- endfor %}]
+    }{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}]
 }
