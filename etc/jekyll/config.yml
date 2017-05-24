@@ -25,7 +25,7 @@ kramdown:
 source: ./src
 destination: ./www
 include: [_indices]
-keep_files: [downloads, images, favicon.ico]
+keep_files: [downloads, images]
 
 # Collections
 collections:

@@ -3,4 +3,5 @@
 set -e
 
 echo "Serving website"
+bin/static
 JEKYLL_ENV=development bundle exec jekyll serve --config etc/jekyll/config.yml,etc/jekyll/development.yml --trace
