@@ -1,7 +1,6 @@
 #!/bin/sh
 
 set -e
-
 bin/build
 
 echo "Publishing website…"
@@ -17,4 +16,5 @@ do
     --exclude 'etc/ssl' \
     $SOURCE $PAULROBERTLLOYD_DEPLOY_DEST
 done
+
 echo "Website published!"
