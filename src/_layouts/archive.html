@@ -5,7 +5,7 @@ layout: default
   {% if page.type == "month" %}
     {% assign title = page.date | date:"%B %Y" %}
   {% else %}
-    {% assign title = page.title | smartypants %}
+    {% assign title = page.title | smartify %}
   {% endif %}
 
   {% include page/header.html title=title %}
