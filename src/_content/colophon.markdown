@@ -8,7 +8,6 @@ This site is published using [Jekyll][6] and these supporting plugins:
 
   * [jekyll-archives][7] by Alfred Xing
   * [jekyll-assets][8] by Jordon Bedwell
-  * [jekyll-compress-html][9] by Anatol Broder
   * [jekyll-crosspost-to-medium][10] by Aaron Gustafson
   * [jekyll-figure][11] by Paul Robert Lloyd
   * [jekyll-paginate-v2][12] by Sverrir Sigmundarson
@@ -35,7 +34,6 @@ Pages are semantically structured using valid [HTML5][22] with presentational de
 [6]: http://jekyllrb.com/
 [7]: https://rubygems.org/gems/jekyll-archives
 [8]: https://rubygems.org/gems/jekyll-assets
-[9]: https://github.com/penibelst/jekyll-compress-html
 [10]: https://rubygems.org/gems/jekyll-crosspost-to-medium
 [11]: https://rubygems.org/gems/jekyll-figure
 [12]: https://rubygems.org/gems/jekyll-paginate-v2
