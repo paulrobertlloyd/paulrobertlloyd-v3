@@ -24,7 +24,7 @@
       resultsContainer: doc.querySelector('.c-list'),
       searchResultTemplate: '<li class="c-list__item u-separate"><a href="{url}">{title}</a></li>',
       noResultsText: '<li class="c-list__item">Nothing matched your query</li>',
-      json: '/search.json',
+      json: '/archive/search.json',
       limit: 10,
     });
   }
