@@ -1,16 +1,20 @@
 ---
-layout: index
+layout: default
 title: Tags
 permalink: /tags/
 ---
-<div class="c-section">
-  <ol class="c-list c-list--inline">
-  {% assign tags = site.tags | sort %}
-  {% for tag_array in tags %}
-    {% capture tag %}{{ tag_array[0] }}{% endcapture %}
-    <li class="c-list__item">
-      <a class="c-tag" rel="tag" href="/tags/{{ tag | slugify }}">{{ tag | smartypants }}</a>
-    </li>
-  {% endfor %}
-  </ol>
-</div>
+<section class="c-page c-page--index">
+  {% include page/header.html title=page.title %}
+
+  <div class="c-section">
+    <ol class="c-list c-list--inline">
+    {% assign tags = site.tags | sort %}
+    {% for tag_array in tags %}
+      {% capture tag %}{{ tag_array[0] }}{% endcapture %}
+      <li class="c-list__item">
+        <a class="c-tag" rel="tag" href="/tags/{{ tag | slugify }}">{{ tag | smartypants }}</a>
+      </li>
+    {% endfor %}
+    </ol>
+  </div>
+</section>

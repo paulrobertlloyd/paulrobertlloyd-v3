@@ -1,38 +1,42 @@
 ---
-layout: index
+layout: default
 title: Projects
 landing: true
 permalink: /projects/
 ---
-{% assign projects = site.projects | sort:"date" %}
-<section class="c-section" aria-labelledby="case-studies">
-  <header class="c-section__header u-hidden">
-    <h1 class="c-section__title" id="case-studies">Case Studies</h1>
-  </header>
+<section class="c-page c-page--index">
+  {% include page/header.html title=page.title %}
 
-  <div class="c-section__main u-triad">
-  {% for item in projects reversed %}
-    {% if item.featured %}
-      {% include item/project.html %}
-    {% endif %}
-  {% endfor %}
-  </div>
-</section>
+  {% assign projects = site.projects | sort:"date" %}
+  <section class="c-section" aria-labelledby="case-studies">
+    <header class="c-section__header u-hidden">
+      <h1 class="c-section__title" id="case-studies">Case Studies</h1>
+    </header>
 
-<section class="c-section" aria-labelledby="other-projects">
-  <header class="c-section__header">
-    <h1 class="c-section__title" id="other-projects">Other Projects</h1>
-  </header>
-
-  <div class="c-section__main">
-    <ul class="c-nav c-nav--series c-list u-triad">
+    <div class="c-section__main u-triad">
     {% for item in projects reversed %}
-      {% if item.featured != true %}
-        <li class="c-nav__item c-list__item">
-          <a class="c-nav__label" href="{{ item.url }}">{{ item.title }}</a>
-        </li>
+      {% if item.featured %}
+        {% include item/project.html %}
       {% endif %}
     {% endfor %}
-    </ul>
-  </div>
+    </div>
+  </section>
+
+  <section class="c-section" aria-labelledby="other-projects">
+    <header class="c-section__header">
+      <h1 class="c-section__title" id="other-projects">Other Projects</h1>
+    </header>
+
+    <div class="c-section__main">
+      <ul class="c-nav c-nav--series c-list u-triad">
+      {% for item in projects reversed %}
+        {% if item.featured != true %}
+          <li class="c-nav__item c-list__item">
+            <a class="c-nav__label" href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </section>
 </section>

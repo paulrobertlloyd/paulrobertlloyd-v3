@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Journal
 landing: true
 permalink: /journal/
@@ -7,14 +7,20 @@ pagination:
   enabled: true
   collection: posts, links, galleries
 ---
-<div class="c-section">
-{% for item in paginator.posts %}
-  {% if item.link %}
-    {% include item/link.html %}
-  {% elsif item.photos %}
-    {% include item/gallery.html %}
-  {% else %}
-    {% include item/entry.html %}
-  {% endif %}
-{% endfor %}
-</div>
+<section class="c-page c-page--index">
+  {% include page/header.html title=page.title %}
+
+  <div class="c-section">
+  {% for item in paginator.posts %}
+    {% if item.link %}
+      {% include item/link.html %}
+    {% elsif item.photos %}
+      {% include item/gallery.html %}
+    {% else %}
+      {% include item/entry.html %}
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>
+
+{% include nav/paginate-indices.html %}
