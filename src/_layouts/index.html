@@ -7,14 +7,6 @@ layout: default
   </header>
 
   {{ content }}
-
-  {% if layout.archive-prompt or page.archive-prompt %}
-  <div class="c-section">
-    <div class="s-ui">
-      <p><strong>Looking for older posts?</strong> <a href="/journal/archive/">Browse the archive</a></p>
-    </div>
-  </div>
-  {% endif %}
 </section>
 
 {% include nav/paginate-indices.html %}
