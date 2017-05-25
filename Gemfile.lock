@@ -1,4 +1,20 @@
 GIT
+  remote: https://github.com/jekyll/jekyll
+  revision: 2561470039cd290b136b7ad78477c629ec2ba0c5
+  specs:
+    jekyll (3.4.3)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.1)
+      kramdown (~> 1.3)
+      liquid (~> 4.0)
+      mercenary (~> 0.3.3)
+      pathutil (~> 0.9)
+      rouge (~> 1.7)
+      safe_yaml (~> 1.0)
+
+GIT
   remote: https://github.com/paulrobertlloyd/jekyll-archives
   revision: 5d466f07ec3df5ecfeed54c36c12247bc8d2082c
   branch: support-collections
@@ -21,17 +37,6 @@ GEM
     fastimage (2.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.4.3)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      jekyll-sass-converter (~> 1.0)
-      jekyll-watch (~> 1.1)
-      kramdown (~> 1.3)
-      liquid (~> 3.0)
-      mercenary (~> 0.3.3)
-      pathutil (~> 0.9)
-      rouge (~> 1.7)
-      safe_yaml (~> 1.0)
     jekyll-assets (2.2.8)
       extras (~> 0.1)
       fastimage (~> 2.0, >= 1.8)
@@ -59,7 +64,7 @@ GEM
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
-    liquid (3.0.6)
+    liquid (4.0.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -92,7 +97,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
-  jekyll
+  jekyll!
   jekyll-archives!
   jekyll-assets
   jekyll-crosspost-to-medium
