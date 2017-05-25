@@ -95,6 +95,3 @@ The `.c-form`{: .language-css} component class and child component classes, are 
 
 ### Search
 {% include form/search.html %}
-
-### Webmention
-{% include form/webmention.html %}
