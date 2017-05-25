@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<section class="c-page c-page--index">
+  {% assign title = page.date | date:"%Y" %}
+  {% include page/header.html title=title %}
+
+  {% for item in page.posts %}
+    {% if page.type == "year" %}
+      {% assign this_year = item.date | date:"%Y" %}
+      {% assign this_month = item.date | date:"%m" %}
+      {% assign this_month_name = item.date | date:"%B" %}
+
+      {% if this_month != month %}
+        {% unless forloop.first %}
+      </ol>
+    </div>
+  </section>
+        {% endunless %}
+
+  <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+    <header class="c-section__header">
+      <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
+    </header>
+
+    <div class="c-section__main">
+      <ol class="c-list c-list--inline" reversed>
+        {% assign month = this_month %}
+      {% endif %}
+
+        <li class="c-list__item{% unless item.link %} c-list__item--promoted{% endunless %} u-separate" value="{{ item.date | date:"%-d" }}">
+          <a href="{{ item.url }}">{{ item.title | smartypants }}</a>
+        </li>
+
+    {% else %}
+      {% if item.link %}
+        {% include item/entry-link.html %}
+      {% else %}
+        {% include item/entry.html %}
+      {% endif %}
+    {% endif %}
+
+    {% if forloop.last %}
+      </ol>
+    </div>
+  </section>
+    {% endif %}
+  {% endfor %}
+</section>

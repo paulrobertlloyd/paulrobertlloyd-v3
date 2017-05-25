@@ -16,16 +16,18 @@
   }
 }
 
-.c-page__header--aside {
-  @media screen and (min-width: $b__b) {
-    position: absolute;
-    padding-left: 0;
-    width: percentage(2/9);
-  }
+.c-page__header {
+  .c-page--index & {
+    @media screen and (min-width: $b__b) {
+      position: absolute;
+      padding-left: 0;
+      width: percentage(2/9);
+    }
 
-  .c-page__title {
-    @media (min-width: $b__b) {
-      @include fs--heading-2;
+    .c-page__title {
+      @media (min-width: $b__b) {
+        @include fs--heading-2;
+      }
     }
   }
 }

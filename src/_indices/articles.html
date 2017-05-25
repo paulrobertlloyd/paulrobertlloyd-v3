@@ -1,31 +1,35 @@
 ---
-layout: index
+layout: default
 title: Articles
 landing: true
 permalink: /articles/
 ---
-{% for item in site.data.articles_published %}
-  {% assign this_year = item.date | date:"%Y" %}
+<section class="c-page c-page--index">
+  {% include page/header.html title=page.title %}
 
-  {% if this_year != year %}
-    {% unless forloop.first %}
-  </div>
+  {% for item in site.data.articles_published %}
+    {% assign this_year = item.date | date:"%Y" %}
+
+    {% if this_year != year %}
+      {% unless forloop.first %}
+    </div>
+  </section>
+      {% endunless %}
+
+  <section class="c-section" aria-labelledby="year-{{ this_year }}">
+    <header class="c-section__header">
+      <h1 class="c-section__title" id="year-{{ this_year }}">{{ this_year }}</h1>
+    </header>
+
+    <div class="c-section__main">
+      {% assign year = this_year %}
+    {% endif %}
+
+      {% include item/article.html %}
+
+    {% if forloop.last %}
+    </div>
+  </section>
+    {% endif %}
+  {% endfor %}
 </section>
-    {% endunless %}
-
-<section class="c-section" aria-labelledby="year-{{ this_year }}">
-  <header class="c-section__header">
-    <h1 class="c-section__title" id="year-{{ this_year }}">{{ this_year }}</h1>
-  </header>
-
-  <div class="c-section__main">
-    {% assign year = this_year %}
-  {% endif %}
-
-    {% include item/article.html %}
-
-  {% if forloop.last %}
-  </div>
-</section>
-  {% endif %}
-{% endfor %}

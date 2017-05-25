@@ -1,89 +1,93 @@
 ---
-layout: index
+layout: default
 title: Archive
 permalink: /archive/
 ---
-<section class="c-section" aria-labelledby="search">
-  <header class="c-section__header">
-    <h1 class="c-section__title" id="search">Search</h1>
-  </header>
+<section class="c-page c-page--index">
+  {% include page/header.html title=page.title %}
 
-  <div class="c-section__main">
-    {% include form/search.html %}
-  </div>
-</section>
+  <section class="c-section" aria-labelledby="search">
+    <header class="c-section__header">
+      <h1 class="c-section__title" id="search">Search</h1>
+    </header>
 
-<section class="c-section" aria-labelledby="tags">
-  <header class="c-section__header">
-    <h1 class="c-section__title" id="tags">
-      <a href="/tags/">Tags</a>
-    </h1>
-  </header>
-
-  <div class="c-section__main">
-    <ol class="c-list c-list--inline">
-    {% capture site_tags %}
-      {% for tag in site.tags %}
-        {{ tag[1].size | plus:1000 }}#{{ tag[0] | replace:" ","_" }}
-      {% endfor %}
-    {% endcapture %}
-    {% assign popular_tags = site_tags | split:" " | sort | reverse %}
-    {% for popular_tag in popular_tags limit:25 %}
-      {% assign tag_array = popular_tag | split:"#" %}
-      {% capture tag %}{{ tag_array[1] | replace:"_"," " }}{% endcapture %}
-      <li class="c-list__item">
-        <a class="c-tag" rel="tag" href="/tags/{{ tag | slugify }}">{{ tag | smartypants }}</a>
-      </li>
-    {% endfor %}
-    </ol>
-  </div>
-</section>
-
-{% for item in site.posts %}
-  {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
-  {% capture this_month %}{{ item.date | date:"%m" }}{% endcapture %}
-  {% capture this_month-name %}{{ item.date | date:"%B %Y" }}{% endcapture %}
-
-  {% if this_year != year %}
-    {% capture year %}{{ this_year }}{% endcapture %}
-    {% capture month %}{{ this_month }}{% endcapture %}
-
-    {% unless forloop.first %}
-        </ol>
-      </div>
-    </section>
-    {% endunless %}
-
-    <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-      <header class="c-section__header">
-        <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
-      </header>
-
-      <div class="c-section__main">
-        <ol class="c-list c-list--inline" reversed>
-  {% endif %}
-
-          <li class="c-list__item u-separate" value="{{ item.date | date:"%-d" }}">
-            <a href="{{ item.url }}">{{ item.title | smartypants }}</a>
-          </li>
-
-  {% if forloop.last %}
-        </ol>
-      </div>
-    </section>
-  {% endif %}
-{% endfor %}
-
-<section class="c-section" aria-labelledby="lloydyweb">
-  <header class="c-section__header">
-    <h1 class="c-section__title" id="lloydyweb">
-      <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
-    </h1>
-  </header>
-
-  <div class="c-section__main">
-    <div class="s-ui">
-      <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous&nbsp;website</a>.</p>
+    <div class="c-section__main">
+      {% include form/search.html %}
     </div>
-  </div>
+  </section>
+
+  <section class="c-section" aria-labelledby="tags">
+    <header class="c-section__header">
+      <h1 class="c-section__title" id="tags">
+        <a href="/tags/">Tags</a>
+      </h1>
+    </header>
+
+    <div class="c-section__main">
+      <ol class="c-list c-list--inline">
+      {% capture site_tags %}
+        {% for tag in site.tags %}
+          {{ tag[1].size | plus:1000 }}#{{ tag[0] | replace:" ","_" }}
+        {% endfor %}
+      {% endcapture %}
+      {% assign popular_tags = site_tags | split:" " | sort | reverse %}
+      {% for popular_tag in popular_tags limit:25 %}
+        {% assign tag_array = popular_tag | split:"#" %}
+        {% capture tag %}{{ tag_array[1] | replace:"_"," " }}{% endcapture %}
+        <li class="c-list__item">
+          <a class="c-tag" rel="tag" href="/tags/{{ tag | slugify }}">{{ tag | smartypants }}</a>
+        </li>
+      {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  {% for item in site.posts %}
+    {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
+    {% capture this_month %}{{ item.date | date:"%m" }}{% endcapture %}
+    {% capture this_month-name %}{{ item.date | date:"%B %Y" }}{% endcapture %}
+
+    {% if this_year != year %}
+      {% capture year %}{{ this_year }}{% endcapture %}
+      {% capture month %}{{ this_month }}{% endcapture %}
+
+      {% unless forloop.first %}
+          </ol>
+        </div>
+      </section>
+      {% endunless %}
+
+      <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+        <header class="c-section__header">
+          <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
+        </header>
+
+        <div class="c-section__main">
+          <ol class="c-list c-list--inline" reversed>
+    {% endif %}
+
+            <li class="c-list__item u-separate" value="{{ item.date | date:"%-d" }}">
+              <a href="{{ item.url }}">{{ item.title | smartypants }}</a>
+            </li>
+
+    {% if forloop.last %}
+          </ol>
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+
+  <section class="c-section" aria-labelledby="lloydyweb">
+    <header class="c-section__header">
+      <h1 class="c-section__title" id="lloydyweb">
+        <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
+      </h1>
+    </header>
+
+    <div class="c-section__main">
+      <div class="s-ui">
+        <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous&nbsp;website</a>.</p>
+      </div>
+    </div>
+  </section>
 </section>

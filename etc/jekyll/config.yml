@@ -189,9 +189,9 @@ jekyll-archives:
     - month
     - tags
   layouts:
-    year: index-archive-year
-    month: index-archive
-    tag: index-archive
+    year: archive-year
+    month: archive
+    tag: archive
   permalinks:
     year: /:year/
     month: /:year/:month/

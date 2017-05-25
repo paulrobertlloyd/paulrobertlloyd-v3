@@ -24,13 +24,13 @@
   <meta name="theme-color" content="{{ site.theme_color }}"/>
   <meta name="application-name" content="{{ site.title }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="fullcss"  content="{% asset_path global.css %}"/>
+  <meta name="fullcss" content="{% asset_path global.css %}"/>
   <meta name="fulljs" content="{% asset_path global.js %}"/>
 
 {% if page.path contains ".markdown" %}
-  <meta property="og:title" content="{% unless page.home %}{{ page.title | xml_escape | smartypants }}{% else %}{{ site.title }}{% endunless %}"/>
-  <meta property="og:description" content="{% unless page.home %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endunless %}"/>
-  <meta property="og:url" content="{{ site.url }}{% unless page.home %}{{ page.url }}{% endunless %}"/>
+  <meta property="og:title" content="{{ page.title | xml_escape | smartypants }}"/>
+  <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   {% if page.image.url %}
   <meta property="og:image" content="{{ site.url }}/image/640x360/100q/{{ page.image.url }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
@@ -61,7 +61,7 @@
   </script>
   <noscript><link rel="stylesheet" href="{% asset_path global.css %}"/></noscript>
 
-  <title>{% unless page.home %}{% include title.html %} / {% endunless %}{{ site.title }}</title>
+  <title>{% if layout.title %}{{ layout.title | smartypants }}{% elsif page.title != nil %}{{ page.title | smartypants }} / {% endif %}{{ site.title }}</title>
 </head>
 
 <body>
