@@ -1,7 +1,7 @@
 <article class="c-project  h-entry">
   <a class="u-block-link  u-url" href="{{ item.url }}" rel="bookmark">
     {% asset_source "c-project__logo--{{ item.title | slugify }}.svg" %}
-    <h1 class="c-project__title u-separate  p-name">{{ item.title | smartypants }}</h1>
-    <p class="c-project__meta  p-summary">{{ item.excerpt | improve }}</p>
+    <h1 class="c-project__title u-separate  p-name">{{ item.title | smartify }}</h1>
+    <p class="c-project__meta  p-summary">{{ item.excerpt | smartify }}</p>
   </a>
 </article>

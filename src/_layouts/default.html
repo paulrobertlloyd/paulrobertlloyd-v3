@@ -28,7 +28,7 @@
   <meta name="fulljs" content="{% asset_path global.js %}"/>
 
 {% if page.path contains ".markdown" %}
-  <meta property="og:title" content="{{ page.title | xml_escape | smartypants }}"/>
+  <meta property="og:title" content="{{ page.title | xml_escape | smartify }}"/>
   <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines }}"/>
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   {% if page.image.url %}
@@ -50,18 +50,12 @@
   <link rel="preload" href="{% asset_path global.css %}" as="style" onload="this.rel='stylesheet'">
 <!--#endif-->
 
-{% if page.style %}
-  <style>
-    {{ page.style }}
-  </style>
-{% endif %}
-
   <script>
     {% asset_source head.js %}
   </script>
   <noscript><link rel="stylesheet" href="{% asset_path global.css %}"/></noscript>
 
-  <title>{% if layout.title %}{{ layout.title | smartypants }}{% elsif page.title != nil %}{{ page.title | smartypants }} / {% endif %}{{ site.title }}</title>
+  <title>{% if layout.title %}{{ layout.title | smartify }}{% elsif page.title != nil %}{{ page.title | smartify }} / {% endif %}{{ site.title }}</title>
 </head>
 
 <body>

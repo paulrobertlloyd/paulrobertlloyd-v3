@@ -1,8 +1,8 @@
 <header class="c-page__header">
-  <h1 class="c-page__title{% if page.landing %} u-hidden@a{% endif%}  p-name">{{ include.title | smartypants | widont }}</h1>
+  <h1 class="c-page__title{% if page.landing %} u-hidden@a{% endif%}  p-name">{{ include.title | smartify | widont }}</h1>
   {% if include.excerpt %}
   <div class="c-page__excerpt s-prose s-prose--lede  p-summary">
-    {{ page.excerpt | markdownify | improve }}
+    {{ page.excerpt | markdownify | smartify }}
   </div>
   {% endif %}
 </header>

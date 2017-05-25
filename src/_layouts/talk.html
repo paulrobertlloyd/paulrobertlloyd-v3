@@ -2,15 +2,9 @@
 layout: default
 ---
 <article class="c-page  h-entry">
-  {% include page/header.html title=page.title %}
+  {% include page/header.html title=page.title excerpt=page.excerpt %}
 
   <div class="c-section c-section--body">
-    {% if page.excerpt %}
-    <div class="s-prose s-prose--lede  p-summary">
-      {{ page.excerpt | markdownify | improve }}
-    </div>
-    {% endif %}
-
     <div class="s-prose s-prose--body  e-content">
       {% include meta.html class="u-aside" %}
 
@@ -18,7 +12,7 @@ layout: default
         {% include embed.html url=page.link id=page.embed.id ratio=page.embed.ratio title=page.title %}
       {% endif %}
 
-      {{ content | improve }}
+      {{ content | smartify }}
     </div>
   </div>
 </article>

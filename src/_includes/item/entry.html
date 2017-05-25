@@ -1,7 +1,7 @@
 <article class="c-item c-item--entry  h-entry">
   <header class="c-item__header">
     <h1 class="c-item__title  p-name">
-      <a href="{{ item.url }}">{{ item.title | smartypants }}</a>
+      <a href="{{ item.url }}">{{ item.title | smartify }}</a>
     </h1>
   </header>
 
@@ -20,7 +20,7 @@
         {% include image.html preset=item.image.preset path=item.image.url class="u-photo" alt=item.title %}
       </a>
       {% endif %}
-      {{ item.excerpt | markdownify | improve }}
+      {{ item.excerpt | markdownify | smartify }}
     </div>
   </div>
 </article>

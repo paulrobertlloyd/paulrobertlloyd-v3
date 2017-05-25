@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-slugify_underscore'
   gem 'jekyll-tagging-related_posts'
-  gem 'jekyll-typogrify'
 
   gem 'autoprefixer-rails'
   gem 'uglifier'
