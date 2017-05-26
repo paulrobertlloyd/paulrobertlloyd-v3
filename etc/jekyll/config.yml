@@ -98,7 +98,7 @@ defaults:
       type: notes
     values:
       permalink: /notes/:year/:month/:title
-      layout: entry
+      layout: note
 
   - scope:
       type: talks

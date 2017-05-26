@@ -1,6 +1,6 @@
 <article class="c-item c-item--talk  h-event">
   <h1 class="c-item__title  p-name">
-    <a class="u-url" href="{% if item.upcoming %}{{ item.link }}{% else %}{{ item.url }}{% endif %}" rel="bookmark">{{ item.meta.event | smartify }}</a>
+    <a class="u-url" href="{{ item.url }}" rel="bookmark">{{ item.meta.event | smartify }}</a>
   </h1>
 
   <footer class="c-item__footer">
