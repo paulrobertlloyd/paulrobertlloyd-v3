@@ -1,6 +1,6 @@
 <div class="c-screenshots">
 {% for image in include.imageset %}
   {% assign classname = image | split:"/" | last | remove:".png" | prepend: "c-screenshot c-screenshot--" %}
-  {% include image.html preset="supporting" path=image class=classname %}
+  {% include image.html preset="supporting" src=image class=classname %}
 {% endfor %}
 </div>

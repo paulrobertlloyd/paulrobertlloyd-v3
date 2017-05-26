@@ -1,8 +1,8 @@
 ---
 title: 'Climb Dance'
 date: '2016-09-29 14:40:00 +0100'
-link: https://www.youtube.com/watch?v=HiIjLMr33Xc
-embed: true
+embed:
+  src: https://www.youtube.com/watch?v=HiIjLMr33Xc
 theme: dark
 tags:
   - Video

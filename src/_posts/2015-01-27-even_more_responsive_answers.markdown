@@ -4,7 +4,7 @@ date: '2015-01-27 19:04:00 +0000'
 location: Brighton, England
 excerpt: Each month net Magazine run a section called Exchange, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was asked to be the responsive expert in their March issue, which is on sale now.
 image:
-  url: 2015/01/guardian_navigation.png?format=jpg
+  src: 2015/01/guardian_navigation.png?format=jpg
   caption: The Guardian's navigation on smaller displays prioritises page signposting, but all site sections can still be accessed with one tap.
 tags:
   - Responsive design

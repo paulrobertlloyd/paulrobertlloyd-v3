@@ -34,15 +34,15 @@ permalink: /journal/feed.xml
     <link href="{{ site.url }}{{ item.url }}"/>
     <content type="html">
 <![CDATA[
-{% if item.image.url %}
+{% if item.image.src %}
   {% figure caption:"{{ item.image.caption }}" %}
-    {% include image.html path=item.image.url %}
+    {% include image.html src=item.image.src %}
   {% endfigure %}
 {% endif %}
 
-{% if item.embed %}
+{% if item.embed.src %}
   {% figure %}
-    {% include embed.html url=item.link %}
+    {% include embed.html src=item.embed.src %}
   {% endfigure %}
 {% endif %}
 

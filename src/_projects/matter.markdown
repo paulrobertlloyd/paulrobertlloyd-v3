@@ -18,7 +18,7 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 
 ## Identity
 {% figure caption:"Early logo sketches" class:"u-pull-right" %}
-{% include image.html path="projects/matter/logo_sketches.jpg" class="u-framed" %}
+{% include image.html src="projects/matter/logo_sketches.jpg" class="u-framed" %}
 {% endfigure %}
 
 Much of my work for Matter focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that Matter aims for.
@@ -37,10 +37,10 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
 {% figure caption:"Type samples/experimentation" class:"u-abreast" %}
-{% include image.html preset="thumbnail" path="projects/matter/type_calluna.png" alt="Calluna type specimen" class="u-framed" %}
-{% include image.html preset="thumbnail" path="projects/matter/type_centro.png" alt="Centro type specimen" class="u-framed" %}
-{% include image.html preset="thumbnail" path="projects/matter/type_enigma.png" alt="Enigma type specimen" class="u-framed" %}
-{% include image.html preset="thumbnail" path="projects/matter/type_ptsans.png" alt="PT Sans type specimen" class="u-framed" %}
+{% include image.html preset="thumbnail" src="projects/matter/type_calluna.png" alt="Calluna type specimen" class="u-framed" %}
+{% include image.html preset="thumbnail" src="projects/matter/type_centro.png" alt="Centro type specimen" class="u-framed" %}
+{% include image.html preset="thumbnail" src="projects/matter/type_enigma.png" alt="Enigma type specimen" class="u-framed" %}
+{% include image.html preset="thumbnail" src="projects/matter/type_ptsans.png" alt="PT Sans type specimen" class="u-framed" %}
 {% endfigure %}
 
 [1]: http://www.kickstarter.com/projects/readMatter/Matter

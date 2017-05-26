@@ -11,7 +11,7 @@ layout: default
       {% for photo in page.photos %}
       <figure class="u-extend">
         {% capture photo_path %}{{ page.path | replace:"_galleries/","galleries/" | remove:".markdown" }}/{{ photo.id }}.jpg{% endcapture %}
-        {% include image.html path=photo_path %}
+        {% include image.html src=photo_path %}
         <figcaption>
           {% include exif.html %}
         </figcaption>
@@ -20,7 +20,9 @@ layout: default
     </div>
   </div>
 
-  {% include page/section--related.html %}
+  {% if page.series %}
+    {% include page/section--related.html %}
+  {% endif %}
 
-  {% include page/footer.html %}
+  {% include page/footer.html strftime="%e %B %Y" %}
 </article>

@@ -1,19 +1,19 @@
 ---
 title: 'Responsive Principles: A Framework for Future Learning'
 date: '2015-09-19 00:00:00 +0200'
-excerpt: 'Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.'
-link: https://speakerdeck.com/paulrobertlloyd/responsive-principles-webexpo
+location: Prague, Czech Republic
+event: WebExpo 2015
+excerpt: Slides from my presentation at WebExpo
 embed:
-  id: 48fb3eb6d06f4b2d84036db47cdc35a6
+  src: https://speakerdeck.com/player/48fb3eb6d06f4b2d84036db47cdc35a6
   ratio: 16/9
-meta:
-  event: 'WebExpo 2015'
-  location: 'Prague, Czech Republic'
-  resources: |
-    * [Notes](/downloads/2015/09/responsive_principles.pdf)
 ---
-## References and Further Reading
+Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/responsive-principles-webexpo)
+  * [Notes](/downloads/2015/09/responsive_principles.pdf)
+
+## References and Further Reading
   * Cascio, J. (2008). [The Singularity Needs You](http://www.wfs.org/node/840). <cite>The Futurist</cite>
   * [Melvin Kranzberg](https://en.wikipedia.org/wiki/Melvin_Kranzberg) (2015) <cite>Wikipedia</cite>
   * Marcotte, M. (2010, May 25). [Responsive Web Design](http://alistapart.com/article/responsive-web-design). <cite>A List Apart</cite>

@@ -5,7 +5,7 @@ date: '2017-01-06 12:00:00 +0000'
 location: Bexhill-on-Sea, England
 excerpt: 'Part one of a three-part essay based on the talk I gave at Smashing Conference. Before thinking about how we might approach the creation of a design system, I review two approaches to the design of something equally as complex: a city.'
 image:
-  url: 2017/01/brasilia_satellite.jpg
+  src: 2017/01/brasilia_satellite.jpg
   caption: 'Brasília, seen from above, looks like a bird or a plane. Image: [NASA Earth Observatory](http://earthobservatory.nasa.gov/IOTD/view.php?id=43743)'
 crosspost_to_medium: true
 tags:
@@ -24,7 +24,7 @@ Imagine you were asked to design a city. How might you layout its roads and majo
 Their modernist creation was to replace the Brazil's previous capital, Rio de Janeiro. Its coastal location meant it was vulnerable to attack, and the country's constitution had long stated that the capital should be located closer to the country's hinterland. It wasn't until Juscelino Kubitschek was elected President in 1956 that this aim would be finally realised. He had campaigned on a promise of "fifty years of prosperity in five", and the creation of Brasilìa was a key pledge.
 
 {% figure caption:"Oscar Niemeyer and Lucio Costa pictured in 1957." class:"u-aside" %}
-{% include image.html preset="supporting" path="2017/01/costa_niemeyer.jpg" %}
+{% include image.html preset="supporting" src="2017/01/costa_niemeyer.jpg" %}
 {% endfigure %}
 
 Kubitschek invited the architect Oscar Niemeyer to design the city's civic buildings -- the Presidential Palace, National Congress, Supreme Court and its Cathedral -- and Niemeyer’s friend Lúcio Costa won the contest to arrange its urban plan.
@@ -34,7 +34,7 @@ Niemeyer and Costa had worked together on a number of projects already, and both
 Beyond acting as a symbol for a braver, more optimistic age, they believed Brasília could transform Brazil's heavily stratified society into a more egalitarian one. Within their model utopia, they envisaged governors and ambassadors living next to janitors and labourers, with everyone using the same entrances and sharing the same spaces. With Costa's logical plan and Niemeyer's distinctive buildings, Brasília is now considered a definitive example of 20th century modernist urban planning, and the city received UNESCO World Heritage status in 1987.
 
 {% figure caption:"Brasília's Monumental Axis, viewed from the Brasília TV Tower. Photograph: [Siemens](www.siemens.com/press/photo/SOAXX201027-03e)" class:"u-bleed" %}
-{% include image.html preset="showcase" path="2017/01/brasilia_monumental_axis.jpg" %}
+{% include image.html preset="showcase" src="2017/01/brasilia_monumental_axis.jpg" %}
 {% endfigure %}
 
 However, Costa's plan contained a fundamental flaw: its fixed layout limited the amount of residential space available. As people from across the country flocked to the city in search for work, its population grew rapidly, and Brazil's deep class structures, subtly racial in origin, began to reassert themselves. The workers who had built the city were banished from it. After a long fight were they allowed to remain, but in distant satellite towns, away from the middle-classes in the city.
@@ -44,7 +44,7 @@ Reflecting on their plans, the art critic Robert Hughes said[^1]:
 > Nothing dates faster than people's fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It's what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may reverently hope, is the last experiment of its kind. The utopian buck, stops here.
 
 {% figure caption:"Sir Christopher Wren's plan for the rebuilding the City of London after the Great Fire of 1666." class:"u-bleed" %}
-{% include image.html preset="wide" path="2017/01/wrens_london_plan.png" class="u-framed" %}
+{% include image.html preset="wide" src="2017/01/wrens_london_plan.png" class="u-framed" %}
 {% endfigure %}
 
 Whereas Brazil's barren central plateau served as canvas for Costa's ego, the same might be said of Sir Christopher Wren's plan for London. Ravished by the Great Fire in 1666, he envisioned the creation of a beautiful Baroque city, with wide sweeping avenues, grand Piazzas, and a street plan similar to that of Paris. Yet, London is a peculiar, unruly beast, and not even the great Sir Christopher Wren could tame it. Before he had a chance to enact his plans, residents were already rebuilding their properties, following the medieval layout as they did so.
@@ -54,7 +54,7 @@ If anyone could claim to have bought order to London, it would be a shy and reti
 Pick was employed by one of these, the Underground Electric Railways of London (UERL). At great difficulty and expense, they had constructed three new tube lines and electrified the older steam powered underground District Railway. With few willing to use these new services, Pick was put in charge of their publicity.
 
 {% figure caption:"An aerial street scene of London with St Paul's Cathedral surrounded by monstrous advertising signs (Punch Magazine, 1890). Illustration: [Punch Limited](http://punch.photoshelter.com/image/I0000epvqNpMltvQ)" %}
-{% include image.html preset="showcase" path="2017/01/punch_illustration.png" class="u-framed" %}
+{% include image.html preset="showcase" src="2017/01/punch_illustration.png" class="u-framed" %}
 {% endfigure %}
 
 You might describe the prevailing aesthetic as eclectic, if you were being generous. The image above, published in the sartorial magazine Punch in 1890, will give you an idea of how people perceived visual communication around this period. London's transport wasn't immune. On underground platforms, signage and advertising was intermixed, with a variety of typefaces arranged in a hotchpotch manner. This not only made the network difficult to navigate, but it hardly inspired confidence in this new mode of transport either.
@@ -62,7 +62,7 @@ You might describe the prevailing aesthetic as eclectic, if you were being gener
 Pick's first initiative was to improve the appearance of stations. He standardised the different poster sizes, limited their number, and arranged them on a grid. To ensure station names would stand out he placed large red circles behind name boards, a layout that would inform the design of the now familiar underground logo, the Roundel.
 
 {% figure caption:"Dover Street (now Green Park) station in 1923. Photograph: [Transport for London](https://www.flickr.com/photos/tflpress/22122745593)"  class:"u-pull-right" %}
-{% include image.html preset="supporting" path="2017/01/dover_street.jpg" %}
+{% include image.html preset="supporting" src="2017/01/dover_street.jpg" %}
 {% endfigure %}
 
 Pick then commissioned artists to design beautiful posters. Rather than nag passengers, these would inspire, suggesting places in London people could visit and attractions they might attend. Pick thought art needed to come down from its pedestal and earn a living. These posters humanised the network, with people referring to the tube as London’s longest art gallery.
@@ -72,13 +72,13 @@ His next initiative was to commission a proprietary typeface the company could u
 Johnston sought inspiration for his typeface from hand drawn letters he had seen on the side of a tradesmen's wagon, and its introduction proved to be a dramatic change. While his contemporaries derided his creation as a betrayal of well-designed lettering, by the centenary of its introduction in 2016, 'London's handwriting' was being widely [celebrated by the design community][2].
 
 {% figure caption:"A selection of posters commissioned by Frank Pick. <cite>Brightest London is Best Reached by Underground</cite> (Horace Taylor, 1924), <cite>Trooping the Colour</cite> (Margaret Calkin-James, 1932) and <cite>For the Zoo Book to Regent's Park</cite> (Charles Paine, 1921)." class:"u-bleed" %}
-{% include image.html preset="showcase" path="2017/01/pick_posters.jpg" %}
+{% include image.html preset="showcase" src="2017/01/pick_posters.jpg" %}
 {% endfigure %}
 
 As UERL merged with its competitors to become the Underground Group, Pick rose through the ranks, and his influence grew. In 1927 he commissioned the architect Charles Holden to design a new head office at 55 Broadway, as well as a series of new stations for the extended Piccadilly line. By 1933, when the capital's transit companies were combined into a public body -- the London Passenger Transport Board -- Pick was appointed its chief executive.
 
 {% figure caption:"Portrait of Frank Pick (Howard Coster, 1939). Photograph: [National Portrait Gallery](http://www.npg.org.uk/collections/search/portrait/mw165033/Frank-Pick?LinkID=mp52004&search=sas&sText=frank+pick&role=sit&rNo=0)" class:"u-aside" %}
-{% include image.html preset="supporting" path="2017/01/pick.jpg" %}
+{% include image.html preset="supporting" src="2017/01/pick.jpg" %}
 {% endfigure %}
 
 Pick would remain in charge until shortly before his death in 1941. During the 30 years he managed London's transport, Pick had instigated what today we might call a corporate identity programme -- dare I say, a design system -- and its core tenets remain in place to this day.

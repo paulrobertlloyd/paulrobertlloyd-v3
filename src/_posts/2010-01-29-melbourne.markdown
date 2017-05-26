@@ -4,7 +4,7 @@ series: australasia_2009
 date: '2010-01-29 23:42:47 +0000'
 excerpt: After two and a half weeks exploring various cities, it was finally on to Melbourne, and the final stop on my short tour of Australasia.
 image:
-  url: 2010/01/melbourne_royal_exhibition_building.jpg
+  src: 2010/01/melbourne_royal_exhibition_building.jpg
   caption: Royal Exhibition Building, Melbourne
 tags:
   - Travel
@@ -22,7 +22,7 @@ Before I really started to explore the city, I met up with friend and former col
 Given Australia's passion for sport, it's perhaps no surprise that the MCG -- whilst outside the CBD -- still forms an integral part of the city. Its six large light towers dominate the landscape around Melbourne's 'Sports and Entertainment Precinct', a huge section of parkland littered with sporting venues of every size and description.
 
 {% figure caption:"The cauldron from the 1956 Olympic Games" class:"u-pull-left" %}
-{% include image.html preset="supporting" path="2010/01/melbourne_olympic_cauldron.jpg" %}
+{% include image.html preset="supporting" src="2010/01/melbourne_olympic_cauldron.jpg" %}
 {% endfigure %}
 
 As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many of the buildings from this time remained. Unfortunately much has changed, although the Olympic Park is still home to the [Olympic Pool][8] -- the first fully indoor Olympic swimming venue. This is now an indoor training centre and office complex, and sadly the only major structure from the games to look much as it did in 1956. Many of the other buildings have since been replaced by motorways and car parks.
@@ -36,7 +36,7 @@ The centrepiece of this display was the original Olympic cauldron from the Melbo
 Keeping with this theme of sporting geekery, I was also keen to check out [Albert Park][10], host to the Australian Grand Prix every March. Although it was obvious to make out from maps situated around the park, it took me some time to realise that main road that circles the lake was indeed the race track.
 
 {% figure caption:"The pit lane on the Albert Park grand prix circuit" %}
-{% include image.html path="2010/01/melbourne_albert_park.jpg" %}
+{% include image.html src="2010/01/melbourne_albert_park.jpg" %}
 {% endfigure %}
 
 So much of the supporting track furniture is removed from the site when the circuit is not in use. Even the pit lane complex could be mistaken for offices, were it not for the road layout and the row of garage doors along its frontage. Of course I couldn't pass by without standing on the very same podium that Jenson Button had stood [only 10 months beforehand][11] -- although when I looked out across the start/finish straight all I could see was a makeshift car park.

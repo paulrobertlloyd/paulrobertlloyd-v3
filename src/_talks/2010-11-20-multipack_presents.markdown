@@ -1,14 +1,11 @@
 ---
 title: Styleguides for the Web
 date: '2010-11-20 14:00:00 +0000'
-excerpt: 'Clearly communicating the fundamental aspects of your design can ensure your vision doesn''t get lost in the transformation from static comp to dynamic ever changing website.'
-link: https://speakerdeck.com/paulrobertlloyd/styleguides-for-the-web-2010
+location: Birmingham, England
+event: 'Multipack Presents: The Design Process'
+excerpt: Transcript from my presentation at Multipack Presents
 embed:
-  id: 4e47e8aba6aa8f0001006db3
-meta:
-  event: 'Multipack Presents: The Design Process'
-  location: 'Birmingham, England'
-  resources: '[Notes](/downloads/2010/11/styleguides_for_the_web.pdf)'
+  src: https://speakerdeck.com/player/4e47e8aba6aa8f0001006db3
 ---
 ## The Auteur Theory of Design
 At this year's dConstruct conference, John Gruber talked about his ['Auteur Theory of Design'][1]. This states that:
@@ -39,7 +36,7 @@ Branding agencies achieve this by producing styleguides; documents that explain 
 I've been collecting styleguides for a number of years, partly as I'm interested in branding and corporate identity, but also to refer to when creating my own guidelines. One of my favourites is that created for Skype:
 
 {% figure caption:"A selection of pages from the Skype styleguide" %}
-{% include image.html path="2010/11/styleguides_for_the_web_skype.png" %}
+{% include image.html src="/2010/11/styleguides_for_the_web_skype.png" %}
 {% endfigure %}
 
 As a brand made up from a number of different elements (the logo, clouds, rainbows, illustrations and sometimes photography), it would be easy for the brand to become diluted should these not be consistently applied. Skype's branding guidelines explain how each component is constructed before providing examples of these different pieces brought together. The visual styleguide, 'How We Look', is accompanied by a separate document called 'How We Think' which focuses on messaging and tone of voice.
@@ -56,7 +53,7 @@ Until recently I hadn't found many examples of styleguides designed especially f
   * **Colour Palette:** A colour palette was created for use on non-branded areas of the site (such as the homepage and search pages). This has yet to appear in the final guidelines, but may do once these non-branded areas get redesigned.
 
 {% figure caption:"A page on the BBC website detailing the GEL typography guidelines" %}
-{% include image.html path="2010/11/styleguides_for_the_web_gel.png" alt="GEL typography guidelines on the BBC website" %}
+{% include image.html src="/2010/11/styleguides_for_the_web_gel.png" alt="GEL typography guidelines on the BBC website" %}
 {% endfigure %}
 
 When GVL3 was finally released in July, its name had changed to GEL ([Global Experience Language][4]), an acceptance that the web is equally as much about interaction and behaviour as it is visual design. The guidelines now included a pattern library documenting key interactions used across the site such as auto suggest in search fields, tool tips, carousels and photo slideshows.

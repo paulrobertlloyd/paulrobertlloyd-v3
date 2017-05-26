@@ -1,17 +1,18 @@
 ---
 title: This is for Everyone
 date: '2013-05-10 20:30:00 +0100'
-excerpt: 'Constantly viewed through the lens of other media, design on the web has remained constrained by the rituals of print and latterly a desire to mimic native applications. With the help of Doctor Who and the Avengers, I’ll show you how the web’s underlying principles can inform our designs and help us deliver experiences that are true to the nature of the web.'
-link: https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-port-80
+location: Newport, Wales
+event: Port80 2013
+excerpt: Slides from my presentation at Port80
 embed:
-  id: 61e41fc09d7901308e941a9333edbc11
-meta:
-  event: 'Port80 2013'
-  location: 'Newport, Wales'
-  resources: '[Notes](/downloads/2013/05/this_is_for_everyone.pdf)'
+  src: https://speakerdeck.com/player/61e41fc09d7901308e941a9333edbc11
 ---
-## References
+Constantly viewed through the lens of other media, design on the web has remained constrained by the rituals of print and latterly a desire to mimic native applications. With the help of Doctor Who and the Avengers, I'll show you how the web's underlying principles can inform our designs and help us deliver experiences that are true to the nature of the web.
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-port-80)
+  * [Notes](/downloads/2013/05/this_is_for_everyone.pdf)
+
+## References
   * Berners-Lee, T. (2010, December 1) [Long Live the Web: A Call for Continued Open Standards and Neutrality](http://www.scientificamerican.com/article/long-live-the-web/). <cite>Scientific American</cite>
   * Allsopp, J. (2000, April 7) [A Dao of Web Design](http://alistapart.com/article/dao). <cite>A List Apart</cite>
   * Frost, B. (2013, January 28) [Performance As Design](http://bradfrost.com/blog/post/performance-as-design/). <cite>bradfrost.com</cite>

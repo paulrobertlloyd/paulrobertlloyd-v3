@@ -4,7 +4,7 @@ date: '2011-03-16 18:05:15 +0000'
 location: San Francisco, USA
 excerpt: This years SXSW Interactive saw 1,041 sessions presented by 1,648 speakers, growing to such extent that its size now rivals that of the more popular music festival. Yet bigger doesn't necessarily mean better.
 image:
-  url: 2011/03/sxsw_austin_sign.jpg
+  src: 2011/03/sxsw_austin_sign.jpg
   caption: A sign reading Austin
 tag:
   - Events
@@ -25,7 +25,7 @@ Much of this years programme catered towards topics the marketing and sales guys
 
 ## For The People
 {% figure caption:"The Great British Booze-up at Shakespeare's Pub" %}
-{% include image.html path="2011/03/sxsw_great_british_booze_up.jpg" %}
+{% include image.html src="2011/03/sxsw_great_british_booze_up.jpg" %}
 {% endfigure %}
 
 Regardless of its size, diminishing quality and rampent commercialisation, the one thing SXSW still ensures is the convergence of peers at a single place and point in time. This year saw many of my fellow Clearleft'ies in attendance -- indeed, being able to experience the event alongside my colleagues was the main reason for going. We were joined by a small British contingent who were able to make the Ginger Man our 'local' for the week.

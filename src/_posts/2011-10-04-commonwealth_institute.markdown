@@ -2,7 +2,7 @@
 title: The Commonwealth Institute
 date: '2011-10-04 21:57:57 +0100'
 image:
-  url: 2011/10/commonwealth_institute.jpg
+  src: 2011/10/commonwealth_institute.jpg
 tags:
   - Photography
   - Architecture

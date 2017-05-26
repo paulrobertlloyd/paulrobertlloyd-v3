@@ -1,18 +1,18 @@
 ---
 title: Responsive Principles
 date: '2015-05-28 20:30:00 +0100'
-excerpt: 'Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.'
-link: https://speakerdeck.com/paulrobertlloyd/responsive-principles-front-end-london-may-2015
+location: London, England
+event: Front-end London
+excerpt: Slides from my presentation at Front-end London
 embed:
-  id: c7bd1dc1235a4f4b852724107f595470
-meta:
-  event: 'Front-end London'
-  location: 'London, England'
-  resources: |
-    * [Notes](/downloads/2015/05/responsive_principles.pdf)
+  src: https://speakerdeck.com/player/c7bd1dc1235a4f4b852724107f595470
 ---
-## References
+Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/responsive-principles-front-end-london-may-2015)
+  * [Notes](/downloads/2015/05/responsive_principles.pdf)
+
+## References
   * [Donald Rumsfeld](https://en.wikipedia.org/wiki/Donald_Rumsfeld) (2015). <cite>Wikipedia</cite>
   * [The Thames Barrier](https://www.gov.uk/guidance/the-thames-barrier) (2015). <cite>GOV.UK</cite>
   * Cascio, J. (2008). [The Singularity Needs You](http://www.wfs.org/node/840). <cite>The Futurist</cite>

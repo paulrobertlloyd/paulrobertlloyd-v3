@@ -31,7 +31,7 @@ If you're like me, using Google for searching the web has become a deeply ingrai
 
     Keyword: `duckduckgo.com`
 
-    URL: `http://duckduckgo.com/?q=%s`
+    src: `http://duckduckgo.com/?q=%s`
 
  5. Click *Make default*
 
@@ -81,7 +81,7 @@ Changing your default search provider in Safari is a little more difficult. Alth
 
     Keyword: `d` (or pick another letter or word of your choosing)
 
-    URL: `http://duckduckgo.com/?q={searchTerms}`
+    src: `http://duckduckgo.com/?q={searchTerms}`
 
  5. Make this the default provider by clicking the *Set as Default* button whilst DuckDuckGo is selected
 

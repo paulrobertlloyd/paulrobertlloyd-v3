@@ -4,7 +4,7 @@ date: '2009-01-03 22:44:47 +0000'
 location: Walsall, England
 excerpt: Having nothing arranged for New Year's Eve, meant I wasn't sure how I would be celebrating the arrival of 2009. Well, not until I heard a conversation on the radio.
 image:
-  url: 2009/01/day_one_cannock_chase_1.jpg
+  src: 2009/01/day_one_cannock_chase_1.jpg
   caption: Cannock Chase German Military Cemetery
 tags:
   - Photography
@@ -19,12 +19,12 @@ This sounded right up my street, so shortly after midnight I headed straight to 
 I haven't spent nearly enough time in this 'Area of Outstanding Natural Beauty', especially when you consider it's close proximity to my parents home in Walsall. Of course in the early January frost, the landscape was just incredible. With the crisp ground crunching beneath my feet, and clean fresh air filling my lungs, I couldn't have asked for a better start to 2009.
 
 {% figure class:"u-bleed" %}
-{% include image.html preset="showcase" path="2009/01/day_one_cannock_chase_2.jpg" alt="Frosty Cannock Chase" %}
+{% include image.html preset="showcase" src="2009/01/day_one_cannock_chase_2.jpg" alt="Frosty Cannock Chase" %}
 {% endfigure %}
 
 {% figure caption:"Frost over Cannock Chase" class:"u-bleed u-abreast" %}
-{% include image.html path="2009/01/day_one_cannock_chase_3.jpg" alt="Frosty Cannock Chase" %}
-{% include image.html path="2009/01/day_one_cannock_chase_4.jpg" alt="Frosty Cannock Chase" %}
+{% include image.html src="2009/01/day_one_cannock_chase_3.jpg" alt="Frosty Cannock Chase" %}
+{% include image.html src="2009/01/day_one_cannock_chase_4.jpg" alt="Frosty Cannock Chase" %}
 {% endfigure %}
 
 This way of celebrating the arrival of a new year actually seems far more appropriate than getting drunk and starting it with a hang over. To spend the first few hours exploring a little piece of the English countryside felt like a real treat, and for that reason, I think a new yearly tradition has been born.

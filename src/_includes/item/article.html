@@ -5,6 +5,6 @@
 
   <footer class="c-item__footer">
     {% if item.publication %}<span class="u-separate">{{ item.publication }}</span>{% endif %}
-    <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{% if item.url contains "http://" or item.url contains "https://" %}{{ item.date | date:"%e %B %Y" | smartify }}{% else %}{{ item.date | date:"%B %Y" | smartify }}{% endif %}</time>
+    <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{% if item.url contains "http://" or item.url contains "https://" %}{{ item.date | date: "%e %B %Y" | smartify }}{% else %}{{ item.date | date: "%B %Y" | smartify }}{% endif %}</time>
   </footer>
 </article>

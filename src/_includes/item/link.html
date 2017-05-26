@@ -5,9 +5,9 @@
     </h1>
   </header>
 
-  {% if item.embed %}
+  {% if item.embed.src %}
   <div class="c-item__media u-bleed">
-    {% include embed.html url=item.link title=item.title %}
+    {% include embed.html src=item.embed.src title=item.title %}
   </div>
   {% endif %}
 
@@ -18,6 +18,6 @@
   </div>
 
   <footer class="c-item__footer">
-    <a class="c-item__permalink  u-url" href="{{ item.url }}" rel="bookmark"><time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time></a>
+    <a class="c-item__permalink  u-url" href="{{ item.url }}" rel="bookmark"><time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time></a>
   </footer>
 </article>

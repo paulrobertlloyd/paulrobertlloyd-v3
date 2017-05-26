@@ -6,9 +6,9 @@ layout: default
 
   <div class="c-section c-section--body">
     <div class="s-prose s-prose--body  e-content">
-      {% if page.embed %}
+      {% if page.embed.src %}
         {% figure class:"u-bleed" %}
-          {% include embed.html url=page.link title=page.title %}
+          {% include embed.html src=page.embed.src title=page.title %}
         {% endfigure %}
       {% endif %}
 
@@ -18,5 +18,5 @@ layout: default
     </div>
   </div>
 
-  {% include page/footer.html %}
+  {% include page/footer.html strftime="%e %B %Y" %}
 </article>

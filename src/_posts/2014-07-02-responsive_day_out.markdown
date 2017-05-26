@@ -4,7 +4,7 @@ date: '2014-07-02 13:44:54 +0000'
 location: Brighton, England
 excerpt: Last Friday I attended Responsive Day Out 2. The format was the same as last year, but the tenor was a little different. Gone were the theoretical presentations, talk of trying to sell responsive web design to clients and fears of embarking on responsive projects. Instead presentations focused on the actual doing; getting into the nitty-gritty.
 image:
-  url: 2014/07/responsive_day_out.jpg
+  src: 2014/07/responsive_day_out.jpg
   caption: 'Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/)'
 tags:
   - Web
@@ -18,7 +18,7 @@ There was one change to last year's format: the event concluded with [an hour-lo
 
 Ethan proposed the development of a broader framework, one that guides the work we do. He referenced [the twelve basic principles of animation][4] as developed by Frank Thomas and Ollie Johnston at Walt Disney's studio during the 1930s. These were described in their book <cite>The Illusion of Life</cite>, and beautifully animated by Cento Lodigiani:
 
-{% include embed.html url="https://vimeo.com/93206523" title="The illusion of life" %}
+{% include embed.html src="https://vimeo.com/93206523" title="The illusion of life" %}
 
 This begged the question: what principles might apply to responsive web design? As I pondered this over the weekend, I realised many of the talks we heard gave hints to what these might be.
 

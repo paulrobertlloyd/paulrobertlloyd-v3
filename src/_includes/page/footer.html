@@ -1,11 +1,13 @@
 <footer class="c-page__footer">
   <p>
-    <span class="u-hidden">Published on </span><a class="c-page__permalink  u-url" href="{{ page.url }}" rel="bookmark"><time class="c-page__pubdate  dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:"%e %B %Y" }}</time></a>
-    {% comment %}
-    {% if page.location %}
-    {% assign page_location = page.location | split:", " %}
-    in <span class="c-page__location  p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
+    <span class="u-hidden">Published on </span>
+    <a class="u-url" href="{{ page.url }}" rel="bookmark"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: include.strftime }}</time></a>
+    {% if page.event %}
+      <span aria-label=",">·</span> <span class="p-name">{{ page.event }}</span>
     {% endif %}
-    {% endcomment %}
+    {% if page.location %}
+      {% assign page_location = page.location | split: ", " %}
+      <span aria-label=",">·</span> <span class="p-location h-adr"><span class="p-locality">{{ page_location[0] }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
+    {% endif %}
   </p>
 </footer>

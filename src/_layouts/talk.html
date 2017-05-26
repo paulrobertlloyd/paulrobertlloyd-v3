@@ -6,13 +6,13 @@ layout: default
 
   <div class="c-section c-section--body">
     <div class="s-prose s-prose--body  e-content">
-      {% include meta.html class="u-aside" %}
-
-      {% if page.embed %}
-        {% include embed.html url=page.link id=page.embed.id ratio=page.embed.ratio title=page.title %}
+      {% if page.embed.src %}
+        {% include embed.html src=page.embed.src title=page.title ratio=page.embed.ratio %}
       {% endif %}
 
       {{ content | smartify }}
     </div>
   </div>
+
+  {% include page/footer.html strftime="%e %B %Y" %}
 </article>

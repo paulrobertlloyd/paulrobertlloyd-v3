@@ -4,7 +4,7 @@ date: '2016-04-15 16:10:00 +0100'
 location: Brighton, England
 excerpt: 'Having lived in my current flat for just over two years, I''m determined for this to be the year I finally make it feel like a home.'
 image:
-  url: 2016/04/habitables.jpg
+  src: 2016/04/habitables.jpg
   caption: 'Sideboard, designed by Manuel Barrera/Habitables'
 tags:
   - Furniture
@@ -22,8 +22,8 @@ I immediately fell in love with designer Manuel Barrera's distinctive mid-centur
 
 {% figure caption:"The two items of furniture I purchased. They look -- and smell -- great!" class:"u-bleed" %}
 <div class="u-abreast">
-{% include image.html path="2016/04/habitables_tv_table.jpg" alt="TV table made of solid oak board" %}
-{% include image.html path="2016/04/habitables_desk.jpg" alt="Desk made of solid oak board" %}
+{% include image.html src="2016/04/habitables_tv_table.jpg" alt="TV table made of solid oak board" %}
+{% include image.html src="2016/04/habitables_desk.jpg" alt="Desk made of solid oak board" %}
 </div>
 {% endfigure %}
 

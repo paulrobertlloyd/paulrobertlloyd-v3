@@ -44,19 +44,19 @@ The original brand font was FF Info, but as this wasn't in our catalogue it didn
 Page layout was more considered, making heavy use of the underlying grid, line rules and a clear typographic hierarchy. The number of rounded corners used in the design was reduced, while the playing card device was limited to account and project pages, where users managed their font 'decks'.
 
 {% figure caption:"Exposing different means of discovery made it easier for users to browse Fontdeck's catalogue" class:"u-extend" %}
-{% include image.html path="projects/fontdeck/page_browse_typeface.png" alt="Browse library page" class="u-framed" %}
+{% include image.html src="projects/fontdeck/page_browse_typeface.png" alt="Browse library page" class="u-framed" %}
 {% endfigure %}
 
 {% figure caption:"Information about an individual typeface was available on one page, with consistent presentation of meta data in the sidebar" class:"u-extend" %}
-{% include image.html path="projects/fontdeck/page_browse_specimen.png" alt="Type specimen page" class="u-framed" %}
+{% include image.html src="projects/fontdeck/page_browse_specimen.png" alt="Type specimen page" class="u-framed" %}
 {% endfigure %}
 
 ## Selling the Service
 The previous text-heavy about page was replaced by an [expanded about section][2]. This included a video narrated by Richard, the story of the product's development, and introduced members of the team working behind the scenes. A dedicated [pricing page][3] was linked to from the main navigation which concisely explained how the various pricing tiers worked.
 
 {% figure caption:"About page and foundry directory" class:"u-extend u-abreast" %}
-{% include image.html preset="supporting" path="projects/fontdeck/page_about.png" alt="About page" class="u-framed" %}
-{% include image.html preset="supporting" path="projects/fontdeck/page_foundries.png" alt="Foundries page" class="u-framed" %}
+{% include image.html preset="supporting" src="projects/fontdeck/page_about.png" alt="About page" class="u-framed" %}
+{% include image.html preset="supporting" src="projects/fontdeck/page_foundries.png" alt="Foundries page" class="u-framed" %}
 {% endfigure %}
 
 Type designer and foundry pages previously consisted of alphabetical indices of names, but I saw this as an opportunity to make those responsible for the font library the heroes of the service. Individual [foundry][4] and [designer][5] pages now featured a photo or logo and short bio alongside a list of the fonts they had created.

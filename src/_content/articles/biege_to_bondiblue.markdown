@@ -12,7 +12,7 @@ A standard design for a personal computer did not exist -- in fact the idea of a
 ## The Apple II
 
 {% figure caption:"An Apple II Advertisement" class:"u-pull-right" %}
-{% include image.html preset="supporting" path="articles/beige_to_bondiblue/apple_ii_advert.jpg" %}
+{% include image.html preset="supporting" src="articles/beige_to_bondiblue/apple_ii_advert.jpg" %}
 {% endfigure %}
 
 The introduction of the Apple II in 1977 was the first step in changing this view. This was basically an improved version of the Apple I with a couple of additions. It also differed by enclosing the circuitry in a case. Made of plastic, this was the first personal computer to do so.
@@ -45,7 +45,7 @@ Apple's acquisition of NeXT in 1996 brought Steve Jobs back to the company and b
 The result was the iMac, and the man responsible for its design was London-born Jonathan Ive -- Apple's Vice President of Industrial Design.
 
 {% figure caption:"The iMac" class:"u-bleed" %}
-{% include image.html preset="showcase" path="articles/beige_to_bondiblue/apple_imac.png" %}
+{% include image.html preset="showcase" src="articles/beige_to_bondiblue/apple_imac.png" %}
 {% endfigure %}
 
 Key to the iMac's design was the idea of simplicity and understanding of the emotional value of objects. Steve Jobs was looking for a design that looked futuristic yet (given that newness can often site uncomfortably with consumers) a design that was vaguely familiar which would conjure up memories of something you you may have seen before but were not quite sure. The design team was looking for a design that wasn't like a computer, but also one that didn't end up looking like a television. The final result was a curvy bubble like appliance that immediately caught the world's attention.
@@ -65,14 +65,14 @@ Design cues of the CPU were also mirrored in the keyboard, which shared the same
 Later the Bondi-Blue colour was replaced with Blueberry (a lighter bluer colour), and four other colours were introduced. For the first time the consumer could decide the colour of their computer -- something they were able to do with their cars decades ago. With the second major revision, a new graphite (grey) colour was introduced which was more transparent than the five other colours and was aimed at a more conservative user.
 
 {% figure class:"u-extend" %}
-{% include image.html preset="showcase" path="articles/beige_to_bondiblue/apple_imac_flowershot.png" alt="iMac Flowershot" %}
+{% include image.html preset="showcase" src="articles/beige_to_bondiblue/apple_imac_flowershot.png" alt="iMac Flowershot" %}
 {% endfigure %}
 
 This second revision saw a refinement of the original design -- a sleek slot loading CD/DVD drive replaced the cumbersome CD tray, the speakers became more rounded and the inner metal shielding was removed so you could see right through the case. The inside fan was also removed to ensure quieter operation.
 
 Another subtle improvement occurred when you put the computer to 'sleep' (a sort of standby mode). Now the button pulsated with an orange glow like a heartbeat, designed to give the iMac a personality. Others such touches included an information label on the bottom of the computer written in a first person perspective i.e: "I was assembled on UK" and "My family number: M5521". These details were added to increase the users emotional attachment to the machine.
 
-{% include image.html preset="thumbnail" path="articles/beige_to_bondiblue/apple_logo_aqua.png" class="u-align-right" alt="Apple 'aqua' logo" %} As with the Apple II, the manual was an important aspect of the design. The iMac's original manual was entered into the <cite>Guinness Book of World Records</cite> for the being the world's smallest, containing only 32 words -- a statement that further stressed the simplicity of owning an iMac. Further still, the iMac was another product to influence Apple's logo. With the introduction of the iMac, Apple altered its logo to match the translucent styling of the iMac, and with its success, replaced the original with this new version appearing in various colours.
+{% include image.html preset="thumbnail" src="articles/beige_to_bondiblue/apple_logo_aqua.png" class="u-align-right" alt="Apple 'aqua' logo" %} As with the Apple II, the manual was an important aspect of the design. The iMac's original manual was entered into the <cite>Guinness Book of World Records</cite> for the being the world's smallest, containing only 32 words -- a statement that further stressed the simplicity of owning an iMac. Further still, the iMac was another product to influence Apple's logo. With the introduction of the iMac, Apple altered its logo to match the translucent styling of the iMac, and with its success, replaced the original with this new version appearing in various colours.
 
 ---
 

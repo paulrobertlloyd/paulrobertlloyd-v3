@@ -1,8 +1,8 @@
 ---
 title: The Crazy Ones
 date: '2011-10-06 20:32:05 +0100'
-link: https://www.youtube.com/watch?v=8rwsuXHA7RA
-embed: true
+embed:
+  src: https://www.youtube.com/watch?v=8rwsuXHA7RA
 theme: dark
 tags:
   - Steve Jobs

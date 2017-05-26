@@ -1,19 +1,20 @@
 ---
 title: Fear, Uncertainty and Doubt
 date: '2013-09-19 20:30:00 +0100'
-excerpt: 'This is a talk about the world we live in. One which sees us becoming increasingly reliant upon a small number of web services and the companies that operate them, most of which emanate from a small centre of innovation: Silicon Valley.'
-link: https://speakerdeck.com/paulrobertlloyd/fear-uncertainty-and-doubt
+location: Milton Keynes, England
+event: 'MK Geek Night #6'
+excerpt: Slides from my presentation at MK Geek Night
+link:
 embed:
-  id: bddf0700041d0131954356f7ac4f018a
-meta:
-  event: 'MK Geek Night #6'
-  location: 'Milton Keynes, England'
-  resources: |
-    * [Notes](/downloads/2013/09/fear_uncertainty_and_doubt.pdf)
-    * [Audio](https://soundcloud.com/mkgn/mkgn-6-paul-robert-lloyd-fear)
+  src: https://speakerdeck.com/player/bddf0700041d0131954356f7ac4f018a
 ---
-## References
+This is a talk about the world we live in. One which sees us becoming increasingly reliant upon a small number of web services and the companies that operate them, most of which emanate from a small centre of innovation: Silicon Valley.
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/fear-uncertainty-and-doubt)
+  * [Notes](/downloads/2013/09/fear_uncertainty_and_doubt.pdf)
+  * [Audio](https://soundcloud.com/mkgn/mkgn-6-paul-robert-lloyd-fear)
+
+## References
   * Harris, J. (2012, May). [Modern Medicine](http://farmerandfarmer.org/medicine/social.html). <cite>Farmer & Farmer</cite>
   * Carr, P. (2012, October 24). [Travis Shrugged: The creepy, dangerous ideology behind Silicon Valley's Cult of Disruption](http://pandodaily.com/2012/10/24/travis-shrugged/). <cite>Pando Daily</cite>
   * Bowman, D. (2009, March 20). [Goodbye Google](http://stopdesign.com/archive/2009/03/20/goodbye-google.html). <cite>Stop Design</cite>

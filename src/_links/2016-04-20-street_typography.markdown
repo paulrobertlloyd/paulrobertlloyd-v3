@@ -1,8 +1,8 @@
 ---
 title: Street Typography in Action
 date: '2016-04-20 21:25:00 +0100'
-link: https://vimeo.com/36167291
-embed: true
+embed:
+  src: https://vimeo.com/36167291
 theme: dark
 tags:
   - Video
