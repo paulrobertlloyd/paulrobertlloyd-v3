@@ -68,7 +68,7 @@ defaults:
       type: links
     values:
       permalink: /:year/:month/:title
-      layout: entry
+      layout: link
       journal: true
 
   - scope:
