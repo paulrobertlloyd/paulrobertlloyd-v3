@@ -83,7 +83,7 @@ defaults:
       type: posts
     values:
       permalink: /:year/:month/:title
-      layout: entry
+      layout: post
       journal: true
       image:
         preset: wide
