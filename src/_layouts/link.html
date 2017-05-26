@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="c-page  h-entry">
+  {% include page/header.html title=page.title %}
+
+  <div class="c-section c-section--body">
+    <div class="s-prose s-prose--body  e-content">
+      {% if page.embed %}
+        {% figure class:"u-bleed" %}
+          {% include embed.html url=page.link title=page.title %}
+        {% endfigure %}
+      {% endif %}
+
+      {{ content | smartify }}
+
+      {% include button.html text="Visit this link" url=page.link %}
+    </div>
+  </div>
+
+  {% include page/footer.html %}
+</article>

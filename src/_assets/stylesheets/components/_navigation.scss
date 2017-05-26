@@ -56,7 +56,7 @@
   }
 }
 
-.c-navigation__item.is-active {
+.c-navigation__item[aria-current] {
   font-weight: 700;
 
   .is-fixed & {
