@@ -7,7 +7,7 @@ permalink: /journal/feed.json
   "description": {{ site.description | jsonify }},
   "home_page_url": {{ site.url | append:"/journal/" | jsonify }},
   "feed_url": {{ site.url | append:"/journal/feed.json" | jsonify }},
-  "icon": "{{ site.url }}{% asset_path icon.png %}",
+  "icon": "{{ site.url }}/images/icon.png",
   "favicon": "/favicon.ico",
   "author": {
     "name": {{ site.author.name | jsonify }},

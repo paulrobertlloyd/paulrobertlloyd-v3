@@ -5,7 +5,7 @@
   "name": "{{ site.title }}",
   "short_name": "{{ site.short_title }}",
   "icons": [{
-    "src": "{% asset_path icon.png %}",
+    "src": "/images/icon.png",
     "sizes": "512x512",
     "type": "image/png"
   }],

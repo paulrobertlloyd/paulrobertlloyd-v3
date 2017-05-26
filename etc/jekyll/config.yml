@@ -163,7 +163,6 @@ images:
 assets:
   sources:
     - _assets/fonts
-    - _assets/icons
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/vectors
