@@ -13,8 +13,6 @@ This site is published using [Jekyll][6] and these supporting plugins:
   * [jekyll-paginate-v2][12] by Sverrir Sigmundarson
   * [jekyll-sitemap][13] by GitHub, Inc.
   * [jekyll-slugify_underscore][14] by Paul Robert Lloyd
-  * [jekyll-tagging-related_posts][15] by Toshimaru
-  * [jekyll-typogrify][16] by Myles Braithwaite
   * [Simple Jekyll Search][17] by Christian Fei
 
 Other notable tools and services used to build this site include:
@@ -39,8 +37,6 @@ Pages are semantically structured using valid [HTML5][22] with presentational de
 [12]: https://rubygems.org/gems/jekyll-paginate-v2
 [13]: https://rubygems.org/gems/jekyll-sitemap
 [14]: https://rubygems.org/gems/jekyll-slugify_underscore
-[15]: https://rubygems.org/gems/jekyll-tagging-related_posts
-[16]: https://rubygems.org/gems/jekyll-typogrify
 [17]: https://github.com/christian-fei/Simple-Jekyll-Search
 [18]: https://npmjs.com/package/fontfaceobserver
 [19]: https://github.com/scottjehl/picturefill
