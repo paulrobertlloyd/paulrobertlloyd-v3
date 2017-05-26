@@ -15,17 +15,17 @@ permalink: /journal/feed.json
     "avatar": {{ site.author.avatar | jsonify }}
   },
   {% assign journal = site.documents | where:"journal",true | sort:"date" | reverse %}
-  "items": [{% for post in journal limit:25 %}
+  "items": [{% for item in journal limit:25 %}
     {
-      "id": {{ post.id | jsonify }},
-      "url": {{ post.url | prepend:site.url | jsonify }},
-      {% if post.link %}"external_url": {{ post.link | jsonify }},{% endif %}
-      "title": {{ post.title | smartify | jsonify }},
-      "summary": {{ post.excerpt | jsonify }},
-      {% if post.image.url %}"image": {{ post.image.url | prepend:site.url | jsonify }},{% endif %}
-      "content_html": {{ post.content | markdownify | jsonify }},
-      "date_published": {{ post.date | date_to_xmlschema | jsonify }},
-      {% if post.tags %}"tags": {{ post.tags | jsonify }}{% endif %}
+      "id": {{ item.id | jsonify }},
+      "url": {{ item.url | prepend:site.url | jsonify }},
+      {% if item.link %}"external_url": {{ item.link | jsonify }},{% endif %}
+      "title": {{ item.title | smartify | jsonify }},
+      "summary": {{ item.excerpt | jsonify }},
+      {% if item.image.url %}"image": {{ item.image.url | prepend:site.url | jsonify }},{% endif %}
+      "content_html": {{ item.content | markdownify | jsonify }},
+      "date_published": {{ item.date | date_to_xmlschema | jsonify }},
+      {% if item.tags %}"tags": {{ item.tags | jsonify }}{% endif %}
     }{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}]
 }

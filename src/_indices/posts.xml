@@ -17,41 +17,40 @@ permalink: /journal/feed.xml
   <icon>{{ site.url }}{% asset_path icon.png %}</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 
-  {% for post in site.posts limit:25 %}
+  {% assign journal = site.documents | where:"journal",true | sort:"date" | reverse %}
+  {% for item in journal limit:25 %}
   <entry>
-    {% case post.type %}
-    {% when "gallery" %}
+    {% case item.collection %}
+    {% when "galleries" %}
       {% assign title_prefix = "Gallery: " %}
-    {% when "link" %}
+    {% when "links" %}
       {% assign title_prefix = "Link: " %}
-    {% when "entry" %}
+    {% else %}
       {% assign title_prefix = "★ " %}
     {% endcase %}
-    <id>{{ site.url }}{{ post.id }}</id>
-    <title>{{ title_prefix }}{{ post.title | markdownify | strip_html | xml_escape }}</title>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <link href="{{ site.url }}{{ post.url }}"/>
+    <id>{{ site.url }}{{ item.id }}</id>
+    <title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>
+    <updated>{{ item.date | date_to_xmlschema }}</updated>
+    <link href="{{ site.url }}{{ item.url }}"/>
     <content type="html">
 <![CDATA[
-{% if post.image.url %}
-  {% figure caption:"{{ post.image.caption }}" %}
-    {% include image.html path=post.image.url %}
+{% if item.image.url %}
+  {% figure caption:"{{ item.image.caption }}" %}
+    {% include image.html path=item.image.url %}
   {% endfigure %}
 {% endif %}
 
-{% if post.embed %}
+{% if item.embed %}
   {% figure %}
-    {% include embed.html url=post.link %}
+    {% include embed.html url=item.link %}
   {% endfigure %}
 {% endif %}
 
-{{ post.content | markdownify }}
-{% case post.type %}
-{% when "gallery" %}
-  <p><a href="{{ post.url }}">View this gallery &#10217;</a></p>
-{% when "link" %}
-  <p><a href="{{ post.link.url }}">Visit this link &#10217;</a></p>
-{% endcase %}
+{{ item.content | markdownify | strip_newlines }}
+
+{% if item.collection == "links" %}
+  <p><a href="{{ item.link }}">Visit this link &#10217;</a></p>
+{% endif %}
 ]]>
     </content>
   </entry>

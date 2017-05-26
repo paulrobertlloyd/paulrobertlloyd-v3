@@ -12,15 +12,16 @@ layout: default
 
   <div class="c-section">
   {% for item in page.posts %}
-    {% if item.collection == "links" %}
-      {% include item/link.html %}
-    {% elsif item.collection == "galleries" %}
+    {% case item.collection %}
+    {% when "galleries" %}
       {% include item/gallery.html %}
-    {% elsif item.collection == "notes" %}
+    {% when "links" %}
+      {% include item/link.html %}
+    {% when "notes" %}
       {% include item/entry.html %}
     {% else %}
       {% include item/entry.html %}
-    {% endif %}
+    {% endcase %}
   {% endfor %}
   </div>
 </section>
