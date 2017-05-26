@@ -4,7 +4,7 @@ series: dissertation
 date: '2002-06-01 00:00:09 +0000'
 excerpt: ''
 ---
-Although all the BBC's news programmes contained similar elements and musical scores, there was no consistent branding across the programmes. With each having its own editorial staff and defined 'personalities' meant graphics were drawn many times over, following different styles and conventions used for each bulletin. As a measure of cost cutting, as well as the benefits of a single united brand, all news output was unified in 1994.
+{% include chapters.html %} Although all the BBC's news programmes contained similar elements and musical scores, there was no consistent branding across the programmes. With each having its own editorial staff and defined 'personalities' meant graphics were drawn many times over, following different styles and conventions used for each bulletin. As a measure of cost cutting, as well as the benefits of a single united brand, all news output was unified in 1994.
 
 The centre piece of this new unity was a 'virtual studio' that was almost completely computer generated and was the main feature of programmes titles. For these a virtual glass pane depicting the BBC's coat of arms was set in the foreground, with the news desk in the background with studio lights above lighting it. The start of the bulletins now began with the BBC logo alongside the word NEWS, creating a sub-brand of the BBC.
 

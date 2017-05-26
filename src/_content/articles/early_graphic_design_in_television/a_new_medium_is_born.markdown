@@ -4,7 +4,7 @@ series: early_graphic_design_in_television
 date: '1999-03-01 00:00:01 +0000'
 excerpt: ''
 ---
-On the 27th January 1926 in Soho, London, John Logie Baird was making history by successfully demonstrating his primitive television system to a public audience. Almost eleven years later, the British Broadcasting Corporation (BBC) began broadcasting the world's first regular high-definition television service, on the 2nd of November 1936.
+{% include chapters.html %} On the 27th January 1926 in Soho, London, John Logie Baird was making history by successfully demonstrating his primitive television system to a public audience. Almost eleven years later, the British Broadcasting Corporation (BBC) began broadcasting the world's first regular high-definition television service, on the 2nd of November 1936.
 
 Television broadcasts were suspended with the outbreak of World War II. When they resumed in 1946, television started to become very successful, especially in Britain with coverage of the wedding procession of Princess Elizabeth and the Duke of Edinburgh in 1947. Originally only available in London and the Home Counties, three new transmitters erected across the country between 1949 and 1952, and television soon became available to a greater number of people.
 

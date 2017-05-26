@@ -4,7 +4,7 @@ series: dissertation
 date: '2002-06-01 00:00:04 +0000'
 excerpt: ''
 ---
-As in other areas of contemporary marketing, the idea of "the brand" replaced older models of production and sales. Television companies saw a key role in the development of brands as having identities that were different to competitors which could be recognised and valued by their target audiences.
+{% include chapters.html %} As in other areas of contemporary marketing, the idea of "the brand" replaced older models of production and sales. Television companies saw a key role in the development of brands as having identities that were different to competitors which could be recognised and valued by their target audiences.
 
 The first real attempt to create a brand to rival Channel 4's came in 1989 when the Independent Television Association decided to create a new ITV corporate brand for its fragmented network, that would provide a consistent image across its regions with a stylish and meaningful design.
 

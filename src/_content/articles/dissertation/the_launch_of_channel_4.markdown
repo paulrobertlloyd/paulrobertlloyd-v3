@@ -4,7 +4,7 @@ series: dissertation
 date: '2002-06-01 00:00:03 +0000'
 excerpt: ''
 ---
-The launch of Channel 4 in 1982 saw the first new television channel since BBC2, and heralded in a whole new era of television. Channel 4 was to be a channel aimed towards minority and neglected interests, would take risks and unlike the other channels at that time, was to commission programmes from independent programme makers -- acting more like a publisher than a broadcaster.
+{% include chapters.html %} The launch of Channel 4 in 1982 saw the first new television channel since BBC2, and heralded in a whole new era of television. Channel 4 was to be a channel aimed towards minority and neglected interests, would take risks and unlike the other channels at that time, was to commission programmes from independent programme makers -- acting more like a publisher than a broadcaster.
 
 It wasn't only the channel that was to be new and original however. Its identity and presentation style devised by Robinson Lambie-Nairn, was to have a profound effect on graphic design in television throughout the eighties.
 
