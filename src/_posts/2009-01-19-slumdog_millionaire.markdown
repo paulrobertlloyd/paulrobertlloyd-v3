@@ -3,7 +3,7 @@ title: Slumdog Millionaire
 date: '2009-01-19 01:08:41 +0000'
 excerpt: Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire.
 image:
-  url: 2009/01/slumdog_millionaire.jpg
+  src: 2009/01/slumdog_millionaire.jpg
   caption: Ayush Mahesh Khedekar as the young Jamal Malik
 tags:
   - Film
@@ -20,7 +20,7 @@ Many critics have mentioned the excellent acting by the younger cast members, wh
 The film shines a very honest light on Mumbai and India, and never seems to resort to stereotypes, the exception being perhaps the films closing credits which features a Bollywood type dance scene, yet this acts as a way to celebrate the story you have just witnessed more than anything else.
 
 {% figure caption:"Official trailer" %}
-{% include embed.html url="https://www.youtube.com/watch?v=AIzbwV7on6Q" title="Slumdog Millionaire - Official trailer" %}
+{% include embed.html src="https://www.youtube.com/watch?v=AIzbwV7on6Q" title="Slumdog Millionaire - Official trailer" %}
 {% endfigure %}
 
 With awards season upon us there is a crop of good films I'm hopeful to catch in the coming weeks but of all of them, Slumdog seems to be the one that has caught the critics and publics imagination alike. It's certainly one not to be missed.

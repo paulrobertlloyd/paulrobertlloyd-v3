@@ -3,7 +3,7 @@ title: The King's Speech
 date: '2011-02-13 23:13:23 +0000'
 excerpt: The King's Speech is undoubtedly one of the most successful independent British films ever made, yet some see this popularity as problematic given the artistic licence given to the events it portrays.
 image:
-  url: 2011/02/the_kings_speech.jpg
+  src: 2011/02/the_kings_speech.jpg
   caption: Colin Firth in The King's Speech
 tag:
   - Film
@@ -22,7 +22,7 @@ The closing speech is given by Prince Albert, Duke of York, second son of George
 The Prince tries several unsuccessful treatments to cure his impediment until his wife, the Duchess of York (Helena Bonham Carter) persuades him to see Lionel Logue (Geoffrey Rush), an unconventional Australian speech therapist. Logue discovers the psychological roots behind Bertie's stammer, and with the aid of breathing techniques, tongue twisters and much swearing, helps him overcome his handicap.
 
 {% figure caption:"Official trailer" %}
-{% include embed.html url="https://www.youtube.com/watch?v=pzI4D6dyp_o" title="The King's Speech - Official trailer" %}
+{% include embed.html src="https://www.youtube.com/watch?v=pzI4D6dyp_o" title="The King's Speech - Official trailer" %}
 {% endfigure %}
 
 Firth's portrayal of Bertie is sublime. His stammer feels genuine and lacking in any obvious method, instead drawing you into the emotions that result having such difficulty speaking. Whilst visibly distressing, and with a story set against the run up to war, there remained plenty of moments for comedy. In fact, much of the film depicts an underlying lightheartedness, especially in the exchanges between Bertie's family and with Logue.

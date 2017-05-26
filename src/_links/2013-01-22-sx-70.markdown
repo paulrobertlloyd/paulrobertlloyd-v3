@@ -1,8 +1,8 @@
 ---
 title: SX-70
 date: '2013-01-22 00:04:17 +0000'
-link: https://www.youtube.com/watch?v=Lo_1pyQ7xvc
-embed: true
+embed:
+  src: https://www.youtube.com/watch?v=Lo_1pyQ7xvc
 theme: dark
 tags:
   - Video

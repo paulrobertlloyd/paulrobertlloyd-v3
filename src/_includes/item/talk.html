@@ -1,10 +1,10 @@
 <article class="c-item c-item--talk  h-event">
   <h1 class="c-item__title  p-name">
-    <a class="u-url" href="{{ item.url }}" rel="bookmark">{{ item.meta.event | smartify }}</a>
+    <a class="u-url" href="{{ item.url }}" rel="bookmark">{{ item.event | smartify }}</a>
   </h1>
 
   <footer class="c-item__footer">
-    <span class="u-separate  p-location">{{ item.meta.location }}</span>
-    <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+    <span class="u-separate  p-location">{{ item.location }}</span>
+    <time class="dt-start" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
   </footer>
 </article>

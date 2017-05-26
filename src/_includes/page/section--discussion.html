@@ -1,7 +1,6 @@
-{% if page.discussion %}
-{% capture entry_id %}{{ page.path | remove:"_posts/entries/" | remove:"_posts/links/" | remove:".markdown" }}{% endcapture %}
+{% capture entry_id %}{{ page.path | remove: "_posts/entries/" | remove: "_posts/links/" | remove: ".markdown" }}{% endcapture %}
 {% for discussion in site.discussions %}
-  {% capture discussion_id %}{{ discussion.path | remove:"_discussions/" | remove:".markdown" }}{% endcapture %}
+  {% capture discussion_id %}{{ discussion.path | remove: "_discussions/" | remove: ".markdown" }}{% endcapture %}
   {% if discussion_id == entry_id %}
     {% capture discussion_count %}{{ discussion.remarks | size }}{% endcapture %}
   {% endif %}
@@ -34,4 +33,3 @@
     </div>
   </div>
 </section>
-{% endif %}

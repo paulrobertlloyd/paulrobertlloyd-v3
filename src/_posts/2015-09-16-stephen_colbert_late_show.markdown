@@ -4,7 +4,7 @@ date: '2015-09-16 20:49:00 +0100'
 location: Brighton, England
 excerpt: 'A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.'
 image:
-  url: 2015/09/stephen_colbert_late_show.jpg
+  src: 2015/09/stephen_colbert_late_show.jpg
   caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS'
 tags:
   - Stephen Colbert
@@ -20,7 +20,7 @@ Now, having watched clips from his first week sat behind the desk inside a renov
 
 On any other show, an interview with Uber's CEO [Travis Kalanick][5] would have been fawning and over congratulatory, but Colbert's questions didn't avoid the controversies surrounding this company. It also revealed Kalanick's rather hollow and evasive personality:
 
-{% include embed.html url="https://www.youtube.com/watch?v=wGdjLv8neBs" title="Travis Kalanick Interview" %}
+{% include embed.html src="https://www.youtube.com/watch?v=wGdjLv8neBs" title="Travis Kalanick Interview" %}
 
 With Colbert no longer playing the character of a "[well-intentioned, poorly informed, high-status idiot][6]", and with the exaggerated conceit of political punditry stripped away, it appears we may still get the same satire and humour, but with a more open, honest and [warmer][7] host. I think it works.
 

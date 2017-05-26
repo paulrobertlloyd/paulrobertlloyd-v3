@@ -2,7 +2,7 @@
 title: St. Giles' Cathedral
 date: '2011-09-05 00:08:59 +0100'
 image:
-  url: 2011/09/st_giles_cathedral.jpg
+  src: 2011/09/st_giles_cathedral.jpg
 tags:
   - Photography
   - Edinburgh

@@ -13,7 +13,7 @@ With three years of iPhone ownership I've become accustomed to the design and be
 Thankfully, with Clearleft having acquired a few different devices for mobile testing, I can spend a little time with each to learn how they work. First up; Windows Phone 7.
 
 {% figure %}
-{% include image.html path="2011/10/windows_phone_7.jpg" alt="Windows Phone 7" %}
+{% include image.html src="2011/10/windows_phone_7.jpg" alt="Windows Phone 7" %}
 {% endfigure %}
 
 ## Initial Impressions

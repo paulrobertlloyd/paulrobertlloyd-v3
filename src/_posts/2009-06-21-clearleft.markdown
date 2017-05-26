@@ -4,7 +4,7 @@ date: '2009-06-21 17:30:00 +0100'
 location: Littlehampton, England
 excerpt: Continuing the trend of this blog documenting events that happened several weeks ago, this month saw me become the ninth member of the Brighton based web agency Clearleft.
 image:
-  url: 2009/06/clearleft.jpg
+  src: 2009/06/clearleft.jpg
   caption: 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)'
 tags:
   - Personal
@@ -21,7 +21,7 @@ I was planning to use my [trip around Europe][3] in May to decide which directio
 
 Shortly before leaving for Europe, [Andy][4] asked if I would like to join the company full time. I'd been offered the opportunity to join Clearleft a few times before, but now everything felt right -- no doubt helped by having already worked alongside the team.
 
-{% include image.html preset="supporting" path="2009/06/clearleft_logo.png" class="u-align-right" alt="Clearleft logo" %}Without trying to sound too corny, I'm not sure I would have given up freelancing for any other company.
+{% include image.html preset="supporting" src="2009/06/clearleft_logo.png" class="u-align-right" alt="Clearleft logo" %}Without trying to sound too corny, I'm not sure I would have given up freelancing for any other company.
 
 I love that they are a small yet multi-disciplined agency. Two well-respected conferences in the shape of [UX London][5] and [dConstruct][6], [workshops][7], a [usability testing application][8] and an internship programme demonstrate a desire not only to try different things, but contribute to the wider community.
 

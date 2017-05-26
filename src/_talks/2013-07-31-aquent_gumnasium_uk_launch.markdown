@@ -1,14 +1,11 @@
 ---
 title: Keep Up!
 date: '2013-07-31 16:00:00 +0100'
-excerpt: 'Aquent Gymnasium is an online learning platform that offers free courses for designers looking to improve their web development skills. This is the talk I gave at their UK Launch event.'
-link: https://speakerdeck.com/paulrobertlloyd/keep-up
+location: London, England
+event: Aquent Gymnasium UK Launch
+excerpt: Aquent Gymnasium is an online learning platform that offers free courses for designers looking to improve their web development skills. This is a transcript of the talk I gave at their UK Launch event.
 embed:
-  id: e4744a70dcc8013041507e23ed634b90
-meta:
-  event: 'Aquent Gymnasium UK Launch'
-  location: 'London, England'
-  resources: '[Notes](/downloads/2013/07/keep_up.pdf)'
+  src: https://speakerdeck.com/player/e4744a70dcc8013041507e23ed634b90
 ---
 ## An Introduction
 In 15 minutes I hope to give you an insight into the many opportunities and challenges facing web designers in 2013. But first, a little bit about myself.
@@ -47,7 +44,7 @@ Understanding these basic components will not only make you a smarter developer,
 The move to web standards seemed like such an upheaval at the time, but it pales in comparison to the challenges we're facing today. Back then, we had to support just a handful of browsers. Now our products need to work across a range of devices, each with different features and capabilities.
 
 {% figure caption:"A collection of Internet connected devices. Photograph: [Brad Frost](https://www.flickr.com/photos/brad_frost/7387823392/)" %}
-{% include image.html path="2013/08/keep_up_devices.jpg" %}
+{% include image.html src="/2013/08/keep_up_devices.jpg" %}
 {% endfigure %}
 
 The above image shows just a subset of the devices we need to cater for. It doesn't show a television, or any game consoles -- who knows if we'll soon be talking about web-enabled iWatches! Such is the range and diversity of connected devices, it's senseless targeting a particular subset, particularly as user habits continue to change. Terms such as 'mobile', 'tablet' or 'desktop' have become almost meaningless.
@@ -68,7 +65,7 @@ There are always those that fail to understand the web. They can be seen trying 
 Others have come to recognise the unique characteristics of the web, and in doing so, are attempting to solve problems nobody has encountered before. I mean, how on earth do you design something that can be infinitely adaptable? It often feels like we are entering a period of enlightenment, a renaissance even!
 
 {% figure caption:"Given the constraints of early television, an identifiable aesthetic emerged" %}
-{% include image.html path="2013/08/keep_up_aesthetic.png" %}
+{% include image.html src="/2013/08/keep_up_aesthetic.png" %}
 {% endfigure %}
 
 Although there a challenges specific to web design, there is much we can learn from other industries. For example, the issues we face are similar to those television graphic designers experienced during the mid-sixties. At that time, television was a crude medium; low-definition, black and white. Using high contrast illustrations and bold type, and influenced in part by optical and pop art fashion of the time, its designers arrived at an aesthetic suited to these limitations. We need to be thinking about the web in a similar way; [what aesthetic approach is appropriate to the web][11]?

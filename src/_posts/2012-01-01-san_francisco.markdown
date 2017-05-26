@@ -4,7 +4,7 @@ series: north_america_2011
 date: '2012-01-01 23:44:07 +0000'
 excerpt: For the final leg of my North American tour I transcended the West Coast on Amtrak's Coast Starlight. Getting to San Francisco wouldn't be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm.
 image:
-  url: 2012/01/san_francisco.jpg
+  src: 2012/01/san_francisco.jpg
   caption: Sun setting over Ocean Beach
 tags:
   - Travel
@@ -25,7 +25,7 @@ See also: [Stay hungry, stay foolish][10]. We talked a lot about the other Steve
 The gluttony of food (and friends) continued the next day, as I joined [Tom][11] for brunch at [Universal Cafe][12]. Yet the main event would be the wedding of Dan and Liz. They were getting married in [Haas-Lilienthal][13], a beautiful victorian house that survived the 1906 earthquake and fire. A small intimate affair, I was offered yet more wonderful food, which I enjoyed in the company of David and Athena.
 
 {% figure caption:"Scenes from San Francisco: The Raygun Gothic Rocket, a Blue Bottle coffee and the Shell Building from Market Street" %}
-{% include image.html path="2012/01/san_francisco_scenes.jpg" %}
+{% include image.html src="2012/01/san_francisco_scenes.jpg" %}
 {% endfigure %}
 
 My last day in San Francisco was also the last of this trip. With my flight departing later that evening, I spent the afternoon on [Ocean Beach][14], where gusty winds were proving useful to those flying their kites. I headed up to the [Cliff House][15], visiting the camera obscura before enjoying some clam chowder and miserable waitressing in [the bistro][16]. With time being called on my holiday, I headed back to the Muni stop, leaving enough time to watch the sun set over the sand dunes. A fitting end to a fantastic trip.

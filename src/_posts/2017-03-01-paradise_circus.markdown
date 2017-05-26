@@ -12,7 +12,7 @@ tags:
 I had braced myself for its eventual fate, but seeing footage of Birmingham Central Library being demolished still brought a tear to my eye:
 
 {% figure caption:"Time-lapse video documenting the demolition of Birmingham Central Library" class:"u-bleed" %}
-{% include embed.html url="https://www.youtube.com/watch?v=hxvfIjddE6w" title="Example video" %}
+{% include embed.html src="https://www.youtube.com/watch?v=hxvfIjddE6w" title="Example video" %}
 {% endfigure %}
 
 A [second video][1] brings into sharp relief the reverence we have for buildings built during the reign of Queen Victoria -- such as the [Council House][2] and [Town Hall][3] -- while those of a more recent vintage fall prey to the bulldozers.

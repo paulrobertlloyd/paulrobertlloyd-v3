@@ -6,15 +6,15 @@ layout: default
 
   <div class="c-section c-section--body">
     <div class="s-prose s-prose--body  e-content">
-      {% if page.image.url %}
+      {% if page.image.src %}
         {% figure caption:"{{ page.image.caption }}" class:"u-bleed" %}
-          {% include image.html preset=page.image.preset path=page.image.url %}
+          {% include image.html src=page.image.src preset=page.image.preset %}
         {% endfigure %}
       {% endif %}
 
-      {% if page.embed %}
-        {% figure class:"u-bleed" %}
-          {% include embed.html url=page.link title=page.title %}
+      {% if page.embed.src %}
+        {% figure caption:"{{ page.image.caption }}" class:"u-bleed" %}
+          {% include embed.html src=page.embed.src title=page.title ratio=page.embed.ratio %}
         {% endfigure %}
       {% endif %}
 
@@ -22,9 +22,13 @@ layout: default
     </div>
   </div>
 
-  {% include page/section--discussion.html %}
+  {% if page.discussion %}
+    {% include page/section--discussion.html %}
+  {% endif %}
 
-  {% include page/section--related.html %}
+  {% if page.series %}
+    {% include page/section--related.html %}
+  {% endif %}
 
-  {% include page/footer.html %}
+  {% include page/footer.html strftime="%e %B %Y" %}
 </article>

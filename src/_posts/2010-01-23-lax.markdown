@@ -4,7 +4,7 @@ series: australasia_2009
 date: '2010-01-23 19:07:09 +0000'
 excerpt: I hoped that almost missing my flight would be the worst my trip to New Zealand would have to offer, but thanks to overzealous immigration officials at LAX, that was nothing but a minor blip.
 image:
-  url: 2010/01/lax.jpg
+  src: 2010/01/lax.jpg
   caption: 'The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photograph: [J Brew](https://www.flickr.com/photos/brewbooks/225876606/)'
 tags:
   - Travel

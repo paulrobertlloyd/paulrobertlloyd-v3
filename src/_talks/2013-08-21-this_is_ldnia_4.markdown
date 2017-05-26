@@ -1,17 +1,18 @@
 ---
 title: This is for Everyone
 date: '2013-08-21 20:00:00 +0100'
-excerpt: 'Graphic designers have long honed their craft to meet the specific constraints of television. As web designers begin to understand the true nature of our own medium, isn’t about time we did the same?'
-link:  https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-ldnia-number-4
+location: London, England
+event: 'This is LDNIA #4'
+excerpt: Slides from my presentation at LDNIA
 embed:
-  id: e74696d0f1940130528476a75523d3dc
-meta:
-  event: 'This is LDNIA #4'
-  location: 'London, England'
-  resources: '[Notes](/downloads/2013/09/this_is_for_everyone.pdf)'
+  src: https://speakerdeck.com/player/e74696d0f1940130528476a75523d3dc
 ---
-## References
+Graphic designers have long honed their craft to meet the specific constraints of television. As web designers begin to understand the true nature of our own medium, isn't about time we did the same?
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-ldnia-number-4)
+  * [Notes](/downloads/2013/09/this_is_for_everyone.pdf)
+
+## References
   * Berners-Lee, T. (2010, December 1). [Long Live the Web: A Call for Continued Open Standards and Neutrality](http://www.scientificamerican.com/article/long-live-the-web/). <cite>Scientific American</cite>
   * Allsopp, J. (2000, April 7). [A Dao of Web Design](http://alistapart.com/article/dao). <cite>A List Apart</cite>
   * Frost, B. (2013, January 28). [Performance As Design](http://bradfrost.com/blog/post/performance-as-design/). <cite>bradfrost.com</cite>

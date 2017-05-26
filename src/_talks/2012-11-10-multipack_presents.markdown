@@ -1,17 +1,18 @@
 ---
 title: Designing for Everyone
 date: '2012-11-10 16:10:00 +0000'
-excerpt: 'With the help of Doctor Who and the Avengers, discover how you can embrace the unpredictable nature of the web.'
-link: https://speakerdeck.com/paulrobertlloyd/designing-for-everyone
+location: 'Birmingham, England'
+event: 'Multipack Presents: Show and Tell'
+excerpt: Slides from my presentation at Multipack Presents
 embed:
-  id: ca64bd300e8b0130de471231380938d0
-meta:
-  event: 'Multipack Presents: Show and Tell'
-  location: 'Birmingham, England'
-  resources: '[Notes](/downloads/2012/11/designing_for_everyone.pdf)'
+  src: https://speakerdeck.com/player/ca64bd300e8b0130de471231380938d0
 ---
-## References
+With the help of Doctor Who and the Avengers, discover how you can embrace the unpredictable nature of the web.
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/designing-for-everyone)
+  * [Notes](/downloads/2012/11/designing_for_everyone.pdf)
+
+## References
   * Berners-Lee, T. (2010, December 1) [Long Live the Web: A Call for Continued Open Standards and Neutrality](http://www.scientificamerican.com/article/long-live-the-web/). <cite>Scientific American</cite>
   * Allsopp, J. (2000, April 7) [A Dao of Web Design](http://alistapart.com/article/dao). <cite>A List Apart</cite>
   * Harasymiv, A. (2011, September 27) [Dynamic Views: seven new ways to share your blog with the world](http://buzz.blogger.com/2011/09/dynamic-views-seven-new-ways-to-share.html). <cite>Blogger Buzz</cite>

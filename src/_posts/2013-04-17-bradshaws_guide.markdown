@@ -4,7 +4,7 @@ date: '2013-04-17 00:48:12 +0100'
 location: San Francisco, USA
 excerpt: Based on the 1866 edition of George Bradshaw's handbook for tourists using Britain's nascent railway network, my latest project puts his historical insights into the hands of a new generation, many of whom use the same routes he described 150 years ago.
 image:
-  url: 2013/04/bradshaws_guide.png
+  src: 2013/04/bradshaws_guide.png
   caption: Bradshaw's Guide being viewed on an iPhone
 tags:
   - Projects
@@ -26,7 +26,7 @@ Bradshaw's work is well suited to hypertext, with stations categorised by locati
 Besides the historical, technical and artistic aspects, making Bradshaw's work more widely available might also encourage people to spend more time on the railways and holiday at home, rather than fly overseas (readers should ignore the author's current location).
 
 {% figure caption:"Bradshaw's Guide viewed on an iPad" %}
-{% include image.html path="2013/04/bradshaws_guide_ipad.png" %}
+{% include image.html src="2013/04/bradshaws_guide_ipad.png" %}
 {% endfigure %}
 
 ## Technical Platform

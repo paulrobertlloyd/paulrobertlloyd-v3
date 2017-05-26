@@ -4,7 +4,7 @@ date: '2016-03-13 00:55:00 +0000'
 location: Brighton, England
 excerpt: 'Because it uses logical values, Flexbox layouts will automatically align according to a document''s text-direction. Well, almost.'
 image:
-  url: 2016/03/spock.jpg
+  src: 2016/03/spock.jpg
   caption: 'Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg)'
 crosspost_to_medium: true
 tags:

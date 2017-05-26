@@ -4,7 +4,7 @@ date: '2016-06-22 02:25:00 +0100'
 location: Amsterdam, The Netherlands
 excerpt: 'Tomorrow is the referendum on Britain''s membership of the European Union. I''ve wanted to write about this for some time, but I''ve delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain. The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.'
 image:
-  url: 2016/06/eu_referendum.jpg
+  src: 2016/06/eu_referendum.jpg
   caption: 'Pastiche of Michelangelo''s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'
   preset: anamorphic
 crosspost_to_medium: true
@@ -44,7 +44,7 @@ Is Europe perfect? Far from it. Could it be more democratic? Certainly -- but th
 What could we achieve inside Europe if instead of complaining, obstructing and abstaining, we took a more proactive and positive role?
 
 {% figure caption:"Gordon Brown: Lead not Leave" class:"u-bleed" %}
-{% include embed.html url="https://www.youtube.com/watch?v=gPX9MLALjAE" title="Gordon Brown: Lead not Leave" %}
+{% include embed.html src="https://www.youtube.com/watch?v=gPX9MLALjAE" title="Gordon Brown: Lead not Leave" %}
 {% endfigure %}
 
 ## Brexit and break things

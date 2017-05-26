@@ -29,11 +29,11 @@ Furthermore, the site failed to reflect the best practices its authors advocated
 Where the previous design used a rigid template across all sections of the site, which often dominated the content, I created a series of responsive templates each suited the task in hand. These were supported by application-like navigation conventions.
 
 {% figure caption:"Article page. The interface is recessed to help readers focus on the content. Note also the diamond crop around author photos, which helps create a visual tension on the page." class:"u-extend" %}
-{% include image.html path="projects/24_ways/article.png" class="u-framed" %}
+{% include image.html src="projects/24_ways/article.png" class="u-framed" %}
 {% endfigure %}
 
 {% figure caption:"Home page. This, as well as index and collection pages, showcases articles by placing them within a grid to evoke the feel of a calendar." class:"u-extend" %}
-{% include image.html path="projects/24_ways/archive.png" class="u-framed" %}
+{% include image.html src="projects/24_ways/archive.png" class="u-framed" %}
 {% endfigure %}
 
 Keen to exploit the very idea of 24 ways -- different articles, written by different authors, published over twenty-four days for almost nearly a decade -- I created a palette based on the publication's signature red, that subtly changes over time based on both day and year variables.

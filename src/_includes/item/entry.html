@@ -8,16 +8,16 @@
   <footer class="c-item__footer">
     <p class="c-item__meta">
       <a class="u-url" href="{{ item.url }}" rel="bookmark">
-        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date:"%e %B %Y" }}</time>
+        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
       </a>
     </p>
   </footer>
 
   <div class="c-item__main">
     <div class="s-prose s-prose--body  p-summary">
-      {% if item.image.url %}
+      {% if item.image.src %}
       <a class="c-item__media u-bleed u-block-link" href="{{ item.url }}">
-        {% include image.html preset=item.image.preset path=item.image.url class="u-photo" alt=item.title %}
+        {% include image.html src=item.image.src preset=item.image.preset class="u-photo" alt=item.title %}
       </a>
       {% endif %}
       {{ item.excerpt | markdownify | smartify }}

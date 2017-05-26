@@ -1,18 +1,18 @@
 ---
 title: Responsive Principles
 date: '2015-06-12 09:00:00 +0200'
-excerpt: 'Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.'
-link: https://vimeo.com/130840833
-embed: true
-meta:
-  event: 'CSS Day 2015'
-  location: 'Amsterdam, The Netherlands'
-  resources: |
-    * [Slides](https://speakerdeck.com/paulrobertlloyd/responsive-principles-css-day)
-    * [Notes](/downloads/2015/06/responsive_principles.pdf)
+location: Amsterdam, The Netherlands
+event: CSS Day 2015
+excerpt: Video and resources from my presentation at CSS Day
+embed:
+  src: https://vimeo.com/130840833
 ---
-## References
+Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/responsive-principles-css-day)
+  * [Notes](/downloads/2015/06/responsive_principles.pdf)
+
+## References
   * Cascio, J. (2008). [The Singularity Needs You](http://www.wfs.org/node/840). <cite>The Futurist</cite>
   * Berners-Lee, T. (2010, December). [Long Live the Web: A Call for Continued Open Standards and Neutrality](http://www.scientificamerican.com/article/long-live-the-web/). <cite>Scientific American</cite>
   * Marcotte, M. (2010, May 25). [Responsive Web Design](http://alistapart.com/article/responsive-web-design). <cite>A List Apart</cite>

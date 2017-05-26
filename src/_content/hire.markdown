@@ -6,7 +6,7 @@ landing: true
 permalink: /hire/
 ---
 {% figure class:"u-align-right" %}
-{% include image.html preset="thumbnail" path="hire/me.jpg" alt="A photo of me, Paul Robert Lloyd" %}
+{% include image.html preset="thumbnail" src="hire/me.jpg" alt="A photo of me, Paul Robert Lloyd" %}
 {% endfigure %}
 
 I've worked for design agencies, start-ups and established brands in the fields of journalism ([Channel 4 News][1], the Guardian), technology ([Mozilla][2], [Ning][3]), non-profits ([UNICEF][4], [DACS][5]) and retail (John Lewis, [Nuts.com][6]).

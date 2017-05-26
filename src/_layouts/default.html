@@ -32,7 +32,7 @@
   <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines }}"/>
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   {% if page.image.url %}
-  <meta property="og:image" content="{{ site.url }}/image/640x360/100q/{{ page.image.url }}"/>
+  <meta property="og:image" content="{{ site.url }}/image/640x360/100q/{{ page.image.src }}"/>
   <meta name="twitter:card" content="summary_large_image"/>
   {% else %}
   <meta property="og:image" content="{{ site.url }}{% asset_path icon.png %}"/>

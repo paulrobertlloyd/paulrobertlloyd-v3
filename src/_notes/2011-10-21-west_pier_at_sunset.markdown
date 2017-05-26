@@ -2,7 +2,7 @@
 title: West Pier at Sunset
 date: '2011-10-21 03:40:13 +0100'
 image:
-  url: 2011/10/west_pier_at_sunset.jpg
+  src: 2011/10/west_pier_at_sunset.jpg
 tags:
   - Photography
   - Architecture

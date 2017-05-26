@@ -7,7 +7,7 @@ tags:
   - Comedy
   - Charity
 ---
-{% include image.html preset="thumbnail" path="2009/03/red_nose_day.png" class="u-align-right" alt="Do Something Funny for Money for Red Nose Day '09" %}][1] This Friday is Red Nose Day, the main fundraising event in support of Comic Relief, a charity that supports projects in the UK and Africa. As well as supporting a worthy cause, on another level, I think the event also promotes our nations better nature: the inventiveness of our fund-raising activities, our love of comedy and our willingness to support good causes.
+{% include image.html preset="thumbnail" src="2009/03/red_nose_day.png" class="u-align-right" alt="Do Something Funny for Money for Red Nose Day '09" %}][1] This Friday is Red Nose Day, the main fundraising event in support of Comic Relief, a charity that supports projects in the UK and Africa. As well as supporting a worthy cause, on another level, I think the event also promotes our nations better nature: the inventiveness of our fund-raising activities, our love of comedy and our willingness to support good causes.
 
 The highlight of every Red Nose Day, is the live telethon shown throughout the evening on BBC One. Eight hours are set aside for a show filled with specially filmed sketches from popular comedy programmes, live musical performances and stunts performed by comedians upon reaching certain fund-raising targets.
 

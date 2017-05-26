@@ -1,8 +1,8 @@
 ---
 title: To Fly. To Serve.
 date: '2011-09-27 22:44:50 +0100'
-link: https://www.youtube.com/watch?v=a4JdQi60an0
-embed: true
+embed:
+  src: https://www.youtube.com/watch?v=a4JdQi60an0
 theme: dark
 tags:
   - Advertising

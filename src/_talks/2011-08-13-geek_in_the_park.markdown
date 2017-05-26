@@ -1,14 +1,11 @@
 ---
 title: The Web Native Designer
 date: '2011-08-13 20:00:00 +0100'
-excerpt: 'When print design can lay claim to a history stretching back to the middle ages, it''s no surprise that we''ve applied its methods to the web. As this comparatively new medium approches the same level of ubiquity of paper, it''s underlying technologies adapting to meet this need, but the design process needs to mature too.'
-link: http://speakerdeck.com/u/paulrobertlloyd/p/the-web-native-designer-august-2011
+location: Leamington Spa, England
+event: Geek in the Park 2011
+excerpt: Transcript of my presentation at Geek in the Park
 embed:
-  id: 4e47f175a6aa8f00010073ae
-meta:
-  event: 'Geek in the Park 2011'
-  location: 'Leamington Spa, England'
-  resources: '[Notes](/downloads/2011/08/the_web_native_designer.pdf)'
+  src: https://speakerdeck.com/player/4e47f175a6aa8f00010073ae
 ---
 ## Web Versus Native
 Web versus native has become a common argument in development circles. Here, the word native is used to describe experiences built for mobile devices, designed to take advantage of the platforms they sit on. Yet the omission of native from the other side of this argument is puzzling -- surely applications and content on the web should feel part of that platform too?
@@ -85,7 +82,7 @@ Like many people I've been experimenting with responsive design on my personal b
 Finally we have our behavioural layer. This is often the part that is breaking the web most, as developers build products from this layer inwards.
 
 It's easy to quote high percentage numbers for users with JavaScript enabled, but this is a fools game. Remember those applications that disregard your visual design? They are likely to strip it of any behaviour too. What happens when your website is viewed over a low bandwidth with poor connectivity? What if JavaScript fails to load? What if an error makes a script unresponsive?
- 
+
 Rather than think of fallbacks, we should think of enhancements. Maps are a perfect example. Nearly every map provider allows embedding of static maps. Include these in your page first, and only in the presence of working JavaScript replace with an interactive version.
 
 ## Weren't you meant to be talking about design?

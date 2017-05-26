@@ -1,19 +1,19 @@
 ---
 title: Web Native Design
 date: '2012-05-16 14:00:00 +0100'
-excerpt: 'Having embraced the true nature of the medium, now we need to reframe how we design products for the web.'
-link: https://speakerdeck.com/paulrobertlloyd/web-native-design
+location: Copenhagen, Denmark
+event: 'LBi Denmark: We Do Our Own Stunts'
+excerpt: Slides from my presentation at LBi Denmark
 embed:
-  id: 4fb62c2198523b031e01231d
-meta:
-  event: 'LBi Denmark: We Do Our Own Stunts'
-  location: 'Copenhagen, Denmark'
-  resources: |
-    * [Notes](downloads/2012/05/web_native_design.pdf)
-    * [Audio](/downloads/2012/05/web_native_design.mp3)
+  src: https://speakerdeck.com/player/4fb62c2198523b031e01231d
 ---
-## References
+Having embraced the true nature of the medium, now we need to reframe how we design products for the web.
 
+  * [Slides](https://speakerdeck.com/paulrobertlloyd/web-native-design)
+  * [Notes](downloads/2012/05/web_native_design.pdf)
+  * [Audio](/downloads/2012/05/web_native_design.mp3)
+
+## References
   * Hallmundur, A. (2011, March 24). [Constructing the Grid](http://ministryoftype.co.uk/words/article/constructing-the-grid). <cite>Ministry of Type</cite>
   * Allsopp, J. (2000, April 7). [A Dao of Web Design](http://alistapart.com/article/dao). <cite>A List Apart</cite>
   * Olanoff, D. (2012, May 2). [Apps using Dropbox are being rejected because Apple is playing hardball](http://thenextweb.com/apple/2012/05/02/apps-using-dropbox-are-being-rejected-because-apple-is-playing-hardball/). <cite>The Next Web</cite>

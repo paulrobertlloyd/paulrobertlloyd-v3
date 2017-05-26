@@ -1,4 +1,3 @@
-{% if page.series %}
 {% assign items = site.documents | where: "series", page.series | sort: "date" %}
 <aside class="c-section" role="complementary" aria-labelledby="related">
   <header class="c-section__header">
@@ -13,4 +12,3 @@
   {% endfor %}
   </div>
 </aside>
-{% endif %}

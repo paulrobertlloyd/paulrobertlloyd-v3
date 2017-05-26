@@ -1,8 +1,8 @@
 ---
 title: How to Use a Paper Towel
 date: '2012-05-22 02:13:32 +0100'
-link: https://www.youtube.com/watch?v=2FMBSblpcrc
-embed: true
+embed:
+  src: https://www.youtube.com/watch?v=2FMBSblpcrc
 theme: dark
 tags:
   - Video

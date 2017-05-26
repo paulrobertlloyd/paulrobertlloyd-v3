@@ -1,14 +1,11 @@
 ---
 title: The Web Native Designer
 date: '2011-03-08 10:00:00 +0000'
-excerpt: 'Following the latest trends is fun but can also encourage laziness; you should think about design in terms of a particular brief rather than the particular fashion of the day. Yet it can be useful to focus on underlying trends: how we work, how we communicate with clients and how we''re now starting to appreciate the web as a medium in its own right.'
-link: http://speakerdeck.com/paulrobertlloyd/the-web-native-designer-march-2011
+location: London, England
+event: APA Digital Breakfast
+excerpt: Transcript from my talk at APA''s Digital Breakfast
 embed:
-  id: 4e47ecc8a6aa8f0001007089
-meta:
-  event: 'APA Digital Breakfast'
-  location: 'London, England'
-  resources: '[Notes](/downloads/2011/03/the_web_native_designer.pdf)'
+  src: https://speakerdeck.com/player/4e47ecc8a6aa8f0001007089
 ---
 Today I spoke at the [APA's Digital Breakfast][1] event in London. The APA is an organisation that represents print publishers who produce magazines and editorial content for brand-based consumer magazines. This months event focused around the theme of Web Design Trends; [Chris Mills][2] [spoke about HTML5][3] and [Adam Bankin][4] talked about design beyond the desktop. A summary of my talk follows.
 
@@ -73,7 +70,7 @@ Now, you might be getting an appreciation of not only the different challenges w
 
 **This is a false division**. Any boundaries should be removed.
 
-As much as a visual language has to be developed, a database needs to be designed. In fact, I would go so far as to suggest these terms are interchangeable; development is the act of reproducing a design, each as necessary as the other. Rather than be grouped into two different camps, instead specialisms should be encouraged yet whilst maintaining a set of skills and broad understanding of all aspects of web design. For example, a developer should know as much about good microcopy as a designer has an understanding of databases. 
+As much as a visual language has to be developed, a database needs to be designed. In fact, I would go so far as to suggest these terms are interchangeable; development is the act of reproducing a design, each as necessary as the other. Rather than be grouped into two different camps, instead specialisms should be encouraged yet whilst maintaining a set of skills and broad understanding of all aspects of web design. For example, a developer should know as much about good microcopy as a designer has an understanding of databases.
 
 When I was preparing this talk, I actually started to think perhaps there is a division, between those who care, and those who don't. Designers will often ask for more time to complete a project, whilst developers will want to ship a product as soon as it works. However, if left to designers in search of unattainable perfections, products would never ship. Developers might cite budgets and timelines, but this is often a result of processes that place all responsibility for delivery on their shoulders, often without them having little understanding of a project or involvement early on.
 

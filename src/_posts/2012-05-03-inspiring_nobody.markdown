@@ -13,7 +13,7 @@ discussion: closed
 In 2007, soon after the unveiling of a [much criticised emblem][1], the official website for the London 2012 Olympic Games looked like this:
 
 {% figure caption:"[London2012.com in 2007](http://web.archive.org/web/20070910112153/http://london2012.com/)" %}
-{% include image.html path="2012/05/inspiring_nobody_london2012_2007.png" %}
+{% include image.html src="2012/05/inspiring_nobody_london2012_2007.png" %}
 {% endfigure %}
 
 Regardless of your thoughts on the logo, the overarching brand and associated design language was energetic, brave and innovative.
@@ -21,7 +21,7 @@ Regardless of your thoughts on the logo, the overarching brand and associated de
 This is what the same website looks like today:
 
 {% figure caption:"[London2012.com today](http://web.archive.org/web/20120503215130/http://london2012.com/)" %}
-{% include image.html path="2012/05/inspiring_nobody_london2012_2012.png" %}
+{% include image.html src="2012/05/inspiring_nobody_london2012_2012.png" %}
 {% endfigure %}
 
 Apologetic, safe and secretly hoping nobody notices that it's been redesigned. Take away the logo, and this could be the website for any large corporation -- probably one doing business ten years ago.

@@ -14,7 +14,7 @@ Whilst I certainly understand the arguments made by a vocal minority campaigning
 Having a sovereign that is unelected and hereditary only works on the basis that her government, with the power to enact laws and collect taxes, is democratic and representative of the people. Whilst the Royal Family has modernised and adapted itself to stay relevant (a process that is likely continue on the accession of future monarchs), it seems ministers are less inclined to reform their own institutions in the same way.
 
 {% figure caption:"'The People Say Yes', a video produced by the Yes campaign" %}
-{% include embed.html url="https://www.youtube.com/watch?v=Wl2I-c2xZ-c" title="The People Say Yes" %}
+{% include embed.html src="https://www.youtube.com/watch?v=Wl2I-c2xZ-c" title="The People Say Yes" %}
 {% endfigure %}
 
 One section of Parliament remains particularly undemocratic. Even though the House of Lords was [partly reformed in 1999][5], it was left in such an unfinished state that currently most of its members are appointed by the Prime Minister; in just one year [David Cameron has ennobled 117 people][6], bringing its total to an "unsustainable" 792 members.
@@ -23,7 +23,7 @@ Given the importance of a revising chamber, especially as a means of safeguardin
 
 This is just one of a number of areas awaiting reform; votes for 16-17 year olds is proposed every so often, yet never with enough will to make it into law. Campaign financing, the right of recall and curbs on lobbying are other issues that are equally important but blissfully ignored. That turnout at elections is falling (with this referendum likely to be won as much on turnout as anything else) would suggest our current system is broken, the public disenfranchised.
 
-{% include image.html preset="thumbnail" path="2011/05/yes_to_av.png" class="u-align-right" alt="YES! To Fairer Votes logo" %}It would be surprising if any voting reform would take place if the electorate were to vote no on AV. If AV is a 'dirty little compromise', at least it's a compromise in the right direction. Although I can accept arguments both for and against AV, for me this is a vote on whether we maintain the status quo. Of course I'd prefer not to 'tactically vote' or have my MP hold on to a 'safe seat', but I'd much rather see continued reform towards fairer representation across all parts of government.
+{% include image.html preset="thumbnail" src="2011/05/yes_to_av.png" class="u-align-right" alt="YES! To Fairer Votes logo" %}It would be surprising if any voting reform would take place if the electorate were to vote no on AV. If AV is a 'dirty little compromise', at least it's a compromise in the right direction. Although I can accept arguments both for and against AV, for me this is a vote on whether we maintain the status quo. Of course I'd prefer not to 'tactically vote' or have my MP hold on to a 'safe seat', but I'd much rather see continued reform towards fairer representation across all parts of government.
 
 By voting Yes to AV today, I hope to send this message.
 
