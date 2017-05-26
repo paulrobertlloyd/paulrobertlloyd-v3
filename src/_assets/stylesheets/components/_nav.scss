@@ -5,7 +5,7 @@
 .c-nav__item {
   text-decoration: none;
 
-  &.is-active {
+  [aria-current] {
     font-weight: 700;
   }
 }

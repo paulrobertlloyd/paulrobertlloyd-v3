@@ -2,10 +2,10 @@
   <h1 class="c-navigation__title u-hidden" id="menu">Menu</h1>
 
   <p class="c-navigation__items">
-    <a class="c-navigation__item{% if page.path contains "journal" or page.path contains "_posts" or page.path contains "_discussions" or page.type == "year" or page.type == "month" or page.type == "tag" %} is-active{% endif %}" href="/journal/">Journal</a>
-    <a class="c-navigation__item{% if page.path contains "projects" %} is-active{% endif %}" href="/projects/">Projects</a>
-    <a class="c-navigation__item{% if page.path contains "articles" %} is-active{% endif %}" href="/articles/">Articles</a>
-    <a class="c-navigation__item{% if page.path contains "talks" %} is-active{% endif %}" href="/talks/">Talks</a>
-    <a class="c-navigation__item{% if page.path contains "hire" %} is-active{% endif %}" href="/hire/">Hire Me</a>
+    <a class="c-navigation__item" href="/journal/"{% if page.url contains "journal" or page.journal == true %} aria-current="page"{% endif %}>Journal</a>
+    <a class="c-navigation__item" href="/projects/"{% if page.url contains "projects" %} aria-current="page"{% endif %}>Projects</a>
+    <a class="c-navigation__item" href="/articles/"{% if page.url contains "articles" %} aria-current="page"{% endif %}>Articles</a>
+    <a class="c-navigation__item" href="/talks/"{% if page.url contains "talks" %} aria-current="page"{% endif %}>Talks</a>
+    <a class="c-navigation__item" href="/hire/"{% if page.url contains "hire" %} aria-current="page"{% endif %}>Hire Me</a>
   </p>
 </nav>
