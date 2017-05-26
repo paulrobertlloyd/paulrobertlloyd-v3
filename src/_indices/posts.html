@@ -12,13 +12,14 @@ pagination:
 
   <div class="c-section">
   {% for item in paginator.posts %}
-    {% if item.link %}
-      {% include item/link.html %}
-    {% elsif item.photos %}
+    {% case item.collection %}
+    {% when "galleries" %}
       {% include item/gallery.html %}
+    {% when "links" %}
+      {% include item/link.html %}
     {% else %}
       {% include item/entry.html %}
-    {% endif %}
+    {% endcase %}
   {% endfor %}
   </div>
 </section>
