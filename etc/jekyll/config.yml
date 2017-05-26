@@ -159,12 +159,6 @@ images:
         height: 500
         quality: 88
 
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
 # Plugin: jekyll-assets
 assets:
   sources:
