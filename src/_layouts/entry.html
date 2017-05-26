@@ -22,15 +22,9 @@ layout: default
     </div>
   </div>
 
-  {% include page/section--link.html %}
-
   {% include page/section--discussion.html %}
 
-  {% if page.series %}
-    {% include page/section--series.html %}
-  {% elsif site.related_posts.size >= 1 %}
-    {% include page/section--related.html %}
-  {% endif %}
+  {% include page/section--related.html %}
 
   {% include page/footer.html %}
 </article>
