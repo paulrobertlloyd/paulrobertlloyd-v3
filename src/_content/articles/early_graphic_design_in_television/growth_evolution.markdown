@@ -4,7 +4,7 @@ series: early_graphic_design_in_television
 date: '1999-03-01 00:00:02 +0000'
 excerpt: ''
 ---
-The 22nd of September 1955 at 7:15pm saw the launch of Independent 'commercial' Television (ITV) in Britain, destroying the BBC's 20-year-old monopoly in television. Initially, as with the BBC's first broadcasts, Independent Television was limited to the London area for which the Independent Television Authority (ITA) awarding its first franchise to Associated Rediffusion Ltd.
+{% include chapters.html %} The 22nd of September 1955 at 7:15pm saw the launch of Independent 'commercial' Television (ITV) in Britain, destroying the BBC's 20-year-old monopoly in television. Initially, as with the BBC's first broadcasts, Independent Television was limited to the London area for which the Independent Television Authority (ITA) awarding its first franchise to Associated Rediffusion Ltd.
 
 The launch of ITV meant everything had to start from scratch with much of the expertise poached from the BBC. However this couldn't happen with graphic design, as there was no precedent to follow -- it was only shortly after the employment of John Sewell at the BBC, that the first Head of Design at Rediffusion employed their first graphic designers.
 

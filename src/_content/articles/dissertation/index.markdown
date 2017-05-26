@@ -5,7 +5,7 @@ date: '2002-06-01 00:00:00 +0000'
 excerpt: ''
 permalink: /articles/dissertation/
 ---
-Influenced by the launch identity of Britain's first new television station in almost 20 years, Channel 4, television design in the eighties revolved around the use of computer originated graphics. The graphic style during the nineties was also influenced by the launch of new channels -- but this time hundreds.
+{% include chapters.html %} Influenced by the launch identity of Britain's first new television station in almost 20 years, Channel 4, television design in the eighties revolved around the use of computer originated graphics. The graphic style during the nineties was also influenced by the launch of new channels -- but this time hundreds.
 
 The growth of multi-channel television impacted the traditional terrestrial broadcasters, who for years had little competition, but now needed to re-invent themselves. Branding played a key role, with the creation of visual devices designed to retain their audiences.
 

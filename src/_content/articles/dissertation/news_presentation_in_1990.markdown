@@ -4,7 +4,7 @@ series: dissertation
 date: '2002-06-01 00:00:08 +0000'
 excerpt: ''
 ---
-The computer techniques introduced during the eighties also made a strong impact on the graphics used within televised news.
+{% include chapters.html %} The computer techniques introduced during the eighties also made a strong impact on the graphics used within televised news.
 
 By the early nineties comedy shows such as <cite>The Day Today</cite> made light of this, with heavily computer generated animated titles with clichéd images of globes, eyes, similar urgent sounding music etc. This wasn't far from the truth as both ITN (who provided news for the commerical channels) and the BBC were using such material.
 

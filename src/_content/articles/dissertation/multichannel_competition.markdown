@@ -4,7 +4,7 @@ series: dissertation
 date: '2002-06-01 00:00:07 +0000'
 excerpt: ''
 ---
-Unlike their analogue variants, digital satellite and cable services introduced a new method of browsing their greater number of channels: the Electronic Programme Guide (EPG). This allowed the viewer to browse channels and gain information about other programmes being shown, as well as browse channels by genre i.e. entertainment, sport, arts etc. Now audiences could watch television on a programme by programme basis rather than be dictated by channel schedules.
+{% include chapters.html %} Unlike their analogue variants, digital satellite and cable services introduced a new method of browsing their greater number of channels: the Electronic Programme Guide (EPG). This allowed the viewer to browse channels and gain information about other programmes being shown, as well as browse channels by genre i.e. entertainment, sport, arts etc. Now audiences could watch television on a programme by programme basis rather than be dictated by channel schedules.
 
 This saw idents, end credits and other programme junctions being increasingly used to promote programmes. Channel 4 was the first to do so, using the right hand quarter of screen displaying the channel's logo with information about forthcoming programmes or programme related material that could be purchased whilst the end credits rolled.
 

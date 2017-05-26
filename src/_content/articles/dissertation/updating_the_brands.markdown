@@ -4,7 +4,7 @@ series: dissertation
 date: '2002-06-01 00:00:06 +0000'
 excerpt: ''
 ---
-## Channel 4
+{% include chapters.html %} ## Channel 4
 
 Channel 4's logo now looked embarrassingly similar to that of Channel 5 -- both having a numeral inside a circle (Channel 4's logo was often simplified to using just the one circle).
 

@@ -5,7 +5,7 @@ date: '1999-03-01 00:00:00 +0000'
 permalink: /articles/early_graphic_design_in_television/
 excerpt: The launch of television in 1936 saw the birth of a medium that could be easily exploited and enhanced by graphic design. However the story of graphic design in television is one of -- until recently -- lack of consideration resulting in limited resources and under investment.
 ---
-It was nearly 20 years after the launch of BBC Television, that its first full-time graphic designer was employed, John Sewell, in 1954. This saw the start of a commitment to the profession, but for a long time Graphic Design remained under the control of Scenic Design, when it really should have been its equal, considering the amount of airtime graphic design occupied.
+{% include chapters.html %} It was nearly 20 years after the launch of BBC Television, that its first full-time graphic designer was employed, John Sewell, in 1954. This saw the start of a commitment to the profession, but for a long time Graphic Design remained under the control of Scenic Design, when it really should have been its equal, considering the amount of airtime graphic design occupied.
 
 The graphic designer is required for a whole variety of things: titles and end credits for programmes, graphic material for programme content (stills, captions, animated sequences etc.), on-screen promotion of programmes and the television channel, design of the channels identity and lastly all graphic 'props' for programmes such as dramas or sitcoms with designers having to produce signs, newspapers, packaging etc.
 

@@ -4,7 +4,7 @@ series: early_graphic_design_in_television
 date: '1999-03-01 00:00:05 +0000'
 excerpt: ''
 ---
-The history of graphic design in television is one of triumph over adversity. Ever since its launch in 1936, television has been a medium that has been restrictive to the graphic designer, both on and off screen.
+{% include chapters.html %} The history of graphic design in television is one of triumph over adversity. Ever since its launch in 1936, television has been a medium that has been restrictive to the graphic designer, both on and off screen.
 
 Originally limited to only black and white and 405-lines designers still managed to be innovative and creative and for a long period of time without the proper resources and funding. However thanks to people such as Richard Levin who knew what benefits graphic design could bring to television, we now have a situation in which the profession is now an equal alongside set design, make-up, set design etc. (A recent development in the story of graphic design at the BBC was the creation of a commercial arm in 1998 called BBC Resources, in which departments such as graphic design, now compete for work outside of the BBC -- mainly in order to keep these areas funded.)
 

@@ -4,7 +4,7 @@ series: dissertation
 date: '2002-06-01 00:00:05 +0000'
 excerpt: ''
 ---
-The general presentation and look of television remained largely unchanged until the arrival of Channel 5 -- the UK's fifth and final terrestrial television channel -- created with the sole purpose of stimulating competition and increasing airtime available to advertisers.
+{% include chapters.html %} The general presentation and look of television remained largely unchanged until the arrival of Channel 5 -- the UK's fifth and final terrestrial television channel -- created with the sole purpose of stimulating competition and increasing airtime available to advertisers.
 
 A year earlier, and anticipating the new channels launch, Channel 4, still using its original idents decided to assess its on-screen image and came up with 'Connections', a new identity produced in-house, but with early input from Tomato.
 

@@ -4,7 +4,7 @@ series: early_graphic_design_in_television
 date: '1999-03-01 00:00:03 +0000'
 excerpt: ''
 ---
-The history of graphic design in television has been relatively short yet it has seen so many changes that everyone in the profession can feel they are 'pioneers'. However, there are two people that stand out from the rest; Bernard Lodge and Martin Lambie-Nairn, both of whom regard Saul Bass as a major influence on their work.
+{% include chapters.html %} The history of graphic design in television has been relatively short yet it has seen so many changes that everyone in the profession can feel they are 'pioneers'. However, there are two people that stand out from the rest; Bernard Lodge and Martin Lambie-Nairn, both of whom regard Saul Bass as a major influence on their work.
 
 ## Bernard Lodge
 After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It was here that he got the opportunity to design the title sequence for a new children's series <cite>Doctor Who</cite> in 1963. By exploiting the effect that occurs when a television camera is pointed towards a monitor, he was able to convey the idea of time travel and space fiction and created what became the famous title sequence. When he reworked the sequence in 1973, he again used techniques that were new to the profession, by using a computer controlled rostrum camera. Lodge produced many more memorable title sequences before leaving the BBC in 1977 to form his own company which later became Lodge-Cheeseman when his former colleague, Colin Cheesman (who had become Head of Graphic Design at the BBC), joined him.
