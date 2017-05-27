@@ -15,6 +15,7 @@
 
 // Scoped contexts
 @import "scopes/prose";
+@import "scopes/rating";
 
 // Utilities
 @import "utilities/abreast";
@@ -22,7 +23,6 @@
 @import "utilities/conj";
 @import "utilities/framed";
 @import "utilities/hidden";
-@import "utilities/icon";
 @import "utilities/layout";
 @import "utilities/separate";
 
@@ -46,7 +46,6 @@
 @import "components/offline";
 @import "components/page";
 @import "components/project";
-@import "components/rating";
 @import "components/screenshot";
 @import "components/section";
 @import "components/social";
