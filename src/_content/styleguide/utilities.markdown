@@ -7,16 +7,7 @@ excerpt: Reusable classes with a single purpose and specific role.
 ## Content
 
 ### Visually hidden
-The `.u-audible`{: .language-css} utility class allows elements to be visually hidden, whilst ensuring they can still be accessed and real aloud by accessible software and other devices that place less emphasis on visual presentation.
-
-### Small caps
-The `.u-caps`{: .language-css} utility class is added automatically to a string of UPPERCASE letters.
-
-### Ampersands
-The `.u-amp`{: .language-css} utility class is added automatically when an ampsersand (&) appears in a run of text.
-
-### Icons
-The `.u-icon`{: .language-css} utility class is used to show an icon or glyph before a span of text, for example this <span class="u-icon" data-icon="&#9733;" aria-hidden="true">star</span>.
+The `.u-hidden`{: .language-css} utility class allows elements to be visually hidden, whilst ensuring they can still be accessed and real aloud by accessible software and other devices that place less emphasis on visual presentation.
 
 ## Layout
 

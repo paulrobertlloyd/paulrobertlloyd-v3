@@ -1,0 +1,17 @@
+// ========================================================
+// Rating
+// ========================================================
+
+.s-rating {
+  &::before { display: block; }
+  &[data-value="0"]::before { content: "☆☆☆☆☆"; }
+  &[data-value="1"]::before { content: "★☆☆☆☆"; }
+  &[data-value="2"]::before { content: "★★☆☆☆"; }
+  &[data-value="3"]::before { content: "★★★☆☆"; }
+  &[data-value="4"]::before { content: "★★★★☆"; }
+  &[data-value="5"]::before { content: "★★★★★"; }
+
+  meter {
+    @include visually-hidden;
+  }
+}
