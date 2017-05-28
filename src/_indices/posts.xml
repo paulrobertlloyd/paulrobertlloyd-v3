@@ -16,9 +16,8 @@ permalink: /journal/feed.xml
   <generator uri="http://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
   <icon>{{ site.url }}images/icon.png</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
-
-  {% assign journal = site.documents | where:"journal",true | sort:"date" | reverse %}
-  {% for item in journal limit:25 %}
+  {% assign posts = site.posts | sort: "date" | reverse %}
+  {% for item in posts limit:25 %}
   <entry>
     {% case item.collection %}
     {% when "galleries" %}

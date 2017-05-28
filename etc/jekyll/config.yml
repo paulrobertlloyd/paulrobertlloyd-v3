@@ -34,20 +34,10 @@ collections:
     output: true
   discussions:
     output: true
-  links:
-    output: true
-    archive: true
-  galleries:
-    output: true
-    archive: true
   posts:
     output: true
-    archive: true
   projects:
     output: true
-  notes:
-    output: true
-    archive: true
   talks:
     output: true
 
@@ -62,44 +52,44 @@ defaults:
   - scope:
       type: discussions
     values:
-      permalink: /:year/:month/:title/discussion
+      permalink: /:categories/:year/:month/:title/discussion
       layout: discussion
-
-  - scope:
-      type: links
-    values:
-      permalink: /:year/:month/:title
-      layout: link
-      journal: true
-
-  - scope:
-      type: galleries
-    values:
-      permalink: /photos/:year/:month/:title
-      layout: gallery
-      journal: true
-      theme: dark
 
   - scope:
       type: posts
     values:
-      permalink: /:year/:month/:title
+      permalink: /:categories/:year/:month/:title
       layout: post
-      journal: true
       image:
         preset: wide
+
+  - scope:
+      type: posts
+      path: "_posts/galleries"
+    values:
+      category: photos
+      layout: gallery
+      theme: dark
+
+  - scope:
+      type: posts
+      path: "_posts/links"
+    values:
+      category: links
+      layout: link
+
+  - scope:
+      type: posts
+      path: "_posts/notes"
+    values:
+      category: notes
+      layout: note
 
   - scope:
       type: projects
     values:
       permalink: /projects/:title
       layout: project
-
-  - scope:
-      type: notes
-    values:
-      permalink: /notes/:year/:month/:title
-      layout: note
 
   - scope:
       type: talks

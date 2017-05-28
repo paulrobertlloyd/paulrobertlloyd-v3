@@ -1,0 +1,28 @@
+.c-year {
+  margin-bottom: units(2);
+
+  a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+  }
+}
+
+.c-year__title {
+  @include fs--heading-3;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.c-year__meta {
+  @include fs--caption;
+  margin-bottom: units(2/3);
+  color: $c__neutral-mid;
+}
+
+.c-year__graph {
+  display: block;
+  height: units(6);
+  width: 100%;
+  pointer-events: none;
+}

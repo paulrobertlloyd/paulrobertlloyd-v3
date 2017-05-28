@@ -12,10 +12,8 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove:"index.html" | remove:".html" }}"/>
   <link rel="manifest" href="/manifest.json"/>
   <link rel="me" href="https://micro.blog/paulrobertlloyd"/>
-  {% if page.path contains "_posts" or page.url contains "journal" %}
   <link rel="alternate" href="/journal/feed.xml" type="application/atom+xml" title="Journal (XML Atom)"/>
   <link rel="alternate" href="/journal/feed.json" type="application/json" title="Journal (JSON Feed)"/>
-  {% endif %}
 
   <meta charset="utf-8"/>
   <meta name="author" content="{{ site.author.name }}"/>
@@ -55,13 +53,17 @@
   </script>
   <noscript><link rel="stylesheet" href="{% asset_path global.css %}"/></noscript>
 
-  <title>{% if layout.title %}{{ layout.title | smartify }}{% elsif page.title != nil %}{{ page.title | smartify }} / {% endif %}{{ site.title }}</title>
+  <title>{% if page.title != nil %}{{ page.title | smartify }} / {% endif %}{{ site.title }}</title>
 </head>
 
 <body>
   {% include banner.html %}
   {% include navigation.html %}
-  {% include main.html %}
+
+  <main class="c-main u-container" role="main">
+    {{ content }}
+  </main>
+
   {% include contentinfo.html %}
   {% include offline.html %}
 </body>

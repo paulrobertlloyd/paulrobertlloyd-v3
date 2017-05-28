@@ -5,17 +5,16 @@ landing: true
 permalink: /journal/
 pagination:
   enabled: true
-  collection: posts, links, galleries
 ---
 <section class="c-page c-page--index">
   {% include page/header.html title=page.title %}
 
   <div class="c-section">
   {% for item in paginator.posts %}
-    {% case item.collection %}
-    {% when "galleries" %}
+    {% case item.layout %}
+    {% when "gallery" %}
       {% include item/gallery.html %}
-    {% when "links" %}
+    {% when "link" %}
       {% include item/link.html %}
     {% else %}
       {% include item/post.html %}
