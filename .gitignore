@@ -1,5 +1,5 @@
 # Files to ignore
-*.jekyll-metadata
+src/.jekyll-metadata
 
 # Folders to ignore
 etc/ssl
