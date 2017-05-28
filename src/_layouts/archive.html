@@ -5,23 +5,14 @@ layout: default
   {% if page.type == "month" %}
     {% assign title = page.date | date:"%B %Y" %}
   {% else %}
-    {% assign title = page.title | smartify %}
+    {% assign title = page.title %}
   {% endif %}
 
   {% include page/header.html title=title %}
 
   <div class="c-section">
   {% for item in page.posts %}
-    {% case item.collection %}
-    {% when "galleries" %}
-      {% include item/gallery.html %}
-    {% when "links" %}
-      {% include item/link.html %}
-    {% when "notes" %}
-      {% include item/post.html %}
-    {% else %}
-      {% include item/post.html %}
-    {% endcase %}
+    {% include item/item.html %}
   {% endfor %}
   </div>
 </section>

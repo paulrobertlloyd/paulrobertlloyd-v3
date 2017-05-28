@@ -8,17 +8,13 @@
     </h1>
   </header>
 
-  <footer class="c-item__footer">
-    <p class="c-item__meta">
-      <a class="u-url" href="#remark-{{ forloop.rindex }}">
-        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
-      </a>
-    </p>
-  </footer>
-
-  <div class="c-item__main">
-    <div class="s-prose  e-content">
-      {{ item.content | markdownify }}
-    </div>
+  <div class="c-item__main s-prose  e-content">
+    {{ item.content | markdownify }}
   </div>
+
+  <footer class="c-item__footer">
+    <a class="u-url" href="#remark-{{ forloop.rindex }}">
+      <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
+    </a>
+  </footer>
 </article>

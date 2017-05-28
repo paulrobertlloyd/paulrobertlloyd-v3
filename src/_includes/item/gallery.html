@@ -1,6 +1,6 @@
-<article class="c-item c-item--gallery  h-entry">
+<article class="c-item c-item--gallery">
   <header class="c-item__header">
-    <h1 class="c-item__title p-name">
+    <h1 class="c-item__title">
       <a href="{{ item.url }}">
         <span class="c-item__cover">
           <img class="c-item__cover-photo" src="/image/180x180/80q/{{ item.image.src }}" alt=""/>
@@ -11,10 +11,9 @@
   </header>
 
   <footer class="c-item__footer">
-    <p class="c-item__meta">
-      <a class="u-url" href="{{ item.url }}" rel="bookmark">
-        <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time>
-      </a>
-    </p>
+    <a href="{{ item.url }}" rel="bookmark">
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
+    </a>
+    {% if item.location %}<span aria-label=",">·</span> {{ item.location }}{% endif %}
   </footer>
 </article>
