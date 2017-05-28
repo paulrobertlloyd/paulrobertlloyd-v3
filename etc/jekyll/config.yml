@@ -174,8 +174,8 @@ jekyll-archives:
     - tags
   layouts:
     year: archive-year
-    month: archive
-    tag: archive
+    month: archive-month
+    tag: archive-tag
   permalinks:
     year: /:year/
     month: /:year/:month/

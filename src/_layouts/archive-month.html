@@ -2,12 +2,7 @@
 layout: default
 ---
 <section class="c-page c-page--index">
-  {% if page.type == "month" %}
-    {% assign title = page.date | date:"%B %Y" %}
-  {% else %}
-    {% assign title = page.title %}
-  {% endif %}
-
+  {% assign title = page.date | date:"%B %Y" %}
   {% include page/header.html title=title %}
 
   <div class="c-section">
