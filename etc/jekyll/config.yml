@@ -4,6 +4,7 @@ description: Paul Robert Lloyd is an independent designer, writer and speaker ba
 url: https://paulrobertlloyd.com
 theme_color: '#cc52cc'
 background_color: '#141214'
+date_format: '%e %B %Y'
 
 # Meta
 author:

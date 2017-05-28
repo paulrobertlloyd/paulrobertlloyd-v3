@@ -65,11 +65,9 @@ permalink: /archive/
         <div class="c-section__main">
           <ol class="c-list c-list--inline" reversed>
     {% endif %}
-
-            <li class="c-list__item u-separate" value="{{ item.date | date:"%-d" }}">
+            <li class="c-list__item u-separate" value="{{ item.date | date: "%-d" }}">
               <a href="{{ item.url }}">{{ item.title | smartify }}</a>
             </li>
-
     {% if forloop.last %}
           </ol>
         </div>

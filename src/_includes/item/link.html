@@ -1,6 +1,6 @@
-<article class="c-item c-item--link  h-entry">
+<article class="c-item c-item--link">
   <header class="c-item__header">
-    <h1 class="c-item__title  p-name">
+    <h1 class="c-item__title">
       <a href="{{ item.link }}">{{ item.title | smartify }}</a>
     </h1>
   </header>
@@ -11,13 +11,13 @@
   </div>
   {% endif %}
 
-  <div class="c-item__main">
-    <div class="s-prose  p-summary">
-      {{ item.content | markdownify | smartify }}
-    </div>
+  <div class="c-item__main s-prose">
+    {{ item.content | markdownify | smartify }}
   </div>
 
   <footer class="c-item__footer">
-    <a class="c-item__permalink  u-url" href="{{ item.url }}" rel="bookmark"><time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%e %B %Y" }}</time></a>
+    <a class="c-item__permalink" href="{{ item.url }}" rel="bookmark">
+      <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
+    </a>
   </footer>
 </article>
