@@ -14,8 +14,8 @@ permalink: /journal/feed.json
     "url": {{ site.author.url | jsonify }},
     "avatar": {{ site.author.avatar | jsonify }}
   },
-  {% assign journal = site.documents | where:"journal",true | sort:"date" | reverse %}
-  "items": [{% for item in journal limit:25 %}
+  {% assign posts = site.posts | sort: "date" | reverse %}
+  "items": [{% for item in posts limit:25 %}
     {
       "id": {{ item.id | jsonify }},
       "url": {{ item.url | prepend:site.url | jsonify }},

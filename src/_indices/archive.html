@@ -42,38 +42,19 @@ permalink: /archive/
     </div>
   </section>
 
-  {% for item in site.posts %}
-    {% capture this_year %}{{ item.date | date:"%Y" }}{% endcapture %}
-    {% capture this_month %}{{ item.date | date:"%m" }}{% endcapture %}
-    {% capture this_month-name %}{{ item.date | date:"%B %Y" }}{% endcapture %}
+  <section class="c-section" aria-labelledby="years">
+    <header class="c-section__header">
+      <h1 class="c-section__title" id="years">Years</h1>
+    </header>
 
-    {% if this_year != year %}
-      {% capture year %}{{ this_year }}{% endcapture %}
-      {% capture month %}{{ this_month }}{% endcapture %}
-
-      {% unless forloop.first %}
-          </ol>
-        </div>
-      </section>
-      {% endunless %}
-
-      <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-        <header class="c-section__header">
-          <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/">{{ this_year }}</a></h1>
-        </header>
-
-        <div class="c-section__main">
-          <ol class="c-list c-list--inline" reversed>
-    {% endif %}
-            <li class="c-list__item u-separate" value="{{ item.date | date: "%-d" }}">
-              <a href="{{ item.url }}">{{ item.title | smartify }}</a>
-            </li>
-    {% if forloop.last %}
-          </ol>
-        </div>
-      </section>
-    {% endif %}
-  {% endfor %}
+    <div class="c-section__main">
+      <div class="u-triad">
+      {% for year in (2008..2017) reversed %}
+        {% include year.html %}
+      {% endfor %}
+      </div>
+    </div>
+  </section>
 
   <section class="c-section" aria-labelledby="lloydyweb">
     <header class="c-section__header">
@@ -83,9 +64,7 @@ permalink: /archive/
     </header>
 
     <div class="c-section__main">
-      <div class="s-ui">
-        <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous&nbsp;website</a>.</p>
-      </div>
+      <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous&nbsp;website</a>.</p>
     </div>
   </section>
 </section>
