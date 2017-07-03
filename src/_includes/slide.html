@@ -1,0 +1,10 @@
+<hr/>
+<figure class="u-extend">
+  {% capture slide_path %}{{ page.path | replace:"_talks/","talks/" | remove:".markdown" }}/{{ forloop.index }}.{{ slide.format }}{% endcapture %}
+  {% include image.html src=slide_path class="u-framed" %}
+  {% if slide.notes %}
+  <figcaption>
+    {{ slide.notes | markdownify | smartify }}
+  </figcaption>
+  {% endif %}
+</figure>
