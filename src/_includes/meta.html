@@ -2,7 +2,7 @@
   <h2 class="c-meta__title u-hidden">Information about {{ page.title }}</h2>
   <dl class="c-meta__values">
   {% for item in page.meta %}
-    <dt class="c-meta__title">{{ item[0] | capitalize }}</dt>
+    <dt class="c-meta__title">{{ item[0] | replace: "_"," " | capitalize }}</dt>
     <dd class="c-meta__value">{{ item[1] | markdownify | smartify }}</dd>
   {% endfor %}
   </dl>

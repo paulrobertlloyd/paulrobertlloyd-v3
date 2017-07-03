@@ -120,6 +120,8 @@ images:
         quality: 80
       - width: 640
         quality: 80
+      - width: 960
+        quality: 80
   showcase:
     sources:
       - width: 768

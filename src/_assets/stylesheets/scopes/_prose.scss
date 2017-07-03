@@ -108,22 +108,20 @@
 
     &.u-extend {
       @media (min-width: $b__c) {
-        position: relative;
-        padding-right: calc(#{$u__colspan4} + #{$u__gutter});
-        min-height: 6rem;
+        display: grid;
+        grid-template-columns: auto percentage(4/12);
+        grid-column-gap: $u__gutter;
+      }
+
+      img {
+        @media (min-width: $b__c) {
+          margin-bottom: 0;
+        }
       }
 
       figcaption {
-        @media screen and (min-width: $b__b) {
-          padding-left: percentage(2/9);
-        }
-
         @media (min-width: $b__c) {
-          position: absolute;
-          top: 0;
-          right: 0;
-          padding-left: 0;
-          width: percentage(4/12);
+          grid-column-start: 2;
         }
       }
     }
@@ -153,6 +151,16 @@
   small {
     @include fs--caption;
     color: $c__neutral-mid;
+  }
+
+  figcaption {
+    > * + * {
+      margin-top: units(2/3);
+    }
+
+    li {
+      list-style-position: inside;
+    }
   }
 
   abbr[title]:hover {

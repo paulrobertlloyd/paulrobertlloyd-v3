@@ -63,7 +63,7 @@
 
 // Pull element aside
 .u-aside {
-  margin-top: 0 !important;
+  margin-top: units(2 / 3) !important;
 
   @media screen and (min-width: $b__b) {
     float: left;
