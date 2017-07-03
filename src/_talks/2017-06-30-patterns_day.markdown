@@ -178,12 +178,12 @@ slides:
   notes: |
     And so to our favourite analogy, Lego.
 
-    While it works is a useful means of communicating the idea of a modularised, extensible, controlled system, two important aspects are often missed:
+    While it works as a useful means of communicating the idea of a modularised, extensible, controlled system, two important aspects are often missed:
 
     1. There is an enormous variety of different brick shapes, many of which are quite bespoke.
     2. The reason this variety can exist, is due to the predictability of the underlying system of tubes and studs which allow different shaped bricks to connect. One of the first bricks produced in 1958 will connect with one produced today.
 
-    What are the underlying methods of enable consistency and predictable means of connection in our work? Is it perhaps story, which we heard about earlier today, or something more tangible?
+    What are the underlying methods that enable a predictable means of connection in our work? Is it perhaps story, which we heard about earlier today, or something more tangible?
 - format: png
   notes: |
     If I'm honest, I think the discussion around design systems is starting to suffer a little from a lack of clarity. Terms like "style guide", "component library" and "design language" are used interchangeably, when more formal definitions are possible. Yes, naming things is hard, but maintaining the same name for things appears to be harder still!
