@@ -4,7 +4,7 @@ title: Fantasies of the Future
 date: '2017-06-30 15:30:00 +0100'
 location: Brighton, England
 event: Patterns Day
-excerpt: Slides from my presentation at Patterns Day
+excerpt: Slides and referenced transcript from my presentation at Patterns Day
 meta:
   alternative_formats: |
     * [Audio](https://huffduffer.com/adactio/416238)
@@ -21,7 +21,8 @@ slides:
     What shape?
 
     Perhaps that of a bird?
-
+- format: jpg
+  notes: |
     A city with such a layout exists. It is called [Brasília](https://en.wikipedia.org/wiki/Bras%C3%ADlia), and it is the capital of Brazil. You might have thought Brazil's capital was Rio de Janeiro, and indeed it was until 1960. A coastal city, Rio was seen as vulnerable to attack, and the country's republican constitution -- dating back to 1891 -- stated that the capital should be moved to a more central location.
 - format: jpg
   notes: |
