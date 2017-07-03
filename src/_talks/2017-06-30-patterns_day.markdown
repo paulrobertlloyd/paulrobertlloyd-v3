@@ -180,8 +180,8 @@ slides:
 
     While it works is a useful means of communicating the idea of a modularised, extensible, controlled system, two important aspects are often missed:
 
-    1. There is an enormous variety of different brick shapes, and can be quite customised.
-    2. The reason such a variety can exist, is due to the predictability of the underlying system of tubes and studs which allow different shaped bricks to connect. One of the first bricks produced in 1958 will connect with one produced today.
+    1. There is an enormous variety of different brick shapes, many of which are quite bespoke.
+    2. The reason this variety can exist, is due to the predictability of the underlying system of tubes and studs which allow different shaped bricks to connect. One of the first bricks produced in 1958 will connect with one produced today.
 
     What are the underlying methods of enable consistency and predictable means of connection in our work? Is it perhaps story, which we heard about earlier today, or something more tangible?
 - format: png
@@ -205,7 +205,7 @@ slides:
     As the line between component libraries and much broader systems for design continues to blur, we need to ensure our tools are up to the job. Do we adapt component-based tools to take into account for wider concerns, or look to new tools?
 - format: png
   notes: |
-    I'm reminded of talks Jeremy has given in the past where he mentioned how, that the way Photoshop would ask you for image dimensions before starting work on a new document, framed our early approaches to web design.
+    I'm reminded of talks Jeremy has given in the past where he mentioned how, that the way Photoshop would ask you for image dimensions before starting work on a new document, framed our early approach to web design.
 
     We need to be careful we don't make similar mistakes when building tools to construct design systems; small choices may have larger impacts than we might imagine.
 - format: png
