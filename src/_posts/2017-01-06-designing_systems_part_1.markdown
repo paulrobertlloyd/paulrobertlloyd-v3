@@ -41,7 +41,7 @@ However, Costa's plan contained a fundamental flaw: its fixed layout limited the
 
 Reflecting on their plans, the art critic Robert Hughes said[^1]:
 
-> Nothing dates faster than people's fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It's what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may reverently hope, is the last experiment of its kind. The utopian buck, stops here.
+> Nothing dates faster than people's fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It's what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may fervently hope, is the last experiment of its kind. The utopian buck, stops here.
 
 {% figure caption:"Sir Christopher Wren's plan for the rebuilding the City of London after the Great Fire of 1666." class:"u-bleed" %}
 {% include image.html preset="wide" src="2017/01/wrens_london_plan.png" class="u-framed" %}

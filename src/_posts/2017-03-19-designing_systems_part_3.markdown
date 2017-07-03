@@ -188,7 +188,7 @@ As we reach the top of the stack, we can start to look at how our components beh
 There are a number of other aspects not touched on here which will likely transcend all three layers. For example, considering the accessibility of a component will involve thinking about the choice of language used, styling text so that it is legible and has sufficient colour contrast, and ensuring it can be successfully interacted regardless of input device.
 
 ## Connections
-That's how I tend to think about building my components, and your millage my vary. But have spent too much time discussing the complexion of components, all the while ignoring much broader considerations?
+That's how I tend to approach building my components, and your millage my vary. But have we spent too much time discussing the complexion of components, while ignoring broader considerations?
 
 Let's return to Brasília. While Niemeyer's buildings are gorgeous, they suffer from an emphasis on form over function. For example, the National Congress has a huge ramp at the front that would appear to be its entrance. In fact it's purely decorative; a point reinforced by a barrier that sits half way up to prevent the public clambering onto the roof, which itself occupied by armed guards!
 
