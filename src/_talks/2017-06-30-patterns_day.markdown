@@ -110,7 +110,7 @@ slides:
   notes: |
     Another example of how software engineering practice has led the way is around workflow.
 
-    The Agile Manifesto is a product of software delivery, and its a process in which designers are often asked to slot into.
+    [The Agile Manifesto](https://en.wikipedia.org/wiki/Agile_software_development#The_Manifesto_for_Agile_Software_Development) is a product of software delivery, and its a process in which designers are often asked to slot into.
 
     Designers ([like my former colleague Jon Aizlewood](http://jonaizlewood.com/articles/when-agile-s-not-creative)) will talk about the difficulty of making decisions, or being able to look holistically at problems, when such a process demands small pieces of separated work.
 
@@ -128,7 +128,7 @@ slides:
   notes: |
     You may argue this is a simplistic outlook, and you'd be right! Nothing is black and white but shades of grey. But that's kind of my point.
 
-    Clearly, the pendulum is swinging from a spec-driven waterfall process in which developers are asked to chop up pristine Photoshop comps thrown over a wall by interaction-illiterate designers, towards a more collaborative, systematic and rationalised approach. And that's great -- it really is!
+    Clearly, the pendulum is swinging from a spec-driven waterfall process in which developers are asked to chop up pristine Photoshop comps thrown over a wall by interaction-illiterate designers, towards a more collaborative, systematic and rationalised approach. And that's great, it really is!
 
     My fear is this pendulum may start to swing too far in the opposite direction, if it hasn't already.
 
