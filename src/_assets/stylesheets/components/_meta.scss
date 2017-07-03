@@ -9,6 +9,8 @@
 }
 
 .c-meta__title {
+  color: $c__neutral-mid;
+
   @media (max-width: ($b__bx)) {
     float: left;
     margin-bottom: units(1);

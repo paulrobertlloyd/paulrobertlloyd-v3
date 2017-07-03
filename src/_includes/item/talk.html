@@ -9,7 +9,6 @@
     <a href="{{ item.url }}" rel="bookmark">
       <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
     </a>
-    <span aria-label=",">·</span> {{ item.event }}
     <span aria-label=",">·</span> {{ item.location }}
   </footer>
 </article>
