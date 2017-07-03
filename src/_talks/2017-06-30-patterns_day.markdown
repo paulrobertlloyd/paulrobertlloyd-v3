@@ -316,4 +316,4 @@ slides:
 
     The buck, stops here.
 ---
-In an attempt to understand our work, digital designers may look towards architectural practice for inspiration. As much as we can learn from where architecture has been successful, we can also draw lessons from its failures, too. When the prevailing culture permits us to create products that can undermine and exploit users, might design systems help us protect residents of the digital spaces we're being asked to create?
+In an attempt to understand our work, digital designers may look towards architectural practice for inspiration. As much as we can learn from where architecture has been successful, we can also draw lessons from its failures, too. When the prevailing culture permits us to create products that can undermine and exploit users, might design systems help us protect residents of the digital spaces we've been asked to create?
