@@ -65,7 +65,7 @@ slides:
     In 1982, [the art critic Robert Hughes said](https://www.youtube.com/watch?v=C04JZsoqs1A)…
 - format: jpg
   notes: |
-    > Nothing dates faster than people's fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It's what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may reverently hope, is the last experiment of its kind. The utopian buck, stops here.
+    > Nothing dates faster than people's fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It's what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may fervently hope, is the last experiment of its kind. The utopian buck, stops here.
 
     There's a lot to unpack in Hughes critique. But when I hear it, I wonder if similar criticisms could be levelled at our own work.
 
