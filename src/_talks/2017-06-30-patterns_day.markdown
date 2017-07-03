@@ -117,9 +117,9 @@ slides:
     Now, let's not get into arguments about agile! But again, it's indicative of a trend. Ideas around minimal viability and company principles such as "move fast and break things", or "always be hustling" typically prioritise speed of delivery, the side-effects often being at the expense of quality, or taking the time to consider the consequences of releasing a particular feature.
 - format: jpg
   notes: |
-    Finally, there's a compulsive deference to data.
+    Then there is this compulsive deference to data.
 
-    There is a spectrum between having data inform design rather than dictate it -- yet the trend is towards collecting more of it, not less.
+    There is a spectrum between having data inform design rather than dictate it -- yet the trend is towards collecting more data, not less.
 
     Yet, [having more data may actually limit the options available](https://www.cennydd.com/writing/datafication-and-ideological-blindness). It can lead us towards making incremental changes, and optimising within local maximums, rather than seeking out entirely new approaches.
 
