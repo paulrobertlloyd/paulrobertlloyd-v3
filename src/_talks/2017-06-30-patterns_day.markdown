@@ -169,9 +169,9 @@ slides:
     Built around the car, distances between different buildings are great, and everything feels disconnected. Things make sense in isolation, but they don't quite work when put together.
 - format: png
   notes: |
-    With brings us to the patterns we use!
+    With brings us to the patterns we use.
 
-    Brad Frost's [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) has a popular model for thinking about the construction of UI. To his credit, he does take into account templates and pages -- the end product which an organisation is ultimately looking to have delivered.
+    Brad Frost's [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) is a popular model for thinking about the construction of UI. To his credit, he takes into account templates and pages -- the end product which an organisation is ultimately looking to have delivered.
 
     And yet the focus always seems to be drawn to the smaller parts rather than the whole. I've heard more discussion about whether something is an atom, molecule or organism, than that regarding templates or pages. While the metaphor helps at one level, if hinders understanding at another.
 - format: png
