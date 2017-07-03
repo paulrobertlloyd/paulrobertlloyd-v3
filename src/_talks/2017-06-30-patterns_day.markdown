@@ -210,7 +210,7 @@ slides:
     We need to be careful we don't make similar mistakes when building tools to construct design systems; small choices may have larger impacts than we might imagine.
 - format: png
   notes: |
-    Consistency has come up a few times today, but do we mean when we say this?
+    Consistency has come up a few times today, but what do we mean when we say this?
 - format: jpg
   notes: |
     While people with minimalist sensibilities like myself can enjoy the design of Brasilia from a distance, for residents, it's seen as a somewhat sterile and inhumane place to live. Many tend to [leave the city at weekend for the more vibrant and lively cities](http://www.bbc.co.uk/news/magazine-20632277) of Rio and Sao Paulo.
