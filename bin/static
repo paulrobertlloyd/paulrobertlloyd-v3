@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-echo "Copying static assets to destination"
-mkdir -p www www/downloads www/images
-rsync -vaz --exclude '.DS*' src/_downloads/ www/downloads/
-rsync -vaz --exclude '.DS*' src/_images/ www/images/

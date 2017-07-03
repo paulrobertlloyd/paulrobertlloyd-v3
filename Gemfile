@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Jekyll (generates static files)
-gem 'jekyll', :git => 'https://github.com/jekyll/jekyll'
+gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-assets'
