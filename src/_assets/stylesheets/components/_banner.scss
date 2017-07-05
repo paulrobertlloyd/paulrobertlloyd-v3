@@ -3,7 +3,7 @@
 // ========================================================
 
 .c-banner {
-  @media screen {
+  @media (min-width: $b__a) {
     margin-bottom: units(6);
   }
 }
