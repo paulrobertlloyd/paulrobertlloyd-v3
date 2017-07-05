@@ -27,5 +27,4 @@
     doc.documentElement.className += ' fonts-loaded';
     win.enhance.cookie('fonts-loaded', !0, 7);
   });
-
 }(this, this.document));

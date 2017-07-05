@@ -5,7 +5,7 @@
   var fullCSSKey = 'fullcss';
   var fullJSKey = 'fulljs';
 
-  // loadJS: Load a JS file asynchronously.
+  // Load a JS file asynchronously.
   // https://github.com/filamentgroup/loadJS/
   function loadJS(src) {
     var ref = doc.getElementsByTagName('script')[0];
@@ -17,7 +17,7 @@
   }
   enhance.loadJS = loadJS;
 
-  // loadCSS: Load a CSS file asynchronously.
+  // Load a CSS file asynchronously.
   // https://github.com/filamentgroup/loadCSS/
   function loadCSS(href, before, media) {
     var link = doc.createElement('link');
@@ -40,7 +40,7 @@
       if (doc.body) {
         return cb();
       }
-      setTimeout (function () {
+      setTimeout(function () {
         ready(cb);
       });
     }
@@ -84,13 +84,13 @@
   }
   enhance.loadCSS = loadCSS;
 
-  // getMeta function: get a meta tag by name
+  // Get a meta tag by name
   function getMeta(metaname) {
     var metas = doc.getElementsByTagName('meta');
     var meta;
-    for (var i = 0; i < metas.length; i = i + 1){
-      if (metas[i].name && metas[i].name === metaname){
-        meta = metas[ i ];
+    for (var i = 0; i < metas.length; i = i + 1) {
+      if (metas[i].name && metas[i].name === metaname) {
+        meta = metas[i];
         break;
       }
     }
@@ -142,10 +142,9 @@
 
   // Load JavaScript asynchronously
   var fullJS = getMeta(fullJSKey);
-  if (fullJS){
+  if (fullJS) {
     loadJS(fullJS.content);
   }
 
   win.enhance = enhance;
-
 }(this, this.document));

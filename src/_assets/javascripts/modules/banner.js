@@ -22,8 +22,7 @@
   // Only make navigation sticky at smallest breakpoint
   if (breakpoint.indexOf('s') !== -1) {
     win.onscroll = function () {
-      stickyScroll ();
+      stickyScroll();
     };
   }
-
 }(this, this.document));

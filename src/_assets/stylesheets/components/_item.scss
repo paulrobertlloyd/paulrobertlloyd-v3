@@ -53,7 +53,7 @@
     display: inline-block;
     font-weight: normal;
     color: $c__primary;
-    content: '\2009\2192';
+    content: "\2009\2192";
   }
 }
 
@@ -68,7 +68,7 @@
 
 .c-item__permalink {
   &::before {
-    content: '#';
+    content: "#";
     opacity: 0.5;
   }
 
@@ -112,7 +112,7 @@
       position: absolute;
       background: $c__neutral-mid;
       height: 1px;
-      content: '';
+      content: "";
     }
 
     &::before {
