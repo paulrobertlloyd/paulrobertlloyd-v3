@@ -1,4 +1,4 @@
-(function (win, doc, undefined) {
+(function (win, doc) {
   'use strict';
 
   var enhance = {};
@@ -88,7 +88,7 @@
   function getMeta(metaname) {
     var metas = doc.getElementsByTagName('meta');
     var meta;
-    for (var i = 0; i < metas.length; i = i + 1) {
+    for (var i = 0; i < metas.length; i += 1) {
       if (metas[i].name && metas[i].name === metaname) {
         meta = metas[i];
         break;
@@ -109,19 +109,18 @@
         return cookies.pop().split(';').shift();
       }
       return null;
-    } else {
-      if (value === false) {
-        days = -1;
-      }
-      if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        expires = '; expires=' + date.toGMTString();
-      } else {
-        expires = '';
-      }
-      doc.cookie = name + '=' + value + expires + '; path=/';
     }
+    if (value === false) {
+      days = -1;
+    }
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = '; expires=' + date.toGMTString();
+    } else {
+      expires = '';
+    }
+    doc.cookie = name + '=' + value + expires + '; path=/';
   }
   enhance.cookie = cookie;
 
@@ -147,4 +146,4 @@
   }
 
   win.enhance = enhance;
-}(this, this.document));
+})(this, this.document);

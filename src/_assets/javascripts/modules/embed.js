@@ -11,7 +11,7 @@
 
   var div = doc.getElementsByTagName('div'); // Embed.rb generates a <div> element, so look for those first
 
-  for (var i = 0; i < div.length; i = i + 1) {
+  for (var i = 0; i < div.length; i += 1) {
     // If a <div> has the right attributes…
     if (div[i].hasAttribute('data-embed-src')) {
       var embed = div[i];
@@ -26,4 +26,4 @@
       embed.removeAttribute('data-embed-title');
     }
   }
-}(this, this.document));
+})(this, this.document);

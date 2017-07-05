@@ -28,4 +28,4 @@
       limit: 10
     });
   }
-}(this, this.document));
+})(this, this.document);
