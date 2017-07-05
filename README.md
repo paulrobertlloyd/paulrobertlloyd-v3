@@ -22,43 +22,26 @@ This project makes use of third-party libraries, included as git submodules. To 
 ## Running locally with HTTPS
 To run with HTTPS locally on macOS, you should follow the setup [as described here][4]. To create the required SSL certificates, follow these steps:
 
-1. Change into the correct directory: `cd Sites/paulrobertlloyd.com/etc/ssl`
-2. Configure SSL:
-
-  ```
-  cat > openssl.cnf <<-EOF
-    [req]
-    distinguished_name = req_distinguished_name
-    x509_extensions = v3_req
-    prompt = no
-    [req_distinguished_name]
-    CN = *.paulrobertlloyd.dev
-    [v3_req]
-    keyUsage = keyEncipherment, dataEncipherment
-    extendedKeyUsage = serverAuth
-    subjectAltName = @alt_names
-    [alt_names]
-    DNS.1 = *.paulrobertlloyd.dev
-    DNS.2 = paulrobertlloyd.dev
-  EOF
-  ```
-
+1. Open Terminal.app
+2. Change into the correct directory: `cd Sites/paulrobertlloyd.com/etc/ssl`
 3. Create the certificate files:
 
   ```
   openssl req \
     -new \
     -newkey rsa:2048 \
-    -sha1 \
+    -sha256 \
     -days 3650 \
     -nodes \
     -x509 \
-    -keyout ssl.key \
-    -out ssl.crt \
-    -config openssl.cnf
+    -keyout development.key \
+    -out development.crt \
+    -subj /CN=paulrobertlloyd.dev \
+    -reqexts SAN \
+    -extensions SAN \
+    -config <(cat /System/Library/OpenSSL/openssl.cnf \
+      <(printf '[SAN]\nsubjectAltName=DNS:paulrobertlloyd.dev'))
   ```
-
-4. Delete the configuration file: `rm openssl.cnf`
 
 ## Deploying
 1. Ensure the destination server meets the system requirements
