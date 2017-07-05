@@ -7,6 +7,3 @@
 [submodule "src/_assets/javascripts/vendor/Simple-Jekyll-Search"]
 	path = src/_assets/javascripts/vendor/Simple-Jekyll-Search
 	url = git@github.com:christian-fei/Simple-Jekyll-Search.git
-[submodule "src/_assets/javascripts/vendor/what-input"]
-	path = src/_assets/javascripts/vendor/what-input
-	url = git@github.com:ten1seven/what-input.git

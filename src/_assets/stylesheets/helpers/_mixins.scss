@@ -104,15 +104,6 @@
   letter-spacing: -0.025em;
 }
 
-// Text highlight
-@mixin text-highlight($color: $c__select) {
-  background-color: $color;
-  margin-right: -0.125rem;
-  margin-left: -0.125rem;
-  padding: 0.125rem;
-  text-shadow: 0 0 $color;
-}
-
 // Link
 @mixin link {
   text-decoration: underline;

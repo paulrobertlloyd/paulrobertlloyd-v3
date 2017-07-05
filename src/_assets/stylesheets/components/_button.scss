@@ -20,8 +20,6 @@
   }
 
   &:focus {
-    outline: 0;
-    background-color: $c__focus;
-    color: $c__neutral-darkest;
+    outline: 2px solid Highlight;
   }
 }

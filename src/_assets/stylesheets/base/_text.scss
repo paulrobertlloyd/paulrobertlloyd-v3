@@ -9,23 +9,6 @@ a {
   background-color: transparent;
   transition: color 0.1s ease-out;
 
-  &:hover,
-  &:active {
-    // Improve readability when focused and mouse hovered in all browsers
-    outline: 0;
-  }
-
-  &:focus {
-    outline: 0;
-    background-color: $c__focus;
-    color: $c__neutral-darkest;
-
-    [data-whatinput="mouse"] &,
-    [data-whatinput="touch"] & {
-      background-color: transparent;
-    }
-  }
-
   &[rel=tag] {
     display: inline-block;
     margin-right: 0.75rem;
@@ -93,8 +76,4 @@ sub {
 
 sup {
   top: -0.5rem;
-}
-
-mark {
-  @include text-highlight;
 }
