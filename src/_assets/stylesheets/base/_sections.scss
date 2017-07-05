@@ -17,9 +17,11 @@ html {
 body {
   @include ff--sans-serif;
   margin: 0 auto;
-  line-height: 1.5;
+  background-color: var(--page-background);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  color: var(--page-text);
 
   @media print {
     margin: 0 1cm;
