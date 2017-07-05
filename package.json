@@ -30,8 +30,9 @@
     ]
   },
   "xo": {
-    "space": true,
     "envs": "browser",
+    "esnext": false,
+    "space": true,
     "ignores": [
       "src/**/vendor/**",
       "www/**"

@@ -26,7 +26,7 @@
     if (before) {
       ref = before;
     } else {
-      var refs = ( doc.body || doc.getElementsByTagName('head')[0] ).childNodes;
+      var refs = (doc.body || doc.getElementsByTagName('head')[0]).childNodes;
       ref = refs[refs.length - 1];
     }
 
@@ -105,7 +105,7 @@
     if (value === undefined) {
       var cookiestring = '; ' + doc.cookie;
       var cookies = cookiestring.split('; ' + name + '=');
-      if (cookies.length === 2){
+      if (cookies.length === 2) {
         return cookies.pop().split(';').shift();
       }
       return null;

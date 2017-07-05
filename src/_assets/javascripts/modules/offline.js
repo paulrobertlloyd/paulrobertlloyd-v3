@@ -14,7 +14,7 @@
   win.addEventListener('offline', handleOffline);
   win.addEventListener('online', handleOnline);
 
-  win.addEventListener('load', function() {
+  win.addEventListener('load', function () {
     if (navigator.onLine) {
       handleOnline();
     } else {

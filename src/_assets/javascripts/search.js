@@ -19,7 +19,7 @@
       e.parentNode.removeChild(e);
     });
 
-    new SimpleJekyllSearch ({
+    new SimpleJekyllSearch({
       searchInput: doc.querySelector('.c-form--search .c-form__input'),
       resultsContainer: doc.querySelector('.c-list'),
       searchResultTemplate: '<li class="c-list__item u-separate"><a href="{url}">{title}</a></li>',
