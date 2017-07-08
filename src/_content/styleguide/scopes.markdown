@@ -91,7 +91,7 @@ Here is another term.
 : And it gets a definition too, which is this line.
 
 ### Figures
-The `figure` element is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation, a tweet (`.c-tweet`{: .language-css}) and an image:
+The `figure` element is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation and an image:
 
 {% figure caption:"<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
 <pre>
@@ -104,11 +104,6 @@ And the mome raths outgrabe.
 
 {% figure caption:"Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-{% endfigure %}
-
-{% figure caption:"[@paulrobertlloyd, 3 September 2013](https://twitter.com/paulrobertlloyd/status/374836201972584448)" %}
-> How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
-{: .c-tweet}
 {% endfigure %}
 
 {% figure caption:"Single image, with supporting caption" %}

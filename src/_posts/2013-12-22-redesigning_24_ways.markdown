@@ -37,7 +37,6 @@ In [The Web Aesthetic][6], I urged designers to move beyond traditional print-in
 ## A torturous design process
 {% figure caption:"[@paulrobertlloyd, 3 September 2013](https://twitter.com/paulrobertlloyd/status/374836201972584448)" %}
 > How I design: tenacity, panic, happy accidents and fast-approaching deadlines.
-{: .c-tweet}
 {% endfigure %}
 
 Given the brief in June, every time I sat down to work on the project, I couldn't get started. A breakthrough came when I thought back to something [Dan Mall][7] had said about creating element collages: "I start by putting elements on the page for which I have an idea in my mind for". Having an idea for the display of comments, and with a little alcoholic lubrication, I took to [Sketch][8] and started there.
@@ -52,9 +51,8 @@ For the typography, I settled on a pairing of [Lato][9] and [Merriweather][10]. 
 
 {% figure caption:"[@paulrobertlloyd, 14 November 2013](https://twitter.com/paulrobertlloyd/status/401169294488535040)" %}
 > Know your fonts... using a typeface whose name means 'summer', for a website based around Christmas.
-> 
+>
 > Awkward.
-{: .c-tweet}
 {% endfigure %}
 
 All the while, [Jessica Hische's advice][12] was in the back of my mind: could I have found a better pairing with more time? If confirmation were needed, nearing completion of the design I discovered that Lato is Polish for Summer! Hopefully this is something we can revisit next year.
@@ -70,7 +68,6 @@ With the deadline fast approaching, I abandoned Sketch and headed for the browse
 
 {% figure caption:"[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/status/395365510046830592)" %}
 > Sometimes you have to work with a design system to truly understand it.
-{: .c-tweet}
 {% endfigure %}
 
 ## Content first, navigation last
@@ -113,9 +110,8 @@ Although I didn't employ strict adherence to the [BEM][20] methodology, I found 
 
 {% figure caption:"[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/status/395351309169459200)" %}
 > It's finally happened... I'm seriously considering using a .list\-\-item class name.
-> 
+>
 > Sky, meet flying pigs.
-{: .c-tweet}
 {% endfigure %}
 
 As *24 ways* is entirely content-based, HTML5's semantic elements were used extensively, all while making sure they generated a sensible document outline (something that's often forgotten). Class names took inspiration from these elements, as terms like `article`, `summary`, `header`, `footer` and `main` mapped closely to the smaller patterns required.
@@ -147,7 +143,7 @@ This naming system produced markup patterns like this:
 If you're interested in learning more about the front-end code behind *24 ways*, you can view [the repo on GitHub][23].
 
 ## Designing in the dark
-It has been three weeks since the redesign was unveiled, and thankfully to a largely positive audience. It's funny to think that just a week beforehand some of the design's signature features still hadn't been conceived. I really took it to the line! 
+It has been three weeks since the redesign was unveiled, and thankfully to a largely positive audience. It's funny to think that just a week beforehand some of the design's signature features still hadn't been conceived. I really took it to the line!
 
 Indeed, if providing a critique, it's important to recognise the constraints under which it was delivered. Working evenings and weekends meant I had little time to noodle on any particular design direction. Having left Clearleft and started working in London meant I no longer had easy access to a device lab. Waiting for my phone line to be installed meant I was unable to download and install the virtual machines needed for cross browser testing.
 
