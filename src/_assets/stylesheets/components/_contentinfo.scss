@@ -45,6 +45,10 @@
   @media print {
     display: none;
   }
+
+  a {
+    @include separate;
+  }
 }
 
 .c-contentinfo__copyright {
