@@ -2,16 +2,6 @@
 // Mixins
 // ========================================================
 
-// Clearfix
-@mixin clearfix {
-  &::before,
-  &::after {
-    display: table;
-    clear: both;
-    content: "";
-  }
-}
-
 // Font families
 @mixin ff--sans-serif($font-weight: normal) {
   font-family: "Helvetica Neue", sans-serif;
