@@ -12,7 +12,6 @@ layout: default
 
     {% if this_month != month %}
       {% unless forloop.first %}
-      </ol>
     </div>
   </section>
       {% endunless %}
@@ -23,12 +22,10 @@ layout: default
     </header>
 
     <div class="c-section__main">
-      <ol class="c-list c-list--inline" reversed>
-        {% assign month = this_month %}
-      {% endif %}
-        {% include item/item.html %}
+      {% assign month = this_month %}
+    {% endif %}
+      {% include item/item.html %}
     {% if forloop.last %}
-      </ol>
     </div>
   </section>
     {% endif %}

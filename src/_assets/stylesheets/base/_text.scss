@@ -17,7 +17,7 @@ a {
 
     &::before {
       content: "#\2009";
-      color: $c__primary;
+      opacity: 0.5;
     }
   }
 }

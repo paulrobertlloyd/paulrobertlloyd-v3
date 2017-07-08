@@ -10,11 +10,6 @@
   list-style: none;
 }
 
-.c-list__item--promoted {
-  letter-spacing: -0.015rem;
-  font-weight: 700;
-}
-
 .c-list--inline {
   @media (max-width: ($b__ax)) {
     line-height: 2;
