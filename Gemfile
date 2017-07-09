@@ -12,5 +12,4 @@ group :jekyll_plugins do
   gem 'jekyll-slugify_underscore'
 
   gem 'autoprefixer-rails'
-  gem 'uglifier'
 end

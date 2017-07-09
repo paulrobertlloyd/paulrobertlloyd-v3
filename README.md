@@ -16,9 +16,6 @@ Source files to build my personal website.
 
 The generated site will be contained in the `www` directory.
 
-## Updating submodules
-This project makes use of third-party libraries, included as git submodules. To update these, run `git submodule foreach git pull origin master`.
-
 ## Running locally with HTTPS
 To run with HTTPS locally on macOS, you should follow the setup [as described here][4]. To create the required SSL certificates, follow these steps:
 

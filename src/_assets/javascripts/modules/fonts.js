@@ -1,10 +1,7 @@
-// Load webfonts
-// = require vendor/fontfaceobserver/fontfaceobserver
+import FontFaceObserver from 'fontfaceobserver';
 
-(function (win, doc) {
-  'use strict';
-
-  if (doc.documentElement.className.indexOf('fonts-loaded') > -1) {
+export default function () {
+  if (document.documentElement.className.indexOf('fonts-loaded') > -1) {
     return;
   }
 
@@ -24,7 +21,7 @@
   });
 
   Promise.all([regular.load(), italic.load(), semibold.load()]).then(function () {
-    doc.documentElement.className += ' fonts-loaded';
-    win.enhance.cookie('fonts-loaded', !0, 7);
+    document.documentElement.className += ' fonts-loaded';
+    window.enhance.cookie('fonts-loaded', !0, 7);
   });
-})(this, this.document);
+}

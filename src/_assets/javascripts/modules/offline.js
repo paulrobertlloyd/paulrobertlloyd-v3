@@ -1,24 +1,21 @@
-(function (win, doc) {
-  'use strict';
-
+export default function () {
   function handleOffline() {
-    var template = doc.querySelector('#offline-message-template');
-    return doc.body.prepend(template.content.cloneNode(true));
+    var template = document.querySelector('#offline-message-template');
+    return document.body.prepend(template.content.cloneNode(true));
   }
 
   function handleOnline() {
-    var message = doc.querySelector('#offline-message');
-    return message ? doc.body.removeChild(message) : null;
+    var message = document.querySelector('#offline-message');
+    return message ? document.body.removeChild(message) : null;
   }
 
-  win.addEventListener('offline', handleOffline);
-  win.addEventListener('online', handleOnline);
-
-  win.addEventListener('load', function () {
+  window.addEventListener('offline', handleOffline);
+  window.addEventListener('online', handleOnline);
+  window.addEventListener('load', function () {
     if (navigator.onLine) {
       handleOnline();
     } else {
       handleOffline();
     }
   });
-})(this, this.document);
+}
