@@ -3,19 +3,6 @@
 
   var enhance = {};
   var fullCSSKey = 'fullcss';
-  var fullJSKey = 'fulljs';
-
-  // Load a JS file asynchronously.
-  // https://github.com/filamentgroup/loadJS/
-  function loadJS(src) {
-    var ref = doc.getElementsByTagName('script')[0];
-    var script = doc.createElement('script');
-    script.src = src;
-    script.async = true;
-    ref.parentNode.insertBefore(script, ref);
-    return script;
-  }
-  enhance.loadJS = loadJS;
 
   // Load a CSS file asynchronously.
   // https://github.com/filamentgroup/loadCSS/
@@ -129,20 +116,6 @@
   if (fullCSS && !cookie(fullCSSKey)) {
     loadCSS(fullCSS.content);
     cookie(fullCSSKey, 'true', 7);
-  }
-
-  // Cut the mustard…
-  if (!(doc.querySelector && win.innerWidth)) {
-    return;
-  }
-
-  // …and add class if user agent does.
-  doc.documentElement.className += ' js-enhanced';
-
-  // Load JavaScript asynchronously
-  var fullJS = getMeta(fullJSKey);
-  if (fullJS) {
-    loadJS(fullJS.content);
   }
 
   win.enhance = enhance;
