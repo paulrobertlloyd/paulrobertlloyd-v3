@@ -10,10 +10,6 @@ export default function () {
   const resultsList = document.createElement('ol');
   resultsList.setAttribute('class', 'c-list c-list--inline');
 
-  fetch(endpoint)
-    .then(blob => blob.json())
-    .then(data => pages.push(...data));
-
   function findResults(termToMatch, pages) {
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
@@ -38,6 +34,10 @@ export default function () {
   }
 
   if (document.querySelector('.c-form--search')) {
+    fetch(endpoint)
+      .then(blob => blob.json())
+      .then(data => pages.push(...data));
+
     searchForm.appendChild(resultsList);
     searchForm.setAttribute('action', '#search');
     searchForm.removeAttribute('method');
