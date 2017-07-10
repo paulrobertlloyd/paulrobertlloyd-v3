@@ -2,20 +2,6 @@ export default function () {
   const endpoint = '/archive/search.json';
   const pages = [];
 
-  const searchForm = document.querySelector('.c-form--search');
-  const searchInput = document.querySelector('.c-form--search .c-form__input');
-  const searchSubmit = document.querySelector('.c-form--search .c-form__submit');
-
-  // Set up results list
-  const resultsList = document.createElement('ol');
-  resultsList.setAttribute('class', 'c-list c-list--inline');
-
-  // Adapt search form
-  searchForm.appendChild(resultsList);
-  searchForm.setAttribute('action', '#search');
-  searchForm.removeAttribute('method');
-  searchSubmit.parentNode.removeChild(searchSubmit);
-
   fetch(endpoint)
     .then(blob => blob.json())
     .then(data => pages.push(...data));
@@ -27,7 +13,7 @@ export default function () {
     });
   }
 
-  function displayResults() {
+  function displayResults(el) {
     const resultsArray = findResults(this.value, pages);
     const html = resultsArray.map(item => {
       return `
@@ -37,14 +23,28 @@ export default function () {
     }).join('');
 
     if ((resultsArray.length === 0) || (this.value === '')) {
-      resultsList.innerHTML = `<li class="c-list__item">Nothing matched your query</li>`;
+      el.innerHTML = `<li class="c-list__item">Nothing matched your query</li>`;
     } else {
-      resultsList.innerHTML = html;
+      el.innerHTML = html;
     }
   }
 
   if (document.querySelector('.c-form--search')) {
-    searchInput.addEventListener('keyup', displayResults);
+    const searchForm = document.querySelector('.c-form--search');
+    const searchInput = document.querySelector('.c-form--search .c-form__input');
+    const searchSubmit = document.querySelector('.c-form--search .c-form__submit');
+
+    // Set up results list
+    const resultsList = document.createElement('ol');
+    resultsList.setAttribute('class', 'c-list c-list--inline');
+
+    // Adapt search form
+    searchForm.appendChild(resultsList);
+    searchForm.setAttribute('action', '#search');
+    searchForm.removeAttribute('method');
+    searchSubmit.parentNode.removeChild(searchSubmit);
+
+    searchInput.addEventListener('keyup', displayResults(resultsList));
     searchInput.addEventListener('keypress', function (event) {
       if (event.keyCode === 13) {
         event.preventDefault();
