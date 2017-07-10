@@ -16,6 +16,8 @@
     "url": "https://github.com/paulrobertlloyd/paulrobertlloyd.com.git"
   },
   "scripts": {
+    "build": "rollup -c etc/rollup/config.js",
+    "dev": "rollup -c etc/rollup/config.js -w",
     "test": "xo || stylelint **/*.scss"
   },
   "babel": {

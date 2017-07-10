@@ -7,4 +7,4 @@ gem install bundler
 
 echo "Installing project dependencies"
 bundle install
-git submodule foreach git pull origin master
+npm install

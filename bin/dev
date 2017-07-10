@@ -5,5 +5,6 @@ set -e
 echo "Generating website files and saving them to destination"
 START=$SECONDS
 JEKYLL_ENV=production bundle exec jekyll build --config etc/jekyll/config.yml,etc/jekyll/development.yml --trace
+npm run dev
 
 echo $((SECONDS - START)) seconds
