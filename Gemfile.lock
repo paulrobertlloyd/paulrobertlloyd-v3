@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (7.1.2)
+    autoprefixer-rails (7.1.2.1)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
@@ -64,8 +64,6 @@ GEM
     sprockets (3.7.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    uglifier (3.2.0)
-      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
@@ -80,7 +78,6 @@ DEPENDENCIES
   jekyll-paginate-v2
   jekyll-sitemap
   jekyll-slugify_underscore
-  uglifier
 
 BUNDLED WITH
    1.15.1
