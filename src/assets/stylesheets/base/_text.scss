@@ -8,18 +8,6 @@ a {
   // Remove gray background color from active links in IE 10
   background-color: transparent;
   transition: color 0.1s ease-out;
-
-  &[rel=tag] {
-    display: inline-block;
-    text-transform: lowercase;
-    word-spacing: -0.2em;
-    white-space: nowrap;
-
-    &::before {
-      content: "#\2009";
-      opacity: 0.5;
-    }
-  }
 }
 
 @media print {

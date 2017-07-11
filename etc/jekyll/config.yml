@@ -175,15 +175,12 @@ jekyll-archives:
   enabled:
     - year
     - month
-    - tags
   layouts:
     year: archive-year
     month: archive-month
-    tag: archive-tag
   permalinks:
     year: /:year/
     month: /:year/:month/
-    tag: /tags/:name.html
 
 # Plugin: jekyll-crosspost-to-medium
 jekyll-crosspost_to_medium:
