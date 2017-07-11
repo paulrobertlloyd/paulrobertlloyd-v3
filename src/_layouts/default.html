@@ -5,6 +5,7 @@
 <html lang="en-gb" prefix="og: http://ogp.me/ns#" class="{% if page.theme %}t-{{ page.theme }}{% endif %}">
 <!--#endif-->
 <head>
+  <link rel="preload" href="{% asset_path calibre-regular.woff2 %}" as="font" type="font/woff2" crossorigin/>
   <link rel="serviceworker" href="/serviceworker.js"/>
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
   <link rel="apple-touch-icon" href="/images/icon.png" type="image/png"/>
@@ -25,7 +26,6 @@
   <meta name="theme-color" content="{{ site.theme_color }}"/>
   <meta name="application-name" content="{{ site.title }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="fullcss" content="{% asset_path global.css %}"/>
 
 {% if page.path contains ".markdown" %}
   <meta property="og:title" content="{{ page.title | xml_escape | smartify }}"/>
@@ -41,20 +41,8 @@
   <meta name="twitter:site" content="@paulrobertlloyd"/>
 {% endif %}
 
-<!--#if expr="$HTTP_COOKIE=/fullcss\=true/"-->
   <link rel="stylesheet" href="{% asset_path global.css %}"/>
-<!--#else-->
-  <style>
-    {% asset_source critical.css %}
-  </style>
-  <link rel="preload" href="{% asset_path global.css %}" as="style" onload="this.rel='stylesheet'">
-<!--#endif-->
-
-  <script>
-    {% asset_source head.js %}
-  </script>
   <script src="/assets/javascripts/global.js" async></script>
-  <noscript><link rel="stylesheet" href="{% asset_path global.css %}"/></noscript>
 
   <title>{% if page.title != nil %}{{ page.title | smartify }} / {% endif %}{{ site.title }}</title>
 </head>

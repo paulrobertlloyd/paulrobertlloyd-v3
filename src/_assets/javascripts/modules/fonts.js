@@ -1,4 +1,5 @@
 import FontFaceObserver from 'fontfaceobserver';
+import cookie from './cookie';
 
 export default function () {
   if (document.documentElement.className.indexOf('fonts-loaded') > -1) {
@@ -22,6 +23,6 @@ export default function () {
 
   Promise.all([regular.load(), italic.load(), semibold.load()]).then(function () {
     document.documentElement.className += ' fonts-loaded';
-    window.enhance.cookie('fonts-loaded', !0, 7);
+    cookie('fonts-loaded', !0, 7);
   });
 }
