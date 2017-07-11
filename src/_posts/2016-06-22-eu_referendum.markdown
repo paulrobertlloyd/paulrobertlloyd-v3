@@ -7,7 +7,6 @@ image:
   src: 2016/06/eu_referendum.jpg
   caption: 'Pastiche of Michelangelo''s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'
   preset: anamorphic
-crosspost_to_medium: true
 tags:
   - Politics
   - Europe

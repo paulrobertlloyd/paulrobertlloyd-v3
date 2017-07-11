@@ -4,7 +4,6 @@ series: designing_systems
 date: '2017-01-31 23:00:00 +0000'
 location: Bexhill-on-Sea, England
 excerpt: 'In the second part of my three-part essay based on the talk I gave at Smashing Conference, I propose a model for thinking about design systems.'
-crosspost_to_medium: true
 tags:
   - Web
   - Design

@@ -6,7 +6,6 @@ excerpt: 'Because it uses logical values, Flexbox layouts will automatically ali
 image:
   src: 2016/03/spock.jpg
   caption: 'Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg)'
-crosspost_to_medium: true
 tags:
   - Web
 ---

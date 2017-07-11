@@ -7,7 +7,6 @@ excerpt: 'Part one of a three-part essay based on the talk I gave at Smashing Co
 image:
   src: 2017/01/brasilia_satellite.jpg
   caption: 'Brasília, seen from above, looks like a bird or a plane. Image: [NASA Earth Observatory](http://earthobservatory.nasa.gov/IOTD/view.php?id=43743)'
-crosspost_to_medium: true
 tags:
   - Architecture
   - Brasilia

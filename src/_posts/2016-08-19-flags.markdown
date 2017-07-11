@@ -7,7 +7,6 @@ image:
   src: 2016/08/flags.jpg
   caption: 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)'
   preset: anamorphic
-crosspost_to_medium: true
 tags:
   - Design
   - Identity

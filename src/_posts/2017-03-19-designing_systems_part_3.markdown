@@ -7,7 +7,6 @@ excerpt: In the final part of my three-part essay based on the talk I gave at Sm
 image:
   src: 2017/03/brasilia_motifs.jpg
   caption: Common architectural motifs can be seen across many of Brasília's civic buildings
-crosspost_to_medium: true
 tags:
   - Web
   - Design
