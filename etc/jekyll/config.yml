@@ -85,6 +85,7 @@ defaults:
     values:
       category: notes
       layout: note
+      title: Note
 
   - scope:
       type: projects
