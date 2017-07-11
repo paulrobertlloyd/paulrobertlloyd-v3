@@ -1,6 +1,2 @@
-url: https://paulrobertlloyd.dev
-show_drafts: true
-future: true
-
 jekyll-crosspost_to_medium:
   enable: false
