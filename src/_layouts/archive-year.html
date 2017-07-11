@@ -2,32 +2,33 @@
 layout: default
 ---
 <section class="c-page c-page--index">
-  {% assign title = page.date | date: "%Y" %}
-  {% include page/header.html title=title %}
+  {% include page/header.html title=page.title %}
 
-  {% for item in page.posts %}
+  {% for item in site.posts %}
     {% assign this_year = item.date | date: "%Y" %}
     {% assign this_month = item.date | date: "%m" %}
     {% assign this_month_name = item.date | date: "%B" %}
 
-    {% if this_month != month %}
-      {% unless forloop.first %}
-    </div>
-  </section>
-      {% endunless %}
+    {% if this_year == page.title %}
+      {% if this_month != month %}
+        {% unless forloop.first %}
+      </div>
+    </section>
+        {% endunless %}
 
-  <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-    <header class="c-section__header">
-      <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
-    </header>
+    <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+      <header class="c-section__header">
+        <h1 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h1>
+      </header>
 
-    <div class="c-section__main">
-      {% assign month = this_month %}
-    {% endif %}
-      {% include item/item.html %}
-    {% if forloop.last %}
-    </div>
-  </section>
+      <div class="c-section__main">
+        {% assign month = this_month %}
+      {% endif %}
+        {% include item/item.html %}
+      {% if forloop.last %}
+      </div>
+    </section>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </section>

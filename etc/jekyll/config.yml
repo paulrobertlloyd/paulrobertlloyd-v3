@@ -31,6 +31,8 @@ incremental: true
 
 # Collections
 collections:
+  archives:
+    output: true
   content:
     output: true
   discussions:
@@ -44,6 +46,12 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      type: archives
+    values:
+      permalink: /:path/
+      layout: archive-year
+
   - scope:
       type: content
     values:
@@ -169,18 +177,6 @@ pagination:
   permalink: '/:num'
   sort_reverse: true
   per_page: 15
-
-# Plugin: jekyll-archives
-jekyll-archives:
-  enabled:
-    - year
-    - month
-  layouts:
-    year: archive-year
-    month: archive-month
-  permalinks:
-    year: /:year/
-    month: /:year/:month/
 
 # Plugin: jekyll-crosspost-to-medium
 jekyll-crosspost_to_medium:

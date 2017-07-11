@@ -1,0 +1,4 @@
+---
+date: 2012-06-01
+layout: archive-month
+---

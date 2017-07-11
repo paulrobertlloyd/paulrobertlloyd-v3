@@ -2,12 +2,15 @@
 layout: default
 ---
 <section class="c-page c-page--index">
-  {% assign title = page.date | date:"%B %Y" %}
-  {% include page/header.html title=title %}
+  {% assign page_month = page.date | date: "%B %Y" %}
+  {% include page/header.html title=page_month %}
 
   <div class="c-section">
-  {% for item in page.posts %}
-    {% include item/item.html %}
+  {% for item in site.posts %}
+    {% assign item_month = item.date | date: "%B %Y" %}
+    {% if page_month == item_month %}
+      {% include item/item.html %}
+    {% endif %}
   {% endfor %}
   </div>
 </section>

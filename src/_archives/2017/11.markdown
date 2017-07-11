@@ -1,0 +1,4 @@
+---
+date: 2017-11-01
+layout: archive-month
+---

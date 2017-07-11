@@ -1,0 +1,4 @@
+---
+date: 2008-11-01
+layout: archive-month
+---
