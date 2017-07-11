@@ -1,0 +1,6 @@
+---
+date: '2017-05-01 16:06:00 +0100'
+image:
+  src: notes/2017-05-01-this-bank-holiday.jpg
+---
+This bank holiday I have been mostly... pointing my camera at bluebells, on the Arlington Bluebell Walk.

@@ -1,0 +1,4 @@
+---
+date: '2017-05-10 14:25:00 +0100'
+---
+"When it comes to generating the white heat demanded by modern industry, there are few good options but to burn stuff." -- Lewis Dartnell, [Out of the ashes](https://aeon.co/essays/could-we-reboot-a-modern-civilisation-without-fossil-fuels)
