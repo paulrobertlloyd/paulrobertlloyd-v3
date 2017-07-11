@@ -4,11 +4,11 @@ import resolve from 'rollup-plugin-node-resolve';
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-  entry: 'src/_assets/javascripts/global.js',
-  dest: 'www/assets/javascripts/global.js',
+  entry: 'src/assets/javascripts/main.js',
+  dest: 'www/assets/javascripts/main.js',
   format: 'iife',
   sourceMap: true,
-  sourceMapFile: 'www/assets/javascripts/global.map.js',
+  sourceMapFile: 'www/assets/javascripts/main.map.js',
   plugins: [
     babel({
       exclude: 'node_modules/**'

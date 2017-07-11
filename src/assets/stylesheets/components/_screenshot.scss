@@ -51,7 +51,7 @@ $u__shadow-size: 4px;
   bottom: -1.5rem;
   left: 14%;
   z-index: 3;
-  background-image: url(asset_path("device-tablet-landscape.svg"));
+  background-image: url("/images/device-tablet-landscape.svg");
   padding: 2.1% 5.4%;
   width: (36% * 946 / 640); // Width/height of tablet image
 }
@@ -60,7 +60,7 @@ $u__shadow-size: 4px;
   top: $u__shadow-size;
   right: 14%;
   z-index: 4;
-  background-image: url(asset_path("device-tablet-portrait.svg"));
+  background-image: url("/images/device-tablet-portrait.svg");
   padding: 5.4% 2.1%;
   width: 36%;
 }
@@ -70,7 +70,7 @@ $u__shadow-size: 4px;
   top: 2rem;
   left: 28%;
   z-index: 2;
-  background-image: url(asset_path("device-phablet.svg"));
+  background-image: url("/images/device-phablet.svg");
   padding: 4.8% 1.6% 0;
   width: 24%;
 }
@@ -80,7 +80,7 @@ $u__shadow-size: 4px;
   top: 24%;
   right: 1rem;
   z-index: 5;
-  background-image: url(asset_path("device-phone.svg"));
+  background-image: url("/images/device-phone.svg");
   padding: 2.4% 0.8% 0;
   width: 16%;
 }
