@@ -7,7 +7,7 @@
   'use strict';
 
   // Update 'version' if you need to refresh the caches
-  var version = 'v::2::';
+  var version = 'v::3::';
   // A cache for core files like CSS and JavaScript
   var staticCacheName = 'static';
   // A cache for pages to store for offline
@@ -15,18 +15,29 @@
   // A cache for images to store for offline
   var imagesCacheName = 'images';
 
-  var updateStaticCache = function () {
+  function updateStaticCache() {
     return caches.open(version + staticCacheName)
       .then(function (cache) {
-        // With the cache opened, load a JSON file containing an array of files to be cached
-        return fetch('cache.json').then(function (response) {
-          // Once the contents are loaded, convert the raw text to a JavaScript object
-          return response.json();
-        }).then(function (files) {
-          return cache.addAll(files);
-        });
+        return cache.addAll([
+          'manifest.json',
+          '/assets/fonts/calibre-regular.woff2',
+          '/assets/fonts/calibre-italic.woff2',
+          '/assets/fonts/calibre-semibold.woff2',
+          '/assets/javascripts/main.js',
+          '/assets/stylesheets/main.css',
+          '/images/device-phablet.svg',
+          '/images/device-phone.svg',
+          '/images/device-tablet-landscape.svg',
+          '/images/device-tablet-portrait.svg',
+          '/images/icon.png',
+          '/images/icon.svg',
+          '/images/offline.svg',
+          '/error/offline',
+          '/hire/',
+          '/'
+        ]);
       });
-  };
+  }
 
   var stashInCache = function (cacheName, request, response) {
     caches.open(cacheName)
