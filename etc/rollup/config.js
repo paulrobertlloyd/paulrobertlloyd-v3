@@ -7,8 +7,6 @@ export default {
   entry: 'src/assets/javascripts/main.js',
   dest: 'www/assets/javascripts/main.js',
   format: 'iife',
-  sourceMap: true,
-  sourceMapFile: 'www/assets/javascripts/main.map.js',
   plugins: [
     babel({
       exclude: 'node_modules/**'

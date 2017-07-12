@@ -26,6 +26,7 @@ kramdown:
 source: ./src
 destination: ./www
 include: [_indices]
+exclude: [assets/javascripts, assets/stylesheets]
 profile: true
 
 # Collections
