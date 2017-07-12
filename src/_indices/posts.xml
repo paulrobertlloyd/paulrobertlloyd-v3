@@ -19,16 +19,16 @@ permalink: /journal/feed.xml
   {% assign posts = site.posts | sort: "date" | reverse %}
   {% for item in posts limit:25 %}
   <entry>
-    {% case item.collection %}
-    {% when "galleries" %}
+    {% case item.layout %}
+    {% when "gallery" %}
       {% assign title_prefix = "Gallery: " %}
-    {% when "links" %}
+    {% when "link" %}
       {% assign title_prefix = "Link: " %}
-    {% else %}
+    {% when "post" %}
       {% assign title_prefix = "★ " %}
     {% endcase %}
     <id>{{ site.url }}{{ item.id }}</id>
-    <title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>
+    {% if item.layout != "note" %}<title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>{% endif %}
     <updated>{{ item.date | date_to_xmlschema }}</updated>
     <link href="{{ site.url }}{{ item.url }}"/>
     <content type="html">
