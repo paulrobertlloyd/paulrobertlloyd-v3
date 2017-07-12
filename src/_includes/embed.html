@@ -20,6 +20,6 @@
   {% assign embed_action = "Watch video on YouTube" %}
 {% else %}
 {% endif %}
-<div class="c-embed" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-title="Media embed: {{ include.title | xml_escape }}"{% if include.ratio %} data-embed-ratio="{{ include.ratio }}"{% endif %}>
+<div class="c-embed {{ include.class }}" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-title="Media embed: {{ include.title | xml_escape }}"{% if include.ratio %} data-embed-ratio="{{ include.ratio }}"{% endif %}>
   <p><a href="{{ include.src }}">{{ embed_action }}</a></p>
 </div>
