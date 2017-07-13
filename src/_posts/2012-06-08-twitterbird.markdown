@@ -8,11 +8,12 @@ tags:
   - Design
   - Twitter
 ---
-{% figure caption:"The new Twitter logo" %}
-{% include image.html src="2012/06/twitterbird.jpg" %}
-{% endfigure %}
-
 With a [worsening financial crisis][1] and continued [destruction of the world's natural resources][2], there are undoubtedly more important things to worry about than Twitter's slightly tweaked bird logo. Yet here we are.
+
+{% include figure.html
+  src="2012/06/twitterbird.jpg"
+  caption="The new Twitter logo"
+%}
 
 Ironically, I've only written this post due to the restrictive nature of Twitter. While the 140 character limit is reason for the service's popularity, all too often it encourages users to post pithy tweets, me included. Indeed, I'm finding Twitter to be a platform that increasingly stimulates egocentric behaviour: follower counts and the highlighting of 'interactions' just two examples. These exist to encourage more tweeting of course, for apparently [there's value in pith][3]. If you're not paying, you're the product being sold, repeat until fade. I digress.
 
@@ -28,9 +29,10 @@ Only if you ignore the flowery introduction and read [Bowman's responses][6] to 
 
 Still, where the previous logo had character and charm (the quiff was a beautiful touch), this revision perhaps better reflects the company as it stands today: slicker, more corporate, and balding. No place is this better reflected than in the company's stringent new 'Trademark and Content Display Policy', for which [Gawker provides a helpful summary][8]:
 
-{% figure %}
-{% include image.html src="2012/06/twitterbird_donts.png" alt="Illustation of Twitter bird usage guidelines" %}
-{% endfigure %}
+{% include figure.html
+  src="2012/06/twitterbird_donts.png"
+  caption="Twitter bird usage guidelines"
+%}
 
 > Per the illustration, you absolutely cannot:
 >

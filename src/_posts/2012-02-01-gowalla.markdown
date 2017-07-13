@@ -19,9 +19,10 @@ The team behind Gowalla had a great reputation. In addition to founding the succ
 
 It worked! I remember visiting nearby cities in the hope that I could add new stamps to my passport or find items missing from my collection. Yet a recurring question would be asked every time me and my colleagues checked into the same spots at lunchtime: "Why are we actually doing this?". Having checked in once, there was little incentive to do so again.
 
-{% figure caption:"A small selection from the thousands of exquisitely designed location stamps you could earn on Gowalla" %}
-{% include image.html src="2012/02/gowalla_stamps.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2012/02/gowalla_stamps.png"
+  caption="A small selection from the thousands of exquisitely designed location stamps you could earn on Gowalla"
+%}
 
 ## Gowalla vs. Foursquare
 Foursquare's approach was very different. Here, you earned points not stamps, so the aim of the game was abundantly clear; earn more points than your friends. Therefore it made sense to check-in to the same spot -- especially if you wanted to snatch a coveted mayorship! I found this approach rather crass, but it proved to have popular appeal.
@@ -36,16 +37,18 @@ Gowalla was acquired by Facebook in December, and much of the team is headed to 
 
 It's tempting to accuse the founders of selling out, but given the failure of the product (and the need to satisfy their investors), I suspect they had little choice but to join Facebook. The same fate awaits many other start-ups. Indeed, Facebook's dominance can be traced by observing the increasing prominence of their account linking and sharing buttons on other social sites.
 
-{% figure caption:"The Gowalla home page in January 2012. The growing prominence of Facebook account linking and sharing buttons on Gowalla hinted at its eventual fate" class:"u-extend" %}
-{% include image.html src="2012/02/gowalla_homepage.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2012/02/gowalla_homepage.png"
+  caption="The Gowalla home page in January 2012. The growing prominence of Facebook account linking and sharing buttons on Gowalla hinted at its eventual fate."
+  class="u-extend"
+%}
 
 ## It's very pretty. Congratulations.
 Unfortunately, Gowalla is [the latest in a long line][5] of respected design agencies and design-focused product companies that have closed down, shuttered their products and moved to Palo Alto. The desire to work at Facebook is easy to understand. Few companies can offer the same complex and interesting design challenges. Even fewer can provide an audience of 800 million people (and counting).
 
 This intake of designers has been building products like Timeline, and no doubt many are working on the rumoured 'Facebook Phone'. They are producing examples of enchanting interaction design, and much more will follow. But when you consider the motives underlying these products (in the case of Timeline the collection of data from your life pre-Facebook) you have to question the role of design at this company -- and [others][6].
 
-It's easy to get carried away by aesthetics and interactions, but we need to ask whether they bring with them any value. An app to [rate sandwiches][7] does little to further society. A [feed reader][8] isn't going to bring you closer to your children (probably quite the opposite). As [Mike Monteiro rightly stated][9]: 
+It's easy to get carried away by aesthetics and interactions, but we need to ask whether they bring with them any value. An app to [rate sandwiches][7] does little to further society. A [feed reader][8] isn't going to bring you closer to your children (probably quite the opposite). As [Mike Monteiro rightly stated][9]:
 
 > We have more processing power, affordable tools, and combined intelligence right this very minute than at any point in the history of design. We are using it to build shit. It's time to aim higher. Let's find problems to solve that actually improve people's lives. Whether it's figuring out a better way to access medical records, figuring out how 14 year olds can stop carrying forty pounds of textbooks back and forth to school every day, or a reservation system for the communal rooftop farm in your building, there has got to be something more beneficial to society than the next Facebook clone.
 

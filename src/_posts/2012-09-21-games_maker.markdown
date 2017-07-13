@@ -40,9 +40,10 @@ Surrounded by colleagues of all ages, professions and backgrounds, I was using l
 
 A two-year journey had come to an abrupt end, the nervy expectation of two weeks prior replaced with an uneasy emptiness. Before our first shift, we were told to enjoy ourselves as it would be over before we knew it. And so it was proven.
 
-{% figure caption:"A photo from the final Games Maker shift" %}
-{% include image.html src="2012/09/games_maker_last_night.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2012/09/games_maker_last_night.jpg"
+  caption="A photo from the final Games Maker shift"
+%}
 
 ## A Genuine Act
 Like many others, I'm now suffering a post-Games come down. After a happy and glorious summer, in which Britain's underlying warm and cheerful nature was revealed to an unsuspecting world, all that remains is retrospection.
