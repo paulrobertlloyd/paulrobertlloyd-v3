@@ -1,4 +1,5 @@
 ---
+title: September 2011
 date: 2011-09-01
 layout: archive-month
 ---

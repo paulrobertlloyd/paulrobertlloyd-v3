@@ -1,4 +1,5 @@
 ---
+title: June 2014
 date: 2014-06-01
 layout: archive-month
 ---

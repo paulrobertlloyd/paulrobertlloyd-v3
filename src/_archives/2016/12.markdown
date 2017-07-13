@@ -1,4 +1,5 @@
 ---
+title: December 2016
 date: 2016-12-01
 layout: archive-month
 ---

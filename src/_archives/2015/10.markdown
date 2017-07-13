@@ -1,4 +1,5 @@
 ---
+title: October 2015
 date: 2015-10-01
 layout: archive-month
 ---

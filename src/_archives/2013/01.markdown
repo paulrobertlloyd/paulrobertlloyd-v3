@@ -1,4 +1,5 @@
 ---
+title: January 2013
 date: 2013-01-01
 layout: archive-month
 ---

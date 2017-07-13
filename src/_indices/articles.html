@@ -5,7 +5,7 @@ landing: true
 permalink: /articles/
 ---
 <section class="c-page c-page--index">
-  {% include page/header.html title=page.title %}
+  {% include page/header.html %}
 
   {% for item in site.data.articles_published %}
     {% assign this_year = item.date | date:"%Y" %}

@@ -1,4 +1,5 @@
 ---
+title: December 2010
 date: 2010-12-01
 layout: archive-month
 ---

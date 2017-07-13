@@ -1,4 +1,5 @@
 ---
+title: December 2014
 date: 2014-12-01
 layout: archive-month
 ---

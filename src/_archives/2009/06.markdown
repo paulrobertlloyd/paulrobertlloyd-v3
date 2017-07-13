@@ -1,4 +1,5 @@
 ---
+title: June 2009
 date: 2009-06-01
 layout: archive-month
 ---

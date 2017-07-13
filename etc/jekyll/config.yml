@@ -51,7 +51,6 @@ defaults:
     values:
       permalink: /:path/
       layout: archive-year
-      title: Archive
 
   - scope:
       type: content
