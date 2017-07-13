@@ -3,16 +3,15 @@ title: Historic Counties & Psychoville
 date: '2009-06-23 00:30:00 +0100'
 location: Littlehampton, England
 excerpt: I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it.
+image:
+  src: 2009/06/historic_counties_and_psychoville.jpg
+  caption: Scene from Psychoville
 tags:
   - Television
   - Government
   - England
 discussion: closed
 ---
-{% figure caption:"Scene from Psychoville" %}
-{% include image.html src="2009/06/historic_counties_and_psychoville.jpg" %}
-{% endfigure %}
-
 I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it. The passing of the [Local Government Act of 1888][1] established county councils (or 'administrative counties') based upon the boundaries of existing [historic Counties][2] in England and Wales, but subsequent legislation has been far more destructive.
 
 My interest in this topic is no doubt driven by [my desire to organise][3] everything, but it's worth noting that I grew up in Horley, a town that campaigned hard to remain within Surrey when the [Local Government Act of 1972][4] sought to have it join neighbouring West Sussex.
@@ -58,8 +57,8 @@ Formally Wood Green was a municipal borough within the county of Middlesex, but 
 Whilst Greater London assumed parts of neighbouring counties and lead to Middlesex being abolished entirely, this historic county still exists in the public consciousness. A tin of Heinz Baked Beans will show the company address as Hayes, Middlesex, whilst a can of Coke may list an address of Uxbridge, Middlesex.
 Using historic Counties for addresses in London can be confusing, so the recommended form is to use the County followed by the Post Town, for example:
 
-    Wood Green  
-    Middlesex  
+    Wood Green
+    Middlesex
     LONDON
 
 ## Further Information

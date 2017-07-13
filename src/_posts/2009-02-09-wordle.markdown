@@ -5,9 +5,7 @@ excerpt: A word cloud generated from content that has appeared on my site over t
 tags:
   - Blogging
 ---
-{% figure %}
 {% include image.html src="2009/02/wordle.png" alt="Wordle" %}
-{% endfigure %}
 
 This is a word cloud generated from content that has appeared on my site over the last few months. You can create your own word clouds at [wordle.net][1]
 
