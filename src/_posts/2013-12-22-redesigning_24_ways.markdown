@@ -44,9 +44,10 @@ Given the brief in June, every time I sat down to work on the project, I couldn'
 
 Diamonds quickly became a unifying motif throughout this exploratory stage. Not only did this shape produce interesting crops and create a visual tension on the page, it also hinted at the season without going to the lengths of adding stars or Christmas trees.
 
-{% figure caption:"The design concept started with commenting" %}
-{% include image.html src="2013/12/24_ways_comments.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2013/12/24_ways_comments.png"
+  caption="The design concept started with commenting"
+%}
 
 For the typography, I settled on a pairing of [Lato][9] and [Merriweather][10]. For similar reasons discussed in [an earlier post][11], I opted to use freely available fonts, with budget and ease of implementation at the forefront of my mind. This choice helped me typeset articles to a reasonable standard, yet using typefaces from different designers and with different metrics meant I was unable to mix them together inline. I looked at pairing Merriweather with its sans serif counterpart, yet its tracking was too loose for body copy.
 
@@ -59,9 +60,10 @@ For the typography, I settled on a pairing of [Lato][9] and [Merriweather][10]. 
 
 All the while, [Jessica Hische's advice][12] was in the back of my mind: could I have found a better pairing with more time? If confirmation were needed, nearing completion of the design I discovered that Lato is Polish for Summer! Hopefully this is something we can revisit next year.
 
-{% figure caption:"Initial design concept for 24 ways home page" %}
-{% include image.html src="2013/12/24_ways_concept.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2013/12/24_ways_concept.png"
+  caption="Initial design concept for 24 ways home page"
+%}
 
 ## Moving to code
 By the time dConstruct arrived in September, I had enough elements to present an initial direction to Drew and the rest of the *24 ways* team. They loved what they saw, but frustratingly, I couldn't progress beyond this stage. I had a clear idea for index pages (inspired in part by the design of the [New York Times skimmer][13]), yet few ideas for how this might translate to other pages.
@@ -87,9 +89,10 @@ That's what Drew said when we first talked about the redesign. He was fairly cle
 
 Earlier this year [Benjy Stanton][15] gave a talk at Port80 about [animation on the web][16]. He pointed out that although we have the tools (or at least the technology) to achieve richer animation, it's often neglected. Beyond transitioning between menu states, a small flap in the corner of each article summary that pealed open to reveal the author might add this extra layer of engagement.
 
-{% figure caption:"Keyframes in flap animation" %}
-{% include image.html src="2013/12/24_ways_animation_keyframes.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2013/12/24_ways_animation_keyframes.png"
+  caption="Keyframes in flap animation"
+%}
 
 Running short on time, I asked my friend (and [SVG guru][17]) Josh Emerson for help. I imagined the resulting animation would use SVG, but it turns out there were significant issues with such an approach. Instead, Josh recommended I use CSS keyframe animations and background positioning with just a touch of JavaScript. Genius!
 

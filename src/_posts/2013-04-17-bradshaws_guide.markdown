@@ -25,9 +25,10 @@ Bradshaw's work is well suited to hypertext, with stations categorised by locati
 
 Besides the historical, technical and artistic aspects, making Bradshaw's work more widely available might also encourage people to spend more time on the railways and holiday at home, rather than fly overseas (readers should ignore the author's current location).
 
-{% figure caption:"Bradshaw's Guide viewed on an iPad" %}
-{% include image.html src="2013/04/bradshaws_guide_ipad.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2013/04/bradshaws_guide_ipad.png"
+  caption="Bradshaw's Guide viewed on an iPad"
+%}
 
 ## Technical Platform
 I originally thought this project would be an excellent opportunity to learn a new programming framework, perhaps Django or Ruby on Rails. However, the thought of learning a new language served only to delay me getting started. Hounded by friends as to the project's progress, I began looking for a flexible publishing platform instead.

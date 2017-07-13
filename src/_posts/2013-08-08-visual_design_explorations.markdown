@@ -17,18 +17,22 @@ I'm finding these review sessions immensely rewarding; it's a great way of gaini
 As a number of new projects have kicked-off recently, and with my own thoughts turning to the design of [this year's dConstruct website][6], much of today's discussion was about our initial design explorations. In turn, we looked at tools and techniques that can help us do this, weighing up the pros and cons of each.
 
 ## Mood boards
-{% figure caption:"Mood board for Family Nest" class:"u-extend" %}
-{% include image.html src="2013/08/visual_design_explorations_mood_board.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2013/08/visual_design_explorations_mood_board.png"
+  caption="Mood board for Family Nest"
+  class="u-extend"
+%}
 
 A tool typically used by interior designers, mood boards can be a great way of exploring different thematic approaches and stylistic treatments. These can be put together really quickly, as much of their content is sourced from existing work. They can be created digitally or simply by cutting up magazines and other print work and sticking them to some card.
 
 We tend to use mood boards when there's not a sense of any brand positioning or identity. However, they can feel quite removed from the web; when clients are eager to see something more relevant to the final outcome, presenting these becomes tricky.
 
 ## Style tiles
-{% figure caption:"Style tiles for Channel 4 Scrapbook" class:"u-extend" %}
-{% include image.html src="2013/08/visual_design_explorations_style_tiles.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2013/08/visual_design_explorations_style_tiles.png"
+  caption="Style tiles for Channel 4 Scrapbook"
+  class="u-extend"
+%}
 
 Style tiles are intended to fall somewhere between mood boards and full mockups or comps. Devised by [Samantha Warren][7], she describes them as:
 
@@ -41,9 +45,11 @@ We've found aligning visual design with words that evoke emotions relevant to a 
 Although unintentional, style tiles have started to feel a little too prescriptive (maybe even 'productised'), raising interesting questions about how processes are best shared within the community. That said, the [style tiles][8] website is a great resource for anyone looking to instigate a more collaborative process with their clients.
 
 ## Element collages
-{% figure caption:"Element collage for a current project" class:"u-extend" %}
-{% include image.html src="2013/08/visual_design_explorations_element_collage.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2013/08/visual_design_explorations_element_collage.png"
+  caption="Element collage for a current project"
+  class="u-extend"
+%}
 
 Recently we've been using something a bit more akin to element collages, which [Dan Mall wrote about][9] last year:
 
