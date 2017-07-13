@@ -24,9 +24,10 @@ For me, volunteering a second time was an opportunity to recapture [the magic I 
 
 Following a successful application interview, I spent a further three weekends in Glasgow for orientation and training events. I enjoyed exploring this vibrant and engaging city and admiring its abundance of stunning architecture. The River Clyde crossed by iconic bridges and framed by oddly shaped buildings. Shopping districts featuring exquisite Victorian shopping malls and department stores. The sometimes brutal landscape the result of driving the M8 motorway straight through the heart of the city in the 1960s.
 
-{% figure caption:"The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number '[bridges to nowhere](https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere)' that can be found around the M8" %}
-{% include image.html src="2014/08/clyde_sider_bridge_to_nowhere.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2014/08/clyde_sider_bridge_to_nowhere.jpg"
+  caption="The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number '[bridges to nowhere](https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere)' that can be found around the M8"
+%}
 
 ## Hearing Hampden Roar
 In January I found out that I would be based at Hampden Park, where Scotland's national football stadium was being converted into a temporary athletics track. The ingenious method used, in which [over 6000 structural steel stilts were used to build a platform 1.9 metres above ground][4], inspired the slogan for the volunteers who would be working there: 'raising the games'.
@@ -42,9 +43,10 @@ However, as I discovered when I attended the athletics as a spectator, nothing c
 ## The Clyde-sider Experience
 Each shift began inside the stadium with everyone taking part in a [haka][7] (minus the dancing), before being dispatched to larger area groups. These groups were subdivided into smaller sub-teams, who were then briefed by their team leaders. A debrief at the end of the shift allowed us to relay any problems and suggest how things could be improved the next day.
 
-{% figure caption:"Souvenir paper cut illustration by [Christine J Thomson](http://thepapercutartist.com/)" %}
-{% include image.html src="2014/08/clyde_sider_papercut.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2014/08/clyde_sider_papercut.png"
+  caption="Souvenir paper cut illustration by [Christine J Thomson](http://thepapercutartist.com/)"
+%}
 
 The organisers went to great lengths to ensure Clyde-siders were looked after and appreciated. Between ingress and egress, volunteers were able to sit in the stadium and watch the action. The sandwiches available during lunch breaks were a particular highlight, with hot items available during evening shifts. Volunteers were also given limited edition gifts, including a beautiful commemorative print celebrating the journey Clyde-siders had been on (shown above). The uniform, while less distinctive (read: less embarrassing) than those worn in London was more rugged, and clearly designed with Glasgow's weather in mind.
 

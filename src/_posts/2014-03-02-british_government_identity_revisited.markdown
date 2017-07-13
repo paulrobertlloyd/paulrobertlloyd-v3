@@ -24,9 +24,10 @@ In my original post I imagined what a unified identity for HM Government, its de
 
 Seeing the identity now in use, we can see that I was at least half right:
 
-{% figure caption:"Logos for HM Government, Department of Health, UK Trade & Investment, Department for Business Innovation & Skills, the Home Office, Ministry of Defence and HM Revenue & Customs" %}
-{% include image.html src="2014/03/british_government_identity.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2014/03/british_government_identity.png"
+  caption="Logos for HM Government, Department of Health, UK Trade & Investment, Department for Business Innovation & Skills, the Home Office, Ministry of Defence and HM Revenue & Customs"
+%}
 
 Most departments use the royal coat of arms, however historic crests and symbols have been retained by certain organisations. While this might go against the notion of a single identity, I like that, in part, it represents the sometimes archaic nature of our democracy and its formation; for example the Department for Business Innovation and Skills can trace its origins to the [Board of Trade][6], a committee of the Privy Council.
 
