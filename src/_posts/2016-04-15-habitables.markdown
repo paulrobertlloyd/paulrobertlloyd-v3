@@ -20,12 +20,12 @@ I initially thought that the recesses on each side of the chimney breast would b
 
 I immediately fell in love with designer Manuel Barrera's distinctive mid-century modern aesthetic. With the option to produce items at bespoke sizes, their standard dimensions were already inch-perfect for my needs. More expensive than the ill-fitting furniture I had already seen, it was with a deep intake of breath that I clicked on the 'Buy' button.
 
-{% figure caption:"The two items of furniture I purchased. They look -- and smell -- great!" class:"u-bleed" %}
-<div class="u-abreast">
-{% include image.html src="2016/04/habitables_tv_table.jpg" alt="TV table made of solid oak board" %}
-{% include image.html src="2016/04/habitables_desk.jpg" alt="Desk made of solid oak board" %}
-</div>
-{% endfigure %}
+{% include figure.html
+  src="2016/04/habitables_tv_table.jpg,2016/04/habitables_desk.jpg"
+  preset="showcase"
+  caption="The two items of furniture I purchased; a TV table and desk, both made of solid oak board. They look -- and smell -- great!"
+  class="u-bleed"
+%}
 
 My order arrived last week. Appropriately packaged for its long trip from Madrid, opening and assembling these new pieces felt like Christmas Day all over again! Not so much a purchase but long-term investment, I'm left with two unique pieces of furniture that I will treasure for many years to come.
 
