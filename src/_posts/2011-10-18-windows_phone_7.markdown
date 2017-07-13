@@ -12,9 +12,10 @@ With three years of iPhone ownership I've become accustomed to the design and be
 
 Thankfully, with Clearleft having acquired a few different devices for mobile testing, I can spend a little time with each to learn how they work. First up; Windows Phone 7.
 
-{% figure %}
-{% include image.html src="2011/10/windows_phone_7.jpg" alt="Windows Phone 7" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/10/windows_phone_7.jpg"
+  caption="Windows Phone 7"
+%}
 
 ## Initial Impressions
 I've watched the development of this platform from afar and been impressed by what I've seen. At this year's SXSW I saw a presentation by [Mike Kruzeniski][1] where he made the case for [print-inspired content-led interfaces][2] -- an approach that contrasts sharply with Apple's latest [skeuomorphic designs][3].

@@ -25,9 +25,10 @@ The [Lincoln][8] and [Thomas Jefferson][9] memorials were as spectacular as I re
 In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for dinner at [Marvin][15] (a Southern flavoured restaurant), followed by cocktails at [The Gibson][16] before finishing up at [Lost Society][17] on U Street. I ended the night by getting lost on the metro, but apart from this minor mishap, I couldn't have asked for a better way to kick-off my trip.
 
 ## Apple Picking in Virginia
-{% figure caption:"The Apple Pickers" %}
-{% include image.html src="2011/12/washington_dc_apple_pickers.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/12/washington_dc_apple_pickers.jpg"
+  caption="The Apple Pickers"
+%}
 
 The fun continued on Sunday when I went Apple picking with Shannon and some of her friends at the [Stribling Orchard][18] in rural Virginia. Having visited Washington before, I jumped at the chance to get out of the city and try something new. It wasn't long before I was trying out the accent and batting apples across the orchard, baseball style. It's a sight I'm sure [Kyle][19] would have paid good money to see; I'd gone native!
 

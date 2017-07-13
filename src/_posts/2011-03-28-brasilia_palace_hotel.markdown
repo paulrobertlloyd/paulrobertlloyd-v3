@@ -20,9 +20,10 @@ Your taxi having parked directly beneath the slender building, you are greeted b
 
 After checking in and taking the swift lift ride up to your floor, you arrive in a spacious lobby area, decorated with wood panelling and furnished with a pair of chairs carefully selected to evoke the building's style. Finding your room is easy; there are only two corridors to choose from and rooms are numbered sequentially. Long corridors are familiar ground in hotels but here they are illuminated on one side by daylight filtered though angled shades adorning the front of the building. Retiring to your room feels efficient yet relaxing.
 
-{% figure caption:"Period furniture is placed in many parts of the hotel" %}
-{% include image.html src="2011/03/brasilia_palace_hotel_chairs.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/03/brasilia_palace_hotel_chairs.jpg"
+  caption="Period furniture is placed in many parts of the hotel"
+%}
 
 Until this point, the experience feels coherently retro, but any momentary lapse into the 1960's disappears upon entering your room. The reception and dinning areas maintain much of the original design but the bedrooms take on a much more modern feel, with anything that may have existed in the hotel when it first opened now substituted for IKEA-like furniture.
 
@@ -33,9 +34,10 @@ In the end, I couldn't decide whether I would have preferred forgoing these mode
 ## Stepping Back In Time
 Beyond the confines of your room, you could easily imagine yourself here during the hotels historic golden era. There was a distinctly ghostly and mysterious feel to the place, especially in the lobby and dinning areas that, by being largely empty, allowed the spaces to speak louder than any of the objects within them.
 
-{% figure caption:"Athos Bulcão Wall Mural in Dinning Room" %}
-{% include image.html src="2011/03/brasilia_palace_hotel_athos_bulcao_mural.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/03/brasilia_palace_hotel_athos_bulcao_mural.jpg"
+  caption="Athos Bulcão Wall Mural in Dinning Room"
+%}
 
 The longest wall of the mezzanine level gives some perspective on the hotels illustrious past with enlarged photos depicting its construction, early guests and later destruction by fire. A second is decorated with tiles by the artist Athos Bulcão; this feature extends beyond a glass wall, as if directing the eye towards the shore of Lake Paranoá. The dinning room is dominated by a large turquoise, black and white wall painting, again by Bulcão, that cements the nostalgic feel of the venue.
 
@@ -48,9 +50,10 @@ There are other changes too. Each room has a balcony but in the original design 
 
 Our use and understanding of glass has improved to the point where it is often favoured over the concrete synonymous with architects like Niemeyer, yet had these techniques been available when he originally designed this building, I'm sure the result would have been similar.
 
-{% figure caption:"A vintage Rural Willys parked underneath the hotel" %}
-{% include image.html src="2011/03/brasilia_palace_hotel_rural_willys.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/03/brasilia_palace_hotel_rural_willys.jpg"
+  caption="A vintage Rural Willys parked underneath the hotel"
+%}
 
 Its secluded lakeside location means it can't offer the central location provided by other hotels in the city. However, reaching the main attractions by taxi remains reasonably priced -- around R$15 at the time of writing (March 2011) -- and only here can you consider the country's president your neighbour, for a short while at least.
 

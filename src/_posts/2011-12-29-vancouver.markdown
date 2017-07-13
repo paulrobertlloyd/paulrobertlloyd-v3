@@ -18,21 +18,24 @@ After checking into the [St. Regis Hotel][3] (worthy of mention, and highly reco
 ## Stanley Park
 I was unsure how to spend my single day in Vancouver. Dave recommended visiting [Stanley Park][7] if the weather was good; luckily the predicted rainfall was absent so I headed in that direction. I was easily drawn into this expansive park; beautiful in and of itself yet also a great spot to find magnificent views of the cityscape. Always on the look out for a good walking trail, I spotted the 8.8km Seawall and followed the circumference of the park.
 
-{% figure caption:"Brilliant Autumn colours in Stanley Park" %}
-{% include image.html src="2011/12/vancouver_stanley_park.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/12/vancouver_stanley_park.jpg"
+  caption="Brilliant Autumn colours in Stanley Park"
+%}
 
 From this trail I saw the Harry Jerome statue, the 9 O'Clock Gun, the Lionsgate Bridge stretching across the harbour, and in the distance much of Vancouver's industry, including mounds of Sulphur located irresponsibly close to such a populated city. Halfway round, I stopped to admire the limitless views across the Salish Sea, where sailboats and oil tankers floated upon a still mirror-like surface.
 
-{% figure caption:"Ships on the Salish Sea" %}
-{% include image.html src="2011/12/vancouver_salish_sea.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/12/vancouver_salish_sea.jpg"
+  caption="Ships on the Salish Sea"
+%}
 
 As I reached the end of the trail, the heavens opened. With a distance between me and my hotel, I was soon soaked to the bone. Reverting to type, I ended up in the local mall and regrettably ate something vaguely resembling sweet and sour chicken in the food court. Never again.
 
-{% figure caption:"Sulphur mounds across the harbour -- too close for comfort?" %}
-{% include image.html src="2011/12/vancouver_sulphur.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/12/vancouver_sulphur.jpg"
+  caption="Sulphur mounds across the harbour -- too close for comfort?"
+%}
 
 That was it. Just one day in Vancouver, but I'd seen enough to warrant a return visit. At 5am, I took a taxi to the railway station, where I caught a coach to Seattle to catch the Coast Starlight to San Francisco. This involved crossing the border; cue an arrogant, unfriendly border guard, with a line of questioning that assumed guilt. I was back in the United States.
 

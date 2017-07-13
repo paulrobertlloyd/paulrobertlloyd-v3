@@ -24,9 +24,10 @@ Yet amongst the salesforce, there were still a number of good sessions to be fou
 Much of this years programme catered towards topics the marketing and sales guys (commonly referred to as Douchebags) would enjoy, and many presentations were victims of exaggerated titles created to encourage votes during the panel selection stage. Topics seemed to focus on the Latest Internet Trends, even if by the time they arrived in Austin they felt tired and passing ('gamification', I'm looking at you). Those sessions that were of value, certainly to a designer/developer like myself, were pitted against each other, making it impossible to see the few that guaranteed valuable content.
 
 ## For The People
-{% figure caption:"The Great British Booze-up at Shakespeare's Pub" %}
-{% include image.html src="2011/03/sxsw_great_british_booze_up.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2011/03/sxsw_great_british_booze_up.jpg"
+  caption="The Great British Booze-up at Shakespeare's Pub"
+%}
 
 Regardless of its size, diminishing quality and rampent commercialisation, the one thing SXSW still ensures is the convergence of peers at a single place and point in time. This year saw many of my fellow Clearleft'ies in attendance -- indeed, being able to experience the event alongside my colleagues was the main reason for going. We were joined by a small British contingent who were able to make the Ginger Man our 'local' for the week.
 
