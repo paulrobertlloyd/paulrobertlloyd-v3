@@ -70,9 +70,12 @@ The idea of working together to build a shared understanding brings to mind Mark
 
 The most recognisable piece of design created during Frank Pick's leadership of London Transport, the Underground map, was not instigated by him or any other manager of the company, but put forward by Harry Beck, a young draftsman working on the network.
 
-{% figure caption:"Harry Beck holds a copy of his diagram for the London Underground; he seems rightly chuffed with his idea!" class:"u-bleed" %}
-{% include image.html preset="showcase" src="2017/01/beck.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2017/01/beck.jpg"
+  preset="showcase"
+  caption="Harry Beck holds a copy of his diagram for the London Underground; he seems rightly chuffed with his idea!"
+  class="u-bleed"
+%}
 
 Realising that passengers cared more about the connections between the various lines below ground than they did about the street layout above, Beck did away with geographical accuracy, instead drawing tube lines on vertical, horizontal and diagonal axes, marking the intersections with a diamond.
 
@@ -92,17 +95,22 @@ Somewhere in the middle, a solution needed to be found.
 
 Enter, [the container model][15]. A systematic approach to page composition, this proposed that **items** (each representing a story) could be arranged into different horizontal **slices**, which themselves could be combined to create **containers**.
 
-{% figure %}
-![The container model: items, slices and containers](/images/2017/01/container_model.svg)
-{% endfigure %}
+{% include figure.html
+  src="2017/01/container_model.svg"
+  caption="The container model: items, slices and containers"
+%}
 
 Building containers by combining items and slices allowed for an incredible range of flexibility _and_ reduced the amount of code needed to support it. Each container could focus on a particular theme, say people in the news, the latest video content or a featured news story. Containers could also be shared across different pages and in varying positions, too. For example, the most popular stories container could be shown midway on the homepage, and also towards the foot of every article page.
 
 This model went some way to addressing the flexibility desired, yet further models were needed to deal with the variation inherent to effective editorial design. Tonality, newsworthiness, curation, information density, pacing, device considerations... all presented the design team with an array of concerns that needed to be reasoned with.
 
-{% figure caption:"A section front on the Guardian website" class:"u-bleed" %}
-{% include image.html preset="showcase" src="2017/01/guardian_front.png" class="u-framed" %}
-{% endfigure %}
+{% include figure.html
+  src="2017/01/guardian_front.png"
+  framed=true
+  preset="showcase"
+  caption="A section front on the Guardian website"
+  class="u-bleed"
+%}
 
 Working with so many moving parts became a struggle, and everyone on the team attempted to solve this puzzle in different ways. A solution was found eventually, although the imposition of a six-week deadline was the most effective tool in helping us reach a conclusion!
 
@@ -114,12 +122,13 @@ In <cite>[101 Things I learned in Architecture School][16]</cite>, Mark Frederic
 
 * **Informed simplicity**: an enlightened world view, in which a person has developed the ability to recognise and create patterns within complex mixtures.
 
-{% figure caption:"
-* **Simplicity**: 3 elements used to  create 3 spaces;
-* **Complexity**: 12 elements used to create 12 spaces;
-* **Informed simplicity**: 3 elements combined to create 12 spaces." %}
-![The three levels of knowing](/images/2017/01/three_levels_of_knowing.svg)
-{% endfigure %}
+{% include figure.html
+  src="2017/01/three_levels_of_knowing.svg"
+  caption="
+  * **Simplicity**: 3 elements used to  create 3 spaces;
+  * **Complexity**: 12 elements used to create 12 spaces;
+  * **Informed simplicity**: 3 elements combined to create 12 spaces."
+%}
 
 This perfectly encapsulates the process we went though at the Guardian, and one I've experienced many times since. Only by working with the different pieces long enough, experimenting with various combinations, can you devise a system (or _systems_) that sufficiently model the underhand complexity.
 
@@ -133,17 +142,24 @@ Jeff makes an important point; the products of a design system will be the ultim
 ### Accounting for change
 Frank Pick's successful management of London Transport was possible due to the support he received from the company's chairman, Lord Ashfield. The departure of both Pick and Ashfield -- plus growing private car ownership and declining passenger numbers -- soon costs were being prioritised over quality, and a period of neglect followed.
 
-{% figure caption:"The Underground in 1997 -- very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg)" class:"u-pull-right" %}
-{% include image.html preset="supporting" src="2017/01/underground_1997.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2017/01/underground_1997.jpg"
+  preset="supporting"
+  caption="The Underground in 1997 -- very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg)"
+  class="u-pull-right"
+%}
 
 Thankfully the last 15 years have seen these factors reverse, with the network again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following the <cite>[Station Design Idiom][18]</cite>, a set of nine principles that underpin design across the Underground network. These are referred to on every project, be it a small-scale repair, a major refurbishment or a brand new station.
 
 Included in the idiom is a new map that gives contractors a station-by-station guide to the different architectural styles used throughout the network. Paint colours and decorative materials should now match the architectural style of each building, rather than adhere to an overarching corporate look. By deliberately maintaining a diversity of styles, Transport for London have chosen to make the network's design history an integral part of their design system. To me, this seems like a pragmatic approach.
 
-{% figure caption:"The Station Design Idiom map and flashcard" class:"u-bleed" %}
-{% include image.html preset="showcase" src="2017/01/station_design_idiom.jpg" class="u-framed" %}
-{% endfigure %}
+{% include figure.html
+  src="2017/01/station_design_idiom.jpg"
+  framed=true
+  preset="showcase"
+  caption="The Station Design Idiom map and flashcard"
+  class="u-bleed"
+%}
 
 ### Shearing layers
 ![](/images/2017/01/shearing_layers.svg){: .u-align-right} In <cite>[How Buildings Learn][19]</cite>, Stewart Brand expands upon Frank Duffy's idea that different timescales can be seen to effect a building. Called shearing layers, he describes these as follows:
