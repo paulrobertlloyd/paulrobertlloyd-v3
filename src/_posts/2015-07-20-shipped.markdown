@@ -11,9 +11,12 @@ Given the obsessive compulsive behaviour I exhibit when it comes to tinkering wi
 
 This year's Indie Web Camp in Brighton was the latest deadline I'd set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this was the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I've spent last week revising and polishing to the point that I can finally say: "okay, you can look now".
 
-{% figure caption:"The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships" class:"u-bleed" %}
-{% include image.html src="2015/07/shipped.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2015/07/shipped.jpg"
+  preset="showcase"
+  caption="The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships"
+  class="u-bleed"
+%}
 
 ## Moving on from Movable Type
 The previous version of this site [launched in July 2011][5], and while it'd seen many improvements over that time (not least in terms of [performance][6]), the publishing platform I was using -- [Movable Type][7] -- was burdensome: just publishing a new post meant rebuilding three different sections of the site. I've used Movable Type for almost a decade, but in that time the community has diminished and the product is [no longer open source][8] or designed for personal publishers.
@@ -31,10 +34,12 @@ Ignoring for a moment their antipodean origin, these fonts hopefully give the de
 
 I was keen to try using whitespace rather than horizontal rules to separate content, and have greater contrast in the type scale to indicate page hierarchy. Colour is restrained but no less subdued; purples and pinks being suitably hipster enough to satisfy current design trends. Oh, and I have a new logo... which I'm mildly ambivalent about, if I'm honest.
 
-{% figure caption:"Design viewed on tablet and phone" class:"u-bleed" %}
-{% assign screenshots = "2015/07/shipped/tablet-portrait.png|2015/07/shipped/tablet-landscape.png|2015/07/shipped/phone.png" | split: "|" %}
-{% include screenshots.html imageset=screenshots %}
-{% endfigure %}
+{% assign screenshots = "2015/07/shipped/tablet-portrait.png,2015/07/shipped/tablet-landscape.png,2015/07/shipped/phone.png" | split: "," %}
+{% include screenshots.html
+  imageset=screenshots
+  caption="Design viewed on tablet and phone"
+  class="u-bleed"
+%}
 
 ## Content First
 Content has been a big focus of this redesign. With the help of [Owen Gregory][18], project case studies have been completely rewritten. While they currently lack enough supporting artefacts, their revised copy better describes the underlying design process.

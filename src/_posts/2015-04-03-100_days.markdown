@@ -14,20 +14,26 @@ I also returned to 68 Middle Street in time for the start of *[100 days][4]*, a 
 
 For my design operation, I've chosen to create a single-line drawing each day, a simple constraint that should help me produce a coherent body of work yet also allow a degree of flexibility as I progress.
 
-{% figure caption:"Drawings from days 1 to 12" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_01.jpg" alt="New bus for London" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_02.jpg" alt="Plug" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_03.jpg" alt="ITV Digital monkey" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_04.jpg" alt="House keys" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_05.jpg" alt="Glass" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_06.jpg" alt="Wallet" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_07.jpg" alt="Running shoe" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_08.jpg" alt="Lego TV van" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_09.jpg" alt="Fish and chips" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_10.jpg" alt="Television remote" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_11.jpg" alt="Petrified wood" %}
-{% include image.html preset="thumbnail" src="2015/04/100_days_12.jpg" alt="Apple power brick" %}
-{% endfigure %}
+
+
+{% include figure.html
+  src="2015/04/100_days_01.jpg,2015/04/100_days_02.jpg,2015/04/100_days_03.jpg,2015/04/100_days_04.jpg,2015/04/100_days_05.jpg,2015/04/100_days_06.jpg,2015/04/100_days_07.jpg,2015/04/100_days_08.jpg,2015/04/100_days_09.jpg,2015/04/100_days_10.jpg,2015/04/100_days_11.jpg,2015/04/100_days_12.jpg"
+  preset="thumbnail"
+  caption="Drawings from days 1 to 12:
+  * New bus for London
+  * Plug
+  * ITV Digital monkey
+  * House keys
+  * Glass
+  * Wallet
+  * Running shoe
+  * Lego TV van
+  * Fish and chips
+  * Television remote
+  * Petrified wood
+  * Apple power brick"
+  class="u-extend"
+%}
 
 12 days in, and I'm still enjoying the challenge, mainly as I've yet to fully master it. Illustrations have ranged from minimalist to expressive; some are quite detailed, others look more like deranged scribbles! I used to draw quite regularly as a child, but as graphic design drew me ever closer to the computer screen, the habit receded. It'll be interesting to see if this project reverses that trend.
 
