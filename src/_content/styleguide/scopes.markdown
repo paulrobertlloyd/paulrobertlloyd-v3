@@ -96,26 +96,20 @@ Here is another term.
 : And it gets a definition too, which is this line.
 
 ### Figures
-The `figure` element is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of preformatted text, a quotation and an image:
+The `figure` element is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of pre-formatted text, a quotation and an image:
 
-{% figure caption:"<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98" %}
-<pre>
-'Twas brillig, and the slithy toves
-Did gyre and gimble in the wabe;
-All mimsy were the borogoves,
-And the mome raths outgrabe.
-</pre>
-{% endfigure %}
-
-{% figure caption:"Single image, with supporting caption" %}
-{% include image.html src="styleguide/pattern_1.jpg" alt="Image 1" %}
-{% endfigure %}
+{% include figure.html
+  src="styleguide/pattern_1.jpg"
+  caption="Single image, with supporting caption"
+%}
 
 For figures using the `.u-extend`{: .language-css} utility, the caption moves to the right at the largest breakpoint.
 
-{% figure caption:"Single image, with supporting caption to the right" class:"u-extend" %}
-{% include image.html src="styleguide/pattern_1.jpg" alt="Image 1" %}
-{% endfigure %}
+{% include figure.html
+  src="styleguide/pattern_1.jpg"
+  caption="Single image, with supporting caption to the right"
+  class="u-extend"
+%}
 
 ## Text-level Semantics
 There are a number of inline HTML elements you may use anywhere within other elements.

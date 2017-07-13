@@ -14,9 +14,10 @@ British companies operate on a global scale but many have decided that national 
 
 ![New British Airways logo](/images/articles/britain_rebranded/ba_logo.svg){: .u-pull-right} Another company finding itself in the media spotlight was British Airways. Preferring to be known as BA, it instigated a 60 million pound corporate re-branding that ditched its familiar Union Flag tail fins and replaced them with a number of multicultural designs instead. These represented the diversity of their passengers and destinations and would position the airline as "the undisputed leader in world travel".
 
-{% figure caption:"British Airways world tailfins. The designs shown here represented Kalahari Desert, Scotland, England, Netherlands, Russia, Africa and Australia" %}
-{% include image.html src="articles/britain_rebranded/ba_tailfins.png" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/britain_rebranded/ba_tailfins.png"
+  caption="British Airways world tailfins. The designs shown here represented Kalahari Desert, Scotland, England, Netherlands, Russia, Africa and Australia."
+%}
 
 The scheme turned out to be a tremendous fiasco, although not because the rebranding exercise wasn't a good idea. In fact it made BA stand out in a overcrowded market place. The identity just didn't suit British Airways, a company whose culture didn't match the brave, lively and multicultural liveries painted on its planes.
 
@@ -24,9 +25,10 @@ Dropping the flag also produced much unwanted bad press in BA's home country, an
 
 When the British Tourist Authority (BTA) announced that it was to rebrand itself, the media showed much interest. While their new logo didn't abandon the Union Flag, it was surrounded by yellow and green and sat slightly off centre. It was described in the Guardian as "harmless, old-fashioned, apolitical and jolly good fun" -- but would it change tourists perception of Britain?
 
-{% figure caption:"The old BTA logo (left) and its replacement (right)" %}
-{% include image.html src="articles/britain_rebranded/bta_logos.png" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/britain_rebranded/bta_logos.png"
+  caption="The old BTA logo (left) and its replacement (right)"
+%}
 
 ## New Labour, new Britain
 Aware of Britain's identity problem, the Design Council assembled a discussion group that included well-known names from the world of broadcasting, business, film, journalism and design (Alan Yentob, Robert Ayling, Sir David Puttnam, John Hegarty). The results were released in a discussion paper entitled <cite>New Brand for a New Britain</cite> which called for the government to position Britain "as one of the world's most forward-thinking, innovative and creative nations".
@@ -68,9 +70,11 @@ When a country like Britain spends 800 million pounds a year promoting itself ov
 
 As a means of promoting British design, technology, and innovation around the world, the Millennium Products initiative asked British companies to demonstrate their ability to lead the world in design. Successful designs included the Eurostar train, modern-day sign posting in Birmingham and a clockwork radio. When the final set of Millennium Product products were announced in December 1999, 1012 had received this status. These are being exhibited at EXPO 2000 in Hanover and British Government buildings around the world.
 
-{% figure caption:"The Eurostar train was a Millennium Product" class:"u-bleed" %}
-{% include image.html src="articles/britain_rebranded/mp_eurostar.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/britain_rebranded/mp_eurostar.jpg"
+  caption="The Eurostar train was a Millennium Product"
+  class="u-bleed"
+%}
 
 Other initiatives involved the Foreign Office setting up 'Panel 2000': an advisory group tasked to look at how the government could co-ordinate and improve its promotion of Britain abroad and the production of a video <cite>Designers for the World</cite> that would showcase Britain's leading designers. It also launched the award winning <cite>Planet Britain</cite> website that promoted a contemporary image of Britain to 16-25 year olds around the world.
 

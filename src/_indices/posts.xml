@@ -34,9 +34,10 @@ permalink: /journal/feed.xml
     <content type="html">
 <![CDATA[
 {% if item.image.src %}
-  {% figure caption:"{{ item.image.caption }}" %}
-    {% include image.html src=item.image.src %}
-  {% endfigure %}
+  {% include figure.html
+    src=item.image.src
+    caption=item.image.caption
+  %}
 {% endif %}
 
 {% if item.embed.src %}

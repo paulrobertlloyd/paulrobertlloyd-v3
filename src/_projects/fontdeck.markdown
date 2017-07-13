@@ -21,7 +21,7 @@ I was part of a small team that convened over one weekend to devise a strategy f
 
 {% include blockquote.html
   quote="Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing."
-  citation="Richard Rutter, co-founder and <abbr>CEO</abbr>"
+  citation="Richard Rutter, co-founder and CEO"
   class="u-pull-right"
 %}
 

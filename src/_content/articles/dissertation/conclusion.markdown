@@ -42,7 +42,7 @@ One thing's for sure; broadcastering brands will need to be as strong as ever.
 
 *[BBC]: British Broadcasting Corporation
 *[EPG]: Electronic Programme Guide
-*[ITN]: Independant Television News
-*[ITV]: Independant Television
+*[ITN]: Independent Television News
+*[ITV]: Independent Television
 *[TV]: television
 *[UK]: United Kingdom

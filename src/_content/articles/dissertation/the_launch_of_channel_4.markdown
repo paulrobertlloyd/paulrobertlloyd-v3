@@ -12,36 +12,37 @@ Taking into account that Channel 4 was to commission its programmes from indepen
 
 Although it was expensive to implement, it was radically different to its competitors, all of which returned to a single on-screen ident, be it BBC1's revolving globe, Anglia's revolving knight or Thames' London skyline.
 
-{% figure caption:"Figure 6: The four original launch idents for Channel 4" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6a.png" alt="Still from ident 1" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6b.png" alt="Still from ident 1" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6c.png" alt="Still from ident 1" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6d.png" alt="Still from ident 1" %}
+{% include figure.html
+  src="articles/dissertation/figure-6h.png,articles/dissertation/figure-6i.png,articles/dissertation/figure-6j.png,articles/dissertation/figure-6d.png"
+  preset="thumbnail"
+  caption="Figure 6a: <cite>Round and Back</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=DfiXWPovueg)"
+%}
 
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6e.png" alt="Still from ident 2" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6f.png" alt="Still from ident 2" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6g.png" alt="Still from ident 2" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6d.png" alt="Still from ident 2" %}
+{% include figure.html
+  src="articles/dissertation/figure-6a.png,articles/dissertation/figure-6b.png,articles/dissertation/figure-6c.png,articles/dissertation/figure-6d.png"
+  preset="thumbnail"
+  caption="Figure 6b: <cite>Implosion</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=L5n469g_zzo)"
+%}
 
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6h.png" alt="Still from ident 3" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6i.png" alt="Still from ident 3" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6j.png" alt="Still from ident 3" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6d.png" alt="Still from ident 3" %}
+{% include figure.html
+  src="articles/dissertation/figure-6e.png,articles/dissertation/figure-6f.png,articles/dissertation/figure-6g.png,articles/dissertation/figure-6h.png"
+  preset="thumbnail"
+  caption="Figure 6c: <cite>Interlock</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=S342Vgn1Lgg)"
+%}
 
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6d.png" alt="Still from ident 4" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6k.png" alt="Still from ident 4" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6l.png" alt="Still from ident 4" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-6d.png" alt="Still from ident 4" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-6d.png,articles/dissertation/figure-6k.png,articles/dissertation/figure-6l.png,articles/dissertation/figure-6d.png"
+  preset="thumbnail"
+  caption="Figure 6d: <cite>Space Squad</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=C4yEQGykeR0)"
+%}
 
-{% figure caption:"Figure 7: The idents were part of a consistent presentation style across the channel" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-7a.png" alt="Channel 4 clock" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-7b.png" alt="Channel 4 programme menu" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-7c.png" alt="Channel 4 promotion slide" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-7d.png" alt="Channel 4 promotion slide" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-7a.png,articles/dissertation/figure-7b.png,articles/dissertation/figure-7c.png,articles/dissertation/figure-7d.png"
+  preset="thumbnail"
+  caption="Figure 7: The idents were part of a consistent presentation style across the channel. Shown here is the clock, programme menu and two presentation slides."
+%}
 
-These idents were paired with a strong four-note signature tune composed by David Dundas that, like the figure four, could be adapted to suit a particular mood or theme. Compared to its rivals, Channel 4 used bright colour, movement, ground breaking technology and had a consistent image both on and off screen. In turn, Channel 4 became the first channel to have 'a brand', a visual property to hang on to -- something very important to a channel that was going to find it hard competing against three well established channels and a lot of bad press initially.
+Idents were paired with <cite>Fourscore</cite>, a four-note signature tune composed by David Dundas that, like the figure four, could be adapted to suit a particular mood or theme. Compared to its rivals, Channel 4 used bright colours, movement, ground breaking technology with a consistent image both on and off screen. In turn, Channel 4 became the first channel to have 'a brand', a visual property to hang on to -- something very important to a channel that was going to find it hard competing against three well established channels and a lot of bad press initially.
 
 {% include blockquote.html
   quote="The launch identity has since been lauded as the most innovative corporate solution of the eighties."
@@ -52,16 +53,16 @@ Robinson Lambie-Nairn encouraged the channel's presentation department to follow
 
 The success of the Channel 4 identity caused immediate resentment from various ITV regions, which considered the new channel to be its 'poor relation' (Lambie-Nairn, 1997, p85), yet it had an identity that was a talking point amongst both industry and public. They concluded that it was successful due to the fact that its idents were computer animated (apposed to its consistent and well applied design) and ordered their graphic designers to computerise their logos.
 
-{% figure caption:"Figure 8: The face of television across all channels became increasingly similar. Here are shown idents for BBC1, BBC2 and Thames (an ITV region serving London during weekdays)" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-8a.png" alt="BBC One ident, 1985" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-8b.png" alt="BBC Two ident, 1986" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-8c.png" alt="Thames Television ident" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-8a.png,articles/dissertation/figure-8b.png,articles/dissertation/figure-8c.png"
+  preset="thumbnail"
+  caption="Figure 8: The face of television across all channels became increasingly similar. Here are shown idents for BBC1, BBC2 and Thames (an ITV region serving London during weekdays)."
+%}
 
 The viewer was suddenly confronted with an array of flying logos. Thames for example took its familiar London skyline image and turned it into a metallic looking slab and flew around the screen. Of course this had no effect on viewing figures or the popularity of the channels, as the identities bore no relationship to the values of the channels (if anything it made them all look the same). It was just a fascination with a technique.
 
 The BBC for some part, also jumped on the computer generated bandwagon. In 1985, its famous globe became what it termed a COW (Computer Originated World) -- a blue and gold revolving globe on a black background with 'BBC 1' in large gold letters beneath. Its second channel BBC2 used a stenciled serif TWO that rose out of a grey background, with three portions coloured red, green and blue -- the primary colours used to produce colour imagery in television.
 
 *[BBC]: British Broadcasting Corporation
-*[ITV]: Independant Television
+*[ITV]: Independent Television
 *[UK]: United Kingdom

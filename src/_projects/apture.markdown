@@ -21,7 +21,7 @@ Working alongside Apture's CEO Tristan Harris and his small team, often on-site 
 
 {% include blockquote.html
   quote="I've worked alongside some of the most brilliant interaction and graphic designers in the world in my career, but Paul is one of the most talented and consistently impressive designers I've met. Beyond driving most of Apture's graphic, interaction and web design work, he cares deeply about building beautiful, visually organised products, which I think is why we both got along in the first place."
-  citation="Tristan Harris, co-founder and <abbr>CEO</abbr>"
+  citation="Tristan Harris, co-founder and CEO"
 %}
 
 *[CEO]: Chief Executive Officer

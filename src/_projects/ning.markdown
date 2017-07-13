@@ -20,7 +20,7 @@ In addition to interaction design and front-end development on the company's ini
 
 {% include blockquote.html
   quote="Paul is hands down the best web designer and CSS craftsman I have had the pleasure of working with. From overall user experience to the smallest, pixel-tweaking details, Paul is exceptionally creative and thoughtful."
-  citation="Steve Vasallo, <abbr>VP</abbr> Product"
+  citation="Steve Vasallo, VP Product"
 %}
 
 {% include blockquote.html
@@ -34,3 +34,5 @@ In addition to interaction design and front-end development on the company's ini
 %}
 
 [1]: http://davidlwarner.com/
+
+*[VP]: Vice President

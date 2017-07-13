@@ -12,19 +12,17 @@ This new identity consisted of four circles presented in various static formatio
 
 The circles theme extended to programme captions, where again one circle contained the four logo; one contained an analogue clock showing start time, and two further circles of varying size contained programme related imagery. All titles were set in a sans serif typeface, with larger programme titles bolder and italicised, although the placement of all these elements was quite random. However for a channel once vibrant and full of movement, it was now drained of its multiple colours and also became a little static.
 
-{% figure caption:"Figure 13: Channel 4's 'Connections' identity. This particular example featured the comedian Harry Hill from <cite>'The Harry Hill Show'</cite> -- a popular show on the channel at the time" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-13a.png" alt="Still from Channel 4 'Connections' ident, 1996" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-13b.png" alt="Still from Channel 4 'Connections' ident, 1996" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-13c.png" alt="Still from Channel 4 'Connections' ident, 1996" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-13d.png" alt="Still from Channel 4 'Connections' ident, 1996" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-13a.png,articles/dissertation/figure-13b.png,articles/dissertation/figure-13c.png,articles/dissertation/figure-13d.png"
+  preset="thumbnail"
+  caption="Figure 13: Channel 4's 'Connections' identity. This particular example featured the comedian Harry Hill from <cite>The Harry Hill Show</cite> -- a popular show on the channel at the time."
+%}
 
-{% figure caption:"Figure 14: The 'Connections' theme was extended across all on-screen promotion" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-14a.png" alt="Still from Channel 4 'Connections' ident, 1996" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-14b.png" alt="Still from Channel 4 'Connections' ident, 1996" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-14c.png" alt="Still from Channel 4 'Connections' promotional caption for 'ER', 1996" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-14d.png" alt="Still from Channel 4 'Connections' holding caption for 'Harry Hill', 1996" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-14a.png,articles/dissertation/figure-14b.png,articles/dissertation/figure-14c.png,articles/dissertation/figure-14d.png"
+  preset="thumbnail"
+  caption="Figure 14: The 'Connections' theme was extended across all on-screen promotions and captions"
+%}
 
 Channel 5 eventually launched on Easter Sunday 1997, but prior to this, the channel was responsible for retuning television sets in 9 million homes to avoid interference with video recorders. Not only did the channel need to inform the public about its arrival, but also about the need to get their video equipment retuned. As an unknown entity, Channel 5 had to quickly build awareness of its name and brand, only a few months before the launch of the channel (and only 18 months before the launch of digital satellite).
 
@@ -37,23 +35,24 @@ The company responsible for building this awareness was Wollf Olins, the company
 
 As it turned out, the success of the retuning campaign led to Channel 5 using the same identity on screen, with only a minor modification to the logo, simplifying it to one slightly thicker circle for better clarity on screen. However, Channel 5's first selection of idents was a mixed bag and didn't seem to match the vivid pre-launch campaign. Many consisted of manipulations of the 5 logo and the word five, as well as involving images of flowers, drops of water and clouds -- somewhat American in flavour.
 
-{% figure caption:"Figure 15: A sequence from one of the first idents for Channel 5" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-15a.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-15b.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-15c.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-15d.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-15a.png,articles/dissertation/figure-15b.png,articles/dissertation/figure-15c.png,articles/dissertation/figure-15d.png"
+  preset="thumbnail"
+  caption="Figure 15: A sequence from one of the first idents for Channel 5"
+%}
 
-{% figure caption:"Figure 16: Four separate stills from other idents from the set" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-16a.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-16b.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-16c.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-16d.png" alt="Still from original Channel 5 ident set, 1997" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-16a.png,articles/dissertation/figure-16b.png,articles/dissertation/figure-16c.png,articles/dissertation/figure-16d.png"
+  preset="thumbnail"
+  caption="Figure 16: Four separate stills from other idents in the set"
+%}
 
-{% figure caption:"Figure 17: Channel 5 constantly displays its logo on screen" class:"u-pull-right" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-17.png" alt="Close up of Channel 5 'DOG'" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-17.png"
+  preset="thumbnail"
+  caption="Figure 17: Channel 5 constantly displays its logo on screen"
+  class="u-pull-right"
+%}
 
 As a sign of things to come, Channel 5 controversially launched with a DOG (Digital Onscreen Graphic) -- the channels logo constantly displayed in the top left hand corner of the screen. A device heavily used on cable and satellite channels, this was new to terrestrial viewers and irritated them. It was decided to use such a device so that people could find the new channel, but only served to irritate them. However it still remains today, yet with a higher level of transparency than when first seen.
 
@@ -64,12 +63,11 @@ The original set of idents lasted for two years before being replaced with argua
   citation="McGonagle, 2002"
 %}
 
-{% figure caption:"Figure 18: Later revisions of the channels identity were more consistent with its off-air brand" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-18a.png" alt="Still from Channel 5 'Neil Fox' ident, 1999" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-18b.png" alt="Still from Channel 5 'Neil Fox' ident, 1999" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-18c.png" alt="Still from Channel 5 'Neil Fox' ident, 1999" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-18d.png" alt="Still from Channel 5 'Neil Fox' ident, 1999" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-18a.png,articles/dissertation/figure-18b.png,articles/dissertation/figure-18c.png,articles/dissertation/figure-18d.png"
+  preset="thumbnail"
+  caption="Figure 18: Later revisions of the channels identity were more consistent with its off-air brand"
+%}
 
 The new idents involved channel personalities and celebrities taking the mickey out of the channel or themselves which tried to express a confidence to the viewer that the channel had about itself. These were updated again a year later but retained the same themes.
 

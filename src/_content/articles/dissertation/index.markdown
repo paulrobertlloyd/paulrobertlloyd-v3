@@ -20,5 +20,5 @@ I will be investigating those areas of design that are directly responsible for 
 To properly analyse the reasons for any changes to graphic design on television, I will be looking at the broadcasting environment in terms of competition, consolidation, regulation and also any advances in technology used by the designer.
 
 *[BBC]: British Broadcasting Corporation
-*[ITV]: Independant Television
+*[ITV]: Independent Television
 *[UK]: United Kingdom

@@ -17,27 +17,23 @@ This was achieved by developing a generic ITV logo alongside regional variations
 
 Theme specific identities were also created for sport, drama and children's programming. Although a nice idea in theory, some regions refused to use these idents and for those who did, it wasn't long before many adapted them to suit their own tastes. To accept the common logo and identity was seen to be dubbing down their own for which was relied on as a link with their viewers. Furthermore, 1992 saw three regions lose their franchises, and those that replaced them launched with their own idents.
 
-{% figure caption:"Figure 9: As part of ITV's 1989 rebrand, a generic ident was produced that incorporated each regions existing identity. This example shows the ident used in the Tyne Tees region" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9a.png" alt="Still from ITV generic ident, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9b.png" alt="Still from ITV generic ident, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9c.png" alt="Still from ITV generic ident, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9d.png" alt="Still from ITV generic ident, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9e.png" alt="Still from ITV generic ident, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9f.png" alt="Still from ITV generic ident, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9g.png" alt="Still from ITV generic ident, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-9h.png" alt="Still from ITV generic ident, 1989" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-9a.png,articles/dissertation/figure-9b.png,articles/dissertation/figure-9c.png,articles/dissertation/figure-9d.png,articles/dissertation/figure-9e.png,articles/dissertation/figure-9f.png,articles/dissertation/figure-9g.png,articles/dissertation/figure-9h.png"
+  preset="thumbnail"
+  caption="Figure 9: Channel ident for Tyne Tees Television. (ITV Network/English Markell Pockett, 1989)"
+%}
 
-{% figure caption:"Figure 10: The generic ITV logo, shown alongside regional and genre variations" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10a.png" alt="ITV logo, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10b.png" alt="ITV Childrens logo, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10c.png" alt="ITV Sport logo, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10d.png" alt="ITV Drama logo, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10e.png" alt="Combined Border logo, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10f.png" alt="Combined London Weekend Television logo, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10g.png" alt="Combined Thames Television logo, 1989" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-10h.png" alt="Combined Yorkshire Television logo, 1989" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-10a.png,articles/dissertation/figure-10b.png,articles/dissertation/figure-10c.png,articles/dissertation/figure-10d.png"
+  preset="thumbnail"
+  caption="Figure 10a: The generic ITV logo, shown alongside variations for sport, drama and children's programming"
+%}
+
+{% include figure.html
+  src="articles/dissertation/figure-10e.png,articles/dissertation/figure-10f.png,articles/dissertation/figure-10g.png,articles/dissertation/figure-10h.png"
+  preset="thumbnail"
+  caption="Figure 10b: Regional logo variations, shown here for Border, London Weekend Television, Thames Television and Yorkshire Television"
+%}
 
 With both Channel 4 and ITV having modern idents, the BBC's two channels were starting to look outdated and dull. The BBC has a special place in broadcasting, as it does in the nations cultural fabric (sometimes affectionately referred to as 'Auntie' Beeb).
 
@@ -58,18 +54,17 @@ For BBC2, Lambie-Nairn used a far more radical approach by creating a family of 
 
 Whilst BBC1's image was designed to endure and remain graphically appealing, BBC2's identity would be developed over time. Consistency was also brought to each channel, with all promotional material carrying the channel logos in fixed positions on screen, and all other information such as programme start times, menus, apologies etc. set in the Futura typeface.
 
-{% figure caption:"Figure 11: The BBC's branding was consistent across both channels and also its children's programming" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-11a.png" alt="Still from BBC One ident, 1991" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-11b.png" alt="Still from BBC Two 'Paint' ident, 1991" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-11c.png" alt="Still from Childrens BBC ident, 1991" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-11a.png,articles/dissertation/figure-11b.png,articles/dissertation/figure-11c.png"
+  preset="thumbnail"
+  caption="Figure 11: The BBC's branding was consistent across both channels and also its children's programming. Shown here are idents for BBC One, BBC Two and Childrens BBC."
+%}
 
-{% figure caption:"Figure 12: BBC2 had a variety of idents that were added to over the following years" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-12a.png" alt="Still from BBC Two 'Blade' ident, 1991" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-12b.png" alt="Still from BBC Two 'Dog' ident, 1993" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-12c.png" alt="Still from BBC Two 'Car' ident, 1993" %}
-{% include image.html preset="thumbnail" src="articles/dissertation/figure-12d.png" alt="Still from BBC Two 'Garden' ident, 1994" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/dissertation/figure-12a.png,articles/dissertation/figure-12b.png,articles/dissertation/figure-12c.png,articles/dissertation/figure-12d.png"
+  preset="thumbnail"
+  caption="Figure 12: BBC2 had a variety of idents that were added to over the following years. Shown here are the idents <cite>Blade</cite>, <cite>Dog</cite>, <cite>Car</cite> and <cite>Garden</cite>."
+%}
 
 After what Lambie-Nairn described as a 'repositioning' of the two channels, both were seen as more up-to-date and accessible, without destroying BBC1's already strong image. The BBC2 identities became a particular hit, both with the public and within the design industry. With no change to its programming, BBC2 was now seen as sophisticated, witty and entertaining. The '2' figure was developed further over the following years with idents such as 'Fluffy Dog' in which an excitable figure two leaps into the air and summersaults, and 'Car' in which the 2 becomes a remote controlled car that whizzes around the screen, both becoming firm favourites with the audience. Alan Yentob, controller of BBC2 at the time, was quoted as saying:
 
@@ -85,7 +80,7 @@ Within two years, the face of television in the UK was now akin to that of a sup
 Whilst the flagship channels had dark idents with subtle hints of colour, BBC2 and Channel 4 clearly became slightly alternative viewing matched with two colourful figures competing against each other for wit and personality (BBC2's being a more modern treatment) and both figures had the flexibility to match the varied programming of each channel.
 
 *[BBC]: British Broadcasting Corporation
-*[BSB]: British Satelite Broadcasting
+*[BSB]: British Satellite Broadcasting
 *[COW]: Computer Originated World
-*[ITV]: Independant Television
+*[ITV]: Independent Television
 *[UK]: United Kingdom

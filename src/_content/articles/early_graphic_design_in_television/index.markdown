@@ -14,4 +14,4 @@ The expansion of television has been constant, firstly with the BBC increasing i
 In this essay, it is mainly graphic design in British television that is discussed. However the story is much the same all over the world. A notable exception is America in which their use of computers was at a far more advanced stage, with the technology improving at a greater rate there, than in it was in Britain.
 
 *[BBC]: British Broadcasting Corporation
-*[ITV]: Independant Television
+*[ITV]: Independent Television

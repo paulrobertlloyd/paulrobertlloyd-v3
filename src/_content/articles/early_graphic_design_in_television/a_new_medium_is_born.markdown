@@ -33,21 +33,17 @@ The quality of television broadcasts and receivers was crude to say the least. I
 
 This meant graphics produced for television had a huge number of restrictions put on them. Lettering had to be large and bold with strong tonal contrast and illustrations had to use fairly heavy lines and lack detail ('Op' and 'Pop' art themes were common used during the end of the fifties). Designers also had to work from the center of the screen outwards, so as to ensure their work would be seen.
 
-{% figure caption:"Figure 1: Title sequence from <cite>Wednesday Magazine</cite> (BBC 1958. Designed by Bernard Lodge)" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-1a.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-1b.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-1c.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-1d.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-1e.png" alt="Still from ident" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/early_graphic_design_in_television/figure-1a.png,articles/early_graphic_design_in_television/figure-1b.png,articles/early_graphic_design_in_television/figure-1c.png,articles/early_graphic_design_in_television/figure-1d.png,articles/early_graphic_design_in_television/figure-1e.png"
+  preset="thumbnail"
+  caption="Figure 1: Title sequence from <cite>Wednesday Magazine</cite>. (BBC/Bernard Lodge, 1958)"
+%}
 
-{% figure caption:"Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite> (Associated Rediffusion 1962. Designed by John Tribe)" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-2a.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-2b.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-2c.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-2d.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-2e.png" alt="Still from ident" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/early_graphic_design_in_television/figure-2a.png,articles/early_graphic_design_in_television/figure-2b.png,articles/early_graphic_design_in_television/figure-2c.png,articles/early_graphic_design_in_television/figure-2d.png,articles/early_graphic_design_in_television/figure-2e.png"
+  preset="thumbnail"
+  caption="Figure 2: Title sequence from <cite>Kingsley Amis Goes Pop</cite>. (Associated Rediffusion/John Tribe, 1962)"
+%}
 
 In America, William Golden was making a name for himself in television and was arguably the medium's first graphic designer. Golden was born in 1911 in New York, where he attended a vocational high school in which he studied commercial design and photoengraving. In 1937, he joined the CBS Radio Network and soon became their art director.
 
@@ -55,9 +51,11 @@ After his career was interrupted by World War II, he returned to CBS and produce
 
 However his greatest creation was his corporate identity for CBS Television the well-known CBS 'eye' (see below) first aired on the 6th November 1951. He died at the age of 49, only a few months after being awarded art director of the year by the New York Art Directors Club in 1959.
 
-{% figure caption:"Figure 3: Corporate logo for CBS Television (CBS 1951-Present Day). Graphic Designer: William Golden (right)"class:"u-extend" %}
-{% include image.html src="articles/early_graphic_design_in_television/figure-3.png" alt="The CBS Eye and its designer, William Golden" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/early_graphic_design_in_television/figure-3.png"
+  caption="Figure 3: Corporate logo for CBS Television (CBS 1951-Present Day) and its designer, William Golden"
+  class="u-extend"
+%}
 
 It was Saul Bass though, who was to have the most influence on designers in the profession even though he had closer links with film than television. Saul Bass was also born in New York in 1920 where he studied at the Art Students League and Brooklyn College and worked for a number of years. In 1946 he moved to Los Angeles, were he began to produce graphics for advertising.
 
@@ -72,7 +70,7 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-{% figure caption:"Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite> (Designed by Saul Bass, 1967)" %}
+{% figure caption:"Figure 4: Title sequence from <cite>The Man with the Golden Arm</cite>. (United Artists/Saul Bass, 1967)" %}
 {% include embed.html src="https://www.youtube.com/watch?v=eGnpJ_KdqZE" title="Opening titles for The Man With The Golden Arm" %}
 {% endfigure %}
 

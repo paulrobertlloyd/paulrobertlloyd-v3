@@ -22,39 +22,31 @@ After its involvement, it became clear that the 'experimental' section had an im
 
 Typical graphic design during the sixties saw a move to a greater use of photography and more detailed illustration, due mainly to the fact that 625-line transmissions when they were launched in 1964, allowed greater picture definition, allowing graphic designers more creativity. There was also a lot more innovation with the increasing knowledge of the effects a film rostrum camera could achieve. The greater use of calligraphy was apparent at this time too.
 
-{% figure caption:"Figure 5: Title sequence from <cite>The Avengers</cite> (ABC 1963. Designed by Jerome Gask). [Watch on YouTube](https://www.youtube.com/watch?v=aDy_-dvMCNs)" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-5a.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-5b.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-5c.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-5d.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-5e.png" alt="Still from ident" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/early_graphic_design_in_television/figure-5a.png,articles/early_graphic_design_in_television/figure-5b.png,articles/early_graphic_design_in_television/figure-5c.png,articles/early_graphic_design_in_television/figure-5d.png,articles/early_graphic_design_in_television/figure-5e.png"
+  preset="thumbnail"
+  caption="Figure 5: Title sequence from <cite>The Avengers</cite>. (ABC/Jerome Gask, 1963). [Watch on YouTube](https://www.youtube.com/watch?v=aDy_-dvMCNs)"
+%}
 
-{% figure caption:"Figure 6: Title sequence from <cite>Darkness at Noon</cite> (Associated Rediffusion 1964. Designed by Arnold Schwartzman)" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-6a.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-6b.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-6c.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-6d.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-6e.png" alt="Still from ident" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/early_graphic_design_in_television/figure-6a.png,articles/early_graphic_design_in_television/figure-6b.png,articles/early_graphic_design_in_television/figure-6c.png,articles/early_graphic_design_in_television/figure-6d.png,articles/early_graphic_design_in_television/figure-6e.png"
+  preset="thumbnail"
+  caption="Figure 6: Title sequence from <cite>Darkness at Noon</cite>. (Associated Rediffusion/Arnold Schwartzman, 1964)"
+%}
 
 The introduction, firstly of 625-line broadcasts and later colour, had obvious benefits to designers although in a way they were also a hindrance. It has to be remembered that even though these improvements were available, they were being broadcast alongside the old 405-line transmissions (which even with their quality weren't suspended until early 1985). It was up to the audience to upgrade their sets and sales of colour receivers were unexpectedly low when colour television broadcasts began. Before the majority of viewers had 625-line and colour receivers, the designer still had to consider those watching on 405-lines and monochrome sets.
 
-{% figure caption:"Figure 7: Title sequence from <cite>I, Claudius</cite> (BBC 1976. Designed by Richard Bailey). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-7a.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-7b.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-7c.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-7d.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-7e.png" alt="Still from ident" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/early_graphic_design_in_television/figure-7a.png,articles/early_graphic_design_in_television/figure-7b.png,articles/early_graphic_design_in_television/figure-7c.png,articles/early_graphic_design_in_television/figure-7d.png,articles/early_graphic_design_in_television/figure-7e.png"
+  preset="thumbnail"
+  caption="Figure 7: Title sequence from <cite>I, Claudius</cite>. (BBC/Richard Bailey, 1976). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)"
+%}
 
-{% figure caption:"Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite> (BBC 1968. Designed by Roger Ferrin). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-8a.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-8b.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-8c.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-8d.png" alt="Still from ident" %}
-{% include image.html preset="thumbnail" src="articles/early_graphic_design_in_television/figure-8e.png" alt="Still from ident" %}
-{% endfigure %}
+{% include figure.html
+  src="articles/early_graphic_design_in_television/figure-8a.png,articles/early_graphic_design_in_television/figure-8b.png,articles/early_graphic_design_in_television/figure-8c.png,articles/early_graphic_design_in_television/figure-8d.png,articles/early_graphic_design_in_television/figure-8e.png"
+  preset="thumbnail"
+  caption="Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)"
+%}
 
 These considerations were particularly true of the seventies, especially the early years. Colour wasn't truly advantageous to the graphic designer as, although it allowed greater creativity, it had the major disadvantage in that mistakes were harder to conceal. Before colour and 625-lines, due to the quality of the medium, a lot of graphic designers managed to get things broadcast that wouldn't be now with the mediums picture improvements. This meant graphic design wasn't as straight forward, and designers had to think much more about what they were producing and pay much more attention to detail.
 
@@ -62,6 +54,6 @@ These considerations were particularly true of the seventies, especially the ear
 *[ATV]: Associated TeleVision
 *[BBC]: British Broadcasting Corporation
 *[ITA]: Independent Television Authority
-*[ITV]: Independant Television
+*[ITV]: Independent Television
 *[Ltd]: Limited company
 *[PAL]: Phase Alternating Line

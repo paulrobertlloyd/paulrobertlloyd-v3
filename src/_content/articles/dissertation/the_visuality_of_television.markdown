@@ -30,6 +30,6 @@ Brain Eley, Creative Director at Lambie-Nairn -- a leading brand consultancy tha
 Perhaps where television graphics have been used to greatest effect is within news. In what can be a chaotic world where footage isn't always the best quality (with an items relevance and newness of most importance), news graphics play an important role in striping stories down to the bare essentials. Wars become maps, economies become graphs, political arguments turn into graphical conflict, press releases are presented as an ordered list of bullet points, and these enable television to carry on more effectively the activity of speculation. Such graphics became so commonplace that they were the subject of their own kind of graphic satire -- the most notable being <cite>The Day Today</cite>.
 
 *[ABC]: Associated British Corporation
-*[ITV]: Independant Television
+*[ITV]: Independent Television
 *[TV]: television
 *[UK]: United Kingdom
