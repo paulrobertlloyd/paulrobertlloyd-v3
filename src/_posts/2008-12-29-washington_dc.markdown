@@ -21,10 +21,12 @@ Whilst the presidential memorials were large and grandiose, I actually found the
 
 Here two granite walls create a 'V' shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a "wound that is closed and healing".
 
-{% figure caption:"US Marine Corps War Memorial and Netherlands Carillon" class:"u-abreast" %}
-{% include image.html preset="supporting" src="2008/12/washington_dc_iwo_jima_memorial.jpg" alt="US Marine Corps War Memorial" %}
-{% include image.html preset="supporting" src="2008/12/washington_dc_netherlands_carillon.jpg" alt="Netherlands Carillon" %}
-{% endfigure %}
+{% include figure.html
+  src="2008/12/washington_dc_iwo_jima_memorial.jpg,2008/12/washington_dc_netherlands_carillon.jpg"
+  preset="supporting"
+  caption="US Marine Corps War Memorial and Netherlands Carillon"
+  class="u-extend"
+%}
 
 I was surprised to find the [US Marine Corps War Memorial][3] (better known as the Iwo Jima Memorial) situated outside of DC, in Arlington, Virginia. Far larger than I was expecting too, this iconic sculpture by [Felix W. de Weldon][4] depicts the scene captured by photographer Joe Rosenthal in [Raising the Flag on Iwo Jima][5] that was taken during World War II.
 
@@ -34,18 +36,24 @@ Also located in Arlington is the [Pentagon][7]. As the headquarters for the US D
 
 You are however allowed to take photos of the [9/11 memorial][8], in which the 184 victims of that days attack on the Pentagon are remembered in the form of 184 beautifully illuminated benches. The arrangement of benches (positioned in a number of rows according to the victim's ages, from 3 to 71) really brings home the reality of the tragedy.
 
-{% figure caption:"The Pentagon Memorial" class:"u-bleed" %}
-{% include image.html preset="showcase" src="2008/12/washington_dc_pentagon_memorial.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2008/12/washington_dc_pentagon_memorial.jpg"
+  preset="showcase"
+  caption="The Pentagon Memorial"
+  class="u-bleed"
+%}
 
 ## Architecture
 DC is still a relatively young capital, although the many neo-classical styled buildings, and the abundance of colonnades, columns and porticoes would suggest otherwise. In fact, it was often the buildings that looked the oldest -- the Supreme Court and National Archives for example -- that tended to built as recently as the 1930's.
 
 This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind -- with a possible future use as a spaceport! As a sign of Saarinen's foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
 
-{% figure caption:"The main terminal building at Washington Dulles International Airport" class:"u-bleed" %}
-{% include image.html preset="showcase" src="2008/12/washington_dc_dulles.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2008/12/washington_dc_dulles.jpg"
+  preset="showcase"
+  caption="The main terminal building at Washington Dulles International Airport"
+  class="u-bleed"
+%}
 
 I was particularly impressed by the city's [Metro][11] system. Built towards the end of the 1970's, it was able to learn from those systems that had gone before it; being built largely at the same time, means it has stations with a consistent design and layout. A key feature are lights that line the platform edges, and flash when trains are approaching. Each station is illuminated by fluorescent lighting hidden behind platforms offset from the vaulted walls, and from the top of information pylons centred along the length of the platform, resulting in a well lit, but calming and soft environment.
 

@@ -25,9 +25,11 @@ With this structure dominating the northern suburbs where I was staying, peaking
 Linking the Seattle Center with downtown Seattle, is a monorail also built for the fair. Given the exposition was focused on an exciting scientific future I found it a little ironic that the monorail now terminates at a shopping mall -- consumerism, not science surely the dominating force in the 21st Century.
 
 ## Downtown and Pioneer Square
-{% figure caption:"Pike Place market" class:"u-extend" %}
-{% include image.html src="2008/10/seattle_pike_place.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2008/10/seattle_pike_place.jpg"
+  caption="Pike Place market"
+  class="u-extend"
+%}
 
 The downtown area of the city is much like others in the US -- dominated by tall sky scrappers of failing banks like Washington Mutual -- but to the west is [Pike Place Market][4], a warren of small shops, fish mongers, tourist traps and restaurants, and home to the first Starbucks. To the south lies Pioneer Square, a leafy and laid back historic district, home to preserved buildings from the early 20th Century, most notably Smith Tower.
 
@@ -35,9 +37,11 @@ However, I didn't explore these areas as much as I would have liked, mainly due 
 
 Here a daring steel and glass design wraps itself around public reading and research spaces, lounges and an innovative 'book spiral'. This continuous spiral allows visitors to browse the library's entire non-fiction collection without breaking up the Dewey Decimal classification system onto different floors.
 
-{% figure caption:"Inside Seattle Central Library" class:"u-extend" %}
-{% include image.html src="2008/10/seattle_central_library.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2008/10/seattle_central_library.jpg"
+  caption="Inside Seattle Central Library"
+  class="u-extend"
+%}
 
 ## Impression
 From the two days I spent in this small metropolis, what then of my overall impression?
