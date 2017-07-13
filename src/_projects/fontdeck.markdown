@@ -19,9 +19,11 @@ A unique concept when founders Richard Rutter and Jon Tan conceived the idea in 
 ## Hack Day
 I was part of a small team that convened over one weekend to devise a strategy for improving the site. A series of quick wins were identified, but it was agreed that the homepage needed a thorough overhaul. The existing, text-heavy page failed to communicate the benefits of the product, or explain how it was different to the other services on the market.
 
-{% figure caption:"<cite>Richard Rutter, co-founder and CEO</cite>" class:"u-pull-right" %}
-> Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.
-{% endfigure %}
+{% include blockquote.html
+  quote="Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing."
+  citation="Richard Rutter, co-founder and <abbr>CEO</abbr>"
+  class="u-pull-right"
+%}
 
 The key values of the product were distilled into a compelling proposition: 'purveyors of the finest web fonts, Fontdeck is the professional web font solution; easy to use yet flexible enough to meet the real needs of designers'. This became a lightening rod for the design direction that followed.
 

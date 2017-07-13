@@ -51,9 +51,10 @@ However both the BBC and ITN started their bulletins in exactly the same manor -
 
 The first real change to come to this clichéd and computer orientated world was again in the habitual shape of Martin Lambie-Nairn, who produced new titles for the BBC's Nine O'clock News in 1988. These were based on a range of graphical elements with long-standing BBC associations such as the figure Jupiter from its coat of arms.
 
-{% figure caption:"<cite>Lambie-Nairn, 1997, p119</cite>" %}
-> Conceptually, we attempted to communicate an idea of how a news programme actually functions: disparate information comes in, is collected, ordered then broadcast.
-{% endfigure %}
+{% include blockquote.html
+  quote="Conceptually, we attempted to communicate an idea of how a news programme actually functions: disparate information comes in, is collected, ordered then broadcast."
+  citation="Lambie-Nairn, 1997, p119"
+%}
 
 {% figure caption:"Figure 39: The look of the <cite>BBC Nine O'Clock News</cite> was unlike anything seen before" class:"u-abreast" %}
 {% include image.html preset="thumbnail" src="articles/dissertation/figure-39a.png" alt="Still from titles" %}

@@ -42,7 +42,7 @@ A challenging aspect of this project was conveying the familiarity of the magazi
 A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. These were retained, appearing alongside larger articles and linked from section fronts.
 
 ## Collaborative Development
-Working closely with the development team at [Kaldor][3], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][4] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience. 
+Working closely with the development team at [Kaldor][3], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][4] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience.
 
 {% figure caption:"Example of the assets handed over to the team at Kaldor to aid development of the application" class:"u-extend u-abreast" %}
 {% include image.html preset="supporting" src="projects/the_week/styleguide_grid.png" alt="Article page grid" class="u-framed" %}
@@ -51,9 +51,10 @@ Working closely with the development team at [Kaldor][3], we honed the gestural 
 
 The app was far more successful than anticipated, spending a number of weeks in the top grossing Top 10 News and Newsstand categories of the UK App Store. The editors of the US and Australian editions were so impressed, they decided to use the same infrastructure and user experience, thus bringing an additional economy of scale.
 
-{% figure caption:"<cite>Alex Watson, Head of App Development, Dennis Publishing</cite>" %}
-> This was the most technically complex software project we've ever attempted, yet in its first year it's been a real success. We've found new readers, increased revenue from existing readers and gained the title lots of exposure.
-{% endfigure %}
+{% include blockquote.html
+  quote="This was the most technically complex software project we've ever attempted, yet in its first year it's been a real success. We've found new readers, increased revenue from existing readers and gained the title lots of exposure."
+  citation="Alex Watson, Head of App Development, Dennis Publishing"
+%}
 
 [1]: http://www.theweek.co.uk
 [2]: http://clearleft.com/made/the-week

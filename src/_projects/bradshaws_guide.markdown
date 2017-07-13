@@ -24,15 +24,9 @@ Wanting to evoke the feel of the handbook's chaotic Victorian typography, I look
 {% endfigure %}
 
 ## Open Source
-{% figure caption:"Github pull request" %}
-{% endfigure %}
-
 Producing the guide involved correcting copy originating from an automated OCR process. Because the handbook exists in the public domain, I was keen to make its content available to as many people as possible, and allow others to build on the work I had done. The [source code for the site][2] is available on GitHub, meaning others can make improvements to the website or even create their own version of the guide.
 
 ## Integration With Social Networks
-{% figure caption:"A Foursquare tip from George Bradshaw" %}
-{% endfigure %}
-
 When I thought about ways people might discover the site, I realised that social media would be an opportunity to share highlights from the guide. [On Foursquare][3], checking into a station could display a short excerpt, while [@bradshawsguide][4] on Twitter could share short thoughts about a place, with a link to the longer description on the site.
 
 [1]: http://bradshawsguide.org

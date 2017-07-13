@@ -17,9 +17,11 @@ permalink: /hire/
 
 With a background in graphic design, my work is focused on interface design for native applications and the web. I value cohesiveness, attention to detail, and creating products that can be used by everyone.
 
-{% figure caption:"Harry Brignull, Independent UX Consultant" class:"u-pull-right" %}
-> Paul is an excellent designer and front-end developer. He has a lot of experience working with UX designers and researchers, and is comfortable collaborating in that tricky zone where a project is a tangle and needs careful unpicking before being put back together again.
-{% endfigure %}
+{% include blockquote.html
+  quote="Paul is an excellent designer and front-end developer. He has a lot of experience working with UX designers and researchers, and is comfortable collaborating in that tricky zone where a project is a tangle and needs careful unpicking before being put back together again."
+  citation="Harry Brignull, Independent UX Consultant"
+  class="u-pull-right"
+%}
 
 Realising early in my career that you can't truly appreciate an interactive and fluid medium like the web inside Photoshop, I expanded my skill set to encompass web development. I employ pragmatic front-end architecture practices that progressively enhance semantic HTML with modular CSS and unobtrusive JavaScript.
 

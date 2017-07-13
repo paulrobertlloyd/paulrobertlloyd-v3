@@ -17,7 +17,7 @@ Professional football continued to thrive, and by 1921 the Football League had f
 
 Whilst the amateur FA governed the game and ran the national team, the professional Football League was merely a competition registered with The FA that ensured clubs had regular fixtures. Both organisations maintained a largely harmonious relationship, with William Pickford, President of the FA between 1937-9 stating:
 
-  > The power of the league strengthens the Association and the authority of the Association safeguards the league
+> The power of the league strengthens the Association and the authority of the Association safeguards the league
 
 This relationship was to deteriorate after the Second World War with the breakdown of the class system. As the upper class FA began to waver, the Football League became more powerful, and arguments between the two became more common -- club versus country often being a catalyst.
 

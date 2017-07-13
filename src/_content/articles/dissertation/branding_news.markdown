@@ -26,13 +26,12 @@ The sets background also varied its colour through the course of the day -- star
 
 ITN followed suit a few years later with a generic brand again designed by Lambie-Nairn. An original ITN logo from the 1970's was brought back into use (the current incarnation having been heavily tampered with by computer using chrome and three-dimensional shadowing), and other familiar elements from ITN's visual heritage such as the shot of Big Ben and the 'bongs' were used for all its programmes.
 
-New titles were created which exclusively featured the clock face of Big Ben, with close up shots before pulling away to show the appointed hour. Thirteen differently lit versions were shot to reflect the time of day and the changing seasons.
+New titles were created which exclusively featured the clock face of Big Ben, with close up shots before pulling away to show the appointed hour. Thirteen differently lit versions were shot to reflect the time of day and the changing seasons. As for the set:
 
-As for the set:
-
-{% figure caption:"<cite>Lambie-Nairn, 1997, p207</cite>" %}
-> Our belief was that a news programme should communicate honesty, transparency and plain dealing... ITN's new Grays Inn Road building provided us with a marvelous opportunity to get this impression across.
-{% endfigure %}
+{% include blockquote.html
+  quote="Our belief was that a news programme should communicate honesty, transparency and plain dealing... ITN's new Grays Inn Road building provided us with a marvelous opportunity to get this impression across."
+  citation="Lambie-Nairn, 1997, p207"
+%}
 
 The modern building nearly all of glass provided the backdrop for all ITN's bulletins, with modifications only needed to prevent reflection and allow the set to be undisturbed by weather conditions.
 
@@ -67,9 +66,10 @@ This was radically different to anything that had been seen on television in the
 {% include image.html preset="thumbnail" src="articles/dissertation/figure-44h.png" alt="Still from 5 News titles, 1997" %}
 {% endfigure %}
 
-{% figure caption:"<cite>Gibson, 1999</cite>" %}
-> Although Channel 5 News has never challenged its better established rivals in the ratings, its colourful breezy approach to explaining stories to its viewers prompted changes to Newsnight, BBC1's bulletins and Channel 4 News.
-{% endfigure %}
+{% include blockquote.html
+  quote="Although Channel 5 News has never challenged its better established rivals in the ratings, its colourful breezy approach to explaining stories to its viewers prompted changes to Newsnight, BBC1's bulletins and Channel 4 News."
+  citation="Gibson, 1999"
+%}
 
 The first to change was Channel 4 News, and although this time the anchors were sitting, they were sat next to low level desks, meaning you could see what colour socks Jon Snow wore! Its set and titles used bright colours, but not in such an overbearing way as in <cite>5 News</cite> -- made more somber with a heavy use of black. The set also featured a large video wall, in which the anchor or reporter could stand in front off whilst graphics were displayed behind them.
 

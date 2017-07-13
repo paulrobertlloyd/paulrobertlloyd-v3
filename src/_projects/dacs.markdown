@@ -27,9 +27,11 @@ DACS had already undergone an extensive rebranding exercise for print but it nee
 
 I drew on DACS's photographic library of artists to give a human face to the organisation. These were combined with a restrained typographic pallet to ensure legibility and visual consistency. Finally, I introduced a selection of monochromatic patterns that could be used to differentiate sections of the site.
 
-{% figure caption:"<cite>Tania Spriggens, Director of Communications</cite>" class:"u-pull-right" %}
-> It looks beautiful! The feedback so far has been great -- and it's just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!
-{% endfigure %}
+{% include blockquote.html
+  quote="It looks beautiful! The feedback so far has been great -- and it's just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!"
+  citation="Tania Spriggens, Director of Communications"
+  class="u-pull-right"
+%}
 
 Responsive design was used to deliver the same content to different devices, regardless of the display size or capabilities. I created a pattern portfolio to ease handover to the development agency [Cognite][3]. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.
 

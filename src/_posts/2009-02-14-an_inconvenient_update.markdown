@@ -10,7 +10,7 @@ tags:
 In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message:
 
 > Your set-top box has been upgraded to receive a new free TV Guide which you can now use. This guide allows you to view 14 days of TV listings, add reminders and search for programmes. The guide also provides a new Teletext news and information service.
-> 
+>
 > *From now on, please leave your set-top box in standby when not in use, INCLUDING OVERNIGHT*. Otherwise you will see a message each time you power cycle your set-top box, you will also lose your TV Guide.
 
 Why does this sound like misguided advice? Funnily enough you can find the answer in the products Quick Start Guide:

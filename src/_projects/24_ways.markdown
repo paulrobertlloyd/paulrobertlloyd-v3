@@ -17,9 +17,11 @@ Each December, Drew McLellan and his small team publish [24 ways][1], a daily do
 
 The previous website was designed by Tim Van Damme in 2007. His innovative design pushed the limits of the medium, but six years later, and with an accumulated archive of hundreds of articles, it was fraying at the edges.
 
-{% figure caption:"[Drew McLellan on rebuilding 24 ways](http://allinthehead.com/retro/366/rebuilding-24-ways)" class:"u-pull-right" %}
-> I'm in the fortunate position of knowing lots of really great web designers – many of whom have been authors for 24 ways over the years. I figured I'd start with my top-choice dream person, and work down the list until I found someone who'd be prepared to do it. So I started by asking Paul Robert Lloyd, and he said yes.
-{% endfigure %}
+{% include blockquote.html
+  quote="I'm in the fortunate position of knowing lots of really great web designers -- many of whom have been authors for 24 ways over the years. I figured I'd start with my top-choice dream person, and work down the list until I found someone who'd be prepared to do it. So I started by asking Paul Robert Lloyd, and he said yes."
+  citation="[Drew McLellan on rebuilding 24 ways](http://allinthehead.com/retro/366/rebuilding-24-ways)"
+  class="u-pull-right"
+%}
 
 Furthermore, the site failed to reflect the best practices its authors advocated, such as advanced web typography, colour contrast and CSS3 techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to the broadening range of devices accessing the site.
 

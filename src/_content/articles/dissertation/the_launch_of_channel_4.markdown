@@ -43,9 +43,10 @@ Although it was expensive to implement, it was radically different to its compet
 
 These idents were paired with a strong four-note signature tune composed by David Dundas that, like the figure four, could be adapted to suit a particular mood or theme. Compared to its rivals, Channel 4 used bright colour, movement, ground breaking technology and had a consistent image both on and off screen. In turn, Channel 4 became the first channel to have 'a brand', a visual property to hang on to -- something very important to a channel that was going to find it hard competing against three well established channels and a lot of bad press initially.
 
-{% figure caption:"<cite>Mistry, 1996</cite>" %}
-> The launch identity has since been lauded as the most innovative corporate solution of the eighties.
-{% endfigure %}
+{% include blockquote.html
+  quote="The launch identity has since been lauded as the most innovative corporate solution of the eighties."
+  citation="Mistry, 1996"
+%}
 
 Robinson Lambie-Nairn encouraged the channel's presentation department to follow in the same lines as the programme makers and commission other artists to produce promotional pieces for them. This saw seasonal campaign sequences designed by the likes of Oscar Grillio, Blink and Terrance Donovan which by doing so, saw Channel 4 perceived as a centre of design innovation and excellence.
 

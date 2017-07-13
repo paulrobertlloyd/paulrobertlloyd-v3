@@ -8,9 +8,10 @@ excerpt: ''
 
 The first real attempt to create a brand to rival Channel 4's came in 1989 when the Independent Television Association decided to create a new ITV corporate brand for its fragmented network, that would provide a consistent image across its regions with a stylish and meaningful design.
 
-{% figure caption:"<cite>McClellan, 1990</cite>" %}
-> English Markell Pockett had to come up with a new logo that could incorporate fifteen regional variations into a single corporate image to counter the strong national images of new satellite stations like BSB.
-{% endfigure %}
+{% include blockquote.html
+  quote="English Markell Pockett had to come up with a new logo that could incorporate fifteen regional variations into a single corporate image to counter the strong national images of new satellite stations like BSB."
+  citation="McClellan, 1990"
+%}
 
 This was achieved by developing a generic ITV logo alongside regional variations where the 'V' was changed from a blue triangle with three cut outs, to highly stylised, almost heraldic imagery, loosely based on each regions own logo. A single but regionally adapted ident was created alongside a musical score composed by the same man responsible for Channel 4's -- David Dundas. This was played as a regions logo was stretched and blurred sideways to launch into an animation featuring images of Big Ben (representing current affairs and politics), dancers (entertainment), a couple in an embrace (drama), an athlete (sport) etc. before recombining to show the appropriate regionally adapted ITV logo.
 
@@ -46,9 +47,10 @@ Whilst BBC1's slightly wooden and stayed COW ident was popular, BBC2's hadn't ma
 
 In 1990, Martin Lambie-Nairn -- a former employee of the BBC's in-house graphics department during the 1960's -- was brought in to refresh the identities of both channels.
 
-{% figure caption:"<cite>Aldersey-Williams, 1993</cite>" %}
-> The identity for BBC1 retained a globe as the central element, reminding viewers of the BBC's self-appointed role as a kind of super-national messenger.
-{% endfigure %}
+{% include blockquote.html
+  quote="The identity for BBC1 retained a globe as the central element, reminding viewers of the BBC's self-appointed role as a kind of super-national messenger."
+  citation="Aldersey-Williams, 1993"
+%}
 
 The new ident was given a more contemporary feel making it more colourful, warmer and gave it an almost mystical quality. Designed by Daniel Barber, the new globe was created by lighting model globes from different positions and resulted in a swirling one minute sequence with nine different looking points of entry.
 
@@ -71,9 +73,10 @@ Whilst BBC1's image was designed to endure and remain graphically appealing, BBC
 
 After what Lambie-Nairn described as a 'repositioning' of the two channels, both were seen as more up-to-date and accessible, without destroying BBC1's already strong image. The BBC2 identities became a particular hit, both with the public and within the design industry. With no change to its programming, BBC2 was now seen as sophisticated, witty and entertaining. The '2' figure was developed further over the following years with idents such as 'Fluffy Dog' in which an excitable figure two leaps into the air and summersaults, and 'Car' in which the 2 becomes a remote controlled car that whizzes around the screen, both becoming firm favourites with the audience. Alan Yentob, controller of BBC2 at the time, was quoted as saying:
 
-{% figure caption:"<cite>Lambie-Nairn, 1997, p122</cite>" %}
-> It has received lots of fan mail and correspondence. We will definitely be renewing its contract.
-{% endfigure %}
+{% include blockquote.html
+  quote="It has received lots of fan mail and correspondence. We will definitely be renewing its contract."
+  citation="Lambie-Nairn, 1997, p122"
+%}
 
 Indeed 11 years since they were first aired, the 2's can still be seen onscreen, albeit recently updated.
 

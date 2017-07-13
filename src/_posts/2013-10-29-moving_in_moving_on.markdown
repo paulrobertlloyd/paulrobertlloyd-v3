@@ -31,9 +31,10 @@ In many respects, Clearleft can be regarded as a family. Andy and Rich are the p
 I know I will, as it is with much sadness that I've decided to leave Clearleft, with my last day at this wonderful company fast approaching.
 
 ## Goodbye Clearleft
-{% figure caption:"<cite>Dan Stevens</cite>, British actor" %}
-> The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.
-{% endfigure %}
+{% include blockquote.html
+  quote="The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears."
+  citation="Dan Stevens, British actor"
+%}
 
 I've spent more hours working for Clearleft than I have any other company. I'm incredibly comfortable in my current position, yet at the same time aware of the negative impact this is having on my work. During the last few years I've felt somewhat stuck, worn down by familiar routines and conversations. A month away from work last year [volunteering][5] and travelling provided a brief respite, but the effect was short lived.
 

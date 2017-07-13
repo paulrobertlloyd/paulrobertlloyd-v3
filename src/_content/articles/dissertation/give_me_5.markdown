@@ -30,9 +30,10 @@ Channel 5 eventually launched on Easter Sunday 1997, but prior to this, the chan
 
 The company responsible for building this awareness was Wollf Olins, the company responsible for BT and Orange corporate identities but this was their first venture into television. They devised an identity that worked in two parts. The first part involved the creation of a 'retuning brand' using the slogan "give me 5" and featured five vertical bands of vivid colour -- blue, orange pink, yellow and green, and a logo which was a 5 inside two thin circles, taking design cues from that of test cards. This visual imagery was:
 
-{% figure caption:"<cite>Davies, 1997</cite>" %}
-> ...deliberately bright and straight forward -- it reflects the tone of the programming which will be optimistic and unashamedly populist
-{% endfigure %}
+{% include blockquote.html
+  quote="...deliberately bright and straight forward -- it reflects the tone of the programming which will be optimistic and unashamedly populist."
+  citation="Davies, 1997"
+%}
 
 As it turned out, the success of the retuning campaign led to Channel 5 using the same identity on screen, with only a minor modification to the logo, simplifying it to one slightly thicker circle for better clarity on screen. However, Channel 5's first selection of idents was a mixed bag and didn't seem to match the vivid pre-launch campaign. Many consisted of manipulations of the 5 logo and the word five, as well as involving images of flowers, drops of water and clouds -- somewhat American in flavour.
 
@@ -58,9 +59,10 @@ As a sign of things to come, Channel 5 controversially launched with a DOG (Digi
 
 The original set of idents lasted for two years before being replaced with arguably more appropriate idents that used the 5 logo and colours more consistently. Upon their launch Jim Hytner, Marketing Director at Channel 5 said:
 
-{% figure caption:"<cite>McGonagle, 2002</cite>" %}
-> The launch itself was successful in establishing it as a big brand or a big channel but I'm not sure that we the channel had a good enough feeling about what our programming was going to be, and therefore it was quite hard to express that to viewers.
-{% endfigure %}
+{% include blockquote.html
+  quote="The launch itself was successful in establishing it as a big brand or a big channel but I'm not sure that we the channel had a good enough feeling about what our programming was going to be, and therefore it was quite hard to express that to viewers."
+  citation="McGonagle, 2002"
+%}
 
 {% figure caption:"Figure 18: Later revisions of the channels identity were more consistent with its off-air brand" class:"u-abreast" %}
 {% include image.html preset="thumbnail" src="articles/dissertation/figure-18a.png" alt="Still from Channel 5 'Neil Fox' ident, 1999" %}

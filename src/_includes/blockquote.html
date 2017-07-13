@@ -1,0 +1,6 @@
+<blockquote{% if include.class %} class="{{ include.class }}"{% endif %}>
+  {{ include.quote | markdownify }}
+{% if include.citation %}
+  <footer>{{ include.citation | markdownify }}</footer>
+{% endif %}
+</blockquote>

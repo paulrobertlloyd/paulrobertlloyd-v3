@@ -48,7 +48,12 @@ The `blockquote` element represents a section that is being quoted from another 
 >
 > Nevertheless, nice song.
 
-If you wish to add a citation, you will need to use the [`figure` element](components#figure).
+If you wish to add a citation, enclose it within a `<footer>` tag:
+
+{% include blockquote.html
+  quote="Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time."
+  citation="Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947"
+%}
 
 ### Ordered list
 The `ol` element denotes an ordered list, and various numbering schemes are available through the CSS (including 1,2,3... a,b,c... i,ii,iii... and so on). Each item requires a surrounding `<li>` and `</li>` tag, to denote individual items within the list (as you may have guessed, `li` stands for list item).
@@ -100,10 +105,6 @@ Did gyre and gimble in the wabe;
 All mimsy were the borogoves,
 And the mome raths outgrabe.
 </pre>
-{% endfigure %}
-
-{% figure caption:"Winston Churchill, in <cite>[a speech to the House of Commons](http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206)</cite>. 11th November 1947" %}
-> Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {% endfigure %}
 
 {% figure caption:"Single image, with supporting caption" %}
