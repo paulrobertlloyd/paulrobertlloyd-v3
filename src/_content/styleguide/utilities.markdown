@@ -14,31 +14,29 @@ The `.u-hidden`{: .language-css} utility class allows elements to be visually hi
 ### Abreast
 The `.u-abreast`{: .language-css} utility class uses [Quantity Queries](http://alistapart.com/article/quantity-queries-for-css) and flexbox to resize images based on the number of siblings they sit beside:
 
-{% figure caption:"Two images placed side-by-side, with supporting caption" class:"u-abreast" %}
-{% include image.html preset="supporting" src="styleguide/pattern_1.jpg" alt="Image 1" %}
-{% include image.html preset="supporting" src="styleguide/pattern_2.jpg" alt="Image 2" %}
-{% endfigure %}
+{% include figure.html
+  src="styleguide/pattern_1.jpg,styleguide/pattern_2.jpg"
+  preset="supporting"
+  caption="Two images placed side-by-side, with supporting caption"
+%}
 
-{% figure caption:"Three images placed side-by-side, with supporting caption" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_1.jpg" alt="Image 1" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_2.jpg" alt="Image 2" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_3.jpg" alt="Image 3" %}
-{% endfigure %}
+{% include figure.html
+  src="styleguide/pattern_1.jpg,styleguide/pattern_2.jpg,styleguide/pattern_3.jpg"
+  preset="supporting"
+  caption="Three images placed side-by-side, with supporting caption"
+%}
 
-{% figure caption:"Four images placed side-by-side, with supporting caption" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_1.jpg" alt="Image 1" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_2.jpg" alt="Image 2" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_3.jpg" alt="Image 3" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_4.jpg" alt="Image 4" %}
-{% endfigure %}
+{% include figure.html
+  src="styleguide/pattern_1.jpg,styleguide/pattern_2.jpg,styleguide/pattern_3.jpg,styleguide/pattern_4.jpg"
+  preset="supporting"
+  caption="Four images placed side-by-side, with supporting caption"
+%}
 
-{% figure caption:"Five images placed side-by-side, with supporting caption" class:"u-abreast" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_1.jpg" alt="Image 1" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_2.jpg" alt="Image 2" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_3.jpg" alt="Image 3" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_4.jpg" alt="Image 4" %}
-{% include image.html preset="thumbnail" src="styleguide/pattern_5.jpg" alt="Image 5" %}
-{% endfigure %}
+{% include figure.html
+  src="styleguide/pattern_1.jpg,styleguide/pattern_2.jpg,styleguide/pattern_3.jpg,styleguide/pattern_4.jpg,styleguide/pattern_5.jpg"
+  preset="supporting"
+  caption="Five images placed side-by-side, with supporting caption"
+%}
 
 ### Container
 <style>

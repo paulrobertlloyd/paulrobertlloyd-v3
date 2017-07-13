@@ -13,9 +13,10 @@ Ning is an online platform that allows people to create, customise and share the
 
 In addition to interaction design and front-end development on the company's initial suite of applications, I was also responsible for the company's branding and product marketing. Later, I worked alongside [David Warner][1] on the development of what became the company's primary product: "Your Own Social Network".
 
-{% figure caption:"Ning's distinctive green Clarendon logo stood out amoung a sea of glossy, rounded sans serif logos prevalent at the time." %}
-![The Ning logo](/images/projects/ning/logo.svg)
-{% endfigure %}
+{% include figure.html
+  src="projects/ning/logo.svg"
+  caption="Ning's distinctive green Clarendon logo stood out amoung a sea of glossy, rounded sans serif logos prevalent at the time"
+%}
 
 {% include blockquote.html
   quote="Paul is hands down the best web designer and CSS craftsman I have had the pleasure of working with. From overall user experience to the smallest, pixel-tweaking details, Paul is exceptionally creative and thoughtful."

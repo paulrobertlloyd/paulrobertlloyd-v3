@@ -19,11 +19,12 @@ Given a constrained budget, the software that managed content on the desktop was
 ## Searching for Patterns
 We asked key stakeholders on the project to dissect the homepage and a key internal page, placing component parts in order of importance. Working with UNICEF's content editor, we pulled out common patterns, noting those which were essential and those that were superfluous. The relevant patterns were then sketched on a whiteboard where we imagined how they would adapt on smaller screens. These were then used as the basis for the front-end build. This pattern-based approach allowed us to simplify what was already there, rather than start again from scratch.
 
-{% figure caption:"Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site" class:"u-extend u-abreast" %}
-{% include image.html preset="supporting" src="projects/unicef_uk/homepage_prioritisation.jpg" alt="Homepage prioritisation" class="u-framed" %}
-{% include image.html preset="supporting" src="projects/unicef_uk/pattern_identification.jpg" alt="Pattern identification" class="u-framed" %}
-{% include image.html preset="supporting" src="projects/unicef_uk/pattern_definition.jpg" alt="Pattern definition" class="u-framed" %}
-{% endfigure %}
+{% include figure.html
+  src="projects/unicef_uk/homepage_prioritisation.jpg,projects/unicef_uk/pattern_identification.jpg,projects/unicef_uk/pattern_definition.jpg"
+  framed=true
+  caption="Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site"
+  class="u-extend"
+%}
 
 ## Translating UNICEF's Brand Guidelines to the Web
 We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with the identifiable logo, cyan brand colour and emotive photography combining to create a strong identity.

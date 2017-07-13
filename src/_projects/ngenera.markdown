@@ -17,15 +17,18 @@ Steve Douty (president of platforms, applications and marketing) asked me to tak
 ## Brand Identity
 With an intriguing -- if not immediately obvious -- name, the logo needed to reflect the organisation's broad ambition and signify a break with any past notions of enterprise. Combining an 'n' and 'G' in a subtle and intriguing manner, allowed me to create a symbol that felt similar to those commonly associated with networking and connectivity.
 
-{% figure caption:"nGenera symbol and wordmark" %}
-{% include image.html src="projects/ngenera/logo.png" alt="The nGenera logo" %}
-{% endfigure %}
+{% include figure.html
+  src="projects/ngenera/logo.png"
+  caption="nGenera symbol and wordmark"
+%}
 
 This distinctive mark could work at many sizes, with flat and rendered versions created to suit different applications. To encompass a range of operating devisions, a brand architecture was also created that meant future acquisitions could easily be integrated into the overall brand.
 
-{% figure caption:"Associated brand collateral, including presentation folders, report covers, letterheads and business cards" class:"u-extend" %}
-{% include image.html preset="showcase" src="projects/ngenera/collateral.png" %}
-{% endfigure %}
+{% include figure.html
+  src="projects/ngenera/collateral.png"
+  preset="showcase"
+  caption="Associated brand collateral, including presentation folders, report covers, letterheads and business cards"
+%}
 
 While other in-house and third-party teams were responsible for implementing the brand, I provided overall guidance and created example collateral pieces such as reports, signage and business cards.
 

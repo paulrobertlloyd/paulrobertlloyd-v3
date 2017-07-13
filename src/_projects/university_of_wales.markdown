@@ -13,9 +13,11 @@ The University of Wales is a confederal university responsible for accrediting d
 
 Working with [James Box][1] at Clearleft, I created an extensible design language that could be applied across the website, microsites and the myWales social e-learning network.
 
-{% figure caption:"A selection of components provided as part of the design language, and a screen from myWales." class:"u-abreast" %}
-{% include image.html preset="supporting" src="projects/university_of_wales/components.png" alt="Sample page from component documentation" class="u-framed" %}
-{% include image.html preset="supporting" src="projects/university_of_wales/mywales.png" alt="Sample page from myWales e-learning section of the website" class="u-framed" %}
-{% endfigure %}
+{% include figure.html
+  src="projects/university_of_wales/components.png,projects/university_of_wales/mywales.png"
+  framed=true
+  preset="supporting"
+  caption="A selection of components provided as part of the design language, and a screen from myWales"
+%}
 
 [1]: http://clearleft.com/is/james-box/
