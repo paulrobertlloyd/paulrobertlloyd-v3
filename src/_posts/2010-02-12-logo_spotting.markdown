@@ -14,9 +14,10 @@ On flicking through the newspaper on the train home yesterday, I spotted an adve
 
 I had been vaguely aware of their recent marketing campaigns where the logo slots into the top right corner of a distinctive trapezium containing shape. However on seeing this particular advertisement close up, I did a quick double take, spotting what seemed to be an updated logo. A quick search on Google images confirmed my suspicion.
 
-{% figure caption:"Network Rail: The original logo (2002) and the updated version (2009)" %}
-{% include image.html src="2010/02/logo_spotting_network_rail.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2010/02/logo_spotting_network_rail.png"
+  caption="Network Rail: The original logo (2002) and the updated version (2009)"
+%}
 
 To me the previous logo always had a temporary feel to it. [Network Rail][1] was created out of the ashes of [Railtrack][2], a privatised company that owned the nations railways prior to it being placed into 'railway administration' by the government in 2002. At the time I remember thinking the logo for this new body must have been quickly thrown together by a low ranking designer at the Department of Transport, such was its low fidelity.
 
@@ -27,30 +28,34 @@ Many of the changes are small, but they all add up to create a tighter, more man
 The distinctive red triangle also moves closer to the text, and the two cut outs that suggest a track disappearing into the distance now converge on a single point rather than the unknown destination seen previously. The colour palette has also been updated, with the primary colours replaced with more considered choices. However, the use of gradients in the final rendering only serves to weaken an otherwise stronger, more confident mark.
 
 ## MTV
-{% figure caption:"MTV: The original logo (1981) and the updated version (2010)" %}
-{% include image.html src="2010/02/logo_spotting_mtv.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2010/02/logo_spotting_mtv.png"
+  caption="The original MTV logo (1981) and the updated version (2010)"
+%}
 
 Whilst the identity for Network Rail may have gone unnoticed, you are unlikely to have missed the MTV 'refresh' [announced earlier this week][3]. Much like Network Rail, this is more of a realignment than an all out redesign, although the changes are possibly more noticeable. I initially thought the legs had somehow been mis-cropped, yet after my initial shock I think the new proportions work surprisingly well, possibly reflecting the evolution of television with this new, almost widescreen ratio.
 
-{% figure caption:"MTV logo variations" %}
-{% include image.html src="2010/02/logo_spotting_mtv_variations.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2010/02/logo_spotting_mtv_variations.png"
+  caption="MTV logo variations"
+%}
 
 Like nearly every logo launched these days ([London 2012][4], [NYC & Company][5], [AOL][6] et al.) it goes without saying that this logo has been designed to act as a containing element, in which photos of the channels second-rate reality stars can be placed.
 
 It's an old idea ([this in-depth article][7] by Roger van den Bergh gives you an idea of just how long this concept has been around), but it is worth remembering that MTV launched with a similar identity 29 years ago. In fact, the logo has long been [a canvas for viewers to make their own mark][8] on the channel, although that concept seems sadly missing in this latest interpretation.
 
 ## City of Melbourne
-{% figure caption:"City of Melbourne: The previous logo and the new version" %}
-{% include image.html src="2010/02/logo_spotting_city_of_melbourne.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2010/02/logo_spotting_city_of_melbourne.png"
+  caption="City of Melbourne: The previous logo and the new version"
+%}
 
 Finally, if we are to talk about 'M' shaped containing identities, then I can't leave without mentioning my favourite identity project of last year for the [City of Melbourne][9], which frankly blows MTV's mediocre efforts clean out of the water. Aren't these just fantastic?
 
-{% figure caption:"City of Melbourne logo variations" %}
-{% include image.html src="2010/02/logo_spotting_city_of_melbourne_variations.png" %}
-{% endfigure %}
+{% include figure.html
+  src="2010/02/logo_spotting_city_of_melbourne_variations.png"
+  caption="City of Melbourne logo variations"
+%}
 
 [1]: http://en.wikipedia.org/wiki/Network_Rail
 [2]: http://en.wikipedia.org/wiki/Railtrack

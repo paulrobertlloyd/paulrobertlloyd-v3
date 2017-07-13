@@ -20,9 +20,10 @@ After unpacking and settling in, I ventured outside, intent on discovering the c
 
 It was at this point I remembered why I love to travel. Whilst photos and entries such as this become remnants of such trips, there is so much of the experience you can't take back home. This, as well as knowing I had achieved something that was just an idea a few months beforehand, proved to be an enormous rush.
 
-{% figure caption:"A section of wall on the outside of the War Memorial Museum, commemorating battles fought in Palestine during World War I" %}
-{% include image.html src="2010/01/auckland_war_memorial_museum.jpg" %}
-{% endfigure %}
+{% include figure.html
+  src="2010/01/auckland_war_memorial_museum.jpg"
+  caption="A section of wall on the outside of the War Memorial Museum, commemorating battles fought in Palestine during World War I"
+%}
 
 The feeling of the familiar was the immediate impression I got of Auckland. Having visited many other 'post-colonial' cities (Sydney, San Francisco, Montreal) there were many times I felt I could be in any one of those places.
 
