@@ -12,13 +12,13 @@ After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It
 {% include figure.html
   src="articles/early_graphic_design_in_television/figure-9a.png,articles/early_graphic_design_in_television/figure-9b.png,articles/early_graphic_design_in_television/figure-9c.png,articles/early_graphic_design_in_television/figure-9d.png,articles/early_graphic_design_in_television/figure-9e.png"
   preset="thumbnail"
-  caption="Figure 9: Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge, 1963). [Watch on YouTube](https://www.youtube.com/watch?v=Oz7e9kQ2-Uk)"
+  caption="Figure 9: Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge, 1963). [Watch on YouTube](https://www.youtube.com/video/Oz7e9kQ2-Uk)"
 %}
 
 {% include figure.html
   src="articles/early_graphic_design_in_television/figure-10a.png,articles/early_graphic_design_in_television/figure-10b.png,articles/early_graphic_design_in_television/figure-10c.png,articles/early_graphic_design_in_television/figure-10d.png,articles/early_graphic_design_in_television/figure-10e.png"
   preset="thumbnail"
-  caption="Figure 10: Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge 1973). [Watch on YouTube](https://www.youtube.com/watch?v=bKg9tuSbXmk)"
+  caption="Figure 10: Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge 1973). [Watch on YouTube](https://www.youtube.com/video/bKg9tuSbXmk)"
 %}
 
 Both Lodge and Cheesman were working at a time when the use of computers in the profession were being used to an ever greater extent, but both believed that the computer should be used "not as an end to itself, but as a key to open new creative doors". (Merritt 1987: 10) Bernard Lodge enabled more doors to be opened by working with Filmflex Ltd. to develop new animation techniques with the computer controlled rostrum camera. These included 'streak-timing' to produce a drawn and blurred light effect and 'slit-scan', which could be used to create controlled distortions. Lodge-Cheeseman went on to produce work for television commercials and also graphic effects for the movies <cite>Alien</cite> and <cite>Bladerunner</cite>.
@@ -41,9 +41,11 @@ It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend Wo
 
 This was traditionally based on newspaper cartoons -- for example, if there was a story about the pound being weak, a cartoon drawing of a pound sign wearing bandages and using crutches was shown. Realising that this was at odds with communicating a serious news item, Lambie-Nairn developed a new method of presenting this sort of information in a more appropriate graphical manner. It was with this new approach that <cite>Weekend World</cite> became more successful, and this meant more work for Robinson Lambie-Nairn who found themselves "leaders in a field of one" (Lambie-Nairn, 1997).
 
-{% figure caption:"Figure 12: Title sequence from <cite>Weekend World</cite>. (LWT/Robinson Lambie-Nairn, 1982)" %}
-{% include embed.html src="https://www.youtube.com/watch?v=Nsf6zIxlOd8?t=10s" title="Weekend World Opening Titles 1985, 1986" %}
-{% endfigure %}
+{% include figure-embed.html
+  src="https://www.youtube.com/video/Nsf6zIxlOd8"
+  title="Weekend World Opening Titles 1985, 1986"
+  caption="Figure 12: Title sequence from <cite>Weekend World</cite>. (LWT/Robinson Lambie-Nairn, 1982)"
+%}
 
 It was with the launch of Channel Four though were Martin Lambie-Nairn was to create waves in the television industry. Taking the idea that this new channel didn't make its own programmes, but commissioned them from independent programme makers, Lambie-Nairn designed the innovative 'coloured building blocks' that came together to form the channel's figure 4 logo. This had to be produced in the United States, whose computer animation technology was far more advanced than in Britain. Lambie-Nairn also introduced many new concepts that were new in 1982, but common place in television nowadays.
 

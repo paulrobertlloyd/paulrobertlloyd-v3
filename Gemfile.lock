@@ -17,7 +17,6 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-figure (0.0.2)
     jekyll-paginate-v2 (1.8.0)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.0)
@@ -41,18 +40,17 @@ GEM
       ffi (>= 0.5.0, < 2)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.5.0)
-      sass-listen (~> 3.0.7)
-    sass-listen (3.0.7)
-      rb-fsevent (>= 0.9.3)
-      rb-inotify (>= 0.9.7)
+    sass (3.5.1)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll
-  jekyll-figure
   jekyll-paginate-v2
   jekyll-sitemap
   jekyll-slugify_underscore

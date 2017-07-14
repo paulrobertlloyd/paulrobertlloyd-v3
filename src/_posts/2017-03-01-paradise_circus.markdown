@@ -10,9 +10,12 @@ tags:
 ---
 I had braced myself for its eventual fate, but seeing footage of Birmingham Central Library being demolished still brought a tear to my eye:
 
-{% figure caption:"Time-lapse video documenting the demolition of Birmingham Central Library" class:"u-bleed" %}
-{% include embed.html src="https://www.youtube.com/watch?v=hxvfIjddE6w" title="Example video" %}
-{% endfigure %}
+{% include figure-embed.html
+  src="https://www.youtube.com/video/hxvfIjddE6w"
+  title="Paradise Birmingham - Timelapse Video Progress to December 2016"
+  caption="Time-lapse video documenting the demolition of Birmingham Central Library"
+  class="u-bleed"
+%}
 
 A [second video][1] brings into sharp relief the reverence we have for buildings built during the reign of Queen Victoria -- such as the [Council House][2] and [Town Hall][3] -- while those of a more recent vintage fall prey to the bulldozers.
 
@@ -24,7 +27,7 @@ While [artist's impressions of the redeveloped Paradise Circus][5] look impressi
 
 Our [disregard for post-war architecture][6] aside, demolition rarely sits well with me. It seems like such a wasteful, unsympathetic exercise. Fortunately, Birmingham has plenty of examples that prove another approach is possible. The [Rotunda][7] still stands, no longer offices but residential apartments, while [New Street Station][8] was redeveloped while keeping much of the original structure in place. Sometimes saner minds prevail.
 
-[1]: https://www.youtube.com/watch?v=kyRLeEP-ICs
+[1]: https://www.youtube.com/video/kyRLeEP-ICs
 [2]: https://en.wikipedia.org/wiki/Council_House,_Birmingham
 [3]: https://en.wikipedia.org/wiki/Birmingham_Town_Hall
 [4]: /2010/06/a_new_library_for_birmingham

@@ -15,25 +15,25 @@ Although it was expensive to implement, it was radically different to its compet
 {% include figure.html
   src="articles/dissertation/figure-6h.png,articles/dissertation/figure-6i.png,articles/dissertation/figure-6j.png,articles/dissertation/figure-6d.png"
   preset="thumbnail"
-  caption="Figure 6a: <cite>Round and Back</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=DfiXWPovueg)"
+  caption="Figure 6a: <cite>Round and Back</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/DfiXWPovueg)"
 %}
 
 {% include figure.html
   src="articles/dissertation/figure-6a.png,articles/dissertation/figure-6b.png,articles/dissertation/figure-6c.png,articles/dissertation/figure-6d.png"
   preset="thumbnail"
-  caption="Figure 6b: <cite>Implosion</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=L5n469g_zzo)"
+  caption="Figure 6b: <cite>Implosion</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/L5n469g_zzo)"
 %}
 
 {% include figure.html
   src="articles/dissertation/figure-6e.png,articles/dissertation/figure-6f.png,articles/dissertation/figure-6g.png,articles/dissertation/figure-6h.png"
   preset="thumbnail"
-  caption="Figure 6c: <cite>Interlock</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=S342Vgn1Lgg)"
+  caption="Figure 6c: <cite>Interlock</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/S342Vgn1Lgg)"
 %}
 
 {% include figure.html
   src="articles/dissertation/figure-6d.png,articles/dissertation/figure-6k.png,articles/dissertation/figure-6l.png,articles/dissertation/figure-6d.png"
   preset="thumbnail"
-  caption="Figure 6d: <cite>Space Squad</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=C4yEQGykeR0)"
+  caption="Figure 6d: <cite>Space Squad</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/C4yEQGykeR0)"
 %}
 
 {% include figure.html

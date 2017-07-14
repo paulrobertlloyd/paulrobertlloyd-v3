@@ -19,9 +19,12 @@ Again, trying to learn lessons from previous travels, I've decided to keep techn
 ## Itinerary
 When I started planning this trip, I fully expected to spend the duration of it Australia, with possible stops in Perth and Canberra. Not having visited New Zealand before, I soon thought about spending some time on the islands. After reading more about the country, and talking to friends who had visited before, I've now settled on an itinerary largely based in New Zealand.
 
-{% figure caption:"My itinerary mapped" class:"u-bleed" %}
-{% include embed.html src="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-1v3gdcs4/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/-36/160" title="My itinerary mapped" %}
-{% endfigure %}
+{% include figure-embed.html
+  src="https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-1v3gdcs4/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/-36/160"
+  title="My itinerary mapped"
+  caption="My itinerary mapped"
+  class="u-bleed"
+%}
 
   * **17 December:** Depart London Heathrow
   * **19-20 December:** Auckland, New Zealand

@@ -16,7 +16,7 @@ As our lives grow increasingly reliant on digital products, designers are asked 
 
 ## References
   * Hall, P. (1990, March 4). [Brasilia and the Burial of Utopia](http://articles.latimes.com/1990-03-04/books/bk-2454_1_james-holston). <cite>Los Angeles Times</cite>
-  * Hughes, R. (1980). 'Trouble in Utopia' <cite>[The Shock of the New:](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>, Episode 4, BBC2, October 12
+  * Hughes, R. (1980). 'Trouble in Utopia' <cite>[The Shock of the New:](https://www.youtube.com/video/C04JZsoqs1A)</cite>, Episode 4, BBC2, October 12
   * Green, O. (2014). <cite>[Frank Pick's London: Art Design and the Modern City](http://www.ltmuseumshop.co.uk/gifts-and-souvenirs/books/underground/product/frank-picks-london-art-design-and-the-modern-city.html)</cite>. London: V&A Publishing
   * Rutter, K. (2009, December 1). [Making Design Principles Stick](http://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php). <cite>Adaptive Path</cite>. Archived from [the original](http://www.adaptivepath.com/ideas/essays/archives/001123.php)
   * Jackson, C. (2015, November 3). [From Pages to Patterns: An Exercise for Everyone](http://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone). <cite>A List Apart</cite>

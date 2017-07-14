@@ -33,13 +33,13 @@ The launch of BBC2 in 1964 saw the introduction of 625-line higher resolution br
 {% include figure.html
   src="articles/dissertation/figure-4a.png,articles/dissertation/figure-4b.png,articles/dissertation/figure-4c.png,articles/dissertation/figure-4d.png,articles/dissertation/figure-4e.png"
   preset="thumbnail"
-  caption="Figure 4: Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)"
+  caption="Figure 4: Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968). [Watch on YouTube](https://www.youtube.com/video/KNNAfzKwRn4)"
 %}
 
 {% include figure.html
   src="articles/dissertation/figure-5a.png,articles/dissertation/figure-5b.png,articles/dissertation/figure-5c.png,articles/dissertation/figure-5d.png,articles/dissertation/figure-5e.png"
   preset="thumbnail"
-  caption="Figure 5: Title sequence from <cite>I, Claudius</cite> (BBC/Richard Bailey, 1976). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)"
+  caption="Figure 5: Title sequence from <cite>I, Claudius</cite> (BBC/Richard Bailey, 1976). [Watch on YouTube](https://www.youtube.com/video/pKwaCTfa1EE)"
 %}
 
 Graphic design was also starting to become more automated with an increasing knowledge of the effects a film rostrum camera could achieve. This was a vertically mounted camera that was able to move up and down above a bench on which artwork was placed, the bench providing the majority of the movement. Used mostly during the filming of animated title sequences, it was also used for filming compilations of stills (photographs, paintings or prepared artwork) and shooting cells a frame at a time ready for animation. Later computers became involved in order to control the rostrum camera and allowed complicated moves and techniques such as 'slit-scan' and 'streak-timing' to be achieved.

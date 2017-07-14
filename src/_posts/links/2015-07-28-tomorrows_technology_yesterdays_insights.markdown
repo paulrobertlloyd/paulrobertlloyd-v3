@@ -14,5 +14,5 @@ Give technologists a problem, and they'll try and solve it with technology.
 
 [1]: http://t.co/Kfs1w2Mr1a
 [2]: http://www.nytimes.com/2015/02/19/opinion/nicholas-kristof-the-cost-of-a-decline-in-unions.html
-[3]: https://www.youtube.com/watch?v=1YX7h8qNu7g
+[3]: https://www.youtube.com/video/1YX7h8qNu7g
 [4]: https://medium.com/@USDOL/look-who-s-talking-a-new-conventional-wisdom-on-labor-8a4e131b076

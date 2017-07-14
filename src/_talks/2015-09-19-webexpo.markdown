@@ -33,7 +33,7 @@ Responsive web design has engendered a wider conversation about how we build pro
   * Aalen, I. (2015, January 6). [The Core Model: Designing Inside Out for Better Results](http://alistapart.com/article/universal-design-irl). <cite>A List Apart</cite>
   * Hay, S. (2013) Designing in Text. In: <cite>Responsive Design Workflow</cite>. San Francisco, CA: New Riders
   * Farrington, W. (2013, February 2013). [Introducing Boxen](https://github.com/blog/1345-introducing-boxen). <cite>The GitHub Blog</cite>
-  * Deloumeau-Prigent, K. (2014). [Bridging the gap between developers and designers](https://www.youtube.com/watch?v=ciG-A_1FyVg), dot CSS, 14 November.
+  * Deloumeau-Prigent, K. (2014). [Bridging the gap between developers and designers](https://www.youtube.com/video/ciG-A_1FyVg), dot CSS, 14 November.
   * The Financial Times (2015). [Developer guide: Make](http://financial-times.github.io/next/docs/developer-guide/). London, UK: The Financial Times.
   * Roberts, H. (2015, March 6). [More Transparent UI Code with Namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/). <cite>CSS Wizardy</cite>
 

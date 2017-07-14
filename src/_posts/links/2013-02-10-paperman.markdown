@@ -2,7 +2,7 @@
 title: Paperman
 date: '2013-02-10 20:15:43 +0000'
 embed:
-  src: https://www.youtube.com/watch?v=Fpe99ci_C8g
+  src: https://www.youtube.com/video/Fpe99ci_C8g
 theme: dark
 tags:
   - Video

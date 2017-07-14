@@ -45,11 +45,9 @@ As a way of demonstration, let's return to one of the components Ethan described
 
 With Flexbox, we can build components such that their layout will adapt to the available space. Using Grid, we can name areas of a grid container, and then assign components to those areas:
 
-{% figure caption:"Responsive layout example using Flexbox and Grid. [View on CodePen](https://codepen.io/paulrobertlloyd/pen/PpXygo/)." class:"u-bleed" %}
 [View this code example on CodePen](https://codepen.io/paulrobertlloyd/pen/PpXygo/).
 {: data-height="480" data-slug-hash="PpXygo" data-preview="true" class="codepen u-bleed"}
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-{% endfigure %}
 
 There's a lot going on in this example, so here are the key parts:
 

@@ -15,7 +15,7 @@
   {% assign embed_type = "video" %}
   {% assign embed_action = "Watch video on Vimeo" %}
 {% elsif include.src contains "youtube" %}
-  {% assign embed_src = include.src | replace: "www.youtube.com/watch?v=","www.youtube-nocookie.com/embed/" | append: "?showinfo=0&#38;rel=0&#38;modestbranding=1" %}
+  {% assign embed_src = include.src | replace: "www.youtube.com/video","www.youtube-nocookie.com/embed" | append: "?showinfo=0&#38;rel=0&#38;modestbranding=1" %}
   {% assign embed_type = "video" %}
   {% assign embed_action = "Watch video on YouTube" %}
 {% else %}

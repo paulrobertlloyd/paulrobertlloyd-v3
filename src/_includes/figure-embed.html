@@ -1,0 +1,6 @@
+<figure{% if include.class %} class="{{ include.class }}"{% endif %}>
+  {% include embed.html src=include.src %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify }}</figcaption>
+  {% endif %}
+</figure>

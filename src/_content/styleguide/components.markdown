@@ -47,7 +47,7 @@ The `.c-embed`{: .language-css} component class is used for embedded content.
 ### Videos
 The `.c-embed--video`{: .language-css} modifier is used when embedding video content, typically sourced from either Vimeo or YouTube.
 
-{% include embed.html src="https://www.youtube.com/watch?v=4ViLiXA0E70" title="Example video" %}
+{% include embed.html src="https://www.youtube.com/video/4ViLiXA0E70" title="Example video" %}
 
 ### Photos
 The `.c-embed--photo`{: .language-css} modifier is used when embedding photographic content, typically sourced from Flickr.

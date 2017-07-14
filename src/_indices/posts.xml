@@ -41,9 +41,9 @@ permalink: /journal/feed.xml
 {% endif %}
 
 {% if item.embed.src %}
-  {% figure %}
-    {% include embed.html src=item.embed.src %}
-  {% endfigure %}
+  {% include figure-embed.html
+    src=item.embed.src
+  %}
 {% endif %}
 
 {{ item.content | markdownify | strip_newlines }}

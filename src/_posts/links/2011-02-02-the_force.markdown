@@ -2,7 +2,7 @@
 title: The Force
 date: '2011-02-02 16:02:00 +0000'
 embed:
-  src: https://www.youtube.com/watch?v=2zwMWLE9fBU
+  src: https://www.youtube.com/video/2zwMWLE9fBU
 theme: dark
 tags:
   - Video

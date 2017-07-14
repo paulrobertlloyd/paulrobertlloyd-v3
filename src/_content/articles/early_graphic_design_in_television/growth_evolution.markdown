@@ -25,7 +25,7 @@ Typical graphic design during the sixties saw a move to a greater use of photogr
 {% include figure.html
   src="articles/early_graphic_design_in_television/figure-5a.png,articles/early_graphic_design_in_television/figure-5b.png,articles/early_graphic_design_in_television/figure-5c.png,articles/early_graphic_design_in_television/figure-5d.png,articles/early_graphic_design_in_television/figure-5e.png"
   preset="thumbnail"
-  caption="Figure 5: Title sequence from <cite>The Avengers</cite>. (ABC/Jerome Gask, 1963). [Watch on YouTube](https://www.youtube.com/watch?v=aDy_-dvMCNs)"
+  caption="Figure 5: Title sequence from <cite>The Avengers</cite>. (ABC/Jerome Gask, 1963). [Watch on YouTube](https://www.youtube.com/video/aDy_-dvMCNs)"
 %}
 
 {% include figure.html
@@ -39,13 +39,13 @@ The introduction, firstly of 625-line broadcasts and later colour, had obvious b
 {% include figure.html
   src="articles/early_graphic_design_in_television/figure-7a.png,articles/early_graphic_design_in_television/figure-7b.png,articles/early_graphic_design_in_television/figure-7c.png,articles/early_graphic_design_in_television/figure-7d.png,articles/early_graphic_design_in_television/figure-7e.png"
   preset="thumbnail"
-  caption="Figure 7: Title sequence from <cite>I, Claudius</cite>. (BBC/Richard Bailey, 1976). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)"
+  caption="Figure 7: Title sequence from <cite>I, Claudius</cite>. (BBC/Richard Bailey, 1976). [Watch on YouTube](https://www.youtube.com/video/pKwaCTfa1EE)"
 %}
 
 {% include figure.html
   src="articles/early_graphic_design_in_television/figure-8a.png,articles/early_graphic_design_in_television/figure-8b.png,articles/early_graphic_design_in_television/figure-8c.png,articles/early_graphic_design_in_television/figure-8d.png,articles/early_graphic_design_in_television/figure-8e.png"
   preset="thumbnail"
-  caption="Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)"
+  caption="Figure 8: Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968). [Watch on YouTube](https://www.youtube.com/video/KNNAfzKwRn4)"
 %}
 
 These considerations were particularly true of the seventies, especially the early years. Colour wasn't truly advantageous to the graphic designer as, although it allowed greater creativity, it had the major disadvantage in that mistakes were harder to conceal. Before colour and 625-lines, due to the quality of the medium, a lot of graphic designers managed to get things broadcast that wouldn't be now with the mediums picture improvements. This meant graphic design wasn't as straight forward, and designers had to think much more about what they were producing and pay much more attention to detail.

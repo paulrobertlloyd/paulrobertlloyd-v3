@@ -42,9 +42,12 @@ Is Europe perfect? Far from it. Could it be more democratic? Certainly -- but th
 
 What could we achieve inside Europe if instead of complaining, obstructing and abstaining, we took a more proactive and positive role?
 
-{% figure caption:"Gordon Brown: Lead not Leave" class:"u-bleed" %}
-{% include embed.html src="https://www.youtube.com/watch?v=gPX9MLALjAE" title="Gordon Brown: Lead not Leave" %}
-{% endfigure %}
+{% include figure-embed.html
+  src="https://www.youtube.com/video/gPX9MLALjAE"
+  title="Gordon Brown: Lead not Leave"
+  caption="Gordon Brown: Lead not Leave"
+  class="u-bleed"
+%}
 
 ## Brexit and break things
 The week I'm asked to decide on Britain's future relationship with Europe, I find myself visiting a small part of it. As I've walked around Amsterdam and Utrecht, I've seen people bathing in the sunshine or dodging the frequent and heavy rain showers, generally enjoying a peaceful lifestyle we've grown accustomed to. It's one we take for granted. In commemorating the centenary of the first world war and with cessation of the second 70 years behind us, we should remember that peace is not the default setting. Europe has experienced war in every century bar this one; what would it take to change that? Could Brexit be the catalyst?

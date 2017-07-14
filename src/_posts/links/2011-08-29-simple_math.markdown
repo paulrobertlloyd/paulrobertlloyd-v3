@@ -2,7 +2,7 @@
 title: Manchester Orchestra - Simple Math
 date: '2011-08-29 22:44:35 +0100'
 embed:
-  src: https://www.youtube.com/watch?v=PaMiVDZu_T4
+  src: https://www.youtube.com/video/PaMiVDZu_T4
 theme: dark
 tags:
   - Video
