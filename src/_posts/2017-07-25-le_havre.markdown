@@ -13,9 +13,9 @@ tags:
   - Travel
   - Architecture
 ---
-I remember my friend [James][1] telling me once about what he called the Ayres Rock effect. This is the situation in which somebody will describes their visit to *Uluru*{: lang="pjt"} as being magical and moving, thus setting expectations so high, that your own experience will be underwhelming. Hearing your disappointment, subsequent visitors' low expectations will ensure their own experience is one of wonder and joy. And so the cycle continues.
+I remember my friend [James][1] telling me once about what he calls the Ayres Rock effect. This is the situation in which somebody will describe their visit to *Uluru*{: lang="pjt"} as being magical and moving, thus setting expectations so high, that your own experience is underwhelming. Hearing your disappointment, subsequent visitors' low expectations will ensure their own experience is one of wonder and joy. And so the cycle continues.
 
-Having read [Oliver Wainwright's article][2] in the Guardian, I fear the same may be true when describing [Le Havre][3], a medium-sized harbour in Normandy that lies at the mouth of the Seine. Flattened by German bombs in 1944, today it is home to a large commercial container port and a dull, stoney beach that offers nothing but unobstructed views of cross-channel ferries. As such, it's a curious destination for tourists, except perhaps for those interested in urban renewal, modern architecture -- or ferry spotting!
+Having read [Oliver Wainwright's article][2] in the Guardian, I fear the same may be true when describing [Le Havre][3], a medium-sized coastal city in Normandy that lies at the mouth of the Seine. Flattened by German bombs in 1944, today it is home to a large container port and a dull, stoney beach that offers nothing but unobstructed views of cross-channel ferries. As such, it's a curious destination for tourists, except perhaps for those interested in urban renewal and modern architecture -- or ferry spotting!
 
 {% include figure.html
   src="2017/07/canene_de_containers.jpg"
@@ -24,14 +24,14 @@ Having read [Oliver Wainwright's article][2] in the Guardian, I fear the same ma
   class="u-pull-right"
 %}
 
-This year however there may well be a more compelling reason to visit. To celebrate 500 years since the it was founded, *Un Été au Havre*{: lang="fr"} ([A Summer in Le Havre][4]) sees the city host a festival of art and culture, with events, exhibitions and guided tours. A number of public spaces have been made home to dramatic installations, many of which would ideally become permanent.
+This year however there's a more compelling reason to visit. To celebrate 500 years since its founding, *Un Été au Havre*{: lang="fr"} ([A Summer in Le Havre][4]) sees the city host a festival of art and culture, with events, exhibitions and guided tours. A number of public spaces have been made home to dramatic installations, many of which would ideally become permanent.
 
-Vincent Ganivet's <cite lang="fr">Canène de containers</cite> (Catenary of containers) and Lang/Baumann's <cite>UP#3</cite> are two such examples, as both draw your eye towards the points at which *rue de Paris*{: lang="fr"} and *Avenue Foch*{: lang="fr"} respectively reach their shoreline conclusions. They also sit at two corners of the triangular quarter that was rebuilt after the war.
+Vincent Ganivet's <cite lang="fr">Canène de containers</cite> (Catenary of containers) and Lang/Baumann's <cite>UP#3</cite> are two such examples, both drawing your eye towards the points at which *rue de Paris*{: lang="fr"} and *Avenue Foch*{: lang="fr"} respectively reach their shoreline conclusion. They also sit at two corners of the triangular quarter rebuilt after the war.
 
 ## Concrete chic
-With an urban plan by [Auguste Perret][5], this quarter is notable for its modular buildings that [conform to a fixed grid of 6.24m][6]. Constructed using reinforced concrete, you'll find none of the brutalism associated with this building method. Wainwright's article called it concrete chic. I'm not sure I would go that far, but I certainly found examples where concrete had been used decoratively and imaginatively, particularly on the apartments lining *Avenue Foch*{: lang="fr"}.
+With an urban plan by [Auguste Perret][5], this quarter is notable for its modular buildings that [conform to a fixed grid of 6.24m][6]. Constructed using reinforced concrete, you'll find none of the brutalism associated with this building method. Wainwright called it concrete chic. I'm not sure I would go that far, but I certainly found examples where concrete had been used decoratively and imaginatively, particularly on the apartments lining *Avenue Foch*{: lang="fr"}.
 
-A criticism often levelled at concrete is that it can make buildings appear cold or inhumane. Thanks to the variety of finishes, textures, colours and fittings, as well as landscaping that features fountains, tree-lined boulevards, open spaces and quiet courtyards, Perret's liveable quarter feels quite delicate, mellow even. Concrete rarely weathers well, and here, where it reaches its extremities, exposed and rusty rebar is a common sight. If this UNESCO World Heritage Site is to celebrate its centenary, repairs will be needed.
+A criticism often levelled at concrete is that it can make buildings appear cold or inhumane. Thanks to the variety of finishes, textures, colours and fittings, as well as landscaping that features fountains, tree-lined boulevards, open spaces and quiet courtyards, Perret's liveable quarter feels quite delicate, mellow even. Concrete rarely weathers well, and here, where it reaches its extremities, exposed and rusty rebar is a common sight. If this UNESCO World Heritage Site is to celebrate its first centenary, repairs will be needed.
 
 {% include figure.html
   src="2017/07/concrete_chic.jpg"
@@ -40,17 +40,17 @@ A criticism often levelled at concrete is that it can make buildings appear cold
   class="u-bleed"
 %}
 
-No such damage could be found on the city's unavoidable signature building, Saint Joseph's Church. One of two buildings in the city designed by Perret, it [looks like something from another planet][7]. Its 170m-tall spire resembles <cite>Doctor Who</cite>'s sonic screwdriver, and entering the building is to be teleported to a temple on an alien planet. Climbing up one corner of the spire, a tightly wound staircase only intensifies the vertigo inducing affect. Thankfully, this wasn't open to the public, saving me the torment of reluctantly climbing the damn thing. Also of note is Marguerite Huré's stunning kaleidoscopic stained glass, whose various shades transition to white as they reach the top, further adding to this building's dizzying majesty.
+No such damage could be found on the city's unavoidable signature building, Saint Joseph's Church. One of two buildings in the city designed by Perret, it [looks like something from another planet][7]. Its 170m-tall spire resembles <cite>Doctor Who</cite>'s sonic screwdriver, and entering the building is to be teleported to a temple on an alien planet. Climbing up one corner of the spire, a tightly wound staircase only intensifies the vertigo inducing effect. Thankfully, this wasn't open to the public, saving me the torment of reluctantly climbing the damn thing. Also of note is Marguerite Huré's stunning kaleidoscopic stained glass, whose various shades transition to white as they reach the top, further adding to this building's dizzying majesty.
 
 {% include figure.html
   src="2017/07/hotel_de_ville.png"
   preset="showcase"
-  caption="During my trip I took the time to sit down and draw. Here's a quick sketch of Hôtel de Ville."
+  caption="During my trip I took the time to sit down and draw. Here's a quick sketch of *[Hôtel de Ville][8]*{: lang="fr"}."
 %}
 
-At the quarter's apex is *[Hôtel de Ville][8]*{: lang="fr"} (Town Hall), the second building designed by Perret, yet completed after his death. A modest landmark harbouring grander ambitions, its three storey high main structure is furnished with simple colonnades framing tall windows. On its western side, an 18 storey tower block with a clock face on each side, further signifies this building's relationship with the city.
+At the quarter's apex is *[Hôtel de Ville][8]*{: lang="fr"} (Town Hall), the second building designed by Perret, yet completed after his death. A modest landmark harbouring grander ambitions, its three storey high main structure is furnished with simple colonnades framing tall windows. On its western side, an 18 storey tower block with a clock face on each side, signifies this building's relationship with the city.
 
-Thankfully the carbuncle that is its northern extension is hidden from view of the public square that sits in front of the building. Here, a 'timescope' (a telescope-like device containing a VR experience) lets you to view the impressive Baroque building that stood here prior to the war, and what remained of it after the bombing. Upsetting, to say the least. Outside *[Cathédrale Notre-Dame][9]*{: lang="fr"}, one of the few buildings in this quarter that survived the war, has an adjacent square set a meter lower than street level, a gesture that highlights how the surrounding buildings are built on the rubble of the former city.
+Thankfully the carbuncle that is its northern extension is hidden from view of the public square that sits in front of the building. Here, a 'timescope' (a telescope-like device containing a VR experience) lets you to view the impressive Baroque building that stood prior to the war, and what remained of it after the bombing. Upsetting, to say the least. Outside *[Cathédrale Notre-Dame][9]*{: lang="fr"}, one of the few buildings in this quarter that survived the war, its adjacent square is set a meter lower than street level, a gesture that highlights how the surrounding buildings are built on the rubble of the former city.
 
 It's within this context that Perret's plan should be viewed. While nothing can replace what existed before -- other parts of the city give some indication as to what was lost -- his plan seems to have struck a balance between invention and pragmatism. Visiting a show apartment, furnished as it would have originally appeared in the 1950s, demonstrates how every care was taken to provide residents with good quality, well apportioned living spaces. Compact yes, but by no means cramped.
 
@@ -83,7 +83,7 @@ Urban regeneration never stops, and so to an area of revitalised docks. Shorn of
 ## Unexpected charm
 Prior to my arrival, I had built up expectations of an entire city rebuilt to the plans of Auguste Perret, with Oscar Niemeyer's beautiful sculpted volcanos just one of many architectural delights. I expected a scaled down version of Paris, with busy cafés surrounding the central square, restaurants on every corner.
 
-Instead, I found a quiet, coastal city with a small modernist quarter whose spaciousness did little to disguise a declining population and deserted streets. [Unlike Rotterdam][12], a Dutch city with a similar post-war history, there was no 'starchitecture' to be found. Nor could I find any bohemian, artistic outposts, or hipster coffee shops serving flat whites. Walking around the city on Sunday afternoon, the only noise was that of a gentle breeze rustling the rigging of fishing boats moored in the docks. That this wasn't much different to any other day or time of the week, gives some indication as to how desolate parts of the city appear.
+Instead, I found a quiet, coastal city with a small modernist quarter whose spaciousness did little to disguise a declining population and deserted streets. [Unlike Rotterdam][12], a Dutch city with a similar post-war history, there was no 'starchitecture' to be found. Nor could I find any bohemian, artistic outposts, or hipster coffee shops serving flat whites. Walking around the city on Sunday afternoon, the only noise was that of a gentle breeze rustling the rigging of fishing boats moored in the docks. That this wasn't much different to any other day or time of the week, gives some indication how desolate parts of the city feel.
 
 {% include figure.html
   src="2017/07/salon_des_navigateurs.jpg"
