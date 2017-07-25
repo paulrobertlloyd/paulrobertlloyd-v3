@@ -3,8 +3,11 @@
 {% else %}
   {% assign preset = site.images.default %}
 {% endif %}
+{% if jekyll.environment == "production" %}
+  {% assign root = site.url %}
+{% endif %}
 {% unless include.src contains ".svg" %}
-  <img src="{% if jekyll.environment == "production" %}{{ site.url }}{% endif %}/image/{{ preset.sources[0].width }}x{{ preset.sources[0].height }}/{{ preset.sources[0].quality }}q/{{ include.src }}" srcset="{% for source in preset.sources %}{{ site.url }}/image/{{ source.width }}x{{ source.height }}/{{ source.quality }}q/{{ include.src }} {{ source.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"{% if preset.sizes %} sizes="{{ preset.sizes }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
+  <img src="{{ root }}/image/{{ preset.sources[0].width }}x{{ preset.sources[0].height }}/{{ preset.sources[0].quality }}q/{{ include.src }}" srcset="{% for source in preset.sources %}{{ root }}/image/{{ source.width }}x{{ source.height }}/{{ source.quality }}q/{{ include.src }} {{ source.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"{% if preset.sizes %} sizes="{{ preset.sizes }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
 {% else %}
-  <img src="{% if jekyll.environment == "production" %}{{ site.url }}{% endif %}/images/{{ include.src }}" {% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
+  <img src="{{ root }}/images/{{ include.src }}" {% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
 {% endunless %}
