@@ -64,7 +64,7 @@ The other architecturally significant sight is that of the *[Le Volcan][10]*{: l
   class="u-bleed"
 %}
 
-Unlike his work in Brasília -- a city built from nothing, thus allowing the imagination of its planners to run wild -- here the destroyed city provided the foundations upon which the new layout was aligned. Important civic buildings remained in the locations they sat previously, and so this complex sits where the former *Grand-Théâtre*{: lang='fr'} lay. Niemeyer again defined his canvas from above, with the two peaks sitting either side of a sunken area whose walls, when viewed from the air, suggest the outline of a dove.
+Unlike his work in Brasília -- a city built from nothing, thus allowing the imagination of its planners to run wild -- here the destroyed city provided a foundation upon which the new layout was aligned. Important civic buildings remained in the locations they sat previously, and so this complex sits where the former *Grand-Théâtre*{: lang='fr'} stood. Niemeyer again defined his canvas from above, with the two peaks sitting either side of a sunken area whose walls, when viewed from the air, suggest the outline of a dove.
 
 {% include figure.html
   src="2017/07/bibliotheque_oscar_niemeyer.jpg"
@@ -78,10 +78,10 @@ Like its larger sibling, the smaller of the two buildings was originally a perfo
 At this point, it was hard not to feel envious of the citizens of Le Havre, who have a beautiful Oscar Niemeyer building all to themselves!
 
 ## To the docks
-Urban regeneration never stops, and so to an area of revitalised docks. Shorn of their industrial requirements, they have been given over to a shopping mall, university and swimming complex, among other uses. With such a wealth of waterside appointments, one might imagine this would be the most interesting and vibrant areas of the city, and yet... it might as well have remained a wasteland. A collection of bland boxes surrounding two basins, even its converted warehouses underwhelm. Indeed, the area's most celebrated building, *[Des Bains de Docks][11]*{: lang='fr'} was designed to be unassuming from outside. I'm sure this area will develop over time, but today, it only serves as an example of what Perret and his team accomplished during more austere times.
+Urban regeneration never stops, and so to an area of revitalised docks. Shorn of their industrial requirements, they have been given over to a shopping mall, university and swimming complex, among other uses. With such a wealth of waterside appointments, one might imagine this would be the most interesting and vibrant areas of the city, and yet... it might as well have remained a wasteland. A collection of bland boxes surrounding two basins, even its converted warehouses underwhelm. Indeed, the area's most celebrated building, *[Des Bains de Docks][11]*{: lang='fr'} was designed to be unassuming from outside. I'm sure this area will develop over time, but today, it only serves to contrast with what Perret and his team had accomplished in more austere times.
 
 ## Unexpected charm
-Prior to my arrival, I had built up expectations of an entire city rebuilt to the plans of Auguste Perret, with Oscar Niemeyer's beautiful sculpted volcanos just one of many architectural delights. I expected a scaled down version of Paris, with busy cafés surrounding the central square, restaurants on every corner.
+Prior to my arrival, I had built up expectations of an entire city rebuilt to the plans of Auguste Perret, with Oscar Niemeyer's beautiful volcanos just one of many architectural delights. I expected a scaled down version of Paris, with busy cafés surrounding the central square, restaurants on every corner.
 
 Instead, I found a quiet, coastal city with a small modernist quarter whose spaciousness did little to disguise a declining population and deserted streets. [Unlike Rotterdam][12], a Dutch city with a similar post-war history, there was no 'starchitecture' to be found. Nor could I find any bohemian, artistic outposts, or hipster coffee shops serving flat whites. Walking around the city on Sunday afternoon, the only noise was that of a gentle breeze rustling the rigging of fishing boats moored in the docks. That this wasn't much different to any other day or time of the week, gives some indication how desolate parts of the city feel.
 
@@ -92,9 +92,9 @@ Instead, I found a quiet, coastal city with a small modernist quarter whose spac
   class="u-bleed"
 %}
 
-And yet, tucked away, a few gems could be found. [<cite>The Seine at Samois</cite>][13], a captivating painting by Armand Guillaumin hanging in the *Musée d'art moderne André Malraux*{: lang='fr'}. A short [funicular railway][14] that transported me to the higher -- and largely unexplored -- part of the city where the [Tetris][15]{: hreflang='fr'} arts venue had a robot drawing portraits with a biro. Or the fish market decorated with murals of sea creatures and landscapes. And, most bizarrely, *Salon des Navigateurs*{: lang='fr'}, a hair salon that is part maritime museum and part horror show, frankly!
+And yet, tucked away, a few gems could be found. [<cite>The Seine at Samois</cite>][13], a captivating painting by Armand Guillaumin hanging in the *Musée d'art moderne André Malraux*{: lang='fr'}. A short [funicular railway][14] that transported me to the higher (and largely unexplored) part of the city where the [Tetris][15]{: hreflang='fr'} arts venue had a robot drawing portraits with a biro. Or the fish market decorated with murals of sea creatures and landscapes. And, most bizarrely, *Salon des Navigateurs*{: lang='fr'}, a hair salon that is part maritime museum -- and part horror show, frankly!
 
-Le Havre is not a beautiful city, nor is it a vibrant, cosmopolitan city. But it is a city full of curiosity and surprise. Set your expectations accordingly.
+Le Havre is not a glamorous city, nor is it a vibrant, cosmopolitan city. But it is a city full of curiosity and surprise. Set your expectations accordingly.
 
 *[Un Été au Havre][4]{: lang='fr'} runs until 8 October 2017.*
 
