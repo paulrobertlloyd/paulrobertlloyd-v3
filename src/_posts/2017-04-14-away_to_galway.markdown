@@ -49,7 +49,7 @@ Arriving in Galway, coaches outside the station dropped off throngs of tourists,
 
 After checking in to my hotel, I walked along the River Corrib towards the [cathedral][5]. This dominant feature of the city is a relatively recent addition, only completed in 1965. I ventured inside as the sunlight pierced though its many stained glass windows, their colourful light illuminating the otherwise grey stone columns.
 
-I'm not sure when Galway first came to mind as a destination -- I'm sure Ed Sheeran's latest [focus-grouped ditty][3] subconsciously played its part -- but [photos from across the Connemara region][4] intrigued me, and I soon wanted to contribute more images to this collection. It was photos from nearby Salthill that really caught my attention, so I decided to spend the evening walking along its promenade.
+I'm not sure when Galway first came to mind as a destination -- I'm sure Ed Sheeran's latest [focus-grouped ditty][3] subconsciously played its part -- but [photos from across the Connemara region][4] intrigued me, and I soon wanted to contribute more to this collection. It was images from nearby Salthill that really caught my attention, so I decided to spend the evening walking along its promenade.
 
 {% include figure.html
   src="2017/05/salthill_diving_tower.jpg"
