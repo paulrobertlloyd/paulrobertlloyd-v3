@@ -33,7 +33,7 @@ The mantra ["build half a product, not a half-ass product"][19] has possibly nev
 
 Having crammed over Christmas to reach this point, I'm going to take a well earned break (which will include visiting my brother in São Paulo). That adding pages is now easier than it was before (I'm using fewer relational fields in my text files, for starters), hopefully it won't be long before I'll be writing about the release of sections three and four.
 
-[^1]: Apologies to anyone living in Scotland, East Anglia or the North East of England.
+[^1]: Apologies to anyone living in Scotland, East Anglia or North of England.
 
 [1]: https://bradshaws.guide
 [2]: /2009/06/historic_counties_and_psychoville
