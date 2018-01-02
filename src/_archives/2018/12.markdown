@@ -1,0 +1,5 @@
+---
+title: December 2018
+date: 2018-12-01
+layout: archive-month
+---

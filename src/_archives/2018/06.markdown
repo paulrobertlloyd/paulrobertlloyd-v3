@@ -1,0 +1,5 @@
+---
+title: June 2018
+date: 2018-06-01
+layout: archive-month
+---
