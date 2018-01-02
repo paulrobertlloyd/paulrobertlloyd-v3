@@ -33,11 +33,11 @@ To run with HTTPS locally on macOS, you should follow the setup [as described he
     -x509 \
     -keyout development.key \
     -out development.crt \
-    -subj /CN=paulrobertlloyd.dev \
+    -subj /CN=paulrobertlloyd.test \
     -reqexts SAN \
     -extensions SAN \
     -config <(cat /System/Library/OpenSSL/openssl.cnf \
-      <(printf '[SAN]\nsubjectAltName=DNS:paulrobertlloyd.dev'))
+      <(printf '[SAN]\nsubjectAltName=DNS:paulrobertlloyd.test'))
   ```
 
 ## Deploying
