@@ -19,6 +19,9 @@
   {% assign embed_type = "video" %}
   {% assign embed_action = "Watch video on YouTube" %}
 {% else %}
+  {% assign embed_src = include.src %}
+  {% assign embed_type = "unknown" %}
+  {% assign embed_action = "Visit this page" %}
 {% endif %}
 <div class="c-embed {{ include.class }}" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-title="Media embed: {{ include.title | xml_escape }}"{% if include.ratio %} data-embed-ratio="{{ include.ratio }}"{% endif %}>
   <p><a href="{{ include.src }}">{{ embed_action }}</a></p>
