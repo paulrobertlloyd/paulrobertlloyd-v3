@@ -4,9 +4,11 @@ import resolve from 'rollup-plugin-node-resolve';
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-  entry: 'src/assets/javascripts/main.js',
-  dest: 'www/assets/javascripts/main.js',
-  format: 'iife',
+  input: 'src/assets/javascripts/main.js',
+  output: {
+    file: 'www/assets/javascripts/main.js',
+    format: 'iife'
+  },
   plugins: [
     babel({
       exclude: 'node_modules/**'
