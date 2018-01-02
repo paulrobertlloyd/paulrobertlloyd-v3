@@ -8,7 +8,7 @@ excerpt: Slides and referenced transcript from my presentation at Patterns Day
 meta:
   alternative_formats: |
     * [Audio](https://huffduffer.com/adactio/416238)
-    * Video (coming soon)
+    * [Video](https://vimeo.com/227237580)
 slides:
 - format: png
   notes: |
