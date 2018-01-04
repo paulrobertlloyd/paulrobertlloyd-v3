@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365" height="732" viewBox="0 0 730 1464">
-    <mask id="m" fill="#fff">
-        <path id="a" d="M45 136h640v1190H45V136z"/>
-    </mask>
-    <animate xlink:href="#s" attributeName="x" by="-480" dur="8s" begin="1s" values="45; -435; -435; 45; 45" keyTimes="0; 0.025; 0.475; 0.5; 1" repeatCount="indefinite" repeatDur="01:00" fill="freeze"/>
-    <path fill="#282B2D" stroke="#FFF" stroke-opacity=".2" stroke-width="2" d="M4 1383.2c0 33.3 23 49.4 32 53.5 19.7 9.3 44.6 11.6 88.6 14.6 35.8 2.6 139.8 12.7 237.5 12.7h5c101 0 200.8-8.3 236.5-12 39.6-4.3 72.2-9.3 92-18.5 9-4 30.8-18.6 30.8-49V68.5c0-19.7-18-35.5-26.6-39.6-20-9.5-43.7-16.5-87.7-19.6C575.6 7 477.2 0 376.6 0H355c-98 0-201 7-236.7 9.5-44 3-63.6 7.8-83.4 17C26 30.7 4 45 4 68.3v1315z"/>
-    <path stroke="#FFF" stroke-width="3" d="M383 71c0-10-8-18-18-18s-18 8-18 18 8 18 18 18 18-8 18-18" opacity=".1"/>
-    <path fill="#FFF" d="M130 77c0-5-4-9-9-9s-9 4-9 9 4 9 9 9 9-4 9-9" opacity=".1"/>
-    <path fill="#282B2D" d="M0 274.5h4v228.8H0v-229zM726 180h4v92h-4v-92z"/>
-    <image id="s" x="45" y="136" width="1120" height="1190" xlink:href="mobile_menu.png" mask="url(#m)"/>
+  <mask id="m" fill="#fff">
+    <path id="a" d="M45 136h640v1190H45V136z"/>
+  </mask>
+  <animate xlink:href="#s" attributeName="x" by="-480" dur="8s" begin="1s" values="45; -435; -435; 45; 45" keyTimes="0; 0.025; 0.475; 0.5; 1" repeatCount="indefinite" repeatDur="01:00" fill="freeze"/>
+  <path fill="#282B2D" stroke="#FFF" stroke-opacity=".2" stroke-width="2" d="M4 1383.2c0 33.3 23 49.4 32 53.5 19.7 9.3 44.6 11.6 88.6 14.6 35.8 2.6 139.8 12.7 237.5 12.7h5c101 0 200.8-8.3 236.5-12 39.6-4.3 72.2-9.3 92-18.5 9-4 30.8-18.6 30.8-49V68.5c0-19.7-18-35.5-26.6-39.6-20-9.5-43.7-16.5-87.7-19.6C575.6 7 477.2 0 376.6 0H355c-98 0-201 7-236.7 9.5-44 3-63.6 7.8-83.4 17C26 30.7 4 45 4 68.3v1315z"/>
+  <path stroke="#FFF" stroke-width="3" d="M383 71c0-10-8-18-18-18s-18 8-18 18 8 18 18 18 18-8 18-18" opacity=".1"/>
+  <path fill="#FFF" d="M130 77c0-5-4-9-9-9s-9 4-9 9 4 9 9 9 9-4 9-9" opacity=".1"/>
+  <path fill="#282B2D" d="M0 274.5h4v228.8H0v-229zM726 180h4v92h-4v-92z"/>
+  <image id="s" x="45" y="136" width="1120" height="1190" xlink:href="mobile_menu.png" mask="url(#m)"/>
 </svg>
