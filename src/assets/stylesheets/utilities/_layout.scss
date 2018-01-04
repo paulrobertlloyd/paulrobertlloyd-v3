@@ -108,8 +108,7 @@
 }
 
 // Extend element to full width of .u-container
-.u-extend,
-%u-extend {
+.u-extend {
   clear: both;
 
   @media screen and (min-width: $b__b) {
