@@ -33,7 +33,6 @@ GEM
       sass (~> 3.4)
     jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
-    jekyll-slugify_underscore (0.0.4)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -65,7 +64,6 @@ DEPENDENCIES
   jekyll
   jekyll-paginate-v2
   jekyll-sitemap
-  jekyll-slugify_underscore
 
 BUNDLED WITH
    1.16.1
