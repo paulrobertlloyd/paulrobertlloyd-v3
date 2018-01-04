@@ -37,6 +37,8 @@ collections:
     output: true
   discussions:
     output: true
+  notes:
+    output: true
   posts:
     output: true
   projects:
@@ -88,10 +90,9 @@ defaults:
       layout: link
 
   - scope:
-      type: posts
+      type: notes
       path: "_posts/notes"
     values:
-      category: notes
       layout: note
       title: Note
 
