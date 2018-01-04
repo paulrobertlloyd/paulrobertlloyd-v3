@@ -10,6 +10,8 @@
   z-index: 1002;
   margin-bottom: units(3);
   box-shadow: inset 0 -1px 0 rgba($c__neutral-mid, 0.25);
+  padding-right: var(--page-gutter);
+  padding-left: var(--page-gutter);
   background-color: var(--page-background);
 
   @media (min-width: $b__a) {

@@ -6,9 +6,9 @@
 // 1. Prevent adjustments of font size after orientation
 //    change in IE on Windows Phone and iOS
 html {
+  position: relative;
   height: 100%;
   text-size-adjust: 100%; // [1]
-  position: relative;
 }
 
 *,
@@ -19,6 +19,7 @@ html {
 
 body {
   @include ff--sans-serif;
+  max-width: 90rem;
   margin: 0 auto;
   background-color: var(--page-background);
   -moz-osx-font-smoothing: grayscale;

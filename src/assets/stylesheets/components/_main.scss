@@ -4,5 +4,7 @@
 
 .c-main {
   position: relative;
+  padding-right: var(--page-gutter);
+  padding-left: var(--page-gutter);
   margin-bottom: units(3);
 }

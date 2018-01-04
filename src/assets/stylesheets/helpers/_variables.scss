@@ -36,12 +36,22 @@ $b__bx: 44.9375rem; // 719px
 $b__c: ($u__max-width + 2rem);
 $b__d: 65rem; // 1040px
 
-// Theming
+// Properties
 :root {
+  --page-gutter: 1rem;
   --page-background: #{$c__neutral-lightest};
   --page-text: #{$c__neutral-dark};
+
+  @media (min-width: $b__a) {
+    --page-gutter: 2rem;
+  }
+
+  @media (min-width: $b__c) {
+    --page-gutter: 15vw;
+  }
 }
 
+// Theming
 .t-dark {
   --page-background: #{$c__neutral-darkest};
   --page-text: #{$c__neutral-lightest};

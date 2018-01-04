@@ -3,6 +3,9 @@
 // ========================================================
 
 .c-banner {
+  padding-right: var(--page-gutter);
+  padding-left: var(--page-gutter);
+
   @media (min-width: $b__a) {
     margin-bottom: units(6);
   }

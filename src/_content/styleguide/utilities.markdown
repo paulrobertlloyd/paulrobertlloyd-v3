@@ -38,17 +38,6 @@ The `.u-abreast`{: .language-css} utility class uses [Quantity Queries](http://a
   caption="Five images placed side-by-side, with supporting caption"
 %}
 
-### Container
-<style>
-  .example--block {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 3.5rem;
-    font-weight: normal;
-  }
-</style>
-The `.u-container`{: .language-css} utility class is used for macro layout control, constraining major structural components like `.c-banner`{: .language-css} and `.c-contentinfo`{: .language-css}.
-
 ### Align right
 **.u-align-right**{: .u-align-right.example--block } The `.u-align-right`{: .language-css} utility class is used to align an element to the right. Typically used within prose.
 

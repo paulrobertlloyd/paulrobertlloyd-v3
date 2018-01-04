@@ -13,6 +13,8 @@
 
 .c-contentinfo__main {
   position: relative;
+  padding-right: var(--page-gutter);
+  padding-left: var(--page-gutter);
 
   @media screen and (min-width: $b__b) {
     display: flex;
