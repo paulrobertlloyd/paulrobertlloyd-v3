@@ -1,43 +1,18 @@
 // ========================================================
 // Tablular data
-// https://w3c.github.io/html/tabular-data.html
+// http://w3c.github.io/html/tabular-data.html
 // ========================================================
 
 table {
-  caption-side: bottom;
+  border-collapse: collapse;
   border-spacing: 0;
-  font-variant: tabular-nums;
+  font-variant-numeric: tabular-nums;
 }
 
-tbody {
-  margin-bottom: 1rem;
-}
-
-caption {
-  @include fs--caption;
-  margin-top: 0.5rem;
-  text-align: left;
-}
-
+caption,
 td,
 th {
-  border-top: 1px solid;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-  vertical-align: top;
   text-align: left;
-  white-space: nowrap;
-  overflow-wrap: break-word;
-}
-
-td {
-  border-color: rgba($c__neutral-mid, 0.5);
-}
-
-th {
-  border-top: $u__rule-height solid;
-  padding-bottom: 1rem;
-  font-weight: 700;
 }
 
 @media print {
@@ -45,8 +20,7 @@ th {
     display: table-header-group;
   }
 
-  tr,
-  img {
+  tr {
     page-break-inside: avoid;
   }
 }

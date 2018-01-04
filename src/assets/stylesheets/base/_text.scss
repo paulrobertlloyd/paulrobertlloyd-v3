@@ -3,10 +3,10 @@
 // https://w3c.github.io/html/textlevel-semantics.html
 // ========================================================
 
+// 1. Remove gray background on active links in IE 10
 a {
   @include link;
-  // Remove gray background color from active links in IE 10
-  background-color: transparent;
+  background-color: transparent; // [1]
   transition: color 0.1s ease-out;
 }
 
@@ -17,8 +17,8 @@ a {
   }
 }
 
+// Reset font size for smallprint/legal text
 small {
-  // Address inconsistent and variable font size in all browsers
   font-size: 100%;
 }
 
@@ -48,19 +48,19 @@ kbd {
   line-height: 1;
 }
 
+// Prevent `sub` and `sup` elements affecting line height
 sub,
 sup {
+  font-size: 75%;
+  line-height: 0;
   position: relative;
   vertical-align: baseline;
-  // Prevent `sub` and `sup` affecting `line-height` in all browsers
-  line-height: 0;
-  font-size: 75%;
 }
 
 sub {
-  bottom: -0.2rem;
+  bottom: -0.25em;
 }
 
 sup {
-  top: -0.5rem;
+  top: -0.5em;
 }

@@ -1,17 +1,20 @@
 // ========================================================
-// Grouping content
-// https://w3c.github.io/html/sections.html
+// Sections
+// http://w3c.github.io/html/sections.html
 // ========================================================
 
+// 1. Prevent adjustments of font size after orientation
+//    change in IE on Windows Phone and iOS
 html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+  height: 100%;
+  text-size-adjust: 100%; // [1]
+  position: relative;
 }
 
 *,
-*::before,
-*::after {
-  box-sizing: inherit;
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -29,18 +32,6 @@ body {
   }
 }
 
-article,
-aside,
-footer,
-header,
-main,
-nav,
-section {
-  // Correct `block` display for section elements in IE 8/9
-  // Correct `block` display for `main` in IE 11
-  display: block;
-}
-
 h1,
 h2,
 h3,
@@ -49,7 +40,7 @@ h5,
 h6 {
   margin: 0;
   text-rendering: optimizeLegibility;
-  font-size: 1em;
+  font-size: inherit;
   font-weight: inherit;
 
   @media print {

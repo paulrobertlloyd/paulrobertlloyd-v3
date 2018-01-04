@@ -1,76 +1,43 @@
 // ========================================================
 // Grouping content
-// https://w3c.github.io/html/grouping-content.html
+// http://w3c.github.io/html/grouping-content.html
 // ========================================================
 
+// 1. Add correct box sizing in Firefox
+// 2. Show overflow in Edge and IE
 hr {
-  @include rule;
-  // Add the correct box sizing in Firefox.
-  box-sizing: content-box;
-  // Show the overflow in Edge and IE.
-  overflow: visible;
-  margin: 0 auto;
-  border: 0;
-  height: 0;
-  line-height: 0;
-}
-
-p,
-pre,
-blockquote,
-ul,
-ol,
-dl,
-figure,
-table,
-fieldset {
-  margin: 0;
-  orphans: 3;
-  widows: 3;
+  box-sizing: content-box; // [1]
+  height: 0; // [1]
+  overflow: visible; // [2]
 }
 
 pre {
   overflow: auto;
   white-space: pre;
   hyphens: none;
-  tab-size: 4;
+  tab-size: 2;
 }
 
-blockquote {
-  @media print {
-    page-break-inside: avoid;
-  }
+p,
+blockquote,
+ol,
+ul,
+dl {
+  margin: 0 0 var(--flow-space, 0) 0;
 }
 
-figure,
-figcaption {
-  // Correct display for `figure` and `figcaption` elements in IE 8/9
-  display: block;
+figure {
+  margin: 0;
 }
 
+// Default to ’bare’ lists
 ol,
 ul {
   padding: 0;
-  list-style-position: inside;
-
-  @media (min-width: $b__a) {
-    list-style-position: outside;
-  }
-
-  blockquote & {
-    list-style-position: inside;
-  }
+  list-style: none;
 }
 
-ol {
-  list-style-type: decimal;
-}
-
-ul {
-  list-style-type: square;
-}
-
-li li,
-dd {
-  margin-left: 1.5rem;
+// Add correct display in IE
+main {
+  display: block;
 }

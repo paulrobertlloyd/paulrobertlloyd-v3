@@ -1,42 +1,26 @@
 // ========================================================
 // Embedded content
-// https://w3c.github.io/html/semantics-embedded-content.html
+// http://w3c.github.io/html/semantics-embedded-content.html
 // ========================================================
 
+// Remove border on images inside links in IE 10-
 img {
-  // Remove border when inside `a` element in IE 8/9
-  display: block;
-  position: relative;
-  max-width: 100%;
-  border: 0;
+  border-style: none;
+}
 
-  // Broken image styles
-  // http://bitsofco.de/styling-broken-images/
-  &::before {
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: $c__neutral-mid;
-    content: "";
-  }
-
-  &::after {
-    @include fs--caption;
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    padding: 0.75rem;
-    text-align: center;
-    color: white;
-    content: "\2298\0020\0020Unable to load this image";
+@media print {
+  img {
+    page-break-inside: avoid;
   }
 }
 
+// 1. Hide overflow in IE
+// 2. Fill with currentColor
 svg:not(:root) {
-  // Correct overflow displayed oddly in IE 9
-  overflow: hidden;
-  vertical-align: middle;
-  fill: currentColor;
+  overflow: hidden; // [1]
+  fill: currentColor; // [2]
+}
+
+iframe {
+  border: 0;
 }

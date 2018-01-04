@@ -30,8 +30,43 @@
   }
 
   hr {
-    margin-top: units(1);
-    margin-bottom: units(2);
+    @include rule;
+    margin: units(1) auto units(2);
+    border: 0;
+    line-height: 0;
+  }
+
+  table {
+    caption-side: bottom;
+  }
+
+  tbody {
+    margin-bottom: units(1);
+  }
+
+  caption {
+    @include fs--caption;
+    margin-top: 0.5rem;
+  }
+
+  td,
+  th {
+    border-top: 1px solid;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow-wrap: break-word;
+  }
+
+  td {
+    border-color: rgba($c__neutral-mid, 0.5);
+  }
+
+  th {
+    border-top: $u__rule-height solid;
+    padding-bottom: 1rem;
+    font-weight: 700;
   }
 
   .caps {
