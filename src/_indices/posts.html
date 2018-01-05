@@ -2,14 +2,12 @@
 layout: default
 title: Journal
 permalink: /journal/
-pagination:
-  enabled: true
 ---
 <section class="c-page c-page--index">
   {% include page/header.html %}
 
   <div class="c-section">
-  {% for item in paginator.posts %}
+  {% for item in site.posts limit:10 %}
     {% case item.layout %}
     {% when "gallery" %}
       {% include item/gallery.html %}

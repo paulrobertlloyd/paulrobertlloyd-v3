@@ -162,25 +162,3 @@ images:
       - width: 1200
         height: 500
         quality: 88
-
-# Plugin: jekyll-assets
-assets:
-  sources:
-    - _assets/fonts
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/vectors
-
-# Plugin: jekyll-paginate-v2
-pagination:
-  enabled: true
-  title: ':title'
-  permalink: '/:num'
-  sort_reverse: true
-  per_page: 15
-
-# Plugin: jekyll-crosspost-to-medium
-jekyll-crosspost_to_medium:
-  cache: ./src/_data/
-  status: draft
-  license: cc-40-by-nc-sa

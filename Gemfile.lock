@@ -27,8 +27,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-paginate-v2 (1.9.0)
-      jekyll (~> 3.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
     jekyll-sitemap (1.1.1)
@@ -62,7 +61,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-paginate-v2
+  jekyll-paginate
   jekyll-sitemap
 
 BUNDLED WITH

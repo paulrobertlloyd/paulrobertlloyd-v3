@@ -2,15 +2,13 @@
 layout: default
 title: Links
 permalink: /links/
-pagination:
-  enabled: true
-  category: links
 ---
 <section class="c-page c-page--index">
   {% include page/header.html %}
 
   <div class="c-section">
-  {% for item in paginator.posts %}
+  {% assign items = site.posts | where:'category', 'links' %}
+  {% for item in items %}
     {% include item/link.html %}
   {% endfor %}
   </div>

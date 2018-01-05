@@ -2,15 +2,12 @@
 layout: default
 title: Notes
 permalink: /notes/
-pagination:
-  enabled: true
-  collection: notes
 ---
 <section class="c-page c-page--index">
   {% include page/header.html %}
 
   <div class="c-section">
-  {% for item in paginator.posts %}
+  {% for item in site.notes %}
     {% include item/note.html %}
   {% endfor %}
   </div>

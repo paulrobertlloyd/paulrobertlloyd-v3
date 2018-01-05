@@ -2,18 +2,14 @@
 layout: default
 title: Photos
 permalink: /photos/
-pagination:
-  enabled: true
-  category: galleries
 ---
 <section class="c-page c-page--index">
   {% include page/header.html %}
 
   <div class="c-section">
-  {% for item in paginator.posts %}
+  {% assign items = site.posts | where:'category', 'photos' %}
+  {% for item in items %}
     {% include item/gallery.html %}
   {% endfor %}
   </div>
 </section>
-
-{% include nav/paginate-indices.html %}
