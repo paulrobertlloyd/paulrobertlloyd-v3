@@ -29,10 +29,8 @@ exclude:
   - bin
   - downloads
   - etc
-  - node_modules
   - src
   - images
-  - README.md
 profile: true
 
 # Collections
@@ -100,7 +98,7 @@ defaults:
     values:
       permalink: /:year/:month/:title
       layout: note
-      title: Note
+      title: "Untitled"
 
   - scope:
       type: projects

@@ -7,7 +7,8 @@ permalink: /notes/
   {% include page/header.html %}
 
   <div class="c-section">
-  {% for item in site.notes %}
+  {% assign items = site.notes | sort: "date" | reverse %}
+  {% for item in items  %}
     {% include item/note.html %}
   {% endfor %}
   </div>

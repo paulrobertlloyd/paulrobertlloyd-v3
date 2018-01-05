@@ -6,7 +6,7 @@ import uglify from 'rollup-plugin-uglify';
 export default {
   input: '_assets/javascripts/main.js',
   output: {
-    file: '_assets/javascripts/main.js',
+    file: 'www/assets/javascripts/main.js',
     format: 'iife'
   },
   plugins: [

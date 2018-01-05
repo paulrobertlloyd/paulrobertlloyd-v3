@@ -1,0 +1,6 @@
+---
+date: 2017-10-27 14:15 -0000
+image:
+  src: notes/2017-10-27-141517.jpg
+---
+[Note to self](https://ethanmarcotte.com/wrote/seven-into-seven/).

@@ -1,4 +1,10 @@
 <article class="c-item c-item--note">
+  {% if item.title != "Untitled" %}
+  <header class="c-item__header">
+    <h3 class="c-item__title">{{ item.title | smartify }}</h3>
+  </header>
+  {% endif %}
+
   <div class="c-item__main s-prose">
     {% if item.image.src %}
     <a class="c-item__media u-bleed u-block-link" href="{{ item.url }}">
