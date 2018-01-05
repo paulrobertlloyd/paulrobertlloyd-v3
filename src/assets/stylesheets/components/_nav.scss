@@ -25,11 +25,10 @@
 
 // Page navigation
 .c-nav--pagination {
-  overflow: hidden;
+  display: flex;
 
   @media (min-width: $b__b) {
-    position: absolute;
-    bottom: units(3);
+    padding-left: percentage(2/9);
   }
 
   @media print {
@@ -37,7 +36,6 @@
   }
 
   .c-nav__item {
-    float: left;
     margin-right: 1rem;
     font-weight: 700;
   }
