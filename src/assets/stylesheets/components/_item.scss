@@ -20,7 +20,6 @@
 }
 
 .c-item__media,
-.c-item__header,
 .c-item__footer {
   margin-bottom: units(2/3);
 }
@@ -43,11 +42,7 @@
 
   .c-item--entry &,
   .c-item--gallery & {
-    @include fs--heading-1;
-
-    a {
-      text-decoration: none;
-    }
+    @include fs--heading-2;
   }
 
   a[href^="http"]::after {
