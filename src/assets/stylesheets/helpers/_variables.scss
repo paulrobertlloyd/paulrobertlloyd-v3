@@ -16,17 +16,25 @@ $u__colspan4: (percentage(4/12) * $nested-ratio);
 $u__gutter: 1.5rem;
 
 // Colours
-$c__neutral-darkest: hsb(300, 32, 8);
-$c__neutral-dark: hsb(300, 16, 24);
-$c__neutral-mid: hsb(300, 8, 48);
-$c__neutral-light: hsb(300, 4, 72);
-$c__neutral-lightest: hsb(300, 0, 96);
+$c__neutral-darkest: hsl(320, 20%, 7%);
+$c__neutral-dark: hsl(320, 10%, 21%);
+$c__neutral-mid: hsl(320, 5%, 42%);
+$c__neutral-light: hsl(320, 2%, 70%);
+$c__neutral-lightest: hsl(320, 0, 98%);
 
-$c__primary: hsb(300, 60, 80);
-$c__secondary: hsb(20, 80, 80);
+$c__primary: hsl(320, 67%, 50%);
+$c__secondary: hsl(20, 67%, 50%);
 
-$c__invalid: hsb(0, 60, 80);
-$c__valid: hsb(170, 60, 80);
+$c__invalid: hsl(0, 67%, 50%);
+$c__valid: hsl(180, 67%, 50%);
+
+// Breakpoints
+$b__a: 32rem; // 512px
+$b__ax: 31.9375rem; // 511px
+$b__b: 45rem; // 720px
+$b__bx: 44.9375rem; // 719px
+$b__c: ($u__max-width + 2rem);
+$b__d: 65rem; // 1040px
 
 // Breakpoints
 $b__a: 32rem; // 512px
