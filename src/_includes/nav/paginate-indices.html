@@ -1,5 +1,5 @@
 <nav class="c-nav c-nav--pagination" aria-labelledby="browse">
-  <h1 class="c-nav__title u-hidden" id="browse">Browse {{ page.title }}</h1>
+  <h2 class="c-nav__title u-hidden" id="browse">Browse {{ page.title }}</h2>
 
   {% if paginator.next_page %}
   <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path | remove: ".html" }}">

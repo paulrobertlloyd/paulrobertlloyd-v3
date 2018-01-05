@@ -2,7 +2,7 @@
 {% capture params %}{% for month in (1..12) %}{% capture date_key %}{{ year }}-{{ month | prepend: "00" | slice: -2, 2 }}{% endcapture %}{% assign docs = site.posts | where_exp: "doc", "doc.path contains date_key" %}{{ docs | size | append: "," }}{% endfor %}{% endcapture %}
 <section class="c-year">
   <a href="/{{ year }}/">
-    <h1 class="c-year__title">{{ year }}</h1>
+    <h3 class="c-year__title">{{ year }}</h3>
     <p class="c-year__meta">{{ posts | size }} items</p>
     <embed class="c-year__graph" src="/images/chart.svg?{{ params | slice: 0, 23 }}" type="image/svg+xml"></embed>
   </a>

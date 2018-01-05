@@ -2,7 +2,7 @@
   {% assign id = item.id | remove: "/projects/" %}
   <a class="u-block-link" href="{{ item.url }}" rel="bookmark">
     {% include vectors/{{ id }}.svg %}
-    <h1 class="c-project__title">{{ item.title | smartify }}</h1>
+    <h3 class="c-project__title">{{ item.title | smartify }}</h3>
     <p class="c-project__meta">{{ item.excerpt | smartify }}</p>
   </a>
 </article>
