@@ -4,9 +4,9 @@ import resolve from 'rollup-plugin-node-resolve';
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-  input: 'src/assets/javascripts/main.js',
+  input: '_assets/javascripts/main.js',
   output: {
-    file: 'www/assets/javascripts/main.js',
+    file: '_assets/javascripts/main.js',
     format: 'iife'
   },
   plugins: [

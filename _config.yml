@@ -23,10 +23,16 @@ kramdown:
   auto_id_stripping: true # This will become the default behaviour in kramdown 2.0
 
 # Publishing
-source: ./src
 destination: ./www
 include: [_indices]
-exclude: [assets/javascripts, assets/stylesheets]
+exclude:
+  - bin
+  - downloads
+  - etc
+  - node_modules
+  - src
+  - images
+  - README.md
 profile: true
 
 # Collections

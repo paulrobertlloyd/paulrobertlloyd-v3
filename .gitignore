@@ -1,8 +1,4 @@
-# Files to ignore
-src/.jekyll-metadata
-
 # Folders to ignore
 etc/ssl
 node_modules
-src/.asset-cache
 www/

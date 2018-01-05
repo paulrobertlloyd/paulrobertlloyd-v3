@@ -17,7 +17,7 @@
   },
   "scripts": {
     "javascripts": "rollup -c etc/rollup/config.js",
-    "stylesheets:compile": "node-sass src/assets/stylesheets/main.scss --output-style=compressed --output=www/assets/stylesheets/",
+    "stylesheets:compile": "node-sass _assets/stylesheets/main.scss --output-style=compressed --output=www/assets/stylesheets/",
     "stylesheets:prefix": "postcss www/assets/stylesheets/main.css --use autoprefixer --output=www/assets/stylesheets/main.css",
     "build": "npm run javascripts & npm run stylesheets:compile & npm run stylesheets:prefix",
     "test": "xo || stylelint **/*.scss"
