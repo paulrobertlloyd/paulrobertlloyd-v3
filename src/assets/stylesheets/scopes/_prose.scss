@@ -3,17 +3,14 @@
 // ========================================================
 
 .s-prose {
+  --flow-space: units(1);
   line-height: (24 / 16);
   font-variant: common-ligatures oldstyle-nums;
   hanging-punctuation: first;
 
-  > * {
-    margin-bottom: units(1);
-  }
-
   blockquote {
     > *:not(footer) {
-      margin-bottom: 0;
+      --flow-space: 0;
       padding-left: 1rem;
       border-left: 0.125rem solid;
     }
@@ -77,14 +74,6 @@
 // Body
 .s-prose--body {
   @include fs--body;
-
-  > * {
-    margin-bottom: units(2);
-  }
-
-  > *:last-child {
-    margin-bottom: 0;
-  }
 
   h2 {
     @include fs--heading-2;
@@ -213,14 +202,5 @@
     ol {
       margin-top: units(1);
     }
-  }
-}
-
-// Lede
-.s-prose--lede {
-  @include fs--lede;
-
-  > * {
-    margin-bottom: units(2);
   }
 }

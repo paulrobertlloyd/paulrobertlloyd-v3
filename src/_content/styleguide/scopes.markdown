@@ -4,7 +4,7 @@ series: styleguide
 date: '2015-07-12 00:00:01 +0000'
 excerpt: Areas of user-generated content, with HTML that has come from a CMS.
 ---
-The introductory paragraph above uses the `.s-prose--lede`{: .language-css} class to scope that content. The rest of the content on this page lies within the `.s-prose--body`{: .language-css} scope[^1].
+The introductory paragraph above uses the `.s-lede`{: .language-css} class to scope that content. The rest of the content on this page lies within the `.s-prose--body`{: .language-css} scope[^1].
 
 ## Second-level heading
 Main page headings are `h1` elements, so futher headings within this scope should start with `h2`, an example of which appears directly above. More than one may be used per page. Consider using an `h2` unless you need a header level of less importance, or as a sub-header to an existing `h2` element.
