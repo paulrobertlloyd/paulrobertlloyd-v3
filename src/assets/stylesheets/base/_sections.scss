@@ -19,6 +19,9 @@ html {
 
 body {
   @include ff--sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   max-width: 90rem;
   margin: 0 auto;
   background-color: var(--page-background);
