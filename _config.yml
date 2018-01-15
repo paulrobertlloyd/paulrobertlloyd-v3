@@ -27,10 +27,8 @@ destination: ./www
 include: [_indices]
 exclude:
   - bin
-  - downloads
   - etc
-  - src
-  - images
+  - node_modules
 profile: true
 
 # Collections
