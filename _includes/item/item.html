@@ -6,7 +6,9 @@
   </header>
 
   <footer class="c-item__footer">
-    <b class="p-category">{{ item.layout | capitalize }}</b><span aria-label=","> ·</span>
+    {% if item.category %}
+    <b class="p-category">{{ item.category | capitalize }}</b><span aria-label=","> ·</span>
+    {% endif %}
     <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
   </footer>
 </article>

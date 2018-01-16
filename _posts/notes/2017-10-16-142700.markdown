@@ -1,6 +1,5 @@
 ---
 date: 2017-10-16 14:27 -0000
-image:
-  src: notes/2017-10-16-142700.jpg
+mf-photo: notes/2017-10-16-142700.jpg
 ---
 A weird and unnerving aura, with ochre-tinged, dust-filled skies [brought to us by Ophelia](http://www.bbc.co.uk/news/uk-england-41635906).

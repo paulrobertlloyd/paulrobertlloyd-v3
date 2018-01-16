@@ -2,17 +2,15 @@
 layout: default
 ---
 <article class="c-page c-page--note  h-entry">
-  {% if item.title != "Untitled" %}
+  {% if page.title != "Untitled" %}
     {% include page/header.html %}
   {% endif %}
 
   <div class="c-section">
     <div class="s-prose s-prose--body  e-content">
-      {% if page.image.src %}
+      {% if page.mf-photo %}
         {% include figure.html
-          caption=page.image.caption
-          src=page.image.src
-          preset=page.image.preset
+          src=page.mf-photo
           class="u-bleed"
         %}
       {% endif %}

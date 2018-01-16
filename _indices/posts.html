@@ -7,13 +7,14 @@ permalink: /journal/
   {% include page/header.html %}
 
   <div class="c-section">
-  {% for item in site.posts limit:10 %}
+  {% assign items = site.posts %}
+  {% for item in items limit:20 %}
     {% case item.layout %}
     {% when "gallery" %}
       {% include item/gallery.html %}
     {% when "link" %}
       {% include item/link.html %}
-    {% when "note" %}
+    {% when "micropubpost" %}
       {% include item/note.html %}
     {% else %}
       {% include item/post.html %}

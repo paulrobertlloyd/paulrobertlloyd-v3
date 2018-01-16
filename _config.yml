@@ -39,8 +39,6 @@ collections:
     output: true
   discussions:
     output: true
-  notes:
-    output: true
   posts:
     output: true
   projects:
@@ -92,10 +90,12 @@ defaults:
       layout: link
 
   - scope:
-      type: notes
+      type: posts
+      path: "_posts/notes"
     values:
-      permalink: /:year/:month/:title
-      layout: note
+      permalink: /:categories/:year/:month/:hour:minute:second
+      category: notes
+      layout: micropubpost
       title: "Untitled"
 
   - scope:

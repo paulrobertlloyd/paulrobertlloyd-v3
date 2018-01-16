@@ -24,7 +24,7 @@ layout: default
       <div class="c-section__main">
         {% assign month = this_month %}
       {% endif %}
-        {% if item.layout != "note" %}
+        {% if item.layout != "micropubpost" %}
           {% include item/item.html %}
         {% endif %}
       {% if forloop.last %}
