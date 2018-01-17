@@ -1,0 +1,35 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.1-node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - gem-cache-{{ checksum "Gemfile.lock" }}
+            - gem-cache-
+            - npm-cache-{{ checksum "package-lock.json" }}
+            - npm-cache-
+      - run:
+          shell: /bin/sh
+          name: Install dependancies
+          command: |
+            sudo apt install rsync
+            gem install bundler
+            bundle install --path vendor/bundle
+            npm install
+      - save_cache:
+          key: gem-cache-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - save_cache:
+          key: npm-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - deploy:
+          shell: /bin/sh
+          name: Generate files and deploy to server
+          command: bin/deploy
+    branches:
+      only: master

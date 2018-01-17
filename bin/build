@@ -1,5 +1,4 @@
 #!/bin/sh
-
 set -e
 
 echo "Generating website files and saving them to destination"

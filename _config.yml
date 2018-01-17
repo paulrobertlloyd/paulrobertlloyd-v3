@@ -29,6 +29,7 @@ exclude:
   - bin
   - etc
   - node_modules
+  - vendor/bundle
 profile: true
 
 # Collections

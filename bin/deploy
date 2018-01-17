@@ -1,16 +1,16 @@
 #!/bin/sh
-
 set -e
+
 bin/build
 
 echo "Publishing website…"
 for SOURCE in www etc
 do
-  /usr/bin/rsync \
-    -e /usr/bin/ssh \
+  rsync \
+    -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=~/.ssh/known_hosts" \
     -hvrt \
+    --omit-dir-times \
     --keep-dirlinks \
-    --delete-after \
     --exclude '.DS*' \
     --exclude 'etc/jekyll' \
     --exclude 'etc/ssl' \
