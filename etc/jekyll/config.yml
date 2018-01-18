@@ -25,12 +25,10 @@ kramdown:
 # Publishing
 source: ./src
 destination: ./www
-include: [_indices]
-exclude: [assets/javascripts, assets/stylesheets]
 profile: true
 
 # Collections
-collections_dir: _collections
+collections_dir: collections
 collections:
   archives:
     output: true
@@ -75,7 +73,7 @@ defaults:
 
   - scope:
       type: posts
-      path: "_posts/galleries"
+      path: "collections/_posts/galleries"
     values:
       category: photos
       layout: gallery
@@ -83,14 +81,14 @@ defaults:
 
   - scope:
       type: posts
-      path: "_posts/links"
+      path: "collections/_posts/links"
     values:
       category: links
       layout: link
 
   - scope:
       type: posts
-      path: "_posts/notes"
+      path: "collections/_posts/notes"
     values:
       permalink: /:categories/:year/:month/:day-:hour:minute
       category: notes
