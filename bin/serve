@@ -2,5 +2,5 @@
 set -e
 
 echo "Serving website"
-JEKYLL_ENV=development bundle exec jekyll serve --trace
+JEKYLL_ENV=development bundle exec jekyll serve --config etc/jekyll/config.yml --trace
 npm run dev

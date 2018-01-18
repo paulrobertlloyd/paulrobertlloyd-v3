@@ -9,11 +9,13 @@ do
   rsync \
     -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=~/.ssh/known_hosts" \
     -hvrt \
-    --omit-dir-times \
-    --keep-dirlinks \
+    --delete-after \
     --exclude '.DS*' \
     --exclude 'etc/jekyll' \
+    --exclude 'etc/rollup' \
     --exclude 'etc/ssl' \
+    --keep-dirlinks \
+    --omit-dir-times \
     $SOURCE $PAULROBERTLLOYD_DEPLOY_DEST
 done
 

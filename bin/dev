@@ -3,7 +3,7 @@ set -e
 
 echo "Generating website files and saving them to destination"
 START=$SECONDS
-JEKYLL_ENV=development bundle exec jekyll build --drafts --future --incremental --trace
+JEKYLL_ENV=development bundle exec jekyll build --config etc/jekyll/config.yml --drafts --future --trace
 npm run build
 
 echo $((SECONDS - START)) seconds
