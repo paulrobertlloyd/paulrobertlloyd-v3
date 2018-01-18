@@ -25,6 +25,7 @@ kramdown:
 # Publishing
 source: ./src
 destination: ./www
+include: [_indices]
 profile: true
 
 # Collections
