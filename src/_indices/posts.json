@@ -3,10 +3,10 @@ permalink: /feed.json
 ---
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": {{ site.title | append:" / Journal" | jsonify }},
+  "title": {{ site.title | jsonify }},
   "description": {{ site.description | jsonify }},
-  "home_page_url": {{ site.url | append:"/journal/" | jsonify }},
-  "feed_url": {{ site.url | append:"/journal/feed.json" | jsonify }},
+  "home_page_url": {{ site.url | jsonify }},
+  "feed_url": {{ site.url | append:"feed.json" | jsonify }},
   "icon": "{{ site.url }}/images/icon.png",
   "favicon": "/favicon.ico",
   "author": {

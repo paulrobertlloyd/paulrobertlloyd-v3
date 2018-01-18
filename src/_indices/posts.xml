@@ -4,15 +4,15 @@ permalink: /feed.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>{{ site.url }}/</id>
-  <title>{{ site.title }} / Journal</title>
+  <title>{{ site.title }}</title>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <author>
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
     <uri>{{ site.author.url }}</uri>
   </author>
-  <link href="{{ site.url }}/journal/feed" rel="self"/>
-  <link href="{{ site.url }}/journal/"/>
+  <link href="{{ site.url }}/feed.xml" rel="self"/>
+  <link href="{{ site.url }}"/>
   <generator uri="http://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
   <icon>{{ site.url }}images/icon.png</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
