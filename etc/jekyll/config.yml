@@ -25,7 +25,6 @@ kramdown:
 # Publishing
 source: ./src
 destination: ./www
-incremental: true
 include: [_indices]
 exclude: [assets/javascripts, assets/stylesheets]
 profile: true
@@ -92,10 +91,10 @@ defaults:
       type: posts
       path: "_posts/notes"
     values:
-      permalink: /:categories/:year/:month/:hour:minute
+      permalink: /:categories/:year/:month/:day-:hour:minute
       category: notes
       layout: micropubpost
-      title: "Untitled"
+      title: ""
 
   - scope:
       type: projects

@@ -26,7 +26,7 @@ permalink: /feed.xml
       {% assign title_prefix = "Link: " %}
     {% endcase %}
     <id>{{ site.url }}{{ item.id }}</id>
-    {% if item.title != "Untitled" %}<title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>{% endif %}
+    {% if item.title != "" %}<title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>{% endif %}
     <updated>{{ item.date | date_to_xmlschema }}</updated>
     <link href="{{ site.url }}{{ item.url }}"/>
     <content type="html">

@@ -20,7 +20,7 @@ permalink: /feed.json
       "id": {{ item.id | jsonify }},
       "url": {{ item.url | prepend:site.url | jsonify }},
       {% if item.link %}"external_url": {{ item.link | jsonify }},{% endif %}
-      {% if item.title != "Untitled" %}"title": {{ item.title | smartify | jsonify }},{% endif %}
+      {% if item.title != "" %}"title": {{ item.title | smartify | jsonify }},{% endif %}
       "summary": {{ item.excerpt | jsonify }},
       {% if item.image.url %}"image": {{ item.image.url | prepend:site.url | jsonify }},{% endif %}
       "content_html": {{ item.content | markdownify | jsonify }},
