@@ -30,6 +30,7 @@ exclude: [assets/javascripts, assets/stylesheets]
 profile: true
 
 # Collections
+collections_dir: _collections
 collections:
   archives:
     output: true
