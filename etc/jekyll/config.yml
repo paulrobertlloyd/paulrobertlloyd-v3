@@ -92,7 +92,7 @@ defaults:
       type: posts
       path: "_posts/notes"
     values:
-      permalink: /:categories/:year/:month/:hour:minute:second
+      permalink: /:categories/:year/:month/:hour:minute
       category: notes
       layout: micropubpost
       title: "Untitled"

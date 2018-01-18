@@ -11,7 +11,7 @@
       {% include image.html src=item.mf-photo class="u-photo" alt=item.title %}
     </a>
     {% endif %}
-    {{ item.excerpt | markdownify | smartify }}
+    {{ item.content | markdownify | smartify }}
   </div>
 
   <footer class="c-item__footer">
