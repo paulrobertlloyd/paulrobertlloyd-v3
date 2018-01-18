@@ -1,5 +1,5 @@
 ---
-permalink: /journal/feed.xml
+permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -24,11 +24,9 @@ permalink: /journal/feed.xml
       {% assign title_prefix = "Gallery: " %}
     {% when "link" %}
       {% assign title_prefix = "Link: " %}
-    {% when "post" %}
-      {% assign title_prefix = "★ " %}
     {% endcase %}
     <id>{{ site.url }}{{ item.id }}</id>
-    {% if item.layout != "note" %}<title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>{% endif %}
+    {% if item.title != "Untitled" %}<title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>{% endif %}
     <updated>{{ item.date | date_to_xmlschema }}</updated>
     <link href="{{ site.url }}{{ item.url }}"/>
     <content type="html">
