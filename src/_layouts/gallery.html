@@ -10,7 +10,7 @@ layout: default
 
       {% for photo in page.photos %}
       <figure class="u-extend">
-        {% capture photo_path %}{{ page.path | replace:"_posts/galleries/","galleries/" | remove:".markdown" }}/{{ photo.id }}.jpg{% endcapture %}
+        {% capture photo_path %}{{ page.path | replace:"collections/_posts/galleries/","galleries/" | remove:".md" }}/{{ photo.id }}.jpg{% endcapture %}
         {% include image.html src=photo_path %}
         <figcaption>
           {% include exif.html %}
