@@ -93,7 +93,7 @@ defaults:
     values:
       permalink: /:categories/:year/:month/:day-:hour:minute
       category: notes
-      layout: micropubpost
+      layout: note
       title: ""
 
   - scope:
