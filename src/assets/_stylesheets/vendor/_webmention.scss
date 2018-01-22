@@ -1,0 +1,37 @@
+// ========================================================
+// Webmention Endpoint
+// https://webmention.herokuapp.com
+// ========================================================
+
+.webmention-mention {
+  position: relative;
+  margin-bottom: units(2);
+  padding-left: calc(#{percentage(1/12)} + #{$u__gutter});
+
+  @media screen and (min-width: $b__b) {
+    padding-left: 0;
+  }
+}
+
+.webmention-author {
+  font-weight: 700;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: percentage(1/12);
+    background-color: $c__neutral-mid;
+
+    @media (min-width: $b__b) {
+      left: calc((#{percentage(1/12)} + #{$u__gutter}) * -1);
+    }
+  }
+}
+
+.webmention-published {
+  @include fs--caption;
+  text-decoration: none;
+  color: $c__neutral-mid;
+}
