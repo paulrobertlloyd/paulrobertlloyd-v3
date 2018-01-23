@@ -26,15 +26,13 @@ dl {
   margin: 0 0 var(--flow-space, 0) 0;
 }
 
-figure {
-  margin: 0;
-}
-
-// Default to ’bare’ lists
 ol,
 ul {
   padding: 0;
-  list-style: none;
+}
+
+figure {
+  margin: 0;
 }
 
 // Add correct display in IE

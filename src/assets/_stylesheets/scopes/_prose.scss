@@ -26,6 +26,12 @@
     }
   }
 
+  ol:not([class]),
+  ul:not([class]),
+  dd:not([class]) {
+    margin-left: 2rem;
+  }
+
   hr {
     @include rule;
     margin: units(1) auto units(2);
