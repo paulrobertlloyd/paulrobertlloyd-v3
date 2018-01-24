@@ -115,9 +115,11 @@ images:
   url: https://paulrobertlloyd.com/images
   default:
     sources:
-      - width: 480
+      - width: 640
         quality: 80
       - width: 800
+        quality: 80
+      - width: 1280
         quality: 80
   thumbnail:
     sizes: '33vw'
