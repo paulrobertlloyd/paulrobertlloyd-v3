@@ -115,55 +115,55 @@ images:
   url: https://paulrobertlloyd.com/images
   default:
     sources:
-      - width: 640
-        quality: 80
-      - width: 800
-        quality: 80
       - width: 1280
+        quality: 90
+      - width: 800
+        quality: 85
+      - width: 640
         quality: 80
   thumbnail:
     sizes: '33vw'
     sources:
-      - width: 240
-        quality: 80
       - width: 320
+        quality: 80
+      - width: 240
         quality: 80
   supporting:
     sizes: '50vw'
     sources:
-      - width: 480
-        quality: 80
-      - width: 640
-        quality: 80
       - width: 960
+        quality: 90
+      - width: 640
+        quality: 85
+      - width: 480
         quality: 80
   showcase:
     sources:
+      - width: 1280
+        quality: 90
+      - width: 1024
+        quality: 85
       - width: 768
         quality: 80
-      - width: 1024
-        quality: 88
-      - width: 1280
-        quality: 88
   wide:
     sources:
+      - width: 1280
+        height: 675
+        quality: 90
+      - width: 1024
+        height: 576
+        quality: 85
       - width: 800
         height: 450
         quality: 80
-      - width: 1024
-        height: 576
-        quality: 88
-      - width: 1280
-        height: 675
-        quality: 88
   anamorphic:
     sources:
+      - width: 1200
+        height: 500
+        quality: 90
       - width: 1020
         height: 425
-        quality: 88
+        quality: 85
       - width: 720
         height: 300
         quality: 80
-      - width: 1200
-        height: 500
-        quality: 88
