@@ -8,9 +8,9 @@ layout: default
 
   <div class="c-section">
     <div class="s-prose s-prose--body  e-content">
-      {% if page.mf-photo %}
+      {% if page.image.src %}
         {% include figure.html
-          src=page.mf-photo
+          src=page.image.src
           class="u-bleed"
         %}
       {% endif %}

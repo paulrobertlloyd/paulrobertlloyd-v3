@@ -6,9 +6,12 @@
   {% endif %}
 
   <div class="c-item__main s-prose">
-    {% if item.mf-photo %}
+    {% if item.image.src %}
     <a class="c-item__media u-block-link" href="{{ item.url }}">
-      {% include image.html src=item.mf-photo class="u-photo" alt=item.title %}
+      {% include image.html
+        src=item.image.src
+        class="u-photo"
+      %}
     </a>
     {% endif %}
     {{ item.content | markdownify | smartify }}

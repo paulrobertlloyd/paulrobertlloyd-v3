@@ -3,7 +3,7 @@ permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>{{ site.url }}/</id>
+  <id>{{ site.url }}{{ page.url }}</id>
   <title>{{ site.title }}</title>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <author>
@@ -11,46 +11,25 @@ permalink: /feed.xml
     <email>{{ site.author.email }}</email>
     <uri>{{ site.author.url }}</uri>
   </author>
-  <link href="{{ site.url }}/feed.xml" rel="self"/>
-  <link href="{{ site.url }}"/>
-  <generator uri="http://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
-  <icon>{{ site.url }}images/icon.png</icon>
+  <link rel="self" href="{{ site.url }}/feed.xml" type="application/atom+xml"/>
+  <link rel="alternate" href="{{ site.url }}" type="text/html"/>
+  <icon>{{ site.images.url | append: "/icon.png" }}</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
-  {% assign posts = site.posts | sort: "date" | reverse %}
-  {% for item in posts limit:25 %}
+{% assign posts = site.posts | sort: "date" | reverse %}
+{%- for item in posts limit: 25 %}
   <entry>
-    {% case item.layout %}
-    {% when "gallery" %}
-      {% assign title_prefix = "Gallery: " %}
-    {% when "link" %}
-      {% assign title_prefix = "Link: " %}
-    {% endcase %}
-    <id>{{ site.url }}{{ item.id }}</id>
-    {% if item.title != "" %}<title>{{ title_prefix }}{{ item.title | markdownify | strip_html | xml_escape }}</title>{% endif %}
+    <id>{{ item.url | prepend: site.url }}</id>
+    <title>{% if item.title != "" %}{{ item.title | markdownify | strip_html | xml_escape | strip_newlines }}{% endif %}</title>
     <updated>{{ item.date | date_to_xmlschema }}</updated>
-    <link href="{{ site.url }}{{ item.url }}"/>
-    <content type="html">
-<![CDATA[
-{% if item.image.src %}
-  {% include figure.html
-    src=item.image.src
-    caption=item.image.caption
-  %}
-{% endif %}
-
-{% if item.embed.src %}
-  {% include figure-embed.html
-    src=item.embed.src
-  %}
-{% endif %}
-
-{{ item.content | markdownify | strip_newlines }}
-
-{% if item.collection == "links" %}
-  <p><a href="{{ item.link }}">Visit this link &#10217;</a></p>
-{% endif %}
-]]>
-    </content>
+    {%- if item.link %}
+    <link rel="alternate" href="{{ item.link }}" type="text/html"/>
+    <link rel="related" href="{{ site.url }}{{ item.url }}" type="text/html"/>
+    {% else %}
+    <link rel="alternate" href="{{ site.url }}{{ item.url }}" type="text/html"/>
+    {% endif -%}
+    <content type="html"><![CDATA[
+      {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | strip_newlines }}
+    ]]></content>
   </entry>
-  {% endfor %}
+{% endfor -%}
 </feed>

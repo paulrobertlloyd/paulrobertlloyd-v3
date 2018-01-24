@@ -1,24 +1,24 @@
 <figure{% if include.class %} class="{{ include.class }}"{% endif %}>
-  {% assign paths = include.src | split: "," %}
-  {% assign count = paths | size %}
-  {% if count > 1 %}
-    <div class="u-abreast">
-    {% for path in paths %}
-      {% if include.framed == true %}
-        {% include image.html src=path preset=include.preset class="u-framed" %}
-      {% else %}
-        {% include image.html src=path preset=include.preset %}
-      {% endif %}
-    {% endfor %}
-    </div>
-  {% else %}
-    {% if include.framed == true %}
-      {% include image.html src=include.src preset=include.preset class="u-framed" %}
-    {% else %}
-      {% include image.html src=include.src preset=include.preset %}
-    {% endif %}
-  {% endif %}
-  {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify }}</figcaption>
-  {% endif %}
+{%- assign paths = include.src | split: "," -%}
+{%- assign count = paths | size -%}
+{%- if count > 1 -%}
+  <div class="u-abreast">
+  {%- for path in paths -%}
+    {%- if include.framed == true -%}
+      {%- include image.html src=path preset=include.preset class="u-framed" -%}
+    {%- else %}
+      {%- include image.html src=path preset=include.preset -%}
+    {%- endif -%}
+  {%- endfor -%}
+  </div>
+{%- else %}
+  {%- if include.framed == true -%}
+    {%- include image.html src=include.src preset=include.preset class="u-framed" -%}
+  {%- else -%}
+    {%- include image.html src=include.src preset=include.preset %}
+  {%- endif -%}
+{%- endif -%}
+{%- if include.caption -%}
+  <figcaption>{{ include.caption | markdownify }}</figcaption>
+{%- endif -%}
 </figure>

@@ -1,0 +1,15 @@
+{%- if item.image.src -%}
+  {%- include figure.html
+    src=item.image.src
+    caption=item.image.caption
+  -%}
+{%- endif -%}
+{%- if item.embed.src -%}
+  {%- include figure-embed.html
+    src=item.embed.src
+  -%}
+{%- endif -%}
+{{ item.content | markdownify }}
+{%- if item.link -%}
+  <a href="{{ site.url }}{{ item.url }}" title="Permalink">#</a>
+{%- endif -%}

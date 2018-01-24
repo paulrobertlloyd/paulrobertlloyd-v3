@@ -86,6 +86,7 @@ defaults:
     values:
       category: links
       layout: link
+      excerpt: ''
 
   - scope:
       type: posts
@@ -95,6 +96,7 @@ defaults:
       category: notes
       layout: note
       title: ''
+      excerpt: ''
 
   - scope:
       type: projects
@@ -110,6 +112,7 @@ defaults:
 
 # Images
 images:
+  url: https://paulrobertlloyd.com/images
   default:
     sources:
       - width: 480

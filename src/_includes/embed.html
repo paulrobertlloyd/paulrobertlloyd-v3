@@ -1,28 +1,28 @@
-{% if include.src contains "flickr" %}
-  {% assign embed_src = include.src | append: "player/" %}
-  {% assign embed_type = "photo" %}
-  {% assign embed_action = "View photo on Flickr" %}
-{% elsif include.src contains "mapbox" %}
-  {% assign embed_src = include.src %}
-  {% assign embed_type = "map" %}
-  {% assign embed_action = "View map on Mapbox" %}
-{% elsif include.src contains "speakerdeck" %}
-  {% assign embed_src = include.src %}
-  {% assign embed_type = "slidedeck" %}
-  {% assign embed_action = "View presentation on Speaker Deck" %}
-{% elsif include.src contains "vimeo" %}
-  {% assign embed_src = include.src | replace: "vimeo.com","player.vimeo.com/video" | append: "?color=cc52cc&#38;title=0&#38;byline=0&#38;badge=0&#38;portrait=0" %}
-  {% assign embed_type = "video" %}
-  {% assign embed_action = "Watch video on Vimeo" %}
-{% elsif include.src contains "youtube" %}
-  {% assign embed_src = include.src | replace: "www.youtube.com/video","www.youtube-nocookie.com/embed" | append: "?showinfo=0&#38;rel=0&#38;modestbranding=1" %}
-  {% assign embed_type = "video" %}
-  {% assign embed_action = "Watch video on YouTube" %}
-{% else %}
-  {% assign embed_src = include.src %}
-  {% assign embed_type = "unknown" %}
-  {% assign embed_action = "Visit this page" %}
-{% endif %}
+{%- if include.src contains "flickr" -%}
+  {%- assign embed_src = include.src | append: "player/" -%}
+  {%- assign embed_type = "photo" -%}
+  {%- assign embed_action = "View photo on Flickr" -%}
+{%- elsif include.src contains "mapbox" -%}
+  {%- assign embed_src = include.src -%}
+  {%- assign embed_type = "map" -%}
+  {%- assign embed_action = "View map on Mapbox" -%}
+{%- elsif include.src contains "speakerdeck" -%}
+  {%- assign embed_src = include.src -%}
+  {%- assign embed_type = "slidedeck" -%}
+  {%- assign embed_action = "View presentation on Speaker Deck" -%}
+{%- elsif include.src contains "vimeo" -%}
+  {%- assign embed_src = include.src | replace: "vimeo.com","player.vimeo.com/video" | append: "?color=cc52cc&#38;title=0&#38;byline=0&#38;badge=0&#38;portrait=0" -%}
+  {%- assign embed_type = "video" -%}
+  {%- assign embed_action = "Watch video on Vimeo" -%}
+{%- elsif include.src contains "youtube" -%}
+  {%- assign embed_src = include.src | replace: "www.youtube.com/video","www.youtube-nocookie.com/embed" | append: "?showinfo=0&#38;rel=0&#38;modestbranding=1" -%}
+  {%- assign embed_type = "video" -%}
+  {%- assign embed_action = "Watch video on YouTube" -%}
+{%- else -%}
+  {%- assign embed_src = include.src -%}
+  {%- assign embed_type = "unknown" -%}
+  {%- assign embed_action = "Visit this page" -%}
+{%- endif -%}
 <div class="c-embed {{ include.class }}" data-embed-src="{{ embed_src }}" data-embed-type="{{ embed_type }}" data-embed-title="Media embed: {{ include.title | xml_escape }}"{% if include.ratio %} data-embed-ratio="{{ include.ratio }}"{% endif %}>
   <p><a href="{{ include.src }}">{{ embed_action }}</a></p>
 </div>

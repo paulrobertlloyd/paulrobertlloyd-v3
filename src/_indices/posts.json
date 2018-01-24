@@ -6,25 +6,24 @@ permalink: /feed.json
   "title": {{ site.title | jsonify }},
   "description": {{ site.description | jsonify }},
   "home_page_url": {{ site.url | jsonify }},
-  "feed_url": {{ site.url | append:"feed.json" | jsonify }},
-  "icon": "{{ site.url }}/images/icon.png",
-  "favicon": "/favicon.ico",
+  "feed_url": {{ site.url | append: "/feed.json" | jsonify }},
+  "icon": {{ site.images.url | append: "/icon.png" | jsonify }},
+  "favicon": {{ site.url | append: "/favicon.ico" | jsonify }},
   "author": {
     "name": {{ site.author.name | jsonify }},
     "url": {{ site.author.url | jsonify }},
     "avatar": {{ site.author.avatar | jsonify }}
   },
   {% assign posts = site.posts | sort: "date" | reverse %}
-  "items": [{% for item in posts limit:25 %}
+  "items": [{% for item in posts limit: 25 %}
     {
-      "id": {{ item.id | jsonify }},
-      "url": {{ item.url | prepend:site.url | jsonify }},
+      "id": {{ item.url | prepend: site.url | jsonify }},
+      "url": {{ item.url | prepend: site.url | jsonify }},
       {% if item.link %}"external_url": {{ item.link | jsonify }},{% endif %}
       {% if item.title != "" %}"title": {{ item.title | smartify | jsonify }},{% endif %}
-      "summary": {{ item.excerpt | jsonify }},
-      {% if item.image.src %}"image": {{ item.image.src | prepend: "/images/" | prepend:site.url | jsonify }},{% endif %}
-      {% if item.mf-photo %}"image": {{ item.mf-photo | prepend: "/images/" | prepend:site.url | jsonify }},{% endif %}
-      "content_html": {{ item.content | markdownify | jsonify }},
+      {% if item.excerpt != "" %}"summary": {{ item.excerpt | strip_newlines | jsonify }},{% endif %}
+      {% if item.image.src %}"image": {{ item.image.src | prepend: "/image/1200/100q/" | prepend: site.url | jsonify }},{% endif %}
+      "content_html": {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | strip_newlines | jsonify }},
       "date_published": {{ item.date | date_to_xmlschema | jsonify }},
       {% if item.tags %}"tags": {{ item.tags | jsonify }}{% endif %}
     }{% if forloop.last %}{% else %},{% endif %}
