@@ -45,13 +45,6 @@
   .c-item--gallery & {
     @include fs--heading-2;
   }
-
-  a[href^="http"]::after {
-    display: inline-block;
-    font-weight: normal;
-    color: $c__primary;
-    content: "\2009\2192";
-  }
 }
 
 .c-item__footer {

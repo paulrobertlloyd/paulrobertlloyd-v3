@@ -25,7 +25,7 @@
     background-color: $c__neutral-mid;
 
     @media (min-width: $b__b) {
-      left: calc((#{percentage(1/12)} + #{$u__gutter}) * -1);
+      left: calc((#{percentage(1/12)} + #{$u__gutter / 2}) * -1);
     }
   }
 }

@@ -15,6 +15,7 @@
     padding-left: percentage(2/9);
   }
 
+  .c-page--link &,
   .c-page--note & {
     order: 0;
   }
@@ -39,4 +40,9 @@
   @include fs--title;
   margin-bottom: units(1);
   font-weight: 700;
+
+  .c-page--link &,
+  .c-page--note & {
+    @include fs--heading-2;
+  }
 }
