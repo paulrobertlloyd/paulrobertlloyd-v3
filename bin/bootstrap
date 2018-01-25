@@ -5,5 +5,5 @@ echo "Installing Bundler"
 gem install bundler
 
 echo "Installing project dependencies"
-bundle install --path vendor/bundle
+bundle install
 npm install

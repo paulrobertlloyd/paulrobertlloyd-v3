@@ -1,7 +1,8 @@
 # Files to ignore
 src/.jekyll-metadata
+etc/ssl/*.crt
+etc/ssl/*.key
 
 # Folders to ignore
-etc/ssl
 node_modules
 www

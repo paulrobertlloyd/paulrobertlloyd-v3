@@ -1,13 +1,11 @@
 #!/bin/sh
 set -e
 
-bin/build
-
-echo "Publishing website…"
+echo "Publishing website"
 for SOURCE in www etc
 do
   rsync \
-    -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=~/.ssh/known_hosts" \
+    -e "ssh -o StrictHostKeyChecking=no" \
     -hvrt \
     --delete-after \
     --exclude '.DS*' \

@@ -3,7 +3,7 @@ set -e
 
 echo "Generating website files and saving them to destination"
 START=$SECONDS
-JEKYLL_ENV=production bundle exec jekyll build --config etc/jekyll/config.yml
+bundle exec jekyll build --config etc/jekyll/config.yml
 npm run build
 
 echo $((SECONDS - START)) seconds
