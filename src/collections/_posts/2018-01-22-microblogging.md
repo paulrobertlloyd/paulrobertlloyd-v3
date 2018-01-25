@@ -30,7 +30,7 @@ While I waited patiently for this project to come to life, I imagined a service 
 I began sporadically posting. When I did, thoughts were less rash and more considered. I was taking time to think about what I wanted to record. Hell, did it even need recording at all? Expecting these short posts to sit alongside articles I'd spent weeks writing, also gave pause for thought.
 
 ## Small Pieces, Loosely Joined
-Manton has promised more flexibility around design and customisation for hosted -- indeed, [Micro.blog's business model][9] depends on it providing a best-in-class service -- but deep down, I know it can never satisfy my various whims and foibles. To integrate my wholly independent website with Micro.blog would mean building an endpoint that could accept posts from MicroPub-supporting editors (such as Micro.blog's iOS and macOS apps). But how could I post to a static website?
+Manton has promised more flexibility around design and customisation for hosted microblogs -- indeed, [his business model][9] is dependent on providing a best-in-class service -- but deep down, I know it can never satisfy my various whims and foibles. To integrate my wholly independent website with Micro.blog would mean building an endpoint that could accept posts from MicroPub-supporting editors (such as Micro.blog's iOS and macOS apps). But how could I post to a static website?
 
 I found a solution within the industrious IndieWeb community. [Pelle Wessman][10] has created [a small Node application][11] that can accept MicroPub JSON objects, convert them into to a format understood by Jekyll, and push the resulting files to a location you specify on GitHub.
 
