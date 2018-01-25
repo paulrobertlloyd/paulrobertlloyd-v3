@@ -115,8 +115,8 @@ images:
   url: https://paulrobertlloyd.com/images
   default:
     sources:
-      - width: 1280
-        quality: 90
+      - width: 1280 # Should match `image:` width used in JSON Feed
+        quality: 90 # Should match `image:` quality used in JSON Feed
       - width: 800
         quality: 85
       - width: 640

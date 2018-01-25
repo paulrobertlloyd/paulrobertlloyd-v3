@@ -22,6 +22,7 @@ permalink: /feed.json
       {% if item.link %}"external_url": {{ item.link | jsonify }},{% endif %}
       {% if item.title != "" %}"title": {{ item.title | smartify | jsonify }},{% endif %}
       {% if item.excerpt != "" %}"summary": {{ item.excerpt | strip_newlines | jsonify }},{% endif %}
+      {%- comment -%}`image:` should have same image and quality values as default image preset{%- endcomment -%}
       {% if item.image.src %}"image": {{ item.image.src | prepend: "/image/1280x/90q/" | prepend: site.url | jsonify }},{% endif %}
       "content_html": {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | strip_newlines | jsonify }},
       "date_published": {{ item.date | date_to_xmlschema | jsonify }},
