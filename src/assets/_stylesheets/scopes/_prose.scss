@@ -75,6 +75,21 @@
   .caps {
     font-variant-caps: small-caps;
   }
+
+  .footnotes {
+    @include fs--caption;
+    @include rule($width: 20%);
+    margin-bottom: units(3);
+    color: $c__neutral-mid;
+
+    &:not(:last-child) {
+      margin-bottom: units(4);
+    }
+
+    ol {
+      margin-top: units(1);
+    }
+  }
 }
 
 // Body
@@ -193,20 +208,5 @@
     margin-right: -0.5rem;
     margin-left: -0.5rem;
     padding: 0.5rem;
-  }
-
-  .footnotes {
-    @include fs--caption;
-    @include rule($width: 20%);
-    margin-bottom: units(3);
-    color: $c__neutral-mid;
-
-    &:not(:last-child) {
-      margin-bottom: units(4);
-    }
-
-    ol {
-      margin-top: units(1);
-    }
   }
 }

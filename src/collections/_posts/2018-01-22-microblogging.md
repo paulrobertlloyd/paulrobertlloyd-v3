@@ -47,7 +47,7 @@ I'm not sure this argument follows. While the human desire to connect and commun
 
 [The web is agreement][14], but that doesn't mean we agree to use the same websites.
 
-Maybe a growing disillusion with social networks and the recent resurgence in blogging will bring with it an interest in these newer ~~Indie~~Web standards. I'd love to see more consumer-oriented publishing tools adopt MicroPub and Webmentions so that their empowering capabilities become available to all. And it'd be great to see competitors to Micro.blog, each with their own take on how to fix the problems we've uncovered during our embrace of social media. We have the technology, we just have to use it.
+Maybe a growing disillusion with social networks and the recent [resurgence in blogging][15] will bring with it an interest in these newer ~~Indie~~Web standards. I'd love to see more consumer-oriented publishing tools adopt MicroPub and Webmentions so that their empowering capabilities become available to all. And it'd be great to see competitors to Micro.blog, each with their own take on how to fix the problems we've uncovered during our embrace of social media. We have the technology, we just have to use it.
 
 [1]: /2010/10/purge#on-leaving-facebook-march-2009
 [2]: https://joinmastodon.org
@@ -63,6 +63,7 @@ Maybe a growing disillusion with social networks and the recent resurgence in bl
 [12]: https://pages.github.com
 [13]: https://github.com/aarongustafson/jekyll-webmention_io
 [14]: https://www.flickr.com/photos/psd/1805709102/
+[15]: https://ia.net/topics/web-trend-map-2018/
 
 *[CSS]: Cascading Style Sheets
 *[JSON]: JavaScript Object Notation

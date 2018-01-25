@@ -7,7 +7,7 @@
   'use strict';
 
   // Update 'version' if you need to refresh the caches
-  var version = 'v::5::';
+  var version = 'v::6::';
   // A cache for core files like CSS and JavaScript
   var staticCacheName = 'static';
   // A cache for pages to store for offline
