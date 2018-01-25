@@ -24,23 +24,26 @@
 // Show two items abreast, three on wider breakpoints
 .u-triad {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  margin-right: -0.75rem;
-  margin-left: -0.75rem;
+  flex-wrap: wrap;
 
-  .c-item,
-  .c-project,
-  .c-nav__item,
-  .c-year {
-    flex: 1 0 percentage(1/2);
-    max-width: percentage(1/2);
-    padding: 0 0.75rem;
+  @supports (display: grid) {
+    display: grid;
+    grid-gap: $u__gutter;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  }
 
-    @media (min-width: $b__b) {
-      flex: 1 0 percentage(1/3);
-      max-width: percentage(1/3);
+  > * {
+    display: flex;
+    flex: 9em 1 0;
+    margin: 0 $u__gutter $u__gutter 0;
+
+    @supports (display: grid) {
+      margin: 0;
     }
+  }
+
+  > .c-item {
+    margin-bottom: 0;
   }
 }
 

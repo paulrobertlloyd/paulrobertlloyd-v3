@@ -8,6 +8,10 @@
   font-variant: common-ligatures oldstyle-nums;
   hanging-punctuation: first;
 
+  *:last-child {
+    --flow-space: 0;
+  }
+
   blockquote {
     > *:not(footer) {
       --flow-space: 0;

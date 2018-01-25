@@ -27,13 +27,13 @@ layout: default
     </div>
   </div>
 
-  {% if page.discussion %}
-    {% include page/section--discussion.html %}
-  {% endif %}
-
-  {% if page.series %}
-    {% include page/section--related.html %}
-  {% endif %}
-
   {% include page/footer.html %}
 </article>
+
+{% if page.discussion %}
+  {% include page/section--discussion.html %}
+{% endif %}
+
+{% if page.series %}
+  {% include page/section--related.html %}
+{% endif %}

@@ -2,7 +2,7 @@
 title: Absolutely, Positively, Wellington
 series: australasia_2009
 date: '2010-01-27 23:12:23 +0000'
-excerpt: From Nelson I reluctantly headed back to Wellington, cursing myself for not having an itinerary that continued south. However, Wellington will remain the most memorable city of this trip, although perhaps not entirely for the right reasons.
+excerpt: Wellington will remain the most memorable stop on my brief tour of New Zealand, although perhaps not entirely for the right reasons.
 image:
   src: 2010/01/wellington_cable_car.jpg
   caption: The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden

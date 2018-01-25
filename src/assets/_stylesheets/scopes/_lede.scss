@@ -6,4 +6,8 @@
 .s-lede {
   @include fs--lede;
   --flow-space: units(2);
+
+  *:last-child {
+    --flow-space: 0;
+  }
 }

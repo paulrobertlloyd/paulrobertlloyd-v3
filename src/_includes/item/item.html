@@ -5,6 +5,10 @@
     </h3>
   </header>
 
+  <div class="c-item__main s-prose">
+    {{ item.excerpt | markdownify | smartify }}
+  </div>
+
   <footer class="c-item__footer">
     {% if item.category %}
     <b class="p-category">{{ item.category | capitalize }}</b><span aria-label=","> ·</span>

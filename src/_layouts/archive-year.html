@@ -17,16 +17,23 @@ layout: default
         {% endunless %}
 
     <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-      <header class="c-section__header">
+      <header class="c-section__header u-extend">
         <h2 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h2>
       </header>
 
       <div class="c-section__main">
         {% assign month = this_month %}
       {% endif %}
-        {% if item.layout != "note" %}
+        {% case item.layout %}
+        {% when "gallery" %}
+          {% include item/gallery.html %}
+        {% when "link" %}
+          {% include item/link.html %}
+        {% when "note" %}
+          {% include item/note.html %}
+        {% else %}
           {% include item/item.html %}
-        {% endif %}
+        {% endcase %}
       {% if forloop.last %}
       </div>
     </section>

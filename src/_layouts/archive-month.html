@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-<section class="c-page c-page--index">
-  {% include page/header.html %}
+<div class="c-page c-page--index">
+  <section class="c-section">
+    <header class="c-section__header u-extend">
+      <h1 class="c-section__title">{{ page.title | smartify }}</h1>
+    </header>
 
-  <div class="c-section">
   {% assign page_month = page.date | date: "%B %Y" %}
   {% for item in site.posts %}
     {% assign item_month = item.date | date: "%B %Y" %}
@@ -21,5 +23,5 @@ layout: default
       {% endcase %}
     {% endif %}
   {% endfor %}
-  </div>
-</section>
+  </section>
+</div>
