@@ -27,7 +27,7 @@
   <meta name="referrer" content="origin"/>
   <meta name="robots" content="index, follow"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-{% if page.path contains ".markdown" %}
+{% if page.path contains ".md" %}
   <meta property="og:title" content="{{ page.title | xml_escape | smartify }}"/>
   <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines }}"/>
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
