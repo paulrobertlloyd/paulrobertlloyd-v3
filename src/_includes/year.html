@@ -1,5 +1,6 @@
-{% assign posts = site.posts | where_exp: "item", "item.path contains year" %}
-{% capture params %}{% for month in (1..12) %}{% capture date_key %}{{ year }}-{{ month | prepend: "00" | slice: -2, 2 }}{% endcapture %}{% assign docs = site.posts | where_exp: "doc", "doc.path contains date_key" %}{{ docs | size | append: "," }}{% endfor %}{% endcapture %}
+{% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
+{% assign posts = items | where_exp: "item", "item.path contains year" %}
+{% capture params %}{% for month in (1..12) %}{% capture date_key %}{{ year }}-{{ month | prepend: "00" | slice: -2, 2 }}{% endcapture %}{% assign docs = items | where_exp: "doc", "doc.path contains date_key" %}{{ docs | size | append: "," }}{% endfor %}{% endcapture %}
 <section class="c-year">
   <a href="/{{ year }}/">
     <h3 class="c-year__title">{{ year }}</h3>

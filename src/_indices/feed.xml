@@ -15,8 +15,8 @@ permalink: /feed.xml
   <link rel="alternate" href="{{ site.url }}" type="text/html"/>
   <icon>{{ site.images.url | append: "/icon.png" }}</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
-{% assign posts = site.posts | sort: "date" | reverse %}
-{%- for item in posts limit: 25 %}
+{% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
+{%- for item in items limit: 25 %}
   <entry>
     <id>{{ item.url | prepend: site.url }}</id>
     <title>{% if item.title != "" %}{{ item.title | markdownify | strip_html | xml_escape | strip_newlines }}{% endif %}</title>

@@ -14,8 +14,8 @@ permalink: /feed.json
     "url": {{ site.author.url | jsonify }},
     "avatar": {{ site.author.avatar | jsonify }}
   },
-  {% assign posts = site.posts | sort: "date" | reverse %}
-  "items": [{% for item in posts limit: 25 %}
+  {% assign items = site.documents | where: "feed", true | sort: "date" | reverse -%}
+  "items": [{% for item in items limit: 25 %}
     {
       "id": {{ item.url | prepend: site.url | jsonify }},
       "url": {{ item.url | prepend: site.url | jsonify }},
@@ -26,7 +26,7 @@ permalink: /feed.json
       {% if item.image.src %}"image": {{ item.image.src | prepend: "/image/1280x/90q/" | prepend: site.url | jsonify }},{% endif %}
       "content_html": {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | strip_newlines | jsonify }},
       "date_published": {{ item.date | date_to_xmlschema | jsonify }},
-      {% if item.tags %}"tags": {{ item.tags | jsonify }}{% endif %}
+      "tags": {{ item.tags | jsonify }}
     }{% if forloop.last %}{% else %},{% endif %}
-  {% endfor %}]
+  {%- endfor %}]
 }

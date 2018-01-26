@@ -4,7 +4,8 @@ layout: default
 <section class="c-page c-page--index">
   {% include page/header.html %}
 
-  {% for item in site.posts %}
+  {% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
+  {% for item in items %}
     {% assign this_year = item.date | date: "%Y" %}
     {% assign this_month = item.date | date: "%m" %}
     {% assign this_month_name = item.date | date: "%B" %}
