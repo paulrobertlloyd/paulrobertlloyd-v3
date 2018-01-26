@@ -1,5 +1,6 @@
 ---
 permalink: /archive/search.json
+regenerate: true
 ---
 {%- assign items = site.documents | where: "feed", true | sort: "date" | reverse -%}
 [{% for item in items %}

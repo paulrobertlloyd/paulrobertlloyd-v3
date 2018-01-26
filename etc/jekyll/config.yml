@@ -26,7 +26,9 @@ kramdown:
 source: ./src
 destination: ./www
 include: [_indices]
+keep_files: [downloads, images]
 profile: true
+incremental: true
 
 # Collections
 collections_dir: collections
@@ -57,6 +59,7 @@ defaults:
     values:
       permalink: /:path/
       layout: archive-year
+      regenerate: true
 
   - scope:
       type: content
@@ -73,34 +76,34 @@ defaults:
   - scope:
       type: galleries
     values:
-      feed: true
       permalink: /photos/:year/:month/:title
       layout: gallery
+      feed: true
       theme: dark
 
   - scope:
       type: links
     values:
-      feed: true
       permalink: /links/:year/:month/:title
       layout: link
+      feed: true
       excerpt: ''
 
   - scope:
       type: notes
     values:
-      feed: true
       permalink: /notes/:year/:month/:day-:hour:minute
       layout: note
+      feed: true
       title: ''
       excerpt: ''
 
   - scope:
       type: posts
     values:
-      feed: true
       permalink: /:year/:month/:title
       layout: post
+      feed: true
       image:
         preset: wide
 

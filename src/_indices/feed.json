@@ -1,5 +1,6 @@
 ---
 permalink: /feed.json
+regenerate: true
 ---
 {
   "version": "https://jsonfeed.org/version/1",
