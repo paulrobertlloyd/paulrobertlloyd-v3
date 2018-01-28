@@ -4,9 +4,30 @@
 
 .c-item {
   flex-direction: column;
-  margin-bottom: units(6);
+  margin-bottom: units(3);
+
+  @media (min-width: $b__b) {
+    margin-bottom: units(6);
+  }
 
   &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.c-item--about {
+  background-color: $c__neutral-lighter;
+  margin-right: (units(1) * -1);
+  margin-left: (units(1) * -1);
+  padding: units(1);
+
+  @media (min-width: $b__a) {
+    margin-right: (units(2) * -1);
+    margin-left: (units(2) * -1);
+    padding: units(2);
+  }
+
+  .c-item__main {
     margin-bottom: 0;
   }
 }
@@ -40,6 +61,10 @@
   @include fs--heading-3;
   hanging-punctuation: first;
   font-weight: 700;
+
+  a {
+    color: $c__primary;
+  }
 
   .c-item--entry &,
   .c-item--gallery & {

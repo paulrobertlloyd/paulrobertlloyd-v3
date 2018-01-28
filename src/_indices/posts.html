@@ -1,27 +1,19 @@
 ---
 layout: default
-title: Journal
+title: 'Journal'
 permalink: /journal/
 regenerate: true
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 8
 ---
-<section class="c-page c-page--index">
-  {% include page/header.html %}
+<h1 class="c-main__title">{{ page.title | smartify }}</h1>
 
-  <div class="c-section">
-  {% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
-  {% for item in items limit:20 %}
-    {% case item.layout %}
-    {% when "gallery" %}
-      {% include item/gallery.html %}
-    {% when "link" %}
-      {% include item/link.html %}
-    {% when "note" %}
-      {% include item/note.html %}
-    {% else %}
-      {% include item/post.html %}
-    {% endcase %}
-  {% endfor %}
-  </div>
-</section>
+<div class="c-section">
+{% for item in paginator.posts %}
+  {% include item/post.html %}
+{% endfor %}
+</div>
 
 {% include nav/paginate-indices.html %}

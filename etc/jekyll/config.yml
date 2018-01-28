@@ -28,7 +28,6 @@ destination: ./www
 include: [_indices]
 keep_files: [downloads, images]
 profile: true
-incremental: true
 
 # Collections
 collections_dir: collections
@@ -39,11 +38,11 @@ collections:
     output: true
   discussions:
     output: true
-  galleries:
-    output: true
   links:
     output: true
   notes:
+    output: true
+  photos:
     output: true
   posts:
     output: true
@@ -74,14 +73,6 @@ defaults:
       layout: discussion
 
   - scope:
-      type: galleries
-    values:
-      permalink: /photos/:year/:month/:title
-      layout: gallery
-      feed: true
-      theme: dark
-
-  - scope:
       type: links
     values:
       permalink: /links/:year/:month/:title
@@ -97,6 +88,14 @@ defaults:
       feed: true
       title: ''
       excerpt: ''
+
+  - scope:
+      type: photos
+    values:
+      permalink: /photos/:year/:month/:title
+      layout: gallery
+      feed: true
+      theme: dark
 
   - scope:
       type: posts
@@ -176,3 +175,10 @@ images:
       - width: 720
         height: 300
         quality: 80
+
+pagination:
+  enabled: true
+  title: ':title'
+  permalink: '/page/:num.html'
+  sort_reverse: true
+  per_page: 12

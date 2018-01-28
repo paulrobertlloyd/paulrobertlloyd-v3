@@ -97,7 +97,7 @@
 // Link
 @mixin link {
   text-decoration: underline;
-  text-decoration-color: rgba($c__primary, 0.75);
+  text-decoration-color: $c__primary;
   text-decoration-skip: ink;
   color: inherit;
 
@@ -105,7 +105,8 @@
     color: $c__primary;
   }
 
-  &:active {
+  &:active,
+  &:focus {
     text-decoration-color: currentColor;
     color: $c__secondary;
   }

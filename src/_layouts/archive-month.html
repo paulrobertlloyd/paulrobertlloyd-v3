@@ -1,28 +1,24 @@
 ---
 layout: default
 ---
-<div class="c-page c-page--index">
-  <section class="c-section">
-    <header class="c-section__header u-extend">
-      <h1 class="c-section__title">{{ page.title | smartify }}</h1>
-    </header>
+<h1 class="c-main__title">{{ page.title | smartify }}</h1>
 
-  {% assign page_month = page.date | date: "%B %Y" %}
-  {% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
-  {% for item in items %}
-    {% assign item_month = item.date | date: "%B %Y" %}
-    {% if page_month == item_month %}
-      {% case item.layout %}
-      {% when "gallery" %}
-        {% include item/gallery.html %}
-      {% when "link" %}
-        {% include item/link.html %}
-      {% when "note" %}
-        {% include item/note.html %}
-      {% else %}
-        {% include item/post.html %}
-      {% endcase %}
-    {% endif %}
-  {% endfor %}
-  </section>
+<div class="c-section">
+{% assign page_month = page.date | date: "%B %Y" %}
+{% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
+{% for item in items %}
+  {% assign item_month = item.date | date: "%B %Y" %}
+  {% if page_month == item_month %}
+    {% case item.layout %}
+    {% when "gallery" %}
+      {% include item/gallery.html %}
+    {% when "link" %}
+      {% include item/link.html %}
+    {% when "note" %}
+      {% include item/note.html %}
+    {% else %}
+      {% include item/post.html %}
+    {% endcase %}
+  {% endif %}
+{% endfor %}
 </div>

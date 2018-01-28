@@ -1,6 +1,6 @@
 ---
 title: About Me
-excerpt: 'Hi! My name is Paul, and I''m an independent designer, writer and speaker based in Brighton, England. I work with responsible organisations to create purposeful digital products. I value cohesiveness, attention to detail, and developing products that can be used by everyone, however they may choose to access them.'
+excerpt: 'I''m Paul, an independent designer, writer and speaker based in Brighton, England. I work with responsible organisations to create purposeful digital products. I value cohesiveness, attention to detail, and developing products that can be used by everyone, however they may choose to access them.'
 ---
 In the past, I have worked with companies such as <cite>The Guardian</cite>, UNICEF, John Lewis, Mozilla and a number of other clients during my time at [Clearleft][1].
 

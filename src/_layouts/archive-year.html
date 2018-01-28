@@ -1,44 +1,42 @@
 ---
 layout: default
 ---
-<section class="c-page c-page--index">
-  {% include page/header.html %}
+<h1 class="c-main__title">{{ page.title | smartify }}</h1>
 
-  {% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
-  {% for item in items %}
-    {% assign this_year = item.date | date: "%Y" %}
-    {% assign this_month = item.date | date: "%m" %}
-    {% assign this_month_name = item.date | date: "%B" %}
+{% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
+{% for item in items %}
+  {% assign this_year = item.date | date: "%Y" %}
+  {% assign this_month = item.date | date: "%m" %}
+  {% assign this_month_name = item.date | date: "%B" %}
 
-    {% if this_year == page.title %}
-      {% if this_month != month %}
-        {% unless forloop.first %}
-      </div>
-    </section>
-        {% endunless %}
+  {% if this_year == page.title %}
+    {% if this_month != month %}
+      {% unless forloop.first %}
+    </div>
+  </section>
+      {% endunless %}
 
-    <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
-      <header class="c-section__header u-extend">
-        <h2 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h2>
-      </header>
+  <section class="c-section" aria-labelledby="month-{{ this_year }}{{ this_month }}">
+    <header class="c-section__header u-extend">
+      <h2 class="c-section__title" id="month-{{ this_year }}{{ this_month }}"><a href="/{{ this_year }}/{{ this_month }}/">{{ this_month_name }}</a></h2>
+    </header>
 
-      <div class="c-section__main">
-        {% assign month = this_month %}
-      {% endif %}
-        {% case item.layout %}
-        {% when "gallery" %}
-          {% include item/gallery.html %}
-        {% when "link" %}
-          {% include item/link.html %}
-        {% when "note" %}
-          {% include item/note.html %}
-        {% else %}
-          {% include item/item.html %}
-        {% endcase %}
-      {% if forloop.last %}
-      </div>
-    </section>
-      {% endif %}
+    <div class="c-section__main">
+      {% assign month = this_month %}
     {% endif %}
-  {% endfor %}
-</section>
+      {% case item.layout %}
+      {% when "gallery" %}
+        {% include item/gallery.html %}
+      {% when "link" %}
+        {% include item/link.html %}
+      {% when "note" %}
+        {% include item/note.html %}
+      {% else %}
+        {% include item/item.html %}
+      {% endcase %}
+    {% if forloop.last %}
+    </div>
+  </section>
+    {% endif %}
+  {% endif %}
+{% endfor %}

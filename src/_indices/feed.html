@@ -1,0 +1,31 @@
+---
+layout: default
+title: ''
+permalink: /
+regenerate: true
+pagination:
+  enabled: true
+  collection: posts, links, notes, photos
+  per_page: 8
+---
+{% if paginator.page == 1 %}
+<div class="c-section">
+  {% include item/about.html %}
+</div>
+{% endif %}
+<div class="c-section">
+  {% for item in paginator.posts %}
+    {% case item.layout %}
+    {% when "gallery" %}
+      {% include item/gallery.html %}
+    {% when "link" %}
+      {% include item/link.html %}
+    {% when "note" %}
+      {% include item/note.html %}
+    {% else %}
+      {% include item/post.html %}
+    {% endcase %}
+  {% endfor %}
+</div>
+
+{% include nav/paginate-indices.html %}

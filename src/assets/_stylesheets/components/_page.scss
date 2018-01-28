@@ -12,18 +12,13 @@
   order: -1;
 
   @media screen and (min-width: $b__b) {
+    padding-right: percentage(1/9);
     padding-left: percentage(2/9);
   }
 
   .c-page--link &,
   .c-page--note & {
     order: 0;
-  }
-}
-
-.c-page__header {
-  .c-page--index & {
-    @include visually-hidden;
   }
 }
 
@@ -45,4 +40,8 @@
   .c-page--note & {
     @include fs--heading-2;
   }
+}
+
+.c-page__excerpt {
+  margin-bottom: units(3);
 }

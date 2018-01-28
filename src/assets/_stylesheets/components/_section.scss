@@ -3,11 +3,11 @@
 // ========================================================
 
 .c-section {
-  margin-bottom: units(3);
+  margin-bottom: units(4);
 
   @media screen and (min-width: $b__b) {
-    padding-right: percentage(1/9);
-    padding-left: percentage(2/9);
+    margin-right: percentage(1/9);
+    margin-left: percentage(2/9);
   }
 }
 

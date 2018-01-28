@@ -1,14 +1,12 @@
-<nav class="c-nav c-nav--pagination" aria-labelledby="browse">
-  <h2 class="c-nav__title u-hidden" id="browse">Browse {{ page.title }}</h2>
-
+<nav class="c-nav c-nav--pagination" aria-label="Pagination">
   {% if paginator.next_page %}
-  <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path | remove: ".html" }}">
+  <a class="c-nav__item c-nav__item--prev" rel="prev" href="{{ paginator.next_page_path | replace: "page/", "?page=" | remove: ".html" }}">
     <span class="c-nav__label"><span aria-hidden="true">&larr;</span> Older</span>
   </a>
   {% endif %}
 
   {% if paginator.previous_page %}
-  <a class="c-nav__item c-nav__item--next" rel="next" href="{{ paginator.previous_page_path | remove: ".html" }}">
+  <a class="c-nav__item c-nav__item--next" rel="next" href="{{ paginator.previous_page_path | replace: "page/", "?page=" | remove: ".html" }}">
     <span class="c-nav__label">Newer <span aria-hidden="true">&rarr;</span></span>
   </a>
   {% endif %}

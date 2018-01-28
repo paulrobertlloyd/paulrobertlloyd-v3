@@ -4,42 +4,40 @@ title: Archive
 permalink: /archive/
 regenerate: true
 ---
-<section class="c-page c-page--index">
-  {% include page/header.html %}
+<h1 class="c-main__title">{{ page.title | smartify }}</h1>
 
-  <section class="c-section" aria-labelledby="search">
-    <header class="c-section__header">
-      <h2 class="c-section__title" id="search">Search</h2>
-    </header>
+<section class="c-section" aria-labelledby="search">
+  <header class="c-section__header">
+    <h2 class="c-section__title" id="search">Search</h2>
+  </header>
 
-    <div class="c-section__main">
-      {% include form/search.html %}
+  <div class="c-section__main">
+    {% include form/search.html %}
+  </div>
+</section>
+
+<section class="c-section" aria-labelledby="years">
+  <header class="c-section__header">
+    <h2 class="c-section__title" id="years">Years</h2>
+  </header>
+
+  <div class="c-section__main">
+    <div class="u-triad">
+    {% for year in (2008..2018) reversed %}
+      {% include year.html %}
+    {% endfor %}
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="c-section" aria-labelledby="years">
-    <header class="c-section__header">
-      <h2 class="c-section__title" id="years">Years</h2>
-    </header>
+<section class="c-section" aria-labelledby="lloydyweb">
+  <header class="c-section__header">
+    <h2 class="c-section__title" id="lloydyweb">
+      <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
+    </h2>
+  </header>
 
-    <div class="c-section__main">
-      <div class="u-triad">
-      {% for year in (2008..2018) reversed %}
-        {% include year.html %}
-      {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section class="c-section" aria-labelledby="lloydyweb">
-    <header class="c-section__header">
-      <h2 class="c-section__title" id="lloydyweb">
-        <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">1999-2007</a>
-      </h2>
-    </header>
-
-    <div class="c-section__main">
-      <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous&nbsp;website</a>.</p>
-    </div>
-  </section>
+  <div class="c-section__main">
+    <p>Content written prior to 2008 can be found on <a href="http://lloydyweb.paulrobertlloyd.com/blog/archive/">my previous&nbsp;website</a>.</p>
+  </div>
 </section>

@@ -9,3 +9,15 @@
   padding-left: var(--page-gutter);
   margin-bottom: units(3);
 }
+
+.c-main__title {
+  @include fs--heading-1;
+  margin-bottom: units(2);
+  font-weight: 700;
+
+  @media screen and (min-width: $b__b) {
+    margin-bottom: units(4);
+    padding-right: percentage(1/9);
+    padding-left: percentage(2/9);
+  }
+}

@@ -3,7 +3,7 @@
 // ========================================================
 
 .s-prose {
-  --flow-space: units(1);
+  --flow-space: #{units(1)};
   line-height: (24 / 16);
   font-variant: common-ligatures oldstyle-nums;
   hanging-punctuation: first;

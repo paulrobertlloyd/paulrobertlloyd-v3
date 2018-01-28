@@ -3,16 +3,17 @@ layout: default
 title: Links
 permalink: /links/
 regenerate: true
+pagination:
+  enabled: true
+  collection: links
+  per_page: 8
 ---
-<section class="c-page c-page--index">
-  {% include page/header.html %}
+<h1 class="c-main__title">{{ page.title | smartify }}</h1>
 
-  <div class="c-section">
-  {% assign items = site.links | sort: "date" | reverse %}
-  {% for item in items %}
-    {% include item/link.html %}
-  {% endfor %}
-  </div>
-</section>
+<div class="c-section">
+{% for item in paginator.posts %}
+  {% include item/link.html %}
+{% endfor %}
+</div>
 
 {% include nav/paginate-indices.html %}
