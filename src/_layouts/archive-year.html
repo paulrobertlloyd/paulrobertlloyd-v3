@@ -26,13 +26,13 @@ layout: default
     {% endif %}
       {% case item.layout %}
       {% when "gallery" %}
-        {% include item/gallery.html %}
+        {% include item/gallery.html showtype=true %}
       {% when "link" %}
-        {% include item/link.html %}
+        {% include item/link.html showtype=true %}
       {% when "note" %}
-        {% include item/note.html %}
+        {% include item/note.html showtype=true %}
       {% else %}
-        {% include item/item.html %}
+        {% include item/item.html showtype=true %}
       {% endcase %}
     {% if forloop.last %}
     </div>

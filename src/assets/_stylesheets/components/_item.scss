@@ -81,21 +81,6 @@
   }
 }
 
-.c-item__permalink {
-  &::before {
-    content: "#";
-    opacity: 0.5;
-  }
-
-  &:hover::before {
-    opacity: 1;
-  }
-
-  time {
-    @include visually-hidden;
-  }
-}
-
 .c-item--link {
   display: flex;
   flex-direction: column;

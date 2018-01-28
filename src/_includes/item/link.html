@@ -16,8 +16,9 @@
   </div>
 
   <footer class="c-item__footer">
-    <a class="c-item__permalink" href="{{ item.url }}" rel="bookmark">
-      <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
+    {% if include.showtype == true %}<b class="p-category">{{ item.layout | capitalize }}</b><span aria-label=","> ·</span>{% endif %}
+    <a href="{{ item.url }}" rel="bookmark">
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
     </a>
   </footer>
 </article>

@@ -1,7 +1,7 @@
 <footer class="c-page__footer">
   <p>
     <span class="u-hidden">Published on </span>
-    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}{% if include.time %}, {{ page.date | date: "%l:%M%P" }}{% endif %}</time>
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}{% if include.time %}<span aria-label=","> ·</span>{{ page.date | date: "%l:%M%P" }}{% endif %}</time>
     {% if page.event %}
       <span aria-label=",">·</span> {{ page.event }}
     {% endif %}

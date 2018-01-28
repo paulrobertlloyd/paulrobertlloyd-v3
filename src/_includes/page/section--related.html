@@ -7,7 +7,7 @@
   <div class="c-section__main u-triad">
   {% for item in items %}
     {% if item.url != page.url %}
-      {% include item/item.html %}
+      {% include item/item.html showtype=true %}
     {% endif %}
   {% endfor %}
   </div>
