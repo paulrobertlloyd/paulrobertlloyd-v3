@@ -78,6 +78,7 @@ defaults:
       permalink: /links/:year/:month/:title
       layout: link
       feed: true
+      archive: true
       excerpt: ''
 
   - scope:
@@ -86,6 +87,7 @@ defaults:
       permalink: /notes/:year/:month/:day-:hour:minute
       layout: note
       feed: true
+      archive: true
       title: ''
       excerpt: ''
 
@@ -95,6 +97,7 @@ defaults:
       permalink: /photos/:year/:month/:title
       layout: gallery
       feed: true
+      archive: true
       theme: dark
 
   - scope:
@@ -103,6 +106,7 @@ defaults:
       permalink: /:year/:month/:title
       layout: post
       feed: true
+      archive: true
       image:
         preset: wide
 
@@ -117,6 +121,7 @@ defaults:
     values:
       permalink: /talks/:year/:month/:title
       layout: talk
+      archive: true
 
 # Images
 images:

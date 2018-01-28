@@ -11,6 +11,7 @@
   </header>
 
   <footer class="c-item__footer">
+    <b class="p-category">{{ item.layout | capitalize }}</b><span aria-label=","> ·</span>
     <a href="{{ item.url }}" rel="bookmark">
       <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
     </a>

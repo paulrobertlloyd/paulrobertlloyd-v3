@@ -3,7 +3,7 @@ layout: default
 ---
 <h1 class="c-main__title">{{ page.title | smartify }}</h1>
 
-{% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
+{% assign items = site.documents | where: "archive", true | sort: "date" | reverse %}
 {% for item in items %}
   {% assign this_year = item.date | date: "%Y" %}
   {% assign this_month = item.date | date: "%m" %}

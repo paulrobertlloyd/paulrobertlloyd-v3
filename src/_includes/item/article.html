@@ -6,7 +6,7 @@
   </header>
 
   <footer class="c-item__footer">
-    {% if item.publication %}{{ item.publication }}<span aria-label=","> ·</span>{% endif %}
+    {% if item.publication %}<b>{{ item.publication }}</b><span aria-label=","> ·</span>{% endif %}
     <time datetime="{{ item.date | date_to_xmlschema }}">{% if item.publication %}{{ item.date | date: site.date_format }}{% else %}{{ item.date | date: "%B %Y" }}{% endif %}</time>
   </footer>
 </article>
