@@ -1,6 +1,6 @@
 <nav class="c-navigation" role="navigation" aria-label="Menu">
   <p class="c-navigation__items">
-    <a class="c-navigation__item" href="/journal/"{% if page.url contains "journal" or page.journal == true %} aria-current="page"{% endif %}>Journal</a>
+    <a class="c-navigation__item" href="/journal/"{% if page.url contains "journal" or page.layout == "post" %} aria-current="page"{% endif %}>Journal</a>
     <a class="c-navigation__item" href="/notes/"{% if page.url contains "notes" %} aria-current="page"{% endif %}>Notes</a>
     <a class="c-navigation__item" href="/links/"{% if page.url contains "links" %} aria-current="page"{% endif %}>Links</a>
     <a class="c-navigation__item" href="/projects/"{% if page.url contains "projects" %} aria-current="page"{% endif %}>Projects</a>
