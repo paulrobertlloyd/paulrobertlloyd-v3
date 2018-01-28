@@ -7,12 +7,14 @@
 
   <div class="c-item__main s-prose">
     {% if item.image.src %}
-    <a class="c-item__media u-block-link" href="{{ item.url }}">
-      {% include image.html
-        src=item.image.src
-        class="u-photo"
-      %}
-    </a>
+    <p class="c-item__media">
+      <a href="{{ item.url }}">
+        {% include image.html
+          src=item.image.src
+          class="u-photo"
+        %}
+      </a>
+    </p>
     {% endif %}
     {{ item.content | markdownify | smartify }}
   </div>

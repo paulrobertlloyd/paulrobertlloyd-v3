@@ -2,25 +2,6 @@
 // Layout
 // ========================================================
 
-// Container
-.u-container {
-  max-width: $u__max-width;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-
-  @media (min-width: $b__a) {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  @media (min-width: $b__c) {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
 // Show two items abreast, three on wider breakpoints
 .u-triad {
   display: flex;
