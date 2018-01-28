@@ -11,5 +11,4 @@ embed:
 I reveal some of the thinking behind the new Fontdeck design, showing some early concepts, and give a tour of the changes we've made that have evolved the original design.
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/fontdeck-realign-not-redesign)
-  * [Notes](/downloads/2011/02/fontdeck_realign_not_redesign.pdf)
   * [Video](https://vimeo.com/20347419)

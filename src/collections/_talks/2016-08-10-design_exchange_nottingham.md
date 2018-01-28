@@ -11,4 +11,3 @@ embed:
 As our lives grow increasingly reliant on digital products, designers are asked to deliver coherent experiences across a multitude of platforms, all without sacrificing development efficiency and maintainability. To answer this need, our industry has looked to style guides, pattern libraries and front-end frameworks. Yet, without considering the audiences that will use them, they could do more harm than good.
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/designing-systems-design-exchange-nottingham)
-  * [Notes](/downloads/2016/08/designing_systems.pdf)

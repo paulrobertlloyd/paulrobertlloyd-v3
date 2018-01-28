@@ -10,7 +10,6 @@ embed:
 With the help of Doctor Who and the Avengers, discover how to embrace the unpredictable nature of the web.
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone)
-  * [Notes](downloads/2013/01/this_is_for_everyone.pdf)
 
 ## References
   * Berners-Lee, T. (2010, December 1). [Long Live the Web: A Call for Continued Open Standards and Neutrality](http://www.scientificamerican.com/article/long-live-the-web/). <cite>Scientific American</cite>

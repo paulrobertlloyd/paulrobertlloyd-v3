@@ -12,7 +12,6 @@ As our lives grow increasingly reliant on digital products, designers are asked 
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/designing-systems-smashing-conference)
   * [Video](https://vimeo.com/184237467)
-  * [Notes](/downloads/2016/09/designing_systems.pdf)
 
 ## References
   * Hall, P. (1990, March 4). [Brasilia and the Burial of Utopia](http://articles.latimes.com/1990-03-04/books/bk-2454_1_james-holston). <cite>Los Angeles Times</cite>

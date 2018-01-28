@@ -10,7 +10,6 @@ embed:
 Graphic designers have long honed their craft to meet the specific constraints of television. As web designers begin to understand the true nature of our own medium, isn't about time we did the same?
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-ldnia-number-4)
-  * [Notes](/downloads/2013/09/this_is_for_everyone.pdf)
 
 ## References
   * Berners-Lee, T. (2010, December 1). [Long Live the Web: A Call for Continued Open Standards and Neutrality](http://www.scientificamerican.com/article/long-live-the-web/). <cite>Scientific American</cite>

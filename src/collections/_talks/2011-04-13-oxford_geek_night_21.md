@@ -10,7 +10,6 @@ embed:
 Clearly communicating the fundamental aspects of your design at the different stages of a project can help you better communicate with clients, developers and your peers, ensuring your vision doesn't get lost in the transformation from static comp to dynamic ever changing website.
 
   * [Slides](http://speakerdeck.com/paulrobertlloyd/styleguides-for-the-web-2011)
-  * [Notes](/downloads/2011/04/styleguides_for_the_web.pdf)
 
 ## References
   * van der Merwe, B. (2011, February 16) [A new global visual language for the BBC's digital services](http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html). <cite>BBC Internet Blog</cite>

@@ -10,7 +10,6 @@ embed:
 Responsive web design has engendered a wider conversation about how we build products that accommodate an increasing breadth of connected devices. This talk will suggest a framework within which we can model this continuing discussion, and outline the principles needed for our work to better respond to a rapidly changing world.
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/responsive-principles-front-end-london-may-2015)
-  * [Notes](/downloads/2015/05/responsive_principles.pdf)
 
 ## References
   * [Donald Rumsfeld](https://en.wikipedia.org/wiki/Donald_Rumsfeld) (2015). <cite>Wikipedia</cite>
