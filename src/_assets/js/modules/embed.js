@@ -5,7 +5,7 @@
 //   <p><a class="button" href="[embed url]">[Fallback button text]</a></p>
 // </div>
 
-export default function () {
+function embed() {
   var embeds = document.querySelectorAll('[data-embed-src]');
 
   for (var i = 0; i < embeds.length; i += 1) {

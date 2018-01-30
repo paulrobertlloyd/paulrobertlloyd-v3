@@ -1,8 +1,6 @@
 language: ruby
 cache:
   bundler: true
-  directories:
-  - node_modules
 rvm:
 - 2.4.1
 branches:
@@ -12,8 +10,6 @@ env:
   global:
   - JEKYLL_ENV=production
   - secure: Zt4dEuwZRPZ/X2pDXpNCj+R8+hvAeMfXDMICx2ueiXAuMjpKzxiJmGcXuS5IpAh8u2Ja0E/ER5pXyf2PgdqaWd5MbipclaOdR67+O6RmnvRCTVnwDTS5UvsLHmRwBjHH3WE5XQR15qUFXVRIgqPKBhblsP4bQM7ZUJjuDgee2F4=]
-before_install:
-- npm install
 script:
 - './bin/build'
 before_deploy:

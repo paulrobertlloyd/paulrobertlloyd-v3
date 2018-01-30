@@ -29,6 +29,10 @@ include: [_indices]
 keep_files: [images]
 profile: true
 
+# Templates
+liquid:
+  error_mode: warn
+
 # Collections
 collections_dir: collections
 collections:
@@ -178,6 +182,9 @@ images:
       - width: 720
         height: 300
         quality: 80
+
+assets:
+  source_maps: false
 
 pagination:
   enabled: true

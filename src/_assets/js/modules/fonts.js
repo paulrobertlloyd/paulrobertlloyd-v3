@@ -1,7 +1,7 @@
-import FontFaceObserver from 'fontfaceobserver';
-import cookie from './cookie';
+// = require vendor/fontfaceobserver/fontfaceobserver
+// = require ./cookie
 
-export default function () {
+function fonts() {
   if (document.documentElement.className.indexOf('fonts-loaded') > -1) {
     return;
   }
@@ -21,8 +21,14 @@ export default function () {
     style: 'normal'
   });
 
-  Promise.all([regular.load(), italic.load(), semibold.load()]).then(function () {
+  Promise.all([
+    regular.load(),
+    italic.load(),
+    semibold.load()
+  ]).then(function () {
     document.documentElement.className += ' fonts-loaded';
     cookie('fonts-loaded', !0, 7);
+  }).catch(function (err) {
+    console.error(err);
   });
 }

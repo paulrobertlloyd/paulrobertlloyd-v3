@@ -1,3 +1,5 @@
+---
+---
 // https://gist.github.com/adactio/4d588bb8a65fa11a3ea3
 //
 // Licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
@@ -6,32 +8,32 @@
 (function () {
   'use strict';
 
-  // Update 'version' if you need to refresh the caches
-  var version = 'v::8::';
   // A cache for core files like CSS and JavaScript
   var staticCacheName = 'static';
   // A cache for pages to store for offline
   var pagesCacheName = 'pages';
   // A cache for images to store for offline
   var imagesCacheName = 'images';
+  // Update 'version' if you need to refresh the caches
+  var version = 'commit-{% project_version commit %}::';
 
   function updateStaticCache() {
     return caches.open(version + staticCacheName)
       .then(function (cache) {
         return cache.addAll([
           'manifest.json',
-          '/assets/fonts/calibre-regular.woff2',
-          '/assets/fonts/calibre-italic.woff2',
-          '/assets/fonts/calibre-semibold.woff2',
-          '/assets/javascripts/main.js',
-          '/assets/stylesheets/main.css',
-          '/images/device-phablet.svg',
-          '/images/device-phone.svg',
-          '/images/device-tablet-landscape.svg',
-          '/images/device-tablet-portrait.svg',
-          '/images/icon.png',
-          '/images/icon.svg',
-          '/images/offline.svg',
+          '{% asset calibre-semibold.woff2 @path %}',
+          '{% asset calibre-regular.woff2 @path %}',
+          '{% asset calibre-italic.woff2 @path %}',
+          '{% asset main.css @path %}',
+          '{% asset main.js @path %}',
+          '{% asset device-tablet-landscape.svg @path %}',
+          '{% asset device-tablet-portrait.svg @path %}',
+          '{% asset device-phablet.svg @path %}',
+          '{% asset device-phone.svg @path %}',
+          '{% asset offline.svg @path %}',
+          '{% asset icon.svg @path %}',
+          '{% asset icon.png @path %}',
           '/error/offline',
           '/hire/',
           '/'
@@ -171,7 +173,7 @@
               // OFFLINE
               // If request is for an image, show an offline placeholder
               if (request.headers.get('Accept').indexOf('image') !== -1) {
-                return caches.match('/images/offline.svg');
+                return caches.match('{% asset offline.svg @path %}');
               }
             });
         })

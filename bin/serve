@@ -3,4 +3,3 @@ set -e
 
 echo "Serving website"
 bundle exec jekyll serve --config etc/jekyll/config.yml --trace
-npm run build

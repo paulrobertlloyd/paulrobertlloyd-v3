@@ -1,4 +1,4 @@
-export default function (name, value, days) {
+function cookie(name, value, days) {
   var expires;
 
   if (value === undefined) {
