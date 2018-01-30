@@ -4,9 +4,7 @@ title: Styleguides for the Web
 date: '2010-11-20 14:00:00 +0000'
 location: Birmingham, England
 event: 'Multipack Presents: The Design Process'
-excerpt: Transcript from my presentation at Multipack Presents
-embed:
-  src: https://speakerdeck.com/player/4e47e8aba6aa8f0001006db3
+excerpt: Slides and referenced transcript from my presentation at Multipack Presents
 slides:
 - format: png
   notes: |
