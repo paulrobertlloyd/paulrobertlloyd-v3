@@ -79,7 +79,6 @@ defaults:
       layout: link
       feed: true
       archive: true
-      excerpt: ''
 
   - scope:
       type: notes
@@ -89,7 +88,6 @@ defaults:
       feed: true
       archive: true
       title: ''
-      excerpt: ''
 
   - scope:
       type: photos
