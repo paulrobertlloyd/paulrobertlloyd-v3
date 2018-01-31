@@ -5,12 +5,12 @@
 <html lang="en-gb" prefix="og: http://ogp.me/ns#" class="{% if page.theme %}t-{{ page.theme }}{% endif %}">
 <!--#endif-->
 <head>
-  <link rel="preload" href="/assets/fonts/calibre-regular.woff2" as="font" type="font/woff2" crossorigin/>
-  <link rel="stylesheet" href="/assets/stylesheets/main.css"/>
-  <!--link rel="serviceworker" href="/serviceworker.js"/-->
+  <link rel="preload" href="{% asset calibre-regular.woff2 @path %}" as="font" type="font/woff2" crossorigin/>
+  <link rel="stylesheet" href="{% asset main.css @path %}"/>
+  <link rel="serviceworker" href="/serviceworker.js"/>
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
-  <link rel="apple-touch-icon" href="{{ site.images.url }}/icon.png" type="image/png"/>
-  <link rel="mask-icon" href="{{ site.images.url }}/icon.svg" color="{{ site.theme_color }}"/>
+  <link rel="apple-touch-icon" href="{% asset icon.png @path %}" type="image/png"/>
+  <link rel="mask-icon" href="{% asset icon.svg @path %}" color="{{ site.theme_color }}"/>
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove:"index.html" | remove:".html" }}"/>
   <link rel="manifest" href="/manifest.json"/>
   <link rel="me" href="https://paulrobertlloyd.com"/>
@@ -21,7 +21,7 @@
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Journal (XML Atom)"/>
   <link rel="alternate" href="/feed.json" type="application/json" title="Journal (JSON Feed)"/>
 
-  <script src="/assets/javascripts/main.js" async></script>
+  <script src="{% asset main.js @path %}" async></script>
 
   <meta charset="utf-8"/>
   <meta name="referrer" content="origin"/>

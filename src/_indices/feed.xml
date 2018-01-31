@@ -14,7 +14,7 @@ regenerate: true
   </author>
   <link rel="self" href="{{ site.url }}/feed.xml" type="application/atom+xml"/>
   <link rel="alternate" href="{{ site.url }}" type="text/html"/>
-  <icon>{{ site.images.url | append: "/icon.png" }}</icon>
+  <icon>{{ site.url }}{% asset icon.png @path %}</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 {% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
 {%- for item in items limit: 25 %}

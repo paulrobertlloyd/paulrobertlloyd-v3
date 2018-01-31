@@ -1,25 +1,25 @@
-export default function () {
-  const endpoint = '/archive/search.json';
-  const pages = [];
+function search() {
+  var endpoint = '/archive/search.json';
+  var pages = [];
 
-  const searchForm = document.querySelector('.c-form--search');
-  const searchInput = document.querySelector('.c-form--search .c-form__input');
-  const searchSubmit = document.querySelector('.c-form--search .c-form__submit');
+  var searchForm = document.querySelector('.c-form--search');
+  var searchInput = document.querySelector('.c-form--search .c-form__input');
+  var searchSubmit = document.querySelector('.c-form--search .c-form__submit');
 
   // Set up results list
-  const resultsList = document.createElement('ol');
+  var resultsList = document.createElement('ol');
   resultsList.setAttribute('class', 'c-list c-list--inline');
 
   function findResults(termToMatch, pages) {
     return pages.filter(item => {
-      const regex = new RegExp(termToMatch, 'gi');
+      var regex = new RegExp(termToMatch, 'gi');
       return item.title.match(regex) || item.excerpt.match(regex);
     });
   }
 
   function displayResults() {
-    const resultsArray = findResults(this.value, pages);
-    const html = resultsArray.map(item => {
+    var resultsArray = findResults(this.value, pages);
+    var html = resultsArray.map(function (item) {
       return `
         <li class="c-list__item">
           <a href="${item.url}">${item.title}</a>

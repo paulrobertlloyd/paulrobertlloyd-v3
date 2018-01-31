@@ -1,0 +1,3 @@
+[submodule "src/_assets/js/vendor/fontfaceobserver"]
+	path = src/_assets/js/vendor/fontfaceobserver
+	url = https://github.com/bramstein/fontfaceobserver.git

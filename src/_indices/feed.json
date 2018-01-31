@@ -4,29 +4,29 @@ regenerate: true
 ---
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": {{ site.title | jsonify }},
-  "description": {{ site.description | jsonify }},
-  "home_page_url": {{ site.url | jsonify }},
-  "feed_url": {{ site.url | append: "/feed.json" | jsonify }},
-  "icon": {{ site.images.url | append: "/icon.png" | jsonify }},
-  "favicon": {{ site.url | append: "/favicon.ico" | jsonify }},
+  "title": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "home_page_url": "{{ site.url }}",
+  "feed_url": "{{ site.url }}/feed.json",
+  "icon": "{{ site.url }}{% asset icon.png @path %}",
+  "favicon": "{{ site.url }}/favicon.ico",
   "author": {
-    "name": {{ site.author.name | jsonify }},
-    "url": {{ site.author.url | jsonify }},
-    "avatar": {{ site.author.avatar | jsonify }}
+    "name": "{{ site.author.name }}",
+    "url": "{{ site.author.url }}",
+    "avatar": "{{ site.author.avatar }}"
   },
   {% assign items = site.documents | where: "feed", true | sort: "date" | reverse -%}
   "items": [{% for item in items limit: 25 %}
     {
-      "id": {{ item.url | prepend: site.url | jsonify }},
-      "url": {{ item.url | prepend: site.url | jsonify }},
-      {% if item.link %}"external_url": {{ item.link | jsonify }},{% endif %}
+      "id": "{{ item.url | prepend: site.url }}",
+      "url": "{{ item.url | prepend: site.url }}",
+      {% if item.link %}"external_url": "{{ item.link }}",{% endif %}
       {% if item.title != "" %}"title": {{ item.title | smartify | jsonify }},{% endif %}
       {% if item.excerpt != "" %}"summary": {{ item.excerpt | strip_newlines | jsonify }},{% endif %}
       {%- comment -%}`image:` should have same image and quality values as default image preset{%- endcomment -%}
-      {% if item.image.src %}"image": {{ item.image.src | prepend: "/image/1280x/90q/" | prepend: site.url | jsonify }},{% endif %}
-      "content_html": {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | strip_newlines | jsonify }},
-      "date_published": {{ item.date | date_to_xmlschema | jsonify }},
+      {% if item.image.src %}"image": "{{ item.image.src | prepend: "/image/1280x/90q/" | prepend: site.url }}",{% endif %}
+      {% capture content_html %}{% include feed/content.html %}{% endcapture %}"content_html": {{ content_html | strip_newlines | jsonify }},
+      "date_published": "{{ item.date | date_to_xmlschema }}",
       "tags": {{ item.tags | jsonify }}
     }{% if forloop.last %}{% else %},{% endif %}
   {%- endfor %}]

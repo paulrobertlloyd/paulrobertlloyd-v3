@@ -4,5 +4,6 @@ etc/ssl/*.crt
 etc/ssl/*.key
 
 # Folders to ignore
+.jekyll-cache
 node_modules
 www

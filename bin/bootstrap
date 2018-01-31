@@ -6,4 +6,3 @@ gem install bundler
 
 echo "Installing project dependencies"
 bundle install
-npm install

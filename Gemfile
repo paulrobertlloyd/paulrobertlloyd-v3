@@ -1,8 +1,17 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# Jekyll (generates static files)
+# Jekyll static file generation
 gem 'jekyll'
 group :jekyll_plugins do
+  gem 'jekyll-assets'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
+  gem 'jekyll_version_plugin'
 end
+
+# Asset compilation
+gem 'autoprefixer-rails'
+gem 'uglifier'
+gem 'sprockets', '~> 4.0.beta', {
+  require: false
+}

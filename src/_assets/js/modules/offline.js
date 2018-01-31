@@ -1,4 +1,4 @@
-export default function () {
+function offline() {
   function handleOffline() {
     var template = document.querySelector('#offline-message-template');
     return document.body.prepend(template.content.cloneNode(true));
