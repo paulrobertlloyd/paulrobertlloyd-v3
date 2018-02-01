@@ -17,7 +17,7 @@ My friend [Mario][3] answered my query with one word: "impact". By choosing to w
 
 Maybe these designers believe that the respect and admiration they've garnered will provide leverage, and allow them to change how a company operates; better to be inside the tent pissing out, than outside pissing in, right? Well, short of burning down the entire piss-drenched campsite. To think you can change an organisation like Facebook -- whose leadership has displayed scant regard for the human race beyond its eyeballs -- you're either incredibly naive, or lying to yourself.
 
-In fact, I'd argue that joining such an organisation makes it easier for its culture to seep *outwards*, into the broader community. For examlpe, sat within large distributed teams, designing products used by billions, employees become advocates for processes and tools that have an emphasis on scalability; an aspect of lesser importance for those of us working beyond the campus walls.
+In fact, I'd argue that joining such an organisation makes it easier for its culture to seep *outwards*, into the broader community. For example, sat within large distributed teams, designing products used by billions, employees become advocates for processes and tools that have an emphasis on scalability; an aspect of lesser importance for those of us working beyond the campus walls.
 
 * * *
 
@@ -37,7 +37,7 @@ Since using their website had a visceral effect on my heart rate, 'Booking.com' 
 
 > I think A/B testing is a way to institutionalise a focus on _business_ goals -- increasing sales, growth, conversion, and all of that. Now, ideally, those goals would align completely with the customer's goals; happy customers should mean more sales ...but more sales doesn't necessarily mean happy customers. Using business metrics (sales, growth, conversion) as a _proxy_ for customer satisfaction might not always work ...and is clearly [not the case with many of these kinds of sites][6]. Whatever the company values might say, a company's true focus is on whatever they're measuring as success criteria. If that's customer satisfaction, then the company is indeed customer-focused. But if the measurements are entirely about what works for sales and conversions, then that's the real focus of the company.
 
-Designers like to talk about how they finally have a seat at the table. It's an attractive idea, especially as large companies now like to build an internal design team rather than outsource to agencies. But sometimes it feels as if designers have been tricked into thinking they have a seat, when in fact they've been taken hostage, only to develop Stockholm syndrome.
+Designers like to talk about how they finally have a seat at the table. It's an attractive idea, especially since companies have started to build internal design teams rather than outsource to agencies. But sometimes it feels as if designers have been tricked into thinking they have a seat, when in fact they've been taken hostage, only to develop Stockholm syndrome.
 
 What will it take for the shackles to be released? Joel thinks corporate designers can take a moment to repent for their sins before again pledging allegiance to their users. A tad optimistic perhaps, given the bubble they find themselves in. Perhaps even more so since the industry's discourse can tend toward the shallow and superficial, and where appraisal often takes the form of unthoughtful take-downs written to boast a critic's own following.
 
