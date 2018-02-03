@@ -1,8 +1,0 @@
-#!/bin/sh
-set -e
-
-echo "Installing Bundler"
-gem install bundler
-
-echo "Installing project dependencies"
-bundle install

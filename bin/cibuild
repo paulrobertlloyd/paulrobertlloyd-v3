@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+echo "Generating website files and saving them to destination"
+bundle exec jekyll build --config etc/jekyll/config.yml

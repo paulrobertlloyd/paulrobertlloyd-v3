@@ -1,5 +1,11 @@
 #!/bin/sh
 set -e
 
-echo "Generating website files and saving them to destination"
-bundle exec jekyll build --config etc/jekyll/config.yml --drafts --future --trace
+echo "Serving website"
+JEKYLL_ENV=development && bundle exec jekyll serve \
+  --config etc/jekyll/config.yml \
+  --host paulrobertlloyd.test \
+  --livereload \
+  --ssl-key _test.key \
+  --ssl-cert _test.crt \
+  --trace

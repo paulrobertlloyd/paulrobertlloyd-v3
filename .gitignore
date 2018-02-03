@@ -1,7 +1,7 @@
 # Files to ignore
 src/.jekyll-metadata
-etc/ssl/*.crt
-etc/ssl/*.key
+*.crt
+*.key
 
 # Folders to ignore
 .jekyll-cache

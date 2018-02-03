@@ -127,7 +127,6 @@ defaults:
 
 # Images
 images:
-  url: https://paulrobertlloyd.com/images
   default:
     sources:
       - width: 1280 # Should match `image:` width used in JSON Feed

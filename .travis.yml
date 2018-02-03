@@ -11,13 +11,13 @@ env:
   - JEKYLL_ENV=production
   - secure: Zt4dEuwZRPZ/X2pDXpNCj+R8+hvAeMfXDMICx2ueiXAuMjpKzxiJmGcXuS5IpAh8u2Ja0E/ER5pXyf2PgdqaWd5MbipclaOdR67+O6RmnvRCTVnwDTS5UvsLHmRwBjHH3WE5XQR15qUFXVRIgqPKBhblsP4bQM7ZUJjuDgee2F4=]
 script:
-- './bin/build'
+- './bin/cibuild'
 before_deploy:
 - openssl aes-256-cbc -K $encrypted_42ab359fa880_key -iv $encrypted_42ab359fa880_iv
-  -in ./etc/ssl/travis-ci_rsa.enc -out /tmp/travis-ci_rsa -d
+  -in ./etc/travis/rsa.enc -out /tmp/rsa -d
 - eval "$(ssh-agent -s)"
-- chmod 600 /tmp/travis-ci_rsa
-- ssh-add /tmp/travis-ci_rsa
+- chmod 600 /tmp/rsa
+- ssh-add /tmp/rsa
 deploy:
   provider: script
   skip_cleanup: true
