@@ -1,17 +1,8 @@
 // ========================================================
-// Nav
+// Pagination
 // ========================================================
 
-.c-nav__item {
-  text-decoration: none;
-
-  [aria-current] {
-    font-weight: 700;
-  }
-}
-
-// Page navigation
-.c-nav--pagination {
+.c-pagination {
   display: flex;
 
   @media (min-width: $b__b) {
@@ -21,9 +12,10 @@
   @media print {
     display: none;
   }
+}
 
-  .c-nav__item {
-    margin-right: 1rem;
-    font-weight: 700;
-  }
+.c-pagination__item {
+  margin-right: 1rem;
+  font-weight: 700;
+  text-decoration: none;
 }
