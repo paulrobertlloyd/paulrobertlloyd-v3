@@ -8,6 +8,7 @@ Here I will discuss the development of graphic design on the Internet, the probl
 In order to fully research this topic, I have used books found on the subject in the college library, as well as industry magazines and articles on reputable Internet sites. These were [BBC News Online][1], and usability expert Jakob Nielsen's own site devoted to usability [useit.com][2], having quoted him within the text from an interview with him on this topic found in one of the aforementioned magazines. I also visited sites mentioned in the text to get a first hand feel for them, and these were [www.mtv.co.uk][3], [www.radiohead.com][4] and [www.amazon.com][5] during June 2001. It should be noted that these sites have changed considerably since then, so these links point to archived versions.
 
 ## Introduction
+
 The World Wide Web (or 'web' for short) has been in existence for just over ten years now, but it has only really become apparent as a medium for design during the last four years or so.
 
 In its early existence the web, and the language used to layout individual pages, HTML (Hypertext Mark-up Language) was very much designed as a means of linking and displaying large amounts of mainly text based information. Layout and design was a minor concern during the early years of its use with emphasis put firmly on user-customisation with the ability to alter the size and colour of text and links.
@@ -15,6 +16,7 @@ In its early existence the web, and the language used to layout individual pages
 In terms of design, most web pages of the time were grey with black text and blue links. Typography was also very poor with the fonts used depending on those again defined by the user. Other typographical elements such as line length line spacing, kerning and tracking and the ability to control them was also non-existent.
 
 ## Tools
+
 However, the mid to late nineties saw a dramatic rise in Internet use with every company and organisation wanting to make their presence felt on the web. This increased commercialisation of the Internet meant a greater need for well designed sites. Thankfully, at the same time HTML was becoming more versatile, allowing webpage designers to use new features such as tables frames, and animated GIFs (allowing basic animation). The release of Netscape 3 browser allowed greater control of typeface with the ability for the designer to specify fonts from a small selection of commonly installed typefaces.
 
 HTML 4.0 saw the introduction of CSS (Cascading Style Sheets) and with it greatly improved control of typography. Working very much like style sheets in QuarkXpress in the webpage authoring environment, meant a designer could choose a typeface (still from a relatively small selection) as well as have control over line spacing, tracking, and the ability to fully justify text (common practice in print but until the introduction of CSS almost impossible). It also allowed precise pixel positioning of elements on a page using 'layers'.
@@ -59,6 +61,7 @@ The increasing use of Flash on websites has also sparked a debate as to whether 
 He has other concerns with the way designers use Flash, such as the use of non-standard navigation elements in their work, meaning that most users miss them or get confused, and how by designers insisting on the using Flash, distracts them from concentrating on a sites core values.
 
 ## Designing successful websites
+
 So what makes a good website? Nathan Shedroff, a creative director at Vivid Studios states there are six basic ingredients for a successful website:
 
  1. **Content:**
@@ -93,9 +96,11 @@ Some may see this as an example that only good sites can be created if they use 
 So as a site then, it's pretty useless, but as a means of promoting the band's image (the site contains a lot of links to sites such as 'Jubilee2000' and 'Reclaim the Streets') and driving fans into a community of other fans, the site works well, and does what it needs to do.
 
 ## Conclusion
+
 From the areas of discussion above, it would seem there are two main issues. The first is a lack of standardisation in the medium, with designers spending large portions of their time and effort just getting their sites to work on a variety of browsers. The second is that, although Flash can solve many of these problems, some designers need to be careful that they don't let the many abilities of such software influence their design. Also by using Flash their work will sit outside the traditional hypertext navigation, so great attention has to be paid to maintaining the same level of usability. If you have a good idea for a site, it will work no matter what technology is used. It also worth remembering that the web was primarily designed as a source of information, where 'content is king'. If your site has interesting content, it navigates well and everyone can read it, you have won half the battle.
 
 ## References
+
   * Boer, L, Strengholt, G and Velthoven, W (1997). <cite>Website Graphics: the best of global site design</cite>. New York: Thames and Hudson Inc.
   * Burgoyne, P and Faber, L (1999). <cite>Reload: Browser 2.0: The Internet Design Project</cite>. London: Laurance King
   * Dredge, S (2000, September). Interview with Jakob Nielsen. <cite>Cre@teOnline</cite>, 26-29

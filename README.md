@@ -4,7 +4,7 @@
 
 ## Requirements
 * [nginx](https://nginx.org)
-* [Ruby (2.4.0 or higher)](https://www.ruby-lang.org)
+* [Ruby](https://www.ruby-lang.org) (2.4.0 or higher)
 * [Jekyll](https://jekyllrb.com)
 
 ## Installation
@@ -23,7 +23,7 @@ When developing the site, you may want files automatically compiled and the brow
 This project makes use of third-party libraries, included as git submodules. To update these, run `git submodule foreach git pull origin master`.
 
 ### Running locally with HTTPS
-To run with HTTPS locally on macOS, you should follow the setup [as described here](https://gist.github.com/jed/6147872). To create the required SSL certificates, follow these steps:
+To run with HTTPS locally on macOS first [follow the setup steps described here](https://gist.github.com/jed/6147872). To create the required SSL certificates, follow these steps:
 
 1. Change into the correct directory: `cd src`
 2. Create the certificate files:

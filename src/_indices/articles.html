@@ -31,3 +31,19 @@ regenerate: true
 </section>
   {% endif %}
 {% endfor %}
+
+<section class="c-section" aria-labelledby="other-projects">
+  <header class="c-section__header">
+    <h2 class="c-section__title" id="other-projects">Older academic essays</h2>
+  </header>
+
+  <div class="c-section__main">
+    <ul class="c-list c-list--inline">
+    {% for item in site.articles reversed %}
+      <li class="c-list__item">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

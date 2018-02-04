@@ -37,7 +37,7 @@
   }
 
   hr {
-    @include rule;
+    @include rule($height: 0.125rem);
     margin: units(1) auto units(2);
     border: 0;
     line-height: 0;
@@ -156,6 +156,8 @@
         display: grid;
         grid-template-columns: auto percentage(4/12);
         grid-column-gap: $u__gutter;
+        border-top: 1px solid rgba($c__neutral-mid, 0.25);
+        padding-top: ($u__gutter / 3);
       }
 
       img {

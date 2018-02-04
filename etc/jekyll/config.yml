@@ -38,6 +38,8 @@ collections_dir: collections
 collections:
   archives:
     output: true
+  articles:
+    output: true
   content:
     output: true
   discussions:
@@ -63,6 +65,12 @@ defaults:
       permalink: /:path/
       layout: archive-year
       regenerate: true
+
+  - scope:
+      type: articles
+    values:
+      permalink: /articles/:year/:month/:title
+      layout: content
 
   - scope:
       type: content

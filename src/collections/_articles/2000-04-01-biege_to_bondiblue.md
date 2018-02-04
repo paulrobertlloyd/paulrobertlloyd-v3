@@ -38,9 +38,10 @@ Another area of concern was the Apple II's manual. Originally provided with a sp
 
 It was this attention to every detail from the colour and material of the machines case to the design of their logo, that undoubtedly helped Apple reach sales of $7.8 million by 1978 and allow them to claim in its advertising that the Apple II was "the world's best selling personal computer".
 
----
+* * *
 
 ## The iMac
+
 Apple's success was short lived. The introduction of the Macintosh in 1984 was initially successful but due to its small amount of RAM and lack of hard drive connectivity people soon lost interest. Not long afterwards boardroom arguments led to the resignation of Steve Jobs who left to form is own company -- NeXT.
 
 Apple's acquisition of NeXT in 1996 brought Steve Jobs back to the company and by 1997 he was back in charge of the company. His return couldn't have come sooner. Despite fairly good sales in the specialist areas of design and publishing, Apple's share of the consumer market had dwindled significantly since the introduction of IBM-compatible PC's and the Windows operating system. Apple needed a popular consumer product if it was to be a successful company again, and one completely different from anything else available.
@@ -83,9 +84,10 @@ Another subtle improvement occurred when you put the computer to 'sleep' (a sort
 
 {% include image.html preset="thumbnail" src="articles/beige_to_bondiblue/apple_logo_aqua.png" class="u-align-right" alt="Apple 'aqua' logo" %} As with the Apple II, the manual was an important aspect of the design. The iMac's original manual was entered into the <cite>Guinness Book of World Records</cite> for the being the world's smallest, containing only 32 words -- a statement that further stressed the simplicity of owning an iMac. Further still, the iMac was another product to influence Apple's logo. With the introduction of the iMac, Apple altered its logo to match the translucent styling of the iMac, and with its success, replaced the original with this new version appearing in various colours.
 
----
+* * *
 
 ## Conclusion
+
 The Apple II and the iMac both revolutionised the design of the personal computer. The use of plastic and the beige colour was an important design feature of the Apple II for it to be seen by consumers as something they would like to have in their homes, and set a standard that others then followed.
 
 By the time the iMac was launched, beige was the de facto colour for the computer, as were the similar designs of monitors sitting on, or next to, large rectangular boxes. When some companies tried to produce computers that you would want in your lounge, they often chose black and were unsuccessful every time. The choice of blue and white, coupled with such a radical design, may have seemed even more out of place but people quickly found that this design sat surprisingly well in the lounge environment, as well as on their desks at work.
@@ -96,9 +98,10 @@ The Apple II and the iMac are similar in that they both introduced the consumer 
 
 With his understanding of the emotional value objects can have to the user, and the fact that consumers pay attention to design, both were and remain successful designs.
 
----
+* * *
 
 ## References
+
   * Blair, D. (1998). [Bondi-Blue: Interview with Jonathan Ive](http://web.archive.org/web/19991007065648/http://www.thing.net/~lilyvac/ive.html). <cite>Thing.net</cite>. Archived from [the original](http://www.thing.net/~lilyvac/ive.html) on <time datetime="1999-10-07">7 October 1999</time>
   * Tracy, E. [History of Computer Design](http://bebob.chass.utoronto.ca/~edtracy/index.html). <cite>bebob.chass.utoronto.ca/~edtracy</cite>
   * Stafford, A., Feld, A. &amp; Poultrey, J. (1998). [The Ive League: The Designer Behind the iMac](http://web.archive.org/web/19990208222802/http://www.machome.com/Features/Ive.html). <cite>MacHome Interactive</cite>. Archived from [the original](http://www.machome.com/features/ive.html) on <time datetime="1999-02-08">8 February 1999</time>

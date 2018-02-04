@@ -10,19 +10,6 @@
   }
 }
 
-// Series navigation
-.c-nav--series {
-  .c-nav__title {
-    @include fs--lede;
-  }
-
-  .c-nav__item {
-    @include fs--caption;
-    margin-top: units(1);
-    margin-bottom: 0;
-  }
-}
-
 // Page navigation
 .c-nav--pagination {
   display: flex;

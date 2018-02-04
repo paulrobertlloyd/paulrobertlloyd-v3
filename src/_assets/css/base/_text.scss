@@ -29,14 +29,6 @@ small {
   font-size: 100%;
 }
 
-abbr[title] {
-  text-decoration: underline dotted rgba($c__neutral-darkest, 0.33);
-
-  &:hover {
-    cursor: help;
-  }
-}
-
 code,
 kbd,
 samp {
