@@ -4,11 +4,7 @@
 
 .c-item {
   flex-direction: column;
-  margin-bottom: $--space-large;
-
-  @media (min-width: $--breakpoint-b) {
-    margin-bottom: $--space-xlarge;
-  }
+  margin-bottom: $--space-xlarge;
 
   &:last-child {
     margin-bottom: 0;

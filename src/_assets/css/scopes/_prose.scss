@@ -83,6 +83,7 @@
   .footnotes {
     @include fs--caption;
     @include rule($width: 20%);
+    margin-bottom: $--space-medium;
     color: $--color-neutral-mid;
   }
 }
