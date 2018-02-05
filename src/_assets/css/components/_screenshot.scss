@@ -2,12 +2,12 @@
 // Screenshots
 // ========================================================
 
-$u__shadow-size: 4px;
+$screenshot__shadow-size: 4px;
 
 .c-screenshots {
   position: relative;
-  margin-bottom: units(1);
-  border-bottom: 1px solid rgba($c__neutral-darkest, 0.2);
+  margin-bottom: $--space-medium;
+  border-bottom: 1px solid rgba($--color-neutral-darkest, 0.2);
   padding-bottom: 40%;
   overflow: hidden;
 }
@@ -15,7 +15,7 @@ $u__shadow-size: 4px;
 .c-screenshot {
   display: block;
   position: absolute;
-  top: $u__shadow-size;
+  top: $screenshot__shadow-size;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -23,24 +23,24 @@ $u__shadow-size: 4px;
 // Desktop screens
 .c-screenshot--desktop-a {
   top: 2rem;
-  left: $u__shadow-size;
+  left: $screenshot__shadow-size;
   z-index: 1;
-  box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
+  box-shadow: 0 0 0 1px rgba($--color-neutral-darkest, 0.2), 0 0 $screenshot__shadow-size 2px rgba($--color-neutral-darkest, 0.2);
   width: 56%;
 
-  @media (min-width: $b__b) {
+  @media (min-width: $--breakpoint-b) {
     left: 2rem;
   }
 }
 
 .c-screenshot--desktop-b {
-  top: $u__shadow-size;
-  right: $u__shadow-size;
+  top: $screenshot__shadow-size;
+  right: $screenshot__shadow-size;
   z-index: 2;
-  box-shadow: 0 0 0 1px rgba($c__neutral-darkest, 0.2), 0 0 $u__shadow-size 2px rgba($c__neutral-darkest, 0.2);
+  box-shadow: 0 0 0 1px rgba($--color-neutral-darkest, 0.2), 0 0 $screenshot__shadow-size 2px rgba($--color-neutral-darkest, 0.2);
   width: 56%;
 
-  @media (min-width: $b__b) {
+  @media (min-width: $--breakpoint-b) {
     right: 2rem;
   }
 }
@@ -57,7 +57,7 @@ $u__shadow-size: 4px;
 }
 
 .c-screenshot--tablet-portrait {
-  top: $u__shadow-size;
+  top: $screenshot__shadow-size;
   right: 14%;
   z-index: 4;
   background-image: asset_url("device-tablet-portrait.svg");

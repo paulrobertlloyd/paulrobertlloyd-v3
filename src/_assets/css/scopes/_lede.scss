@@ -5,7 +5,7 @@
 // Lede
 .s-lede {
   @include fs--lede;
-  --flow-space: #{units(2)};
+  --flow-space: 1.5rem;
 
   *:last-child {
     --flow-space: 0;

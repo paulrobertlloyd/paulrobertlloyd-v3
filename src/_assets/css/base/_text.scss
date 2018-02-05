@@ -12,7 +12,7 @@ a {
   &[rel~="external"]::after {
     display: inline-block;
     font-weight: normal;
-    color: $c__primary;
+    color: $--color-primary;
     content: "\2009\2192";
   }
 }
@@ -39,9 +39,9 @@ samp {
 
 kbd {
   margin: 0 0.2rem;
-  border: 1px solid rgba($c__neutral-darkest, 0.25);
+  border: 1px solid rgba($--color-neutral-darkest, 0.25);
   border-radius: 0.2rem;
-  box-shadow: inset 0 -2px 0 rgba($c__neutral-darkest, 0.1);
+  box-shadow: inset 0 -2px 0 rgba($--color-neutral-darkest, 0.1);
   background-color: white;
   padding: 0.2rem 0.5rem;
   line-height: 1;

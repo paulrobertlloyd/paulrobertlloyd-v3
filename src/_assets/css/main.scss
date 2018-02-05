@@ -1,7 +1,8 @@
 // Helpers
-@import "helpers/functions";
-@import "helpers/variables";
-@import "helpers/mixins";
+@import "config/variables";
+@import "config/properties";
+@import "config/webfonts";
+@import "config/mixins";
 
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
@@ -41,40 +42,11 @@
 @import "components/list";
 @import "components/main";
 @import "components/meta";
-@import "components/nav";
 @import "components/navigation";
 @import "components/offline";
 @import "components/page";
+@import "components/pagination";
 @import "components/project";
 @import "components/screenshot";
 @import "components/section";
-@import "components/social";
 @import "components/year";
-
-// Webfonts
-@font-face {
-  font-family: Calibre;
-  font-weight: normal;
-  font-style: normal;
-  src:
-    asset_url("calibre-regular.woff2") format("woff2"),
-    asset_url("calibre-regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: Calibre;
-  font-weight: normal;
-  font-style: italic;
-  src:
-    asset_url("calibre-italic.woff2") format("woff2"),
-    asset_url("calibre-italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: Calibre;
-  font-weight: bold;
-  font-style: normal;
-  src:
-    asset_url("calibre-semibold.woff2") format("woff2"),
-    asset_url("calibre-semibold.woff") format("woff");
-}

@@ -3,30 +3,30 @@
 // ========================================================
 
 .c-section {
-  margin-bottom: units(4);
+  margin-bottom: $--space-xlarge;
 
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
     margin-right: percentage(1/9);
     margin-left: percentage(2/9);
   }
 }
 
 .c-section__header {
-  @include rule($height: $u__rule-height, $position: "after");
+  @include rule($position: "after");
   display: flex;
   align-items: center;
-  margin-bottom: units(1);
+  margin-bottom: $--space-medium;
 }
 
 .c-section__title {
   @include fs--caption;
   flex: 0 0 auto;
-  padding-right: 0.25rem;
+  padding-right: $--space-xsmall;
   word-break: break-word;
   hyphens: auto;
   text-transform: uppercase;
   letter-spacing: 0.075rem;
-  color: $c__neutral-mid;
+  color: $--color-neutral-mid;
 
   a {
     text-decoration: none;

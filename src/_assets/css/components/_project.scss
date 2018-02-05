@@ -10,15 +10,15 @@
 
 .c-project__logo {
   display: block;
-  margin-bottom: units(1);
+  margin-bottom: $--space-medium;
 
   .c-project:hover & {
-    color: $c__primary;
+    color: $--color-primary;
   }
 
   .c-project:active &,
   .c-project:focus & {
-    color: $c__secondary;
+    color: $--color-secondary;
   }
 }
 
@@ -45,5 +45,5 @@
 
 .c-project__meta {
   display: inline;
-  color: $c__neutral-mid;
+  color: $--color-neutral-mid;
 }

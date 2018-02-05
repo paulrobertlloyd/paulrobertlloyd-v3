@@ -4,7 +4,8 @@
 
 .c-contentinfo {
   @include fs--caption;
-  margin-bottom: units(3);
+  padding: $--space-medium var(--page-gutter);
+  background-color: $--color-neutral-lighter;
 
   a {
     text-decoration: none;
@@ -13,11 +14,7 @@
 }
 
 .c-contentinfo__main {
-  position: relative;
-  padding-right: var(--page-gutter);
-  padding-left: var(--page-gutter);
-
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,10 +22,8 @@
 }
 
 .c-contentinfo__social {
-  display: flex;
-  margin-bottom: units(1);
-
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
+    display: flex;
     flex: 0 0 auto;
     width: percentage(2/9);
   }
@@ -36,12 +31,23 @@
   @media print {
     display: none;
   }
+
+  a {
+    opacity: 0.75;
+    line-height: 0;
+    margin-right: $--space-small;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 .c-contentinfo__links {
-  margin-bottom: units(1);
+  padding-top: $--space-small;
+  padding-bottom: $--space-small;
 
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
     flex: 0 1 auto;
   }
 
@@ -55,11 +61,12 @@
 }
 
 .c-contentinfo__copyright {
-  margin-bottom: units(1);
-
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
     flex: 0 0 auto;
-    margin-right: percentage(1/9);
     margin-left: auto;
+  }
+
+  @media screen and (min-width: $--breakpoint-c) {
+    margin-right: percentage(1/9);
   }
 }

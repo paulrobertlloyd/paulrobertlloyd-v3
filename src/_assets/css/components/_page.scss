@@ -11,7 +11,7 @@
 .c-page__footer {
   order: -1;
 
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
     padding-right: percentage(1/9);
     padding-left: percentage(2/9);
   }
@@ -23,8 +23,8 @@
 }
 
 .c-page__footer {
-  margin-bottom: units(4);
-  color: $c__neutral-mid;
+  margin-bottom: $--space-xlarge;
+  color: $--color-neutral-mid;
 
   a {
     text-decoration: none;
@@ -33,7 +33,7 @@
 
 .c-page__title {
   @include fs--title;
-  margin-bottom: units(1);
+  margin-bottom: $--space-medium;
   hanging-punctuation: first;
   font-weight: 700;
 
@@ -44,5 +44,5 @@
 }
 
 .c-page__excerpt {
-  margin-bottom: units(3);
+  margin-bottom: $--space-large;
 }

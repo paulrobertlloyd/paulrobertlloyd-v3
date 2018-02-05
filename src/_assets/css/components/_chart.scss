@@ -13,15 +13,15 @@
   }
 
   .c-chart__value {
-    padding-top: 0.125rem;
+    padding-top: $--space-xxsmall;
     padding-right: 0;
   }
 
   .c-chart__value--percent {
     display: block;
     margin-bottom: 0;
-    background-color: rgba($c__neutral-dark, 0.2);
-    padding: 0 0.25rem;
+    background-color: rgba($--color-neutral-dark, 0.2);
+    padding: 0 $--space-xsmall;
     white-space: nowrap;
   }
 }

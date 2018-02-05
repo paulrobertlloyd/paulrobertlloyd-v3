@@ -4,26 +4,26 @@
 
 .c-meta {
   @include fs--caption;
-  margin-bottom: units(1);
+  margin-bottom: $--space-medium;
   overflow: hidden;
 }
 
 .c-meta__title {
-  color: $c__neutral-mid;
+  color: $--color-neutral-mid;
 
-  @media (max-width: ($b__bx)) {
+  @media (max-width: ($--breakpoint-bx)) {
     float: left;
-    margin-bottom: units(1);
-    padding-right: 0.5rem;
+    margin-bottom: $--space-medium;
+    padding-right: $--space-small;
     width: percentage(2/9);
   }
 }
 
 .c-meta__value {
-  margin-bottom: units(1);
+  margin-bottom: $--space-medium;
   margin-left: 0;
 
-  @media (max-width: ($b__bx)) {
+  @media (max-width: ($--breakpoint-bx)) {
     padding-left: percentage(2/9);
   }
 

@@ -1,0 +1,30 @@
+// ========================================================
+// Webfonts
+// ========================================================
+
+@font-face {
+  font-family: Calibre;
+  font-weight: normal;
+  font-style: normal;
+  src:
+    asset_url("calibre-regular.woff2") format("woff2"),
+    asset_url("calibre-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Calibre;
+  font-weight: normal;
+  font-style: italic;
+  src:
+    asset_url("calibre-italic.woff2") format("woff2"),
+    asset_url("calibre-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: Calibre;
+  font-weight: bold;
+  font-style: normal;
+  src:
+    asset_url("calibre-semibold.woff2") format("woff2"),
+    asset_url("calibre-semibold.woff") format("woff");
+}

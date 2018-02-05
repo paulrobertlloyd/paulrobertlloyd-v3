@@ -5,7 +5,7 @@
 .c-pagination {
   display: flex;
 
-  @media (min-width: $b__b) {
+  @media (min-width: $--breakpoint-b) {
     padding-left: percentage(2/9);
   }
 
@@ -15,7 +15,7 @@
 }
 
 .c-pagination__item {
-  margin-right: 1rem;
+  margin-right: $--space-medium;
   font-weight: 700;
   text-decoration: none;
 }

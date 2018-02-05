@@ -4,10 +4,10 @@
 
 .c-item {
   flex-direction: column;
-  margin-bottom: units(3);
+  margin-bottom: $--space-large;
 
-  @media (min-width: $b__b) {
-    margin-bottom: units(6);
+  @media (min-width: $--breakpoint-b) {
+    margin-bottom: $--space-xlarge;
   }
 
   &:last-child {
@@ -16,15 +16,15 @@
 }
 
 .c-item--about {
-  background-color: $c__neutral-lighter;
-  margin-right: (units(1) * -1);
-  margin-left: (units(1) * -1);
-  padding: units(1);
+  background-color: $--color-neutral-lighter;
+  margin-right: ($--space-medium * -1);
+  margin-left: ($--space-medium * -1);
+  padding: $--space-medium;
 
-  @media (min-width: $b__a) {
-    margin-right: (units(2) * -1);
-    margin-left: (units(2) * -1);
-    padding: units(2);
+  @media (min-width: $--breakpoint-a) {
+    margin-right: ($--space-large * -1);
+    margin-left: ($--space-large * -1);
+    padding: $--space-large;
   }
 
   .c-item__main {
@@ -34,22 +34,22 @@
 
 .c-item--article,
 .c-item--talk {
-  margin-bottom: units(2);
+  margin-bottom: $--space-large;
 }
 
 .c-item__media,
 .c-item__footer {
-  margin-bottom: units(1);
+  margin-bottom: $--space-medium;
 }
 
 .c-item__header {
-  margin-bottom: units(2/3);
+  margin-bottom: $--space-small;
 }
 
 .c-item__main {
-  margin-bottom: units(2/3);
+  margin-bottom: $--space-small;
 
-  @media (min-width: $b__a) {
+  @media (min-width: $--breakpoint-a) {
     .c-item--link &,
     .c-item--comment & {
       padding-right: percentage(1/8);
@@ -63,7 +63,7 @@
   font-weight: 700;
 
   a {
-    color: $c__primary;
+    color: $--color-primary;
   }
 
   .c-item--entry &,
@@ -74,7 +74,7 @@
 
 .c-item__footer {
   @include fs--caption;
-  color: $c__neutral-mid;
+  color: $--color-neutral-mid;
 
   a {
     text-decoration: none;
@@ -93,14 +93,14 @@
 .c-item__avatar {
   height: auto;
   width: percentage(1/8);
-  background-color: $c__neutral-mid;
+  background-color: $--color-neutral-mid;
 }
 
 // Gallery
 .c-item--gallery {
   position: relative;
-  padding-left: units(7);
-  min-height: units(7);
+  padding-left: ($--size-medium + $--gutter);
+  min-height: ($--size-medium + $--gutter);
 
   .c-item__cover {
     position: absolute;
@@ -110,7 +110,7 @@
     &::before,
     &::after {
       position: absolute;
-      background: $c__neutral-mid;
+      background: $--color-neutral-mid;
       height: 1px;
       content: "";
     }
@@ -129,17 +129,17 @@
   }
 
   .c-item__cover-photo {
-    width: units(6);
-    height: units(6);
+    width: $--size-medium;
+    height: $--size-medium;
   }
 }
 
 // Comment
 .c-item--comment {
   position: relative;
-  padding-left: calc(#{percentage(1/8)} + #{$u__gutter});
+  padding-left: calc(#{percentage(1/8)} + #{$--gutter});
 
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
     padding-left: 0;
   }
 
@@ -148,8 +148,8 @@
     top: 0;
     left: 0;
 
-    @media (min-width: $b__b) {
-      left: calc((#{percentage(1/8)} + #{$u__gutter}) * -1);
+    @media (min-width: $--breakpoint-b) {
+      left: calc((#{percentage(1/8)} + #{$--gutter}) * -1);
     }
   }
 }

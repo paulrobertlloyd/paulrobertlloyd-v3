@@ -5,10 +5,10 @@
 
 .webmention-mention {
   position: relative;
-  margin-bottom: units(2);
-  padding-left: calc(#{percentage(1/12)} + #{$u__gutter});
+  margin-bottom: $--space-large;
+  padding-left: calc(#{percentage(1/12)} + #{$--gutter});
 
-  @media screen and (min-width: $b__b) {
+  @media screen and (min-width: $--breakpoint-b) {
     padding-left: 0;
   }
 }
@@ -22,10 +22,10 @@
     left: 0;
     height: auto;
     width: percentage(1/12);
-    background-color: $c__neutral-mid;
+    background-color: $--color-neutral-mid;
 
-    @media (min-width: $b__b) {
-      left: calc((#{percentage(1/12)} + #{$u__gutter / 2}) * -1);
+    @media (min-width: $--breakpoint-b) {
+      left: calc((#{percentage(1/12)} + #{$--gutter / 2}) * -1);
     }
   }
 }
@@ -33,5 +33,5 @@
 .webmention-published {
   @include fs--caption;
   text-decoration: none;
-  color: $c__neutral-mid;
+  color: $--color-neutral-mid;
 }

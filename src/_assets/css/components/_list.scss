@@ -11,7 +11,7 @@
 }
 
 .c-list--inline {
-  @media (max-width: ($b__ax)) {
+  @media (max-width: ($--breakpoint-ax)) {
     line-height: 2;
   }
 

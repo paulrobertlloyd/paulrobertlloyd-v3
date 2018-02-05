@@ -23,11 +23,11 @@
   font-size: 2rem; // 32px
   letter-spacing: -0.025em;
 
-  @media (min-width: $b__b) {
+  @media (min-width: $--breakpoint-b) {
     font-size: 2.75rem; // 44px
   }
 
-  @media (min-width: $b__c) {
+  @media (min-width: $--breakpoint-c) {
     font-size: 3.5rem; // 56px
   }
 }
@@ -37,7 +37,7 @@
   font-size: 1.75rem; // 28px
   letter-spacing: -0.025em;
 
-  @media (min-width: $b__b) {
+  @media (min-width: $--breakpoint-b) {
     line-height: 1;
     font-size: 2.5rem; // 40px
   }
@@ -48,7 +48,7 @@
   font-size: 1.3125rem; // 21px
   letter-spacing: -0.025em;
 
-  @media (min-width: $b__b) {
+  @media (min-width: $--breakpoint-b) {
     line-height: (32 / 28);
     font-size: 1.75rem; // 28px
   }
@@ -59,7 +59,7 @@
   font-size: 1.125rem; // 18px
   letter-spacing: -0.025em;
 
-  @media (min-width: $b__c) {
+  @media (min-width: $--breakpoint-c) {
     font-size: 1.3125rem; // 21px
   }
 }
@@ -69,7 +69,7 @@
   font-size: 1.3125rem; // 21px
   letter-spacing: -0.025em;
 
-  @media (min-width: $b__c) {
+  @media (min-width: $--breakpoint-c) {
     font-size: 1.5rem; // 24px
   }
 }
@@ -79,11 +79,11 @@
   font-size: 1rem; // 16px
   letter-spacing: -0.015em;
 
-  @media (min-width: $b__c) {
+  @media (min-width: $--breakpoint-b) {
     font-size: 1.125rem; // 18px
   }
 
-  @media (min-width: $b__d) {
+  @media (min-width: $--breakpoint-c) {
     font-size: 1.25rem; // 20px
   }
 }
@@ -97,26 +97,26 @@
 // Link
 @mixin link {
   text-decoration: underline;
-  text-decoration-color: $c__primary;
+  text-decoration-color: $--color-primary;
   text-decoration-skip: ink;
   color: inherit;
 
   &:hover {
-    color: $c__primary;
+    color: $--color-primary;
   }
 
   &:active,
   &:focus {
     text-decoration-color: currentColor;
-    color: $c__secondary;
+    color: $--color-secondary;
   }
 }
 
 // Line rule
-@mixin rule($height: $u__rule-height, $width: 100%, $position: "before") {
+@mixin rule($height: $--rule-thin, $width: 100%, $position: "before") {
   &::#{$position} {
     display: inline-block;
-    border-top: $height solid rgba($c__neutral-mid, 0.25);
+    border-top: $height solid rgba($--color-neutral-mid, 0.25);
     width: $width;
     content: "";
   }
@@ -126,7 +126,7 @@
 @mixin separate {
   &::after {
     margin: 0 0.15rem;
-    color: rgba($c__neutral-mid, 0.5);
+    color: rgba($--color-neutral-mid, 0.5);
     font-weight: normal;
     content: "\00a0/";
   }

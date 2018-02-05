@@ -3,11 +3,11 @@
 // ========================================================
 
 .c-exif__values {
-  margin-bottom: units(1);
+  margin-bottom: $--space-medium;
   overflow: hidden;
 
   .c-figure--photo & {
-    @media (min-width: $b__c) {
+    @media (min-width: $--breakpoint-c) {
       position: absolute;
       bottom: 0;
     }
@@ -18,10 +18,10 @@
   float: left;
   margin-left: 0;
   width: 25%;
-  color: $c__neutral-mid;
+  color: $--color-neutral-mid;
 
   &:nth-child(2n+2) {
-    @media (min-width: $b__c) {
+    @media (min-width: $--breakpoint-c) {
       width: 50%;
     }
   }
@@ -31,7 +31,7 @@
 .c-exif__value--model {
   width: 50%;
 
-  @media (min-width: $b__c) {
+  @media (min-width: $--breakpoint-c) {
     width: 100%;
   }
 }

@@ -3,7 +3,7 @@
 // ========================================================
 
 .s-prose {
-  --flow-space: #{units(1)};
+  --flow-space: 0.75rem;
   line-height: (24 / 16);
   font-variant: common-ligatures oldstyle-nums;
   hanging-punctuation: first;
@@ -15,30 +15,30 @@
   blockquote {
     > *:not(footer) {
       --flow-space: 0;
-      padding-left: 1rem;
-      border-left: 0.125rem solid;
+      padding-left: $--space-medium;
+      border-left: $--rule-medium solid;
     }
 
     > * + *:not(footer) {
-      padding-top: 0.5rem;
+      padding-top: $--space-small;
     }
 
     footer {
       @include fs--caption;
-      margin-top: 0.5rem;
-      color: $c__neutral-mid;
+      margin-top: $--space-small;
+      color: $--color-neutral-mid;
     }
   }
 
   ol:not([class]),
   ul:not([class]),
   dd:not([class]) {
-    margin-left: 2rem;
+    margin-left: $--space-large;
   }
 
   hr {
-    @include rule($height: 0.125rem);
-    margin: units(1) auto units(2);
+    @include rule($height: $--rule-medium);
+    margin: $--space-medium auto;
     border: 0;
     line-height: 0;
   }
@@ -48,31 +48,31 @@
   }
 
   tbody {
-    margin-bottom: units(1);
+    margin-bottom: $--space-medium;
   }
 
   caption {
     @include fs--caption;
-    margin-top: 0.5rem;
+    margin-top: $--space-small;
   }
 
   td,
   th {
-    border-top: 1px solid;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
+    border-top: $--rule-thin solid;
+    padding-right: $--space-medium;
+    padding-bottom: $--space-small;
     vertical-align: top;
     white-space: nowrap;
     overflow-wrap: break-word;
   }
 
   td {
-    border-color: rgba($c__neutral-mid, 0.5);
+    border-color: rgba($--color-neutral-mid, 0.5);
   }
 
   th {
-    border-top: $u__rule-height solid;
-    padding-bottom: 1rem;
+    border-top: $--rule-thin solid;
+    padding-bottom: $--space-medium;
     font-weight: 700;
   }
 
@@ -83,16 +83,7 @@
   .footnotes {
     @include fs--caption;
     @include rule($width: 20%);
-    margin-bottom: units(3);
-    color: $c__neutral-mid;
-
-    &:not(:last-child) {
-      margin-bottom: units(4);
-    }
-
-    ol {
-      margin-top: units(1);
-    }
+    color: $--color-neutral-mid;
   }
 }
 
@@ -102,22 +93,22 @@
 
   h2 {
     @include fs--heading-2;
-    margin-bottom: units(1);
+    margin-bottom: $--space-small;
     font-weight: 700;
   }
 
   *:not(hr) + h2 {
-    margin-top: units(4);
+    margin-top: $--space-xlarge;
   }
 
   h3 {
     @include fs--heading-3;
-    margin-bottom: units(1/3);
+    margin-bottom: $--space-small;
     font-weight: 700;
   }
 
   *:not(hr) + h3 {
-    margin-top: units(3);
+    margin-top: $--space-large;
   }
 
   h4 {
@@ -127,12 +118,11 @@
 
   * + table,
   * + figure {
-    margin-top: units(2);
+    margin-top: $--space-xlarge;
   }
 
   hr {
-    margin-top: units(3);
-    margin-bottom: units(4);
+    margin: $--space-xlarge auto;
   }
 
   pre {
@@ -141,33 +131,33 @@
 
   li,
   li > * {
-    margin-bottom: units(1/3);
+    margin-bottom: $--space-xsmall;
   }
 
   figure {
-    margin-bottom: units(3);
+    margin-bottom: $--space-xlarge;
 
     > * {
-      margin-bottom: units(1);
+      margin-bottom: $--space-medium;
     }
 
     &.u-extend {
-      @media (min-width: $b__c) {
+      @media (min-width: $--breakpoint-c) {
         display: grid;
         grid-template-columns: auto percentage(4/12);
-        grid-column-gap: $u__gutter;
-        border-top: 1px solid rgba($c__neutral-mid, 0.25);
-        padding-top: ($u__gutter / 3);
+        grid-column-gap: $--gutter;
+        border-top: $--rule-thin solid rgba($--color-neutral-mid, 0.25);
+        padding-top: ($--gutter / 3);
       }
 
       img {
-        @media (min-width: $b__c) {
+        @media (min-width: $--breakpoint-c) {
           margin-bottom: 0;
         }
       }
 
       figcaption {
-        @media (min-width: $b__c) {
+        @media (min-width: $--breakpoint-c) {
           grid-column-start: 2;
         }
       }
@@ -175,19 +165,19 @@
 
     &.u-bleed {
       figcaption {
-        padding-right: 1rem;
-        padding-left: 1rem;
+        padding-right: $--space-medium;
+        padding-left: $--space-medium;
 
-        @media (min-width: $b__a) {
-          padding-right: 2rem;
-          padding-left: 2rem;
+        @media (min-width: $--breakpoint-a) {
+          padding-right: $--space-large;
+          padding-left: $--space-large;
         }
 
-        @media screen and (min-width: $b__b) {
-          padding-left: calc(#{percentage(2/9)} + 1rem);
+        @media screen and (min-width: $--breakpoint-b) {
+          padding-left: calc(#{percentage(2/9)} + $--space-medium);
         }
 
-        @media screen and (min-width: $b__c) {
+        @media screen and (min-width: $--breakpoint-c) {
           padding-left: percentage(2/9);
         }
       }
@@ -197,12 +187,12 @@
   figcaption,
   small {
     @include fs--caption;
-    color: $c__neutral-mid;
+    color: $--color-neutral-mid;
   }
 
   figcaption {
     > * + * {
-      margin-top: units(2/3);
+      margin-top: $--space-small;
     }
 
     li {
@@ -211,8 +201,8 @@
   }
 
   > .highlighter-rouge {
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
-    padding: 0.5rem;
+    margin-right: -$--space-small;
+    margin-left: -$--space-small;
+    padding: $--space-small;
   }
 }

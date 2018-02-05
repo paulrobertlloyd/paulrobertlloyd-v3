@@ -1,0 +1,50 @@
+// ========================================================
+// Global Variables
+// ========================================================
+
+// Spacing
+$--space-xxsmall: 0.125rem; // 2px
+$--space-xsmall: 0.25rem; // 4px
+$--space-small: 0.5rem; // 8px
+$--space-medium: 1rem; // 16px
+$--space-large: 2rem; // 32px
+$--space-xlarge: 4rem; // 64px
+$--space-xxlarge: 6rem; // 96px
+
+// Sizing
+$--size-small: 3rem; // 48px
+$--size-medium: 4.5rem; // 72px
+$--size-large: 6rem; // 96px
+
+// Rules
+$--rule-thin: 1px;
+$--rule-medium: 2px;
+$--rule-thick: 4px;
+
+// Units > Grids
+$nested-ratio: (12 / 8);
+$--colspan-1: (percentage(1/9) * $nested-ratio);
+$--colspan-2: (percentage(2/12) * $nested-ratio);
+$--colspan-3: (percentage(2/9) * $nested-ratio);
+$--colspan-4: (percentage(4/12) * $nested-ratio);
+$--gutter: $--space-large;
+
+// Colours
+$--color-neutral-darkest: hsl(320, 20%, 7%);
+$--color-neutral-dark: hsl(320, 10%, 21%);
+$--color-neutral-mid: hsl(320, 5%, 42%);
+$--color-neutral-light: hsl(320, 2%, 70%);
+$--color-neutral-lighter: hsl(320, 1%, 91%);
+$--color-neutral-lightest: hsl(320, 0, 98%);
+
+$--color-primary: hsl(220, 100%, 50%);
+$--color-secondary: hsl(280, 67%, 50%);
+
+$--color-valid: hsl(180, 67%, 50%);
+
+// Breakpoints
+$--breakpoint-a: 32rem; // 512px
+$--breakpoint-ax: 31.9375rem; // 511px
+$--breakpoint-b: 45rem; // 720px
+$--breakpoint-bx: 44.9375rem; // 719px
+$--breakpoint-c: (60rem + $--space-large);

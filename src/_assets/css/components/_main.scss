@@ -7,16 +7,16 @@
   flex: 1;
   padding-right: var(--page-gutter);
   padding-left: var(--page-gutter);
-  margin-bottom: units(3);
+  margin-bottom: $--space-large;
 }
 
 .c-main__title {
   @include fs--heading-1;
-  margin-bottom: units(2);
+  margin-bottom: $--space-large;
   font-weight: 700;
 
-  @media screen and (min-width: $b__b) {
-    margin-bottom: units(4);
+  @media screen and (min-width: $--breakpoint-b) {
+    margin-bottom: $--space-xlarge;
     padding-right: percentage(1/9);
     padding-left: percentage(2/9);
   }

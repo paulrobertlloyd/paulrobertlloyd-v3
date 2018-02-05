@@ -1,5 +1,5 @@
 .c-year {
-  margin-bottom: units(2);
+  margin-bottom: $--space-large;
 
   a {
     display: block;
@@ -16,13 +16,12 @@
 
 .c-year__meta {
   @include fs--caption;
-  margin-bottom: units(2/3);
-  color: $c__neutral-mid;
+  color: $--color-neutral-mid;
 }
 
 .c-year__graph {
   display: block;
-  height: units(6);
+  height: $--size-large;
   width: 100%;
   pointer-events: none;
 }
