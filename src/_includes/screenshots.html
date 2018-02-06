@@ -1,9 +1,9 @@
 <figure{% if include.class %} class="{{ include.class }}"{% endif %}>
   <div class="c-screenshots">
-  {% for image in include.imageset %}
-    {% assign classname = image | split:"/" | last | remove:".png" | prepend: "c-screenshot c-screenshot--" %}
-    {% include image.html preset="supporting" src=image class=classname %}
-  {% endfor %}
+{% for image in include.imageset %}
+  {% assign classname = image | split:"/" | last | remove:".png" | prepend: "c-screenshot c-screenshot--" %}
+  {% include image.html preset="supporting" src=image class=classname %}
+{% endfor %}
   </div>
 {% if include.caption %}
   <figcaption>{{ include.caption | markdownify }}</figcaption>

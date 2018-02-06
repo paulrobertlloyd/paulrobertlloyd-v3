@@ -2,13 +2,12 @@
 permalink: /archive/search.json
 regenerate: true
 ---
-{%- assign items = site.documents | where: "feed", true | sort: "date" | reverse -%}
-[{% for item in items %}
+{%- assign items = site.documents | where: "archive", true | sort: "date" | reverse -%}
+[{% for item in items %}{%unless item.title == "" %}
   {
     "title": {{ item.title | smartify | jsonify }},
-    "excerpt": {{ item.excerpt | smartify | jsonify }},
-    "type": {{ item.layout | jsonify }},
-    "tags": "{{ item.tags | array_to_sentence_string }}",
+    "content": {{ item.content | smartify | strip_html | normalize_whitespace | jsonify }},
+    "tags": {{ item.tags | array_to_sentence_string | jsonify }},
     "url": {{ item.url | remove:".html" | jsonify }}
   }{% if forloop.last %}{% else %},{% endif %}
-{%- endfor %}]
+{%- endunless %}{% endfor %}]

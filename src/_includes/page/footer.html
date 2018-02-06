@@ -1,18 +1,18 @@
 <footer class="c-page__footer">
   <p>
-{%- if page.event %}
+{% if page.event %}
     <span aria-label="Presented on"></span>
-{%- else %}
+{% else %}
     <span aria-label="Published on"></span>
-{%- endif %}
+{% endif %}
     <a class="u-url" href="{{ page.url }}" rel="bookmark">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}{% if include.time %}, {{ page.date | date: "%l:%M%P" }}{% endif %}</time>
     </a>
-{%- if page.event %}
+{% if page.event %}
     <span aria-label="at">·</span> {{ page.event | strip | strip_newlines }}
-{%- endif %}
-{%- if page.location %}{% assign page_location = page.location | split: ", " %}
+{% endif %}
+{% if page.location %}{% assign page_location = page.location | split: ", " %}
     <span aria-label="in">·</span> <span class="p-location h-adr"><span class="p-locality">{{ page_location[0] | strip }}</span>, <span class="p-country-name">{{ page_location[1] }}</span></span>
-{%- endif %}
+{% endif %}
   </p>
 </footer>

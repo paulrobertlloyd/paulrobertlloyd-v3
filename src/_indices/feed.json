@@ -25,7 +25,7 @@ regenerate: true
       {% if item.excerpt != "" %}"summary": {{ item.excerpt | strip_newlines | jsonify }},{% endif %}
       {%- comment -%}`image:` should have same image and quality values as default image preset{%- endcomment -%}
       {% if item.image.src %}"image": "{{ item.image.src | prepend: "/image/1280x/90q/" | prepend: site.url }}",{% endif %}
-      {% capture content_html %}{% include feed/content.html %}{% endcapture %}"content_html": {{ content_html | strip_newlines | jsonify }},
+      "content_html": {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | normalize_whitespace | jsonify }},
       "date_published": "{{ item.date | date_to_xmlschema }}",
       "tags": {{ item.tags | jsonify }}
     }{% if forloop.last %}{% else %},{% endif %}

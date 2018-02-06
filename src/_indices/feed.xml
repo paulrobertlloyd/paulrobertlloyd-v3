@@ -29,7 +29,7 @@ regenerate: true
     <link href="{{ site.url }}{{ item.url }}" rel="alternate" type="text/html"/>
     {% endif -%}
     <content type="html"><![CDATA[
-      {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | strip_newlines }}
+      {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | normalize_whitespace }}
     ]]></content>
   </entry>
 {% endfor -%}

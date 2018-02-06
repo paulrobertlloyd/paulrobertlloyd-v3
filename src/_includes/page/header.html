@@ -1,8 +1,8 @@
 <header class="c-page__header">
   <h1 class="c-page__title  p-name">{{ page.title | smartify }}</h1>
-{%- if include.excerpt %}
+{% if include.excerpt %}
   <div class="c-page__excerpt s-lede  p-summary">
     {{ page.excerpt | markdownify | smartify }}
   </div>
-{%- endif %}
+{% endif %}
 </header>

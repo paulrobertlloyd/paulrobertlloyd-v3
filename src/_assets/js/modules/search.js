@@ -13,7 +13,7 @@ function search() {
   function findResults(termToMatch, pages) {
     return pages.filter(item => {
       var regex = new RegExp(termToMatch, 'gi');
-      return item.title.match(regex) || item.excerpt.match(regex);
+      return item.title.match(regex) || item.content.match(regex) || item.tags.match(regex);
     });
   }
 
