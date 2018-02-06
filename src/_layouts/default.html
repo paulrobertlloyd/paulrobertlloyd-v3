@@ -5,22 +5,22 @@
 <html lang="en-gb" prefix="og: http://ogp.me/ns#" class="{% if page.theme %}t-{{ page.theme }}{% endif %}">
 <!--#endif-->
 <head>
-  <link rel="preload" href="{% asset calibre-regular.woff2 @path %}" as="font" type="font/woff2" crossorigin/>
-  <link rel="stylesheet" href="{% asset main.css @path %}"/>
-  <link rel="serviceworker" href="/serviceworker.js"/>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
-  <link rel="apple-touch-icon" href="{% asset icon.png @path %}" type="image/png"/>
-  <link rel="mask-icon" href="{% asset icon.svg @path %}" color="{{ site.theme_color }}"/>
-  <link rel="canonical" href="{{ site.url }}{{ page.url | remove:"index.html" | remove:".html" }}"/>
-  <link rel="manifest" href="/manifest.json"/>
-  <link rel="me" href="https://paulrobertlloyd.com"/>
-  <link rel="authorization_endpoint" href="https://indieauth.com/auth"/>
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token"/>
-  <link rel="micropub" href="https://paulrobertlloyd-micropub.herokuapp.com/micropub/main"/>
-  <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Journal (XML Atom)"/>
-  <link rel="alternate" href="/feed.json" type="application/json" title="Journal (JSON Feed)"/>
+  <link href="{% asset calibre-regular.woff2 @path %}" rel="preload" type="font/woff2" as="font" crossorigin/>
+  <link href="{% asset site.css @path %}" rel="stylesheet"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/ico"/>
+  <link href="{% asset icon.png @path %}" rel="apple-touch-icon" type="image/png"/>
+  <link href="{% asset icon.svg @path %}" rel="mask-icon" color="{{ site.theme_color }}"/>
+  <link href="{{ site.url }}{{ page.url | remove:"index.html" | remove:".html" }}" rel="canonical"/>
+  <link href="/site.webmanifest" rel="manifest"/>
+  <link href="/serviceworker.js" rel="serviceworker"/>
+  <link href="/feed.xml" rel="alternate" type="application/atom+xml" title="Journal (XML Atom)"/>
+  <link href="/feed.json" rel="alternate" type="application/json" title="Journal (JSON Feed)"/>
+  <link href="https://paulrobertlloyd.com" rel="me"/>
+  <link href="https://indieauth.com/auth" rel="authorization_endpoint"/>
+  <link href="https://tokens.indieauth.com/token" rel="token_endpoint"/>
+  <link href="https://paulrobertlloyd-micropub.herokuapp.com/micropub/main" rel="micropub"/>
 
-  <script src="{% asset main.js @path %}" async></script>
+  <script src="{% asset site.js @path %}" async></script>
 
   <meta charset="utf-8"/>
   <meta name="referrer" content="origin"/>

@@ -1,7 +1,7 @@
 <article class="c-item c-item--series  h-entry">
   <header class="c-item__header">
     <h3 class="c-item__title  p-name">
-      <a class="u-url" href="{{ item.url }}" rel="bookmark">{{ item.title | smartify }}</a>
+      <a href="{{ item.url }}" rel="bookmark">{{ item.title | smartify }}</a>
     </h3>
   </header>
 
@@ -11,7 +11,7 @@
 
   <footer class="c-item__footer">
     {% if include.showtype == true %}<b class="p-category">{{ item.layout | capitalize }}</b><span aria-label=","> ·</span>{% endif %}
-    <a href="{{ item.url }}" rel="bookmark">
+    <a class="u-url" href="{{ item.url }}" rel="bookmark">
       <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
     </a>
     {% if item.location %}<span aria-label=",">·</span> {{ item.location }}{% endif %}

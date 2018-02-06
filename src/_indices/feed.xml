@@ -12,8 +12,8 @@ regenerate: true
     <email>{{ site.author.email }}</email>
     <uri>{{ site.author.url }}</uri>
   </author>
-  <link rel="self" href="{{ site.url }}/feed.xml" type="application/atom+xml"/>
-  <link rel="alternate" href="{{ site.url }}" type="text/html"/>
+  <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}" rel="alternate" type="text/html"/>
   <icon>{{ site.url }}{% asset icon.png @path %}</icon>
   <rights>© {{ site.time | date:"%Y" }} {{ site.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 {% assign items = site.documents | where: "feed", true | sort: "date" | reverse %}
@@ -23,10 +23,10 @@ regenerate: true
     <title>{% if item.title != "" %}{{ item.title | markdownify | strip_html | xml_escape | strip_newlines }}{% endif %}</title>
     <updated>{{ item.date | date_to_xmlschema }}</updated>
     {%- if item.link %}
-    <link rel="alternate" href="{{ item.link }}" type="text/html"/>
-    <link rel="related" href="{{ site.url }}{{ item.url }}" type="text/html"/>
+    <link href="{{ item.link }}" rel="alternate" type="text/html"/>
+    <link href="{{ site.url }}{{ item.url }}" rel="related" type="text/html"/>
     {% else %}
-    <link rel="alternate" href="{{ site.url }}{{ item.url }}" type="text/html"/>
+    <link href="{{ site.url }}{{ item.url }}" rel="alternate" type="text/html"/>
     {% endif -%}
     <content type="html"><![CDATA[
       {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | strip_newlines }}
