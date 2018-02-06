@@ -38,7 +38,7 @@ Another area of concern was the Apple II's manual. Originally provided with a sp
 
 It was this attention to every detail from the colour and material of the machines case to the design of their logo, that undoubtedly helped Apple reach sales of $7.8 million by 1978 and allow them to claim in its advertising that the Apple II was "the world's best selling personal computer".
 
-* * *
+***
 
 ## The iMac
 
@@ -84,7 +84,7 @@ Another subtle improvement occurred when you put the computer to 'sleep' (a sort
 
 {% include image.html preset="thumbnail" src="articles/beige_to_bondiblue/apple_logo_aqua.png" class="u-align-right" alt="Apple 'aqua' logo" %} As with the Apple II, the manual was an important aspect of the design. The iMac's original manual was entered into the <cite>Guinness Book of World Records</cite> for the being the world's smallest, containing only 32 words -- a statement that further stressed the simplicity of owning an iMac. Further still, the iMac was another product to influence Apple's logo. With the introduction of the iMac, Apple altered its logo to match the translucent styling of the iMac, and with its success, replaced the original with this new version appearing in various colours.
 
-* * *
+***
 
 ## Conclusion
 
@@ -98,7 +98,7 @@ The Apple II and the iMac are similar in that they both introduced the consumer 
 
 With his understanding of the emotional value objects can have to the user, and the fact that consumers pay attention to design, both were and remain successful designs.
 
-* * *
+***
 
 ## References
 

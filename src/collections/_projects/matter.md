@@ -17,6 +17,7 @@ The brainchild of journalists Bobbie Johnson and Jim Giles, Matter is home to in
 After an enormously successful [Kickstarter campaign][1] proved there was a real desire for high-quality, focused, long-form writing, Bobbie and Jim [asked Clearleft][2] to envisage the user experience and visual design. I worked [alongside Jeremy Keith][3] who did the front-end development, and [Phil Gyford][4] who handled the Django-based back-end.
 
 ## Identity
+
 {% include figure.html
   src="projects/matter/logo_sketches.jpg"
   framed=true
@@ -27,7 +28,8 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 
 Much of my work for Matter focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that Matter aims for.
 
-## Painless Payments
+## Painless payments
+
 As well as being able to purchase individual articles as ebooks via Amazon and iTunes, subscribers could get access to all the stories on the website. Crucial to making this work was creating a frictionless payment flow. A guided two-step flow kept form fields to a minimum, and made subscribing a painless experience.
 
 {% include figure.html
@@ -36,6 +38,7 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 %}
 
 ## Typography
+
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
 {% include figure.html

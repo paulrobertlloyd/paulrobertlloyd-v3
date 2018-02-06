@@ -15,12 +15,14 @@ discussion: closed
 ---
 They say change is as good as a rest. With early morning commutes, a 'distinctive' uniform and interaction with the general public, volunteering at the London 2012 Paralympic Games couldn't have been further removed from the desk-bound job I'd become weary of.
 
-## The Last Mile
+## The last mile
+
 When I applied to be a volunteer two years ago, I hoped to get selected to work at the Olympics: the more glamorous event with an incredible history. It didn't work out that way, but volunteering at the Paralympics meant I could enjoy the spectacle of a home Olympics before embracing the Games Maker experience, where I would be working within a group called the Last Mile.
 
 As training events later revealed, this meant working *outside* venues, welcoming people and pointing them in the right direction. Would being so far away from the action diminish both the enjoyment and importance of my role? A final training session only heightened my concerns. Not only did I discover that I'd be working in and around the Westfield Shopping Centre, but that my team would be based inside a car park!
 
-## Small Acts of Kindness
+## Small acts of kindness
+
 I arrived at my first shift wondering if it would be my last. The car park was dark and uncomfortable, but it was filled with friendly, excitable faces. While grey skies yielded heavy rain and my team leader's grumpiness slowly morphed into nonchalance, I enjoyed chatting to new colleagues and helping my first 'clients'.
 
 As I grew into the role, I slowly became addicted to it. The rain abated, and never returned.
@@ -29,7 +31,8 @@ Shifts were long, but they were filled with moments of joy. Children's faces wou
 
 I found myself televised on numerous occasions, though only in places like Ukraine! When John Inverdale gave me a prized BBC Paralympics pin badge, my excitement was obscured by the ear-piercing white noise omitted from the megaphone I dropped. Embarrassing.
 
-## Park Life
+## Park life
+
 Working on the last mile turned out to be the plum job. It *was* an important role, and certainly the most visible. We were the first and last faces people would see at the Paralympic Games; if we upset anyone, volunteers in the park would know about it. Our role was to set the mood, if nothing else.
 
 Although based outside the ticket gates, accreditation meant I could still pass through them and enter the Olympic Park. For many, visiting was a one-off experience, but I became numb to its innovative venues and beautiful landscaping.
@@ -45,7 +48,8 @@ A two-year journey had come to an abrupt end, the nervy expectation of two weeks
   caption="A photo from the final Games Maker shift"
 %}
 
-## A Genuine Act
+## A genuine act
+
 Like many others, I'm now suffering a post-Games come down. After a happy and glorious summer, in which Britain's underlying warm and cheerful nature was revealed to an unsuspecting world, all that remains is retrospection.
 
 I suspect the shift in the nation's attitude was a confluence of many factors: good weather, the success of our athletes and the surprising competency of London's organising committee, with the Games Makers living up to their name.
@@ -56,7 +60,8 @@ We were asked to remember the acronym I DO ACT: be Inspirational, Distinctive, O
 
 I'm tempted to compare the atmosphere at London 2012 to that of product launches at Apple Stores. Featuring the same level of excitement and enthusiasm, I find these experiences jarring; a manufactured form of joy. Yet at London 2012, nothing was scripted -- and in many cases [that was obvious][2]. I believe this genuineness, in all forms, resonated with a British public that can be sceptical and standoffish.
 
-## The 'L' Word
+## The 'L' word
+
 With thoughts of a legacy already slipping down the political agenda, any lasting change has to come from the collective action of individuals.
 
 I'm now encouraged to do more volunteering, perhaps even taking a break each year to do so. I'm also keen to be involved with Glasgow 2014, and possibly Rio 2016. Wider lessons can be taken from this experience too. I'm determined to become a little more open and approachable; a recent flight was more enjoyable having started a conversation with my neighbouring passenger for example.
@@ -65,7 +70,8 @@ I've also seen what it can be like controlling large crowds, and how a single ex
 
 Lessons can be quickly forgotten. Legacies are hard won.
 
-## Don't be sad it's over. Be glad that it happened at all.
+## Don't be sad it's over; be glad that it happened at all
+
 Having seen amazing Olympic and Paralympic sport and spent considerable amount of time in the Olympic Park, I'm glad I experienced this moment in British history to its fullest extent. Having been a Games Maker, I was part of what made it a success.
 
 The day after the games concluded, volunteers were asked to wear their uniform one last time so people could thank us for our work. It was also the day of the athletes victory parade through London. In a spontaneous act, Games Makers joined in behind the floats, with any volunteers spotted in the crowds lining the streets encouraged to do likewise.

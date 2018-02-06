@@ -16,6 +16,7 @@ Sat in the front seat of a [Saltspring Air][1] float plane, I enjoyed breathtaki
 After checking into the [St. Regis Hotel][3] (worthy of mention, and highly recommended) I briefly explored the waterfront before meeting up with [Stephanie][4], [Dave][5] and other web geeks at the [Alibi Room][6] in Gastown. In the company of several beer experts, I sought recommendations on which four I should sample on my 'Frat-Bat'. I ended up drinking quite a mix: King Heffy, Fat Tug, Tree Vertical and Long Boat. I forget which was my favourite.
 
 ## Stanley Park
+
 I was unsure how to spend my single day in Vancouver. Dave recommended visiting [Stanley Park][7] if the weather was good; luckily the predicted rainfall was absent so I headed in that direction. I was easily drawn into this expansive park; beautiful in and of itself yet also a great spot to find magnificent views of the cityscape. Always on the look out for a good walking trail, I spotted the 8.8km Seawall and followed the circumference of the park.
 
 {% include figure.html

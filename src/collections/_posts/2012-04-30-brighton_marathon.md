@@ -18,7 +18,8 @@ I have no idea how, especially as my training tapered off a little too much in t
 
 Hoping to finish in under five hours, I crossed the line after **5 hours, 30 minutes and 16 seconds** on the road. I may have been disappointed with my time, had I not ran the entire distance. In fact, I limped home feeling rather proud of myself.
 
-## Going the Distance
+## Going the distance
+
 Two factors helped me complete this event: shear mental toughness and support from the crowds.
 
 I knew that to complete the race, I would have to set targets and continually review my progress. Getting halfway would be easy; after all, I had run this distance only a few weeks beforehand.
@@ -31,7 +32,8 @@ On reaching this point, my legs had grown stiff and I anticipated hitting the dr
 
 Eventually I made it. I was euphoric.
 
-## More Than A Race
+## More than a race
+
 Probably my best memory of the whole day was the roar of the crowds as I reached the seafront just before the halfway mark. Such was the lift here, I literally sprinted the next mile!
 
 It seemed like a sense of community had awoken in the people of Brighton. Not only was I cheered along throughout the day (hat-tip to the family in Hove who set up an unofficial 'Party Station') but as I staggered home, passers-by continued to congratulate me, beeping and waving as they drove by. Such behaviour isn't unique to Brighton -- I  enjoyed similar support during the Great North Run -- but it demonstrates what events like this can do for a city. It's more than just a sport.

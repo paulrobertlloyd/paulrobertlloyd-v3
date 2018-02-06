@@ -12,6 +12,7 @@ Clearly communicating the fundamental aspects of your design at the different st
   * [Slides](http://speakerdeck.com/paulrobertlloyd/styleguides-for-the-web-2011)
 
 ## References
+
   * van der Merwe, B. (2011, February 16) [A new global visual language for the BBC's digital services](http://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html). <cite>BBC Internet Blog</cite>
   * Boulton, M. (2011, March 24) [A Richer Canvas](http://www.markboulton.co.uk/journal/a-richer-canvas). <cite>The Personal Disquiet of Mark Boulton</cite>
 

@@ -31,7 +31,8 @@ Given the involvement of Capita (often referred to as '[Crapita][4]' by Private 
 
 Not only did this comment fail to recognise that those disappointed users on Twitter were likely the very same residents and business owners who were using the site, it's even more striking given Birmingham's aim to become the digital media capital of Britain.
 
-## Walsall Gets It Right
+## Walsall gets it right
+
 Yet the relationship between a council and it's residents online needn't be so strained. This controversy reminded me of the different approach taken by my former local authority, [Walsall Council][6], who unlike Birmingham City Council has [successfully embraced Twitter][7] to connect with it's citizens.
 
 Let me give an example. Earlier this year [I wrote about their logo][8], and asked for information about who was responsible for its design, yet this yielded no response. However, on discovering the [@WalsallCouncil][9] account, [I asked the same question][10], and not only did I get an answer, but members of their Print and Design Unit and Press Office [commented on my post][11], giving me more information than I ever could have hoped for.

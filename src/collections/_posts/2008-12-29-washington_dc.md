@@ -44,6 +44,7 @@ You are however allowed to take photos of the [9/11 memorial][8], in which the 1
 %}
 
 ## Architecture
+
 DC is still a relatively young capital, although the many neo-classical styled buildings, and the abundance of colonnades, columns and porticoes would suggest otherwise. In fact, it was often the buildings that looked the oldest -- the Supreme Court and National Archives for example -- that tended to built as recently as the 1930's.
 
 This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind -- with a possible future use as a spaceport! As a sign of Saarinen's foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
@@ -57,7 +58,8 @@ This pseudo-grandeur became a bit tiresome after a while, which is possibly why 
 
 I was particularly impressed by the city's [Metro][11] system. Built towards the end of the 1970's, it was able to learn from those systems that had gone before it; being built largely at the same time, means it has stations with a consistent design and layout. A key feature are lights that line the platform edges, and flash when trains are approaching. Each station is illuminated by fluorescent lighting hidden behind platforms offset from the vaulted walls, and from the top of information pylons centred along the length of the platform, resulting in a well lit, but calming and soft environment.
 
-## Finally, One to Miss
+## Finally, one to miss
+
 The weirdest experience during my stay was visiting [L'Enfant Plaza][12]. Named after the French-American Pierre Charles L'Enfant who planned the layout of the city, and served by all four lines on the metro network, I assumed there would be something worth seeing at this stop. Instead, I was greeted by a 60's dystopia in the form of a deserted shopping mall -- only occupied by me and somebody else who had also got lost in its maze. Having finally being able to exit the building, I was confronted by a mass of brutal concrete, a dull residential estate, and finally a hotel, which given its surroundings was a little surprising.
 
 [1]: http://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial

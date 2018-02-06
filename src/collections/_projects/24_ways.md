@@ -25,7 +25,8 @@ The previous website was designed by Tim Van Damme in 2007. His innovative desig
 
 Furthermore, the site failed to reflect the best practices its authors advocated, such as advanced web typography, colour contrast and CSS3 techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to the broadening range of devices accessing the site.
 
-## Typography and Layout
+## Typography and layout
+
 24 ways is not a commercial venture, and with little budget to spend on web fonts, I sought out open source typefaces. [Lato][2], used for much of the interface as well as body copy, offered a contemporary take on the Swiss-inspired design readers were accustomed to. Headings and standfirsts were set in [Merriweather][3], which gave the articles a more scholarly tone and a provided a degree of typographic contrast.
 
 Where the previous design used a rigid template across all sections of the site, which often dominated the content, I created a series of responsive templates each suited the task in hand. These were supported by application-like navigation conventions.

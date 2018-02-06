@@ -26,7 +26,8 @@ Lessons were learnt about how to arrange similar meet-ups in the future, but tha
 
 We also agreed to share our findings from the day on our blogs. I'm going to concentrate much of my report on the topic of responsive images; possibly the meatiest and most difficult challenges we've encountered so far.
 
-## Media Queries in HTML?
+## Media queries in HTML?
+
 On many topics we found agreement, yet thankfully, there were areas of disagreement too.
 
 Chris asked if we needed media query like behaviour in HTML. For example, a list of links might be better represented as a select menu in certain instances. I questioned whether such an approach would be a regression, taking us back to the 'bad old days' of mixing together presentation, behaviour and content. I still believe that structuring documents semantically, with CSS and JavaScript manipulating that information, is the right approach. Progressive enhancement is forever revealed as a guiding principle when crafting web experiences. I'd hate to see that change.
@@ -36,7 +37,8 @@ Chris asked if we needed media query like behaviour in HTML. For example, a list
   caption="Josh Brewer facilitated the discussion. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6924116705/in/set-72157629074652364/)"
 %}
 
-## The Picture Element
+## The `picture` element
+
 Yet Chris's suggestion isn't a million miles away from a [proposal to handle images in a responsive way][6] with a `<picture>` element. Much like `<video>` and `<audio>` in HTML5, this new element would allow requests to be sent for images matching inline media queries, falling back to an `<img>` element for browsers that didn't recognise the new syntax:
 
 ~~~ html
@@ -50,7 +52,8 @@ Yet Chris's suggestion isn't a million miles away from a [proposal to handle ima
 
 Whilst this proposal provides much needed scope for improving the scalability around image content, I'm not sure if it's a little over engineered. Would the reintroduction of the `lowsrc` attribute be simpler, and therefore see swifter adoption from browser vendors? Furthermore, are there not other solutions we can find that don't rely on new markup?
 
-## Going Further with File Formats
+## Going further with file formats
+
 I wonder if the solution actually lies in file formats. This is something I touched upon briefly in [my last post][7], where I mentioned the much unloved JPEG 2000 format. Researching a little further, I discovered a number of other proposed formats, all of which could prove useful as we strive to build a responsive web:
 
   * **[JPEG 2000][8]**, intended to replace the older JPEG format, was introduced by the JPEG committee in 2000. This format generates higher quality images compared to standard JPEGs *and* produces smaller file sizes. Features include multiple resolution representation, progressive transmission, lossy and lossless compression and support for transparency mapping. Unfortunately, it's not widely supported by browsers.
@@ -59,7 +62,8 @@ I wonder if the solution actually lies in file formats. This is something I touc
 
   * **[WebP][10]** is a sister project to the controversial WebM video format developed by Google. This produces lossless images that are 28% smaller in size compared to PNGs, and lossy images 25-34% smaller compared to JPEGs -- although image quality may not be comparable. It's supported by Chrome and Opera, and can be used in other browsers via a JavaScript shim.
 
-### Do We Need a New Image File Format?
+### Do we need a new image file format?
+
 During the discussion at Responsive Summit, the idea of creating a new image format arose, but was quickly dismissed. If you think W3C specifications take a long time to reach implementation, that's nothing compared to the standardisation process for file formats. Achieving widespread support across browsers would take even longer.
 
 So then we started to look at existing formats. Mark mentioned TIFF files, which can contain multiple subfiles. This lead Alex to talk about the Mac OS X ICNS format; a bundle that contains different sized icons ranging from 16x16 to 1024x1024 that can serve a multitude of uses. [Could something similar be used on the web][11]?
@@ -70,7 +74,8 @@ This might be an potential avenue for exploration, but it's not without problems
 
 Secondly, and likely an issue with any potential solution involving file formats, is the method of creation. Any format would need support in popular editing packages for it to become a truly popularised; although plug-ins and extensions could satisfy this requirement in the short term.
 
-### What We Need Is a Portable Network Graphic
+### What we need is a Portable Network Graphic
+
 So rather than a new file format, or even a new container format, what we really need is an existing image format that can be extended, yet at the same time provide backwards compatibility.
 
 What about [PNG][13]?
@@ -94,14 +99,16 @@ And with that, I've sufficiently demonstrated my naivety regarding image formats
   caption="Me, in deep pondering mode. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6778001526/in/set-72157629074652364/)"
 %}
 
-## Immediate Solutions
+## Immediate solutions
+
 Without the luxury of responsive image formats or new markup patterns, or even the impressive hacks that have failed to work sufficiently, what can we do?
 
 [Josh][15] has been using an interesting technique that follows on from earlier hacks, but almost embraces the point at which they fail. Again, his script ensures a small image is always downloaded, and larger images are only loaded when the conditions are right for them to do so. But, rather than try and guess which should be delivered upfront, the larger image is loaded *in addition* to the smaller image. Sounds crazy, but by downloading the larger image in the background, and only replacing the smaller one when ready, the apparent page speed is quicker, even though more data has been downloaded. Genius! He's dubbed the technique 'Responsive Enhance', and you can [try it out for yourself on GitHub][16].
 
 Combining such a technique with judicious image compression, the right choice of file format, CDN hosting, cache control and a variety of other performance techniques, means we're at least heading in the right direction.
 
-### Designing Around The Problem
+### Designing around the problem
+
 I'm conscious that up until this point I've only been talking about technical solutions. As a designer, I'm drawn to a different approach. We should continue to push the constraints of the platform, but we shouldn't be scared of designing around these limitations either.
 
 Instead of displaying large images in a carousel, why not show a series of thumbnails that reveal larger images when selected (thus letting users chose whether or not they want to download the larger images). Maybe embrace the lower bounds of image compression; posterisation effects can be achieved with small indexed colour palettes, and highly compressed JPEG images can look, er... interesting?
@@ -109,6 +116,7 @@ Instead of displaying large images in a carousel, why not show a series of thumb
 With icons we have even more choice; be it using vector formats like SVG as I've done on this site, or icon fonts. These are gaining popularity due to their small size, flexibility and dare I say commercial potential!
 
 ## Conclusion
+
 This post is a bit longer than I was intending, yet it only touches upon one of the five topics we discussed during the summit.
 
 [Mark][17] made a series of great points throughout the day, but the one that will stay with me is this. We've been designing fixed layouts for a thousand years. What we're dealing with isn't a new web trend or set of techniques, it's a whole new way of thinking about design and layout -- and we're at the very forefront of it. Short version: there's a lot to figure out!

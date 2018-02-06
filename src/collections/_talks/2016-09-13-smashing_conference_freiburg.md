@@ -14,6 +14,7 @@ As our lives grow increasingly reliant on digital products, designers are asked 
   * [Video](https://vimeo.com/184237467)
 
 ## References
+
   * Hall, P. (1990, March 4). [Brasilia and the Burial of Utopia](http://articles.latimes.com/1990-03-04/books/bk-2454_1_james-holston). <cite>Los Angeles Times</cite>
   * Hughes, R. (1980). 'Trouble in Utopia' <cite>[The Shock of the New:](https://www.youtube.com/video/C04JZsoqs1A)</cite>, Episode 4, BBC2, October 12
   * Green, O. (2014). <cite>[Frank Pick's London: Art Design and the Modern City](http://www.ltmuseumshop.co.uk/gifts-and-souvenirs/books/underground/product/frank-picks-london-art-design-and-the-modern-city.html)</cite>. London: V&A Publishing

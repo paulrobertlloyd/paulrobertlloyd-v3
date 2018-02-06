@@ -15,16 +15,17 @@ This week Adobe revealed [Muse][2], another web application but this time aimed 
 Craig Grannell at .net magazine asked a number of designers and developers to provide their thoughts on this new product and [the article includes a few choice quotes of my own][3]. The entirety of my contribution was as follows:
 
 > The web has two central design principles; anyone can add to it, and anyone can access it, regardless of device. In this vein, a long standing feature in browsers has been the ability to 'view source'; you can see how any website was constructed. Even WYSYIYG applications like Dreamweaver have historically allowed you to edit the generated code (and for many years that was my tool of choice). Now Adobe Muse want's you to believe that code has no impact on user experience.
-> 
+>
 > You could argue that tools like this make it easier for anyone to add content to the web. Yet this has dire effects on the second principle if the code it generates is meaningless, unstructured and inaccessible.
-> 
+>
 > Web designers are finally coming to understand the web as a medium in it's own right, one that aspires to be accessible and as device agnostic as possible. Yet Adobe's efforts, in which they strive for print like perfection -- regardless of how many images and conditional comments that may require -- seems misguided.
-> 
+>
 > The initial marketing pitch that dismisses code as a thing of the past, is perhaps an attempt to reach an untapped market Adobe feels it can sell further (subscription-based) software to, but it only serves to weaken the relationship with creative professionals it was once so keen to impress.
-> 
+>
 > It seems Adobe is focused on selling more products, rather than better products. Which is a shame, because a lot of the layout tools demoed in this product would likely find a welcome home in Adobe's other web design applications. Who knows, maybe they will. However if valued software like Fireworks is neglected in favour of dumbed down, everyman tools like this, then we need to ask ourselves, where are the alternatives? Who's willing to step up and build tools for those building *today's* web?
 
-## Cross Platform Approach
+## Cross platform approach
+
 Even if you were to completely ignore the design and functionality of the app and looked at the quality of the application alone, you would still come away disappointed.
 
 Both Edge and Muse use different platforms; Edge appears to be a native application with a highly customised interface inspired by Adobe Premier, whilst Muse is an AIR application whose interface is inspired by the current Creative Suite applications. The overall impression is a lack of cohesion between products. This is something [Matt Gemmell][4] highlights in the .net article, and it's worth repeating here:

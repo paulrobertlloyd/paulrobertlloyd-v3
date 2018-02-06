@@ -17,7 +17,8 @@ Thankfully, with Clearleft having acquired a few different devices for mobile te
   caption="Windows Phone 7"
 %}
 
-## Initial Impressions
+## Initial impressions
+
 I've watched the development of this platform from afar and been impressed by what I've seen. At this year's SXSW I saw a presentation by [Mike Kruzeniski][1] where he made the case for [print-inspired content-led interfaces][2] -- an approach that contrasts sharply with Apple's latest [skeuomorphic designs][3].
 
 The print tradition from which the Metro language is derived is clear from the outset; many screens could be enlarged and hung up on the wall as posters, such is their typographic beauty. Microsoft should be applauded for innovating in an area where others seem happy to replicate the Apple aesthetic.
@@ -30,7 +31,8 @@ Though there is little similarity with iOS, it is interesting to see those areas
 
 Windows Phone 7 has been thought about deeply. Such is the quality that I found it hard to decide whether UI idiosyncrasies were the result of bad design, or purely down to my familiarity with iOS.
 
-## User Interface: Less is Less
+## User interface: less is less
+
 Much like Android, Microsoft requires device manufacturers to include three hardware buttons below the screen: Back, Home and Search.
 
 The Home button worked as expected, but the other two felt like mystery meat. At first I thought the search button would initiate application specific searches, but in most cases a second button was provided instead (leading to odd scenarios where two search buttons appeared in close proximity). The back button allows you to traverse a history of the different screens you viewed, regardless of application; behaviour that took some getting used to based on my prior usage of iOS.
@@ -44,6 +46,7 @@ I found myself tapping around aimlessly, wondering what action would result, or 
 In conclusion, I'm puzzled by Windows Phone 7. This is a Microsoft product that takes a very un-Microsoft approach, with design at the centre of the product. As such it's visually stunning, yet still feels unfriendly and -- in some places -- difficult to use. Still, this is a platform with plenty of potential. Whether the market will hold out to see it realised is up for discussion.
 
 ## Hardware
+
 Finally, a note on the hardware, in this case the [HTC HD7][4]. Whilst this wasn't the focus of my test drive, it was interesting to compare with the iPhone.
 
 The 480 × 800, 4.3" screen had a comparable resolution to an iPhone's retina screen, but the slow refresh rate became all too apparent upon scrolling text. Much has been made of larger screens versus the 3.5-inch size adopted by Apple. I hadn't paid much attention to the screen size, but I couldn't shift an underlying feeling of difficulty using the device. It was only on reading [Dustin Curtis' post][5], that I realised why. The hardware buttons at the bottom of the device demanded constant usage, yet these were always out of reach, meaning I had to constantly reposition my hands.

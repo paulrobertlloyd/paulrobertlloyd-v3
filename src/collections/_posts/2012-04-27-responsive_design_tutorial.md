@@ -27,7 +27,7 @@ The distinction between design and development is becoming increasingly blurred,
 
 While this breaks down the approach into easily digestible parts, it has the unfortunate effect of suggesting a linear process. Yet in my experience, the responsive design process is quite iterative, involving a lot of back and forth. Hopefully I've given a sense of this in the final chapter.
 
----
+***
 
 I somewhat underestimated the enormity of this project. I thought I could complete it during the four-day Easter break, but designing the example site took up much of that time.
 

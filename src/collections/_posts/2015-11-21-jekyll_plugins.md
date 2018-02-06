@@ -17,6 +17,7 @@ This hackability, provided by its [plugin architecture][3], has brought about an
 While I'm still very much an amateur Ruby-ist, I now feel confident enough to release two Gems that bring additional functionality to Jekyll.
 
 ## jekyll-roman
+
 This plugin provides a Liquid filter that accepts any given whole number and converts it into roman numerals. For example, if you wish to display the year in a copyright statement using roman numerals (as typically seen on [BBC][5] closing credits), you can write the following:
 
 ~~~ liquid
@@ -32,6 +33,7 @@ Assuming the year is 2015, this will generate the following HTML:
 [Learn more on Github][6]{: .c-button}
 
 ## jekyll-figure
+
 This plugin provides a Liquid tag that generates `<figure>` elements. It takes optional parameters to add an associated `<figcaption>` and `class` attribute(s) if desired. For example, using the following code:
 
 ~~~ liquid
@@ -56,6 +58,7 @@ will generate the following HTML:
 [Learn more on Github][7]{: .c-button}
 
 ## Next steps
+
 Now, these are pretty simple plugins, but hopefully they are a prelude to more complex offerings. I've already [contributed changes][8] to Aaron Gustafson's plugin [jekyll-crosspost_to_medium][9], and I'm currently trying to [update the slugify utility inside Jekyll's core][10] so that it can take more options.
 
 At a later date, I may release [the plugin I'm using to generate responsive image mark-up][11], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display photos I've posted to Flickr on this site as well.

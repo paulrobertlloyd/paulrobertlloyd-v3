@@ -13,7 +13,8 @@ The need for this feature has long been evident. In fact, my erstwhile colleague
 
 But, I'm not so sure.
 
-## Returning to the Canon
+## Returning to the canon
+
 Much has been written since [Ethan first introduced the world to responsive design][3]. While some articles now appear dated, others still stand up to scrutiny. [A New Canon][4] is one such piece. [Based on an earlier talk][5], Mark Boulton suggested we move away from traditional graphic design approaches that derive layouts inwards from a fixed canvas, and instead look to create those that work outwards, from the content:
 
 > We stop trying to create a page where there isn't one, and we welcome what makes the web, weblike: fluidity. We start creating the connectedness Tschichold talked about by looking at what is knowable; our content.
@@ -27,6 +28,7 @@ Two years after he wrote about container queries, at [Responsive Day Out in 2013
 Four years on and I'd say his prediction wasn't far off. Andy went on to speculate that container queries and web components would herald the end of media queries. In fact, [fluid typography][8] -- a technique that cleverly combines viewport units with `calc()` -- was the first nail in the coffin. I believe their eventual abandonment will come from an increased proficiency with new CSS layout methods.
 
 ## We have the technology
+
 In the almost three decade history of the web, a vast array of hacks -- tables, absolute positioning, floats -- have been employed to help us construct layouts, yet only recently have we been given instruments designed specifically for the job. With [Flexbox][9], we have a powerful tool for defining one-dimensional layouts, and with the arrival of [Grid][10], we now have a second tool that can help us create layouts in two dimensions.
 
 Without needing hacks, frameworks that abstract away their complexity will become redundant. The ability to define layouts independent of source order will mean we can discard our 16-column comfort blankets. I share [the concerns of Jen][11] and [Rachel][12], who fear web developers will port their existing thinking over to these new layout methods. To do so would be sorry waste of a set of impressively well-considered specifications.
@@ -36,6 +38,7 @@ I've written previously about how [support for logical properties][13] is built 
 Grid builds further on this less assumptive approach. It allows us to query the nature of a grid container's content, with functions like [`fit-content()`][15] and values like [`min-content` and `max-content`][16]. It feels like we've barely scratched the surface of what's possible.
 
 ### Rebuilding the recirculation module
+
 As a way of demonstration, let's return to one of the components Ethan described, <cite>The Toast</cite>’s recirculation module:
 
 >   1. By default, the list of links appears as a single column layout on small screens.
@@ -68,6 +71,7 @@ The layout of this component is therefore entirely dependent on how much space i
 In the past I have suggested we [embrace the medium's unpredictable nature][20] and use its constraints to guide how we design for it. With Flexbox and Grid, those constraints are loosening.
 
 ## And now for something completely different
+
 The final reason I question the need for container queries is that a change in layout sometimes requires a change in behaviour, too. If accomplishing this involves restructuring the DOM, we're essentially swapping one component for another.
 
 On a recent e-commerce project I worked on, this scenario occurred on a number of occasions. On product listings, results could be narrowed by selecting options from a series of facets: size, colour, type etc. On narrow viewports, we decided to show these options within a model dialog, with facets presented within a series of disclosures; on wider viewports however, these facets appeared within a set of menus above the results:
@@ -83,7 +87,7 @@ Another example appeared on the product item page. On narrower viewports, a gall
 
 This particular project was implemented using React, so we chose to render the narrow component on the server, and then if necessary, swap it out with the wider version on the client. Therefore, any viewport queries existed within the realm of JavaScript, not CSS.
 
----
+***
 
 So to recap, here are three reasons why I'm not sold on the need for container queries:
 

@@ -28,6 +28,7 @@ Many of the changes are small, but they all add up to create a tighter, more man
 The distinctive red triangle also moves closer to the text, and the two cut outs that suggest a track disappearing into the distance now converge on a single point rather than the unknown destination seen previously. The colour palette has also been updated, with the primary colours replaced with more considered choices. However, the use of gradients in the final rendering only serves to weaken an otherwise stronger, more confident mark.
 
 ## MTV
+
 {% include figure.html
   src="2010/02/logo_spotting_mtv.png"
   caption="The original MTV logo (1981) and the updated version (2010)"
@@ -45,6 +46,7 @@ Like nearly every logo launched these days ([London 2012][4], [NYC & Company][5]
 It's an old idea ([this in-depth article][7] by Roger van den Bergh gives you an idea of just how long this concept has been around), but it is worth remembering that MTV launched with a similar identity 29 years ago. In fact, the logo has long been [a canvas for viewers to make their own mark][8] on the channel, although that concept seems sadly missing in this latest interpretation.
 
 ## City of Melbourne
+
 {% include figure.html
   src="2010/02/logo_spotting_city_of_melbourne.png"
   caption="City of Melbourne: The previous logo and the new version"

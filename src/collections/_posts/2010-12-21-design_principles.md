@@ -13,25 +13,32 @@ Thinking about some of the past presentations I've seen (in particular [Luke Wro
 
 I'm making them public (as [Kate Rutter][3] suggests in her article [Making Design Principles Stick][4]) so please feel free to hold me account to them.
 
-## Content First
+## Content first
+
 The design of this site should allow the content to dictate its layout and appearance, not the other way round. Be it allowing for appropriate sized imagery and illustrations, providing different means of highlighting relevant text or simply ensuring the primary content is prominent, easy to read and free of distraction.
 
-## Encourage Publishing
+## Encourage publishing
+
 Whilst I enjoy the immediacy of Twitter, I'm not always fond of it's limitations, or how difficult it can be to reference later. Whilst I like the ease of publishing with Tumblr, I wouldn't feel comfortable porting this site over to a third-party provider -- especially one finding it [difficult to maintain uptime][5]. The next version of this site needs to allow for easy posting of both longer considered articles as well as shorter immediate forms of content. However one form shouldn't impose itself at the expense of the other.
 
-## Showcase My Talent
+## Showcase my talent
+
 I've been working full-time at Clearleft for nearly 18 months and have been involved with a number of different projects -- many for high profile clients -- yet none of these are represented here. Meanwhile my freelance focused portfolio, resides on a different URL languishing and unloved. I'm also working on a growing number of personal projects. I need to showcase all this creative output in one place.
 
-## Use New Technology and Techniques
+## Use new technology and techniques
+
 My personal website has always been a sandbox for trying out new technologies and ways of working (as it should be), but it's starting to fall behind. A redesign would be the perfect opportunity to experiment properly with HTML5, CSS3, Responsive Design and web typography, and find ways of working around the challenges and constraints these present.
 
-## Celebrate the Past
+## Celebrate the past
+
 Some of the content on this site is over ten years old and still has immense value. I recently improved tagging which allows me to show related articles after each post. I'm pleased with the results, and now encouraged to find more ways to join up content across the site. What other ways can I surface older articles and commentary that may have value in a contemporary context?
 
-## Build for the Future
+## Build for the future
+
 Whilst it's almost impossible not to break inbound links, the more articles I write that get [widely linked][6], the more I recognise the importance of ensuring these links still work in one, five or even ten years time. Currently all my posts use a '/YYYY/MM/basename' URL scheme, which I'm happy to continue using. Can I extend this to other parts of the site. How can I add further pages to this site without having to rethink the underlying IA?
 
-## Represent My Visual Sensibilities
+## Represent my visual sensibilities
+
 The more I mature as a designer, the more I've come to enjoy simple, clean and unfussy user interfaces. The design of my site should respect this, yet of course bring something new to the table, making the site distinctly 'mine'.
 
 [1]: http://www.lukew.com/ff/entry.asp?779

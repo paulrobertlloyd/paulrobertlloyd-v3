@@ -16,7 +16,7 @@ A few other nominees are worth mentioning. [Clearleft][4] face tough competition
 
 For *Entrepreneur of the Year*, Simon and Natalie have been nominated for their work on [Lanyrd][7], which was acquired by Eventbrite in September. Words like 'entrepreneur' and 'acquisition' tend to make me a bit ranty, but the way they communicated the purchase is worth commending alone: no '[incredible journey][8]', just [a plain-speaking announcement][9] and a series of API integrations. London's loss is most certainly San Francisco's gain.
 
----
+***
 
 The merit of awards ceremonies is often discussed ([look no further than this very website][10]), but I think net Magazine have struck the right balance. Their competition has improved year-on-year, especially since they started highlighting emerging talent and dropped inane categories like *Web Personality of the Year*. Events like this are easy to criticise, but [when done right][11], they give us a moment to appreciate an industry we're lucky to be part of.
 

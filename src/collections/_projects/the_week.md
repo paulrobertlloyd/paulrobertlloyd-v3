@@ -19,6 +19,7 @@ meta:
 Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. [Working with Harry Brignull at Clearleft][2], we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
 
 ## Prototyping
+
 A highly iterative approach saw the design evolve over the course of the project. Starting with paper sketches before creating quick, low-fidelity click-through prototypes in Keynote. Throughout this process, we used real content from the magazine to ensure our design would meant the demands of the content it would need to deliver. By forming a close working relationship with key stakeholders across the business - including both commercial and editorial teams -- meant we were able to take into account differing requirements and manage expectations.
 
 {% include figure.html
@@ -26,7 +27,8 @@ A highly iterative approach saw the design evolve over the course of the project
   caption="Output from our workshop with key stakeholders included empathy maps for key users, and sketched ideas for important sections of the magazine"
 %}
 
-## Creating a Page Turner
+## Creating a page turner
+
 With a readership not looking for rich interactivity, we chose to focus on creating an app that was intuitive and easy to navigate. We experimented with a number of different design approaches, with usability testing proving an invaluable means of validating our final proposal.
 
 The predictable IA of the magazine was retained by creating overview pages for each section that linked though to individual articles. From both section and article pages, users could quickly swipe though the magazine, replicating the skimmable nature of the printed version. This model also allowed for the inclusion of full-screen interactive advertising, inserted at modest intervals, much like in the magazine.
@@ -41,7 +43,8 @@ A challenging aspect of this project was conveying the familiarity of the magazi
 
 A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. These were retained, appearing alongside larger articles and linked from section fronts.
 
-## Collaborative Development
+## Collaborative development
+
 Working closely with the development team at [Kaldor][3], we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][4] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience.
 
 {% include figure.html

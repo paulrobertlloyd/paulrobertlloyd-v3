@@ -16,6 +16,7 @@ After [speaking at CSS Day in Amsterdam][1], I decided to head back to Brighton 
 In drawing a line south between Amsterdam Centraal station and the Eurostar platforms in Brussels, I decided on a short trip that would include a few days in Rotterdam, before heading to the medieval city of Bruges in Belgium, thus providing a deliberate contrast of architectural styles.
 
 ## American influence
+
 The near-complete destruction of Rotterdam after the Nazi bombing raid of 14 May 1940, and its subsequent rebuilding means this city has a modern flavour. The randomness of its architecture was immediately evident upon stepping out of the [railway station][2]. Its bold triangular metallic canopy pointed up into the clear royal blue sky, and drew my eye to the overbearing [Manhattan Hotel][3], a skyscraper clearly influenced by the design of the Empire State Building.
 
 Skyscrapers are a familiar sight in Rotterdam. This is especially true of the newly regenerated Kop van Zuid district, which has some similarities with London's Docklands. Although much smaller, this district is already home to the work of architects like Renzo Piano, Sir Norman Foster and Rem Koolhaas.
@@ -39,6 +40,7 @@ Buildings here include [Maastoren][4], the tallest building in the Benelux regio
 Other parts of the city are more human scaled, although even the Cool district, with its tree lined streets, are framed by the sight of tower blocks in the distance. The location of many restaurants and bars, it was here that I decided that this is a very easy city to live in -- although the delicious coffee and a Chorizo and Cheese tosti from [Hooper Coffee][7] may have swayed me!
 
 ## Waxing Arcs
+
 At the [Museum Boijmans Van Beuningen][8] the work of celebrated Dutch and international artists hang, but the most interesting piece is Richard Serra's <cite>Waxing Arcs</cite>, two rusty steel arcs that stand in an otherwise empty gallery.
 
 Their controversial history is told in [a multimedia presentation][9] that projects images onto the floor and onto the piece itself. The work Serra conceived as a reaction to the space it occupied was intended to direct viewers around the space in a specific way. When Wim Crouwel became director of the museum two years after it was installed, this space was enlarged and suddenly Serra's work had the fortuitous effect of directing people into the museum shop. At one point, it even became part of the entrance foyer, much to the chagrin of its creator. This presentation tells the story of the space, and considers the way works of art can change over time, both as a result of the artist and the whims of those who commission them.
@@ -49,11 +51,13 @@ Their controversial history is told in [a multimedia presentation][9] that proje
 %}
 
 ## Euromast
+
 Boijmans is surrounded by [Museumpark][10], an intriguing aspect of the city seeming intended to make the arts more accessible to residents. This isn't too far from another park that lies within the shadow of the [Euromast][11].
 
 While not as tall or as beautiful as other tall towers, it is more frightening than most given an observation deck is open to the elements at a height of 100 meters. A further climb up three flights of step brings you to the entrance of the Euroscope, a rotating enclosed platform that lifts passengers close to the top of the 184 meter tall tower. I found the entire experience rather terrifying, so had nothing but admiration for those who were abseiling down the building.
 
 ## Cube Houses
+
 Another series of distinctive buildings can be found around Blaak railway station, the newest of which is the Markthal, a large arch-like structure enclosed with glass walls at each end and featuring ceiling art displaying enlarged fruits and vegetables. The strangest of Rotterdam's buildings however must be the [Cube Houses][12], designed by [Piet Blom][13].
 
 {% include figure.html

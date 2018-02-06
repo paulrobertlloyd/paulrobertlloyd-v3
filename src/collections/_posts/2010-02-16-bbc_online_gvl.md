@@ -49,7 +49,8 @@ I was so concerned by these oversights that I thought about ways to rectify thes
 
 Of course it's easy to create something like this in isolation, without a full understanding of the design or technical constraints that exist, but I think this demonstrates my frustration with the implementation at the time and -- perhaps more importantly -- how much I care about the design of the BBC website.
 
-## BBC Heaven
+## BBC heaven
+
 Given this background, you can imagine my delight on reading that [the corporation is working on a brand new design language][14] with the help of [Neville Brody][15] and his agency [Research Studios][16]. Not only does it answer my previous criticisms, but the early previews exceed my wildest expectations.
 
 Bronwyn van der Merwe in describing the new global visual language stated that:
@@ -79,6 +80,7 @@ Whilst this could be viewed as yet another redesign, it strikes me that this pro
 These principles have resulted in the following output:
 
 ### Grid
+
 A new grid allows for much flexibility. Thirty-one 16px columns can be combined to create two or four columns on the left-hand side of the page, whilst a wider right-hand column ensures that advertising units (which are shown to international visitors) are accommodated. The choice of grid has lead to the introduction of interwoven vertical and horizontal bands, with the right-hand column becoming a signature feature across the site.
 
 {% include figure.html
@@ -90,6 +92,7 @@ A new grid allows for much flexibility. Thirty-one 16px columns can be combined 
 [James][17] has been saying recently that designers need to think more carefully about their grid layouts, considering what content needs to be catered for rather than just relying on [more rigid][18] and symmetrical layouts. This looks like a textbook example.
 
 ### Typography
+
 I was excited to read that the new GVL introduces a much more dramatic use of typography:
 
 > As well as Gill Sans we've introduced big bold type in Helvetica or Arial and restricted variations in size so that we have much greater consistency across the site.
@@ -97,12 +100,15 @@ I was excited to read that the new GVL introduces a much more dramatic use of ty
 No mention of Verdana. Fingers crossed that it doesn't make a re-appearance!
 
 ### Colour
+
 The guidelines also establish a new colour palette and usage guidelines, and suggest that pages will be predominantly neutral, with colour used only to create vibrancy and highlight key areas of the page. Large and dramatic imagery will take centre stage instead.
 
 ### Navigation
+
 The examples demonstrate a consistent cross-site navigation element across the top of each page (that is, no longer hidden behind a button), whilst section navigation is said to typically run horizontally rather than vertically. The mock-up for the BBC Sport site also shows a bread crumb trail as part of the Cricket section's sub-navigation too.
 
-### Photography, Iconography and More!
+### Photography, iconography and more!
+
 The embedded media players also get an update, as do carousels and other page components. To top it all off, the guidelines elicit the use of a single set of bespoke icons:
 
 {% include figure.html
@@ -111,7 +117,8 @@ The embedded media players also get an update, as do carousels and other page co
   class="u-extend"
 %}
 
-## Final Thoughts
+## Final thoughts
+
 Much like my attempts to redesign the news website two years ago, there is a sizeable gap between theory and practice, and the true test will come as these guidelines are implemented across the site, and adopted by different parts of the organisation.
 
 This new stripped back and simplified approach speaks to my own design philosophy, so I really hope it succeeds. Indeed, this announcement comes in the same week as the launch of [Windows Phone 7][19] which has a similar laid bare aesthetic.

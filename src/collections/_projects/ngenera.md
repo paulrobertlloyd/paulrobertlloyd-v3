@@ -14,7 +14,8 @@ nGenera Corporation (now [Moxie Software][1]) helps companies and governments tr
 
 Steve Douty (president of platforms, applications and marketing) asked me to take the new nGenera name (the company was formerly BSG Alliance) and build a brand that could encompass its growing suite of software products and consultation services.
 
-## Brand Identity
+## Brand identity
+
 With an intriguing -- if not immediately obvious -- name, the logo needed to reflect the organisation's broad ambition and signify a break with any past notions of enterprise. Combining an 'n' and 'G' in a subtle and intriguing manner, allowed me to create a symbol that felt similar to those commonly associated with networking and connectivity.
 
 {% include figure.html
@@ -33,6 +34,7 @@ This distinctive mark could work at many sizes, with flat and rendered versions 
 While other in-house and third-party teams were responsible for implementing the brand, I provided overall guidance and created example collateral pieces such as reports, signage and business cards.
 
 ## Website
+
 I sought to distinguish nGenera's web presence by creating an immersive and premium experience, realised through the use of deep blues accented by highly saturated colours from a complementary palette. Working with [Matt Pearson][2], I produced an carousel device for use on the homepage that introduced customers to the company's range of products and services.
 
 [1]: http://www.moxiesoft.com/

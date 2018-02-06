@@ -20,7 +20,8 @@ Just as importantly, this update also removes two icons (the Fire Eagle Mascot i
 
 This desire perhaps gives an insight into the thinking behind these icons. During the creation of this set I've kept a number of design principles in mind, so I thought it would be useful to state these out loud -- especially as they may answer some questions being asked about the set.
 
-## Design Principles
+## Design principles
+
 1.  **Consistently Styled, Not Overly Designed**
     As stated when I launched these icons, this icon set was largely inspired by Rogie King's [Social Network Icon Pack][3]. Although his is an absolutely beautifully crafted set, at the same time I felt it exuded to much of its own style. I wanted something a little more generic, yet with an overall consistency not available when simply using the favicons created by the different social media services. I still feel I have some way to go on creating an overall consistency however.
 

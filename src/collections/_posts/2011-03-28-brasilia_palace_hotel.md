@@ -16,6 +16,7 @@ tag:
 Alongside the [Palace of Planalto][1] and Our Lady Fatima Church, the [Brasília Palace Hotel][2] was one of the first buildings constructed in Brazil's new capital. Designed by [Oscar Niemeyer][3] and inaugurated in 1958, it hosted important dignitaries like Queen Elizabeth, Indira Ghandi, Dwight Eisenhower and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
 
 ## Arrival
+
 Your taxi having parked directly beneath the slender building, you are greeted by two understated glass doors that slide open and invite you to enter. Descending a long shallow ramp you soon arrive in the lobby which sits under a low hanging mezzanine. If you've visited many of Niemeyer's other buildings, you'll know that such an entrance is a common feature, yet it is an architectural trick that works surprisingly well.
 
 After checking in and taking the swift lift ride up to your floor, you arrive in a spacious lobby area, decorated with wood panelling and furnished with a pair of chairs carefully selected to evoke the building's style. Finding your room is easy; there are only two corridors to choose from and rooms are numbered sequentially. Long corridors are familiar ground in hotels but here they are illuminated on one side by daylight filtered though angled shades adorning the front of the building. Retiring to your room feels efficient yet relaxing.
@@ -31,7 +32,8 @@ This modernity is most notable in the bathroom however, with an appearance simil
 
 In the end, I couldn't decide whether I would have preferred forgoing these modern comforts for an experience more synonymous with the building's history. Yet it has to be remembered, this is a hotel, not a museum.
 
-## Stepping Back In Time
+## Stepping back in time
+
 Beyond the confines of your room, you could easily imagine yourself here during the hotels historic golden era. There was a distinctly ghostly and mysterious feel to the place, especially in the lobby and dinning areas that, by being largely empty, allowed the spaces to speak louder than any of the objects within them.
 
 {% include figure.html
@@ -43,7 +45,8 @@ The longest wall of the mezzanine level gives some perspective on the hotels ill
 
 This effect is diminished in many parts of the building, and certainly when exploring the outdoor areas, due to the presence of the Royal Tulip Hotel situated next door. Its harsh red and black curved walls violently clash with the clean, lightly coloured minimalism of the Niemeyer's palace; never has a building felt so inappropriate, or lacked consideration for its neighbour.
 
-## Yesterday's Hotel Today
+## Yesterday's hotel today
+
 It is only upon surveying early photos of the building that you get a sense for how much has been altered, with much of the retro feel offered though reproduction not restoration. The front of the building is visually broken up by two large concrete towers that provide additional lifts and fire escapes, which is understandable given the buildings history. I had no idea these were not part of the original design, which it turns out was even more minimalist in it's approach than it is now.
 
 There are other changes too. Each room has a balcony but in the original design this space was enclosed. Today, the windows have very slight frames where before these were much thicker. So too at the rear of the hotel, where curved glass walls contrast with the geometric lines of the original structure.

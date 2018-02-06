@@ -22,6 +22,7 @@ You only need to look at the [record temperatures][1] we've been seeing this yea
 To call this a crisis isn't hyperbole, yet some still protest against the facts. With these seeds of doubt planted, we've yet to see any behavioural shifts, like a return to the wartime spirit of make-do-and-mend and a culture of thriftiness. Alternatively, and whatever analogy you wish to use, be it [boiling frogs][3], or [the fate of settlers on Easter Island][4], maybe humans have an innate bias towards short-term gains over long-term losses, with anything beyond the horizon easily ignored. Either way, I find this mis-match deeply puzzling.
 
 ## Buttons pushed
+
 Earlier this year, FreeAgent thanked me for a short contribution I made to their [field guide for freelancers][5], by sending me a gift box. In this, I found three copies of the book, a collection of stickers, a notebook, pens and a large metal mug, all lovingly packed together with coloured shredded paper. I appreciated the gesture, but was overcome by guilt, and thoughts about how I would deal with these unwanted items and packaging.
 
 Maybe I'm an ungrateful sod, but I find it difficult to accept gifts I see no use for. Friends and family have learnt the hard way, but maybe I need to state this policy more publicly. Free stuff is doubly worse. While many look upon the word free with glee, I'm left wondering who's bearing the cost.
@@ -37,6 +38,7 @@ Cue [an unhelpful rant][7] on Twitter, particularly unwarranted given I have no 
 This post is a more considered response.
 
 ## No shortage of issues
+
 Working at Clearleft, I've seen first hand how much work goes into organising a conference. While the event space grows more competitive and expectations rise, organisers are having to address a range of concerns voiced within the industry, be they the diversity of speakers, the safety of attendees, accessibility of venues and the affordability of tickets. Asking organisers to consider their environmental impact only adds to an already long and thankless task list.
 
 Events also need to make money, or at least break even, and there's no guarantee of that. This is where sponsorship helps, and why some events hand out bags featuring branded merchandise and promotional leaflets. I have no issue with sponsorship. Given attendee demographics and the products companies are looking to promote, the two can be complementary, a win-win situation.
@@ -46,6 +48,7 @@ And yet, for me at least, "amazing goody bag" sticks in the craw. There's nothin
 To return to my opening premise, given the changing ecological circumstances, surely showering attendees and speakers with gifts can no longer be seen as a sign of quality and thoughtfulness, but one of irresponsibility and wastefulness. How is it such gestures are still acceptable? Am I being unreasonable to think this?
 
 ## An eye for waste
+
 On the grand scale of things, and in the context of 2016, in which all manner of issues, be they political, social, economical or ecological appear to be reaching their tipping point, whether or not conferences hand out goody bags is of negligible concern. But, if we can't fix small problems like this, what hope do we have of addressing larger concerns?
 
 When I look around, I still see examples of pointless, unthinking wastefulness. At my local Co-op, bins have been placed below the automated checkouts because they print out so much unwanted receipt paper, much of it containing offers and coupons nobody wants or cares for. Why was sourcing and managing bins seen as easier than re-programming the checkouts? How much is this situation costing the store and others like it? And why do we still get given receipts anyway?!
@@ -53,6 +56,7 @@ When I look around, I still see examples of pointless, unthinking wastefulness. 
 I'm a big believer in marginal gains, of instigating small changes that, when taken together on a larger scale, make a significant difference. Take for example the small charge on plastic bags that some countries have introduced. The genius of this idea is not so much the minuscule cost involved, but the behaviour change it encourages: shop assistants now need to ask if you want a bag, rather than assume that you do. In the six months since England introduced its own legislation, [plastic bag usage has dropped 85%][8]. *That's incredible!*
 
 ## Actions, not words
+
 The environmental sustainability of conferences is a topic I return to on an habitual basis. I've written before about the [sickeningly over-stuffed bags previously handed out at SXSW][9], thought about [how we can use less materials for badges][10] and about [how we might rethink our use of lanyards][11]. Yet, words only count for so much. Today I find myself asking: what *actions* can I take?
 
 My first thought was to build a website (of course), but soon realised I need to undertake some research before arriving at any solutions. I want to better understand the process of putting together an event, and the pressures and considerations that are already on organisers minds. I'm hopeful organisers will be open to answering my questions. Here are some initial lines of enquiry:

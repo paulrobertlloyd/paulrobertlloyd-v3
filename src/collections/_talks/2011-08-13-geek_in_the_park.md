@@ -7,21 +7,24 @@ excerpt: Transcript of my presentation at Geek in the Park
 embed:
   src: https://speakerdeck.com/player/4e47f175a6aa8f00010073ae
 ---
-## Web Versus Native
+## Web versus native
+
 Web versus native has become a common argument in development circles. Here, the word native is used to describe experiences built for mobile devices, designed to take advantage of the platforms they sit on. Yet the omission of native from the other side of this argument is puzzling -- surely applications and content on the web should feel part of that platform too?
 
 Maybe we should rephrase this argument as 'Web Native versus Device Native'. Or maybe it's just a pointless argument. Instead of picking one over the other, we should understand the strengths and weaknesses of each before deciding which will satisfy the needs of a project. You may find a combination of approaches is most suitable.
 
 In this presentation I'll look at the strengths of the web and how we should design for this platform.
 
-## The Web: A Brief Reminder
+## The web: a brief reminder
+
 In August the web celebrated it's 20th birthday, but having reached this milestone, have we forgetten the web's unique qualities?
 
 Asked to name three technologies that form the core of the web, many would suggest HTML, CSS and Javascript. In terms of the true foundational pieces, then really we're talking about HTML, HTTP and URIs.
 
 It's easy to get excited by new CSS techniques or the latest JavaScript frameworks, but these are merely additions we can apply to web pages for when they appear in certain environments.
 
-### Universal and Linkable
+### Universal and linkable
+
 Last year in [an article for Scientific American][1], Tim Berners-Lee wrote:
 
 > The primary design principle underlying the Web's usefulness and growth is universality... it should be accessible from any kind of hardware that can connect to the Internet: stationary or mobile, small screen or large.
@@ -34,7 +37,8 @@ At it's simplest, the web is linked addressable content, accessible from any dev
 
 After twenty years the web is a robust and well supported platform. Untouched by CSS or JavaScript well structured markup is accessible, responsive and cross platform by default. The very first website is no longer available, but an [archived version][3] is; you can access this in any browser and on any device. That a website built twenty years ago works better than many of those built today is a little embarrassing.
 
-### Bad Examples
+### Bad examples
+
 Many of today's services cited as great examples of the web are actually breaking it. Twitter uses JavaScript dependant URLs, whilst services like Facebook and Disqus are equally reliant on JavaScript. Holes are now appearing in the fabric of the web.
 
 In June, Venkat Panchapakesan, Vice President of Engineering at Google wrote about their [plans to only support modern browsers across Google Apps][4]:
@@ -46,6 +50,7 @@ Many web developers celebrated this news, but shouldn't they have been disgusted
 So let's look at the tools we're using everyday and think about how we can use them better. We'll start with the foundational layer: HTML.
 
 ## HTML
+
 We tend to think of the web as a visual medium, but the web has no regard for visual presentation. Websites can be viewed in anything from a text browser like Lynx, or even in new services like Instapaper and Readability, which purposely strip away all visual design. Search engine crawlers don't see your design either.
 
 If pages can appear without visual design or layout, where should we start? Content. It's the only constant we have, not having any device dependancies -- certainly if video, audio and images provide textual alternatives. Content the single thing that defines the markup and ultimately it's the thing we're delivering to users -- so it better be good!
@@ -61,6 +66,7 @@ Asking questions like this can inform the basis of your design, but to do so you
 Design with real content and you're soon presented with the horrible realities; long usernames or columns of text that don't have matching heights just two examples.
 
 ## CSS
+
 When available, we can improve the user experience by using presentation and layout to reflect a brand, improve readability or to create the right mood and expectations. Yet we must be mindful that in adding such presentation, we risk breaking the web's inherent adaptability. That's why developments like [Responsive Web Design][6] are so encouraging. These allow us to preserve the underlying fluidity whilst utilising layouts that can adapt to meet differing user needs.
 
 Responsive Design is chiefly concerned with layout, and media queries can only query the display characteristics of a viewport. There are other aspects of how a user may experience a website that we need to account for too; input methods, bandwidth and even the environment a user may find herself. These qualities are harder to test for, and some may never be known.
@@ -74,11 +80,13 @@ As mobile devices have become more capable, the line between mobile and desktop 
 Responsive web design is not a silver bullet, and we need further means of being able to adapt the experience to fit different needs. But it is a step in the right direction.
 
 ### Experiment and share your findings
+
 It's easy to think that Responsive Design is a new technique, that can be bolted-on to our existing design process, but it represents a fundamental shift away from current practices. There's still lots to learn, mistakes to make, knowledge to be shared -- so share it!
 
 Like many people I've been experimenting with responsive design on my personal blog. Perhaps the most interesting thing I learnt from the experience was the need to test my design on as many devices as possible; resizing your browser just doesn't cut it. Field test your design when out and about, in different environments. You may be surprised what issues you find.
 
 ## JavaScript
+
 Finally we have our behavioural layer. This is often the part that is breaking the web most, as developers build products from this layer inwards.
 
 It's easy to quote high percentage numbers for users with JavaScript enabled, but this is a fools game. Remember those applications that disregard your visual design? They are likely to strip it of any behaviour too. What happens when your website is viewed over a low bandwidth with poor connectivity? What if JavaScript fails to load? What if an error makes a script unresponsive?
@@ -86,6 +94,7 @@ It's easy to quote high percentage numbers for users with JavaScript enabled, bu
 Rather than think of fallbacks, we should think of enhancements. Maps are a perfect example. Nearly every map provider allows embedding of static maps. Include these in your page first, and only in the presence of working JavaScript replace with an interactive version.
 
 ## Weren't you meant to be talking about design?
+
 So far I've talked about content, HTML, media-quries, JavaScript? I thought this talk was about design? It is! All these factors require design thought; again remember that the web is not solely a visual medium. The design of your URL scheme is just as important as any page layout.
 
 We need to stop thinking in terms of siloed roles, with designers over here, the developers over there. I would go as far to suggest that these two terms are interchangeable anyway; a graphic designer may develop a design language, a developer may design a database schema.

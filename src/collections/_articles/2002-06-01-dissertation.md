@@ -18,7 +18,7 @@ To properly analyse the reasons for any changes to graphic design on television,
 * Chapter list
 {:toc}
 
-* * *
+***
 
 ## The visuality of television
 
@@ -47,7 +47,7 @@ Brain Eley, Creative Director at Lambie-Nairn -- a leading brand consultancy tha
 
 Perhaps where television graphics have been used to greatest effect is within news. In what can be a chaotic world where footage isn't always the best quality (with an items relevance and newness of most importance), news graphics play an important role in striping stories down to the bare essentials. Wars become maps, economies become graphs, political arguments turn into graphical conflict, press releases are presented as an ordered list of bullet points, and these enable television to carry on more effectively the activity of speculation. Such graphics became so commonplace that they were the subject of their own kind of graphic satire -- the most notable being <cite>The Day Today</cite>.
 
-* * *
+***
 
 ## What went before?
 
@@ -167,7 +167,7 @@ The viewer was suddenly confronted with an array of flying logos. Thames for exa
 
 The BBC for some part, also jumped on the computer generated bandwagon. In 1985, its famous globe became what it termed a COW (Computer Originated World) -- a blue and gold revolving globe on a black background with 'BBC 1' in large gold letters beneath. Its second channel BBC2 used a stenciled serif TWO that rose out of a grey background, with three portions coloured red, green and blue -- the primary colours used to produce colour imagery in television.
 
-* * *
+***
 
 ## The growth of branding
 
@@ -519,7 +519,7 @@ In November 2001, BBC2 updated its ten-year-old idents, for which such menus wer
 
 This was all aimed to give the channel a more contemporary feel "retaining and reinforcing the wit and personality the 2s have already established, whilst presenting a new and refreshed image for BBC2" (Wilkes, 2001). The first batch of idents featured the 2 bouncing, scaring of a shoal of mackerel, falling over like a domino, and growing a pair of robotic arms to turn round a portion of screen to reveal the BBC2 logo. There was also a change to the way junctions were handled with the idents including now, next and later information to guide viewers through what they might like to watch.
 
-* * *
+***
 
 ## News presentation
 
@@ -695,7 +695,7 @@ As for the BBC's regions, they again took the BBC News elements, whilst adjustin
 
 All bulletins on BBC1 shared the same set, with the nations and regions using similar sets based on the same themes. Even the 24-hour news channels borrowed elements, creating a unified brand across every area of the departments presentation. Music again followed the 'same but different' theme, using upbeat yet punchy scores based on the famous beeps heard on radio to mark the hour.
 
-* * *
+***
 
 ## Conclusion
 
@@ -713,7 +713,7 @@ The introduction of digital television towards the end of the decade bringing wi
 
 One thing's for sure; broadcasting brands will need to be as strong as ever.
 
-* * *
+***
 
 ## References
 {:.no_toc}

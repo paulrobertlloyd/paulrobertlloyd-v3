@@ -11,7 +11,8 @@ Earlier today, <cite>24 Ways</cite> (sort of an advent calendar for web designer
 
 For those behind these proposals, this was received as an unthinking critique of their commendable work, lacking wider context and oblivious to the finer details that have been debated extensively already. Others, perhaps looking for an instant solution to this vexing problem, focused on one part of the article, and decided the solution is a new image format.
 
-## I Don't Want A New Pony
+## I don't want a new pony
+
 In my article, I link to [an article by Yoav Weiss][2]. He suggests a possible solution would be to adjust the way browsers handle progressive JPEGs. In terms of getting vendors to do anything helpful in terms of how they handle images, this seems reasonable. Whether it is remotely achievable, especially when you consider how difficult it has proven to get broad support for a new image format, cf. no support for a single video codec, this seems unlikely.
 
 With regards to image formats, I say:
@@ -22,7 +23,8 @@ A responsive image format should be our North Star. The reason I brought up imag
 
 I understand the grim reality regarding new image formats. Still, I thought it was worth restating where the problem lies, a gentle reminder for us not lose sight of this while we continue to explore different solutions.
 
-## Beyond Art Direction
+## Beyond art direction
+
 What does or doesn't belong in markup is one of those questions that is always hotly debated among web developers. There is never a right answer. Should art direction for images belong in markup? I don't think it should, and perhaps that's why I dislike the `picture` mark-up pattern. Others disagree, and that's fine.
 
 Still, beyond art direction, there should be greater questioning of whether to include an image in our markup in the first place. Scott Jehl terms this 'aggressive enhancement'. Perhaps this is simply a means of reselling progressive enhancement to an industry that has become used to burdening webpages with ancillary content.
@@ -31,7 +33,8 @@ When everything on the web should ultimately degrade down to text -- remember, b
 
 Let me be clear. I'm not saying we shouldn't use images on the web. Again, I point you in the direction of [the BBC's responsive work][4]. My point is, if we intend for our markup to remain lightweight and accessible, the place we describe the conditions upon which an image is displayed or not, is probably best located beyond the bounds of HTML.
 
-## Today's Options
+## Today's options
+
 Right now, I believe we have a bunch of tools at our disposal. These can be broadly categorised as follows:
 
   * **Progressive enhancement:** Referencing less images in our markup, and using conditional loading techniques to decide if and when additional images should be displayed. [Picturefill][5] falls under this category (although I'm not convinced this  pattern should be standardised).
@@ -42,7 +45,8 @@ Right now, I believe we have a bunch of tools at our disposal. These can be broa
 
 Or, to put it another way, we already have [a field of ponies][9].
 
-## Web Native Design
+## Web native design
+
 My article should be seen as part of a broader discussion about how much, and what aspects, of our existing practice remain suitable when designing for the web. This is something I covered earlier this year in <cite>[The Web Aesthetic][10]</cite>, although I'm not sure if I've conveyed my thinking as clearly as I would like.
 
 Perhaps the most important line in my article was this:

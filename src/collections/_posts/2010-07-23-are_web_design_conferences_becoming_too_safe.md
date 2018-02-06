@@ -14,7 +14,8 @@ Earlier this week, Simon Collison revealed the first fruits of his newly establi
 
 [Simon][2] has obviously put a lot of time and effort into organising this event too. The website is a work of art, and the conference will be held in an equally [inspiring venue][3]; clearly fit for the [impressive lineup][4] of ten talented and insightful industry experts that will be speaking.
 
-## Only The Places Change
+## Only the places change
+
 Unfortunately my immediate reaction on seeing this lineup was one of disappointment. Not because these aren't great speakers -- far from it -- but this was confirmation of a long held suspicion that it's the same faces appearing in different places. Indeed, three of these speakers will be appearing at this year's dConstruct too.
 
 The reliance on the same set of 20 or so speakers is honestly starting to feel a little bit tired, dare I say 'safe'. I believe there is a worthwhile discussion to be had on this subject, and as such this post shouldn't be seen as criticism of the New Adventures conference alone.
@@ -25,7 +26,8 @@ Yet I now find myself looking for more specialist content -- [Playful][5] in Sep
 
 As the speakers at these two conferences, and my enduring experience of SXSW would suggest, I'm starting to believe it's with people *outside our community* from which I can gain the most insight, and help me to see my work in different ways ([Jane McGonigal's 2008 keynote][7] at SXSW stands out in this regard). Whilst I see many presentations refer to architecture, fine art, game and product design, I rarely see speakers from these specialisms talk at web design conferences. You could attend separate events, but it's exciting to think what knowledge might be shared should different sectors of the design industry come together like this.
 
-## New Blood
+## New blood
+
 It would also be nice to see some fresh blood appear at these events too, although I imagine one reason we're seeing the same people speak is because others in the community are reluctant to do so. [Andy Budd's offer][8] of free training for budding conference speakers was notable for its lack of applicants.
 
 There are a few conferences that do seem to be aiming for varied, more experiemental lineups though:
@@ -40,7 +42,8 @@ On a slightly smaller scale:
 
   * **[Multipack Presents][12]:** Perhaps to a lesser extent than others mentioned, but this series of talks has often seen local Birmingham designers and developers speak alongside Bruce Lawson and Stuart Langridge.
 
-## New Adventures in Content
+## New adventures in content
+
 Of course, there is a balance to be found, as for a successful event you need respected names to attract attendees. Yet I believe that even within these constraints -- and as a few other conferences are proving -- there is scope for more experimentation, both in terms of speakers and the content presented.
 
 Returning to New Adventures, where [the schedule][13] is still in progress, the site currently states:
@@ -49,7 +52,7 @@ Returning to New Adventures, where [the schedule][13] is still in progress, the 
 
 With the 5-star lineup, this careful curation could very well mean New Adventures In Web Design is the must see conference for 2011, and I'm intrigued to see what presentations will feature. However it will be these rather than the speakers, that will determine whether I purchase a ticket or not.
 
----
+***
 
 **Update:** Since this article was published, [Simon has posted][14] some background information about the New Adventures conference, and also discusses the motives surrounding its creation. Certainly worth reading in the context of this article.
 

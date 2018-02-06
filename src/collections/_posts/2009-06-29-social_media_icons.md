@@ -17,7 +17,8 @@ For feedback and suggestions, please [submit an issue on GitHub][3].
 
 *Licensed under a [Creative Commons Attribution-Share Alike 3.0 Licence][5]. I claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services.*
 
-## Included Icons
+## Included icons
+
 <style>
   .s-icons {
     display: flex;

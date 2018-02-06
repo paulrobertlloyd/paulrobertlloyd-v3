@@ -16,7 +16,8 @@ The history of the Olympics is not only one of remarkable sporting achievement, 
 
 The most notable creative output is that of the architecture, with each games requiring large venues to host the almost 30 different competitions held over the course of two short weeks. With organisers using the Olympics to promote national identity and regenerate deprived areas, it is these impressive yet expensive amphitheatres that attract the most attention and controversy, none more so than the centrepiece [Olympic Stadium][6].
 
-## Beautiful White Elephants
+## Beautiful white elephants
+
 Atlanta, host city of the [centenary games of 1996][7], is considered one of the least successful outings for a summer games, especially given its overly commercialised atmosphere. Yet long before 'legacy' had entered the Olympic vernacular, organisers had displayed incredible foresight regarding the future use of their venues. Here, [the stadium][8] was destined to become a baseball arena, and no sooner had the Paralympics finished, the track was uplifted, the temporary seating demolished, and the Centennial Olympic Stadium became [Turner Field][9]. What seemed like an unsympathetic move at the time, was in fact an impressive act of pragmatism.
 
 Other hosts have not been so thoughtful. So complex was the design of Montreal's *[Stade olympique][10]*, that it was left unfinished during the 1976 games, and completed nearly a decade later. In fact, it became one of the most expensive stadiums ever built, its retractable roof failing to account for the city's brutal winters and needing constant repair. Publicly financed to the tune of CAD$ 1.47 billion, the total cost was finally repaid in 2006. No wonder residents call it *The Big Owe*.
@@ -30,7 +31,8 @@ Other hosts have not been so thoughtful. So complex was the design of Montreal's
 
 A few cities have bucked this trend -- [Los Angeles Memorial Coliseum][11] and Berlin's [Olympiastadion][12], both built early last century, remain in use today -- but modern stadiums, such as those in [Beijing][13], [Sydney][14] and [Barcelona][15], struggle to find tenants or attract huge audiences. Athen's venues, another victim of that country's wider economic tragedy, [stand as white elephants, neglected and dilapidated][16].
 
-## London's Plan
+## London's plan
+
 {% include figure.html
   src="2015/07/london_olympic_stadium_exploded.jpg"
   preset="supporting"
@@ -55,7 +57,8 @@ Two events conspired against this vision.
   class="u-bleed"
 %}
 
-## Rectangle Pitches, Oval Tracks
+## Rectangle pitches, oval tracks
+
 Football stadiums grow ever larger, as wealthy club chairman look to increase ticket revenues and satisfy fans' appetite to watch games played during 10 month-long seasons. In order to create a hostile atmosphere for visiting teams, the best grounds feature steep terraces that impose onto the field of play.
 
 Funding for athletics is primarily sourced from government and lottery grants. Meets take place during the summer, attract fewer spectators, and the nine lane 400 meter oval running tracks positions spectators away from the infield.
@@ -64,7 +67,8 @@ Put simply, football stadiums (or those for rugby, baseball or other pitch-based
 
 Yet the centrepiece of the world's largest multi-sport event asks that organisers solve this conundrum: build a vast stadium that can host athletics for two weeks, yet have it remain useful for many years afterwards. Build and forget, or build and convert?
 
-## So Good They Built It Twice
+## So good, they built it twice
+
 With previous legacy plans discarded, the Mayor's London Legacy Development Corporation decided to convert the stadium so it could host football, and selected West Ham United as its permanent tenant. To ensure the stadium was more suited to pitch-based sports, architects made a number of changes, including designing a roof that could cover retractable seating on the lower tier. Extended, these seats would place fans closer to the action and protected from the rain.
 
 {% include figure.html
@@ -94,7 +98,8 @@ Visiting the stadium in athletics mode, it's hard to judge what it will feel lik
 
 While a future for the venue has been secured, it has come at a considerable cost -- and with much obfuscation of the fact that tax payers have effectively paid for two stadiums. If I were to make a prediction about its medium-term future, I'm not sure it would involve West Ham United, even if they have effectively been gifted a publicly subsidised ground. Still, at least London now has a semi-permanent athletics venue, and one capable of holding the World Championships in Athletics in 2017.
 
-## Lessons Ignored
+## Lessons ignored
+
 This takes place within a broader context, one in which similar mistakes continue to be made around the world. Only this month, the Japanese government scrapped plans to build [Zaha Hadid's controversial Olympic stadium][25] in Tokyo. Organisers might have been tempted to revert back to earlier plans which involved upgrading the [stadium used during the 1964 games][26]... except this has been demolished to make way for the new one. You couldn't make this stuff up.
 
 {% include figure.html

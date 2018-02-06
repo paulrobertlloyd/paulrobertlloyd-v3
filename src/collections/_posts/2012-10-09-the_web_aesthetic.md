@@ -3,7 +3,7 @@ title: The Web Aesthetic
 date: '2012-10-09 02:50:00 +0100'
 location: Brighton, England
 excerpt: At the beginning of this year I was struck by a realisation, prompted in part by the discussions around responsive images but also the artistic ingenuity of the image optimisation techniques being used by Jeremy. How might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
-image: 
+image:
   src: 2012/10/the_web_aesthetic.png
   caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart'
 tags:
@@ -21,6 +21,7 @@ Shortly afterwards, and with eerie coincidence, [Anna][3] introduced me to Rose 
 Like many great endeavours, this wouldn't have been possible without the assistance of others. [Rose][5] encouraged me to flesh out some of my earlier thoughts while [Sara Wachter-Boettcher][6] helped me hone the resulting words into something more readable. [Jeffrey Zeldman][7] contributed a few ideas too. I'm also indebted to my colleagues at [Clearleft][8], whose wise council allowed me to formulate and evaluate these ideas in the first place.
 
 ## Reaction
+
 Beyond having an article published in <cite>A List Apart</cite>, it's been incredibly fun reading the responses to it. Not only were these thoughtful and largely supportive, but some even expanded on my initial premise.
 
 David Bushell's [flattering follow-up post][9] touched on an aspect of the web I was unable to cram into an already wide-ranging article:

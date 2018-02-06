@@ -12,6 +12,7 @@ As I get closer to launching my redesigned website (this side of Christmas would
 Enabling HTTPS wasn't too difficult, largely thanks to [Josh's excellent how-to guide][2]. He recommends getting a free certificate from [StartSSL][3], but as I have sub-domains for different staging and image resizing servers, I bought a [wildcard certificate from NameCheap][4] instead. The launch of [Let's Encrypt][5] later this year should hopefully make this exercise easier and better yet, free.
 
 ## An unexpected consequence of enabling HTTPS
+
 With my certificates installed and HTTPS enabled, I visited my site and smiled broadly as I saw a little lock icon next to my domain. Ah, such simple pleasures.
 
 One reason for enabling HTTPS was to examine its impact on performance, so I submitted my newly secured site to [Google's Page Insights][6] tool. Expecting a 100% score for speed as I had before, I instead got a value in the low 90% range. [Enabling compression][7] would reduce the response size of my static assets, I was told. But wait, I *had* enabled compression. Why was this setting not being respected?

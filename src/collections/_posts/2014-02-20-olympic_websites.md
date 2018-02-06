@@ -19,7 +19,8 @@ tags:
 
 Since the first games were held in 1896, the Olympics have proven a showcase for the greatest creative endeavours, of which Aicher's work forms a small part. Be it Masaru Katsumi and Yusaku Kamekura's [pictograms for Tokyo 1964][3], Lance Wyman's mesmerising [identity for Mexico 1968][4] or Roger Taillibert's daring--if not flawed--design for [Montreal's Olympic Stadium][5] (still unfinished as those games commenced in 1976), artists and designers have left their indelible mark on the games. Yet still we wait for a web designer to contribute something of comparable value.
 
-## Many Logos, One Symbol
+## Many logos, one symbol
+
 It's too early to know what London 2012 will add to this rich history, but surely Heatherwick Studio's magnificent [Olympic cauldron][6], Zaha Hadid's sleek [Aquatic Centre][7] and the distinctive [pink way-finding signage][8] are worthy candidates. As to the logo, while controversial, its impact has already been felt. Shortly after it was unveiled, [I wrote][9]:
 
 > [The London 2012 logo] immediately changes the rules of what constitutes an identity for Olympic Games, and perhaps the wider expectations of what a logo should look like too. I think we can safely assume that future logos for games and candidate cities will certainly become a lot less conservative.
@@ -45,7 +46,8 @@ In that respect, Sochi's stark typographic mark makes a lot of sense. Featuring 
 
 This press release is no longer available, probably because **the website has failed to deliver on that multi-platform promise**.
 
-## Digital Olympics of a Decade Ago
+## Digital Olympics of a decade ago
+
 Ignoring the fact that [sochi2014.ru][15] redirects to a canonical domain of sochi2014.com, it's hard to believe that in 2014, a website with such international reach, financial backing and development timescale is not responsive, particularly given the rationale around the logo.
 
 {% include figure.html

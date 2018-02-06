@@ -25,6 +25,7 @@ The ideal way to travel the Zephyr is in the sleeping cars, where you get a bed,
 The dinners served up on board are certainly better than I was expecting, yet this hardly matters. There can't be any restaurants that serve up the kind of views as those from the tables of the Zephyr.
 
 ## Landscape
+
 The landscape you travel across is one of the most scenic routes run by Amtrak, with a timetable scheduled to ensure you get the best of it. At Sacramento, two guides from the California State Railroad museum jump aboard, and provide a commentary of the landscape as the train passes through the Sierra Nevadas.
 
 Although these guides step of at [Reno][3], the commentary is continued by the conductors, who pass through the mixed terrain that is the [Rocky Mountains][4] and [Continental Divide][5] several times a week.

@@ -25,14 +25,16 @@ Yet the months that followed saw relaunches across the site that didn't match th
 
 In retrospect, it's easy to see that these sites -- produced during a period of transition -- were unlikely to fully reflect the new vision, yet their launch made me question the BBC's appreciation of design, and wonder whether the goals of GVL3 would ever be realised.
 
-## BBC News Site Launch
+## BBC News site launch
+
 Fast forward to July, and the BBC finally launched a [top to bottom redesign][6] of its news website in full conformance with GVL3 -- which itself launched as part of a larger [Global Experience Language][7] (GEL) project.
 
 After years of minor face-lifts that papered over the cracks in an increasingly outdated and broken experience, the level of quality and attention to detail seen in the new site fills me with pride; no longer a site I feel embarrassed to use. As an organisation whose future is increasingly dependent on networked, on-demand services, BBC News Online can stand alongside the iPlayer as one of the great online experiences of our time, a new standard for other media organisations to follow.
 
 Having used the site for a number of months now, I'm still amazed to discover tiny little implementation details -- hover states, layout aware overlay menus, pixel precise positioning -- a level of subtly I've not seen anywhere else on BBC Online. The iPlayer comes close, yet the [design of the new version][8] depends on a tacky visual gimmicky now banished by GVL3.
 
-## A Vocal Minority
+## A vocal minority
+
 I was overjoyed when the new site launched, but a vocal section of the public felt quite the opposite, leaving thousands of disgruntled comments on the BBC's blogs and elsewhere. Many of these complaints boiled down to little more than annoyance that someone had dared change their comfortable familiarity, however I can understand a level of this frustration.
 
 The previous website had evolved from an original design launched in 1997. Whilst the width grew to match popular screen dimensions, and mastheads changed to reflect the branding of the day, fundamentally it remained the same site; navigation running down the left hand side and news stories tied to a formulaic layout.
@@ -41,7 +43,8 @@ Not only does the new site break a number of expectations built up by users over
 
 The BBC is often careful to test new designs with its users, but this time it fell woefully short.
 
-## One Page, A Thousand Interactions
+## One page, a thousand interactions
+
 {% include figure.html
   src="2010/09/bbc_news_redesign_msnbc.jpg"
   caption="An article page on the new MSNBC website"
@@ -55,7 +58,8 @@ Their redesign did away with pages, instead presenting content on one page; larg
 
 Whilst some of these interactions are interesting, it appears to be innovation for the sake of innovation. Comments can be opened in a drawer, site features appear when you scroll up and reach the top of the page, sharing tools are persistently anchored to the bottom of the browser window -- every gimmick that can be used, has been used -- the result distracting interactions in place of distracting adverts (the number of which has also increased). In reality, MSNBC is still stuck with the same page-view paradigm.
 
-## Built In Flexibility
+## Built in flexibility
+
 Perhaps the BBC should point disgruntled users to MSNBC, as I'm sure they would come running back. With GVL3 in full effect, the new site takes this approachable homogeneity, and infuses it with the strong BBC News brand.
 
 {% include figure.html
@@ -71,14 +75,16 @@ The same ideas have been brought to the article pages too. The original site was
 
 This move to flexible layouts is interesting, especially since [Clearleft][15] have been working on a project for [Channel 4 News][16] that proposed similar solutions. Whilst this vindicates our approach, it's a shame we couldn't release our solution before that of the BBC.
 
-## Not Without Fault
+## Not without fault
+
 Having a flexible layout for the home page is definitely an improvement, but this variation, alongside other persistent features, means the page can often lack a sense of hierarchy. The home page is a strange beast, bursting with modules, boxouts and promos, many of which I'd be tempted to remove. The customisable UK/World News feature, with its stark dark blue background, dominates the stories contained within, and I often find myself skipping past.
 
 My larger concern is that the new GVL3 guidelines seem heavily influenced by the design requirements of the news site. BBC News is one of their few remaining consumer facing brands still using Gill Sans, with Helvetica used on-screen. Low and behold this is what we see reflected in the style guide.
 
 It's too early to tell of course, but the suitability of these guidelines for the whole organisation will only become apparent once it gains usage across the entire website, and implemented for brands with differing content requirements.
 
-## Open and Transparent
+## Open and transparent
+
 The design of this site, and the rationale behind it, have been incredibly well documented; it's hard to imagine another organisation going to the same lengths to share its internal process. If you're interested in the background to this new design, I strongly encourage you to read the following:
 
   * [Formative user research for the BBC's Global Visual Language 3][17]

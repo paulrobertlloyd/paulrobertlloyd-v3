@@ -10,7 +10,8 @@ tags:
   - Brighton Marathon
 discussion: closed
 ---
-## Towards the Ultimate Goal
+## Towards the ultimate goal
+
 I've always wanted to run a marathon. Being of sound mind, I thought it probably best to compete in a smaller event first, so I entered the Great North Run (the world's largest half marathon) in 2003. Perhaps 'compete' is the wrong word. Whilst most people take running seriously, the real aim of mass participatory running events like this is to have fun whilst raising lots of money for good causes at the same time.
 
 That first event was a real eye opener. The support I got from spectators lining the route was infectious, and it encouraged me to enter more races. Yet, stupidly, I never properly trained and ended up walking the later stages of each race (the Great Manchester Run in 2005 was a rare exception). With no sign of increased performance or fitness -- unsurprising given the lack of any training -- I stopped entering races and gave up on any ideas of running a marathon.
@@ -21,7 +22,8 @@ I now run what were once challenging distances (5k, 10k) with little thought or 
 
 With that in mind, I've entered this year's [Brighton Marathon][3], which takes place on Sunday 15th April.
 
-## I Need Your Help
+## I need your help
+
 I started training a little before Christmas, and have been ramping it up further in the last few weeks. Last weekend (after some advice and inspirational talks at an official race training seminar) I ran 8.3 miles. I could have gone even further. This is good to know, especially as I've entered next month's [Brighton Half Marathon][4] as well, where I'm hoping to improve on last years result.
 
 I'll be running the marathon in aid of [Action for Children][5]. As a charity I've supported for many years, I'm really excited to be part of their running team. For those who don't know, Action for Children (previously known as NCH) speak out for vulnerable and neglected children, young people and families in the UK, and help them reach their full potential.

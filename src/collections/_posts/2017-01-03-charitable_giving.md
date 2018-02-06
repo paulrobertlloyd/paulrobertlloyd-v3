@@ -13,6 +13,7 @@ One way I’ve tried to deal with this succession of unfortunate events is by be
 My generosity extended into Christmas — as you'd hope it would! Alongside a bar of [locally produced chocolate][2], I asked relatives to pick a charity for which I could make a small donation. Not only was this a great conversation starter, it meant I could support a greater range of causes, such as [Riding for the Disabled][3] and [Myeloma UK][4].
 
 ## Revenue sharing
+
 [Reviewing my first year as a freelancer][5] in April, I mentioned that one of my goals was to start sharing the proceeds of my work:
 
 > I remain in a very fortunate position: I get to do what I enjoy, and I get paid to do it. Now, with a better understanding of my financial situation, I intend to share in the proceeds of this good fortune. Donating a portion of my revenue to charities, I plan to divide this up between a local charity focused on homelessness, and another fighting a global concern, climate change.

@@ -12,6 +12,7 @@ Responsive web design has engendered a wider conversation about how we build pro
   * [Slides](https://speakerdeck.com/paulrobertlloyd/responsive-principles-front-end-london-may-2015)
 
 ## References
+
   * [Donald Rumsfeld](https://en.wikipedia.org/wiki/Donald_Rumsfeld) (2015). <cite>Wikipedia</cite>
   * [The Thames Barrier](https://www.gov.uk/guidance/the-thames-barrier) (2015). <cite>GOV.UK</cite>
   * Cascio, J. (2008). [The Singularity Needs You](http://www.wfs.org/node/840). <cite>The Futurist</cite>

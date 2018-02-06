@@ -18,7 +18,8 @@ With a general election just months away, we can expect more of the same, especi
 
 I propose that any such reorganisation would be a perfect opportunity to rethink how the executive communicates with the public. If we want to reduce bureaucracy and simplify government, then we should also think about it being represented by a single identity rather than a multitude of logos.
 
-## Government Identities Around the World
+## Government identities around the world
+
 Other governments have a similar array of logos of course, but a few have implemented coherent branding strategies. I illustrate a few such schemes below, but further examples can be found in Canada, Australia and South Africa too:
 
   * [Canadian Federal Identity Program](http://www.tbs-sct.gc.ca/fip-pcim/index-eng.asp)
@@ -26,6 +27,7 @@ Other governments have a similar array of logos of course, but a few have implem
   * [South African Government Corporate Identity Guidelines](http://www.gcis.gov.za/services/govt/corpid.pdf) (PDF Document)
 
 ### United States
+
 Whilst there is no coordinated branding strategy within the US Federal Government, there is some consistency, largely the result of historical precedent than any centralised planning. Here government departments, federal agencies and programmes use round 'seals', basing their designs on that of the Great Seal, or referencing aspects of it such as the Bald Eagle or the Stars and Stripes.
 
 {% include figure.html
@@ -34,6 +36,7 @@ Whilst there is no coordinated branding strategy within the US Federal Governmen
 %}
 
 ### Germany
+
 The unification of East and West Germany in 1990 provided an ideal opportunity to create a single identity for the new federal government.
 
 A student competition held in 1996 was won by Jürgen Huber and Lisa Eidt. Their design combined the federal eagle, the German flag and a word-mark that could vary depending on department. They gained an internship at MetaDesign as part of their prize, and then worked with the agency to finalise the design.
@@ -48,6 +51,7 @@ The final identity was launched in June 1999 and [MetaDesign has been involved e
 %}
 
 ### Netherlands
+
 Last year the Dutch Government [took a similar approach][2] with it's 'Project 1 Logo' initiative. With over 200 departments and ministries facing mounting costs maintaining different logos, typefaces, print materials and signage, the project aimed to improve communication between citizens and the government by presenting a unified image.
 
 The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom typeface][4] ('[Rijksoverheid][5]') designed by Peter Verheul. Announced in 2008, the roll out is intended to be complete by 2011.
@@ -59,7 +63,7 @@ The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom ty
   caption="**Logos for Dutch Government and ministries:** A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs."
 %}
 
-## Future Approach
+## Future approach
 
 Although a highly visible (and initially expensive) identity programme might meet some resistance in the UK, with a phased roll out, the long term benefits are clear. In fact, holistic branding exercises are already common within the public sector. The Northern Ireland Executive uses [a cohesive identity across its different departments][6] and the NHS in England has been using [strict branding guidelines][7] for several years.
 

@@ -17,7 +17,7 @@ In this essay, it is mainly graphic design in British television that is discuss
 * Chapter list
 {:toc}
 
-* * *
+***
 
 ## A new medium is born
 
@@ -97,7 +97,7 @@ Bass was also successful in designing many corporate identities with clients inc
 
 Bass had most influence on the early graphic designers in television due to the fact that it was a new medium with precedents for design having to be found elsewhere. Often this was from print but Bass was the only one who provided a potential influence. However, his influence was often hard to emulate on television with its many technical, time and budgetary constraints. In fact it was also difficult for them to find inspiration from anything they, their colleagues or their predecessors produced, because for a long time video was not used to keep a record of programme output. Advertisers also found they had the same problems when they encountered the moving image with the arrival of commercial television in 1955.
 
-* * *
+***
 
 ## Growth and evolution
 
@@ -151,7 +151,7 @@ The introduction, firstly of 625-line broadcasts and later colour, had obvious b
 
 These considerations were particularly true of the seventies, especially the early years. Colour wasn't truly advantageous to the graphic designer as, although it allowed greater creativity, it had the major disadvantage in that mistakes were harder to conceal. Before colour and 625-lines, due to the quality of the medium, a lot of graphic designers managed to get things broadcast that wouldn't be now with the mediums picture improvements. This meant graphic design wasn't as straight forward, and designers had to think much more about what they were producing and pay much more attention to detail.
 
-* * *
+***
 
 ## Pioneers
 
@@ -223,7 +223,7 @@ It was for this reason that when Lambie-Nairn was recalled in 1997 to redesign t
 
 His success has also reached a point, that for a long period during the 1990's, three of the four terrestrial television channels, a number of ITV regions, and many satellite channels, all had identities created by Lambie-Nairn as well as a number of overseas television companies. Martin Lambie-Nairn was also the man behind the popular eighties satirical television show <cite>Spitting Image</cite> in which his company also financed the initial development.
 
-* * *
+***
 
 ## Computer revolution
 
@@ -270,7 +270,7 @@ However it was the eighties in which the computers use was more obvious to the v
 
 As for programme titles, they all seemed to embrace colour in a way that was not seen during the previous decade with the influence from Channel Four's identity on graphic designers particularly evident at this time. Using a similar palette to that of new channels identity, designers and often mixed photographs with illustrations which were usually very stylistic and sometimes of a cartoon nature. It also saw a return of the familiar black background in titles -- last seen in the fifties -- and on most occasions, titles ended with a simple title on black.
 
-* * *
+***
 
 ## Conclusion
 
@@ -284,7 +284,7 @@ Television is also is also a rapidly changing medium that is constantly benefiti
 
 Computerised control of the rostrum camera was an advantage as it did help to cut out a lot of time consuming and repetitive work that was seen when manual control was the only method. However the increasing power and subsequent multi-purpose use of the computer again hindered the graphic designer who felt obliged (sometimes even ordered) to use the computer and/or the newest effects it could create. However as computer graphics went out of fashion when audiences became used to them, we see graphic designers using computers as they should be intended as another tool to get the required creative effect.
 
-* * *
+***
 
 ## References
 {:.no_toc}

@@ -14,7 +14,8 @@ My short break in California has so far included four hour-long trips on Caltrai
 
 Although unintentional, the articles I had saved and now chosen to read, paint a disparaging picture of the companies that are based here, and the people who choose to work for them.
 
-## Abandoning the Checks and Balances
+## Abandoning the checks and balances
+
 I found [Evgeny Morozov's interview with the Guardian][2] fascinating, if not a little outlandish at times. Morozov is author of <cite>[The Net Delusion][3]</cite> and has written a second book <cite>[To Save Everything, Click Here][4]</cite>, both of which I'm inclined to read, if only because they challenge common ideas perpetuated within the tech industry.
 
 In this interview, Morozov begins by criticising the self-tracking movement, which he describes as 'solutionist':
@@ -27,7 +28,8 @@ Such a situation leads to an inevitable conclusion:
 
 With great power, comes great responsibility. Google has already shown itself to be [an organisation that can't be trusted][5].
 
-## The Bacon-Wrapped Economy
+## The bacon-wrapped economy
+
 Morozov describes the people working in these companies as overly concerned with efficiency, with little understanding of the human condition. That may be taking things a little to far, but they do lead lives often far-removed from those of their users.
 
 Ellen Cushin's article <cite>[The Bacon-Wrapped Economy][6]</cite> describes how the influx of young, wealthy individuals into the Bay Area is having an impact on the financial sustainability of its cultural institutions:
@@ -38,7 +40,8 @@ This new group views philanthropy as results-oriented giving. Kickstarter is cit
 
 > Kickstarter is, after all, an essentially consumerist-oriented form of charity, one that rewards entrepreneurship and free-market values: Don't donate, invest. Don't give someone a fish, don't even teach him how to fish -- take a look at his fishery's business plan, decide if you'd like to support it based on a video and some short copy, and then make a one-time payment of whatever amount you'd like, most likely in exchange for some kind of concrete reward.
 
-## Silicon Valley's Problem
+## Silicon Valley's problem
+
 Cushing's article led me to a post by Catherine Bracy, Director of International Programs at Code for America, who talks about [the bubble in which start-ups in the valley and San Francisco now operate][7]:
 
 > Barely any of them start from an entrenched social problem and work backwards from there. Very few of them are really fundamentally improving society. They're making widgets or iterating on things that already exist. Their goal is to make themselves as appealing -- or threatening -- to a big player as possible so they can get bought out for a few hundred million dollars and then devote the rest of their lives to a) building Burning Man installations, b) investing in other people's widgets, or c) both. They really don't care that much about making the world a better place, mostly because they feel like they don't have to live in it.

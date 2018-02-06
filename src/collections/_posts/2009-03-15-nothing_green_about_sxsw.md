@@ -39,7 +39,8 @@ This isn't a problem limited to just SXSW -- many other conferences exhibit the 
 
 I find it odd that these bags continue to prove so popular, even though they achieved infamy as bags of useless crap many years ago. I've often heard regular attendees explain to first time visitors that they should avoid the Big Bag and just pick up the mini fold-out guide, yet I've seen these very same regulars at the bag pick-up point the next year.
 
-## Ritual Stupidity
+## Ritual stupidity
+
 They and countless others go through a strange SXSW ritual. After getting their registration badge, they head down to the bag collection point and sneak round the curtain to snap a picture of the [sea of bags][4] (seemingly unable to recognise the wastefulness). Upon receiving the bag, they proceed to then throw out any flyers not of interest to them, before taking the remaining items back to their hotel (the bags being too heavy to carry around for any length of time). The bag is then forgotten until it's found at the bottom of the suitcase upon returning home.
 
 This year the SXSW bag contains a small camera bag made by Crumpler, which seems excuse enough for some to continue this ritual stupidity. You probably already have a camera bag, and chances are your camera will either be too big or small for it to be of any use. Yet it's enough to persuade those who might not have picked up the bag to do so this year, for fear of missing out. This trend is reflected in a number of other 'viral' items such as the phone sock and 'Internet All Star' trading cards.

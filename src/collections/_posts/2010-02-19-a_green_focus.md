@@ -18,6 +18,7 @@ As such, I find myself criticising other people for making decisions that I don'
 A friend who brought their iPhone at the same time as me, recently upgraded 'because they were told they could'. This perpetual upgrade cycle, driven by phone companies wishing to get customers onto new tariffs or contracts also frustrates me. I certainly have no plans to upgrade my device for the foreseeable future.
 
 ## Undermined
+
 Yet on many occasions, [friends have questioned such criticism][3], especially given the amount of flying I've been doing over the last few years, which has not only countered other changes I've made but also undermined the example I've been trying to set.
 
 Having said that, I will staunchly defend the practice of travel. I think leaving the comfort zone of your surroundings, experiencing other cultures and seeing your own from a different perspective is to be encouraged. I believe my world view has fundamentally changed since the short time I lived in the US, and more recent travels around Europe.
@@ -73,6 +74,7 @@ However, thanks to [Dopplr][4]'s ability to track the carbon generated from all 
 Still, my friends are right; flying so often undermines my ability to advocate a greener lifestyle. It also dawned on me just how unpleasant the entire experience is anyway. Endless queuing, administration and [frustration][5], just to travel in pretty appalling conditions -- I can't think of any other situation in which waking up two strangers and crawling across a row of seats, just to visit the toilet would be tolerated, but it is here.
 
 ## Changes
+
 Contrast this with travel by train. Much of the queuing and waiting is gone, and you can travel from the centre of one city to another in a matter of hours. For just a little extra you can upgrade to first class, enjoy free wireless internet, sip champagne and eat freshly cooked meals. Whatever class you travel, the amazing scenery comes for free.
 
 Perhaps it's no surprise then that I've opted for this form of travel lately, and I hope to undertake another rail bound journey around Europe later this year.
@@ -82,6 +84,7 @@ However, I feel it's important to make clear my statement of intent, and also ho
 I'm not saying this because I had no plans to fly either. I was really hoping to catch up with friends in San Francisco, and this years [An Event Apart][7] series looks especially enticing. Yet these can wait. There is of course the possibility I will be asked to fly by my employer ([Clearleft][8] has many clients based overseas) yet I hope this is something I can avoid if at all possible.
 
 ## a.green:focus
+
 Hopefully, by improving my own behaviour and backing it up with firm action, I can once again advocate a green agenda. Indeed, after [announcing my plans][9] to build a green coalition of web developers and designers last April, this month I formally launched the campaign. It's called [a.green:focus][10].
 
 In my [inaugural post][11] on the a.green:focus blog, I explained why our industry is best placed to challenge peoples behaviour and help them become more environmentally conscious:

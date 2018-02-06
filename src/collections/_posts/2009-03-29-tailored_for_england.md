@@ -22,7 +22,8 @@ With this in mind, I imagined the 2009-11 kit to be in much the same vein, perha
 
 I was wrong.
 
-## The New Kit
+## The new kit
+
 Instead designer Aitor Thrope has gone with a far more classical look, and a design inspired by kits from the 1950's. This has returned the strip to a far simpler, brilliant white design, one no longer adorned with a stylised St George Cross or other unnecessary trimming.
 
 The star representing England's solitary 1966 Word Cup win remains, but now shares the same colour as the shirt, giving it a far more modest feel -- a wise choice given our recent lack of success in that competition.

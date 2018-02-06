@@ -17,6 +17,7 @@ I'm finding these review sessions immensely rewarding; it's a great way of gaini
 As a number of new projects have kicked-off recently, and with my own thoughts turning to the design of [this year's dConstruct website][6], much of today's discussion was about our initial design explorations. In turn, we looked at tools and techniques that can help us do this, weighing up the pros and cons of each.
 
 ## Mood boards
+
 {% include figure.html
   src="2013/08/visual_design_explorations_mood_board.png"
   caption="Mood board for Family Nest"
@@ -28,6 +29,7 @@ A tool typically used by interior designers, mood boards can be a great way of e
 We tend to use mood boards when there's not a sense of any brand positioning or identity. However, they can feel quite removed from the web; when clients are eager to see something more relevant to the final outcome, presenting these becomes tricky.
 
 ## Style tiles
+
 {% include figure.html
   src="2013/08/visual_design_explorations_style_tiles.png"
   caption="Style tiles for Channel 4 Scrapbook"
@@ -45,6 +47,7 @@ We've found aligning visual design with words that evoke emotions relevant to a 
 Although unintentional, style tiles have started to feel a little too prescriptive (maybe even 'productised'), raising interesting questions about how processes are best shared within the community. That said, the [style tiles][8] website is a great resource for anyone looking to instigate a more collaborative process with their clients.
 
 ## Element collages
+
 {% include figure.html
   src="2013/08/visual_design_explorations_element_collage.png"
   caption="Element collage for a current project"
@@ -62,6 +65,7 @@ Jon has been using this approach as he explores the design direction and overall
 This elemental approach can also set the scene for later design phases, where we start to think more about individual patterns.
 
 ## The right tool for the job
+
 Regardless of any particular process or tool we may choose, it's interesting to note that our visual design explorations are now happening alongside the research and ideation phases undertaken by our UX colleagues. Having front-end developers be part of the same conversation, helps massively too.
 
 As we continue to review our processes to ensure they better reflect the unpredictable nature of the web, we're finding that our processes are becoming less predictable too.

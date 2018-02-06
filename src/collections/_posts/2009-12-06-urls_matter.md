@@ -12,6 +12,7 @@ discussion: closed
 The humble URL has been on my mind a lot recently. Through a series of developments, this simple means of addressing the wonders of the web has been obfuscated and abused, to the point that it's now seen as difficult to use and an affront to users.
 
 ## Shortened
+
 There has long been a need for URLs to be shortened, be that in e-mails or within the pages of a magazine, and for a number of years the service [TinyURL][1] did a fairly respectable job of performing this task.
 
 However the onset of Twitter and its 140 character limit has meant its 18 character URL is now considered too long, with users opting to use newer shorteners made up from just 13, 12 or even 11 characters. To provide some semblance of readability whilst keeping the URL short, these services use various country code top-level domains (ccTLDs) to complete the name of their service (for example flickr.com becomes flic.kr) or provide vanity to the overall shortened URL (ie. tr.im, or j.mp).
@@ -23,6 +24,7 @@ Whilst it has long been abused (see .ws, .tv, .fm et al.) there was still the po
 It's for this reason that when I decided to provide a short URL for this site, rather than create a short random jumble of letters and a full stop, I instead opted for the slightly longer yet more readable prlloyd.com.
 
 ## Sentenced
+
 Another emerging trend has been to make URLs read like sentences, something first [pioneered by Chris Shiflet][3] at OmniTI, and similarly used on the current [Clearleft][4] site.
 
 The idea is that by using verbs (`/is`, `/does` and `/thinks`) rather than nouns (`/about`, `/work` and `/news`) the information architecture of the site generates URLs that read like sentences. So for example:
@@ -38,11 +40,13 @@ What I love about these 'sentenced URLs' is that they clearly demonstrate the le
 I've been thinking a lot about whether these 'sentenced URLs' are a good thing or not. Whilst I love the idea, they only work well when considered properly and applied consistently. They also feel fashionable, and fashions tend to result in [poor imitations][5] and short lifespans. Apply with caution is the lesson here.
 
 ## Abused
+
 Some companies take the opposite approach. Rather than spend time considering the exact structure and layout of their URLs, they allow them to become subject to abuse by SEO experts, who insist that they contain almost entire passages of text to please the Internet gatekeeper that is Google.
 
 Not only do these URLs get bogged down with this 'Google juice', but are often appended with referral IDs or other unnecessary query strings. Indeed, URLs have become so mangled that they're starting to be seen as unsuitable for mass consumption, [hidden away from view][6] and replaced with more visually delightful interfaces. Whilst these may be easier to use, they lack the powerful utility and freedom of choice URLs provide.
 
 ## Discarded
+
 Given this pattern of ill-considered implementations, you can imagine my dismay when my former colleague [David Sklar][7] advocated this approach in a recent article entitled [Do URLs Matter?][8]
 
 I know David to be a fantastic developer who literally [wrote the book on PHP][9] (and was an [excellent host][10] during my visit to New York in 2007), so the following exists only to contribute to the debate I'm sure he hoped to stimulate.

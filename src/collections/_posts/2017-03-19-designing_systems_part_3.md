@@ -14,7 +14,7 @@ tags:
 ---
 _The final part of a three-part essay based on the talk I gave at [Smashing Conference][1]_.
 
----
+***
 
 When I visited Brasilìa in 2011, I observed the [repeating architectural motifs][2] used by Oscar Niemeyer across his different signature buildings. Common themes included:
 
@@ -35,9 +35,11 @@ Much like a design system, we can consider a front-end component as being made u
 %}
 
 ## Component concerns
+
 By taking each concern on its on, we can think about which guidelines and vocabularies in our design system are applicable.
 
 ### Content
+
 Reduce any webpage to its barest essentials, and you are left with text. Even the most complex applications rely on this for labels and messaging. This is why I like to start building components by writing plain text. I can use Markdown for a limited set of structural markers, and an ASCII-like syntax for forms control:
 
 ~~~
@@ -54,6 +56,7 @@ Rating:    ( ) 1   ( ) 2   ( ) 3   (•) 4   ( ) 5
 These constraints keep me focused on the content, its structure and order. I can also look to editorial style guides and tone of voice guidance should they be appropriate.
 
 ### Meaning
+
 The next step is to think about meaning. For this, I'll look to any shared vocabularies that may help me describe a component. Of these there is one that is extremely well defined and widely understood: HTML.
 
 By using HTML's terse palette of elements, again forces me focus. HTML is often derided as being too limited, yet it's worth reviewing the options available (and combinations thereof), especially given the range of elements now available with HTML5. On a recent project I used the `meter` element to describe a five-star rating:
@@ -98,6 +101,7 @@ On the topic of naming, I also like to use naming meta patterns. These are repea
 Leban Hyde refers to this as [the workhorse with no name][5], while Dave Rupert calls a similar approach the [every module ever scaffold][6]. Patterns like this can make our code more predictable and easier to understand.
 
 ### Presentation
+
 Once I reach the presentation layer I begin to translate the visual design language into code. I will start by abstracting common design values into a set of variables:
 
 ~~~ scss
@@ -186,11 +190,13 @@ This is similar to the system used at the Guardian. [Guss][10] is a set of Sass 
 There's a temptation to over-use tools like [Sass][11] and other pre-processors, and I wasn't so keen on them until I realised their true superpower: they allow us embed shared vocabularies in code.
 
 ### Behaviour
+
 As we reach the top of the stack, we can start to look at how our components behave. JavaScript isn't my forte, so I won't dwell too long on this, but even here, we can introduce naming conventions, and use similar concepts of starting simple and building an experience in layers.
 
 There are a number of other aspects not touched on here which will likely transcend all three layers. For example, considering the accessibility of a component will involve thinking about the choice of language used, styling text so that it is legible and has sufficient colour contrast, and ensuring it can be successfully interacted regardless of input device.
 
 ## Connections
+
 That's how I tend to approach building my components, and your millage my vary. But have we spent too much time discussing the complexion of components, while ignoring broader considerations?
 
 Let's return to Brasília. While Niemeyer's buildings are gorgeous, they suffer from an emphasis on form over function. For example, the National Congress has a huge ramp at the front that would appear to be its entrance. In fact it's purely decorative; a point reinforced by a barrier that sits half way up to prevent the public clambering onto the roof, which itself occupied by armed guards!
@@ -215,6 +221,7 @@ An abiding memory of [my visit to Brasília in 2011][12] was walking along its m
 In our discussion about components, we tend to talk a lot about chairs, yet neglect the rooms they sit in.
 
 ### Object analogies
+
 Actually, we don't talk about chairs, but we do talk a lot about Lego. This modular toy system has proven to be a useful analogy for describing object-orientated programming: separate blocks that can be pieced together in a number of combinations. However, look closely, and you'll find shortcomings in this comparison when talking about front-end components.
 
 A Lego brick is...
@@ -245,7 +252,7 @@ Perhaps Lego is the right example, we've just been looking at the wrong aspect o
 
 This leads me to ask: what are the equivalent concepts within the realm of front-end development? What methodologies might we uncover if we were to focus more on the relationships between components, rather than the components themselves? Who knows, maybe the cascade could become a powerful ally, rather than a pernicious foe.
 
----
+***
 
 I hope you have enjoyed this three-part series, borne from the talk I gave at Smashing Conference last year. The ideas I've outlined are of course subject to re-evaluation, so if you have any feedback, please do get it touch, either [via e-mail][14] or [Twitter][15]. Thanks for reading!
 

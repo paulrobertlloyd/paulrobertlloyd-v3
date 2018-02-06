@@ -13,7 +13,8 @@ This was all about to change. Soon after [I blogged about @media][6], I received
 
 A lot has happened in the intervening years. Whilst membership hasn't grown massively in number, you can be sure to see new faces at each monthly meet-up, whilst a core group (that have since become good friends) ensure that our little community continues to thrive. With this year having seen the introduction of a 'Presents' series of talks, what better way to celebrate our fourth birthday than with the fourth event in this series.
 
-## Our Next Event
+## Our next event
+
 <cite>The Multipack Presents: Rich Internet Apps</cite> features [Nick Harewood][9] talking about Microsoft Silverlight whilst [Bruce Lawson][10] returns to give us an update on HTML5. Meanwhile Si has promised to bring along some birthday cake, whilst me, Jon and possibly Chris will hopefully be in attendance so as to reunite all four founding members.
 
 {% include figure-embed.html

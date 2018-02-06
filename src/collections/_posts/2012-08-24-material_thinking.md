@@ -16,6 +16,7 @@ tags:
 Earlier this month, Team Clearleft headed up to London for a day of design related exhibitions: <cite>[Bauhaus: Art as Life][1]</cite> at the Barbican and (after a ride across the city on a 'Boris Bike') <cite>[British Design 1948-2012][2]</cite> and <cite>[Heatherwick Studio: Designing the Extraordinary][3]</cite> at the V&A. I spent a considerable amount of time taking in each word and every example of work. Inspiration was to be found in abundance; no doubt exaggerated by the euphoria of the Olympics and an opening ceremony that showed Britain at its creative best.
 
 ## Heatherwick Studio
+
 The centrepiece of the games was the highly original and beautifully symbolic [Olympic Cauldron][4], so I was excited to see the scale model featured in the Heatherwick exhibit. Until this point, I hadn't made the link between this studio, lead by Thomas Heatherwick, and other objects I've long admired. From [East Beach Cafe][5] in Littlehampton to the [UK Pavilion][6] at the Shanghai Expo; from [London's new bus][7] to the short-lived [<cite>B of the Bang</cite>][8] sculpture in Manchester, this small studio is responsible for a huge range of wonderfully imaginative creations.
 
 {% include figure.html
@@ -27,7 +28,8 @@ Their work feels futuristic yet timeless; from bridges that roll up into themsel
 
 Much of this has evolved from a deep understanding of the materials being used; learning how far they can be pushed or discovering ways they can be combined. In fact, many projects were the result of such research, conducted separately without any project in mind.
 
-## The Materials of the Web
+## The materials of the web
+
 It wasn't difficult to find parallels between the work of this studio and the practice of web design. Recently I've been thinking about the need to better understand how the web works and behaves; how it's constructed and the principles that should be respected, before we can truly design for it. As such, this exhibition was instructive viewing.
 
 It seems we're increasingly ignoring the underlying characteristics of the web as we rush to build products, often from the top down. I've seen countless examples where content exists only in JavaScript; remove that capability from a device and the experience falls apart. Such is the adaptability of the medium, there's also a temptation to mimic the look and behaviour of other platforms, yet this produces forms that feel distinctly out of place.
@@ -36,7 +38,7 @@ The advent of responsive design has forced us to revisit existing assumptions, t
 
 We're at a turning point in the development of our profession. Just as the true nature of the web is being reaffirmed, so too is the desire to focus on the latest technology and trends. Yet now is the time to re-engage with the medium; to understand its strengths and weaknesses; where it might break if pushed too far. To think about its natural attributes and how we might take advantage of them.
 
----
+***
 
 With this in mind, I'm proposing a talk for next year's SXSW Interactive conference called <cite>Web Native Design</cite>.
 

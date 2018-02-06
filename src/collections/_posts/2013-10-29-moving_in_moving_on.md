@@ -13,7 +13,8 @@ This weekend I will move into a new flat, the first I've owned rather than rente
 
 While I'm trying not to see buying a property as an act of settling down (I can always rent it out, right?), that I've bought somewhere in Brighton suggests I've found a place I'm happy to call home. This is partly thanks to [Clearleft][1], the design agency I joined in 2009. The team here introduced me to a local community of peers, as well as the best places to eat, drink and be merry in this small but vibrant city.
 
-## Parental Guidance
+## Parental guidance
+
 The history of Clearleft maps closely to that of my own career. At first, I watched from the sidelines as the company emerged from the blogging of its three founding partners. My first interaction came as a client, when Ning hired their nascent team to design a video product. I later contracted for them, before joining full-time four and a half years ago.
 
 {% include figure.html
@@ -32,6 +33,7 @@ In many respects, Clearleft can be regarded as a family. Andy and Rich are the p
 I know I will, as it is with much sadness that I've decided to leave Clearleft, with my last day at this wonderful company fast approaching.
 
 ## Goodbye Clearleft
+
 {% include blockquote.html
   quote="The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears."
   citation="Dan Stevens, British actor"
@@ -42,6 +44,7 @@ I've spent more hours working for Clearleft than I have any other company. I'm i
 There is still so much I want to learn, too. As I write and speak more about my profession, I feel slightly fraudulent having not worked in a big organisation or as part of a larger design team. Successful web design is not only the result of beautiful aesthetics or well-crafted code, but an ability to work with others, communicate ideas effectively and often, reach compromise. Working at an agency can shield you from a client's internal politics: a blessing for consultants maybe, but often a curse to any product being built. I say this having worked on projects where the resulting website was either shut down, or replaced by a Facebook page six months after launching -- that's if it ever launched. I've seen both sides of the coin; agency versus in-house, projects versus products, and right now the coin is weighted against what Clearleft can offer.
 
 ## Hello the Guardian
+
 Having formed a fairly strict set of criteria for any potential future employer (e.g. doing something of importance, unlikely to get bought by Facebook) only a few candidates remained. Of these, [the Guardian][6] looked the most promising.
 
 This has been quite a year for the newspaper, reporting on issues such as [press regulation][7], [mass-surveillance programmes][8] and the [intolerable working conditions][9] construction workers are being subjected to in Qatar -- important stories other media outlets have either ignored or downplayed. Courageous journalism that calls the powerful to account is an important part of a fully functioning democracy, and never more so in the run up to a general election. The Guardian is an exciting place to be right now.

@@ -11,7 +11,7 @@ tags:
 ---
 _The second part of a three-part essay based on the talk I gave at [Smashing Conference][1]._
 
----
+***
 
 As consumers grow ever reliant on digital products and services, designers are being asked to create experiences that work seamlessly across a multitude of platforms, all without slowing delivery or impeding their maintainability. Design systems address this need.
 
@@ -31,6 +31,7 @@ I imagine a complete system consisting of four layers, each concerned with a par
  * [Products](#products): The resulting output of the system, whose use will feed back into the make up of the layers below.
 
 ## Principles
+
 [In part 1][3], we saw how the artifacts commissioned by Frank Pick needed to satisfy his test of *fitness for use*, a principle that informed every aspect of London Transport's corporate identity. We can use a similar model when crafting design systems. Experience designer Kate Rutter [describes design principles][4] as:
 
 > short, insightful phrases that act as guiding lights and support the development of great product experiences [that] enable you to be true to your users and true to your strategy over the long term.
@@ -42,6 +43,7 @@ That said, it's never too late to consider design principles. In fact, having an
 Jared Spool has written about [creating meaningful principles][5] that can better inform design decisions, while Jeremy Keith maintains [a collection of principles][6] if you are looking for inspiration.
 
 ## Guidance
+
 ![](/images/2017/01/design_system_onion_r2.svg){: .u-aside} With a set of guiding principles in place, you can then look to the creation of guidelines. Artifacts of a design process, these document how different practitioners should embody these principles in their own work.
 
 Designers will look to *brand identity guidelines*. These can cover everything from logo usage, typography and colour to texture, iconography, photography and more. A renewed interest in mid-to-late 20th-century brand manuals means we can refer to guidelines produced for the [New York City Transit Authority][7], [British Rail][8], [Nasa][9] and [others][10]. While brand consultants no longer deliver hefty tomes like this, the guidance they offer should be no less exhaustive.
@@ -51,6 +53,7 @@ Writers will seek out *style guides*. In the original sense of the term, these c
 Developers may establish *coding conventions*. These ensure everyone contributing to a codebase is writing consistent, predictable and maintainable code. The correct answer to the question "tabs or spaces" isn't your own personal preference, but what the team has collectively opted to use.
 
 ### Naming things
+
 Be they designers, writers or developers, craftspeople will find collaboration easier having agreed upon a clear set of rules and established a shared vocabulary that ensures everyone is using the same language.
 
 In her article <cite>[From Pages to Patterns][11]</cite>, Charlotte Jackson describes a workshop exercise that encourages a collaborative approach to naming interface components:
@@ -64,6 +67,7 @@ If multiple people suggest the same name for a component, this will likely be a 
 Once you've decided what things are called, make sure these decisions are recorded. When I joined the [Guardian][12], my colleagues would talk about *pixies* and *super-pixies*, *bentos* and *mini-bentos* and other odd names which gave little hint to their meaning (it turns out these were container types used on the homepage). While arriving at esoteric names like this can be fun and build camaraderie within a team, they inadvertently exclude those who join later. It's for this reason that I recommend [using obvious and descriptive terms][13] whenever possible.
 
 ### Building systems through collaboration
+
 The idea of working together to build a shared understanding brings to mind Mark Boulton's observation that [effective design systems adopt Postel's Law][14], such that by:
 
 > being liberal in accepting things into the system, and being liberal about how you go about that, ensures you don't police the system. You collaborate on it.
@@ -82,11 +86,13 @@ Realising that passengers cared more about the connections between the various l
 _It's not the features that matter, but the connections_. I'll return to that thought in part three.
 
 ## Tools
+
 ![](/images/2017/01/design_system_onion_r3.svg){: .u-aside} Guidance alone can't help us build products. We need tools that go beyond this low-level direction (the 'what'), and enable people to implement these rules in a meaningful way (the 'how'). These are the concern of our next layer.
 
 Two tools often mentioned when discussing design systems are _visual design languages_ and _component libraries_. Understandably, it is the later of these that our industry has focused on lately as they help develop modularised front-end code.
 
 ### Conceptual models
+
 While these attract the most attention, it's conceptual models that I find more interesting. As way of example, let me describe a model we used at the Guardian.
 
 As part of an extensive redesign project, one goal was to improve the discovery of different content types. Achieving this meant taking into account a number of conflicting requirements. Readers wanted predictable means of finding their favourite topics and columnists, yet editors wanted to flag stories from across the website. While the design team wanted to create layouts infused with Guardian's renowned graphic design values, the engineering team wanted to develop a product that wasn't overly complex or difficult to maintain.
@@ -133,6 +139,7 @@ In <cite>[101 Things I learned in Architecture School][16]</cite>, Mark Frederic
 This perfectly encapsulates the process we went though at the Guardian, and one I've experienced many times since. Only by working with the different pieces long enough, experimenting with various combinations, can you devise a system (or _systems_) that sufficiently model the underhand complexity.
 
 ## Products
+
 ![](/images/2017/01/design_system_onion_r4.svg){: .u-aside} Returning to [the first part of this essay][3], systems need to survive contact with the real world. Writing about GE's design system, Predix [Jeff Crossman noted that][17]:
 
 > A design system should not simply be a collection of user interface components along with some design theory. It should demonstrate how design patterns have been applied in real products and document how other teams have extended patterns for specific use cases.
@@ -140,6 +147,7 @@ This perfectly encapsulates the process we went though at the Guardian, and one 
 Jeff makes an important point; the products of a design system will be the ultimate arbiters of its usefulness. Beyond the immediate success (or failure) of these products, as they evolve to meet the changing needs of our customers, so the systems supporting them will need to adapt also. The products that emanate from a design system are at the same time a constituent, living on its surface and feeding back to the layers below.
 
 ### Accounting for change
+
 Frank Pick's successful management of London Transport was possible due to the support he received from the company's chairman, Lord Ashfield. The departure of both Pick and Ashfield -- plus growing private car ownership and declining passenger numbers -- soon costs were being prioritised over quality, and a period of neglect followed.
 
 {% include figure.html
@@ -162,6 +170,7 @@ Included in the idiom is a new map that gives contractors a station-by-station g
 %}
 
 ### Shearing layers
+
 ![](/images/2017/01/shearing_layers.svg){: .u-align-right} In <cite>[How Buildings Learn][19]</cite>, Stewart Brand expands upon Frank Duffy's idea that different timescales can be seen to effect a building. Called shearing layers, he describes these as follows:
 
 * **Site**: the geographical setting and legally defined location, whose boundaries and context will outlast generations of ephemeral buildings.

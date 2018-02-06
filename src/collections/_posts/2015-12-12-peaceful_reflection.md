@@ -14,7 +14,7 @@ I'd never visited America before. Besides wanting to know how this English-speak
 
 While Ning may have been small, it was the focus of much attention: one of its co-founders was Marc Andreessen, co-author of Mosaic and co-founder of Netscape. He and fellow co-founder and CEO Gina Bianchini were building a platform to help individuals create social networks around different interests. This was very much a nascent concept: MySpace had recently overtaken Friendster as the network of choice, while membership of Facebook was limited to college students. Twitter would be several months away from launching.
 
----
+***
 
 I was picked up at the airport by Gina and two product managers, Athena and Kyle. Even though it was the middle of December, the weather was bright and warm, as was this welcome party. As we drove from SFO to Palo Alto, I asked questions about the different things I saw whizzing past my window, no matter how inconsequential.
 
@@ -24,7 +24,7 @@ Ning was based in an unassuming three-storey building, on a floor above a cosmet
 
 I ended my week of discovery accepting the role of lead designer, not difficult given the six-figure salary attached to it. The offer was well timed too: the agency I was working for would close down just a few months later. For the first time in my life, *anything* seemed possible. What a thrill!
 
----
+***
 
 Accepting this job required moving to the US, pending a visa application that would take nine months to complete. Thankfully, I was able to spend the first three months back in Palo Alto, getting to know my colleagues and the country that would soon become home. That this relocation was temporary, and the platform still in the early stages of development, meant the pressure was off: I could relax and embrace these new surroundings.
 
@@ -44,7 +44,7 @@ By the end of 2007, the fateful conclusion to this adventure grew nearer. Attend
 
 I had spent almost two years at this company, one imbued with my personality: in-jokes ("blame Paul"), recycling initiatives (potato-based forks!) and distinctive design (I dutifully resisted the worst aspects of the web 2.0 look). Now I was shut out, this once-in-a-lifetime opportunity squandered.
 
----
+***
 
 While it's easy to focus on the negative aspects of my time at Ning, to do so would be unfair. I made a number of friends, many of whom I still see and speak to today. I gained new perspectives that influenced my politics and informed my interests. It also gave my career a tremendous boost (during the course of my employment with Ning, I was introduced to Clearleft, a company I would later spend five years working for).
 

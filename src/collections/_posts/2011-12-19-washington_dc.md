@@ -14,6 +14,7 @@ tags:
 [Yesterday I wrote][1] about how I found myself on a second extended tour of North America. This was a journey that started in Washington DC; ostensibly so I could attend an edition of this year's An Event Apart conference. Yet it was also a good excuse to catch up with [Shannon][2], who graciously planned a tour of the city for me and [Andy][3].
 
 ## Segs in the City
+
 After grabbing brunch at [Kramerbooks][4] we headed to the [National Air and Space Museum][5]. Having previously visited their larger Steven F. Udvar-Hazy Center near Dulles (Enola Gay! Concorde! Space Shuttle Enterprise!) this smaller location was always going to be a little underwhelming.
 
 Unlike many planned cities, Washington is extremely walkable. However it's even better suited to the Segway, which is how we would tour the city's many monuments in the afternoon. After some lunch at [Teaism][6], we put our pride to one side and mounted three [Segs in the City][7]'s pink trimmed vehicles. In a strange act of foretelling, a bizarre series of jokes told around a campfire in Wales earlier in the year had become true; I had 'Segsy Legs'. The shame!
@@ -24,7 +25,8 @@ The [Lincoln][8] and [Thomas Jefferson][9] memorials were as spectacular as I re
 
 In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for dinner at [Marvin][15] (a Southern flavoured restaurant), followed by cocktails at [The Gibson][16] before finishing up at [Lost Society][17] on U Street. I ended the night by getting lost on the metro, but apart from this minor mishap, I couldn't have asked for a better way to kick-off my trip.
 
-## Apple Picking in Virginia
+## Apple picking in Virginia
+
 {% include figure.html
   src="2011/12/washington_dc_apple_pickers.jpg"
   caption="The Apple Pickers"
@@ -33,6 +35,7 @@ In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for
 The fun continued on Sunday when I went Apple picking with Shannon and some of her friends at the [Stribling Orchard][18] in rural Virginia. Having visited Washington before, I jumped at the chance to get out of the city and try something new. It wasn't long before I was trying out the accent and batting apples across the orchard, baseball style. It's a sight I'm sure [Kyle][19] would have paid good money to see; I'd gone native!
 
 ## An Event Apart
+
 The remainder of my time in DC was largely spent within the walls of the Westin in nearby Alexandria, enjoying a conference I've long regarded as one of the best -- [An Event Apart][20]. It was great to catch up with [Ethan][21] and to see his presentation in the flesh, but [Karen McCrane][22]'s session on content strategy was the real stand out. I also chatted with [Aaron Walter][23], [Derek Featherstone][24] and [Andy Clarke][25], and enjoyed meeting [Nick Rigby][26] and [Josh Mobley][27] who helped me close out the opening night party.
 
 [1]: /2011/12/north_america/

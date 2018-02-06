@@ -13,7 +13,8 @@ tags:
 ---
 For the final leg of my [North American tour][1] I transcended the West Coast on Amtrak's [Coast Starlight][2]. Getting to San Francisco wouldn't be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm. Only once I'd boarded the train could I sit back and relax. Upon leaving Seattle, a low lying sun bathed the carriage with the soft morning light. Bliss.
 
-## Food, Glorious Food
+## Food, glorious food
+
 Arriving in San Francisco 22 hours later, I headed straight to the Ferry Building, where I grabbed a coffee from [Blue Bottle][4] and a breakfast roll from a stall whose name I've forgotten. There was just enough time for a brief stroll along Market Street before I headed to Potrero Hill for lunch with [David][5] at [Plow][6]. Now working at [Nest][7], I briefly got to play with one of their intelligent thermostats, unveiled to the world just days earlier.
 
 Shortly after returning to my hotel, I was back out again, this time to Palo Alto to have dinner with [Steve][8] at [Gravity][9]. I've always admired his perspective on situations, and this time he imparted some valuable advice worth paraphrasing here for future reference:
@@ -32,6 +33,7 @@ The gluttony of food (and friends) continued the next day, as I joined [Tom][11]
 My last day in San Francisco was also the last of this trip. With my flight departing later that evening, I spent the afternoon on [Ocean Beach][14], where gusty winds were proving useful to those flying their kites. I headed up to the [Cliff House][15], visiting the camera obscura before enjoying some clam chowder and miserable waitressing in [the bistro][16]. With time being called on my holiday, I headed back to the Muni stop, leaving enough time to watch the sun set over the sand dunes. A fitting end to a fantastic trip.
 
 ## Coda
+
 [In March I wondered][17] if I could ever call San Francisco home again. Yet as I enjoyed these two short days in the company of old friends, witnessing their positivity and optimism, I left questioning the validity of my earlier position. Maybe I did leave a little part of my heart in San Francisco, after all.
 
 [1]: /2011/12/north_america/

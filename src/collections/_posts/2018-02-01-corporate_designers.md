@@ -19,7 +19,7 @@ Maybe these designers believe that the respect and admiration they've garnered w
 
 In fact, I'd argue that joining such an organisation makes it easier for its culture to seep *outwards*, into the broader community. For example, sat within large distributed teams, designing products used by billions, employees become advocates for processes and tools that have an emphasis on scalability; an aspect of lesser importance for those of us working beyond the campus walls.
 
-* * *
+***
 
 In [Subverted Design][4], Joel Califa wonders if corporate designers -- a distinction I'd not seen before, but let's run with it -- slowly shift their priorities as seniority is attained by having a willingness to pursue business objectives at the expense of users:
 

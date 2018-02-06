@@ -27,6 +27,7 @@ A transparent glass building, wrapped in a delicate metal filigree, it will occu
 %}
 
 ## Birmingham Central Library
+
 Whilst I admire the bravery and ambition of this project, I'm sure the same level of excitement and aspiration surrounded the design of the [current library][6], opened in 1974. Unlike its replacement, this Brutalist style building was designed by a local architect, [John Madin][7] and with the Rotunda and [Alpha Tower][8], remains one of Birmingham's key Modernist buildings.
 
 {% include figure.html

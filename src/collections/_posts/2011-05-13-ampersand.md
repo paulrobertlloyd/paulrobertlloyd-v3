@@ -15,6 +15,7 @@ I've also been trying my hand at speaking myself, largely around themes of [styl
 Still, I'm an attendee at heart, and if there is one thing that governs my choice of conference, it's a single track. I too share [Jeremy's frustration][9] with multiple track conferences, especially those that distinguish between design and development which I believe is a largely false division. There's something about a single track conference that makes it feel more curated and focused, with everyone's collective experience allowing for common themes and ideas to emerge.
 
 ## Ampersand
+
 With that in mind, and excusing the obvious bias, I'm massively looking forward to [Ampersand][10], Clearleft's new conference tightly focused around web typography. This is a topic which, as [Rich suggests][11], many designers would benefit from having a deeper understanding:
 
 > There's so many interwoven, and sometimes adversarial, disciplines involved that I felt that everyone's tale needed to be told. I wanted to try and tell the whole story in one day, from experts and practitioners of the different disciplines. I felt that if I, as primarily a website designer, knew more about the type design decisions, the hinting process, the issues browser makers have, then I could become a better designer.
@@ -26,6 +27,7 @@ Perhaps more noteworthy however, is that this emerging industry has maintained t
 There are still tickets available, so if you haven't done so already, you'd better [grab a ticket][16] soon. The conference takes place in the Brighton Dome Corn Exchange on the 17th June, and tickets cost just £125 (or just half price for students).
 
 ## More to come
+
 If this wasn't enough, [Geek in the Park][17] returns in August shortly before [dConstruct][18] will attempt to improve on last years widely applauded edition. This year it will form part of the new [Brighton Digital Festival][19].
 
 The event I'm really looking forward to however is [An Event Apart DC][20] in October. I've experienced this conference series twice before and loved each and every minute; with Jeremy waxing lyrical about this year's line up of speakers, I could no longer resist a third visit.

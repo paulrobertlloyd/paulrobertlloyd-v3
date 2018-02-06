@@ -19,6 +19,7 @@ For the uninitiated, *24 ways* is an annual advent calendar for web designers an
 Following [Drew's post][3] on how he rebuilt the site, I thought I would describe the process behind the accompanying redesign.
 
 ## The brief
+
 The last major redesign was produced by Tim Van Damme in 2007. His innovative design pushed the limits of the medium -- notably in its use of RGBA CSS colour properties -- and set expectations for any redesign that would follow.
 
 Few designs remain timeless, and after six years it was showing its age. Approaching a ninth season, [the archive][4] was struggling to accommodate more than 200 articles; navigation was breaking down and it had become difficult to explore the range of topics covered.
@@ -26,6 +27,7 @@ Few designs remain timeless, and after six years it was showing its age. Approac
 The design was also failing to reflect the best practices now being promoted. For example, when Geri Coady wrote about [colour contrast][5], her words were presented as grey text on a grey background. The site was responsive (thanks to some retroactive hacking) but a fresh approach was needed to effectively deliver content to a broadening range of devices accessing the site.
 
 ## Approach
+
 Beyond these considerations, I was given free rein.
 
 Red has long been the site's signature colour, so while this would be retained, I was keen to explore how other colours could be chosen algorithmically. Since articles feature few images -- most are screenshots or diagrams -- a heavily typographic, European-flavoured approach was mooted. Although the underlying IA was sound, the addition of topics would improve the discoverability of content.
@@ -35,6 +37,7 @@ Still, how could this redesign continue the tradition of pushing against the edg
 In [The Web Aesthetic][6], I urged designers to move beyond traditional print-inspired layouts, and instead look more to digital software -- all while being true to the universal nature of the medium. Could this be an opportunity to make those ideas real?
 
 ## A torturous design process
+
 {% include blockquote.html
   quote="How I design: tenacity, panic, happy accidents and fast-approaching deadlines."
   citation="[@paulrobertlloyd, 3 September 2013](https://twitter.com/paulrobertlloyd/status/374836201972584448)"
@@ -66,6 +69,7 @@ All the while, [Jessica Hische's advice][12] was in the back of my mind: could I
 %}
 
 ## Moving to code
+
 By the time dConstruct arrived in September, I had enough elements to present an initial direction to Drew and the rest of the *24 ways* team. They loved what they saw, but frustratingly, I couldn't progress beyond this stage. I had a clear idea for index pages (inspired in part by the design of the [New York Times skimmer][13]), yet few ideas for how this might translate to other pages.
 
 With the deadline fast approaching, I abandoned Sketch and headed for the browser. Having already marked up the site (using [Barebones][14] to provide generic styling) I introduced elements of the new design and observed how it cascaded down and throughout pages. Soon enough, the design was informing the markup, which in turn was informing the design. A visual language was developing in front of me.
@@ -76,6 +80,7 @@ With the deadline fast approaching, I abandoned Sketch and headed for the browse
 %}
 
 ## Content first, navigation last
+
 While innovative and strongly conceptual, the previous design dominated the content. This was something I wanted to avoid; nothing should get in the way of being able to comfortably read an article. Setting aside traditional notions of layout, I explored different ways to navigate, inspired in part by mobile and tablet applications.
 
 As the boundary between desktop and mobile continues to blur, I felt encouraged to keep the main navigation recessed regardless of device. Beyond an article, users may want to discover related content, or catch up with other articles from a particular season: onward links that could be easily linked to from within the page. This suggested a navigation menu that needn't be persistent; just because you have space to display navigation, doesn't mean that you should.
@@ -85,6 +90,7 @@ Without user testing, this is all conjecture of course. I'd be interested in hea
 Even so, the design of the navigation changed quite a bit during the build process. By prototyping early on, I was able to test the ergonomics across different devices; the persistent right-hand position of the menu icon is one decision that resulted from such testing.
 
 ## "I don't want doors!"
+
 That's what Drew said when we first talked about the redesign. He was fairly clear about this, but I was certain there should be an element of hiding and reveal.
 
 Earlier this year [Benjy Stanton][15] gave a talk at Port80 about [animation on the web][16]. He pointed out that although we have the tools (or at least the technology) to achieve richer animation, it's often neglected. Beyond transitioning between menu states, a small flap in the corner of each article summary that pealed open to reveal the author might add this extra layer of engagement.
@@ -99,6 +105,7 @@ Running short on time, I asked my friend (and [SVG guru][17]) Josh Emerson for h
 Since the site launched, I've continued to tweak transitions and their values. This has been a frustrating exercise, sometimes having to forgo smoother transitions in order to avoid bizarre rendering bugs.
 
 ## The pragmatist awoken
+
 As much as I wanted to create an opinionated design, I also wanted to make a statement about progressive enhancement.
 
 While many subscribe to the notion that websites don't need to look the same in every browser, they still include many lines of prefixed CSS, determined to make sure that any browser that can render a feature -- regardless of the code required -- does so.
@@ -110,6 +117,7 @@ This thinking was found wanting. I had already built much of the site using a cu
 Pragmatism got the better of me, as it should. After all, what is front-end development if not a dance on the line strung between idealism and pragmatism?
 
 ## Modularity
+
 I was keen to introduce more modularity into my code, do more with a CSS preprocessor, use a BEM-like approach for markup patterns and not require jQuery for any JavaScript functions. This last one got the better of me -- at least in the short term -- although [Zepto][19] did help me keep page weight down.
 
 Although I didn't employ strict adherence to the [BEM][20] methodology, I found the underlying concept incredibly useful in helping me name patterns.
@@ -150,6 +158,7 @@ This naming system produced markup patterns like this:
 If you're interested in learning more about the front-end code behind *24 ways*, you can view [the repo on GitHub][23].
 
 ## Designing in the dark
+
 It has been three weeks since the redesign was unveiled, and thankfully to a largely positive audience. It's funny to think that just a week beforehand some of the design's signature features still hadn't been conceived. I really took it to the line!
 
 Indeed, if providing a critique, it's important to recognise the constraints under which it was delivered. Working evenings and weekends meant I had little time to noodle on any particular design direction. Having left Clearleft and started working in London meant I no longer had easy access to a device lab. Waiting for my phone line to be installed meant I was unable to download and install the virtual machines needed for cross browser testing.
@@ -157,6 +166,7 @@ Indeed, if providing a critique, it's important to recognise the constraints und
 Developing a responsive website without these resources can be a risky proposition, and what I've developed is largely a best guess. Once I have these tools in hand, I will likely revisit many of my design decisions.
 
 ## What next?
+
 Sadly, aspects of the design discussed earlier in the process were never addressed. For example, there was a desire to look at ways of surfacing archived content on the homepage between seasons, yet this was lost in the rush to get the site launched in time. Images -- both in terms of art direction and their delivery in a responsive context -- clearly need more thought.
 
 However, I'm a big believer in iteration, and not treating a website as ever being finished. I hope what's been released this year can act as a foundation, and that the design will evolve in the years to come.

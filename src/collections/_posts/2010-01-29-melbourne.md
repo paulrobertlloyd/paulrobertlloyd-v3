@@ -18,7 +18,8 @@ Melbourne is host to a number of different architectural styles, many of them qu
 
 Before I really started to explore the city, I met up with friend and former colleague [Phil McCluskey][6]. Nervous that I may miss him as well as Kyle, I was glad to spend an afternoon with him, getting a guided tour of the Fitzroy and Carlton suburbs whilst we hunted for dinner. Not only was it great to see Phil, but it was nice to be able to talk to somebody familiar after three weeks of talking to complete strangers!
 
-## The Spiritual Home of Australian Sport
+## The spiritual home of Australian sport
+
 Given Australia's passion for sport, it's perhaps no surprise that the MCG -- whilst outside the CBD -- still forms an integral part of the city. Its six large light towers dominate the landscape around Melbourne's 'Sports and Entertainment Precinct', a huge section of parkland littered with sporting venues of every size and description.
 
 {% include figure.html
@@ -45,7 +46,8 @@ Keeping with this theme of sporting geekery, I was also keen to check out [Alber
 
 So much of the supporting track furniture is removed from the site when the circuit is not in use. Even the pit lane complex could be mistaken for offices, were it not for the road layout and the row of garage doors along its frontage. Of course I couldn't pass by without standing on the very same podium that Jenson Button had stood [only 10 months beforehand][11] -- although when I looked out across the start/finish straight all I could see was a makeshift car park.
 
-## Travel Tips: Learning from my Mistakes
+## Travel tips: learning from my mistakes
+
 Much like I did after [my travels across Europe][12] last year, I'd like to finish my report with a few lessons I learnt from this trip:
 
  1. **Pack Light:** This time I left my laptop at home, and took a small point and shoot camera (the Canon S90) rather than an SLR and assorted lens. Leaving the laptop behind was entirely the right thing to do, so I doubt it'll be joining me on any future trips. Taking a point and shoot was also a great call. The best camera is the one you have with you, and being so small meant I had no hesitation taking it with me everywhere I went. Still, I'd like to take my SLR on future trips, especially as it forces you to study buildings and landmarks a little closer as you try to hunt down the perfect composition.

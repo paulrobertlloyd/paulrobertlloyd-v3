@@ -24,7 +24,8 @@ Finally, the top division, spurred on by the influx of television money and comm
 
 Of course, should England be judged to have performed badly at this year's tournament, it will likely be the manager who is blamed, yet the irony is that Fabio Capello has provided just the sort of leadership the team has needed, imposing strict discipline and forcing players to focus on football rather than their mobile phones.
 
-## Now Is the Time for Reform
+## Now is the time for reform
+
 With both the chairmanship and executive positions at the FA unfilled, and as the country is being asked to prepare for cuts to public services and increased taxes, now is the perfect time to reform the governance of football in this country.
 
 The game needs strong regulation from an organisation willing and able to scrutinise the financial management of clubs, putting the interests of the game above those of a few rich and powerful clubs. Perhaps only possible if The FA, Premier League and Football League finally put aside their differences and came together as one organisation, it's only reform of this magnitude that will lead to a brighter future and subsequent success internationally. At the same time, clubs need to start paying realistic wages, else players should be prepared to start investing their income back into the sport rather than their own property portfolios. Most importantly, supporters need to be given greater ownership and say over how their clubs are run.

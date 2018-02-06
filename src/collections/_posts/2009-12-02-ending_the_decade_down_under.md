@@ -17,6 +17,7 @@ To ensure the trip isn't entirely one of solitude, I've arranged accommodation i
 Again, trying to learn lessons from previous travels, I've decided to keep technology to a minimum, and plan to carry just my phone and a compact camera -- albeit the stunning and rather powerful [Canon PowerShot S90][1]. Instead of dragging around a suitcase, this time I'll be taking a small backpack which should ensure I keep luggage to a minimum.
 
 ## Itinerary
+
 When I started planning this trip, I fully expected to spend the duration of it Australia, with possible stops in Perth and Canberra. Not having visited New Zealand before, I soon thought about spending some time on the islands. After reading more about the country, and talking to friends who had visited before, I've now settled on an itinerary largely based in New Zealand.
 
 {% include figure-embed.html

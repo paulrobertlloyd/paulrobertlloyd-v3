@@ -14,6 +14,7 @@ Given a maturing specification, and related concerns regarding browser support a
 Like getting to grips with any new tool, only by using it for real can its various nuances and limitations be understood. Finally able to discard the many counter-intuitive hacks I've gathered over the years, I find it hard not to create a flex layout without wearing a broad grin. Vertical centring? [Easy][3]. Equal height columns? [By default][4]. While Flexbox may not be suitable for every situation, it solves a great number. And with [CSS Grids][5] just around the corner, web layout nirvana feels pretty damn close.
 
 ## Left is not right
+
 Flexbox introduces a number of new concepts, be they the main and cross axes, or the various justification and alignment properties. [Mozilla has a good overview][6], but I've found [the guide on CSS Tricks][7] to be the most helpful. I suggest reading up on these terms if you're unfamiliar, before continuing with the rest of this article.
 
 Here, I want to draw your attention to two particular values used by Flexbox: `flex-start` and `flex-end`, terms that appeared fairly abstract until I needed to create a layout that would support both left-to-right and right-to-left languages. As it turns out, browsers do a lot of the heavy lifting here, be it via the [`dir`][8] attribute, or the [`<bdi>`][9] and [`<bdo>`][10] elements. However, this native functionality can easily be undermined with a few carelessly applied CSS rules: add `text-align: left` to a passage of text, and it will appear left aligned, no matter what the document's text direction has been set to.
@@ -23,6 +24,7 @@ Having briefly immersed myself in the world of internationalisation, much like s
 Well, almost.
 
 ## Illogical justification
+
 Flexbox is most effective when creating micro layouts within parts of a page and positioning items in one dimension. Like for example, a page header:
 
 {% include figure.html
@@ -119,6 +121,7 @@ At first this seems like an oversight. To align items along the cross axis there
 Thinking both axes were equal was to have the wrong understanding of how Flexbox works; a difference that becomes clearer once you consider that items along the main axis can also wrap.
 
 ## Logical values
+
 Returning to our header example, you'll notice another property containing a physical value: `border-left`. Again, to make this work in both text directions we would need to write the following:
 
 ```css
@@ -162,7 +165,7 @@ Currently, [logical properties][16] are only fully supported by Firefox (41.0+),
 
 Until support improves, I'll just cringe a little whenever I see the words `left` or `right` in a CSS file, and add physical positioning to my growing list of things I won't take for granted when building a website.
 
----
+***
 
 <ins datetime="2016-03-17">**Update 1:** Many thanks to [Jonathan Garner][19] for pointing out that [I can push the site name and navigation apart by adding `justify-content: space-between`][20] to the flex container, thus avoiding the need for any positional values, physical or logical. As is so often the case, there can be many means of achieving the same objective, but Jonathan's solution is certainly the most sensible. Still, with auto margins a key component of flexbox layouts, the issue doesn't go away entirely.</ins>
 {: #update-1}

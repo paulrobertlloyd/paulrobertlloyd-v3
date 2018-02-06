@@ -25,6 +25,7 @@ I had that evening to venture round the city, but was shocked to find that very 
 Compared to Auckland, my initial take on Wellington was that if felt more Asian that it's northerly counterpart, although this may have something to do with it's situation -- perched on land reclaimed from the harbour and sat before steep green hillside, it almost looked like a smaller version of Hong Kong. After spending the following morning exploring the city's rejuvenated waterfront, I headed to the ferry terminal to catch the Interislander to Picton and the South Island.
 
 ## Picton
+
 Picton is a small yet picturesque town at the foot of Queen Charlotte Sound, and I imagine its population doubles on the arrival of each ferry. Those who choose to holiday in this area typically use it as a base to explore the Marlborough Sounds. I was only here for the evening, so unable to see as much of these sea-drowned valleys as I would have liked. I did get a small taste of the area by walking along the short 'Bob's Bay Track' out to an isolated cove, before grabbing a bite to eat on a converted war ship, the [A.S. Echo][5].
 
 {% include figure.html
@@ -37,6 +38,7 @@ Picton is a small yet picturesque town at the foot of Queen Charlotte Sound, and
 The next day, after grabbing some brunch in one of the many cafes that line the high street (taking the opportunity to sample another [Flat White][6] to which I had now become accustomed), I caught an Intercity coach heading west to Nelson where I would be spending Christmas.
 
 ## Nelson
+
 On first glance, Nelson didn't seem to have much to offer, however further inspection revealed this not to be the case. Its most notable sight is that of [Christ Church Cathedral][7] with its tall, yet rather fragile looking bell tower. The building was meant to be a grand and imposing affair, but after years remaining half complete and facing budget constraints, the design was heavily modified so that the building could finally open fully in 1965. The modern bell tower and the beautiful stained glass windows are possibly the only redeeming features, yet I defy you to find another cathedral quite like it. I certainly found the combination of old and new architectural styles intriguing.
 
 {% include figure.html

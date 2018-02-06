@@ -18,7 +18,8 @@ The previous website was packed with legalese: language written by solicitors wi
 
 After a period of analysis and prototyping, we realised the website needed different areas for each user type that could quickly triage users into the correct places. Once in the right place, users could then be shown content with an appropriate perspective, tone of voice and calls to action that matched their needs.
 
-## Translation of Print-Orientated Brand to Web
+## Translating a print-orientated brand
+
 DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this into a suitable web aesthetic. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS's identity and brand strategy. During this process, we deprecated the use of Didot online; while it worked well in a print context, the typeface was ill-suited to screen, and few areas on the website needed to reflect the discursive tone for which it was intended.
 
 {% include figure.html

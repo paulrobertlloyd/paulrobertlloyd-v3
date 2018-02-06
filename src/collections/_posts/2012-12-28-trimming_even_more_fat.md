@@ -12,7 +12,8 @@ The Christmas break provides the time to tie up loose ends and make much needed 
 
 As a follow-up to [last month's post][1], here are some additional performance enhancements I've made between eating the left over turkey.
 
-## Fewer HTTP Requests
+## Fewer HTTP requests
+
 In my last post I described how I was able to remove many of the JavaScript dependancies the site once relied upon. The only site-wide script remaining was that used to manipulate the main navigation, adding and hiding elements and class names that I could then style with CSS.
 
 In my quest to reduce HTTP requests, and having seen [Aaron Gustafson's JavaScript-free mobile navigation solution][2], the need for this small script became questionable.
@@ -20,6 +21,7 @@ In my quest to reduce HTTP requests, and having seen [Aaron Gustafson's JavaScri
 I love the ingenuity of Aaron's approach, not least because it builds upon a clean, semantic base, and feels like genuine progressive enhancement. That said, Opera Mini has trouble interpreting the `:target` pseudo-class selector this solution uses, so it's not without its problems.
 
 ### Mashed up icons
+
 A further request could be removed by using [data URIs][3] and encoding the SVG image sprite as a base64 string in the CSS. This became a less attractive option when I learnt that the size of this string would be larger than the linked file it would replace.
 
 As I sought to reduce the size of the sprite, I realised many of the graphical elements it contained could be provided with simple CSS rules: the three line menu icon, the round containers for back and forward navigation links -- even the Flickr icon in the footer could be generated using CSS. With these removed, the remaining icons appeared best suited to being served as a web font instead.
@@ -47,11 +49,13 @@ In addition to these changes, refactoring the remaining styles meant the new CSS
 </table>
 
 ## Improved Time to First Byte
+
 In my previous post, I mentioned that I was now serving the site via [CloudFlare][5]. Beyond providing content distribution and file optimisation, this service provides a layer of protection from security threats like SQL injection and denial of service attacks.
 
 I really like CloudFlare, but it came with a notable downside: Time to First Byte times were longer than they ought to be. This issue has been [dismissed by CloudFlare][6], yet real world usage suggested the responsiveness of this site was indeed impacted. [Andy Hume][7] recommended I try [Fastly][8]. While it doesn't optimise files or provide security protection, it provides the same core service as CloudFlare more effectively:
 
 ### First view
+
 <table class="c-chart c-chart--hbar">
   <caption>Homepage comparison: <a href="http://webpagetest.org/result/121219_DH_DDQ/">19 December 2012</a> v <a href="http://webpagetest.org/result/121227_BD_GR8/">27 December 2012</a></caption>
   <tbody>
@@ -91,6 +95,7 @@ I really like CloudFlare, but it came with a notable downside: Time to First Byt
 </table>
 
 ### Repeat view
+
 <table class="c-chart c-chart--hbar">
   <caption>Homepage comparison: <a href="http://webpagetest.org/result/121219_DH_DDQ/">19 December 2012</a> v <a href="http://webpagetest.org/result/121227_BD_GR8/">27 December 2012</a></caption>
   <tbody>

@@ -17,7 +17,8 @@ Recently [linked][1] to from Brand New, [Regierungen und ihre visuellen identitÃ
 
 That the British government stands among those countries with a unified system brings me great joy, as you will know if you read my [2009 entry bemoaning the lack of such co-ordination][4]. Since [my wish has been granted][5], Achim's article reminded me that I should probably provide a follow up.
 
-## Wishful Thinking
+## Wishful thinking
+
 In my original post I imagined what a unified identity for HM Government, its departments and agencies might look like:
 
 > Maintaining the coat of arms is probably a requirement for any future identity work, although it requires simplification; it clearly doesn't resize well or reproduce cleanly enough on screen. While Gill Sans is often considered the *de facto* font for anything British, I would love to see a custom typeface designed in the same vein as that for the Dutch government.
@@ -34,6 +35,7 @@ Most departments use the royal coat of arms, however historic crests and symbols
 Each department maintains a degree of autonomy by using a different coloured bar to the left of the mark, typically derived from a previous logo. Some may wonder why, like say in Germany or Spain, the colours of the national flag haven't been incorporated. Again, due to the nature of this country's governance (some departments have jurisdiction over only certain parts of the Union; education and health are devolved matters for example), such a design would be misleading.
 
 ## Rule, Helvetia!
+
 With little room for manoeuvre over iconography or colour, the remaining aspect of the identity to which some creativity could be applied is around the choice of type. While I  may have been optimistic in hoping for a custom typeface to be commissioned (a time consuming and expensive proposition), I can't help feeling anything but massively underwhelmed by the choice of Helvetica.
 
 A simplistic argument might suggest that a Swiss typeface is inappropriate for an exclusively British identity ([cough][7]). Instead, rather than the typeface's origin -- which [given its ubiquity][8] is lost on most anyway -- it's the neutrality of this face that concerns me most, especially given the already unremarkable lock-up. While I accept that Helvetica's utilitarian appearance may be appropriate for government, this identity should also convey something about the nature of the country being governed, too.

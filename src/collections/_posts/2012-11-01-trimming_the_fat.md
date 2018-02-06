@@ -13,6 +13,7 @@ When I [unveiled][1] a new version of this site last year, I hoped the design wo
 An update in February [improved the responsive layout][2] and saw some initial performance optimisations. The last few weeks have seen further iteration. Although the design looks remarkably similar, much has changed below the surface. Where each page previously requested at least 14 assets weighing a total of 385kB, now only 9 requests are needed, and with an unprimed cache, these total just over 100kB. I thought it would be interesting to detail the changes I've made, and this time, I've got graphs!
 
 ## JavaScript
+
 Uncomfortable with having 30kB of jQuery as a dependancy, JavaScript was my first target for weight loss. In reviewing the jQuery functions I was using, I realised many were unnecessary:
 
   * The [Awesomersands][3] function that allowed me to style ampersands was actually replacing the original glyph with a much uglier version. It also produced a distracting 'flash of unstyled ampersand'.
@@ -44,6 +45,7 @@ With this code removed, the only behavioural enhancement required was for the re
 </table>
 
 ## CSS
+
 While helping out on a recent project at Clearleft, [Mark][8] introduced me to [LESS][9], a CSS pre-processor I became eager to use here. With [LESSphp][10] compiling LESS on the server, comments are stripped out and the generated CSS is easier to compress, too.
 
 By removing unused style rules and refactoring others, my raw stylesheet shrunk by 19kB. Yet you'll note that the compressed CSS file is still larger that it was before. That's because the small background [noise texture][11] shown on larger viewports has been embedded as a base64 string, removing a further request.
@@ -65,6 +67,7 @@ By removing unused style rules and refactoring others, my raw stylesheet shrunk 
 </table>
 
 ## SVG
+
 In February [I began using an SVG image sprite][2], falling back to a PNG image for browsers that don't support the vector format. To prevent both images loading, a subsequent update saw me move the following detection script into the `<head>`, before any CSS can be downloaded:
 
 ~~~ html
@@ -90,6 +93,7 @@ If support for SVG is detected, an `svg` class is added to the `<html>` element.
 ~~~
 
 ### Going further
+
 Besides stripping out the metacruft added by software like Illustrator, further optimisation can be found by using the `<defs>` and `<use>` elements. These allow you to define common objects, reducing the number of shape descriptions appearing in your document.
 
 To demonstrate how this works, I'll use three icons from my sprite image: a grey RSS feed icon (`#feed`), a Flickr icon (`#flickr`) and an orange and white feed icon (`#feeds`). In my original file, each was defined separately:
@@ -162,6 +166,7 @@ It's easy to assume that gzip will take care of reducing file sizes, but manual 
 </table>
 
 ## Fonts
+
 Earlier this year I cut the number of webfonts I was using from four to three by using a single font family. This reduced page download sizes a little, but changing my web font provider to [Adobe Edge Web Fonts][12] produced a far greater saving -- although at the cost of being able to use [Akagi][13] (I'm now using [Source Sans Pro][14]). In fact, such was the reduction, I decided to include a forth font again, choosing the monospaced [Source Code Pro][15] -- useful on code heavy pages such as this.
 
 A free service without limitations or account management, Adobe's new service is [stupidly easy to set up][16]. A single line of JavaScript provides a neat URL interface to various settings, and as the script includes WebFont Loader, there's no need to add a chunk of JavaScript to the top of each page. Load times are brilliantly fast, and with fonts combined into a single file, the number of requests is the same regardless of how many you decide to use.
@@ -184,14 +189,15 @@ Of course, there is a trade-off here. Services like Fontdeck provide an extensiv
   </tbody>
 </table>
 
-## Other Optimisations
+## Other optimisations
+
 I'm now serving content via [CloudFlare][17], a smart service that optimises content and intercepts dubious requests. With this is place, I no longer need [PHPminify][18] for CSS and JavaScript magnification. It also acts as a CDN, so static content has been moved from Amazon S3 (which I discovered isn't *actually* a CDN) back to this domain where it's easier to manage.
 
 Calling a single PHP include from each page allows me to [specify the character set in the HTTP header][19]. Adding the `async` attribute to my analytics script means this will now download and execute without blocking other assets.
 
 There have been a few design related tweaks too. I simplified the IA by moving links to my articles and academic essays to within the Portfolio section. I've also increased the base font size on content pages from 16px to 18px.
 
----
+***
 
 In February, I concluded the results of my performance optimisation by including results from Google Page Speed, YSlow and webpagetest.org. This means I can measure the effectiveness of these latest changes. Both Google Page Speed and YSlow scores have increased by two points, to 96 and 98 respectively. Comparing results saved from webpagetest.org, the following improvements on the homepage can be recorded also:
 
@@ -238,7 +244,8 @@ In February, I concluded the results of my performance optimisation by including
   </tbody>
 </table>
 
-## If I Had More Time, I Would Make the Website Quicker
+## If I had more time, I would make the website quicker
+
 Arguably, many of these optimisations are overkill, especially given some of the modest reductions. Still, this exercise was useful in understanding where performance gains can be found, and I can apply this knowledge on future projects.
 
 Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you're playing with the last hundred or so kilobytes, there's little reward for your effort. Hopefully this overview will save you from playing the same game I have.

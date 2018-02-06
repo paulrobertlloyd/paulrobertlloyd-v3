@@ -12,6 +12,7 @@ Graphic designers have long honed their craft to meet the specific constraints o
   * [Slides](https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web)
 
 ## References
+
   * Berners-Lee, T. (2010, December 1). [Long Live the Web: A Call for Continued Open Standards and Neutrality](http://www.scientificamerican.com/article/long-live-the-web/). <cite>Scientific American</cite>
   * Allsopp, J. (2000, April 7). [A Dao of Web Design](http://alistapart.com/article/dao). <cite>A List Apart</cite>
   * Frost, B. (2013, January 28). [Performance As Design](http://bradfrost.com/blog/post/performance-as-design/). <cite>bradfrost.com</cite>

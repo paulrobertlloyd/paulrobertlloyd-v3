@@ -24,6 +24,7 @@ Anyway, with a week to myself -- and in much need of a break -- I headed to Galw
 %}
 
 ## Stopover in Dublin
+
 Whenever I visit Dublin, I feel the city rub against me a little. I wonder if there might be an underlying burden of guilt, as every opportunity is taken to celebrate Ireland's fight for independence from my oppressive forefathers. On this occasion I booked into a guesthouse in the Temple Bar area. This was a far more hip and hospitable location than where I stayed before, yet I couldn't shake the feeling that, while Dublin has all the features of a European capital, it has none of the charm.
 
 {% include figure.html
@@ -36,6 +37,7 @@ Whenever I visit Dublin, I feel the city rub against me a little. I wonder if th
 I might attribute this impression to the dreary and unimaginative mid-century architecture that lines the River Liffey, of which the newer financial district makes little effort to rectify. Perhaps I've been spoilt by London; there's something to be said for Dublin's more modest nature. The Neoclassical styling of [Heuston railway station][2] in the outskirts of the city belies this criticism, and it was from here that I would leave the following morning.
 
 ## Onwards to Galway
+
 It takes two and half hours to bisect the republic en route to Galway. There's not a lot to be said of the view -- flat and green -- but I was envious to be in yet another country with an efficient and effective publicly-owned railway system.
 
 Arriving in Galway, coaches outside the station dropped off throngs of tourists, while much of the grass in nearby Eyre Square was covered by those enjoying the glorious weather. Every street was a stage, with musicians and dancers adding to the festival-like vibe. Galway is Ireland's fourth biggest city, yet its atmosphere easily rivals that of the capital. With just a few hours to spend in the city, I would barely scratch the surface.
@@ -61,6 +63,7 @@ I'm not sure when Galway first came to mind as a destination -- I'm sure Ed Shee
 At its western end, the bright yellow Blackrock Diving Tower reaches into the bay, from which brave souls can be seen leaping into Galway Bay. I asked one if he knew how cold the water was: "Freezing. If you asked me to be more specific, I would say very, very freezing!"
 
 ## Connemara and the Wild Atlantic Way
+
 The next day promised to be the most enjoyable of this trip, with a drive north to Connemara National Park. Here lies [Diamond Hill][6], a 1450ft peak that rewarded this weary climber with stunning views across the nearby coastline and Twelve Bens mountain range.
 
 {% include figure.html

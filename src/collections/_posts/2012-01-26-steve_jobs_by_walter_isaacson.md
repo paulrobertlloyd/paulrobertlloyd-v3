@@ -19,6 +19,7 @@ That said, the book isn't amazingly written, and I was disappointed that some of
 Regardless of these failings, the book remains a fascinating portrayal. Whilst it avoids going into any great detail, this is still the story of an intriguing individual. Whilst Jobs may have been deeply flawed on an emotional level (often viewing the world in a binary way; products were insanely great or completely shit, people were either heroes or bozos) he proved to be a visionary genius at the same time.
 
 ## Notes
+
 A few passages I thought warranted highlighting.
 
 Page 13: Early signs of Jobs' powers of persuasion:
