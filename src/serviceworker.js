@@ -21,7 +21,7 @@
     return caches.open(version + staticCacheName)
       .then(function (cache) {
         return cache.addAll([
-          'manifest.json',
+          '/site.webmanifest',
           '{% asset calibre-semibold.woff2 @path %}',
           '{% asset calibre-regular.woff2 @path %}',
           '{% asset calibre-italic.woff2 @path %}',
