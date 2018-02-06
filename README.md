@@ -3,11 +3,13 @@
 *My personal website. There are many like it, but this is mine.*
 
 ## Requirements
+
 * [nginx](https://nginx.org)
 * [Ruby](https://www.ruby-lang.org) (2.4.0 or higher)
 * [Jekyll](https://jekyllrb.com)
 
 ## Installation
+
 1. `git clone git@github.com:paulrobertlloyd/paulrobertlloyd.com.git`
 2. `cd paulrobertlloyd.com`
 3. `git submodule update --init --recursive`
@@ -17,12 +19,15 @@
 Generated files will be saved in the `www` directory.
 
 ## Development
+
 When developing the site, you may want files automatically compiled and the browser to refresh automatically. To do this, run `bin/dev`.
 
 ### Updating submodules
+
 This project makes use of third-party libraries, included as git submodules. To update these, run `git submodule foreach git pull origin master`.
 
 ### Running locally with HTTPS
+
 To run with HTTPS locally on macOS first [follow the setup steps described here](https://gist.github.com/jed/6147872). To create the required SSL certificates, follow these steps:
 
 1. Change into the correct directory: `cd src`
@@ -46,6 +51,7 @@ To run with HTTPS locally on macOS first [follow the setup steps described here]
   ```
 
 ## Deployment
+
 This site is deployed automatically by Travis whenever files are pushed to `master`. However, if you wish to manually deploy from local, follow these steps:
 
 1. Ensure the destination server meets the system requirements
