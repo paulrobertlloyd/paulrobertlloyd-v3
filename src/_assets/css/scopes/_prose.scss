@@ -76,6 +76,11 @@
     font-weight: 700;
   }
 
+  div.highlighter-rouge {
+    margin: $--space-medium ($--space-small * -1);
+    padding: $--space-small;
+  }
+
   .caps {
     font-variant-caps: small-caps;
   }
@@ -199,11 +204,5 @@
     li {
       list-style-position: inside;
     }
-  }
-
-  > .highlighter-rouge {
-    margin-right: -$--space-small;
-    margin-left: -$--space-small;
-    padding: $--space-small;
   }
 }

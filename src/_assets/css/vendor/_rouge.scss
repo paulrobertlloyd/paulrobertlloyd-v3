@@ -8,6 +8,10 @@
   margin-left: -0.125rem;
   padding: 0.125rem;
 
+  pre {
+    --flow-space: 0;
+  }
+
   .hll { background-color: #ffc; }
 
   .err { background-color: #edd; color: #a11; } // Error

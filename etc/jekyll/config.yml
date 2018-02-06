@@ -13,11 +13,6 @@ author:
   email: noreply@paulrobertlloyd.com
   avatar: https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b?s=512
 
-# Source code management
-scm:
-  title: GitHub
-  url: https://github.com/paulrobertlloyd/paulrobertlloyd.com
-
 # Writing
 kramdown:
   auto_id_stripping: true # This will become the default behaviour in kramdown 2.0
@@ -32,7 +27,7 @@ profile: true
 
 # Templates
 liquid:
-  error_mode: warn
+  error_mode: strict
 
 # Collections
 collections_dir: collections
