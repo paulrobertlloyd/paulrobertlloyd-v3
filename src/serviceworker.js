@@ -35,7 +35,7 @@
           '{% asset icon.svg @path %}',
           '{% asset icon.png @path %}',
           '/error/offline',
-          '/hire/',
+          '/about/',
           '/'
         ]);
       });
