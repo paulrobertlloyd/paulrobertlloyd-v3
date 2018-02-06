@@ -21,6 +21,7 @@ scm:
 # Writing
 kramdown:
   auto_id_stripping: true # This will become the default behaviour in kramdown 2.0
+  footnote_backlink: '&#8617;&#xfe0e;'
 
 # Publishing
 source: ./src
