@@ -12,6 +12,3 @@ end
 # Asset compilation
 gem 'autoprefixer-rails'
 gem 'uglifier'
-gem 'sprockets', '~> 4.0.beta', {
-  require: false
-}
