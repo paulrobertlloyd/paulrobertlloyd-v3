@@ -1,1 +1,4 @@
-<p class="s-rating" data-value="{{ include.score }}"><meter min="0" max="5" value="{{ include.score }}">Rated {{ include.score }} out of 5 stars</meter></p>
+<p class="s-rating">
+  <span aria-hidden="true" data-value="{{ include.score }}"></span>
+  <span class="u-hidden">Rating: {{ include.score }} out of 5 stars</span>
+</p>
