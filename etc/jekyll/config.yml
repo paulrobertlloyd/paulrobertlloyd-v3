@@ -71,7 +71,7 @@ defaults:
   - scope:
       type: content
     values:
-      permalink: :path
+      permalink: /:path
       layout: content
 
   - scope:
