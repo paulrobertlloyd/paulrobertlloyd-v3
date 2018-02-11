@@ -53,12 +53,6 @@ The `.c-embed--video`{: .language-css} modifier is used when embedding video con
 
 {% include embed.html src="https://www.youtube.com/video/4ViLiXA0E70" title="Example video" %}
 
-### Photos
-
-The `.c-embed--photo`{: .language-css} modifier is used when embedding photographic content, typically sourced from Flickr.
-
-{% include embed.html src="https://www.flickr.com/photos/paulrobertlloyd/6913342093/" title="Example slideshow" %}
-
 ### Maps
 
 The `.c-embed--map`{: .language-css} modifier is used when embedding photographic content, typically sourced from MapBox.
