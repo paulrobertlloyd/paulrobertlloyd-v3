@@ -3,7 +3,7 @@
 // ========================================================
 
 .c-meta {
-  @include fs--caption;
+  @include typeset("caption");
   margin-bottom: $--space-medium;
   overflow: hidden;
 }

@@ -19,7 +19,7 @@
 }
 
 .c-section__title {
-  @include fs--caption;
+  @include typeset("label");
   flex: 0 0 auto;
   padding-right: $--space-xsmall;
   word-break: break-word;

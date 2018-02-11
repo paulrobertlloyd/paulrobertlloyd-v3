@@ -24,7 +24,7 @@
     }
 
     footer {
-      @include fs--caption;
+      @include typeset("caption");
       margin-top: $--space-small;
       color: $--color-neutral-mid;
     }
@@ -52,7 +52,7 @@
   }
 
   caption {
-    @include fs--caption;
+    @include typeset("caption");
     margin-top: $--space-small;
   }
 
@@ -86,7 +86,7 @@
   }
 
   .footnotes {
-    @include fs--caption;
+    @include typeset("caption");
     @include rule($width: 20%);
     margin-bottom: $--space-medium;
     color: $--color-neutral-mid;
@@ -95,10 +95,10 @@
 
 // Body
 .s-prose--body {
-  @include fs--body;
+  @include typeset("body");
 
   h2 {
-    @include fs--heading-2;
+    @include typeset("heading-2");
     margin-bottom: $--space-small;
     font-weight: 700;
   }
@@ -108,7 +108,7 @@
   }
 
   h3 {
-    @include fs--heading-3;
+    @include typeset("heading-3");
     margin-bottom: $--space-small;
     font-weight: 700;
   }
@@ -192,7 +192,7 @@
 
   figcaption,
   small {
-    @include fs--caption;
+    @include typeset("caption");
     color: $--color-neutral-mid;
   }
 

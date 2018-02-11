@@ -4,6 +4,10 @@
 @import "config/webfonts";
 @import "config/mixins";
 
+// Mixins
+@import "mixins/typeset";
+@import "mixins/visually-hidden";
+
 // Base reset and normalisation
 // Based on https://github.com/necolas/normalize.css v3.0.2
 @import "base/sections";

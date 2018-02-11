@@ -32,14 +32,12 @@
 }
 
 .c-page__title {
-  @include fs--title;
+  @include typeset("title");
   margin-bottom: $--space-medium;
-  hanging-punctuation: first;
-  font-weight: 700;
 
   .c-page--link &,
   .c-page--note & {
-    @include fs--heading-2;
+    @include typeset("heading-2");
   }
 }
 

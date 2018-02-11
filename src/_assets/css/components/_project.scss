@@ -3,14 +3,14 @@
 // ========================================================
 
 .c-project {
-  @include fs--caption;
+  @include typeset("label", $line-height: $--line-height-loose);
   display: block;
   position: relative;
 }
 
 .c-project__logo {
   display: block;
-  margin-bottom: $--space-medium;
+  margin-bottom: $--space-small;
 
   .c-project:hover & {
     color: $--color-primary;

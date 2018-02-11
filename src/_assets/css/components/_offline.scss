@@ -1,5 +1,5 @@
 .c-offline {
-  @include fs--caption;
+  @include typeset("label");
   position: fixed;
   right: 0;
   bottom: 0;

@@ -3,7 +3,7 @@
 // ========================================================
 
 .c-contentinfo {
-  @include fs--caption;
+  @include typeset("label");
   padding: $--space-medium var(--page-gutter);
   background-color: $--color-neutral-lighter;
 

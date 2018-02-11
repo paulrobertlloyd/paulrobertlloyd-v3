@@ -4,7 +4,7 @@
 
 // Lede
 .s-lede {
-  @include fs--lede;
+  @include typeset("lede");
   --flow-space: 1.5rem;
 
   *:last-child {

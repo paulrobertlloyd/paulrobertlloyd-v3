@@ -3,11 +3,12 @@
 // ========================================================
 
 .c-form__title {
-  @include fs--heading-3;
+  @include typeset("heading-3");
   padding-bottom: $--space-medium;
 }
 
 .c-form__field {
+  font-size: 1rem;
   position: relative;
   margin-bottom: $--space-medium;
 }

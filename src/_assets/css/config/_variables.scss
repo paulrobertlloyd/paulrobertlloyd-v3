@@ -2,6 +2,18 @@
 // Global Variables
 // ========================================================
 
+// Font families
+$--font-family-sans-fallback: sans-serif;
+$--font-family-sans: Calibre, "Helvetica Neue", sans-serif;
+$--font-family-monospace: Menlo, monospace;
+
+// Line heights
+$--line-height-baseline: 1rem;
+$--line-height-tight: 1.125;
+$--line-height-default: 1.25;
+$--line-height-loose: 1.3334;
+$--line-height-relaxed: 1.5;
+
 // Spacing
 $--space-xxsmall: 0.125rem; // 2px
 $--space-xsmall: 0.25rem; // 4px

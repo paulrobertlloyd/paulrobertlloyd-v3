@@ -9,13 +9,14 @@
 }
 
 .c-year__title {
-  @include fs--heading-3;
+  @include typeset("heading-3");
   text-decoration: underline;
   font-weight: 700;
 }
 
 .c-year__meta {
-  @include fs--caption;
+  @include typeset("label");
+  margin-bottom: $--space-small;
   color: $--color-neutral-mid;
 }
 

@@ -11,7 +11,7 @@
 }
 
 .c-main__title {
-  @include fs--heading-1;
+  @include typeset("heading-1");
   margin-bottom: $--space-large;
   font-weight: 700;
 

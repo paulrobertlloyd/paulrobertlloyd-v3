@@ -1,0 +1,136 @@
+// ========================================================
+// Typeset
+// ========================================================
+
+// Returns $value as a unitless number
+//
+// e.g. strip-unit(10px) => 10
+@function strip-unit($number) {
+  @if type-of($number) == "number" and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+// Fluid typography increases its size based on viewport
+// https://css-tricks.com/snippets/css/fluid-typography/
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+// Typeset
+@mixin typeset($preset, $line-height: null, $font-weight: null) {
+  @if $preset == "title" {
+    @include fluid-type(
+      280px,
+      1120px,
+      32px,
+      56px
+    );
+    font-weight: if($font-weight, $font-weight, 700);
+    hanging-punctuation: first;
+    letter-spacing: -0.025em;
+    line-height: if($line-height, $line-height, 1);
+  }
+
+  @if $preset == "heading-1" {
+    @include fluid-type(
+      280px,
+      1120px,
+      28px,
+      40px
+    );
+    hanging-punctuation: first;
+    letter-spacing: -0.025em;
+    line-height: if($line-height, $line-height, $--line-height-tight);
+  }
+
+  @if $preset == "heading-2" {
+    @include fluid-type(
+      280px,
+      1120px,
+      20px,
+      28px
+    );
+    hanging-punctuation: first;
+    letter-spacing: -0.025em;
+    line-height: if($line-height, $line-height, $--line-height-tight);
+  }
+
+  @if $preset == "heading-3" {
+    @include fluid-type(
+      280px,
+      1120px,
+      18px,
+      20px
+    );
+    hanging-punctuation: first;
+    letter-spacing: -0.025em;
+    line-height: if($line-height, $line-height, $--line-height-tight);
+  }
+
+  @if $preset == "lede" {
+    @include fluid-type(
+      280px,
+      1120px,
+      20px,
+      24px
+    );
+    font-weight: if($font-weight, $font-weight, normal);
+    font-variant: common-ligatures lining-nums;
+    hanging-punctuation: first;
+    letter-spacing: -0.025em;
+    line-height: if($line-height, $line-height, $--line-height-default);
+    hyphens: auto;
+  }
+
+  @if $preset == "body" {
+    @include fluid-type(
+      280px,
+      1120px,
+      18px,
+      20px
+    );
+    font-weight: if($font-weight, $font-weight, normal);
+    font-variant: common-ligatures lining-nums;
+    hanging-punctuation: first;
+    letter-spacing: -0.015em;
+    line-height: if($line-height, $line-height, $--line-height-relaxed);
+    hyphens: auto;
+  }
+
+  @if $preset == "caption" {
+    @include fluid-type(
+      280px,
+      1120px,
+      14px,
+      16px
+    );
+    hanging-punctuation: first;
+    letter-spacing: -0.025em;
+    line-height: if($line-height, $line-height, $--line-height-default);
+  }
+
+  @if $preset == "label" {
+    font-size: 0.875rem; // 14px
+    line-height: if($line-height, $line-height, $--line-height-baseline);
+  }
+}

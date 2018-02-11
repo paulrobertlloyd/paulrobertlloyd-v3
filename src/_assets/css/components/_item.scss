@@ -54,7 +54,7 @@
 }
 
 .c-item__title {
-  @include fs--heading-3;
+  @include typeset("heading-3");
   hanging-punctuation: first;
   font-weight: 700;
 
@@ -64,12 +64,12 @@
 
   .c-item--entry &,
   .c-item--gallery & {
-    @include fs--heading-2;
+    @include typeset("heading-2");
   }
 }
 
 .c-item__footer {
-  @include fs--caption;
+  @include typeset("label");
   color: $--color-neutral-mid;
 
   a {

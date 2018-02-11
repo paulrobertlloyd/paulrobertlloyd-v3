@@ -2,98 +2,6 @@
 // Mixins
 // ========================================================
 
-// Font families
-@mixin ff--sans-serif($font-weight: normal) {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: $font-weight;
-
-  .fonts-loaded & {
-    font-family: Calibre, "Helvetica Neue", sans-serif;
-  }
-}
-
-@mixin ff--monospace($font-weight: normal) {
-  font-family: Menlo, monospace;
-  font-weight: $font-weight;
-}
-
-// Font sizes
-@mixin fs--title {
-  line-height: (32 / 32);
-  font-size: 2rem; // 32px
-  letter-spacing: -0.025em;
-
-  @media (min-width: $--breakpoint-b) {
-    font-size: 2.75rem; // 44px
-  }
-
-  @media (min-width: $--breakpoint-c) {
-    font-size: 3.5rem; // 56px
-  }
-}
-
-@mixin fs--heading-1 {
-  line-height: (32 / 28);
-  font-size: 1.75rem; // 28px
-  letter-spacing: -0.025em;
-
-  @media (min-width: $--breakpoint-b) {
-    line-height: 1;
-    font-size: 2.5rem; // 40px
-  }
-}
-
-@mixin fs--heading-2 {
-  line-height: (24 / 21);
-  font-size: 1.3125rem; // 21px
-  letter-spacing: -0.025em;
-
-  @media (min-width: $--breakpoint-b) {
-    line-height: (32 / 28);
-    font-size: 1.75rem; // 28px
-  }
-}
-
-@mixin fs--heading-3 {
-  line-height: (20 / 18);
-  font-size: 1.125rem; // 18px
-  letter-spacing: -0.025em;
-
-  @media (min-width: $--breakpoint-c) {
-    font-size: 1.3125rem; // 21px
-  }
-}
-
-@mixin fs--lede {
-  line-height: (28 / 21);
-  font-size: 1.3125rem; // 21px
-  letter-spacing: -0.025em;
-
-  @media (min-width: $--breakpoint-c) {
-    font-size: 1.5rem; // 24px
-  }
-}
-
-@mixin fs--body {
-  line-height: (24 / 16);
-  font-size: 1rem; // 16px
-  letter-spacing: -0.015em;
-
-  @media (min-width: $--breakpoint-b) {
-    font-size: 1.125rem; // 18px
-  }
-
-  @media (min-width: $--breakpoint-c) {
-    font-size: 1.25rem; // 20px
-  }
-}
-
-@mixin fs--caption {
-  line-height: (20.01 / 14);
-  font-size: 0.875rem; // 14px
-  letter-spacing: -0.025em;
-}
-
 // Link
 @mixin link {
   text-decoration: underline;
@@ -122,28 +30,14 @@
   }
 }
 
-// Vertically separate two strings with a slash
+// Vertically separate two strings with a middot
 @mixin separate {
   &::after {
-    margin: 0 0.15rem;
     color: rgba($--color-neutral-mid, 0.5);
-    font-weight: normal;
-    content: "\00a0/";
+    content: "\00a0\2219";
   }
 
   &:last-child::after {
     content: none;
   }
-}
-
-// Visually hide content
-@mixin visually-hidden {
-  position: absolute;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
 }
