@@ -5,7 +5,7 @@
 .c-contentinfo {
   @include typeset("label");
   padding: $--space-medium var(--page-gutter);
-  background-color: $--color-neutral-lighter;
+  background-color: rgba($--color-neutral-darkest, 0.1);
 
   a {
     text-decoration: none;
