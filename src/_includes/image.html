@@ -1,14 +1,14 @@
-{% if include.preset %}
-  {% assign preset = site.images[include.preset] %}
-{% else %}
-  {% assign preset = site.images.default %}
-{% endif %}
-{% if jekyll.environment == "production" %}
-  {% unless include.src contains ".svg" %}
-    <img src="{{ site.url }}/image/{{ preset.sources[0].width }}x{{ preset.sources[0].height }}/{{ preset.sources[0].quality }}q/{{ include.src }}" srcset="{% for source in preset.sources %}{{ root }}/image/{{ source.width }}x{{ source.height }}/{{ source.quality }}q/{{ include.src }} {{ source.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"{% if preset.sizes %} sizes="{{ preset.sizes }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
-  {% else %}
-    <img src="/images/{{ include.src }}" {% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
-  {% endunless %}
-{% else %}
-  <img src="/images/{{ include.src }}" {% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
-{% endif %}
+{%- if include.preset -%}
+  {%- assign preset = site.images[include.preset] -%}
+{%- else -%}
+  {%- assign preset = site.images.default -%}
+{%- endif -%}
+{%- if jekyll.environment == "production" -%}
+  {%- unless include.src contains ".svg" -%}
+<img src="{{ site.url }}/image/{{ preset.sources[0].width }}x{{ preset.sources[0].height }}/{{ preset.sources[0].quality }}q/{{ include.src }}" srcset="{%- for source in preset.sources -%}{{ root }}/image/{{ source.width }}x{{ source.height }}/{{ source.quality }}q/{{ include.src }} {{ source.width }}w{%- unless forloop.last -%}, {%- endunless -%}{%- endfor -%}"{%- if preset.sizes -%} sizes="{{ preset.sizes }}"{%- endif -%}{%- if include.class -%} class="{{ include.class }}"{%- endif -%} alt="{{ include.alt }}"/>
+  {%- else -%}
+<img src="/images/{{ include.src }}" {%- if include.class -%} class="{{ include.class }}"{%- endif -%} alt="{{ include.alt }}"/>
+  {%- endunless -%}
+{%- else -%}
+<img src="/images/{{ include.src }}" {%- if include.class -%} class="{{ include.class }}"{%- endif -%} alt="{{ include.alt }}"/>
+{%- endif -%}
