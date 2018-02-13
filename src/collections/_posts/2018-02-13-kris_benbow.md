@@ -8,11 +8,11 @@ tags:
   - Friends
   - In memoriam
 ---
-Life is full of contrasts, but rarely are they so stark. Travelling back from Oban yesterday morning on the majestic West Highland Line, I looked across a beautiful snow-covered landscape, thankful that after much dithering, I had decided to book this last-minute trip north. But it was here, within this winter wonderland, that I learnt of the tragic and untimely death of my good friend, Kris Benbow.
+Life is full of contrasts, but rarely are they so stark. Travelling back from Oban yesterday morning on the majestic West Highland Railway, I looked across a beautiful snow-covered landscape, thankful that after much dithering, I had decided to book this last-minute trip north. But it was here, within this winter wonderland, that I learnt of the tragic and untimely death of my good friend, Kris Benbow.
 
 * * *
 
-McDonald's isn't the first place you'd expect to establish a life-long friendship, but this was to be my good fortune. I don't remember the first time we met, but I do recall returning to the restaurant after my first year at university and being surprised to see him wearing a manager's shirt. Afterall, Kris was never one to take the job seriously – few did – and was often at the centre of various jokes and pranks. But likeable and smart, he knew how to have fun and get the job done. Not only that, he could instil that same attitude in others. When I was later promoted to the same position, I discovered that supervising teenagers in an environment peppered with health and safety risks is incredibly stressful, and not the least bit enjoyable, which made Kris’ abilities even more impressive.
+McDonald's isn't the first place you'd expect to establish a life-long friendship, but this was to be my good fortune. I don't remember the first time I met Kris, but I do recall returning to the restaurant after my first year at university, only to be surprised that he was now wearing a manager's shirt. Afterall, Kris was never one to take the job seriously – few did – and was often at the centre of various jokes and pranks. But likeable and smart, he knew how to have fun and get the job done. Not only that, he could instil that same attitude in others. When I was later promoted to the same position, I discovered that supervising teenagers in an environment peppered with health and safety risks is incredibly stressful, and not the least bit enjoyable, which only made Kris’ abilities all the more impressive.
 
 {% include figure.html
   src="2018/02/coed-y-brenin_2004.jpg"
@@ -21,7 +21,7 @@ McDonald's isn't the first place you'd expect to establish a life-long friendshi
   class="u-bleed"
 %}
 
-Thankfully, memories of Kris aren't limited to him being a manager. Having completed my degree, I postponed finding a full-time job and continued working part-time at McDonald's instead (alongside an attempt at freelancing and a quickly abandoned Masters degree). Taking on some early morning shifts to tidy the stock room, clean the freezer and accept deliveries, we fast became friends.
+Thankfully, memories of Kris aren't limited to him being a manager. Having completed my degree, I postponed finding a full-time job and continued working part-time at McDonald's instead (alongside my first attempt at freelancing and a quickly abandoned Masters degree). We both took on early morning shifts to accept and pack away deliveries, and through this fast became friends.
 
 Every summer, a group of us would head to Dolgellau in Wales. The stated aim was to tackle the Red Bull mountain bike course at nearby Coed-y-Brenin but this trip slowly devolved into something less adventurous; pitching our tents around a campfire, drinking beer and barbecuing meat. For Kris, a man known for his fondness for creature comforts and the easy life, this wasn't appealing; he'd much rather spend the weekend at a health spa, or better still, at home, surrounded by various gadgets.
 
@@ -44,7 +44,7 @@ With memories of someone so cheerful and relaxed, the manner of his passing beco
 
 * * *
 
-This news comes just over a year since [the death of my friend James][14]. Indeed it was Kris, knowing that I would be missing updates posted to Facebook, who told me about him moving to a hospice. All of which puts my dithering about whether or not to spend a weekend in Scotland -- and more besides -- into perspective. Once again I'm reminded that life is not only short, but unpredictable. That time with friends should be treasured. That if I want to go somewhere, I should just go.
+This news comes just over a year since [the death of my friend James][14]. Indeed it was Kris, knowing that I would be missing updates posted to Facebook, who told me about him being moved to a hospice. All of which puts my dithering about whether or not to spend a weekend in Scotland -- and more besides -- into perspective. Once again I'm reminded that life is not only short, but unpredictable. That time with friends should be treasured. That if I want to go somewhere, I should just go.
 
 Fuck it, let's go to Australia!
 
