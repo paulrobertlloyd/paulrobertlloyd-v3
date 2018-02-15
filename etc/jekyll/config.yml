@@ -104,7 +104,6 @@ defaults:
       layout: gallery
       feed: true
       archive: true
-      theme: dark
 
   - scope:
       type: posts

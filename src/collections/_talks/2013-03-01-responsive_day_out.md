@@ -4,8 +4,7 @@ date: '2013-03-01 16:00:00 +0100'
 location: Brighton, England
 event: Responsive Day Out
 excerpt: Video and resources from my presentation at Responsive Day Out
-embed:
-  src: https://vimeo.com/64108866
+embed: https://vimeo.com/64108866
 ---
 Graphic designers have long honed their craft to meet the specific constraints of television. As web designers begin to understand the true nature of our own medium, isn't about time we did the same?
 

@@ -4,9 +4,9 @@
     caption=item.image.caption
   %}
 {% endif %}
-{% if item.embed.src %}
+{% if item.embed %}
   {% include figure-embed.html
-    src=item.embed.src
+    src=item.link
   %}
 {% endif %}
 {{ item.content | markdownify }}

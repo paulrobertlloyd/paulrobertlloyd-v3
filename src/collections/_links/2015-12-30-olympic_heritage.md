@@ -1,9 +1,8 @@
 ---
 title: 'Olympic Heritage Collection by Hulse&Durrell'
 date: '2015-12-30 20:20:00 +0000'
-embed:
-  src: https://vimeo.com/143284760
-theme: dark
+link: https://vimeo.com/143284760
+embed: true
 tags:
   - Video
   - Olympics

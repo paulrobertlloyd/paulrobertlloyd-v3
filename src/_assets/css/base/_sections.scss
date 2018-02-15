@@ -23,12 +23,12 @@ body {
   height: 100%;
   max-width: 90rem;
   margin: 0 auto;
-  background-color: var(--page-background);
+  background-color: $--color-neutral-lightest;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: $--font-family-sans-fallback;
   line-height: 1.5;
-  color: var(--page-text);
+  color: $--color-neutral-dark;
 
   @media print {
     margin: 0 1cm;

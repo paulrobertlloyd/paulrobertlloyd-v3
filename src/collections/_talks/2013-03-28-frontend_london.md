@@ -4,8 +4,7 @@ date: '2013-03-28 20:30:00 +0000'
 location: London, England
 event: Front-end London
 excerpt: Slides from my presentation at Front-end London
-embed:
-  src: https://speakerdeck.com/player/e33393d07a9f0130b0e71231381aa0f1
+embed: https://speakerdeck.com/player/e33393d07a9f0130b0e71231381aa0f1
 ---
 Graphic designers have long honed their craft to meet the specific constraints of television. As web designers begin to understand the true nature of our own medium, isn't about time we did the same?
 

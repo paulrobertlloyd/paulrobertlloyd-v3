@@ -14,14 +14,6 @@ layout: default
           class="u-bleed"
         %}
       {% endif %}
-      {% if page.embed.src %}
-        {% include embed.html
-          title=page.title
-          src=page.embed.src
-          ratio=page.embed.ratio
-          class="u-bleed"
-        %}
-      {% endif %}
 
       {{ content | smartify }}
     </div>

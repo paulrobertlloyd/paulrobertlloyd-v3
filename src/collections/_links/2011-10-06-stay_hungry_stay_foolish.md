@@ -1,9 +1,8 @@
 ---
 title: Stay Hungry. Stay Foolish.
 date: '2011-10-06 20:44:26 +0100'
-embed:
-  src: https://www.youtube.com/video/UF8uR6Z6KLc
-theme: dark
+link: https://www.youtube.com/video/UF8uR6Z6KLc
+embed: true
 tags:
   - Steve Jobs
 ---

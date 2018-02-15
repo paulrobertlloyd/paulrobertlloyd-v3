@@ -1,9 +1,8 @@
 ---
 title: Data Visualization Reinterpreted
 date: '2012-11-02 01:10:58 +0000'
-embed:
-  src: https://vimeo.com/51365288
-theme: dark
+link: https://vimeo.com/51365288
+embed: true
 tags:
   - Video
   - Peter Saville

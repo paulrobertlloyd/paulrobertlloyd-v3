@@ -99,7 +99,6 @@
     hanging-punctuation: first;
     letter-spacing: -0.025em;
     line-height: if($line-height, $line-height, $--line-height-default);
-    hyphens: auto;
   }
 
   @if $preset == "body" {

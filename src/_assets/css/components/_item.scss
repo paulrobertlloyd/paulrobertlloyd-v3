@@ -33,24 +33,13 @@
   margin-bottom: $--space-large;
 }
 
-.c-item__media,
 .c-item__footer {
   margin-bottom: $--space-medium;
 }
 
-.c-item__header {
-  margin-bottom: $--space-small;
-}
-
+.c-item__header,
 .c-item__main {
   margin-bottom: $--space-small;
-
-  @media (min-width: $--breakpoint-a) {
-    .c-item--link &,
-    .c-item--comment & {
-      padding-right: percentage(1/8);
-    }
-  }
 }
 
 .c-item__title {

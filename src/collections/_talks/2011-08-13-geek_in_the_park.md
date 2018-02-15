@@ -4,8 +4,7 @@ date: '2011-08-13 20:00:00 +0100'
 location: Leamington Spa, England
 event: Geek in the Park 2011
 excerpt: Transcript of my presentation at Geek in the Park
-embed:
-  src: https://speakerdeck.com/player/4e47f175a6aa8f00010073ae
+embed: https://speakerdeck.com/player/4e47f175a6aa8f00010073ae
 ---
 ## Web versus native
 

@@ -30,6 +30,10 @@
     }
   }
 
+  figure {
+    margin-bottom: $--space-medium;
+  }
+
   ol:not([class]),
   ul:not([class]),
   dd:not([class]) {

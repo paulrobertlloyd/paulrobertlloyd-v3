@@ -1,9 +1,8 @@
 ---
 title: The Pixel Painter
 date: '2013-08-12 21:33:38 +0100'
-embed:
-  src: https://vimeo.com/70748579
-theme: dark
+link: https://vimeo.com/70748579
+embed: true
 tags:
   - Video
   - Art

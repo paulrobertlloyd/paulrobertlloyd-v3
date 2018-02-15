@@ -5,13 +5,15 @@
     </h3>
   </header>
 
-  {% if item.embed.src %}
-  <div class="c-item__media u-bleed">
-    {% include embed.html src=item.embed.src title=item.title %}
-  </div>
-  {% endif %}
-
   <div class="c-item__main s-prose">
+    {% if item.embed %}
+      {% include figure-embed.html
+        src=item.link
+        title=item.title
+        class="u-bleed"
+      %}
+    {% endif %}
+
     {{ item.content | markdownify | smartify }}
   </div>
 

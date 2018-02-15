@@ -4,8 +4,6 @@
 
 :root {
   --page-gutter: #{$--space-medium};
-  --page-background: #{$--color-neutral-lightest};
-  --page-text: #{$--color-neutral-dark};
 
   @media (min-width: $--breakpoint-a) {
     --page-gutter: #{$--space-large};
@@ -14,10 +12,4 @@
   @media (min-width: $--breakpoint-c) {
     --page-gutter: 15vw;
   }
-}
-
-// Theming
-.t-dark {
-  --page-background: #{$--color-neutral-darkest};
-  --page-text: #{$--color-neutral-lightest};
 }
