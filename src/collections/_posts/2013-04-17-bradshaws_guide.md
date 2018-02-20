@@ -3,15 +3,19 @@ title: (Re)introducing Bradshaw's Guide
 date: '2013-04-17 00:48:12 +0100'
 location: San Francisco, USA
 excerpt: Based on the 1866 edition of George Bradshaw's handbook for tourists using Britain's nascent railway network, my latest project puts his historical insights into the hands of a new generation, many of whom use the same routes he described 150 years ago.
-image:
-  src: 2013/04/bradshaws_guide.png
-  caption: Bradshaw's Guide being viewed on an iPhone
+image: 2013/04/bradshaws_guide.png
 tags:
   - Projects
   - Bradshaw's Guide
   - Travel
 discussion: closed
 ---
+{% include figure.html
+  caption="Bradshaw's Guide being viewed on an iPhone"
+  src="2013/04/bradshaws_guide.png"
+  class="u-bleed"
+%}
+
 This blog has been fairly quiet over the last few months. Not because I've got a shortage of things to say, far from it. In fact, such is the backlog of posts, I'm dedicating much of my week-short break here in San Francisco to catching up.
 
 The departure date for this trip was a useful deadline for launching the project that's been occupying all of my spare time: [Bradshaw's Guide][1]. If you've watched Michael Portillo's BBC television series <cite>[Great British Railway Journeys][2]</cite>, you'll know what this is about. If not, the title of his programme is a good description.

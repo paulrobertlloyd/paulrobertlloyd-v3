@@ -102,8 +102,6 @@ defaults:
       layout: post
       feed: true
       archive: true
-      image:
-        preset: wide
 
   - scope:
       type: projects

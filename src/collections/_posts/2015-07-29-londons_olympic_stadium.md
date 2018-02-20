@@ -3,15 +3,19 @@ title: 'London''s Olympic Stadium: A Legacy Lost'
 date: '2015-07-29 00:20:12 +0100'
 location: Brighton, England
 excerpt: 'Having undergone a £272m conversion programme, London''s Olympic Stadium is ready to host Premier League football as well as world-class athletics. Its future now secured, what hopes remain for its legacy?'
-image:
-  src: 2015/07/london_olympic_stadium_2012.jpg
-  caption: 'The Olympic Stadium nearing its completion in 2012'
+image: 2015/07/london_olympic_stadium_2012.jpg
 tags:
   - Architecture
   - London 2012
   - Politics
   - Olympics
 ---
+{% include figure.html
+  caption="The Olympic Stadium nearing its completion in 2012"
+  src="2015/07/london_olympic_stadium_2012.jpg"
+  class="u-bleed"
+%}
+
 The history of the Olympics is not only one of remarkable sporting achievement, but acts of incredible artistry too. Over nearly 120 years, organisers have commissioned beautiful works of graphic art -- Lance Wyman's [celebrated identity for Mexico '68][1] and Otl Aicher's [timeless design for Munich '72][2] immediately spring to mind -- and also staged captivating acts of theatre. Zhang Yimou's immense [opening ceremony in Beijing][3] and Danny Boyle's more modest but no less emotional [tribute to British invention and social progress][4] in London, are just two recent examples. As for interactive design, well [that's another story][5].
 
 The most notable creative output is that of the architecture, with each games requiring large venues to host the almost 30 different competitions held over the course of two short weeks. With organisers using the Olympics to promote national identity and regenerate deprived areas, it is these impressive yet expensive amphitheatres that attract the most attention and controversy, none more so than the centrepiece [Olympic Stadium][6].

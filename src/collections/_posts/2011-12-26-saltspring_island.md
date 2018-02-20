@@ -3,14 +3,18 @@ title: Across the Salish Sea
 series: north_america_2011
 date: '2011-12-26 15:05:26 +0000'
 excerpt: After eight days exploring North America, it was time to visit some of its more westerly extremities. Flying out from Toronto, my first stop was Saltspring Island, via Vancouver Airport and a float plane.
-image:
-  src: 2011/12/saltspring_island.jpg
-  caption: Looking across the Salish Sea
+image: 2011/12/saltspring_island.jpg
 tags:
   - Travel
   - Salt Spring Island
   - Canada
 ---
+{% include figure.html
+  caption="Looking across the Salish Sea"
+  src="2011/12/saltspring_island.jpg"
+  class="u-bleed"
+%}
+
 After eight days [exploring North America][1], it was time to visit some more westerly extremities. Flying [out from Toronto][2], my first stop was Saltspring Island, via Vancouver Airport and a float plane. This is the more expensive means of reaching the Gulf Islands (the other being a succession of ferries) but it's by far the quickest -- and the most exciting. I saw views to die for. For small propellor driven aircraft that use harbours to take off and land, float planes are surprising comfortable.
 
 In what's becoming a regular feature of recent travel, I headed to Saltspring to meet my friend [Phil][3], who I previously dinned with [when I was in Melbourne][4]. Having bought a beautiful house that previously served as a bed and breakfast, he was more than happy to put me up for a few nights too. I also got to meet his wonderful wife [Claire][5] and their lovely children, Amelia and Lily.

@@ -3,14 +3,18 @@ title: 'San Francisco: There and Back Again'
 series: north_america_2011
 date: '2012-01-01 23:44:07 +0000'
 excerpt: For the final leg of my North American tour I transcended the West Coast on Amtrak's Coast Starlight. Getting to San Francisco wouldn't be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm.
-image:
-  src: 2012/01/san_francisco.jpg
-  caption: Sun setting over Ocean Beach
+image: 2012/01/san_francisco.jpg
 tags:
   - Travel
   - San Francisco
   - United States
 ---
+{% include figure.html
+  caption="Sun setting over Ocean Beach"
+  src="2012/01/san_francisco.jpg"
+  class="u-bleed"
+%}
+
 For the final leg of my [North American tour][1] I transcended the West Coast on Amtrak's [Coast Starlight][2]. Getting to San Francisco wouldn't be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm. Only once I'd boarded the train could I sit back and relax. Upon leaving Seattle, a low lying sun bathed the carriage with the soft morning light. Bliss.
 
 ## Food, glorious food

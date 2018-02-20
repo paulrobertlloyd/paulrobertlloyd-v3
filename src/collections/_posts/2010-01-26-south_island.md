@@ -3,15 +3,19 @@ title: A Small Taste of the South Island
 series: australasia_2009
 date: '2010-01-26 00:07:49 +0000'
 excerpt: Having arranged my flights into and out of New Zealand before deciding upon an itinerary, meant I had little time to really explore the South Island.
-image:
-  src: 2010/01/south_island_overlander.jpg
-  caption: The Overlander during its lunchtime stop at National Park railway station
+image: 2010/01/south_island_overlander.jpg
 tags:
   - Travel
   - New Zealand
   - Picton
   - Wellington
 ---
+{% include figure.html
+  caption="The Overlander during its lunchtime stop at National Park railway station"
+  src="2010/01/south_island_overlander.jpg"
+  class="u-bleed"
+%}
+
 Having arranged my flights into and out of New Zealand before I had decided upon a full itinerary -- departing from Wellington rather than an airport further south -- meant I had little time to really explore the South Island.
 
 The same could be said of my experience of the North Island too. After just [a day and a half in Auckland][1], I caught the [TranzScenic][2] [Overlander][3] rail service to Wellington, quickly by-passing much of the North Island in order to reach it's southerly tip later that day.

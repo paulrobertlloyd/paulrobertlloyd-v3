@@ -2,15 +2,19 @@
 title: The King's Speech
 date: '2011-02-13 23:13:23 +0000'
 excerpt: The King's Speech is undoubtedly one of the most successful independent British films ever made, yet some see this popularity as problematic given the artistic licence given to the events it portrays.
-image:
-  src: 2011/02/the_kings_speech.jpg
-  caption: Colin Firth in The King's Speech
+image: 2011/02/the_kings_speech.jpg
 tag:
   - Film
   - Review
   - History
   - Politics
 ---
+{% include figure.html
+  caption="Colin Firth in The King's Speech"
+  src="2011/02/the_kings_speech.jpg"
+  class="u-bleed"
+%}
+
 However you wish to measure it, [The King's Speech][1] is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn't imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
 
 This period of history appears to be enjoying a renaissance in both film and on television. The BBC's revival of <cite>[Upstairs, Downstairs][3]</cite>, a popular drama [that first aired in the 1970s][4] returned at Christmas, with this latest series also set during the events of the addiction crisis. Indeed, many of those mentioned in this film were seen dining at 165 Eaton Place.

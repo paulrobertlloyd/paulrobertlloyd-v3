@@ -3,15 +3,19 @@ title: Historic Counties & Psychoville
 date: '2009-06-23 00:30:00 +0100'
 location: Littlehampton, England
 excerpt: I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it.
-image:
-  src: 2009/06/historic_counties_and_psychoville.jpg
-  caption: Scene from Psychoville
+image: 2009/06/historic_counties_and_psychoville.jpg
 tags:
   - Television
   - Government
   - England
 discussion: closed
 ---
+{% include figure.html
+  caption="Scene from Psychoville"
+  src="2009/06/historic_counties_and_psychoville.jpg"
+  class="u-bleed"
+%}
+
 I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it. The passing of the [Local Government Act of 1888][1] established county councils (or 'administrative counties') based upon the boundaries of existing [historic Counties][2] in England and Wales, but subsequent legislation has been far more destructive.
 
 My interest in this topic is no doubt driven by [my desire to organise][3] everything, but it's worth noting that I grew up in Horley, a town that campaigned hard to remain within Surrey when the [Local Government Act of 1972][4] sought to have it join neighbouring West Sussex.

@@ -3,14 +3,18 @@ title: 'Raising the Games: Volunteering at Glasgow 2014'
 date: '2014-08-09 17:51:10 +0000'
 location: Brighton, England
 excerpt: Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
-image:
-  src: 2014/08/clyde_sider_hampden.jpg
-  caption: The team I worked with during my penultimate shift outside Hampden Park
+image: 2014/08/clyde_sider_hampden.jpg
 tags:
   - Commonwealth Games
   - Glasgow 2014
   - Volunteering
 ---
+{% include figure.html
+  caption="The team I worked with during my penultimate shift outside Hampden Park"
+  src="2014/08/clyde_sider_hampden.jpg"
+  class="u-bleed"
+%}
+
 Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
 
 Any conversation regarding these Games often involves comparisons to the Olympic Games held in London two years ago; a tough act to follow given their prestige and success. Organisers in Glasgow were keen to point out that their games offered a different spectacle -- an 11 day festival of sport and culture designed to promote goodwill between the 71 nations and territories that make up the Commonwealth -- and should be judged on that basis alone. But with a number of popular athletes unable (or unwilling) to compete, questions were raised about the validity of this multi-sport event, which [many consider an anachronism][1].

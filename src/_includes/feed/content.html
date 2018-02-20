@@ -1,9 +1,3 @@
-{% if item.image.src %}
-  {% include figure.html
-    src=item.image.src
-    caption=item.image.caption
-  %}
-{% endif %}
 {% if item.embed %}
   {% include figure-embed.html
     src=item.link

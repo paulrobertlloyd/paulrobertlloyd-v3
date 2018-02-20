@@ -3,15 +3,19 @@ title: 'Stephen Colbert''s Late Show'
 date: '2015-09-16 20:49:00 +0100'
 location: Brighton, England
 excerpt: 'A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.'
-image:
-  src: 2015/09/stephen_colbert_late_show.jpg
-  caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS'
+image: 2015/09/stephen_colbert_late_show.jpg
 tags:
   - Stephen Colbert
   - Entertainment
   - Politics
   - Television
 ---
+{% include figure.html
+  caption="Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS"
+  src="2015/09/stephen_colbert_late_show.jpg"
+  class="u-bleed"
+%}
+
 A huge fan of [<cite>The Colbert Report</cite>][1], although living in the UK meant I was unable to watch full episodes, I could often be found howling with laughter as I gorged on the available clips on YouTube. Yet watching [video shorts][2] released prior to Colbert's debut as new host of <cite>The Late Show</cite>, I sensed a change in comedic direction, and wondered whether the transition to a more mainstream slot would be a painful, and ultimately unsuccessful endeavour.
 
 Now, having watched clips from his first week sat behind the desk inside a renovated [Ed Sullivan Theater][3], I'm left wondering why I had any doubts. While the new show sticks to the traditional American late-night format, enough elements of his previous show remain, and the humour remains familiar. [Writing about the first show][4], Megan Garber noticed another important similarity:

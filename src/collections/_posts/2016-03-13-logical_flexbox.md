@@ -3,12 +3,16 @@ title: 'CSS Flexbox Is Entirely Logical (Almost)'
 date: '2016-03-13 00:55:00 +0000'
 location: Brighton, England
 excerpt: 'Because it uses logical values, Flexbox layouts will automatically align according to a document''s text-direction. Well, almost.'
-image:
-  src: 2016/03/spock.jpg
-  caption: 'Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg)'
+image: 2016/03/spock.jpg
 tags:
   - Web
 ---
+{% include figure.html
+  caption="Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg)"
+  src="2016/03/spock.jpg"
+  class="u-bleed"
+%}
+
 Given a maturing specification, and related concerns regarding browser support and compatibility, I had largely been ignoring [CSS Flexible Box Layout][1]. Yet with support for this module -- aka Flexbox -- [currently hovering around 96%][2] (82% if using un-prefixed values) there's little excuse for developers like myself not to start using it.
 
 Like getting to grips with any new tool, only by using it for real can its various nuances and limitations be understood. Finally able to discard the many counter-intuitive hacks I've gathered over the years, I find it hard not to create a flex layout without wearing a broad grin. Vertical centring? [Easy][3]. Equal height columns? [By default][4]. While Flexbox may not be suitable for every situation, it solves a great number. And with [CSS Grids][5] just around the corner, web layout nirvana feels pretty damn close.

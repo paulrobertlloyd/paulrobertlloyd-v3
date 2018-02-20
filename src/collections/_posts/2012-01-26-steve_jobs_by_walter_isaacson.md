@@ -3,15 +3,19 @@ title: Steve Jobs by Walter Isaacson
 date: '2012-01-26 21:56:34 +0000'
 location: Brighton, England
 excerpt: After enough subtle hints, I was happy to unwrap a copy of the Steve Jobs biography at Christmas. I don't read many books, and those I do, I rarely finish, but I couldn't put this one down. When I intended to read half an hour before bed, I'd usually end up reading for two.
-image:
-  src: 2012/01/steve_jobs_by_walter_isaacson.jpg
-  caption: Steve Jobs by Walter Isaacson
+image: 2012/01/steve_jobs_by_walter_isaacson.jpg
 tags:
   - Books
   - Review
   - Steve Jobs
   - Apple
 ---
+{% include figure.html
+  caption="Steve Jobs by Walter Isaacson"
+  src="2012/01/steve_jobs_by_walter_isaacson.jpg"
+  class="u-bleed"
+%}
+
 After enough subtle hints, I was happy to unwrap a copy of the [Steve Jobs biography][1] at Christmas. I don't read many books, and those I do, I rarely finish, but I couldn't put this one down. When I intended to read half an hour before bed, I'd usually end up reading for two.
 
 That said, the book isn't amazingly written, and I was disappointed that some of the most interesting periods of Jobs' career, including his time at NeXT and Pixar, were quickly glossed over, the book choosing to focus more on his leadership at Apple instead. Others have criticised Isaacson's [technical cluelessness][2] and worse still, an [incuriosity about his subject][3].

@@ -3,15 +3,19 @@ title: Hello Clearleft
 date: '2009-06-21 17:30:00 +0100'
 location: Littlehampton, England
 excerpt: Continuing the trend of this blog documenting events that happened several weeks ago, this month saw me become the ninth member of the Brighton based web agency Clearleft.
-image:
-  src: 2009/06/clearleft.jpg
-  caption: 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)'
+image: 2009/06/clearleft.jpg
 tags:
   - Personal
   - Clearleft
 discussion: closed
 ---
 This month saw me become the ninth member of the Brighton based web agency [Clearleft][1].
+
+{% include figure.html
+  caption="The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)"
+  src="2009/06/clearleft.jpg"
+  class="u-bleed"
+%}
 
 My relationship with Clearleft goes back to 2006 when they were contracted by my former employer [Ning][2] to design a video sharing application. This was against some pretty rigid requirements, not least a set of style guidelines created by yours truly. Thankfully they liked what they saw and this placed me firmly on the companies radar.
 

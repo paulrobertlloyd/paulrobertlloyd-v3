@@ -3,16 +3,20 @@ title: 'Thinking Responsively: A Framework for Future Learning'
 date: '2015-08-26 17:02:00 +0100'
 location: Brighton, England
 excerpt: 'Three years after the Web Aesthetic, comes my second article for A List Apart. Intended to inform a broader discussion about the principles that underline our work, I thought I would share some background as to how this article came about.'
-image:
-  src: 2015/08/map_and_territory.png
-  caption: 'Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart'
-  preset: anamorphic
+image: 2015/08/map_and_territory.png
 tags:
   - Writing
   - Web
   - Responsive design
   - A List Apart
 ---
+{% include figure.html
+  caption="Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart"
+  src="2015/08/map_and_territory.png"
+  preset="anamorphic"
+  class="u-bleed"
+%}
+
 Three years after [The Web Aesthetic][1], comes my second article for <cite>A List Apart</cite>, [Thinking Responsively: A Framework for Future Learning][2]. From the introduction:
 
 > Responsive web design changed everything about how we think and work on the web—and five years on, we're still exploring the best ways to approach our practice. If we want a web that is truly universal, we must consider our users, our medium, and our teams in new, adaptable ways. Looking at where we've come from and where we're going, Paul Robert Lloyd proposes a philosophical framework for our work on the responsive web.

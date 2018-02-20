@@ -3,15 +3,20 @@ title: Away to Galway
 date: '2017-05-14 22:40:00 +0100'
 location: Brighton, England
 excerpt: In need of a break, I headed to Galway and the far western reaches of the British Isles.
-image:
-  src: 2017/05/galway_harbour.jpg
-  caption: 'Boats and swans in Galway harbour'
+image: 2017/05/galway_harbour.jpg
 tags:
   - Galway
   - Ireland
   - Europe
   - Travel
 ---
+{% include figure.html
+  caption="Boats and swans in Galway harbour"
+  src="2017/05/galway_harbour.jpg"
+  preset="wide"
+  class="u-bleed"
+%}
+
 I've been working with [the team at Snyk][1] since January, but when asked if I would attend a company off-site in Tel Aviv, I demurred. I find the idea of visiting Israel unsettling for many reasons, as I'm sure you can imagine. Was I declining an opportunity to challenge my ideals, or being principled to a fault? I'm not sure.
 
 Anyway, with a week to myself -- and in much need of a break -- I headed to Galway and the far western reaches of the British Isles. I was already familiar with the arduous journey needed to reach Ireland by rail, having travelled to Belfast for Build Conference in 2010 and again in 2012. The trip from London to Holyhead was slightly more involved this time, requiring a change at Chester. Rather than _Ulysses_, it would be the smaller _Dublin Swift_ vessel that would ferry me across the Irish Sea to Dublin.

@@ -3,14 +3,18 @@ title: Le Corbusier - The Art of Architecture
 date: '2009-05-09 22:12:38 +0100'
 location: Littlehampton, England
 excerpt: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
-image:
-  src: 2009/05/le_corbusier.jpg
-  caption: 'Le Corbusier. Photograph: Willy Rizzo'
+image: 2009/05/le_corbusier.jpg
 tags:
   - Architecture
   - Le Corbusier
   - Exhibitions
 ---
+{% include figure.html
+  caption="Le Corbusier. Photograph: Willy Rizzo"
+  src="2009/05/le_corbusier.jpg"
+  class="u-bleed"
+%}
+
 Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
 
 I've long been a fan of modern architecture, even more so since I've been travelling and furthering my photography skills. Indeed, the highlight of [my time in Chicago][1] last October was an architecture boat tour, and I'm sure much of my travels around Europe in the next few weeks will be spent pointing my camera towards iconic buildings such as the [Olympic Stadium][2] in Munich, and the [City of Art and Sciences][3] in Valencia.

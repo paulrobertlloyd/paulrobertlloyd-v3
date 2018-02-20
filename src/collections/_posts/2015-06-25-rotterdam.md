@@ -3,14 +3,18 @@ title: 'Rotterdam Reflections'
 date: '2015-06-25 22:55:52 +0100'
 location: Brighton, England
 excerpt: 'Some thoughts after spending a few days in the Netherlands'' second city.'
-image:
-  src: 2015/06/rotterdam_centraal.jpg
-  caption: 'Rotterdam Centraal Station'
+image: 2015/06/rotterdam_centraal.jpg
 tags:
   - Travel
   - Europe
   - The Netherlands
 ---
+{% include figure.html
+  caption="Rotterdam Centraal Station"
+  src="2015/06/rotterdam_centraal.jpg"
+  class="u-bleed"
+%}
+
 After [speaking at CSS Day in Amsterdam][1], I decided to head back to Brighton via a few cities in Europe's low countries.
 
 In drawing a line south between Amsterdam Centraal station and the Eurostar platforms in Brussels, I decided on a short trip that would include a few days in Rotterdam, before heading to the medieval city of Bruges in Belgium, thus providing a deliberate contrast of architectural styles.

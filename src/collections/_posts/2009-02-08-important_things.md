@@ -2,12 +2,16 @@
 title: Important Things
 date: '2009-02-08 11:44:27 +0000'
 excerpt: One of my favourite comedians stars in a new show starting on Comedy Central this week.
+image: 2009/02/important_things.jpg
 tags:
   - Comedy
   - Television
   - Demetri Martin
 ---
-{% include image.html src="2009/02/important_things.jpg" alt="Promotion for Important Things" %}
+{% include figure.html
+  caption="Promotion for Important Things"
+  src="2009/02/important_things.jpg"
+%}
 
 One of my favourite comedians stars in a new show starting on Comedy Central this week. I first came across [Demetri Martin][1] as his role as a youth correspondent on [The Daily Show][2] -- a segment in which he was also able to showcase his signature use of self-drawn illustrations, graphs and diagrams in his comedy.
 

@@ -3,9 +3,7 @@ title: On The Road Again
 date: '2012-03-09 23:53:40 +0000'
 location: Austin, USA
 excerpt: Once again, I'm in Austin for SXSW Interactive; the forth time I've attended an event I find easy to disparage. Yet this is the first stop on a trip that will take in several hundred miles of Interstate highway between here and San Francisco; two points of familiarity on an itinerary that promises to be anything but predictable.
-image:
-  src: 2012/03/on_the_road_again.jpg
-  caption: Road block in Austin
+image: 2012/03/on_the_road_again.jpg
 tags:
   - Travel
   - United States
@@ -13,6 +11,12 @@ tags:
   - San Francisco
   - SXSW
 ---
+{% include figure.html
+  caption="Road block in Austin"
+  src="2012/03/on_the_road_again.jpg"
+  class="u-bleed"
+%}
+
 The unremarkable rusty orange exterior of the Hyatt Regency hotel in Austin serves only to make the interior more surprising -- spectacular even. Its large triangular atrium reveals 17 floors from which 448 rooms can be accessed. Walking along its corridors feels strangely cinematic.
 
 With this being the second week in March, most guests are either geeks or film buffs here for the annual SXSW festival. In all likelihood, they're outnumbered by marketing men and startup founders pushing here-today-gone-tomorrow smartphone apps. All have arrived in a city drowning under a deluge of rain, intermittent thunderstorms and lightening. Gallons of water is thrown over those who are ill-prepared, including myself.

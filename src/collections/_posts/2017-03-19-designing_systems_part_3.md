@@ -4,14 +4,19 @@ series: designing_systems
 date: '2017-03-19 18:00:00 +0000'
 location: Brighton, England
 excerpt: In the final part of my three-part essay based on the talk I gave at Smashing Conference, I look at how we might build components and consider their wider composition.
-image:
-  src: 2017/03/brasilia_motifs.jpg
-  caption: Common architectural motifs can be seen across many of Brasília's civic buildings
+image: 2017/03/brasilia_motifs.jpg
 tags:
   - Web
   - Design
   - Design Systems
 ---
+{% include figure.html
+  caption="Common architectural motifs can be seen across many of Brasília's civic buildings"
+  src="2017/03/brasilia_motifs.jpg"
+  preset="wide"
+  class="u-bleed"
+%}
+
 _The final part of a three-part essay based on the talk I gave at [Smashing Conference][1]_.
 
 ***

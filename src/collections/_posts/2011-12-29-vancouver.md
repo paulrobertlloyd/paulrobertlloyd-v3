@@ -3,14 +3,18 @@ title: Vibrant Vancouver
 series: north_america_2011
 date: '2011-12-29 00:57:39 +0000'
 excerpt: Sat in the front seat of another float plane, I enjoyed a breathtaking view of Vancouver as I descended into its harbour. For such a densely populated city, I felt I'd arrived somewhere small and friendly.
-image:
-  src: 2011/12/vancouver.jpg
-  caption: Vancouver waterfront from Stanley Park
+image: 2011/12/vancouver.jpg
 tags:
   - Travel
   - Vancouver
   - Canada
 ---
+{% include figure.html
+  caption="Vancouver waterfront from Stanley Park"
+  src="2011/12/vancouver.jpg"
+  class="u-bleed"
+%}
+
 Sat in the front seat of a [Saltspring Air][1] float plane, I enjoyed breathtaking views of Vancouver as I descended into its harbour, landing just in front of Canada Place. For such a densely populated city, I felt I'd arrived somewhere small and friendly, certifying [its status][2] as one of the world's most liveable cities.
 
 After checking into the [St. Regis Hotel][3] (worthy of mention, and highly recommended) I briefly explored the waterfront before meeting up with [Stephanie][4], [Dave][5] and other web geeks at the [Alibi Room][6] in Gastown. In the company of several beer experts, I sought recommendations on which four I should sample on my 'Frat-Bat'. I ended up drinking quite a mix: King Heffy, Fat Tug, Tree Vertical and Long Boat. I forget which was my favourite.

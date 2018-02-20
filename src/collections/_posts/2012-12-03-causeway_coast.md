@@ -3,9 +3,7 @@ title: Exploring the Causeway Coast
 date: '2012-12-03 22:44:50 +0000'
 location: Brighton, England
 excerpt: After attending Build in Belfast last month, Chris Armstrong gave Ethan Marcotte, Chris Shifflet and myself a tour of the Causeway Coast which, as the name suggests, is home to the famed Giant's Causeway.
-image:
-  src: 2012/12/causeway_coast.jpg
-  caption: Causeway Coast
+image: 2012/12/causeway_coast.jpg
 tags:
   - Travel
   - Photography
@@ -13,6 +11,12 @@ tags:
   - Web
   - Northern Ireland
 ---
+{% include figure.html
+  caption="Causeway Coast"
+  src="2012/12/causeway_coast.jpg"
+  class="u-bleed"
+%}
+
 After attending [Build][1] in Belfast last month, [Chris Armstrong][2] gave [Ethan Marcotte][3], [Chris Shifflet][4] and myself a tour of the Causeway Coast which, as the name suggests, is home to the famed [Giant's Causeway][5]. Below is a selection of photos I took during our tour. [The full set can be viewed on Flickr][6].
 
 In tandem with improving my proficiency with a camera, I'm trying to better understand [Aperture][7] and make more of my photos. These are the first I've processed using [VSCO film emulation filters][8]. The initial results are encouraging.

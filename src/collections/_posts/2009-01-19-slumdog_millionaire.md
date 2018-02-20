@@ -2,13 +2,17 @@
 title: Slumdog Millionaire
 date: '2009-01-19 01:08:41 +0000'
 excerpt: Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire.
-image:
-  src: 2009/01/slumdog_millionaire.jpg
-  caption: Ayush Mahesh Khedekar as the young Jamal Malik
+image: 2009/01/slumdog_millionaire.jpg
 tags:
   - Film
 discussion: closed
 ---
+{% include figure.html
+  caption="Ayush Mahesh Khedekar as the young Jamal Malik"
+  src="2009/01/slumdog_millionaire.jpg"
+  class="u-bleed"
+%}
+
 Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire. As further explained in the [IMDb synopsis][1]:
 
 >...when the show breaks for the night, police arrest him on suspicion of cheating; how could a street kid know so much? Desperate to prove his innocence, Jamal ([Patel][2]) tells the story of his life in the slum where he and his brother grew up, of their adventures together on the road, of vicious encounters with local gangs, and of Latika ([Pinto][3]), the girl he loved and lost. Each chapter of his story reveals the key to the answer to one of the game show's questions.

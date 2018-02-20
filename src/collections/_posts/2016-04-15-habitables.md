@@ -3,13 +3,18 @@ title: 'Habitables'
 date: '2016-04-15 16:10:00 +0100'
 location: Brighton, England
 excerpt: 'Having lived in my current flat for just over two years, I''m determined for this to be the year I finally make it feel like a home.'
-image:
-  src: 2016/04/habitables.jpg
-  caption: 'Sideboard, designed by Manuel Barrera/Habitables'
+image: 2016/04/habitables.jpg
 tags:
   - Furniture
   - Design
 ---
+{% include figure.html
+  caption="Sideboard, designed by Manuel Barrera/Habitables"
+  src="2016/04/habitables.jpg"
+  preset="wide"
+  class="u-bleed"
+%}
+
 Having lived in my current flat for just over two years, I'm determined for this to be the year that I finally make it feel like a home.
 
 With three rooms redecorated, only the kitchen and bathroom remain. Yet with both in need of substantial refurbishment, I shifted my focus to the lounge. Here, with my television perched upon a small table and a large L-shaped desk occupying one corner, it was time to look for more reasonably sized replacements.

@@ -3,15 +3,19 @@ title: Magical Melbourne
 series: australasia_2009
 date: '2010-01-29 23:42:47 +0000'
 excerpt: After two and a half weeks exploring various cities, it was finally on to Melbourne, the final stop on my short tour of Australasia.
-image:
-  src: 2010/01/melbourne_royal_exhibition_building.jpg
-  caption: Royal Exhibition Building, Melbourne
+image: 2010/01/melbourne_royal_exhibition_building.jpg
 tags:
   - Travel
   - Australia
   - Melbourne
   - Olympics
 ---
+{% include figure.html
+  caption="Royal Exhibition Building, Melbourne"
+  src="2010/01/melbourne_royal_exhibition_building.jpg"
+  class="u-bleed"
+%}
+
 Melbourne's status as Australia's cultural and sporting capital is reflected by two imposing sights in the city -- the [Melbourne Cricket Ground][1] (MCG) and the [Shrine of Remembrance][2] -- both backed up by an amazing array of national, state and metropolitan galleries, performance venues and sports stadia. The extensive tram system is just as impressive, and gives you an insight as to how other cities may have looked had they not been so eager to turn their streets over to the motor vehicle.
 
 Melbourne is host to a number of different architectural styles, many of them quite daring, especially recent additions like [Federation Square][3] and [Eureka Tower][4]. However, unlike Wellington, there is a general cohesiveness. In fact this even extends to the city council's [new identity][5]. Having witnessed the city first hand, I can't see it as anything other than a perfect graphic manifestation of Melbourne's built environment.

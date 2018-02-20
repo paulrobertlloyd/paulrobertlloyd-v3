@@ -3,9 +3,7 @@ title: 'Washington DC: A Monumental City'
 series: north_america_2008
 date: '2008-12-29 20:49:25 +0000'
 excerpt: The final stop in my four-city tour of the US in October was Washington, D.C.
-image:
-  src: 2008/12/washington_dc_vietnam_memorial.jpg
-  caption: The Vietnam Veterans Memorial
+image: 2008/12/washington_dc_vietnam_memorial.jpg
 tags:
   - Architecture
   - Travel
@@ -13,6 +11,12 @@ tags:
   - United States
 discussion: closed
 ---
+{% include figure.html
+  caption="The Vietnam Veterans Memorial"
+  src="2008/12/washington_dc_vietnam_memorial.jpg"
+  class="u-bleed"
+%}
+
 The final stop in my four-city tour of the US in October was Washington, DC I've spent a fair amount of time in the United States these past few years, so I thought it only appropriate to visit the nations capital, and see its iconic landmarks in the flesh.
 
 Perhaps unsurprisingly, I spent a good deal of time in DC taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country's history.

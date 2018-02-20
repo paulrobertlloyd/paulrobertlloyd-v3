@@ -3,14 +3,18 @@ title: 'Breaking Point: Why I''m voting to Remain in the EU Referendum'
 date: '2016-06-22 02:25:00 +0100'
 location: Amsterdam, The Netherlands
 excerpt: 'The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.'
-image:
-  src: 2016/06/eu_referendum.jpg
-  caption: 'Pastiche of Michelangelo''s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'
-  preset: anamorphic
+image: 2016/06/eu_referendum.jpg
 tags:
   - Politics
   - Europe
 ---
+{% include figure.html
+  caption="Pastiche of Michelangelo''s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago"
+  src="2016/06/eu_referendum.jpg"
+  preset="anamorphic"
+  class="u-bleed"
+%}
+
 Tomorrow is the referendum on Britain's membership of the European Union. I've wanted to write about this for some time, but I've delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain.
 
 The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey. How can I navigate such a complex subject, one distorted by years of inaccurate and biased reporting? How should I approach a subject that can generate emotive reactions, or much worse, as evidenced by the [tragic murder of Jo Cox MP][1].

@@ -3,15 +3,19 @@ title: How I Learned to Stop Worrying and Love Responsive Images
 date: '2012-02-26 23:21:55 +0000'
 location: Brighton, England
 excerpt: Last week I was invited to Responsive Summit, a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the Dr. Strangelove reference either.
-image:
-  src: 2012/02/responsive_summit.jpg
-  caption: Scene from Dr. Strangelove
+image: 2012/02/responsive_summit.jpg
 tags:
   - Web
   - Responsive design
   - Responsive Summit
 discussion: closed
 ---
+{% include figure.html
+  caption="Scene from Dr. Strangelove"
+  src="2012/02/responsive_summit.jpg"
+  class="u-bleed"
+%}
+
 Last week I was invited to [Responsive Summit][1], a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the [Dr. Strangelove][2] reference either.
 
 Whilst some disliked the perceived exclusivity, I found it encouraging that [Chris][3], [Josh][4] and [Alex][5] were able to arrange such a meet-up in just 6 days. Blogging about our thoughts and experiences is better than pithy tweets, but sharing them in person? That's better still.

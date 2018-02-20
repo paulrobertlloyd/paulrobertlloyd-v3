@@ -3,9 +3,7 @@ title: A New Library for Birmingham
 date: '2010-06-29 22:21:41 +0100'
 location: Littlehampton, England
 excerpt: Architecture has never been kind to Birmingham, but then Birmingham has never been kind to its architecture.
-image:
-  src: 2010/06/a_new_library_for_birmingham.jpg
-  caption: Artists impression of the new Library of Birmingham
+image: 2010/06/a_new_library_for_birmingham.jpg
 tags:
   - Architecture
   - Birmingham
@@ -13,6 +11,12 @@ tags:
   - Library of Birmingham
 discussion: closed
 ---
+{% include figure.html
+  caption="Artists impression of the new Library of Birmingham"
+  src="2010/06/a_new_library_for_birmingham.jpg"
+  class="u-bleed"
+%}
+
 Having looked fondly on previous visits to Birmingham Central Library, it was with much excitement that I returned again on Saturday, hoping to find some reference material for a forthcoming post.
 
 As I walked from the NIA (past the 'Olympian Entrance', a remnant of the city's failed bid for 1992 Olympic Games), along the canal and over the bridge to the ICC, I was struck by the unimaginative architecture of [Brindley Place][1], much it a product of the previous decade. Indeed, I've often questioned why Britain's second city lacks any identifiable skyline to speak off -- the [British Telecom Tower][2] and [Rotunda][3] the only distinguishable buildings amongst a slew of high-rise offices and residential tower blocks awaiting eventual demolition.

@@ -3,14 +3,18 @@ title: 'William Kentridge - If We Ever Get to Heaven'
 date: '2015-06-21 13:54:51 +0100'
 location: Brighton, England
 excerpt: 'The work of celebrated illustrator and artist William Kentridge is showcased at the EYE Film Institute in Amsterdam.'
-image:
-  src: 2015/06/william_kentridge.jpg
-  caption: 'Still image from <cite>Other Faces</cite>'
+image: 2015/06/william_kentridge.jpg
 tags:
   - Art
   - Exhibitions
 ---
 Amsterdam is a strikingly beautiful city, every street a picture postcard. This beauty is somewhat undermined by the city's famed seedy underbelly, which could be ignored were it not for the type of tourist it attracts.
+
+{% include figure.html
+  caption="Still image from <cite>Other Faces</cite>"
+  src="2015/06/william_kentridge.jpg"
+  class="u-bleed"
+%}
 
 With that in mind, I took the short ferry trip over to the quieter bank of the IJ, and visited the [EYE Film Institute][1]. While initially attracted by the building's distinctive shape and sharp lines, it was a showcase of work by illustrator and animator [William Kentridge][2] that had me transfixed.
 

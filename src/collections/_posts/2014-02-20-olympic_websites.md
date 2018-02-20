@@ -3,9 +3,7 @@ title: Landmark Olympic Websites, Where Art Thou?
 date: '2014-02-20 00:13:28 +0000'
 location: Brighton, England
 excerpt: Whereas the world's foremost architects, graphic artists, typographers, iconographers and illustrators are asked to create their best work to celebrate each Olympic Games, still we wait for the Olympic movement to give equal consideration to the design of its websites.
-image:
-  src: 2014/02/olympic_websites_anastasiya_kuzmina.jpg
-  caption: Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women's 7.5 km Sprint
+image: 2014/02/olympic_websites_anastasiya_kuzmina.jpg
 tags:
   - Brand identity
   - Design
@@ -13,6 +11,12 @@ tags:
   - Sochi 2014
   - Web
 ---
+{% include figure.html
+  caption="Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women's 7.5 km Sprint"
+  src="2014/02/olympic_websites_anastasiya_kuzmina.jpg"
+  class="u-bleed"
+%}
+
 > When it comes to web design it's rare that all elements--functionality, clarity of information, and subjective beauty--come together to create a result that is widely admired, recognized or lauded in the same vein as anything resembling the likes of Saul Bass' AT&T logo, or Susan Kare's icons for the original Mac OS.
 
 [Writing in 2007][1], Armin Vit wondered which web sites could be considered landmarks of our profession. In drawing comparisons with celebrated graphic art, he cited the work of Milton Glaser, Paul Rand and Massimo Vignelli. Had further examples been given, I'm sure [Otl Aicher's iconic identity][2] for the Olympic Games of Munich 1972 would have been included too.

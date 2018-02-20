@@ -6,11 +6,11 @@
   {% endif %}
 
   <div class="c-item__main s-prose">
-    {% if item.image.src %}
+    {% if item.image %}
     <p class="c-item__media">
       <a href="{{ item.url }}">
         {% include image.html
-          src=item.image.src
+          src=item.image
           class="u-photo"
         %}
       </a>

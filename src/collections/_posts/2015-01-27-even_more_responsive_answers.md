@@ -3,14 +3,18 @@ title: (Even More) Responsive Answers
 date: '2015-01-27 19:04:00 +0000'
 location: Brighton, England
 excerpt: Each month net Magazine run a section called Exchange, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was asked to be the responsive expert in their March issue, which is on sale now.
-image:
-  src: 2015/01/guardian_navigation.png?format=jpg
-  caption: The Guardian's navigation on smaller displays prioritises page signposting, but all site sections can still be accessed with one tap.
+image: 2015/01/guardian_navigation.png
 tags:
   - Responsive design
   - Web
   - net Magazine
 ---
+{% include figure.html
+  caption="The Guardian's navigation on smaller displays prioritises page signposting, but all site sections can still be accessed with one tap."
+  src="2015/01/guardian_navigation.png"
+  class="u-bleed"
+%}
+
 Each month [net Magazine][1] run a section called *Exchange*, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was asked to be the responsive expert in their March issue, which is on sale now.
 
 In the spirit of [previous][2] [articles][3], I'm sharing my unedited answers here as well.

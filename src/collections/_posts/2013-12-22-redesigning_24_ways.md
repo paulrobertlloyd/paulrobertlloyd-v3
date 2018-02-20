@@ -3,15 +3,19 @@ title: Redesigning 24 ways
 date: '2013-12-22 22:53:51 +0000'
 location: Brighton, England
 excerpt: The tail end of this year has been rather hectic. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning 24 ways.
-image:
-  src: 2013/12/24_ways_website.png
-  caption: 24 ways viewed on an iPad mini
+image: 2013/12/24_ways_website.png
 tags:
   - Design
   - Projects
   - Web
   - 24 ways
 ---
+{% include figure.html
+  caption="24 ways viewed on an iPad mini"
+  src="2013/12/24_ways_website.png"
+  class="u-bleed"
+%}
+
 The tail end of this year has been [rather hectic][1]. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning *[24 ways][2]*.
 
 For the uninitiated, *24 ways* is an annual advent calendar for web designers and developers. Published by Drew McLellan since 2005, the site boasts hundreds of articles that impart wisdom and teach new skills.

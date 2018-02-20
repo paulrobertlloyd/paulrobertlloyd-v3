@@ -3,14 +3,18 @@ title: Back in the District
 series: north_america_2011
 date: '2011-12-19 22:00:28 +0000'
 excerpt: My North American adventure started in Washington DC; ostensibly so I could attend an edition of this year's An Event Apart conference. Yet it was also a good excuse to catch up with Shannon, who graciously planned a tour of the city for me and Andy.
-image:
-  src: 2011/12/washington_dc.jpg
-  caption: Shannon looking towards the Lincoln Memorial
+image: 2011/12/washington_dc.jpg
 tags:
   - Travel
   - Washington, DC
   - United States
 ---
+{% include figure.html
+  caption="Shannon looking towards the Lincoln Memorial"
+  src="2011/12/washington_dc.jpg"
+  class="u-bleed"
+%}
+
 [Yesterday I wrote][1] about how I found myself on a second extended tour of North America. This was a journey that started in Washington DC; ostensibly so I could attend an edition of this year's An Event Apart conference. Yet it was also a good excuse to catch up with [Shannon][2], who graciously planned a tour of the city for me and [Andy][3].
 
 ## Segs in the City
