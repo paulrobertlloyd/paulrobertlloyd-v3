@@ -51,8 +51,7 @@
     color: $--color-primary;
   }
 
-  .c-item--entry &,
-  .c-item--gallery & {
+  .c-item--entry & {
     @include typeset("heading-2");
   }
 }
@@ -79,44 +78,6 @@
   height: auto;
   width: percentage(1/8);
   background-color: $--color-neutral-mid;
-}
-
-// Gallery
-.c-item--gallery {
-  position: relative;
-  padding-left: ($--size-medium + $--gutter);
-  min-height: ($--size-medium + $--gutter);
-
-  .c-item__cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    &::before,
-    &::after {
-      position: absolute;
-      background: $--color-neutral-mid;
-      height: 1px;
-      content: "";
-    }
-
-    &::before {
-      top: -4px;
-      right: 8px;
-      left: 8px;
-    }
-
-    &::after {
-      top: -2px;
-      right: 4px;
-      left: 4px;
-    }
-  }
-
-  .c-item__cover-photo {
-    width: $--size-medium;
-    height: $--size-medium;
-  }
 }
 
 // Comment

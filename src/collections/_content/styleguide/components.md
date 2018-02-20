@@ -7,15 +7,6 @@ meta:
   year: Ongoing
   role: Design and front-end development
   website: '[bradshawsguide.org](http://bradshawsguide.org)'
-photos:
-  - id: 1
-    title: Quadriga atop the Brandenburg Gate
-    date_created: '2015-02-23 18:09:21'
-    model: Canon EOS 450D
-    f_number: 5.0
-    exposure_time: 1/50
-    iso: 800
-    focal_length: 41.0 mm
 ---
 ## Buttons
 
@@ -64,14 +55,6 @@ The `.c-embed--map`{: .language-css} modifier is used when embedding photographi
 The `.c-embed--slidedeck`{: .language-css} modifier is used when embedding presentations, typically sourced from SpeakerDeck.
 
 {% include embed.html src="https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone-speak-the-web" id="314b1150d165013048455eac219e74d9" title="Example presentation" %}
-
-## EXIF data
-
-The `.c-exif`{: .language-css} component class is used to display the EXIF data found within an image file.
-
-{% for photo in page.photos %}
-{% include exif.html %}
-{% endfor %}
 
 ## Screenshots
 

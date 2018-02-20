@@ -44,8 +44,6 @@ collections:
     output: true
   notes:
     output: true
-  photos:
-    output: true
   posts:
     output: true
   projects:
@@ -96,14 +94,6 @@ defaults:
       feed: true
       archive: true
       title: ''
-
-  - scope:
-      type: photos
-    values:
-      permalink: /photos/:year/:month/:title
-      layout: gallery
-      feed: true
-      archive: true
 
   - scope:
       type: posts

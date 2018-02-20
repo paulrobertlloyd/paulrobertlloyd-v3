@@ -10,8 +10,6 @@ layout: default
   {% assign item_month = item.date | date: "%B %Y" %}
   {% if page_month == item_month %}
     {% case item.layout %}
-    {% when "gallery" %}
-      {% include item/gallery.html showtype=true %}
     {% when "link" %}
       {% include item/link.html showtype=true %}
     {% when "note" %}
