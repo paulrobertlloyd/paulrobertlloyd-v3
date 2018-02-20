@@ -59,7 +59,6 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    jekyll_version_plugin (2.0.0)
     kramdown (1.16.2)
     liquid (4.0.0)
     liquid-tag-parser (1.8.0)
@@ -107,7 +106,6 @@ DEPENDENCIES
   jekyll-assets
   jekyll-paginate-v2
   jekyll-sitemap
-  jekyll_version_plugin
   sprockets (~> 4.0.beta)
   uglifier
 

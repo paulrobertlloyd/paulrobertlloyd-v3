@@ -8,14 +8,15 @@
 (function () {
   'use strict';
 
+  var version = 'v{{ site.time | date: "%F" }}';
+  var cacheName = version + '::paulrobertlloyd:';
+
   // A cache for core files like CSS and JavaScript
-  var staticCacheName = 'static';
+  var staticCacheName = cacheName + 'static';
   // A cache for pages to store for offline
-  var pagesCacheName = 'pages';
+  var pagesCacheName = cacheName + 'pages';
   // A cache for images to store for offline
-  var imagesCacheName = 'images';
-  // Update 'version' if you need to refresh the caches
-  var version = 'commit-{% project_version commit %}::';
+  var imagesCacheName = cacheName + 'images';
 
   function updateStaticCache() {
     return caches.open(version + staticCacheName)
