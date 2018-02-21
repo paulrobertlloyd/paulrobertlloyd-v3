@@ -16,9 +16,8 @@
     <p class="c-form__field">
       <span class="c-form__label-inline">
         <label class="c-form__label" for="message">Message</label>
-        <textarea class="c-form__input c-form__input--textarea" name="message" id="message" required row="20" cols="40"{% if include.note %} aria-describedby="message-note"{% endif %}></textarea>
+        <textarea class="c-form__input c-form__input--textarea" name="message" required row="20" cols="40"></textarea>
       </span>
-      {% if include.note %}<em class="c-form__note" id="message-note">{{ include.note }}</em>{% endif %}
     </p>
     <input class="c-form__hidden" type="hidden" name="_next" value="/contact/thanks"/>
     <input class="c-form__hidden" type="hidden" name="_subject" value="[{{ site.title }}] New message"/>
