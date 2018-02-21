@@ -6,13 +6,6 @@ layout: default
 
   <div class="c-section">
     <div class="s-prose s-prose--body  e-content">
-      {% if page.embed %}
-        {% include figure-embed.html
-          src=page.embed
-          title=page.title
-        %}
-      {% endif %}
-
       {{ content | smartify }}
     </div>
   </div>

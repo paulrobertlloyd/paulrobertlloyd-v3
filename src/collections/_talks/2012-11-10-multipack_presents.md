@@ -4,9 +4,13 @@ date: '2012-11-10 16:10:00 +0000'
 location: 'Birmingham, England'
 event: 'Multipack Presents: Show and Tell'
 excerpt: Slides from my presentation at Multipack Presents
-embed: https://speakerdeck.com/player/ca64bd300e8b0130de471231380938d0
 ---
 With the help of Doctor Who and the Avengers, discover how you can embrace the unpredictable nature of the web.
+
+{% include figure-embed.html
+  src="https://speakerdeck.com/player/ca64bd300e8b0130de471231380938d0"
+  title="Designing for Everyone"
+%}
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/designing-for-everyone)
 

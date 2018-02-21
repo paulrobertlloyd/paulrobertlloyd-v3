@@ -4,8 +4,12 @@ date: '2011-08-13 20:00:00 +0100'
 location: Leamington Spa, England
 event: Geek in the Park 2011
 excerpt: Transcript of my presentation at Geek in the Park
-embed: https://speakerdeck.com/player/4e47f175a6aa8f00010073ae
 ---
+{% include figure-embed.html
+  src="https://speakerdeck.com/player/4e47f175a6aa8f00010073ae"
+  title="The Web Native Designer"
+%}
+
 ## Web versus native
 
 Web versus native has become a common argument in development circles. Here, the word native is used to describe experiences built for mobile devices, designed to take advantage of the platforms they sit on. Yet the omission of native from the other side of this argument is puzzling -- surely applications and content on the web should feel part of that platform too?

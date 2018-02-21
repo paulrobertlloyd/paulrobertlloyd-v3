@@ -4,9 +4,13 @@ date: '2013-01-16 20:30:00 +0100'
 location: London, England
 event: Talk Web Design
 excerpt: Slides from my presentation at Talk Web Design
-embed: https://speakerdeck.com/player/fe23618042d60130e90f1231392d6bc6
 ---
 With the help of Doctor Who and the Avengers, discover how to embrace the unpredictable nature of the web.
+
+{% include figure-embed.html
+  src="https://speakerdeck.com/player/fe23618042d60130e90f1231392d6bc6"
+  title="This is for Everyone"
+%}
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/this-is-for-everyone)
 

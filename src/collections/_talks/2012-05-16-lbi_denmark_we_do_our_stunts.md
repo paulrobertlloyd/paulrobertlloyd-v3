@@ -4,9 +4,13 @@ date: '2012-05-16 14:00:00 +0100'
 location: Copenhagen, Denmark
 event: 'LBi Denmark: We Do Our Own Stunts'
 excerpt: Slides from my presentation at LBi Denmark
-embed: https://speakerdeck.com/player/4fb62c2198523b031e01231d
 ---
 Having embraced the true nature of the medium, now we need to reframe how we design products for the web.
+
+{% include figure-embed.html
+  src="https://speakerdeck.com/player/4fb62c2198523b031e01231d"
+  title="Web Native Design"
+%}
 
   * [Slides](https://speakerdeck.com/paulrobertlloyd/web-native-design)
 
