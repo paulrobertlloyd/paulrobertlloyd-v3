@@ -14,6 +14,15 @@ meta:
     * Average rating of four stars in the App Store
   app: '[Download on the App Store](https://itunes.apple.com/gb/app/id468108781)'
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 [The Week][1] condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UKs most popular weekly subscription magazine.
 
 Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. [Working with Harry Brignull at Clearleft][2], we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.

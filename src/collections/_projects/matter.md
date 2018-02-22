@@ -12,6 +12,15 @@ meta:
   role: UX, branding and graphic design
   note: 'Company acquired by Medium in April 2013'
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 The brainchild of journalists Bobbie Johnson and Jim Giles, Matter is home to in-depth journalism about the ideas shaping our future. Stories cover everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them.
 
 After an enormously successful [Kickstarter campaign][1] proved there was a real desire for high-quality, focused, long-form writing, Bobbie and Jim [asked Clearleft][2] to envisage the user experience and visual design. I worked [alongside Jeremy Keith][3] who did the front-end development, and [Phil Gyford][4] who handled the Django-based back-end.

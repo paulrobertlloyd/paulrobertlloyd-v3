@@ -9,6 +9,15 @@ meta:
   year: 2005–2007
   role: Lead design, branding and front-end development
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 Ning is an online platform that allows people to create, customise and share their own social networks. I was its lead designer from January 2006 to October 2007.
 
 In addition to interaction design and front-end development on the company's initial suite of applications, I was also responsible for the company's branding and product marketing. Later, I worked alongside [David Warner][1] on the development of what became the company's primary product: "Your Own Social Network".

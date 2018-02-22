@@ -9,6 +9,15 @@ meta:
   year: 2009
   role: Design
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 The University of Wales is a confederal university responsible for accrediting degrees for institutions in Wales and for courses provided overseas.
 
 Working with [James Box][1] at Clearleft, I created an extensible design language that could be applied across the website, microsites and the myWales social e-learning network.

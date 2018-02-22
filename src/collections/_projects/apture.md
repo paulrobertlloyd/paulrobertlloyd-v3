@@ -10,6 +10,15 @@ meta:
   role: UX, design and front-end development
   notes: Company acquired by Google in November 2011
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 Apture was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their webpages.
 
 Working alongside Apture's CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product.

@@ -9,6 +9,15 @@ meta:
   year: 2010-12
   role: Design
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 Nuts.com is a family business founded over eighty years ago in Cranford, New Jersey. Employing sixty staff and turning over more than $20 million per year, the company is "more than just nuts"; it sells thousands of products including dried fruit, sweets, spices, coffees, teas and much more. Their success is built on a passion for quality food, a deep connection with their heritage and good old-fashioned customer service.
 
 Although successful, their site had grown organically over time, and had lost any design consistency and become difficult to navigate. Over a two-year period, I and other colleagues at [Clearleft assisted CEO Jeff Braverman][1] and lead programmer Ben Shakal in improving their site, ensuring the unique, customer-centred personality of the company wasn't lost in the desire to simplify and streamline.

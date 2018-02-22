@@ -18,6 +18,15 @@ meta:
   role: Design
   website: '[2010](http://2010.dconstruct.org/), [2011](http://2011.dconstruct.org/), [2013](http://2013.dconstruct.org/)'
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 On the first Friday of September, Brighton plays host to an annual one-day conference called dConstruct. Each year explores a different theme, with topics covering design, culture, technology and everything in-between.
 
 To reflect the changing theme, the site is redesigned each year. I was responsible for the design over three years: 2010, 2011 and 2013.

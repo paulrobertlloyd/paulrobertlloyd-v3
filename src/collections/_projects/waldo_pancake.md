@@ -10,7 +10,16 @@ meta:
   role: Front-end development
   website: '[waldopancake.com](http://waldopancake.com/)'
 ---
-Jim Smith (aka <cite>[Waldo Pancake][1]</cite>) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every Puccino's coffee shop.
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
+Jim Smith (aka *[Waldo Pancake][1]*) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every Puccino's coffee shop.
 
 With an existing site that was Flash-based, his work could no longer be viewed on mobile devices. Jim asked me to redevelop his website, retaining the slideshows of work (updated by uploading images via an FTP client), yet implemented using standards-based web technologies.
 

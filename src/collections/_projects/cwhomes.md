@@ -10,6 +10,15 @@ meta:
   role: Lead design, branding and front-end development
   website: '[cwhomes.co.uk](http://cwhomes.co.uk)'
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 [cwhomes.co.uk][1] is a property portal that brings together the combined resources of over sixty independent estate agency offices within Coventry and Warwickshire.
 
 Originally launched in 2001, by 2005 the site was facing competition from larger nationwide property portals such as Rightmove and Prime Location. In addition, the site had become slow to load and its appearance outdated.

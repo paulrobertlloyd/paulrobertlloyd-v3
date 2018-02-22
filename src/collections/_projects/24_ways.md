@@ -13,6 +13,15 @@ meta:
   notes: 'Awarded best collaborative project at the net Awards 2014'
   website: '[24ways.org](https://24ways.org)'
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 Each December, Drew McLellan and his small team publish [24 ways][1], a daily dose of design and development goodness that delivers a little Christmas cheer to the web community.
 
 The previous website was designed by Tim Van Damme in 2007. His innovative design pushed the limits of the medium, but six years later, and with an accumulated archive of hundreds of articles, it was fraying at the edges.

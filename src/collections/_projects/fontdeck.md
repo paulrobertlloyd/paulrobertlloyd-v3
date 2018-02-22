@@ -12,6 +12,15 @@ meta:
   role: Lead design
   website: '[fontdeck.com](http://fontdeck.com/)'
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 [Fontdeck][1] is a professional web font service that lets designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
 
 A unique concept when founders Richard Rutter and Jon Tan conceived the idea in 2009, by the time the service launched in beta a year later, a number of competing services had entered the market. The site needed to rapidly evolve, and better explain how this service differed from others.

@@ -9,6 +9,7 @@
 }
 
 .c-meta__title {
+  font-weight: 700;
   color: $--color-neutral-mid;
 
   @media (max-width: ($--breakpoint-bx)) {

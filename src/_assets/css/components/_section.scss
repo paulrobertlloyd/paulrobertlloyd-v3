@@ -12,21 +12,15 @@
 }
 
 .c-section__header {
-  @include rule($position: "after");
   display: flex;
   align-items: center;
   margin-bottom: $--space-medium;
 }
 
 .c-section__title {
-  @include typeset("label");
+  @include typeset("caption", $font-weight: 700);
   flex: 0 0 auto;
-  padding-right: $--space-xsmall;
-  word-break: break-word;
-  hyphens: auto;
-  text-transform: uppercase;
-  letter-spacing: 0.075rem;
-  color: $--color-neutral-mid;
+  color: $--color-neutral-dark;
 
   a {
     text-decoration: none;

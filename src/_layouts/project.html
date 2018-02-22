@@ -6,14 +6,6 @@ layout: default
 
   <div class="c-section">
     <div class="s-prose s-prose--body  e-content">
-      {% if page.screenshots %}
-      <div class="u-extend">
-        {% include screenshots.html imageset=page.screenshots %}
-      </div>
-      {% endif %}
-
-      {% include meta.html class="u-aside" %}
-
       {{ content | smartify }}
     </div>
   </div>

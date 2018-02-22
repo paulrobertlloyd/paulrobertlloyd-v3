@@ -10,6 +10,15 @@ meta:
   year: 2010
   role: Design
 ---
+{% include screenshots.html
+  imageset=page.screenshots
+  class="u-bleed"
+%}
+
+{% include meta.html
+  class="u-aside"
+%}
+
 Broadcast weeknights at 7pm, Channel 4 News is noted for its award-winning coverage of international news and extensive current affairs reporting.
 
 After redesigning their website, Channel 4 wished to reimagine the Channel 4 News service for tablet and smartphone users. While it would have been easy to repurpose the website, research showed that tablet users demonstrated a more leisurely approach that pointed towards a visually rich, linear solution.

@@ -82,6 +82,7 @@
       18px,
       20px
     );
+    font-weight: if($font-weight, $font-weight, normal);
     hanging-punctuation: first;
     letter-spacing: -0.025em;
     line-height: if($line-height, $line-height, $--line-height-tight);
@@ -123,6 +124,7 @@
       14px,
       16px
     );
+    font-weight: if($font-weight, $font-weight, normal);
     hanging-punctuation: first;
     letter-spacing: -0.025em;
     line-height: if($line-height, $line-height, $--line-height-default);
@@ -130,6 +132,7 @@
 
   @if $preset == "label" {
     font-size: 0.875rem; // 14px
+    font-weight: if($font-weight, $font-weight, normal);
     line-height: if($line-height, $line-height, $--line-height-baseline);
   }
 }
