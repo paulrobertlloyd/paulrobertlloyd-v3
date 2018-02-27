@@ -14,7 +14,7 @@ Speed has never been one of my strengths, either. At school sports days, I often
 
 These aspects of my personality I'm familiar with, but recently I have come to acknowledge a third[^1]. Although design gets conflated with the production of something new, its actually the act of [improving what already exists][3] -- organising a room, editing a text, refining an interface, refactoring a codebase -- that I enjoy the most.
 
-While others were wooed by the idea of designing for billions, the idea made me feel queasy. So did the thought of working for a large organisation, [although I gave it a try][4]. While others moved fast, eager to ship whatever they had built, I remained cautious, avoiding the frameworks and fads, instead doubling down on the foundational aspects of my craft. Today, as we come to terms with [the wreckage wrought by all this hastiness][5], I find myself eager to fix things; slowly, one small piece at a time. I hope you will join me.
+While others were wooed by the potential of designing for billions, this idea made me feel queasy. So did the thought of working for a large organisation, [although I gave it a go][4]. While others moved fast, eager to ship whatever they had built, I remained cautious, avoiding the frameworks and fads, instead doubling down on the foundational aspects of my craft. Today, as we come to terms with [the wreckage wrought by all this hastiness][5], I find myself eager to fix things; slowly, one small piece at a time. I hope you will join me.
 
 [^1]: While I take a degree of pride in these aspects, it's probaly worth acknowledging these as biases before I approach any new work.
 
