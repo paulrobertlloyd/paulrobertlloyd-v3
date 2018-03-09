@@ -114,7 +114,6 @@
     hanging-punctuation: first;
     letter-spacing: -0.015em;
     line-height: if($line-height, $line-height, $--line-height-relaxed);
-    hyphens: auto;
   }
 
   @if $preset == "caption" {
