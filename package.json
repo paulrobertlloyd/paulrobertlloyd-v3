@@ -39,8 +39,8 @@
     ]
   },
   "devDependencies": {
-    "stylelint": "^8.4.0",
-    "stylelint-config-standard": "^18.0.0",
-    "xo": "^0.18.0"
+    "stylelint": "^9.0.0",
+    "stylelint-config-standard": "^18.2.0",
+    "xo": "^0.20.0"
   }
 }

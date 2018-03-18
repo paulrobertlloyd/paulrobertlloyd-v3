@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (8.1.0)
+    autoprefixer-rails (8.1.0.1)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
@@ -38,7 +38,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-assets (3.0.7)
+    jekyll-assets (3.0.8)
       activesupport (~> 5.0)
       execjs (~> 2.7)
       extras (~> 0.2)
@@ -88,13 +88,13 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    sprockets (4.0.0.beta6)
+    sprockets (4.0.0.beta7)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.6)
+    uglifier (4.1.8)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
