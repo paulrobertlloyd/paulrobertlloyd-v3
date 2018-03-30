@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Jekyll static file generation
 gem 'jekyll'
 group :jekyll_plugins do
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', '3.0.7' # Later versions cause issues with Uglifier/ES6
   gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
 end
