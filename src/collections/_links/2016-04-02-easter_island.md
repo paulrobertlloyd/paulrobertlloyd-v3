@@ -3,7 +3,7 @@ title: 'What Happened On Easter Island — A New (Even Scarier) Scenario'
 date: '2016-04-02 15:35:00 +0100'
 link: http://www.npr.org/sections/krulwich/2013/12/09/249728994/what-happened-on-easter-island-a-new-even-scarier-scenario
 tags:
-  - Environment
+- Environment
 ---
 Easter Island lives as an example of a society that destroyed itself by overexploiting its own resources. However, some anthropologists are now suggesting that the island's ecological destruction might not be the fault of humans alone, but their [imported population of Polynesian rats][1]:
 

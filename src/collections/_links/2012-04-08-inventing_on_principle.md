@@ -4,7 +4,7 @@ date: '2012-04-08 00:41:13 +0100'
 link: https://vimeo.com/36579366
 embed: true
 tags:
-  - Design
+- Design
 ---
 [Bret Victor][1] talks about why he is motivated to create creative tools, during his presentation at [CUSEC 2012][2]:
 

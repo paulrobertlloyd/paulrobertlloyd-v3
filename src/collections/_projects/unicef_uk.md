@@ -4,9 +4,9 @@ date: '2013-07-01'
 excerpt: Mobile-first redesign for leading children's charity
 featured: true
 screenshots:
-  - projects/unicef_uk/phone.png
-  - projects/unicef_uk/phablet.png
-  - projects/unicef_uk/tablet-portrait.png
+- projects/unicef_uk/phone.png
+- projects/unicef_uk/phablet.png
+- projects/unicef_uk/tablet-portrait.png
 meta:
   year: 2013
   agency: Clearleft

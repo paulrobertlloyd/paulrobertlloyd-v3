@@ -3,12 +3,13 @@ title: A Small Taste of the South Island
 series: australasia_2009
 date: '2010-01-26 00:07:49 +0000'
 excerpt: Having arranged my flights into and out of New Zealand before deciding upon an itinerary, meant I had little time to really explore the South Island.
-image: 2010/01/south_island_overlander.jpg
+images:
+- 2010/01/south_island_overlander.jpg
 tags:
-  - Travel
-  - New Zealand
-  - Picton
-  - Wellington
+- Travel
+- New Zealand
+- Picton
+- Wellington
 ---
 {% include figure.html
   caption="The Overlander during its lunchtime stop at National Park railway station"

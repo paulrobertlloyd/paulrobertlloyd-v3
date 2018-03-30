@@ -4,8 +4,8 @@ date: '2012-11-01 01:15:00 +0000'
 location: Brighton, England
 excerpt: Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you're playing with the last hundred or so kilobytes, there's little reward for your effort.
 tags:
-  - Web
-  - Web performance
+- Web
+- Web performance
 discussion: closed
 ---
 When I [unveiled][1] a new version of this site last year, I hoped the design would slowly evolve.

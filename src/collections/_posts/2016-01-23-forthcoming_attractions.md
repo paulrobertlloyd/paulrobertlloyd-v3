@@ -4,8 +4,8 @@ date: '2016-01-23 23:20:00 +0000'
 location: York, England
 excerpt: With a New Year resolution to get out more, I share a few events I've recently bought tickets for. Who knows, you might be interested in them too.
 tags:
-  - Conferences
-  - Events
+- Conferences
+- Events
 ---
 It's probably too late to be making New Year resolutions, but it's worth noting two that have emerged over the last few weeks -- and have so far stuck!
 

@@ -4,9 +4,9 @@ date: '2010-10-23 14:53:30 +0100'
 location: Walsall, England
 excerpt: A few months ago I wrote about not upgrading to the iPhone 4, regardless of the fact I'm eligible for a free upgrade. This turned out to be something of a radical position but I enjoyed the debate that followed.
 tags:
-  - Environment
-  - Sustainability
-  - Technology
+- Environment
+- Sustainability
+- Technology
 discussion: closed
 ---
 A few months ago [I wrote about not upgrading to the iPhone 4][1], regardless of its new features or the fact I'm eligible for a free upgrade.

@@ -3,13 +3,14 @@ title: On The Road Again
 date: '2012-03-09 23:53:40 +0000'
 location: Austin, USA
 excerpt: Once again, I'm in Austin for SXSW Interactive; the forth time I've attended an event I find easy to disparage. Yet this is the first stop on a trip that will take in several hundred miles of Interstate highway between here and San Francisco; two points of familiarity on an itinerary that promises to be anything but predictable.
-image: 2012/03/on_the_road_again.jpg
+images:
+- 2012/03/on_the_road_again.jpg
 tags:
-  - Travel
-  - United States
-  - Austin
-  - San Francisco
-  - SXSW
+- Travel
+- United States
+- Austin
+- San Francisco
+- SXSW
 ---
 {% include figure.html
   caption="Road block in Austin"

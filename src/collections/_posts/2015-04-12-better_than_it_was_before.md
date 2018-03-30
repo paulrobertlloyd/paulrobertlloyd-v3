@@ -4,8 +4,8 @@ date: '2015-04-12 16:39:19 +0100'
 location: Brighton, England
 excerpt: 'Finding parallels between redecorating my house and redesigning a website.'
 tags:
-  - The Pastry Box Project
-  - Writing
+- The Pastry Box Project
+- Writing
 ---
 I moved in to my house at the end of 2013 and, for much of last year, lived in it as the previous owner had left it.
 

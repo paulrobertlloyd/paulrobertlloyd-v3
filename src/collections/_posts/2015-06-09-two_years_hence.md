@@ -4,10 +4,10 @@ date: '2015-06-09 22:35:51 +0100'
 location: Brighton, England
 excerpt: 'For the last few years I''ve employed a little life hack: signing up my future self to things I would ordinarily avoid.'
 tags:
-  - The Pastry Box Project
-  - Writing
-  - London 2012
-  - Glasgow 2014
+- The Pastry Box Project
+- Writing
+- London 2012
+- Glasgow 2014
 ---
 With a natural limit for how long I can spend around a group of people, I tend to operate a policy of minimal viable social interaction. This probably makes me an introvert, but I think of it more as my resting state. In the right circumstances, I can actually be quite outgoing, especially when in familiar environments among people I know. Put me on a stage, and I can really thrive.
 

@@ -3,8 +3,8 @@ title: Facebook is a Ponzi Scheme
 date: '2011-01-18 10:20:00 +0000'
 link: http://jperla.com/blog/post/facebook-is-a-ponzi-scheme
 tags:
-  - Facebook
-  - Social media
+- Facebook
+- Social media
 ---
 Joseph Perla explains how Facebook's business model is built on sand:
 

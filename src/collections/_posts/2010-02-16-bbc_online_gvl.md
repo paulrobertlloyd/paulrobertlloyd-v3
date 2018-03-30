@@ -4,10 +4,10 @@ date: '2010-02-16 23:34:04 +0000'
 location: Littlehampton, England
 excerpt: I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
 tags:
-  - Design
-  - Web
-  - BBC
-  - User experience
+- Design
+- Web
+- BBC
+- User experience
 discussion: closed
 ---
 I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of its online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.

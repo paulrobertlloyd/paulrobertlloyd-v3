@@ -4,9 +4,9 @@ date: '2015-11-21 16:57:00 +0000'
 location: Brighton, England
 excerpt: 'The hackability provided by Jekyll''s plugin architecture has brought about an unexpected consequence: I''m starting to learn Ruby.'
 tags:
-  - Jekyll
-  - Ruby
-  - Programming
+- Jekyll
+- Ruby
+- Programming
 ---
 Writing about [the redesign of this site][1] in July, I mentioned why I decided to build it using [Jekyll][2]:
 

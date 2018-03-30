@@ -3,8 +3,8 @@ title: Simply Walsall
 date: '2009-02-10 10:27:30 +0000'
 excerpt: In the last few years, two public organisations in Walsall have undergone renewals, and both have choosen to reflect this change with simpler identities.
 tags:
-  - Brand identity
-  - Walsall
+- Brand identity
+- Walsall
 discussion: closed
 ---
 In the last few years, two public organisations in Walsall have undergone renewals, and both have choosen to reflect this change with simpler identities.

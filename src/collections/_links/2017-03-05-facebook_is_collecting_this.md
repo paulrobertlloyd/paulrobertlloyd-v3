@@ -3,9 +3,9 @@ title: What should you think about when using Facebook?
 date: '2017-03-05 21:45:00 +0000'
 link: http://veekaybee.github.io/facebook-is-collecting-this/
 tags:
-  - Facebook
-  - Privacy
-  - Ethics
+- Facebook
+- Privacy
+- Ethics
 ---
 Vicki Boykis:
 

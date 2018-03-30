@@ -4,8 +4,8 @@ date: '2009-03-08 11:20:04 +0000'
 location: Littlehampton, England
 excerpt: This Friday is Red Nose Day, the main fundraising event in support of Comic Relief, a charity that supports projects in the UK and Africa.
 tags:
-  - Comedy
-  - Charity
+- Comedy
+- Charity
 ---
 {% include image.html preset="thumbnail" src="2009/03/red_nose_day.png" class="u-align-right" alt="Do Something Funny for Money for Red Nose Day '09" %}][1] This Friday is Red Nose Day, the main fundraising event in support of Comic Relief, a charity that supports projects in the UK and Africa. As well as supporting a worthy cause, on another level, I think the event also promotes our nations better nature: the inventiveness of our fund-raising activities, our love of comedy and our willingness to support good causes.
 

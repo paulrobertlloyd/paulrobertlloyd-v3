@@ -3,9 +3,9 @@ title: Silicon Valley Is Turning Into Its Own Worst Fear
 date: '2018-01-19 18:58:00 +0000'
 link: https://www.buzzfeed.com/tedchiang/the-real-danger-to-civilization-isnt-ai-its-runaway
 tags:
-  - Silicon Valley
-  - Artificial Intelligence
-  - Ethics
+- Silicon Valley
+- Artificial Intelligence
+- Ethics
 ---
 Ted Chiang:
 

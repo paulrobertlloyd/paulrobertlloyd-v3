@@ -3,10 +3,11 @@ title: 'William Kentridge - If We Ever Get to Heaven'
 date: '2015-06-21 13:54:51 +0100'
 location: Brighton, England
 excerpt: 'The work of celebrated illustrator and artist William Kentridge is showcased at the EYE Film Institute in Amsterdam.'
-image: 2015/06/william_kentridge.jpg
+images:
+- 2015/06/william_kentridge.jpg
 tags:
-  - Art
-  - Exhibitions
+- Art
+- Exhibitions
 ---
 Amsterdam is a strikingly beautiful city, every street a picture postcard. This beauty is somewhat undermined by the city's famed seedy underbelly, which could be ignored were it not for the type of tourist it attracts.
 

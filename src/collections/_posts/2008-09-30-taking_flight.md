@@ -4,7 +4,7 @@ date: '2008-09-30 09:34:24 +0100'
 location: Solihull, England
 excerpt: It's probably no coincidence that my return to blogging comes while sitting in the departure lounge of Birmingham International Airport.
 tags:
-  - Site
+- Site
 discussion: closed
 ---
 My previous site had a very personal bias, yet in retrospect the most interesting posts were those not about my own life, but commentary and thoughts on topics that interested me in the news and the world around me. As I move to this new (and more grown-up sounding) domain, so I would like to spend more time writing about these subjects.

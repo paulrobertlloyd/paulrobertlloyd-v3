@@ -4,9 +4,9 @@ date: '2018-02-27 00:34:00 +0000'
 location: Brighton, England
 excerpt: 'Three aspects of my personality have proven pertinent.'
 tags:
-  - Design
-  - Web
-  - Personal
+- Design
+- Web
+- Personal
 ---
 Smallness has always been part of my nature, be it [needing to take growth hormone][1] when I was younger, or even the fact that [my name][2] comes from the Roman family name _Paulus_ meaning "small" or "humble" in Latin. I never felt my short stature was an issue, in fact, it became an integral part of my identity growing up. Perhaps this is why I'm rarely impressed by scale, and have a distaste for monopolies and large corporations.
 

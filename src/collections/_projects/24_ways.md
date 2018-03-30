@@ -4,9 +4,9 @@ date: '2013-12-01'
 excerpt: Award-winning redesign for popular web geek advent calendar
 featured: true
 screenshots:
-  - projects/24_ways/desktop-a.png
-  - projects/24_ways/desktop-b.png
-  - projects/24_ways/phone.png
+- projects/24_ways/desktop-a.png
+- projects/24_ways/desktop-b.png
+- projects/24_ways/phone.png
 meta:
   year: 2013
   role: Design and front-end development

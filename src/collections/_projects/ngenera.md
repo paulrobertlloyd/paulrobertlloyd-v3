@@ -4,8 +4,8 @@ date: '2008-04-25'
 excerpt: Brand identity for on demand enterprise technology platform
 featured: true
 screenshots:
-  - projects/ngenera/desktop-a.png
-  - projects/ngenera/desktop-b.png
+- projects/ngenera/desktop-a.png
+- projects/ngenera/desktop-b.png
 meta:
   year: 2008
   role: UX, branding, design and front-end development

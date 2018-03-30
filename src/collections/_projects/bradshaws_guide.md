@@ -4,9 +4,9 @@ date: '2018-01-02'
 excerpt: Digital revival of a much loved Victorian railway guide
 featured: true
 screenshots:
-  - projects/bradshaws_guide/desktop-a.png
-  - projects/bradshaws_guide/tablet-portrait.png
-  - projects/bradshaws_guide/phone.png
+- projects/bradshaws_guide/desktop-a.png
+- projects/bradshaws_guide/tablet-portrait.png
+- projects/bradshaws_guide/phone.png
 meta:
   year: Ongoing
   role: Design and front-end development

@@ -3,9 +3,9 @@ title: Convenience isn't digital
 date: '2018-03-05 01:03:00 +0000'
 link: http://www.hollidazed.co.uk/2017/11/19/convenience-isnt-digital/
 tags:
-  - Design
-  - Digital
-  - Convenience
+- Design
+- Digital
+- Convenience
 ---
 Ben Holliday:
 

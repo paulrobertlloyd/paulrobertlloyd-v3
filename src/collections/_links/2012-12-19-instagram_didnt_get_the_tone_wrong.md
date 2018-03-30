@@ -3,8 +3,8 @@ title: Instagram Didn't Get The Tone Wrong
 date: '2012-12-19 13:15:18 +0000'
 link: http://asburyandasbury.typepad.com/blog/2012/12/instagram-didnt-get-the-tone-wrong.html
 tags:
-  - Instagram
-  - Facebook
+- Instagram
+- Facebook
 ---
 Fantastic commentary regarding Instagram's [clarification][1] of its [controversial (if not unexpected) policy changes][2]:
 

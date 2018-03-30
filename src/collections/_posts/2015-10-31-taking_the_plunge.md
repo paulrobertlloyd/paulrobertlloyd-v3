@@ -4,9 +4,9 @@ date: '2015-10-31 18:30:00 +0000'
 location: Brighton, England
 excerpt: 'Freelancing can sometimes feel like a roller coaster of emotions, and this post finds me at one of its lowest points. Eight months in, now seems like a good time to consider the ride taken so far, and consolidate some of the lessons learnt.'
 tags:
-  - Freelancing
-  - The Pastry Box Project
-  - Writing
+- Freelancing
+- The Pastry Box Project
+- Writing
 ---
 Freelancing can sometimes feel like a roller coaster of emotions, and this post finds me at one of its lowest points. Eight months in, now seems like a good time to consider the ride taken so far, and consolidate some of the lessons learnt.
 

@@ -4,9 +4,9 @@ date: '2014-04-13 15:20:11 +0000'
 link: https://www.youtube.com/video/SB_GDF-mKTE
 embed: true
 tags:
-  - Video
-  - Ethics
-  - Design
+- Video
+- Ethics
+- Design
 ---
 Possibly the most important design talk you'll hear this year:
 

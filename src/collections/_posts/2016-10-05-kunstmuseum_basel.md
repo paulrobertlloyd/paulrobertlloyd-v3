@@ -3,10 +3,11 @@ title: 'Admiring the Abstract in Basel''s Kunstmuseum'
 date: '2016-10-05 21:50:00 +0100'
 location: Brighton, England
 excerpt: 'During a recent trip to Basel, I found plenty to inspire in the city''s recently extended art museum. As I explored the exhibits, I jotted down the artists whose work caught my attention. Reviewing this list some weeks later, I thought I''d share my findings.'
-image: 2016/10/kunstmuseum_basel.jpg
+images:
+- 2016/10/kunstmuseum_basel.jpg
 tags:
-  - Art
-  - Exhibitions
+- Art
+- Exhibitions
 ---
 {% include figure.html
   caption="The new building of the Kunstmuseum Basel. Photograph: [Julian Salinas](https://kmb.picturepark.com/Go/JLVo8XZu)"

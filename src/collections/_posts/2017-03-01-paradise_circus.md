@@ -4,9 +4,9 @@ date: '2017-03-01 22:45:00 +0000'
 location: Brighton, England
 excerpt: I had braced myself for its eventual fate, but seeing footage of Birmingham Central Library being demolished still brought a tear to my eye.
 tags:
-  - Architecture
-  - Birmingham
-  - Birmingham Central Library
+- Architecture
+- Birmingham
+- Birmingham Central Library
 ---
 I had braced myself for its eventual fate, but seeing footage of Birmingham Central Library being demolished still brought a tear to my eye:
 

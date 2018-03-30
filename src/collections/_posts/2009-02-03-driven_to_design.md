@@ -4,8 +4,8 @@ date: '2009-02-03 23:10:49 +0000'
 location: San Francisco, USA
 excerpt: In a recent conversation with a client, he asked why I got into design. Its something I've been meaning to write about for sometime, so I'll try to publish my answer here.
 tags:
-  - Design
-  - Personal
+- Design
+- Personal
 discussion: closed
 ---
 I'm surprised when I look at drawings I did when I was younger. Most often these were in the form of advertisements for cars, computer games and consoles, yet I would never consider working in advertising today.

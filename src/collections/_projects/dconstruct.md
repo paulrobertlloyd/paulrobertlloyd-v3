@@ -3,16 +3,16 @@ title: dConstruct
 date: '2013-05-02'
 excerpt: Collaborative design for grassroots digital conference
 screenshots:
-  - projects/dconstruct/2010/desktop-a.png
-  - projects/dconstruct/2010/desktop-b.png
+- projects/dconstruct/2010/desktop-a.png
+- projects/dconstruct/2010/desktop-b.png
 screenshots-2011:
-  - projects/dconstruct/2011/desktop-a.png
-  - projects/dconstruct/2011/desktop-b.png
-  - projects/dconstruct/2011/phone.png
+- projects/dconstruct/2011/desktop-a.png
+- projects/dconstruct/2011/desktop-b.png
+- projects/dconstruct/2011/phone.png
 screenshots-2013:
-  - projects/dconstruct/2013/desktop-a.png
-  - projects/dconstruct/2013/desktop-b.png
-  - projects/dconstruct/2013/phone.png
+- projects/dconstruct/2013/desktop-a.png
+- projects/dconstruct/2013/desktop-b.png
+- projects/dconstruct/2013/phone.png
 meta:
   years: 2010 - 2013
   role: Design

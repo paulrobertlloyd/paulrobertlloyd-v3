@@ -3,13 +3,14 @@ title: Exploring the Causeway Coast
 date: '2012-12-03 22:44:50 +0000'
 location: Brighton, England
 excerpt: After attending Build in Belfast last month, Chris Armstrong gave Ethan Marcotte, Chris Shifflet and myself a tour of the Causeway Coast which, as the name suggests, is home to the famed Giant's Causeway.
-image: 2012/12/causeway_coast.jpg
+images:
+- 2012/12/causeway_coast.jpg
 tags:
-  - Travel
-  - Photography
-  - Responsive design
-  - Web
-  - Northern Ireland
+- Travel
+- Photography
+- Responsive design
+- Web
+- Northern Ireland
 ---
 {% include figure.html
   caption="Causeway Coast"

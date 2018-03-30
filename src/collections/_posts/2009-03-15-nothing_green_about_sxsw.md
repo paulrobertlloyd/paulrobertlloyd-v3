@@ -4,8 +4,8 @@ date: '2009-03-15 20:52:17 +0000'
 location: Walsall, England
 excerpt: 'Friday saw the start of this years SXSW interactive, film and music festivals in Austin Texas, and once again they highlight the scourge of swag: the ''stuff we all get'' that soon becomes the stuff we don''t want.'
 tags:
-  - Sustainability
-  - SXSW
+- Sustainability
+- SXSW
 discussion: closed
 ---
 Friday saw the start of this years SXSW interactive, film and music festivals in Austin Texas, and once again they highlight the scourge of swag: the 'stuff we all get' that soon becomes the stuff we don't want. Whilst SXSW likes to tout its [environmental credentials][1] as a carbon neutral conference (largely by means of carbon offsetting) it amazes me that year after year this supposed concern results in the following familiar image:

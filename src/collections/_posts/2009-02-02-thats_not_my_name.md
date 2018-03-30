@@ -4,9 +4,9 @@ date: '2009-02-02 22:07:44 +0000'
 location: San Francisco, USA
 excerpt: As I approach the end of my latest trip to America, I continue to fight the losing battle that is getting people to understand me when I say my first name.
 tags:
-  - Personal
-  - Travel
-  - United States
+- Personal
+- Travel
+- United States
 discussion: closed
 ---
 {% include image.html src="2009/02/thats_not_my_name.jpg" alt="'Coll' written on the side of a Starbucks cup" class="u-pull-right" %}As I approach the end of my latest trip to America, I continue to fight the losing battle that is getting people to understand me when I say my first name.

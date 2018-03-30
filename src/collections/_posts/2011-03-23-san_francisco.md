@@ -3,11 +3,12 @@ title: I Never Left My Heart in San Francisco
 date: '2011-03-23 00:17:33 +0000'
 location: Brasília, Brazil
 excerpt: As I walked the streets of San Francisco, buoyed by their comfortable familiarity and unique soundtrack, I knew that this was still a city I could never call home.
-image: 2011/03/san_francisco_fishermans_wharf.jpg
+images:
+- 2011/03/san_francisco_fishermans_wharf.jpg
 tag:
-  - Travel
-  - San Francisco
-  - United States
+- Travel
+- San Francisco
+- United States
 ---
 {% include figure.html
   caption="Boats docked in Fisherman's Wharf"

@@ -3,7 +3,7 @@ title: Speaker Deck
 date: '2011-09-27 00:17:32 +0100'
 link: http://speakerdeck.com/
 tags:
-  - Social Media
+- Social Media
 ---
 I quickly tired of posting my presentations to SlideShare as the service became increasingly laden with features and countless advertising.
 

@@ -6,13 +6,15 @@
   {% endif %}
 
   <div class="c-item__main s-prose">
-    {% if item.image %}
+    {% if item.images %}
     <p class="c-item__media">
       <a href="{{ item.url }}">
-        {% include image.html
-          src=item.image
-          class="u-photo"
-        %}
+        {% for image in item.images %}
+          {% include image.html
+            src=image
+            class="u-photo"
+          %}
+        {% endfor %}
       </a>
     </p>
     {% endif %}

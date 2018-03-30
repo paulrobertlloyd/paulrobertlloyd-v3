@@ -4,9 +4,9 @@ date: '2011-05-13 23:37:48 +0100'
 location: Brighton, England
 excerpt: Much of the excitement has come in the form of web conferences, and looking back, I find it surprising just how many I've attended this year already.
 tags:
-  - Clearleft
-  - Conferences
-  - Travel
+- Clearleft
+- Conferences
+- Travel
 ---
 Hard to believe that it is May already; another year that's flying by. Luckily it has been fairly fun packed so far, with much of this excitement thanks to the many web conferences I've been to this year. It kicked off with [The Design of Understanding][1] and [New Adventures][2] in January, with SXSW following in March, and only last month I was attending [UX London][3]. It hasn't just been the big events either; tomorrow sees a mobile focused [Multipack Presents][4], which due to its growing popularity has now relocated to a larger venue.
 

@@ -4,9 +4,9 @@ date: '2012-08-01'
 excerpt: Responsive redesign for non-profit artists' rights organisation
 featured: true
 screenshots:
-  - projects/dacs/desktop-a.png
-  - projects/dacs/desktop-b.png
-  - projects/dacs/phone.png
+- projects/dacs/desktop-a.png
+- projects/dacs/desktop-b.png
+- projects/dacs/phone.png
 meta:
   year: 2012
   role: Design and front-end development

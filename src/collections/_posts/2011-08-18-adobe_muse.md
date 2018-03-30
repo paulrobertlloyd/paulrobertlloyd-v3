@@ -4,9 +4,9 @@ date: '2011-08-18 00:18:00 +0100'
 location: Brighton, England
 excerpt: This week Adobe revealed Muse, yet another web application but this time aimed at print designers looking to transfer their skills to the web. However this app has created some controversy, not only due the quality of the code it outputs, but also the claims made in the marketing videos.
 tags:
-  - Adobe
-  - net Magazine
-  - Writing
+- Adobe
+- net Magazine
+- Writing
 ---
 {% include image.html preset="thumbnail" src="2011/08/adobe_muse.png" alt="Adobe Muse icon" class="u-align-right" %}Earlier this month Adobe released a preview of their new web animation tool called [Edge][1]. Marketed as using HTML5, it actually included little from that specification and ignored technologies more suited to animation like Canvas and SVG, opting to use jQuery instead.
 

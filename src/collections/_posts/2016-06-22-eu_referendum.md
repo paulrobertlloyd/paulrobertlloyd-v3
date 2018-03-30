@@ -3,10 +3,11 @@ title: 'Breaking Point: Why I''m voting to Remain in the EU Referendum'
 date: '2016-06-22 02:25:00 +0100'
 location: Amsterdam, The Netherlands
 excerpt: 'The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.'
-image: 2016/06/eu_referendum.jpg
+images:
+- 2016/06/eu_referendum.jpg
 tags:
-  - Politics
-  - Europe
+- Politics
+- Europe
 ---
 {% include figure.html
   caption="Pastiche of Michelangelo''s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago"

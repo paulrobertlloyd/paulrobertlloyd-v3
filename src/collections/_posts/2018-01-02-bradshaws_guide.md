@@ -4,9 +4,9 @@ date: '2018-01-02 13:00:00 +0000'
 location: Bexhill-on-Sea, England
 excerpt: Having copied, pasted and formatted another 115 pages of OCR'd text, <cite>Bradshaw's Guide</cite> now contains tours throughout South West England, the West Midlands, Wales and Ireland.
 tags:
-  - Projects
-  - Bradshaw's Guide
-  - Travel
+- Projects
+- Bradshaw's Guide
+- Travel
 ---
 [<cite>Bradshaw's Guide</cite>][1] is a hyperlinked revival of a popular Victorian guide to Britain and Ireland’s nascent railway network. It's also a personal project that lies at the intersection of my interests: design, technology, trains... the preservation of [historic English counties][2].
 

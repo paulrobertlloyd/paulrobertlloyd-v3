@@ -4,9 +4,9 @@ date: '2015-12-11 20:15:00 +0000'
 link: https://www.youtube.com/video/bmdmx-ZcVvE
 embed: true
 tags:
-  - Video
-  - Television
-  - Design
+- Video
+- Television
+- Design
 ---
 I've yet to see a full episode of <cite>The Late Show</cite> (which [I wrote about shortly after its debut][1]), but thanks to [clips posted online][2], I've still been able to get my regular Colbert fix.
 

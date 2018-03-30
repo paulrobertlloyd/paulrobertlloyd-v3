@@ -3,7 +3,7 @@ title: See How Bad Your Site Looks
 date: '2012-07-07 22:51:50 +0100'
 link: https://twitter.com/anna_debenham/status/221277339517067265
 tags:
-  - Web
+- Web
 ---
 I enjoyed Anna Debenham's excellent response to [Marco Arment's ridiculous assertion][1] that every web designer needs to buy a retina MacBook Pro:
 

@@ -53,125 +53,125 @@ collections:
 
 # Defaults
 defaults:
-  - scope:
-      type: archives
-    values:
-      permalink: /:path/
-      layout: archive-year
-      regenerate: true
+- scope:
+    type: archives
+  values:
+    permalink: /:path/
+    layout: archive-year
+    regenerate: true
 
-  - scope:
-      type: articles
-    values:
-      permalink: /articles/:year/:month/:title
-      layout: content
+- scope:
+    type: articles
+  values:
+    permalink: /articles/:year/:month/:title
+    layout: content
 
-  - scope:
-      type: content
-    values:
-      permalink: /:path
-      layout: content
+- scope:
+    type: content
+  values:
+    permalink: /:path
+    layout: content
 
-  - scope:
-      type: discussions
-    values:
-      permalink: /:year/:month/:title/discussion
-      layout: discussion
+- scope:
+    type: discussions
+  values:
+    permalink: /:year/:month/:title/discussion
+    layout: discussion
 
-  - scope:
-      type: links
-    values:
-      permalink: /links/:year/:month/:title
-      layout: link
-      feed: true
-      archive: true
+- scope:
+    type: links
+  values:
+    permalink: /links/:year/:month/:title
+    layout: link
+    feed: true
+    archive: true
 
-  - scope:
-      type: notes
-    values:
-      permalink: /notes/:year/:month/:day-:hour:minute
-      layout: note
-      feed: true
-      archive: true
-      title: ''
+- scope:
+    type: notes
+  values:
+    permalink: /notes/:year/:month/:day-:hour:minute
+    layout: note
+    feed: true
+    archive: true
+    title: ''
 
-  - scope:
-      type: posts
-    values:
-      permalink: /:year/:month/:title
-      layout: post
-      feed: true
-      archive: true
+- scope:
+    type: posts
+  values:
+    permalink: /:year/:month/:title
+    layout: post
+    feed: true
+    archive: true
 
-  - scope:
-      type: projects
-    values:
-      permalink: /projects/:title
-      layout: project
+- scope:
+    type: projects
+  values:
+    permalink: /projects/:title
+    layout: project
 
-  - scope:
-      type: talks
-    values:
-      permalink: /talks/:year/:month/:title
-      layout: talk
-      archive: true
+- scope:
+    type: talks
+  values:
+    permalink: /talks/:year/:month/:title
+    layout: talk
+    archive: true
 
 # Images
 images:
   default:
     sources:
-      - width: 1280 # Should match `image:` width used in JSON Feed
-        quality: 90 # Should match `image:` quality used in JSON Feed
-      - width: 800
-        quality: 85
-      - width: 640
-        quality: 80
+    - width: 1280 # Should match `image:` width used in JSON Feed
+      quality: 90 # Should match `image:` quality used in JSON Feed
+    - width: 800
+      quality: 85
+    - width: 640
+      quality: 80
   thumbnail:
     sizes: '33vw'
     sources:
-      - width: 320
-        quality: 80
-      - width: 240
-        quality: 80
+    - width: 320
+      quality: 80
+    - width: 240
+      quality: 80
   supporting:
     sizes: '50vw'
     sources:
-      - width: 960
-        quality: 90
-      - width: 640
-        quality: 85
-      - width: 480
-        quality: 80
+    - width: 960
+      quality: 90
+    - width: 640
+      quality: 85
+    - width: 480
+      quality: 80
   showcase:
     sources:
-      - width: 1280
-        quality: 90
-      - width: 1024
-        quality: 85
-      - width: 768
-        quality: 80
+    - width: 1280
+      quality: 90
+    - width: 1024
+      quality: 85
+    - width: 768
+      quality: 80
   wide:
     sources:
-      - width: 1280
-        height: 675
-        quality: 90
-      - width: 1024
-        height: 576
-        quality: 85
-      - width: 800
-        height: 450
-        quality: 80
+    - width: 1280
+      height: 675
+      quality: 90
+    - width: 1024
+      height: 576
+      quality: 85
+    - width: 800
+      height: 450
+      quality: 80
   anamorphic:
     sources:
-      - width: 1200
-        height: 500
-        quality: 90
-      - width: 1020
-        height: 425
-        quality: 85
-      - width: 720
-        height: 300
-        quality: 80
+    - width: 1200
+      height: 500
+      quality: 90
+    - width: 1020
+      height: 425
+      quality: 85
+    - width: 720
+      height: 300
+      quality: 80
 
 assets:
   source_maps: false

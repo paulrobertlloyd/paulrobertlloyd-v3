@@ -3,12 +3,13 @@ title: A New Library for Birmingham
 date: '2010-06-29 22:21:41 +0100'
 location: Littlehampton, England
 excerpt: Architecture has never been kind to Birmingham, but then Birmingham has never been kind to its architecture.
-image: 2010/06/a_new_library_for_birmingham.jpg
+images:
+- 2010/06/a_new_library_for_birmingham.jpg
 tags:
-  - Architecture
-  - Birmingham
-  - Birmingham Central Library
-  - Library of Birmingham
+- Architecture
+- Birmingham
+- Birmingham Central Library
+- Library of Birmingham
 discussion: closed
 ---
 {% include figure.html

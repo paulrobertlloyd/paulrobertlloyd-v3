@@ -4,13 +4,14 @@ series: designing_systems
 date: '2017-01-06 12:00:00 +0000'
 location: Bexhill-on-Sea, England
 excerpt: 'Part one of a three-part essay based on the talk I gave at Smashing Conference. Before thinking about how we might approach the creation of a design system, I review two approaches to the design of something equally as complex: a city.'
-image: 2017/01/brasilia_satellite.jpg
+images:
+- 2017/01/brasilia_satellite.jpg
 tags:
-  - Architecture
-  - Brasilia
-  - London
-  - Design
-  - Design Systems
+- Architecture
+- Brasilia
+- London
+- Design
+- Design Systems
 ---
 {% include figure.html
   caption="Brasília, seen from above, looks like a bird or a plane. Image: [NASA Earth Observatory](http://earthobservatory.nasa.gov/IOTD/view.php?id=43743)"

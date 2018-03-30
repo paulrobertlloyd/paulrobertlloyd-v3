@@ -3,9 +3,9 @@ title: 'The Ethics of Digital Design'
 date: '2015-07-14 23:12:00 +0100'
 link: http://www.designcouncil.org.uk/news-opinion/ethics-digital-design
 tags:
-  - Design
-  - Ethics
-  - Silicon Valley
+- Design
+- Ethics
+- Silicon Valley
 ---
 [Cennydd][1] has written a short piece for the Design Council about ethics within the realm of digital technology:
 

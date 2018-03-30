@@ -3,8 +3,8 @@ title: Waldo Pancake
 date: '2011-02-09'
 excerpt: A new home for Jim Smith, illustrator and copywriter
 screenshots:
-  - projects/waldo_pancake/desktop-a.png
-  - projects/waldo_pancake/desktop-b.png
+- projects/waldo_pancake/desktop-a.png
+- projects/waldo_pancake/desktop-b.png
 meta:
   year: 2011
   role: Front-end development

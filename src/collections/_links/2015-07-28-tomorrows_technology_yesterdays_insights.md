@@ -3,8 +3,8 @@ title: 'Tomorrow''s Technology, Yesterday''s Insights'
 date: '2015-07-28 01:19:00 +0100'
 link: https://medium.com/@jonas_blind_hen/tomorrow-s-technology-yesterday-s-insights-273704613c03
 tags:
-  - Google
-  - Silicon Valley
+- Google
+- Silicon Valley
 ---
 [Jonas Söderström][1] on how Google's 'People Analytics group' goes to extreme lengths to work out how to improve workplace happiness, something Europeans figured out decades ago:
 

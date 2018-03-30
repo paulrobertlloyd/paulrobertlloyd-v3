@@ -3,9 +3,9 @@ title: 'The Slow Web'
 date: '2015-08-25 12:48:00 +0100'
 link: http://cole007.net/blog/152/the-slow-web
 tags:
-  - Web
-  - History
-  - Social Media
+- Web
+- History
+- Social Media
 ---
 Reflecting on [Hossein Derakhshan's recent article][1] about how the web has changed since he was incarcerated in an Iranian jail six years ago, Cole Henley draws comparisons with the work of [Fernand Braudel][2]:
 

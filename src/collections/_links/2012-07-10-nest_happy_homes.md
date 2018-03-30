@@ -3,9 +3,9 @@ title: Nest Happy Homes
 date: '2012-07-10 18:54:55 +0100'
 link: https://nest.com/blog/2012/07/10/nest-happy-homes-video/
 tags:
-  - Video
-  - Advertising
-  - Nest
+- Video
+- Advertising
+- Nest
 ---
 CEO, Tony Fadell on [Nest's first advertising campaign][1]:
 

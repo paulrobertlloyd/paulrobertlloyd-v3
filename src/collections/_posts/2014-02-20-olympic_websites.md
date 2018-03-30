@@ -3,13 +3,14 @@ title: Landmark Olympic Websites, Where Art Thou?
 date: '2014-02-20 00:13:28 +0000'
 location: Brighton, England
 excerpt: Whereas the world's foremost architects, graphic artists, typographers, iconographers and illustrators are asked to create their best work to celebrate each Olympic Games, still we wait for the Olympic movement to give equal consideration to the design of its websites.
-image: 2014/02/olympic_websites_anastasiya_kuzmina.jpg
+images:
+- 2014/02/olympic_websites_anastasiya_kuzmina.jpg
 tags:
-  - Brand identity
-  - Design
-  - Olympics
-  - Sochi 2014
-  - Web
+- Brand identity
+- Design
+- Olympics
+- Sochi 2014
+- Web
 ---
 {% include figure.html
   caption="Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women's 7.5 km Sprint"

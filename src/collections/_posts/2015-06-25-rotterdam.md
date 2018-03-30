@@ -3,11 +3,12 @@ title: 'Rotterdam Reflections'
 date: '2015-06-25 22:55:52 +0100'
 location: Brighton, England
 excerpt: 'Some thoughts after spending a few days in the Netherlands'' second city.'
-image: 2015/06/rotterdam_centraal.jpg
+images:
+- 2015/06/rotterdam_centraal.jpg
 tags:
-  - Travel
-  - Europe
-  - The Netherlands
+- Travel
+- Europe
+- The Netherlands
 ---
 {% include figure.html
   caption="Rotterdam Centraal Station"

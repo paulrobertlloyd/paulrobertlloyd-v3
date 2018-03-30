@@ -4,10 +4,10 @@ date: '2012-04-27 00:04:26 +0100'
 location: Brighton, England
 excerpt: Since returning from San Francisco, much of my spare time has been spent writing a tutorial for .net magazine. Published as part of their 'Responsive Week', this is for developers who want to learn about responsive web design but don't know where to start.
 tags:
-  - Writing
-  - Web
-  - Responsive design
-  - net Magazine
+- Writing
+- Web
+- Responsive design
+- net Magazine
 ---
 Since returning from San Francisco, much of my spare time has been spent writing a tutorial for [.net magazine][1]. Published as part of their 'Responsive Week', this is for developers who want to learn about [responsive web design][2] but don't know where to start.
 

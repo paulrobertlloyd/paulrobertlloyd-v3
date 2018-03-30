@@ -8,11 +8,13 @@ layout: default
 
   <div class="c-section">
     <div class="s-prose s-prose--body  e-content">
-      {% if page.image %}
-        {% include figure.html
-          src=page.image
-          class="u-bleed"
-        %}
+      {% if page.images %}
+        {% for image in page.images %}
+          {% include figure.html
+            src=image
+            class="u-bleed"
+          %}
+        {% endfor %}
       {% endif %}
 
       {{ content | smartify }}

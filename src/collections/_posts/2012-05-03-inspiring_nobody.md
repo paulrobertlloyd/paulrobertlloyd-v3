@@ -4,10 +4,10 @@ date: '2012-05-03 11:49:26 +0100'
 location: Brighton, England
 excerpt: Rather than showcase British interactive design talent, the biggest cultural event of our generation has been represented online by an uninspired mess that flies the flag for the status quo.
 tags:
-  - Design
-  - Web
-  - Olympics
-  - London 2012
+- Design
+- Web
+- Olympics
+- London 2012
 discussion: closed
 ---
 In 2007, soon after the unveiling of a [much criticised emblem][1], the official website for the London 2012 Olympic Games looked like this:

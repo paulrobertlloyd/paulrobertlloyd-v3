@@ -4,10 +4,10 @@ date: '2012-01-16 01:46:00 +0000'
 location: Brighton, England
 excerpt: I've always wanted to run a marathon, but shorter races were beset by poor training. Since taken running more seriously, I've become lighter, leaner and possibly even a bit faster. If I'm ever to achieve my dream of running a marathon, then this is the year to do it. An Olympic year too.
 tags:
-  - Personal
-  - Running
-  - Charity
-  - Brighton Marathon
+- Personal
+- Running
+- Charity
+- Brighton Marathon
 discussion: closed
 ---
 ## Towards the ultimate goal

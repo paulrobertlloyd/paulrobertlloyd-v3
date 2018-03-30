@@ -3,11 +3,12 @@ title: Tailored for England
 date: '2009-03-29 02:06:27 +0100'
 location: Littlehampton, England
 excerpt: The appointment of Fabio Capello has brought about a more stylish and confident England. Now they have a kit to match.
-image: 2009/03/tailored_for_england_crest.jpg
+images:
+- 2009/03/tailored_for_england_crest.jpg
 tags:
-  - Design
-  - Football
-  - England football team
+- Design
+- Football
+- England football team
 discussion: closed
 ---
 {% include figure.html

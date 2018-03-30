@@ -3,13 +3,14 @@ title: The Brasília Palace Hotel
 date: '2011-03-28 20:28:04 +0100'
 location: São Paulo, Brazil
 excerpt: For anyone coming to Brasília for its modernist architecture, no visit would be complete without a stay at this hotel. Designed by Oscar Niemeyer and opened in 1958, it hosted dignitaries such as Queen Elizabeth and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
-image: 2011/03/brasilia_palace_hotel.jpg
+images:
+- 2011/03/brasilia_palace_hotel.jpg
 tag:
-  - Architecture
-  - Oscar Niemeyer
-  - Travel
-  - Brasilia
-  - Brazil
+- Architecture
+- Oscar Niemeyer
+- Travel
+- Brasilia
+- Brazil
 ---
 {% include figure.html
   caption="The Brasília Palace Hotel"

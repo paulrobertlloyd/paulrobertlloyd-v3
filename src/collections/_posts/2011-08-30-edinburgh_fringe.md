@@ -4,8 +4,8 @@ date: '2011-08-30 23:11:59 +0100'
 location: Brighton, England
 excerpt: Having enjoyed the Edinburgh Fringe when I attended for the first time last August, I was determined to do it all over again. A long bank holiday weekend and a number of shows by comedians I've been longing to see, left few excuses not to return. Here are my thoughts on each performance I saw this time round.
 tags:
-  - Comedy
-  - Edinburgh Festival Fringe
+- Comedy
+- Edinburgh Festival Fringe
 ---
 Having enjoyed the Edinburgh Fringe when I attended for the first time last August, I was determined to do it all over again. A long bank holiday weekend and a number of shows by comedians I've been longing to see, left few excuses not to return. Here are my thoughts on each performance I saw this time round.
 

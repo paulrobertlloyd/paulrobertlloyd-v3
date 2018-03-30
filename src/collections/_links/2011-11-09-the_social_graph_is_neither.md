@@ -3,9 +3,9 @@ title: The Social Graph is Neither
 date: '2011-11-09 21:16:51 +0000'
 link: http://blog.pinboard.in/2011/11/the_social_graph_is_neither/
 tags:
-  - Social media
-  - Advertising
-  - Surveillance
+- Social media
+- Advertising
+- Surveillance
 ---
 Pinboard's Maciej Ceglowski:
 

@@ -3,12 +3,13 @@ title: 'Thinking Responsively: A Framework for Future Learning'
 date: '2015-08-26 17:02:00 +0100'
 location: Brighton, England
 excerpt: 'Three years after the Web Aesthetic, comes my second article for A List Apart. Intended to inform a broader discussion about the principles that underline our work, I thought I would share some background as to how this article came about.'
-image: 2015/08/map_and_territory.png
+images:
+- 2015/08/map_and_territory.png
 tags:
-  - Writing
-  - Web
-  - Responsive design
-  - A List Apart
+- Writing
+- Web
+- Responsive design
+- A List Apart
 ---
 {% include figure.html
   caption="Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart"

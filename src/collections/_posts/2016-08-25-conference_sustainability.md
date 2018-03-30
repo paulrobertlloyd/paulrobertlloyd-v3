@@ -4,9 +4,9 @@ date: '2016-08-25 14:30:00 +0100'
 location: Brighton, England
 excerpt: 'Given the worsening ecological situation, can showering conference attendees with gifts still be seen as an act of thoughtfulness?'
 tags:
-  - Sustainability
-  - Conferences
-  - Advertising
+- Sustainability
+- Conferences
+- Advertising
 ---
 I'd like to think I'm mellowing with age, but if there's one topic that still pushes my buttons, it's the disposable nature of our society, and its unwavering focus on consumerism, regardless of the dire ecological catastrophe it is fuelling.
 

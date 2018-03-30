@@ -4,7 +4,7 @@ date: '2009-02-04 20:27:23 +0000'
 location: San Francisco, USA
 excerpt: I have been using Movable Type for a number of years, yet the template code required to present an archived list of entries, grouped by month has always evaded me.
 tags:
-  - Web
+- Web
 discussion: closed
 ---
 I have been using Movable Type for a number of years, yet the template code required to present an archived list of entries, grouped by month has always evaded me. On many occassions I searched support forums and wikis looking for a solution the common concencus was that this was impossible to achieve without plug-ins and [complicated logic][1].

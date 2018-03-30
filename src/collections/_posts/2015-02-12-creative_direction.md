@@ -4,9 +4,9 @@ date: '2015-02-12 15:57:41 -0200'
 location: São Paulo, Brazil
 excerpt: For the last year I've been working at the Guardian under the leadership of a creative director. I've never worked with a creative director before -- at least not in the traditional sense -- and have found this to be a fascinating yet also frustrating experience; for the first time in my career I've not the been the arbiter of good taste.
 tags:
-  - The Guardian
-  - The Pastry Box Project
-  - Writing
+- The Guardian
+- The Pastry Box Project
+- Writing
 ---
 For the last year I've been working at the Guardian under the leadership of a creative director.
 

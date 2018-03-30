@@ -4,9 +4,9 @@ date: '2009-08-31 23:37:10 +0100'
 location: Littlehampton, England
 excerpt: In less than two months time, I will once again be donning my running shoes to raise money for Cancer Research UK.
 tags:
-  - Charity
-  - Running
-  - Great South Run
+- Charity
+- Running
+- Great South Run
 ---
 It's been quite while since I last ran for charity (in fact [my last run][1] was way back in 2006), so in the vein hope that the training will help me get a little fitter, I'm taking part in this years [Great South Run][2] in Portsmouth, and aiming to raise £400 for Cancer Research UK.
 

@@ -4,9 +4,9 @@ date: '2015-12-12 12:00:00 +0000'
 location: Brighton, England
 excerpt: 'Ten years ago today, I boarded United Airlines flight 955 from London Heathrow to San Francisco. Here''s what happened next.'
 tags:
-  - Ning
-  - The Pastry Box Project
-  - Writing
+- Ning
+- The Pastry Box Project
+- Writing
 ---
 Ten years ago today, excited yet somewhat anxious, I boarded United Airlines flight 955 from London Heathrow to San Francisco. I was working at a small agency at the time, designing websites for estate agents and other local businesses. Freelancing during evenings and weekends, I had recently started working for a small start-up called Ning, based in California. A few rounds of design later, I was offered a job and now booked on this flight so I could get a taste of the company.
 

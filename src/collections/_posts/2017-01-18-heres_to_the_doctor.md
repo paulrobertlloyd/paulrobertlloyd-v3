@@ -4,9 +4,9 @@ date: '2017-01-18 23:30:00 +0000'
 location: Bexhill-on-Sea, England
 excerpt: 'Dr. James Paul Dicks, 1980-2017'
 tags:
-  - Personal
-  - Friends
-  - In memoriam
+- Personal
+- Friends
+- In memoriam
 ---
 Aged 13, and having recently moved to the West Midlands from Surrey, I was the new kid at school with a funny sounding accent and below average height. If adolescence wasn't enough to be getting on with, this confounding and unsettling situation had to be dealt with as well.
 

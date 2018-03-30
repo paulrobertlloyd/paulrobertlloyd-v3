@@ -3,11 +3,12 @@ title: Vibrant Vancouver
 series: north_america_2011
 date: '2011-12-29 00:57:39 +0000'
 excerpt: Sat in the front seat of another float plane, I enjoyed a breathtaking view of Vancouver as I descended into its harbour. For such a densely populated city, I felt I'd arrived somewhere small and friendly.
-image: 2011/12/vancouver.jpg
+images:
+- 2011/12/vancouver.jpg
 tags:
-  - Travel
-  - Vancouver
-  - Canada
+- Travel
+- Vancouver
+- Canada
 ---
 {% include figure.html
   caption="Vancouver waterfront from Stanley Park"

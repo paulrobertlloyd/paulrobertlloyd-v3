@@ -4,8 +4,8 @@ date: '2017-04-03 02:30:00 +0100'
 location: Brighton, England
 excerpt: Container queries are always a popular topic when discussing the future of responsive design. But do we actually need them anymore?
 tags:
-  - Responsive design
-  - Web
+- Responsive design
+- Web
 ---
 Earlier last month, Ethan wrote about [the need for container queries][1], a request that is frequently raised in any discussion about the future of responsive design. Ethan's article is well worth a read, especially if you’re unfamiliar with the issue, but here's a brief summary: the dimensions of the viewport are a poor proxy for judging layout requirements for components that can exist in a variety of contexts. If we could query the dimensions of a component's parent container instead, our layouts would be more robust, and our code easier to maintain.
 

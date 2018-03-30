@@ -4,10 +4,10 @@ date: '2012-03-21 23:43:51 +0000'
 location: Brighton, England
 excerpt: A new pair of jeans, the reignited love for a city and an inevitable answer to a surprisingly surprising question. Just some of the artefacts collected during two weeks in America.
 tags:
-  - Travel
-  - San Francisco
-  - Personal
-  - Lessons
+- Travel
+- San Francisco
+- Personal
+- Lessons
 ---
 A new pair of jeans, the reignited love for a city and an inevitable answer to a surprisingly surprising question. Just some of the artefacts collected during two weeks in America.
 

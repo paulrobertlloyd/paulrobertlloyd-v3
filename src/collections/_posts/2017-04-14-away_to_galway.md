@@ -3,12 +3,13 @@ title: Away to Galway
 date: '2017-05-14 22:40:00 +0100'
 location: Brighton, England
 excerpt: In need of a break, I headed to Galway and the far western reaches of the British Isles.
-image: 2017/05/galway_harbour.jpg
+images:
+- 2017/05/galway_harbour.jpg
 tags:
-  - Galway
-  - Ireland
-  - Europe
-  - Travel
+- Galway
+- Ireland
+- Europe
+- Travel
 ---
 {% include figure.html
   caption="Boats and swans in Galway harbour"

@@ -3,11 +3,12 @@ title: Historic Counties & Psychoville
 date: '2009-06-23 00:30:00 +0100'
 location: Littlehampton, England
 excerpt: I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it.
-image: 2009/06/historic_counties_and_psychoville.jpg
+images:
+- 2009/06/historic_counties_and_psychoville.jpg
 tags:
-  - Television
-  - Government
-  - England
+- Television
+- Government
+- England
 discussion: closed
 ---
 {% include figure.html

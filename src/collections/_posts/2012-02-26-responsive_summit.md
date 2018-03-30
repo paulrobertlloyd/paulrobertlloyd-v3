@@ -3,11 +3,12 @@ title: How I Learned to Stop Worrying and Love Responsive Images
 date: '2012-02-26 23:21:55 +0000'
 location: Brighton, England
 excerpt: Last week I was invited to Responsive Summit, a face-to-face discussion about Responsive Web Design. We talked about what we've learnt so far, the problems we're continuing to face and things we'd like to change. And no, I didn't get the Dr. Strangelove reference either.
-image: 2012/02/responsive_summit.jpg
+images:
+- 2012/02/responsive_summit.jpg
 tags:
-  - Web
-  - Responsive design
-  - Responsive Summit
+- Web
+- Responsive design
+- Responsive Summit
 discussion: closed
 ---
 {% include figure.html

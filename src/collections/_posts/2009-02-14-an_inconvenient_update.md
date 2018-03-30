@@ -4,8 +4,8 @@ date: '2009-02-14 23:37:18 +0000'
 location: Littlehampton, England
 excerpt: In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message.
 tags:
-  - Technology
-  - User experience
+- Technology
+- User experience
 ---
 In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message:
 

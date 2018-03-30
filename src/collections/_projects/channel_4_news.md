@@ -4,8 +4,8 @@ date: '2010-09-30'
 excerpt: Reinventing Channel 4's news presence on the iPad
 featured: true
 screenshots:
-  - projects/channel_4_news/tablet-portrait.png
-  - projects/channel_4_news/tablet-landscape.png
+- projects/channel_4_news/tablet-portrait.png
+- projects/channel_4_news/tablet-landscape.png
 meta:
   year: 2010
   role: Design

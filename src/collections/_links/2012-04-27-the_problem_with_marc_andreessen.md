@@ -3,9 +3,9 @@ title: The Problem With Marc Andreessen
 date: '2012-04-27 14:04:32 +0100'
 link: http://blogs.reuters.com/felix-salmon/2012/04/26/the-problem-with-marc-andreessen/
 tag:
-  - Marc Andreessen
-  - Silicon Valley
-  - Felix Salmon
+- Marc Andreessen
+- Silicon Valley
+- Felix Salmon
 ---
 Felix Salmon:
 

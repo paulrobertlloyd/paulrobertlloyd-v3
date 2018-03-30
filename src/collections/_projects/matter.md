@@ -4,9 +4,9 @@ date: '2012-11-14'
 excerpt: Beautiful reading experience for publisher of unmissable journalism
 featured: true
 screenshots:
-  - projects/matter/phone.png
-  - projects/matter/tablet-portrait.png
-  - projects/matter/desktop-a.png
+- projects/matter/phone.png
+- projects/matter/tablet-portrait.png
+- projects/matter/desktop-a.png
 meta:
   year: 2012
   role: UX, branding and graphic design

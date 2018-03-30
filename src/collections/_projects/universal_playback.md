@@ -3,8 +3,8 @@ title: Universal Playback
 date: '2010-11-01'
 excerpt: Modular design that showcased a library of television favouites
 screenshots:
-  - projects/universal_playback/desktop-a.png
-  - projects/universal_playback/desktop-b.png
+- projects/universal_playback/desktop-a.png
+- projects/universal_playback/desktop-b.png
 meta:
   year: 2010
   role: Design

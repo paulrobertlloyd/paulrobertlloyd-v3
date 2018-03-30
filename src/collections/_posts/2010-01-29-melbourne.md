@@ -3,12 +3,13 @@ title: Magical Melbourne
 series: australasia_2009
 date: '2010-01-29 23:42:47 +0000'
 excerpt: After two and a half weeks exploring various cities, it was finally on to Melbourne, the final stop on my short tour of Australasia.
-image: 2010/01/melbourne_royal_exhibition_building.jpg
+images:
+- 2010/01/melbourne_royal_exhibition_building.jpg
 tags:
-  - Travel
-  - Australia
-  - Melbourne
-  - Olympics
+- Travel
+- Australia
+- Melbourne
+- Olympics
 ---
 {% include figure.html
   caption="Royal Exhibition Building, Melbourne"

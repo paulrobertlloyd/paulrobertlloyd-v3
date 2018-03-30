@@ -4,9 +4,9 @@ date: '2009-12-06 01:18:00 +0000'
 location: Littlehampton, England
 excerpt: The humble URL has been on my mind a lot recently.
 tags:
-  - Design
-  - User experience
-  - Web
+- Design
+- User experience
+- Web
 discussion: closed
 ---
 The humble URL has been on my mind a lot recently. Through a series of developments, this simple means of addressing the wonders of the web has been obfuscated and abused, to the point that it's now seen as difficult to use and an affront to users.

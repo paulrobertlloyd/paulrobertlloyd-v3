@@ -3,8 +3,8 @@ title: No Longer Loving Google
 date: '2012-02-02 20:05:11 +0000'
 link: http://somebits.com/weblog/tech/no-longer-loving-google.html
 tags:
-  - Google
-  - DuckDuckGo
+- Google
+- DuckDuckGo
 ---
 Nelson Minar:
 

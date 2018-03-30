@@ -3,8 +3,8 @@ title: 'Better CSS with Sass by Cole Henley'
 date: '2015-07-06 15:11:35 +0100'
 link: http://www.fivesimplesteps.com/products/better-css-with-sass
 tags:
-  - Books
-  - Web
+- Books
+- Web
 ---
 For those looking for a quick and succinct introduction to Sass, the popular CSS pre-processor, my friend [Cole Henley][1] has written a pocket guide:
 

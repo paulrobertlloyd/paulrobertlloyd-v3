@@ -4,10 +4,10 @@ date: '2010-09-10 15:17:49 +0100'
 location: Brighton, England
 excerpt: There is often talk of there being no landmark design on the web, but I suggest it won't be long before BBC News is considered one of the greatest design icons online today.
 tags:
-  - Design
-  - Web
-  - BBC
-  - MSNBC
+- Design
+- Web
+- BBC
+- MSNBC
 discussion: closed
 ---
 Earlier this year the BBC announced it was creating a new version of it's Global Visual Language (GVL). Building upon the success of its predecessor, these new guidelines would give the organisation a consistent yet highly distinctive visual style to use online.

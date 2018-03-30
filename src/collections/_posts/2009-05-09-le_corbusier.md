@@ -3,11 +3,12 @@ title: Le Corbusier - The Art of Architecture
 date: '2009-05-09 22:12:38 +0100'
 location: Littlehampton, England
 excerpt: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
-image: 2009/05/le_corbusier.jpg
+images:
+- 2009/05/le_corbusier.jpg
 tags:
-  - Architecture
-  - Le Corbusier
-  - Exhibitions
+- Architecture
+- Le Corbusier
+- Exhibitions
 ---
 {% include figure.html
   caption="Le Corbusier. Photograph: Willy Rizzo"
