@@ -10,7 +10,6 @@
   </div>
 
   <footer class="c-item__footer">
-    {% if include.showtype == true %}<b class="p-category">{{ item.layout | capitalize }}</b><span aria-label=","> ·</span>{% endif %}
     <a class="u-url" href="{{ item.url }}" rel="bookmark">
       <time class="dt-published" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
     </a>

@@ -26,11 +26,11 @@ layout: default
     {% endif %}
       {% case item.layout %}
       {% when "link" %}
-        {% include item/link.html showtype=true %}
+        {% include item/link.html %}
       {% when "note" %}
-        {% include item/note.html showtype=true %}
+        {% include item/note.html %}
       {% else %}
-        {% include item/item.html showtype=true %}
+        {% include item/item.html %}
       {% endcase %}
     {% if forloop.last %}
     </div>

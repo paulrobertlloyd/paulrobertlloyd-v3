@@ -17,11 +17,11 @@ pagination:
   {% for item in paginator.posts %}
     {% case item.layout %}
     {% when "link" %}
-      {% include item/link.html showtype=true %}
+      {% include item/link.html %}
     {% when "note" %}
-      {% include item/note.html showtype=true %}
+      {% include item/note.html %}
     {% else %}
-      {% include item/post.html showtype=true %}
+      {% include item/post.html %}
     {% endcase %}
   {% endfor %}
 </div>

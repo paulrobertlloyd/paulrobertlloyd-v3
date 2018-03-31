@@ -11,11 +11,11 @@ layout: default
   {% if page_month == item_month %}
     {% case item.layout %}
     {% when "link" %}
-      {% include item/link.html showtype=true %}
+      {% include item/link.html %}
     {% when "note" %}
-      {% include item/note.html showtype=true %}
+      {% include item/note.html %}
     {% else %}
-      {% include item/post.html showtype=true %}
+      {% include item/post.html %}
     {% endcase %}
   {% endif %}
 {% endfor %}

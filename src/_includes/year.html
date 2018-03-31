@@ -5,6 +5,6 @@
   <a href="/{{ year }}/">
     <h3 class="c-year__title">{{ year }}</h3>
     <p class="c-year__meta">{{ posts | size }} items</p>
-    <embed class="c-year__graph" src="{% asset chart.svg @path %}?{{ params | slice: 0, 23 }}" type="image/svg+xml"></embed>
+    <embed class="c-year__graph" src="{% asset chart.svg @path %}?{{ params }}" type="image/svg+xml"></embed>
   </a>
 </section>
