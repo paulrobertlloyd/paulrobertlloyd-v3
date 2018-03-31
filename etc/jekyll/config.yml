@@ -89,7 +89,7 @@ defaults:
 - scope:
     type: notes
   values:
-    permalink: /notes/:year/:month/:day-:hour:minute
+    permalink: /notes/:year/:month/:day-:slug
     layout: note
     feed: true
     archive: true
