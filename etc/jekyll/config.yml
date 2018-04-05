@@ -5,6 +5,7 @@ url: https://paulrobertlloyd.com
 theme_color: '#0055ff'
 background_color: '#fafafa'
 date_format: '%e %B %Y'
+timezone: Europe/London
 
 # Meta
 author:
