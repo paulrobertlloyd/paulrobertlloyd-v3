@@ -182,3 +182,5 @@ pagination:
   permalink: '/page/:num.html'
   sort_reverse: true
   per_page: 12
+
+jekyll-mentions: https://twitter.com
