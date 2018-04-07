@@ -9,14 +9,12 @@ layout: default
   <div class="c-section">
     <div class="s-prose s-prose--body  e-content">
       {% if page.images %}
-        {% for image in page.images %}
-          {% include figure.html
-            src=image
-            class="u-bleed"
-          %}
-        {% endfor %}
+        {% capture images %}{{ page.images | join: "," }}{% endcapture %}
+        {% include figure.html
+          src=images
+          class="u-bleed"
+        %}
       {% endif %}
-
       {{ content | smartify }}
     </div>
   </div>

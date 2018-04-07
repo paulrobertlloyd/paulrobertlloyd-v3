@@ -7,16 +7,10 @@
 
   <div class="c-item__main s-prose">
     {% if item.images %}
-    <p class="c-item__media">
-      <a href="{{ item.url }}">
-        {% for image in item.images %}
-          {% include image.html
-            src=image
-            class="u-photo"
-          %}
-        {% endfor %}
-      </a>
-    </p>
+      {% capture images %}{{ item.images | join: "," }}{% endcapture %}
+      {% include figure.html
+        src=images
+      %}
     {% endif %}
     {{ item.content | markdownify | smartify }}
   </div>
