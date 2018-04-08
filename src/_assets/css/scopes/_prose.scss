@@ -37,7 +37,7 @@
   ol:not([class]),
   ul:not([class]),
   dd:not([class]) {
-    margin-left: $--space-large;
+    margin-left: $--space-medium;
   }
 
   hr {
@@ -145,7 +145,7 @@
   }
 
   blockquote {
-    margin-bottom: $--space-large;
+    margin-bottom: $--space-medium;
   }
 
   figure {
@@ -207,10 +207,6 @@
   figcaption {
     > * + * {
       margin-top: $--space-small;
-    }
-
-    li {
-      list-style-position: inside;
     }
   }
 }
