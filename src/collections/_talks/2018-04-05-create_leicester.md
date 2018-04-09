@@ -135,7 +135,7 @@ slides:
 
     As it becomes cheaper and easier to build products, and with incentives rewarding delivery, product managers will push to get something out the door and improve it later.
 
-    We see start-ups built on the back of mantras such as <q>ask for forgiveness, not permission</q>, <q>always be hustling<q> and of course <q>move fast and break things</q>; a motto that long hinted that Facebook was more concerned with shipping features than taking responsibly for them once they had launched.
+    We see start-ups built on the back of mantras such as <q>ask for forgiveness, not permission</q>, <q>always be hustling</q> and of course <q>move fast and break things</q>; a motto that long hinted that Facebook was more concerned with shipping features than taking responsibly for them once they had launched.
 
     This focus on speed has led to a variety of processes and workflows being adopted.
 - format: jpg
@@ -242,7 +242,7 @@ slides:
   notes: |
     This is an approach people like Khoi Vinh are advocating. Rather than seeking accreditation, he's been [advocating for digital design to become subject to thoughtful, critical journalism](https://www.fastcodesign.com/90155005).
 
-    This is especially true since the discourse among designers can tend toward the shallow and superficial, and can be influenced by having one eye on furthering one's own career.
+    This is especially true since the discourse among designers can tend toward the shallow and superficial, and can be influenced by having an eye on furthering one's own career.
 
     Therefore, such journalism would require writers that are independent of the industry. Only that way can their words carry any credibility.
 - format: png
@@ -269,7 +269,7 @@ slides:
 
     Of course, that's easy to say, but I stand here tonight, in a line-up featuring two white men called Paul! I knew ahead of tonight that this would be the case, but I didn't ask to speak on another night to allow the line up to be more diverse. Most of the references in this talk have featured men.
 
-    The first step is awareness. But to change our culture for the better, we need to take action. All of us has work to do.
+    The first step is awareness. But to change our culture for the better, we need to take action. Each of us has work to do.
 - format: png
   notes: |
     I want to finish tonight with [this thought from Mark Zuckerberg](http://facebook.com/notes/mark-zuckerberg/10155448869996634):
