@@ -247,7 +247,7 @@ slides:
     Therefore, such journalism would require writers that are independent of the industry. Only that way can their words carry any credibility.
 - format: png
   notes: |
-    Almost every other creative and commercial endeavour tends to be supported by a critical body of review and critique. Most of us will be familiar with film reviews -- [hello to Jason Issacs](http://witterpedia.net/w/index.php/Jason_Isaacs) -- but there are examples closer to home too.
+    Almost every other creative and commercial endeavour tends to be supported by a critical body of review and critique. Most of us will be familiar with film reviews -- [hello to Jason Isaacs](http://witterpedia.net/w/index.php/Jason_Isaacs) -- but there are examples closer to home too.
 
     The architectural profession is supported by professional critics who question and examine the context surrounding a particular work, and whether the resulting building meets the needs of both the client and those that will inhabit the space -- Robert Hughes being just one example.
 
