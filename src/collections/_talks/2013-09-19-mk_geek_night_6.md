@@ -8,6 +8,8 @@ excerpt: Slides and referenced transcript from my presentation at MK Geek Night
 meta:
   alternative_formats: |
     * [Audio](https://soundcloud.com/mkgn/mkgn-6-paul-robert-lloyd-fear)
+images:
+- talks/2013-09-19-mk_geek_night_6/7.jpg
 slides:
 - format: png
   notes: |

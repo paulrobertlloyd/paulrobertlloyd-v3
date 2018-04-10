@@ -5,6 +5,8 @@ date: '2010-11-20 14:00:00 +0000'
 location: Birmingham, England
 event: 'Multipack Presents: The Design Process'
 excerpt: Slides and referenced transcript from my presentation at Multipack Presents
+images:
+- talks/2010-11-20-multipack_presents/4.png
 slides:
 - format: png
   notes: |

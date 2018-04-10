@@ -5,6 +5,8 @@ date: '2018-04-05T19:30:00+0100'
 location: Leicester, England
 event: Create Leicester
 excerpt: Slides and referenced transcript from my presentation at Create Leicester
+images:
+- talks/2018-04-05-create_leicester/14.png
 slides:
 - format: png
   notes: |

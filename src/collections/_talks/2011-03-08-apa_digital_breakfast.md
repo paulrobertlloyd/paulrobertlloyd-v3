@@ -5,6 +5,8 @@ date: '2011-03-08 10:00:00 +0000'
 location: London, England
 event: APA Digital Breakfast
 excerpt: Slides and referenced transcript from my talk at APA''s Digital Breakfast
+images:
+- talks/2011-03-08-apa_digital_breakfast/6.png
 slides:
 - format: png
   notes: |

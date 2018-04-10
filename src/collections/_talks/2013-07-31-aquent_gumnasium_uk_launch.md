@@ -5,6 +5,8 @@ date: '2013-07-31 16:00:00 +0100'
 location: London, England
 event: Aquent Gymnasium UK Launch
 excerpt: Slides and referenced transcript from my presentation at the launch of Aquent Gymnasium
+images:
+- talks/2013-07-31-aquent_gumnasium_uk_launch/6.jpg
 slides:
 - format: jpg
   notes: |

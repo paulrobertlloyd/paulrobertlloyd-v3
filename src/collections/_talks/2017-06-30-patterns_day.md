@@ -9,6 +9,8 @@ meta:
   alternative_formats: |
     * [Audio](https://huffduffer.com/adactio/416238)
     * [Video](https://vimeo.com/227237580)
+images:
+- talks/2017-06-30-patterns_day/6.jpg
 slides:
 - format: png
   notes: |
