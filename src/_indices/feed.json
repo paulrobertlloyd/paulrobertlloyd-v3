@@ -23,7 +23,7 @@ regenerate: true
       {% if item.link %}"external_url": "{{ item.link }}",{% endif %}
       {% if item.title != "" %}"title": {{ item.title | smartify | jsonify }},{% endif %}
       {% if item.excerpt != "" %}"summary": {{ item.excerpt | strip_newlines | jsonify }},{% endif %}
-      {%- comment -%}`image:` should have same image and quality values as default image preset{%- endcomment -%}
+      {%- comment -%}`image:` should have same image and quality values as default image preset{%- endcomment %}
       {% if item.images %}"image": "{{ site.url }}/image/1280x/90q/{{ item.images.first }}",{% endif %}
       "content_html": {% capture content_html %}{% include feed/content.html %}{% endcapture %}{{ content_html | normalize_whitespace | jsonify }},
       "date_published": "{{ item.date | date_to_xmlschema }}",
