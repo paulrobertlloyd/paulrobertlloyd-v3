@@ -3,6 +3,12 @@
     src=item.link
   %}
 {% endif %}
+{% if item.images %}
+  {% capture images %}{{ item.images | join: "," }}{% endcapture %}
+  {% include figure.html
+    src=images
+  %}
+{% endif %}
 {{ item.content | markdownify }}
 {% if item.link %}
   <a href="{{ site.url }}{{ item.url }}" title="Permalink">#</a>
