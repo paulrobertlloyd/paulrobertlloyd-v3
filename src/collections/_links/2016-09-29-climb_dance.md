@@ -1,6 +1,6 @@
 ---
 title: 'Climb Dance'
-date: '2016-09-29 14:40:00 +0100'
+date: '2016-09-29T14:40:00+0100'
 link: https://www.youtube.com/video/HiIjLMr33Xc
 embed: true
 tags:

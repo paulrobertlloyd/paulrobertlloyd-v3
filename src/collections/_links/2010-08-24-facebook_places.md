@@ -1,6 +1,6 @@
 ---
 title: The Problem with Facebook's 'Places'
-date: '2010-08-24 18:21:00 +0100'
+date: '2010-08-24T18:21:00+0100'
 link: http://log.maniacalrage.net/post/1004228594/
 tags:
 - Facebook

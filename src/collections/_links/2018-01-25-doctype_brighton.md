@@ -1,6 +1,6 @@
 ---
 title: Doctype Brighton
-date: '2018-01-25 13:54:00 +0000'
+date: '2018-01-25T13:54:00Z'
 link: https://doctypebrighton.com
 tags:
 - Brighton

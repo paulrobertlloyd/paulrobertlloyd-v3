@@ -1,6 +1,6 @@
 ---
 title: Data Visualization Reinterpreted
-date: '2012-11-02 01:10:58 +0000'
+date: '2012-11-02T01:10:58Z'
 link: https://vimeo.com/51365288
 embed: true
 tags:

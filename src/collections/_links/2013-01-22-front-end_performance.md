@@ -1,6 +1,6 @@
 ---
 title: Front-End Performance for Web Designers and Front-End Developers
-date: '2013-01-22 01:11:17 +0000'
+date: '2013-01-22T01:11:17Z'
 link: http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/
 tags:
 - Web performance

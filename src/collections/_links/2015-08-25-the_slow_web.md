@@ -1,6 +1,6 @@
 ---
 title: 'The Slow Web'
-date: '2015-08-25 12:48:00 +0100'
+date: '2015-08-25T12:48:00+0100'
 link: http://cole007.net/blog/152/the-slow-web
 tags:
 - Web

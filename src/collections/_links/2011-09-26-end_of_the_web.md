@@ -1,6 +1,6 @@
 ---
 title: The End of the Web as We Know It
-date: '2011-09-26 20:51:02 +0100'
+date: '2011-09-26T20:51:02+0100'
 link: http://adrianshort.co.uk/2011/09/25/its-the-end-of-the-web-as-we-know-it/
 tags:
 - Facebook

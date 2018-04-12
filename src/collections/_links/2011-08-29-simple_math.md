@@ -1,6 +1,6 @@
 ---
 title: Manchester Orchestra - Simple Math
-date: '2011-08-29 22:44:35 +0100'
+date: '2011-08-29T22:44:35+0100'
 link: https://www.youtube.com/video/PaMiVDZu_T4
 embed: true
 tags:

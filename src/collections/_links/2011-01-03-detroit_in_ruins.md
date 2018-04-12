@@ -1,6 +1,6 @@
 ---
 title: Detroit in Ruins
-date: '2011-01-03 18:21:14 +0000'
+date: '2011-01-03T18:21:14Z'
 link: http://www.theguardian.com/artanddesign/gallery/2011/jan/02/photography-detroit
 tags:
 - Photography

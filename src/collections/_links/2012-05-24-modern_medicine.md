@@ -1,6 +1,6 @@
 ---
 title: Modern Medicine
-date: '2012-05-24 01:42:30 +0100'
+date: '2012-05-24T01:42:30+0100'
 link: http://farmerandfarmer.org/medicine/
 tags:
 - Social media
