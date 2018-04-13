@@ -1,6 +1,6 @@
 ---
 title: Beige to Bondi-Blue
-date: '2000-04-01 00:00:00 +0000'
+date: '2000-04-01'
 excerpt: A comparison between the Apple II (1977) and the iMac (1998).
 ---
 When Apple's first computer, the Apple I, was released in 1976, computing was reserved to hobbyists, many of whom adapted their computers or even built their own. Designed by Steve Woznaik, the single circuit board that constituted the Apple I was regarded as a work of art by his fellow hobbyists and also by his old school friend Steven Jobs. Having an eye for the future, Jobs insisted that he and Woznaik try to sell the Apple I, and so on April Fools Day 1976, Apple Computer was born.
