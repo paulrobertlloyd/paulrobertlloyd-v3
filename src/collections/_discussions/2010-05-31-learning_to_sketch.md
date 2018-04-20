@@ -3,7 +3,7 @@ title: Learning to Sketch
 remarks:
 - author: Ken
   gravatar: 539a351d5e60062693df414e9bbb3465
-  date: '2010-05-31 14:55:06 +0100'
+  date: '2010-05-31T14:55:06+0100'
   url: http://kennethkam.com
   content: |
     Thanks for sharing this! Sketching has always been something that I wanted to learn and seeing your sketches on Flickr has provided motivation for me to get my sketching book out again and to start drawing.
@@ -12,7 +12,7 @@ remarks:
 
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
-  date: '2010-05-31 15:09:36 +0100'
+  date: '2010-05-31T15:09:36+0100'
   url: http://paulrobertlloyd.com/
   content: |
     The 'exploring the page' warm-up exercises followed on from a few others I haven't shown. For example we drew straight lines, grids and circles, drew in the air (looking at an object on the table and exploring the surface in space) and created doodles that we then had to convert into objects -- real or imaginary.
@@ -21,14 +21,14 @@ remarks:
 
 - author: Ken
   gravatar: 539a351d5e60062693df414e9bbb3465
-  date: '2010-05-31 16:18:52 +0100'
+  date: '2010-05-31T16:18:52+0100'
   url: http://kennethkam.com
   content: |
     Yes, definitely! Thanks for sharing those informative tips. I have no excuse to put off drawing now :D
 
 - author: Jonathan Aquino
   gravatar: 6b5ab75ce823bc4a31dcf1f04427a582
-  date: '2010-06-02 03:50:55 +0100'
+  date: '2010-06-02T03:50:55+0100'
   url: http://jonaquino.blogspot.com
   content: |
     I like the handwriting tip.

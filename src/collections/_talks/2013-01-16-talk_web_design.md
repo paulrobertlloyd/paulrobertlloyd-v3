@@ -1,6 +1,6 @@
 ---
 title: This is for Everyone
-date: '2013-01-16 20:30:00 +0100'
+date: '2013-01-16T20:30:00+0100'
 location: London, England
 event: Talk Web Design
 excerpt: Slides from my presentation at Talk Web Design

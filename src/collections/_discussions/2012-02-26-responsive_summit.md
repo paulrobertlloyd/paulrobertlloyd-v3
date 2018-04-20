@@ -3,7 +3,7 @@ title: How I Learned to Stop Worrying and Love Responsive Images
 remarks:
 - author: karl
   gravatar: 39814c0daf5f82f744e8c017c00429f9
-  date: '2012-02-27 18:34:52 +0000'
+  date: '2012-02-27T18:34:52Z'
   url: http://my.opera.com/karlcow
   content: |
     Note that what is at stake is deliver the most appropriate image for the current usage environment. So it's not necessary a matter of size (width and height) but it can be a matter of weight. When on a small mobile device but connected through WIFI, I want to be able to have access to the big version of the image. The reason is that in coming scenarios of glanceable and/or shared screens, what is reaching my device is not necessary where it will be displayed/printed in the end. So mediaqueries on network capabilities seem to be a better fit than screen size. Note that there is a Javascript API coming for network capabilities. I bet that this will evolve quickly, and there will be new devices contexts that we have not yet imagined.

@@ -1,6 +1,6 @@
 ---
 title: This is for Everyone
-date: '2013-07-16 20:00:00 +0100'
+date: '2013-07-16T20:00:00+0100'
 location: Sheffield, England
 event: Speak the Web 2013
 excerpt: Slides from my presentation at Speak the Web

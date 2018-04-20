@@ -1,6 +1,6 @@
 ---
 title: Web Native Design
-date: '2012-05-16 14:00:00 +0100'
+date: '2012-05-16T14:00:00+0100'
 location: Copenhagen, Denmark
 event: 'LBi Denmark: We Do Our Own Stunts'
 excerpt: Slides from my presentation at LBi Denmark

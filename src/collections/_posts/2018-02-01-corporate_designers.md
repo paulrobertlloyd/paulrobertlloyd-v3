@@ -1,6 +1,6 @@
 ---
 title: Hostage Situation
-date: '2018-02-01 14:30:00 +0000'
+date: '2018-02-01T14:30:00Z'
 location: Brighton, England
 excerpt: 'Why do some designers choose to work for ''evil'' corporations -- and what happens to them when they get there?'
 tags:

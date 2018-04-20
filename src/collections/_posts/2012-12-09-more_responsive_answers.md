@@ -1,6 +1,6 @@
 ---
 title: More Responsive Answers
-date: '2012-12-09 17:55:00 +0000'
+date: '2012-12-09T17:55:00Z'
 location: Brighton, England
 excerpt: Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four questions as part of his December Interview Series. Here are my answers.
 tags:

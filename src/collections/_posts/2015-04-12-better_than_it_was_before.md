@@ -1,6 +1,6 @@
 ---
 title: 'Better Than It Was Before'
-date: '2015-04-12 16:39:19 +0100'
+date: '2015-04-12T16:39:19+0100'
 location: Brighton, England
 excerpt: 'Finding parallels between redecorating my house and redesigning a website.'
 tags:

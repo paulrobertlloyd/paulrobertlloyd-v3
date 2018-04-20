@@ -1,6 +1,6 @@
 ---
 title: Designing for Everyone
-date: '2012-11-10 16:10:00 +0000'
+date: '2012-11-10T16:10:00Z'
 location: 'Birmingham, England'
 event: 'Multipack Presents: Show and Tell'
 excerpt: Slides from my presentation at Multipack Presents

@@ -1,6 +1,6 @@
 ---
 title: Birmingham City Council Versus the Twitterati
-date: '2009-09-14 23:53:36 +0100'
+date: '2009-09-14T23:53:36+0100'
 location: Walsall, England
 excerpt: Last week Birmingham City Council launched its new £2.8m website. Delayed, over budget and woefully inadequate, it rightly faced a storm of criticism on Twitter and from the local press.
 tags:

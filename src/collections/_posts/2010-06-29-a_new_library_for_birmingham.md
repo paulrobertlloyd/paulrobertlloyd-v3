@@ -1,6 +1,6 @@
 ---
 title: A New Library for Birmingham
-date: '2010-06-29 22:21:41 +0100'
+date: '2010-06-29T22:21:41+0100'
 location: Littlehampton, England
 excerpt: Architecture has never been kind to Birmingham, but then Birmingham has never been kind to its architecture.
 images:

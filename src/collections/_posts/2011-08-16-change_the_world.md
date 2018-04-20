@@ -1,6 +1,6 @@
 ---
 title: Change the World
-date: '2011-08-16 00:45:20 +0100'
+date: '2011-08-16T00:45:20+0100'
 location: Brighton, England
 excerpt: Facebook's continuing hoovering up of top design talent has been worrying me for some months. The shopping spree continued earlier this month with the acquisition of Push Pop Press, a promising start-up building an innovative digital publishing platform.
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Back to Bradshaw's
-date: '2018-01-02 13:00:00 +0000'
+date: '2018-01-02T13:00:00Z'
 location: Bexhill-on-Sea, England
 excerpt: Having copied, pasted and formatted another 115 pages of OCR'd text, <cite>Bradshaw's Guide</cite> now contains tours throughout South West England, the West Midlands, Wales and Ireland.
 tags:

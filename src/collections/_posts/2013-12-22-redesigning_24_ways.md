@@ -1,6 +1,6 @@
 ---
 title: Redesigning 24 ways
-date: '2013-12-22 22:53:51 +0000'
+date: '2013-12-22T22:53:51Z'
 location: Brighton, England
 excerpt: The tail end of this year has been rather hectic. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning 24 ways.
 images:
@@ -147,7 +147,7 @@ This naming system produced markup patterns like this:
   <header class="summary_header">
     <h1 class="summary_title p-name"><a class="u-url" rel="bookmark" href="#">Real Animation Using JavaScript, CSS3, and HTML5 Video</a></h1>
     <p class="summary_meta">
-      <time class="dt-published" datetime="2010-12-15T00:00:00-00:00">15 Dec 2010</time>
+      <time class="dt-published" datetime="2010-12-15T00:00:00Z">15 Dec 2010</time>
       <a class="summary_comments" href="#comments">6 comments</a>
     </p>
   </header>

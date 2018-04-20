@@ -1,7 +1,7 @@
 ---
 title: Magical Melbourne
 series: australasia_2009
-date: '2010-01-29 23:42:47 +0000'
+date: '2010-01-29T23:42:47Z'
 excerpt: After two and a half weeks exploring various cities, it was finally on to Melbourne, the final stop on my short tour of Australasia.
 images:
 - 2010/01/melbourne_royal_exhibition_building.jpg

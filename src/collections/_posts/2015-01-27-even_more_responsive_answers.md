@@ -1,6 +1,6 @@
 ---
 title: (Even More) Responsive Answers
-date: '2015-01-27 19:04:00 +0000'
+date: '2015-01-27T19:04:00Z'
 location: Brighton, England
 excerpt: Each month net Magazine run a section called Exchange, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was asked to be the responsive expert in their March issue, which is on sale now.
 images:

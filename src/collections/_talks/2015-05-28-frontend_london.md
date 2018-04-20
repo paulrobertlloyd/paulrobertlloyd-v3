@@ -1,6 +1,6 @@
 ---
 title: Responsive Principles
-date: '2015-05-28 20:30:00 +0100'
+date: '2015-05-28T20:30:00+0100'
 location: London, England
 event: Front-end London
 excerpt: Slides from my presentation at Front-end London

@@ -1,6 +1,6 @@
 ---
 title: The Journey
-date: '2012-03-21 23:43:51 +0000'
+date: '2012-03-21T23:43:51Z'
 location: Brighton, England
 excerpt: A new pair of jeans, the reignited love for a city and an inevitable answer to a surprisingly surprising question. Just some of the artefacts collected during two weeks in America.
 tags:

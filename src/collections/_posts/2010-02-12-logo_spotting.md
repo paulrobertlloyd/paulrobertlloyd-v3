@@ -1,6 +1,6 @@
 ---
 title: Logo Spotting
-date: '2010-02-12 00:10:20 +0000'
+date: '2010-02-12T00:10:20Z'
 location: Littlehampton, England
 excerpt: My love of detail is often reaffirmed by my noticing the almost inconsiderable tweaks in the designed environment around me.
 tags:

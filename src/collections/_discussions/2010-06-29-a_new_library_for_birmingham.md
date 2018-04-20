@@ -3,7 +3,7 @@ title: A New Library for Birmingham
 remarks:
 - author: Andy
   gravatar: 3282170b113297711ac2a2d41bffb70d
-  date: '2010-06-30 11:23:01 +0100'
+  date: '2010-06-30T11:23:01+0100'
   url: http://andyhiggs.co.uk
   content: |
     Hi Paul,

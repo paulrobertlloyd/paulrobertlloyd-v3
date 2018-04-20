@@ -3,7 +3,7 @@ title: The Multipack Presents...
 remarks:
 - author: Jon Roobottom
   gravatar: e3c764941478ad667ec52f1b9e700be5
-  date: '2009-02-08 13:14:22 +0000'
+  date: '2009-02-08T13:14:22Z'
   url: http://roobottom.com
   content: |
     Ahhh... so wish I could make it to this! But for some reason I thought it'd be a good idea to run 13 miles on the Sunday.
@@ -12,7 +12,7 @@ remarks:
 
 - author: Mark Otto
   gravatar: 7ff6ba0b742c6066f7094de212e9efad
-  date: '2009-02-10 16:57:00 +0000'
+  date: '2009-02-10T16:57:00Z'
   url: http://www.zurb.com
   content: |
     Wow, that's pretty cool, Paul! Having small "conventions" like this a is great way to keep up on industry trends and build a more collaborative team of qualified professionals.

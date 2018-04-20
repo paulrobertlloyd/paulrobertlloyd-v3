@@ -1,7 +1,7 @@
 ---
 title: Absolutely, Positively, Wellington
 series: australasia_2009
-date: '2010-01-27 23:12:23 +0000'
+date: '2010-01-27T23:12:23Z'
 excerpt: Wellington will remain the most memorable stop on my brief tour of New Zealand, although perhaps not entirely for the right reasons.
 images:
 - 2010/01/wellington_cable_car.jpg

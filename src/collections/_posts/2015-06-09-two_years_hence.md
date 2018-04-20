@@ -1,6 +1,6 @@
 ---
 title: 'Two Years Hence'
-date: '2015-06-09 22:35:51 +0100'
+date: '2015-06-09T22:35:51+0100'
 location: Brighton, England
 excerpt: 'For the last few years I''ve employed a little life hack: signing up my future self to things I would ordinarily avoid.'
 tags:

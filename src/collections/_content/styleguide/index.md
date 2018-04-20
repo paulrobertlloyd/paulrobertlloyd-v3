@@ -1,7 +1,7 @@
 ---
 title: Style guide
 series: styleguide
-date: '2015-07-12 00:00:00 +0000'
+date: '2015-07-12T00:00:00Z'
 excerpt: Mark-up styles and components used throughout this site.
 permalink: /styleguide/
 ---

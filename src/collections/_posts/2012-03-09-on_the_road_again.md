@@ -1,6 +1,6 @@
 ---
 title: On The Road Again
-date: '2012-03-09 23:53:40 +0000'
+date: '2012-03-09T23:53:40Z'
 location: Austin, USA
 excerpt: Once again, I'm in Austin for SXSW Interactive; the forth time I've attended an event I find easy to disparage. Yet this is the first stop on a trip that will take in several hundred miles of Interstate highway between here and San Francisco; two points of familiarity on an itinerary that promises to be anything but predictable.
 images:

@@ -1,7 +1,7 @@
 ---
 title: 'Designing Systems, Part 1: Theory, Practice, and the Unfortunate In-between'
 series: designing_systems
-date: '2017-01-06 12:00:00 +0000'
+date: '2017-01-06T12:00:00Z'
 location: Bexhill-on-Sea, England
 excerpt: 'Part one of a three-part essay based on the talk I gave at Smashing Conference. Before thinking about how we might approach the creation of a design system, I review two approaches to the design of something equally as complex: a city.'
 images:

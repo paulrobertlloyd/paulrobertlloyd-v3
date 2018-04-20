@@ -1,7 +1,7 @@
 ---
 title: Scopes
 series: styleguide
-date: '2015-07-12 00:00:01 +0000'
+date: '2015-07-12T00:00:01Z'
 excerpt: Areas of user-generated content, with HTML that has come from a CMS.
 ---
 The introductory paragraph above uses the `.s-lede`{: .language-css} class to scope that content. The rest of the content on this page lies within the `.s-prose--body`{: .language-css} scope[^1].

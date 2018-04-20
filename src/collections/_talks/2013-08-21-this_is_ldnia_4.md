@@ -1,6 +1,6 @@
 ---
 title: This is for Everyone
-date: '2013-08-21 20:00:00 +0100'
+date: '2013-08-21T20:00:00+0100'
 location: London, England
 event: 'This is LDNIA #4'
 excerpt: Slides from my presentation at LDNIA

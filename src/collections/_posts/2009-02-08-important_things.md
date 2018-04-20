@@ -1,6 +1,6 @@
 ---
 title: Important Things
-date: '2009-02-08 11:44:27 +0000'
+date: '2009-02-08T11:44:27Z'
 excerpt: One of my favourite comedians stars in a new show starting on Comedy Central this week.
 images:
 - 2009/02/important_things.jpg

@@ -1,6 +1,6 @@
 ---
 title: 'Rotterdam Reflections'
-date: '2015-06-25 22:55:52 +0100'
+date: '2015-06-25T22:55:52+0100'
 location: Brighton, England
 excerpt: 'Some thoughts after spending a few days in the Netherlands'' second city.'
 images:

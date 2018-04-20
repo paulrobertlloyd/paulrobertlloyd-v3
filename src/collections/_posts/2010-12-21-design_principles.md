@@ -1,6 +1,6 @@
 ---
 title: Design Principles
-date: '2010-12-21 23:22:30 +0000'
+date: '2010-12-21T23:22:30Z'
 location: Brighton, England
 excerpt: I've been thinking about redesigning this website for the last six months, but haven't been able to find a strategy for making these changes happen. To keep this project on course, I've defined a set of design principles.
 tag:

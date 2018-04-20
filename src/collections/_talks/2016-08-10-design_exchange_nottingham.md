@@ -1,6 +1,6 @@
 ---
 title: 'Designing Systems: Theory, Practice, and the Unfortunate In-between'
-date: '2016-08-10 20:15:00 +0100'
+date: '2016-08-10T20:15:00+0100'
 location: Nottingham, England
 event: Design Exchange Nottingham
 excerpt: Slides from my presentation at Design Exchange Nottingham

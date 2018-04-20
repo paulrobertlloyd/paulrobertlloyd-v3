@@ -1,6 +1,6 @@
 ---
 title: 'Changing Gears'
-date: '2015-01-20 00:06:42 +0000'
+date: '2015-01-20T00:06:42Z'
 location: Brighton, England
 excerpt: 'I''m leaving the Guardian and going freelance in March.'
 tags:

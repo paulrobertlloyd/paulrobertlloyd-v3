@@ -1,6 +1,6 @@
 ---
 title: 'Designing Systems: Theory, Practice, and the Unfortunate In-between'
-date: '2016-09-13 11:15:00 +0200'
+date: '2016-09-13T11:15:00+0200'
 location: Freiburg, Germany
 event: Smashing Conference
 excerpt: Slides from my presentation at Smashing Conference
