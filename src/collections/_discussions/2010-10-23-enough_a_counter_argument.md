@@ -3,7 +3,7 @@ title: 'Enough: A Counter Argument'
 remarks:
 - author: Aegir
   gravatar: 8bc27b5dfad80eb7fec822c2480283f4
-  date: '2010-10-23T17:03:22+0100'
+  date: 2010-10-23T17:03:22+0100
   url: http://ministryoftype.co.uk
   content: |
     Admittedly I'm using figures found online, but...
@@ -22,7 +22,7 @@ remarks:
 
 - author: http://www.google.com/profiles/bradya
   gravatar: 4a5473ec57fcad4780c17a3757421a4c
-  date: '2010-10-24T18:50:40+0100'
+  date: 2010-10-24T18:50:40+0100
   url: http://insom.me.uk/
   content: |
     Argh. I completely agree that consumerism is aggressive and pervasive but videos like that make me angry in the way Michael Moore's do.

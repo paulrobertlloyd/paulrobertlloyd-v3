@@ -1,6 +1,6 @@
 ---
 title: That's Not My Name!
-date: '2009-02-02T22:07:44Z'
+date: 2009-02-02T22:07:44Z
 location: San Francisco, USA
 excerpt: As I approach the end of my latest trip to America, I continue to fight the losing battle that is getting people to understand me when I say my first name.
 tags:

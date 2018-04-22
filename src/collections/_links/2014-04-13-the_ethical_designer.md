@@ -1,6 +1,6 @@
 ---
 title: Cennydd Bowles on the Ethical Designer
-date: '2014-04-13T15:20:11Z'
+date: 2014-04-13T15:20:11Z
 link: https://www.youtube.com/video/SB_GDF-mKTE
 embed: true
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Now That The Games Have Gone
-date: '2012-08-14T03:02:30+0100'
+date: 2012-08-14T03:02:30+0100
 location: Brighton, England
 excerpt: The last two weeks have been amazing. I tried my best to sample as much ofthe Olympic fever as I could, but with so much going on, the spectacle was overwhelming. So much to see, so little time to see it.
 images:

@@ -1,6 +1,6 @@
 ---
 title: Fuel-Careful F1 Less of a Guilty Pleasure
-date: '2014-04-22T21:51:23Z'
+date: 2014-04-22T21:51:23Z
 link: http://bigstory.ap.org/article/column-fuel-careful-f1-less-guilty-pleasure
 tags:
 - Formula 1

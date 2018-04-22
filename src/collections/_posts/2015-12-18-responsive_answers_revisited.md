@@ -1,6 +1,6 @@
 ---
 title: Responsive Answers Revisited
-date: '2015-12-18T23:30:00Z'
+date: 2015-12-18T23:30:00Z
 location: Brighton, England
 excerpt: Justin Avery, who curates Responsive Design Weekly, asked me to revisit the four questions I answered as part of an interview series in 2013. Here are my answers.
 tags:

@@ -1,6 +1,6 @@
 ---
 title: The Web Native Designer
-date: '2011-08-13T20:00:00+0100'
+date: 2011-08-13T20:00:00+0100
 location: Leamington Spa, England
 event: Geek in the Park 2011
 excerpt: Transcript of my presentation at Geek in the Park

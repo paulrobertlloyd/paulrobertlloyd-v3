@@ -1,6 +1,6 @@
 ---
 title: net Awards 2014
-date: '2014-02-02T16:57:58Z'
+date: 2014-02-02T16:57:58Z
 location: Brighton, England
 excerpt: The net Awards return for their fifteenth year, and I'm more than a little surprised to be nominated for Designer of the Year.
 tags:

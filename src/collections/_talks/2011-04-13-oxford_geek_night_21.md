@@ -1,6 +1,6 @@
 ---
 title: Styleguides for the Web
-date: '2011-04-13T20:00:00+0100'
+date: 2011-04-13T20:00:00+0100
 location: Oxford, England
 event: Oxford Geek Night 21
 excerpt: Slides from my presentation at Oxford Geek Night

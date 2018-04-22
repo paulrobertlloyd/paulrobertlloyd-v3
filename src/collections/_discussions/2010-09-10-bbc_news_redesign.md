@@ -3,7 +3,7 @@ title: Thoughts on the BBC News Redesign
 remarks:
 - author: Tim Print
   gravatar: 10422b15b0082b87e737022e1fac298d
-  date: '2010-09-11T11:50:05+0100'
+  date: 2010-09-11T11:50:05+0100
   url: http://timprint.co.uk
   content: |
     Nice write up Paul. I don't think I've studied it as closely as you and I was critical of the new design when it first appeared. After a few weeks of use though I have to say I'm liking it more and more.
@@ -12,7 +12,7 @@ remarks:
 
 - author: aBitGone
   gravatar: 7586faba320def3205c6cac5aadfb5f6
-  date: '2010-09-15T09:44:29+0100'
+  date: 2010-09-15T09:44:29+0100
   content: |
     The BBC News and BBC Food relaunches have been great successes as far as I'm concerned. I was a little disappointed to see that the BBC have gone back to Arial as their first choice of web typeface, but I suspect that decision has more to do with how the dominant Windows-based browsers render Helvetica -- very poorly, if memory serves.
 
@@ -20,7 +20,7 @@ remarks:
 
 - author: Stan Cooper
   gravatar: 9959600ae2680a8a5b29ee14d3251152
-  date: '2010-09-19T07:59:45+0100'
+  date: 2010-09-19T07:59:45+0100
   content: |
     Here we go again! After all these incessant changes we are still in the realms of "beta" or should that be "beat up."
 
@@ -28,7 +28,7 @@ remarks:
 
 - author: alejandro
   gravatar: e4234b4a796c4146136b7890501b70c1
-  date: '2010-09-19T21:21:27+0100'
+  date: 2010-09-19T21:21:27+0100
   content: |
     The MSNBC redesign has rendered that site unusable. There are reports that they have also lost 25% of their online audience.
 
@@ -36,7 +36,7 @@ remarks:
 
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
-  date: '2010-09-19T22:39:05+0100'
+  date: 2010-09-19T22:39:05+0100
   url: http://paulrobertlloyd.com/
   content: |
     [@Stan](#remark-3) Thanks for your comment. However, I'm interested to understand why you thought the previous design worked better than the new version—could you expand on your feedback at all?

@@ -1,6 +1,6 @@
 ---
 title: 'So Long Kris, and Thanks for All the Trips'
-date: '2018-02-13T21:00:00Z'
+date: 2018-02-13T21:00:00Z
 location: Brighton, England
 excerpt: 'Kris Benbow, 1981-2018'
 tags:

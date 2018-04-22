@@ -1,6 +1,6 @@
 ---
 title: The Architecture of Brasília
-date: '2011-07-18T19:56:39+0100'
+date: 2011-07-18T19:56:39+0100
 excerpt: Brasília is remarkable for a number of reasons, not least its aeroplane like street layout planned by Lúcio Costa. However it's the distinctive architecture that draws most attention, and much of this was designed by Oscar Niemeyer. Few architects are given the opportunity to design on such a scale, so it's unsurprising that I recognised many familiar patterns and motifs appearing throughout the city's many different buildings.
 tags:
 - Architecture

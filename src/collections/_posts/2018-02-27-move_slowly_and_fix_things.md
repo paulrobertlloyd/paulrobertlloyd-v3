@@ -1,6 +1,6 @@
 ---
 title: Moving Slowly and Fixing Things
-date: '2018-02-27T00:34:00Z'
+date: 2018-02-27T00:34:00Z
 location: Brighton, England
 excerpt: 'Three aspects of my personality have proven pertinent.'
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: presentation
 title: Fantasies of the Future
-date: '2017-06-30T15:30:00+0100'
+date: 2017-06-30T15:30:00+0100
 location: Brighton, England
 event: Patterns Day
 excerpt: Slides and referenced transcript from my presentation at Patterns Day

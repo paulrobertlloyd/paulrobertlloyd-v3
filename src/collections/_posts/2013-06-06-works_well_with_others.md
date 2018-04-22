@@ -1,6 +1,6 @@
 ---
 title: Works Well With Others
-date: '2013-06-06T00:00:00Z'
+date: 2013-06-06T00:00:00Z
 location: Brighton, England
 excerpt: A brief thought about collaboration.
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 'Why You Should Take A Black Cab, Not An Uber, This Christmas'
-date: '2015-12-22T15:00:00Z'
+date: 2015-12-22T15:00:00Z
 link: http://londonist.com/2015/12/why-you-should-take-a-black-cab-not-an-uber-this-christmas
 tags:
 - Uber

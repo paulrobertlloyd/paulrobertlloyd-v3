@@ -1,6 +1,6 @@
 ---
 title: Microblogging
-date: '2018-01-23T17:15:00Z'
+date: 2018-01-23T17:15:00Z
 location: Brighton, England
 excerpt: Twitter is a place I visit to get annoyed. I need an alternative. That alternative could be my very own website.
 tags:

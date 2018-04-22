@@ -1,7 +1,7 @@
 ---
 layout: presentation
 title: Styleguides for the Web
-date: '2010-11-20T14:00:00Z'
+date: 2010-11-20T14:00:00Z
 location: Birmingham, England
 event: 'Multipack Presents: The Design Process'
 excerpt: Slides and referenced transcript from my presentation at Multipack Presents

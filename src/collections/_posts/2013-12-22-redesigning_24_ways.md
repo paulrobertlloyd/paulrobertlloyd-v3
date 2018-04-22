@@ -1,6 +1,6 @@
 ---
 title: Redesigning 24 ways
-date: '2013-12-22T22:53:51Z'
+date: 2013-12-22T22:53:51Z
 location: Brighton, England
 excerpt: The tail end of this year has been rather hectic. If moving house and changing jobs weren't enough to be getting on with, I was also busy redesigning 24 ways.
 images:

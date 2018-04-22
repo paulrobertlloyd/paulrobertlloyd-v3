@@ -1,6 +1,6 @@
 ---
 title: 'HTTPS + Compression Considered Harmful?'
-date: '2015-05-03T21:51:36+0100'
+date: 2015-05-03T21:51:36+0100
 location: Brighton, England
 excerpt: 'I recently learnt about a security exploit that can occur when pages served over HTTPS use HTTP compression. Secure or fast, pick one?'
 tags:

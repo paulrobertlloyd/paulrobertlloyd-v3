@@ -1,6 +1,6 @@
 ---
 title: 'Usable yet Useless: Why Every Business Needs Product Discovery'
-date: '2012-08-28T14:38:10+0100'
+date: 2012-08-28T14:38:10+0100
 link: http://alistapart.com/articles/usable-yet-useless-why-every-business-needs-product-discovery/
 tags:
 - Web

@@ -1,7 +1,7 @@
 ---
 title: Utilities
 series: styleguide
-date: '2015-07-12T00:00:02Z'
+date: 2015-07-12T00:00:02Z
 excerpt: Reusable classes with a single purpose and specific role.
 ---
 ## Content

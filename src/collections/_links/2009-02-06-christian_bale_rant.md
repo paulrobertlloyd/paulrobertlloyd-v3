@@ -1,6 +1,6 @@
 ---
 title: 'Christian Bale Rant: Batman Edition'
-date: '2009-02-06T17:34:26Z'
+date: 2009-02-06T17:34:26Z
 link: https://www.youtube.com/video/Xaw1bx1GqWo
 embed: true
 tags:

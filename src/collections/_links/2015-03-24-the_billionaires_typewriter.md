@@ -1,6 +1,6 @@
 ---
 title: 'The Billionaire''s Typewriter'
-date: '2015-03-24T12:59:18Z'
+date: 2015-03-24T12:59:18Z
 link: http://practicaltypography.com/billionaires-typewriter.html
 tags:
 - Ethics

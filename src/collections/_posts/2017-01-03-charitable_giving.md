@@ -1,6 +1,6 @@
 ---
 title: 'Sharing is Caring'
-date: '2017-01-03T19:25:00Z'
+date: 2017-01-03T19:25:00Z
 location: Bexhill-on-Sea, England
 excerpt: 'I''m attempting to deal with the string of unfortunate events in current affairs by being more generous.'
 tags:

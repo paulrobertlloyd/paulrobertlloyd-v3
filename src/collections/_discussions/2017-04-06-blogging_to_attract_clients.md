@@ -3,7 +3,7 @@ title: 'Using Your Blog to Attract New Clients'
 remarks:
 - author: Dmitry Dragilev
   gravatar: bd84c9d738872494aad536f71e814efc
-  date: '2017-07-06T22:48:00+0100'
+  date: 2017-07-06T22:48:00+0100
   url: https://www.criminallyprolific.com
   content: |
     Hi Paul! Thanks for you note and I'm happy to see you actually take the challenge, this is exactly the type of thing I was expecting you to do! Write about something you're passionate about and engage in a dialog with folks by including your article as a relevant example!
@@ -29,7 +29,7 @@ remarks:
     Sorry for such a long comment. Does this make sense?
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
-  date: '2017-07-07T00:21:00+0100'
+  date: 2017-07-07T00:21:00+0100
   url: http://paulrobertlloyd.com/
   content: |
     Thanks for taking the time to reply to my post.

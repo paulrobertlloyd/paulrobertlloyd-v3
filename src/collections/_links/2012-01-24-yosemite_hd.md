@@ -1,6 +1,6 @@
 ---
 title: Yosemite HD
-date: '2012-01-24T19:47:07Z'
+date: 2012-01-24T19:47:07Z
 link: https://vimeo.com/35396305
 embed: true
 tags:

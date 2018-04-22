@@ -1,6 +1,6 @@
 ---
 title: Questioning Container Queries
-date: '2017-04-03T02:30:00+0100'
+date: 2017-04-03T02:30:00+0100
 location: Brighton, England
 excerpt: Container queries are always a popular topic when discussing the future of responsive design. But do we actually need them anymore?
 tags:

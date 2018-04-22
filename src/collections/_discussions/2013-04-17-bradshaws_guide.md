@@ -3,7 +3,7 @@ title: (Re)introducing Bradshaw's Guide
 remarks:
 - author: Nick Harewood
   gravatar: f57e57be6ed12e51d3c9e9f6c030b522
-  date: '2013-04-18T11:16:58+0100'
+  date: 2013-04-18T11:16:58+0100
   url: https://twitter.com/spacescape
   content: |
     Lovely work. Despite my affection for rail travel and appreciation of Victorian endeavour I've not seen Portillo's series (perhaps partly due to household political bias -- though I do enjoy his pragmatic commentary on the Daily Politics). Will have to rectify that.

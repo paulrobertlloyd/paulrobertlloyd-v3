@@ -1,6 +1,6 @@
 ---
 title: 'a.green:focus'
-date: '2009-04-18T14:00:00Z'
+date: 2009-04-18T14:00:00Z
 location: Birmingham, England
 event: 'Multipack Presents: Being Green'
 excerpt: Slides from my presentation at Multipack Presents

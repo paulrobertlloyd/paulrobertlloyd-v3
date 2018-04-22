@@ -1,7 +1,7 @@
 ---
 title: 'Washington DC: A Monumental City'
 series: north_america_2008
-date: '2008-12-29T20:49:25Z'
+date: 2008-12-29T20:49:25Z
 excerpt: The final stop in my four-city tour of the US in October was Washington, D.C.
 images:
 - 2008/12/washington_dc_vietnam_memorial.jpg

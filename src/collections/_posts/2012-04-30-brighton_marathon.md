@@ -1,6 +1,6 @@
 ---
 title: Marathon Man
-date: '2012-04-30T23:48:01+0100'
+date: 2012-04-30T23:48:01+0100
 location: Brighton, England
 excerpt: Although I spent much of April writing a tutorial for .net Magazine, I did enjoy a brief respite while I ran the Brighton Marathon. Yep, it's been quite the month.
 tags:

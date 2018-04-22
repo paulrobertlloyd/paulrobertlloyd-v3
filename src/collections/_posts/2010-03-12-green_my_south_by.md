@@ -1,6 +1,6 @@
 ---
 title: Green My South By
-date: '2010-03-12T02:42:00Z'
+date: 2010-03-12T02:42:00Z
 location: Littlehampton, England
 excerpt: Once again, I feel the duty falls upon me to remind those attending this year's SXSW festival in Austin, that you really need not pick up that big, heavy, cumbersome and frankly useless bag of marketing junk.
 tags:

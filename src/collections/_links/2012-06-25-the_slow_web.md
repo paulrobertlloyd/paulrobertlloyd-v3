@@ -1,6 +1,6 @@
 ---
 title: The Slow Web
-date: '2012-06-25T23:58:47+0100'
+date: 2012-06-25T23:58:47+0100
 link: http://jackcheng.com/the-slow-web
 tags:
 - Web

@@ -1,6 +1,6 @@
 ---
 title: Steve Jobs by Walter Isaacson
-date: '2012-01-26T21:56:34Z'
+date: 2012-01-26T21:56:34Z
 location: Brighton, England
 excerpt: After enough subtle hints, I was happy to unwrap a copy of the Steve Jobs biography at Christmas. I don't read many books, and those I do, I rarely finish, but I couldn't put this one down. When I intended to read half an hour before bed, I'd usually end up reading for two.
 images:

@@ -1,6 +1,6 @@
 ---
 title: A Green Focus
-date: '2010-02-19T16:47:08Z'
+date: 2010-02-19T16:47:08Z
 location: Littlehampton, England
 excerpt: I ended my review of 2009 promising to write more about green issues and how I plan to lessen my impact on the environment. Now I expand on those ideas further.
 tags:

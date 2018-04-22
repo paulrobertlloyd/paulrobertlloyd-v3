@@ -1,6 +1,6 @@
 ---
 title: What should you think about when using Facebook?
-date: '2017-03-05T21:45:00Z'
+date: 2017-03-05T21:45:00Z
 link: http://veekaybee.github.io/facebook-is-collecting-this/
 tags:
 - Facebook

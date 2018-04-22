@@ -1,7 +1,7 @@
 ---
 title: 'Designing Systems, Part 2: Layers of Longevity'
 series: designing_systems
-date: '2017-01-31T23:00:00Z'
+date: 2017-01-31T23:00:00Z
 location: Bexhill-on-Sea, England
 excerpt: 'In the second part of my three-part essay based on the talk I gave at Smashing Conference, I propose a model for thinking about design systems.'
 tags:

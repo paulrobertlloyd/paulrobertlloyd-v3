@@ -1,6 +1,6 @@
 ---
 title: The Edge of the Web
-date: '2013-03-28T20:30:00Z'
+date: 2013-03-28T20:30:00Z
 location: London, England
 event: Front-end London
 excerpt: Slides from my presentation at Front-end London

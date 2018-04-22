@@ -1,6 +1,6 @@
 ---
 title: To Fly. To Serve.
-date: '2011-09-27T22:44:50+0100'
+date: 2011-09-27T22:44:50+0100
 link: https://www.youtube.com/video/a4JdQi60an0
 embed: true
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Baseline Grids on the Web
-date: '2012-11-02T00:31:50Z'
+date: 2012-11-02T00:31:50Z
 link: http://jasonsantamaria.com/articles/baseline-grids-on-the-web
 tags:
 - Web

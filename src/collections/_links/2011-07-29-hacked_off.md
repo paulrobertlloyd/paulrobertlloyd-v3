@@ -1,6 +1,6 @@
 ---
 title: Hacked Off
-date: '2011-07-29T14:16:02+0100'
+date: 2011-07-29T14:16:02+0100
 link: https://twitter.com/sniffpetrol/status/96848013997260801
 tags:
 - BSkyB

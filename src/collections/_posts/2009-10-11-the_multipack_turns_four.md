@@ -1,6 +1,6 @@
 ---
 title: The Multipack Turns Four
-date: '2009-10-11T15:59:31+0100'
+date: 2009-10-11T15:59:31+0100
 location: Littlehampton, England
 excerpt: The web development community has certainly grown up in the last four years.
 tags:

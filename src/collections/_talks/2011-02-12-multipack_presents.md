@@ -1,6 +1,6 @@
 ---
 title: 'Fontdeck: Realign, Not Redesign'
-date: '2011-02-12T19:00:00Z'
+date: 2011-02-12T19:00:00Z
 location: Birmingham, England
 event: 'Multipack Presents: Show and Tell'
 excerpt: Slides from my presentation at Multipack Presents

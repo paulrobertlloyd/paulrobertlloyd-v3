@@ -1,7 +1,7 @@
 ---
 layout: presentation
 title: The Web Native Designer
-date: '2011-03-08T10:00:00Z'
+date: 2011-03-08T10:00:00Z
 location: London, England
 event: APA Digital Breakfast
 excerpt: Slides and referenced transcript from my talk at APA''s Digital Breakfast

@@ -1,6 +1,6 @@
 ---
 title: Barebones
-date: '2012-05-08T12:20:24+0100'
+date: 2012-05-08T12:20:24+0100
 link: http://barebones.paulrobertlloyd.com/
 tags:
 - Projects

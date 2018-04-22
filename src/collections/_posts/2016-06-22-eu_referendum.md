@@ -1,6 +1,6 @@
 ---
 title: 'Breaking Point: Why I''m voting to Remain in the EU Referendum'
-date: '2016-06-22T02:25:00+0100'
+date: 2016-06-22T02:25:00+0100
 location: Amsterdam, The Netherlands
 excerpt: 'The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.'
 images:

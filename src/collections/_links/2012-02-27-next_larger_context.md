@@ -1,6 +1,6 @@
 ---
 title: Next Larger Context
-date: '2012-02-27T02:03:33Z'
+date: 2012-02-27T02:03:33Z
 link: http://quotevadis.com/post/18011423665/eliel-saarinen-always-design-things-by-context
 tags:
 - Design
