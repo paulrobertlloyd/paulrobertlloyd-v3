@@ -24,17 +24,18 @@ layout: default
     <div class="c-section__main">
       {% assign month = this_month %}
     {% endif %}
-      {% case item.layout %}
-      {% when "link" %}
-        {% include item/link.html %}
-      {% when "note" %}
-        {% include item/note.html %}
-      {% else %}
-        {% include item/item.html %}
-      {% endcase %}
-    {% if forloop.last %}
+    {% case item.layout %}
+    {% when "link" %}
+      {% include item/link.html %}
+    {% when "note" %}
+      {% include item/note.html %}
+    {% else %}
+      {% include item/item.html %}
+    {% endcase %}
+
+  {% endif %}
+  {% if forloop.last %}
     </div>
   </section>
-    {% endif %}
   {% endif %}
 {% endfor %}
