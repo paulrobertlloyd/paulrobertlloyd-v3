@@ -32,7 +32,7 @@ As I explored the exhibits, I jotted down the artists whose work caught my atten
 Two of the rooms in the new building were devoted to photography, the first featuring the work of **[Edward Ruscha][4]**. On display was his series [<cite>Twentysix Gasoline Stations</cite>][5], a selection of which can be seen above. Another series, [<cite>Thirtyfour Parking Lots in Los Angeles</cite>][6] was possibly more captivating, not least because his aerial photographs took on a more abstract and alien tone.
 
 {% include figure.html
-  src="2016/10/kunstmuseum_ruscha.png"
+  src="2016/10/kunstmuseum_becher.png"
   caption="Hilla and Bernd Becher, <cite>Gas Tanks</cite>, 1983-92"
 %}
 
