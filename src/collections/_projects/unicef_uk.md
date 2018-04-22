@@ -1,6 +1,6 @@
 ---
 title: UNICEF UK
-date: '2013-07-01'
+date: 2013-07-01
 excerpt: Mobile-first redesign for leading children's charity
 featured: true
 screenshots:

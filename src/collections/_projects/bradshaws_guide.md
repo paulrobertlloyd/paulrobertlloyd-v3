@@ -1,6 +1,6 @@
 ---
 title: Bradshaw's Guide
-date: '2018-01-02'
+date: 2018-01-02
 excerpt: Digital revival of a much loved Victorian railway guide
 featured: true
 screenshots:

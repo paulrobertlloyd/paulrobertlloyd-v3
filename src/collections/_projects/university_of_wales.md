@@ -1,6 +1,6 @@
 ---
 title: University of Wales
-date: '2009-10-29'
+date: 2009-10-29
 excerpt: An extensible design language for international university
 screenshots:
 - projects/university_of_wales/desktop-a.png

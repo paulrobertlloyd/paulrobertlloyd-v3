@@ -1,6 +1,6 @@
 ---
 title: dConstruct
-date: '2013-05-02'
+date: 2013-05-02
 excerpt: Collaborative design for grassroots digital conference
 screenshots:
 - projects/dconstruct/2010/desktop-a.png

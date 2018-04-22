@@ -1,6 +1,6 @@
 ---
 title: Ning
-date: '2007-03-21'
+date: 2007-03-21
 excerpt: Lead design for customisable social media platform
 screenshots:
 - projects/ning/desktop-a.png

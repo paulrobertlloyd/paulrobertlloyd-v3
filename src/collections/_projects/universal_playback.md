@@ -1,6 +1,6 @@
 ---
 title: Universal Playback
-date: '2010-11-01'
+date: 2010-11-01
 excerpt: Modular design that showcased a library of television favouites
 screenshots:
 - projects/universal_playback/desktop-a.png

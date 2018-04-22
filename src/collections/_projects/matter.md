@@ -1,6 +1,6 @@
 ---
 title: Matter
-date: '2012-11-14'
+date: 2012-11-14
 excerpt: Beautiful reading experience for publisher of unmissable journalism
 featured: true
 screenshots:

@@ -1,6 +1,6 @@
 ---
 title: Channel 4 News
-date: '2010-09-30'
+date: 2010-09-30
 excerpt: Reinventing Channel 4's news presence on the iPad
 featured: true
 screenshots:

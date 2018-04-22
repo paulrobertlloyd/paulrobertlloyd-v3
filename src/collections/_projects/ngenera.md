@@ -1,6 +1,6 @@
 ---
 title: nGenera
-date: '2008-04-25'
+date: 2008-04-25
 excerpt: Brand identity for on demand enterprise technology platform
 featured: true
 screenshots:

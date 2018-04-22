@@ -1,6 +1,6 @@
 ---
 title: Mozilla Add-ons
-date: '2009-05-29'
+date: 2009-05-29
 excerpt: Introducing browser add-ons to a mainstream audience
 screenshots:
 - projects/mozilla_addons/desktop-a.png

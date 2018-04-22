@@ -1,6 +1,6 @@
 ---
 title: 24 ways
-date: '2013-12-01'
+date: 2013-12-01
 excerpt: Award-winning redesign for popular web geek advent calendar
 featured: true
 screenshots:

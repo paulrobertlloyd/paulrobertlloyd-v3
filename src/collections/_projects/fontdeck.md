@@ -1,6 +1,6 @@
 ---
 title: Fontdeck
-date: '2010-11-30'
+date: 2010-11-30
 excerpt: Distinctive lead design for purveyor of the finest web fonts
 featured: true
 screenshots:
