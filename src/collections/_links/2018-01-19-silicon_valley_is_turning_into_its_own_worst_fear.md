@@ -17,6 +17,6 @@ Perhaps we can use it to understand another of its weird obsessions, 'curing' de
 
 > The harm here isn't just that Silicon Valley is trying to solve the wrong problem, which wastes brainpower and resources. The focus on innovating away death sets a cultural tone that directs attention from answers that might actually help, like infrastructure or education.
 
-I tend to agree with Steve Jobs, who said [death is the greatest invention of life](https://www.youtube.com/watch?v=8XdhQ752PbA). Maybe this particular obsession is just a manifestation of what corporations perceive as death: regulation. As the original title of Ted's article stated -- the real danger to civilisation isn't AI. It's runaway capitalism.
+I tend to agree with Steve Jobs, who said [death is the greatest invention of life](https://www.youtube.com/video/8XdhQ752PbA). Maybe this particular obsession is just a manifestation of what corporations perceive as death: regulation. As the original title of Ted's article stated -- the real danger to civilisation isn't AI. It's runaway capitalism.
 
 *[AI]: Artificial intelligence

@@ -16,7 +16,7 @@ These aspects of my personality I'm familiar with, but recently I have come to a
 
 While others were wooed by the potential of designing for billions, this idea made me feel queasy. So did the thought of working for a large organisation, [although I gave it a go][4]. While others moved fast, eager to ship whatever they had built, I remained cautious, avoiding the frameworks and fads, instead doubling down on the foundational aspects of my craft. Today, as we come to terms with [the wreckage wrought by this hastiness][5], I find myself eager to fix things; slowly, one small piece at a time.
 
-[^1]: While I take a degree of pride in these aspects, it's probaly worth acknowledging these as biases before I approach any new work.
+[^1]: While I take a degree of pride in these aspects, it's probably worth acknowledging these as biases before I approach any new work.
 
 [1]: https://lloydyweb.paulrobertlloyd.com/blog/2005/08/a_tall_story.php
 [2]: https://www.behindthename.com/name/paul

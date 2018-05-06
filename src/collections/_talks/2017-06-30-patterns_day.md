@@ -49,9 +49,7 @@ slides:
     With Brazil's vast and unpopulated interior as their canvas, Costa and Niemeyer set to work, and used some of these ideas as the basis for their new city.
 - format: jpg
   notes: |
-    From Brazil's barren central plateau, a new city emerged.
-
-    And boy, what a city!
+    From Brazil's barren central plateau, a new city emerged. And wow, what a city!
 
     With Costa's logical plan and Niemeyer's distinctive buildings, Brasília is now considered a definitive example of 20th century modernist urban planning, and the city received UNESCO World Heritage status in 1987.
 - format: jpg
@@ -171,7 +169,7 @@ slides:
     Built around the car, distances between different buildings are great, and everything feels disconnected. Things make sense in isolation, but they don't quite work when put together.
 - format: png
   notes: |
-    With brings us to the patterns we use.
+    Which brings us to the patterns we use.
 
     Brad Frost's [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) is a popular model for thinking about the construction of UI. To his credit, he takes into account templates and pages -- the end product which an organisation is ultimately looking to have delivered.
 

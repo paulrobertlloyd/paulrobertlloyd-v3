@@ -180,7 +180,7 @@ slides:
   notes: |
     Stuart Frisby, Booking.com's Director of Design, [speaking at Leading Design conference last year](https://vimeo.com/243670568), talked about how he joined an engineering-led company heavily invested in A/B testing. Rather than question if this was the right approach, he saw this as a means of measuring the value his team could provide to the company.
 
-    At [an earlier talk he gave in 2015](https://www.youtube.com/watch?v=VQpQ0YHSfqM), he talked about how and why booking.com uses A/B testing...
+    At [an earlier talk he gave in 2015](https://www.youtube.com/video/VQpQ0YHSfqM), he talked about how and why booking.com uses A/B testing...
 - format: jpg
   notes: |
     > One of the core principles and core cultures of our organisation is that we want to be very customer focused, and **A/B testing is really a way for us to institutionalise that customer focus in a way that makes it very difficult for us to be anything else**. All of the features that we deliver are designed, developed and tested in order to validate that they are already better than what we have for customers.
