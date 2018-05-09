@@ -11,7 +11,7 @@ tags:
 ---
 Yesterday I submitted a change to [LiquidJS][1], an open source project that aims to port the popular Ruby-based [Liquid][2] templating language to Javascript. That my pull request involved [updating a regular expression][3] begs the question: what the hell have I become?!
 
-To seasoned observers, I [_just_][4] updated the parameters of a regular expression, and added a few tests. Nothing ground breaking. And yet just a few years ago, this would have seemed impossible.
+To seasoned observers, I [_just_][4] updated the parameters of a regular expression, and added a few tests. Nothing ground breaking. And yet a few years ago, this would have seemed impossible.
 
 Upon discovering a discrepancy between LiquidJS and the original Ruby implementation (the `strip_html` filter wasn't removing HTML tags containing attributes), I knew where to look and what to look for. I knew how to fork the repository, and how to clone it to my computer. I instinctively knew that the first thing I should do is type `npm install` in my terminal. I broadly understood how the two regular expressions differed, and with the help of [regex101][5], was able to test my change before committing it to code. I knew how Mocha tests worked, and what I should add in order to maintain test coverage. A small change maybe, but one built upon years of frustration, trial and error, and a begrudging understanding of this most foreign of languages.
 
