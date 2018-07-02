@@ -117,18 +117,15 @@
     font-weight: 700;
   }
 
-  *:not(hr) + h3 {
+  *:not(hr) + h3,
+  * + table,
+  * + figure {
     margin-top: $--space-large;
   }
 
   h4 {
     margin-bottom: 0;
     font-weight: 700;
-  }
-
-  * + table,
-  * + figure {
-    margin-top: $--space-xlarge;
   }
 
   hr {
