@@ -31,7 +31,7 @@ In [Subverted Design][4], Joel Califa wonders if corporate designers -- a distin
 >
 > With that choice, project goals became increasingly centered around company needs rather than user needs. Our language changed to better communicate with stakeholders. Words like "polish" and "value" gave way to "adoption" or "engagement" or "platform cohesion." It's laughably easy to rationalize that these things are good for users too.
 
-I found Joel's insight fascinating. While it doesn't answer my question about why people choose to join these companies, it goes someway to explain what can happen once they've arrived.
+I found Joel's insight fascinating. While it doesn't answer my question about why people choose to join these companies, it goes someway to explain what can happen once they arrive.
 
 Since using their website had a visceral effect on my heart rate, 'Booking.com' has become another of my trigger words. Jeremy wonders if A/B testing has become so institutionalised, that [its designers now confuse customer satisfaction with conversion rates][5]:
 
