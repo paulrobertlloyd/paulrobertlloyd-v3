@@ -15,7 +15,7 @@ tags:
   class="u-bleed"
 %}
 
-Under Consideration's [_Brand New_][1] is a blog that critiques corporate and brand identity work. Over the years that I've been reading its reviews, I've noticed that the work I tend to appreciate the most is that which seeks to refine an existing identity rather than reinvent it wholesale. While a logo may still receive a few nips and tucks, much of the work is instead focused on updating the accompanying design language, weeding out those areas where inconsistencies have crept in. Here are a few recent examples:
+Under Consideration's [_Brand New_][1] is a blog that critiques corporate and brand identity work. Over the years that I've been reading its reviews, I've noticed that the work I tend to appreciate most is that which seeks to refine an existing identity rather than reinvent it wholesale. While a logo may still receive a few nips and tucks, much of the work is instead focused on updating the accompanying design language, weeding out those areas where inconsistencies have crept in. Here are a few recent examples:
 
 * On the occasion of the 100th anniversary of its crane symbol, [Lufthansa undertook the subtlest of brand refinements][2]. Alongside a tweak to this symbol and review of its type system, emphasis would now be given to a darker and more elegant blue, with its distinctive yellow demoted to that of a more functional accent.
 
@@ -35,7 +35,7 @@ I wish more designers would take such a selfless approach. While I could spend h
   class="u-bleed"
 %}
 
-Possibly inappropriate, undoubtedly nonconformist and certifiably bonkers, part of me wishes I could dream up something as loose and unrestrained. This project confirms my suspicion that objectively, good design is about a consistency of execution, and somewhere within the madness of this identity, there is an element of coherence. Similarly, maintaining a level of consistency is the reason why many established and trusted organisations will opt to refine rather than replace.
+Possibly inappropriate, undoubtedly nonconformist and certifiably bonkers, part of me wishes I could dream up something as loose and unrestrained. This project confirms my suspicion that objectively, good design is about a consistency of execution, and somewhere within the madness of this identity, there is an element of coherence. Similarly, maintaining a level of consistency is the reason why many established and trusted organisations will opt to refine rather than replace their identities.
 
 [1]: https://www.underconsideration.com/brandnew/
 [2]: https://www.underconsideration.com/brandnew/archives/new_logo_identity_and_livery_for_lufthansa_done_in_house.php
