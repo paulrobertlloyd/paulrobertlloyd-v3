@@ -23,7 +23,7 @@ Under Consideration's [_Brand New_][1] is a blog that critiques corporate and br
 
 * [Pentagram's identity refresh for American Express][4] again saw practically indistinguishable logo tweaks, but they also introduced a shorthand version to be used in situations where space is at a premium.
 
-* When [North was asked to review Tate’s visual identity][5], rather than replace the dynamic logo designed by Wolff Olins in 2000, they instead they opted to refocus and refine it:
+* When [North was asked to review Tate’s visual identity][5], rather than replace the dynamic logo designed by Wolff Olins in 2000, they instead opted to refocus and refine it:
 
   > For us to propose getting rid of the identity system entirely would be irresponsible and a selfish act as designers. Instead, we built on the existing brand equity, refreshed and strengthened what was working well.
 
@@ -35,7 +35,7 @@ I wish more designers would take such a selfless approach. While I could spend h
   class="u-bleed"
 %}
 
-Possibly inappropriate, undoubtedly nonconformist and certifiably bonkers, part of me wishes I could dream up something as loose and unrestrained. This project confirms my suspicion that objectively, good design is about a consistency of execution, and somewhere within the madness of this identity, there is an element of coherence. Similarly, maintaining a level of consistency is the reason why many established and trusted organisations will opt to refine rather than replace their identities.
+Possibly inappropriate, undoubtedly nonconformist and certifiably bonkers, part of me wishes I could dream up something as loose and unrestrained. This project confirms my suspicion that objectively, good design is about a consistency of execution, and somewhere within the madness of this identity, there is an element of coherence. Similarly, maintaining a degree of consistency is the reason why many established and trusted organisations will choose to refine their identities rather than replace them.
 
 [1]: https://www.underconsideration.com/brandnew/
 [2]: https://www.underconsideration.com/brandnew/archives/new_logo_identity_and_livery_for_lufthansa_done_in_house.php
