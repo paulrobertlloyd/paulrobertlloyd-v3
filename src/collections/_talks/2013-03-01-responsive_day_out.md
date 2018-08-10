@@ -1,6 +1,6 @@
 ---
 title: The Edge of the Web
-date: 2013-03-01T16:00:00+0100
+date: 2013-03-01T16:00:00+01:00
 location: Brighton, England
 event: Responsive Day Out
 excerpt: Video and resources from my presentation at Responsive Day Out

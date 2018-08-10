@@ -1,6 +1,6 @@
 ---
 title: Brands Renewed
-date: 2018-07-21T21:30:00+0100
+date: 2018-07-21T21:30:00+01:00
 location: Brighton, England
 excerpt: An appreciation for identity programmes that seek to refine rather than reinvent.
 images:

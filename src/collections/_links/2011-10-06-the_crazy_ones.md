@@ -1,6 +1,6 @@
 ---
 title: The Crazy Ones
-date: 2011-10-06T20:32:05+0100
+date: 2011-10-06T20:32:05+01:00
 link: https://www.youtube.com/video/8rwsuXHA7RA
 embed: true
 tags:

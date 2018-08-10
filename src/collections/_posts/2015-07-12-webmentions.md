@@ -1,6 +1,6 @@
 ---
 title: 'At Indie Web Camp, Playing With Webmentions'
-date: 2015-07-12T12:22:00+0100
+date: 2015-07-12T12:22:00+01:00
 location: Brighton, England
 excerpt: 'I''m attending my second Indie Web Camp this weekend, with the sole aim of implementing webmentions. This has meant prematurely launching my new Jekyll-based website. That this has been in development since last February, many would say this moment is long overdue.'
 tags:

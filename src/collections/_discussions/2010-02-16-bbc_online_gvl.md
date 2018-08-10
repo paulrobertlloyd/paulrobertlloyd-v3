@@ -67,7 +67,7 @@ remarks:
 
 - author: whatweretheythinking
   gravatar: 4cc96b2e68d5744607b77bf5709ad4c7
-  date: 2010-07-19T17:48:03+0100
+  date: 2010-07-19T17:48:03+01:00
   content: |
     I think given the number of comments on the Editors Blog for the BBC news website that the implementation of GVL3 for the news site has been a disastrous fail.
 ---

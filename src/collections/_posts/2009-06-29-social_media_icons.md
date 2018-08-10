@@ -1,6 +1,6 @@
 ---
 title: Social Media Icons
-date: 2009-06-29T00:18:09+0100
+date: 2009-06-29T00:18:09+01:00
 excerpt: A set of standardised icons for popular social networking services and tools.
 tags:
 - Projects

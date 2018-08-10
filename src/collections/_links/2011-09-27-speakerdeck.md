@@ -1,6 +1,6 @@
 ---
 title: Speaker Deck
-date: 2011-09-27T00:17:32+0100
+date: 2011-09-27T00:17:32+01:00
 link: http://speakerdeck.com/
 tags:
 - Social Media

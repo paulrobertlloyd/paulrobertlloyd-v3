@@ -1,7 +1,7 @@
 ---
 layout: presentation
 title: 'Keep Up!'
-date: 2013-07-31T16:00:00+0100
+date: 2013-07-31T16:00:00+01:00
 location: London, England
 event: Aquent Gymnasium UK Launch
 excerpt: Slides and referenced transcript from my presentation at the launch of Aquent Gymnasium

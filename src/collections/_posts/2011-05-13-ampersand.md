@@ -1,6 +1,6 @@
 ---
 title: Ampersand & More
-date: 2011-05-13T23:37:48+0100
+date: 2011-05-13T23:37:48+01:00
 location: Brighton, England
 excerpt: Much of the excitement has come in the form of web conferences, and looking back, I find it surprising just how many I've attended this year already.
 tags:

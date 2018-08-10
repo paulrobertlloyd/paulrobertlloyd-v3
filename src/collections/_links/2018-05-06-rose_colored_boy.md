@@ -1,6 +1,6 @@
 ---
 title: Paramore - Hard Times
-date: 2018-05-06T23:20:00+0100
+date: 2018-05-06T23:20:00+01:00
 link: https://www.youtube.com/video/AEB6ibtdPZc
 embed: true
 tags:

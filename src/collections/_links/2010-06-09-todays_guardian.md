@@ -1,6 +1,6 @@
 ---
 title: Today's Guardian
-date: 2010-06-09T10:24:00+0100
+date: 2010-06-09T10:24:00+01:00
 link: http://guardian.gyford.com/
 tags:
 - The Guardian

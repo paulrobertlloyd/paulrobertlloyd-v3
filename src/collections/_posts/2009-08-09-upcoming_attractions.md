@@ -1,6 +1,6 @@
 ---
 title: Upcoming Attractions
-date: 2009-08-09T18:33:56+0100
+date: 2009-08-09T18:33:56+01:00
 location: Littlehampton, England
 excerpt: As Summer hurtles towards it's conclusion (and let's assume for a second that it actually started) so the anticipation for two very special geeky events can begin.
 tags:

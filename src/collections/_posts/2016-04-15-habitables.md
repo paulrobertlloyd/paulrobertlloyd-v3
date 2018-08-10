@@ -1,6 +1,6 @@
 ---
 title: 'Habitables'
-date: 2016-04-15T16:10:00+0100
+date: 2016-04-15T16:10:00+01:00
 location: Brighton, England
 excerpt: 'Having lived in my current flat for just over two years, I''m determined for this to be the year I finally make it feel like a home.'
 images:

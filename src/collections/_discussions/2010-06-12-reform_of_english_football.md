@@ -3,7 +3,7 @@ title: Winning the World Cup Would Be the Worst Thing to Happen to English Footb
 remarks:
 - author: Cole Henley
   gravatar: 0112d423655aac265caae4e73f587e81
-  date: 2010-06-28T10:20:33+0100
+  date: 2010-06-28T10:20:33+01:00
   url: http://cole007.net
   content: |
     Wholeheartedly agree with you Paul (though with the caveat that I haven't supported England at international level since Mexico '86).

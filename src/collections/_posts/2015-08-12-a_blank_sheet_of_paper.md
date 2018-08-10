@@ -1,6 +1,6 @@
 ---
 title: 'A Blank Sheet of Paper'
-date: 2015-08-12T01:19:00+0100
+date: 2015-08-12T01:19:00+01:00
 location: Brighton, England
 excerpt: 'Though memories of my time at university grow ever murkier, one incident still stands out.'
 tags:

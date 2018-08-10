@@ -1,6 +1,6 @@
 ---
 title: Stay Hungry. Stay Foolish.
-date: 2011-10-06T20:44:26+0100
+date: 2011-10-06T20:44:26+01:00
 link: https://www.youtube.com/video/UF8uR6Z6KLc
 embed: true
 tags:

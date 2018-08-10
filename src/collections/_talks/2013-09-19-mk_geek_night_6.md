@@ -1,7 +1,7 @@
 ---
 layout: presentation
 title: Fear, Uncertainty and Doubt
-date: 2013-09-19T20:30:00+0100
+date: 2013-09-19T20:30:00+01:00
 location: Milton Keynes, England
 event: 'MK Geek Night #6'
 excerpt: Slides and referenced transcript from my presentation at MK Geek Night

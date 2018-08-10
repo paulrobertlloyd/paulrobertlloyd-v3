@@ -1,6 +1,6 @@
 ---
 title: 'The Multipack Presents: Being Green'
-date: 2009-04-15T01:34:34+0100
+date: 2009-04-15T01:34:34+01:00
 location: Littlehampton, England
 excerpt: After the success of the first 'Multipack Presents' event in February, so we return to the plush offices of One Black Bear to learn how the web can help us become eco-friendly citizens.
 tags:

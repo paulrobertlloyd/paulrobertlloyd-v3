@@ -1,6 +1,6 @@
 ---
 title: Getting to Grips with JavaScript
-date: 2018-05-09T17:00:00+0100
+date: 2018-05-09T17:00:00+01:00
 location: Brighton, England
 excerpt: My relationship with JavaScript? It's complicated.
 tags:

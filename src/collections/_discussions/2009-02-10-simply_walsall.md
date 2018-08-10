@@ -16,13 +16,13 @@ remarks:
 
 - author: Kevin Williams
   gravatar: 996d54605dc5e5bc363e4f6b1c47c912
-  date: 2009-06-15T16:03:33+0100
+  date: 2009-06-15T16:03:33+01:00
   content: |
     The re-working of the Walsall Council logo was the work of my graphics team in the in-house Walsall Council Print and Design Unit. We branded the council back in 2004 and continue to manage the brand development. Thanks for your kind comments.
 
 - author: Dan Slee
   gravatar: 7e0d02aacec44f4c7b8691f938dec78d
-  date: 2009-06-15T16:40:41+0100
+  date: 2009-06-15T16:40:41+01:00
   url: http://www.walsall.gov.uk
   content: |
     Thanks for the positive feedback (although I'm not quite sure about the Womble reference, Angie!).
