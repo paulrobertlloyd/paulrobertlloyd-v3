@@ -4,7 +4,7 @@ date: 2018-09-12T17:00:00+01:00
 location: Brighton, England
 excerpt: Another identity from the offices of Pentagram that elicits a feeling that lies somewhere between despair and indifference.
 images:
-- 2018/09/john_lewis_partnership_rebrand/logo.png
+- 2018/09/john_lewis_partnership_rebrand_logos.png
 tags:
 - design
 - brand_identity
