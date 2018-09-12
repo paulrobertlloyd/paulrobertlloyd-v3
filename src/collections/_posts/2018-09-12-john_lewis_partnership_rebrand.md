@@ -9,17 +9,17 @@ tags:
 - design
 - brand_identity
 ---
-Last week the John Lewis Partnership [rebranded John Lewis and Waitrose][1], with each chain now suffixed by '& Partners' to emphasise the organisation's ownership model. Unbeknown to me at the time, this was another identity from the offices of Pentagram to elicit an assured 'meh'. Now, with [more information available about the project][2], and the work still bugging me, I turn the [annoyance meter][3] to 'writing a blog post' and try to explore what's wrong.
+Last week the John Lewis Partnership unveiled [a new look for John Lewis and Waitrose][1], with the name of each chain to now be suffixed by '& Partners’, emphasising the organisation's ownership model. Underwhelmed but what I initially saw, unbeknown to me at the time, this was another identity from a team at Pentagram to elicit an assured 'meh'. Now, with [more information available about the project][2], I shall turn the [annoyance meter][3] to 'writing a blog post' and explore what I dislike about it.
 
 {% include figure.html
-  caption="New logos and ‘brandlines’ for John Lewis, Waitrose and the Partnership. Image: [Pentagram](https://www.pentagram.com/work/the-john-lewis-partnership/story)"
+  caption="New logos and 'brandlines' for John Lewis, Waitrose and the Partnership. Image: [Pentagram](https://www.pentagram.com/work/the-john-lewis-partnership/story)"
   src="2018/09/john_lewis_partnership_rebrand_logos.png"
   class="u-bleed"
 %}
 
-Firstly, the naming strategy. Including 'Partners' in the store names seems like a smart move, although I wonder if this was backed up by research suggesting consumers are unaware that these stores are employee-owned. However, people will still refer to the stores by their shorthand, and adding additional words to the logo makes them less readable when reduced to smaller sizes. Given that on the day the rebrand was annonced, it was discovered that [270 jobs were being cut][4], with more staff likely to be outsourced, the brand starts to attain a degree of hypocrisy.
+Firstly, the naming strategy. Including 'Partners' in the store names seems like a smart move, although I wonder if this was backed up by research suggesting consumers are unaware that these stores are employee-owned. However, people will still refer to the stores by their shorthand, and adding additional words to the logo makes them less readable when reduced to smaller sizes. Given that on the day the rebrand was announced, it was discovered that [270 jobs were being cut][4], with more staff likely to be outsourced, the brand starts to attain a degree of hypocrisy.
 
-Looking at the logos, I despair. Previously, each chain used a customised version of Gill Sans, with ascenders featuring angled cutoffs. The effect was to create something that felt familiar, but unique; timeless, yet modern. Retaining Gill Sans but rending the new names in uppercase is route one stuff; wholly unoriginal, and only serves to reduce their readability further. And when every other department store has slavishly adaopted a monochrome colour palette, John Lewis sheds it's dark green and follows suit. Never has an industry been so mundane in its collective approach to brand identity.
+Looking at the logos, I despair. Previously, each chain used a customised version of Gill Sans, with ascenders featuring angled cutoffs. The effect was to create something that felt familiar, but unique; timeless, yet modern. Retaining Gill Sans but rending the new names in uppercase is route one stuff; wholly unoriginal, and only serves to reduce their readability further. And when every other department store has slavishly adopted a monochrome colour palette, John Lewis sheds it's dark green and follows suit. Never has an industry been so mundane in its collective approach to brand identity.
 
 {% include figure-embed.html
   caption="The ‘brandlines’ were inspired by a Peter Hatch pattern created for the John Lewis Partnership in the 1960s."
