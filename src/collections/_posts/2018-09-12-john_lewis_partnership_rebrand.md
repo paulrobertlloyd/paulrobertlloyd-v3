@@ -29,7 +29,7 @@ Looking at the logos, I despair. Previously, each chain used a customised versio
 
 Lloyd Northover's [diagonal motif][5] -- which always intrigued me whenever I saw it -- has been replaced by a new 'Brandlines' concept. These lines are inspired not by [Spin's idents for Channel 4][6] (1999-2004), but by the lively diamond pattern Peter Hatch created for the Partnership in the 1960s. This pattern remains engaging sixty years later, yet when turned into a series of vertical bars, the relationship is lost. Rather than enliven, these insipid lines suck the life out of everything they touch, not least the logos where they are used as holding shapes.
 
-It's easy to critique without context of course, and the more I look at this work the more it grows on me, but on the whole I remain underwhelmed. Retaining Gill Sans and much of the previous colour palette means the ensuing brand is a fitting continuation of John Lewis's rich brand history. But perhaps Pentagram could have served its partners better by retaining more aspects from its recent history, [refining what already existed][7] rather than adding more to the canon.
+It's easy to critique without context of course, and the more I look at this work the more it grows on me. Retaining Gill Sans and much of the previous colour palette means the ensuing brand is a fitting continuation of John Lewis's rich brand history. But perhaps its partners would have better served  had Pentagram retained aspects from the company's more recent history, [refining what already existed][7] rather than adding more to the canon.
 
 [1]: https://www.pentagram.com/work/the-john-lewis-partnership/story
 [2]: https://www.itsnicethat.com/features/pentagram-harry-pearce-the-john-lewis-partnership-redesign-graphic-design-050918
