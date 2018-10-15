@@ -11,6 +11,7 @@ tag:
 - Travel
 - Brasilia
 - Brazil
+discussion: closed
 ---
 {% include figure.html
   caption="The Brasília Palace Hotel"
