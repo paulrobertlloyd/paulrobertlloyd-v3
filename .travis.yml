@@ -24,3 +24,5 @@ deploy:
   script: './bin/deploy'
   on:
     branch: master
+after_success:
+- curl -d "url=https%3A%2F%2Fpaulrobertlloyd.com%2Ffeed.json" https://micro.blog/ping
