@@ -88,4 +88,4 @@ paulrobertlloyd.com
 └── README.md          # This file
 ```
 
-© 2009 [Paul Robert Lloyd](https://paulrobertlloyd.com)
+© [Paul Robert Lloyd](https://paulrobertlloyd.com)
