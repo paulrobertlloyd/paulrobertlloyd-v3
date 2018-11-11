@@ -1,0 +1,129 @@
+# Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'self'; img-src 'self' *.4sqi.net *.gravatar.com *.mapbox.com i.ytimg.com i.vimeocdn.com paulrobertlloyd.imgix.net raw.githubusercontent.com data:"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+[[headers]]
+  for = "/*.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"
+
+# Custom 404
+[[redirects]]
+  for = "/*"
+  to = "/error/404"
+  status = 404
+
+# Redirect legacy URLs
+[[redirects]]
+  from = "/articles/dissertation/*"
+  to = "/articles/2002/06/dissertation"
+
+[[redirects]]
+  from = "/articles/early_graphic_design_in_television/*"
+  to = "/articles/1999/03/early_graphic_design_in_television"
+
+[[redirects]]
+  from = "/articles/fcplc/*"
+  to = "/articles/2002/05/fcplc"
+
+[[redirects]]
+  from = "/2010/12/styleguides_for_the_web"
+  to = "/talks/2010/11/multipack_presents"
+
+[[redirects]]
+  from = "/talks/apa_digital_breakfast_march_2011"
+  to = "/events/2011/03/apa_digital_breakfast"
+
+[[redirects]]
+  from = "/talks/responsive_day_out"
+  to = "/events/2013/03/responsive_day_out"
+
+[[redirects]]
+  from = "/2011/03/web_native"
+  to = "/talks/2011/03/apa_digital_breakfast"
+
+# Legacy feed URLs
+[[redirects]]
+  from = "/feeds"
+  to = "/feed.xml"
+
+[[redirects]]
+  from = "/feed"
+  to = "/feed.xml"
+
+[[redirects]]
+  from = "/journal/feed.xml"
+  to = "/feed.xml"
+
+[[redirects]]
+  from = "/journal/feed.json"
+  to = "/feed.json"
+
+# Redirect journal URLs
+[[redirects]]
+  from = "/journal/"
+  query = {page = ":page"}
+  to = "/journal/page/:page"
+  status = 200
+
+# Redirect link URLs
+[[redirects]]
+  from = "/links/"
+  query = {page = ":page"}
+  to = "/links/page/:page"
+  status = 200
+
+[[redirects]]
+  from = "/links/:year/:month/"
+  to = "/:year/:month/"
+
+[[redirects]]
+  from = "/links/:year/"
+  to = "/:year/"
+
+# Redirect note URLs
+[[redirects]]
+  from = "/notes/"
+  query = {page = ":page"}
+  to = "/notes/page/:page"
+  status = 200
+
+# Redirect talk URLs
+[[redirects]]
+  from = "/talks/:year/:month/"
+  to = "/:year/:month/"
+
+[[redirects]]
+  from = "/talks/:year/"
+  to = "/:year/"
