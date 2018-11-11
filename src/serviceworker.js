@@ -35,7 +35,7 @@
           '{% asset offline.svg @path %}',
           '{% asset icon.svg @path %}',
           '{% asset icon.png @path %}',
-          '/error/offline',
+          '/offline',
           '/about/',
           '/'
         ]);
@@ -115,7 +115,7 @@
       event.respondWith(
         fetch(request)
         .catch(function () {
-          return caches.match('/error/offline');
+          return caches.match('/offline');
         })
       );
       return;
@@ -148,7 +148,7 @@
             // CACHE or FALLBACK
             return caches.match(request)
               .then(function (response) {
-                return response || caches.match('/error/offline');
+                return response || caches.match('/offline');
               });
           })
         );
