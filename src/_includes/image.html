@@ -3,6 +3,8 @@
 {%- else -%}
   {%- assign preset = site.images.default -%}
 {%- endif -%}
+{%- comment -%}
+Prior to archiving on Netlify, production site used nginx to reszie images
 {%- if jekyll.environment == "production" -%}
   {%- unless include.src contains ".svg" -%}
 <img src="{{ site.url }}/image/{{ preset.sources[0].width }}x{{ preset.sources[0].height }}/{{ preset.sources[0].quality }}q/{{ include.src }}" srcset="{% for source in preset.sources %}{{ site.url }}/image/{{ source.width }}x{{ source.height }}/{{ source.quality }}q/{{ include.src }} {{ source.width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"{% if preset.sizes %} sizes="{{ preset.sizes }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
@@ -12,3 +14,5 @@
 {%- else -%}
 <img src="/images/{{ include.src }}" {% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>
 {%- endif -%}
+{%- endcomment -%}
+<img src="/images/{{ include.src }}" {% if include.class %} class="{{ include.class }}"{% endif %} alt="{{ include.alt }}"/>

@@ -30,7 +30,7 @@ This project makes use of third-party libraries, included as git submodules. To 
 
 To run with HTTPS locally on macOS first [follow the setup steps described here](https://gist.github.com/jed/6147872). To create the required SSL certificates, follow these steps:
 
-1. Change into the correct directory: `cd src`
+1. Change into the correct directory: `cd etc/nginx`
 2. Create the certificate files:
 
   ```
@@ -43,11 +43,11 @@ To run with HTTPS locally on macOS first [follow the setup steps described here]
     -x509 \
     -keyout test.key \
     -out test.crt \
-    -subj /CN=paulrobertlloyd.test \
+    -subj /CN=v3.paulrobertlloyd.test \
     -reqexts SAN \
     -extensions SAN \
     -config <(cat /System/Library/OpenSSL/openssl.cnf \
-      <(printf '[SAN]\nsubjectAltName=DNS:paulrobertlloyd.test'))
+      <(printf '[SAN]\nsubjectAltName=DNS:v3.paulrobertlloyd.test'))
   ```
 
 ## Deployment
