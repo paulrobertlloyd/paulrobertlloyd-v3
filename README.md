@@ -62,7 +62,7 @@ This site is deployed automatically by Travis whenever files are pushed to `mast
 
 ```
 v3.paulrobertlloyd.com
-├── bin                # Scripts
+├── bin                # SHELL SCRIPTS
 │   ├── build          # Generate files and save them to destination
 │   ├── cibuild        # Generate files and save them to destination (CI)
 │   ├── deploy         # Sync generated with remote server
