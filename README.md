@@ -1,6 +1,6 @@
-# paulrobertlloyd.com
+# v3.paulrobertlloyd.com
 
-*My personal website. There are many like it, but this is mine.*
+*My personal website. There are many like it, but this was mine (2015-2018).*
 
 ## Requirements
 
@@ -61,7 +61,7 @@ This site is deployed automatically by Travis whenever files are pushed to `mast
 ## Repo structure
 
 ```
-paulrobertlloyd.com
+v3.paulrobertlloyd.com
 ├── bin                # Scripts
 │   ├── build          # Generate files and save them to destination
 │   ├── cibuild        # Generate files and save them to destination (CI)
